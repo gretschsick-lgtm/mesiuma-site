@@ -16,219 +16,55 @@ type EventType = {
 
 export default function Page() {
   const [events, setEvents] = useState<EventType[]>([]);
-  const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
     fetch("/events_public.json")
       .then((res) => res.json())
-      .then((data) => {
-        setEvents(data.events || []);
-        setLoading(false);
-      })
-      .catch(() => {
-        setLoading(false);
-      });
+      .then((data) => setEvents(data.events || []));
   }, []);
 
   const filtered = events.filter((e) => {
     const s = search.toLowerCase();
-
     return (
       e.store?.toLowerCase().includes(s) ||
       e.area?.toLowerCase().includes(s) ||
+      e.pref?.toLowerCase().includes(s) ||
       e.cast?.toLowerCase().includes(s)
     );
   });
 
   return (
-    <main
-      style={{
-        background: "#0b0b0b",
-        minHeight: "100vh",
-        color: "#fff",
-        fontFamily: "sans-serif",
-      }}
-    >
-      {/* HEADER */}
-      <div
-        style={{
-          borderBottom: "1px solid #222",
-          padding: "24px",
-          position: "sticky",
-          top: 0,
-          background: "#0b0b0bdd",
-          backdropFilter: "blur(10px)",
-          zIndex: 100,
-        }}
-      >
-        <h1
-          style={{
-            fontSize: "42px",
-            fontWeight: "bold",
-            color: "#ff7b00",
-            marginBottom: "10px",
-          }}
-        >
-          メシウマ稼働株式会社
-        </h1>
-
-        <p
-          style={{
-            color: "#999",
-            marginBottom: "20px",
-          }}
-        >
-          〜 メシマズなくしてメシウマなし 〜
-        </p>
-
+    <main style={{ minHeight: "100vh", background: "#0b0b0b", color: "#fff", fontFamily: "sans-serif" }}>
+      <header style={{ padding: 24, borderBottom: "1px solid #222", position: "sticky", top: 0, background: "#0b0b0bee", zIndex: 10 }}>
+        <h1 style={{ color: "#ff7b00", fontSize: 36, fontWeight: 900 }}>メシウマ稼働株式会社</h1>
+        <p style={{ color: "#aaa", marginBottom: 16 }}>〜 メシマズなくしてメシウマなし 〜</p>
         <input
-          placeholder="店舗名・地域・演者名で検索"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          style={{
-            width: "100%",
-            maxWidth: "500px",
-            padding: "14px",
-            borderRadius: "10px",
-            border: "1px solid #333",
-            background: "#151515",
-            color: "#fff",
-            fontSize: "16px",
-          }}
+          placeholder="店舗名・地域・演者名で検索"
+          style={{ width: "100%", maxWidth: 520, padding: 14, background: "#151515", color: "#fff", border: "1px solid #333", borderRadius: 10 }}
         />
-      </div>
+        <p style={{ color: "#888", marginTop: 10 }}>掲載件数：{filtered.length}件</p>
+      </header>
 
-      {/* CONTENT */}
-      <div
-        style={{
-          padding: "30px",
-          maxWidth: "1400px",
-          margin: "0 auto",
-        }}
-      >
-        {loading ? (
-          <div
-            style={{
-              textAlign: "center",
-              padding: "80px",
-              color: "#888",
-            }}
-          >
-            読み込み中...
+      <section style={{ padding: 24, display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(300px,1fr))", gap: 16 }}>
+        {filtered.map((ev) => (
+          <div key={ev.id} style={{ background: "#151515", border: "1px solid #292929", borderRadius: 16, padding: 18 }}>
+            <div style={{ color: "#ff7b00", fontWeight: 700 }}>{ev.area || ev.pref}</div>
+            <h2 style={{ fontSize: 22, margin: "8px 0" }}>{ev.store}</h2>
+            <p style={{ color: "#aaa" }}>{ev.date}</p>
+            <p style={{ fontSize: 17, fontWeight: 700 }}>🔥 {ev.event}</p>
+            <p style={{ color: "#ccc" }}>{ev.detail}</p>
+            {ev.cast && <p style={{ color: "#ffd27a" }}>👤 {ev.cast}</p>}
+            {ev.x_url && (
+              <a href={ev.x_url} target="_blank" style={{ display: "inline-block", marginTop: 10, padding: "9px 14px", background: "#ff7b00", color: "#fff", borderRadius: 10, textDecoration: "none", fontWeight: 700 }}>
+                店舗Xを見る
+              </a>
+            )}
           </div>
-        ) : filtered.length === 0 ? (
-          <div
-            style={{
-              textAlign: "center",
-              padding: "80px",
-              color: "#888",
-            }}
-          >
-            イベントがありません
-          </div>
-        ) : (
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill,minmax(320px,1fr))",
-              gap: "20px",
-            }}
-          >
-            {filtered.map((ev) => (
-              <div
-                key={ev.id}
-                style={{
-                  background: "#151515",
-                  border: "1px solid #262626",
-                  borderRadius: "16px",
-                  padding: "20px",
-                  transition: "0.2s",
-                }}
-              >
-                <div
-                  style={{
-                    color: "#ff7b00",
-                    fontSize: "14px",
-                    marginBottom: "6px",
-                  }}
-                >
-                  {ev.area}
-                </div>
-
-                <div
-                  style={{
-                    fontSize: "24px",
-                    fontWeight: "bold",
-                    marginBottom: "10px",
-                  }}
-                >
-                  {ev.store}
-                </div>
-
-                <div
-                  style={{
-                    color: "#aaa",
-                    marginBottom: "10px",
-                  }}
-                >
-                  {ev.date}
-                </div>
-
-                <div
-                  style={{
-                    fontSize: "18px",
-                    color: "#fff",
-                    marginBottom: "12px",
-                    fontWeight: "bold",
-                  }}
-                >
-                  🔥 {ev.event}
-                </div>
-
-                <div
-                  style={{
-                    color: "#ccc",
-                    marginBottom: "12px",
-                    lineHeight: 1.7,
-                  }}
-                >
-                  {ev.detail}
-                </div>
-
-                {ev.cast && (
-                  <div
-                    style={{
-                      marginBottom: "14px",
-                      color: "#ffd27a",
-                    }}
-                  >
-                    👤 {ev.cast}
-                  </div>
-                )}
-
-                {ev.x_url && (
-                  <a
-                    href={ev.x_url}
-                    target="_blank"
-                    style={{
-                      display: "inline-block",
-                      padding: "10px 16px",
-                      background: "#ff7b00",
-                      color: "#fff",
-                      borderRadius: "10px",
-                      textDecoration: "none",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    店舗Xを見る
-                  </a>
-                )}
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
+        ))}
+      </section>
     </main>
   );
 }
