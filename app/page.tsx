@@ -1,65 +1,234 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useEffect, useState } from "react";
+
+type EventType = {
+  id: number;
+  date: string;
+  store: string;
+  pref: string;
+  area: string;
+  event: string;
+  detail: string;
+  cast?: string;
+  x_url?: string;
+};
+
+export default function Page() {
+  const [events, setEvents] = useState<EventType[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    fetch("/events_public.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setEvents(data.events || []);
+        setLoading(false);
+      })
+      .catch(() => {
+        setLoading(false);
+      });
+  }, []);
+
+  const filtered = events.filter((e) => {
+    const s = search.toLowerCase();
+
+    return (
+      e.store?.toLowerCase().includes(s) ||
+      e.area?.toLowerCase().includes(s) ||
+      e.cast?.toLowerCase().includes(s)
+    );
+  });
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
+    <main
+      style={{
+        background: "#0b0b0b",
+        minHeight: "100vh",
+        color: "#fff",
+        fontFamily: "sans-serif",
+      }}
+    >
+      {/* HEADER */}
+      <div
+        style={{
+          borderBottom: "1px solid #222",
+          padding: "24px",
+          position: "sticky",
+          top: 0,
+          background: "#0b0b0bdd",
+          backdropFilter: "blur(10px)",
+          zIndex: 100,
+        }}
+      >
+        <h1
+          style={{
+            fontSize: "42px",
+            fontWeight: "bold",
+            color: "#ff7b00",
+            marginBottom: "10px",
+          }}
+        >
+          メシウマ稼働株式会社
+        </h1>
+
+        <p
+          style={{
+            color: "#999",
+            marginBottom: "20px",
+          }}
+        >
+          〜 メシマズなくしてメシウマなし 〜
+        </p>
+
+        <input
+          placeholder="店舗名・地域・演者名で検索"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          style={{
+            width: "100%",
+            maxWidth: "500px",
+            padding: "14px",
+            borderRadius: "10px",
+            border: "1px solid #333",
+            background: "#151515",
+            color: "#fff",
+            fontSize: "16px",
+          }}
         />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+      </div>
+
+      {/* CONTENT */}
+      <div
+        style={{
+          padding: "30px",
+          maxWidth: "1400px",
+          margin: "0 auto",
+        }}
+      >
+        {loading ? (
+          <div
+            style={{
+              textAlign: "center",
+              padding: "80px",
+              color: "#888",
+            }}
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            読み込み中...
+          </div>
+        ) : filtered.length === 0 ? (
+          <div
+            style={{
+              textAlign: "center",
+              padding: "80px",
+              color: "#888",
+            }}
           >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+            イベントがありません
+          </div>
+        ) : (
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill,minmax(320px,1fr))",
+              gap: "20px",
+            }}
+          >
+            {filtered.map((ev) => (
+              <div
+                key={ev.id}
+                style={{
+                  background: "#151515",
+                  border: "1px solid #262626",
+                  borderRadius: "16px",
+                  padding: "20px",
+                  transition: "0.2s",
+                }}
+              >
+                <div
+                  style={{
+                    color: "#ff7b00",
+                    fontSize: "14px",
+                    marginBottom: "6px",
+                  }}
+                >
+                  {ev.area}
+                </div>
+
+                <div
+                  style={{
+                    fontSize: "24px",
+                    fontWeight: "bold",
+                    marginBottom: "10px",
+                  }}
+                >
+                  {ev.store}
+                </div>
+
+                <div
+                  style={{
+                    color: "#aaa",
+                    marginBottom: "10px",
+                  }}
+                >
+                  {ev.date}
+                </div>
+
+                <div
+                  style={{
+                    fontSize: "18px",
+                    color: "#fff",
+                    marginBottom: "12px",
+                    fontWeight: "bold",
+                  }}
+                >
+                  🔥 {ev.event}
+                </div>
+
+                <div
+                  style={{
+                    color: "#ccc",
+                    marginBottom: "12px",
+                    lineHeight: 1.7,
+                  }}
+                >
+                  {ev.detail}
+                </div>
+
+                {ev.cast && (
+                  <div
+                    style={{
+                      marginBottom: "14px",
+                      color: "#ffd27a",
+                    }}
+                  >
+                    👤 {ev.cast}
+                  </div>
+                )}
+
+                {ev.x_url && (
+                  <a
+                    href={ev.x_url}
+                    target="_blank"
+                    style={{
+                      display: "inline-block",
+                      padding: "10px 16px",
+                      background: "#ff7b00",
+                      color: "#fff",
+                      borderRadius: "10px",
+                      textDecoration: "none",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    店舗Xを見る
+                  </a>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </main>
   );
 }
