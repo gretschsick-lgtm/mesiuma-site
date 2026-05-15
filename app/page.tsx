@@ -12,6 +12,7 @@ type EventType = {
   detail: string;
   cast?: string;
   x_url?: string;
+  highlight?: boolean;
 };
 
 const CSS = `
@@ -25,8 +26,17 @@ body{background:#0d0800;color:#fff3e0;font-family:Arial,sans-serif}
 .hero p{color:#b98245}
 .search{margin-top:22px;width:100%;max-width:560px;padding:14px;border-radius:12px;border:1px solid #3a1f00;background:#160c00;color:#fff;font-size:16px}
 .status{margin-top:14px;color:#ffb300;font-size:14px}
-.grid{padding:24px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.today-section{padding:24px 24px 0}
+.today-header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.today-title{font-size:20px;font-weight:900;color:#ff8c00}
+.today-badge{background:#ff6a00;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px}
+.today-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:8px}
+.divider{margin:24px 24px 0;border:none;border-top:1px solid #3a1f00}
+.section-label{padding:16px 24px 0;font-size:13px;color:#8a5a2b;font-weight:700;letter-spacing:.05em}
+.grid{padding:16px 24px 24px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
 .card{background:#1a0d00;border:1px solid #3a1f00;border-radius:16px;padding:18px;box-shadow:0 0 20px rgba(255,106,0,.08)}
+.card.today{border-color:#ff6a00;box-shadow:0 0 24px rgba(255,106,0,.22)}
+.card.highlight{border-color:#ffb300;box-shadow:0 0 28px rgba(255,179,0,.28)}
 .area{color:#ff8c00;font-size:13px;font-weight:700}
 .store{font-size:22px;font-weight:900;margin:8px 0;color:#fff}
 .date{color:#9d7147;font-size:13px;margin-bottom:8px}
@@ -35,6 +45,31 @@ body{background:#0d0800;color:#fff3e0;font-family:Arial,sans-serif}
 .cast{color:#ffcf75;margin-top:10px}
 .x{display:inline-block;margin-top:12px;background:#ff6a00;color:#fff;padding:9px 14px;border-radius:10px;text-decoration:none;font-weight:700}
 `;
+
+function todayPrefix() {
+  const now = new Date();
+  const m = String(now.getMonth() + 1).padStart(2, "0");
+  const d = String(now.getDate()).padStart(2, "0");
+  return `${m}/${d}`;
+}
+
+function EventCard({ ev, className = "" }: { ev: EventType; className?: string }) {
+  return (
+    <article className={`card ${className}`} key={ev.id}>
+      <div className="area">{ev.area || ev.pref}</div>
+      <div className="store">{ev.store}</div>
+      <div className="date">{ev.date}</div>
+      <div className="event">🔥 {ev.event}</div>
+      <div className="detail">{ev.detail}</div>
+      {ev.cast && <div className="cast">👤 {ev.cast}</div>}
+      {ev.x_url && (
+        <a className="x" href={ev.x_url} target="_blank">
+          店舗Xを見る
+        </a>
+      )}
+    </article>
+  );
+}
 
 export default function Page() {
   const [events, setEvents] = useState<EventType[]>([]);
@@ -51,6 +86,8 @@ export default function Page() {
       .catch(() => setLoaded(true));
   }, []);
 
+  const prefix = todayPrefix();
+
   const filtered = events.filter((ev) => {
     const s = search.toLowerCase();
     return (
@@ -61,6 +98,9 @@ export default function Page() {
       ev.event?.toLowerCase().includes(s)
     );
   });
+
+  const todayEvents = filtered.filter((ev) => ev.date.startsWith(prefix));
+  const otherEvents = filtered.filter((ev) => !ev.date.startsWith(prefix));
 
   return (
     <>
@@ -87,23 +127,43 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="grid">
-        {filtered.map((ev) => (
-          <article className="card" key={ev.id}>
-            <div className="area">{ev.area || ev.pref}</div>
-            <div className="store">{ev.store}</div>
-            <div className="date">{ev.date}</div>
-            <div className="event">🔥 {ev.event}</div>
-            <div className="detail">{ev.detail}</div>
-            {ev.cast && <div className="cast">👤 {ev.cast}</div>}
-            {ev.x_url && (
-              <a className="x" href={ev.x_url} target="_blank">
-                店舗Xを見る
-              </a>
-            )}
-          </article>
-        ))}
-      </section>
+      {loaded && todayEvents.length > 0 && (
+        <section className="today-section">
+          <div className="today-header">
+            <span className="today-title">📅 本日のイベント</span>
+            <span className="today-badge">{todayEvents.length}件</span>
+          </div>
+          <div className="today-grid">
+            {todayEvents.map((ev) => (
+              <EventCard
+                key={ev.id}
+                ev={ev}
+                className={ev.highlight ? "today highlight" : "today"}
+              />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {loaded && otherEvents.length > 0 && (
+        <>
+          {todayEvents.length > 0 && (
+            <>
+              <hr className="divider" />
+              <div className="section-label">今後のイベント</div>
+            </>
+          )}
+          <section className="grid">
+            {otherEvents.map((ev) => (
+              <EventCard
+                key={ev.id}
+                ev={ev}
+                className={ev.highlight ? "highlight" : ""}
+              />
+            ))}
+          </section>
+        </>
+      )}
     </>
   );
 }
