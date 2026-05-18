@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
@@ -21,6 +21,19 @@ const C = {
   muted: "#888888", dim: "#cccccc",
 };
 
+function renderInline(text: string): React.ReactNode[] {
+  const parts: React.ReactNode[] = [];
+  const re = /\*\*(.+?)\*\*/g;
+  let last = 0, m: RegExpExecArray | null;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    parts.push(<strong key={m.index} style={{ fontWeight: 800, color: C.text }}>{m[1]}</strong>);
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts;
+}
+
 function renderContent(text: string) {
   return text.split("\n").map((line, i) => {
     if (line.startsWith("## ")) return (
@@ -37,8 +50,18 @@ function renderContent(text: string) {
         {line.replace("# ", "")}
       </h1>
     );
-    if (line === "") return <br key={i} />;
-    return <p key={i} style={{ margin: "0 0 12px", lineHeight: 1.85, color: C.sub }}>{line}</p>;
+    if (line.startsWith("- ") || line.startsWith("・")) {
+      const body = line.replace(/^[-・]\s*/, "");
+      return (
+        <div key={i} style={{ display: "flex", gap: 8, margin: "4px 0 4px 8px" }}>
+          <span style={{ color: C.red, fontWeight: 900, flexShrink: 0 }}>▶</span>
+          <p style={{ margin: 0, lineHeight: 1.75, color: C.sub }}>{renderInline(body)}</p>
+        </div>
+      );
+    }
+    if (line === "") return <div key={i} style={{ height: 10 }} />;
+    if (line.startsWith("---")) return <hr key={i} style={{ border: "none", borderTop: `1px solid ${C.border}`, margin: "20px 0" }} />;
+    return <p key={i} style={{ margin: "0 0 12px", lineHeight: 1.85, color: C.sub }}>{renderInline(line)}</p>;
   });
 }
 
@@ -108,6 +131,19 @@ export default function BlogPostPage() {
           {post.title}
         </h1>
         <div style={{ color: C.muted, fontSize: 12, marginBottom: 24 }}>by {post.author}</div>
+
+        {/* 機種画像 */}
+        {post.image && (
+          <div style={{ marginBottom: 24, borderRadius: 10, overflow: "hidden", border: `1px solid ${C.border}`, background: "#f0f0f0", maxHeight: 320, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={post.image}
+              alt={post.title}
+              style={{ width: "100%", maxHeight: 320, objectFit: "contain", display: "block" }}
+              onError={e => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+            />
+          </div>
+        )}
 
         {/* 本文 */}
         <div style={{

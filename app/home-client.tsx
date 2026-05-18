@@ -3,6 +3,7 @@
 import { useEffect, useState, useMemo, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 // ─── X アカウント設定 ──────────────────────────────────────────
 const X_ACCOUNT = "mesiuma77";
@@ -161,41 +162,7 @@ export default function Page() {
     } catch {}
   }, []);
 
-  const xTimelineRef = useRef<HTMLDivElement>(null);
-  const [xLoaded, setXLoaded] = useState(false);
-
-  useEffect(() => {
-    const container = xTimelineRef.current;
-    if (!container) return;
-
-    const inject = () => {
-      const w = window as any;
-      if (w.twttr?.widgets) {
-        w.twttr.widgets.load(container);
-        setXLoaded(true);
-      }
-    };
-
-    const w = window as any;
-    if (w.twttr?.widgets) {
-      inject();
-    } else {
-      const existing = document.getElementById("twitter-wjs");
-      if (!existing) {
-        const s = document.createElement("script");
-        s.id = "twitter-wjs";
-        s.src = "https://platform.twitter.com/widgets.js";
-        s.async = true;
-        s.charset = "utf-8";
-        s.onload = inject;
-        document.head.appendChild(s);
-      } else {
-        const onLoad = () => inject();
-        existing.addEventListener("load", onLoad);
-        return () => existing.removeEventListener("load", onLoad);
-      }
-    }
-  }, []);
+  const [xEmbedFailed, setXEmbedFailed] = useState(false);
 
   useEffect(() => {
     fetch("/events_public.json").then(r=>r.json()).then(d=>{
@@ -917,22 +884,41 @@ export default function Page() {
               𝕏 フォローする
             </a>
           </div>
-          <div ref={xTimelineRef} style={{ border: `1px solid ${C.border}`, borderRadius: 8, overflow: "hidden", minHeight: 200 }}>
-            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-            <a
-              className="twitter-timeline"
-              data-lang="ja"
-              data-theme="light"
-              data-height="520"
-              data-chrome="noheader nofooter noborders transparent"
-              href={`https://twitter.com/${X_ACCOUNT}`}
-              style={{ display: "block" }}
-            >
-              <div style={{ padding: 24, textAlign: "center", color: C.muted, fontSize: 13 }}>
-                𝕏 @{X_ACCOUNT} の投稿を読み込み中...
-              </div>
-            </a>
-          </div>
+          {xEmbedFailed ? (
+            <div style={{ border: `1px solid ${C.border}`, borderRadius: 8, padding: 32, textAlign: "center" }}>
+              <div style={{ color: C.muted, fontSize: 13, marginBottom: 14 }}>タイムラインを読み込めませんでした</div>
+              <a href={`https://x.com/${X_ACCOUNT}`} target="_blank" rel="noopener noreferrer"
+                style={{ background: "#111", color: "#fff", padding: "10px 24px", borderRadius: 6, textDecoration: "none", fontSize: 14, fontWeight: 700, display: "inline-flex", alignItems: "center", gap: 6 }}>
+                𝕏 Xで見る
+              </a>
+            </div>
+          ) : (
+            <div style={{ border: `1px solid ${C.border}`, borderRadius: 8, overflow: "hidden", minHeight: 200 }}>
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+              <a
+                className="twitter-timeline"
+                data-lang="ja"
+                data-theme="light"
+                data-height="520"
+                data-chrome="noheader nofooter noborders transparent"
+                href={`https://twitter.com/${X_ACCOUNT}`}
+              >𝕏 @{X_ACCOUNT} の投稿を読み込み中...</a>
+            </div>
+          )}
+          <Script
+            id="twitter-wjs"
+            src="https://platform.twitter.com/widgets.js"
+            strategy="lazyOnload"
+            onLoad={() => {
+              const w = window as any;
+              if (w.twttr?.widgets) {
+                w.twttr.widgets.load();
+              } else {
+                setXEmbedFailed(true);
+              }
+            }}
+            onError={() => setXEmbedFailed(true)}
+          />
         </div>
       </div>
 
