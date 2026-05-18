@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@mesiuma_kadou",
-    creator: "@mesiuma_kadou",
+    site: "@mesiuma77",
+    creator: "@mesiuma77",
   },
   alternates: {
     canonical: SITE_URL,
@@ -70,7 +70,7 @@ const JSON_LD_ORGANIZATION = {
   url: SITE_URL,
   sameAs: [
     "https://www.youtube.com/@mesiuma_kadou",
-    "https://x.com/mesiuma_kadou",
+    "https://x.com/mesiuma77",
   ],
   description: SITE_DESCRIPTION,
 };

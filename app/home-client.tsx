@@ -1,8 +1,11 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+
+// ─── X アカウント設定 ──────────────────────────────────────────
+const X_ACCOUNT = "mesiuma77";
 
 // ─── 型 ─────────────────────────────────────────────────────
 type Ev = {
@@ -158,6 +161,42 @@ export default function Page() {
     } catch {}
   }, []);
 
+  const xTimelineRef = useRef<HTMLDivElement>(null);
+  const [xLoaded, setXLoaded] = useState(false);
+
+  useEffect(() => {
+    const container = xTimelineRef.current;
+    if (!container) return;
+
+    const inject = () => {
+      const w = window as any;
+      if (w.twttr?.widgets) {
+        w.twttr.widgets.load(container);
+        setXLoaded(true);
+      }
+    };
+
+    const w = window as any;
+    if (w.twttr?.widgets) {
+      inject();
+    } else {
+      const existing = document.getElementById("twitter-wjs");
+      if (!existing) {
+        const s = document.createElement("script");
+        s.id = "twitter-wjs";
+        s.src = "https://platform.twitter.com/widgets.js";
+        s.async = true;
+        s.charset = "utf-8";
+        s.onload = inject;
+        document.head.appendChild(s);
+      } else {
+        const onLoad = () => inject();
+        existing.addEventListener("load", onLoad);
+        return () => existing.removeEventListener("load", onLoad);
+      }
+    }
+  }, []);
+
   useEffect(() => {
     fetch("/events_public.json").then(r=>r.json()).then(d=>{
       const evs: Ev[] = (d.events || []).map((ev: Ev) => ({ ...ev, pref: normalizePref(ev.pref) }));
@@ -236,14 +275,14 @@ export default function Page() {
     const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 14);
     const limitStr = `${String(limit.getMonth()+1).padStart(2,"0")}/${String(limit.getDate()).padStart(2,"0")}`;
     const manualNames = new Set(manualPickups.map(s => s.name));
-    const map = new Map<string, { store: string; pref: string; area: string; date: string; cast: string }>();
+    const map = new Map<string, { store: string; pref: string; area: string; date: string; cast: string; image_url?: string }>();
     events.forEach(ev => {
       if (!isValidStore(ev.store)) return;
       if (!ev.date || ev.date < todayStr || ev.date > limitStr) return;
       if (getEvType(ev) !== "raiten") return;
       if (manualNames.has(ev.store)) return;
       if (!map.has(ev.store)) {
-        map.set(ev.store, { store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast) });
+        map.set(ev.store, { store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
       }
     });
     return Array.from(map.values()).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 10);
@@ -652,7 +691,7 @@ export default function Page() {
               onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.opacity = "0.92"; }}
               onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.opacity = "1"; }}
             >
-              <div style={{ fontSize: 36, flexShrink: 0 }}>🎤</div>
+              <div style={{ fontSize: 36, flexShrink: 0 }}>🎬</div>
               <div style={{ flex: 1, minWidth: 0 }}>
                 <div style={{ fontSize: 17, fontWeight: 900, color: "#fff", marginBottom: 3 }}>
                   社員・演者一覧
@@ -737,7 +776,17 @@ export default function Page() {
                     onMouseEnter={e => { (e.currentTarget as HTMLElement).style.boxShadow = "0 4px 16px rgba(0,0,0,.12)"; }}
                     onMouseLeave={e => { (e.currentTarget as HTMLElement).style.boxShadow = "none"; }}
                   >
-                    <div style={{ width: "100%", height: 72, background: "linear-gradient(135deg, #222, #444)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28 }}>🎤</div>
+                    {s.image_url ? (
+                      <div style={{ width: "100%", height: 72, overflow: "hidden", position: "relative" }}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={s.image_url} alt={s.store} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                      </div>
+                    ) : (
+                      <div style={{ width: "100%", height: 72, background: "linear-gradient(135deg, #b30000 0%, #e60000 50%, #ff4444 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                        <div style={{ fontSize: 18, color: "#fff", lineHeight: 1 }}>📅</div>
+                        <div style={{ fontSize: 9, fontWeight: 900, color: "#fff", letterSpacing: 1, opacity: 0.9 }}>来店イベント</div>
+                      </div>
+                    )}
                     <div style={{ padding: "8px 10px 10px" }}>
                       <div style={{ display: "flex", gap: 4, marginBottom: 5 }}>
                         <span style={{ background: "#e60000", color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 6px", borderRadius: 2 }}>来店</span>
@@ -851,6 +900,38 @@ export default function Page() {
               ))}
             </div>
           )}
+        </div>
+      </div>
+
+      {/* ━━ X タイムライン ━━ */}
+      <div style={{ background: C.white, borderBottom: `1px solid ${C.border}`, marginBottom: 4 }}>
+        <div style={{ maxWidth: 1160, margin: "0 auto", padding: "16px" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+              <div style={{ width: 4, height: 20, background: "#000", borderRadius: 2 }} />
+              <span style={{ fontSize: 15, fontWeight: 800, color: C.text }}>𝕏 最新投稿</span>
+            </div>
+            <a href={`https://x.com/${X_ACCOUNT}`} target="_blank" rel="noopener noreferrer"
+              style={{ background: "#111", color: "#fff", padding: "5px 14px", borderRadius: 5, textDecoration: "none", fontSize: 12, fontWeight: 700, display: "flex", alignItems: "center", gap: 5 }}>
+              𝕏 フォローする
+            </a>
+          </div>
+          <div ref={xTimelineRef} style={{ border: `1px solid ${C.border}`, borderRadius: 8, overflow: "hidden", minHeight: 200 }}>
+            {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+            <a
+              className="twitter-timeline"
+              data-lang="ja"
+              data-theme="light"
+              data-height="520"
+              data-chrome="noheader nofooter noborders transparent"
+              href={`https://twitter.com/${X_ACCOUNT}`}
+              style={{ display: "block" }}
+            >
+              <div style={{ padding: 24, textAlign: "center", color: C.muted, fontSize: 13 }}>
+                𝕏 @{X_ACCOUNT} の投稿を読み込み中...
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 
