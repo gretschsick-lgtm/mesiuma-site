@@ -3,7 +3,6 @@
 import { useEffect, useState, useMemo, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
 
 // ─── X アカウント設定 ──────────────────────────────────────────
 const X_ACCOUNT = "mesiuma77";
@@ -162,7 +161,6 @@ export default function Page() {
     } catch {}
   }, []);
 
-  const [xEmbedFailed, setXEmbedFailed] = useState(false);
 
   useEffect(() => {
     fetch("/events_public.json").then(r=>r.json()).then(d=>{
@@ -871,55 +869,27 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ━━ X タイムライン ━━ */}
-      <div style={{ background: C.white, borderBottom: `1px solid ${C.border}`, marginBottom: 4 }}>
-        <div style={{ maxWidth: 1160, margin: "0 auto", padding: "16px" }}>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 4, height: 20, background: "#000", borderRadius: 2 }} />
-              <span style={{ fontSize: 15, fontWeight: 800, color: C.text }}>𝕏 最新投稿</span>
+      {/* ━━ X バナー ━━ */}
+      <div style={{ background: "#000", borderBottom: `1px solid #222`, marginBottom: 4 }}>
+        <a
+          href={`https://x.com/${X_ACCOUNT}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ display: "block", textDecoration: "none", maxWidth: 1160, margin: "0 auto", padding: "20px 16px" }}
+        >
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 16 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+              <span style={{ fontSize: 32, fontWeight: 900, color: "#fff", lineHeight: 1 }}>𝕏</span>
+              <div>
+                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>@{X_ACCOUNT}</div>
+                <div style={{ color: "#aaa", fontSize: 12, marginTop: 3 }}>最新のイベント情報・稼働実績はXで発信中</div>
+              </div>
             </div>
-            <a href={`https://x.com/${X_ACCOUNT}`} target="_blank" rel="noopener noreferrer"
-              style={{ background: "#111", color: "#fff", padding: "5px 14px", borderRadius: 5, textDecoration: "none", fontSize: 12, fontWeight: 700, display: "flex", alignItems: "center", gap: 5 }}>
-              𝕏 フォローする
-            </a>
+            <div style={{ background: "#fff", color: "#000", padding: "9px 22px", borderRadius: 999, fontWeight: 800, fontSize: 13, whiteSpace: "nowrap", flexShrink: 0 }}>
+              フォローする
+            </div>
           </div>
-          {xEmbedFailed ? (
-            <div style={{ border: `1px solid ${C.border}`, borderRadius: 8, padding: 32, textAlign: "center" }}>
-              <div style={{ color: C.muted, fontSize: 13, marginBottom: 14 }}>タイムラインを読み込めませんでした</div>
-              <a href={`https://x.com/${X_ACCOUNT}`} target="_blank" rel="noopener noreferrer"
-                style={{ background: "#111", color: "#fff", padding: "10px 24px", borderRadius: 6, textDecoration: "none", fontSize: 14, fontWeight: 700, display: "inline-flex", alignItems: "center", gap: 6 }}>
-                𝕏 Xで見る
-              </a>
-            </div>
-          ) : (
-            <div style={{ border: `1px solid ${C.border}`, borderRadius: 8, overflow: "hidden", minHeight: 200 }}>
-              {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
-              <a
-                className="twitter-timeline"
-                data-lang="ja"
-                data-theme="light"
-                data-height="520"
-                data-chrome="noheader nofooter noborders transparent"
-                href={`https://twitter.com/${X_ACCOUNT}`}
-              >𝕏 @{X_ACCOUNT} の投稿を読み込み中...</a>
-            </div>
-          )}
-          <Script
-            id="twitter-wjs"
-            src="https://platform.twitter.com/widgets.js"
-            strategy="lazyOnload"
-            onLoad={() => {
-              const w = window as any;
-              if (w.twttr?.widgets) {
-                w.twttr.widgets.load();
-              } else {
-                setXEmbedFailed(true);
-              }
-            }}
-            onError={() => setXEmbedFailed(true)}
-          />
-        </div>
+        </a>
       </div>
 
       {/* ━━ メインコンテンツ ━━ */}
