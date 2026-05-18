@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
+type SettingImage = { url: string; caption: string };
+
 type Post = {
   id: string;
   title: string;
@@ -13,6 +15,7 @@ type Post = {
   summary: string;
   content: string;
   image: string;
+  setting_images?: SettingImage[];
 };
 
 const C = {
@@ -152,6 +155,41 @@ export default function BlogPostPage() {
         }}>
           {renderContent(post.content)}
         </div>
+
+        {/* 設定濃厚画面ギャラリー */}
+        {post.setting_images && post.setting_images.length > 0 && (
+          <div style={{ marginTop: 28 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+              <div style={{ width: 4, height: 20, background: C.red, borderRadius: 2 }} />
+              <h2 style={{ fontSize: 17, fontWeight: 900, color: C.text, margin: 0 }}>設定濃厚画面</h2>
+            </div>
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",
+              gap: 10,
+            }}>
+              {post.setting_images.map((img, i) => (
+                <div key={i} style={{
+                  background: C.white, border: `1px solid ${C.border}`,
+                  borderRadius: 8, overflow: "hidden",
+                  display: "flex", flexDirection: "column",
+                }}>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={img.url}
+                    alt={img.caption}
+                    style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block", background: "#f0f0f0" }}
+                    loading="lazy"
+                    onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = "none"; }}
+                  />
+                  <div style={{ padding: "6px 8px", fontSize: 11, color: C.muted, lineHeight: 1.4 }}>
+                    {img.caption}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* フッターナビ */}
         <div style={{ marginTop: 28, display: "flex", justifyContent: "space-between", borderTop: `1px solid ${C.border}`, paddingTop: 20 }}>
