@@ -823,16 +823,16 @@ export default function Page() {
               {ytVideos.map((v, i) => (
                 <a key={v.id} href={`https://www.youtube.com/watch?v=${v.id}`}
                   target="_blank" rel="noopener noreferrer"
-                  style={{ textDecoration: "none", display: "block" }}>
+                  style={{ textDecoration: "none", display: "flex", height: "100%" }}>
                   <div style={{
                     border: `1px solid ${C.border}`, borderRadius: 8, overflow: "hidden",
-                    transition: "box-shadow .15s",
+                    transition: "box-shadow .15s", display: "flex", flexDirection: "column", width: "100%",
                   }}
                     onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "0 4px 16px rgba(0,0,0,.12)"; }}
                     onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
                   >
                     {/* サムネイル */}
-                    <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#111", overflow: "hidden" }}>
+                    <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#111", overflow: "hidden", flexShrink: 0 }}>
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
                         src={`https://i.ytimg.com/vi/${v.id}/mqdefault.jpg`}
@@ -862,7 +862,7 @@ export default function Page() {
                       )}
                     </div>
                     {/* タイトル */}
-                    <div style={{ padding: "10px 12px 12px", background: C.white }}>
+                    <div style={{ padding: "10px 12px 12px", background: C.white, flex: 1, display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                       <div style={{
                         fontSize: 12, fontWeight: 700, color: C.text, lineHeight: 1.5,
                         display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden",
