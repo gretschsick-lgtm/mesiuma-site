@@ -230,6 +230,7 @@ export default function Page() {
   }, [events, area]);
 
   const handleArea = (a: string) => { setArea(a); setPref("全て"); setShowAll(false); setShowFavorites(false); };
+  const handleFavorites = () => { setShowFavorites(v => !v); setArea("全て"); setPref("全て"); setSearch(""); setShowAll(false); setCalDay(null); };
 
   const toggleFavorite = (id: number, e: React.MouseEvent) => {
     e.stopPropagation();
@@ -265,7 +266,7 @@ export default function Page() {
       map.get(d)!.push(ev);
     });
     return Array.from(map.entries()).sort((a,b)=>a[0].localeCompare(b[0]));
-  }, [events, search, area, pref]);
+  }, [events, search, area, pref, showFavorites, favorites]);
 
   const totalFiltered = grouped.reduce((n,[,evs])=>n+evs.length, 0);
 
@@ -940,48 +941,81 @@ export default function Page() {
 
         {/* フィルターバー */}
         <div style={{ background: C.white, borderRadius: 6, border: `1px solid ${C.border}`, padding: "14px 16px", marginTop: 16, marginBottom: 4 }}>
-          {/* エリア */}
-          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", marginBottom: 8 }}>
-            <span style={{ fontSize: 11, color: C.muted, fontWeight: 700, marginRight: 2, whiteSpace: "nowrap" }}>エリア</span>
-            {areas.map(a => (
-              <button key={a} onClick={() => handleArea(a)} style={{
-                background: area === a ? C.red : "#f5f5f5",
-                border: `1px solid ${area === a ? C.red : C.border}`,
-                color: area === a ? "#fff" : C.sub,
-                fontSize: 12, fontWeight: 700, padding: "5px 14px",
-                borderRadius: 999, cursor: "pointer", transition: "all .15s",
-              }}>{a}</button>
-            ))}
-          </div>
-          {/* 都道府県 */}
-          {prefs.length > 2 && (
-            <div style={{ display: "flex", gap: 5, flexWrap: "wrap", alignItems: "center", borderTop: `1px solid ${C.border}`, paddingTop: 8, marginBottom: 4 }}>
-              <span style={{ fontSize: 11, color: C.muted, fontWeight: 700, marginRight: 2 }}>📍</span>
-              {prefs.map(p => (
-                <button key={p} onClick={() => setPref(p)} style={{
-                  background: pref === p ? "#fff0f0" : "#f5f5f5",
-                  border: `1px solid ${pref === p ? C.red : C.border}`,
-                  color: pref === p ? C.red : C.sub,
-                  fontSize: 11, fontWeight: 700, padding: "4px 11px",
-                  borderRadius: 999, cursor: "pointer", transition: "all .15s",
-                }}>{p}</button>
+
+          {/* お気に入り＋リスト/カレンダー */}
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
+            <button onClick={handleFavorites} style={{
+              background: showFavorites ? "#ffe0e0" : "#f5f5f5",
+              border: `1px solid ${showFavorites ? C.red : C.border}`,
+              color: showFavorites ? C.red : C.muted,
+              fontSize: 13, fontWeight: 800, padding: "6px 16px",
+              borderRadius: 999, cursor: "pointer", transition: "all .15s",
+              display: "flex", alignItems: "center", gap: 6,
+            }}>
+              <span>{showFavorites ? "❤️" : "🤍"}</span>
+              お気に入り
+              {favorites.size > 0 && (
+                <span style={{
+                  background: showFavorites ? C.red : C.dim,
+                  color: "#fff", fontSize: 10, fontWeight: 900,
+                  padding: "1px 7px", borderRadius: 999, minWidth: 18, textAlign: "center",
+                }}>{favorites.size}</span>
+              )}
+            </button>
+            <div style={{ display: "flex", gap: 6 }}>
+              {(["list","calendar"] as const).map(m => (
+                <button key={m} onClick={() => { setViewMode(m); setCalDay(null); }} style={{
+                  background: viewMode === m ? C.red : "#f5f5f5",
+                  border: `1px solid ${viewMode === m ? C.red : C.border}`,
+                  color: viewMode === m ? "#fff" : C.muted,
+                  fontSize: 12, fontWeight: 700, padding: "5px 12px",
+                  borderRadius: 4, cursor: "pointer",
+                }}>
+                  {m === "list" ? "☰ リスト" : "📅 カレンダー"}
+                </button>
               ))}
             </div>
-          )}
-          {/* リスト/カレンダー */}
-          <div style={{ display: "flex", justifyContent: "flex-end", gap: 6, marginTop: 4 }}>
-            {(["list","calendar"] as const).map(m => (
-              <button key={m} onClick={() => { setViewMode(m); setCalDay(null); }} style={{
-                background: viewMode === m ? C.red : "#f5f5f5",
-                border: `1px solid ${viewMode === m ? C.red : C.border}`,
-                color: viewMode === m ? "#fff" : C.muted,
-                fontSize: 12, fontWeight: 700, padding: "5px 12px",
-                borderRadius: 4, cursor: "pointer",
-              }}>
-                {m === "list" ? "☰ リスト" : "📅 カレンダー"}
-              </button>
-            ))}
           </div>
+
+          {/* エリア（お気に入りOFF時のみ） */}
+          {!showFavorites && (
+            <>
+              <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", marginBottom: 8 }}>
+                <span style={{ fontSize: 11, color: C.muted, fontWeight: 700, marginRight: 2, whiteSpace: "nowrap" }}>エリア</span>
+                {areas.map(a => (
+                  <button key={a} onClick={() => handleArea(a)} style={{
+                    background: area === a ? C.red : "#f5f5f5",
+                    border: `1px solid ${area === a ? C.red : C.border}`,
+                    color: area === a ? "#fff" : C.sub,
+                    fontSize: 12, fontWeight: 700, padding: "5px 14px",
+                    borderRadius: 999, cursor: "pointer", transition: "all .15s",
+                  }}>{a}</button>
+                ))}
+              </div>
+              {/* 都道府県 */}
+              {prefs.length > 2 && (
+                <div style={{ display: "flex", gap: 5, flexWrap: "wrap", alignItems: "center", borderTop: `1px solid ${C.border}`, paddingTop: 8 }}>
+                  <span style={{ fontSize: 11, color: C.muted, fontWeight: 700, marginRight: 2 }}>📍</span>
+                  {prefs.map(p => (
+                    <button key={p} onClick={() => setPref(p)} style={{
+                      background: pref === p ? "#fff0f0" : "#f5f5f5",
+                      border: `1px solid ${pref === p ? C.red : C.border}`,
+                      color: pref === p ? C.red : C.sub,
+                      fontSize: 11, fontWeight: 700, padding: "4px 11px",
+                      borderRadius: 999, cursor: "pointer", transition: "all .15s",
+                    }}>{p}</button>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+
+          {/* お気に入りON時のメッセージ */}
+          {showFavorites && favorites.size === 0 && (
+            <div style={{ textAlign: "center", padding: "12px 0 4px", color: C.muted, fontSize: 13 }}>
+              イベントカードの 🤍 をタップしてお気に入りに追加できます
+            </div>
+          )}
         </div>
 
         {!loaded && <div style={{ color: C.dim, padding: 60, textAlign: "center", fontSize: 14 }}>読み込み中...</div>}
