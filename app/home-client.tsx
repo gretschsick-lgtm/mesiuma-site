@@ -881,8 +881,8 @@ export default function Page() {
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
               <span style={{ fontSize: 32, fontWeight: 900, color: "#fff", lineHeight: 1 }}>𝕏</span>
               <div>
-                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>@{X_ACCOUNT}</div>
-                <div style={{ color: "#aaa", fontSize: 12, marginTop: 3 }}>最新のイベント情報・稼働実績はXで発信中</div>
+                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>メシウマ稼働株式会社 専務</div>
+                <div style={{ color: "#aaa", fontSize: 12, marginTop: 3 }}>@{X_ACCOUNT} ・ 最新のイベント情報・稼働実績はXで発信中</div>
               </div>
             </div>
             <div style={{ background: "#fff", color: "#000", padding: "9px 22px", borderRadius: 999, fontWeight: 800, fontSize: 13, whiteSpace: "nowrap", flexShrink: 0 }}>
