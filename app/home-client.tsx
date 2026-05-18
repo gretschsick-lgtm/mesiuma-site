@@ -492,10 +492,6 @@ export default function Page() {
                 <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 12, padding: "3px 6px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
                 <div style={{ fontSize: 14, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働</div>
               </Link>
-              <a href="https://www.youtube.com/@mesiuma_kadou" target="_blank" rel="noopener noreferrer"
-                style={{ background: "#cc0000", color: "#fff", padding: "5px 10px", borderRadius: 5, fontSize: 11, fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center", gap: 4 }}>
-                ▶ YouTube
-              </a>
             </div>
             {/* 2行目: ナビタブ */}
             <nav style={{ display: "flex", alignItems: "stretch", borderTop: `1px solid ${C.border}` }}>
@@ -549,11 +545,6 @@ export default function Page() {
                 </Link>
               ))}
             </nav>
-            {/* YouTube */}
-            <a href="https://www.youtube.com/@mesiuma_kadou" target="_blank" rel="noopener noreferrer"
-              style={{ background: "#cc0000", color: "#fff", padding: "6px 14px", borderRadius: 5, fontSize: 12, fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center", gap: 5, flexShrink: 0, whiteSpace: "nowrap" }}>
-              ▶ YouTube
-            </a>
           </div>
         )}
       </header>
