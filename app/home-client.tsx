@@ -490,7 +490,7 @@ export default function Page() {
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 40 }}>
               <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 6 }}>
                 <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 12, padding: "3px 6px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
-                <div style={{ fontSize: 14, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働</div>
+                <div style={{ fontSize: 14, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働株式会社</div>
               </Link>
             </div>
             {/* 2行目: ナビタブ */}
@@ -519,7 +519,7 @@ export default function Page() {
             <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 8, marginRight: 20, flexShrink: 0 }}>
               <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 13, padding: "4px 8px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
               <div>
-                <div style={{ fontSize: 15, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働</div>
+                <div style={{ fontSize: 15, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働株式会社</div>
                 <div style={{ fontSize: 9, color: C.muted, letterSpacing: "0.04em" }}>全国パチスロイベント情報</div>
               </div>
             </Link>
@@ -689,7 +689,7 @@ export default function Page() {
                   社員・演者一覧
                 </div>
                 {!isMobile && <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
-                  メシウマ稼働株式会社に所属する社員・演者の出演スケジュール
+                  メシウマ稼働株式会社株式会社に所属する社員・演者の出演スケジュール
                 </div>}
               </div>
               <div style={{
@@ -908,7 +908,7 @@ export default function Page() {
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
               <span style={{ fontSize: 32, fontWeight: 900, color: "#fff", lineHeight: 1 }}>𝕏</span>
               <div>
-                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>メシウマ稼働株式会社 専務アカウント</div>
+                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>メシウマ稼働株式会社株式会社 専務アカウント</div>
                 <div style={{ color: "#aaa", fontSize: 12, marginTop: 3 }}>@{X_ACCOUNT} ・ 最新のイベント情報・稼働実績はXで発信中</div>
               </div>
             </div>
@@ -1173,7 +1173,7 @@ export default function Page() {
       }}>
         <Image src="/meshiuma.jpg" alt="" width={44} height={58}
           style={{ opacity: 0.4, marginBottom: 8, width: 32, height: "auto" }} />
-        <div>© メシウマ稼働株式会社 — メシマズなくしてメシウマなし</div>
+        <div>© メシウマ稼働株式会社株式会社 — メシマズなくしてメシウマなし</div>
       </footer>
     </div>
   );
