@@ -153,6 +153,14 @@ export default function Page() {
   const [manualPickups, setManualPickups] = useState<PickupStore[]>([]);
   const [favorites, setFavorites] = useState<Set<number>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 640);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
 
   useEffect(() => {
     try {
@@ -475,55 +483,79 @@ export default function Page() {
         borderBottom: `3px solid ${C.red}`,
         boxShadow: "0 2px 8px rgba(0,0,0,.08)",
       }}>
-        <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center", height: 52, gap: 0 }}>
-          {/* ロゴ */}
-          <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 8, marginRight: 20, flexShrink: 0 }}>
-            <div style={{
-              background: C.red, color: "#fff",
-              fontWeight: 900, fontSize: 13, padding: "4px 8px", borderRadius: 4,
-              lineHeight: 1,
-            }}>🔥</div>
-            <div>
-              <div style={{ fontSize: 15, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働</div>
-              <div style={{ fontSize: 9, color: C.muted, letterSpacing: "0.04em" }}>全国パチスロイベント情報</div>
-            </div>
-          </Link>
-
-          {/* ナビタブ */}
-          <nav style={{ display: "flex", alignItems: "stretch", flex: 1, gap: 0 }}>
-            {[
-              { href: "/",        label: "イベント情報", sub: "取材来店、勝率など", icon: "🏪", active: true },
-              { href: "/torisai", label: "店舗取材",     sub: "メディア取材一覧",   icon: "📡", active: false },
-              { href: "/blog",    label: "ブログ",       sub: "攻略、動画など",     icon: "📝", active: false },
-            ].map(({ href, label, sub, icon, active }) => (
-              <Link key={href} href={href} style={{
-                display: "flex", flexDirection: "column", justifyContent: "center",
-                padding: "0 16px", textDecoration: "none",
-                borderBottom: active ? `3px solid ${C.red}` : "3px solid transparent",
-                background: active ? "#fff5f5" : "transparent",
-                transition: "background .15s",
-                marginBottom: -3,
-              }}>
-                <div style={{ fontSize: 13, fontWeight: 800, color: active ? C.red : C.text, display: "flex", alignItems: "center", gap: 4 }}>
-                  <span style={{ fontSize: 14 }}>{icon}</span> {label}
-                </div>
-                <div style={{ fontSize: 9, color: C.muted }}>{sub}</div>
+        {/* PC: 1行レイアウト / モバイル: 2行レイアウト */}
+        {isMobile ? (
+          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 12px" }}>
+            {/* 1行目: ロゴ + YouTube */}
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 40 }}>
+              <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 6 }}>
+                <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 12, padding: "3px 6px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
+                <div style={{ fontSize: 14, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働</div>
               </Link>
-            ))}
-          </nav>
-
-          {/* YouTube */}
-          <a href="https://www.youtube.com/@mesiuma_kadou" target="_blank" rel="noopener noreferrer"
-            style={{
-              background: "#cc0000", color: "#fff",
-              padding: "6px 14px", borderRadius: 5,
-              fontSize: 12, fontWeight: 700,
-              textDecoration: "none", display: "flex", alignItems: "center", gap: 5,
-              flexShrink: 0, whiteSpace: "nowrap",
-            }}>
-            ▶ YouTube
-          </a>
-        </div>
+              <a href="https://www.youtube.com/@mesiuma_kadou" target="_blank" rel="noopener noreferrer"
+                style={{ background: "#cc0000", color: "#fff", padding: "5px 10px", borderRadius: 5, fontSize: 11, fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center", gap: 4 }}>
+                ▶ YouTube
+              </a>
+            </div>
+            {/* 2行目: ナビタブ */}
+            <nav style={{ display: "flex", alignItems: "stretch", borderTop: `1px solid ${C.border}` }}>
+              {[
+                { href: "/",        label: "イベント情報", icon: "🏪", active: true },
+                { href: "/torisai", label: "店舗取材",     icon: "📡", active: false },
+                { href: "/blog",    label: "ブログ",       icon: "📝", active: false },
+              ].map(({ href, label, icon, active }) => (
+                <Link key={href} href={href} style={{
+                  flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 4,
+                  padding: "7px 4px", textDecoration: "none",
+                  borderBottom: active ? `3px solid ${C.red}` : "3px solid transparent",
+                  background: active ? "#fff5f5" : "transparent",
+                  fontSize: 12, fontWeight: 800, color: active ? C.red : C.text,
+                  marginBottom: -3,
+                }}>
+                  <span style={{ fontSize: 13 }}>{icon}</span>{label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+        ) : (
+          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center", height: 52, gap: 0 }}>
+            {/* ロゴ */}
+            <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 8, marginRight: 20, flexShrink: 0 }}>
+              <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 13, padding: "4px 8px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
+              <div>
+                <div style={{ fontSize: 15, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働</div>
+                <div style={{ fontSize: 9, color: C.muted, letterSpacing: "0.04em" }}>全国パチスロイベント情報</div>
+              </div>
+            </Link>
+            {/* ナビタブ */}
+            <nav style={{ display: "flex", alignItems: "stretch", flex: 1, gap: 0 }}>
+              {[
+                { href: "/",        label: "イベント情報", sub: "取材来店、勝率など", icon: "🏪", active: true },
+                { href: "/torisai", label: "店舗取材",     sub: "メディア取材一覧",   icon: "📡", active: false },
+                { href: "/blog",    label: "ブログ",       sub: "攻略、動画など",     icon: "📝", active: false },
+              ].map(({ href, label, sub, icon, active }) => (
+                <Link key={href} href={href} style={{
+                  display: "flex", flexDirection: "column", justifyContent: "center",
+                  padding: "0 16px", textDecoration: "none",
+                  borderBottom: active ? `3px solid ${C.red}` : "3px solid transparent",
+                  background: active ? "#fff5f5" : "transparent",
+                  transition: "background .15s",
+                  marginBottom: -3,
+                }}>
+                  <div style={{ fontSize: 13, fontWeight: 800, color: active ? C.red : C.text, display: "flex", alignItems: "center", gap: 4 }}>
+                    <span style={{ fontSize: 14 }}>{icon}</span> {label}
+                  </div>
+                  <div style={{ fontSize: 9, color: C.muted }}>{sub}</div>
+                </Link>
+              ))}
+            </nav>
+            {/* YouTube */}
+            <a href="https://www.youtube.com/@mesiuma_kadou" target="_blank" rel="noopener noreferrer"
+              style={{ background: "#cc0000", color: "#fff", padding: "6px 14px", borderRadius: 5, fontSize: 12, fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center", gap: 5, flexShrink: 0, whiteSpace: "nowrap" }}>
+              ▶ YouTube
+            </a>
+          </div>
+        )}
       </header>
 
       {/* ━━ 検索エリア ━━ */}
