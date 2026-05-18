@@ -553,7 +553,7 @@ export default function Page() {
       <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
         <div style={{ maxWidth: 1160, margin: "0 auto", padding: "18px 16px 16px" }}>
           {/* 検索バー */}
-          <div style={{ display: "flex", gap: 8, maxWidth: 600, marginBottom: 12 }}>
+          <div style={{ display: "flex", gap: 8, maxWidth: isMobile ? "100%" : 600, marginBottom: 12 }}>
             <div style={{ position: "relative", flex: 1 }}>
               <span style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)", color: C.muted, fontSize: 16, pointerEvents: "none" }}>🔍</span>
               <input
@@ -604,34 +604,37 @@ export default function Page() {
       <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
         <div style={{ maxWidth: 1160, margin: "0 auto", padding: "14px 16px", display: "flex", flexDirection: "column", gap: 10 }}>
 
+          {/* バナー3枚 PC:横並び / モバイル:縦積み */}
+          <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", gap: 10 }}>
+
           {/* メシマズ取材バナー（赤） */}
           <Link href="/meshimazu" style={{ textDecoration: "none", display: "block" }}>
             <div style={{
               background: "linear-gradient(135deg, #aa0000 0%, #cc0000 50%, #e60000 100%)",
-              borderRadius: 8, padding: "16px 22px",
-              display: "flex", alignItems: "center", gap: 16,
-              transition: "opacity .15s",
+              borderRadius: 8, padding: isMobile ? "14px 16px" : "16px 22px",
+              display: "flex", alignItems: "center", gap: 12,
+              transition: "opacity .15s", height: "100%", boxSizing: "border-box",
               boxShadow: "0 2px 12px rgba(200,0,0,.35)",
             }}
               onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.opacity = "0.92"; }}
               onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.opacity = "1"; }}
             >
-              <div style={{ fontSize: 36, flexShrink: 0 }}>😱</div>
+              <div style={{ fontSize: isMobile ? 30 : 36, flexShrink: 0 }}>😱</div>
               <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: 17, fontWeight: 900, color: "#fff", marginBottom: 3, lineHeight: 1.3 }}>
-                  メシマズ店舗<br />取材一覧
+                <div style={{ fontSize: isMobile ? 15 : 17, fontWeight: 900, color: "#fff", marginBottom: 3, lineHeight: 1.3 }}>
+                  メシマズ店舗取材一覧
                 </div>
-                <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
+                {!isMobile && <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
                   メシマズ認定店舗の取材・調査レポートをまとめてチェック
-                </div>
+                </div>}
               </div>
               <div style={{
                 background: "rgba(255,255,255,.2)", color: "#fff",
-                fontSize: 12, fontWeight: 700, padding: "6px 16px",
+                fontSize: 12, fontWeight: 700, padding: "6px 14px",
                 borderRadius: 999, border: "1px solid rgba(255,255,255,.4)",
                 whiteSpace: "nowrap", flexShrink: 0,
               }}>
-                一覧を見る ›
+                見る ›
               </div>
             </div>
           </Link>
@@ -640,30 +643,30 @@ export default function Page() {
           <Link href="/torisai" style={{ textDecoration: "none", display: "block" }}>
             <div style={{
               background: "linear-gradient(135deg, #0044aa 0%, #0066cc 50%, #0088ee 100%)",
-              borderRadius: 8, padding: "16px 22px",
-              display: "flex", alignItems: "center", gap: 16,
-              transition: "opacity .15s",
+              borderRadius: 8, padding: isMobile ? "14px 16px" : "16px 22px",
+              display: "flex", alignItems: "center", gap: 12,
+              transition: "opacity .15s", height: "100%", boxSizing: "border-box",
               boxShadow: "0 2px 12px rgba(0,102,204,.3)",
             }}
               onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.opacity = "0.92"; }}
               onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.opacity = "1"; }}
             >
-              <div style={{ fontSize: 36, flexShrink: 0 }}>📡</div>
+              <div style={{ fontSize: isMobile ? 30 : 36, flexShrink: 0 }}>📡</div>
               <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: 17, fontWeight: 900, color: "#fff", marginBottom: 3 }}>
+                <div style={{ fontSize: isMobile ? 15 : 17, fontWeight: 900, color: "#fff", marginBottom: 3 }}>
                   店舗取材一覧
                 </div>
-                <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
+                {!isMobile && <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
                   メディア取材・調査員訪問イベントをまとめてチェック
-                </div>
+                </div>}
               </div>
               <div style={{
                 background: "rgba(255,255,255,.2)", color: "#fff",
-                fontSize: 12, fontWeight: 700, padding: "6px 16px",
+                fontSize: 12, fontWeight: 700, padding: "6px 14px",
                 borderRadius: 999, border: "1px solid rgba(255,255,255,.4)",
                 whiteSpace: "nowrap", flexShrink: 0,
               }}>
-                一覧を見る ›
+                見る ›
               </div>
             </div>
           </Link>
@@ -672,34 +675,35 @@ export default function Page() {
           <Link href="/cast" style={{ textDecoration: "none", display: "block" }}>
             <div style={{
               background: "linear-gradient(135deg, #cc4400 0%, #ff6600 50%, #ff8833 100%)",
-              borderRadius: 8, padding: "16px 22px",
-              display: "flex", alignItems: "center", gap: 16,
-              transition: "opacity .15s",
+              borderRadius: 8, padding: isMobile ? "14px 16px" : "16px 22px",
+              display: "flex", alignItems: "center", gap: 12,
+              transition: "opacity .15s", height: "100%", boxSizing: "border-box",
               boxShadow: "0 2px 12px rgba(255,102,0,.3)",
             }}
               onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.opacity = "0.92"; }}
               onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.opacity = "1"; }}
             >
-              <div style={{ fontSize: 36, flexShrink: 0 }}>🎬</div>
+              <div style={{ fontSize: isMobile ? 30 : 36, flexShrink: 0 }}>🎬</div>
               <div style={{ flex: 1, minWidth: 0 }}>
-                <div style={{ fontSize: 17, fontWeight: 900, color: "#fff", marginBottom: 3 }}>
+                <div style={{ fontSize: isMobile ? 15 : 17, fontWeight: 900, color: "#fff", marginBottom: 3 }}>
                   社員・演者一覧
                 </div>
-                <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
+                {!isMobile && <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
                   メシウマ稼働株式会社に所属する社員・演者の出演スケジュール
-                </div>
+                </div>}
               </div>
               <div style={{
                 background: "rgba(255,255,255,.2)", color: "#fff",
-                fontSize: 12, fontWeight: 700, padding: "6px 16px",
+                fontSize: 12, fontWeight: 700, padding: "6px 14px",
                 borderRadius: 999, border: "1px solid rgba(255,255,255,.4)",
                 whiteSpace: "nowrap", flexShrink: 0,
               }}>
-                一覧を見る ›
+                見る ›
               </div>
             </div>
           </Link>
 
+        </div>
         </div>
       </div>
 
@@ -813,7 +817,7 @@ export default function Page() {
           {ytVideos.length > 0 ? (
             <div style={{
               display: "grid",
-              gridTemplateColumns: "repeat(2, 1fr)",
+              gridTemplateColumns: isMobile ? "repeat(2, 1fr)" : "repeat(4, 1fr)",
               gap: 12,
             }}>
               {ytVideos.map((v, i) => (
@@ -882,7 +886,7 @@ export default function Page() {
             </div>
           ) : (
             <div style={{
-              display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 12,
+              display: "grid", gridTemplateColumns: isMobile ? "repeat(2, 1fr)" : "repeat(4, 1fr)", gap: 12,
             }}>
               {[0,1,2,3].map(i => (
                 <div key={i} style={{ background: "#f0f0f0", borderRadius: 8, aspectRatio: "16/9", animation: "pulse 1.5s ease-in-out infinite" }} />
