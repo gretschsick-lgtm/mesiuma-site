@@ -1,0 +1,5 @@
+.x_auth_profile/
+.x_cookies.json
+__pycache__/
+*.pyc
+*.log
