@@ -549,40 +549,6 @@ export default function Page() {
         )}
       </header>
 
-      {/* ━━ 社訓ヒーロー ━━ */}
-      <div style={{
-        background: "linear-gradient(160deg, #1a0000 0%, #6b0000 40%, #cc0000 80%, #ff2200 100%)",
-        padding: isMobile ? "28px 20px" : "36px 24px",
-        textAlign: "center",
-        position: "relative",
-        overflow: "hidden",
-      }}>
-        {/* 炎エフェクト背景 */}
-        <div style={{
-          position: "absolute", inset: 0,
-          background: "radial-gradient(ellipse at 50% 120%, rgba(255,100,0,.5) 0%, transparent 70%)",
-          pointerEvents: "none",
-        }} />
-        <div style={{ position: "relative", zIndex: 1 }}>
-          <div style={{
-            fontSize: isMobile ? 11 : 13, fontWeight: 900, color: "rgba(255,200,100,.9)",
-            letterSpacing: "0.3em", marginBottom: isMobile ? 10 : 14,
-            textTransform: "uppercase",
-          }}>― 社 訓 ―</div>
-          <div style={{
-            fontSize: isMobile ? 30 : 48,
-            fontWeight: 900,
-            color: "#fff",
-            lineHeight: 1.3,
-            letterSpacing: "0.05em",
-            textShadow: "0 0 30px rgba(255,80,0,.8), 0 4px 16px rgba(0,0,0,.6), 3px 3px 0 rgba(150,0,0,.6)",
-            fontFamily: "'Hiragino Mincho ProN','Yu Mincho','MS Mincho',serif",
-          }}>
-            メシマズなくして<br />メシウマなし
-          </div>
-        </div>
-      </div>
-
       {/* ━━ 検索エリア ━━ */}
       <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
         <div style={{ maxWidth: 1160, margin: "0 auto", padding: "18px 16px 16px" }}>
