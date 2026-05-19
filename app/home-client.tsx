@@ -281,11 +281,15 @@ export default function Page() {
         if (typeDiff !== 0) return typeDiff;
         return hash(a.store + seed) - hash(b.store + seed);
       });
-    const seen = new Set<string>();
+    const seenStores = new Set<string>();
+    const seenEvents = new Set<string>();
     const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string }[] = [];
     for (const ev of candidates) {
-      if (seen.has(ev.store)) continue;
-      seen.add(ev.store);
+      if (seenStores.has(ev.store)) continue;
+      const evKey = (ev.event || "").trim();
+      if (evKey && seenEvents.has(evKey)) continue;
+      seenStores.add(ev.store);
+      if (evKey) seenEvents.add(evKey);
       result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
       if (result.length >= 10) break;
     }
