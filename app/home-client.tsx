@@ -549,6 +549,40 @@ export default function Page() {
         )}
       </header>
 
+      {/* ━━ 社訓ヒーロー ━━ */}
+      <div style={{
+        background: "linear-gradient(160deg, #1a0000 0%, #6b0000 40%, #cc0000 80%, #ff2200 100%)",
+        padding: isMobile ? "28px 20px" : "36px 24px",
+        textAlign: "center",
+        position: "relative",
+        overflow: "hidden",
+      }}>
+        {/* 炎エフェクト背景 */}
+        <div style={{
+          position: "absolute", inset: 0,
+          background: "radial-gradient(ellipse at 50% 120%, rgba(255,100,0,.5) 0%, transparent 70%)",
+          pointerEvents: "none",
+        }} />
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <div style={{
+            fontSize: isMobile ? 11 : 13, fontWeight: 900, color: "rgba(255,200,100,.9)",
+            letterSpacing: "0.3em", marginBottom: isMobile ? 10 : 14,
+            textTransform: "uppercase",
+          }}>― 社 訓 ―</div>
+          <div style={{
+            fontSize: isMobile ? 30 : 48,
+            fontWeight: 900,
+            color: "#fff",
+            lineHeight: 1.3,
+            letterSpacing: "0.05em",
+            textShadow: "0 0 30px rgba(255,80,0,.8), 0 4px 16px rgba(0,0,0,.6), 3px 3px 0 rgba(150,0,0,.6)",
+            fontFamily: "'Hiragino Mincho ProN','Yu Mincho','MS Mincho',serif",
+          }}>
+            メシマズなくして<br />メシウマなし
+          </div>
+        </div>
+      </div>
+
       {/* ━━ 検索エリア ━━ */}
       <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
         <div style={{ maxWidth: 1160, margin: "0 auto", padding: "18px 16px 16px" }}>
@@ -689,7 +723,7 @@ export default function Page() {
                   社員・演者一覧
                 </div>
                 {!isMobile && <div style={{ fontSize: 12, color: "rgba(255,255,255,.8)" }}>
-                  メシウマ稼働株式会社株式会社に所属する社員・演者の出演スケジュール
+                  メシウマ稼働株式会社に所属する社員・演者の出演スケジュール
                 </div>}
               </div>
               <div style={{
@@ -908,7 +942,7 @@ export default function Page() {
             <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
               <span style={{ fontSize: 32, fontWeight: 900, color: "#fff", lineHeight: 1 }}>𝕏</span>
               <div>
-                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>メシウマ稼働株式会社株式会社 専務アカウント</div>
+                <div style={{ color: "#fff", fontWeight: 800, fontSize: 15, lineHeight: 1.3 }}>専務アカウント</div>
                 <div style={{ color: "#aaa", fontSize: 12, marginTop: 3 }}>@{X_ACCOUNT} ・ 最新のイベント情報・稼働実績はXで発信中</div>
               </div>
             </div>
@@ -1097,10 +1131,15 @@ export default function Page() {
 
         {/* ── リストビュー ── */}
         {viewMode === "list" && (() => {
-          const SHOW_DAYS = 3;
-          const visible = showAll ? grouped : grouped.slice(0, SHOW_DAYS);
-          const remaining = grouped.length - SHOW_DAYS;
-          const remainingEvs = showAll ? 0 : grouped.slice(SHOW_DAYS).reduce((n,[,e])=>n+e.length, 0);
+          const SHOW_COUNT = 20;
+          let count = 0, cutIdx = grouped.length;
+          for (let i = 0; i < grouped.length; i++) {
+            count += grouped[i][1].length;
+            if (count >= SHOW_COUNT) { cutIdx = i + 1; break; }
+          }
+          const visible = showAll ? grouped : grouped.slice(0, cutIdx);
+          const remaining = grouped.length - cutIdx;
+          const remainingEvs = showAll ? 0 : grouped.slice(cutIdx).reduce((n,[,e])=>n+e.length, 0);
 
           return (
             <>
@@ -1149,7 +1188,7 @@ export default function Page() {
               )}
 
               {/* 折りたたむボタン */}
-              {showAll && grouped.length > SHOW_DAYS && (
+              {showAll && grouped.length > cutIdx && (
                 <div style={{ marginTop: 24 }}>
                   <button onClick={() => { setShowAll(false); window.scrollTo({ top: 0, behavior: "smooth" }); }} style={{
                     width: "100%", background: "#f5f5f5",
@@ -1173,7 +1212,7 @@ export default function Page() {
       }}>
         <Image src="/meshiuma.jpg" alt="" width={44} height={58}
           style={{ opacity: 0.4, marginBottom: 8, width: 32, height: "auto" }} />
-        <div>© メシウマ稼働株式会社株式会社 — メシマズなくしてメシウマなし</div>
+        <div>© メシウマ稼働株式会社 — メシマズなくしてメシウマなし</div>
       </footer>
     </div>
   );
