@@ -243,6 +243,16 @@ export default function Page() {
 
   const totalFiltered = grouped.reduce((n,[,evs])=>n+evs.length, 0);
 
+  // 手動ピックアップから取材イベントがある店舗を除外
+  const filteredManualPickups = useMemo(() => {
+    const torisaiStores = new Set(
+      events
+        .filter(ev => ev.date >= todayStr && getEvType(ev) === "torisai")
+        .map(ev => ev.store)
+    );
+    return manualPickups.filter(s => !torisaiStores.has(s.name));
+  }, [events, manualPickups, todayStr]);
+
   // 自動ピックアップ: 直近14日以内に来店演者がある店舗（手動と重複除外）
   const autoPickups = useMemo(() => {
     const now = new Date();
@@ -708,7 +718,7 @@ export default function Page() {
       </div>
 
       {/* ━━ ピックアップ メシマズ店舗 ━━ */}
-      {(manualPickups.length > 0 || autoPickups.length > 0) && (
+      {(filteredManualPickups.length > 0 || autoPickups.length > 0) && (
         <div style={{ background: C.white, borderBottom: `1px solid ${C.border}`, marginBottom: 4 }}>
           <div style={{ maxWidth: 1160, margin: "0 auto", padding: "16px 16px 4px" }}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
@@ -721,7 +731,7 @@ export default function Page() {
             <div style={{ overflowX: "auto", paddingBottom: 14 }}>
               <div style={{ display: "flex", gap: 10, width: "max-content" }}>
                 {/* 手動（PR）*/}
-                {manualPickups.map(s => {
+                {filteredManualPickups.map(s => {
                   const noteNg = s.note && PICKUP_NOTE_NG.some(w => s.note!.includes(w));
                   return (
                     <button key={s.id} onClick={() => { setSearch(s.name); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }} style={{
