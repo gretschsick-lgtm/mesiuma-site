@@ -287,7 +287,7 @@ export default function Page() {
       if (seen.has(ev.store)) continue;
       seen.add(ev.store);
       result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
-      if (result.length >= 6) break;
+      if (result.length >= 10) break;
     }
     return result;
   }, [events, manualPickups, todayStr]);
