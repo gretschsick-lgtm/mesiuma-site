@@ -253,23 +253,28 @@ export default function Page() {
     return manualPickups.filter(s => !torisaiStores.has(s.name));
   }, [events, manualPickups, todayStr]);
 
-  // 自動ピックアップ: 直近14日以内に来店演者がある店舗（手動と重複除外）
+  // 自動ピックアップ: 直近14日以内の来店・取材・撮影イベント（イベント種別ごとに1店舗のみ）
   const autoPickups = useMemo(() => {
     const now = new Date();
     const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 14);
     const limitStr = `${String(limit.getMonth()+1).padStart(2,"0")}/${String(limit.getDate()).padStart(2,"0")}`;
     const manualNames = new Set(manualPickups.map(s => s.name));
-    const map = new Map<string, { store: string; pref: string; area: string; date: string; cast: string; image_url?: string }>();
-    events.forEach(ev => {
-      if (!isValidStore(ev.store)) return;
-      if (!ev.date || ev.date < todayStr || ev.date > limitStr) return;
-      if (getEvType(ev) !== "raiten") return;
-      if (manualNames.has(ev.store)) return;
-      if (!map.has(ev.store)) {
-        map.set(ev.store, { store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
-      }
+    const seenTypes = new Set<string>();
+    const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string }[] = [];
+    const sorted = [...events].filter(ev =>
+      isValidStore(ev.store) &&
+      ev.date && ev.date >= todayStr && ev.date <= limitStr &&
+      getEvType(ev) !== "normal" &&
+      !manualNames.has(ev.store)
+    ).sort((a, b) => a.date.localeCompare(b.date));
+    sorted.forEach(ev => {
+      const t = getEvType(ev);
+      if (seenTypes.has(t)) return;
+      if (result.some(r => r.store === ev.store)) return;
+      seenTypes.add(t);
+      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
     });
-    return Array.from(map.values()).sort((a, b) => a.date.localeCompare(b.date)).slice(0, 10);
+    return result;
   }, [events, manualPickups, todayStr]);
 
   // ─── イベントカード ──────────────────────────────────────
