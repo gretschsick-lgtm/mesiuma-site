@@ -31,6 +31,69 @@
       "pref": "東京都",
       "area": "関東",
       "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "megacity1-kamata",
+      "name": "マルハンメガシティ2000 蒲田1",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "kikona-kamata",
+      "name": "キコーナ蒲田店",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "vegabig-keikyu-kamata",
+      "name": "ベガビック京急蒲田店",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "kinntoki-kamata",
+      "name": "金時蒲田東口店",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "rakuen-kamata",
+      "name": "楽園蒲田店",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "kintoki-omori",
+      "name": "金時大森駅東口店",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "pia-omori",
+      "name": "PIA大森",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "reit-gap-heiwajima",
+      "name": "レイトギャップ平和島",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
+    },
+    {
+      "id": "mitoya-omori",
+      "name": "みとや大森町店",
+      "pref": "東京都",
+      "area": "関東",
+      "note": "メシウマおすすめ店舗"
     }
   ],
   "updated": "2026-05-19"
