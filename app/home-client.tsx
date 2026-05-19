@@ -253,27 +253,42 @@ export default function Page() {
     return manualPickups.filter(s => !torisaiStores.has(s.name));
   }, [events, manualPickups, todayStr]);
 
-  // 自動ピックアップ: 直近14日以内の来店・取材・撮影イベント（イベント種別ごとに1店舗のみ）
+  // 自動ピックアップ: 毎日変わるアツいイベントを最大6件
   const autoPickups = useMemo(() => {
     const now = new Date();
-    const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 14);
+    const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 7);
     const limitStr = `${String(limit.getMonth()+1).padStart(2,"0")}/${String(limit.getDate()).padStart(2,"0")}`;
     const manualNames = new Set(manualPickups.map(s => s.name));
-    const seenTypes = new Set<string>();
+    const typePriority: Record<string, number> = { raiten: 0, torisai: 1, satsuei: 2, normal: 9 };
+    // 日付ベースの毎日変わるシード
+    const seed = todayStr.replace(/\//g, "");
+    const hash = (s: string) => {
+      let h = 0;
+      for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) & 0xfffffff;
+      return h;
+    };
+    const candidates = events
+      .filter(ev =>
+        isValidStore(ev.store) &&
+        ev.date && ev.date >= todayStr && ev.date <= limitStr &&
+        getEvType(ev) !== "normal" &&
+        !manualNames.has(ev.store)
+      )
+      .sort((a, b) => {
+        const dateDiff = a.date.localeCompare(b.date);
+        if (dateDiff !== 0) return dateDiff;
+        const typeDiff = typePriority[getEvType(a)] - typePriority[getEvType(b)];
+        if (typeDiff !== 0) return typeDiff;
+        return hash(a.store + seed) - hash(b.store + seed);
+      });
+    const seen = new Set<string>();
     const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string }[] = [];
-    const sorted = [...events].filter(ev =>
-      isValidStore(ev.store) &&
-      ev.date && ev.date >= todayStr && ev.date <= limitStr &&
-      getEvType(ev) !== "normal" &&
-      !manualNames.has(ev.store)
-    ).sort((a, b) => a.date.localeCompare(b.date));
-    sorted.forEach(ev => {
-      const t = getEvType(ev);
-      if (seenTypes.has(t)) return;
-      if (result.some(r => r.store === ev.store)) return;
-      seenTypes.add(t);
+    for (const ev of candidates) {
+      if (seen.has(ev.store)) continue;
+      seen.add(ev.store);
       result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
-    });
+      if (result.length >= 6) break;
+    }
     return result;
   }, [events, manualPickups, todayStr]);
 
