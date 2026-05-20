@@ -1556,6 +1556,8 @@ def main():
                     log(f"  [{i}/{len(MEDIA_ACCOUNTS)}] @{username}")
                     try:
                         res = scrape_x_timeline(page, username, store_names)
+                        for ev in res:
+                            ev["cast"] = ev.get("cast") or label
                         if res:
                             log(f"       → {len(res)}件")
                         all_new.extend(res)
@@ -1568,6 +1570,8 @@ def main():
                     log(f"  [{i}/{len(STORE_ACCOUNTS)}] @{username} ({label})")
                     try:
                         res = scrape_x_timeline(page, username, store_names)
+                        for ev in res:
+                            ev["cast"] = ev.get("cast") or label
                         if res:
                             log(f"       → {len(res)}件")
                         all_new.extend(res)
