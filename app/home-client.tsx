@@ -732,10 +732,11 @@ export default function Page() {
             {/* 2行目: タブ */}
             <nav style={{ display: "flex", borderTop: `1px solid ${C.border}` }}>
               {[
-                { href: "/",        label: "ホーム",   icon: "🏠", active: true },
-                { href: "/torisai", label: "取材",     icon: "📡", active: false },
-                { href: "/stores",  label: "ホール",   icon: "🔍", active: false },
-                { href: "/blog",    label: "ブログ",   icon: "📝", active: false },
+                { href: "/",          label: "ホーム",       icon: "🏠", active: true },
+                { href: "/torisai",   label: "取材",         icon: "📡", active: false },
+                { href: "/complete",  label: "コンプリート", icon: "🎰", active: false },
+                { href: "/stores",    label: "ホール",       icon: "🔍", active: false },
+                { href: "/blog",      label: "ブログ",       icon: "📝", active: false },
               ].map(({ href, label, icon, active }) => (
                 <Link key={href} href={href} style={{
                   flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
@@ -762,10 +763,11 @@ export default function Page() {
             {/* ナビタブ */}
             <nav style={{ display: "flex", alignItems: "stretch", flex: 1, gap: 0 }}>
               {[
-                { href: "/",        label: "イベント情報", sub: "取材来店、勝率など", icon: "🏪", active: true },
-                { href: "/torisai", label: "店舗取材",     sub: "メディア取材一覧",   icon: "📡", active: false },
-                { href: "/stores",  label: "ホール検索",   sub: "全国1,000店舗以上",  icon: "🔍", active: false },
-                { href: "/blog",    label: "ブログ",       sub: "攻略、動画など",     icon: "📝", active: false },
+                { href: "/",         label: "イベント情報",   sub: "取材来店、勝率など", icon: "🏪", active: true },
+                { href: "/torisai", label: "店舗取材",       sub: "メディア取材一覧",   icon: "📡", active: false },
+                { href: "/complete",label: "コンプリート",   sub: "設定確定・挙動速報",  icon: "🎰", active: false },
+                { href: "/stores",  label: "ホール検索",     sub: "全国1,000店舗以上",  icon: "🔍", active: false },
+                { href: "/blog",    label: "ブログ",         sub: "攻略、動画など",     icon: "📝", active: false },
               ].map(({ href, label, sub, icon, active }) => (
                 <Link key={href} href={href} style={{
                   display: "flex", flexDirection: "column", justifyContent: "center",
@@ -1485,10 +1487,11 @@ export default function Page() {
           paddingBottom: "env(safe-area-inset-bottom, 0px)",
         }}>
           {[
-            { href: "/",        icon: "🏠", label: "ホーム",   active: true },
-            { href: "/torisai", icon: "📡", label: "取材",     active: false },
-            { href: "/stores",  icon: "🔍", label: "ホール",   active: false },
-            { href: "/blog",    icon: "📝", label: "ブログ",   active: false },
+            { href: "/",         icon: "🏠", label: "ホーム",       active: true },
+            { href: "/torisai",  icon: "📡", label: "取材",         active: false },
+            { href: "/complete", icon: "🎰", label: "コンプリート", active: false },
+            { href: "/stores",   icon: "🔍", label: "ホール",       active: false },
+            { href: "/blog",     icon: "📝", label: "ブログ",       active: false },
           ].map(({ href, icon, label, active }) => (
             <Link key={href} href={href} style={{
               flex: 1, display: "flex", flexDirection: "column",
