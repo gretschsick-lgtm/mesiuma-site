@@ -69,11 +69,13 @@ def main():
                 dmm_id  = ds["dmm_id"]
 
                 if name in by_name:
-                    # 既存店舗に city を補完
+                    # 既存店舗に city と dmm_id を補完
                     existing = by_name[name]
                     if not existing.get("city"):
                         existing["city"] = city
                         city_updated += 1
+                    if not existing.get("dmm_id"):
+                        existing["dmm_id"] = dmm_id
                     continue
 
                 # 新規追加
@@ -89,6 +91,7 @@ def main():
                     "pref":         pref,
                     "area":         area_label,
                     "city":         city,
+                    "dmm_id":       dmm_id,
                     "event_count":  0,
                     "floor_map_url": None,
                     "is_low_rental": False,

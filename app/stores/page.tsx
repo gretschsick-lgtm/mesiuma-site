@@ -9,6 +9,7 @@ type Store = {
   pref: string;
   area: string;
   city?: string | null;
+  dmm_id?: string | null;
   event_count: number;
   hp_url?: string | null;
   x_url?: string | null;
@@ -43,13 +44,61 @@ const ALL_PREFS = [
   "福岡県","熊本県","鹿児島県","宮崎県","大分県","長崎県","佐賀県","沖縄県",
 ];
 
-function StoreCard({ store }: { store: DisplayStore }) {
-  const isEventless = !!store.isEventless;
+function StoreThumb({ store }: { store: DisplayStore }) {
+  const [imgErr, setImgErr] = useState(false);
   const hasEvent = store.event_count > 0;
+
+  const dmmId = store.dmm_id;
+  const imgSrc = dmmId && !imgErr
+    ? `https://cdn.p-town.dmm.com/shop_images/${dmmId}/fit-in/150x0/filters:format(webp):no_upscale()/image.jpg`
+    : null;
 
   const initial = store.name.slice(0, 1);
   const hue = store.name.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 360;
   const thumbBg = `hsl(${hue},40%,55%)`;
+
+  return (
+    <div style={{ flexShrink: 0, textAlign: "center", width: 72 }}>
+      <div style={{
+        width: 72, height: 72,
+        background: imgSrc ? "#f0f0f0" : thumbBg,
+        borderRadius: 4,
+        display: "flex", alignItems: "center", justifyContent: "center",
+        fontSize: 28, fontWeight: 900, color: "#fff",
+        position: "relative",
+        overflow: "hidden",
+      }}>
+        {imgSrc ? (
+          <img
+            src={imgSrc}
+            alt={store.name}
+            onError={() => setImgErr(true)}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+          />
+        ) : (
+          initial
+        )}
+        {hasEvent && (
+          <div style={{
+            position: "absolute", bottom: 0, left: 0, right: 0,
+            background: C.red, color: "#fff",
+            fontSize: 11, fontWeight: 900, textAlign: "center",
+            padding: "1px 0",
+          }}>
+            UP!
+          </div>
+        )}
+      </div>
+      <div style={{ fontSize: 10, color: hasEvent ? C.red : C.muted, marginTop: 3, fontWeight: hasEvent ? 700 : 400 }}>
+        {hasEvent ? `${store.event_count}実績` : "実績なし"}
+      </div>
+    </div>
+  );
+}
+
+function StoreCard({ store }: { store: DisplayStore }) {
+  const isEventless = !!store.isEventless;
+  const hasEvent = store.event_count > 0;
 
   const card = (
     <div style={{
@@ -62,34 +111,7 @@ function StoreCard({ store }: { store: DisplayStore }) {
       position: "relative",
     }}>
       {/* 左サムネイル */}
-      <div style={{ flexShrink: 0, textAlign: "center", width: 72 }}>
-        <div style={{
-          width: 72, height: 72,
-          background: thumbBg,
-          borderRadius: 4,
-          display: "flex", alignItems: "center", justifyContent: "center",
-          fontSize: 28, fontWeight: 900, color: "#fff",
-          position: "relative",
-          overflow: "hidden",
-        }}>
-          {initial}
-          {/* UP!バッジ */}
-          {hasEvent && (
-            <div style={{
-              position: "absolute", bottom: 0, left: 0, right: 0,
-              background: C.red, color: "#fff",
-              fontSize: 11, fontWeight: 900, textAlign: "center",
-              padding: "1px 0",
-            }}>
-              UP!
-            </div>
-          )}
-        </div>
-        {/* イベント件数 */}
-        <div style={{ fontSize: 10, color: hasEvent ? C.red : C.muted, marginTop: 3, fontWeight: hasEvent ? 700 : 400 }}>
-          {hasEvent ? `${store.event_count}実績` : "実績なし"}
-        </div>
-      </div>
+      <StoreThumb store={store} />
 
       {/* 右: 情報 */}
       <div style={{ flex: 1, minWidth: 0 }}>
