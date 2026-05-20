@@ -23,6 +23,16 @@ type DmmStore = { name: string; dmm_id: string };
 type AreasData = Record<string, Record<string, DmmStore[]>>;
 type DisplayStore = Store & { dmm_id?: string; isEventless?: boolean };
 
+type RateEntry = { rate: string; count: number };
+type MachineInfo = {
+  hours?: string;
+  pachinko?: RateEntry[];
+  slot?: RateEntry[];
+  pachinko_total?: number;
+  slot_total?: number;
+};
+type MachinesData = Record<string, MachineInfo>;
+
 const C = {
   bg: "#f0f0f0",
   white: "#ffffff",
@@ -44,184 +54,186 @@ const ALL_PREFS = [
   "福岡県","熊本県","鹿児島県","宮崎県","大分県","長崎県","佐賀県","沖縄県",
 ];
 
+/* ── サムネイル ── */
 function StoreThumb({ store }: { store: DisplayStore }) {
   const [imgErr, setImgErr] = useState(false);
   const hasEvent = store.event_count > 0;
-
   const dmmId = store.dmm_id;
   const imgSrc = dmmId && !imgErr
     ? `https://cdn.p-town.dmm.com/shop_images/${dmmId}/fit-in/150x0/filters:format(webp):no_upscale()/image.jpg`
     : null;
-
   const initial = store.name.slice(0, 1);
   const hue = store.name.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 360;
-  const thumbBg = `hsl(${hue},40%,55%)`;
 
   return (
-    <div style={{ flexShrink: 0, textAlign: "center", width: 72 }}>
+    <div style={{ flexShrink: 0, textAlign: "center", width: 80 }}>
       <div style={{
-        width: 72, height: 72,
-        background: imgSrc ? "#f0f0f0" : thumbBg,
-        borderRadius: 4,
+        width: 80, height: 80, borderRadius: 4, overflow: "hidden", position: "relative",
+        background: imgSrc ? "#eee" : `hsl(${hue},40%,55%)`,
         display: "flex", alignItems: "center", justifyContent: "center",
-        fontSize: 28, fontWeight: 900, color: "#fff",
-        position: "relative",
-        overflow: "hidden",
+        fontSize: 30, fontWeight: 900, color: "#fff",
       }}>
         {imgSrc ? (
-          <img
-            src={imgSrc}
-            alt={store.name}
-            onError={() => setImgErr(true)}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-          />
-        ) : (
-          initial
-        )}
+          <img src={imgSrc} alt={store.name} onError={() => setImgErr(true)}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        ) : initial}
         {hasEvent && (
           <div style={{
             position: "absolute", bottom: 0, left: 0, right: 0,
-            background: C.red, color: "#fff",
-            fontSize: 11, fontWeight: 900, textAlign: "center",
-            padding: "1px 0",
-          }}>
-            UP!
-          </div>
+            background: C.red, color: "#fff", fontSize: 11, fontWeight: 900,
+            textAlign: "center", padding: "2px 0",
+          }}>UP!</div>
         )}
       </div>
-      <div style={{ fontSize: 10, color: hasEvent ? C.red : C.muted, marginTop: 3, fontWeight: hasEvent ? 700 : 400 }}>
+      <div style={{ fontSize: 10, marginTop: 3, fontWeight: hasEvent ? 700 : 400, color: hasEvent ? C.red : C.muted }}>
         {hasEvent ? `${store.event_count}実績` : "実績なし"}
       </div>
     </div>
   );
 }
 
-function StoreCard({ store }: { store: DisplayStore }) {
-  const isEventless = !!store.isEventless;
-  const hasEvent = store.event_count > 0;
+/* ── パチ/スロ台数バッジ行 ── */
+function MachineBadges({ info }: { info: MachineInfo }) {
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 3, margin: "6px 0" }}>
+      {/* パチンコ */}
+      {(info.pachinko?.length ?? 0) > 0 && (
+        <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: 4 }}>
+          <span style={{
+            background: C.red, color: "#fff", fontSize: 10, fontWeight: 700,
+            padding: "2px 6px", borderRadius: 3, flexShrink: 0,
+          }}>パチ</span>
+          {info.pachinko!.map((r, i) => (
+            <span key={i} style={{ fontSize: 12, color: C.blue, whiteSpace: "nowrap" }}>
+              {r.rate} <strong style={{ color: C.text }}>{r.count}台</strong>
+            </span>
+          ))}
+        </div>
+      )}
+      {/* スロット */}
+      {(info.slot?.length ?? 0) > 0 && (
+        <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", gap: 4 }}>
+          <span style={{
+            background: C.blue, color: "#fff", fontSize: 10, fontWeight: 700,
+            padding: "2px 6px", borderRadius: 3, flexShrink: 0,
+          }}>スロ</span>
+          {info.slot!.map((r, i) => (
+            <span key={i} style={{ fontSize: 12, color: C.blue, whiteSpace: "nowrap" }}>
+              {r.rate} <strong style={{ color: C.text }}>{r.count}台</strong>
+            </span>
+          ))}
+        </div>
+      )}
+      {/* 台数のみある場合 */}
+      {!(info.pachinko?.length) && !(info.slot?.length) && (info.pachinko_total || info.slot_total) && (
+        <div style={{ display: "flex", gap: 6 }}>
+          {info.pachinko_total ? (
+            <span style={{ fontSize: 11, color: C.muted }}>パチ {info.pachinko_total}台</span>
+          ) : null}
+          {info.slot_total ? (
+            <span style={{ fontSize: 11, color: C.muted }}>スロ {info.slot_total}台</span>
+          ) : null}
+        </div>
+      )}
+    </div>
+  );
+}
 
-  const card = (
+/* ── 店舗カード ── */
+function StoreCard({ store, machineInfo }: { store: DisplayStore; machineInfo?: MachineInfo }) {
+  const isEventless = !!store.isEventless;
+
+  const inner = (
     <div style={{
-      background: C.white,
-      borderBottom: `1px solid ${C.border}`,
-      padding: "12px 14px",
-      display: "flex",
-      alignItems: "flex-start",
-      gap: 12,
-      position: "relative",
+      background: C.white, borderBottom: `1px solid ${C.border}`,
+      padding: "12px 14px", display: "flex", alignItems: "flex-start", gap: 12,
     }}>
-      {/* 左サムネイル */}
       <StoreThumb store={store} />
 
-      {/* 右: 情報 */}
       <div style={{ flex: 1, minWidth: 0 }}>
         {/* 店舗名 */}
-        <div style={{
-          fontSize: 15, fontWeight: 700,
-          color: isEventless ? C.muted : C.text,
-          marginBottom: 3, lineHeight: 1.4,
-        }}>
+        <div style={{ fontSize: 15, fontWeight: 700, color: C.text, marginBottom: 2, lineHeight: 1.4 }}>
           {store.name}
           {store.is_low_rental && (
             <span style={{
-              marginLeft: 6, fontSize: 10, fontWeight: 700,
-              color: C.blue, background: "#e8f0ff",
-              border: `1px solid ${C.blue}44`,
+              marginLeft: 6, fontSize: 10, fontWeight: 700, color: C.blue,
+              background: "#e8f0ff", border: `1px solid ${C.blue}44`,
               padding: "1px 5px", borderRadius: 3,
             }}>低貸し</span>
           )}
         </div>
 
         {/* 住所 */}
-        {store.address && (
-          <div style={{ fontSize: 12, color: C.muted, marginBottom: 4, lineHeight: 1.4 }}>
-            {store.address}
-          </div>
-        )}
-        {!store.address && (
-          <div style={{ fontSize: 12, color: C.muted, marginBottom: 4 }}>
-            {store.pref}{store.city ? ` ${store.city}` : ""}
+        <div style={{ fontSize: 12, color: C.muted, marginBottom: 3, lineHeight: 1.4 }}>
+          {store.address
+            ? store.address
+            : `${store.pref}${store.city ? ` ${store.city}` : ""}`}
+        </div>
+
+        {/* 営業時間 */}
+        {machineInfo?.hours && (
+          <div style={{ fontSize: 12, color: C.sub, marginBottom: 2 }}>
+            営業時間：{machineInfo.hours}
           </div>
         )}
 
-        {/* 抽選時刻 */}
-        {store.lottery_time && (
-          <div style={{
-            display: "inline-flex", alignItems: "center", gap: 4,
-            background: "#fffbe8", border: "1px solid #f0d060",
-            borderRadius: 3, padding: "2px 7px", marginBottom: 5,
-            fontSize: 11, color: "#996600", fontWeight: 700,
-          }}>
-            🎰 抽選 {store.lottery_time}
-          </div>
-        )}
+        {/* パチ/スロ台数 */}
+        {machineInfo && <MachineBadges info={machineInfo} />}
 
-        {/* リンクバッジ行 */}
-        <div style={{ display: "flex", flexWrap: "wrap", gap: 5, alignItems: "center", marginTop: 2 }}>
+        {/* 抽選・リンクバッジ */}
+        <div style={{ display: "flex", flexWrap: "wrap", gap: 5, marginTop: 4 }}>
+          {store.lottery_time && (
+            <span style={{
+              fontSize: 11, color: "#996600", background: "#fffbe8",
+              border: "1px solid #f0d060", borderRadius: 3, padding: "2px 7px",
+            }}>🎰 抽選 {store.lottery_time}</span>
+          )}
           {store.hp_url && (
             <a href={store.hp_url} target="_blank" rel="noopener noreferrer"
               onClick={e => e.stopPropagation()}
-              style={{
-                fontSize: 11, color: C.red, background: "#fff0f0",
-                border: `1px solid #ffcccc`, borderRadius: 3,
-                padding: "2px 8px", textDecoration: "none", whiteSpace: "nowrap",
-              }}>
+              style={{ fontSize: 11, color: C.red, background: "#fff0f0", border: "1px solid #ffcccc", borderRadius: 3, padding: "2px 7px", textDecoration: "none" }}>
               🌐 公式HP
             </a>
           )}
           {store.x_url && (
             <a href={store.x_url} target="_blank" rel="noopener noreferrer"
               onClick={e => e.stopPropagation()}
-              style={{
-                fontSize: 11, color: "#333", background: "#f5f5f5",
-                border: "1px solid #ccc", borderRadius: 3,
-                padding: "2px 8px", textDecoration: "none", whiteSpace: "nowrap",
-              }}>
+              style={{ fontSize: 11, color: "#333", background: "#f5f5f5", border: "1px solid #ccc", borderRadius: 3, padding: "2px 7px", textDecoration: "none" }}>
               𝕏 公式X
             </a>
           )}
           {store.map_url && (
             <a href={store.map_url} target="_blank" rel="noopener noreferrer"
               onClick={e => e.stopPropagation()}
-              style={{
-                fontSize: 11, color: "#4285f4", background: "#f0f5ff",
-                border: "1px solid #c8d8ff", borderRadius: 3,
-                padding: "2px 8px", textDecoration: "none", whiteSpace: "nowrap",
-              }}>
+              style={{ fontSize: 11, color: "#4285f4", background: "#f0f5ff", border: "1px solid #c8d8ff", borderRadius: 3, padding: "2px 7px", textDecoration: "none" }}>
               🗺 地図
             </a>
           )}
         </div>
       </div>
 
-      {/* 右端: データ公開ボタン */}
+      {/* データ公開ボタン */}
       {!isEventless && (
         <div style={{ flexShrink: 0, alignSelf: "flex-end" }}>
           <div style={{
-            background: C.green, color: "#fff",
-            fontSize: 11, fontWeight: 700,
-            padding: "4px 10px", borderRadius: 3,
-            whiteSpace: "nowrap",
-          }}>
-            データ公開
-          </div>
+            background: C.green, color: "#fff", fontSize: 11, fontWeight: 700,
+            padding: "4px 10px", borderRadius: 3, whiteSpace: "nowrap",
+          }}>データ公開</div>
         </div>
       )}
     </div>
   );
 
-  return isEventless ? (
-    <div key={store.id} style={{ opacity: 0.6 }}>{card}</div>
-  ) : (
-    <Link key={store.id} href={`/stores/${store.id}`} style={{ textDecoration: "none", display: "block" }}>
-      {card}
-    </Link>
-  );
+  return isEventless
+    ? <div>{inner}</div>
+    : <Link href={`/stores/${store.id}`} style={{ textDecoration: "none", display: "block" }}>{inner}</Link>;
 }
 
+/* ── メインページ ── */
 export default function StoresPage() {
   const [stores, setStores] = useState<Store[]>([]);
   const [areas, setAreas] = useState<AreasData>({});
+  const [machines, setMachines] = useState<MachinesData>({});
   const [pref, setPref] = useState("");
   const [city, setCity] = useState("");
   const [query, setQuery] = useState("");
@@ -231,7 +243,8 @@ export default function StoresPage() {
     Promise.all([
       fetch("/stores.json").then(r => r.json()),
       fetch("/areas.json").then(r => r.json()).catch(() => ({})),
-    ]).then(([s, a]) => { setStores(s); setAreas(a); }).catch(() => {});
+      fetch("/store_machines.json").then(r => r.json()).catch(() => ({})),
+    ]).then(([s, a, m]) => { setStores(s); setAreas(a); setMachines(m); }).catch(() => {});
   }, []);
 
   const cityOptions = useMemo(() => {
@@ -281,15 +294,14 @@ export default function StoresPage() {
     return result.sort((a, b) => b.event_count - a.event_count || a.name.localeCompare(b.name, "ja"));
   }, [stores, areas, pref, city, query, lowRentalOnly, storeByName]);
 
-  const resultLabel = city ? `${pref} ${city}` : pref ? pref : "全国";
+  const resultLabel = city ? `${pref} ${city}` : pref || "全国";
 
   return (
     <div style={{ background: C.bg, minHeight: "100vh", fontFamily: "'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif", color: C.text }}>
 
       {/* ヘッダー */}
       <header style={{
-        background: C.white,
-        borderBottom: `3px solid ${C.red}`,
+        background: C.white, borderBottom: `3px solid ${C.red}`,
         boxShadow: "0 2px 8px rgba(0,0,0,.08)",
         position: "sticky", top: 0, zIndex: 100,
       }}>
@@ -299,9 +311,7 @@ export default function StoresPage() {
           </Link>
           <div style={{ flex: 1 }} />
           <input
-            type="text"
-            value={query}
-            onChange={e => setQuery(e.target.value)}
+            type="text" value={query} onChange={e => setQuery(e.target.value)}
             placeholder="店舗名で検索..."
             style={{
               width: "min(200px,40vw)", padding: "5px 12px", fontSize: 13,
@@ -314,90 +324,54 @@ export default function StoresPage() {
 
       <div style={{ maxWidth: 900, margin: "0 auto", padding: "14px 0 60px" }}>
 
-        {/* フィルター（DMMスタイル・ドロップダウン） */}
+        {/* フィルター */}
         <div style={{
-          background: C.white,
-          borderBottom: `1px solid ${C.border}`,
-          padding: "10px 14px",
-          display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center",
+          background: C.white, borderBottom: `1px solid ${C.border}`,
+          padding: "10px 14px", display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center",
         }}>
-          {/* 都道府県 */}
-          <select
-            value={pref}
-            onChange={e => { setPref(e.target.value); setCity(""); }}
+          <select value={pref} onChange={e => { setPref(e.target.value); setCity(""); }}
             style={{
-              flex: "1 1 140px", minWidth: 120, maxWidth: 200,
-              padding: "8px 10px", fontSize: 14,
-              border: `2px solid ${pref ? C.red : C.border}`,
-              borderRadius: 4, background: C.white,
-              color: pref ? C.red : C.text,
-              fontWeight: pref ? 700 : 400,
-              fontFamily: "inherit", cursor: "pointer", outline: "none",
-              appearance: "none",
+              flex: "1 1 140px", minWidth: 120, maxWidth: 200, padding: "8px 28px 8px 10px",
+              fontSize: 14, border: `2px solid ${pref ? C.red : C.border}`, borderRadius: 4,
+              background: C.white, color: pref ? C.red : C.text, fontWeight: pref ? 700 : 400,
+              fontFamily: "inherit", cursor: "pointer", outline: "none", appearance: "none",
               backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E")`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "right 10px center",
-              paddingRight: 28,
-            }}
-          >
+              backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center",
+            }}>
             <option value="">都道府県</option>
-            {ALL_PREFS.map(p => (
-              <option key={p} value={p}>{p}</option>
-            ))}
+            {ALL_PREFS.map(p => <option key={p} value={p}>{p}</option>)}
           </select>
 
-          {/* 市区町村 */}
-          <select
-            value={city}
-            onChange={e => setCity(e.target.value)}
-            disabled={cityOptions.length === 0}
+          <select value={city} onChange={e => setCity(e.target.value)} disabled={cityOptions.length === 0}
             style={{
-              flex: "1 1 140px", minWidth: 120, maxWidth: 200,
-              padding: "8px 10px", fontSize: 14,
-              border: `2px solid ${city ? C.red : C.border}`,
-              borderRadius: 4, background: cityOptions.length === 0 ? "#f8f8f8" : C.white,
-              color: city ? C.red : C.text,
-              fontWeight: city ? 700 : 400,
-              fontFamily: "inherit", cursor: cityOptions.length === 0 ? "default" : "pointer", outline: "none",
-              appearance: "none",
+              flex: "1 1 140px", minWidth: 120, maxWidth: 200, padding: "8px 28px 8px 10px",
+              fontSize: 14, border: `2px solid ${city ? C.red : C.border}`, borderRadius: 4,
+              background: cityOptions.length === 0 ? "#f8f8f8" : C.white,
+              color: city ? C.red : C.text, fontWeight: city ? 700 : 400,
+              fontFamily: "inherit", cursor: cityOptions.length === 0 ? "default" : "pointer",
+              outline: "none", appearance: "none",
               backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%23888'/%3E%3C/svg%3E")`,
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "right 10px center",
-              paddingRight: 28,
-            }}
-          >
+              backgroundRepeat: "no-repeat", backgroundPosition: "right 10px center",
+            }}>
             <option value="">{pref ? `${pref}内 全域` : "市区町村"}</option>
-            {cityOptions.map(([c, count]) => (
-              <option key={c} value={c}>{c}（{count}件）</option>
-            ))}
+            {cityOptions.map(([c, count]) => <option key={c} value={c}>{c}（{count}件）</option>)}
           </select>
 
-          {/* 低貸しチェック */}
           <label style={{ display: "flex", alignItems: "center", gap: 5, fontSize: 13, cursor: "pointer", whiteSpace: "nowrap" }}>
-            <input
-              type="checkbox"
-              checked={lowRentalOnly}
-              onChange={e => setLowRentalOnly(e.target.checked)}
-              style={{ accentColor: C.red, width: 14, height: 14 }}
-            />
+            <input type="checkbox" checked={lowRentalOnly} onChange={e => setLowRentalOnly(e.target.checked)}
+              style={{ accentColor: C.red, width: 14, height: 14 }} />
             低貸し専門店のみ
           </label>
         </div>
 
         {/* 検索結果ヘッダー */}
         <div style={{
-          background: C.white,
-          padding: "10px 14px",
-          borderBottom: `1px solid ${C.border}`,
+          background: C.white, padding: "10px 14px", borderBottom: `1px solid ${C.border}`,
           display: "flex", alignItems: "baseline", gap: 8,
         }}>
-          <div style={{ fontSize: 14, fontWeight: 700, color: C.text }}>
-            検索結果一覧
-          </div>
-          <div style={{ fontSize: 12, color: C.muted }}>
-            ({resultLabel})
-          </div>
-          <div style={{ marginLeft: "auto", fontSize: 14, fontWeight: 700, color: C.text }}>
+          <div style={{ fontSize: 14, fontWeight: 700 }}>検索結果一覧</div>
+          <div style={{ fontSize: 12, color: C.muted }}>({resultLabel})</div>
+          <div style={{ marginLeft: "auto", fontSize: 14, fontWeight: 700 }}>
             {filtered.length.toLocaleString()}件
           </div>
         </div>
@@ -416,15 +390,13 @@ export default function StoresPage() {
             </div>
           )}
           {filtered.map(store => (
-            <StoreCard key={store.id} store={store} />
+            <StoreCard key={store.id} store={store} machineInfo={machines[store.name]} />
           ))}
         </div>
-
       </div>
 
       <footer style={{
-        textAlign: "center", padding: "16px",
-        borderTop: `1px solid ${C.border}`,
+        textAlign: "center", padding: "16px", borderTop: `1px solid ${C.border}`,
         background: C.white, color: C.muted, fontSize: 11,
       }}>
         © メシウマ稼働株式会社
