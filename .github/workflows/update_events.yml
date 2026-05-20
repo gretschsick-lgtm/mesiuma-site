@@ -128,10 +128,31 @@ jobs:
           path: public/events_public.json
           retention-days: 1
 
-  # ─── MERGE: 5ジョブの結果をマージしてコミット ────────────────────────────
+  # ─── JOB F: p-town /schedules HTTP スクレイプ（Playwright不要・高速）──────
+  fetch-ptown:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install playwright playwright-stealth
+      - name: Fetch p-town schedules
+        run: python scripts/fetch_events.py --job ptown
+      - uses: actions/upload-artifact@v4
+        with:
+          name: events-ptown
+          path: public/events_public.json
+          retention-days: 1
+
+  # ─── MERGE: 6ジョブの結果をマージしてコミット ────────────────────────────
   merge-and-push:
     runs-on: ubuntu-latest
-    needs: [fetch-accounts, fetch-search, fetch-google, fetch-web, fetch-youtube]
+    needs: [fetch-accounts, fetch-search, fetch-google, fetch-web, fetch-youtube, fetch-ptown]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -176,6 +197,13 @@ jobs:
           path: artifacts/youtube
         continue-on-error: true
 
+      - name: Download ptown result
+        uses: actions/download-artifact@v4
+        with:
+          name: events-ptown
+          path: artifacts/ptown
+        continue-on-error: true
+
       - name: Merge all results
         run: |
           python3 - <<'EOF'
@@ -198,7 +226,7 @@ jobs:
                   print(f"既存ファイル読み込みエラー: {ex}")
 
           # 各ジョブ結果マージ
-          for artifact_dir in ["artifacts/accounts", "artifacts/search", "artifacts/google", "artifacts/web", "artifacts/youtube"]:
+          for artifact_dir in ["artifacts/accounts", "artifacts/search", "artifacts/google", "artifacts/web", "artifacts/youtube", "artifacts/ptown"]:
               p = Path(artifact_dir) / "events_public.json"
               if not p.exists():
                   print(f"スキップ: {artifact_dir}")

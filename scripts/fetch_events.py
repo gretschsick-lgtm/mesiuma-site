@@ -1188,6 +1188,106 @@ def scrape_yahoo_realtime(page, query: str, store_names: set[str]) -> list[dict]
 # ---------------------------------------------------------------------------
 # JOB D: 公式イベントサイト スクレイピング
 # ---------------------------------------------------------------------------
+def scrape_pttown_schedules_http(
+    store_pref_map: dict[str, tuple[str, str]],
+    store_names: set[str],
+    max_pages: int = 30,
+) -> list[dict]:
+    """DMM p-town /schedules を urllib で直接スクレイプ（Playwright不要）。
+    alt テキスト「{店名} {YYYY/MM/DD}/（曜日）の来店イベント情報「{取材名}」」を解析。
+    """
+    import ssl
+    import urllib.request as _ureq
+
+    _NG_EVENTS = {"通常稼働", "景品入荷", "開店情報", "傾向分析", "勝率ランキング", "看板スタッフ"}
+
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+    _headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "ja-JP,ja;q=0.9",
+    }
+    alt_re = re.compile(
+        r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/（.+?）の来店イベント情報「(.+?)」"'
+    )
+
+    results: list[dict] = []
+    log(f"\n🏢 p-town schedules HTTP スクレイプ (最大{max_pages}ページ)")
+
+    for page_no in range(1, max_pages + 1):
+        url = f"https://p-town.dmm.com/schedules?page={page_no}"
+        req = _ureq.Request(url, headers=_headers)
+        try:
+            with _ureq.urlopen(req, timeout=15, context=ctx) as r:
+                html = r.read().decode("utf-8", errors="replace")
+        except Exception as e:
+            log(f"  ⚠️  page={page_no}: {e}")
+            break
+
+        found = 0
+        for m in alt_re.finditer(html):
+            store = m.group(1).strip()
+            date_raw = m.group(2)       # "2026/05/21"
+            event_name = m.group(3).strip()
+
+            # 通常稼働など非イベントを除外
+            if any(ng in event_name for ng in _NG_EVENTS):
+                continue
+
+            # 日付: MM/DD（ゼロ埋め）
+            parts = date_raw.split("/")
+            if len(parts) == 3:
+                date_str = f"{int(parts[1]):02d}/{int(parts[2]):02d}"
+            else:
+                date_str = date_raw
+
+            # pref/area: 店名で直接引くかフォールバック
+            pref, area = store_pref_map.get(store, ("不明", "全国"))
+            if pref == "不明":
+                pref, area = _guess_pref_area(store)
+
+            # event type
+            if any(k in event_name for k in ["来店", "実践", "出演", "訪問"]):
+                ev_type = "来店"
+            elif any(k in event_name for k in ["取材", "撮影", "ロケ", "収録"]):
+                ev_type = "取材"
+            elif any(k in event_name for k in ["周年", "誕生日", "オープン", "新台"]):
+                ev_type = "イベント"
+            else:
+                ev_type = "取材"
+
+            ev = {
+                "id":        _make_id(store, date_str, f"ptown-sch-{page_no}"),
+                "date":      date_str,
+                "store":     store,
+                "pref":      pref,
+                "area":      area,
+                "event":     ev_type,
+                "detail":    event_name,
+                "cast":      event_name[:40],
+                "highlight": "",
+                "image_url": "",
+                "x_url":     "",
+                "url":       f"https://p-town.dmm.com/schedules?page={page_no}",
+                "source":    "p-town",
+            }
+            results.append(ev)
+            found += 1
+
+        log(f"  page={page_no}: {found}件")
+        if found == 0:
+            log("  → ページなし、終了")
+            break
+        time.sleep(0.35)
+
+    log(f"  p-town schedules 合計: {len(results)}件")
+    return results
+
+
 def scrape_ptown_event(page, url: str, store_names: set[str]) -> list[dict]:
     """ぱちタウンのイベントページをスクレイピング"""
     results: list[dict] = []
@@ -1487,7 +1587,7 @@ def merge_events(existing: list[dict], new_events: list[dict]) -> tuple[list[dic
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
-    parser.add_argument("--job", choices=["accounts", "search", "google", "web", "youtube", "all"], default="all")
+    parser.add_argument("--job", choices=["accounts", "search", "google", "web", "youtube", "ptown", "all"], default="all")
     args = parser.parse_args()
 
     # stores.jsonから動的アカウント読み込み
@@ -1510,20 +1610,29 @@ def main():
     log(f"   検索クエリ:{len(X_QUERIES)}  Google:{len(GOOGLE_QUERIES)}  Yahoo:{len(YAHOO_RT_QUERIES)}")
     log(f"   Webソース:{len(WEB_SOURCES)}サイト  YouTubeチャンネル:{len(YOUTUBE_CHANNELS)}ch  YouTube検索:{len(YOUTUBE_SEARCH_QUERIES)}クエリ")
 
-    # stores.jsonから店舗名セット（短すぎる名前は除外）
+    # stores.jsonから店舗名セット・pref マップ（短すぎる名前は除外）
     store_names: set[str] = set()
+    store_pref_map: dict[str, tuple[str, str]] = {}
     if STORES_JSON.exists():
         with open(STORES_JSON, encoding="utf-8") as f:
             for s in json.load(f):
                 name = s.get("name", "")
                 if name and len(name) >= 4:
                     store_names.add(name)
+                    pref = s.get("pref", "不明")
+                    area = PREF_AREA.get(pref, "全国")
+                    store_pref_map[name] = (pref, area)
     log(f"📦 store_names: {len(store_names)}店舗")
 
     existing, original = load_events()
     log(f"📦 既存イベント: {len(existing)}件")
 
     all_new: list[dict] = []
+
+    # ── JOB F: p-town /schedules HTTP スクレイプ（Playwright不要）──
+    if args.job in ("ptown", "all"):
+        ptown_res = scrape_pttown_schedules_http(store_pref_map, store_names, max_pages=30)
+        all_new.extend(ptown_res)
 
     with sync_playwright() as pw:
         ctx = launch_ctx(pw, args.headless)
