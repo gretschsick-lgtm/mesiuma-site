@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo, useRef } from "react";
+import { useEffect, useState, useMemo } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ const X_ACCOUNT = "mesiuma77";
 
 // ─── 型 ─────────────────────────────────────────────────────
 type Ev = {
-  id: number;
+  id: string | number;
   date: string;
   store: string;
   pref: string;
@@ -48,7 +48,12 @@ function normalizePref(p: string): string {
 function cleanCast(cast?: string) {
   if (!cast) return "";
   if (CAST_NG.some(w => cast.includes(w))) return "";
-  return cast.replace(/来店.*$/, "").replace(/^.*(演者|ライター|出演)\s*/, "").trim();
+  return cast
+    .replace(/来店.*$/, "")
+    .replace(/^.*(演者|ライター|出演)\s*/, "")
+    .replace(/^[\s）)）、。,.\-─　]+/, "")
+    .replace(/[\s）)）、。,.\-─　]+$/, "")
+    .trim();
 }
 function isValidStore(store: string) {
   if (STORE_NG.some(w => store.includes(w))) return false;
@@ -152,7 +157,7 @@ export default function Page() {
   const [ytVideos, setYtVideos] = useState<YtVideo[]>([]);
   const [ytErr, setYtErr]       = useState(false);
   const [manualPickups, setManualPickups] = useState<PickupStore[]>([]);
-  const [favorites, setFavorites] = useState<Set<number>>(new Set());
+  const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
   const [showRecordingsModal, setShowRecordingsModal] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -167,7 +172,7 @@ export default function Page() {
   useEffect(() => {
     try {
       const saved = localStorage.getItem("favorites");
-      if (saved) setFavorites(new Set(JSON.parse(saved)));
+      if (saved) setFavorites(new Set<string>(JSON.parse(saved)));
     } catch {}
   }, []);
 
@@ -199,7 +204,7 @@ export default function Page() {
   const prefs = useMemo(() => {
     const s = new Set(
       events.filter(e=>isValidStore(e.store)&&(area==="全て"||e.area===area))
-            .map(e=>e.pref).filter(Boolean)
+            .map(e=>e.pref).filter(p=>p && p !== "不明" && p !== "全国")
     );
     return ["全て",...Array.from(s).sort()];
   }, [events, area]);
@@ -207,11 +212,12 @@ export default function Page() {
   const handleArea = (a: string) => { setArea(a); setPref("全て"); setShowAll(false); setShowFavorites(false); };
   const handleFavorites = () => { setShowFavorites(v => !v); setArea("全て"); setPref("全て"); setSearch(""); setShowAll(false); setCalDay(null); };
 
-  const toggleFavorite = (id: number, e: React.MouseEvent) => {
+  const toggleFavorite = (id: string | number, e: React.MouseEvent) => {
     e.stopPropagation();
+    const key = String(id);
     setFavorites(prev => {
       const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
+      next.has(key) ? next.delete(key) : next.add(key);
       try { localStorage.setItem("favorites", JSON.stringify(Array.from(next))); } catch {}
       return next;
     });
@@ -228,7 +234,7 @@ export default function Page() {
       if (!isValidStore(ev.store)) return false;
       if (!ev.date) return false;
       if (ev.date < todayStr) return false;
-      if (showFavorites && !favorites.has(ev.id)) return false;
+      if (showFavorites && !favorites.has(String(ev.id))) return false;
       if (!showFavorites && area !== "全て" && ev.area !== area) return false;
       if (!showFavorites && pref !== "全て" && ev.pref !== pref) return false;
       if (s && ![ev.store,ev.pref,ev.area,ev.cast,ev.event,ev.detail].some(f=>f?.toLowerCase().includes(s))) return false;
@@ -323,15 +329,16 @@ export default function Page() {
     const sty    = EV_STYLE[evType];
     const cardHp = link.hp || storeHp[ev.store] || "";
     const isSpecial = evType !== "normal";
+    const imgSize = isMobile ? 52 : 64;
 
     return (
       <div key={ev.id} onClick={() => setSelectedEv(ev)} style={{
         background: sty.bg,
-        border: `1px solid ${sty.border}55`,
-        borderLeft: `4px solid ${sty.border}`,
-        borderRadius: 6,
-        padding: "14px 14px 14px 16px",
-        display: "flex", alignItems: "flex-start", gap: 12,
+        border: `1px solid ${sty.border}44`,
+        borderLeft: `3px solid ${sty.border}`,
+        borderRadius: 8,
+        padding: isMobile ? "10px 10px 10px 12px" : "14px 14px 14px 16px",
+        display: "flex", alignItems: "flex-start", gap: isMobile ? 8 : 12,
         cursor: "pointer",
         transition: "box-shadow .15s",
       }}
@@ -340,18 +347,18 @@ export default function Page() {
       >
         {/* 左アイコン/画像 */}
         {ev.image_url ? (
-          <div style={{ width: 72, minWidth: 72, height: 72, borderRadius: 6, overflow: "hidden", background: "#eee", flexShrink: 0 }}>
+          <div style={{ width: imgSize, minWidth: imgSize, height: imgSize, borderRadius: 6, overflow: "hidden", background: "#eee", flexShrink: 0 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={ev.image_url} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
           </div>
         ) : (
           <div style={{
-            width: 52, minWidth: 52, height: 52,
+            width: imgSize, minWidth: imgSize, height: imgSize,
             borderRadius: 6,
-            background: sty.border + "22",
-            border: `1px solid ${sty.border}44`,
+            background: sty.border + "18",
+            border: `1px solid ${sty.border}33`,
             display: "flex", alignItems: "center", justifyContent: "center",
-            fontSize: 22, flexShrink: 0,
+            fontSize: isMobile ? 18 : 22, flexShrink: 0,
           }}>
             {evType === "raiten" ? "🎤" : evType === "satsuei" ? "📹" : evType === "torisai" ? "📡" : "🎰"}
           </div>
@@ -360,62 +367,64 @@ export default function Page() {
         {/* メイン情報 */}
         <div style={{ flex: 1, minWidth: 0 }}>
           {/* バッジ行 */}
-          <div style={{ display: "flex", gap: 5, flexWrap: "wrap", alignItems: "center", marginBottom: 5 }}>
+          <div style={{ display: "flex", gap: 4, flexWrap: "wrap", alignItems: "center", marginBottom: 4 }}>
             {ev.date && <DateBadge mmdd={ev.date} />}
             {isSpecial && (
               <span style={{
                 background: sty.badge, color: "#fff",
-                fontSize: 11, fontWeight: 800, padding: "3px 9px", borderRadius: 3,
+                fontSize: isMobile ? 10 : 11, fontWeight: 800, padding: "2px 7px", borderRadius: 3,
               }}>{sty.label}</span>
             )}
-            {ev.pref && (
-              <span style={{ color: C.muted, fontSize: 11 }}>{ev.pref}</span>
+            {ev.pref && ev.pref !== "不明" && (
+              <span style={{ color: C.muted, fontSize: 10 }}>{ev.pref}</span>
             )}
           </div>
 
           {/* 店舗名 */}
-          <div style={{ fontSize: 16, fontWeight: 800, color: C.text, marginBottom: 4, lineHeight: 1.3 }}>
+          <div style={{ fontSize: isMobile ? 14 : 16, fontWeight: 800, color: C.text, marginBottom: 3, lineHeight: 1.3, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }}>
             {ev.store}
           </div>
 
           {/* イベント名 */}
-          <div style={{ fontSize: 12, color: isSpecial ? sty.badge : C.orange, fontWeight: 700, marginBottom: cast ? 5 : 0 }}>
-            {ev.event}
-            {ev.detail && ev.detail !== ev.event && (
-              <span style={{ color: C.muted, fontWeight: 400, marginLeft: 6 }}>{ev.detail}</span>
-            )}
-          </div>
+          {ev.event && (
+            <div style={{ fontSize: 11, color: isSpecial ? sty.badge : C.orange, fontWeight: 700, marginBottom: cast ? 4 : 0 }}>
+              {ev.event}
+              {!isMobile && ev.detail && ev.detail !== ev.event && (
+                <span style={{ color: C.muted, fontWeight: 400, marginLeft: 5, fontSize: 10 }}>{ev.detail.slice(0, 40)}</span>
+              )}
+            </div>
+          )}
 
           {/* 演者 */}
-          {cast && (
+          {cast && cast.length < 30 && (
             <span style={{
               display: "inline-block",
-              background: sty.badge + "14", border: `1px solid ${sty.badge}44`,
-              color: sty.badge, fontSize: 11, fontWeight: 700,
-              padding: "2px 9px", borderRadius: 999,
+              background: sty.badge + "14", border: `1px solid ${sty.badge}33`,
+              color: sty.badge, fontSize: 10, fontWeight: 700,
+              padding: "2px 7px", borderRadius: 999,
             }}>👤 {cast}</span>
           )}
         </div>
 
         {/* ハート＋リンクボタン */}
-        <div onClick={e => e.stopPropagation()} style={{ display: "flex", flexDirection: "column", gap: 5, flexShrink: 0 }}>
-          <button onClick={e => toggleFavorite(ev.id, e)} style={{
-            background: favorites.has(ev.id) ? "#ffe0e0" : "#f5f5f5",
-            border: `1px solid ${favorites.has(ev.id) ? "#ffaaaa" : C.border}`,
-            color: favorites.has(ev.id) ? "#e60000" : C.dim,
-            width: 36, height: 32, borderRadius: 5, cursor: "pointer",
-            fontSize: 16, display: "flex", alignItems: "center", justifyContent: "center",
+        <div onClick={e => e.stopPropagation()} style={{ display: "flex", flexDirection: "column", gap: 4, flexShrink: 0 }}>
+          <button onClick={e => toggleFavorite(String(ev.id), e)} style={{
+            background: favorites.has(String(ev.id)) ? "#ffe0e0" : "#f5f5f5",
+            border: `1px solid ${favorites.has(String(ev.id)) ? "#ffaaaa" : C.border}`,
+            color: favorites.has(String(ev.id)) ? "#e60000" : C.dim,
+            width: isMobile ? 32 : 36, height: 30, borderRadius: 5, cursor: "pointer",
+            fontSize: 14, display: "flex", alignItems: "center", justifyContent: "center",
             transition: "all .15s",
-          }}>{favorites.has(ev.id) ? "❤️" : "🤍"}</button>
+          }}>{favorites.has(String(ev.id)) ? "❤️" : "🤍"}</button>
         </div>
-        {(ev.x_url || link.x || cardHp) && (
+        {!isMobile && (ev.x_url || link.x || cardHp) && (
           <div onClick={e => e.stopPropagation()} style={{
-            display: "flex", flexDirection: "column", gap: 5, flexShrink: 0,
+            display: "flex", flexDirection: "column", gap: 4, flexShrink: 0,
           }}>
             {(ev.x_url || link.x) && (
               <a href={ev.x_url || link.x} target="_blank" rel="noopener noreferrer" style={{
                 background: "#111", color: "#fff",
-                width: 36, height: 32,
+                width: 36, height: 30,
                 display: "flex", alignItems: "center", justifyContent: "center",
                 borderRadius: 5, textDecoration: "none", fontSize: 12, fontWeight: 700,
               }}>𝕏</a>
@@ -423,7 +432,7 @@ export default function Page() {
             {cardHp && (
               <a href={cardHp} target="_blank" rel="noopener noreferrer" style={{
                 background: "#f0f4ff", border: "1px solid #aaccff",
-                color: "#0055cc", width: 36, height: 32,
+                color: "#0055cc", width: 36, height: 30,
                 display: "flex", alignItems: "center", justifyContent: "center",
                 borderRadius: 5, textDecoration: "none", fontSize: 10, fontWeight: 700,
               }}>HP</a>
@@ -625,35 +634,19 @@ export default function Page() {
       }}>
         {/* PC: 1行レイアウト / モバイル: 2行レイアウト */}
         {isMobile ? (
-          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 12px" }}>
-            {/* 1行目: ロゴ + YouTube */}
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", height: 40 }}>
-              <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 6 }}>
-                <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 12, padding: "3px 6px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
+          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 14px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 46 }}>
+            <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 7 }}>
+              <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 13, padding: "4px 7px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
+              <div>
                 <div style={{ fontSize: 14, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働株式会社</div>
-              </Link>
+                <div style={{ fontSize: 9, color: C.muted }}>全国パチスロイベント情報</div>
+              </div>
+            </Link>
+            <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+              <span style={{ fontSize: 12, color: C.muted, fontWeight: 700 }}>
+                {loaded ? <><span style={{ color: C.red, fontWeight: 800 }}>{events.length.toLocaleString()}</span>件</> : ""}
+              </span>
             </div>
-            {/* 2行目: ナビタブ */}
-            <nav style={{ display: "flex", alignItems: "stretch", borderTop: `1px solid ${C.border}` }}>
-              {[
-                { href: "/",         label: "イベント情報", icon: "🏪", active: true },
-                { href: "/torisai",  label: "店舗取材",     icon: "📡", active: false },
-                { href: "/complete", label: "コンプリート", icon: "🏆", active: false },
-                { href: "/stores",   label: "ホール検索",   icon: "🔍", active: false },
-                { href: "/blog",     label: "ブログ",       icon: "📝", active: false },
-              ].map(({ href, label, icon, active }) => (
-                <Link key={href} href={href} style={{
-                  flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 4,
-                  padding: "7px 4px", textDecoration: "none",
-                  borderBottom: active ? `3px solid ${C.red}` : "3px solid transparent",
-                  background: active ? "#fff5f5" : "transparent",
-                  fontSize: 12, fontWeight: 800, color: active ? C.red : C.text,
-                  marginBottom: -3,
-                }}>
-                  <span style={{ fontSize: 13 }}>{icon}</span>{label}
-                </Link>
-              ))}
-            </nav>
           </div>
         ) : (
           <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center", height: 52, gap: 0 }}>
@@ -694,19 +687,19 @@ export default function Page() {
 
       {/* ━━ 検索エリア ━━ */}
       <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
-        <div style={{ maxWidth: 1160, margin: "0 auto", padding: "18px 16px 16px" }}>
+        <div style={{ maxWidth: 1160, margin: "0 auto", padding: isMobile ? "12px 10px 10px" : "18px 16px 16px" }}>
           {/* 検索バー */}
-          <div style={{ display: "flex", gap: 8, maxWidth: isMobile ? "100%" : 600, marginBottom: 12 }}>
+          <div style={{ display: "flex", gap: 8, maxWidth: isMobile ? "100%" : 600, marginBottom: 10 }}>
             <div style={{ position: "relative", flex: 1 }}>
-              <span style={{ position: "absolute", left: 12, top: "50%", transform: "translateY(-50%)", color: C.muted, fontSize: 16, pointerEvents: "none" }}>🔍</span>
+              <span style={{ position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)", color: C.muted, fontSize: 15, pointerEvents: "none" }}>🔍</span>
               <input
                 value={search}
                 onChange={e => { setSearch(e.target.value); setCalDay(null); setShowAll(false); }}
-                placeholder="店舗名・駅名・地域・演者名で検索"
+                placeholder={isMobile ? "店舗名・地域・演者名" : "店舗名・駅名・地域・演者名で検索"}
                 style={{
-                  width: "100%", padding: "10px 14px 10px 38px",
+                  width: "100%", padding: isMobile ? "9px 10px 9px 32px" : "10px 14px 10px 38px",
                   background: "#fff", border: `1px solid ${C.border}`,
-                  borderRadius: 4, color: C.text, fontSize: 14,
+                  borderRadius: 6, color: C.text, fontSize: isMobile ? 14 : 14,
                   outline: "none", boxSizing: "border-box",
                   transition: "border-color .2s",
                 }}
@@ -716,28 +709,31 @@ export default function Page() {
             </div>
             <button style={{
               background: C.red, color: "#fff",
-              padding: "0 20px", border: "none", borderRadius: 4,
+              padding: "0 16px", border: "none", borderRadius: 6,
               fontSize: 14, fontWeight: 700, cursor: "pointer", flexShrink: 0,
             }}>検索</button>
           </div>
 
           {/* 人気キーワード */}
-          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center" }}>
-            <span style={{ fontSize: 11, color: C.muted, fontWeight: 700, marginRight: 2 }}>人気キーワード</span>
-            {["蒲田","錦糸町","北千住","赤羽","新宿","池袋","立川","梅田","なんば","天神","博多","栄"].map(s => (
+          <div style={{ display: "flex", gap: 5, flexWrap: "wrap", alignItems: "center" }}>
+            <span style={{ fontSize: 10, color: C.muted, fontWeight: 700, marginRight: 1, whiteSpace: "nowrap" }}>人気</span>
+            {(isMobile
+              ? ["蒲田","錦糸町","北千住","新宿","梅田","なんば","天神"]
+              : ["蒲田","錦糸町","北千住","赤羽","新宿","池袋","立川","梅田","なんば","天神","博多","栄"]
+            ).map(s => (
               <button key={s} onClick={() => { setSearch(search === s ? "" : s); setCalDay(null); setShowAll(false); }} style={{
                 background: search === s ? C.red : "#f5f5f5",
                 border: `1px solid ${search === s ? C.red : C.border}`,
                 color: search === s ? "#fff" : C.sub,
-                fontSize: 12, fontWeight: 600, padding: "4px 12px",
+                fontSize: 11, fontWeight: 600, padding: "3px 10px",
                 borderRadius: 999, cursor: "pointer", transition: "all .15s",
               }}>{s}</button>
             ))}
           </div>
 
           {loaded && (
-            <div style={{ marginTop: 10, fontSize: 12, color: C.muted }}>
-              <span style={{ color: C.red, fontWeight: 700 }}>{totalFiltered}</span>件表示 / 全{events.length}件
+            <div style={{ marginTop: 8, fontSize: 11, color: C.muted }}>
+              <span style={{ color: C.red, fontWeight: 700 }}>{totalFiltered}</span>件 / 全{events.length.toLocaleString()}件
             </div>
           )}
         </div>
@@ -1096,31 +1092,38 @@ export default function Page() {
       </div>
 
       {/* ━━ メインコンテンツ ━━ */}
-      <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 16px 80px" }}>
+      <div style={{ maxWidth: 1160, margin: "0 auto", padding: `0 ${isMobile ? 10 : 16}px ${isMobile ? 72 : 80}px` }}>
 
         {/* フィルターバー */}
         <div style={{ background: C.white, borderRadius: 6, border: `1px solid ${C.border}`, padding: "14px 16px", marginTop: 16, marginBottom: 4 }}>
 
           {/* お気に入り＋リスト/カレンダー */}
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 10 }}>
-            <button onClick={handleFavorites} style={{
-              background: showFavorites ? "#ffe0e0" : "#f5f5f5",
-              border: `1px solid ${showFavorites ? C.red : C.border}`,
-              color: showFavorites ? C.red : C.muted,
-              fontSize: 13, fontWeight: 800, padding: "6px 16px",
-              borderRadius: 999, cursor: "pointer", transition: "all .15s",
-              display: "flex", alignItems: "center", gap: 6,
-            }}>
-              <span>{showFavorites ? "❤️" : "🤍"}</span>
-              お気に入り
-              {favorites.size > 0 && (
-                <span style={{
-                  background: showFavorites ? C.red : C.dim,
-                  color: "#fff", fontSize: 10, fontWeight: 900,
-                  padding: "1px 7px", borderRadius: 999, minWidth: 18, textAlign: "center",
-                }}>{favorites.size}</span>
-              )}
-            </button>
+            {/* モバイルではボトムナビにあるので非表示 */}
+            {!isMobile && (
+              <button onClick={handleFavorites} style={{
+                background: showFavorites ? "#ffe0e0" : "#f5f5f5",
+                border: `1px solid ${showFavorites ? C.red : C.border}`,
+                color: showFavorites ? C.red : C.muted,
+                fontSize: 13, fontWeight: 800, padding: "6px 16px",
+                borderRadius: 999, cursor: "pointer", transition: "all .15s",
+                display: "flex", alignItems: "center", gap: 6,
+              }}>
+                <span>{showFavorites ? "❤️" : "🤍"}</span>
+                お気に入り
+                {favorites.size > 0 && (
+                  <span style={{
+                    background: showFavorites ? C.red : C.dim,
+                    color: "#fff", fontSize: 10, fontWeight: 900,
+                    padding: "1px 7px", borderRadius: 999, minWidth: 18, textAlign: "center",
+                  }}>{favorites.size}</span>
+                )}
+              </button>
+            )}
+            {isMobile && showFavorites && (
+              <span style={{ fontSize: 12, color: C.red, fontWeight: 800 }}>❤️ お気に入り中</span>
+            )}
+            {isMobile && !showFavorites && <div />}
             <div style={{ display: "flex", gap: 6 }}>
               {(["list","calendar"] as const).map(m => (
                 <button key={m} onClick={() => { setViewMode(m); setCalDay(null); }} style={{
@@ -1346,6 +1349,59 @@ export default function Page() {
           );
         })()}
       </div>
+
+      {/* ━━ モバイル ボトムナビ ━━ */}
+      {isMobile && (
+        <nav style={{
+          position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 300,
+          background: "#fff",
+          borderTop: `1px solid ${C.border}`,
+          boxShadow: "0 -2px 12px rgba(0,0,0,.08)",
+          display: "flex", height: 56,
+          paddingBottom: "env(safe-area-inset-bottom, 0px)",
+        }}>
+          {[
+            { href: "/",        icon: "🏠", label: "ホーム",   active: true },
+            { href: "/torisai", icon: "📡", label: "取材",     active: false },
+            { href: "/stores",  icon: "🔍", label: "ホール",   active: false },
+            { href: "/blog",    icon: "📝", label: "ブログ",   active: false },
+          ].map(({ href, icon, label, active }) => (
+            <Link key={href} href={href} style={{
+              flex: 1, display: "flex", flexDirection: "column",
+              alignItems: "center", justifyContent: "center", gap: 2,
+              textDecoration: "none",
+              color: active ? C.red : C.muted,
+              borderTop: active ? `2px solid ${C.red}` : "2px solid transparent",
+              background: active ? "#fff5f5" : "transparent",
+              fontSize: 9, fontWeight: active ? 800 : 600,
+            }}>
+              <span style={{ fontSize: 18, lineHeight: 1 }}>{icon}</span>
+              {label}
+            </Link>
+          ))}
+          <button onClick={handleFavorites} style={{
+            flex: 1, display: "flex", flexDirection: "column",
+            alignItems: "center", justifyContent: "center", gap: 2,
+            border: "none", borderTop: showFavorites ? `2px solid ${C.red}` : "2px solid transparent",
+            background: showFavorites ? "#fff5f5" : "transparent",
+            cursor: "pointer",
+            color: showFavorites ? C.red : C.muted,
+            fontSize: 9, fontWeight: showFavorites ? 800 : 600,
+            padding: 0, position: "relative",
+          }}>
+            <span style={{ fontSize: 18, lineHeight: 1 }}>{showFavorites ? "❤️" : "🤍"}</span>
+            お気に入り
+            {favorites.size > 0 && (
+              <span style={{
+                position: "absolute", top: 4, right: "calc(50% - 18px)",
+                background: C.red, color: "#fff",
+                fontSize: 9, fontWeight: 900, padding: "1px 4px",
+                borderRadius: 999, minWidth: 16, textAlign: "center", lineHeight: 1.4,
+              }}>{favorites.size}</span>
+            )}
+          </button>
+        </nav>
+      )}
 
       {/* ━━ 広告掲載募集 ━━ */}
       <div style={{ background: "#fff8f0", borderTop: "2px solid #e60000", padding: "32px 16px" }}>
