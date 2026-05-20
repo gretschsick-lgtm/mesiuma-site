@@ -354,9 +354,6 @@ def main():
                         help="データソース: ptown(デフォルト) / x / both")
     args = parser.parse_args()
 
-    with open(AREAS_JSON, encoding="utf-8") as f:
-        areas: dict = json.load(f)
-
     # 既存データをロード
     machines: dict = {}
     if MACHINES_JSON.exists():
@@ -365,6 +362,9 @@ def main():
 
     # ── p-town スクレイプ ──────────────────────────────────────
     if args.source in ("ptown", "both"):
+        with open(AREAS_JSON, encoding="utf-8") as f:
+            areas: dict = json.load(f)
+
         if args.pref:
             prefs = [p.strip() for p in args.pref.split(",") if p.strip()]
         else:

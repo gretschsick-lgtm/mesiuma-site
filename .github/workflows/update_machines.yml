@@ -198,8 +198,8 @@ jobs:
               except Exception as ex:
                   print(f"既存ファイル読み込みエラー: {ex}")
 
-          # アーティファクト読み込み（新しいデータで上書き）
-          artifact_dirs = sorted(Path("artifacts").glob("machines-*/store_machines.json"))
+          # 地域ジョブ (g1-g8) のアーティファクト読み込み（X補完は除く）
+          artifact_dirs = sorted(Path("artifacts").glob("machines-g*/store_machines.json"))
           for p in artifact_dirs:
               try:
                   data = json.loads(p.read_text(encoding="utf-8"))
