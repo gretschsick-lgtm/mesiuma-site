@@ -21,6 +21,7 @@ type Ev = {
   x_url?: string;
   image_url?: string;
   url?: string;
+  source?: string;
 };
 type YtVideo = { id: string; title: string; published: string; thumbnail?: string };
 type PickupStore = { id: string; name: string; pref?: string; area?: string; note?: string; image_url?: string; x_url?: string; hp_url?: string };
@@ -295,6 +296,24 @@ export default function Page() {
     }
     return result;
   }, [events, manualPickups, todayStr]);
+
+  // ─── 店舗収録（YouTubeイベント）──────────────────────────
+  const storeRecordings = useMemo(() => {
+    return events
+      .filter(ev => {
+        const src = ev.source || "";
+        const url = ev.url || "";
+        const evt = ev.event || "";
+        return (
+          src.includes("youtube") ||
+          url.includes("youtube.com/watch") ||
+          url.includes("youtu.be/") ||
+          evt === "撮影"
+        );
+      })
+      .filter(ev => isValidStore(ev.store))
+      .slice(0, 30);
+  }, [events]);
 
   // ─── イベントカード ──────────────────────────────────────
   const renderCard = (ev: Ev) => {
@@ -636,6 +655,115 @@ export default function Page() {
           )}
         </div>
       </div>
+
+      {/* ━━ 店舗収録 ━━ */}
+      {storeRecordings.length > 0 && (
+        <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
+          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "16px 16px 4px" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <div style={{ width: 4, height: 20, background: "#cc0000", borderRadius: 2 }} />
+                <span style={{ fontSize: 15, fontWeight: 800, color: C.text }}>📹 店舗収録</span>
+                <span style={{
+                  background: "#cc0000", color: "#fff",
+                  fontSize: 10, fontWeight: 800, padding: "2px 8px", borderRadius: 3,
+                }}>YouTube</span>
+              </div>
+              <span style={{ fontSize: 11, color: C.muted }}>横スクロールで見る</span>
+            </div>
+
+            <div style={{ overflowX: "auto", paddingBottom: 16 }}>
+              <div style={{ display: "flex", gap: 12, width: "max-content" }}>
+                {storeRecordings.map(ev => {
+                  // YouTube動画IDを抽出
+                  const ytUrl = ev.url || "";
+                  let videoId = "";
+                  const m1 = ytUrl.match(/[?&]v=([A-Za-z0-9_-]{11})/);
+                  const m2 = ytUrl.match(/youtu\.be\/([A-Za-z0-9_-]{11})/);
+                  const m3 = ytUrl.match(/\/shorts\/([A-Za-z0-9_-]{11})/);
+                  if (m1) videoId = m1[1];
+                  else if (m2) videoId = m2[1];
+                  else if (m3) videoId = m3[1];
+
+                  const thumb = videoId
+                    ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg`
+                    : (ev.image_url || "");
+
+                  const cardW = isMobile ? 160 : 200;
+
+                  return (
+                    <a
+                      key={ev.id}
+                      href={ytUrl || "#"}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ textDecoration: "none", width: cardW, flexShrink: 0 }}
+                    >
+                      <div style={{
+                        border: `1px solid ${C.border}`, borderRadius: 10, overflow: "hidden",
+                        background: C.white, transition: "box-shadow .15s",
+                      }}
+                        onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "0 4px 20px rgba(204,0,0,.2)"; }}
+                        onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
+                      >
+                        {/* サムネイル */}
+                        <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#111", overflow: "hidden" }}>
+                          {thumb ? (
+                            // eslint-disable-next-line @next/next/no-img-element
+                            <img src={thumb} alt={ev.store} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
+                          ) : (
+                            <div style={{ width: "100%", height: "100%", background: "linear-gradient(135deg,#1a1a1a,#333)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30 }}>🎬</div>
+                          )}
+                          {/* 再生ボタン */}
+                          <div style={{
+                            position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center",
+                            background: "rgba(0,0,0,.15)",
+                          }}>
+                            <div style={{
+                              width: 40, height: 40, borderRadius: "50%",
+                              background: "rgba(204,0,0,.92)",
+                              display: "flex", alignItems: "center", justifyContent: "center",
+                              fontSize: 16, color: "#fff", paddingLeft: 3,
+                            }}>▶</div>
+                          </div>
+                          {/* 撮影バッジ */}
+                          <div style={{
+                            position: "absolute", top: 6, left: 6,
+                            background: "#9933cc", color: "#fff",
+                            fontSize: 9, fontWeight: 800, padding: "2px 7px", borderRadius: 3,
+                          }}>収録</div>
+                        </div>
+
+                        {/* 情報 */}
+                        <div style={{ padding: "9px 10px 11px" }}>
+                          <div style={{
+                            fontSize: 12, fontWeight: 800, color: C.text, lineHeight: 1.4, marginBottom: 4,
+                            overflow: "hidden", display: "-webkit-box",
+                            WebkitLineClamp: 2, WebkitBoxOrient: "vertical",
+                          }}>{ev.store}</div>
+                          <div style={{ display: "flex", gap: 5, flexWrap: "wrap", alignItems: "center" }}>
+                            {ev.date && (
+                              <span style={{ fontSize: 10, color: C.red, fontWeight: 700 }}>{ev.date}</span>
+                            )}
+                            {ev.pref && (
+                              <span style={{ fontSize: 10, color: C.muted }}>{ev.pref}</span>
+                            )}
+                          </div>
+                          {ev.cast && (
+                            <div style={{ fontSize: 10, color: "#9933cc", fontWeight: 700, marginTop: 3, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }}>
+                              📹 {ev.cast}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </a>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* ━━ バナーエリア ━━ */}
       <div style={{ background: C.white, borderBottom: `1px solid ${C.border}` }}>
