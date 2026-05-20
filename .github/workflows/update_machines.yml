@@ -2,14 +2,14 @@ name: Update Machine Data
 
 on:
   schedule:
-    # 4時間ごと (UTC 0,4,8,12,16,20時 = JST 9,13,17,21,1,5時)
-    - cron: "0 0,4,8,12,16,20 * * *"
+    # 2時間ごと (UTC 0,2,4,6,8,10,12,14,16,18,20,22時)
+    - cron: "0 */2 * * *"
   workflow_dispatch: # 手動実行も可
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
@@ -22,20 +22,32 @@ jobs:
 
       - name: Fetch machine data from DMM
         run: |
-          # 時刻に応じて担当エリアを分散（1回あたり約1/6の都道府県）
+          # 時刻に応じて担当エリアを分散（1回あたり約1/12の都道府県）
           HOUR=$(date -u +%H)
-          if   [ "$HOUR" = "00" ] || [ "$HOUR" = "01" ]; then
-            PREFS="北海道,青森県,岩手県,宮城県,秋田県,山形県,福島県"
-          elif [ "$HOUR" = "04" ] || [ "$HOUR" = "05" ]; then
-            PREFS="東京都,神奈川県,埼玉県,千葉県,茨城県,栃木県,群馬県"
-          elif [ "$HOUR" = "08" ] || [ "$HOUR" = "09" ]; then
-            PREFS="愛知県,静岡県,新潟県,長野県,岐阜県,石川県,富山県,福井県,山梨県"
-          elif [ "$HOUR" = "12" ] || [ "$HOUR" = "13" ]; then
-            PREFS="大阪府,兵庫県,京都府,奈良県,滋賀県,三重県,和歌山県"
-          elif [ "$HOUR" = "16" ] || [ "$HOUR" = "17" ]; then
-            PREFS="広島県,岡山県,山口県,鳥取県,島根県,愛媛県,香川県,徳島県,高知県"
+          if   [ "$HOUR" = "00" ]; then
+            PREFS="北海道,青森県,岩手県,宮城県"
+          elif [ "$HOUR" = "02" ]; then
+            PREFS="秋田県,山形県,福島県,茨城県"
+          elif [ "$HOUR" = "04" ]; then
+            PREFS="東京都,神奈川県,埼玉県"
+          elif [ "$HOUR" = "06" ]; then
+            PREFS="千葉県,栃木県,群馬県"
+          elif [ "$HOUR" = "08" ]; then
+            PREFS="愛知県,静岡県,岐阜県"
+          elif [ "$HOUR" = "10" ]; then
+            PREFS="新潟県,長野県,石川県,富山県,福井県,山梨県"
+          elif [ "$HOUR" = "12" ]; then
+            PREFS="大阪府,兵庫県,京都府"
+          elif [ "$HOUR" = "14" ]; then
+            PREFS="奈良県,滋賀県,三重県,和歌山県"
+          elif [ "$HOUR" = "16" ]; then
+            PREFS="広島県,岡山県,山口県,鳥取県,島根県"
+          elif [ "$HOUR" = "18" ]; then
+            PREFS="愛媛県,香川県,徳島県,高知県"
+          elif [ "$HOUR" = "20" ]; then
+            PREFS="福岡県,熊本県,鹿児島県,宮崎県"
           else
-            PREFS="福岡県,熊本県,鹿児島県,宮崎県,大分県,長崎県,佐賀県,沖縄県"
+            PREFS="大分県,長崎県,佐賀県,沖縄県"
           fi
           python scripts/fetch_machine_data.py --pref "$PREFS"
 

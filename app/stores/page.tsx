@@ -142,39 +142,37 @@ export default function StoresPage() {
         background: C.white, borderBottom: `3px solid ${C.red}`,
         boxShadow: "0 2px 8px rgba(0,0,0,.08)",
       }}>
-        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center", gap: 16, height: 52 }}>
-          <Link href="/" style={{ color: C.red, fontWeight: 900, fontSize: 16, textDecoration: "none", whiteSpace: "nowrap" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 12px", display: "flex", alignItems: "center", gap: 8, height: 52 }}>
+          <Link href="/" style={{ color: C.red, fontWeight: 900, fontSize: isMobile ? 14 : 16, textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>
             メシウマ稼働
           </Link>
-          <span style={{ color: C.border }}>|</span>
-          <span style={{ color: C.text, fontSize: 14, fontWeight: 700 }}>全国ホール検索</span>
+          {!isMobile && <><span style={{ color: C.border }}>|</span><span style={{ color: C.text, fontSize: 14, fontWeight: 700, whiteSpace: "nowrap" }}>全国ホール検索</span></>}
           <div style={{ flex: 1 }} />
           {/* 検索ボックス（ヘッダー） */}
           <input
             type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
-            placeholder="店舗名で検索..."
+            placeholder={isMobile ? "店舗名検索..." : "店舗名で検索..."}
             style={{
-              width: isMobile ? 140 : 220, padding: "6px 12px", fontSize: 13,
+              width: isMobile ? "min(160px, 45vw)" : 220, padding: "6px 12px", fontSize: 13,
               border: `1.5px solid ${C.border}`, borderRadius: 20,
-              outline: "none", fontFamily: "inherit",
+              outline: "none", fontFamily: "inherit", minWidth: 0,
             }}
           />
         </div>
       </header>
 
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "16px 16px 80px", display: "flex", gap: 16, alignItems: "flex-start" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "12px 12px 80px", display: "flex", flexDirection: isMobile ? "column" : "row", gap: 16, alignItems: "flex-start" }}>
 
         {/* ===== サイドバー ===== */}
         {isMobile && (
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
             style={{
-              display: "block", width: "100%", padding: "10px",
+              width: "100%", padding: "10px",
               background: C.red, color: "#fff", border: "none",
               borderRadius: 6, fontSize: 13, fontWeight: 700, cursor: "pointer",
-              marginBottom: 12,
             }}
           >
             {sidebarOpen ? "▲ エリア絞り込みを閉じる" : "▼ エリア・市区町村から絞り込む"}
@@ -278,7 +276,7 @@ export default function StoresPage() {
                 }}>
                   市区町村から絞り込む
                 </div>
-                <div style={{ maxHeight: 400, overflowY: "auto" }}>
+                <div style={{ maxHeight: isMobile ? 220 : 400, overflowY: "auto" }}>
                   <button
                     onClick={() => setCity("")}
                     style={{
@@ -397,8 +395,8 @@ export default function StoresPage() {
               const card = (
                 <div style={{
                   background: C.white, border: `1px solid ${C.border}`,
-                  borderRadius: 6, padding: "12px 16px",
-                  display: "flex", alignItems: "flex-start", gap: 12,
+                  borderRadius: 6, padding: "10px 12px",
+                  display: "flex", alignItems: "flex-start", gap: 10,
                   opacity: isEventless ? 0.55 : noEvent ? 0.78 : 1,
                   transition: "box-shadow .12s",
                 }}
@@ -406,106 +404,90 @@ export default function StoresPage() {
                   onMouseLeave={e => (e.currentTarget.style.boxShadow = "none")}
                 >
                   {/* 左: イベント件数バッジ */}
-                  <div style={{
-                    flexShrink: 0, width: 52, textAlign: "center",
-                    paddingTop: 2,
-                  }}>
+                  <div style={{ flexShrink: 0, width: 46, textAlign: "center", paddingTop: 2 }}>
                     {store.event_count > 0 ? (
                       <div style={{
                         background: C.red, color: "#fff",
                         borderRadius: 4, padding: "3px 0", fontSize: 11, fontWeight: 900,
                         lineHeight: 1.2,
                       }}>
-                        <div style={{ fontSize: 16, fontWeight: 900 }}>{store.event_count}</div>
-                        <div style={{ fontSize: 9 }}>イベント</div>
+                        <div style={{ fontSize: 15, fontWeight: 900 }}>{store.event_count}</div>
+                        <div style={{ fontSize: 9 }}>実績</div>
                       </div>
                     ) : (
                       <div style={{
                         background: "#f5f5f5", color: C.dim,
-                        borderRadius: 4, padding: "3px 0", fontSize: 10,
-                        lineHeight: 1.2,
+                        borderRadius: 4, padding: "3px 0", fontSize: 10, lineHeight: 1.2,
                       }}>
-                        <div style={{ fontSize: 14 }}>—</div>
-                        <div style={{ fontSize: 9 }}>実績なし</div>
+                        <div style={{ fontSize: 13 }}>—</div>
+                        <div style={{ fontSize: 9 }}>なし</div>
                       </div>
                     )}
                   </div>
 
-                  {/* 右: 店舗情報 */}
-                  <div style={{ flex: 1, minWidth: 0 }}>
-                    <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap", marginBottom: 4 }}>
+                  {/* 中: 店舗情報 */}
+                  <div style={{ flex: 1, minWidth: 0, overflow: "hidden" }}>
+                    <div style={{ display: "flex", alignItems: "baseline", gap: 6, flexWrap: "wrap", marginBottom: 2 }}>
                       <span style={{
-                        fontSize: 15, fontWeight: 700,
+                        fontSize: 14, fontWeight: 700,
                         color: isEventless || noEvent ? C.sub : C.red,
-                        lineHeight: 1.3,
+                        lineHeight: 1.4, wordBreak: "break-all",
                       }}>
                         {store.name}
                       </span>
                       {store.is_low_rental && (
                         <span style={{
                           background: "#e8f0ff", color: "#0055cc", fontSize: 10, fontWeight: 700,
-                          padding: "1px 7px", borderRadius: 3, border: "1px solid #0055cc44",
-                          whiteSpace: "nowrap",
+                          padding: "1px 6px", borderRadius: 3, border: "1px solid #0055cc44",
+                          whiteSpace: "nowrap", flexShrink: 0,
                         }}>
                           低貸し
                         </span>
                       )}
                     </div>
 
-                    <div style={{ display: "flex", gap: 10, flexWrap: "wrap", alignItems: "center" }}>
-                      {/* 所在地 */}
-                      {!city && (
-                        <span style={{ fontSize: 12, color: C.muted }}>
-                          📍 {store.pref}{store.city ? ` ${store.city}` : ""}
-                        </span>
-                      )}
-                      {store.address && (
-                        <span style={{ fontSize: 12, color: C.muted, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", maxWidth: 300 }}>
-                          {store.address}
-                        </span>
-                      )}
-                    </div>
+                    {/* 所在地 */}
+                    {(!city || store.address) && (
+                      <div style={{ fontSize: 12, color: C.muted, marginBottom: 4, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                        {!city && <span>📍 {store.pref}{store.city ? ` ${store.city}` : ""}</span>}
+                        {store.address && <span style={{ marginLeft: !city ? 6 : 0 }}>{store.address}</span>}
+                      </div>
+                    )}
 
                     {/* アイコンリンク */}
-                    <div style={{ display: "flex", gap: 8, marginTop: 6, flexWrap: "wrap" }}>
+                    <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
                       {store.lottery_time && (
-                        <span style={{ fontSize: 11, color: "#996600", background: "#fffbe8", border: "1px solid #f0d060", borderRadius: 3, padding: "1px 7px" }}>
-                          🎰 整列 {store.lottery_time}
+                        <span style={{ fontSize: 10, color: "#996600", background: "#fffbe8", border: "1px solid #f0d060", borderRadius: 3, padding: "1px 6px", whiteSpace: "nowrap" }}>
+                          🎰 {store.lottery_time}
                         </span>
                       )}
                       {store.hp_url && (
                         <a href={store.hp_url} target="_blank" rel="noopener noreferrer"
                           onClick={e => e.stopPropagation()}
-                          style={{ fontSize: 11, color: C.red, border: `1px solid #ffcccc`, borderRadius: 3, padding: "1px 7px", textDecoration: "none", background: "#fff0f0" }}>
-                          🌐 公式HP
+                          style={{ fontSize: 10, color: C.red, border: `1px solid #ffcccc`, borderRadius: 3, padding: "1px 6px", textDecoration: "none", background: "#fff0f0", whiteSpace: "nowrap" }}>
+                          🌐 HP
                         </a>
                       )}
                       {store.x_url && (
                         <a href={store.x_url} target="_blank" rel="noopener noreferrer"
                           onClick={e => e.stopPropagation()}
-                          style={{ fontSize: 11, color: "#222", border: "1px solid #ccc", borderRadius: 3, padding: "1px 7px", textDecoration: "none", background: "#f5f5f5" }}>
-                          𝕏 X
+                          style={{ fontSize: 10, color: "#222", border: "1px solid #ccc", borderRadius: 3, padding: "1px 6px", textDecoration: "none", background: "#f5f5f5", whiteSpace: "nowrap" }}>
+                          𝕏
                         </a>
                       )}
                       {store.map_url && (
                         <a href={store.map_url} target="_blank" rel="noopener noreferrer"
                           onClick={e => e.stopPropagation()}
-                          style={{ fontSize: 11, color: "#4285f4", border: "1px solid #c8d8ff", borderRadius: 3, padding: "1px 7px", textDecoration: "none", background: "#f0f5ff" }}>
+                          style={{ fontSize: 10, color: "#4285f4", border: "1px solid #c8d8ff", borderRadius: 3, padding: "1px 6px", textDecoration: "none", background: "#f0f5ff", whiteSpace: "nowrap" }}>
                           🗺 地図
                         </a>
                       )}
                     </div>
                   </div>
 
-                  {/* 右端: 詳細ボタン（イベントあり店舗のみ） */}
+                  {/* 右端: 詳細矢印 */}
                   {!isEventless && (
-                    <div style={{ flexShrink: 0, alignSelf: "center" }}>
-                      <span style={{
-                        fontSize: 11, color: C.muted, whiteSpace: "nowrap",
-                      }}>
-                        詳細 ›
-                      </span>
-                    </div>
+                    <div style={{ flexShrink: 0, alignSelf: "center", color: C.muted, fontSize: 16 }}>›</div>
                   )}
                 </div>
               );
