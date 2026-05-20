@@ -1,0 +1,48 @@
+name: Update Events
+
+on:
+  schedule:
+    # 3時間ごと (UTC 0,3,6,9,12,15,18,21時 = JST 9,12,15,18,21,0,3,6時)
+    - cron: "0 0,3,6,9,12,15,18,21 * * *"
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright playwright-stealth
+          playwright install chromium --with-deps
+
+      - name: Fetch events (X + Google News)
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: |
+          python scripts/fetch_events.py --headless
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/events_public.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            COUNT=$(python3 -c "import json; d=json.load(open('public/events_public.json')); print(len(d.get('events', d) if isinstance(d, dict) else d))")
+            git commit -m "chore: update events_public.json (${COUNT}件)"
+            git push
+          fi
