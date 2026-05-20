@@ -715,19 +715,39 @@ export default function Page() {
       }}>
         {/* PC: 1行レイアウト / モバイル: 2行レイアウト */}
         {isMobile ? (
-          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 14px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 46 }}>
-            <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 7 }}>
-              <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 13, padding: "4px 7px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
-              <div>
-                <div style={{ fontSize: 14, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働株式会社</div>
-                <div style={{ fontSize: 9, color: C.muted }}>全国パチスロイベント情報</div>
-              </div>
-            </Link>
-            <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-              <span style={{ fontSize: 12, color: C.muted, fontWeight: 700 }}>
+          <div>
+            {/* 1行目: ロゴ + 件数 */}
+            <div style={{ padding: "0 14px", display: "flex", alignItems: "center", justifyContent: "space-between", height: 42 }}>
+              <Link href="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: 7 }}>
+                <div style={{ background: C.red, color: "#fff", fontWeight: 900, fontSize: 12, padding: "3px 6px", borderRadius: 4, lineHeight: 1 }}>🔥</div>
+                <div>
+                  <div style={{ fontSize: 13, fontWeight: 900, color: C.red, lineHeight: 1 }}>メシウマ稼働株式会社</div>
+                  <div style={{ fontSize: 9, color: C.muted }}>全国パチスロイベント情報</div>
+                </div>
+              </Link>
+              <span style={{ fontSize: 11, color: C.muted, fontWeight: 700 }}>
                 {loaded ? <><span style={{ color: C.red, fontWeight: 800 }}>{events.length.toLocaleString()}</span>件</> : ""}
               </span>
             </div>
+            {/* 2行目: タブ */}
+            <nav style={{ display: "flex", borderTop: `1px solid ${C.border}` }}>
+              {[
+                { href: "/",        label: "ホーム",   icon: "🏠", active: true },
+                { href: "/torisai", label: "取材",     icon: "📡", active: false },
+                { href: "/stores",  label: "ホール",   icon: "🔍", active: false },
+                { href: "/blog",    label: "ブログ",   icon: "📝", active: false },
+              ].map(({ href, label, icon, active }) => (
+                <Link key={href} href={href} style={{
+                  flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center",
+                  padding: "6px 0", textDecoration: "none",
+                  borderBottom: active ? `3px solid ${C.red}` : "3px solid transparent",
+                  background: active ? "#fff5f5" : "transparent",
+                }}>
+                  <span style={{ fontSize: 16 }}>{icon}</span>
+                  <span style={{ fontSize: 10, fontWeight: 700, color: active ? C.red : C.muted, marginTop: 1 }}>{label}</span>
+                </Link>
+              ))}
+            </nav>
           </div>
         ) : (
           <div style={{ maxWidth: 1160, margin: "0 auto", padding: "0 16px", display: "flex", alignItems: "center", height: 52, gap: 0 }}>
