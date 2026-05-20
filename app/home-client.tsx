@@ -62,12 +62,14 @@ function isValidStore(store: string) {
   return store.length > 1;
 }
 
-function getEvType(ev: Ev): "raiten" | "satsuei" | "torisai" | "normal" {
+function getEvType(ev: Ev): "raiten" | "satsuei" | "torisai" | "shunen" | "shindai" | "normal" {
   const event = ev.event || "";
   const cast  = ev.cast  || "";
-  if (event.includes("来店") || cast.includes("来店")) return "raiten";
+  if (event.includes("来店") || cast.includes("来店") || event.includes("タレント") || event.includes("演者")) return "raiten";
   if (event.includes("撮影") || (cast.includes("撮影") && !CAST_NG.some(w=>cast.includes(w)))) return "satsuei";
   if (event.includes("取材") || event.includes("調査員")) return "torisai";
+  if (event.includes("周年") || event.includes("リニューアル")) return "shunen";
+  if (event.includes("新台") || event.includes("新装") || event.includes("オープン")) return "shindai";
   return "normal";
 }
 
@@ -115,6 +117,8 @@ const EV_STYLE = {
   raiten:  { border:"#e60000", bg:"#fff5f5", label:"来店演者", badge:"#e60000", dot:"#e60000" },
   satsuei: { border:"#9933cc", bg:"#faf5ff", label:"撮影",    badge:"#9933cc", dot:"#9933cc" },
   torisai: { border:"#0066cc", bg:"#f5f9ff", label:"取材",    badge:"#0066cc", dot:"#0066cc" },
+  shunen:  { border:"#cc8800", bg:"#fffbf0", label:"周年",    badge:"#cc8800", dot:"#cc8800" },
+  shindai: { border:"#009933", bg:"#f0fff5", label:"新台",    badge:"#009933", dot:"#009933" },
   normal:  { border:"#e0e0e0", bg:"#ffffff", label:"",        badge:"#ff6600", dot:"#ffaa00" },
 };
 
@@ -270,7 +274,7 @@ export default function Page() {
     const limit = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 7);
     const limitStr = `${String(limit.getMonth()+1).padStart(2,"0")}/${String(limit.getDate()).padStart(2,"0")}`;
     const manualNames = new Set(manualPickups.map(s => s.name));
-    const typePriority: Record<string, number> = { raiten: 0, torisai: 1, satsuei: 2, normal: 9 };
+    const typePriority: Record<string, number> = { raiten: 0, shunen: 1, shindai: 2, torisai: 3, satsuei: 4, normal: 9 };
     // 日付ベースの毎日変わるシード
     const seed = todayStr.replace(/\//g, "");
     const hash = (s: string) => {
@@ -283,7 +287,8 @@ export default function Page() {
         isValidStore(ev.store) &&
         ev.date && ev.date >= todayStr && ev.date <= limitStr &&
         getEvType(ev) !== "normal" &&
-        !manualNames.has(ev.store)
+        !manualNames.has(ev.store) &&
+        ev.store.length <= 25  // 長すぎる店舗名（文章化したもの）を除外
       )
       .sort((a, b) => {
         const dateDiff = a.date.localeCompare(b.date);
@@ -294,15 +299,15 @@ export default function Page() {
       });
     const seenStores = new Set<string>();
     const seenEvents = new Set<string>();
-    const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string }[] = [];
+    const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string; evType: string }[] = [];
     for (const ev of candidates) {
       if (seenStores.has(ev.store)) continue;
-      const evKey = (ev.event || "").trim();
-      if (evKey && seenEvents.has(evKey)) continue;
+      const evType = getEvType(ev);
+      const evKey = `${ev.store}_${evType}`;
+      if (seenStores.has(ev.store)) continue;
       seenStores.add(ev.store);
-      if (evKey) seenEvents.add(evKey);
-      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "" });
-      if (result.length >= 10) break;
+      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "", evType });
+      if (result.length >= 12) break;
     }
     return result;
   }, [events, manualPickups, todayStr]);
@@ -1004,40 +1009,59 @@ export default function Page() {
                   );
                 })}
                 {/* 自動ピックアップ */}
-                {autoPickups.map(s => (
-                  <button key={s.store} onClick={() => { setSearch(s.store); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }} style={{
-                    background: "#f8f8f8", border: `1px solid ${C.border}`,
-                    borderRadius: 10, padding: 0, cursor: "pointer",
-                    width: 130, flexShrink: 0, overflow: "hidden",
-                    display: "flex", flexDirection: "column", textAlign: "left",
-                    transition: "box-shadow .15s",
-                  }}
-                    onMouseEnter={e => { (e.currentTarget as HTMLElement).style.boxShadow = "0 4px 16px rgba(0,0,0,.12)"; }}
-                    onMouseLeave={e => { (e.currentTarget as HTMLElement).style.boxShadow = "none"; }}
-                  >
-                    {s.image_url ? (
-                      <div style={{ width: "100%", height: 72, overflow: "hidden", position: "relative" }}>
-                        {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={s.image_url} alt={s.store} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+                {autoPickups.map(s => {
+                  const sty = EV_STYLE[s.evType as keyof typeof EV_STYLE] ?? EV_STYLE.raiten;
+                  const defaultBg: Record<string, string> = {
+                    raiten:  "linear-gradient(135deg,#b30000,#e60000,#ff4444)",
+                    shunen:  "linear-gradient(135deg,#996600,#cc8800,#ffaa00)",
+                    shindai: "linear-gradient(135deg,#006622,#009933,#33cc66)",
+                    torisai: "linear-gradient(135deg,#003380,#0066cc,#3399ff)",
+                    satsuei: "linear-gradient(135deg,#661099,#9933cc,#cc66ff)",
+                  };
+                  const defaultIcon: Record<string, string> = {
+                    raiten:"📅", shunen:"🎊", shindai:"✨", torisai:"📡", satsuei:"📹",
+                  };
+                  const defaultLabel: Record<string, string> = {
+                    raiten:"来店イベント", shunen:"周年イベント", shindai:"新台情報", torisai:"取材", satsuei:"撮影",
+                  };
+                  return (
+                    <button key={s.store} onClick={() => { setSearch(s.store); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }} style={{
+                      background: "#f8f8f8", border: `2px solid ${sty.border}44`,
+                      borderRadius: 10, padding: 0, cursor: "pointer",
+                      width: 130, flexShrink: 0, overflow: "hidden",
+                      display: "flex", flexDirection: "column", textAlign: "left",
+                      transition: "box-shadow .15s",
+                    }}
+                      onMouseEnter={e => { (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 16px ${sty.border}44`; }}
+                      onMouseLeave={e => { (e.currentTarget as HTMLElement).style.boxShadow = "none"; }}
+                    >
+                      {s.image_url ? (
+                        <div style={{ width: "100%", height: 80, overflow: "hidden", position: "relative" }}>
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img src={s.image_url} alt={s.store} style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+                          <div style={{ position: "absolute", top: 5, left: 5, background: sty.badge, color: "#fff", fontSize: 9, fontWeight: 800, padding: "2px 6px", borderRadius: 3 }}>
+                            {sty.label || defaultLabel[s.evType] || ""}
+                          </div>
+                        </div>
+                      ) : (
+                        <div style={{ width: "100%", height: 80, background: defaultBg[s.evType] || defaultBg.raiten, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                          <div style={{ fontSize: 20, color: "#fff", lineHeight: 1 }}>{defaultIcon[s.evType] || "📅"}</div>
+                          <div style={{ fontSize: 9, fontWeight: 900, color: "#fff", letterSpacing: 1, opacity: 0.9 }}>{defaultLabel[s.evType] || ""}</div>
+                        </div>
+                      )}
+                      <div style={{ padding: "7px 9px 9px" }}>
+                        <div style={{ display: "flex", gap: 4, marginBottom: 4 }}>
+                          <span style={{ background: sty.badge, color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 6px", borderRadius: 2 }}>{sty.label || s.evType}</span>
+                          {s.pref && s.pref !== "不明" && <span style={{ fontSize: 9, color: C.muted }}>{s.pref}</span>}
+                        </div>
+                        <div style={{ fontSize: 12, fontWeight: 800, color: C.text, lineHeight: 1.3, marginBottom: 3,
+                          overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}>{s.store}</div>
+                        {s.cast && s.cast.length < 20 && <div style={{ fontSize: 10, color: C.sub }}>👤 {s.cast}</div>}
+                        <div style={{ fontSize: 10, color: sty.badge, fontWeight: 700, marginTop: 2 }}>{s.date}</div>
                       </div>
-                    ) : (
-                      <div style={{ width: "100%", height: 72, background: "linear-gradient(135deg, #b30000 0%, #e60000 50%, #ff4444 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2 }}>
-                        <div style={{ fontSize: 18, color: "#fff", lineHeight: 1 }}>📅</div>
-                        <div style={{ fontSize: 9, fontWeight: 900, color: "#fff", letterSpacing: 1, opacity: 0.9 }}>来店イベント</div>
-                      </div>
-                    )}
-                    <div style={{ padding: "8px 10px 10px" }}>
-                      <div style={{ display: "flex", gap: 4, marginBottom: 5 }}>
-                        <span style={{ background: "#e60000", color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 6px", borderRadius: 2 }}>来店</span>
-                        {s.pref && <span style={{ fontSize: 9, color: C.muted }}>{s.pref}</span>}
-                      </div>
-                      <div style={{ fontSize: 12, fontWeight: 800, color: C.text, lineHeight: 1.3, marginBottom: 4,
-                        overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" }}>{s.store}</div>
-                      {s.cast && <div style={{ fontSize: 10, color: C.muted }}>👤 {s.cast}</div>}
-                      <div style={{ fontSize: 10, color: C.red, fontWeight: 700, marginTop: 3 }}>{s.date.replace("/","/")}来店</div>
-                    </div>
-                  </button>
-                ))}
+                    </button>
+                  );
+                })}
               </div>
             </div>
           </div>
@@ -1296,6 +1320,8 @@ export default function Page() {
                   const hasRaiten = dayEvs.some(e=>getEvType(e)==="raiten");
                   const hasSatsuei = dayEvs.some(e=>getEvType(e)==="satsuei");
                   const hasTorisai = dayEvs.some(e=>getEvType(e)==="torisai");
+                  const hasShunen = dayEvs.some(e=>getEvType(e)==="shunen");
+                  const hasShindai = dayEvs.some(e=>getEvType(e)==="shindai");
                   const today = new Date();
                   const isToday = today.getFullYear()===yr && today.getMonth()===mo && today.getDate()===day;
                   return (
@@ -1314,6 +1340,8 @@ export default function Page() {
                             {hasRaiten  && <div style={{width:6,height:6,borderRadius:"50%",background:"#e60000"}}/>}
                             {hasSatsuei && <div style={{width:6,height:6,borderRadius:"50%",background:"#9933cc"}}/>}
                             {hasTorisai && <div style={{width:6,height:6,borderRadius:"50%",background:"#0066cc"}}/>}
+                            {hasShunen  && <div style={{width:6,height:6,borderRadius:"50%",background:"#cc8800"}}/>}
+                            {hasShindai && <div style={{width:6,height:6,borderRadius:"50%",background:"#009933"}}/>}
                           </div>
                           <div style={{ fontSize: 9, color: C.orange, fontWeight: 700 }}>{dayEvs.length}</div>
                         </>
@@ -1323,7 +1351,7 @@ export default function Page() {
                 })}
               </div>
               <div style={{ display: "flex", gap: 14, justifyContent: "center", marginTop: 12 }}>
-                {[["#e60000","来店演者"],["#9933cc","撮影"],["#0066cc","取材"]].map(([c,l])=>(
+                {[["#e60000","来店演者"],["#9933cc","撮影"],["#0066cc","取材"],["#cc8800","周年"],["#009933","新台"]].map(([c,l])=>(
                   <div key={l} style={{ display: "flex", alignItems: "center", gap: 5 }}>
                     <div style={{width:8,height:8,borderRadius:"50%",background:c}}/>
                     <span style={{fontSize:10,color:C.muted}}>{l}</span>
