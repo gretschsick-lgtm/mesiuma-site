@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 // ─── X アカウント設定 ──────────────────────────────────────────
 const X_ACCOUNT = "mesiuma77";
@@ -172,6 +173,8 @@ export default function Page() {
   const [showFavorites, setShowFavorites] = useState(false);
   const [showRecordingsModal, setShowRecordingsModal] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [storeIdMap, setStoreIdMap] = useState<Record<string, string>>({});
+  const router = useRouter();
 
   useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 640);
@@ -197,6 +200,7 @@ export default function Page() {
     fetch("/store_hp.json").then(r=>r.json()).then(setStoreHp).catch(()=>{});
     fetch("/pickup_stores.json").then(r=>r.json()).then(d=>setManualPickups(d.manual||[])).catch(()=>{});
     fetch("/store_machines.json").then(r=>r.json()).then(setStoreMachines).catch(()=>{});
+    fetch("/store_ids.json").then(r=>r.json()).then(setStoreIdMap).catch(()=>{});
   }, []);
 
   useEffect(() => {
@@ -330,6 +334,16 @@ export default function Page() {
     };
   }, [storeMachines]);
 
+  // ─── 店舗名 → /stores/{id} パス（部分一致）──────────────
+  const getStoreHref = useCallback((storeName: string): string | null => {
+    if (!storeName || Object.keys(storeIdMap).length === 0) return null;
+    if (storeIdMap[storeName]) return `/stores/${storeIdMap[storeName]}`;
+    const key = Object.keys(storeIdMap).find(k =>
+      storeName.includes(k) || k.includes(storeName)
+    );
+    return key ? `/stores/${storeIdMap[key]}` : null;
+  }, [storeIdMap]);
+
   // ─── 店舗収録（YouTubeイベント）──────────────────────────
   const storeRecordings = useMemo(() => {
     return events
@@ -358,8 +372,9 @@ export default function Page() {
     const imgSize = isMobile ? 52 : 64;
     const mach   = findStoreMachine(ev.store);
 
+    const storeHref = getStoreHref(ev.store);
     return (
-      <div key={ev.id} onClick={() => setSelectedEv(ev)} style={{
+      <div key={ev.id} onClick={() => storeHref ? router.push(storeHref) : setSelectedEv(ev)} style={{
         background: sty.bg,
         border: `1px solid ${sty.border}44`,
         borderLeft: `3px solid ${sty.border}`,
@@ -1048,17 +1063,14 @@ export default function Page() {
                   const defaultLabel: Record<string, string> = {
                     raiten:"来店イベント", shunen:"周年イベント", shindai:"新台情報", torisai:"取材", satsuei:"撮影",
                   };
-                  return (
-                    <button key={s.store} onClick={() => { setSearch(s.store); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }} style={{
+                  const pickupHref = getStoreHref(s.store);
+                  const pickupInner = (
+                    <div style={{
                       background: "#f8f8f8", border: `2px solid ${sty.border}44`,
-                      borderRadius: 10, padding: 0, cursor: "pointer",
+                      borderRadius: 10, cursor: "pointer",
                       width: 130, flexShrink: 0, overflow: "hidden",
                       display: "flex", flexDirection: "column", textAlign: "left",
-                      transition: "box-shadow .15s",
-                    }}
-                      onMouseEnter={e => { (e.currentTarget as HTMLElement).style.boxShadow = `0 4px 16px ${sty.border}44`; }}
-                      onMouseLeave={e => { (e.currentTarget as HTMLElement).style.boxShadow = "none"; }}
-                    >
+                    }}>
                       {s.image_url ? (
                         <div style={{ width: "100%", height: 80, overflow: "hidden", position: "relative" }}>
                           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -1083,6 +1095,16 @@ export default function Page() {
                         {s.cast && s.cast.length < 20 && <div style={{ fontSize: 10, color: C.sub }}>👤 {s.cast}</div>}
                         <div style={{ fontSize: 10, color: sty.badge, fontWeight: 700, marginTop: 2 }}>{s.date}</div>
                       </div>
+                    </div>
+                  );
+                  return pickupHref ? (
+                    <Link key={s.store} href={pickupHref} style={{ textDecoration: "none", flexShrink: 0 }}>
+                      {pickupInner}
+                    </Link>
+                  ) : (
+                    <button key={s.store} onClick={() => { setSearch(s.store); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }}
+                      style={{ background: "none", border: "none", padding: 0, flexShrink: 0 }}>
+                      {pickupInner}
                     </button>
                   );
                 })}
