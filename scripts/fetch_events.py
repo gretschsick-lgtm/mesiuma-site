@@ -22,6 +22,7 @@ import hashlib
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 from datetime import date
@@ -628,135 +629,20 @@ WEB_SOURCES = [
 ]
 
 # ===========================================================================
-# JOB E: YouTube チャンネル（コミュニティ投稿 + 最新動画タイトル）
+# JOB E: YouTube チャンネル（最新動画タイトル + コミュニティ投稿）
 # ===========================================================================
 
-# @handle形式。コミュニティ投稿 → /community、動画一覧 → /videos を順にスクレイプ
-# 存在しないハンドルは 404 で自動スキップされる
+# url: YouTube チャンネル URL（@handle または /channel/ID 形式）
+# 実在が確認済みのチャンネルのみ登録。URLに /videos や /community は付けない。
 YOUTUBE_CHANNELS: list[dict] = [
-    # ── トップクラス（チャンネル登録者数100万超・超有名） ──
-    {"handle": "HamadaBritney",         "name": "浜田ブリトニー"},
-    {"handle": "garizou",               "name": "ガリぞう"},
-    {"handle": "garizouslot",           "name": "ガリぞう(別)"},
-    {"handle": "kimurauotaku",          "name": "木村魚拓"},
-    {"handle": "matsumotobatch",        "name": "松本バッチ"},
-    {"handle": "uichihikaru",           "name": "ういちとヒカル"},
-    {"handle": "uichi",                 "name": "ういち"},
-    {"handle": "misaoTV",               "name": "みさお"},
-    {"handle": "misao_slot",            "name": "みさお(別)"},
-    {"handle": "REVIN777",              "name": "レビン"},
-    {"handle": "revin_slot",            "name": "レビン(別)"},
-    {"handle": "hikotsuyoman",          "name": "ヒキ強マン"},
-    {"handle": "orochislot",            "name": "鬼Dオロチ"},
-    {"handle": "onidorochiTV",          "name": "鬼Dオロチ(別)"},
-    # ── くり系（超人気） ──
-    {"handle": "kurimaru_slot",         "name": "くりまる"},
-    {"handle": "kurimaru777",           "name": "くりまる(別)"},
-    {"handle": "kuri_pachi",            "name": "くり"},
-    {"handle": "kurislot_ch",           "name": "くりスロット"},
-    # ── 有名女性演者・ライター YouTuber ──
-    {"handle": "nanatoru_ch",           "name": "なな徹"},          # 最大手女性パチスロYouTuber
-    {"handle": "nanatoru",              "name": "なな徹(別)"},
-    {"handle": "nanase_umi_slot",       "name": "七瀬美海"},
-    {"handle": "ayakawa_nemu",          "name": "綾川音夢"},
-    {"handle": "kagamino_himari",       "name": "鏡野ひまり"},
-    {"handle": "yabuki_yurina",         "name": "矢吹ゆりな"},
-    {"handle": "ogino_megumi_slot",     "name": "荻野倫"},
-    {"handle": "yukinnko_slot",         "name": "ゆきんこ"},
-    {"handle": "seseragi_slot",         "name": "せせらぎ"},
-    {"handle": "pachiko_slot",          "name": "ぱちこ"},
-    {"handle": "pero_slot_ch",          "name": "ぺろ"},
-    {"handle": "rinka_pachi",           "name": "りんか"},
-    {"handle": "ami_slot_ch",           "name": "あみ"},
-    {"handle": "non_pachi_ch",          "name": "のん"},
-    {"handle": "yuki_slot_lady",        "name": "ゆき"},
-    {"handle": "hana_slot_ch",          "name": "はな"},
-    {"handle": "saki_pachi_ch",         "name": "さき"},
-    {"handle": "mana_slot_lady",        "name": "まな"},
-    {"handle": "luna_slot_ch",          "name": "ルナ"},
-    {"handle": "rin_pachisuro",         "name": "りん"},
-    {"handle": "megu_slot_ch",          "name": "めぐ"},
-    {"handle": "nana_slot_lady",        "name": "なな"},
-    {"handle": "kouda_yuki_slot",       "name": "倖田柚希"},
-    {"handle": "mochizuki_saki_slot",   "name": "望月咲"},
-    {"handle": "hiraki_hikaru",         "name": "煌ひかる"},
-    {"handle": "masuda_erina_slot",     "name": "枡田絵理奈"},      # 元アナ・パチスロ有名
-    {"handle": "ekoda_nana",            "name": "江古田なな"},
-    {"handle": "slot_angel_ch",         "name": "スロットエンジェル"},
-    {"handle": "pachi_joshi_tv",        "name": "パチスロ女子TV"},
-    {"handle": "lady_slot_jp",          "name": "レディースロット"},
-    # ── 人気ライター・タレント系（男性） ──
-    {"handle": "settei_shu",            "name": "設定師シュウ"},
-    {"handle": "gensanpachisuro",       "name": "ゲンさん"},
-    {"handle": "marimoslot",            "name": "まりも"},
-    {"handle": "marimo_slot",           "name": "まりも(別)"},
-    {"handle": "nishiyama_daishi",      "name": "西山師匠"},
-    {"handle": "happy_slot_ch",         "name": "ハッピー"},
-    {"handle": "motopachi",             "name": "もとパチ"},
-    {"handle": "slot_papa",             "name": "スロパパ"},
-    {"handle": "kazupachi_ch",          "name": "カズ"},
-    {"handle": "daimon_slot_ch",        "name": "大門"},
-    {"handle": "slot_legend",           "name": "スロットレジェンド"},
-    # ── 実戦・攻略系（登録者50万クラス） ──
-    {"handle": "pachislo_aruaruth",     "name": "パチスロあるある太郎"},
-    {"handle": "aruarutaro_slot",       "name": "あるある太郎(別)"},
-    {"handle": "slot_jiyujin",          "name": "パチスロ自由人"},
-    {"handle": "srotkijudge",           "name": "スロット鬼打ち"},
-    {"handle": "kyodaislotter",         "name": "兄弟スロッター"},
-    {"handle": "chikinsloter",          "name": "ちきん"},
-    {"handle": "staryonpachisuro",      "name": "スタリオン"},
-    {"handle": "mokkun_slot",           "name": "もっくん"},
-    {"handle": "tarojiroChannel",       "name": "たろじろう"},
-    {"handle": "okarutkidoutai",        "name": "オカルト機動隊"},
-    {"handle": "slot_tensai_ch",        "name": "スロット天才"},
-    {"handle": "pachisuro777ch",        "name": "パチスロ777ch"},
-    {"handle": "ryupachi777",           "name": "りゅうパチ"},
-    {"handle": "slot_fukugyo",          "name": "スロット副業サラリーマン"},
-    {"handle": "chonmage_gambler",      "name": "ちょんまげギャンブラー"},
-    {"handle": "pachisuro_daini",       "name": "パチスロ第二章"},
-    {"handle": "slot_saikyou",          "name": "最強スロット"},
-    {"handle": "pachikichi777",         "name": "パチキチ"},
-    {"handle": "smapachi_ch",           "name": "スマパチch"},
-    {"handle": "smart_slot_ch",         "name": "スマスロch"},
-    {"handle": "slotfree777",           "name": "スロットフリー"},
-    {"handle": "pachinko_gyokai",       "name": "パチンコ業界ch"},
-    {"handle": "pachisuro_legend_ch",   "name": "パチスロレジェンド"},
-    {"handle": "slot_daigaku",          "name": "スロット大学"},
-    {"handle": "pachi_kenkyujo",        "name": "パチスロ研究所"},
-    # ── 公式メディア系 ──
-    {"handle": "janbari_ch",            "name": "ジャンバリ公式"},
-    {"handle": "slotpachi_official",    "name": "スロパチステーション公式"},
-    {"handle": "PACHISLO_HISSHOBON",    "name": "パチスロ必勝本公式"},
-    {"handle": "hisshobon_slot",        "name": "必勝本(別)"},
-    {"handle": "PM_portal",             "name": "パチマガスロマガ公式"},
-    {"handle": "pachi7_official",       "name": "パチ7公式"},
-    {"handle": "gogonet_official",      "name": "gogoネット公式"},
-    {"handle": "KDjoho",                "name": "KD情報"},
-    {"handle": "3x3star_official",      "name": "3×3STAR"},
-    {"handle": "gokuzei_official",      "name": "極誓"},
-    {"handle": "kaidou_adventure",      "name": "回胴アドベンチャー"},
-    {"handle": "BuzzSlot",              "name": "バズスロ"},
-    {"handle": "eyeslot_ch",            "name": "アイスロ"},
-    {"handle": "pachisuro_hisshobon",   "name": "パチスロ必勝本"},
-    {"handle": "pachi_taizin",          "name": "パチスロ達人ch"},
-    {"handle": "slotimes_official",     "name": "SLOTIMES公式"},
-    {"handle": "gokkun_pachi",          "name": "ゴックン"},
-    # ── 女性系・グラドル系 ──
-    {"handle": "slot_girls_ch",         "name": "スロットガールズ"},
-    {"handle": "pachisuro_joshi",       "name": "パチスロ女子"},
-    {"handle": "pachi_lady_ch",         "name": "パチレディch"},
-    # ── ホール系・チェーン公式 ──
-    {"handle": "maruhan_official_yt",   "name": "マルハン公式YT"},
-    {"handle": "dynam_official_yt",     "name": "ダイナム公式YT"},
-    {"handle": "kikoona_yt",            "name": "キコーナYT"},
-    {"handle": "gaia_slot_yt",          "name": "ガイアYT"},
-    {"handle": "wonderland_yt",         "name": "ワンダーランドYT"},
-    # ── 機種実戦・メーカー系 ──
-    {"handle": "konami_slot_official",  "name": "コナミスロット公式"},
-    {"handle": "sammy_official_yt",     "name": "サミー公式YT"},
-    {"handle": "universal_ent_yt",      "name": "ユニバーサル公式YT"},
-    {"handle": "aristocrat_japan",      "name": "アリストクラート"},
-    {"handle": "sega_sammy_yt",         "name": "セガサミーYT"},
+    # ── 確認済み 公式メディア系 ──
+    {"url": "https://www.youtube.com/@janbaritv",                              "name": "ジャンバリ"},
+    {"url": "https://www.youtube.com/@BuzzSlot",                               "name": "バズスロ"},
+    {"url": "https://www.youtube.com/@hisshobon",                              "name": "パチスロ必勝本"},
+    {"url": "https://www.youtube.com/channel/UC8yYqoMOYO_Q755YLJ-teoQ",       "name": "スロパチステーション"},
+    # ── 確認済み 人気 YouTuber ──
+    {"url": "https://www.youtube.com/@bri47ha",                                "name": "浜田ブリトニー"},
+    {"url": "https://www.youtube.com/@garizo1",                                "name": "ガリぞう"},
 ]
 
 # YouTube 検索クエリ（撮影スケジュール・ホール訪問系）
@@ -893,7 +779,7 @@ CAST_RE = re.compile(
 )
 
 EVENT_KEYWORD_RE = re.compile(
-    r"来店|取材|撮影|ロケ|イベント|特定日|設定示唆|周年|誕生日|オープン|新台|全台"
+    r"来店|取材|撮影|ロケ|イベント|特定日|設定示唆|周年|誕生日|オープン|新台|全台|実戦店舗|ホール実戦|収録"
 )
 
 
@@ -1401,18 +1287,16 @@ def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) ->
 
 
 # ---------------------------------------------------------------------------
-# JOB E: YouTube スクレイピング
+# JOB E: YouTube スクレイピング（yt-dlp ベース）
 # ---------------------------------------------------------------------------
 def _yt_extract_from_text(text: str, url: str, img: str, source: str, store_names: set[str]) -> list[dict]:
     """YouTube テキスト（複数行）からイベント情報を抽出"""
     results: list[dict] = []
-    # 行単位でパース（動画説明文は長いので段落ごとに）
     blocks = [b.strip() for b in re.split(r'\n{2,}', text) if b.strip()]
     for block in blocks[:20]:
         ev = _make_event(block, url, img, source, store_names)
         if ev:
             results.append(ev)
-    # ブロック分割でヒットしなければ全文で1回試みる
     if not results and len(text) >= 15:
         ev = _make_event(text[:500], url, img, source, store_names)
         if ev:
@@ -1420,132 +1304,83 @@ def _yt_extract_from_text(text: str, url: str, img: str, source: str, store_name
     return results
 
 
-def scrape_youtube_community(page, handle: str, ch_name: str, store_names: set[str]) -> list[dict]:
-    """YouTubeコミュニティ投稿をスクレイプ（撮影・来店告知が多い）"""
-    results: list[dict] = []
-    url = f"https://www.youtube.com/@{handle}/community"
+def _ytdlp(args: list[str], timeout: int = 40) -> str:
+    """yt-dlp を呼び出して stdout を返す。失敗時は空文字列"""
     try:
-        page.goto(url, timeout=22000, wait_until="domcontentloaded")
-        page.wait_for_timeout(3000)
-        # コミュニティタブが存在しないチャンネルはスキップ
-        if "404" in page.title() or page.url == "https://www.youtube.com/":
-            return results
-        # スクロールして投稿をロード
-        for _ in range(5):
-            page.mouse.wheel(0, 3000)
-            page.wait_for_timeout(600)
-    except Exception as e:
-        log(f"    ⚠️  YT community @{handle}: {e}")
-        return results
+        out = subprocess.check_output(
+            ["yt-dlp"] + args,
+            text=True, timeout=timeout,
+            stderr=subprocess.DEVNULL,
+        )
+        return out.strip()
+    except Exception:
+        return ""
 
-    # ytd-backstage-post-renderer が各投稿カード
-    posts = page.query_selector_all("ytd-backstage-post-renderer, ytd-post-renderer")
-    if not posts:
-        # フォールバック: テキスト断片を広めに取る
-        posts = page.query_selector_all("#content-text, yt-formatted-string[id='content-text']")
 
-    for post in posts[:30]:
-        try:
-            text = post.inner_text().strip()
-            if len(text) < 15:
-                continue
-            # 投稿リンク
-            link_el = post.query_selector('a#permalink, a[href*="/post/"]')
-            post_url = ""
-            if link_el:
-                href = link_el.get_attribute("href") or ""
-                post_url = f"https://www.youtube.com{href}" if href.startswith("/") else href
-            img_el = post.query_selector('img#img, img[src*="yt3.ggpht"]')
-            img = img_el.get_attribute("src") if img_el else ""
-            evs = _yt_extract_from_text(text, post_url or url, img, "youtube_community", store_names)
-            for ev in evs:
-                ev["cast"] = ev.get("cast") or ch_name
-                results.append(ev)
-                log(f"      🎬 {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({ch_name} community)")
-        except Exception:
+def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str]) -> list[dict]:
+    """yt-dlp でチャンネルの最新動画 + コミュニティ投稿をスクレイプ"""
+    results: list[dict] = []
+
+    # ── 最新動画タイトル ──────────────────────────────────────
+    out = _ytdlp([
+        "--flat-playlist", "--quiet", "--no-warnings",
+        "--print", "%(title)s\t%(webpage_url)s",
+        "--playlist-end", "30",
+        f"{ch_url}/videos",
+    ])
+    for line in out.splitlines():
+        parts = line.split("\t", 1)
+        if len(parts) < 2:
             continue
+        title, url = parts
+        evs = _yt_extract_from_text(title, url, "", "youtube_video", store_names)
+        for ev in evs:
+            ev["cast"] = ev.get("cast") or ch_name
+            results.append(ev)
+            log(f"      🎥 {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({ch_name})")
+
+    # ── コミュニティ投稿 ──────────────────────────────────────
+    out = _ytdlp([
+        "--flat-playlist", "--quiet", "--no-warnings",
+        "--print", "%(title)s\t%(webpage_url)s",
+        "--playlist-end", "30",
+        f"{ch_url}/community",
+    ])
+    for line in out.splitlines():
+        parts = line.split("\t", 1)
+        text = parts[0]
+        url = parts[1] if len(parts) > 1 else ch_url
+        if len(text) < 10:
+            continue
+        evs = _yt_extract_from_text(text, url, "", "youtube_community", store_names)
+        for ev in evs:
+            ev["cast"] = ev.get("cast") or ch_name
+            results.append(ev)
+            log(f"      🎬 {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({ch_name} community)")
+
     return results
 
 
-def scrape_youtube_videos(page, handle: str, ch_name: str, store_names: set[str]) -> list[dict]:
-    """YouTube最新動画タイトルをスクレイプ（ホール名が含まれることが多い）"""
+def scrape_youtube_search_ytdlp(query: str, store_names: set[str]) -> list[dict]:
+    """yt-dlp でYouTube検索（新着順）してホール撮影動画を収集"""
     results: list[dict] = []
-    url = f"https://www.youtube.com/@{handle}/videos"
-    try:
-        page.goto(url, timeout=22000, wait_until="domcontentloaded")
-        page.wait_for_timeout(3000)
-        if "404" in page.title() or page.url == "https://www.youtube.com/":
-            return results
-        for _ in range(4):
-            page.mouse.wheel(0, 3000)
-            page.wait_for_timeout(500)
-    except Exception as e:
-        log(f"    ⚠️  YT videos @{handle}: {e}")
-        return results
-
-    cards = page.query_selector_all("ytd-rich-item-renderer, ytd-grid-video-renderer")
-    for card in cards[:40]:
-        try:
-            title_el = card.query_selector("#video-title, h3 a, a#video-title-link")
-            if not title_el:
-                continue
-            title = title_el.inner_text().strip()
-            if len(title) < 8:
-                continue
-            href = title_el.get_attribute("href") or ""
-            video_url = f"https://www.youtube.com{href}" if href.startswith("/") else href
-            img_el = card.query_selector("img#img, img[src*='ytimg']")
-            img = img_el.get_attribute("src") if img_el else ""
-            evs = _yt_extract_from_text(title, video_url, img, "youtube_video", store_names)
-            for ev in evs:
-                ev["cast"] = ev.get("cast") or ch_name
-                results.append(ev)
-                log(f"      🎥 {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({ch_name})")
-        except Exception:
+    out = _ytdlp([
+        "--flat-playlist", "--quiet", "--no-warnings",
+        "--print", "%(channel)s\t%(title)s\t%(webpage_url)s",
+        "--playlist-end", "30",
+        f"ytsearch30:{query}",
+    ])
+    for line in out.splitlines():
+        parts = line.split("\t", 2)
+        if len(parts) < 3:
             continue
-    return results
-
-
-def scrape_youtube_search(page, query: str, store_names: set[str]) -> list[dict]:
-    """YouTube検索（アップロード順）でホール撮影動画を収集"""
-    results: list[dict] = []
-    # sp=CAI%3D は「アップロード日時順」フィルタ
-    encoded = query.replace(" ", "+")
-    url = f"https://www.youtube.com/results?search_query={encoded}&sp=CAI%3D"
-    try:
-        page.goto(url, timeout=22000, wait_until="domcontentloaded")
-        page.wait_for_timeout(3000)
-        for _ in range(4):
-            page.mouse.wheel(0, 3000)
-            page.wait_for_timeout(500)
-    except Exception as e:
-        log(f"    ⚠️  YT search {query!r}: {e}")
-        return results
-
-    cards = page.query_selector_all("ytd-video-renderer, ytd-compact-video-renderer")
-    for card in cards[:40]:
-        try:
-            title_el = card.query_selector("#video-title, a#video-title")
-            if not title_el:
-                continue
-            title = title_el.inner_text().strip()
-            if len(title) < 8:
-                continue
-            href = title_el.get_attribute("href") or ""
-            video_url = f"https://www.youtube.com{href}" if href.startswith("/") else href
-            img_el = card.query_selector("img#img, img[src*='ytimg']")
-            img = img_el.get_attribute("src") if img_el else ""
-            # チャンネル名を cast に
-            ch_el = card.query_selector("ytd-channel-name a, #channel-name a")
-            ch = ch_el.inner_text().strip() if ch_el else ""
-            evs = _yt_extract_from_text(title, video_url, img, "youtube_search", store_names)
-            for ev in evs:
-                if ch and not ev.get("cast"):
-                    ev["cast"] = ch
-                results.append(ev)
-                log(f"      🔍 {ev['store'][:18]} [{ev['pref']}] {ev['date']} (YT search)")
-        except Exception:
-            continue
+        ch, title, url = parts
+        evs = _yt_extract_from_text(title, url, "", "youtube_search", store_names)
+        for ev in evs:
+            if ch and not ev.get("cast"):
+                ev["cast"] = ch
+            results.append(ev)
+            log(f"      🔍 {ev['store'][:18]} [{ev['pref']}] {ev['date']} (YT search)")
     return results
 
 
@@ -1777,36 +1612,29 @@ def main():
                     except Exception as e:
                         log(f"    ❌ {src['name']} {url}: {e}")
 
-        # ── JOB E: YouTube コミュニティ投稿 + 動画タイトル + 検索 ──
+        # ── JOB E: YouTube（yt-dlp ベース・ボット検知回避）──
         if args.job in ("youtube", "all"):
-            log(f"\n🎬 YouTube チャンネル コミュニティ投稿 ({len(YOUTUBE_CHANNELS)}ch)")
+            log(f"\n🎬 YouTube チャンネル ({len(YOUTUBE_CHANNELS)}ch) via yt-dlp")
             for i, ch in enumerate(YOUTUBE_CHANNELS, 1):
-                log(f"  [{i}/{len(YOUTUBE_CHANNELS)}] @{ch['handle']} ({ch['name']})")
+                log(f"  [{i}/{len(YOUTUBE_CHANNELS)}] {ch['url']} ({ch['name']})")
                 try:
-                    # コミュニティ投稿
-                    res = scrape_youtube_community(page, ch["handle"], ch["name"], store_names)
-                    if res:
-                        log(f"       community → {len(res)}件")
-                    all_new.extend(res)
-                    time.sleep(1.0)
-                    # 最新動画タイトル
-                    res2 = scrape_youtube_videos(page, ch["handle"], ch["name"], store_names)
-                    if res2:
-                        log(f"       videos    → {len(res2)}件")
-                    all_new.extend(res2)
-                    time.sleep(1.0)
-                except Exception as e:
-                    log(f"    ❌ {ch['name']}: {e}")
-
-            log(f"\n🔍 YouTube 検索 ({len(YOUTUBE_SEARCH_QUERIES)}クエリ)")
-            for i, query in enumerate(YOUTUBE_SEARCH_QUERIES, 1):
-                log(f"  [{i}] {query}")
-                try:
-                    res = scrape_youtube_search(page, query, store_names)
+                    res = scrape_youtube_channel_ytdlp(ch["url"], ch["name"], store_names)
                     if res:
                         log(f"       → {len(res)}件")
                     all_new.extend(res)
-                    time.sleep(1.5)
+                    time.sleep(0.5)
+                except Exception as e:
+                    log(f"    ❌ {ch['name']}: {e}")
+
+            log(f"\n🔍 YouTube 検索 ({len(YOUTUBE_SEARCH_QUERIES)}クエリ) via yt-dlp")
+            for i, query in enumerate(YOUTUBE_SEARCH_QUERIES, 1):
+                log(f"  [{i}] {query}")
+                try:
+                    res = scrape_youtube_search_ytdlp(query, store_names)
+                    if res:
+                        log(f"       → {len(res)}件")
+                    all_new.extend(res)
+                    time.sleep(1.0)
                 except Exception as e:
                     log(f"    ❌ {e}")
 

@@ -1026,11 +1026,11 @@ export default function Page() {
                     >
                       {s.image_url ? (
                         // eslint-disable-next-line @next/next/no-img-element
-                        <img src={s.image_url} alt={s.name} style={{ width: "100%", height: 72, objectFit: "cover", display: "block" }} loading="lazy" />
+                        <img src={s.image_url} alt={s.name} style={{ width: "100%", height: 80, objectFit: "cover", display: "block" }} loading="lazy" />
                       ) : (
-                        <div style={{ width: "100%", height: 72, background: `linear-gradient(135deg, #aa0000, ${C.red})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28 }}>😱</div>
+                        <div style={{ width: "100%", height: 80, background: `linear-gradient(135deg, #aa0000, ${C.red})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28 }}>😱</div>
                       )}
-                      <div style={{ padding: "8px 10px 10px" }}>
+                      <div style={{ padding: "7px 9px 9px" }}>
                         <div style={{ display: "flex", gap: 4, marginBottom: 5 }}>
                           <span style={{ background: C.red, color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 6px", borderRadius: 2 }}>PR</span>
                           {s.pref && <span style={{ fontSize: 9, color: C.muted }}>{s.pref}</span>}

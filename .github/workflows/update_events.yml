@@ -105,7 +105,7 @@ jobs:
           path: public/events_public.json
           retention-days: 1
 
-  # ─── JOB E: YouTube（コミュニティ投稿 + 動画タイトル + 検索）────────────
+  # ─── JOB E: YouTube（yt-dlp ベース・ボット検知回避）────────────────────
   fetch-youtube:
     runs-on: ubuntu-latest
     timeout-minutes: 60
@@ -118,7 +118,7 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: |
-          pip install playwright playwright-stealth
+          pip install playwright playwright-stealth yt-dlp
           playwright install chromium --with-deps
       - name: Fetch YouTube channels & search
         run: python scripts/fetch_events.py --headless --job youtube
