@@ -50,22 +50,39 @@ PLAYWRIGHT_PROFILE = Path(__file__).parent / ".x_auth_profile"
 # 検索クエリ（店舗投稿に特化）
 # ---------------------------------------------------------------------------
 COMPLETE_QUERIES = [
+    # 台番号 × 機能発動系（最高精度）
     "コンプリート機能発動 番台",
     "コンプリート機能作動 番台",
     "コンプリート達成おめでとう 番台",
     "コンプリート達成 番台 スロット",
     "コンプリート機能 番台 パチスロ",
-    "コンプリート おめでとうございます スロット",
+    "コンプリート おめでとうございます 番台",
     "番台 コンプリート機能発動",
     "番台 コンプリート達成",
+    # ハッシュタグ系（店舗は公式タグを使う）
+    "#コンプリート 番台 スロット",
+    "#スマスロ コンプリート 番台",
+    "#パチスロ コンプリート 番台",
+    "#コンプリート機能発動",
+    "#コンプリート達成 スロット",
+    # 全台系
     "全台コンプリート スロット 店",
+    "全台コンプリート 番台",
+    # スマスロ特化（近年増加）
+    "スマスロ コンプリート機能 発動",
+    "スマスロ コンプリート おめでとうございます",
+    # 機種名 × コンプリート（人気機種）
+    "ヴァルヴレイヴ コンプリート機能",
+    "北斗 コンプリート機能発動",
+    "バジリスク コンプリート機能 番台",
+    "炎炎ノ消防隊 コンプリート 番台",
 ]
 
 # ---------------------------------------------------------------------------
 # 店舗ツイート判定: これらのいずれかを含む = 店舗の投稿
 # ---------------------------------------------------------------------------
 STORE_TWEET_PATTERNS = [
-    re.compile(r'\d{2,4}番台'),                              # 台番号
+    re.compile(r'\d{2,4}番台'),                              # 台番号（最強シグナル）
     re.compile(r'コンプリート機能(?:が|を)?(?:発動|作動)'),  # 機能発動/作動
     re.compile(r'コンプリート(?:達成)?おめでとうございます'), # 店舗の祝福メッセージ
     re.compile(r'おめでとうございます.*コンプリート', re.DOTALL),
@@ -75,6 +92,10 @@ STORE_TWEET_PATTERNS = [
     re.compile(r'本日.*コンプリート.*機能', re.DOTALL),
     re.compile(r'該当台は明日から'),                          # DMM公式フレーズ
     re.compile(r'明日朝.*ご遊技'),                            # 店舗の翌日案内
+    re.compile(r'#コンプリート機能発動'),                     # ハッシュタグ
+    re.compile(r'#コンプリート達成'),
+    re.compile(r'全台コンプリート'),                          # 全台コンプリート
+    re.compile(r'ご来店.*コンプリート|コンプリート.*ご来店', re.DOTALL),
 ]
 
 # ---------------------------------------------------------------------------
@@ -294,8 +315,8 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
     machine = extract_machine(text)
     slot_number = extract_slot_number(text)
 
-    # 機種名が取れていないものは台番号があれば採用
-    if not machine and not store:
+    # 機種名も店舗名も台番号も取れないものは除外
+    if not machine and not store and not slot_number:
         return None
 
     # ツイートから日付を推定（店舗は基本当日投稿）
@@ -323,7 +344,7 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
     }
 
 
-def scrape_query(page, query: str, today_str: str, max_tweets: int = 60) -> list[dict]:
+def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list[dict]:
     results = []
     seen_urls: set[str] = set()
 
@@ -341,9 +362,9 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 60) -> list
     except PlaywrightTimeout:
         pass
 
-    for _ in range(8):
+    for _ in range(12):
         page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(1000)
+        page.wait_for_timeout(800)
 
     articles = page.query_selector_all('article[data-testid="tweet"]')
 
