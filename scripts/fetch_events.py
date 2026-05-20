@@ -313,7 +313,7 @@ def _load_store_accounts_from_json() -> dict[str, str]:
 # ===========================================================================
 # JOB B: X 検索クエリ（動的生成）
 # ===========================================================================
-def _build_queries(machine_names: list[str]) -> list[str]:
+def _build_queries(machine_names: list[str], top_stores: list[str] | None = None) -> list[str]:
     base = [
         # ── ハッシュタグ ──
         "#来店イベント パチスロ",
@@ -513,6 +513,13 @@ def _build_queries(machine_names: list[str]) -> list[str]:
         short = re.sub(r'^(?:スマスロ|Lパチスロ|パチスロ|スマパチ|L)\s*', '', name).strip()
         if len(short) >= 3 and short not in popular:
             base.append(f"{short} 来店 OR 取材")
+
+    # イベントが多い店舗名を個別クエリ追加
+    _store_ng = re.compile(r'^(?:10時|通常|開催|注目|沖縄注目|特攻|景品)')
+    if top_stores:
+        for store in top_stores[:80]:
+            if len(store) >= 4 and not _store_ng.match(store):
+                base.append(f"{store} 来店 OR 取材")
 
     return list(dict.fromkeys(base))
 
@@ -1588,6 +1595,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
     parser.add_argument("--job", choices=["accounts", "search", "google", "web", "youtube", "ptown", "all"], default="all")
+    parser.add_argument("--ptown-pages", type=int, default=30, help="p-town schedulesの最大ページ数")
     args = parser.parse_args()
 
     # stores.jsonから動的アカウント読み込み
@@ -1602,7 +1610,17 @@ def main():
             mdata = json.load(f)
         machine_names = [m["name"] for m in mdata.get("machines", []) if m.get("name")]
 
-    X_QUERIES = _build_queries(machine_names)
+    # stores.jsonからイベント数上位の店舗名（X検索クエリ用）
+    top_stores: list[str] = []
+    if STORES_JSON.exists():
+        with open(STORES_JSON, encoding="utf-8") as f:
+            _all_stores = json.load(f)
+        top_stores = [
+            s["name"] for s in sorted(_all_stores, key=lambda x: x.get("event_count", 0), reverse=True)
+            if s.get("event_count", 0) >= 3 and len(s.get("name", "")) >= 4
+        ][:100]
+
+    X_QUERIES = _build_queries(machine_names, top_stores)
 
     log("=" * 70)
     log(f"🚀 fetch_events  job={args.job}")
@@ -1631,7 +1649,7 @@ def main():
 
     # ── JOB F: p-town /schedules HTTP スクレイプ（Playwright不要）──
     if args.job in ("ptown", "all"):
-        ptown_res = scrape_pttown_schedules_http(store_pref_map, store_names, max_pages=30)
+        ptown_res = scrape_pttown_schedules_http(store_pref_map, store_names, max_pages=args.ptown_pages)
         all_new.extend(ptown_res)
 
     with sync_playwright() as pw:

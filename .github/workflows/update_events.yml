@@ -142,7 +142,7 @@ jobs:
       - name: Install dependencies
         run: pip install playwright playwright-stealth
       - name: Fetch p-town schedules
-        run: python scripts/fetch_events.py --job ptown
+        run: python scripts/fetch_events.py --job ptown --ptown-pages 80
       - uses: actions/upload-artifact@v4
         with:
           name: events-ptown
