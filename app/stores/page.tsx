@@ -144,7 +144,7 @@ export default function StoresPage() {
       }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 12px", display: "flex", alignItems: "center", gap: 8, height: 52 }}>
           <Link href="/" style={{ color: C.red, fontWeight: 900, fontSize: isMobile ? 14 : 16, textDecoration: "none", whiteSpace: "nowrap", flexShrink: 0 }}>
-            メシウマ稼働
+            メシウマ稼働株式会社
           </Link>
           {!isMobile && <><span style={{ color: C.border }}>|</span><span style={{ color: C.text, fontSize: 14, fontWeight: 700, whiteSpace: "nowrap" }}>全国ホール検索</span></>}
           <div style={{ flex: 1 }} />

@@ -55,7 +55,7 @@ export default function BlogPage() {
         <div style={{ maxWidth: 860, margin: "0 auto", padding: "20px 16px 18px" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
             <span style={{ fontSize: 28 }}>📝</span>
-            <h1 style={{ fontSize: 20, fontWeight: 900, color: C.text, margin: 0 }}>メシウマ稼働 ブログ</h1>
+            <h1 style={{ fontSize: 20, fontWeight: 900, color: C.text, margin: 0 }}>メシウマ稼働株式会社 ブログ</h1>
           </div>
           <p style={{ fontSize: 12, color: C.muted, margin: "0 0 16px" }}>
             パチスロ攻略・ホール情報・イベントレポートをお届け

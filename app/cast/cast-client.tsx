@@ -90,7 +90,7 @@ export default function CastPage() {
           <div style={{ background:`linear-gradient(135deg, #cc4400 0%, ${C.orange} 100%)`, borderRadius:8, padding:"14px 20px", display:"flex", alignItems:"center", gap:12 }}>
             <span style={{ fontSize:32 }}>🎤</span>
             <div>
-              <h1 style={{ fontSize:18, fontWeight:900, color:"#fff", margin:0 }}>メシウマ稼働 社員・演者一覧</h1>
+              <h1 style={{ fontSize:18, fontWeight:900, color:"#fff", margin:0 }}>メシウマ稼働株式会社 社員・演者一覧</h1>
               <p style={{ fontSize:12, color:"rgba(255,255,255,.85)", margin:"3px 0 0" }}>プロフィールをタップして出演スケジュールを確認</p>
             </div>
           </div>

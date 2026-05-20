@@ -1216,7 +1216,7 @@ export default function Page() {
             <h2 style={{ fontSize: 18, fontWeight: 900, color: "#222", margin: 0 }}>📣 広告掲載・タイアップ募集</h2>
           </div>
           <p style={{ fontSize: 13, color: "#444", lineHeight: 1.8, margin: "0 0 20px" }}>
-            メシウマ稼働は全国<strong>1,100店舗以上</strong>のパチンコ・パチスロホール情報を掲載する、
+            メシウマ稼働株式会社は全国<strong>1,100店舗以上</strong>のパチンコ・パチスロホール情報を掲載する、
             業界特化型の情報プラットフォームです。<br />
             イベント告知・取材誘致・来店プロモーションなど、各種タイアップをご相談ください。
           </p>

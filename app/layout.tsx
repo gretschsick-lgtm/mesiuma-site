@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 const SITE_URL = "https://mesiuma-site.vercel.app";
-const SITE_NAME = "メシウマ稼働";
+const SITE_NAME = "メシウマ稼働株式会社";
 const SITE_DESCRIPTION = "メシウマ稼働株式会社が厳選する全国のパチスロイベント情報。来店演者スケジュール・取材日程・メシマズ店舗一覧をリアルタイムで確認。";
 
 export const metadata: Metadata = {
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   keywords: [
-    "パチスロ","イベント","来店","演者","スケジュール","取材","メシウマ稼働",
+    "パチスロ","イベント","来店","演者","スケジュール","取材","メシウマ稼働株式会社",
     "パチスロイベント","来店演者","全国","関東","関西","東海","九州","北海道",
     "スロット","パチンコ","メシマズ","店舗取材","高設定","公約","調査員",
   ],
