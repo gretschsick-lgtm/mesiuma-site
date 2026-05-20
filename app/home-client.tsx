@@ -25,6 +25,7 @@ type Ev = {
 };
 type YtVideo = { id: string; title: string; published: string; thumbnail?: string };
 type PickupStore = { id: string; name: string; pref?: string; area?: string; note?: string; image_url?: string; x_url?: string; hp_url?: string };
+type StoreMachine = { hours?: string; entry_rule?: string; address?: string; pachinko_total?: number; slot_total?: number };
 
 // ─── 定数 ───────────────────────────────────────────────────
 const PICKUP_NOTE_NG = ["高設定","設定6","設定5","甘い","甘釘","爆裂","出玉","モーニング","イブニング","激アツ","公約"];
@@ -157,6 +158,7 @@ export default function Page() {
   const [ytVideos, setYtVideos] = useState<YtVideo[]>([]);
   const [ytErr, setYtErr]       = useState(false);
   const [manualPickups, setManualPickups] = useState<PickupStore[]>([]);
+  const [storeMachines, setStoreMachines] = useState<Record<string, StoreMachine>>({});
   const [favorites, setFavorites] = useState<Set<string>>(new Set());
   const [showFavorites, setShowFavorites] = useState(false);
   const [showRecordingsModal, setShowRecordingsModal] = useState(false);
@@ -185,6 +187,7 @@ export default function Page() {
     }).catch(()=>setLoaded(true));
     fetch("/store_hp.json").then(r=>r.json()).then(setStoreHp).catch(()=>{});
     fetch("/pickup_stores.json").then(r=>r.json()).then(d=>setManualPickups(d.manual||[])).catch(()=>{});
+    fetch("/store_machines.json").then(r=>r.json()).then(setStoreMachines).catch(()=>{});
   }, []);
 
   useEffect(() => {
@@ -304,6 +307,22 @@ export default function Page() {
     return result;
   }, [events, manualPickups, todayStr]);
 
+  // ─── 店舗マシンデータ検索（部分一致）──────────────────────
+  const findStoreMachine = useMemo(() => {
+    const keys = Object.keys(storeMachines);
+    return (storeName: string): StoreMachine | null => {
+      if (!storeName || keys.length === 0) return null;
+      // 完全一致
+      if (storeMachines[storeName]) return storeMachines[storeName];
+      // 前方/後方部分一致
+      const found = keys.find(k =>
+        storeName.includes(k) || k.includes(storeName) ||
+        storeName.replace(/[ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xFEE0)).includes(k)
+      );
+      return found ? storeMachines[found] : null;
+    };
+  }, [storeMachines]);
+
   // ─── 店舗収録（YouTubeイベント）──────────────────────────
   const storeRecordings = useMemo(() => {
     return events
@@ -330,6 +349,7 @@ export default function Page() {
     const cardHp = link.hp || storeHp[ev.store] || "";
     const isSpecial = evType !== "normal";
     const imgSize = isMobile ? 52 : 64;
+    const mach   = findStoreMachine(ev.store);
 
     return (
       <div key={ev.id} onClick={() => setSelectedEv(ev)} style={{
@@ -381,9 +401,30 @@ export default function Page() {
           </div>
 
           {/* 店舗名 */}
-          <div style={{ fontSize: isMobile ? 14 : 16, fontWeight: 800, color: C.text, marginBottom: 3, lineHeight: 1.3, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }}>
+          <div style={{ fontSize: isMobile ? 14 : 16, fontWeight: 800, color: C.text, marginBottom: 2, lineHeight: 1.3, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }}>
             {ev.store}
           </div>
+
+          {/* 台数・営業時間 */}
+          {mach && (
+            <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", marginBottom: 3 }}>
+              {(mach.pachinko_total || mach.slot_total) && (
+                <span style={{ fontSize: 10, color: C.sub, display: "flex", alignItems: "center", gap: 2 }}>
+                  🎰
+                  {mach.pachinko_total ? `パチ${mach.pachinko_total}` : ""}
+                  {mach.pachinko_total && mach.slot_total ? "/" : ""}
+                  {mach.slot_total ? `スロ${mach.slot_total}` : ""}
+                  台
+                </span>
+              )}
+              {mach.hours && (
+                <span style={{ fontSize: 10, color: C.sub }}>🕐 {mach.hours}</span>
+              )}
+              {mach.entry_rule && (
+                <span style={{ fontSize: 10, background: "#f0f4ff", color: "#0055cc", padding: "1px 5px", borderRadius: 3, fontWeight: 700 }}>{mach.entry_rule}</span>
+              )}
+            </div>
+          )}
 
           {/* イベント名 */}
           {ev.event && (
@@ -543,6 +584,7 @@ export default function Page() {
         const hp = link.hp || storeHp[ev.store] || "";
         const mapQ = encodeURIComponent(`${ev.store} ${ev.pref || ""}`);
         const embedSrc = `https://maps.google.com/maps?q=${mapQ}&output=embed&hl=ja&z=16`;
+        const mach = findStoreMachine(ev.store);
         return (
           <div onClick={() => setSelectedEv(null)} style={{
             position: "fixed", inset: 0, zIndex: 1000,
@@ -575,7 +617,39 @@ export default function Page() {
                   )}
                 </div>
                 <div style={{ fontSize: 22, fontWeight: 900, color: C.text, marginBottom: 4, lineHeight: 1.25 }}>{ev.store}</div>
-                {ev.area && <div style={{ color: C.muted, fontSize: 12, marginBottom: 14 }}>{ev.area}</div>}
+                {ev.area && <div style={{ color: C.muted, fontSize: 12, marginBottom: mach ? 8 : 14 }}>{ev.area}</div>}
+                {/* 台数・営業時間・住所 */}
+                {mach && (
+                  <div style={{ background: "#f8f8f8", border: `1px solid ${C.border}`, borderRadius: 8, padding: "10px 14px", marginBottom: 14 }}>
+                    <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+                      {(mach.pachinko_total || mach.slot_total) && (
+                        <div>
+                          <div style={{ fontSize: 10, color: C.muted, marginBottom: 2 }}>設置台数</div>
+                          <div style={{ fontSize: 13, fontWeight: 800, color: C.text }}>
+                            {mach.pachinko_total ? `パチ ${mach.pachinko_total}台` : ""}
+                            {mach.pachinko_total && mach.slot_total ? "  " : ""}
+                            {mach.slot_total ? `スロ ${mach.slot_total}台` : ""}
+                          </div>
+                        </div>
+                      )}
+                      {mach.hours && (
+                        <div>
+                          <div style={{ fontSize: 10, color: C.muted, marginBottom: 2 }}>営業時間</div>
+                          <div style={{ fontSize: 13, fontWeight: 700, color: C.text }}>🕐 {mach.hours}</div>
+                        </div>
+                      )}
+                      {mach.entry_rule && (
+                        <div>
+                          <div style={{ fontSize: 10, color: C.muted, marginBottom: 2 }}>入場方法</div>
+                          <div style={{ fontSize: 13, fontWeight: 700, color: "#0055cc" }}>{mach.entry_rule}</div>
+                        </div>
+                      )}
+                    </div>
+                    {mach.address && (
+                      <div style={{ fontSize: 11, color: C.muted, marginTop: 8, lineHeight: 1.5 }}>📍 {mach.address}</div>
+                    )}
+                  </div>
+                )}
                 {cast && (
                   <div style={{
                     background: sty.badge + "10", border: `1px solid ${sty.badge}33`,
