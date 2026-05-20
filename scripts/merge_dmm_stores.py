@@ -13,8 +13,20 @@ Usage:
 import argparse
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
+
+# 店舗名ではなくイベント・演者情報として除外するパターン
+_EVENT_PATTERNS = [re.compile(p) for p in [
+    r'来店', r'取材', r'収録', r'実[戦践]', r'ライター', r'タレント',
+    r'編集部員', r'潜入', r'ぱちタウン', r'スロパチ', r'ジャンバリ',
+    r'必勝本', r'きむちゃんねる', r'神の子', r'PS調査員', r'SARUPR',
+    r'^[＜＞]', r'^\\\\', r'^※', r'^・', r'^[\|｜]',
+]]
+
+def is_valid_store_name(name: str) -> bool:
+    return bool(name) and not any(p.search(name) for p in _EVENT_PATTERNS)
 
 STORES_JSON = Path(__file__).parent.parent / "public/stores.json"
 AREAS_JSON  = Path(__file__).parent.parent / "public/areas.json"
@@ -67,6 +79,9 @@ def main():
             for ds in dmm_list:
                 name    = ds["name"]
                 dmm_id  = ds["dmm_id"]
+
+                if not is_valid_store_name(name):
+                    continue
 
                 if name in by_name:
                     # 既存店舗に city と dmm_id を補完
