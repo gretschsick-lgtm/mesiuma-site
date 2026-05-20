@@ -18,6 +18,7 @@ Usage:
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 import time
@@ -151,7 +152,23 @@ def log(msg: str):
     print(f"[{ts}] {msg}")
 
 
-def _get_chrome_cookies() -> list[dict]:
+def _get_cookies() -> list[dict]:
+    """
+    GitHub Actions: 環境変数 X_AUTH_TOKEN / X_CT0 から取得
+    ローカル: Chromeのcookieから取得
+    """
+    auth_token = os.environ.get("X_AUTH_TOKEN", "")
+    ct0        = os.environ.get("X_CT0", "")
+
+    if auth_token and ct0:
+        log("🔑 環境変数からXのcookieを注入（CI環境）")
+        return [
+            {"name": "auth_token", "value": auth_token,
+             "domain": ".x.com", "path": "/", "secure": True, "httpOnly": True, "sameSite": "None"},
+            {"name": "ct0", "value": ct0,
+             "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False, "sameSite": "Lax"},
+        ]
+
     if not HAS_BROWSER_COOKIE3:
         return []
     result = []
@@ -167,6 +184,7 @@ def _get_chrome_cookies() -> list[dict]:
             if c.expires:
                 pw_cookie["expires"] = int(c.expires)
             result.append(pw_cookie)
+        log(f"🍪 Chrome cookie {len(result)}個取得")
     except Exception as e:
         log(f"⚠️  browser_cookie3: {e}")
     return result
@@ -185,7 +203,7 @@ def launch_browser(playwright, headless: bool):
             "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
         ),
     )
-    cookies = _get_chrome_cookies()
+    cookies = _get_cookies()
     if cookies:
         ctx.add_cookies(cookies)
         log(f"✅ Cookie {len(cookies)}個注入")

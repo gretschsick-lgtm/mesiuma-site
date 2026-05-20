@@ -1,0 +1,49 @@
+name: Update Complete Info
+
+on:
+  schedule:
+    # 4時間ごと (UTC 1,5,9,13,17,21時 = JST 10,14,18,22,2,6時)
+    - cron: "0 1,5,9,13,17,21 * * *"
+  workflow_dispatch: # 手動実行も可
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # pushするためにtokenが必要
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright playwright-stealth
+          playwright install chromium --with-deps
+
+      - name: Fetch complete info from X
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: |
+          python scripts/fetch_complete_info.py --headless
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/complete_info.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            COUNT=$(python3 -c "import json; d=json.load(open('public/complete_info.json')); print(len(d))")
+            git commit -m "chore: update complete_info.json (${COUNT}件)"
+            git push
+          fi
