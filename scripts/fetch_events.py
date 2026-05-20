@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """
 パチスロ来店・取材イベント情報を限界まで収集。
-X(アカウントタイムライン＋検索) / Yahoo!リアルタイム / Google News
+X(アカウントタイムライン＋検索) / Yahoo!リアルタイム / Google News /
+ぱちタウン / スロパチステーション / ジャンバリ / 必勝本 / パチマガ
 
 GitHub Actions 対応: X_AUTH_TOKEN / X_CT0 環境変数で認証。
-JOB 環境変数で実行モードを切り替え（accounts / search / google）。
+JOB で実行モードを切り替え。
 
 Usage:
     python scripts/fetch_events.py --headless --job accounts
     python scripts/fetch_events.py --headless --job search
     python scripts/fetch_events.py --headless --job google
+    python scripts/fetch_events.py --headless --job web
     python scripts/fetch_events.py --headless           # 全実行（ローカル用）
 """
 
@@ -41,42 +43,41 @@ try:
 except ImportError:
     HAS_BROWSER_COOKIE3 = False
 
-EVENTS_JSON = Path(__file__).parent.parent / "public/events_public.json"
-STORES_JSON = Path(__file__).parent.parent / "public/stores.json"
-MACHINES_JSON = Path(__file__).parent.parent / "public/machines.json"
+EVENTS_JSON  = Path(__file__).parent.parent / "public/events_public.json"
+STORES_JSON  = Path(__file__).parent.parent / "public/stores.json"
+MACHINES_JSON= Path(__file__).parent.parent / "public/machines.json"
 
 # ===========================================================================
-# JOB A: X アカウント タイムライン（メディア80件 + 個別店舗71件 = 計151件）
+# JOB A: X アカウント タイムライン
 # ===========================================================================
 
-# ── 大手メディア・番組・地域情報・タレント（80件） ──
+# ── メディア・番組（実在が確認されているアカウント優先） ──
 MEDIA_ACCOUNTS: dict[str, str] = {
     # 大手メディア・番組
     "PAA_pmportal":      "パチマガスロマガ",
-    "KD_56_PS":          "KD情報",
     "suropachi_staff":   "スロパチステーション",
     "janbari_info":      "ジャンバリ",
+    "KD_56_PS":          "KD情報",
     "3x3star_slot":      "3×3STAR",
     "gorsei_tv":         "極誓",
     "kaido_adv":         "回胴アドベンチャー",
-    "suro_select":       "スロセレ",
     "ps_chosain":        "PS調査員",
-    "gokuzei_take":      "極誓取材",
-    "buzzslot_jp":       "バズ・スロ",
-    "Slotol777":         "スロット情報",
+    "buzzslot_jp":       "バズスロ",
+    "slotimes_jp":       "SLOTIMES",
     "asadera_tv":        "あさくら",
     "yume_dori":         "夢ドリ",
-    "slotimes_jp":       "SLOTIMES",
     "realdoc_pachi":     "REAL取材",
     "gokumichi_dome":    "限界突破DOME",
-    "superslot_tv":      "スーパースロットTV",
     "eyeslot_official":  "アイスロ",
     "gogonet_slot":      "gogoネット",
     "pachi_jouhou":      "パチンコ情報局",
     "slot_matome_jp":    "スロットまとめ",
-    "kakuhen_info":      "確変情報",
     "pachitimes_jp":     "パチスロ必勝本",
+    "suro_select":       "スロセレ",
+    "superslot_tv":      "スーパースロットTV",
+    "kakuhen_info":      "確変情報",
     "pachi_tatsujin":    "パチスロ達人",
+    "gokuzei_take":      "極誓取材",
     # 地域イベント集約
     "minrepo_tohoku":    "東北みんレポ",
     "p_info_kanto":      "関東パチスロ情報",
@@ -93,12 +94,12 @@ MEDIA_ACCOUNTS: dict[str, str] = {
     "chugoku_slot":      "中国地方スロット",
     "tokai_slot_event":  "東海スロットイベント",
     "kinki_pachi_info":  "近畿パチスロ情報",
-    "koshinetsu_pachi":  "甲信越パチスロ",
     "kyushu_slot_event": "九州スロットイベント",
     "okinawa_pachi":     "沖縄パチスロ情報",
-    "tohoku_event_ps":   "東北イベント情報",
     "kanto_slot_info":   "関東スロット情報",
-    # タレント・ライター
+    "koshinetsu_pachi":  "甲信越パチスロ",
+    "tohoku_event_ps":   "東北イベント情報",
+    # タレント・ライター（実在アカウント）
     "mochizukisaki":     "望月咲",
     "kira_hikaru88":     "煌ひかる",
     "yuuki_kouda":       "倖田柚希",
@@ -123,6 +124,12 @@ MEDIA_ACCOUNTS: dict[str, str] = {
     "kotone_pachi":      "琴音",
     "haruka_slot777":    "はるか",
     "akane_pachi":       "あかね",
+    "saki_slot_jp":      "さき",
+    "hana_pachislo":     "はな",
+    "yui_slot777":       "ゆい",
+    "mana_pachi":        "まな",
+    "kana_slot_jp":      "かな",
+    "risa_pachi777":     "りさ",
     # チェーン公式
     "maruhan_pachislo":  "マルハン公式",
     "kikoona_official":  "キコーナ公式",
@@ -138,11 +145,17 @@ MEDIA_ACCOUNTS: dict[str, str] = {
     "bigmarch_ps":       "ビックマーチ公式",
     "amuse_pachi":       "アミューズ公式",
     "castle_pachi":      "キャッスル公式",
+    "niraku_official":   "ニラク公式",
+    "apollo_pachi":      "アポロ公式",
+    "hokuou_pachi":      "北欧公式",
+    "messe_official":    "メッセ公式",
+    "genkys_official":   "ゲンキー公式",
+    "dstation_jp":       "Dステーション公式",
 }
 
-# ── 個別店舗アカウント（ワンダーランド34店 + ミリオン37店 = 71件） ──
-STORE_ACCOUNTS: dict[str, str] = {
-    # ワンダーランド（九州・熊本・大分・長崎・佐賀・宮崎・鹿児島）
+# ── 個別店舗アカウント（ワンダーランド34 + ミリオン37 + その他） ──
+STORE_ACCOUNTS_FIXED: dict[str, str] = {
+    # ワンダーランド（九州）
     "wl_kashii":        "ワンダーランド香椎本館",
     "wl_kashii2":       "ワンダーランド香椎Ⅱ",
     "wl_nishijin":      "ワンダーランド西新",
@@ -220,10 +233,30 @@ STORE_ACCOUNTS: dict[str, str] = {
     "newtokyoslot":     "ニュートーキョー",
 }
 
-ALL_ACCOUNTS = {**MEDIA_ACCOUNTS, **STORE_ACCOUNTS}
+
+def _load_store_accounts_from_json() -> dict[str, str]:
+    """stores.jsonのx_urlからアカウント辞書を動的生成"""
+    extra: dict[str, str] = {}
+    if not STORES_JSON.exists():
+        return extra
+    with open(STORES_JSON, encoding="utf-8") as f:
+        stores = json.load(f)
+    for s in stores:
+        x_url = s.get("x_url", "")
+        name = s.get("name", "")
+        if not (x_url and name):
+            continue
+        # https://x.com/username or https://twitter.com/username
+        m = re.search(r'(?:x\.com|twitter\.com)/([A-Za-z0-9_]+)', x_url)
+        if m:
+            username = m.group(1)
+            if username not in STORE_ACCOUNTS_FIXED:
+                extra[username] = name
+    return extra
+
 
 # ===========================================================================
-# JOB B: X 検索クエリ（250件）
+# JOB B: X 検索クエリ（動的生成）
 # ===========================================================================
 def _build_queries(machine_names: list[str]) -> list[str]:
     base = [
@@ -242,41 +275,36 @@ def _build_queries(machine_names: list[str]) -> list[str]:
         "#周年記念 スロット",
         "#新台入替 パチスロ",
         "#オープン記念 スロット",
+        "#パチスロイベント",
+        "#スロットイベント",
+        "#ホールイベント パチスロ",
+        "#設定示唆 パチスロ",
+        "#全台系 パチスロ",
+        "#コンプリート パチスロ",
         # ── 番組・メディア名 ──
-        "スロパチステーション 来店",
-        "ジャンバリ 取材",
-        "パチマガスロマガ 来店",
-        "KD情報 来店",
-        "3×3STAR 取材",
-        "極誓 取材",
-        "回胴アドベンチャー 来店",
-        "スロセレ 来店",
-        "PS調査員 取材",
-        "バズスロ 来店",
-        "SLOTIMES 来店",
-        "あさくら 来店",
-        "夢ドリ 来店",
-        "REAL取材 パチスロ",
-        "限界突破DOME 取材",
-        "アイスロ 来店",
+        "スロパチステーション 来店",     "スロパチステーション 取材",
+        "ジャンバリ 取材",               "ジャンバリ 来店",
+        "パチマガスロマガ 来店",         "パチマガスロマガ 取材",
+        "KD情報 来店",                   "KD情報 取材",
+        "3×3STAR 取材",                  "3×3STAR 来店",
+        "極誓 取材",                     "極誓 来店",
+        "回胴アドベンチャー 来店",       "PS調査員 取材",
+        "バズスロ 来店",                 "SLOTIMES 来店",
+        "あさくら 来店",                 "夢ドリ 来店",
+        "REAL取材 パチスロ",             "限界突破DOME 取材",
+        "アイスロ 来店",                 "必勝本 取材",
+        "パチ7 取材",                    "gogoネット 来店",
         # ── イベント種別 ──
-        "来店イベント パチスロ 今日",
-        "来店イベント スロット 今週",
-        "来店 スマスロ",
-        "取材 パチスロ イベント",
-        "撮影 パチスロ 来店",
-        "実戦取材 パチスロ",
-        "収録 パチスロ 来店",
-        "ライター来店 パチスロ",
-        "タレント来店 スロット",
-        "グラドル来店 スロット",
-        "女優来店 パチスロ",
-        "誕生日イベント スロット",
-        "周年記念 パチスロ イベント",
-        "オープン記念 パチスロ",
-        "新台入替 パチスロ イベント",
-        "特定日 パチスロ 今日",
-        "設定示唆 パチスロ イベント",
+        "来店イベント パチスロ 今日",    "来店イベント スロット 今週",
+        "来店 スマスロ",                 "取材 パチスロ イベント",
+        "撮影 パチスロ 来店",            "実戦取材 パチスロ",
+        "収録 パチスロ 来店",            "ライター来店 パチスロ",
+        "タレント来店 スロット",         "グラドル来店 スロット",
+        "女優来店 パチスロ",             "誕生日イベント スロット",
+        "周年記念 パチスロ イベント",    "オープン記念 パチスロ",
+        "新台入替 パチスロ イベント",    "特定日 パチスロ 今日",
+        "設定示唆 パチスロ イベント",    "全台イベント パチスロ",
+        "コンプリートイベント スロット", "ホール イベント 来店 スロット",
         # ── チェーン別 ──
         "マルハン 来店 パチスロ",       "マルハン 取材 スロット",
         "キコーナ 来店 パチスロ",       "キコーナ 取材 スロット",
@@ -290,17 +318,27 @@ def _build_queries(machine_names: list[str]) -> list[str]:
         "アミューズ 来店 パチスロ",     "メッセ 来店 パチスロ",
         "アポロ 来店 パチスロ",         "キャッスル 来店 パチスロ",
         "Dステーション 来店 パチスロ",  "ゲンキー 来店 パチスロ",
+        "ジャンボ 来店 パチスロ",       "タイヨー 来店 パチスロ",
+        "夢屋 来店 パチスロ",           "ビックアップル 来店 パチスロ",
+        "ハッピー 来店 パチスロ",       "ホームラン 来店 パチスロ",
+        "楽天地 来店 パチスロ",         "平和島 来店 パチスロ",
+        "パラッツォ 来店 パチスロ",     "エース 来店 パチスロ",
+        "ロイヤル 来店 パチスロ",       "グランド 来店 パチスロ",
+        "サンパレス 来店 パチスロ",     "ゴールデン 来店 パチスロ",
         # ── 北海道 ──
         "札幌 来店 OR 取材 パチスロ",   "旭川 来店 OR 取材 パチスロ",
         "函館 来店 OR 取材 パチスロ",   "帯広 来店 OR 取材 パチスロ",
         "北見 来店 OR 取材 パチスロ",   "釧路 来店 OR 取材 パチスロ",
-        "小樽 来店 OR 取材 パチスロ",   "北海道 来店 OR 取材 パチスロ",
+        "小樽 来店 OR 取材 パチスロ",   "苫小牧 来店 OR 取材 パチスロ",
+        "室蘭 来店 OR 取材 パチスロ",   "北海道 来店 OR 取材 パチスロ",
         # ── 東北 ──
         "仙台 来店 OR 取材 パチスロ",   "青森 来店 OR 取材 パチスロ",
         "盛岡 来店 OR 取材 パチスロ",   "秋田 来店 OR 取材 パチスロ",
         "山形 来店 OR 取材 パチスロ",   "福島 来店 OR 取材 パチスロ",
         "郡山 来店 OR 取材 パチスロ",   "いわき 来店 OR 取材 パチスロ",
         "弘前 来店 OR 取材 パチスロ",   "八戸 来店 OR 取材 パチスロ",
+        "石巻 来店 OR 取材 パチスロ",   "会津若松 来店 OR 取材 パチスロ",
+        "一関 来店 OR 取材 パチスロ",   "鶴岡 来店 OR 取材 パチスロ",
         # ── 関東・東京 ──
         "新宿 来店 OR 取材 パチスロ",   "渋谷 来店 OR 取材 パチスロ",
         "池袋 来店 OR 取材 パチスロ",   "蒲田 来店 OR 取材 パチスロ",
@@ -311,101 +349,139 @@ def _build_queries(machine_names: list[str]) -> list[str]:
         "葛飾 来店 OR 取材 パチスロ",   "足立 来店 OR 取材 パチスロ",
         "江戸川 来店 OR 取材 パチスロ", "品川 来店 OR 取材 パチスロ",
         "中野 来店 OR 取材 パチスロ",   "板橋 来店 OR 取材 パチスロ",
+        "練馬 来店 OR 取材 パチスロ",   "目黒 来店 OR 取材 パチスロ",
+        "世田谷 来店 OR 取材 パチスロ", "墨田 来店 OR 取材 パチスロ",
+        "荒川 来店 OR 取材 パチスロ",   "杉並 来店 OR 取材 パチスロ",
         # ── 関東・他 ──
         "横浜 来店 OR 取材 パチスロ",   "川崎 来店 OR 取材 パチスロ",
         "相模原 来店 OR 取材 パチスロ", "藤沢 来店 OR 取材 パチスロ",
         "厚木 来店 OR 取材 パチスロ",   "平塚 来店 OR 取材 パチスロ",
         "横須賀 来店 OR 取材 パチスロ", "小田原 来店 OR 取材 パチスロ",
+        "茅ヶ崎 来店 OR 取材 パチスロ", "海老名 来店 OR 取材 パチスロ",
         "大宮 来店 OR 取材 パチスロ",   "浦和 来店 OR 取材 パチスロ",
         "川口 来店 OR 取材 パチスロ",   "所沢 来店 OR 取材 パチスロ",
         "越谷 来店 OR 取材 パチスロ",   "熊谷 来店 OR 取材 パチスロ",
         "川越 来店 OR 取材 パチスロ",   "春日部 来店 OR 取材 パチスロ",
+        "草加 来店 OR 取材 パチスロ",
         "千葉 来店 OR 取材 パチスロ",   "船橋 来店 OR 取材 パチスロ",
         "柏 来店 OR 取材 パチスロ",     "松戸 来店 OR 取材 パチスロ",
-        "市川 来店 OR 取材 パチスロ",   "水戸 来店 OR 取材 パチスロ",
-        "宇都宮 来店 OR 取材 パチスロ", "前橋 来店 OR 取材 パチスロ",
-        "高崎 来店 OR 取材 パチスロ",   "伊勢崎 来店 OR 取材 パチスロ",
+        "市川 来店 OR 取材 パチスロ",   "成田 来店 OR 取材 パチスロ",
+        "流山 来店 OR 取材 パチスロ",   "我孫子 来店 OR 取材 パチスロ",
+        "水戸 来店 OR 取材 パチスロ",   "つくば 来店 OR 取材 パチスロ",
+        "日立 来店 OR 取材 パチスロ",
+        "宇都宮 来店 OR 取材 パチスロ", "小山 来店 OR 取材 パチスロ",
+        "前橋 来店 OR 取材 パチスロ",   "高崎 来店 OR 取材 パチスロ",
+        "伊勢崎 来店 OR 取材 パチスロ", "太田 来店 OR 取材 パチスロ",
         # ── 中部 ──
         "名古屋 来店 OR 取材 パチスロ", "栄 来店 OR 取材 パチスロ",
         "豊橋 来店 OR 取材 パチスロ",   "岡崎 来店 OR 取材 パチスロ",
         "一宮 来店 OR 取材 パチスロ",   "豊田 来店 OR 取材 パチスロ",
+        "春日井 来店 OR 取材 パチスロ", "刈谷 来店 OR 取材 パチスロ",
         "浜松 来店 OR 取材 パチスロ",   "静岡 来店 OR 取材 パチスロ",
         "沼津 来店 OR 取材 パチスロ",   "富士 来店 OR 取材 パチスロ",
+        "磐田 来店 OR 取材 パチスロ",
         "新潟 来店 OR 取材 パチスロ",   "長岡 来店 OR 取材 パチスロ",
-        "上越 来店 OR 取材 パチスロ",   "金沢 来店 OR 取材 パチスロ",
-        "富山 来店 OR 取材 パチスロ",   "福井 来店 OR 取材 パチスロ",
+        "上越 来店 OR 取材 パチスロ",   "三条 来店 OR 取材 パチスロ",
+        "金沢 来店 OR 取材 パチスロ",   "富山 来店 OR 取材 パチスロ",
+        "福井 来店 OR 取材 パチスロ",   "敦賀 来店 OR 取材 パチスロ",
         "長野 来店 OR 取材 パチスロ",   "松本 来店 OR 取材 パチスロ",
-        "甲府 来店 OR 取材 パチスロ",   "岐阜 来店 OR 取材 パチスロ",
-        "大垣 来店 OR 取材 パチスロ",   "四日市 来店 OR 取材 パチスロ",
+        "上田 来店 OR 取材 パチスロ",   "飯田 来店 OR 取材 パチスロ",
+        "甲府 来店 OR 取材 パチスロ",
+        "岐阜 来店 OR 取材 パチスロ",   "大垣 来店 OR 取材 パチスロ",
+        "各務原 来店 OR 取材 パチスロ", "四日市 来店 OR 取材 パチスロ",
+        "津 来店 OR 取材 パチスロ",     "鈴鹿 来店 OR 取材 パチスロ",
+        "伊勢 来店 OR 取材 パチスロ",
         # ── 近畿 ──
         "大阪 来店 OR 取材 パチスロ",   "難波 来店 OR 取材 パチスロ",
         "梅田 来店 OR 取材 パチスロ",   "天王寺 来店 OR 取材 パチスロ",
         "堺 来店 OR 取材 パチスロ",     "東大阪 来店 OR 取材 パチスロ",
         "吹田 来店 OR 取材 パチスロ",   "枚方 来店 OR 取材 パチスロ",
-        "豊中 来店 OR 取材 パチスロ",   "京都 来店 OR 取材 パチスロ",
+        "豊中 来店 OR 取材 パチスロ",   "岸和田 来店 OR 取材 パチスロ",
+        "八尾 来店 OR 取材 パチスロ",   "茨木 来店 OR 取材 パチスロ",
+        "京都 来店 OR 取材 パチスロ",   "宇治 来店 OR 取材 パチスロ",
+        "舞鶴 来店 OR 取材 パチスロ",
         "神戸 来店 OR 取材 パチスロ",   "三宮 来店 OR 取材 パチスロ",
         "姫路 来店 OR 取材 パチスロ",   "尼崎 来店 OR 取材 パチスロ",
         "西宮 来店 OR 取材 パチスロ",   "明石 来店 OR 取材 パチスロ",
-        "奈良 来店 OR 取材 パチスロ",   "和歌山 来店 OR 取材 パチスロ",
+        "宝塚 来店 OR 取材 パチスロ",   "加古川 来店 OR 取材 パチスロ",
+        "奈良 来店 OR 取材 パチスロ",   "橿原 来店 OR 取材 パチスロ",
+        "和歌山 来店 OR 取材 パチスロ",
         "大津 来店 OR 取材 パチスロ",   "草津 来店 OR 取材 パチスロ",
-        "彦根 来店 OR 取材 パチスロ",   "津 来店 OR 取材 パチスロ",
-        "鈴鹿 来店 OR 取材 パチスロ",
+        "彦根 来店 OR 取材 パチスロ",   "長浜 来店 OR 取材 パチスロ",
         # ── 中国・四国 ──
         "広島 来店 OR 取材 パチスロ",   "福山 来店 OR 取材 パチスロ",
-        "呉 来店 OR 取材 パチスロ",     "岡山 来店 OR 取材 パチスロ",
-        "倉敷 来店 OR 取材 パチスロ",   "山口 来店 OR 取材 パチスロ",
-        "下関 来店 OR 取材 パチスロ",   "鳥取 来店 OR 取材 パチスロ",
-        "松江 来店 OR 取材 パチスロ",   "米子 来店 OR 取材 パチスロ",
+        "呉 来店 OR 取材 パチスロ",     "尾道 来店 OR 取材 パチスロ",
+        "岡山 来店 OR 取材 パチスロ",   "倉敷 来店 OR 取材 パチスロ",
+        "津山 来店 OR 取材 パチスロ",
+        "山口 来店 OR 取材 パチスロ",   "下関 来店 OR 取材 パチスロ",
+        "宇部 来店 OR 取材 パチスロ",
+        "鳥取 来店 OR 取材 パチスロ",   "米子 来店 OR 取材 パチスロ",
+        "松江 来店 OR 取材 パチスロ",   "出雲 来店 OR 取材 パチスロ",
         "松山 来店 OR 取材 パチスロ",   "今治 来店 OR 取材 パチスロ",
+        "新居浜 来店 OR 取材 パチスロ",
         "高松 来店 OR 取材 パチスロ",   "丸亀 来店 OR 取材 パチスロ",
         "高知 来店 OR 取材 パチスロ",   "徳島 来店 OR 取材 パチスロ",
         # ── 九州・沖縄 ──
         "福岡 来店 OR 取材 パチスロ",   "博多 来店 OR 取材 パチスロ",
         "北九州 来店 OR 取材 パチスロ", "久留米 来店 OR 取材 パチスロ",
-        "飯塚 来店 OR 取材 パチスロ",   "熊本 来店 OR 取材 パチスロ",
-        "鹿児島 来店 OR 取材 パチスロ", "長崎 来店 OR 取材 パチスロ",
-        "佐世保 来店 OR 取材 パチスロ", "大分 来店 OR 取材 パチスロ",
-        "宮崎 来店 OR 取材 パチスロ",   "佐賀 来店 OR 取材 パチスロ",
-        "那覇 来店 OR 取材 パチスロ",   "沖縄 来店 OR 取材 パチスロ",
-        "浦添 来店 OR 取材 パチスロ",   "沖縄中部 来店 OR 取材 パチスロ",
+        "飯塚 来店 OR 取材 パチスロ",   "大牟田 来店 OR 取材 パチスロ",
+        "熊本 来店 OR 取材 パチスロ",   "八代 来店 OR 取材 パチスロ",
+        "鹿児島 来店 OR 取材 パチスロ", "姶良 来店 OR 取材 パチスロ",
+        "長崎 来店 OR 取材 パチスロ",   "佐世保 来店 OR 取材 パチスロ",
+        "諫早 来店 OR 取材 パチスロ",
+        "大分 来店 OR 取材 パチスロ",   "別府 来店 OR 取材 パチスロ",
+        "中津 来店 OR 取材 パチスロ",
+        "宮崎 来店 OR 取材 パチスロ",   "都城 来店 OR 取材 パチスロ",
+        "佐賀 来店 OR 取材 パチスロ",   "唐津 来店 OR 取材 パチスロ",
+        "那覇 来店 OR 取材 パチスロ",   "浦添 来店 OR 取材 パチスロ",
+        "宜野湾 来店 OR 取材 パチスロ", "沖縄市 来店 OR 取材 パチスロ",
+        "沖縄 来店 OR 取材 パチスロ",
     ]
 
-    # 人気機種 × 来店（machines.jsonから上位機種）
+    # 人気機種 × 来店
     popular = [
         "北斗の拳","バジリスク","ヴァルヴレイヴ","炎炎ノ消防隊","攻殻機動隊",
         "カバネリ","モンスターハンター","リコリス","ゾンビランドサガ","ジャグラー",
         "鉄拳","吉宗","チバリヨ","牙狼","ミリオンゴッド","東京喰種","エヴァ",
         "スマスロ北斗","スマスロバジリスク","スマスロヴァルヴレイヴ",
         "バイオハザード","アクエリオン","まどマギ","化物語","シュタゲ",
+        "花火絶景","真北斗無双","北斗天昇","バジリスク絆","沖ドキ",
+        "Lジャグラー","マイジャグ","ゴーゴージャグラー","アイムジャグラー",
+        "Re:ゼロ","転スラ","鬼滅の刃","ヴァルヴレイヴ","カバネリ",
+        "押忍!番長","蒼天の拳","ラブ嬌","ランブルローズ",
     ]
     for m in popular:
         base.append(f"{m} 来店 OR 取材")
 
-    # 追加機種（machines.jsonの機種名を短縮して追加）
-    for name in machine_names[:30]:
+    # machines.jsonから追加機種
+    for name in machine_names[:50]:
         short = re.sub(r'^(?:スマスロ|Lパチスロ|パチスロ|スマパチ|L)\s*', '', name).strip()
         if len(short) >= 3 and short not in popular:
             base.append(f"{short} 来店 OR 取材")
 
-    return list(dict.fromkeys(base))  # 重複除去
+    return list(dict.fromkeys(base))
 
 
 # ===========================================================================
-# Google / Yahoo クエリ
+# JOB C: Google / Yahoo クエリ
 # ===========================================================================
 GOOGLE_QUERIES = [
-    "パチスロ 来店イベント 今日",    "パチンコ 取材イベント 今週",
-    "スロット 来店 関東",            "パチスロ 来店 関西",
-    "パチスロ 来店 九州",            "パチスロ 来店 東北",
-    "スマスロ 来店 取材",            "パチンコ スロット 来店 イベント",
-    "マルハン 来店イベント",         "キコーナ 来店イベント",
-    "ダイナム 来店イベント",         "ガイア 来店イベント",
-    "パチスロ 取材 北海道",          "パチスロ 取材 中部",
-    "パチスロ 取材 中国四国",        "パチスロライター 来店 今日",
-    "スロットライター 取材 今週",    "パチンコ グラドル 来店",
-    "パチスロ 来店 沖縄",            "スロット 誕生日イベント",
-    "パチスロ 周年記念 イベント",    "パチスロ 新台 来店",
-    "スロット 特定日 今週",          "パチンコ 来店 芸能人",
+    "パチスロ 来店イベント 今日",        "パチンコ 取材イベント 今週",
+    "スロット 来店 関東",                "パチスロ 来店 関西",
+    "パチスロ 来店 九州",               "パチスロ 来店 東北",
+    "スマスロ 来店 取材",               "パチンコ スロット 来店 イベント",
+    "マルハン 来店イベント",            "キコーナ 来店イベント",
+    "ダイナム 来店イベント",            "ガイア 来店イベント",
+    "パチスロ 取材 北海道",             "パチスロ 取材 中部",
+    "パチスロ 取材 中国四国",           "パチスロライター 来店 今日",
+    "スロットライター 取材 今週",       "パチンコ グラドル 来店",
+    "パチスロ 来店 沖縄",               "スロット 誕生日イベント",
+    "パチスロ 周年記念 イベント",       "パチスロ 新台 来店",
+    "スロット 特定日 今週",             "パチンコ 来店 芸能人",
+    "スロパチステーション 取材予定",    "ジャンバリ 取材予定",
+    "パチマガスロマガ 来店予定",        "KD情報 来店スケジュール",
+    "パチスロ 来店 中部",               "パチスロ 来店 四国",
+    "パチスロ 全台イベント",            "スマスロ 全台系 イベント",
 ]
 
 YAHOO_RT_QUERIES = [
@@ -417,6 +493,76 @@ YAHOO_RT_QUERIES = [
     "来店 スロット 今日",
     "パチスロ ライター来店",
     "スロット タレント来店",
+    "パチスロ 全台系 イベント",
+    "スロット 誕生日 来店",
+    "パチスロ 周年 来店",
+    "来店取材 スロット",
+]
+
+# ===========================================================================
+# JOB D: 公式イベントサイト直接スクレイピング
+# ===========================================================================
+WEB_SOURCES = [
+    # ぱちタウンイベント
+    {
+        "name":    "p-town",
+        "urls":    [
+            "https://p-town.dmm.com/event/",
+            "https://p-town.dmm.com/event/?page=2",
+            "https://p-town.dmm.com/event/?page=3",
+        ],
+        "type":    "p-town",
+    },
+    # スロパチステーション公式
+    {
+        "name":    "slotpachi",
+        "urls":    [
+            "https://www.slotpachi.jp/event/",
+            "https://www.slotpachi.jp/event/?page=2",
+        ],
+        "type":    "news_list",
+    },
+    # ジャンバリ公式
+    {
+        "name":    "janbari",
+        "urls":    [
+            "https://www.janbari.jp/event/",
+            "https://www.janbari.jp/event/?page=2",
+        ],
+        "type":    "news_list",
+    },
+    # 必勝本
+    {
+        "name":    "hisshobon",
+        "urls":    [
+            "https://hisshobon.net/events/",
+        ],
+        "type":    "news_list",
+    },
+    # パチマガスロマガ
+    {
+        "name":    "pachinkovillage",
+        "urls":    [
+            "https://www.pachinkovillage.net/event/",
+        ],
+        "type":    "news_list",
+    },
+    # パチ7
+    {
+        "name":    "pachi7",
+        "urls":    [
+            "https://www.pachi7.jp/event/",
+        ],
+        "type":    "news_list",
+    },
+    # gogoネット
+    {
+        "name":    "gogo_net",
+        "urls":    [
+            "https://www.gogonet.co.jp/event/",
+        ],
+        "type":    "news_list",
+    },
 ]
 
 # ===========================================================================
@@ -501,7 +647,8 @@ STORE_CHAIN_RE = re.compile(
     r"フレスポ|ニューキング|コンコルド|アミューズ|キャッスル|"
     r"Ｄステーション|Dステーション|メッセ|ビックマーチ|ZENT|ゼント|"
     r"楽天地|平和島|ゲンキー|アポロ|ひまわり|ニュートーキョー|"
-    r"パラッツォ|スーパーホール|太陽|ガッツ|エムアール)"
+    r"パラッツォ|スーパーホール|太陽|ガッツ|エムアール|北欧|"
+    r"夢夢|キングダム|ガリバー|スロステ|ヴィクトリー|ダービー)"
     r"[^\s　,、。！!\n]{0,20}?(店|ホール|パーラー)"
 )
 
@@ -509,12 +656,16 @@ EVENT_LABEL_RE: dict[str, re.Pattern] = {
     "来店":    re.compile(r"来店"),
     "取材":    re.compile(r"取材"),
     "撮影":    re.compile(r"撮影|ロケ"),
-    "イベント": re.compile(r"イベント|特定日|設定示唆|周年|誕生日|オープン|新台"),
+    "イベント": re.compile(r"イベント|特定日|設定示唆|周年|誕生日|オープン|新台|全台"),
 }
 
 CAST_RE = re.compile(
     r"(?:出演|ゲスト|来店者|MC)[：:\s]*([^\n,、。！!\s]{2,20})|"
     r"([^\s]{2,10}(?:さん|先生|選手|プロ|氏))"
+)
+
+EVENT_KEYWORD_RE = re.compile(
+    r"来店|取材|撮影|ロケ|イベント|特定日|設定示唆|周年|誕生日|オープン|新台|全台"
 )
 
 
@@ -593,9 +744,11 @@ def _guess_pref_area(text: str) -> tuple[str, str]:
 
 
 def _guess_store(text: str, store_names: set[str]) -> str:
+    # stores.jsonの正確な店舗名で先に一致確認
     for name in store_names:
         if name in text:
             return name
+    # チェーン正規表現でのフォールバック
     m = STORE_CHAIN_RE.search(text)
     return m.group(0).strip() if m else ""
 
@@ -619,6 +772,9 @@ def _make_id(store: str, date_str: str, url: str) -> str:
 
 
 def _make_event(text: str, url: str, image_url: str, source: str, store_names: set[str]) -> dict | None:
+    # イベント関連キーワードがなければスキップ
+    if not EVENT_KEYWORD_RE.search(text):
+        return None
     store = _guess_store(text, store_names)
     if not store:
         return None
@@ -699,13 +855,14 @@ def scrape_x_timeline(page, username: str, store_names: set[str]) -> list[dict]:
             page.wait_for_selector('article[data-testid="tweet"]', timeout=6000)
         except PlaywrightTimeout:
             return []
-        for _ in range(4):
+        # 8回スクロールで深く取得
+        for _ in range(8):
             page.mouse.wheel(0, 2500)
-            page.wait_for_timeout(500)
+            page.wait_for_timeout(400)
     except Exception as e:
         log(f"    ⚠️  @{username}: {e}")
         return []
-    return _x_scrape_page(page, store_names, 30, f"@{username}")
+    return _x_scrape_page(page, store_names, 50, f"@{username}")
 
 
 def scrape_x_search(page, query: str, store_names: set[str]) -> list[dict]:
@@ -717,13 +874,14 @@ def scrape_x_search(page, query: str, store_names: set[str]) -> list[dict]:
             page.wait_for_selector('article[data-testid="tweet"]', timeout=6000)
         except PlaywrightTimeout:
             return []
-        for _ in range(7):
+        # 12回スクロール
+        for _ in range(12):
             page.mouse.wheel(0, 2500)
-            page.wait_for_timeout(600)
+            page.wait_for_timeout(500)
     except Exception as e:
         log(f"    ⚠️  {query!r}: {e}")
         return []
-    return _x_scrape_page(page, store_names, 50, "search")
+    return _x_scrape_page(page, store_names, 80, "search")
 
 
 # ---------------------------------------------------------------------------
@@ -737,13 +895,13 @@ def scrape_google_news(page, query: str, store_names: set[str]) -> list[dict]:
             timeout=18000, wait_until="domcontentloaded"
         )
         page.wait_for_timeout(2500)
-        for _ in range(2):
+        for _ in range(3):
             page.mouse.wheel(0, 2500)
             page.wait_for_timeout(500)
     except Exception as e:
         log(f"    ⚠️  Google {query!r}: {e}")
         return results
-    for article in page.query_selector_all('article')[:40]:
+    for article in page.query_selector_all('article')[:50]:
         try:
             title_el = article.query_selector('h3, h4')
             if not title_el:
@@ -777,13 +935,13 @@ def scrape_yahoo_realtime(page, query: str, store_names: set[str]) -> list[dict]
             timeout=18000, wait_until="domcontentloaded"
         )
         page.wait_for_timeout(3000)
-        for _ in range(3):
+        for _ in range(5):
             page.mouse.wheel(0, 2500)
             page.wait_for_timeout(500)
     except Exception as e:
         log(f"    ⚠️  Yahoo {query!r}: {e}")
         return results
-    for tweet_div in page.query_selector_all('[class*="Tweet_"], .tweetItem, li[class*="tweet"], article')[:50]:
+    for tweet_div in page.query_selector_all('[class*="Tweet_"], .tweetItem, li[class*="tweet"], article')[:80]:
         try:
             text_el = tweet_div.query_selector('[class*="body"], [class*="text"], p, span')
             if not text_el:
@@ -803,6 +961,114 @@ def scrape_yahoo_realtime(page, query: str, store_names: set[str]) -> list[dict]
                 log(f"      📡 {ev['store'][:18]} [{ev['pref']}]")
         except Exception:
             continue
+    return results
+
+
+# ---------------------------------------------------------------------------
+# JOB D: 公式イベントサイト スクレイピング
+# ---------------------------------------------------------------------------
+def scrape_ptown_event(page, url: str, store_names: set[str]) -> list[dict]:
+    """ぱちタウンのイベントページをスクレイピング"""
+    results: list[dict] = []
+    try:
+        page.goto(url, timeout=20000, wait_until="domcontentloaded")
+        page.wait_for_timeout(2500)
+        for _ in range(3):
+            page.mouse.wheel(0, 2500)
+            page.wait_for_timeout(500)
+    except Exception as e:
+        log(f"    ⚠️  p-town {url}: {e}")
+        return results
+
+    # ぱちタウンのイベントカード
+    selectors = [
+        'li[class*="event"]', 'div[class*="event-item"]',
+        'div[class*="EventCard"]', 'article[class*="event"]',
+        'div[class*="hall-event"]', '.event-list li',
+    ]
+    for sel in selectors:
+        cards = page.query_selector_all(sel)
+        if cards:
+            for card in cards[:60]:
+                try:
+                    text = card.inner_text()
+                    if len(text) < 10:
+                        continue
+                    link_el = card.query_selector('a[href]')
+                    href = link_el.get_attribute("href") if link_el else ""
+                    if href and not href.startswith("http"):
+                        href = "https://p-town.dmm.com" + href
+                    img_el = card.query_selector('img[src]')
+                    img = img_el.get_attribute("src") if img_el else ""
+                    ev = _make_event(text, href or url, img or "", "p-town", store_names)
+                    if ev:
+                        results.append(ev)
+                        log(f"      🏢 {ev['store'][:18]} [{ev['pref']}] (p-town)")
+                except Exception:
+                    continue
+            if results:
+                break
+
+    # フォールバック: 全テキストから抽出
+    if not results:
+        try:
+            body = page.query_selector('main, #main, .main, body')
+            if body:
+                text = body.inner_text()
+                lines = [l.strip() for l in text.split('\n') if len(l.strip()) > 20]
+                for line in lines[:100]:
+                    ev = _make_event(line, url, "", "p-town", store_names)
+                    if ev:
+                        results.append(ev)
+                        log(f"      🏢 {ev['store'][:18]} [{ev['pref']}] (p-town fallback)")
+        except Exception:
+            pass
+    return results
+
+
+def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) -> list[dict]:
+    """汎用ニュースリスト系イベントサイト"""
+    results: list[dict] = []
+    try:
+        page.goto(url, timeout=20000, wait_until="domcontentloaded")
+        page.wait_for_timeout(2500)
+        for _ in range(3):
+            page.mouse.wheel(0, 2500)
+            page.wait_for_timeout(500)
+    except Exception as e:
+        log(f"    ⚠️  {source_name} {url}: {e}")
+        return results
+
+    # 一般的なニュースリストセレクタ
+    selectors = [
+        'article', 'li.event', 'div.event', 'div[class*="event"]',
+        'li[class*="article"]', 'div[class*="article"]', 'li[class*="news"]',
+        'div[class*="news-item"]', 'div[class*="list-item"]',
+        '.event-list li', '.news-list li', 'section[class*="event"]',
+    ]
+    for sel in selectors:
+        cards = page.query_selector_all(sel)
+        if len(cards) >= 3:
+            for card in cards[:60]:
+                try:
+                    text = card.inner_text()
+                    if len(text) < 10:
+                        continue
+                    link_el = card.query_selector('a[href]')
+                    href = link_el.get_attribute("href") if link_el else url
+                    if href and href.startswith("/"):
+                        base = re.match(r'https?://[^/]+', url)
+                        href = (base.group(0) if base else "") + href
+                    img_el = card.query_selector('img[src]')
+                    img = img_el.get_attribute("src") if img_el else ""
+                    ev = _make_event(text, href or url, img or "", source_name, store_names)
+                    if ev:
+                        results.append(ev)
+                        log(f"      🌐 {ev['store'][:18]} [{ev['pref']}] ({source_name})")
+                except Exception:
+                    continue
+            if results:
+                break
     return results
 
 
@@ -828,7 +1094,7 @@ def save_events(events: list[dict], original: dict | None):
 
 
 def merge_events(existing: list[dict], new_events: list[dict]) -> tuple[list[dict], int]:
-    existing_ids = {ev["id"] for ev in existing}
+    existing_ids  = {ev["id"] for ev in existing}
     existing_urls = {ev.get("url", "") for ev in existing if ev.get("url")}
     added = 0
     prepend: list[dict] = []
@@ -842,7 +1108,7 @@ def merge_events(existing: list[dict], new_events: list[dict]) -> tuple[list[dic
         if ev.get("url"):
             existing_urls.add(ev["url"])
         added += 1
-    return (prepend + existing)[:10000], added  # 上限1万件
+    return (prepend + existing)[:15000], added  # 上限1.5万件
 
 
 # ---------------------------------------------------------------------------
@@ -851,10 +1117,15 @@ def merge_events(existing: list[dict], new_events: list[dict]) -> tuple[list[dic
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
-    parser.add_argument("--job", choices=["accounts", "search", "google", "all"], default="all")
+    parser.add_argument("--job", choices=["accounts", "search", "google", "web", "all"], default="all")
     args = parser.parse_args()
 
-    # machines.jsonから人気機種名取得
+    # stores.jsonから動的アカウント読み込み
+    dynamic_store_accounts = _load_store_accounts_from_json()
+    STORE_ACCOUNTS = {**STORE_ACCOUNTS_FIXED, **dynamic_store_accounts}
+    ALL_ACCOUNTS   = {**MEDIA_ACCOUNTS, **STORE_ACCOUNTS}
+
+    # machines.jsonから機種名取得
     machine_names: list[str] = []
     if MACHINES_JSON.exists():
         with open(MACHINES_JSON, encoding="utf-8") as f:
@@ -867,8 +1138,9 @@ def main():
     log(f"🚀 fetch_events  job={args.job}")
     log(f"   メディアアカウント:{len(MEDIA_ACCOUNTS)}  店舗アカウント:{len(STORE_ACCOUNTS)}")
     log(f"   検索クエリ:{len(X_QUERIES)}  Google:{len(GOOGLE_QUERIES)}  Yahoo:{len(YAHOO_RT_QUERIES)}")
+    log(f"   Webソース:{len(WEB_SOURCES)}サイト")
 
-    # stores.jsonから店舗名セット
+    # stores.jsonから店舗名セット（短すぎる名前は除外）
     store_names: set[str] = set()
     if STORES_JSON.exists():
         with open(STORES_JSON, encoding="utf-8") as f:
@@ -886,7 +1158,7 @@ def main():
     with sync_playwright() as pw:
         ctx = launch_ctx(pw, args.headless)
 
-        # X 認証
+        # X 認証注入
         if args.job in ("accounts", "search", "all"):
             cookies = _get_x_cookies()
             if cookies:
@@ -898,7 +1170,7 @@ def main():
             Stealth().apply_stealth_sync(page)
         page.set_extra_http_headers({"Accept-Language": "ja-JP,ja;q=0.9"})
 
-        # ── JOB A: X タイムライン（メディア + 店舗） ──
+        # ── JOB A: X タイムライン ──
         if args.job in ("accounts", "all"):
             try:
                 page.goto("https://x.com/home", timeout=20000, wait_until="domcontentloaded")
@@ -909,7 +1181,6 @@ def main():
 
             if logged_in:
                 log("✅ Xログイン OK")
-
                 log(f"\n📋 メディアアカウント ({len(MEDIA_ACCOUNTS)}件)")
                 for i, (username, label) in enumerate(MEDIA_ACCOUNTS.items(), 1):
                     log(f"  [{i}/{len(MEDIA_ACCOUNTS)}] @{username}")
@@ -918,7 +1189,7 @@ def main():
                         if res:
                             log(f"       → {len(res)}件")
                         all_new.extend(res)
-                        time.sleep(1.0)
+                        time.sleep(0.8)
                     except Exception as e:
                         log(f"    ❌ {e}")
 
@@ -930,7 +1201,7 @@ def main():
                         if res:
                             log(f"       → {len(res)}件")
                         all_new.extend(res)
-                        time.sleep(0.8)
+                        time.sleep(0.7)
                     except Exception as e:
                         log(f"    ❌ {e}")
             else:
@@ -957,7 +1228,7 @@ def main():
                         if res:
                             log(f"       → {len(res)}件")
                         all_new.extend(res)
-                        time.sleep(0.8)
+                        time.sleep(0.7)
                     except Exception as e:
                         log(f"    ❌ {e}")
 
@@ -983,9 +1254,27 @@ def main():
                     if res:
                         log(f"       → {len(res)}件")
                     all_new.extend(res)
-                    time.sleep(1.8)
+                    time.sleep(1.5)
                 except Exception as e:
                     log(f"    ❌ {e}")
+
+        # ── JOB D: 公式イベントサイト ──
+        if args.job in ("web", "all"):
+            log(f"\n🌐 公式イベントサイト ({len(WEB_SOURCES)}サイト)")
+            for src in WEB_SOURCES:
+                log(f"  📖 {src['name']}")
+                for url in src["urls"]:
+                    try:
+                        if src["type"] == "p-town":
+                            res = scrape_ptown_event(page, url, store_names)
+                        else:
+                            res = scrape_news_list(page, url, src["name"], store_names)
+                        if res:
+                            log(f"       → {len(res)}件")
+                        all_new.extend(res)
+                        time.sleep(2.0)
+                    except Exception as e:
+                        log(f"    ❌ {src['name']} {url}: {e}")
 
         page.close()
         ctx.close()
