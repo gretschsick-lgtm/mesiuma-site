@@ -56,6 +56,12 @@ function cleanCast(cast?: string) {
     .replace(/[\s）)）、。,.\-─　]+$/, "")
     .trim();
 }
+function safeImg(url?: string): string {
+  if (!url) return "";
+  if (url.includes("dmm.com") || url.includes("p-town")) return "";
+  return url;
+}
+
 function isValidStore(store: string) {
   if (STORE_NG.some(w => store.includes(w))) return false;
   if (DATE_RE.test(store)) return false;
@@ -306,7 +312,7 @@ export default function Page() {
       const evKey = `${ev.store}_${evType}`;
       if (seenStores.has(ev.store)) continue;
       seenStores.add(ev.store);
-      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: ev.image_url || "", evType });
+      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: safeImg(ev.image_url), evType });
       if (result.length >= 12) break;
     }
     return result;
@@ -371,10 +377,10 @@ export default function Page() {
         onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
       >
         {/* 左アイコン/画像 */}
-        {ev.image_url ? (
+        {safeImg(ev.image_url) ? (
           <div style={{ width: imgSize, minWidth: imgSize, height: imgSize, borderRadius: 6, overflow: "hidden", background: "#eee", flexShrink: 0 }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={ev.image_url} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
+            <img src={safeImg(ev.image_url)} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
           </div>
         ) : (
           <div style={{
@@ -499,7 +505,7 @@ export default function Page() {
     if (m1) videoId = m1[1];
     else if (m2) videoId = m2[1];
     else if (m3) videoId = m3[1];
-    const thumb = videoId ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg` : (ev.image_url || "");
+    const thumb = videoId ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg` : safeImg(ev.image_url);
     return (
       <a key={ev.id} href={ytUrl || "#"} target="_blank" rel="noopener noreferrer"
         style={{ textDecoration: "none", ...(cardW ? { width: cardW, flexShrink: 0 } : {}), display: "flex" }}>
