@@ -110,40 +110,58 @@ def parse_store_page(html: str) -> dict:
     pachinko: list[dict] = []
     slot: list[dict] = []
 
-    # machine-type-name と machine-rate の対応を取る
-    # 複数の machine-rate-area ブロックを順に処理
+    # パターン1: machine-rate-area ブロック（旧形式）
     blocks = re.findall(
         r'<div class="machine-rate-area">(.*?)(?=<div class="machine-rate-area">|</td>)',
         html, re.DOTALL
     )
-    if not blocks:
-        # フォールバック: 単一ブロック
-        m = re.search(r'遊技金額・台数.*?<td class="td">(.*?)</td>', html, re.DOTALL)
-        if m:
-            blocks = [m.group(1)]
-
     for block in blocks:
         ptype_m = re.search(r'machine-type-name (\w+)">\s*<p>([^<]+)</p>', block)
         if not ptype_m:
             continue
-        ptype_key = ptype_m.group(1)  # "pachi" or "slot"
+        ptype_key = ptype_m.group(1)
         rates = re.findall(
             r'<span class="machine-rate-\w+">(.*?)</span>\s*<span>(\d+)台</span>',
             block
         )
         total_m = re.search(r'計(\d+)台', block)
         total = int(total_m.group(1)) if total_m else 0
-
         entries = [{"rate": r, "count": int(c)} for r, c in rates]
         if not entries and total:
             entries = [{"rate": "不明", "count": total}]
-
         if ptype_key == "pachi":
             pachinko = entries
             result["pachinko_total"] = total or sum(e["count"] for e in entries)
         else:
             slot = entries
             result["slot_total"] = total or sum(e["count"] for e in entries)
+
+    # パターン2: テキスト形式「4円パチンコ:240台\n46枚スロット:374台」（新形式）
+    if not pachinko and not slot:
+        td_m = re.search(
+            r'(?:遊技金額・台数|台数)</h3></th>\s*<td[^>]*>\s*<p[^>]*>(.*?)</p>',
+            html, re.DOTALL
+        )
+        if td_m:
+            td_text = re.sub(r'<[^>]+>', '\n', td_m.group(1))
+            # パチンコ: 「4円パチンコ:240台」「1円パチンコ:120台」など
+            for m2 in re.finditer(r'([^\n:：]+パチンコ)[：:]\s*(\d+)台', td_text):
+                rate, count = m2.group(1).strip(), int(m2.group(2))
+                pachinko.append({"rate": rate, "count": count})
+            # スロット: 「46枚スロット:374台」「20枚スロット:100台」など
+            for m2 in re.finditer(r'([^\n:：]*スロット)[：:]\s*(\d+)台', td_text):
+                rate, count = m2.group(1).strip(), int(m2.group(2))
+                slot.append({"rate": rate, "count": count})
+            # どちらも取れなければ総台数だけ
+            if not pachinko and not slot:
+                all_counts = re.findall(r'(\d+)台', td_text)
+                if all_counts:
+                    total = sum(int(c) for c in all_counts)
+                    pachinko = [{"rate": "不明", "count": total}]
+            if pachinko:
+                result["pachinko_total"] = sum(e["count"] for e in pachinko)
+            if slot:
+                result["slot_total"] = sum(e["count"] for e in slot)
 
     if pachinko:
         result["pachinko"] = pachinko
