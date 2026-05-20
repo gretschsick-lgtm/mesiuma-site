@@ -2,7 +2,8 @@
 """
 パチスロ来店・取材イベント情報を限界まで収集。
 X(アカウントタイムライン＋検索) / Yahoo!リアルタイム / Google News /
-ぱちタウン / スロパチステーション / ジャンバリ / 必勝本 / パチマガ
+ぱちタウン / スロパチステーション / ジャンバリ / 必勝本 / パチマガ /
+YouTube（コミュニティ投稿 + 動画タイトル + 検索）
 
 GitHub Actions 対応: X_AUTH_TOKEN / X_CT0 環境変数で認証。
 JOB で実行モードを切り替え。
@@ -12,6 +13,7 @@ Usage:
     python scripts/fetch_events.py --headless --job search
     python scripts/fetch_events.py --headless --job google
     python scripts/fetch_events.py --headless --job web
+    python scripts/fetch_events.py --headless --job youtube
     python scripts/fetch_events.py --headless           # 全実行（ローカル用）
 """
 
@@ -151,6 +153,33 @@ MEDIA_ACCOUNTS: dict[str, str] = {
     "messe_official":    "メッセ公式",
     "genkys_official":   "ゲンキー公式",
     "dstation_jp":       "Dステーション公式",
+    # 有名パチスロ系YouTuber（X も同時運用）
+    "HamadaBritney":     "浜田ブリトニー",
+    "garizou_slot":      "ガリぞう",
+    "kimurauotaku":      "木村魚拓",
+    "batchimatsumoto":   "松本バッチ",
+    "uichi_slot":        "ういち",
+    "revin_pachi":       "レビン",
+    "msa_slot":          "みさお",
+    "onigatan777":       "スロ鬼打ち",
+    "hikitsuyoman":      "ヒキ強マン",
+    "settei_shu":        "設定師シュウ",
+    "gen_pachi_tv":      "ゲンさん",
+    "orochi_slot":       "鬼Dオロチ",
+    "mario_slot_ch":     "まりも",
+    "pachi_maron":       "まろん",
+    "slot_papa_ch":      "スロパパ",
+    "kaz_pachi777":      "カズ",
+    "daimon_slot":       "大門",
+    "tsuyo_slot":        "ツヨシ",
+    "ryu_pachi_ch":      "リュウ",
+    "nishiyama_slot":    "西山",
+    "ito_seiichi_ps":    "伊藤誠一",
+    "yoshida_slot_tv":   "吉田",
+    "nakai_pachi":       "中井",
+    "fukumoto_slot":     "福本",
+    "tanaka_ps_ch":      "田中",
+    "yamamoto_slot":     "山本",
 }
 
 # ── 個別店舗アカウント（ワンダーランド34 + ミリオン37 + その他） ──
@@ -563,6 +592,71 @@ WEB_SOURCES = [
         ],
         "type":    "news_list",
     },
+]
+
+# ===========================================================================
+# JOB E: YouTube チャンネル（コミュニティ投稿 + 最新動画タイトル）
+# ===========================================================================
+
+# @handle形式。コミュニティ投稿 → /community、動画一覧 → /videos を順にスクレイプ
+YOUTUBE_CHANNELS: list[dict] = [
+    # ── 大手パチスロ系 YouTuber ──
+    {"handle": "HamadaBritney",      "name": "浜田ブリトニー"},
+    {"handle": "garizouslot",        "name": "ガリぞう"},
+    {"handle": "kimurauotaku",       "name": "木村魚拓"},
+    {"handle": "matsumotobatch",     "name": "松本バッチ"},
+    {"handle": "uichihikaru",        "name": "ういちとヒカル"},
+    {"handle": "misaoTV",            "name": "みさお"},
+    {"handle": "REVIN777",           "name": "レビン"},
+    {"handle": "hikotsuyoman",       "name": "ヒキ強マン"},
+    {"handle": "orochislot",         "name": "鬼Dオロチ"},
+    {"handle": "settei_shu_slot",    "name": "設定師シュウ"},
+    {"handle": "gensanpachisuro",    "name": "ゲンさん"},
+    {"handle": "marimo_slot",        "name": "まりも"},
+    {"handle": "slotpachich",        "name": "スロパチch"},
+    {"handle": "pachipachi777ch",    "name": "パチパチch"},
+    {"handle": "kazupachich",        "name": "カズのパチスロ実践"},
+    {"handle": "pachislothit",       "name": "パチスロHIT"},
+    {"handle": "janbari_ch",         "name": "ジャンバリ公式"},
+    {"handle": "slotpachi_official", "name": "スロパチステーション公式"},
+    {"handle": "PACHISLO_HISSHOBON", "name": "パチスロ必勝本公式"},
+    {"handle": "PM_portal",          "name": "パチマガスロマガ公式"},
+    {"handle": "pachi7_official",    "name": "パチ7公式"},
+    {"handle": "gogonet_official",   "name": "gogoネット公式"},
+    # ── KD・3×3STAR など媒体系 ──
+    {"handle": "KDjoho",             "name": "KD情報"},
+    {"handle": "3x3star_official",   "name": "3×3STAR"},
+    {"handle": "gokuzei_official",   "name": "極誓"},
+    {"handle": "kaidou_adventure",   "name": "回胴アドベンチャー"},
+    {"handle": "BuzzSlot",           "name": "バズスロ"},
+    {"handle": "eyeslot_ch",         "name": "アイスロ"},
+    # ── 個性派・実戦系 ──
+    {"handle": "nishiyamaslot",      "name": "西山師匠"},
+    {"handle": "slot_tensai",        "name": "スロット天才"},
+    {"handle": "pachuro_king",       "name": "パチュロking"},
+    {"handle": "daimon_pachisuro",   "name": "大門パチスロ"},
+    {"handle": "ryupachi_official",  "name": "りゅうパチ"},
+    {"handle": "slot_legend_ch",     "name": "スロットレジェンド"},
+    {"handle": "pachi_senryaku",     "name": "パチスロ戦略ch"},
+]
+
+# YouTube 検索クエリ（撮影スケジュール・ホール訪問系）
+YOUTUBE_SEARCH_QUERIES: list[str] = [
+    "パチスロ ホール撮影 来店",
+    "スマスロ ホール 撮影 スケジュール",
+    "パチスロ YouTube 撮影 予定",
+    "パチスロ 来店 撮影 今週",
+    "スロット ホール 取材 YouTube",
+    "パチスロ YouTuber 来店 ホール",
+    "スマスロ 撮影 来店 告知",
+    "パチスロ 実戦 ホール 関東",
+    "パチスロ 実戦 ホール 関西",
+    "パチスロ 実戦 ホール 九州",
+    "パチスロ 全台系 撮影",
+    "スロット 高設定 撮影 ホール",
+    "パチスロ 誕生日 撮影 来店",
+    "スロット 周年 撮影 ホール",
+    "パチスロ YouTube 撮影 告知 店名",
 ]
 
 # ===========================================================================
@@ -1073,6 +1167,155 @@ def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) ->
 
 
 # ---------------------------------------------------------------------------
+# JOB E: YouTube スクレイピング
+# ---------------------------------------------------------------------------
+def _yt_extract_from_text(text: str, url: str, img: str, source: str, store_names: set[str]) -> list[dict]:
+    """YouTube テキスト（複数行）からイベント情報を抽出"""
+    results: list[dict] = []
+    # 行単位でパース（動画説明文は長いので段落ごとに）
+    blocks = [b.strip() for b in re.split(r'\n{2,}', text) if b.strip()]
+    for block in blocks[:20]:
+        ev = _make_event(block, url, img, source, store_names)
+        if ev:
+            results.append(ev)
+    # ブロック分割でヒットしなければ全文で1回試みる
+    if not results and len(text) >= 15:
+        ev = _make_event(text[:500], url, img, source, store_names)
+        if ev:
+            results.append(ev)
+    return results
+
+
+def scrape_youtube_community(page, handle: str, ch_name: str, store_names: set[str]) -> list[dict]:
+    """YouTubeコミュニティ投稿をスクレイプ（撮影・来店告知が多い）"""
+    results: list[dict] = []
+    url = f"https://www.youtube.com/@{handle}/community"
+    try:
+        page.goto(url, timeout=22000, wait_until="domcontentloaded")
+        page.wait_for_timeout(3000)
+        # コミュニティタブが存在しないチャンネルはスキップ
+        if "404" in page.title() or page.url == "https://www.youtube.com/":
+            return results
+        # スクロールして投稿をロード
+        for _ in range(5):
+            page.mouse.wheel(0, 3000)
+            page.wait_for_timeout(600)
+    except Exception as e:
+        log(f"    ⚠️  YT community @{handle}: {e}")
+        return results
+
+    # ytd-backstage-post-renderer が各投稿カード
+    posts = page.query_selector_all("ytd-backstage-post-renderer, ytd-post-renderer")
+    if not posts:
+        # フォールバック: テキスト断片を広めに取る
+        posts = page.query_selector_all("#content-text, yt-formatted-string[id='content-text']")
+
+    for post in posts[:30]:
+        try:
+            text = post.inner_text().strip()
+            if len(text) < 15:
+                continue
+            # 投稿リンク
+            link_el = post.query_selector('a#permalink, a[href*="/post/"]')
+            post_url = ""
+            if link_el:
+                href = link_el.get_attribute("href") or ""
+                post_url = f"https://www.youtube.com{href}" if href.startswith("/") else href
+            img_el = post.query_selector('img#img, img[src*="yt3.ggpht"]')
+            img = img_el.get_attribute("src") if img_el else ""
+            evs = _yt_extract_from_text(text, post_url or url, img, "youtube_community", store_names)
+            for ev in evs:
+                ev["cast"] = ev.get("cast") or ch_name
+                results.append(ev)
+                log(f"      🎬 {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({ch_name} community)")
+        except Exception:
+            continue
+    return results
+
+
+def scrape_youtube_videos(page, handle: str, ch_name: str, store_names: set[str]) -> list[dict]:
+    """YouTube最新動画タイトルをスクレイプ（ホール名が含まれることが多い）"""
+    results: list[dict] = []
+    url = f"https://www.youtube.com/@{handle}/videos"
+    try:
+        page.goto(url, timeout=22000, wait_until="domcontentloaded")
+        page.wait_for_timeout(3000)
+        if "404" in page.title() or page.url == "https://www.youtube.com/":
+            return results
+        for _ in range(4):
+            page.mouse.wheel(0, 3000)
+            page.wait_for_timeout(500)
+    except Exception as e:
+        log(f"    ⚠️  YT videos @{handle}: {e}")
+        return results
+
+    cards = page.query_selector_all("ytd-rich-item-renderer, ytd-grid-video-renderer")
+    for card in cards[:40]:
+        try:
+            title_el = card.query_selector("#video-title, h3 a, a#video-title-link")
+            if not title_el:
+                continue
+            title = title_el.inner_text().strip()
+            if len(title) < 8:
+                continue
+            href = title_el.get_attribute("href") or ""
+            video_url = f"https://www.youtube.com{href}" if href.startswith("/") else href
+            img_el = card.query_selector("img#img, img[src*='ytimg']")
+            img = img_el.get_attribute("src") if img_el else ""
+            evs = _yt_extract_from_text(title, video_url, img, "youtube_video", store_names)
+            for ev in evs:
+                ev["cast"] = ev.get("cast") or ch_name
+                results.append(ev)
+                log(f"      🎥 {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({ch_name})")
+        except Exception:
+            continue
+    return results
+
+
+def scrape_youtube_search(page, query: str, store_names: set[str]) -> list[dict]:
+    """YouTube検索（アップロード順）でホール撮影動画を収集"""
+    results: list[dict] = []
+    # sp=CAI%3D は「アップロード日時順」フィルタ
+    encoded = query.replace(" ", "+")
+    url = f"https://www.youtube.com/results?search_query={encoded}&sp=CAI%3D"
+    try:
+        page.goto(url, timeout=22000, wait_until="domcontentloaded")
+        page.wait_for_timeout(3000)
+        for _ in range(4):
+            page.mouse.wheel(0, 3000)
+            page.wait_for_timeout(500)
+    except Exception as e:
+        log(f"    ⚠️  YT search {query!r}: {e}")
+        return results
+
+    cards = page.query_selector_all("ytd-video-renderer, ytd-compact-video-renderer")
+    for card in cards[:40]:
+        try:
+            title_el = card.query_selector("#video-title, a#video-title")
+            if not title_el:
+                continue
+            title = title_el.inner_text().strip()
+            if len(title) < 8:
+                continue
+            href = title_el.get_attribute("href") or ""
+            video_url = f"https://www.youtube.com{href}" if href.startswith("/") else href
+            img_el = card.query_selector("img#img, img[src*='ytimg']")
+            img = img_el.get_attribute("src") if img_el else ""
+            # チャンネル名を cast に
+            ch_el = card.query_selector("ytd-channel-name a, #channel-name a")
+            ch = ch_el.inner_text().strip() if ch_el else ""
+            evs = _yt_extract_from_text(title, video_url, img, "youtube_search", store_names)
+            for ev in evs:
+                if ch and not ev.get("cast"):
+                    ev["cast"] = ch
+                results.append(ev)
+                log(f"      🔍 {ev['store'][:18]} [{ev['pref']}] {ev['date']} (YT search)")
+        except Exception:
+            continue
+    return results
+
+
+# ---------------------------------------------------------------------------
 # 保存・マージ
 # ---------------------------------------------------------------------------
 def load_events() -> tuple[list[dict], dict | None]:
@@ -1117,7 +1360,7 @@ def merge_events(existing: list[dict], new_events: list[dict]) -> tuple[list[dic
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
-    parser.add_argument("--job", choices=["accounts", "search", "google", "web", "all"], default="all")
+    parser.add_argument("--job", choices=["accounts", "search", "google", "web", "youtube", "all"], default="all")
     args = parser.parse_args()
 
     # stores.jsonから動的アカウント読み込み
@@ -1138,7 +1381,7 @@ def main():
     log(f"🚀 fetch_events  job={args.job}")
     log(f"   メディアアカウント:{len(MEDIA_ACCOUNTS)}  店舗アカウント:{len(STORE_ACCOUNTS)}")
     log(f"   検索クエリ:{len(X_QUERIES)}  Google:{len(GOOGLE_QUERIES)}  Yahoo:{len(YAHOO_RT_QUERIES)}")
-    log(f"   Webソース:{len(WEB_SOURCES)}サイト")
+    log(f"   Webソース:{len(WEB_SOURCES)}サイト  YouTubeチャンネル:{len(YOUTUBE_CHANNELS)}ch  YouTube検索:{len(YOUTUBE_SEARCH_QUERIES)}クエリ")
 
     # stores.jsonから店舗名セット（短すぎる名前は除外）
     store_names: set[str] = set()
@@ -1275,6 +1518,39 @@ def main():
                         time.sleep(2.0)
                     except Exception as e:
                         log(f"    ❌ {src['name']} {url}: {e}")
+
+        # ── JOB E: YouTube コミュニティ投稿 + 動画タイトル + 検索 ──
+        if args.job in ("youtube", "all"):
+            log(f"\n🎬 YouTube チャンネル コミュニティ投稿 ({len(YOUTUBE_CHANNELS)}ch)")
+            for i, ch in enumerate(YOUTUBE_CHANNELS, 1):
+                log(f"  [{i}/{len(YOUTUBE_CHANNELS)}] @{ch['handle']} ({ch['name']})")
+                try:
+                    # コミュニティ投稿
+                    res = scrape_youtube_community(page, ch["handle"], ch["name"], store_names)
+                    if res:
+                        log(f"       community → {len(res)}件")
+                    all_new.extend(res)
+                    time.sleep(1.0)
+                    # 最新動画タイトル
+                    res2 = scrape_youtube_videos(page, ch["handle"], ch["name"], store_names)
+                    if res2:
+                        log(f"       videos    → {len(res2)}件")
+                    all_new.extend(res2)
+                    time.sleep(1.0)
+                except Exception as e:
+                    log(f"    ❌ {ch['name']}: {e}")
+
+            log(f"\n🔍 YouTube 検索 ({len(YOUTUBE_SEARCH_QUERIES)}クエリ)")
+            for i, query in enumerate(YOUTUBE_SEARCH_QUERIES, 1):
+                log(f"  [{i}] {query}")
+                try:
+                    res = scrape_youtube_search(page, query, store_names)
+                    if res:
+                        log(f"       → {len(res)}件")
+                    all_new.extend(res)
+                    time.sleep(1.5)
+                except Exception as e:
+                    log(f"    ❌ {e}")
 
         page.close()
         ctx.close()
