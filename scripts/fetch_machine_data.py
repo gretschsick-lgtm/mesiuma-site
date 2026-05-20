@@ -1,34 +1,22 @@
 #!/usr/bin/env python3
 """
-DMM p-town から各店舗の台数・機種・営業時間を収集して
-public/store_machines.json を生成する。
+店舗の新台・機種・台数・営業時間を収集して public/store_machines.json を生成する。
 
-生成形式:
-{
-  "楽園蒲田店": {
-    "hours": "10:00～22:40",
-    "entry_rule": "抽選",
-    "pachinko": [{"rate": "4円", "count": 173}, {"rate": "1円", "count": 63}],
-    "slot": [{"rate": "20円", "count": 148}],
-    "pachinko_total": 236,
-    "slot_total": 148,
-    "new_machines": [
-      {"name": "スマスロバイオRE:3", "type": "slot"},
-      ...
-    ],
-    "updated_at": "2026-05-20T01:00:00"
-  },
-  ...
-}
+ソース:
+  ptown  DMM p-town 店舗ページ（デフォルト）
+  x      X(Twitter) の新台ツイートから機種名を補完
 
 Usage:
-    python scripts/fetch_machine_data.py              # 全店舗（areas.json 収録分）
-    python scripts/fetch_machine_data.py --pref 東京都 # 1都道府県のみ
-    python scripts/fetch_machine_data.py --limit 100   # 最大N件
+    python scripts/fetch_machine_data.py                  # 全店舗（p-town）
+    python scripts/fetch_machine_data.py --pref 東京都    # 1都道府県のみ
+    python scripts/fetch_machine_data.py --source x       # X補完モード
+    python scripts/fetch_machine_data.py --limit 100      # 最大N件
 """
 
 import argparse
+import hashlib
 import json
+import os
 import re
 import ssl
 import sys
@@ -198,10 +186,172 @@ def parse_store_page(html: str) -> dict:
     return result
 
 
+# ---------------------------------------------------------------------------
+# X 新台補完
+# ---------------------------------------------------------------------------
+# X で「新台」ツイートから機種名を抽出するための正規表現
+_MACHINE_NAME_RE = re.compile(
+    r'「([^」\n]{3,30})」'            # 「機種名」形式
+    r'|(?:スマスロ|スマパチ|Lパチスロ|Lスロ)\s*([^\s、。！\n]{3,20})'  # プレフィックス付き
+    r'|((?:バジリスク|ヴァルヴレイヴ|炎炎|カバネリ|北斗|エヴァンゲリオン|ジャグラー'
+    r'|牙狼|吉宗|まどマギ|バイオ|リゼロ|転スラ|鬼滅|チバリヨ|沖ドキ|番長'
+    r'|花火絶景|ルパン|ゴッド)[^\s、。！\n]{0,12})'  # 有名シリーズ
+)
+_MACHINE_TYPE_RE = re.compile(r'パチンコ|パチ(?!スロ|スラ)|Pスロ')
+_SLOT_TYPE_RE    = re.compile(r'スロット|スロ|パチスロ|スマスロ')
+_NG_MACHINE      = {"今日", "本日", "明日", "来店", "取材", "イベント", "開店", "来週", "先週",
+                    "パチンコ", "スロット", "パチスロ", "新台", "入替", "告知", "情報"}
+
+_STORE_NAME_RE = re.compile(
+    r"(マルハン|キコーナ|ガイア|PIA|ピア|楽園|エスパス|ニラク|ハッピー|ダイナム"
+    r"|ワンダーランド|ミリオン|コンコルド|ZENT|メッセ|アポロ|Dステーション"
+    r"|グランキコーナ|ビックマーチ|アミューズ)[^\s　,、。！!\n]{0,20}?(店|ホール|パーラー)"
+)
+
+# 新台関連クエリ（X検索用）
+_X_NEW_MACHINE_QUERIES = [
+    "新台入替 スロット 今日",
+    "新台入替 パチンコ 今日",
+    "スマスロ 新台 入替",
+    "新台 パチスロ ホール",
+    "本日より 新台 スロット",
+    "導入 スマスロ ホール",
+    "新台入替 スマパチ",
+    "パチスロ新台 入替日",
+    "本日入替 パチスロ",
+    "新台 入れ替え スロット",
+]
+
+
+def _extract_machines_from_text(text: str) -> list[dict]:
+    """ツイートテキストから機種名を抽出"""
+    results: list[dict] = []
+    seen: set[str] = set()
+    for m in _MACHINE_NAME_RE.finditer(text):
+        name = (m.group(1) or m.group(2) or m.group(3) or "").strip()
+        if not name or name in _NG_MACHINE or len(name) < 3:
+            continue
+        if name in seen:
+            continue
+        seen.add(name)
+        # タイプ判定（ツイート全体から）
+        if _MACHINE_TYPE_RE.search(text):
+            mtype = "pachinko"
+        elif _SLOT_TYPE_RE.search(text) or "スマスロ" in name or "スマパチ" not in name:
+            mtype = "slot"
+        else:
+            mtype = "pachinko"
+        results.append({"name": name, "type": mtype})
+    return results
+
+
+def run_x_source(machines: dict, store_names: set) -> int:
+    """Xから新台情報を収集して machines dict を更新する。返り値は更新店舗数。"""
+    try:
+        from playwright.sync_api import sync_playwright
+        try:
+            from playwright_stealth import Stealth
+            has_stealth = True
+        except ImportError:
+            has_stealth = False
+    except ImportError:
+        print("playwright 未インストール、Xスキップ", file=sys.stderr)
+        return 0
+
+    auth_token = os.environ.get("X_AUTH_TOKEN", "")
+    ct0        = os.environ.get("X_CT0", "")
+    if not (auth_token and ct0):
+        print("X_AUTH_TOKEN/X_CT0 未設定、Xスキップ", file=sys.stderr)
+        return 0
+
+    updated = 0
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        ctx = browser.new_context(
+            locale="ja-JP",
+            user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            viewport={"width": 1280, "height": 900},
+        )
+        ctx.add_cookies([
+            {"name": "auth_token", "value": auth_token, "domain": ".x.com", "path": "/", "secure": True, "httpOnly": True, "sameSite": "None"},
+            {"name": "ct0",        "value": ct0,        "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False, "sameSite": "Lax"},
+        ])
+        page = ctx.new_page()
+        if has_stealth:
+            Stealth().apply_stealth_sync(page)
+        page.set_extra_http_headers({"Accept-Language": "ja-JP,ja;q=0.9"})
+
+        for query in _X_NEW_MACHINE_QUERIES:
+            try:
+                encoded = query.replace(" ", "%20")
+                page.goto(f"https://x.com/search?q={encoded}&f=live", timeout=20000, wait_until="domcontentloaded")
+                page.wait_for_timeout(3000)
+                for _ in range(2):
+                    page.mouse.wheel(0, 2000)
+                    page.wait_for_timeout(800)
+
+                for article in page.query_selector_all('article[data-testid="tweet"]')[:30]:
+                    try:
+                        el = article.query_selector('[data-testid="tweetText"]')
+                        if not el:
+                            continue
+                        text = el.inner_text()
+                        if "新台" not in text and "入替" not in text and "導入" not in text:
+                            continue
+
+                        # 店舗名マッチ
+                        store = ""
+                        for sn in store_names:
+                            if sn in text:
+                                store = sn
+                                break
+                        if not store:
+                            m = _STORE_NAME_RE.search(text)
+                            if m:
+                                store = m.group(0).strip()
+                        if not store:
+                            continue
+
+                        new_machines = _extract_machines_from_text(text)
+                        if not new_machines:
+                            continue
+
+                        existing = machines.get(store, {})
+                        ex_names = {m["name"] for m in existing.get("new_machines", [])}
+                        added = [m for m in new_machines if m["name"] not in ex_names]
+                        if added:
+                            if store not in machines:
+                                machines[store] = {"updated_at": now_iso}
+                            machines[store].setdefault("new_machines", [])
+                            machines[store]["new_machines"] = added + machines[store]["new_machines"]
+                            print(f"  X補完 {store}: {[m['name'] for m in added]}")
+                            updated += 1
+
+                    except Exception:
+                        continue
+
+                time.sleep(1.5)
+
+            except Exception as e:
+                print(f"  X検索エラー [{query}]: {e}", file=sys.stderr)
+
+        page.close()
+        ctx.close()
+
+    return updated
+
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pref", help="特定の都道府県のみ (例: 東京都)。カンマ区切りで複数可")
-    parser.add_argument("--limit", type=int, help="処理する最大店舗数")
+    parser.add_argument("--pref",   help="都道府県 (例: 東京都)。カンマ区切り複数可")
+    parser.add_argument("--limit",  type=int, help="最大店舗数")
+    parser.add_argument("--source", choices=["ptown", "x", "both"], default="ptown",
+                        help="データソース: ptown(デフォルト) / x / both")
     args = parser.parse_args()
 
     with open(AREAS_JSON, encoding="utf-8") as f:
@@ -213,62 +363,83 @@ def main():
         with open(MACHINES_JSON, encoding="utf-8") as f:
             machines = json.load(f)
 
-    if args.pref:
-        # カンマ区切りまたは単一
-        prefs = [p.strip() for p in args.pref.split(",") if p.strip()]
-    else:
-        prefs = list(areas.keys())
-    prefs = [p for p in prefs if p in areas and p in PREF_SLUG]
+    # ── p-town スクレイプ ──────────────────────────────────────
+    if args.source in ("ptown", "both"):
+        if args.pref:
+            prefs = [p.strip() for p in args.pref.split(",") if p.strip()]
+        else:
+            prefs = list(areas.keys())
+        prefs = [p for p in prefs if p in areas and p in PREF_SLUG]
 
-    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
-    total = 0
-    processed = 0
+        now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
+        total = 0
+        processed = 0
 
-    for pref in prefs:
-        slug = PREF_SLUG[pref]
-        print(f"\n🗾 {pref}...")
+        for pref in prefs:
+            slug = PREF_SLUG[pref]
+            print(f"\n🗾 {pref}...")
 
-        for city, stores in areas[pref].items():
-            for store in stores:
-                name   = store["name"]
-                dmm_id = store["dmm_id"]
-                url    = f"https://p-town.dmm.com/shops/{slug}/{dmm_id}"
+            for city, stores in areas[pref].items():
+                for store in stores:
+                    name   = store["name"]
+                    dmm_id = store["dmm_id"]
+                    url    = f"https://p-town.dmm.com/shops/{slug}/{dmm_id}"
 
-                html = fetch(url)
-                if not html:
-                    time.sleep(0.3)
-                    continue
+                    html = fetch(url)
+                    if not html:
+                        time.sleep(0.3)
+                        continue
 
-                data = parse_store_page(html)
-                if data:
-                    data["updated_at"] = now_iso
-                    machines[name] = data
-                    has_machine = "pachinko_total" in data or "slot_total" in data
-                    has_new = "new_machines" in data
-                    p_total = data.get("pachinko_total", 0)
-                    s_total = data.get("slot_total", 0)
-                    if has_machine or has_new:
-                        suffix = f" パチ{p_total}台/スロ{s_total}台" if has_machine else ""
-                        new_cnt = len(data.get("new_machines", []))
-                        print(f"  ✓ {name}{suffix} 新台{new_cnt}件")
-                    total += 1
+                    data = parse_store_page(html)
+                    if data:
+                        data["updated_at"] = now_iso
+                        machines[name] = data
+                        has_machine = "pachinko_total" in data or "slot_total" in data
+                        has_new = "new_machines" in data
+                        p_total = data.get("pachinko_total", 0)
+                        s_total = data.get("slot_total", 0)
+                        if has_machine or has_new:
+                            suffix = f" パチ{p_total}台/スロ{s_total}台" if has_machine else ""
+                            new_cnt = len(data.get("new_machines", []))
+                            print(f"  ✓ {name}{suffix} 新台{new_cnt}件")
+                        total += 1
 
-                processed += 1
+                    processed += 1
+                    if args.limit and processed >= args.limit:
+                        break
+                    time.sleep(0.35)
+
                 if args.limit and processed >= args.limit:
                     break
-                time.sleep(0.35)
+
+            # 都道府県ごとに中間保存
+            with open(MACHINES_JSON, "w", encoding="utf-8") as f:
+                json.dump(machines, f, ensure_ascii=False, indent=2)
 
             if args.limit and processed >= args.limit:
                 break
 
-        # 都道府県ごとに中間保存
-        with open(MACHINES_JSON, "w", encoding="utf-8") as f:
-            json.dump(machines, f, ensure_ascii=False, indent=2)
+        print(f"\n✅ p-town完了: {total}件 → {MACHINES_JSON}")
 
-        if args.limit and processed >= args.limit:
-            break
+    # ── X 補完 ──────────────────────────────────────────────────
+    if args.source in ("x", "both"):
+        # stores.json から店舗名セット
+        stores_json = Path(__file__).parent.parent / "public/stores.json"
+        store_names: set = set()
+        if stores_json.exists():
+            with open(stores_json, encoding="utf-8") as f:
+                for s in json.load(f):
+                    n = s.get("name", "")
+                    if n and len(n) >= 4:
+                        store_names.add(n)
+        print(f"\n🐦 X新台補完開始 (店舗名{len(store_names)}件)")
+        x_updated = run_x_source(machines, store_names)
+        if x_updated > 0:
+            with open(MACHINES_JSON, "w", encoding="utf-8") as f:
+                json.dump(machines, f, ensure_ascii=False, indent=2)
+        print(f"✅ X補完完了: {x_updated}店舗更新")
 
-    print(f"\n🎉 完了: store_machines.json に {total} 件の店舗情報を保存 → {MACHINES_JSON}")
+    print(f"\n🎉 store_machines.json 合計 {len(machines)} 店舗 → {MACHINES_JSON}")
 
 
 if __name__ == "__main__":

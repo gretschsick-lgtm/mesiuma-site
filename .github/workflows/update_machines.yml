@@ -2,64 +2,253 @@ name: Update Machine Data
 
 on:
   schedule:
-    # 2時間ごと (UTC 0,2,4,6,8,10,12,14,16,18,20,22時)
-    - cron: "0 */2 * * *"
-  workflow_dispatch: # 手動実行も可
+    # 毎日 JST 05:00 (UTC 20:00 前日) に全国一斉更新
+    - cron: "0 20 * * *"
+  workflow_dispatch:
 
+# ─────────────────────────────────────────────────────────────────────────────
+# 8 地域に分けて並列スクレイプ → マージしてコミット
+# ─────────────────────────────────────────────────────────────────────────────
 jobs:
-  fetch:
+
+  # ── 地域1: 北海道・東北 ───────────────────────────────────────────────────
+  fetch-g1:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "北海道,青森県,岩手県,宮城県,秋田県,山形県,福島県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g1
+          path: public/store_machines.json
+          retention-days: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+  # ── 地域2: 関東北部 ────────────────────────────────────────────────────────
+  fetch-g2:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "茨城県,栃木県,群馬県,埼玉県,千葉県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g2
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域3: 東京・神奈川 ────────────────────────────────────────────────────
+  fetch-g3:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "東京都,神奈川県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g3
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域4: 甲信越・北陸・東海 ─────────────────────────────────────────────
+  fetch-g4:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "新潟県,富山県,石川県,福井県,山梨県,長野県,岐阜県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g4
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域5: 静岡・愛知・近畿東部 ───────────────────────────────────────────
+  fetch-g5:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "静岡県,愛知県,三重県,滋賀県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g5
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域6: 近畿西部 ────────────────────────────────────────────────────────
+  fetch-g6:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "京都府,大阪府,奈良県,和歌山県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g6
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域7: 兵庫・中国 ─────────────────────────────────────────────────────
+  fetch-g7:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "兵庫県,鳥取県,島根県,岡山県,広島県,山口県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g7
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域8: 四国・九州・沖縄 ───────────────────────────────────────────────
+  fetch-g8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "徳島県,香川県,愛媛県,高知県,福岡県,佐賀県,長崎県,熊本県,大分県,宮崎県,鹿児島県,沖縄県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g8
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── X 新台補完 ─────────────────────────────────────────────────────────────
+  fetch-x:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install playwright
+        run: |
+          pip install playwright playwright-stealth
+          playwright install chromium --with-deps
+      - name: Fetch from X
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: python scripts/fetch_machine_data.py --source x
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-x
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── マージ & コミット ──────────────────────────────────────────────────────
+  merge-and-push:
+    runs-on: ubuntu-latest
+    needs: [fetch-g1, fetch-g2, fetch-g3, fetch-g4, fetch-g5, fetch-g6, fetch-g7, fetch-g8, fetch-x]
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Fetch machine data from DMM
-        run: |
-          # 時刻に応じて担当エリアを分散（1回あたり約1/12の都道府県）
-          HOUR=$(date -u +%H)
-          if   [ "$HOUR" = "00" ]; then
-            PREFS="北海道,青森県,岩手県,宮城県"
-          elif [ "$HOUR" = "02" ]; then
-            PREFS="秋田県,山形県,福島県,茨城県"
-          elif [ "$HOUR" = "04" ]; then
-            PREFS="東京都,神奈川県,埼玉県"
-          elif [ "$HOUR" = "06" ]; then
-            PREFS="千葉県,栃木県,群馬県"
-          elif [ "$HOUR" = "08" ]; then
-            PREFS="愛知県,静岡県,岐阜県"
-          elif [ "$HOUR" = "10" ]; then
-            PREFS="新潟県,長野県,石川県,富山県,福井県,山梨県"
-          elif [ "$HOUR" = "12" ]; then
-            PREFS="大阪府,兵庫県,京都府"
-          elif [ "$HOUR" = "14" ]; then
-            PREFS="奈良県,滋賀県,三重県,和歌山県"
-          elif [ "$HOUR" = "16" ]; then
-            PREFS="広島県,岡山県,山口県,鳥取県,島根県"
-          elif [ "$HOUR" = "18" ]; then
-            PREFS="愛媛県,香川県,徳島県,高知県"
-          elif [ "$HOUR" = "20" ]; then
-            PREFS="福岡県,熊本県,鹿児島県,宮崎県"
-          else
-            PREFS="大分県,長崎県,佐賀県,沖縄県"
-          fi
-          python scripts/fetch_machine_data.py --pref "$PREFS"
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+        continue-on-error: true
 
-      - name: Commit and push if changed
+      - name: Merge all region data
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+
+          merged: dict = {}
+
+          # 既存ベース読み込み
+          base = Path("public/store_machines.json")
+          if base.exists():
+              try:
+                  merged = json.loads(base.read_text(encoding="utf-8"))
+              except Exception as ex:
+                  print(f"既存ファイル読み込みエラー: {ex}")
+
+          # アーティファクト読み込み（新しいデータで上書き）
+          artifact_dirs = sorted(Path("artifacts").glob("machines-*/store_machines.json"))
+          for p in artifact_dirs:
+              try:
+                  data = json.loads(p.read_text(encoding="utf-8"))
+                  before = len(merged)
+                  merged.update(data)
+                  print(f"{p.parent.name}: {len(data)}店舗 → +{len(merged)-before}新規")
+              except Exception as ex:
+                  print(f"エラー {p}: {ex}")
+
+          # X補完: new_machines だけ追記（p-town データを上書きしない）
+          x_file = Path("artifacts/machines-x/store_machines.json")
+          if x_file.exists():
+              try:
+                  x_data = json.loads(x_file.read_text(encoding="utf-8"))
+                  added = 0
+                  for store, info in x_data.items():
+                      x_machines = info.get("new_machines", [])
+                      if not x_machines:
+                          continue
+                      if store not in merged:
+                          merged[store] = info
+                          added += 1
+                      else:
+                          ex_names = {m["name"] for m in merged[store].get("new_machines", [])}
+                          extra = [m for m in x_machines if m["name"] not in ex_names]
+                          if extra:
+                              merged[store].setdefault("new_machines", [])
+                              merged[store]["new_machines"] = extra + merged[store]["new_machines"]
+                              added += 1
+                  print(f"X補完: {added}店舗を補完")
+              except Exception as ex:
+                  print(f"X補完エラー: {ex}")
+
+          Path("public/store_machines.json").write_text(
+              json.dumps(merged, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          print(f"\n✅ マージ完了: {len(merged)}店舗")
+          EOF
+
+      - name: Commit and push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/store_machines.json
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No changes"
           else
-            STORE_COUNT=$(python3 -c "import json; d=json.load(open('public/store_machines.json')); print(len(d))")
-            git commit -m "chore: update store_machines.json (${STORE_COUNT}店舗)"
+            COUNT=$(python3 -c "import json; print(len(json.load(open('public/store_machines.json'))))")
+            git commit -m "chore: update store_machines.json (${COUNT}店舗)"
             git push
           fi

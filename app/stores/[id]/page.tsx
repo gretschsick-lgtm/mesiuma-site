@@ -252,7 +252,7 @@ export default function StoreDetailPage() {
               <SectionTitle color="#e67e00">台数・設置機種</SectionTitle>
               {machineInfo.updated_at && (
                 <span style={{ fontSize: 10, color: C.muted }}>
-                  更新: {machineInfo.updated_at.replace("T", " ").slice(0, 16)} UTC
+                  {machineInfo.updated_at.slice(5, 10).replace("-", "/")} 更新
                 </span>
               )}
             </div>
