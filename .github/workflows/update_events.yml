@@ -7,18 +7,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  fetch:
+  # ─── JOB A: X アカウントタイムライン（メディア80 + 店舗71 = 151件）─────
+  fetch-accounts:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
-
+    timeout-minutes: 80
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -27,12 +25,161 @@ jobs:
           pip install playwright playwright-stealth
           playwright install chromium --with-deps
 
-      - name: Fetch events (X + Google News)
+      - name: Fetch accounts timeline
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
+        run: python scripts/fetch_events.py --headless --job accounts
+
+      - name: Upload accounts result
+        uses: actions/upload-artifact@v4
+        with:
+          name: events-accounts
+          path: public/events_public.json
+          retention-days: 1
+
+  # ─── JOB B: X キーワード検索（250+クエリ）──────────────────────────────
+  fetch-search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
         run: |
-          python scripts/fetch_events.py --headless
+          pip install playwright playwright-stealth
+          playwright install chromium --with-deps
+
+      - name: Fetch X search
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+        run: python scripts/fetch_events.py --headless --job search
+
+      - name: Upload search result
+        uses: actions/upload-artifact@v4
+        with:
+          name: events-search
+          path: public/events_public.json
+          retention-days: 1
+
+  # ─── JOB C: Yahoo!リアルタイム + Google News ────────────────────────────
+  fetch-google:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright playwright-stealth
+          playwright install chromium --with-deps
+
+      - name: Fetch Yahoo/Google
+        run: python scripts/fetch_events.py --headless --job google
+
+      - name: Upload google result
+        uses: actions/upload-artifact@v4
+        with:
+          name: events-google
+          path: public/events_public.json
+          retention-days: 1
+
+  # ─── MERGE: 3ジョブの結果をマージしてコミット ────────────────────────────
+  merge-and-push:
+    runs-on: ubuntu-latest
+    needs: [fetch-accounts, fetch-search, fetch-google]
+    if: always()
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download accounts result
+        uses: actions/download-artifact@v4
+        with:
+          name: events-accounts
+          path: artifacts/accounts
+        continue-on-error: true
+
+      - name: Download search result
+        uses: actions/download-artifact@v4
+        with:
+          name: events-search
+          path: artifacts/search
+        continue-on-error: true
+
+      - name: Download google result
+        uses: actions/download-artifact@v4
+        with:
+          name: events-google
+          path: artifacts/google
+        continue-on-error: true
+
+      - name: Merge all results
+        run: |
+          python3 - <<'EOF'
+          import json
+          import os
+          from pathlib import Path
+
+          merged: dict[str, dict] = {}
+
+          # 既存のevents_public.jsonを読み込む（ベース）
+          existing = Path("public/events_public.json")
+          if existing.exists():
+              try:
+                  data = json.loads(existing.read_text(encoding="utf-8"))
+                  events = data if isinstance(data, list) else data.get("events", [])
+                  for e in events:
+                      key = e.get("id") or e.get("url") or str(e)
+                      if key:
+                          merged[key] = e
+              except Exception as ex:
+                  print(f"既存ファイル読み込みエラー: {ex}")
+
+          # 各ジョブ結果をマージ
+          for artifact_dir in ["artifacts/accounts", "artifacts/search", "artifacts/google"]:
+              p = Path(artifact_dir) / "events_public.json"
+              if not p.exists():
+                  print(f"スキップ: {artifact_dir}")
+                  continue
+              try:
+                  data = json.loads(p.read_text(encoding="utf-8"))
+                  events = data if isinstance(data, list) else data.get("events", [])
+                  before = len(merged)
+                  for e in events:
+                      key = e.get("id") or e.get("url") or str(e)
+                      if key:
+                          merged[key] = e
+                  print(f"{artifact_dir}: {len(events)} 件 → +{len(merged)-before} 新規")
+              except Exception as ex:
+                  print(f"エラー {artifact_dir}: {ex}")
+
+          # 保存（日付降順ソート）
+          result = sorted(merged.values(), key=lambda e: e.get("date", ""), reverse=True)
+          Path("public/events_public.json").write_text(
+              json.dumps(result, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          print(f"\n✅ マージ完了: {len(result)} 件")
+          EOF
 
       - name: Commit and push if changed
         run: |
