@@ -68,6 +68,46 @@ LOW_RENTAL_KEYWORDS = [
 # 777CON-PASS ホール検索ベースURL
 CON_PASS_SEARCH_URL = "https://www.777con-pass.net/search.html"
 
+# ---------------------------------------------------------------------------
+# アカウントタイムライン監視対象
+# ---------------------------------------------------------------------------
+MEDIA_ACCOUNTS: dict[str, str] = {
+    # 取材番組・メディア系
+    "suropachi_staff": "スロパチステーション",
+    "janbari_info":    "ジャンバリ",
+    "PAA_pmportal":    "パチマガスロマガ",
+    "KD_56_PS":        "KD情報",
+    "Slotol777":       "スロット情報",
+    "3x3star_slot":    "3×3STAR",
+    "gorsei_tv":       "極誓",
+    "kaido_adv":       "回胴アドベンチャー",
+    "suro_select":     "スロセレ",
+    "buzzslot_jp":     "バズ・スロ",
+    "slotimes_jp":     "SLOTIMES",
+    "yume_dori":       "夢ドリ",
+    "asadera_tv":      "あさくら",
+    "ps_chosain":      "PS調査員",
+    "realdoc_pachi":   "REAL取材",
+    "gokumichi_dome":  "限界突破DOME",
+    "gokuzei_take":    "極誓取材",
+    # 全国イベント集約系（重要）
+    "minrepo_tohoku":  "東北みんレポ",
+    "p_info_kanto":    "関東パチスロ情報",
+    "chiba_pachislo":  "千葉パチスロ情報",
+    "uratencho777":    "裏店長",
+    "rkmrn55":         "ロクマル",
+    "pachi_schedule":  "パチスロスケジュール",
+    # 主要タレント・ライター系
+    "mochizukisaki":   "望月咲",
+    "kira_hikaru88":   "煌ひかる",
+    "yuuki_kouda":     "倖田柚希",
+    "matsuitaxi":      "マツイ",
+    "motsu_pachi":     "モツ",
+    "KarkunRR":        "カルクン",
+    "happy_atsudori":  "ハッピー",
+    "hanakawa65":      "花川",
+}
+
 # 全国 検索クエリ（チェーン店名 × イベント種別 + 都道府県エリア）
 SEARCH_QUERIES = [
     # ── チェーン別（来店）──

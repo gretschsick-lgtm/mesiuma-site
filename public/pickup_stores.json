@@ -23,14 +23,22 @@
       "name": "マルハンメガシティ2000 蒲田7",
       "pref": "東京都",
       "area": "関東",
-      "note": "メシウマおすすめ店舗"
+      "note": "メシウマおすすめ店舗",
+      "hp_url": "https://www.maruhan.co.jp/hall/3511/",
+      "x_url": "https://x.com/KAMATASEVEN",
+      "address": "〒144-0052 東京都大田区蒲田5-11-12",
+      "map_url": "https://maps.google.co.jp/maps?q=35.5632593440669,139.717187601915&z=16&hl=ja"
     },
     {
       "id": "hiroki-max-kamata",
       "name": "ヒロキMAX蒲田店",
       "pref": "東京都",
       "area": "関東",
-      "note": "メシウマおすすめ店舗"
+      "note": "メシウマおすすめ店舗",
+      "hp_url": "https://hiroki3gou.p-moba.net/",
+      "x_url": "https://x.com/hirokimaxkamata",
+      "address": "〒144-0051 東京都大田区西蒲田7-4-12",
+      "map_url": "https://maps.google.com/maps?q=東京都大田区西蒲田7-4-12&z=16"
     }
   ],
   "updated": "2026-05-19"

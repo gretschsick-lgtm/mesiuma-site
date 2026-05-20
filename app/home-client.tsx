@@ -530,9 +530,11 @@ export default function Page() {
             {/* 2行目: ナビタブ */}
             <nav style={{ display: "flex", alignItems: "stretch", borderTop: `1px solid ${C.border}` }}>
               {[
-                { href: "/",        label: "イベント情報", icon: "🏪", active: true },
-                { href: "/torisai", label: "店舗取材",     icon: "📡", active: false },
-                { href: "/blog",    label: "ブログ",       icon: "📝", active: false },
+                { href: "/",         label: "イベント情報", icon: "🏪", active: true },
+                { href: "/torisai",  label: "店舗取材",     icon: "📡", active: false },
+                { href: "/complete", label: "コンプリート", icon: "🏆", active: false },
+                { href: "/stores",   label: "ホール検索",   icon: "🔍", active: false },
+                { href: "/blog",     label: "ブログ",       icon: "📝", active: false },
               ].map(({ href, label, icon, active }) => (
                 <Link key={href} href={href} style={{
                   flex: 1, display: "flex", alignItems: "center", justifyContent: "center", gap: 4,
@@ -562,6 +564,7 @@ export default function Page() {
               {[
                 { href: "/",        label: "イベント情報", sub: "取材来店、勝率など", icon: "🏪", active: true },
                 { href: "/torisai", label: "店舗取材",     sub: "メディア取材一覧",   icon: "📡", active: false },
+                { href: "/stores",  label: "ホール検索",   sub: "全国1,000店舗以上",  icon: "🔍", active: false },
                 { href: "/blog",    label: "ブログ",       sub: "攻略、動画など",     icon: "📝", active: false },
               ].map(({ href, label, sub, icon, active }) => (
                 <Link key={href} href={href} style={{
@@ -1203,6 +1206,60 @@ export default function Page() {
             </>
           );
         })()}
+      </div>
+
+      {/* ━━ 広告掲載募集 ━━ */}
+      <div style={{ background: "#fff8f0", borderTop: "2px solid #e60000", padding: "32px 16px" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
+            <div style={{ width: 4, height: 22, background: "#e60000", borderRadius: 2 }} />
+            <h2 style={{ fontSize: 18, fontWeight: 900, color: "#222", margin: 0 }}>📣 広告掲載・タイアップ募集</h2>
+          </div>
+          <p style={{ fontSize: 13, color: "#444", lineHeight: 1.8, margin: "0 0 20px" }}>
+            メシウマ稼働は全国<strong>1,100店舗以上</strong>のパチンコ・パチスロホール情報を掲載する、
+            業界特化型の情報プラットフォームです。<br />
+            イベント告知・取材誘致・来店プロモーションなど、各種タイアップをご相談ください。
+          </p>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
+            <div style={{
+              background: "#fff", border: "1px solid #e0e0e0", borderRadius: 10,
+              padding: "16px 20px", flex: 1, minWidth: 200,
+            }}>
+              <div style={{ fontWeight: 700, fontSize: 13, color: "#e60000", marginBottom: 6 }}>🏪 ホール向け</div>
+              <ul style={{ fontSize: 12, color: "#444", margin: 0, paddingLeft: 16, lineHeight: 2 }}>
+                <li>取材・来店イベント掲載</li>
+                <li>フロアマップ掲載</li>
+                <li>ピックアップ店舗表示</li>
+                <li>抽選時間・営業情報掲載</li>
+              </ul>
+            </div>
+            <div style={{
+              background: "#fff", border: "1px solid #e0e0e0", borderRadius: 10,
+              padding: "16px 20px", flex: 1, minWidth: 200,
+            }}>
+              <div style={{ fontWeight: 700, fontSize: 13, color: "#0055cc", marginBottom: 6 }}>📺 メーカー・メディア向け</div>
+              <ul style={{ fontSize: 12, color: "#444", margin: 0, paddingLeft: 16, lineHeight: 2 }}>
+                <li>バナー広告掲載</li>
+                <li>タイアップ記事</li>
+                <li>新台情報スポンサード</li>
+                <li>取材動画連携</li>
+              </ul>
+            </div>
+          </div>
+          <div style={{ marginTop: 20, display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
+            <a
+              href="mailto:info@mesiuma.jp"
+              style={{
+                display: "inline-flex", alignItems: "center", gap: 6,
+                background: "#e60000", color: "#fff", fontWeight: 700,
+                padding: "10px 24px", borderRadius: 8, fontSize: 14, textDecoration: "none",
+              }}
+            >
+              ✉️ お問い合わせ（掲載のご相談）
+            </a>
+            <span style={{ fontSize: 11, color: "#888" }}>info@mesiuma.jp</span>
+          </div>
+        </div>
       </div>
 
       {/* ━━ FOOTER ━━ */}
