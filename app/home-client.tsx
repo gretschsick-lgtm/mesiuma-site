@@ -302,15 +302,14 @@ export default function Page() {
   const storeRecordings = useMemo(() => {
     return events
       .filter(ev => {
-        const src = ev.source || "";
         const url = ev.url || "";
-        const evt = ev.event || "";
-        return (
-          src.includes("youtube") ||
+        const src = ev.source || "";
+        const hasYtUrl =
           url.includes("youtube.com/watch") ||
           url.includes("youtu.be/") ||
-          evt === "撮影"
-        );
+          url.includes("youtube.com/shorts/") ||
+          (src.includes("youtube") && url.includes("youtube.com"));
+        return hasYtUrl;
       })
       .filter(ev => isValidStore(ev.store))
       .slice(0, 200);
