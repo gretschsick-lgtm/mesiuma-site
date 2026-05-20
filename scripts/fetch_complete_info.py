@@ -250,16 +250,32 @@ def is_store_tweet(text: str) -> bool:
     return any(pat.search(text) for pat in STORE_TWEET_PATTERNS)
 
 
+MACHINE_NG_EXACT = {
+    "スロ", "パチスロ", "スマスロ", "スマパチ", "コンプリート",
+    "コンプリート達成", "コンプリート機能", "コンプリート機能発動", "コンプリート機能作動",
+    "にて", "にて！", "にて!", "で", "での",
+}
+MACHINE_NG_CONTAINS = ["にて", "です", "でした", "ました", "します", "ございます", "おめでとう"]
+
 def extract_machine(text: str) -> str:
     for pat in MACHINE_PATTERNS:
         m = pat.search(text)
         if m:
             name = m.group(1).strip()
-            if len(name) < 2 or re.match(r'^[#@\s!！]+$', name):
+            # 基本チェック
+            if len(name) < 2 or re.match(r'^[#@\s!！。、]+$', name):
                 continue
             if "http" in name.lower():
                 continue
-            if name in ("スロ", "パチスロ", "スマスロ", "スマパチ", "コンプリート"):
+            # 完全一致NG
+            if name in MACHINE_NG_EXACT:
+                continue
+            # 部分一致NG
+            if any(ng in name for ng in MACHINE_NG_CONTAINS):
+                continue
+            # 記号だけで終わるものをトリム
+            name = re.sub(r'[！!。、\s]+$', '', name).strip()
+            if len(name) < 2:
                 continue
             return name[:35]
     return ""
@@ -315,15 +331,21 @@ def get_tweet_time(article) -> str:
     return ""
 
 
-AUTHOR_NG = ["コンプリート", "パチスロ", "スロット", "パチンコ", "スマスロ", "速報", "まとめ", "情報", "bot"]
+AUTHOR_NG = ["コンプリート", "パチスロ", "スロット", "パチンコ", "スマスロ", "速報", "まとめ", "情報", "bot", "YouTube", "攻略"]
 
 def _is_store_name(name: str) -> bool:
     """表示名が店舗名っぽいかどうか"""
-    if len(name) < 3 or len(name) > 30:
+    if len(name) < 2 or len(name) > 35:
         return False
     if any(ng in name for ng in AUTHOR_NG):
         return False
-    return bool(re.search(r'店|ホール|パーラー|PALACE|palace|ランド|マルハン|キコーナ|ダイナム', name))
+    # 店舗系ワードを含むか、大手チェーン名を含むか
+    return bool(re.search(
+        r'店|ホール|パーラー|PALACE|palace|ランド|マルハン|キコーナ|ダイナム|ガーデン|'
+        r'ピーアーク|楽園|エスパス|ガイア|ZENT|ゼント|アミューズ|コンコルド|'
+        r'ミリオン|ビックマーチ|メッセ|クリエ|スタジアム|ワンダー|ABC|キャッスル',
+        name
+    ))
 
 
 def parse_tweet(text: str, tweet_url: str, images: list[str],
@@ -332,12 +354,13 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
         return None
 
     store = extract_store(text)
-    # テキストから取れなければ作者の表示名を使う
+    # テキストから取れなければ作者の表示名を使う（店舗ワードあり）
     if not store and author_name and _is_store_name(author_name):
         store = author_name[:28]
-    # それでも取れなければ表示名をそのまま（2文字以上・URL/記号なし）
-    if not store and author_name and 2 <= len(author_name) <= 25 and "http" not in author_name:
-        if not re.search(r'^[a-zA-Z0-9@_\-\.]+$', author_name):  # 英数字のみは除外
+    # それでも取れなければ: 日本語含む表示名をそのまま（英数字のみは除外）
+    if not store and author_name and 2 <= len(author_name) <= 30 and "http" not in author_name:
+        # 英数字・記号だけのアカウント名は除外（個人プレイヤーが多い）
+        if re.search(r'[　-鿿＀-￯]', author_name):
             store = author_name[:28]
     machine = extract_machine(text)
     slot_number = extract_slot_number(text)
@@ -371,27 +394,29 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
     }
 
 
-def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list[dict]:
+def scrape_query(page, query: str, today_str: str, max_tweets: int = 60) -> list[dict]:
     results = []
     seen_urls: set[str] = set()
 
     encoded = query.replace(" ", "%20").replace("#", "%23")
+    # 最新ツイート優先で過去24時間以内を対象
     url = f"https://x.com/search?q={encoded}&src=typed_query&f=live"
 
     try:
-        page.goto(url, timeout=25000, wait_until="domcontentloaded")
+        page.goto(url, timeout=20000, wait_until="domcontentloaded")
     except PlaywrightTimeout:
         log(f"  ⏱ Timeout: {query}")
         return results
 
     try:
-        page.wait_for_selector('article[data-testid="tweet"]', timeout=10000)
+        page.wait_for_selector('article[data-testid="tweet"]', timeout=8000)
     except PlaywrightTimeout:
         pass
 
-    for _ in range(12):
+    # 1時間ごとの収集なので直近ツイートのみ取得（スクロール回数を減らして高速化）
+    for _ in range(6):
         page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(800)
+        page.wait_for_timeout(500)
 
     articles = page.query_selector_all('article[data-testid="tweet"]')
 
@@ -523,7 +548,7 @@ def main():
                 results = scrape_query(page, query, today)
                 log(f"       → {len(results)} 件（店舗投稿）")
                 all_new.extend(results)
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log(f"  ❌ {e}")
 
