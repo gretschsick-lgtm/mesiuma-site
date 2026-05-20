@@ -1,13 +1,14 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
-import Image from "next/image";
+import { useEffect, useState, useMemo, useCallback } from "react";
 
 type CompleteEntry = {
   id: string;
   date: string;
+  time: string;
   store: string;
   machine: string;
+  slot_number: string;
   text: string;
   images: string[];
   image_url: string;
@@ -19,22 +20,42 @@ const C = {
   bg: "#f5f5f5",
   white: "#ffffff",
   border: "#e0e0e0",
-  gold: "#d4a017",
-  gold2: "#b8860b",
+  red: "#e60000",
+  gold: "#c9910a",
   text: "#222222",
   sub: "#555555",
   muted: "#888888",
+  dim: "#ddd",
 };
 
-function dateFmt(dateStr: string) {
-  const d = new Date(dateStr);
+const DOW = ["日", "月", "火", "水", "木", "金", "土"];
+
+function fmtDate(dateStr: string) {
+  const d = new Date(dateStr + "T00:00:00");
   if (isNaN(d.getTime())) return dateStr;
-  const DOW = ["日", "月", "火", "水", "木", "金", "土"];
-  return `${d.getMonth() + 1}/${d.getDate()}(${DOW[d.getDay()]})`;
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+  const isTodayDate = d.toDateString() === today.toDateString();
+  const isYesterday = d.toDateString() === yesterday.toDateString();
+  const label = isTodayDate ? "今日" : isYesterday ? "昨日" : null;
+  const mmdd = `${d.getMonth() + 1}/${d.getDate()}(${DOW[d.getDay()]})`;
+  return label ? `${label} ${mmdd}` : mmdd;
+}
+
+function fmtDateTab(dateStr: string) {
+  const d = new Date(dateStr + "T00:00:00");
+  if (isNaN(d.getTime())) return dateStr;
+  const today = new Date();
+  const yesterday = new Date(today);
+  yesterday.setDate(today.getDate() - 1);
+  if (d.toDateString() === today.toDateString()) return "今日";
+  if (d.toDateString() === yesterday.toDateString()) return "昨日";
+  return `${d.getMonth() + 1}/${d.getDate()}`;
 }
 
 function CompleteCard({ entry }: { entry: CompleteEntry }) {
-  const [imgError, setImgError] = useState(false);
+  const [imgErr, setImgErr] = useState(false);
 
   return (
     <div style={{
@@ -42,46 +63,60 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
       border: `1px solid ${C.border}`,
       borderRadius: 10,
       overflow: "hidden",
-      boxShadow: "0 1px 4px rgba(0,0,0,0.07)",
+      boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
     }}>
-      {/* 画像エリア */}
-      {entry.image_url && !imgError && (
-        <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#f0f0f0" }}>
+      {/* 画像 */}
+      {entry.image_url && !imgErr && (
+        <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#f0f0f0", overflow: "hidden" }}>
           <img
             src={entry.image_url}
-            alt={`${entry.machine || "コンプリート"} ${entry.store}`}
+            alt={`${entry.store} ${entry.machine}`}
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            onError={() => setImgError(true)}
+            onError={() => setImgErr(true)}
           />
+          {/* 時刻バッジ */}
+          {entry.time && (
+            <span style={{
+              position: "absolute", top: 8, right: 8,
+              background: "rgba(0,0,0,0.65)", color: "#fff",
+              fontSize: 11, fontWeight: 700, padding: "2px 7px",
+              borderRadius: 4, backdropFilter: "blur(4px)",
+            }}>
+              {entry.time}
+            </span>
+          )}
         </div>
       )}
 
-      {/* コンテンツ */}
-      <div style={{ padding: "12px 14px" }}>
-        {/* バッジ + 日付 */}
-        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+      <div style={{ padding: "10px 12px 12px" }}>
+        {/* バッジ行 */}
+        <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 7, flexWrap: "wrap" }}>
           <span style={{
-            background: C.gold,
-            color: "#fff",
-            fontSize: 11,
-            fontWeight: 700,
-            padding: "2px 8px",
-            borderRadius: 20,
-            letterSpacing: 0.5,
+            background: C.gold, color: "#fff",
+            fontSize: 10, fontWeight: 700, padding: "2px 7px",
+            borderRadius: 20, letterSpacing: 0.3, whiteSpace: "nowrap",
           }}>
             🏆 コンプリート
           </span>
-          <span style={{ fontSize: 12, color: C.muted }}>{dateFmt(entry.date)}</span>
+          {entry.slot_number && (
+            <span style={{
+              background: "#f0f8ff", color: "#0055cc",
+              fontSize: 10, fontWeight: 700, padding: "2px 7px",
+              borderRadius: 4, border: "1px solid #bbddff", whiteSpace: "nowrap",
+            }}>
+              {entry.slot_number}番台
+            </span>
+          )}
+          {!entry.image_url && entry.time && (
+            <span style={{ fontSize: 11, color: C.muted, marginLeft: "auto" }}>{entry.time}</span>
+          )}
         </div>
 
         {/* 機種名 */}
         {entry.machine && (
           <div style={{
-            fontSize: 16,
-            fontWeight: 700,
-            color: C.text,
-            marginBottom: 4,
-            lineHeight: 1.4,
+            fontSize: 15, fontWeight: 800, color: C.text,
+            marginBottom: 3, lineHeight: 1.4,
           }}>
             {entry.machine}
           </div>
@@ -90,25 +125,19 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
         {/* 店舗名 */}
         {entry.store && (
           <div style={{
-            fontSize: 13,
-            color: C.sub,
-            marginBottom: 8,
-            display: "flex",
-            alignItems: "center",
-            gap: 4,
+            fontSize: 12, color: C.sub, marginBottom: 7,
+            display: "flex", alignItems: "center", gap: 3,
           }}>
-            <span>📍</span>
-            <span>{entry.store}</span>
+            <span style={{ flexShrink: 0 }}>📍</span>
+            <span style={{ fontWeight: 600 }}>{entry.store}</span>
           </div>
         )}
 
-        {/* ツイート本文（抜粋） */}
+        {/* ツイート本文 */}
         {entry.text && (
           <div style={{
-            fontSize: 12,
-            color: C.muted,
-            lineHeight: 1.6,
-            marginBottom: 10,
+            fontSize: 11, color: C.muted, lineHeight: 1.65,
+            marginBottom: 9,
             display: "-webkit-box",
             WebkitLineClamp: 3,
             WebkitBoxOrient: "vertical",
@@ -118,50 +147,31 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           </div>
         )}
 
-        {/* 複数画像 */}
+        {/* 複数画像サムネイル */}
         {entry.images.length > 1 && (
           <div style={{
             display: "grid",
-            gridTemplateColumns: `repeat(${Math.min(entry.images.length, 3)}, 1fr)`,
-            gap: 4,
-            marginBottom: 10,
+            gridTemplateColumns: `repeat(${Math.min(entry.images.length - 1, 3)}, 1fr)`,
+            gap: 3, marginBottom: 9,
           }}>
             {entry.images.slice(1, 4).map((img, i) => (
-              <img
-                key={i}
-                src={img}
-                alt=""
-                style={{
-                  width: "100%",
-                  aspectRatio: "1",
-                  objectFit: "cover",
-                  borderRadius: 4,
-                }}
+              <img key={i} src={img} alt=""
+                style={{ width: "100%", aspectRatio: "1", objectFit: "cover", borderRadius: 4 }}
                 onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
               />
             ))}
           </div>
         )}
 
-        {/* X リンク */}
+        {/* Xリンク */}
         {entry.x_url && (
-          <a
-            href={entry.x_url}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 4,
-              fontSize: 12,
-              color: "#1d9bf0",
-              textDecoration: "none",
-              padding: "4px 10px",
-              border: "1px solid #1d9bf0",
-              borderRadius: 20,
-            }}
-          >
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+          <a href={entry.x_url} target="_blank" rel="noopener noreferrer" style={{
+            display: "inline-flex", alignItems: "center", gap: 4,
+            fontSize: 11, color: "#1d9bf0", textDecoration: "none",
+            padding: "4px 10px", border: "1px solid #1d9bf0",
+            borderRadius: 20,
+          }}>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
             </svg>
             Xで見る
@@ -176,142 +186,188 @@ export default function CompletePage() {
   const [entries, setEntries] = useState<CompleteEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedDate, setSelectedDate] = useState<string>("");
-  const [filterMachine, setFilterMachine] = useState("");
+  const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
+  const [refreshing, setRefreshing] = useState(false);
+
+  const loadData = useCallback(async (silent = false) => {
+    if (!silent) setLoading(true);
+    else setRefreshing(true);
+    try {
+      const res = await fetch(`/complete_info.json?t=${Date.now()}`);
+      const data: CompleteEntry[] = await res.json();
+      setEntries(data);
+      setLastUpdated(new Date());
+      // デフォルト: 最新日付
+      if (data.length > 0 && !selectedDate) {
+        const latest = data.reduce((a, b) => a.date > b.date ? a : b).date;
+        setSelectedDate(latest);
+      }
+    } catch {
+      // ignore
+    } finally {
+      setLoading(false);
+      setRefreshing(false);
+    }
+  }, [selectedDate]);
 
   useEffect(() => {
-    fetch("/complete_info.json")
-      .then((r) => r.json())
-      .then((data: CompleteEntry[]) => {
-        setEntries(data);
-        // デフォルト: 最新日付
-        if (data.length > 0) {
-          const latest = data.reduce((a, b) => a.date > b.date ? a : b).date;
-          setSelectedDate(latest);
-        }
-        setLoading(false);
-      })
-      .catch(() => setLoading(false));
-  }, []);
+    loadData();
+    // 5分ごとに自動更新
+    const timer = setInterval(() => loadData(true), 5 * 60 * 1000);
+    return () => clearInterval(timer);
+  }, []); // eslint-disable-line
 
-  // 利用可能な日付一覧
+  // 利用可能な日付（新しい順）
   const availableDates = useMemo(() => {
-    const dates = [...new Set(entries.map((e) => e.date))].sort().reverse();
+    const dates = [...new Set(entries.map(e => e.date))].sort().reverse();
     return dates;
   }, [entries]);
 
-  // フィルタリング済みエントリ
+  // 選択日付のデータ（時刻降順）
   const filtered = useMemo(() => {
-    return entries.filter((e) => {
-      if (selectedDate && e.date !== selectedDate) return false;
-      if (filterMachine && !e.machine.includes(filterMachine) && !e.store.includes(filterMachine)) return false;
-      return true;
-    });
-  }, [entries, selectedDate, filterMachine]);
+    if (!selectedDate) return [];
+    return entries
+      .filter(e => e.date === selectedDate)
+      .sort((a, b) => (b.time || "").localeCompare(a.time || ""));
+  }, [entries, selectedDate]);
 
-  // 機種名一覧（フィルター用）
-  const machines = useMemo(() => {
-    const m = [...new Set(entries.filter((e) => e.machine).map((e) => e.machine))];
-    return m.sort();
-  }, [entries]);
+  // 今日の件数
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const todayCount = useMemo(() => entries.filter(e => e.date === todayStr).length, [entries, todayStr]);
 
   return (
-    <div style={{ minHeight: "100vh", background: C.bg, fontFamily: "sans-serif" }}>
+    <div style={{ minHeight: "100vh", background: C.bg, fontFamily: "'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" }}>
+
       {/* ヘッダー */}
       <div style={{
-        background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
-        color: "#fff",
-        padding: "20px 16px 16px",
+        background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%)",
+        color: "#fff", padding: "16px 16px 0",
       }}>
-        <a href="/" style={{ color: "#aaa", fontSize: 12, textDecoration: "none" }}>← トップ</a>
-        <h1 style={{ margin: "8px 0 4px", fontSize: 22, fontWeight: 800, letterSpacing: -0.5 }}>
-          🏆 コンプリート情報
-        </h1>
-        <p style={{ margin: 0, fontSize: 13, color: "#aaa" }}>
-          X（Twitter）から収集した全台コンプ・コンプリート制覇情報
-        </p>
+        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+          <a href="/" style={{ color: "#aaa", fontSize: 12, textDecoration: "none" }}>← トップ</a>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", margin: "8px 0 14px" }}>
+            <div>
+              <h1 style={{ margin: "0 0 2px", fontSize: 20, fontWeight: 800 }}>
+                🏆 コンプリート情報
+              </h1>
+              <p style={{ margin: 0, fontSize: 12, color: "#99aacc" }}>
+                店舗公式アカウントのコンプリート発生情報
+              </p>
+            </div>
+            <div style={{ textAlign: "right" }}>
+              {todayCount > 0 && (
+                <div style={{ fontSize: 22, fontWeight: 900, color: "#ffd700" }}>
+                  {todayCount}<span style={{ fontSize: 12, fontWeight: 400, color: "#aaa", marginLeft: 3 }}>件</span>
+                </div>
+              )}
+              <div style={{ fontSize: 10, color: "#99aacc" }}>本日</div>
+            </div>
+          </div>
+
+          {/* 日付タブ */}
+          <div style={{ display: "flex", gap: 2, overflowX: "auto", paddingBottom: 0 }}>
+            {availableDates.map(d => {
+              const isSelected = d === selectedDate;
+              const count = entries.filter(e => e.date === d).length;
+              const isToday = d === todayStr;
+              return (
+                <button
+                  key={d}
+                  onClick={() => setSelectedDate(d)}
+                  style={{
+                    flexShrink: 0,
+                    padding: "8px 14px 10px",
+                    border: "none", borderRadius: "6px 6px 0 0",
+                    background: isSelected ? C.bg : "rgba(255,255,255,0.08)",
+                    color: isSelected ? C.red : isToday ? "#ffd700" : "#ccc",
+                    fontWeight: isSelected || isToday ? 800 : 500,
+                    fontSize: 13, cursor: "pointer",
+                    transition: "all .15s",
+                    borderBottom: isSelected ? `none` : "none",
+                  }}
+                >
+                  {fmtDateTab(d)}
+                  <span style={{
+                    marginLeft: 5, fontSize: 10,
+                    background: isSelected ? C.red : "rgba(255,255,255,0.2)",
+                    color: isSelected ? "#fff" : "#ccc",
+                    padding: "1px 5px", borderRadius: 10,
+                  }}>
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
       </div>
 
-      {/* フィルターバー */}
+      {/* 更新バー */}
       <div style={{
-        background: C.white,
-        borderBottom: `1px solid ${C.border}`,
-        padding: "12px 16px",
-        display: "flex",
-        flexWrap: "wrap",
-        gap: 8,
-        alignItems: "center",
+        background: C.white, borderBottom: `1px solid ${C.border}`,
+        padding: "8px 16px",
       }}>
-        {/* 日付選択 */}
-        <select
-          value={selectedDate}
-          onChange={(e) => setSelectedDate(e.target.value)}
-          style={{
-            padding: "6px 10px",
-            borderRadius: 6,
-            border: `1px solid ${C.border}`,
-            fontSize: 13,
-            background: C.white,
-            cursor: "pointer",
-          }}
-        >
-          <option value="">全日程</option>
-          {availableDates.map((d) => (
-            <option key={d} value={d}>{dateFmt(d)}</option>
-          ))}
-        </select>
-
-        {/* キーワードフィルター */}
-        <input
-          type="text"
-          placeholder="機種名・店舗名で絞り込み"
-          value={filterMachine}
-          onChange={(e) => setFilterMachine(e.target.value)}
-          style={{
-            padding: "6px 10px",
-            borderRadius: 6,
-            border: `1px solid ${C.border}`,
-            fontSize: 13,
-            minWidth: 160,
-            flex: 1,
-          }}
-        />
-
-        <span style={{ fontSize: 13, color: C.muted, marginLeft: "auto" }}>
-          {filtered.length} 件
-        </span>
+        <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+          <div style={{ fontSize: 13, color: C.text, fontWeight: 700 }}>
+            {selectedDate && fmtDate(selectedDate)}
+            {filtered.length > 0 && (
+              <span style={{ fontSize: 12, color: C.muted, fontWeight: 400, marginLeft: 8 }}>
+                {filtered.length}件
+              </span>
+            )}
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            {lastUpdated && (
+              <span style={{ fontSize: 11, color: C.muted }}>
+                {lastUpdated.getHours()}:{String(lastUpdated.getMinutes()).padStart(2, "0")} 更新
+              </span>
+            )}
+            <button
+              onClick={() => loadData(true)}
+              disabled={refreshing}
+              style={{
+                padding: "5px 12px", fontSize: 12, fontWeight: 700,
+                background: refreshing ? C.dim : C.red, color: "#fff",
+                border: "none", borderRadius: 20, cursor: refreshing ? "default" : "pointer",
+              }}
+            >
+              {refreshing ? "更新中..." : "🔄 更新"}
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* コンテンツ */}
-      <div style={{ maxWidth: 1000, margin: "0 auto", padding: "16px" }}>
+      <div style={{ maxWidth: 900, margin: "0 auto", padding: "14px 12px 60px" }}>
         {loading ? (
           <div style={{ textAlign: "center", padding: "60px 0", color: C.muted }}>
             読み込み中...
           </div>
         ) : filtered.length === 0 ? (
-          <div style={{
-            textAlign: "center",
-            padding: "60px 0",
-            color: C.muted,
-          }}>
-            <div style={{ fontSize: 48, marginBottom: 12 }}>🎰</div>
-            <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 8 }}>
-              コンプリート情報が見つかりませんでした
+          <div style={{ textAlign: "center", padding: "60px 0" }}>
+            <div style={{ fontSize: 44, marginBottom: 12 }}>🎰</div>
+            <div style={{ fontSize: 15, fontWeight: 700, color: C.text, marginBottom: 6 }}>
+              {selectedDate === todayStr ? "本日のコンプリート情報はまだありません" : "この日のデータがありません"}
             </div>
-            <div style={{ fontSize: 13 }}>
-              スクリプトを実行して最新情報を収集してください
+            <div style={{ fontSize: 12, color: C.muted }}>
+              スクリプト実行後に反映されます
             </div>
           </div>
         ) : (
           <div style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
-            gap: 16,
+            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+            gap: 12,
           }}>
-            {filtered.map((entry) => (
+            {filtered.map(entry => (
               <CompleteCard key={entry.id} entry={entry} />
             ))}
           </div>
         )}
+      </div>
+
+      <div style={{ textAlign: "center", padding: "16px", fontSize: 11, color: C.muted, borderTop: `1px solid ${C.border}` }}>
+        © メシウマ稼働株式会社 — データは自動収集・5分ごと自動更新
       </div>
     </div>
   );
