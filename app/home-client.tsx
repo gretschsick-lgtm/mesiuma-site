@@ -58,7 +58,6 @@ function cleanCast(cast?: string) {
 }
 function safeImg(url?: string): string {
   if (!url) return "";
-  if (url.includes("dmm.com") || url.includes("p-town")) return "";
   return url;
 }
 
