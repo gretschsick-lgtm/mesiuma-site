@@ -66584,22 +66584,6 @@
     "dmm_id": "13262"
   },
   {
-    "id": "a51260ae44",
-    "name": "P．Sフィールド",
-    "pref": "東京都",
-    "area": "関東",
-    "city": "大田区",
-    "event_count": 0,
-    "floor_map_url": null,
-    "is_low_rental": false,
-    "lottery_time": null,
-    "hp_url": null,
-    "x_url": null,
-    "address": null,
-    "map_url": null,
-    "dmm_id": "253"
-  },
-  {
     "id": "f915ec2936",
     "name": "みとや大森町店",
     "pref": "東京都",

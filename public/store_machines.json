@@ -992,5 +992,1571 @@
       }
     ],
     "updated_at": "2026-05-19T16:34:27"
+  },
+  "楽園蒲田店": {
+    "hours": "10:00～22:40",
+    "entry_rule": "抽選",
+    "address": "東京都大田区西蒲田7-46-8蒲田ライトビル1-3Ｆ",
+    "new_machines": [
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+        "type": "slot"
+      },
+      {
+        "name": "Lパチスロ 革命機ヴァルヴレイヴ2",
+        "type": "slot"
+      },
+      {
+        "name": "パチスロ かぐや様は告らせたい",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 沖ドキ！DUOアンコール",
+        "type": "slot"
+      },
+      {
+        "name": "マジカルハロウィン ボーナストリガー",
+        "type": "slot"
+      },
+      {
+        "name": "LBパチスロ ヱヴァンゲリヲン ～約…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ゴブリンスレイヤーⅡ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロネオプラネット",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 聖戦士ダンバイン",
+        "type": "slot"
+      },
+      {
+        "name": "賞金首Angel",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ベガビック京急蒲田店": {
+    "hours": "10:00～23：00",
+    "entry_rule": "抽選",
+    "address": "東京都大田区蒲田4-10-14あすとウィズ地下1階地上1階",
+    "pachinko_total": 355,
+    "pachinko": [
+      {
+        "rate": "不明",
+        "count": 355
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 化物語",
+        "type": "slot"
+      },
+      {
+        "name": "L 絶対衝激Ⅳ",
+        "type": "slot"
+      },
+      {
+        "name": "L ダーリン・イン・ザ・フランキス",
+        "type": "slot"
+      },
+      {
+        "name": "いざ！番長",
+        "type": "slot"
+      },
+      {
+        "name": "七つの魔剣が支配する",
+        "type": "slot"
+      },
+      {
+        "name": "Lパチスロ炎炎ノ消防隊",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "金時京急蒲田店": {
+    "hours": "10:00～22:45",
+    "entry_rule": "並び順",
+    "address": "東京都大田区蒲田4-6-4",
+    "pachinko_total": 236,
+    "slot_total": 148,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 173
+      },
+      {
+        "rate": "1円",
+        "count": 63
+      }
+    ],
+    "slot": [
+      {
+        "rate": "20円",
+        "count": 148
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "新世紀エヴァンゲリオン〜未来への咆哮…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eルパン三世VSキャッツ・アイ 15…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "キコーナ蒲田店": {
+    "hours": "10:00～22:40",
+    "entry_rule": "抽選",
+    "address": "東京都大田区西蒲田8-1-12",
+    "pachinko_total": 621,
+    "slot_total": 386,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 348
+      },
+      {
+        "rate": "1円",
+        "count": 223
+      },
+      {
+        "rate": "0.5円",
+        "count": 50
+      }
+    ],
+    "slot": [
+      {
+        "rate": "1000円/46枚",
+        "count": 359
+      },
+      {
+        "rate": "1000円/184枚",
+        "count": 27
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "e冴えない彼女の育てかた",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバーダンベル何キロ持てる？2",
+        "type": "pachinko"
+      },
+      {
+        "name": "P沖ドキ！ドキドキ弾丸ツアー",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pスーパー海物語IN沖縄6",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 北斗の拳 転生の章2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "eフィーバーもののがたり",
+        "type": "pachinko"
+      },
+      {
+        "name": "e マギアレコード 魔法少女まどか☆…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e盾の勇者の成り上がり アルティメッ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Lパチスロ 革命機ヴァルヴレイヴ2",
+        "type": "slot"
+      },
+      {
+        "name": "P戦国乙女7 終焉の関ヶ原 LLサイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバー機動戦士ガンダムユニコー…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "e吉宗 極乗3000ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバー彼女、お借りします",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pルパン三世 銭形からの招待状 77…",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ベルシティザシティ雑色店": {
+    "hours": "10:00~22:40",
+    "entry_rule": "抽選",
+    "address": "東京都大田区仲六郷2-43-7",
+    "new_machines": [
+      {
+        "name": "e 新世紀エヴァンゲリオン 〜はじま…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e一方通行 とある魔術の禁書目録",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pフィーバーからくりサーカス",
+        "type": "pachinko"
+      },
+      {
+        "name": "P花満開 月光 THE FINAL…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pフィーバーパワフル（2021年）",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "PAコマコマ倶楽部 with 坂本冬…",
+        "type": "pachinko"
+      },
+      {
+        "name": "押忍！番長ZERO",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "レイトギャップ平和島": {
+    "hours": "10:00~22:40",
+    "entry_rule": "抽選",
+    "address": "東京都大田区平和島1-1-1",
+    "new_machines": [
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eルパン三世VSキャッツ・アイ 15…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "デカスタP戦国無双100ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "e吉宗 極乗3000ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ 北斗の拳 転生の章2",
+        "type": "slot"
+      },
+      {
+        "name": "PフィーバークィーンⅡ 30th A…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "e牙狼11〜冴島大河〜魔戒BURST…",
+        "type": "pachinko"
+      },
+      {
+        "name": "P 俺の妹がこんなに可愛いわけがない…",
+        "type": "pachinko"
+      },
+      {
+        "name": "P【超甘LT】華牌RR 1/49×9…",
+        "type": "pachinko"
+      },
+      {
+        "name": "PA野生の王国Ⅵ",
+        "type": "pachinko"
+      },
+      {
+        "name": "バーニングエクスプレス",
+        "type": "slot"
+      },
+      {
+        "name": "P Re:ゼロから始める異世界生活…",
+        "type": "pachinko"
+      },
+      {
+        "name": "P アズールレーン THE ANIM…",
+        "type": "pachinko"
+      },
+      {
+        "name": "P緋弾のアリア～緋緋神降臨～88Ve…",
+        "type": "pachinko"
+      },
+      {
+        "name": "L 少女☆歌劇 レヴュースタァライト…",
+        "type": "slot"
+      },
+      {
+        "name": "PA花の慶次 裂 99ver.",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ニラク大田長原店": {
+    "hours": "-",
+    "address": "東京都大田区上池台1-7-16",
+    "pachinko_total": 174,
+    "slot_total": 95,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 96
+      },
+      {
+        "rate": "1円",
+        "count": 78
+      }
+    ],
+    "slot": [
+      {
+        "rate": "1000円/46枚",
+        "count": 95
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "Pメイドインアビス 奈落の連環蝕",
+        "type": "pachinko"
+      },
+      {
+        "name": "PLT激デジ ジューシーハニー極嬢",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "金時大森駅東口店": {
+    "hours": "10:00～22:45",
+    "entry_rule": "その他",
+    "address": "東京都大田区大森北1-4-4",
+    "pachinko_total": 378,
+    "slot_total": 227,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 309
+      },
+      {
+        "rate": "1円",
+        "count": 69
+      }
+    ],
+    "slot": [
+      {
+        "rate": "20円",
+        "count": 227
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e 新世紀エヴァンゲリオン 〜はじま…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eルパン三世VSキャッツ・アイ 15…",
+        "type": "pachinko"
+      },
+      {
+        "name": "沖ドキ！GOLD",
+        "type": "slot"
+      },
+      {
+        "name": "ファンキージャグラー2",
+        "type": "slot"
+      },
+      {
+        "name": "新ハナビ",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "パーラープラザ515": {
+    "hours": "10:00～23:00",
+    "entry_rule": "並び順",
+    "address": "東京都大田区池上6-2-3",
+    "pachinko_total": 752,
+    "pachinko": [
+      {
+        "rate": "不明",
+        "count": 752
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "ネオアイムジャグラーEX",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 北斗の拳 転生の章2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 甲鉄城のカバネリ 海門（う…",
+        "type": "slot"
+      },
+      {
+        "name": "真打 吉宗",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ鉄拳6",
+        "type": "slot"
+      },
+      {
+        "name": "e吉宗 極乗3000ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "e 魔法少女まどか☆マギカ3 時間遡…",
+        "type": "pachinko"
+      },
+      {
+        "name": "P Re:ゼロから始める異世界生活…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e 真・北斗無双 第5章 夢幻闘双",
+        "type": "pachinko"
+      },
+      {
+        "name": "Lパチスロ 炎炎ノ消防隊2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ 化物語",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ マギアレコード 魔法少女ま…",
+        "type": "slot"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "アニマルスロット ドッチ",
+        "type": "slot"
+      },
+      {
+        "name": "eフィーバーキン肉マン",
+        "type": "pachinko"
+      },
+      {
+        "name": "Lパチスロ 機動戦士ガンダムユニコー…",
+        "type": "slot"
+      },
+      {
+        "name": "e 終末のワルキューレ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロヨルムンガンド",
+        "type": "slot"
+      },
+      {
+        "name": "A-SLOT+ 異世界かるてっと B…",
+        "type": "slot"
+      },
+      {
+        "name": "eアクダマドライブ",
+        "type": "pachinko"
+      },
+      {
+        "name": "e 甲鉄城のカバネリ2 咲かせや燦然",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ 攻殻機動隊",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ゴブリンスレイヤーⅡ",
+        "type": "slot"
+      },
+      {
+        "name": "e異世界でチート能力を手にした俺は現…",
+        "type": "pachinko"
+      },
+      {
+        "name": "L無職転生～異世界行ったら本気だす～",
+        "type": "slot"
+      },
+      {
+        "name": "e黄門ちゃま寿限無 LLサイズ",
+        "type": "pachinko"
+      },
+      {
+        "name": "P愛の不時着",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ 聖戦士ダンバイン",
+        "type": "slot"
+      },
+      {
+        "name": "P 百花繚乱",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ バイオハザード:ヴェンデッ…",
+        "type": "slot"
+      },
+      {
+        "name": "P大海物語4スペシャル",
+        "type": "pachinko"
+      },
+      {
+        "name": "PA海物語3R2スペシャル",
+        "type": "pachinko"
+      },
+      {
+        "name": "PA海物語3R3",
+        "type": "pachinko"
+      },
+      {
+        "name": "デジハネP頭文字D せかんど",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバー炎炎ノ消防隊2 紅丸ve…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバー炎炎ノ消防隊2 シンラv…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pラブ嬢 〜極嬢のハーレム体験〜",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "マルハンメガシティ2000蒲田1": {
+    "hours": "10:00〜23:00",
+    "entry_rule": "抽選",
+    "address": "東京都大田区蒲田5－9－2　マルハン蒲田駅東ビル",
+    "pachinko_total": 1048,
+    "pachinko": [
+      {
+        "rate": "不明",
+        "count": 1048
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "P大海物語5スペシャル",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "デカスタP戦国無双100ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "P少女☆歌劇 レヴュースタァライト…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ミリオンゴッド-神々の軌跡…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ モンスターハンターライズ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "吉宗",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ヒロキ蒲田西口店": {
+    "hours": "10:00～22:45",
+    "entry_rule": "抽選",
+    "address": "東京都大田区西蒲田7-3-7",
+    "new_machines": [
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "デカスタP戦国無双100ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "e 終末のワルキューレ",
+        "type": "pachinko"
+      },
+      {
+        "name": "e牙狼11〜冴島大河〜魔戒BURST…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e黄門ちゃま寿限無 LLサイズ",
+        "type": "pachinko"
+      },
+      {
+        "name": "PA激デジ ジューシーハニーハーレム",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "京浜ホール": {
+    "hours": "10:00～22:45",
+    "entry_rule": "並び順",
+    "address": "東京都大田区大森南1-16-1",
+    "pachinko_total": 117,
+    "slot_total": 114,
+    "pachinko": [
+      {
+        "rate": "1000円/250玉",
+        "count": 80
+      },
+      {
+        "rate": "1円",
+        "count": 37
+      }
+    ],
+    "slot": [
+      {
+        "rate": "1000円/46枚",
+        "count": 101
+      },
+      {
+        "rate": "1000円/200枚",
+        "count": 13
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "e 新世紀エヴァンゲリオン 〜はじま…",
+        "type": "pachinko"
+      },
+      {
+        "name": "PLT激デジ ジューシーハニー極嬢",
+        "type": "pachinko"
+      },
+      {
+        "name": "Lパチスロ 革命機ヴァルヴレイヴ2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ サンダーV",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ とある科学の超電磁砲2",
+        "type": "slot"
+      },
+      {
+        "name": "Pフィーバーダンジョンに出会いを求め…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ バイオハザード5",
+        "type": "slot"
+      },
+      {
+        "name": "L 少女☆歌劇 レヴュースタァライト…",
+        "type": "slot"
+      },
+      {
+        "name": "Pルパン三世 銭形からの招待状 77…",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "PIA大森": {
+    "hours": "10:00～22:45",
+    "address": "東京都大田区山王2-4-1",
+    "pachinko_total": 365,
+    "slot_total": 307,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 273
+      },
+      {
+        "rate": "1円",
+        "count": 92
+      }
+    ],
+    "slot": [
+      {
+        "rate": "21.739円",
+        "count": 250
+      },
+      {
+        "rate": "1000円/178枚",
+        "count": 57
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "eフィーバーダンベル何キロ持てる？2",
+        "type": "pachinko"
+      },
+      {
+        "name": "PA義風堂々!!〜兼続と慶次〜3 9…",
+        "type": "pachinko"
+      },
+      {
+        "name": "L 東京喰種",
+        "type": "slot"
+      },
+      {
+        "name": "クレアの秘宝伝 〜はじまりの扉と太陽…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ゴブリンスレイヤーⅡ",
+        "type": "slot"
+      },
+      {
+        "name": "L範馬刃牙",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロネオプラネット",
+        "type": "slot"
+      },
+      {
+        "name": "スマート沖スロ アメイジングライブ",
+        "type": "slot"
+      },
+      {
+        "name": "今日から俺は!!　パチスロ編",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "PIA雑色店": {
+    "hours": "-",
+    "address": "東京都大田区仲六郷2-27-5",
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ヒノマルパチンコ下丸子店": {
+    "hours": "10:00～22:40",
+    "entry_rule": "抽選",
+    "address": "東京都大田区下丸子3-10-3ヒノビル1Ｆ",
+    "new_machines": [
+      {
+        "name": "L 東京喰種",
+        "type": "slot"
+      },
+      {
+        "name": "ニューパルサーSPⅢ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ マギアレコード 魔法少女ま…",
+        "type": "slot"
+      },
+      {
+        "name": "ニューパルサーSP4 with 太鼓…",
+        "type": "slot"
+      },
+      {
+        "name": "沖ドキ！DUO",
+        "type": "slot"
+      },
+      {
+        "name": "e地獄少女7500Ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "eとある科学の超電磁砲 PHASE…",
+        "type": "pachinko"
+      },
+      {
+        "name": "HEY！エリートサラリーマン鏡",
+        "type": "slot"
+      },
+      {
+        "name": "パチスロ 革命機ヴァルヴレイヴ",
+        "type": "slot"
+      },
+      {
+        "name": "PフィーバークィーンⅡ（2020年）",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "グラン羽田店": {
+    "hours": "10：00～22：45",
+    "entry_rule": "並び順",
+    "address": "東京都大田区羽田1-3-6",
+    "pachinko_total": 167,
+    "slot_total": 174,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 120
+      },
+      {
+        "rate": "1円",
+        "count": 47
+      }
+    ],
+    "slot": [
+      {
+        "rate": "5円",
+        "count": 26
+      },
+      {
+        "rate": "20円",
+        "count": 148
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "eリング 最恐領域",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ミリオンゴッド-神々の軌跡…",
+        "type": "slot"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバーキン肉マン",
+        "type": "pachinko"
+      },
+      {
+        "name": "eリコリス・リコイル",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "Lパチスロ 機動戦士ガンダムユニコー…",
+        "type": "slot"
+      },
+      {
+        "name": "e ULTRAMAN 4500 超ラ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "L主役は銭形5",
+        "type": "slot"
+      },
+      {
+        "name": "P 冬のソナタ My Memory…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e女神のカフェテラス",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ デビル メイ クライ5 ス…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ マギアレコード 魔法少女ま…",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ARROW池上店": {
+    "hours": "10:00～22:40",
+    "entry_rule": "抽選",
+    "address": "東京都大田区池上3-3-1",
+    "pachinko_total": 920,
+    "pachinko": [
+      {
+        "rate": "不明",
+        "count": 920
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "P大海物語5スペシャル",
+        "type": "pachinko"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "デカスタP戦国無双100ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e 甲鉄城のカバネリ2 咲かせや燦然",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ゴジラ対エヴァンゲリオン2 超デ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "eフィーバーもののがたり",
+        "type": "pachinko"
+      },
+      {
+        "name": "P Re:ゼロから始める異世界生活…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pハネモノ ファミリースタジアム",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "ヒロキMAX蒲田店": {
+    "hours": "10:00～23:00",
+    "entry_rule": "抽選",
+    "address": "東京都大田区西蒲田7-4-12",
+    "new_machines": [
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "L範馬刃牙",
+        "type": "slot"
+      },
+      {
+        "name": "e異世界でチート能力を手にした俺は現…",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "金時蒲田東口店": {
+    "hours": "10：00～22:45",
+    "entry_rule": "並び順",
+    "address": "東京都大田区蒲田5-16-7",
+    "pachinko_total": 203,
+    "slot_total": 195,
+    "pachinko": [
+      {
+        "rate": "4円",
+        "count": 166
+      },
+      {
+        "rate": "1円",
+        "count": 37
+      }
+    ],
+    "slot": [
+      {
+        "rate": "20円",
+        "count": 195
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "マルハンメガシティ2000蒲田7": {
+    "hours": "10:00〜23:00",
+    "entry_rule": "抽選",
+    "address": "東京都大田区蒲田5-11-12",
+    "pachinko_total": 2014,
+    "pachinko": [
+      {
+        "rate": "不明",
+        "count": 2014
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "e範馬刃牙",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ミリオンゴッド-神々の軌跡…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "パチンコヒロキ蒲田東口店": {
+    "hours": "10:00～22:50",
+    "entry_rule": "その他",
+    "address": "東京都大田区蒲田5-9-13",
+    "pachinko_total": 990,
+    "pachinko": [
+      {
+        "rate": "不明",
+        "count": 990
+      }
+    ],
+    "new_machines": [
+      {
+        "name": "e バイオハザード6",
+        "type": "pachinko"
+      },
+      {
+        "name": "eカケグルイ 7500ver",
+        "type": "pachinko"
+      },
+      {
+        "name": "eまわるん超ワープ ギンギラパラダイ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pクイーンズブレイド奈落ナナエル79…",
+        "type": "pachinko"
+      },
+      {
+        "name": "PフィーバークィーンⅡ",
+        "type": "pachinko"
+      },
+      {
+        "name": "eひきこまり吸血姫の悶々",
+        "type": "pachinko"
+      },
+      {
+        "name": "デカスタP戦国無双100ver.",
+        "type": "pachinko"
+      },
+      {
+        "name": "e ライザのアトリエ 〜常闇の女王と…",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ ビッグドリーム THE G…",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロスーパーリオエース2",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ バイオハザードRE:3",
+        "type": "slot"
+      },
+      {
+        "name": "Ｌタクトオーパス デスティニー",
+        "type": "slot"
+      },
+      {
+        "name": "L範馬刃牙",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ ゴブリンスレイヤーⅡ",
+        "type": "slot"
+      },
+      {
+        "name": "e ULTRAMAN 4500 超ラ…",
+        "type": "pachinko"
+      },
+      {
+        "name": "Pメイドインアビス 奈落の連環蝕",
+        "type": "pachinko"
+      },
+      {
+        "name": "e花の慶次〜黄金の一撃",
+        "type": "pachinko"
+      },
+      {
+        "name": "PLT激デジ ジューシーハニー極嬢",
+        "type": "pachinko"
+      },
+      {
+        "name": "七つの魔剣が支配する",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ モンスターハンターライズ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ痛いのは嫌なので防御力に極振…",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "イレブン梅屋敷店": {
+    "hours": "-",
+    "entry_rule": "抽選",
+    "address": "東京都大田区東蒲田1-1-6並木ビル1F",
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "MAXSLOTZAP": {
+    "hours": "10:00～22:45",
+    "entry_rule": "抽選",
+    "address": "東京都大田区大森北1-34-16",
+    "updated_at": "2026-05-20T14:53:24"
+  },
+  "みとや大森町店": {
+    "hours": "-",
+    "address": "東京都大田区大森西5-29-11",
+    "updated_at": "2026-05-20T14:53:24"
   }
 }
