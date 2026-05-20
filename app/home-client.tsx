@@ -507,7 +507,7 @@ export default function Page() {
   };
 
   // ─── 収録カード共通レンダラ ──────────────────────────────
-  const renderRecordingCard = (ev: Ev, cardW: number) => {
+  const renderRecordingCard = (ev: Ev, cardW: number, listRow = false) => {
     const ytUrl = ev.url || "";
     let videoId = "";
     const m1 = ytUrl.match(/[?&]v=([A-Za-z0-9_-]{11})/);
@@ -517,6 +517,48 @@ export default function Page() {
     else if (m2) videoId = m2[1];
     else if (m3) videoId = m3[1];
     const thumb = videoId ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg` : safeImg(ev.image_url);
+    const showPref = ev.pref && ev.pref !== "不明";
+
+    if (listRow) {
+      // モバイル一覧：横並びリスト行
+      return (
+        <a key={ev.id} href={ytUrl || "#"} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", display: "block" }}>
+          <div style={{
+            display: "flex", gap: 10, alignItems: "center",
+            border: `1px solid ${C.border}`, borderRadius: 10, overflow: "hidden",
+            background: C.white, padding: 0,
+            transition: "box-shadow .15s",
+          }}
+            onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "0 2px 12px rgba(204,0,0,.18)"; }}
+            onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
+          >
+            {/* サムネイル */}
+            <div style={{ position: "relative", width: 110, height: 72, flexShrink: 0, background: "#111", overflow: "hidden" }}>
+              {thumb ? (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={thumb} alt={ev.store} style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }} loading="lazy" />
+              ) : (
+                <div style={{ width: "100%", height: "100%", background: "linear-gradient(135deg,#1a1a1a,#333)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 22 }}>🎬</div>
+              )}
+              <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                <div style={{ width: 28, height: 28, borderRadius: "50%", background: "rgba(204,0,0,.9)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 11, color: "#fff", paddingLeft: 2 }}>▶</div>
+              </div>
+            </div>
+            {/* 情報 */}
+            <div style={{ flex: 1, minWidth: 0, padding: "8px 12px 8px 0" }}>
+              <div style={{ fontSize: 13, fontWeight: 800, color: C.text, lineHeight: 1.4, marginBottom: 4, overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" } as React.CSSProperties}>{ev.store}</div>
+              <div style={{ display: "flex", gap: 6, alignItems: "center", flexWrap: "wrap" }}>
+                {ev.date && <span style={{ fontSize: 11, color: C.red, fontWeight: 700 }}>{ev.date}</span>}
+                {showPref && <span style={{ fontSize: 11, color: C.muted }}>{ev.pref}</span>}
+                {ev.cast && <span style={{ fontSize: 11, color: "#9933cc", fontWeight: 600, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis", maxWidth: 120 }}>📹 {ev.cast}</span>}
+              </div>
+            </div>
+          </div>
+        </a>
+      );
+    }
+
+    // カード表示（横スクロール・PCグリッド）
     return (
       <a key={ev.id} href={ytUrl || "#"} target="_blank" rel="noopener noreferrer"
         style={{ textDecoration: "none", ...(cardW ? { width: cardW, flexShrink: 0 } : {}), display: "flex" }}>
@@ -545,7 +587,7 @@ export default function Page() {
             <div>
               <div style={{ display: "flex", gap: 5, flexWrap: "wrap", alignItems: "center" }}>
                 {ev.date && <span style={{ fontSize: 10, color: C.red, fontWeight: 700 }}>{ev.date}</span>}
-                {ev.pref && <span style={{ fontSize: 10, color: C.muted }}>{ev.pref}</span>}
+                {showPref && <span style={{ fontSize: 10, color: C.muted }}>{ev.pref}</span>}
               </div>
               {ev.cast && (
                 <div style={{ fontSize: 10, color: "#9933cc", fontWeight: 700, marginTop: 3, overflow: "hidden", whiteSpace: "nowrap", textOverflow: "ellipsis" }}>📹 {ev.cast}</div>
@@ -588,9 +630,9 @@ export default function Page() {
                 cursor: "pointer", fontSize: 18, display: "flex", alignItems: "center", justifyContent: "center",
               }}>✕</button>
             </div>
-            {/* グリッド */}
-            <div style={{ padding: "16px", display: "grid", gridTemplateColumns: isMobile ? "repeat(2,1fr)" : "repeat(4,1fr)", gap: 12 }}>
-              {storeRecordings.map(ev => renderRecordingCard(ev, 0))}
+            {/* グリッド / リスト */}
+            <div style={{ padding: "16px", display: isMobile ? "flex" : "grid", flexDirection: "column", gridTemplateColumns: isMobile ? undefined : "repeat(4,1fr)", gap: 10 }}>
+              {storeRecordings.map(ev => renderRecordingCard(ev, 0, isMobile))}
             </div>
           </div>
         </div>
@@ -632,7 +674,7 @@ export default function Page() {
                       {sty.label}
                     </span>
                   )}
-                  {ev.pref && (
+                  {ev.pref && ev.pref !== "不明" && (
                     <span style={{ background: "#f5f5f5", color: C.muted, fontSize: 12, fontWeight: 600, padding: "3px 10px", borderRadius: 3, border: `1px solid ${C.border}` }}>
                       {ev.pref}
                     </span>

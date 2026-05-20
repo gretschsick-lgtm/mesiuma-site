@@ -1643,6 +1643,24 @@ def main():
 
     seen_ids: set[str] = set()
     deduped = [e for e in all_new if not (e["id"] in seen_ids or seen_ids.add(e["id"]))]  # type: ignore
+
+    # store_pref_map で「不明」pref を補完（部分一致フォールバックあり）
+    fixed_pref = 0
+    for ev in deduped:
+        if ev.get("pref") in ("不明", "", None) and ev.get("store"):
+            store = ev["store"]
+            pa = store_pref_map.get(store)
+            if not pa:
+                for sname, val in store_pref_map.items():
+                    if store in sname or sname in store:
+                        pa = val
+                        break
+            if pa and pa[0] not in ("不明", "", None):
+                ev["pref"], ev["area"] = pa
+                fixed_pref += 1
+    if fixed_pref:
+        log(f"🗺  pref補完: {fixed_pref}件")
+
     log(f"\n📊 収集: {len(deduped)}件（重複除去後）")
 
     merged, added = merge_events(existing, deduped)

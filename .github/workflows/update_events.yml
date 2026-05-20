@@ -2,8 +2,8 @@ name: Update Events
 
 on:
   schedule:
-    # 3時間ごと (UTC 0,3,6,9,12,15,18,21時 = JST 9,12,15,18,21,0,3,6時)
-    - cron: "0 0,3,6,9,12,15,18,21 * * *"
+    # 1時間ごと
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
