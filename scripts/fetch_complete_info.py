@@ -306,12 +306,26 @@ def get_tweet_time(article) -> str:
     return ""
 
 
+AUTHOR_NG = ["コンプリート", "パチスロ", "スロット", "パチンコ", "スマスロ", "速報", "まとめ", "情報", "bot"]
+
+def _is_store_name(name: str) -> bool:
+    """表示名が店舗名っぽいかどうか"""
+    if len(name) < 3 or len(name) > 30:
+        return False
+    if any(ng in name for ng in AUTHOR_NG):
+        return False
+    return bool(re.search(r'店|ホール|パーラー|PALACE|palace|ランド|マルハン|キコーナ|ダイナム', name))
+
+
 def parse_tweet(text: str, tweet_url: str, images: list[str],
-                today_str: str, tweet_time: str) -> dict | None:
+                today_str: str, tweet_time: str, author_name: str = "") -> dict | None:
     if not is_store_tweet(text):
         return None
 
     store = extract_store(text)
+    # テキストから取れなければ作者の表示名を使う
+    if not store and author_name and _is_store_name(author_name):
+        store = author_name[:28]
     machine = extract_machine(text)
     slot_number = extract_slot_number(text)
 
@@ -398,7 +412,15 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list
 
             tweet_time = get_tweet_time(article)
             images = extract_images(article)
-            entry = parse_tweet(text, tweet_url, images, today_str, tweet_time)
+            # 作者表示名を取得（ツイートカードのUser-Name）
+            author_name = ""
+            try:
+                author_el = article.query_selector('[data-testid="User-Name"] span')
+                if author_el:
+                    author_name = author_el.inner_text().strip()
+            except Exception:
+                pass
+            entry = parse_tweet(text, tweet_url, images, today_str, tweet_time, author_name)
             if entry:
                 results.append(entry)
                 store_label   = entry["store"] or "店舗不明"
