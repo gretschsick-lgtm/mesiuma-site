@@ -303,14 +303,11 @@ export default function Page() {
         return hash(a.store + seed) - hash(b.store + seed);
       });
     const seenStores = new Set<string>();
-    const seenEvents = new Set<string>();
     const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string; evType: string }[] = [];
     for (const ev of candidates) {
       if (seenStores.has(ev.store)) continue;
-      const evType = getEvType(ev);
-      const evKey = `${ev.store}_${evType}`;
-      if (seenStores.has(ev.store)) continue;
       seenStores.add(ev.store);
+      const evType = getEvType(ev);
       result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: safeImg(ev.image_url), evType });
       if (result.length >= 12) break;
     }
