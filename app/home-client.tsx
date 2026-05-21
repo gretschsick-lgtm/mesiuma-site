@@ -27,6 +27,7 @@ type Ev = {
 type YtVideo = { id: string; title: string; published: string; thumbnail?: string };
 type PickupStore = { id: string; name: string; pref?: string; area?: string; note?: string; image_url?: string; x_url?: string; hp_url?: string };
 type StoreMachine = { hours?: string; entry_rule?: string; address?: string; pachinko_total?: number; slot_total?: number };
+type CompleteEntry = { id: string; date: string; time: string; store: string; machine: string; slot_number: string; image_url: string; x_url: string; };
 
 // ─── 定数 ───────────────────────────────────────────────────
 const PICKUP_NOTE_NG = ["高設定","設定6","設定5","甘い","甘釘","爆裂","出玉","モーニング","イブニング","激アツ","公約"];
@@ -174,6 +175,7 @@ export default function Page() {
   const [showRecordingsModal, setShowRecordingsModal] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [storeIdMap, setStoreIdMap] = useState<Record<string, string>>({});
+  const [completeEntries, setCompleteEntries] = useState<CompleteEntry[]>([]);
   const router = useRouter();
 
   useEffect(() => {
@@ -201,6 +203,10 @@ export default function Page() {
     fetch("/pickup_stores.json").then(r=>r.json()).then(d=>setManualPickups(d.manual||[])).catch(()=>{});
     fetch("/store_machines.json").then(r=>r.json()).then(setStoreMachines).catch(()=>{});
     fetch("/store_ids.json").then(r=>r.json()).then(setStoreIdMap).catch(()=>{});
+    fetch("/complete_info.json").then(r=>r.json()).then((d: CompleteEntry[]) => {
+      const todayStr = new Date().toISOString().slice(0, 10);
+      setCompleteEntries(d.filter(e => e.date === todayStr).slice(0, 20));
+    }).catch(()=>{});
   }, []);
 
   useEffect(() => {
@@ -1059,7 +1065,7 @@ export default function Page() {
                     <button key={s.id} onClick={() => { setSearch(s.name); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }} style={{
                       background: "#fff8f0", border: `2px solid ${C.red}`,
                       borderRadius: 10, padding: 0, cursor: "pointer",
-                      width: 130, flexShrink: 0, overflow: "hidden",
+                      width: 130, height: 172, flexShrink: 0, overflow: "hidden",
                       display: "flex", flexDirection: "column", textAlign: "left",
                       transition: "box-shadow .15s",
                     }}
@@ -1110,7 +1116,7 @@ export default function Page() {
                     <div style={{
                       background: "#f8f8f8", border: `2px solid ${sty.border}44`,
                       borderRadius: 10, cursor: "pointer",
-                      width: 130, flexShrink: 0, overflow: "hidden",
+                      width: 130, height: 172, flexShrink: 0, overflow: "hidden",
                       display: "flex", flexDirection: "column", textAlign: "left",
                     }}>
                       {s.image_url ? (
@@ -1150,6 +1156,71 @@ export default function Page() {
                     </button>
                   );
                 })}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ━━ コンプリート速報 ━━ */}
+      {completeEntries.length > 0 && (
+        <div style={{ background: C.white, borderBottom: `1px solid ${C.border}`, marginBottom: 4 }}>
+          <div style={{ maxWidth: 1160, margin: "0 auto", padding: "16px 16px 4px" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <div style={{ width: 4, height: 20, background: "#c9910a", borderRadius: 2 }} />
+                <span style={{ fontSize: 15, fontWeight: 800, color: C.text }}>🏆 本日のコンプリート</span>
+                <span style={{ fontSize: 11, color: "#c9910a", fontWeight: 700, background: "#fff8e0", border: "1px solid #f0cc60", borderRadius: 10, padding: "1px 8px" }}>
+                  {completeEntries.length}件
+                </span>
+              </div>
+              <a href="/complete" style={{ fontSize: 12, color: C.red, fontWeight: 700, textDecoration: "none" }}>
+                もっと見る →
+              </a>
+            </div>
+            <div style={{ overflowX: "auto", paddingBottom: 14 }}>
+              <div style={{ display: "flex", gap: 8, width: "max-content" }}>
+                {completeEntries.map(entry => (
+                  <a key={entry.id} href={entry.x_url || "/complete"} target={entry.x_url ? "_blank" : undefined}
+                    rel={entry.x_url ? "noopener noreferrer" : undefined}
+                    style={{ textDecoration: "none", flexShrink: 0 }}>
+                    <div style={{
+                      width: 130, height: 172, flexShrink: 0, overflow: "hidden",
+                      border: "2px solid #f0cc60", borderRadius: 10,
+                      background: "#fffdf0",
+                      display: "flex", flexDirection: "column",
+                    }}>
+                      {entry.image_url ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={entry.image_url} alt={entry.machine}
+                          style={{ width: "100%", height: 80, objectFit: "cover", display: "block", flexShrink: 0 }} loading="lazy" />
+                      ) : (
+                        <div style={{ width: "100%", height: 80, flexShrink: 0, background: "linear-gradient(135deg,#996600,#c9910a,#f0cc60)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30 }}>🏆</div>
+                      )}
+                      <div style={{ padding: "6px 8px 8px", display: "flex", flexDirection: "column", gap: 3, overflow: "hidden" }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+                          <span style={{ background: "#c9910a", color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 5px", borderRadius: 2, whiteSpace: "nowrap" }}>コンプ</span>
+                          {entry.time && <span style={{ fontSize: 9, color: "#888", marginLeft: "auto", whiteSpace: "nowrap" }}>{entry.time}</span>}
+                        </div>
+                        {entry.machine && (
+                          <div style={{ fontSize: 11, fontWeight: 800, color: C.text, lineHeight: 1.3,
+                            overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" } as React.CSSProperties}>
+                            {entry.machine}
+                          </div>
+                        )}
+                        {entry.store && (
+                          <div style={{ fontSize: 10, color: "#555", lineHeight: 1.3,
+                            overflow: "hidden", display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical" } as React.CSSProperties}>
+                            {entry.store}
+                          </div>
+                        )}
+                        {entry.slot_number && (
+                          <div style={{ fontSize: 9, color: "#0055cc", fontWeight: 700 }}>{entry.slot_number}番台</div>
+                        )}
+                      </div>
+                    </div>
+                  </a>
+                ))}
               </div>
             </div>
           </div>
