@@ -193,7 +193,7 @@ export default function Page() {
 
   useEffect(() => {
     fetch("/events_public.json").then(r=>r.json()).then(d=>{
-      const evs: Ev[] = (d.events || []).map((ev: Ev) => ({ ...ev, pref: normalizePref(ev.pref) }));
+      const evs: Ev[] = (Array.isArray(d) ? d : (d.events || [])).map((ev: Ev) => ({ ...ev, pref: normalizePref(ev.pref) }));
       setEvents(evs);
       setLoaded(true);
     }).catch(()=>setLoaded(true));

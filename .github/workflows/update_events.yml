@@ -246,7 +246,7 @@ jobs:
           # 日付降順ソート・上限1.5万件
           result = sorted(merged.values(), key=lambda e: e.get("date", ""), reverse=True)[:15000]
           Path("public/events_public.json").write_text(
-              json.dumps(result, ensure_ascii=False, indent=2),
+              json.dumps({"events": result}, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
           print(f"\n✅ マージ完了: {len(result)} 件")
