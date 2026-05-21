@@ -43,17 +43,6 @@ function fmtDate(dateStr: string) {
   return label ? `${label} ${mmdd}` : mmdd;
 }
 
-function fmtDateTab(dateStr: string) {
-  const d = new Date(dateStr + "T00:00:00");
-  if (isNaN(d.getTime())) return dateStr;
-  const today = new Date();
-  const yesterday = new Date(today);
-  yesterday.setDate(today.getDate() - 1);
-  if (d.toDateString() === today.toDateString()) return "今日";
-  if (d.toDateString() === yesterday.toDateString()) return "昨日";
-  return `${d.getMonth() + 1}/${d.getDate()}`;
-}
-
 function CompleteCard({ entry }: { entry: CompleteEntry }) {
   const [imgErr, setImgErr] = useState(false);
 
@@ -65,7 +54,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
       overflow: "hidden",
       boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
     }}>
-      {/* 画像 */}
       {entry.image_url && !imgErr && (
         <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#f0f0f0", overflow: "hidden" }}>
           <img
@@ -74,7 +62,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
             style={{ width: "100%", height: "100%", objectFit: "cover" }}
             onError={() => setImgErr(true)}
           />
-          {/* 時刻バッジ */}
           {entry.time && (
             <span style={{
               position: "absolute", top: 8, right: 8,
@@ -89,7 +76,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
       )}
 
       <div style={{ padding: "10px 12px 12px" }}>
-        {/* バッジ行 */}
         <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 7, flexWrap: "wrap" }}>
           <span style={{
             background: C.gold, color: "#fff",
@@ -112,42 +98,28 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           )}
         </div>
 
-        {/* 機種名 */}
         {entry.machine && (
-          <div style={{
-            fontSize: 15, fontWeight: 800, color: C.text,
-            marginBottom: 3, lineHeight: 1.4,
-          }}>
+          <div style={{ fontSize: 15, fontWeight: 800, color: C.text, marginBottom: 3, lineHeight: 1.4 }}>
             {entry.machine}
           </div>
         )}
 
-        {/* 店舗名 */}
         {entry.store && (
-          <div style={{
-            fontSize: 12, color: C.sub, marginBottom: 7,
-            display: "flex", alignItems: "center", gap: 3,
-          }}>
+          <div style={{ fontSize: 12, color: C.sub, marginBottom: 7, display: "flex", alignItems: "center", gap: 3 }}>
             <span style={{ flexShrink: 0 }}>📍</span>
             <span style={{ fontWeight: 600 }}>{entry.store}</span>
           </div>
         )}
 
-        {/* ツイート本文 */}
         {entry.text && (
           <div style={{
-            fontSize: 11, color: C.muted, lineHeight: 1.65,
-            marginBottom: 9,
-            display: "-webkit-box",
-            WebkitLineClamp: 3,
-            WebkitBoxOrient: "vertical",
-            overflow: "hidden",
+            fontSize: 11, color: C.muted, lineHeight: 1.65, marginBottom: 9,
+            display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden",
           } as React.CSSProperties}>
             {entry.text}
           </div>
         )}
 
-        {/* 複数画像サムネイル */}
         {entry.images.length > 1 && (
           <div style={{
             display: "grid",
@@ -163,13 +135,11 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           </div>
         )}
 
-        {/* Xリンク */}
         {entry.x_url && (
           <a href={entry.x_url} target="_blank" rel="noopener noreferrer" style={{
             display: "inline-flex", alignItems: "center", gap: 4,
             fontSize: 11, color: "#1d9bf0", textDecoration: "none",
-            padding: "4px 10px", border: "1px solid #1d9bf0",
-            borderRadius: 20,
+            padding: "4px 10px", border: "1px solid #1d9bf0", borderRadius: 20,
           }}>
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
@@ -185,7 +155,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
 export default function CompletePage() {
   const [entries, setEntries] = useState<CompleteEntry[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedDate, setSelectedDate] = useState<string>("");
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [refreshing, setRefreshing] = useState(false);
 
@@ -197,43 +166,38 @@ export default function CompletePage() {
       const data: CompleteEntry[] = await res.json();
       setEntries(data);
       setLastUpdated(new Date());
-      // デフォルト: 最新日付
-      if (data.length > 0 && !selectedDate) {
-        const latest = data.reduce((a, b) => a.date > b.date ? a : b).date;
-        setSelectedDate(latest);
-      }
     } catch {
       // ignore
     } finally {
       setLoading(false);
       setRefreshing(false);
     }
-  }, [selectedDate]);
+  }, []);
 
   useEffect(() => {
     loadData();
-    // 5分ごとに自動更新
     const timer = setInterval(() => loadData(true), 5 * 60 * 1000);
     return () => clearInterval(timer);
   }, []); // eslint-disable-line
 
-  // 利用可能な日付（新しい順）
-  const availableDates = useMemo(() => {
-    const dates = [...new Set(entries.map(e => e.date))].sort().reverse();
-    return dates;
+  // 日付ごとにグループ化（新しい順）
+  const grouped = useMemo(() => {
+    const map = new Map<string, CompleteEntry[]>();
+    for (const e of entries) {
+      const d = e.date || "";
+      if (!map.has(d)) map.set(d, []);
+      map.get(d)!.push(e);
+    }
+    // 各日付内を時刻降順に
+    for (const [, list] of map) {
+      list.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
+    }
+    // 日付を新しい順に並べた配列で返す
+    return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]));
   }, [entries]);
 
-  // 選択日付のデータ（時刻降順）
-  const filtered = useMemo(() => {
-    if (!selectedDate) return [];
-    return entries
-      .filter(e => e.date === selectedDate)
-      .sort((a, b) => (b.time || "").localeCompare(a.time || ""));
-  }, [entries, selectedDate]);
-
-  // 今日の件数
   const todayStr = new Date().toISOString().slice(0, 10);
-  const todayCount = useMemo(() => entries.filter(e => e.date === todayStr).length, [entries, todayStr]);
+  const todayCount = entries.filter(e => e.date === todayStr).length;
 
   return (
     <div style={{ minHeight: "100vh", background: C.bg, fontFamily: "'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" }}>
@@ -241,11 +205,11 @@ export default function CompletePage() {
       {/* ヘッダー */}
       <div style={{
         background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%)",
-        color: "#fff", padding: "16px 16px 0",
+        color: "#fff", padding: "16px 16px 16px",
       }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <a href="/" style={{ color: "#aaa", fontSize: 12, textDecoration: "none" }}>← トップ</a>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", margin: "8px 0 14px" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", margin: "8px 0 0" }}>
             <div>
               <h1 style={{ margin: "0 0 2px", fontSize: 20, fontWeight: 800 }}>
                 🏆 コンプリート情報
@@ -263,56 +227,20 @@ export default function CompletePage() {
               <div style={{ fontSize: 10, color: "#99aacc" }}>本日</div>
             </div>
           </div>
-
-          {/* 日付タブ */}
-          <div style={{ display: "flex", gap: 2, overflowX: "auto", paddingBottom: 0 }}>
-            {availableDates.map(d => {
-              const isSelected = d === selectedDate;
-              const count = entries.filter(e => e.date === d).length;
-              const isToday = d === todayStr;
-              return (
-                <button
-                  key={d}
-                  onClick={() => setSelectedDate(d)}
-                  style={{
-                    flexShrink: 0,
-                    padding: "8px 14px 10px",
-                    border: "none", borderRadius: "6px 6px 0 0",
-                    background: isSelected ? C.bg : "rgba(255,255,255,0.08)",
-                    color: isSelected ? C.red : isToday ? "#ffd700" : "#ccc",
-                    fontWeight: isSelected || isToday ? 800 : 500,
-                    fontSize: 13, cursor: "pointer",
-                    transition: "all .15s",
-                    borderBottom: isSelected ? `none` : "none",
-                  }}
-                >
-                  {fmtDateTab(d)}
-                  <span style={{
-                    marginLeft: 5, fontSize: 10,
-                    background: isSelected ? C.red : "rgba(255,255,255,0.2)",
-                    color: isSelected ? "#fff" : "#ccc",
-                    padding: "1px 5px", borderRadius: 10,
-                  }}>
-                    {count}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
         </div>
       </div>
 
       {/* 更新バー */}
       <div style={{
         background: C.white, borderBottom: `1px solid ${C.border}`,
-        padding: "8px 16px",
+        padding: "8px 16px", position: "sticky", top: 0, zIndex: 10,
       }}>
         <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ fontSize: 13, color: C.text, fontWeight: 700 }}>
-            {selectedDate && fmtDate(selectedDate)}
-            {filtered.length > 0 && (
-              <span style={{ fontSize: 12, color: C.muted, fontWeight: 400, marginLeft: 8 }}>
-                {filtered.length}件
+            全 {entries.length} 件
+            {grouped.length > 1 && (
+              <span style={{ fontSize: 11, color: C.muted, fontWeight: 400, marginLeft: 8 }}>
+                ({grouped.length}日分)
               </span>
             )}
           </div>
@@ -343,25 +271,62 @@ export default function CompletePage() {
           <div style={{ textAlign: "center", padding: "60px 0", color: C.muted }}>
             読み込み中...
           </div>
-        ) : filtered.length === 0 ? (
+        ) : grouped.length === 0 ? (
           <div style={{ textAlign: "center", padding: "60px 0" }}>
             <div style={{ fontSize: 44, marginBottom: 12 }}>🎰</div>
             <div style={{ fontSize: 15, fontWeight: 700, color: C.text, marginBottom: 6 }}>
-              {selectedDate === todayStr ? "本日のコンプリート情報はまだありません" : "この日のデータがありません"}
+              コンプリート情報はまだありません
             </div>
-            <div style={{ fontSize: 12, color: C.muted }}>
-              スクリプト実行後に反映されます
-            </div>
+            <div style={{ fontSize: 12, color: C.muted }}>スクリプト実行後に反映されます</div>
           </div>
         ) : (
-          <div style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-            gap: 12,
-          }}>
-            {filtered.map(entry => (
-              <CompleteCard key={entry.id} entry={entry} />
-            ))}
+          <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
+            {grouped.map(([date, dateEntries]) => {
+              const isToday = date === todayStr;
+              const isNew = date >= todayStr;
+              return (
+                <div key={date}>
+                  {/* 日付ヘッダー */}
+                  <div style={{
+                    display: "flex", alignItems: "center", gap: 10, marginBottom: 12,
+                  }}>
+                    <div style={{
+                      background: isToday
+                        ? "linear-gradient(90deg, #e60000, #ff4444)"
+                        : isNew
+                          ? C.gold
+                          : "#888",
+                      color: "#fff",
+                      fontSize: 14, fontWeight: 800,
+                      padding: "5px 14px", borderRadius: 20,
+                      whiteSpace: "nowrap",
+                    }}>
+                      {isToday && "📅 "}
+                      {fmtDate(date)}
+                    </div>
+                    <span style={{
+                      fontSize: 12, color: C.muted,
+                      background: C.white, border: `1px solid ${C.border}`,
+                      padding: "3px 10px", borderRadius: 20,
+                    }}>
+                      {dateEntries.length}件
+                    </span>
+                    <div style={{ flex: 1, height: 1, background: C.border }} />
+                  </div>
+
+                  {/* カードグリッド */}
+                  <div style={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+                    gap: 12,
+                  }}>
+                    {dateEntries.map(entry => (
+                      <CompleteCard key={entry.id} entry={entry} />
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
           </div>
         )}
       </div>
