@@ -456,16 +456,11 @@ def load_all() -> list[dict]:
 
 
 def save_complete(new_entries: list[dict], target_date: str):
+    # 既存JSONから今日分のみを取り出す（他の日付は捨てる）
     all_data = load_all()
-
-    existing_ids = {e["id"] for e in all_data}
-    added = [e for e in new_entries if e["id"] not in existing_ids]
-
-    # 対象日付以外のデータを保持（直近60日分）
-    other = [e for e in all_data if e.get("date") != target_date]
     today_existing = [e for e in all_data if e.get("date") == target_date]
 
-    # 今日分: 既存 + 新規追加
+    # 今日分に新規追加（重複除去）
     today_merged_ids = {e["id"] for e in today_existing}
     today_new = [e for e in new_entries if e["id"] not in today_merged_ids]
     today_all = today_existing + today_new
@@ -473,14 +468,11 @@ def save_complete(new_entries: list[dict], target_date: str):
     # 時刻で降順ソート（新しい順）
     today_all.sort(key=lambda x: x.get("time", ""), reverse=True)
 
-    combined = other + today_all
-    combined.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
-    combined = combined[:3000]
-
+    # 当日分のみ保存（過去日付は含めない）
     with open(COMPLETE_JSON, "w", encoding="utf-8") as f:
-        json.dump(combined, f, ensure_ascii=False, indent=2)
+        json.dump(today_all, f, ensure_ascii=False, indent=2)
 
-    log(f"💾 {len(today_new)}件追加 / 本日合計{len(today_all)}件 / 全体{len(combined)}件")
+    log(f"💾 {len(today_new)}件追加 / 本日合計{len(today_all)}件")
     return len(today_new)
 
 
