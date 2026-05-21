@@ -33,6 +33,9 @@ type MachineInfo = {
   slot_total?: number;
   new_machines?: NewMachine[];
   updated_at?: string;
+  photo_url?: string;
+  floor_map_url?: string;
+  pworld_url?: string;
 };
 
 type Event = {
@@ -241,6 +244,11 @@ export default function StoreDetailPage() {
                 🗺 地図を見る
               </a>
             )}
+            {machineInfo?.pworld_url && (
+              <a href={machineInfo.pworld_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#555")}>
+                🏪 P-WORLD
+              </a>
+            )}
           </div>
         </div>
 
@@ -258,6 +266,20 @@ export default function StoreDetailPage() {
                 </span>
               )}
             </div>
+
+            {/* 店舗写真 (P-World) */}
+            {machineInfo.photo_url && (
+              <div style={{ marginBottom: 14 }}>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={machineInfo.photo_url}
+                  alt={store.name}
+                  style={{ maxWidth: "100%", maxHeight: 220, objectFit: "cover", borderRadius: 6, border: `1px solid ${C.border}`, display: "block" }}
+                  loading="lazy"
+                  onError={e => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
+                />
+              </div>
+            )}
 
             {/* 営業時間・入場ルール */}
             {(machineInfo.hours || machineInfo.entry_rule) && (
@@ -363,20 +385,26 @@ export default function StoreDetailPage() {
         )}
 
         {/* ===== フロアマップ ===== */}
-        {store.floor_map_url && (
+        {(store.floor_map_url || machineInfo?.floor_map_url) && (
           <div style={{
             background: C.white, border: `1px solid ${C.border}`,
             borderRadius: 8, padding: "16px 20px", marginBottom: 20,
           }}>
             <SectionTitle color="#4285f4">フロアマップ</SectionTitle>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={store.floor_map_url}
-              alt="フロアマップ"
-              style={{ maxWidth: "100%", borderRadius: 6, border: `1px solid ${C.border}`, display: "block" }}
-              loading="lazy"
-              onError={e => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
-            />
+            <a
+              href={store.floor_map_url || machineInfo?.floor_map_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-flex", alignItems: "center", gap: 6,
+                background: "#f0f6ff", color: "#0044cc",
+                border: "1px solid #88aadd", borderRadius: 6,
+                padding: "10px 18px", fontSize: 14, fontWeight: 700,
+                textDecoration: "none",
+              }}
+            >
+              🗺 フロアマップを開く（P-WORLD）
+            </a>
           </div>
         )}
 
