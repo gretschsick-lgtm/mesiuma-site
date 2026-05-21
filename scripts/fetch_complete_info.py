@@ -352,7 +352,12 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
     if m:
         month, day = int(m.group(1)), int(m.group(2))
         if 1 <= month <= 12 and 1 <= day <= 31:
-            tweet_date = f"{datetime.now().year}-{month:02d}-{day:02d}"
+            candidate = f"{datetime.now().year}-{month:02d}-{day:02d}"
+            # 今日から前後3日以内のみ採用（台番号などを誤検知しないため）
+            today_dt = datetime.strptime(today_str, "%Y-%m-%d")
+            cand_dt  = datetime.strptime(candidate, "%Y-%m-%d")
+            if abs((cand_dt - today_dt).days) <= 3:
+                tweet_date = candidate
 
     entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 
@@ -456,23 +461,29 @@ def load_all() -> list[dict]:
 
 
 def save_complete(new_entries: list[dict], target_date: str):
-    # 既存JSONから今日分のみを取り出す（他の日付は捨てる）
     all_data = load_all()
-    today_existing = [e for e in all_data if e.get("date") == target_date]
 
-    # 今日分に新規追加（重複除去）
+    # 既存IDセット
+    existing_ids = {e["id"] for e in all_data}
+
+    # 今日分: 既存 + 新規追加（重複除去）
+    today_existing = [e for e in all_data if e.get("date") == target_date]
     today_merged_ids = {e["id"] for e in today_existing}
     today_new = [e for e in new_entries if e["id"] not in today_merged_ids]
     today_all = today_existing + today_new
 
-    # 時刻で降順ソート（新しい順）
-    today_all.sort(key=lambda x: x.get("time", ""), reverse=True)
+    # 過去分はそのまま保持
+    other = [e for e in all_data if e.get("date") != target_date]
 
-    # 当日分のみ保存（過去日付は含めない）
+    # 日付（新しい順）→ 時刻（新しい順）でソートして最大3000件
+    combined = other + today_all
+    combined.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
+    combined = combined[:3000]
+
     with open(COMPLETE_JSON, "w", encoding="utf-8") as f:
-        json.dump(today_all, f, ensure_ascii=False, indent=2)
+        json.dump(combined, f, ensure_ascii=False, indent=2)
 
-    log(f"💾 {len(today_new)}件追加 / 本日合計{len(today_all)}件")
+    log(f"💾 {len(today_new)}件追加 / 本日合計{len(today_all)}件 / 全体{len(combined)}件")
     return len(today_new)
 
 
