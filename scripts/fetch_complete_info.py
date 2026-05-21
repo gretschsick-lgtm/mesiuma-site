@@ -296,23 +296,29 @@ def extract_images(article) -> list[str]:
     return imgs
 
 
-def get_tweet_time(article) -> str:
-    """ツイートの投稿時刻を取得"""
+def get_tweet_datetime(article) -> tuple[str, str]:
+    """Xの<time datetime="...">からJSTの (date, time) を取得して返す"""
     try:
         time_el = article.query_selector("time")
         if time_el:
             dt = time_el.get_attribute("datetime") or ""
             if dt:
-                # "2026-05-20T08:30:00.000Z" → "08:30"
-                m = re.search(r'T(\d{2}:\d{2})', dt)
+                # "2026-05-20T13:30:00.000Z" → JST date + time
+                m = re.search(r'(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})', dt)
                 if m:
-                    # UTC→JST (+9時間)
-                    h, mn = map(int, m.group(1).split(":"))
-                    h = (h + 9) % 24
-                    return f"{h:02d}:{mn:02d}"
+                    yr, mo, dy, h, mn = (int(x) for x in m.groups())
+                    # UTC → JST (+9h)
+                    h += 9
+                    if h >= 24:
+                        h -= 24
+                        # 日付を1日進める
+                        from datetime import date as _date, timedelta
+                        d = _date(yr, mo, dy) + timedelta(days=1)
+                        return d.strftime("%Y-%m-%d"), f"{h:02d}:{mn:02d}"
+                    return f"{yr}-{mo:02d}-{dy:02d}", f"{h:02d}:{mn:02d}"
     except Exception:
         pass
-    return ""
+    return "", ""
 
 
 AUTHOR_NG = ["コンプリート", "パチスロ", "スロット", "パチンコ", "スマスロ", "速報", "まとめ", "情報", "bot"]
@@ -327,7 +333,8 @@ def _is_store_name(name: str) -> bool:
 
 
 def parse_tweet(text: str, tweet_url: str, images: list[str],
-                today_str: str, tweet_time: str, author_name: str = "") -> dict | None:
+                today_str: str, tweet_date: str, tweet_time: str,
+                author_name: str = "") -> dict | None:
     if not is_store_tweet(text):
         return None
 
@@ -346,18 +353,9 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
     if not machine and not store and not slot_number:
         return None
 
-    # ツイートから日付を推定（店舗は基本当日投稿）
-    tweet_date = today_str
-    m = re.search(r'(\d{1,2})[/／月](\d{1,2})[日]?', text)
-    if m:
-        month, day = int(m.group(1)), int(m.group(2))
-        if 1 <= month <= 12 and 1 <= day <= 31:
-            candidate = f"{datetime.now().year}-{month:02d}-{day:02d}"
-            # 今日から前後3日以内のみ採用（台番号などを誤検知しないため）
-            today_dt = datetime.strptime(today_str, "%Y-%m-%d")
-            cand_dt  = datetime.strptime(candidate, "%Y-%m-%d")
-            if abs((cand_dt - today_dt).days) <= 3:
-                tweet_date = candidate
+    # Xの<time>から取得した日付を使う（取得できなければ収集日）
+    if not tweet_date:
+        tweet_date = today_str
 
     entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 
@@ -428,7 +426,7 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list
                 continue
             seen_urls.add(tweet_url)
 
-            tweet_time = get_tweet_time(article)
+            tweet_date, tweet_time = get_tweet_datetime(article)
             images = extract_images(article)
             # 作者表示名を取得（ツイートカードのUser-Name）
             author_name = ""
@@ -438,7 +436,7 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list
                     author_name = author_el.inner_text().strip()
             except Exception:
                 pass
-            entry = parse_tweet(text, tweet_url, images, today_str, tweet_time, author_name)
+            entry = parse_tweet(text, tweet_url, images, today_str, tweet_date, tweet_time, author_name)
             if entry:
                 results.append(entry)
                 store_label   = entry["store"] or "店舗不明"
