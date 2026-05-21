@@ -204,8 +204,10 @@ export default function Page() {
     fetch("/store_machines.json").then(r=>r.json()).then(setStoreMachines).catch(()=>{});
     fetch("/store_ids.json").then(r=>r.json()).then(setStoreIdMap).catch(()=>{});
     fetch("/complete_info.json").then(r=>r.json()).then((d: CompleteEntry[]) => {
-      const todayStr = new Date().toISOString().slice(0, 10);
-      setCompleteEntries(d.filter(e => e.date === todayStr).slice(0, 20));
+      if (!d.length) return;
+      // JSONの最新日付を使う（UTCとJSTのズレを避けるため）
+      const latestDate = d.reduce((a, b) => a.date > b.date ? a : b).date;
+      setCompleteEntries(d.filter(e => e.date === latestDate).slice(0, 20));
     }).catch(()=>{});
   }, []);
 
