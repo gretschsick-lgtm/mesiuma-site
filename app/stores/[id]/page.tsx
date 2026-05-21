@@ -244,11 +244,6 @@ export default function StoreDetailPage() {
                 🗺 地図を見る
               </a>
             )}
-            {machineInfo?.pworld_url && (
-              <a href={machineInfo.pworld_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#555")}>
-                🏪 P-WORLD
-              </a>
-            )}
           </div>
         </div>
 
@@ -384,29 +379,7 @@ export default function StoreDetailPage() {
           </div>
         )}
 
-        {/* ===== フロアマップ ===== */}
-        {(store.floor_map_url || machineInfo?.floor_map_url) && (
-          <div style={{
-            background: C.white, border: `1px solid ${C.border}`,
-            borderRadius: 8, padding: "16px 20px", marginBottom: 20,
-          }}>
-            <SectionTitle color="#4285f4">フロアマップ</SectionTitle>
-            <a
-              href={store.floor_map_url || machineInfo?.floor_map_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                display: "inline-flex", alignItems: "center", gap: 6,
-                background: "#f0f6ff", color: "#0044cc",
-                border: "1px solid #88aadd", borderRadius: 6,
-                padding: "10px 18px", fontSize: 14, fontWeight: 700,
-                textDecoration: "none",
-              }}
-            >
-              🗺 フロアマップを開く（P-WORLD）
-            </a>
-          </div>
-        )}
+        {/* フロアマップ: P-WorldのSSCページは外部なのでここでは表示しない */}
 
         {/* ===== 今後のイベント ===== */}
         {upcomingEvents.length > 0 && (
