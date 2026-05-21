@@ -7,94 +7,143 @@ on:
   workflow_dispatch:
 
 # ─────────────────────────────────────────────────────────────────────────────
-# 8 地域に分けて並列スクレイプ → マージしてコミット
+# 12地域に細分化して並列スクレイプ → マージしてコミット
+# 各グループ ≤700店 × 約2秒/店 ≒ 24分 → timeout 50分で余裕あり
 # ─────────────────────────────────────────────────────────────────────────────
 jobs:
 
-  # ── 地域1: 北海道・東北 ───────────────────────────────────────────────────
+  # ── 地域1: 北海道・青森・岩手 (508店) ──────────────────────────────────────
   fetch-g1:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_machine_data.py --pref "北海道,青森県,岩手県,宮城県,秋田県,山形県,福島県"
+      - run: python scripts/fetch_machine_data.py --pref "北海道,青森県,岩手県"
       - uses: actions/upload-artifact@v4
         with:
           name: machines-g1
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域2: 関東北部 ────────────────────────────────────────────────────────
+  # ── 地域2: 東北(秋田・山形・宮城・福島) (391店) ────────────────────────────
   fetch-g2:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_machine_data.py --pref "茨城県,栃木県,群馬県,埼玉県,千葉県"
+      - run: python scripts/fetch_machine_data.py --pref "秋田県,山形県,宮城県,福島県"
       - uses: actions/upload-artifact@v4
         with:
           name: machines-g2
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域3: 東京・神奈川 ────────────────────────────────────────────────────
+  # ── 地域3: 関東北部(茨城・栃木・群馬・埼玉) (624店) ─────────────────────────
   fetch-g3:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_machine_data.py --pref "東京都,神奈川県"
+      - run: python scripts/fetch_machine_data.py --pref "茨城県,栃木県,群馬県,埼玉県"
       - uses: actions/upload-artifact@v4
         with:
           name: machines-g3
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域4: 甲信越・北陸・東海 ─────────────────────────────────────────────
+  # ── 地域4: 千葉 (240店) ────────────────────────────────────────────────────
   fetch-g4:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_machine_data.py --pref "新潟県,富山県,石川県,福井県,山梨県,長野県,岐阜県"
+      - run: python scripts/fetch_machine_data.py --pref "千葉県"
       - uses: actions/upload-artifact@v4
         with:
           name: machines-g4
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域5: 静岡・愛知・近畿東部 ───────────────────────────────────────────
+  # ── 地域5: 東京都 (472店) ──────────────────────────────────────────────────
   fetch-g5:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_machine_data.py --pref "静岡県,愛知県,三重県,滋賀県"
+      - run: python scripts/fetch_machine_data.py --pref "東京都"
       - uses: actions/upload-artifact@v4
         with:
           name: machines-g5
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域6: 近畿西部 ────────────────────────────────────────────────────────
+  # ── 地域6: 神奈川・甲信越・北陸(神奈川・山梨・長野・新潟) (558店) ───────────
   fetch-g6:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "神奈川県,山梨県,長野県,新潟県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g6
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域7: 北陸・東海(富山・石川・福井・岐阜・静岡) (426店) ─────────────────
+  fetch-g7:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "富山県,石川県,福井県,岐阜県,静岡県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g7
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域8: 東海・近畿東部(愛知・三重・滋賀) (482店) ───────────────────────
+  fetch-g8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "愛知県,三重県,滋賀県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g8
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域9: 近畿(京都・大阪・奈良・和歌山) (606店) ────────────────────────
+  fetch-g9:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -103,14 +152,14 @@ jobs:
       - run: python scripts/fetch_machine_data.py --pref "京都府,大阪府,奈良県,和歌山県"
       - uses: actions/upload-artifact@v4
         with:
-          name: machines-g6
+          name: machines-g9
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域7: 兵庫・中国 ─────────────────────────────────────────────────────
-  fetch-g7:
+  # ── 地域10: 兵庫・中国(兵庫・鳥取・島根・岡山・広島・山口) (674店) ──────────
+  fetch-g10:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -119,23 +168,39 @@ jobs:
       - run: python scripts/fetch_machine_data.py --pref "兵庫県,鳥取県,島根県,岡山県,広島県,山口県"
       - uses: actions/upload-artifact@v4
         with:
-          name: machines-g7
+          name: machines-g10
           path: public/store_machines.json
           retention-days: 1
 
-  # ── 地域8: 四国・九州・沖縄 ───────────────────────────────────────────────
-  fetch-g8:
+  # ── 地域11: 四国・福岡・長崎(徳島・香川・愛媛・高知・福岡・佐賀・長崎) (634店) ──
+  fetch-g11:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: python scripts/fetch_machine_data.py --pref "徳島県,香川県,愛媛県,高知県,福岡県,佐賀県,長崎県,熊本県,大分県,宮崎県,鹿児島県,沖縄県"
+      - run: python scripts/fetch_machine_data.py --pref "徳島県,香川県,愛媛県,高知県,福岡県,佐賀県,長崎県"
       - uses: actions/upload-artifact@v4
         with:
-          name: machines-g8
+          name: machines-g11
+          path: public/store_machines.json
+          retention-days: 1
+
+  # ── 地域12: 九州南部・沖縄(熊本・大分・宮崎・鹿児島・沖縄) (490店) ───────────
+  fetch-g12:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_machine_data.py --pref "熊本県,大分県,宮崎県,鹿児島県,沖縄県"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: machines-g12
           path: public/store_machines.json
           retention-days: 1
 
@@ -166,7 +231,7 @@ jobs:
   # ── マージ & コミット ──────────────────────────────────────────────────────
   merge-and-push:
     runs-on: ubuntu-latest
-    needs: [fetch-g1, fetch-g2, fetch-g3, fetch-g4, fetch-g5, fetch-g6, fetch-g7, fetch-g8, fetch-x]
+    needs: [fetch-g1, fetch-g2, fetch-g3, fetch-g4, fetch-g5, fetch-g6, fetch-g7, fetch-g8, fetch-g9, fetch-g10, fetch-g11, fetch-g12, fetch-x]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -198,7 +263,7 @@ jobs:
               except Exception as ex:
                   print(f"既存ファイル読み込みエラー: {ex}")
 
-          # 地域ジョブ (g1-g8) のアーティファクト読み込み（X補完は除く）
+          # 地域ジョブ (g1-g12) のアーティファクト読み込み
           artifact_dirs = sorted(Path("artifacts").glob("machines-g*/store_machines.json"))
           for p in artifact_dirs:
               try:

@@ -73,9 +73,29 @@ def fetch(url: str) -> str:
         return ""
 
 
-def parse_store_page(html: str) -> dict:
-    """DMM店舗ページHTMLから台数・機種・営業時間を抽出"""
+def parse_store_page(html: str, store_url: str = "") -> dict:
+    """DMM店舗ページHTMLから台数・機種・営業時間・フロアマップを抽出"""
     result: dict = {}
+
+    # フロアマップURL
+    # パターン1: 直接リンク
+    floor_m = re.search(
+        r'href="(https://p-town\.dmm\.com/shops/[^"]+/floor(?:_map)?[^"]*)"',
+        html
+    )
+    if not floor_m:
+        floor_m = re.search(r'href="(/shops/[^"]+/floor(?:_map)?[^"]*)"', html)
+    if floor_m:
+        href = floor_m.group(1)
+        if href.startswith("/"):
+            href = "https://p-town.dmm.com" + href
+        result["floor_map_url"] = href
+    elif store_url:
+        # パターン2: /floor_map パスを試す（タブとして存在する）
+        floor_candidate = store_url.rstrip("/") + "/floor_map"
+        # フロアマップの存在確認（HTMLに「フロアマップ」テキストがあれば）
+        if "フロアマップ" in html or "floor" in html.lower():
+            result["floor_map_url"] = floor_candidate
 
     # 営業時間
     h = re.search(r'<h3>営業時間</h3></th>\s*<td[^>]*>([^<]+)', html)
@@ -390,7 +410,7 @@ def main():
                         time.sleep(0.3)
                         continue
 
-                    data = parse_store_page(html)
+                    data = parse_store_page(html, store_url=url)
                     if data:
                         data["updated_at"] = now_iso
                         machines[name] = data

@@ -2,8 +2,9 @@ name: Update Complete Info
 
 on:
   schedule:
-    # 1時間ごと
-    - cron: "0 * * * *"
+    # JST 15:00〜翌1:00 を2時間おきに実行
+    # JST 15:00 = UTC 06:00 / 17:00=08 / 19:00=10 / 21:00=12 / 23:00=14 / 翌1:00=16
+    - cron: "0 6,8,10,12,14,16 * * *"
   workflow_dispatch: # 手動実行も可
 
 jobs:
