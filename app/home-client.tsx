@@ -4,6 +4,7 @@ import { useEffect, useState, useMemo, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { track } from "@vercel/analytics";
 
 // ─── X アカウント設定 ──────────────────────────────────────────
 const X_ACCOUNT = "mesiuma77";
@@ -382,7 +383,7 @@ export default function Page() {
 
     const storeHref = getStoreHref(ev.store);
     return (
-      <div key={ev.id} onClick={() => storeHref ? router.push(storeHref) : setSelectedEv(ev)} style={{
+      <div key={ev.id} onClick={() => { track("event_card_click", { store: ev.store || "", event_id: String(ev.id || "") }); storeHref ? router.push(storeHref) : setSelectedEv(ev); }} style={{
         background: sty.bg,
         border: `1px solid ${sty.border}44`,
         borderLeft: `3px solid ${sty.border}`,
@@ -1148,11 +1149,11 @@ export default function Page() {
                     </div>
                   );
                   return pickupHref ? (
-                    <Link key={s.store} href={pickupHref} style={{ textDecoration: "none", flexShrink: 0 }}>
+                    <Link key={s.store} href={pickupHref} onClick={() => track("pickup_store_click", { store: s.store })} style={{ textDecoration: "none", flexShrink: 0 }}>
                       {pickupInner}
                     </Link>
                   ) : (
-                    <button key={s.store} onClick={() => { setSearch(s.store); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }}
+                    <button key={s.store} onClick={() => { track("pickup_store_click", { store: s.store }); setSearch(s.store); setCalDay(null); setShowAll(false); window.scrollTo({ top: 500, behavior: "smooth" }); }}
                       style={{ background: "none", border: "none", padding: 0, flexShrink: 0 }}>
                       {pickupInner}
                     </button>

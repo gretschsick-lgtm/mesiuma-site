@@ -3,6 +3,7 @@
 import React, { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
+import { track } from "@vercel/analytics";
 
 type Store = {
   id: string;
@@ -107,6 +108,7 @@ export default function StoreDetailPage() {
       const s = (stores as Store[]).find(s => s.id === id);
       if (!s) { setNotFound(true); return; }
       setStore(s);
+      track("store_page_view", { store_id: id, store_name: s.name, pref: s.pref || "" });
       const allEvents: Event[] = Array.isArray(evData) ? evData : (evData.events || []);
       const storeEvents = allEvents.filter(ev => ev.store === s.name);
       storeEvents.sort((a, b) => b.date.localeCompare(a.date));
