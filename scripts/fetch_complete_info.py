@@ -378,7 +378,12 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list
     results = []
     seen_urls: set[str] = set()
 
-    encoded = query.replace(" ", "%20").replace("#", "%23")
+    # 過去3日以内のツイートに絞る（古いピンツイート排除）
+    from datetime import date as _dt, timedelta
+    since_date = (_dt.fromisoformat(today_str) - timedelta(days=2)).strftime("%Y-%m-%d")
+    until_date = (_dt.fromisoformat(today_str) + timedelta(days=1)).strftime("%Y-%m-%d")
+    date_filter = f" since:{since_date} until:{until_date}"
+    encoded = (query + date_filter).replace(" ", "%20").replace("#", "%23")
     url = f"https://x.com/search?q={encoded}&src=typed_query&f=live"
 
     try:
@@ -461,28 +466,32 @@ def load_all() -> list[dict]:
 def save_complete(new_entries: list[dict], target_date: str):
     all_data = load_all()
 
-    # 既存IDセット
+    # 30日より古いデータを除去（ピンツイート対策）
+    cutoff = (date.today() - __import__('datetime').timedelta(days=30)).strftime("%Y-%m-%d")
+    all_data = [e for e in all_data if e.get("date", "") >= cutoff]
+
+    # 既存IDセット（全期間）で重複防止
     existing_ids = {e["id"] for e in all_data}
 
-    # 今日分: 既存 + 新規追加（重複除去）
-    today_existing = [e for e in all_data if e.get("date") == target_date]
-    today_merged_ids = {e["id"] for e in today_existing}
-    today_new = [e for e in new_entries if e["id"] not in today_merged_ids]
-    today_all = today_existing + today_new
+    # 新規エントリー: 既存に無いものだけ追加（日付に関わらず全期間でIDチェック）
+    new_only = [e for e in new_entries if e["id"] not in existing_ids]
 
-    # 過去分はそのまま保持
-    other = [e for e in all_data if e.get("date") != target_date]
+    # コンプリート日付が30日以上前のものは追加しない（古いピンツイート対策）
+    new_only = [e for e in new_only if e.get("date", "") >= cutoff]
 
-    # 日付（新しい順）→ 時刻（新しい順）でソートして最大3000件
-    combined = other + today_all
+    combined = all_data + new_only
+
+    # コンプリートした日付（X datetime由来）→ 時刻 の新しい順でソート
     combined.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
     combined = combined[:3000]
 
     with open(COMPLETE_JSON, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=2)
 
-    log(f"💾 {len(today_new)}件追加 / 本日合計{len(today_all)}件 / 全体{len(combined)}件")
-    return len(today_new)
+    # 本日（target_date）の合計件数
+    today_total = sum(1 for e in combined if e.get("date") == target_date)
+    log(f"💾 {len(new_only)}件新規追加 / {target_date}合計{today_total}件 / 全体{len(combined)}件")
+    return len(new_only)
 
 
 def main():

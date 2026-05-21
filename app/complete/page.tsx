@@ -196,7 +196,11 @@ export default function CompletePage() {
     return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]));
   }, [entries]);
 
-  const todayStr = new Date().toISOString().slice(0, 10);
+  // JST (UTC+9) で「今日」を判定
+  const todayStr = (() => {
+    const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
+    return d.toISOString().slice(0, 10);
+  })();
   const todayCount = entries.filter(e => e.date === todayStr).length;
 
   return (
