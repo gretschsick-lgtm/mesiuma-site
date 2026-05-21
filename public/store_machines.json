@@ -1178,132 +1178,6 @@
     ],
     "updated_at": "2026-05-20T14:53:24"
   },
-  "キコーナ蒲田店": {
-    "hours": "10:00～22:40",
-    "entry_rule": "抽選",
-    "address": "東京都大田区西蒲田8-1-12",
-    "pachinko_total": 621,
-    "slot_total": 386,
-    "pachinko": [
-      {
-        "rate": "4円",
-        "count": 348
-      },
-      {
-        "rate": "1円",
-        "count": 223
-      },
-      {
-        "rate": "0.5円",
-        "count": 50
-      }
-    ],
-    "slot": [
-      {
-        "rate": "1000円/46枚",
-        "count": 359
-      },
-      {
-        "rate": "1000円/184枚",
-        "count": 27
-      }
-    ],
-    "new_machines": [
-      {
-        "name": "eカケグルイ 7500ver",
-        "type": "pachinko"
-      },
-      {
-        "name": "e バイオハザード6",
-        "type": "pachinko"
-      },
-      {
-        "name": "e冴えない彼女の育てかた",
-        "type": "pachinko"
-      },
-      {
-        "name": "eフィーバーダンベル何キロ持てる？2",
-        "type": "pachinko"
-      },
-      {
-        "name": "P沖ドキ！ドキドキ弾丸ツアー",
-        "type": "pachinko"
-      },
-      {
-        "name": "Pクイーンズブレイド奈落ナナエル79…",
-        "type": "pachinko"
-      },
-      {
-        "name": "eひきこまり吸血姫の悶々",
-        "type": "pachinko"
-      },
-      {
-        "name": "eまわるん超ワープ ギンギラパラダイ…",
-        "type": "pachinko"
-      },
-      {
-        "name": "Pスーパー海物語IN沖縄6",
-        "type": "pachinko"
-      },
-      {
-        "name": "スマスロ バイオハザードRE:3",
-        "type": "slot"
-      },
-      {
-        "name": "スマスロスーパーリオエース2",
-        "type": "slot"
-      },
-      {
-        "name": "スマスロ 北斗の拳 転生の章2",
-        "type": "slot"
-      },
-      {
-        "name": "スマスロ ビッグドリーム THE G…",
-        "type": "slot"
-      },
-      {
-        "name": "eフィーバーもののがたり",
-        "type": "pachinko"
-      },
-      {
-        "name": "e マギアレコード 魔法少女まどか☆…",
-        "type": "pachinko"
-      },
-      {
-        "name": "e盾の勇者の成り上がり アルティメッ…",
-        "type": "pachinko"
-      },
-      {
-        "name": "Lパチスロ 革命機ヴァルヴレイヴ2",
-        "type": "slot"
-      },
-      {
-        "name": "P戦国乙女7 終焉の関ヶ原 LLサイ…",
-        "type": "pachinko"
-      },
-      {
-        "name": "eフィーバー機動戦士ガンダムユニコー…",
-        "type": "pachinko"
-      },
-      {
-        "name": "Ｌタクトオーパス デスティニー",
-        "type": "slot"
-      },
-      {
-        "name": "e吉宗 極乗3000ver.",
-        "type": "pachinko"
-      },
-      {
-        "name": "eフィーバー彼女、お借りします",
-        "type": "pachinko"
-      },
-      {
-        "name": "Pルパン三世 銭形からの招待状 77…",
-        "type": "pachinko"
-      }
-    ],
-    "updated_at": "2026-05-20T14:53:24"
-  },
   "ベルシティザシティ雑色店": {
     "hours": "10:00~22:40",
     "entry_rule": "抽選",
@@ -2558,5 +2432,60 @@
     "hours": "-",
     "address": "東京都大田区大森西5-29-11",
     "updated_at": "2026-05-20T14:53:24"
+  },
+  "デルパラ７堀之内店": {
+    "pachinko_total": 157,
+    "slot_total": 204,
+    "hours": "10:00 〜 22:50",
+    "address": "東京都八王子市堀之内3-34-7",
+    "photo_url": "https://www.p-world.co.jp/tokyo/img/001220_01.jpg",
+    "updated_at": "2026-05-21T12:37:34Z",
+    "pref": "東京都",
+    "pworld_url": "https://www.p-world.co.jp/tokyo/derupara7horinouti.htm",
+    "pworld_slug": "derupara7horinouti"
+  },
+  "トーヨーホール木場駅前店": {
+    "pachinko_total": 202,
+    "slot_total": 138,
+    "hours": "10:00 〜 22:45",
+    "address": "東京都江東区東陽3-6-9",
+    "photo_url": "https://www.p-world.co.jp/tokyo/img/000818_01.jpg",
+    "updated_at": "2026-05-21T12:37:34Z",
+    "pref": "東京都",
+    "pworld_url": "https://www.p-world.co.jp/tokyo/toyohall.htm",
+    "pworld_slug": "toyohall"
+  },
+  "ジャラン浅草店": {
+    "pachinko_total": 466,
+    "slot_total": 361,
+    "hours": "10:00 〜 23:00",
+    "address": "東京都台東区浅草２丁目６−７ 東京楽天地浅草ビル 地下1F",
+    "photo_url": "https://www.p-world.co.jp/tokyo/img/019589_01.jpg",
+    "updated_at": "2026-05-21T12:37:34Z",
+    "pref": "東京都",
+    "pworld_url": "https://www.p-world.co.jp/tokyo/jaran-asakusa.htm",
+    "pworld_slug": "jaran-asakusa"
+  },
+  "オーパス・ワン立石店": {
+    "pachinko_total": 117,
+    "slot_total": 140,
+    "hours": "10:00 〜 22:50",
+    "address": "東京都葛飾区東立石3-36-3 森永ハイム立石1・2階",
+    "photo_url": "https://www.p-world.co.jp/tokyo/img/019828_01.jpg",
+    "updated_at": "2026-05-21T12:37:34Z",
+    "pref": "東京都",
+    "pworld_url": "https://www.p-world.co.jp/tokyo/opus-tateishi.htm",
+    "pworld_slug": "opus-tateishi"
+  },
+  "ＡＲＲＯＷ池上店": {
+    "pachinko_total": 560,
+    "slot_total": 360,
+    "hours": "10:00 〜 22:40",
+    "address": "東京都大田区池上3-3-1",
+    "floor_map_url": "https://www.p-world.co.jp/tokyo/ssc/ssc017773.htm",
+    "updated_at": "2026-05-21T12:37:34Z",
+    "pref": "東京都",
+    "pworld_url": "https://www.p-world.co.jp/tokyo/arrow-ikegami.htm",
+    "pworld_slug": "arrow-ikegami"
   }
 }
