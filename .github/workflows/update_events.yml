@@ -132,10 +132,10 @@ jobs:
           path: public/events_public.json
           retention-days: 1
 
-  # ─── JOB F: p-town /schedules HTTP スクレイプ（Playwright不要・高速）──────
+  # ─── JOB F: p-town /schedules + P-World 取材来店情報 HTTP スクレイプ ─────
   fetch-ptown:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with:
@@ -145,7 +145,7 @@ jobs:
           python-version: "3.12"
       - name: Install dependencies
         run: pip install playwright playwright-stealth
-      - name: Fetch p-town schedules
+      - name: Fetch p-town schedules + P-World interviews
         run: python scripts/fetch_events.py --job ptown --ptown-pages 80
       - uses: actions/upload-artifact@v4
         with:

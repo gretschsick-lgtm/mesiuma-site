@@ -1279,6 +1279,207 @@ def scrape_pttown_schedules_http(
     return results
 
 
+# P-World URL スラッグ → 都道府県マッピング
+_PWORLD_SLUG_TO_PREF: dict[str, str] = {
+    "hokkaido": "北海道", "aomori": "青森県", "iwate": "岩手県",
+    "miyagi": "宮城県", "akita": "秋田県", "yamagata": "山形県",
+    "fukushima": "福島県", "ibaraki": "茨城県", "tochigi": "栃木県",
+    "gunma": "群馬県", "saitama": "埼玉県", "chiba": "千葉県",
+    "tokyo": "東京都", "kanagawa": "神奈川県", "niigata": "新潟県",
+    "toyama": "富山県", "ishikawa": "石川県", "fukui": "福井県",
+    "yamanashi": "山梨県", "nagano": "長野県", "shizuoka": "静岡県",
+    "aichi": "愛知県", "mie": "三重県", "shiga": "滋賀県",
+    "kyoto": "京都府", "osaka": "大阪府", "hyogo": "兵庫県",
+    "nara": "奈良県", "wakayama": "和歌山県", "tottori": "鳥取県",
+    "shimane": "島根県", "okayama": "岡山県", "hiroshima": "広島県",
+    "yamaguchi": "山口県", "tokushima": "徳島県", "kagawa": "香川県",
+    "ehime": "愛媛県", "kochi": "高知県", "fukuoka": "福岡県",
+    "saga": "佐賀県", "nagasaki": "長崎県", "kumamoto": "熊本県",
+    "oita": "大分県", "miyazaki": "宮崎県", "kagoshima": "鹿児島県",
+    "okinawa": "沖縄県",
+}
+
+
+def scrape_pworld_interviews_http(
+    store_pref_map: dict[str, tuple[str, str]],
+    store_names: set[str],
+    max_pages: int = 50,
+) -> list[dict]:
+    """P-World 全国取材来店情報ページをHTTPスクレイプ（Playwright不要・EUC-JP）。
+    https://www.p-world.co.jp/hall/interviews/prefs を全ページ巡回し、
+    取材・来店イベント情報を画像付きで取得する。
+    """
+    import ssl
+    import urllib.request as _ureq
+
+    ctx = ssl.create_default_context()
+    ctx.check_hostname = False
+    ctx.verify_mode = ssl.CERT_NONE
+    _headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        ),
+        "Accept-Language": "ja-JP,ja;q=0.9",
+        "Referer": "https://www.p-world.co.jp/",
+    }
+
+    # ── Regex ──────────────────────────────────────────────────────────────
+    # 取材サムネイル画像（idn.p-world.co.jp = 画像サーバー）
+    img_re = re.compile(
+        r'src=["\']?(https://idn\.p-world\.co\.jp/hall/\d+/images/interviews/[^"\'>\s]+)'
+    )
+    # 店舗詳細ページリンク + 店名
+    store_link_re = re.compile(
+        r'href=["\']?(https://www\.p-world\.co\.jp/([a-z]+)/[^"\'>\s]+\.htm)["\']?'
+        r'[^>]*>([^<]{2,40})</a>'
+    )
+    # 日付: MM/DD(曜日) または MM/DD（曜日）
+    date_re = re.compile(r'(\d{1,2})/(\d{1,2})[（(]?[月火水木金土日][）)]?')
+    # イベント種別キーワード
+    ev_type_kw = [
+        ("来店", "来店"), ("出演", "来店"), ("実践", "来店"),
+        ("取材", "取材"), ("撮影", "取材"), ("ロケ", "取材"), ("収録", "取材"),
+    ]
+    # タグ内テキスト（キャスト名候補）
+    tag_text_re = re.compile(r'<(?:h[1-4]|p|span|div|li)[^>]{0,80}>([^<]{4,80})</(?:h[1-4]|p|span|div|li)>')
+    # タグ除去用
+    strip_tags_re = re.compile(r'<[^>]+>')
+
+    results: list[dict] = []
+    seen_ids: set[str] = set()
+    log(f"\n📸 P-World 取材来店情報 HTTP スクレイプ (最大{max_pages}ページ)")
+
+    for page_no in range(1, max_pages + 1):
+        url = (
+            "https://www.p-world.co.jp/hall/interviews/prefs"
+            if page_no == 1
+            else f"https://www.p-world.co.jp/hall/interviews/prefs?page={page_no}"
+        )
+        req = _ureq.Request(url, headers=_headers)
+        try:
+            with _ureq.urlopen(req, timeout=20, context=ctx) as r:
+                raw = r.read()
+            try:
+                html = raw.decode("euc-jp", errors="replace")
+            except Exception:
+                html = raw.decode("utf-8", errors="replace")
+        except Exception as e:
+            log(f"  ⚠️  page={page_no}: {e}")
+            break
+
+        # 画像URLの出現位置を全取得
+        img_matches = [(m.start(), m.group(1)) for m in img_re.finditer(html)]
+        if not img_matches:
+            if page_no == 1:
+                log("  ⚠️  page=1: 画像URLなし（構造変更の可能性）")
+            else:
+                log(f"  page={page_no}: 画像なし → 終了")
+            break
+
+        found = 0
+        for idx, (img_pos, img_url) in enumerate(img_matches):
+            # このカードの範囲: 前後のカードの中間あたり
+            block_start = img_matches[idx - 1][0] if idx > 0 else max(0, img_pos - 1200)
+            block_end   = img_matches[idx + 1][0] if idx + 1 < len(img_matches) else img_pos + 1200
+            block = html[block_start:block_end]
+
+            # 店名 & 店舗URL（画像の前後両方を探す）
+            store_m = None
+            for sm in store_link_re.finditer(block):
+                txt = sm.group(3).strip()
+                # 全角スペース等を除去して店名らしいテキストのみ
+                txt = re.sub(r'[\s　]+', '', txt)
+                if len(txt) >= 2:
+                    store_m = sm
+                    store_name = txt
+                    break
+            if not store_m:
+                continue
+
+            store_url  = store_m.group(1)
+            pref_slug  = store_m.group(2)
+
+            # 日付: このカードの近傍（img_pos ±400文字）から探す
+            near = html[max(0, img_pos - 400): img_pos + 800]
+            date_m = date_re.search(near)
+            if date_m:
+                month, day = int(date_m.group(1)), int(date_m.group(2))
+                # 明らかにおかしい値は今日
+                if 1 <= month <= 12 and 1 <= day <= 31:
+                    date_str = f"{month:02d}/{day:02d}"
+                else:
+                    date_str = f"{date.today().month:02d}/{date.today().day:02d}"
+            else:
+                date_str = f"{date.today().month:02d}/{date.today().day:02d}"
+
+            # イベント種別 & キャスト名（img 後方500文字から抽出）
+            after = html[img_pos: img_pos + 800]
+            after_plain = strip_tags_re.sub(' ', after)
+
+            ev_type = "取材"
+            for kw, label in ev_type_kw:
+                if kw in after_plain:
+                    ev_type = label
+                    break
+
+            # キャスト名: タグ内テキストのうち最初の「意味のある」ものを採用
+            cast = ""
+            for tm in tag_text_re.finditer(after):
+                txt = tm.group(1).strip()
+                # 日付行・URLっぽいもの・短すぎるものは除外
+                if (len(txt) < 4 or len(txt) > 60
+                        or re.search(r'https?://', txt)
+                        or re.match(r'^\d+/\d+', txt)):
+                    continue
+                # 「更新」「設置」など無意味な単語は除外
+                if re.fullmatch(r'[更新設置情報台数]+', txt):
+                    continue
+                cast = txt
+                break
+
+            # pref/area
+            pref_from_slug = _PWORLD_SLUG_TO_PREF.get(pref_slug, "")
+            if pref_from_slug:
+                pref = pref_from_slug
+                area = PREF_AREA.get(pref, "全国")
+            else:
+                pref, area = store_pref_map.get(store_name, ("不明", "全国"))
+                if pref == "不明":
+                    pref, area = _guess_pref_area(store_name)
+
+            ev_id = _make_id(store_name, date_str, img_url)
+            if ev_id in seen_ids:
+                continue
+            seen_ids.add(ev_id)
+
+            ev = {
+                "id":        ev_id,
+                "date":      date_str,
+                "store":     store_name,
+                "pref":      pref,
+                "area":      area,
+                "event":     ev_type,
+                "detail":    cast,
+                "cast":      cast[:40],
+                "highlight": "",
+                "image_url": img_url,
+                "x_url":     "",
+                "url":       store_url,
+                "source":    "p-world",
+            }
+            results.append(ev)
+            found += 1
+
+        log(f"  page={page_no}: {found}件")
+        if found == 0 and page_no > 1:
+            break
+        time.sleep(0.4)
+
+    log(f"  P-World 取材来店情報 合計: {len(results)}件")
+    return results
+
+
 def scrape_ptown_event(page, url: str, store_names: set[str]) -> list[dict]:
     """ぱちタウンのイベントページをスクレイピング"""
     results: list[dict] = []
@@ -1601,17 +1802,19 @@ def main():
 
     all_new: list[dict] = []
 
-    # ── JOB F: p-town /schedules HTTP スクレイプ（Playwright不要）──
+    # ── JOB F: p-town /schedules + P-World 取材来店情報 HTTP スクレイプ（Playwright不要）──
     if args.job in ("ptown", "all"):
         ptown_res = scrape_pttown_schedules_http(store_pref_map, store_names, max_pages=args.ptown_pages)
         all_new.extend(ptown_res)
+        pworld_res = scrape_pworld_interviews_http(store_pref_map, store_names, max_pages=50)
+        all_new.extend(pworld_res)
 
     # ptown ジョブはHTTPのみ（playwright不要）
     if args.job == "ptown":
         seen_ids2: set[str] = set()
         deduped2 = [e for e in all_new if not (e["id"] in seen_ids2 or seen_ids2.add(e["id"]))]  # type: ignore
         merged2, added2 = merge_events(existing, deduped2)
-        log(f"📊 p-town収集: {len(deduped2)}件 / 新規: {added2}件 / 累計: {len(merged2)}件")
+        log(f"📊 p-town+p-world収集: {len(deduped2)}件 / 新規: {added2}件 / 累計: {len(merged2)}件")
         if added2 > 0:
             save_events(merged2, original)
         log("=" * 70)
