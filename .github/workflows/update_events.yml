@@ -6,6 +6,9 @@ on:
     - cron: "0 0,3,6,9,12,15,18,21 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   # ─── JOB A: X アカウントタイムライン（メディア + 個別店舗）──────────────
   fetch-accounts:

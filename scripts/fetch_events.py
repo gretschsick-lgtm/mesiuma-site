@@ -1494,6 +1494,17 @@ def main():
         ptown_res = scrape_pttown_schedules_http(store_pref_map, store_names, max_pages=args.ptown_pages)
         all_new.extend(ptown_res)
 
+    # ptown ジョブはHTTPのみ（playwright不要）
+    if args.job == "ptown":
+        seen_ids2: set[str] = set()
+        deduped2 = [e for e in all_new if not (e["id"] in seen_ids2 or seen_ids2.add(e["id"]))]  # type: ignore
+        merged2, added2 = merge_events(existing, deduped2)
+        log(f"📊 p-town収集: {len(deduped2)}件 / 新規: {added2}件 / 累計: {len(merged2)}件")
+        if added2 > 0:
+            save_events(merged2, original)
+        log("=" * 70)
+        return
+
     with sync_playwright() as pw:
         ctx = launch_ctx(pw, args.headless)
 

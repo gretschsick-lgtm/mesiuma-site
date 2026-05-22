@@ -6,6 +6,10 @@ on:
     - cron: "0 0,3,6,9,12,15,18,21 * * *"
   workflow_dispatch:
 
+# リポジトリへの書き込み権限を付与
+permissions:
+  contents: write
+
 # ─────────────────────────────────────────────────────────────────────────────
 # 12地域に細分化して並列スクレイプ → マージしてコミット
 # 各グループ ≤700店 × 約2秒/店 ≒ 24分 → timeout 50分で余裕あり
@@ -303,6 +307,45 @@ jobs:
               encoding="utf-8"
           )
           print(f"\n✅ マージ完了: {len(merged)}店舗")
+          EOF
+
+      - name: Sync addresses from store_machines to stores.json
+        run: |
+          python3 - <<'EOF'
+          import json
+          from pathlib import Path
+
+          stores_path = Path("public/stores.json")
+          machines_path = Path("public/store_machines.json")
+
+          if not stores_path.exists() or not machines_path.exists():
+              print("ファイルが見つかりません")
+              exit(0)
+
+          stores = json.loads(stores_path.read_text(encoding="utf-8"))
+          machines = json.loads(machines_path.read_text(encoding="utf-8"))
+
+          updated_addr = 0
+          updated_hours = 0
+          for store in stores:
+              name = store.get("name", "")
+              info = machines.get(name)
+              if not info:
+                  continue
+              # 住所を補完（stores.jsonにないがstore_machines.jsonにある場合）
+              if not store.get("address") and info.get("address"):
+                  store["address"] = info["address"]
+                  updated_addr += 1
+              # map_url が空の場合は住所からGoogle Maps URLを生成
+              if not store.get("map_url") and store.get("address"):
+                  addr = store["address"]
+                  store["map_url"] = f"https://www.google.co.jp/maps/search/{addr.replace(' ', '+')}"
+
+          stores_path.write_text(
+              json.dumps(stores, ensure_ascii=False, indent=2),
+              encoding="utf-8"
+          )
+          print(f"✅ 住所補完: {updated_addr}店舗")
           EOF
 
       - name: Fetch lottery/lineup times
