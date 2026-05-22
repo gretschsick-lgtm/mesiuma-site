@@ -65,24 +65,47 @@ def _get_x_cookies() -> list[dict]:
 
 def get_tweet_image(page, tweet_url: str) -> str:
     """指定ツイートページから最初のメディア画像URLを取得。"""
+    # デフォルト画像・プレースホルダーURL（これらは除外）
+    PLACEHOLDER_PATTERNS = [
+        "rweb/ssr/default",
+        "abs.twimg.com/rweb",
+        "profile_images",
+        "profile_banners",
+        "emoji",
+    ]
+
     try:
         page.goto(tweet_url, timeout=25000, wait_until="domcontentloaded")
-        page.wait_for_timeout(3000)
+        page.wait_for_timeout(4000)
 
-        # pbs.twimg.com/media 画像を探す
+        # pbs.twimg.com/media 画像を探す（最優先）
         imgs = page.query_selector_all('img[src*="pbs.twimg.com/media"]')
         for img in imgs:
             src = img.get_attribute("src") or ""
-            if src and "profile" not in src:
-                # 高解像度版を取得
+            if not src:
+                continue
+            if any(p in src for p in PLACEHOLDER_PATTERNS):
+                continue
+            # 高解像度版を取得
+            src = re.sub(r'\?.*$', '', src) + "?format=jpg&name=large"
+            return src
+
+        # JavaScript で画像を検索（遅延読み込み対策）
+        js_imgs = page.evaluate("""
+            () => Array.from(document.querySelectorAll('img'))
+                .map(img => img.src)
+                .filter(src => src.includes('pbs.twimg.com/media'))
+        """)
+        for src in js_imgs:
+            if not any(p in src for p in PLACEHOLDER_PATTERNS):
                 src = re.sub(r'\?.*$', '', src) + "?format=jpg&name=large"
                 return src
 
-        # card画像も確認（OGP等）
+        # card画像確認（OGP）- デフォルト画像は除外
         meta = page.query_selector('meta[property="og:image"]')
         if meta:
             content = meta.get_attribute("content") or ""
-            if "pbs.twimg.com" in content or "twimg.com" in content:
+            if content and "pbs.twimg.com" in content and not any(p in content for p in PLACEHOLDER_PATTERNS):
                 return content
 
     except Exception as e:
