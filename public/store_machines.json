@@ -2487,5 +2487,59 @@
     "pref": "東京都",
     "pworld_url": "https://www.p-world.co.jp/tokyo/arrow-ikegami.htm",
     "pworld_slug": "arrow-ikegami"
+  },
+  "キコーナ門真島頭店": {
+    "pachinko_total": 256,
+    "slot_total": 128,
+    "address": "大阪府門真市島頭3丁目8番13号",
+    "photo_url": "https://www.p-world.co.jp/osaka/img/018803_01.jpg",
+    "updated_at": "2026-05-21T12:39:44Z",
+    "pref": "大阪府",
+    "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kadoma.htm",
+    "pworld_slug": "kicona-kadoma"
+  },
+  "ミクちゃんアリーナ泉ヶ丘店": {
+    "pachinko_total": 333,
+    "slot_total": 168,
+    "hours": "10:00 〜 22:45",
+    "address": "大阪府堺市南区茶山台1-2-3 パンジョ1F",
+    "photo_url": "https://www.p-world.co.jp/osaka/img/017817_01.jpg",
+    "updated_at": "2026-05-21T12:39:44Z",
+    "pref": "大阪府",
+    "pworld_url": "https://www.p-world.co.jp/osaka/arena-izumigaoka.htm",
+    "pworld_slug": "arena-izumigaoka"
+  },
+  "イル・サローネ貝塚店": {
+    "pachinko_total": 504,
+    "slot_total": 240,
+    "hours": "10:00 〜 22:40",
+    "address": "大阪府貝塚市半田四丁目１２番１号",
+    "photo_url": "https://www.p-world.co.jp/osaka/img/016542_01.jpg",
+    "updated_at": "2026-05-21T12:39:44Z",
+    "pref": "大阪府",
+    "pworld_url": "https://www.p-world.co.jp/osaka/ilsalone-kaiduka.htm",
+    "pworld_slug": "ilsalone-kaiduka"
+  },
+  "ガイア上六店": {
+    "pachinko_total": 191,
+    "slot_total": 172,
+    "hours": "10:00 〜 22:45",
+    "address": "大阪府大阪市天王寺区上本町6-2-29",
+    "photo_url": "https://www.p-world.co.jp/osaka/img/020101_01.jpg",
+    "updated_at": "2026-05-21T12:39:44Z",
+    "pref": "大阪府",
+    "pworld_url": "https://www.p-world.co.jp/osaka/gaiaueroku3939.htm",
+    "pworld_slug": "gaiaueroku3939"
+  },
+  "１２３長居店": {
+    "pachinko_total": 430,
+    "slot_total": 130,
+    "hours": "10:00 〜 22:45",
+    "address": "大阪府大阪市住吉区長居東4丁目5-3",
+    "photo_url": "https://www.p-world.co.jp/osaka/img/013518_01.jpg",
+    "updated_at": "2026-05-21T12:39:44Z",
+    "pref": "大阪府",
+    "pworld_url": "https://www.p-world.co.jp/osaka/nagai123.htm",
+    "pworld_slug": "nagai123"
   }
 }
