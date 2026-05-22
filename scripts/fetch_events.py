@@ -943,23 +943,54 @@ def _x_url(article) -> str:
     return ""
 
 
-def _x_scrape_page(page, store_names: set[str], max_tweets: int, source_label: str) -> list[dict]:
+def _x_scrape_page(
+    page, store_names: set[str], max_tweets: int, source_label: str,
+    store_hint: str = "",  # 店舗アカウントのタイムラインは店舗名を強制指定
+) -> list[dict]:
     results: list[dict] = []
     seen: set[str] = set()
     for article in page.query_selector_all('article[data-testid="tweet"]')[:max_tweets]:
         try:
             el = article.query_selector('[data-testid="tweetText"]')
             if not el:
-                continue
-            text = el.inner_text()
-            if len(text) < 15:
+                # 画像のみツイートも画像だけ取る（店舗アカウント限定）
+                if not store_hint:
+                    continue
+                text = ""
+            else:
+                text = el.inner_text()
+            if not store_hint and len(text) < 15:
                 continue
             url = _x_url(article)
             if not url or url in seen:
                 continue
             seen.add(url)
             imgs = _x_images(article)
-            ev = _make_event(text, url, imgs[0] if imgs else "", "x", store_names)
+            img_url = imgs[0] if imgs else ""
+
+            if store_hint:
+                # 店舗自身のアカウント: store_hintを強制使用 + イベントキーワードなくてもOK（画像ありなら）
+                if not EVENT_KEYWORD_RE.search(text) and not img_url:
+                    continue  # キーワードも画像もなければスキップ
+                date_str = _guess_date(text)
+                pref, area = _guess_pref_area(text)
+                ev = {
+                    "id":        _make_id(store_hint, date_str, url),
+                    "date":      date_str,
+                    "store":     store_hint,
+                    "pref":      pref,
+                    "area":      area,
+                    "event":     _guess_event(text) if text else "イベント",
+                    "detail":    text[:300].replace("\n", " "),
+                    "cast":      _guess_cast(text),
+                    "highlight": "",
+                    "image_url": img_url,
+                    "x_url":     url if "x.com" in url else "",
+                    "url":       url,
+                    "source":    "x",
+                }
+            else:
+                ev = _make_event(text, url, img_url, "x", store_names)
             if ev:
                 results.append(ev)
                 log(f"      ✅ {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({source_label})")
@@ -968,7 +999,7 @@ def _x_scrape_page(page, store_names: set[str], max_tweets: int, source_label: s
     return results
 
 
-def scrape_x_timeline(page, username: str, store_names: set[str]) -> list[dict]:
+def scrape_x_timeline(page, username: str, store_names: set[str], store_hint: str = "") -> list[dict]:
     try:
         page.goto(f"https://x.com/{username}", timeout=18000, wait_until="domcontentloaded")
         page.wait_for_timeout(1800)
@@ -983,7 +1014,7 @@ def scrape_x_timeline(page, username: str, store_names: set[str]) -> list[dict]:
     except Exception as e:
         log(f"    ⚠️  @{username}: {e}")
         return []
-    return _x_scrape_page(page, store_names, 50, f"@{username}")
+    return _x_scrape_page(page, store_names, 50, f"@{username}", store_hint=store_hint)
 
 
 def scrape_x_search(page, query: str, store_names: set[str]) -> list[dict]:
@@ -1574,7 +1605,9 @@ def main():
                 for i, (username, label) in enumerate(STORE_ACCOUNTS.items(), 1):
                     log(f"  [{i}/{len(STORE_ACCOUNTS)}] @{username} ({label})")
                     try:
-                        res = scrape_x_timeline(page, username, store_names)
+                        # store_hint=label: 店舗自身のアカウントなので店舗名を強制指定
+                        # → ツイートに店舗名が書かれてなくても正しくマッチ + 画像も確実に収集
+                        res = scrape_x_timeline(page, username, store_names, store_hint=label)
                         for ev in res:
                             ev["cast"] = ev.get("cast") or label
                         if res:
