@@ -900,10 +900,15 @@ def _guess_pref_area(text: str) -> tuple[str, str]:
 
 
 def _guess_store(text: str, store_names: set[str]) -> str:
-    # stores.jsonの正確な店舗名で先に一致確認
+    # stores.jsonの正確な店舗名: 最長一致優先（短い名前の誤マッチを防ぐ）
+    best = ""
     for name in store_names:
-        if name in text:
-            return name
+        if len(name) < 5:          # 4文字以下は誤マッチが多いのでスキップ
+            continue
+        if name in text and len(name) > len(best):
+            best = name
+    if best:
+        return best
     # チェーン正規表現でのフォールバック
     m = STORE_CHAIN_RE.search(text)
     return m.group(0).strip() if m else ""
@@ -1379,9 +1384,9 @@ def scrape_pworld_interviews_http(
 
         found = 0
         for idx, (img_pos, img_url) in enumerate(img_matches):
-            # このカードの範囲: 前後のカードの中間あたり
-            block_start = img_matches[idx - 1][0] if idx > 0 else max(0, img_pos - 1200)
-            block_end   = img_matches[idx + 1][0] if idx + 1 < len(img_matches) else img_pos + 1200
+            # このカードの範囲: 前後のカードの中間あたり（店名リンクが画像より後ろに来る場合も考慮）
+            block_start = img_matches[idx - 1][0] if idx > 0 else max(0, img_pos - 2000)
+            block_end   = img_matches[idx + 1][0] if idx + 1 < len(img_matches) else img_pos + 2000
             block = html[block_start:block_end]
 
             # 店名 & 店舗URL（画像の前後両方を探す）

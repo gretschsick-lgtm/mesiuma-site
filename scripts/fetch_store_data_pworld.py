@@ -330,7 +330,8 @@ def parse_store_page(html: str, store_url: str, pref_dir: str, ssc_id: str | Non
 
     # パチンコ / スロットのセクション境界
     slot_section_start = len(html)
-    for kw_m in re.finditer(r'スロット台数|スロット機種|スロット設置|パチスロ設置|スロット情報', html):
+    # "パチスロ" は除外（パチンコセクション内に出現するため）
+    for kw_m in re.finditer(r'(?<!パ)スロット台数|(?<!パ)スロット機種|(?<!パ)スロット設置|(?<!パ)スロット情報', html):
         if kw_m.start() < slot_section_start:
             slot_section_start = kw_m.start()
 

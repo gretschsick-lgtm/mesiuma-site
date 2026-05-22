@@ -501,7 +501,6 @@ export default function StoreDetailPage() {
                 {machineInfo?.line_url && <a href={machineInfo.line_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#06C755", true)}>💬 LINE</a>}
                 {mapUrl    && <a href={mapUrl}             target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
                 {floorUrl  && <a href={floorUrl}           target="_blank" rel="noopener noreferrer" style={btnStyle("#888",  true)}>🏢 フロアマップ</a>}
-                {machineInfo?.pworld_url && <a href={machineInfo.pworld_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#aa5500", true)}>🅿 P-World</a>}
               </div>
             )}
           </div>
