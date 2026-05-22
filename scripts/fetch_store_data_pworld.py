@@ -196,17 +196,58 @@ def parse_store_page(html: str, store_url: str, pref_dir: str, ssc_id: str | Non
         if s_m2:
             result["slot_total"] = int(s_m2.group(1))
 
-    # レート別台数
-    pachinko_rates = []
-    slot_rates = []
-    for m in re.finditer(r'([\d.]+円[^パスス]{0,4}パチンコ|パチンコ[\d.]+円)[^\d]*(\d+)\s*台', html):
-        pachinko_rates.append({"rate": m.group(1).strip(), "count": int(m.group(2))})
-    for m in re.finditer(r'([\d.]+円[^パスス]{0,4}スロット|スロット[\d.]+円|[\d]+枚交換)[^\d]*(\d+)\s*台', html):
-        slot_rates.append({"rate": m.group(1).strip(), "count": int(m.group(2))})
+    # ── レート別台数（HTML タグ除去してからパターンマッチ）──────────────────
+    # タグ除去（テーブルセル跨ぎのパターンに対応）
+    plain = re.sub(r'<[^>]+>', ' ', html)
+    plain = re.sub(r'[ \t\xa0]+', ' ', plain)
+
+    pachinko_rates: list[dict] = []
+    slot_rates:     list[dict] = []
+
+    # パチンコ: "4パチ 150台" / "4円パチンコ 150台" / "4パチンコ 150台"
+    pachi_re = re.compile(
+        r'(\d+(?:\.\d+)?(?:円?(?:パチンコ|パチ)))'   # 4円パチンコ / 4パチ / 4パチンコ
+        r'[^\d]{0,20}?'
+        r'(\d{1,4})\s*台',
+        re.UNICODE
+    )
+    for m in pachi_re.finditer(plain):
+        label = m.group(1).strip()
+        count = int(m.group(2))
+        if count > 0 and not any(r["rate"] == label for r in pachinko_rates):
+            pachinko_rates.append({"rate": label, "count": count})
+
+    # スロット: "20スロット 300台" / "5スロ 50台" / "20円スロット 300台" / "1000円/46枚 300台"
+    slot_re = re.compile(
+        r'(\d+(?:\.\d+)?(?:円?(?:スロット|スロ))|1000円/\d+枚)'
+        r'[^\d]{0,20}?'
+        r'(\d{1,4})\s*台',
+        re.UNICODE
+    )
+    for m in slot_re.finditer(plain):
+        label = m.group(1).strip()
+        count = int(m.group(2))
+        if count > 0 and not any(r["rate"] == label for r in slot_rates):
+            slot_rates.append({"rate": label, "count": count})
+
+    # 既存形式フォールバック（元のHTML直接マッチ）
+    if not pachinko_rates:
+        for m in re.finditer(r'([\d.]+円[^パスス]{0,4}パチンコ|パチンコ[\d.]+円)[^\d]*(\d+)\s*台', html):
+            label = m.group(1).strip()
+            count = int(m.group(2))
+            if count > 0 and not any(r["rate"] == label for r in pachinko_rates):
+                pachinko_rates.append({"rate": label, "count": count})
+    if not slot_rates:
+        for m in re.finditer(r'([\d.]+円[^パスス]{0,4}スロット|スロット[\d.]+円|[\d]+枚交換)[^\d]*(\d+)\s*台', html):
+            label = m.group(1).strip()
+            count = int(m.group(2))
+            if count > 0 and not any(r["rate"] == label for r in slot_rates):
+                slot_rates.append({"rate": label, "count": count})
+
     if pachinko_rates:
-        result["pachinko"] = pachinko_rates
+        result["pachinko"] = pachinko_rates[:8]
     if slot_rates:
-        result["slot"] = slot_rates
+        result["slot"] = slot_rates[:8]
 
     # ── 営業時間 ──
     # P-Worldの基本情報テーブル: 営業時間 セルの次TD
@@ -278,27 +319,73 @@ def parse_store_page(html: str, store_url: str, pref_dir: str, ssc_id: str | Non
         result["line_url"] = line_m.group(1)
 
     # ── 設置機種（新台リスト）──
-    # P-World の新台情報は JavaScript で動的に生成されることが多いため
-    # HTMLに残っているものだけ抽出
-    machine_names: list[str] = []
-    # 機種名テーブル（旧形式）
-    for m in re.finditer(
-        r'<(?:td|li|span)[^>]*>([^\s<][^<]{2,30}(?:機|盤|マシン|バスター|ゾンビ|北斗|牙狼|吉宗|バジリスク|ヴァル|チバリヨ|ジャグラー)[^<]{0,20})</',
-        html
-    ):
-        name = m.group(1).strip()
-        if len(name) >= 3:
-            machine_names.append(name)
+    # P-World は <img src=".../newMachine.gif"> で新台をマーク。
+    # このマーカーの前後にある機種名テキストを抽出する。
+    seen_names: set[str] = set()
+    machines:   list[dict] = []
 
-    # 重複除去
-    seen: set[str] = set()
-    machines: list[dict] = []
-    for name in machine_names:
-        if name not in seen:
-            seen.add(name)
-            machines.append({"name": name})
+    # パチンコ / スロットのセクション境界を特定
+    pachi_section_start = 0
+    slot_section_start  = len(html)
+    for kw_m in re.finditer(r'スロット台数|スロット機種|スロット設置|パチスロ設置', html):
+        if kw_m.start() < slot_section_start:
+            slot_section_start = kw_m.start()
+    for kw_m in re.finditer(r'パチンコ台数|パチンコ機種|パチンコ設置', html):
+        if kw_m.start() > pachi_section_start:
+            pachi_section_start = kw_m.start()
+
+    def _machine_type(pos: int) -> str:
+        """位置 pos がパチンコセクションかスロットセクションかを判定"""
+        if pos >= slot_section_start:
+            return "slot"
+        if pos <= pachi_section_start:
+            return "pachinko"
+        # どちらのセクションでもない場合は近い方
+        return "pachinko" if abs(pos - pachi_section_start) <= abs(pos - slot_section_start) else "slot"
+
+    # ① newMachine.gif マーカー付近の機種名を抽出
+    for marker_m in re.finditer(r'newMachine\.gif', html):
+        pos = marker_m.start()
+        # マーカーの前後400文字を検索
+        chunk = html[max(0, pos - 400): pos + 200]
+        # <a> タグまたは <td> タグのテキストを候補に
+        for name_m in re.finditer(r'<(?:a|td|span|li)[^>]*>\s*([^<\s][^<]{1,50}[^<\s])\s*</(?:a|td|span|li)>', chunk):
+            candidate = name_m.group(1).strip()
+            # フィルタ: 2文字以上、数字のみでない、URLでない、ラベルでない
+            if (len(candidate) < 2 or len(candidate) > 60
+                    or re.match(r'^[\d\s/円枚台：:・]+$', candidate)
+                    or re.search(r'https?://', candidate)
+                    or re.fullmatch(r'[　\s]+', candidate)
+                    or candidate in {'新台', '更新', '設置', '機種', '情報', 'パチンコ', 'スロット'}):
+                continue
+            if candidate not in seen_names:
+                seen_names.add(candidate)
+                machines.append({"name": candidate, "type": _machine_type(pos)})
+                break
+
+    # ② newMachine.gif がない場合 / 補完: 広い機種名パターンで抽出
+    if len(machines) < 3:
+        for m in re.finditer(
+            r'<(?:td|li|span|a)[^>]*>\s*([^\s<][^<]{2,50})\s*</(?:td|li|span|a)>',
+            html
+        ):
+            candidate = m.group(1).strip()
+            pos = m.start()
+            # 機種名らしいもの: ひらがな/カタカナ/漢字を含む、特定ラベルでない
+            if (len(candidate) < 3 or len(candidate) > 60
+                    or not re.search(r'[ぁ-んァ-ン一-鿿]', candidate)
+                    or re.search(r'[0-9]{2}:[0-9]{2}', candidate)      # 時刻
+                    or re.match(r'^[\d,.\s円台枚/]+$', candidate)       # 数値のみ
+                    or re.search(r'営業|住所|電話|アクセス|周辺|地図|設備|フロア', candidate)
+                    or candidate in seen_names):
+                continue
+            seen_names.add(candidate)
+            machines.append({"name": candidate, "type": _machine_type(pos)})
+            if len(machines) >= 30:
+                break
+
     if machines:
-        result["new_machines"] = machines[:20]
+        result["new_machines"] = machines[:30]
 
     return result
 

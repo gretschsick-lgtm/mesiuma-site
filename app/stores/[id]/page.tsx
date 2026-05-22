@@ -197,10 +197,11 @@ export default function StoreDetailPage() {
   const [activeSection, setActiveSection] = useState("info");
 
   // セクション ref（スクロールスパイ用）
-  const secInfo    = useRef<HTMLDivElement>(null);
-  const secPachi   = useRef<HTMLDivElement>(null);
-  const secSlot    = useRef<HTMLDivElement>(null);
-  const secEvents  = useRef<HTMLDivElement>(null);
+  const secInfo     = useRef<HTMLDivElement>(null);
+  const secPachi    = useRef<HTMLDivElement>(null);
+  const secSlot     = useRef<HTMLDivElement>(null);
+  const secMachines = useRef<HTMLDivElement>(null);
+  const secEvents   = useRef<HTMLDivElement>(null);
 
   // データ取得
   useEffect(() => {
@@ -225,10 +226,11 @@ export default function StoreDetailPage() {
   // スクロールスパイ
   useEffect(() => {
     const refs = [
-      { id: "info",    ref: secInfo },
+      { id: "info",     ref: secInfo },
       { id: "pachinko", ref: secPachi },
-      { id: "slot",    ref: secSlot },
-      { id: "events",  ref: secEvents },
+      { id: "slot",     ref: secSlot },
+      { id: "machines", ref: secMachines },
+      { id: "events",   ref: secEvents },
     ];
     const handler = () => {
       const scrollY = window.scrollY + 100;
@@ -278,15 +280,21 @@ export default function StoreDetailPage() {
     </div>
   );
 
-  const hasPachinko = !!(machineInfo?.pachinko_total);
-  const hasSlot     = !!(machineInfo?.slot_total);
+  const hasPachinko  = !!(machineInfo?.pachinko_total);
+  const hasSlot      = !!(machineInfo?.slot_total);
+  const pachiMachines = (machineInfo?.new_machines ?? []).filter(m => m.type === "pachinko" || !m.type);
+  const slotMachines  = (machineInfo?.new_machines ?? []).filter(m => m.type === "slot");
+  const allMachines   = machineInfo?.new_machines ?? [];
+  // 新台セクションを独立表示するのはレートデータがない場合のみ（レートあればそちらに表示）
+  const showStandaloneMachines = allMachines.length > 0 && !hasPachinko && !hasSlot;
 
   // スクロールナビに表示するタブ
   const navTabs = [
     { id: "info",     label: "基本情報",    ref: secInfo },
     ...(hasPachinko ? [{ id: "pachinko", label: "パチンコ台数", ref: secPachi }] : []),
     ...(hasSlot     ? [{ id: "slot",     label: "パチスロ台数", ref: secSlot  }] : []),
-    { id: "events",  label: "最新情報",    ref: secEvents },
+    ...(showStandaloneMachines ? [{ id: "machines", label: "設置機種", ref: secMachines }] : []),
+    { id: "events",   label: "最新情報",    ref: secEvents },
   ];
 
   const address   = store.address || machineInfo?.address;
@@ -438,6 +446,7 @@ export default function StoreDetailPage() {
                 {machineInfo?.line_url && <a href={machineInfo.line_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#06C755", true)}>💬 LINE</a>}
                 {mapUrl    && <a href={mapUrl}             target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
                 {floorUrl  && <a href={floorUrl}           target="_blank" rel="noopener noreferrer" style={btnStyle("#888",  true)}>🏢 フロアマップ</a>}
+                {machineInfo?.pworld_url && <a href={machineInfo.pworld_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#aa5500", true)}>🅿 P-World</a>}
               </div>
             )}
           </div>
@@ -470,17 +479,15 @@ export default function StoreDetailPage() {
               )}
 
               {/* 新台（パチンコ） */}
-              {machineInfo?.new_machines && machineInfo.new_machines.filter(m => m.type === "pachinko" || !m.type).length > 0 && (
+              {pachiMachines.length > 0 && (
                 <div style={{ marginTop: 20, paddingTop: 16, borderTop: `1px solid ${C.border}` }}>
                   <div style={{ fontSize: 13, fontWeight: 700, color: C.sub, marginBottom: 10 }}>🆕 新台・注目機種</div>
                   <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                    {machineInfo.new_machines
-                      .filter(m => m.type === "pachinko" || !m.type)
-                      .map((m, i) => (
-                        <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#fff5e8", color: "#663300", border: "1px solid #f5c060" }}>
-                          {m.name}
-                        </span>
-                      ))}
+                    {pachiMachines.map((m, i) => (
+                      <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#fff5e8", color: "#663300", border: "1px solid #f5c060" }}>
+                        {m.name}
+                      </span>
+                    ))}
                   </div>
                 </div>
               )}
@@ -515,18 +522,72 @@ export default function StoreDetailPage() {
               )}
 
               {/* 新台（スロット） */}
-              {machineInfo?.new_machines && machineInfo.new_machines.filter(m => m.type === "slot").length > 0 && (
+              {slotMachines.length > 0 && (
                 <div style={{ marginTop: 20, paddingTop: 16, borderTop: `1px solid ${C.border}` }}>
                   <div style={{ fontSize: 13, fontWeight: 700, color: C.sub, marginBottom: 10 }}>🆕 新台・注目機種</div>
                   <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-                    {machineInfo.new_machines
-                      .filter(m => m.type === "slot")
-                      .map((m, i) => (
-                        <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#f0f8ff", color: "#002266", border: "1px solid #88aadd" }}>
-                          {m.name}
-                        </span>
-                      ))}
+                    {slotMachines.map((m, i) => (
+                      <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#f0f8ff", color: "#002266", border: "1px solid #88aadd" }}>
+                        {m.name}
+                      </span>
+                    ))}
                   </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* ════════════════════════════════════════════════════════
+            §3.5 設置機種（レートデータなし・機種名のみある場合）
+        ════════════════════════════════════════════════════════ */}
+        {showStandaloneMachines && (
+          <div ref={secMachines} style={{ marginBottom: 20 }}>
+            <SectionHead icon="🎮" title="設置機種" count={allMachines.length} />
+            <div style={{ background: C.white, border: `1px solid ${C.border}`, borderTop: "none", borderRadius: "0 0 8px 8px", padding: "20px" }}>
+
+              {/* パチンコ機種 */}
+              {pachiMachines.length > 0 && (
+                <div style={{ marginBottom: slotMachines.length > 0 ? 20 : 0 }}>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: "#996600", marginBottom: 10, display: "flex", alignItems: "center", gap: 6 }}>
+                    <span style={{ background: "#fff5e8", border: "1px solid #f5c060", borderRadius: 4, padding: "2px 8px" }}>🎯 パチンコ</span>
+                    <span style={{ color: C.muted, fontWeight: 400, fontSize: 12 }}>{pachiMachines.length}機種</span>
+                  </div>
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                    {pachiMachines.map((m, i) => (
+                      <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#fff5e8", color: "#663300", border: "1px solid #f5c060" }}>
+                        {m.name}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* スロット機種 */}
+              {slotMachines.length > 0 && (
+                <div>
+                  <div style={{ fontSize: 13, fontWeight: 700, color: "#0044aa", marginBottom: 10, display: "flex", alignItems: "center", gap: 6 }}>
+                    <span style={{ background: "#f0f8ff", border: "1px solid #88aadd", borderRadius: 4, padding: "2px 8px" }}>🎰 パチスロ</span>
+                    <span style={{ color: C.muted, fontWeight: 400, fontSize: 12 }}>{slotMachines.length}機種</span>
+                  </div>
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                    {slotMachines.map((m, i) => (
+                      <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#f0f8ff", color: "#002266", border: "1px solid #88aadd" }}>
+                        {m.name}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* 種別不明（type未設定）*/}
+              {allMachines.filter(m => !m.type).length > 0 && !pachiMachines.length && !slotMachines.length && (
+                <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+                  {allMachines.map((m, i) => (
+                    <span key={i} style={{ fontSize: 12, padding: "4px 12px", borderRadius: 4, background: "#f5f5f5", color: C.sub, border: `1px solid ${C.border}` }}>
+                      {m.name}
+                    </span>
+                  ))}
                 </div>
               )}
             </div>
