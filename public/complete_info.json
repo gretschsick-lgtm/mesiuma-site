@@ -1,5 +1,20 @@
 [
   {
+    "id": "e83e19021cf4",
+    "date": "2026-05-22",
+    "time": "21:17",
+    "store": "プラザ本店Ⅱ",
+    "machine": "沖ドキDUO",
+    "slot_number": "567",
+    "text": "567番台　沖ドキDUO コンプリートおめでとうございます",
+    "images": [
+      "https://pbs.twimg.com/media/HI7EVRIbIAEU1oR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HI7EVRIbIAEU1oR?format=jpg&name=large",
+    "x_url": "https://x.com/plaza0204/status/2057797955680440565",
+    "collected_at": "2026-05-22T12:22:37Z"
+  },
+  {
     "id": "f257581cadd6",
     "date": "2026-05-22",
     "time": "19:31",
@@ -103,6 +118,51 @@
     "image_url": "https://pbs.twimg.com/media/HI2JLZ7aUAAyQSD?format=jpg&name=large",
     "x_url": "https://x.com/pachiaikoukaM/status/2057451652102410625",
     "collected_at": "2026-05-22T11:38:10Z"
+  },
+  {
+    "id": "fae836addde2",
+    "date": "2026-05-21",
+    "time": "22:13",
+    "store": "マルハン所沢店",
+    "machine": "東京喰種CT",
+    "slot_number": "618",
+    "text": "618番台:L東京喰種CT  コンプリート達成  おめでとうございます",
+    "images": [
+      "https://pbs.twimg.com/media/HI2GewMaoAA44WX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HI2GewMaoAA44WX?format=jpg&name=large",
+    "x_url": "https://x.com/Smaru_tokoro/status/2057449731538997461",
+    "collected_at": "2026-05-22T12:05:27Z"
+  },
+  {
+    "id": "990002848285",
+    "date": "2026-05-21",
+    "time": "21:55",
+    "store": "ダイナム",
+    "machine": "北斗の拳転生",
+    "slot_number": "550",
+    "text": "なんと、、 550番台　20時2分　 L北斗の拳転生の章2　よりコンプリート達成！！  今月はあと何台コンプリート達成するのでしょう、、(滝汗)  この後もお時間が許す限りご遊技をお楽しみくださいませ  #ダイナム",
+    "images": [
+      "https://pbs.twimg.com/media/HI2DdaLWUAAznsI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HI2DdaLWUAAznsI?format=jpg&name=large",
+    "x_url": "https://x.com/ikakichi0407/status/2057445147881725999",
+    "collected_at": "2026-05-22T12:05:27Z"
+  },
+  {
+    "id": "7482a6a75176",
+    "date": "2026-05-21",
+    "time": "21:25",
+    "store": "楽園大宮店",
+    "machine": "TT-KR",
+    "slot_number": "447",
+    "text": "本日！     447番台　eカケグルイ～生か死か～LTT-KR コンプリート達成！   おめでとうございます！",
+    "images": [
+      "https://pbs.twimg.com/media/HI18nFAbEAAtHYr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HI18nFAbEAAtHYr?format=jpg&name=large",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2057437695987896568",
+    "collected_at": "2026-05-22T12:05:27Z"
   },
   {
     "id": "69e85f8e099c",
