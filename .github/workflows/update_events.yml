@@ -265,5 +265,6 @@ jobs:
           else
             COUNT=$(python3 -c "import json; d=json.load(open('public/events_public.json')); print(len(d.get('events', d) if isinstance(d, dict) else d))")
             git commit -m "chore: update events_public.json (${COUNT}件)"
+            git pull --rebase origin main
             git push
           fi

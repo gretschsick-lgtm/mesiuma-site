@@ -49,5 +49,6 @@ jobs:
           else
             COUNT=$(python3 -c "import json; d=json.load(open('public/complete_info.json')); print(len(d))")
             git commit -m "chore: update complete_info.json (${COUNT}件)"
+            git pull --rebase origin main
             git push
           fi

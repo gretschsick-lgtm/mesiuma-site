@@ -367,5 +367,6 @@ jobs:
             COUNT=$(python3 -c "import json; print(len(json.load(open('public/store_machines.json'))))")
             LOTTERY=$(python3 -c "import json; s=json.load(open('public/stores.json')); print(sum(1 for x in s if x.get('lottery_time')))")
             git commit -m "chore: update store data (${COUNT}店舗, 抽選時間${LOTTERY}件)"
+            git pull --rebase origin main
             git push
           fi
