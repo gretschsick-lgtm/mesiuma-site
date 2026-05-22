@@ -348,6 +348,9 @@ jobs:
           print(f"✅ 住所補完: {updated_addr}店舗")
           EOF
 
+      - name: Merge P-World stores into stores.json
+        run: python3 scripts/merge_pworld_stores.py
+
       - name: Fetch lottery/lineup times
         run: python3 scripts/fetch_lottery_time.py --limit 50
         continue-on-error: true
