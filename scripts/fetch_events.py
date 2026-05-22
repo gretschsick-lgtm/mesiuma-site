@@ -1324,6 +1324,14 @@ def _ytdlp(args: list[str], timeout: int = 40) -> str:
         return ""
 
 
+def _yt_thumbnail(url: str) -> str:
+    """YouTube URL からサムネイルURLを生成"""
+    m = re.search(r'(?:youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]{11})', url)
+    if m:
+        return f"https://img.youtube.com/vi/{m.group(1)}/hqdefault.jpg"
+    return ""
+
+
 def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str]) -> list[dict]:
     """yt-dlp でチャンネルの最新動画 + コミュニティ投稿をスクレイプ"""
     results: list[dict] = []
@@ -1340,7 +1348,8 @@ def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str
         if len(parts) < 2:
             continue
         title, url = parts
-        evs = _yt_extract_from_text(title, url, "", "youtube_video", store_names)
+        thumb = _yt_thumbnail(url)
+        evs = _yt_extract_from_text(title, url, thumb, "youtube_video", store_names)
         for ev in evs:
             ev["cast"] = ev.get("cast") or ch_name
             results.append(ev)
@@ -1359,7 +1368,8 @@ def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str
         url = parts[1] if len(parts) > 1 else ch_url
         if len(text) < 10:
             continue
-        evs = _yt_extract_from_text(text, url, "", "youtube_community", store_names)
+        thumb = _yt_thumbnail(url)
+        evs = _yt_extract_from_text(text, url, thumb, "youtube_community", store_names)
         for ev in evs:
             ev["cast"] = ev.get("cast") or ch_name
             results.append(ev)
@@ -1382,7 +1392,8 @@ def scrape_youtube_search_ytdlp(query: str, store_names: set[str]) -> list[dict]
         if len(parts) < 3:
             continue
         ch, title, url = parts
-        evs = _yt_extract_from_text(title, url, "", "youtube_search", store_names)
+        thumb = _yt_thumbnail(url)
+        evs = _yt_extract_from_text(title, url, thumb, "youtube_search", store_names)
         for ev in evs:
             if ch and not ev.get("cast"):
                 ev["cast"] = ch
