@@ -187,18 +187,20 @@ def main():
             store["lottery_time"] = lottery
             updated += 1
 
-    # 公式HP から取得
-    print(f"\n[2/2] 公式HP スクレイピング ({len(hp_stores)}店舗)...")
+    # 公式HP から取得（最大50件/回で分割処理）
+    MAX_PER_RUN = args.limit if args.limit else 50
+    print(f"\n[2/2] 公式HP スクレイピング ({len(hp_stores)}店舗、最大{MAX_PER_RUN}件/回)...")
     count = 0
     for store in hp_stores:
         if store.get("lottery_time"):
             continue
-        if args.limit and processed >= args.limit:
+        if processed >= MAX_PER_RUN:
+            print(f"  （上限{MAX_PER_RUN}件に達したため終了）")
             break
 
         name = store.get("name", "")
         hp_url = store.get("hp_url", "")
-        print(f"  [{count+1}/{len(hp_stores)}] {name} ({hp_url})")
+        print(f"  [{count+1}/{min(len(hp_stores), MAX_PER_RUN)}] {name} ({hp_url})")
 
         lottery = get_lottery_from_hp(hp_url)
         if lottery:
@@ -210,7 +212,7 @@ def main():
 
         count += 1
         processed += 1
-        time.sleep(1.0)
+        time.sleep(0.5)
 
     print(f"\n{'='*60}")
     print(f"✅ 完了: {updated}店舗の整列/抽選時間を取得")

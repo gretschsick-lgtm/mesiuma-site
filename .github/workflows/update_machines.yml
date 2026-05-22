@@ -349,8 +349,9 @@ jobs:
           EOF
 
       - name: Fetch lottery/lineup times
-        run: python3 scripts/fetch_lottery_time.py
+        run: python3 scripts/fetch_lottery_time.py --limit 50
         continue-on-error: true
+        timeout-minutes: 15
 
       - name: Commit and push
         run: |
