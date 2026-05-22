@@ -561,13 +561,19 @@ def main():
         page.set_extra_http_headers({"Accept-Language": "ja-JP,ja;q=0.9"})
 
         try:
-            page.goto("https://x.com/home", timeout=25000, wait_until="domcontentloaded")
-            page.wait_for_timeout(3000)
-            if "login" in page.url.lower():
-                log("❌ Xにログインできていません")
+            page.goto("https://x.com/home", timeout=30000, wait_until="domcontentloaded")
+            page.wait_for_timeout(5000)
+            cur_url = page.url.lower()
+            title = page.title()
+            if "login" in cur_url or "flow" in cur_url:
+                log(f"❌ Xにログインできていません (url={page.url})")
                 ctx.close()
                 return
-            log("✅ Xログイン確認OK")
+            # ページタイトルで追加確認
+            if title and "home" not in title.lower() and "x" not in title.lower():
+                log(f"⚠️  ログインページタイトル異常: {title!r} — 続行")
+            else:
+                log(f"✅ Xログイン確認OK (title={title!r})")
         except PlaywrightTimeout:
             log("⚠️  ログイン確認タイムアウト — 続行")
 
