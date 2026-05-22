@@ -326,13 +326,14 @@ jobs:
           machines = json.loads(machines_path.read_text(encoding="utf-8"))
 
           updated_addr = 0
-          updated_hours = 0
+          updated_x = 0
+          updated_hp = 0
           for store in stores:
               name = store.get("name", "")
               info = machines.get(name)
               if not info:
                   continue
-              # 住所を補完（stores.jsonにないがstore_machines.jsonにある場合）
+              # 住所を補完
               if not store.get("address") and info.get("address"):
                   store["address"] = info["address"]
                   updated_addr += 1
@@ -340,12 +341,20 @@ jobs:
               if not store.get("map_url") and store.get("address"):
                   addr = store["address"]
                   store["map_url"] = f"https://www.google.co.jp/maps/search/{addr.replace(' ', '+')}"
+              # X URLを補完
+              if not store.get("x_url") and info.get("x_url"):
+                  store["x_url"] = info["x_url"]
+                  updated_x += 1
+              # 公式HP URLを補完
+              if not store.get("hp_url") and info.get("hp_url"):
+                  store["hp_url"] = info["hp_url"]
+                  updated_hp += 1
 
           stores_path.write_text(
               json.dumps(stores, ensure_ascii=False, indent=2),
               encoding="utf-8"
           )
-          print(f"✅ 住所補完: {updated_addr}店舗")
+          print(f"✅ 住所補完: {updated_addr}店舗 / X URL: {updated_x}件 / HP URL: {updated_hp}件")
           EOF
 
       - name: Merge P-World stores into stores.json

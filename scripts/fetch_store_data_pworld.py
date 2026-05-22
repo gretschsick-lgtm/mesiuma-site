@@ -250,6 +250,33 @@ def parse_store_page(html: str, store_url: str, pref_dir: str, ssc_id: str | Non
         if ssc_m:
             result["floor_map_url"] = f"{BASE_URL}{ssc_m.group(1)}"
 
+    # ── X (Twitter) URL ──
+    x_m = re.search(r'href=["\']?(https?://(?:twitter|x)\.com/([A-Za-z0-9_]+))', html)
+    if x_m:
+        username = x_m.group(2)
+        # 除外ワード（公式ではないアカウント）
+        if username.lower() not in {"share", "intent", "hashtag", "search", "home", "i", "compose"}:
+            result["x_url"] = f"https://x.com/{username}"
+
+    # ── 公式HP URL ──
+    skip_domains = {"p-world.co.jp", "idn.p-world.co.jp", "line.me", "twitter.com", "x.com",
+                    "facebook.com", "instagram.com", "youtube.com"}
+    for m in re.finditer(r'href=["\']?(https?://([^"\'>\s/]+))', html):
+        link_url = m.group(1)
+        domain = m.group(2).lower()
+        if any(d in domain for d in skip_domains):
+            continue
+        if not domain.endswith(('.jp', '.com', '.net', '.org', '.co.jp')):
+            continue
+        # パチンコ店の公式サイトっぽいリンクを優先
+        result["hp_url"] = link_url
+        break
+
+    # ── LINE URL ──
+    line_m = re.search(r'href=["\']?(https://line\.me/[^"\'>\s]+)', html)
+    if line_m:
+        result["line_url"] = line_m.group(1)
+
     # ── 設置機種（新台リスト）──
     # P-World の新台情報は JavaScript で動的に生成されることが多いため
     # HTMLに残っているものだけ抽出

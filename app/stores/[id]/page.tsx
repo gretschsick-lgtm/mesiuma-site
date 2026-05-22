@@ -27,6 +27,10 @@ type MachineInfo = {
   hours?: string;
   entry_rule?: string;
   address?: string;
+  x_url?: string;
+  hp_url?: string;
+  line_url?: string;
+  floor_map_url?: string;
   pachinko?: MachineRate[];
   slot?: MachineRate[];
   pachinko_total?: number;
@@ -34,7 +38,6 @@ type MachineInfo = {
   new_machines?: NewMachine[];
   updated_at?: string;
   photo_url?: string;
-  floor_map_url?: string;
   pworld_url?: string;
 };
 
@@ -322,14 +325,19 @@ export default function StoreDetailPage() {
 
               {/* リンクボタン */}
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 20 }}>
-                {store.hp_url && (
-                  <a href={store.hp_url} target="_blank" rel="noopener noreferrer" style={btnStyle(C.red)}>
+                {(store.hp_url || machineInfo?.hp_url) && (
+                  <a href={store.hp_url || machineInfo?.hp_url} target="_blank" rel="noopener noreferrer" style={btnStyle(C.red)}>
                     🌐 公式サイト
                   </a>
                 )}
-                {store.x_url && (
-                  <a href={store.x_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#000")}>
+                {(store.x_url || machineInfo?.x_url) && (
+                  <a href={store.x_url || machineInfo?.x_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#000")}>
                     𝕏 X（旧Twitter）
+                  </a>
+                )}
+                {machineInfo?.line_url && (
+                  <a href={machineInfo.line_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#06C755")}>
+                    💬 LINE
                   </a>
                 )}
                 {store.map_url && (
@@ -337,10 +345,15 @@ export default function StoreDetailPage() {
                     🗺 地図を見る
                   </a>
                 )}
+                {(store.floor_map_url || machineInfo?.floor_map_url) && (
+                  <a href={store.floor_map_url || machineInfo?.floor_map_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#888")}>
+                    🏢 フロアマップ
+                  </a>
+                )}
               </div>
 
               {/* データなし */}
-              {!store.address && !machineInfo?.address && !machineInfo?.hours && (
+              {!store.address && !machineInfo?.address && !machineInfo?.hours && !store.hp_url && !store.x_url && (
                 <div style={{ textAlign: "center", padding: "32px 0", color: C.muted }}>
                   <div style={{ fontSize: 32, marginBottom: 8 }}>📭</div>
                   <div style={{ fontSize: 13 }}>基本情報はまだ登録されていません</div>
