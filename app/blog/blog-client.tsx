@@ -12,6 +12,7 @@ type Post = {
   summary: string;
   content: string;
   image: string;
+  setting_images?: { url: string; caption: string }[];
 };
 
 const C = {
@@ -89,36 +90,54 @@ export default function BlogPage() {
                 padding: "18px 20px",
                 cursor: "pointer",
                 transition: "box-shadow .15s",
+                display: "flex",
+                gap: 16,
+                alignItems: "flex-start",
               }}
                 onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "0 2px 12px rgba(0,0,0,.1)"; }}
                 onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
               >
-                {/* メタ行 */}
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", marginBottom: 10 }}>
-                  <span style={{ background: "#fff0f0", color: C.red, fontSize: 11, fontWeight: 700, padding: "2px 9px", borderRadius: 3, border: `1px solid #ffaaaa` }}>
-                    📅 {post.date}
-                  </span>
-                  {post.tags.map(t => (
-                    <span key={t} style={{ background: "#f5f5f5", color: C.muted, fontSize: 11, padding: "2px 8px", borderRadius: 3, border: `1px solid ${C.border}` }}>
-                      #{t}
+                {/* サムネイル */}
+                {post.image && (
+                  <div style={{ flexShrink: 0, width: 90, height: 68, borderRadius: 5, overflow: "hidden", background: "#f0f0f0", border: `1px solid ${C.border}` }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={post.image}
+                      alt=""
+                      style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
+                      onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = "none"; }}
+                    />
+                  </div>
+                )}
+
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  {/* メタ行 */}
+                  <div style={{ display: "flex", gap: 6, flexWrap: "wrap", alignItems: "center", marginBottom: 8 }}>
+                    <span style={{ background: "#fff0f0", color: C.red, fontSize: 11, fontWeight: 700, padding: "2px 9px", borderRadius: 3, border: `1px solid #ffaaaa` }}>
+                      📅 {post.date}
                     </span>
-                  ))}
-                </div>
+                    {post.tags.slice(0, 3).map(t => (
+                      <span key={t} style={{ background: "#f5f5f5", color: C.muted, fontSize: 11, padding: "2px 8px", borderRadius: 3, border: `1px solid ${C.border}` }}>
+                        #{t}
+                      </span>
+                    ))}
+                  </div>
 
-                {/* タイトル */}
-                <div style={{ fontSize: 17, fontWeight: 900, color: C.text, marginBottom: 8, lineHeight: 1.4 }}>
-                  {post.title}
-                </div>
+                  {/* タイトル */}
+                  <div style={{ fontSize: 16, fontWeight: 900, color: C.text, marginBottom: 6, lineHeight: 1.4 }}>
+                    {post.title}
+                  </div>
 
-                {/* サマリー */}
-                <div style={{ fontSize: 13, color: C.sub, lineHeight: 1.7 }}>
-                  {post.summary}
-                </div>
+                  {/* サマリー */}
+                  <div style={{ fontSize: 12, color: C.sub, lineHeight: 1.65, display: "-webkit-box", WebkitLineClamp: 2, WebkitBoxOrient: "vertical", overflow: "hidden" }}>
+                    {post.summary}
+                  </div>
 
-                {/* 著者 */}
-                <div style={{ marginTop: 10, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                  <span style={{ fontSize: 11, color: C.muted }}>by {post.author}</span>
-                  <span style={{ fontSize: 12, color: C.red, fontWeight: 700 }}>続きを読む ›</span>
+                  {/* 著者 */}
+                  <div style={{ marginTop: 8, display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                    <span style={{ fontSize: 11, color: C.muted }}>by {post.author}</span>
+                    <span style={{ fontSize: 12, color: C.red, fontWeight: 700 }}>続きを読む ›</span>
+                  </div>
                 </div>
               </div>
             </Link>

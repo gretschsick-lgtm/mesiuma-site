@@ -205,11 +205,11 @@ export default function StoreDetailPage() {
             )}
           </div>
 
-          {/* 住所 */}
-          {store.address && (
+          {/* 住所（stores.json 優先、なければ store_machines.json の住所を使用） */}
+          {(store.address || machineInfo?.address) && (
             <div style={{ fontSize: 13, color: C.sub, marginBottom: 10, display: "flex", gap: 6, alignItems: "flex-start" }}>
               <span style={{ flexShrink: 0 }}>📮</span>
-              <span>{store.address}</span>
+              <span>{store.address || machineInfo?.address}</span>
             </div>
           )}
 
