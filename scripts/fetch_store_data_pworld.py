@@ -318,74 +318,88 @@ def parse_store_page(html: str, store_url: str, pref_dir: str, ssc_id: str | Non
     if line_m:
         result["line_url"] = line_m.group(1)
 
-    # ── 設置機種（新台リスト）──
-    # P-World は <img src=".../newMachine.gif"> で新台をマーク。
-    # このマーカーの前後にある機種名テキストを抽出する。
-    seen_names: set[str] = set()
-    machines:   list[dict] = []
+    # ── 設置機種 ─────────────────────────────────────────────────────────────
+    # P-World HTMLのパチンコ/スロットセクション境界を検出
+    # 機種リンク: href="/machine/database/NNNNN"
+    # 新台マーカー: src=".../newMachine.gif"
+    IGNORE_LABELS = {
+        '新台', '更新', '設置', '機種', '情報', '検索', 'パチンコ', 'スロット', 'パチスロ',
+        'トップ', 'メニュー', '一覧', '詳細', '台数', '営業', 'アクセス', '採用', '求人',
+        'フロアマップ', 'イベント', '取材', 'ホール', '周辺', '近隣',
+    }
 
-    # パチンコ / スロットのセクション境界を特定
-    pachi_section_start = 0
-    slot_section_start  = len(html)
-    for kw_m in re.finditer(r'スロット台数|スロット機種|スロット設置|パチスロ設置', html):
+    # パチンコ / スロットのセクション境界
+    slot_section_start = len(html)
+    for kw_m in re.finditer(r'スロット台数|スロット機種|スロット設置|パチスロ設置|スロット情報', html):
         if kw_m.start() < slot_section_start:
             slot_section_start = kw_m.start()
-    for kw_m in re.finditer(r'パチンコ台数|パチンコ機種|パチンコ設置', html):
-        if kw_m.start() > pachi_section_start:
-            pachi_section_start = kw_m.start()
 
-    def _machine_type(pos: int) -> str:
-        """位置 pos がパチンコセクションかスロットセクションかを判定"""
-        if pos >= slot_section_start:
-            return "slot"
-        if pos <= pachi_section_start:
-            return "pachinko"
-        # どちらのセクションでもない場合は近い方
-        return "pachinko" if abs(pos - pachi_section_start) <= abs(pos - slot_section_start) else "slot"
+    def _mtype(pos: int) -> str:
+        return "slot" if pos >= slot_section_start else "pachinko"
 
-    # ① newMachine.gif マーカー付近の機種名を抽出
-    for marker_m in re.finditer(r'newMachine\.gif', html):
-        pos = marker_m.start()
-        # マーカーの前後400文字を検索
-        chunk = html[max(0, pos - 400): pos + 200]
-        # <a> タグまたは <td> タグのテキストを候補に
-        for name_m in re.finditer(r'<(?:a|td|span|li)[^>]*>\s*([^<\s][^<]{1,50}[^<\s])\s*</(?:a|td|span|li)>', chunk):
-            candidate = name_m.group(1).strip()
-            # フィルタ: 2文字以上、数字のみでない、URLでない、ラベルでない
-            if (len(candidate) < 2 or len(candidate) > 60
-                    or re.match(r'^[\d\s/円枚台：:・]+$', candidate)
-                    or re.search(r'https?://', candidate)
-                    or re.fullmatch(r'[　\s]+', candidate)
-                    or candidate in {'新台', '更新', '設置', '機種', '情報', 'パチンコ', 'スロット'}):
+    # ── ① P-World 機種DBリンクから全設置機種を取得 ──────────────────────────
+    # href="/machine/database/NNNNN" のリンクテキストが機種名
+    db_link_re = re.compile(
+        r'<a\s[^>]*href=["\']?/machine/database/\d+[^"\'>\s]*["\']?[^>]*>'
+        r'\s*([^<]{2,60})\s*</a>'
+    )
+    seen_installed: set[str] = set()
+    machines_installed: list[dict] = []
+
+    for m in db_link_re.finditer(html):
+        name = re.sub(r'\s+', ' ', m.group(1)).strip()
+        pos  = m.start()
+        # フィルタ
+        if (len(name) < 2 or len(name) > 60
+                or name in IGNORE_LABELS
+                or re.match(r'^[\d\s/円枚台：:・＞≫→]+$', name)
+                or re.search(r'https?://', name)):
+            continue
+        # 新台フラグ: マーカー画像がすぐ後に続く
+        is_new = bool(re.search(r'newMachine\.gif', html[pos:pos+300]))
+        key = name.lower()
+        if key in seen_installed:
+            continue
+        seen_installed.add(key)
+        entry: dict = {"name": name, "type": _mtype(pos)}
+        if is_new:
+            entry["is_new"] = True
+        machines_installed.append(entry)
+
+    # ── ② DBリンクが取れない場合: <li><a>機種名</a> パターンで抽出 ────────────
+    if len(machines_installed) < 3:
+        li_link_re = re.compile(
+            r'<li[^>]*>\s*(?:<[^>]+>)*\s*([^\s<][^<]{2,50}[^\s<])\s*(?:</[^>]+>)*\s*</li>'
+        )
+        for m in li_link_re.finditer(html):
+            name = re.sub(r'<[^>]+>', '', m.group(1)).strip()
+            name = re.sub(r'\s+', ' ', name)
+            pos  = m.start()
+            if (len(name) < 3 or len(name) > 60
+                    or not re.search(r'[ぁ-んァ-ン一-鿿]', name)
+                    or re.search(r'[0-9]{2}:[0-9]{2}', name)
+                    or re.match(r'^[\d,.\s円台枚/]+$', name)
+                    or re.search(r'営業|住所|電話|アクセス|地図|設備|フロア|採用', name)
+                    or name in IGNORE_LABELS
+                    or name.lower() in seen_installed):
                 continue
-            if candidate not in seen_names:
-                seen_names.add(candidate)
-                machines.append({"name": candidate, "type": _machine_type(pos)})
+            seen_installed.add(name.lower())
+            is_new = bool(re.search(r'newMachine\.gif', html[pos:pos+200]))
+            entry = {"name": name, "type": _mtype(pos)}
+            if is_new:
+                entry["is_new"] = True
+            machines_installed.append(entry)
+            if len(machines_installed) >= 200:
                 break
 
-    # ② newMachine.gif がない場合 / 補完: 広い機種名パターンで抽出
-    if len(machines) < 3:
-        for m in re.finditer(
-            r'<(?:td|li|span|a)[^>]*>\s*([^\s<][^<]{2,50})\s*</(?:td|li|span|a)>',
-            html
-        ):
-            candidate = m.group(1).strip()
-            pos = m.start()
-            # 機種名らしいもの: ひらがな/カタカナ/漢字を含む、特定ラベルでない
-            if (len(candidate) < 3 or len(candidate) > 60
-                    or not re.search(r'[ぁ-んァ-ン一-鿿]', candidate)
-                    or re.search(r'[0-9]{2}:[0-9]{2}', candidate)      # 時刻
-                    or re.match(r'^[\d,.\s円台枚/]+$', candidate)       # 数値のみ
-                    or re.search(r'営業|住所|電話|アクセス|周辺|地図|設備|フロア', candidate)
-                    or candidate in seen_names):
-                continue
-            seen_names.add(candidate)
-            machines.append({"name": candidate, "type": _machine_type(pos)})
-            if len(machines) >= 30:
-                break
-
-    if machines:
-        result["new_machines"] = machines[:30]
+    if machines_installed:
+        result["machines_installed"] = machines_installed[:200]
+        # 後方互換: new_machines は is_new=True のもだけ残す
+        new_only = [m for m in machines_installed if m.get("is_new")]
+        if new_only:
+            result["new_machines"] = new_only[:30]
+    else:
+        result["new_machines"] = []
 
     return result
 
