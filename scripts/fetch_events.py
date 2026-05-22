@@ -350,6 +350,10 @@ def _build_queries(machine_names: list[str], top_stores: list[str] | None = None
         "REAL取材 パチスロ",             "限界突破DOME 取材",
         "アイスロ 来店",                 "必勝本 取材",
         "パチ7 取材",                    "gogoネット 来店",
+        "スロセレ 来店",                 "スロセレ 取材",
+        "わんだふる 取材",               "超キノコ狩り 取材",
+        "SS取材",                        "スロパチガール 来店",
+        "ぱちタウンコレクション",        "キノコ狩り 取材",
         # ── イベント種別 ──
         "来店イベント パチスロ 今日",    "来店イベント スロット 今週",
         "来店 スマスロ",                 "取材 パチスロ イベント",
@@ -626,6 +630,22 @@ WEB_SOURCES = [
         ],
         "type":    "news_list",
     },
+    # ホールナビ（来店・取材スケジュール）
+    {
+        "name":    "horunavi",
+        "urls":    [
+            "https://www.horunavi.jp/schedule/",
+        ],
+        "type":    "news_list",
+    },
+    # スロセレ（スロット取材選手権）
+    {
+        "name":    "slotselection",
+        "urls":    [
+            "https://www.slot-selection.com/schedule/",
+        ],
+        "type":    "news_list",
+    },
 ]
 
 # ===========================================================================
@@ -635,14 +655,29 @@ WEB_SOURCES = [
 # url: YouTube チャンネル URL（@handle または /channel/ID 形式）
 # 実在が確認済みのチャンネルのみ登録。URLに /videos や /community は付けない。
 YOUTUBE_CHANNELS: list[dict] = [
-    # ── 確認済み 公式メディア系 ──
+    # ── 公式メディア・取材番組（来店・取材画像の主要ソース）──
     {"url": "https://www.youtube.com/@janbaritv",                              "name": "ジャンバリ"},
     {"url": "https://www.youtube.com/@BuzzSlot",                               "name": "バズスロ"},
     {"url": "https://www.youtube.com/@hisshobon",                              "name": "パチスロ必勝本"},
     {"url": "https://www.youtube.com/channel/UC8yYqoMOYO_Q755YLJ-teoQ",       "name": "スロパチステーション"},
+    {"url": "https://www.youtube.com/@kd56tv",                                 "name": "KD情報"},
+    {"url": "https://www.youtube.com/@3x3star_slot",                           "name": "3×3STAR"},
+    {"url": "https://www.youtube.com/@gokumichi_dome",                         "name": "限界突破DOME"},
+    {"url": "https://www.youtube.com/@eyeslot_official",                       "name": "アイスロ"},
+    {"url": "https://www.youtube.com/@realdoc_pachi",                          "name": "REAL取材"},
+    {"url": "https://www.youtube.com/@ps_chosain",                             "name": "PS調査員"},
+    {"url": "https://www.youtube.com/@suro_select",                            "name": "スロセレ"},
+    {"url": "https://www.youtube.com/@kaido_adv",                              "name": "回胴アドベンチャー"},
+    {"url": "https://www.youtube.com/@gorsei_tv",                              "name": "極誓"},
+    {"url": "https://www.youtube.com/@pachi7_official",                        "name": "パチ7"},
     # ── 確認済み 人気 YouTuber ──
     {"url": "https://www.youtube.com/@bri47ha",                                "name": "浜田ブリトニー"},
     {"url": "https://www.youtube.com/@garizo1",                                "name": "ガリぞう"},
+    {"url": "https://www.youtube.com/@kimurauotaku",                           "name": "木村魚拓"},
+    {"url": "https://www.youtube.com/@batchimatsumoto",                        "name": "松本バッチ"},
+    {"url": "https://www.youtube.com/@uichi_slot",                             "name": "ういち"},
+    {"url": "https://www.youtube.com/@nanatoru_official",                      "name": "なな徹"},
+    {"url": "https://www.youtube.com/@yukinnko",                               "name": "ゆきんこ"},
 ]
 
 # YouTube 検索クエリ（撮影スケジュール・ホール訪問系）
@@ -1142,14 +1177,16 @@ def scrape_pttown_schedules_http(
         ),
         "Accept-Language": "ja-JP,ja;q=0.9",
     }
-    # data-src + alt テキストから画像URL・店名・日付・イベント名を抽出
-    img_re = re.compile(
-        r'data-src="(https://cdn\.p-town\.dmm\.com/[^"]+)"[^>]*'
-        r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/（.+?）の来店イベント情報「(.+?)」"'
+    # <img> タグ全体を取得して属性を個別に解析（属性順序不問）
+    img_tag_re = re.compile(r'<img\s([^>]*?)/?>', re.DOTALL)
+    alt_event_re = re.compile(
+        r'(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/[（(].+?[）)][のの]来店イベント情報[「「](.+?)[」」]'
     )
-    # フォールバック：alt のみのパターン（画像なし）
+    ptown_src_re = re.compile(r'data-src="(https://cdn\.p-town\.dmm\.com/[^"]+)"')
+    ptown_alt_re = re.compile(r'alt="([^"]+)"')
+    # フォールバック：alt のみのパターン（画像なし・後方互換）
     alt_re = re.compile(
-        r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/（.+?）の来店イベント情報「(.+?)」"'
+        r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/[（(].+?[）)][のの]来店イベント情報[「「](.+?)[」」]"'
     )
 
     results: list[dict] = []
@@ -1166,9 +1203,18 @@ def scrape_pttown_schedules_http(
             break
 
         found = 0
-        # img_re でマッチ（画像URL付き）
-        img_matches = {(m.group(2).strip(), m.group(3), m.group(4).strip()): m.group(1)
-                       for m in img_re.finditer(html)}
+        # <img>タグごとにdata-srcとalt属性を抽出（属性順序不問）
+        img_matches: dict[tuple, str] = {}
+        for tag_m in img_tag_re.finditer(html):
+            attrs = tag_m.group(1)
+            src_m = ptown_src_re.search(attrs)
+            alt_m = ptown_alt_re.search(attrs)
+            if not src_m or not alt_m:
+                continue
+            ev_m = alt_event_re.search(alt_m.group(1))
+            if ev_m:
+                key = (ev_m.group(1).strip(), ev_m.group(2), ev_m.group(3).strip())
+                img_matches[key] = src_m.group(1)
 
         for m in alt_re.finditer(html):
             store = m.group(1).strip()
@@ -1325,9 +1371,19 @@ def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) ->
                     if href and href.startswith("/"):
                         base = re.match(r'https?://[^/]+', url)
                         href = (base.group(0) if base else "") + href
-                    img_el = card.query_selector('img[src]')
-                    img = img_el.get_attribute("src") if img_el else ""
-                    ev = _make_event(text, href or url, img or "", source_name, store_names)
+                    # 画像: src → data-src → data-lazy-src → data-original の順に試す
+                    img = ""
+                    for img_sel in ['img[src*="http"]', 'img[data-src]', 'img[data-lazy-src]', 'img[data-original]']:
+                        img_el = card.query_selector(img_sel)
+                        if img_el:
+                            for attr in ("src", "data-src", "data-lazy-src", "data-original"):
+                                val = img_el.get_attribute(attr) or ""
+                                if val.startswith("http"):
+                                    img = val
+                                    break
+                        if img:
+                            break
+                    ev = _make_event(text, href or url, img, source_name, store_names)
                     if ev:
                         results.append(ev)
                         log(f"      🌐 {ev['store'][:18]} [{ev['pref']}] ({source_name})")
