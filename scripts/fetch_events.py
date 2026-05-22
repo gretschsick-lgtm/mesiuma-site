@@ -1111,6 +1111,12 @@ def scrape_pttown_schedules_http(
         ),
         "Accept-Language": "ja-JP,ja;q=0.9",
     }
+    # data-src + alt テキストから画像URL・店名・日付・イベント名を抽出
+    img_re = re.compile(
+        r'data-src="(https://cdn\.p-town\.dmm\.com/[^"]+)"[^>]*'
+        r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/（.+?）の来店イベント情報「(.+?)」"'
+    )
+    # フォールバック：alt のみのパターン（画像なし）
     alt_re = re.compile(
         r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/（.+?）の来店イベント情報「(.+?)」"'
     )
@@ -1129,10 +1135,18 @@ def scrape_pttown_schedules_http(
             break
 
         found = 0
+        # img_re でマッチ（画像URL付き）
+        img_matches = {(m.group(2).strip(), m.group(3), m.group(4).strip()): m.group(1)
+                       for m in img_re.finditer(html)}
+
         for m in alt_re.finditer(html):
             store = m.group(1).strip()
             date_raw = m.group(2)       # "2026/05/21"
             event_name = m.group(3).strip()
+            # 対応する画像URLを取得（高解像度化）
+            img_src = img_matches.get((store, date_raw, event_name), "")
+            if img_src:
+                img_src = img_src.replace("/fit-in/150x0/", "/fit-in/600x0/").split("?")[0]
 
             # 通常稼働など非イベントを除外
             if any(ng in event_name for ng in _NG_EVENTS):
@@ -1170,7 +1184,7 @@ def scrape_pttown_schedules_http(
                 "detail":    event_name,
                 "cast":      event_name[:40],
                 "highlight": "",
-                "image_url": "",
+                "image_url": img_src,
                 "x_url":     "",
                 "url":       f"https://p-town.dmm.com/schedules?page={page_no}",
                 "source":    "p-town",
