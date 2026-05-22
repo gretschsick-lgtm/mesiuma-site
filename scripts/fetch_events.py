@@ -833,7 +833,14 @@ def launch_ctx(playwright, headless: bool):
 # パース共通
 # ---------------------------------------------------------------------------
 def _guess_date(text: str) -> str:
-    m = re.search(r'(\d{1,2})[/／](\d{1,2})', text)
+    # YYYY/MM/DD 形式を優先マッチ（年部分を誤検知しないよう先に処理）
+    m = re.search(r'\d{4}[/／](\d{1,2})[/／](\d{1,2})', text)
+    if m:
+        mo, dy = int(m.group(1)), int(m.group(2))
+        if 1 <= mo <= 12 and 1 <= dy <= 31:
+            return f"{mo:02d}/{dy:02d}"
+    # MM/DD 形式（数字に挟まれた場合を除外）
+    m = re.search(r'(?<!\d)(\d{1,2})[/／](\d{1,2})(?!\d)', text)
     if m:
         mo, dy = int(m.group(1)), int(m.group(2))
         if 1 <= mo <= 12 and 1 <= dy <= 31:
