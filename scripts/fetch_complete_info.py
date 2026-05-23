@@ -575,6 +575,201 @@ def save_complete(new_entries: list[dict], target_date: str):
     return len(new_only)
 
 
+# ---------------------------------------------------------------------------
+# Supabase ヘルパー（書き込み失敗時もスクリプトを止めない設計）
+# ---------------------------------------------------------------------------
+import urllib.request
+import urllib.error
+import ssl as _ssl
+
+
+def _sb_env() -> tuple[str, str] | None:
+    """環境変数からSupabase接続情報を取得。未設定なら None を返す（書き込みをスキップ）。"""
+    url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not url or not key:
+        return None
+    return url, key
+
+
+def _sb_request(method: str, path: str,
+                body: list | dict | None = None,
+                prefer: str | None = None) -> tuple[int, bytes]:
+    """
+    Supabase REST API へリクエストを送る低レベル関数。
+    戻り値: (http_status_code, response_body_bytes)
+    例外は呼び出し元で握りつぶすこと。
+    """
+    env = _sb_env()
+    if not env:
+        return 0, b""
+    sb_url, sb_key = env
+
+    ctx = _ssl._create_unverified_context()   # macOS + GitHub Actions 両対応
+    headers: dict[str, str] = {
+        "apikey":        sb_key,
+        "Authorization": f"Bearer {sb_key}",
+        "Content-Type":  "application/json",
+    }
+    if prefer:
+        headers["Prefer"] = prefer
+
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(
+        f"{sb_url}/rest/v1/{path}",
+        data=data,
+        headers=headers,
+        method=method,
+    )
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
+            return r.status, r.read()
+    except urllib.error.HTTPError as e:
+        return e.code, e.read()
+
+
+def supabase_log_start(job_name: str) -> int | None:
+    """
+    fetch_logs に実行開始レコードを INSERT し、生成された id を返す。
+    失敗しても None を返してスクリプトは継続。
+    """
+    if not _sb_env():
+        return None
+    try:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        status, body = _sb_request(
+            "POST", "fetch_logs",
+            body={
+                "job_name":       job_name,
+                "started_at":     now,
+                "status":         "failed",   # 万が一スクリプトが途中終了した場合も failed になる
+                "fetched_count":  0,
+                "new_count":      0,
+                "duplicate_count": 0,
+                "error_count":    0,
+            },
+            prefer="return=representation",
+        )
+        if status in (200, 201) and body:
+            rows = json.loads(body)
+            if isinstance(rows, list) and rows:
+                return rows[0].get("id")
+    except Exception as e:
+        log(f"⚠️  Supabase log_start エラー: {e}")
+    return None
+
+
+def supabase_log_end(log_id: int | None, status: str,
+                     fetched: int, new_count: int,
+                     dupes: int, errors: int,
+                     error_detail: str | None = None) -> None:
+    """fetch_logs の実行結果を PATCH で更新する。log_id が None の場合はスキップ。"""
+    if log_id is None or not _sb_env():
+        return
+    try:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        patch_body: dict = {
+            "finished_at":    now,
+            "status":         status,
+            "fetched_count":  fetched,
+            "new_count":      new_count,
+            "duplicate_count": dupes,
+            "error_count":    errors,
+        }
+        if error_detail:
+            patch_body["error_detail"] = error_detail[:1000]
+        _sb_request(
+            "PATCH", f"fetch_logs?id=eq.{log_id}",
+            body=patch_body,
+            prefer="return=minimal",
+        )
+    except Exception as e:
+        log(f"⚠️  Supabase log_end エラー: {e}")
+
+
+def supabase_update_fetch_state(job_name: str) -> None:
+    """fetch_state の last_success_at / last_run_at を現在時刻に更新する。"""
+    if not _sb_env():
+        return
+    try:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        _sb_request(
+            "PATCH", f"fetch_state?job_name=eq.{job_name}",
+            body={"last_success_at": now, "last_run_at": now, "updated_at": now},
+            prefer="return=minimal",
+        )
+    except Exception as e:
+        log(f"⚠️  Supabase fetch_state 更新エラー: {e}")
+
+
+def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
+    """
+    complete_reports テーブルに INSERT（ON CONFLICT DO NOTHING）。
+
+    ・保存するフィールド: id, date, report_time, store_name, machine, slot_number, x_url, collected_at
+    ・保存しないフィールド: text（本文）, images（画像配列）, image_url（画像URL）← 転載禁止
+    ・重複 ID は INSERT をスキップし duplicate_count に加算
+    ・Supabase 書き込み失敗時は (0, 0) を返してスクリプトを継続
+
+    戻り値: (new_count, duplicate_count)
+    """
+    if not entries or not _sb_env():
+        return 0, 0
+
+    total_new = 0
+    total_dup = 0
+    BATCH_SIZE = 100
+
+    for i in range(0, len(entries), BATCH_SIZE):
+        batch = entries[i : i + BATCH_SIZE]
+
+        rows: list[dict] = []
+        for e in batch:
+            x_url = (e.get("x_url") or "").strip()
+            if not x_url:
+                continue   # x_url は NOT NULL のため空行はスキップ
+            rows.append({
+                "id":           e["id"],
+                "date":         e.get("date") or None,
+                "report_time":  e.get("time") or None,       # "time" → DB の "report_time"
+                "store_name":   e.get("store") or None,      # "store" → DB の "store_name"
+                "machine":      e.get("machine") or None,
+                "slot_number":  e.get("slot_number") or None,
+                "x_url":        x_url,
+                "collected_at": e.get("collected_at")
+                                or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                # text / images / image_url は意図的に送信しない
+            })
+
+        if not rows:
+            continue
+
+        try:
+            status, body = _sb_request(
+                "POST", "complete_reports",
+                body=rows,
+                # ignore-duplicates = ON CONFLICT DO NOTHING（既存データを書き換えない）
+                # return=representation で実際に INSERT された行数を取得
+                prefer="resolution=ignore-duplicates,return=representation",
+            )
+            if status in (200, 201):
+                inserted = len(json.loads(body)) if body else 0
+                total_new += inserted
+                total_dup += len(rows) - inserted
+            else:
+                err_text = body.decode(errors="replace")[:200] if body else ""
+                log(f"⚠️  Supabase complete_reports HTTP {status}: {err_text}")
+                # Supabase エラーでもスクリプトは継続
+        except Exception as e:
+            log(f"⚠️  Supabase complete_reports 書き込みエラー: {e}")
+            # スクリプトは継続
+
+    if total_new or total_dup:
+        log(f"☁️  Supabase: 新規{total_new}件 / 重複skip{total_dup}件")
+
+    return total_new, total_dup
+
+
 def update_ranking():
     """
     complete_info.json から月間・トータルランキングを集計して
@@ -767,7 +962,11 @@ def main():
     log("=" * 60)
     log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(COMPLETE_QUERIES)}")
 
+    # ── Supabase: 実行開始を記録 ──────────────────────────────────────────
+    sb_log_id = supabase_log_start("complete")
+
     all_new: list[dict] = []
+    query_errors = 0   # クエリ単位のエラー数
 
     with sync_playwright() as pw:
         ctx = launch_browser(pw, headless=args.headless)
@@ -786,6 +985,7 @@ def main():
             if "login" in cur_url or "flow" in cur_url:
                 log(f"❌ Xにログインできていません (url={page.url})")
                 ctx.close()
+                supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗")
                 return
             # ページタイトルで追加確認
             if title and "home" not in title.lower() and "x" not in title.lower():
@@ -804,6 +1004,7 @@ def main():
                 time.sleep(1)
             except Exception as e:
                 log(f"  ❌ {e}")
+                query_errors += 1
 
         page.close()
         ctx.close()
@@ -814,9 +1015,11 @@ def main():
 
     log(f"\n📊 収集: {len(deduped)} 件（店舗投稿・重複除去後）")
 
+    # ── JSON 保存（既存の動作をそのまま維持）────────────────────────────────
+    json_added = 0
     if deduped:
-        added = save_complete(deduped, today)
-        log(f"✅ {added}件を新規追加")
+        json_added = save_complete(deduped, today)
+        log(f"✅ {json_added}件を新規追加")
     else:
         log("ℹ️  新規の店舗投稿コンプリートが見つかりませんでした")
 
@@ -828,6 +1031,21 @@ def main():
         machine = e["machine"] or "機種不明"
         slot = f" [{e['slot_number']}番台]" if e.get("slot_number") else ""
         log(f"  🎰 {t} {store} / {machine}{slot}")
+
+    # ── Supabase 書き込み（JSON保存の後・失敗してもスクリプトは継続）────────
+    sb_new, sb_dup = supabase_write_complete(deduped)
+
+    # ── Supabase: 実行結果を記録 ──────────────────────────────────────────
+    sb_status = "success" if query_errors == 0 else "partial"
+    supabase_log_end(
+        sb_log_id, sb_status,
+        fetched=len(deduped),
+        new_count=sb_new,
+        dupes=sb_dup,
+        errors=query_errors,
+    )
+    if deduped:  # 何か収集できていれば fetch_state を更新
+        supabase_update_fetch_state("complete")
 
     # ランキング更新
     update_ranking()
