@@ -590,6 +590,74 @@ def update_ranking():
 
     all_data = load_all()
 
+    # ── 機種名NG（誤抽出されやすい非機種名文字列）────────────────────────
+    MACHINE_NAME_NG = {
+        "コンプリート達成", "コンプリート機能", "コンプリート", "お客様",
+        "ありがとうございます", "発動", "作動", "本日", "達成", "発生",
+        "機能", "番台", "スロット", "パチスロ", "スマスロ", "来店",
+    }
+
+    # ── 機種名の表記ゆれ正規化マップ ────────────────────────────────────
+    # キー: 元の表記（部分一致でOK）→ 値: 統一後の正式名称
+    # 長いパターンを先に書くこと（「ヴァルヴレイヴ2」より先に「革命機ヴァルヴレイヴ」）
+    MACHINE_NORMALIZE: list[tuple[str, str]] = [
+        # スマスロ北斗の拳転生
+        ("北斗の拳転生",          "スマスロ北斗の拳転生"),
+        ("北斗転生",              "スマスロ北斗の拳転生"),
+        # スマスロ革命機ヴァルヴレイヴ2
+        ("革命機ヴァルヴレイヴ２", "革命機ヴァルヴレイヴ2"),
+        ("革命機ヴァルヴレイヴ2",  "革命機ヴァルヴレイヴ2"),
+        ("ヴァルヴレイヴ２",       "革命機ヴァルヴレイヴ2"),
+        ("ヴァルヴレイヴ2",        "革命機ヴァルヴレイヴ2"),
+        ("ヴァルヴレイヴ",         "革命機ヴァルヴレイヴ2"),
+        # L炎炎ノ消防隊2
+        ("Ｌ炎炎ノ消防隊２",      "L炎炎ノ消防隊2"),
+        ("炎炎ノ消防隊2",          "L炎炎ノ消防隊2"),
+        ("炎炎ノ消防隊２",         "L炎炎ノ消防隊2"),
+        ("炎炎ノ消防隊",           "L炎炎ノ消防隊2"),
+        # ミリオンゴッド神々の軌跡
+        ("ミリオンゴッド神々の軌跡", "ミリオンゴッド神々の軌跡"),
+        ("ミリオンゴッド-神々",    "ミリオンゴッド神々の軌跡"),
+        ("ミリオンゴッド",         "ミリオンゴッド神々の軌跡"),
+        # 甲鉄城のカバネリ
+        ("甲鉄城のカバネリ",       "甲鉄城のカバネリ"),
+        ("カバネリ",               "甲鉄城のカバネリ"),
+        ("甲鉄城",                 "甲鉄城のカバネリ"),
+        # L東京喰種
+        ("東京喰種",               "L東京喰種"),
+        # スマスロ北斗の拳
+        ("北斗の拳",               "スマスロ北斗の拳"),
+        ("北斗",                   "スマスロ北斗の拳"),
+        # スマスロ攻殻機動隊
+        ("攻殻機動隊",             "スマスロ攻殻機動隊"),
+        # バジリスク絆2
+        ("バジリスク絆２",         "バジリスク絆2"),
+        ("バジリスク絆",           "バジリスク絆2"),
+        ("バジリスク",             "バジリスク絆2"),
+        # L吉宗
+        ("吉宗",                   "L吉宗"),
+        # ゴッドイーター
+        ("ゴッドイーター",         "スマスロゴッドイーター"),
+    ]
+
+    def normalize_machine(name: str) -> str | None:
+        """機種名を正規化。NG文字列はNoneを返す。"""
+        name = name.strip()
+        # 短すぎ・空はスキップ
+        if len(name) < 2:
+            return None
+        # NG文字列チェック
+        if name in MACHINE_NAME_NG:
+            return None
+        # 数字のみ・記号のみはスキップ
+        if re.match(r'^[\d\s]+$', name):
+            return None
+        # 正規化マップ適用（前方一致）
+        for pattern, normalized in MACHINE_NORMALIZE:
+            if pattern in name:
+                return normalized
+        return name
+
     # ── 既存ランキングJSONを読み込み（月別データを蓄積するため）
     existing: dict = {}
     if RANKING_JSON.exists():
@@ -611,11 +679,11 @@ def update_ranking():
             continue
         ym = d[:7]  # "YYYY-MM"
         store   = (e.get("store") or "").strip()
-        machine = (e.get("machine") or "").strip()
+        machine = normalize_machine(e.get("machine") or "")
 
         if store and store not in ("店舗不明",):
             month_store_counter.setdefault(ym, Counter())[store] += 1
-        if machine and machine not in ("機種不明",):
+        if machine:
             month_machine_counter.setdefault(ym, Counter())[machine] += 1
 
     # ── 月別ランキングを更新（過去12ヶ月分保持）
@@ -650,10 +718,10 @@ def update_ranking():
     total_machine_counter: Counter = Counter()
     for e in all_data:
         store   = (e.get("store") or "").strip()
-        machine = (e.get("machine") or "").strip()
+        machine = normalize_machine(e.get("machine") or "")
         if store and store not in ("店舗不明",):
             total_store_counter[store] += 1
-        if machine and machine not in ("機種不明",):
+        if machine:
             total_machine_counter[machine] += 1
 
     total_stores_top = [

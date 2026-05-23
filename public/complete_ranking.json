@@ -1,63 +1,63 @@
 {
-  "updated_at": "2026-05-24T00:18:44+09:00",
+  "updated_at": "2026-05-24T00:42:55+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
       "stores": [
         {
           "rank": 1,
-          "name": "プレイランドキャッスル熱田店",
-          "count": 7
+          "name": "ダイナム",
+          "count": 8
         },
         {
           "rank": 2,
           "name": "キャッスル春日井",
-          "count": 6
+          "count": 7
         },
         {
           "rank": 3,
-          "name": "ダイナム",
-          "count": 5
+          "name": "プレイランドキャッスル熱田店",
+          "count": 7
         },
         {
           "rank": 4,
           "name": "楽園池袋",
-          "count": 4
+          "count": 5
         },
         {
           "rank": 5,
-          "name": "キコーナ海老名",
-          "count": 4
+          "name": "新！ガーデン川口安行【公式】",
+          "count": 5
         }
       ],
       "machines": [
         {
           "rank": 1,
-          "name": "北斗の拳",
-          "count": 10
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 26
         },
         {
           "rank": 2,
-          "name": "ヴァルヴレイヴ2",
-          "count": 6
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 14
         },
         {
           "rank": 3,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 5
+          "name": "スマスロ北斗の拳",
+          "count": 13
         },
         {
           "rank": 4,
-          "name": "東京喰種",
-          "count": 4
+          "name": "L東京喰種",
+          "count": 9
         },
         {
           "rank": 5,
-          "name": "コンプリート達成",
-          "count": 4
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
         }
       ],
-      "total_count": 153
+      "total_count": 215
     },
     "2026-04": {
       "stores": [
@@ -90,27 +90,27 @@
       "machines": [
         {
           "rank": 1,
-          "name": "革命機ヴァルヴレイヴ２",
-          "count": 6
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 11
         },
         {
           "rank": 2,
-          "name": "革命機ヴァルヴレイヴ2",
+          "name": "甲鉄城のカバネリ",
           "count": 2
         },
         {
           "rank": 3,
-          "name": "攻殻機動隊",
+          "name": "スマスロ北斗の拳",
           "count": 2
         },
         {
           "rank": 4,
-          "name": "ヴァルヴレイヴD",
-          "count": 1
+          "name": "スマスロ攻殻機動隊",
+          "count": 2
         },
         {
           "rank": 5,
-          "name": "革命機ヴァルヴレイヴ2』",
+          "name": "ミリオンゴッド神々の軌跡",
           "count": 1
         }
       ],
@@ -122,56 +122,56 @@
       {
         "rank": 1,
         "name": "キャッスル春日井",
-        "count": 12
+        "count": 13
       },
       {
         "rank": 2,
-        "name": "プレイランドキャッスル熱田店",
+        "name": "ダイナム",
         "count": 8
       },
       {
         "rank": 3,
-        "name": "ダイナム",
-        "count": 5
+        "name": "プレイランドキャッスル熱田店",
+        "count": 8
       },
       {
         "rank": 4,
-        "name": "マルハン仙台苦竹店です",
-        "count": 4
+        "name": "楽園池袋",
+        "count": 5
       },
       {
         "rank": 5,
-        "name": "楽園池袋",
-        "count": 4
+        "name": "新！ガーデン川口安行【公式】",
+        "count": 5
       }
     ],
     "machines": [
       {
         "rank": 1,
-        "name": "北斗の拳",
-        "count": 11
+        "name": "革命機ヴァルヴレイヴ2",
+        "count": 37
       },
       {
         "rank": 2,
-        "name": "革命機ヴァルヴレイヴ2",
-        "count": 7
+        "name": "スマスロ北斗の拳",
+        "count": 15
       },
       {
         "rank": 3,
-        "name": "ヴァルヴレイヴ2",
-        "count": 6
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 15
       },
       {
         "rank": 4,
-        "name": "革命機ヴァルヴレイヴ２",
-        "count": 6
+        "name": "L東京喰種",
+        "count": 9
       },
       {
         "rank": 5,
-        "name": "攻殻機動隊",
-        "count": 5
+        "name": "スマスロ攻殻機動隊",
+        "count": 9
       }
     ],
-    "total_count": 181
+    "total_count": 244
   }
 }
