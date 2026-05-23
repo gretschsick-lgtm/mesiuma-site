@@ -333,7 +333,7 @@ export default function AdminPage() {
               </div>
             </a>
             <a
-              href="https://github.com/JJJimbo1/mesiuma-site/actions"
+              href="https://github.com/gretschsick-lgtm/mesiuma-site/actions"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-900 border border-gray-700 hover:border-green-500 rounded-xl p-4 transition group"
