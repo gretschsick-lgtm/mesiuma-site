@@ -16,6 +16,25 @@ type CompleteEntry = {
   collected_at: string;
 };
 
+type RankItem = { rank: number; name: string; count: number };
+
+type MonthlyData = {
+  stores: RankItem[];
+  machines: RankItem[];
+  total_count: number;
+};
+
+type RankingData = {
+  updated_at: string;
+  current_month: string;
+  monthly: Record<string, MonthlyData>;
+  total: {
+    stores: RankItem[];
+    machines: RankItem[];
+    total_count: number;
+  };
+};
+
 const C = {
   bg: "#f5f5f5",
   white: "#ffffff",
@@ -27,6 +46,9 @@ const C = {
   muted: "#888888",
   dim: "#ddd",
 };
+
+const RANK_COLORS = ["#f5c518", "#b0b0b0", "#cd7f32", "#aaaaaa", "#aaaaaa"];
+const RANK_LABELS = ["🥇", "🥈", "🥉", "4位", "5位"];
 
 const DOW = ["日", "月", "火", "水", "木", "金", "土"];
 
@@ -41,6 +63,11 @@ function fmtDate(dateStr: string) {
   const label = isTodayDate ? "今日" : isYesterday ? "昨日" : null;
   const mmdd = `${d.getMonth() + 1}/${d.getDate()}(${DOW[d.getDay()]})`;
   return label ? `${label} ${mmdd}` : mmdd;
+}
+
+function fmtMonth(ym: string) {
+  const [y, m] = ym.split("-");
+  return `${y}年${parseInt(m)}月`;
 }
 
 function CompleteCard({ entry }: { entry: CompleteEntry }) {
@@ -152,19 +179,224 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
   );
 }
 
+function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" }) {
+  const icon = type === "store" ? "📍" : "🎰";
+  const isTop3 = item.rank <= 3;
+  return (
+    <div style={{
+      display: "flex", alignItems: "center", gap: 10,
+      padding: "10px 14px",
+      background: isTop3 ? (item.rank === 1 ? "linear-gradient(90deg,#fffbea,#fff9e0)" : C.white) : C.white,
+      borderBottom: `1px solid ${C.border}`,
+    }}>
+      <div style={{
+        width: 32, height: 32, borderRadius: "50%",
+        background: RANK_COLORS[item.rank - 1],
+        display: "flex", alignItems: "center", justifyContent: "center",
+        fontSize: item.rank <= 3 ? 16 : 12,
+        fontWeight: 800, color: item.rank <= 3 ? "#fff" : "#555",
+        flexShrink: 0,
+      }}>
+        {item.rank <= 3 ? RANK_LABELS[item.rank - 1] : item.rank}
+      </div>
+      <div style={{ flex: 1, minWidth: 0 }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: C.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+          {icon} {item.name}
+        </div>
+      </div>
+      <div style={{
+        fontSize: 20, fontWeight: 900, color: isTop3 ? C.gold : C.muted,
+        flexShrink: 0, textAlign: "right",
+      }}>
+        {item.count}
+        <span style={{ fontSize: 10, fontWeight: 400, color: C.muted, marginLeft: 2 }}>回</span>
+      </div>
+    </div>
+  );
+}
+
+function RankingSection({ ranking }: { ranking: RankingData }) {
+  const currentMonth = ranking.current_month;
+  const monthData = ranking.monthly[currentMonth];
+
+  // 月セレクター
+  const availableMonths = Object.keys(ranking.monthly).sort((a, b) => b.localeCompare(a));
+  const [selectedMonth, setSelectedMonth] = useState(currentMonth);
+  const selData = ranking.monthly[selectedMonth];
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
+      {/* 月間ランキング */}
+      <div style={{
+        background: C.white, borderRadius: 12,
+        border: `1px solid ${C.border}`,
+        overflow: "hidden",
+        boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+      }}>
+        <div style={{
+          background: "linear-gradient(90deg,#1a1a2e,#0f3460)",
+          color: "#fff", padding: "14px 16px",
+          display: "flex", alignItems: "center", justifyContent: "space-between",
+          flexWrap: "wrap", gap: 8,
+        }}>
+          <div>
+            <div style={{ fontSize: 15, fontWeight: 800 }}>📅 月間ランキング</div>
+            <div style={{ fontSize: 11, color: "#aab", marginTop: 2 }}>
+              {monthData ? `${fmtMonth(currentMonth)}: ${monthData.total_count}件` : "データなし"}
+            </div>
+          </div>
+          {availableMonths.length > 1 && (
+            <select
+              value={selectedMonth}
+              onChange={e => setSelectedMonth(e.target.value)}
+              style={{
+                fontSize: 12, padding: "4px 8px", borderRadius: 6,
+                border: "1px solid #555", background: "#1a1a2e", color: "#fff",
+                cursor: "pointer",
+              }}
+            >
+              {availableMonths.map(ym => (
+                <option key={ym} value={ym}>{fmtMonth(ym)}</option>
+              ))}
+            </select>
+          )}
+        </div>
+
+        {selData ? (
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 0 }}>
+            {/* 店舗別 */}
+            <div>
+              <div style={{
+                padding: "8px 14px", fontSize: 11, fontWeight: 700,
+                color: C.sub, background: "#fafafa",
+                borderBottom: `1px solid ${C.border}`,
+                borderRight: `1px solid ${C.border}`,
+              }}>
+                🏪 店舗別TOP5
+              </div>
+              {selData.stores.length > 0 ? (
+                selData.stores.map(item => (
+                  <div key={item.rank} style={{ borderRight: `1px solid ${C.border}` }}>
+                    <RankingRow item={item} type="store" />
+                  </div>
+                ))
+              ) : (
+                <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データなし</div>
+              )}
+            </div>
+            {/* 機種別 */}
+            <div>
+              <div style={{
+                padding: "8px 14px", fontSize: 11, fontWeight: 700,
+                color: C.sub, background: "#fafafa",
+                borderBottom: `1px solid ${C.border}`,
+              }}>
+                🎰 機種別TOP5
+              </div>
+              {selData.machines.length > 0 ? (
+                selData.machines.map(item => (
+                  <RankingRow key={item.rank} item={item} type="machine" />
+                ))
+              ) : (
+                <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データなし</div>
+              )}
+            </div>
+          </div>
+        ) : (
+          <div style={{ padding: "30px", color: C.muted, fontSize: 13, textAlign: "center" }}>
+            {fmtMonth(selectedMonth)}のデータがありません
+          </div>
+        )}
+      </div>
+
+      {/* トータルランキング */}
+      <div style={{
+        background: C.white, borderRadius: 12,
+        border: `1px solid ${C.border}`,
+        overflow: "hidden",
+        boxShadow: "0 2px 8px rgba(0,0,0,0.06)",
+      }}>
+        <div style={{
+          background: "linear-gradient(90deg,#7b2d00,#c9910a)",
+          color: "#fff", padding: "14px 16px",
+          display: "flex", alignItems: "center", justifyContent: "space-between",
+        }}>
+          <div>
+            <div style={{ fontSize: 15, fontWeight: 800 }}>🏆 トータルランキング</div>
+            <div style={{ fontSize: 11, color: "#ffe", marginTop: 2 }}>
+              累計 {ranking.total.total_count}件のコンプリート報告より
+            </div>
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 0 }}>
+          <div>
+            <div style={{
+              padding: "8px 14px", fontSize: 11, fontWeight: 700,
+              color: C.sub, background: "#fafafa",
+              borderBottom: `1px solid ${C.border}`,
+              borderRight: `1px solid ${C.border}`,
+            }}>
+              🏪 店舗別TOP5
+            </div>
+            {ranking.total.stores.length > 0 ? (
+              ranking.total.stores.map(item => (
+                <div key={item.rank} style={{ borderRight: `1px solid ${C.border}` }}>
+                  <RankingRow item={item} type="store" />
+                </div>
+              ))
+            ) : (
+              <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
+            )}
+          </div>
+          <div>
+            <div style={{
+              padding: "8px 14px", fontSize: 11, fontWeight: 700,
+              color: C.sub, background: "#fafafa",
+              borderBottom: `1px solid ${C.border}`,
+            }}>
+              🎰 機種別TOP5
+            </div>
+            {ranking.total.machines.length > 0 ? (
+              ranking.total.machines.map(item => (
+                <RankingRow key={item.rank} item={item} type="machine" />
+              ))
+            ) : (
+              <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
+            )}
+          </div>
+        </div>
+
+        <div style={{ padding: "8px 14px", fontSize: 10, color: C.muted, background: "#fafafa", borderTop: `1px solid ${C.border}` }}>
+          最終更新: {ranking.updated_at.replace("T", " ").slice(0, 16)}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function CompletePage() {
   const [entries, setEntries] = useState<CompleteEntry[]>([]);
+  const [ranking, setRanking] = useState<RankingData | null>(null);
   const [loading, setLoading] = useState(true);
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [refreshing, setRefreshing] = useState(false);
+  const [tab, setTab] = useState<"feed" | "ranking">("feed");
 
   const loadData = useCallback(async (silent = false) => {
     if (!silent) setLoading(true);
     else setRefreshing(true);
     try {
-      const res = await fetch(`/complete_info.json?t=${Date.now()}`);
-      const data: CompleteEntry[] = await res.json();
+      const [resEntries, resRanking] = await Promise.all([
+        fetch(`/complete_info.json?t=${Date.now()}`),
+        fetch(`/complete_ranking.json?t=${Date.now()}`),
+      ]);
+      const data: CompleteEntry[] = await resEntries.json();
       setEntries(data);
+      if (resRanking.ok) {
+        const rankData: RankingData = await resRanking.json();
+        setRanking(rankData);
+      }
       setLastUpdated(new Date());
     } catch {
       // ignore
@@ -188,15 +420,12 @@ export default function CompletePage() {
       if (!map.has(d)) map.set(d, []);
       map.get(d)!.push(e);
     }
-    // 各日付内を時刻降順に
     for (const [, list] of map) {
       list.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
     }
-    // 日付を新しい順に並べた配列で返す
     return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]));
   }, [entries]);
 
-  // JST (UTC+9) で「今日」を判定
   const todayStr = (() => {
     const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
     return d.toISOString().slice(0, 10);
@@ -209,11 +438,11 @@ export default function CompletePage() {
       {/* ヘッダー */}
       <div style={{
         background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%)",
-        color: "#fff", padding: "16px 16px 16px",
+        color: "#fff", padding: "16px 16px 0",
       }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
           <a href="/" style={{ color: "#aaa", fontSize: 12, textDecoration: "none" }}>← トップ</a>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", margin: "8px 0 0" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", margin: "8px 0 12px" }}>
             <div>
               <h1 style={{ margin: "0 0 2px", fontSize: 20, fontWeight: 800 }}>
                 🏆 コンプリート情報
@@ -230,6 +459,29 @@ export default function CompletePage() {
               )}
               <div style={{ fontSize: 10, color: "#99aacc" }}>本日</div>
             </div>
+          </div>
+
+          {/* タブ */}
+          <div style={{ display: "flex", gap: 4 }}>
+            {([
+              { key: "feed", label: "📋 コンプリート情報" },
+              { key: "ranking", label: "🏆 ランキング" },
+            ] as const).map(t => (
+              <button
+                key={t.key}
+                onClick={() => setTab(t.key)}
+                style={{
+                  padding: "8px 16px", fontSize: 13, fontWeight: 700,
+                  border: "none", borderRadius: "8px 8px 0 0",
+                  cursor: "pointer",
+                  background: tab === t.key ? C.bg : "rgba(255,255,255,0.12)",
+                  color: tab === t.key ? C.text : "rgba(255,255,255,0.8)",
+                  transition: "all 0.15s",
+                }}
+              >
+                {t.label}
+              </button>
+            ))}
           </div>
         </div>
       </div>
@@ -275,6 +527,14 @@ export default function CompletePage() {
           <div style={{ textAlign: "center", padding: "60px 0", color: C.muted }}>
             読み込み中...
           </div>
+        ) : tab === "ranking" ? (
+          ranking ? (
+            <RankingSection ranking={ranking} />
+          ) : (
+            <div style={{ textAlign: "center", padding: "60px 0", color: C.muted }}>
+              ランキングデータを取得中...
+            </div>
+          )
         ) : grouped.length === 0 ? (
           <div style={{ textAlign: "center", padding: "60px 0" }}>
             <div style={{ fontSize: 44, marginBottom: 12 }}>🎰</div>

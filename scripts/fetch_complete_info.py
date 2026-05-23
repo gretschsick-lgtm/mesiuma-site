@@ -44,6 +44,7 @@ except ImportError:
     HAS_BROWSER_COOKIE3 = False
 
 COMPLETE_JSON      = Path(__file__).parent.parent / "public/complete_info.json"
+RANKING_JSON       = Path(__file__).parent.parent / "public/complete_ranking.json"
 PLAYWRIGHT_PROFILE = Path(__file__).parent / ".x_auth_profile"
 
 # ---------------------------------------------------------------------------
@@ -574,6 +575,113 @@ def save_complete(new_entries: list[dict], target_date: str):
     return len(new_only)
 
 
+def update_ranking():
+    """
+    complete_info.json から月間・トータルランキングを集計して
+    complete_ranking.json を更新する。
+    店舗別・機種別のTOP5を月ごとに保持し、全期間集計も持つ。
+    """
+    from collections import Counter
+    from datetime import timezone, timedelta
+
+    JST = timezone(timedelta(hours=9))
+    now_jst = datetime.now(JST)
+    this_month = now_jst.strftime("%Y-%m")
+
+    all_data = load_all()
+
+    # ── 既存ランキングJSONを読み込み（月別データを蓄積するため）
+    existing: dict = {}
+    if RANKING_JSON.exists():
+        try:
+            with open(RANKING_JSON, encoding="utf-8") as f:
+                existing = json.load(f)
+        except Exception:
+            existing = {}
+
+    monthly_data: dict = existing.get("monthly", {})
+
+    # ── 月別の store/machine カウント
+    month_store_counter:   dict[str, Counter] = {}
+    month_machine_counter: dict[str, Counter] = {}
+
+    for e in all_data:
+        d = e.get("date", "")
+        if not d or len(d) < 7:
+            continue
+        ym = d[:7]  # "YYYY-MM"
+        store   = (e.get("store") or "").strip()
+        machine = (e.get("machine") or "").strip()
+
+        if store and store not in ("店舗不明",):
+            month_store_counter.setdefault(ym, Counter())[store] += 1
+        if machine and machine not in ("機種不明",):
+            month_machine_counter.setdefault(ym, Counter())[machine] += 1
+
+    # ── 月別ランキングを更新（過去12ヶ月分保持）
+    months_to_keep = set()
+    for i in range(12):
+        m_date = now_jst.replace(day=1) - __import__('datetime').timedelta(days=i * 28)
+        months_to_keep.add(m_date.strftime("%Y-%m"))
+
+    for ym in list(monthly_data.keys()):
+        if ym not in months_to_keep:
+            del monthly_data[ym]
+
+    for ym in month_store_counter:
+        if ym not in months_to_keep:
+            continue
+        stores_top = [
+            {"rank": i + 1, "name": name, "count": cnt}
+            for i, (name, cnt) in enumerate(month_store_counter[ym].most_common(5))
+        ]
+        machines_top = [
+            {"rank": i + 1, "name": name, "count": cnt}
+            for i, (name, cnt) in enumerate(month_machine_counter.get(ym, Counter()).most_common(5))
+        ]
+        monthly_data[ym] = {
+            "stores": stores_top,
+            "machines": machines_top,
+            "total_count": sum(month_store_counter[ym].values()),
+        }
+
+    # ── トータルランキング（全データから集計）
+    total_store_counter: Counter = Counter()
+    total_machine_counter: Counter = Counter()
+    for e in all_data:
+        store   = (e.get("store") or "").strip()
+        machine = (e.get("machine") or "").strip()
+        if store and store not in ("店舗不明",):
+            total_store_counter[store] += 1
+        if machine and machine not in ("機種不明",):
+            total_machine_counter[machine] += 1
+
+    total_stores_top = [
+        {"rank": i + 1, "name": name, "count": cnt}
+        for i, (name, cnt) in enumerate(total_store_counter.most_common(5))
+    ]
+    total_machines_top = [
+        {"rank": i + 1, "name": name, "count": cnt}
+        for i, (name, cnt) in enumerate(total_machine_counter.most_common(5))
+    ]
+
+    ranking = {
+        "updated_at": now_jst.strftime("%Y-%m-%dT%H:%M:%S+09:00"),
+        "current_month": this_month,
+        "monthly": monthly_data,
+        "total": {
+            "stores": total_stores_top,
+            "machines": total_machines_top,
+            "total_count": len(all_data),
+        },
+    }
+
+    with open(RANKING_JSON, "w", encoding="utf-8") as f:
+        json.dump(ranking, f, ensure_ascii=False, indent=2)
+
+    log(f"🏆 ランキング更新: 月別{len(monthly_data)}ヶ月分 / トータル店舗TOP{len(total_stores_top)} / 機種TOP{len(total_machines_top)}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
@@ -652,6 +760,9 @@ def main():
         machine = e["machine"] or "機種不明"
         slot = f" [{e['slot_number']}番台]" if e.get("slot_number") else ""
         log(f"  🎰 {t} {store} / {machine}{slot}")
+
+    # ランキング更新
+    update_ranking()
 
     log("=" * 60)
 

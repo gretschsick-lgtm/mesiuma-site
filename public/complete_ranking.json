@@ -1,0 +1,177 @@
+{
+  "updated_at": "2026-05-24T00:18:44+09:00",
+  "current_month": "2026-05",
+  "monthly": {
+    "2026-05": {
+      "stores": [
+        {
+          "rank": 1,
+          "name": "プレイランドキャッスル熱田店",
+          "count": 7
+        },
+        {
+          "rank": 2,
+          "name": "キャッスル春日井",
+          "count": 6
+        },
+        {
+          "rank": 3,
+          "name": "ダイナム",
+          "count": 5
+        },
+        {
+          "rank": 4,
+          "name": "楽園池袋",
+          "count": 4
+        },
+        {
+          "rank": 5,
+          "name": "キコーナ海老名",
+          "count": 4
+        }
+      ],
+      "machines": [
+        {
+          "rank": 1,
+          "name": "北斗の拳",
+          "count": 10
+        },
+        {
+          "rank": 2,
+          "name": "ヴァルヴレイヴ2",
+          "count": 6
+        },
+        {
+          "rank": 3,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 5
+        },
+        {
+          "rank": 4,
+          "name": "東京喰種",
+          "count": 4
+        },
+        {
+          "rank": 5,
+          "name": "コンプリート達成",
+          "count": 4
+        }
+      ],
+      "total_count": 153
+    },
+    "2026-04": {
+      "stores": [
+        {
+          "rank": 1,
+          "name": "キャッスル春日井",
+          "count": 6
+        },
+        {
+          "rank": 2,
+          "name": "キャッスル高浜店でお楽しみください",
+          "count": 2
+        },
+        {
+          "rank": 3,
+          "name": "ジャラン水元店",
+          "count": 2
+        },
+        {
+          "rank": 4,
+          "name": "ユーコーラッキー37筑後店",
+          "count": 1
+        },
+        {
+          "rank": 5,
+          "name": "関西すろいべ(旧ネコスロ)",
+          "count": 1
+        }
+      ],
+      "machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ２",
+          "count": 6
+        },
+        {
+          "rank": 2,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 2
+        },
+        {
+          "rank": 3,
+          "name": "攻殻機動隊",
+          "count": 2
+        },
+        {
+          "rank": 4,
+          "name": "ヴァルヴレイヴD",
+          "count": 1
+        },
+        {
+          "rank": 5,
+          "name": "革命機ヴァルヴレイヴ2』",
+          "count": 1
+        }
+      ],
+      "total_count": 24
+    }
+  },
+  "total": {
+    "stores": [
+      {
+        "rank": 1,
+        "name": "キャッスル春日井",
+        "count": 12
+      },
+      {
+        "rank": 2,
+        "name": "プレイランドキャッスル熱田店",
+        "count": 8
+      },
+      {
+        "rank": 3,
+        "name": "ダイナム",
+        "count": 5
+      },
+      {
+        "rank": 4,
+        "name": "マルハン仙台苦竹店です",
+        "count": 4
+      },
+      {
+        "rank": 5,
+        "name": "楽園池袋",
+        "count": 4
+      }
+    ],
+    "machines": [
+      {
+        "rank": 1,
+        "name": "北斗の拳",
+        "count": 11
+      },
+      {
+        "rank": 2,
+        "name": "革命機ヴァルヴレイヴ2",
+        "count": 7
+      },
+      {
+        "rank": 3,
+        "name": "ヴァルヴレイヴ2",
+        "count": 6
+      },
+      {
+        "rank": 4,
+        "name": "革命機ヴァルヴレイヴ２",
+        "count": 6
+      },
+      {
+        "rank": 5,
+        "name": "攻殻機動隊",
+        "count": 5
+      }
+    ],
+    "total_count": 181
+  }
+}
