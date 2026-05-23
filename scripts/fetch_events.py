@@ -1101,14 +1101,14 @@ def scrape_x_timeline(page, username: str, store_names: set[str], store_hint: st
             page.wait_for_selector('article[data-testid="tweet"]', timeout=6000)
         except PlaywrightTimeout:
             return []
-        # 8回スクロールで深く取得
-        for _ in range(8):
-            page.mouse.wheel(0, 2500)
-            page.wait_for_timeout(400)
+        # 50回スクロール（Publicリポジトリ=無制限）
+        for _ in range(50):
+            page.mouse.wheel(0, 4000)
+            page.wait_for_timeout(500)
     except Exception as e:
         log(f"    ⚠️  @{username}: {e}")
         return []
-    return _x_scrape_page(page, store_names, 50, f"@{username}", store_hint=store_hint)
+    return _x_scrape_page(page, store_names, 200, f"@{username}", store_hint=store_hint)
 
 
 def scrape_x_search(page, query: str, store_names: set[str]) -> list[dict]:
@@ -1120,14 +1120,14 @@ def scrape_x_search(page, query: str, store_names: set[str]) -> list[dict]:
             page.wait_for_selector('article[data-testid="tweet"]', timeout=6000)
         except PlaywrightTimeout:
             return []
-        # 12回スクロール
-        for _ in range(12):
-            page.mouse.wheel(0, 2500)
-            page.wait_for_timeout(500)
+        # 80回スクロール（Publicリポジトリ=無制限）
+        for _ in range(80):
+            page.mouse.wheel(0, 4000)
+            page.wait_for_timeout(700)
     except Exception as e:
         log(f"    ⚠️  {query!r}: {e}")
         return []
-    return _x_scrape_page(page, store_names, 80, "search")
+    return _x_scrape_page(page, store_names, 200, "search")
 
 
 # ---------------------------------------------------------------------------

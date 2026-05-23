@@ -2,9 +2,9 @@ name: Update Events
 
 on:
   schedule:
-    # machines (0,3,6,9,12,15,18,21 UTC) の完了後に動くよう1時間ずらし
-    # UTC 1,4,7,10,13,16,19,22時 = JST 10,13,16,19,22,1,4,7時
-    - cron: "0 1,4,7,10,13,16,19,22 * * *"
+    # 毎時間実行（Publicリポジトリ=無制限無料）
+    # UTC 0-23時 毎時 = JST 9:00〜翌8:00
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +14,7 @@ jobs:
   # ─── JOB A: X アカウントタイムライン（メディア + 個別店舗）──────────────
   fetch-accounts:
     runs-on: ubuntu-latest
-    timeout-minutes: 80
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,7 +40,7 @@ jobs:
   # ─── JOB B: X キーワード検索（300+クエリ）───────────────────────────────
   fetch-search:
     runs-on: ubuntu-latest
-    timeout-minutes: 80
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -66,7 +66,7 @@ jobs:
   # ─── JOB C: Yahoo!リアルタイム + Google News ────────────────────────────
   fetch-google:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -89,7 +89,7 @@ jobs:
   # ─── JOB D: 公式イベントサイト（ぱちタウン/スロパチ/ジャンバリ等）──────
   fetch-web:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -112,7 +112,7 @@ jobs:
   # ─── JOB E: YouTube（yt-dlp ベース・ボット検知回避）────────────────────
   fetch-youtube:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
@@ -135,7 +135,7 @@ jobs:
   # ─── JOB F: p-town /schedules + P-World 取材来店情報 HTTP スクレイプ ─────
   fetch-ptown:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 360
     steps:
       - uses: actions/checkout@v4
         with:
