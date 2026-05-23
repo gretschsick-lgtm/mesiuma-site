@@ -452,9 +452,9 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     results = []
     seen_urls: set[str] = set()
 
-    # 当日のみに絞る（JST基準）。until は翌日にして23:59のツイートも含む
+    # 前日 + 当日を収集（夜間の投稿漏れ・前回実行のこぼし分をカバー）
     from datetime import date as _dt, timedelta
-    since_date = today_str                                                     # 当日のみ
+    since_date = (_dt.fromisoformat(today_str) - timedelta(days=1)).strftime("%Y-%m-%d")
     until_date = (_dt.fromisoformat(today_str) + timedelta(days=1)).strftime("%Y-%m-%d")
     # -filter:retweets で RT を除外し、店舗の原投稿に絞る
     date_filter = f" since:{since_date} until:{until_date} -filter:retweets"
