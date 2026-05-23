@@ -325,6 +325,43 @@ def is_store_tweet(text: str) -> bool:
     return any(pat.search(text) for pat in STORE_TWEET_PATTERNS)
 
 
+# ---------------------------------------------------------------------------
+# 機種タイプ判定（パチスロ / パチンコ）
+# ---------------------------------------------------------------------------
+_SLOT_KEYWORDS = [
+    "スマスロ", "Lパチスロ", "パチスロ", "北斗", "ヴァルヴレイヴ", "ミリオンゴッド",
+    "攻殻機動隊", "炎炎ノ消防隊", "東京喰種", "カバネリ", "バジリスク",
+    "モンスターハンター", "リコリス", "ゾンビランドサガ", "ジャグラー",
+    "チバリヨ", "吉宗", "鉄拳", "まどマギ", "鬼武者", "エウレカ",
+    "Re:ゼロ", "転スラ", "バイオハザード", "ブルーロック",
+]
+_PACHINKO_PATTERNS = [
+    re.compile(r'牙狼'),
+    re.compile(r'^CR[A-Z]'),
+    re.compile(r'^e[A-Z牙]'),
+    re.compile(r'^ｅ[A-Zａ-ｚ牙]'),
+    re.compile(r'スマパチ'),
+    re.compile(r'大当たり'),
+    re.compile(r'確変'),
+]
+
+
+def get_machine_type(machine: str) -> str:
+    """機種名からパチスロ(slot) / パチンコ(pachinko) を判定する。デフォルト: slot。"""
+    if not machine:
+        return "slot"
+    m = machine.strip()
+    # スロットキーワードが含まれていれば slot 確定
+    for kw in _SLOT_KEYWORDS:
+        if kw in m:
+            return "slot"
+    # パチンコパターンにマッチすれば pachinko
+    for pat in _PACHINKO_PATTERNS:
+        if pat.search(m):
+            return "pachinko"
+    return "slot"
+
+
 def extract_machine(text: str) -> str:
     for pat in MACHINE_PATTERNS:
         m = pat.search(text)
@@ -440,6 +477,7 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
         "time": tweet_time,                          # JST HH:MM
         "store": store,
         "machine": machine,
+        "machine_type": get_machine_type(machine),   # "slot" or "pachinko"
         "slot_number": slot_number,                  # 台番号
         "text": text[:250].replace("\n", " "),
         "images": images[:4],
@@ -865,8 +903,10 @@ def update_ranking():
     monthly_data: dict = existing.get("monthly", {})
 
     # ── 月別の store/machine カウント
-    month_store_counter:   dict[str, Counter] = {}
-    month_machine_counter: dict[str, Counter] = {}
+    month_store_counter:          dict[str, Counter] = {}
+    month_machine_counter:        dict[str, Counter] = {}
+    month_slot_machine_counter:   dict[str, Counter] = {}
+    month_pachinko_machine_counter: dict[str, Counter] = {}
 
     for e in all_data:
         d = e.get("date", "")
@@ -875,11 +915,16 @@ def update_ranking():
         ym = d[:7]  # "YYYY-MM"
         store   = (e.get("store") or "").strip()
         machine = normalize_machine(e.get("machine") or "")
+        mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
 
         if store and store not in ("店舗不明",):
             month_store_counter.setdefault(ym, Counter())[store] += 1
         if machine:
             month_machine_counter.setdefault(ym, Counter())[machine] += 1
+            if mt == "pachinko":
+                month_pachinko_machine_counter.setdefault(ym, Counter())[machine] += 1
+            else:
+                month_slot_machine_counter.setdefault(ym, Counter())[machine] += 1
 
     # ── 月別ランキングを更新（過去12ヶ月分保持）
     months_to_keep = set()
@@ -902,22 +947,39 @@ def update_ranking():
             {"rank": i + 1, "name": name, "count": cnt}
             for i, (name, cnt) in enumerate(month_machine_counter.get(ym, Counter()).most_common(5))
         ]
+        slot_machines_top = [
+            {"rank": i + 1, "name": name, "count": cnt}
+            for i, (name, cnt) in enumerate(month_slot_machine_counter.get(ym, Counter()).most_common(5))
+        ]
+        pachinko_machines_top = [
+            {"rank": i + 1, "name": name, "count": cnt}
+            for i, (name, cnt) in enumerate(month_pachinko_machine_counter.get(ym, Counter()).most_common(5))
+        ]
         monthly_data[ym] = {
             "stores": stores_top,
             "machines": machines_top,
+            "slot_machines": slot_machines_top,
+            "pachinko_machines": pachinko_machines_top,
             "total_count": sum(month_store_counter[ym].values()),
         }
 
     # ── トータルランキング（全データから集計）
     total_store_counter: Counter = Counter()
     total_machine_counter: Counter = Counter()
+    total_slot_machine_counter: Counter = Counter()
+    total_pachinko_machine_counter: Counter = Counter()
     for e in all_data:
         store   = (e.get("store") or "").strip()
         machine = normalize_machine(e.get("machine") or "")
+        mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
         if store and store not in ("店舗不明",):
             total_store_counter[store] += 1
         if machine:
             total_machine_counter[machine] += 1
+            if mt == "pachinko":
+                total_pachinko_machine_counter[machine] += 1
+            else:
+                total_slot_machine_counter[machine] += 1
 
     total_stores_top = [
         {"rank": i + 1, "name": name, "count": cnt}
@@ -927,6 +989,14 @@ def update_ranking():
         {"rank": i + 1, "name": name, "count": cnt}
         for i, (name, cnt) in enumerate(total_machine_counter.most_common(5))
     ]
+    total_slot_machines_top = [
+        {"rank": i + 1, "name": name, "count": cnt}
+        for i, (name, cnt) in enumerate(total_slot_machine_counter.most_common(5))
+    ]
+    total_pachinko_machines_top = [
+        {"rank": i + 1, "name": name, "count": cnt}
+        for i, (name, cnt) in enumerate(total_pachinko_machine_counter.most_common(5))
+    ]
 
     ranking = {
         "updated_at": now_jst.strftime("%Y-%m-%dT%H:%M:%S+09:00"),
@@ -935,6 +1005,8 @@ def update_ranking():
         "total": {
             "stores": total_stores_top,
             "machines": total_machines_top,
+            "slot_machines": total_slot_machines_top,
+            "pachinko_machines": total_pachinko_machines_top,
             "total_count": len(all_data),
         },
     }
