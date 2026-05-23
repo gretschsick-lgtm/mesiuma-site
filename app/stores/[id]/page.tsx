@@ -30,6 +30,7 @@ type MachineInfo = {
   address?: string;
   x_url?: string;
   hp_url?: string;
+  dmm_url?: string;    // DMM（将来対応）
   line_url?: string;
   floor_map_url?: string;
   pachinko?: MachineRate[];
@@ -39,8 +40,9 @@ type MachineInfo = {
   machines_installed?: MachineTile[];
   new_machines?: MachineTile[];
   updated_at?: string;
-  photo_url?: string;
+  // photo_url は P-WORLD 由来のため転載禁止 — 型から除外
   pworld_url?: string;
+  pworld_slug?: string;
 };
 
 type Event = {
@@ -99,6 +101,16 @@ function isFuture(date: string): boolean {
   const d = new Date();
   const today = `${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
   return date >= today;
+}
+
+// ── メシウマ指数（event_count → ★評価）────────────────────────────────────────
+function meshiumaStars(eventCount: number): string {
+  if (eventCount <= 0)  return "☆☆☆☆☆";
+  if (eventCount <= 2)  return "★☆☆☆☆";
+  if (eventCount <= 5)  return "★★☆☆☆";
+  if (eventCount <= 10) return "★★★☆☆";
+  if (eventCount <= 20) return "★★★★☆";
+  return "★★★★★";
 }
 
 // ── スタイルヘルパー ──────────────────────────────────────────────────────────
@@ -439,6 +451,16 @@ export default function StoreDetailPage() {
                 🎮 {[machineInfo?.pachinko_total && `パチ${machineInfo.pachinko_total}台`, machineInfo?.slot_total && `スロ${machineInfo.slot_total}台`].filter(Boolean).join("・")}
               </span>
             )}
+            {/* メシウマ指数（イベント実績ベース） */}
+            <span style={{
+              background: store.event_count > 0 ? "#fff8e0" : "#f5f5f5",
+              color: store.event_count > 0 ? "#886600" : C.muted,
+              fontSize: 12, fontWeight: 700,
+              padding: "3px 10px", borderRadius: 3,
+              border: `1px solid ${store.event_count > 0 ? "#eedd88" : C.border}`,
+            }}>
+              メシウマ指数 {meshiumaStars(store.event_count)}
+            </span>
             {store.event_count > 0 && (
               <span style={{ background: "#fff8e0", color: "#886600", fontSize: 12, fontWeight: 700, padding: "3px 10px", borderRadius: 3, border: "1px solid #eedd88" }}>
                 ⭐ イベント {store.event_count}件
@@ -452,12 +474,13 @@ export default function StoreDetailPage() {
           </div>
 
           {/* 公式リンクボタン */}
-          {(hpUrl || xUrl || machineInfo?.pworld_url || mapUrl) && (
+          {(hpUrl || xUrl || machineInfo?.dmm_url || machineInfo?.pworld_url || mapUrl) && (
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-              {hpUrl              && <a href={hpUrl}               target="_blank" rel="noopener noreferrer" style={btnStyle(C.red,    true)}>🌐 公式サイト</a>}
-              {xUrl               && <a href={xUrl}                target="_blank" rel="noopener noreferrer" style={btnStyle("#000",   true)}>𝕏 X</a>}
-              {machineInfo?.pworld_url && <a href={machineInfo.pworld_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#0066cc", true)}>🏢 P-WORLD</a>}
-              {mapUrl             && <a href={mapUrl}              target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
+              {hpUrl                    && <a href={hpUrl}                    target="_blank" rel="noopener noreferrer" style={btnStyle(C.red,    true)}>🌐 公式サイト</a>}
+              {xUrl                     && <a href={xUrl}                     target="_blank" rel="noopener noreferrer" style={btnStyle("#000",   true)}>𝕏 X</a>}
+              {machineInfo?.dmm_url     && <a href={machineInfo.dmm_url}     target="_blank" rel="noopener noreferrer" style={btnStyle("#f60",   true)}>🎰 DMMで見る</a>}
+              {machineInfo?.pworld_url  && <a href={machineInfo.pworld_url}  target="_blank" rel="noopener noreferrer" style={btnStyle("#0066cc", true)}>🏢 P-WORLDで見る</a>}
+              {mapUrl                   && <a href={mapUrl}                   target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
             </div>
           )}
         </div>
@@ -493,13 +516,15 @@ export default function StoreDetailPage() {
             )}
 
             {/* リンクボタン */}
-            {(hpUrl || xUrl || machineInfo?.line_url || mapUrl || floorUrl) && (
+            {(hpUrl || xUrl || machineInfo?.dmm_url || machineInfo?.pworld_url || machineInfo?.line_url || mapUrl || floorUrl) && (
               <div style={{ padding: "16px 20px", borderTop: `1px solid ${C.border}`, display: "flex", gap: 8, flexWrap: "wrap" }}>
-                {hpUrl     && <a href={hpUrl}              target="_blank" rel="noopener noreferrer" style={btnStyle(C.red,   true)}>🌐 公式サイト</a>}
-                {xUrl      && <a href={xUrl}               target="_blank" rel="noopener noreferrer" style={btnStyle("#000",  true)}>𝕏 X</a>}
-                {machineInfo?.line_url && <a href={machineInfo.line_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#06C755", true)}>💬 LINE</a>}
-                {mapUrl    && <a href={mapUrl}             target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
-                {floorUrl  && <a href={floorUrl}           target="_blank" rel="noopener noreferrer" style={btnStyle("#888",  true)}>🏢 フロアマップ</a>}
+                {hpUrl                    && <a href={hpUrl}                    target="_blank" rel="noopener noreferrer" style={btnStyle(C.red,    true)}>🌐 公式サイト</a>}
+                {xUrl                     && <a href={xUrl}                     target="_blank" rel="noopener noreferrer" style={btnStyle("#000",   true)}>𝕏 X</a>}
+                {machineInfo?.dmm_url     && <a href={machineInfo.dmm_url}     target="_blank" rel="noopener noreferrer" style={btnStyle("#f60",   true)}>🎰 DMMで見る</a>}
+                {machineInfo?.pworld_url  && <a href={machineInfo.pworld_url}  target="_blank" rel="noopener noreferrer" style={btnStyle("#0066cc", true)}>🏢 P-WORLDで見る</a>}
+                {machineInfo?.line_url    && <a href={machineInfo.line_url}    target="_blank" rel="noopener noreferrer" style={btnStyle("#06C755", true)}>💬 LINE</a>}
+                {mapUrl                   && <a href={mapUrl}                   target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
+                {floorUrl                 && <a href={floorUrl}                 target="_blank" rel="noopener noreferrer" style={btnStyle("#888",   true)}>🏢 フロアマップ</a>}
               </div>
             )}
           </div>
