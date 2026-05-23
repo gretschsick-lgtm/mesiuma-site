@@ -2,9 +2,10 @@ name: Update Complete Info
 
 on:
   schedule:
-    # JST 15:00〜翌1:00 を2時間おきに実行
-    # JST 15:00 = UTC 06:00 / 17:00=08 / 19:00=10 / 21:00=12 / 23:00=14 / 翌1:00=16
-    - cron: "0 6,8,10,12,14,16 * * *"
+    # JST 15:00〜翌1:00を毎時間実行（コンプリートが集中する夜間帯をカバー）
+    # JST 15=UTC06 / 16=07 / 17=08 / 18=09 / 19=10 / 20=11
+    # JST 21=UTC12 / 22=13 / 23=14 / 翌0=15 / 翌1=16
+    - cron: "0 6,7,8,9,10,11,12,13,14,15,16 * * *"
   workflow_dispatch: # 手動実行も可
 
 permissions:
@@ -13,13 +14,12 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # pushするためにtokenが必要
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python

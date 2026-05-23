@@ -108,10 +108,24 @@ COMPLETE_QUERIES = [
     "ゴジラ コンプリート 番台",
     "ブルーロック コンプリート 番台",
     "キン肉マン コンプリート 番台",
-    # ─── 時間帯の広い拾い用（5時間以上前の投稿対策）───
+    "からくりサーカス コンプリート 番台",
+    "モンキーターン コンプリート 番台",
+    "カバネリ コンプリート 番台",
+    "Re:ゼロ コンプリート 番台",
+    "転スラ コンプリート 番台",
+    "バイオハザード コンプリート 番台",
+    # ─── 画像付き限定（店舗投稿は画像が多い）───
+    "コンプリート機能発動 filter:media",
+    "コンプリート達成 番台 filter:media",
+    "#コンプリート機能発動 filter:media",
+    "コンプリート おめでとうございます filter:media",
+    # ─── 拡張パターン（番台なし店舗対策）───
     "コンプリート機能 発動 スロット",
     "コンプリート達成 スマスロ",
     "コンプリート機能 おめでとうございます",
+    "本日 コンプリート機能 発動",
+    "コンプリート 速報 番台",
+    "同時コンプリート スロット",
 ]
 
 # ---------------------------------------------------------------------------
@@ -422,11 +436,12 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list
     results = []
     seen_urls: set[str] = set()
 
-    # 過去3日以内のツイートに絞る（古いピンツイート排除）
+    # 当日のみに絞る（JST基準）。until は翌日にして23:59のツイートも含む
     from datetime import date as _dt, timedelta
-    since_date = (_dt.fromisoformat(today_str) - timedelta(days=2)).strftime("%Y-%m-%d")
+    since_date = today_str                                                     # 当日のみ
     until_date = (_dt.fromisoformat(today_str) + timedelta(days=1)).strftime("%Y-%m-%d")
-    date_filter = f" since:{since_date} until:{until_date}"
+    # -filter:retweets で RT を除外し、店舗の原投稿に絞る
+    date_filter = f" since:{since_date} until:{until_date} -filter:retweets"
     encoded = (query + date_filter).replace(" ", "%20").replace("#", "%23")
     url = f"https://x.com/search?q={encoded}&src=typed_query&f=live"
 
@@ -441,9 +456,9 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 80) -> list
     except PlaywrightTimeout:
         pass
 
-    for _ in range(20):
+    for _ in range(30):
         page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(700)
+        page.wait_for_timeout(600)
 
     articles = page.query_selector_all('article[data-testid="tweet"]')
 
@@ -544,7 +559,13 @@ def main():
     parser.add_argument("--date", default=None)
     args = parser.parse_args()
 
-    today = args.date or date.today().strftime("%Y-%m-%d")
+    # GH Actions は UTC で動くので JST (+9h) に変換する
+    if args.date:
+        today = args.date
+    else:
+        from datetime import timezone, timedelta
+        JST = timezone(timedelta(hours=9))
+        today = datetime.now(JST).strftime("%Y-%m-%d")
 
     log("=" * 60)
     log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(COMPLETE_QUERIES)}")
