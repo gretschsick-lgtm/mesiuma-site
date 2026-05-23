@@ -53,10 +53,10 @@ type Event = {
   detail: string;
   cast: string;
   highlight: string | boolean;
-  image_url: string;
   x_url: string;
   url: string;
   source: string;
+  // image_url は転載禁止のため型から除外
 };
 
 // ── カラー定数 ───────────────────────────────────────────────────────────────
@@ -415,52 +415,51 @@ export default function StoreDetailPage() {
           background: C.white, borderRadius: 8, marginBottom: 20,
           border: `1px solid ${C.border}`, overflow: "hidden",
           borderTop: `4px solid ${C.red}`,
+          padding: "16px 20px",
         }}>
-          {/* 店舗写真 */}
-          {machineInfo?.photo_url && (
-            <div style={{ width: "100%", height: 180, overflow: "hidden", background: "#eee" }}>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={machineInfo.photo_url}
-                alt={store.name}
-                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-                loading="lazy"
-                onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = "none"; }}
-              />
+          {/* 店舗名 */}
+          <h1 style={{ fontSize: 22, fontWeight: 900, color: C.text, margin: "0 0 10px", lineHeight: 1.3 }}>
+            {store.name}
+          </h1>
+
+          {/* バッジ行 */}
+          <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginBottom: 14 }}>
+            {store.pref && (
+              <span style={{ background: "#f0f0f0", color: C.sub, fontSize: 12, padding: "3px 10px", borderRadius: 3, fontWeight: 700 }}>
+                📍 {store.pref}{store.city ? ` ${store.city}` : ""}{store.area && store.area !== store.pref ? `（${store.area}）` : ""}
+              </span>
+            )}
+            {store.is_low_rental && (
+              <span style={{ background: "#e8f0ff", color: "#0055cc", fontSize: 12, fontWeight: 700, padding: "3px 10px", borderRadius: 3, border: "1px solid #0055cc44" }}>
+                💴 低貸し
+              </span>
+            )}
+            {(machineInfo?.pachinko_total || machineInfo?.slot_total) && (
+              <span style={{ background: "#f5f5f5", color: C.sub, fontSize: 12, padding: "3px 10px", borderRadius: 3 }}>
+                🎮 {[machineInfo?.pachinko_total && `パチ${machineInfo.pachinko_total}台`, machineInfo?.slot_total && `スロ${machineInfo.slot_total}台`].filter(Boolean).join("・")}
+              </span>
+            )}
+            {store.event_count > 0 && (
+              <span style={{ background: "#fff8e0", color: "#886600", fontSize: 12, fontWeight: 700, padding: "3px 10px", borderRadius: 3, border: "1px solid #eedd88" }}>
+                ⭐ イベント {store.event_count}件
+              </span>
+            )}
+            {upcomingEvents.length > 0 && (
+              <span style={{ background: "#e8fff0", color: "#007700", fontSize: 12, padding: "3px 10px", borderRadius: 3, border: "1px solid #aaddaa", fontWeight: 700 }}>
+                ▶ 予定 {upcomingEvents.length}件
+              </span>
+            )}
+          </div>
+
+          {/* 公式リンクボタン */}
+          {(hpUrl || xUrl || machineInfo?.pworld_url || mapUrl) && (
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+              {hpUrl              && <a href={hpUrl}               target="_blank" rel="noopener noreferrer" style={btnStyle(C.red,    true)}>🌐 公式サイト</a>}
+              {xUrl               && <a href={xUrl}                target="_blank" rel="noopener noreferrer" style={btnStyle("#000",   true)}>𝕏 X</a>}
+              {machineInfo?.pworld_url && <a href={machineInfo.pworld_url} target="_blank" rel="noopener noreferrer" style={btnStyle("#0066cc", true)}>🏢 P-WORLD</a>}
+              {mapUrl             && <a href={mapUrl}              target="_blank" rel="noopener noreferrer" style={btnStyle("#4285f4", true)}>🗺 地図</a>}
             </div>
           )}
-          <div style={{ padding: "16px 20px" }}>
-            <h1 style={{ fontSize: 20, fontWeight: 900, color: C.text, margin: "0 0 10px", lineHeight: 1.3 }}>
-              {store.name}
-            </h1>
-            <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
-              {store.pref && (
-                <span style={{ background: "#f0f0f0", color: C.sub, fontSize: 12, padding: "3px 10px", borderRadius: 3, fontWeight: 700 }}>
-                  📍 {store.pref}{store.city ? ` ${store.city}` : ""}
-                </span>
-              )}
-              {store.is_low_rental && (
-                <span style={{ background: "#e8f0ff", color: "#0055cc", fontSize: 12, fontWeight: 700, padding: "3px 10px", borderRadius: 3, border: "1px solid #0055cc44" }}>
-                  💴 低貸し
-                </span>
-              )}
-              {(machineInfo?.pachinko_total || machineInfo?.slot_total) && (
-                <span style={{ background: "#f5f5f5", color: C.sub, fontSize: 12, padding: "3px 10px", borderRadius: 3 }}>
-                  🎮 {[machineInfo?.pachinko_total && `パチ${machineInfo.pachinko_total}台`, machineInfo?.slot_total && `スロ${machineInfo.slot_total}台`].filter(Boolean).join("・")}
-                </span>
-              )}
-              {upcomingEvents.length > 0 && (
-                <span style={{ background: "#e8fff0", color: "#007700", fontSize: 12, padding: "3px 10px", borderRadius: 3, border: "1px solid #aaddaa", fontWeight: 700 }}>
-                  ▶ 予定 {upcomingEvents.length}件
-                </span>
-              )}
-              {machineInfo?.updated_at && (
-                <span style={{ background: "#f5f5f5", color: C.muted, fontSize: 11, padding: "3px 8px", borderRadius: 3 }}>
-                  更新: {machineInfo.updated_at.slice(5, 10).replace("-", "/")}
-                </span>
-              )}
-            </div>
-          </div>
         </div>
 
         {/* ════════════════════════════════════════════════════════

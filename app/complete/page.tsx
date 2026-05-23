@@ -373,10 +373,11 @@ export default function CompletePage() {
     return () => clearInterval(timer);
   }, []); // eslint-disable-line
 
-  // 日付ごとにグループ化（新しい順）
+  // 日付ごとにグループ化（機種名あるもののみ・新しい順）
   const grouped = useMemo(() => {
     const map = new Map<string, CompleteEntry[]>();
     for (const e of entries) {
+      if (!e.machine || !e.machine.trim()) continue; // 機種不明は非表示
       const d = e.date || "";
       if (!map.has(d)) map.set(d, []);
       map.get(d)!.push(e);
@@ -391,7 +392,7 @@ export default function CompletePage() {
     const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
     return d.toISOString().slice(0, 10);
   })();
-  const todayCount = entries.filter(e => e.date === todayStr).length;
+  const todayCount = entries.filter(e => e.date === todayStr && e.machine && e.machine.trim()).length;
 
   return (
     <div style={{ minHeight: "100vh", background: C.bg, fontFamily: "'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" }}>
