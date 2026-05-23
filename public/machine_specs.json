@@ -1,0 +1,91 @@
+[
+  {
+    "id": 9843,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/9843",
+    "updated_at": "2026-05-23T11:05:23Z",
+    "name": "パチスロ からくりサーカス",
+    "settings": [
+      {
+        "setting": "1",
+        "cz_prob": "1/333",
+        "at_prob": "1/564",
+        "payout": "97.5%"
+      },
+      {
+        "setting": "2",
+        "cz_prob": "1/320",
+        "at_prob": "1/543",
+        "payout": "98.7%"
+      },
+      {
+        "setting": "4",
+        "cz_prob": "1/292",
+        "at_prob": "1/469",
+        "payout": "103.0%"
+      },
+      {
+        "setting": "5",
+        "cz_prob": "1/277",
+        "at_prob": "1/451",
+        "payout": "108.1%"
+      },
+      {
+        "setting": "6",
+        "cz_prob": "1/275",
+        "at_prob": "1/447",
+        "payout": "114.9%"
+      },
+      {
+        "setting": "L",
+        "cz_prob": "ー",
+        "at_prob": "ー",
+        "payout": "83.7%"
+      }
+    ],
+    "setting1_payout": "97.5%",
+    "setting1_at": "1/564",
+    "setting6_payout": "114.9%",
+    "setting6_at": "1/447"
+  },
+  {
+    "id": 9923,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/9923",
+    "updated_at": "2026-05-23T11:05:25Z",
+    "name": "スマスロモンキーターンV",
+    "ceiling_values": [
+      131,
+      495,
+      795
+    ]
+  },
+  {
+    "id": 10207,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10207",
+    "updated_at": "2026-05-23T11:05:28Z",
+    "name": "L 東京喰種",
+    "ceiling_values": [
+      100,
+      200,
+      300,
+      500,
+      600,
+      1200
+    ]
+  },
+  {
+    "id": 10370,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10370",
+    "updated_at": "2026-05-23T11:05:30Z",
+    "name": "スマスロ 北斗の拳 転生の章2"
+  },
+  {
+    "id": 10399,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10399",
+    "updated_at": "2026-05-23T11:05:33Z",
+    "name": "スマスロ 甲鉄城のカバネリ 海門(うなと)決戦",
+    "ceiling_values": [
+      596,
+      996
+    ]
+  }
+]
