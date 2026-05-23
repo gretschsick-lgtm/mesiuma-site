@@ -709,7 +709,25 @@ WEB_SOURCES = [
 # url: YouTube チャンネル URL（@handle または /channel/ID 形式）
 # 実在が確認済みのチャンネルのみ登録。URLに /videos や /community は付けない。
 YOUTUBE_CHANNELS: list[dict] = [
-    # ── 公式メディア・取材番組（来店・取材画像の主要ソース）──
+    # ══ 大手チェーングループ 公式YouTube ══
+    {"url": "https://www.youtube.com/@MARUHANofficial",                        "name": "マルハン公式"},
+    {"url": "https://www.youtube.com/@dynam_official",                         "name": "ダイナム公式"},
+    {"url": "https://www.youtube.com/@kikoona_official",                       "name": "キコーナ公式"},
+    {"url": "https://www.youtube.com/@garden_pachislot",                       "name": "ガーデン公式"},
+    {"url": "https://www.youtube.com/@castle_slot",                            "name": "キャッスル公式"},
+    {"url": "https://www.youtube.com/@concordslot",                            "name": "コンコルド公式"},
+    {"url": "https://www.youtube.com/@zentofficial",                           "name": "ZENT公式"},
+    {"url": "https://www.youtube.com/@rakuentv",                               "name": "楽園TV"},
+    {"url": "https://www.youtube.com/@esupace_official",                       "name": "エスパス公式"},
+    {"url": "https://www.youtube.com/@gaia_official_yt",                       "name": "ガイア公式"},
+    {"url": "https://www.youtube.com/@million_slot",                           "name": "ミリオン公式"},
+    {"url": "https://www.youtube.com/@bigmarch_official",                      "name": "ビックマーチ公式"},
+    {"url": "https://www.youtube.com/@wonderland_slot",                        "name": "ワンダーランド公式"},
+    {"url": "https://www.youtube.com/@messe_official",                         "name": "メッセ公式"},
+    {"url": "https://www.youtube.com/@palazzo_slot",                           "name": "パラッツォ公式"},
+    {"url": "https://www.youtube.com/@megagaia",                               "name": "メガガイア公式"},
+    {"url": "https://www.youtube.com/@dstationtv",                             "name": "Dステーション公式"},
+    # ══ 取材・撮影系メディア（確認済み）══
     {"url": "https://www.youtube.com/@janbaritv",                              "name": "ジャンバリ"},
     {"url": "https://www.youtube.com/@BuzzSlot",                               "name": "バズスロ"},
     {"url": "https://www.youtube.com/@hisshobon",                              "name": "パチスロ必勝本"},
@@ -724,14 +742,6 @@ YOUTUBE_CHANNELS: list[dict] = [
     {"url": "https://www.youtube.com/@kaido_adv",                              "name": "回胴アドベンチャー"},
     {"url": "https://www.youtube.com/@gorsei_tv",                              "name": "極誓"},
     {"url": "https://www.youtube.com/@pachi7_official",                        "name": "パチ7"},
-    # ── 確認済み 人気 YouTuber ──
-    {"url": "https://www.youtube.com/@bri47ha",                                "name": "浜田ブリトニー"},
-    {"url": "https://www.youtube.com/@garizo1",                                "name": "ガリぞう"},
-    {"url": "https://www.youtube.com/@kimurauotaku",                           "name": "木村魚拓"},
-    {"url": "https://www.youtube.com/@batchimatsumoto",                        "name": "松本バッチ"},
-    {"url": "https://www.youtube.com/@uichi_slot",                             "name": "ういち"},
-    {"url": "https://www.youtube.com/@nanatoru_official",                      "name": "なな徹"},
-    {"url": "https://www.youtube.com/@yukinnko",                               "name": "ゆきんこ"},
 ]
 
 # YouTube 検索クエリ（撮影スケジュール・ホール訪問系）
