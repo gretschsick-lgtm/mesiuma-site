@@ -316,12 +316,12 @@ export default function Page() {
         return hash(a.store + seed) - hash(b.store + seed);
       });
     const seenStores = new Set<string>();
-    const result: { store: string; pref: string; area: string; date: string; cast: string; image_url?: string; evType: string }[] = [];
+    const result: { store: string; pref: string; area: string; date: string; cast: string; evType: string }[] = [];
     for (const ev of candidates) {
       if (seenStores.has(ev.store)) continue;
       seenStores.add(ev.store);
       const evType = getEvType(ev);
-      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), image_url: safeImg(ev.image_url), evType });
+      result.push({ store: ev.store, pref: ev.pref, area: ev.area, date: ev.date, cast: cleanCast(ev.cast), evType });
       if (result.length >= 12) break;
     }
     return result;
@@ -396,24 +396,17 @@ export default function Page() {
         onMouseEnter={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = `0 2px 12px ${sty.border}33`; }}
         onMouseLeave={e => { (e.currentTarget as HTMLDivElement).style.boxShadow = "none"; }}
       >
-        {/* 左アイコン/画像 */}
-        {safeImg(ev.image_url) ? (
-          <div style={{ width: imgSize, minWidth: imgSize, height: imgSize, borderRadius: 6, overflow: "hidden", background: "#eee", flexShrink: 0 }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={safeImg(ev.image_url)} alt="" style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
-          </div>
-        ) : (
-          <div style={{
-            width: imgSize, minWidth: imgSize, height: imgSize,
-            borderRadius: 6,
-            background: sty.border + "18",
-            border: `1px solid ${sty.border}33`,
-            display: "flex", alignItems: "center", justifyContent: "center",
-            fontSize: isMobile ? 18 : 22, flexShrink: 0,
-          }}>
-            {evType === "raiten" ? "🎤" : evType === "satsuei" ? "📹" : evType === "torisai" ? "📡" : "🎰"}
-          </div>
-        )}
+        {/* 左アイコン */}
+        <div style={{
+          width: imgSize, minWidth: imgSize, height: imgSize,
+          borderRadius: 6,
+          background: sty.border + "18",
+          border: `1px solid ${sty.border}33`,
+          display: "flex", alignItems: "center", justifyContent: "center",
+          fontSize: isMobile ? 18 : 22, flexShrink: 0,
+        }}>
+          {evType === "raiten" ? "🎤" : evType === "satsuei" ? "📹" : evType === "torisai" ? "📡" : "🎰"}
+        </div>
 
         {/* メイン情報 */}
         <div style={{ flex: 1, minWidth: 0 }}>
@@ -525,7 +518,7 @@ export default function Page() {
     if (m1) videoId = m1[1];
     else if (m2) videoId = m2[1];
     else if (m3) videoId = m3[1];
-    const thumb = videoId ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg` : safeImg(ev.image_url);
+    const thumb = videoId ? `https://i.ytimg.com/vi/${videoId}/mqdefault.jpg` : "";
     const showPref = ev.pref && ev.pref !== "不明";
 
     if (listRow) {
@@ -1122,20 +1115,10 @@ export default function Page() {
                       width: 130, height: 172, flexShrink: 0, overflow: "hidden",
                       display: "flex", flexDirection: "column", textAlign: "left",
                     }}>
-                      {s.image_url ? (
-                        <div style={{ width: "100%", height: 80, overflow: "hidden", position: "relative" }}>
-                          {/* eslint-disable-next-line @next/next/no-img-element */}
-                          <img src={s.image_url} alt={s.store} style={{ width: "100%", height: "100%", objectFit: "cover" }} loading="lazy" />
-                          <div style={{ position: "absolute", top: 5, left: 5, background: sty.badge, color: "#fff", fontSize: 9, fontWeight: 800, padding: "2px 6px", borderRadius: 3 }}>
-                            {sty.label || defaultLabel[s.evType] || ""}
-                          </div>
-                        </div>
-                      ) : (
-                        <div style={{ width: "100%", height: 80, background: defaultBg[s.evType] || defaultBg.raiten, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2 }}>
-                          <div style={{ fontSize: 20, color: "#fff", lineHeight: 1 }}>{defaultIcon[s.evType] || "📅"}</div>
-                          <div style={{ fontSize: 9, fontWeight: 900, color: "#fff", letterSpacing: 1, opacity: 0.9 }}>{defaultLabel[s.evType] || ""}</div>
-                        </div>
-                      )}
+                      <div style={{ width: "100%", height: 80, background: defaultBg[s.evType] || defaultBg.raiten, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 2 }}>
+                        <div style={{ fontSize: 20, color: "#fff", lineHeight: 1 }}>{defaultIcon[s.evType] || "📅"}</div>
+                        <div style={{ fontSize: 9, fontWeight: 900, color: "#fff", letterSpacing: 1, opacity: 0.9 }}>{defaultLabel[s.evType] || ""}</div>
+                      </div>
                       <div style={{ padding: "7px 9px 9px" }}>
                         <div style={{ display: "flex", gap: 4, marginBottom: 4 }}>
                           <span style={{ background: sty.badge, color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 6px", borderRadius: 2 }}>{sty.label || s.evType}</span>
@@ -1193,13 +1176,7 @@ export default function Page() {
                       background: "#fffdf0",
                       display: "flex", flexDirection: "column",
                     }}>
-                      {entry.image_url ? (
-                        // eslint-disable-next-line @next/next/no-img-element
-                        <img src={entry.image_url} alt={entry.machine}
-                          style={{ width: "100%", height: 80, objectFit: "cover", display: "block", flexShrink: 0 }} loading="lazy" />
-                      ) : (
-                        <div style={{ width: "100%", height: 80, flexShrink: 0, background: "linear-gradient(135deg,#996600,#c9910a,#f0cc60)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30 }}>🏆</div>
-                      )}
+                      <div style={{ width: "100%", height: 80, flexShrink: 0, background: "linear-gradient(135deg,#996600,#c9910a,#f0cc60)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30 }}>🏆</div>
                       <div style={{ padding: "6px 8px 8px", display: "flex", flexDirection: "column", gap: 3, overflow: "hidden" }}>
                         <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
                           <span style={{ background: "#c9910a", color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 5px", borderRadius: 2, whiteSpace: "nowrap" }}>コンプ</span>

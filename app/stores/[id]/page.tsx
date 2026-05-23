@@ -711,18 +711,6 @@ function EventCard({
           )}
         </div>
 
-        {ev.image_url && (
-          <div style={{ marginBottom: 8 }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={ev.image_url} alt=""
-              style={{ maxWidth: "100%", maxHeight: 300, borderRadius: 6, border: `1px solid ${C.border}`, display: "block" }}
-              loading="lazy"
-              onError={e => { (e.currentTarget as HTMLImageElement).style.display = "none"; }}
-            />
-          </div>
-        )}
-
         {detailLines.length > 0 && (
           <div style={{ fontSize: 13, color: upcoming ? C.sub : C.muted, lineHeight: 1.75, background: "#fafafa", border: `1px solid ${C.border}`, borderRadius: 5, padding: "10px 12px" }}>
             {displayLines.map((line, i) => <div key={i}>{line}</div>)}

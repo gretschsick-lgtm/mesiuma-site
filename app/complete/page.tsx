@@ -10,10 +10,9 @@ type CompleteEntry = {
   machine: string;
   slot_number: string;
   text: string;
-  images: string[];
-  image_url: string;
   x_url: string;
   collected_at: string;
+  // image_url / images は転載禁止のため型から除外
 };
 
 type RankItem = { rank: number; name: string; count: number };
@@ -71,8 +70,6 @@ function fmtMonth(ym: string) {
 }
 
 function CompleteCard({ entry }: { entry: CompleteEntry }) {
-  const [imgErr, setImgErr] = useState(false);
-
   return (
     <div style={{
       background: C.white,
@@ -81,27 +78,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
       overflow: "hidden",
       boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
     }}>
-      {entry.image_url && !imgErr && (
-        <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", background: "#f0f0f0", overflow: "hidden" }}>
-          <img
-            src={entry.image_url}
-            alt={`${entry.store} ${entry.machine}`}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
-            onError={() => setImgErr(true)}
-          />
-          {entry.time && (
-            <span style={{
-              position: "absolute", top: 8, right: 8,
-              background: "rgba(0,0,0,0.65)", color: "#fff",
-              fontSize: 11, fontWeight: 700, padding: "2px 7px",
-              borderRadius: 4, backdropFilter: "blur(4px)",
-            }}>
-              {entry.time}
-            </span>
-          )}
-        </div>
-      )}
-
       <div style={{ padding: "10px 12px 12px" }}>
         <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 7, flexWrap: "wrap" }}>
           <span style={{
@@ -120,7 +96,7 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
               {entry.slot_number}番台
             </span>
           )}
-          {!entry.image_url && entry.time && (
+          {entry.time && (
             <span style={{ fontSize: 11, color: C.muted, marginLeft: "auto" }}>{entry.time}</span>
           )}
         </div>
@@ -144,21 +120,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
             display: "-webkit-box", WebkitLineClamp: 3, WebkitBoxOrient: "vertical", overflow: "hidden",
           } as React.CSSProperties}>
             {entry.text}
-          </div>
-        )}
-
-        {entry.images.length > 1 && (
-          <div style={{
-            display: "grid",
-            gridTemplateColumns: `repeat(${Math.min(entry.images.length - 1, 3)}, 1fr)`,
-            gap: 3, marginBottom: 9,
-          }}>
-            {entry.images.slice(1, 4).map((img, i) => (
-              <img key={i} src={img} alt=""
-                style={{ width: "100%", aspectRatio: "1", objectFit: "cover", borderRadius: 4 }}
-                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
-              />
-            ))}
           </div>
         )}
 
