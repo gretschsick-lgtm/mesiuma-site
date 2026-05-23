@@ -25,7 +25,7 @@ import re
 import subprocess
 import sys
 import time
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 try:
@@ -1774,6 +1774,208 @@ def scrape_youtube_search_ytdlp(query: str, store_names: set[str]) -> list[dict]
 
 
 # ---------------------------------------------------------------------------
+# Supabase ヘルパー
+# ---------------------------------------------------------------------------
+import urllib.request   # noqa: E402
+import urllib.error     # noqa: E402
+import ssl as _ssl      # noqa: E402
+
+
+def _sb_env() -> tuple[str, str] | None:
+    """環境変数からSupabase接続情報を取得。未設定なら None を返す（書き込みをスキップ）。"""
+    url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+    if not url or not key:
+        return None
+    return url, key
+
+
+def _sb_request(method: str, path: str,
+                body: list | dict | None = None,
+                prefer: str | None = None) -> tuple[int, bytes]:
+    """
+    Supabase REST API へリクエストを送る低レベル関数。
+    戻り値: (http_status_code, response_body_bytes)
+    例外は呼び出し元で握りつぶすこと。
+    """
+    env = _sb_env()
+    if not env:
+        return 0, b""
+    sb_url, sb_key = env
+
+    ctx = _ssl._create_unverified_context()   # macOS + GitHub Actions 両対応
+    headers: dict[str, str] = {
+        "apikey":        sb_key,
+        "Authorization": f"Bearer {sb_key}",
+        "Content-Type":  "application/json",
+    }
+    if prefer:
+        headers["Prefer"] = prefer
+
+    data = json.dumps(body).encode() if body is not None else None
+    req = urllib.request.Request(
+        f"{sb_url}/rest/v1/{path}",
+        data=data,
+        headers=headers,
+        method=method,
+    )
+    try:
+        with urllib.request.urlopen(req, context=ctx, timeout=15) as r:
+            return r.status, r.read()
+    except urllib.error.HTTPError as e:
+        return e.code, e.read()
+
+
+def supabase_log_start(job_name: str) -> int | None:
+    """
+    fetch_logs に実行開始レコードを INSERT し、生成された id を返す。
+    失敗しても None を返してスクリプトは継続。
+    """
+    if not _sb_env():
+        return None
+    try:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        status, body = _sb_request(
+            "POST", "fetch_logs",
+            body={
+                "job_name":        job_name,
+                "started_at":      now,
+                "status":          "failed",   # 途中終了時も failed になる
+                "fetched_count":   0,
+                "new_count":       0,
+                "duplicate_count": 0,
+                "error_count":     0,
+            },
+            prefer="return=representation",
+        )
+        if status in (200, 201) and body:
+            rows = json.loads(body)
+            if isinstance(rows, list) and rows:
+                return rows[0].get("id")
+    except Exception as e:
+        log(f"⚠️  Supabase log_start エラー: {e}")
+    return None
+
+
+def supabase_log_end(log_id: int | None, status: str,
+                     fetched: int, new_count: int,
+                     dupes: int, errors: int,
+                     error_detail: str | None = None) -> None:
+    """fetch_logs の実行結果を PATCH で更新する。log_id が None の場合はスキップ。"""
+    if log_id is None or not _sb_env():
+        return
+    try:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        patch_body: dict = {
+            "finished_at":     now,
+            "status":          status,
+            "fetched_count":   fetched,
+            "new_count":       new_count,
+            "duplicate_count": dupes,
+            "error_count":     errors,
+        }
+        if error_detail:
+            patch_body["error_detail"] = error_detail[:1000]
+        _sb_request(
+            "PATCH", f"fetch_logs?id=eq.{log_id}",
+            body=patch_body,
+            prefer="return=minimal",
+        )
+    except Exception as e:
+        log(f"⚠️  Supabase log_end エラー: {e}")
+
+
+def supabase_update_fetch_state(job_name: str) -> None:
+    """fetch_state の last_success_at / last_run_at を現在時刻に更新する。"""
+    if not _sb_env():
+        return
+    try:
+        now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        _sb_request(
+            "PATCH", f"fetch_state?job_name=eq.{job_name}",
+            body={"last_success_at": now, "last_run_at": now, "updated_at": now},
+            prefer="return=minimal",
+        )
+    except Exception as e:
+        log(f"⚠️  Supabase fetch_state 更新エラー: {e}")
+
+
+def supabase_write_events(entries: list[dict], job_name: str) -> tuple[int, int]:
+    """
+    events テーブルに INSERT（ON CONFLICT DO NOTHING）。
+
+    ・保存するフィールド: id, store_name, pref, area, date, event_name,
+                          detail, cast_names, x_url, source_url, source,
+                          highlight, ng_flag
+    ・保存しないフィールド: image_url, thumb（転載禁止）
+    ・重複 ID は INSERT をスキップし duplicate_count に加算
+    ・Supabase 書き込み失敗時は (0, 0) を返してスクリプトを継続
+
+    戻り値: (new_count, duplicate_count)
+    """
+    if not entries or not _sb_env():
+        return 0, 0
+
+    total_new = 0
+    total_dup = 0
+    BATCH_SIZE = 100
+
+    for i in range(0, len(entries), BATCH_SIZE):
+        batch = entries[i : i + BATCH_SIZE]
+
+        rows: list[dict] = []
+        for e in batch:
+            # cast（カンマ区切り文字列）→ TEXT[] に変換
+            cast_raw = (e.get("cast") or "").strip()
+            cast_names = [c.strip() for c in cast_raw.split(",") if c.strip()] if cast_raw else None
+
+            rows.append({
+                "id":          e["id"],
+                "store_name":  e.get("store") or None,     # "store" → DB の "store_name"
+                "pref":        e.get("pref") or None,
+                "area":        e.get("area") or None,
+                "date":        e.get("date") or None,
+                "event_name":  e.get("event") or None,     # "event" → DB の "event_name"
+                "detail":      e.get("detail") or None,
+                "cast_names":  cast_names,                 # TEXT[]
+                "x_url":       e.get("x_url") or None,
+                "source_url":  e.get("url") or None,       # "url" → DB の "source_url"
+                "source":      e.get("source") or None,
+                "highlight":   bool(e.get("highlight")),
+                "ng_flag":     False,
+                # image_url / thumb は意図的に送信しない
+            })
+
+        if not rows:
+            continue
+
+        try:
+            status, body = _sb_request(
+                "POST", "events",
+                body=rows,
+                # ignore-duplicates = ON CONFLICT DO NOTHING（既存データを書き換えない）
+                # return=representation で実際に INSERT された行数を取得
+                prefer="resolution=ignore-duplicates,return=representation",
+            )
+            if status in (200, 201):
+                inserted = len(json.loads(body)) if body else 0
+                total_new += inserted
+                total_dup += len(rows) - inserted
+            else:
+                err_text = body.decode(errors="replace")[:200] if body else ""
+                log(f"⚠️  Supabase events HTTP {status}: {err_text}")
+                # Supabase エラーでもスクリプトは継続
+        except Exception as e:
+            log(f"⚠️  Supabase events 書き込みエラー: {e}")
+            # スクリプトは継続
+
+    if total_new or total_dup:
+        log(f"☁️  Supabase: 新規{total_new}件 / 重複skip{total_dup}件")
+
+    return total_new, total_dup
+
+
+# ---------------------------------------------------------------------------
 # 保存・マージ
 # ---------------------------------------------------------------------------
 def load_events() -> tuple[list[dict], dict | None]:
@@ -1852,6 +2054,21 @@ def main():
     log(f"   検索クエリ:{len(X_QUERIES)}  Google:{len(GOOGLE_QUERIES)}  Yahoo:{len(YAHOO_RT_QUERIES)}")
     log(f"   Webソース:{len(WEB_SOURCES)}サイト  YouTubeチャンネル:{len(YOUTUBE_CHANNELS)}ch  YouTube検索:{len(YOUTUBE_SEARCH_QUERIES)}クエリ")
 
+    # ── Supabase: job_name マッピング ─────────────────────────────────────
+    _JOB_NAME_MAP = {
+        "ptown":    "events_ptown",
+        "accounts": "events_accounts",
+        "search":   "events_search",
+        "google":   "events_google",
+        "web":      "events_web",
+        "youtube":  "events_youtube",
+        "all":      "events_accounts",  # all モードは accounts として記録
+    }
+    sb_job_name = _JOB_NAME_MAP.get(args.job, f"events_{args.job}")
+
+    # ── Supabase: 実行開始を記録 ──────────────────────────────────────────
+    sb_log_id = supabase_log_start(sb_job_name)
+
     # stores.jsonから店舗名セット・pref マップ（短すぎる名前は除外）
     store_names: set[str] = set()
     store_pref_map: dict[str, tuple[str, str]] = {}
@@ -1886,6 +2103,19 @@ def main():
         log(f"📊 p-town+p-world収集: {len(deduped2)}件 / 新規: {added2}件 / 累計: {len(merged2)}件")
         if added2 > 0:
             save_events(merged2, original)
+
+        # ── Supabase 書き込み（JSON保存の後・失敗してもスクリプトは継続）────────
+        sb_new2, sb_dup2 = supabase_write_events(deduped2, sb_job_name)
+        supabase_log_end(
+            sb_log_id, "success",
+            fetched=len(deduped2),
+            new_count=sb_new2,
+            dupes=sb_dup2,
+            errors=0,
+        )
+        if deduped2:
+            supabase_update_fetch_state(sb_job_name)
+
         log("=" * 70)
         return
 
@@ -2072,6 +2302,20 @@ def main():
 
     if added > 0:
         save_events(merged, original)
+
+    # ── Supabase 書き込み（JSON保存の後・失敗してもスクリプトは継続）────────
+    sb_new, sb_dup = supabase_write_events(deduped, sb_job_name)
+
+    # ── Supabase: 実行結果を記録 ──────────────────────────────────────────
+    supabase_log_end(
+        sb_log_id, "success",
+        fetched=len(deduped),
+        new_count=sb_new,
+        dupes=sb_dup,
+        errors=0,
+    )
+    if deduped:
+        supabase_update_fetch_state(sb_job_name)
 
     log("=" * 70)
 
