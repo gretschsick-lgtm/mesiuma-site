@@ -475,9 +475,11 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     # ページ初期レンダリング完了まで少し待つ
     page.wait_for_timeout(2000)
 
-    for _ in range(50):
-        page.mouse.wheel(0, 2500)
-        page.wait_for_timeout(700)
+    # 80回スクロール: wheel距離4000px × 80回 = 合計320,000px分
+    # 1回あたりの移動距離を大きくすることで短時間でより深くロード
+    for _ in range(80):
+        page.mouse.wheel(0, 4000)
+        page.wait_for_timeout(500)
 
     articles = page.query_selector_all('article[data-testid="tweet"]')
 
@@ -623,7 +625,7 @@ def main():
                 results = scrape_query(page, query, today)
                 log(f"       → {len(results)} 件（店舗投稿）")
                 all_new.extend(results)
-                time.sleep(2)
+                time.sleep(1)
             except Exception as e:
                 log(f"  ❌ {e}")
 

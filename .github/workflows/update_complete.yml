@@ -7,6 +7,11 @@ on:
     # JST 21=UTC12 / 22=13 / 23=14 / 翌0=15 / 翌1=16
     - cron: "0 6,7,8,9,10,11,12,13,14,15,16 * * *"
   workflow_dispatch: # 手動実行も可
+    inputs:
+      date:
+        description: '収集対象日 (YYYY-MM-DD形式、省略時は当日JST)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -14,7 +19,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 90
 
     steps:
       - name: Checkout
@@ -37,7 +42,12 @@ jobs:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
         run: |
-          python scripts/fetch_complete_info.py --headless
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "📅 指定日付: ${{ github.event.inputs.date }}"
+            python scripts/fetch_complete_info.py --headless --date "${{ github.event.inputs.date }}"
+          else
+            python scripts/fetch_complete_info.py --headless
+          fi
 
       - name: Commit and push if changed
         run: |
