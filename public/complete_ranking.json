@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T02:24:30.808257+09:00",
+  "updated_at": "2026-05-24T04:01:19+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
@@ -7,7 +7,7 @@
         {
           "rank": 1,
           "name": "ダイナム",
-          "count": 7
+          "count": 8
         },
         {
           "rank": 2,
@@ -16,17 +16,17 @@
         },
         {
           "rank": 3,
+          "name": "プレイランドキャッスル熱田店",
+          "count": 7
+        },
+        {
+          "rank": 4,
           "name": "楽園池袋",
           "count": 5
         },
         {
-          "rank": 4,
-          "name": "新！ガーデン川口安行【公式】",
-          "count": 5
-        },
-        {
           "rank": 5,
-          "name": "プレイランドキャッスル熱田店",
+          "name": "新！ガーデン川口安行【公式】",
           "count": 5
         }
       ],
@@ -34,69 +34,84 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 18
+          "count": 27
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳",
-          "count": 16
+          "count": 14
         },
         {
           "rank": 3,
-          "name": "牙狼12",
-          "count": 16
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 14
         },
         {
           "rank": 4,
-          "name": "ミリオンゴッド神々の軌跡",
+          "name": "L東京喰種",
           "count": 9
         },
         {
           "rank": 5,
           "name": "L炎炎ノ消防隊2",
-          "count": 7
+          "count": 9
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 18
+          "count": 27
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳",
-          "count": 16
+          "count": 14
         },
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 9
+          "count": 14
         },
         {
           "rank": 4,
-          "name": "L炎炎ノ消防隊2",
-          "count": 7
+          "name": "L東京喰種",
+          "count": 9
         },
         {
           "rank": 5,
-          "name": "L東京喰種",
-          "count": 5
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
         }
       ],
       "pachinko_machines": [
         {
           "rank": 1,
-          "name": "牙狼12",
-          "count": 16
+          "name": "牙狼12黄金騎士極限",
+          "count": 3
         },
         {
           "rank": 2,
-          "name": "eキン肉マン",
+          "name": "牙狼12",
+          "count": 2
+        },
+        {
+          "rank": 3,
+          "name": "【e牙狼12黄金騎士極限】",
+          "count": 1
+        },
+        {
+          "rank": 4,
+          "name": "e牙狼12黄金騎士極限】",
+          "count": 1
+        },
+        {
+          "rank": 5,
+          "name": "ｅ牙狼１２ＸＸ－ＭＪ",
           "count": 1
         }
       ],
-      "total_count": 186
+      "total_count": 218
     },
     "2026-04": {
       "stores": [
@@ -130,26 +145,26 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 8
+          "count": 11
         },
         {
           "rank": 2,
-          "name": "スマスロ攻殻機動隊",
+          "name": "甲鉄城のカバネリ",
           "count": 2
         },
         {
           "rank": 3,
-          "name": "ヴァルヴレイヴD",
-          "count": 1
+          "name": "スマスロ北斗の拳",
+          "count": 2
         },
         {
           "rank": 4,
-          "name": "革命機ヴァルヴレイヴ2』",
-          "count": 1
+          "name": "スマスロ攻殻機動隊",
+          "count": 2
         },
         {
           "rank": 5,
-          "name": "カバネリ4台",
+          "name": "ミリオンゴッド神々の軌跡",
           "count": 1
         }
       ],
@@ -157,31 +172,31 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 8
+          "count": 11
         },
         {
           "rank": 2,
-          "name": "スマスロ攻殻機動隊",
+          "name": "甲鉄城のカバネリ",
           "count": 2
         },
         {
           "rank": 3,
-          "name": "ヴァルヴレイヴD",
-          "count": 1
+          "name": "スマスロ北斗の拳",
+          "count": 2
         },
         {
           "rank": 4,
-          "name": "革命機ヴァルヴレイヴ2』",
-          "count": 1
+          "name": "スマスロ攻殻機動隊",
+          "count": 2
         },
         {
           "rank": 5,
-          "name": "カバネリ4台",
+          "name": "ミリオンゴッド神々の軌跡",
           "count": 1
         }
       ],
       "pachinko_machines": [],
-      "total_count": 25
+      "total_count": 24
     }
   },
   "total": {
@@ -194,12 +209,12 @@
       {
         "rank": 2,
         "name": "ダイナム",
-        "count": 7
+        "count": 8
       },
       {
         "rank": 3,
         "name": "プレイランドキャッスル熱田店",
-        "count": 6
+        "count": 8
       },
       {
         "rank": 4,
@@ -216,68 +231,83 @@
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 26
+        "count": 38
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳",
-        "count": 17
-      },
-      {
-        "rank": 3,
-        "name": "牙狼12",
         "count": 16
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
+        "count": 15
+      },
+      {
+        "rank": 4,
+        "name": "L東京喰種",
         "count": 9
       },
       {
         "rank": 5,
-        "name": "L炎炎ノ消防隊2",
-        "count": 7
+        "name": "スマスロ攻殻機動隊",
+        "count": 9
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 26
+        "count": 38
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳",
-        "count": 17
+        "count": 16
       },
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 9
+        "count": 15
       },
       {
         "rank": 4,
-        "name": "L炎炎ノ消防隊2",
-        "count": 7
+        "name": "L東京喰種",
+        "count": 9
       },
       {
         "rank": 5,
         "name": "スマスロ攻殻機動隊",
-        "count": 6
+        "count": 9
       }
     ],
     "pachinko_machines": [
       {
         "rank": 1,
-        "name": "牙狼12",
-        "count": 16
+        "name": "牙狼12黄金騎士極限",
+        "count": 3
       },
       {
         "rank": 2,
-        "name": "eキン肉マン",
+        "name": "牙狼12",
+        "count": 2
+      },
+      {
+        "rank": 3,
+        "name": "【e牙狼12黄金騎士極限】",
+        "count": 1
+      },
+      {
+        "rank": 4,
+        "name": "e牙狼12黄金騎士極限】",
+        "count": 1
+      },
+      {
+        "rank": 5,
+        "name": "ｅ牙狼１２ＸＸ－ＭＪ",
         "count": 1
       }
     ],
-    "total_count": 211
+    "total_count": 247
   }
 }

@@ -98,6 +98,39 @@
     "machine_type": "slot"
   },
   {
+    "id": "6f3d85410bb7",
+    "date": "2026-05-23",
+    "time": "21:01",
+    "store": "トリさん@ピーアーク北千住エリア【公式】のトリさん",
+    "machine": "ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "629",
+    "text": "5月23日（土） ピーアーク北千住SSS トリエス  629番台 L 革命機ヴァルヴレイヴ2 コンプリート達成  熱狂とは  #適応シテマスノデ #9かよ",
+    "images": [
+      "https://pbs.twimg.com/media/HJAKUfbaEAA_Ns7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HI2IIVIasAAFO6c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJAKUfbaEAA_Ns7?format=jpg&name=large",
+    "x_url": "https://x.com/Kitasenjusss/status/2058156382172660217",
+    "collected_at": "2026-05-23T18:13:53Z"
+  },
+  {
+    "id": "e4e06d222e6a",
+    "date": "2026-05-23",
+    "time": "20:46",
+    "store": "つじちゃん店長@栄若宮大通店【キング観光】",
+    "machine": "北斗転生",
+    "machine_type": "slot",
+    "slot_number": "1375",
+    "text": "1375番台 L北斗転生 コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
+    "images": [
+      "https://pbs.twimg.com/media/HJAG3YJbwAA_dDG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJAG3YJbwAA_dDG?format=jpg&name=large",
+    "x_url": "https://x.com/wakakin_tsujic/status/2058152581852287312",
+    "collected_at": "2026-05-23T18:14:38Z"
+  },
+  {
     "id": "60c3af173570",
     "date": "2026-05-23",
     "time": "20:44",
@@ -112,6 +145,22 @@
     "x_url": "https://x.com/monky0621bm/status/2058152003524825421",
     "collected_at": "2026-05-23T14:34:13Z",
     "machine_type": "slot"
+  },
+  {
+    "id": "846ccdc9512a",
+    "date": "2026-05-23",
+    "time": "20:17",
+    "store": "アプロ811@team Numbers",
+    "machine": "北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "1105",
+    "text": "5/23(土) 1105番台 北斗の拳 転生の章2 コンプリート達成",
+    "images": [
+      "https://pbs.twimg.com/media/HI_-743bAAEPyXu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HI_-743bAAEPyXu?format=jpg&name=large",
+    "x_url": "https://x.com/apulo_1229/status/2058145188816835010",
+    "collected_at": "2026-05-23T18:14:38Z"
   },
   {
     "id": "4d6118619f03",
