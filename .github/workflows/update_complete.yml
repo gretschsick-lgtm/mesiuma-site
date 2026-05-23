@@ -2,10 +2,9 @@ name: Update Complete Info
 
 on:
   schedule:
-    # JST 15:00〜翌1:00を毎時間実行（コンプリートが集中する夜間帯をカバー）
-    # JST 15=UTC06 / 16=07 / 17=08 / 18=09 / 19=10 / 20=11
-    # JST 21=UTC12 / 22=13 / 23=14 / 翌0=15 / 翌1=16
-    - cron: "0 6,7,8,9,10,11,12,13,14,15,16 * * *"
+    # JST 15:00〜翌2:00を30分ごと実行（Publicリポジトリ=無制限無料）
+    # UTC 06:00〜17:00（30分間隔）= JST 15:00〜翌2:00
+    - cron: "*/30 6-17 * * *"
   workflow_dispatch: # 手動実行も可
     inputs:
       date:
@@ -19,7 +18,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 360
 
     steps:
       - name: Checkout
