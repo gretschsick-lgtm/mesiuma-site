@@ -596,7 +596,7 @@ export default function CompletePage() {
       </div>
 
       <div style={{ textAlign: "center", padding: "16px", fontSize: 11, color: C.muted, borderTop: `1px solid ${C.border}` }}>
-        © メシウマ稼働株式会社 — データは自動収集・5分ごと自動更新
+        © メシウマ稼働株式会社
       </div>
     </div>
   );
