@@ -274,14 +274,6 @@ def parse_store_page(html: str, store_url: str, pref_dir: str, ssc_id: str | Non
         if addr_m2:
             result["address"] = re.sub(r'\s+', ' ', addr_m2.group(1).strip())[:100]
 
-    # ── 店舗写真 ──
-    base_url = store_url.rsplit('/', 1)[0]
-    # P-Worldの写真は img/XXXXXX_01.jpg 形式
-    photo_m = re.search(r'(?:src|SRC)="img/(\d{6})_0[13]\.jpg', html)
-    if photo_m:
-        store_num = photo_m.group(1)
-        result["photo_url"] = f"{base_url}/img/{store_num}_01.jpg"
-
     # ── フロアマップURL ──
     if ssc_id:
         result["floor_map_url"] = f"{BASE_URL}/{pref_dir}/ssc/ssc{ssc_id.zfill(6)}.htm"
@@ -461,10 +453,9 @@ def main():
             p_total  = data.get("pachinko_total", 0)
             s_total  = data.get("slot_total", 0)
             has_floor = "✓" if data.get("floor_map_url") else "✗"
-            has_photo = "✓" if data.get("photo_url") else "✗"
             hours_str = data.get("hours", "")[:20]
             if p_total or s_total:
-                print(f"  ✓ {store_name}  パチ{p_total}/スロ{s_total}台  {hours_str}  フロア{has_floor}  写真{has_photo}")
+                print(f"  ✓ {store_name}  パチ{p_total}/スロ{s_total}台  {hours_str}  フロア{has_floor}")
             total_fetched += 1
 
             processed += 1

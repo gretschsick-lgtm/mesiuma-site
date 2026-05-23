@@ -369,16 +369,7 @@ def guess_cast(text: str) -> str:
     return ""
 
 
-def extract_images(article) -> list[str]:
-    imgs = []
-    for img in article.query_selector_all('img[src*="pbs.twimg.com/media"]'):
-        src = img.get_attribute("src") or ""
-        if src and src not in imgs:
-            imgs.append(src)
-    return imgs
-
-
-def tweet_to_event(text: str, tweet_url: str, images: list[str]) -> dict | None:
+def tweet_to_event(text: str, tweet_url: str) -> dict | None:
     info = guess_store_pref_area(text)
     if not info:
         return None
@@ -386,7 +377,6 @@ def tweet_to_event(text: str, tweet_url: str, images: list[str]) -> dict | None:
     date_str = guess_date(text)
     ev_type = guess_event_type(text)
     cast = guess_cast(text)
-    image_url = images[0] if images else ""
     detail = text[:200].replace("\n", " ")
     event_label = next(
         (kw for kws in EVENT_KEYWORDS.values() for kw in kws if kw in text),
@@ -402,7 +392,6 @@ def tweet_to_event(text: str, tweet_url: str, images: list[str]) -> dict | None:
         "detail": detail,
         "cast": cast,
         "highlight": "",
-        "image_url": image_url,
         "x_url": tweet_url,
         "url": tweet_url,
         "source": "x",
@@ -543,8 +532,7 @@ def scrape_query(page, query: str, max_tweets: int = 40) -> list[dict]:
                 continue
             seen_urls.add(tweet_url)
 
-            images = extract_images(article)
-            ev = tweet_to_event(text, tweet_url, images)
+            ev = tweet_to_event(text, tweet_url)
             if ev:
                 results.append(ev)
                 log(f"    ✅ {ev['store']} [{ev['pref']}] {ev['date']} {ev['event']} {ev['cast']}")

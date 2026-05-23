@@ -398,16 +398,6 @@ def extract_slot_number(text: str) -> str:
     return m.group(1) if m else ""
 
 
-def extract_images(article) -> list[str]:
-    imgs = []
-    for img in article.query_selector_all('img[src*="pbs.twimg.com/media"]'):
-        src = img.get_attribute("src") or ""
-        if src and src not in imgs:
-            src = re.sub(r'\?.*$', '?format=jpg&name=large', src)
-            imgs.append(src)
-    return imgs
-
-
 def get_tweet_datetime(article) -> tuple[str, str]:
     """Xの<time datetime="...">からJSTの (date, time) を取得して返す"""
     try:
@@ -444,7 +434,7 @@ def _is_store_name(name: str) -> bool:
     return bool(re.search(r'店|ホール|パーラー|PALACE|palace|ランド|マルハン|キコーナ|ダイナム', name))
 
 
-def parse_tweet(text: str, tweet_url: str, images: list[str],
+def parse_tweet(text: str, tweet_url: str,
                 today_str: str, tweet_date: str, tweet_time: str,
                 author_name: str = "") -> dict | None:
     if not is_store_tweet(text):
@@ -480,8 +470,6 @@ def parse_tweet(text: str, tweet_url: str, images: list[str],
         "machine_type": get_machine_type(machine),   # "slot" or "pachinko"
         "slot_number": slot_number,                  # 台番号
         "text": text[:250].replace("\n", " "),
-        "images": images[:4],
-        "image_url": images[0] if images else "",
         "x_url": tweet_url,
         "collected_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
@@ -551,7 +539,6 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
             seen_urls.add(tweet_url)
 
             tweet_date, tweet_time = get_tweet_datetime(article)
-            images = extract_images(article)
             # 作者表示名を取得（ツイートカードのUser-Name）
             author_name = ""
             try:
@@ -560,14 +547,13 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
                     author_name = author_el.inner_text().strip()
             except Exception:
                 pass
-            entry = parse_tweet(text, tweet_url, images, today_str, tweet_date, tweet_time, author_name)
+            entry = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time, author_name)
             if entry:
                 results.append(entry)
                 store_label   = entry["store"] or "店舗不明"
                 machine_label = entry["machine"] or "機種不明"
                 slot          = f" [{entry['slot_number']}番台]" if entry["slot_number"] else ""
-                img_count     = len(entry["images"])
-                log(f"    ✅ {store_label} / {machine_label}{slot} (画像{img_count}枚) {entry['time']}")
+                log(f"    ✅ {store_label} / {machine_label}{slot} {entry['time']}")
 
         except Exception:
             continue

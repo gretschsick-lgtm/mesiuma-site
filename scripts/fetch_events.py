@@ -996,7 +996,7 @@ def _make_id(store: str, date_str: str, url: str) -> str:
     return hashlib.md5(f"{store}|{date_str}|{url}".encode()).hexdigest()[:12]
 
 
-def _make_event(text: str, url: str, image_url: str, source: str, store_names: set[str]) -> dict | None:
+def _make_event(text: str, url: str, source: str, store_names: set[str]) -> dict | None:
     # イベント関連キーワードがなければスキップ
     if not EVENT_KEYWORD_RE.search(text):
         return None
@@ -1015,7 +1015,6 @@ def _make_event(text: str, url: str, image_url: str, source: str, store_names: s
         "detail":    text[:300].replace("\n", " "),
         "cast":      _guess_cast(text),
         "highlight": "",
-        "image_url": image_url,
         "x_url":     url if "x.com" in url else "",
         "url":       url,
         "source":    source,
@@ -1025,15 +1024,6 @@ def _make_event(text: str, url: str, image_url: str, source: str, store_names: s
 # ---------------------------------------------------------------------------
 # X スクレイピング
 # ---------------------------------------------------------------------------
-def _x_images(article) -> list[str]:
-    imgs = []
-    for img in article.query_selector_all('img[src*="pbs.twimg.com/media"]'):
-        src = img.get_attribute("src") or ""
-        if src and src not in imgs:
-            imgs.append(src)
-    return imgs
-
-
 def _x_url(article) -> str:
     time_el = article.query_selector("time")
     if time_el:
@@ -1069,13 +1059,11 @@ def _x_scrape_page(
             if not url or url in seen:
                 continue
             seen.add(url)
-            imgs = _x_images(article)
-            img_url = imgs[0] if imgs else ""
 
             if store_hint:
-                # 店舗自身のアカウント: store_hintを強制使用 + イベントキーワードなくてもOK（画像ありなら）
-                if not EVENT_KEYWORD_RE.search(text) and not img_url:
-                    continue  # キーワードも画像もなければスキップ
+                # 店舗自身のアカウント: store_hintを強制使用 + イベントキーワードなくてもOK
+                if not EVENT_KEYWORD_RE.search(text):
+                    continue  # キーワードがなければスキップ
                 date_str = _guess_date(text)
                 pref, area = _guess_pref_area(text)
                 ev = {
@@ -1088,13 +1076,12 @@ def _x_scrape_page(
                     "detail":    text[:300].replace("\n", " "),
                     "cast":      _guess_cast(text),
                     "highlight": "",
-                    "image_url": img_url,
                     "x_url":     url if "x.com" in url else "",
                     "url":       url,
                     "source":    "x",
                 }
             else:
-                ev = _make_event(text, url, img_url, "x", store_names)
+                ev = _make_event(text, url, "x", store_names)
             if ev:
                 results.append(ev)
                 log(f"      ✅ {ev['store'][:18]} [{ev['pref']}] {ev['date']} ({source_label})")
@@ -1173,7 +1160,7 @@ def scrape_google_news(page, query: str, store_names: set[str]) -> list[dict]:
                 href = "https://news.google.com/" + href[2:]
             elif href.startswith("/"):
                 href = "https://news.google.com" + href
-            ev = _make_event(title, href, "", "google", store_names)
+            ev = _make_event(title, href, "google", store_names)
             if ev:
                 results.append(ev)
                 log(f"      📰 {ev['store'][:18]} [{ev['pref']}]")
@@ -1211,7 +1198,7 @@ def scrape_yahoo_realtime(page, query: str, store_names: set[str]) -> list[dict]
                 continue
             if url:
                 seen.add(url)
-            ev = _make_event(text, url or f"yrt-{_make_id('', '', text)}", "", "yahoo_rt", store_names)
+            ev = _make_event(text, url or f"yrt-{_make_id('', '', text)}", "yahoo_rt", store_names)
             if ev:
                 results.append(ev)
                 log(f"      📡 {ev['store'][:18]} [{ev['pref']}]")
@@ -1272,27 +1259,10 @@ def scrape_pttown_schedules_http(
             break
 
         found = 0
-        # <img>タグごとにdata-srcとalt属性を抽出（属性順序不問）
-        img_matches: dict[tuple, str] = {}
-        for tag_m in img_tag_re.finditer(html):
-            attrs = tag_m.group(1)
-            src_m = ptown_src_re.search(attrs)
-            alt_m = ptown_alt_re.search(attrs)
-            if not src_m or not alt_m:
-                continue
-            ev_m = alt_event_re.search(alt_m.group(1))
-            if ev_m:
-                key = (ev_m.group(1).strip(), ev_m.group(2), ev_m.group(3).strip())
-                img_matches[key] = src_m.group(1)
-
         for m in alt_re.finditer(html):
             store = m.group(1).strip()
             date_raw = m.group(2)       # "2026/05/21"
             event_name = m.group(3).strip()
-            # 対応する画像URLを取得（高解像度化）
-            img_src = img_matches.get((store, date_raw, event_name), "")
-            if img_src:
-                img_src = img_src.replace("/fit-in/150x0/", "/fit-in/600x0/").split("?")[0]
 
             # 通常稼働など非イベントを除外
             if any(ng in event_name for ng in _NG_EVENTS):
@@ -1330,7 +1300,6 @@ def scrape_pttown_schedules_http(
                 "detail":    event_name,
                 "cast":      event_name[:40],
                 "highlight": "",
-                "image_url": img_src,
                 "x_url":     "",
                 "url":       f"https://p-town.dmm.com/schedules?page={page_no}",
                 "source":    "p-town",
@@ -1532,7 +1501,6 @@ def scrape_pworld_interviews_http(
                 "detail":    cast,
                 "cast":      cast[:40],
                 "highlight": "",
-                "image_url": img_url,
                 "x_url":     "",
                 "url":       store_url,
                 "source":    "p-world",
@@ -1582,7 +1550,7 @@ def scrape_ptown_event(page, url: str, store_names: set[str]) -> list[dict]:
                         href = "https://p-town.dmm.com" + href
                     img_el = card.query_selector('img[src]')
                     img = img_el.get_attribute("src") if img_el else ""
-                    ev = _make_event(text, href or url, img or "", "p-town", store_names)
+                    ev = _make_event(text, href or url, "p-town", store_names)
                     if ev:
                         results.append(ev)
                         log(f"      🏢 {ev['store'][:18]} [{ev['pref']}] (p-town)")
@@ -1599,7 +1567,7 @@ def scrape_ptown_event(page, url: str, store_names: set[str]) -> list[dict]:
                 text = body.inner_text()
                 lines = [l.strip() for l in text.split('\n') if len(l.strip()) > 20]
                 for line in lines[:100]:
-                    ev = _make_event(line, url, "", "p-town", store_names)
+                    ev = _make_event(line, url, "p-town", store_names)
                     if ev:
                         results.append(ev)
                         log(f"      🏢 {ev['store'][:18]} [{ev['pref']}] (p-town fallback)")
@@ -1653,7 +1621,7 @@ def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) ->
                                     break
                         if img:
                             break
-                    ev = _make_event(text, href or url, img, source_name, store_names)
+                    ev = _make_event(text, href or url, source_name, store_names)
                     if ev:
                         results.append(ev)
                         log(f"      🌐 {ev['store'][:18]} [{ev['pref']}] ({source_name})")
@@ -1667,16 +1635,16 @@ def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) ->
 # ---------------------------------------------------------------------------
 # JOB E: YouTube スクレイピング（yt-dlp ベース）
 # ---------------------------------------------------------------------------
-def _yt_extract_from_text(text: str, url: str, img: str, source: str, store_names: set[str]) -> list[dict]:
+def _yt_extract_from_text(text: str, url: str, source: str, store_names: set[str]) -> list[dict]:
     """YouTube テキスト（複数行）からイベント情報を抽出"""
     results: list[dict] = []
     blocks = [b.strip() for b in re.split(r'\n{2,}', text) if b.strip()]
     for block in blocks[:20]:
-        ev = _make_event(block, url, img, source, store_names)
+        ev = _make_event(block, url, source, store_names)
         if ev:
             results.append(ev)
     if not results and len(text) >= 15:
-        ev = _make_event(text[:500], url, img, source, store_names)
+        ev = _make_event(text[:500], url, source, store_names)
         if ev:
             results.append(ev)
     return results
@@ -1695,14 +1663,6 @@ def _ytdlp(args: list[str], timeout: int = 40) -> str:
         return ""
 
 
-def _yt_thumbnail(url: str) -> str:
-    """YouTube URL からサムネイルURLを生成"""
-    m = re.search(r'(?:youtube\.com/watch\?v=|youtu\.be/)([a-zA-Z0-9_-]{11})', url)
-    if m:
-        return f"https://img.youtube.com/vi/{m.group(1)}/hqdefault.jpg"
-    return ""
-
-
 def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str]) -> list[dict]:
     """yt-dlp でチャンネルの最新動画 + コミュニティ投稿をスクレイプ"""
     results: list[dict] = []
@@ -1719,8 +1679,7 @@ def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str
         if len(parts) < 2:
             continue
         title, url = parts
-        thumb = _yt_thumbnail(url)
-        evs = _yt_extract_from_text(title, url, thumb, "youtube_video", store_names)
+        evs = _yt_extract_from_text(title, url, "youtube_video", store_names)
         for ev in evs:
             ev["cast"] = ev.get("cast") or ch_name
             results.append(ev)
@@ -1739,8 +1698,7 @@ def scrape_youtube_channel_ytdlp(ch_url: str, ch_name: str, store_names: set[str
         url = parts[1] if len(parts) > 1 else ch_url
         if len(text) < 10:
             continue
-        thumb = _yt_thumbnail(url)
-        evs = _yt_extract_from_text(text, url, thumb, "youtube_community", store_names)
+        evs = _yt_extract_from_text(text, url, "youtube_community", store_names)
         for ev in evs:
             ev["cast"] = ev.get("cast") or ch_name
             results.append(ev)
@@ -1763,8 +1721,7 @@ def scrape_youtube_search_ytdlp(query: str, store_names: set[str]) -> list[dict]
         if len(parts) < 3:
             continue
         ch, title, url = parts
-        thumb = _yt_thumbnail(url)
-        evs = _yt_extract_from_text(title, url, thumb, "youtube_search", store_names)
+        evs = _yt_extract_from_text(title, url, "youtube_search", store_names)
         for ev in evs:
             if ch and not ev.get("cast"):
                 ev["cast"] = ch
