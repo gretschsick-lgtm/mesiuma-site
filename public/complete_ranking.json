@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T02:01:58+09:00",
+  "updated_at": "2026-05-25T03:55:55+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
@@ -7,7 +7,7 @@
         {
           "rank": 1,
           "name": "ダイナム",
-          "count": 10
+          "count": 13
         },
         {
           "rank": 2,
@@ -22,7 +22,7 @@
         {
           "rank": 4,
           "name": "マルハン仙台苦竹店です",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 5,
@@ -34,26 +34,26 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 28
+          "count": 31
         },
         {
           "rank": 2,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
+          "name": "スマスロ北斗の拳",
+          "count": 19
         },
         {
           "rank": 3,
-          "name": "スマスロ北斗の拳",
+          "name": "ミリオンゴッド神々の軌跡",
           "count": 15
         },
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 10
+          "count": 12
         },
         {
           "rank": 5,
-          "name": "L炎炎ノ消防隊2",
+          "name": "スマスロ攻殻機動隊",
           "count": 9
         }
       ],
@@ -61,26 +61,26 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 28
+          "count": 31
         },
         {
           "rank": 2,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
+          "name": "スマスロ北斗の拳",
+          "count": 19
         },
         {
           "rank": 3,
-          "name": "スマスロ北斗の拳",
+          "name": "ミリオンゴッド神々の軌跡",
           "count": 15
         },
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 10
+          "count": 12
         },
         {
           "rank": 5,
-          "name": "L炎炎ノ消防隊2",
+          "name": "スマスロ攻殻機動隊",
           "count": 9
         }
       ],
@@ -92,26 +92,26 @@
         },
         {
           "rank": 2,
-          "name": "eFキン肉マン",
+          "name": "e牙狼12黄金騎士極限",
           "count": 2
         },
         {
           "rank": 3,
-          "name": "牙狼12",
+          "name": "eFキン肉マン",
           "count": 2
         },
         {
           "rank": 4,
-          "name": "【e牙狼12黄金騎士極限】",
-          "count": 1
+          "name": "牙狼12",
+          "count": 2
         },
         {
           "rank": 5,
-          "name": "e牙狼12黄金騎士極限】",
+          "name": "e牙狼12XX-MJ",
           "count": 1
         }
       ],
-      "total_count": 233
+      "total_count": 256
     },
     "2026-04": {
       "stores": [
@@ -203,13 +203,13 @@
     "stores": [
       {
         "rank": 1,
-        "name": "キャッスル春日井",
+        "name": "ダイナム",
         "count": 13
       },
       {
         "rank": 2,
-        "name": "ダイナム",
-        "count": 10
+        "name": "キャッスル春日井",
+        "count": 13
       },
       {
         "rank": 3,
@@ -219,7 +219,7 @@
       {
         "rank": 4,
         "name": "マルハン仙台苦竹店です",
-        "count": 6
+        "count": 7
       },
       {
         "rank": 5,
@@ -231,12 +231,12 @@
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 38
+        "count": 41
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳",
-        "count": 17
+        "count": 21
       },
       {
         "rank": 3,
@@ -246,24 +246,24 @@
       {
         "rank": 4,
         "name": "L東京喰種",
-        "count": 10
+        "count": 12
       },
       {
         "rank": 5,
         "name": "スマスロ攻殻機動隊",
-        "count": 9
+        "count": 11
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 38
+        "count": 41
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳",
-        "count": 17
+        "count": 21
       },
       {
         "rank": 3,
@@ -273,12 +273,12 @@
       {
         "rank": 4,
         "name": "L東京喰種",
-        "count": 10
+        "count": 12
       },
       {
         "rank": 5,
         "name": "スマスロ攻殻機動隊",
-        "count": 9
+        "count": 11
       }
     ],
     "pachinko_machines": [
@@ -289,25 +289,25 @@
       },
       {
         "rank": 2,
-        "name": "eFキン肉マン",
+        "name": "e牙狼12黄金騎士極限",
         "count": 2
       },
       {
         "rank": 3,
-        "name": "牙狼12",
+        "name": "eFキン肉マン",
         "count": 2
       },
       {
         "rank": 4,
-        "name": "【e牙狼12黄金騎士極限】",
-        "count": 1
+        "name": "牙狼12",
+        "count": 2
       },
       {
         "rank": 5,
-        "name": "e牙狼12黄金騎士極限】",
+        "name": "e牙狼12XX-MJ",
         "count": 1
       }
     ],
-    "total_count": 261
+    "total_count": 285
   }
 }
