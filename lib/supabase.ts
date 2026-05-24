@@ -101,28 +101,23 @@ export type Database = {
   };
 };
 
-// ─── 環境変数チェック ──────────────────────────────────────────────────────
+// ─── クライアント（遅延初期化）────────────────────────────────────────────
 
-const supabaseUrl  = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseAnon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+let _supabase: ReturnType<typeof createSupabaseClient<Database>> | null = null;
 
-if (!supabaseUrl || !supabaseAnon) {
-  throw new Error(
-    "[lib/supabase.ts] NEXT_PUBLIC_SUPABASE_URL または NEXT_PUBLIC_SUPABASE_ANON_KEY が未設定です。" +
-    " .env.local を確認してください。"
-  );
+function getBrowserClient(): ReturnType<typeof createSupabaseClient<Database>> {
+  if (_supabase) return _supabase;
+  const url  = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!url || !anon) {
+    throw new Error(
+      "[lib/supabase.ts] NEXT_PUBLIC_SUPABASE_URL または NEXT_PUBLIC_SUPABASE_ANON_KEY が未設定です。" +
+      " .env.local を確認してください。"
+    );
+  }
+  _supabase = createSupabaseClient<Database>(url, anon);
+  return _supabase;
 }
-
-// ─── クライアント ──────────────────────────────────────────────────────────
-
-/**
- * ブラウザ・サーバーコンポーネント共用クライアント（anon key）
- * 公開データの読み取り専用。書き込みには使わない。
- */
-export const supabase = createSupabaseClient<Database>(
-  supabaseUrl,
-  supabaseAnon
-);
 
 /**
  * サーバーサイド専用クライアント（service_role key）
@@ -137,7 +132,14 @@ export function createAdminClient() {
       " サーバーサイドのみで使用してください。"
     );
   }
-  return createSupabaseClient<Database>(supabaseUrl!, serviceKey, {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  if (!url) {
+    throw new Error(
+      "[lib/supabase.ts] NEXT_PUBLIC_SUPABASE_URL が未設定です。" +
+      " .env.local を確認してください。"
+    );
+  }
+  return createSupabaseClient<Database>(url, serviceKey, {
     auth: {
       autoRefreshToken: false,
       persistSession: false,
@@ -155,7 +157,7 @@ export async function getPublicEvents(options?: {
 }) {
   const { limit = 200, fromDate, pref } = options ?? {};
 
-  let query = supabase
+  let query = getBrowserClient()
     .from("events")
     .select(
       // image_url は意図的に SELECT から除外
@@ -176,7 +178,7 @@ export async function getPublicEvents(options?: {
 
 /** NG除外済みコンプリート報告（日付・時刻降順） */
 export async function getPublicCompleteReports(limit = 300) {
-  const { data, error } = await supabase
+  const { data, error } = await getBrowserClient()
     .from("complete_reports")
     .select(
       // image_url は意図的に SELECT から除外
@@ -192,7 +194,7 @@ export async function getPublicCompleteReports(limit = 300) {
 
 /** 最新の fetch_logs（管理画面用） */
 export async function getRecentFetchLogs(limit = 50) {
-  const { data, error } = await supabase
+  const { data, error } = await getBrowserClient()
     .from("fetch_logs")
     .select("*")
     .order("created_at", { ascending: false })
@@ -204,7 +206,7 @@ export async function getRecentFetchLogs(limit = 50) {
 
 /** fetch_state を取得（差分取得の基準時刻として使用） */
 export async function getFetchState(jobName: string): Promise<FetchState | null> {
-  const { data, error } = await supabase
+  const { data, error } = await getBrowserClient()
     .from("fetch_state")
     .select("*")
     .eq("job_name", jobName)
