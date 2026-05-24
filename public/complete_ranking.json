@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T04:01:19+09:00",
+  "updated_at": "2026-05-24T18:24:44+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
@@ -7,7 +7,7 @@
         {
           "rank": 1,
           "name": "ダイナム",
-          "count": 8
+          "count": 9
         },
         {
           "rank": 2,
@@ -111,7 +111,7 @@
           "count": 1
         }
       ],
-      "total_count": 218
+      "total_count": 220
     },
     "2026-04": {
       "stores": [
@@ -145,7 +145,7 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 11
+          "count": 10
         },
         {
           "rank": 2,
@@ -172,7 +172,7 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 11
+          "count": 10
         },
         {
           "rank": 2,
@@ -196,7 +196,7 @@
         }
       ],
       "pachinko_machines": [],
-      "total_count": 24
+      "total_count": 23
     }
   },
   "total": {
@@ -209,7 +209,7 @@
       {
         "rank": 2,
         "name": "ダイナム",
-        "count": 8
+        "count": 9
       },
       {
         "rank": 3,
@@ -231,7 +231,7 @@
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 38
+        "count": 37
       },
       {
         "rank": 2,
@@ -258,7 +258,7 @@
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 38
+        "count": 37
       },
       {
         "rank": 2,
@@ -308,6 +308,6 @@
         "count": 1
       }
     ],
-    "total_count": 247
+    "total_count": 248
   }
 }

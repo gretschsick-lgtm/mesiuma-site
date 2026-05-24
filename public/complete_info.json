@@ -1,5 +1,29 @@
 [
   {
+    "id": "a85bcc3b6c28",
+    "date": "2026-05-24",
+    "time": "16:04",
+    "store": "スーパーD’ステーション３９女神店",
+    "machine": "eバイオハザード6",
+    "machine_type": "slot",
+    "slot_number": "503",
+    "text": "本日5月24日(日)  503番台 eバイオハザード6 コンプリート達成おめでとうございます！  ファン感謝デー最終日 まだまだこの後のお時間もご来店お待ちしております  #Dステ  #パチンコ  #スロット  #コンプリート",
+    "x_url": "https://x.com/dsmegami/status/2058443940349821044",
+    "collected_at": "2026-05-24T08:43:57Z"
+  },
+  {
+    "id": "af5cd0a20444",
+    "date": "2026-05-24",
+    "time": "12:05",
+    "store": "ダイナム",
+    "machine": "バイオハザードRe：3",
+    "machine_type": "slot",
+    "slot_number": "113",
+    "text": "いつもど～もですぅ～。福島県出身赤べこ店長だべぇ～  昨日のコンプリート報告だべぇ～  新台 LバイオハザードRe：3　113番台でコンプリート達成だべぇ  おめでとうございます～  #ダイナム　#スマスロバイオハザードRe：3　#コンプリート",
+    "x_url": "https://x.com/dynam_00154/status/2058383771053822253",
+    "collected_at": "2026-05-24T08:43:57Z"
+  },
+  {
     "id": "401aa542f2bc",
     "date": "2026-05-23",
     "time": "23:12",
@@ -3984,23 +4008,6 @@
     "image_url": "https://pbs.twimg.com/media/HGq5f92a0AAGg4q?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2047653231401255363",
     "collected_at": "2026-05-21T11:31:10Z",
-    "machine_type": "slot"
-  },
-  {
-    "id": "6a9b7eab5460",
-    "date": "2026-04-23",
-    "time": "20:32",
-    "store": "ピーアーク三田　since 2005.04.27",
-    "machine": "革命機ヴァルヴレイヴ2",
-    "slot_number": "226",
-    "text": "4/25（木） ピーアーク三田 4月は周年月間  226番台 L革命機ヴァルヴレイヴ2   　コンプリート達成   ｵﾒﾃﾞﾄｳｺﾞｻﾞｲﾏｽ  #ピーアーク三田 #スマスロ #コンプリート",
-    "images": [
-      "https://pbs.twimg.com/media/HGlj-eCbwAAq_xI?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HGlj-fKaMAEp0Xk?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HGlj-eCbwAAq_xI?format=jpg&name=large",
-    "x_url": "https://x.com/P_ARK_MITA/status/2047277440976994766",
-    "collected_at": "2026-05-21T11:27:10Z",
     "machine_type": "slot"
   }
 ]
