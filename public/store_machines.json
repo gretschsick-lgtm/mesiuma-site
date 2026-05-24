@@ -1827,6 +1827,14 @@
     ],
     "new_machines": [
       {
+        "name": "最新台を多数導入",
+        "type": "pachinko"
+      },
+      {
+        "name": "バイオハザード",
+        "type": "pachinko"
+      },
+      {
         "name": "PフィーバークィーンⅡ",
         "type": "pachinko"
       },
@@ -2554,7 +2562,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kadoma.htm",
     "pworld_slug": "kicona-kadoma"
@@ -2614,7 +2622,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arena-izumigaoka.htm",
     "pworld_slug": "arena-izumigaoka"
@@ -7935,7 +7943,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/p-jumbo.htm",
     "pworld_slug": "p-jumbo",
@@ -18499,7 +18507,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/crown.htm",
     "pworld_slug": "crown"
@@ -22081,7 +22089,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/casablanca.htm",
     "pworld_slug": "casablanca",
@@ -28585,7 +28593,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/g-story500.htm",
     "pworld_slug": "g-story500"
@@ -28715,7 +28723,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/saiin-c.htm",
     "pworld_slug": "saiin-c"
@@ -28769,7 +28777,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/king-kawara.htm",
     "pworld_slug": "king-kawara"
@@ -28779,8 +28787,58 @@
     "slot_total": 244,
     "hours": "10:00 〜 22:50",
     "address": "京都府京都市南区西九条御幸田町1 コスモビル1階",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007423_01.jpg",
-    "updated_at": "2026-05-22T12:18:11Z",
+    "hp_url": "http://www.matsubara-kosan.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[20]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyo-ichi-11-.htm",
     "pworld_slug": "kyo-ichi-11-"
@@ -28869,7 +28927,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/de-masse-omiya.htm",
     "pworld_slug": "de-masse-omiya"
@@ -28879,7 +28937,6 @@
     "slot_total": 148,
     "hours": "10:00 〜 22:45",
     "address": "京都府京都市中京区大宮通四条上ル錦大宮町131",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/014917_01.jpg",
     "hp_url": "http://omega.gr.jp",
     "machines_installed": [
       {
@@ -28935,7 +28992,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/omega-omiya1.htm",
     "pworld_slug": "omega-omiya1"
@@ -28945,7 +29002,6 @@
     "slot_total": 176,
     "hours": "10:00 〜 22:30",
     "address": "京都府福知山市堀2730-4",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007410_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/kyoto/ssc/ssc007410.htm",
     "machines_installed": [
       {
@@ -28993,7 +29049,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/zorro.htm",
     "pworld_slug": "zorro"
@@ -29003,9 +29059,54 @@
     "slot_total": 120,
     "hours": "10:00 〜 22:30",
     "address": "京都府綾部市井倉新町上大橋10番地1",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007425_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/kyoto/ssc/ssc007425.htm",
-    "updated_at": "2026-05-22T12:18:11Z",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[21.74]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/como.htm",
     "pworld_slug": "como"
@@ -29021,8 +29122,53 @@
     ],
     "hours": "10:00 〜 22:30",
     "address": "京都府綾部市大島町南和田10",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/011711_01.jpg",
-    "updated_at": "2026-05-22T12:18:11Z",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1.12]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[21.74]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/siruku.htm",
     "pworld_slug": "siruku"
@@ -29088,7 +29234,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/route1-kamitoba.htm",
     "pworld_slug": "route1-kamitoba"
@@ -29146,7 +29292,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/f1.htm",
     "pworld_slug": "f1"
@@ -29207,7 +29353,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/omega-ava.htm",
     "pworld_slug": "omega-ava"
@@ -29295,7 +29441,6 @@
     ],
     "hours": "10:00 〜 22:45",
     "address": "京都府京都市左京区一乗寺宮ノ東町55",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/014863_01.jpg",
     "hp_url": "http://omega.gr.jp",
     "machines_installed": [
       {
@@ -29347,7 +29492,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/omega-kitashirakawa.htm",
     "pworld_slug": "omega-kitashirakawa"
@@ -29357,7 +29502,6 @@
     "slot_total": 112,
     "hours": "10:00 〜 22:45",
     "address": "京都府京都市南区唐橋西平垣町16",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007395_01.jpg",
     "machines_installed": [
       {
         "name": "おすすめ",
@@ -29404,7 +29548,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/nishiouji-lucky.htm",
     "pworld_slug": "nishiouji-lucky"
@@ -29582,7 +29726,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/tamachan.htm",
     "pworld_slug": "tamachan"
@@ -29590,10 +29734,70 @@
   "エンターテイメントオメガ向日市": {
     "pachinko_total": 285,
     "slot_total": 185,
+    "slot": [
+      {
+        "rate": "1000円/400枚",
+        "count": 285
+      }
+    ],
     "hours": "10:00 〜 22:45",
     "address": "京都府向日市鶏冠井町小深田25番4",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/014895_01.jpg",
-    "updated_at": "2026-05-22T12:18:11Z",
+    "hp_url": "http://omega.gr.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/25玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/100玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/400玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/400枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/omega-mukoushi.htm",
     "pworld_slug": "omega-mukoushi"
@@ -29650,7 +29854,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyoto-mammoth.htm",
     "pworld_slug": "kyoto-mammoth"
@@ -29720,7 +29924,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kameoka-ace.htm",
     "pworld_slug": "kameoka-ace"
@@ -29792,7 +29996,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/focus-kyoto.htm",
     "pworld_slug": "focus-kyoto"
@@ -29922,7 +30126,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/ja.htm",
     "pworld_slug": "ja"
@@ -29958,7 +30162,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyoichi-higashi.htm",
     "pworld_slug": "kyoichi-higashi"
@@ -30022,7 +30226,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyoichi-honten.htm",
     "pworld_slug": "kyoichi-honten"
@@ -30068,7 +30272,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyoichi-kuze.htm",
     "pworld_slug": "kyoichi-kuze"
@@ -30196,7 +30400,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/parlor-diana.htm",
     "pworld_slug": "parlor-diana"
@@ -30253,7 +30457,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/ekimae-lucky.htm",
     "pworld_slug": "ekimae-lucky"
@@ -30314,7 +30518,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/debut-mukou.htm",
     "pworld_slug": "debut-mukou"
@@ -30376,7 +30580,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyoichi-7.htm",
     "pworld_slug": "kyoichi-7"
@@ -30432,7 +30636,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyotojs.htm",
     "pworld_slug": "kyotojs"
@@ -30492,7 +30696,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/hyakumandorunishino.htm",
     "pworld_slug": "hyakumandorunishino"
@@ -30552,7 +30756,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/millionookubo.htm",
     "pworld_slug": "millionookubo"
@@ -30612,7 +30816,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/hyakumandoru.htm",
     "pworld_slug": "hyakumandoru"
@@ -30801,7 +31005,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/ms.htm",
     "pworld_slug": "ms"
@@ -30859,7 +31063,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/dynam-kyotango.htm",
     "pworld_slug": "dynam-kyotango"
@@ -30922,7 +31126,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/center.htm",
     "pworld_slug": "center"
@@ -30980,7 +31184,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/yamashinakb.htm",
     "pworld_slug": "yamashinakb"
@@ -31045,7 +31249,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/k-venice.htm",
     "pworld_slug": "k-venice"
@@ -31104,7 +31308,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/new-japan.htm",
     "pworld_slug": "new-japan"
@@ -31165,7 +31369,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/manbow.htm",
     "pworld_slug": "manbow"
@@ -31226,7 +31430,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/yoodell.htm",
     "pworld_slug": "yoodell"
@@ -31281,7 +31485,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/yoodell5.htm",
     "pworld_slug": "yoodell5"
@@ -31347,7 +31551,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/scpdaitou.htm",
     "pworld_slug": "scpdaitou"
@@ -31404,7 +31608,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-minami.htm",
     "pworld_slug": "amuse-minami"
@@ -31465,7 +31669,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-nakaishikiri.htm",
     "pworld_slug": "maruhan-nakaishikiri"
@@ -31533,7 +31737,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/scp-sennan.htm",
     "pworld_slug": "scp-sennan"
@@ -31577,7 +31781,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/abiko-harimaya.htm",
     "pworld_slug": "abiko-harimaya"
@@ -31637,7 +31841,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/senboku.htm",
     "pworld_slug": "senboku"
@@ -31694,7 +31898,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-mizuhai.htm",
     "pworld_slug": "maruhan-mizuhai"
@@ -31750,7 +31954,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-s.htm",
     "pworld_slug": "amuse-s"
@@ -31812,7 +32016,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-ibaraki.htm",
     "pworld_slug": "kicona-ibaraki"
@@ -31878,7 +32082,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-showacho.htm",
     "pworld_slug": "kicona-showacho"
@@ -31939,7 +32143,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-ibarakisaito.htm",
     "pworld_slug": "kicona-ibarakisaito"
@@ -31995,7 +32199,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse.htm",
     "pworld_slug": "amuse"
@@ -32065,7 +32269,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-takaida.htm",
     "pworld_slug": "kicona-takaida"
@@ -32130,7 +32334,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-harayamadai.htm",
     "pworld_slug": "maruhan-harayamadai"
@@ -32188,7 +32392,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-hankyutoyo.htm",
     "pworld_slug": "kicona-hankyutoyo"
@@ -32255,7 +32459,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-yaoizumi.htm",
     "pworld_slug": "maruhan-yaoizumi"
@@ -32318,7 +32522,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-izumiterada.htm",
     "pworld_slug": "maruhan-izumiterada"
@@ -32379,7 +32583,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/prootsmandore.htm",
     "pworld_slug": "prootsmandore",
@@ -32458,7 +32662,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-fukaebashi.htm",
     "pworld_slug": "bellagio-fukaebashi"
@@ -32520,7 +32724,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/proots.htm",
     "pworld_slug": "proots"
@@ -32583,7 +32787,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-settsu-twin.htm",
     "pworld_slug": "maruhan-settsu-twin"
@@ -32644,7 +32848,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/parlor-atom.htm",
     "pworld_slug": "parlor-atom"
@@ -32706,7 +32910,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/proots-s.htm",
     "pworld_slug": "proots-s"
@@ -32894,7 +33098,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaya-kitafukai.htm",
     "pworld_slug": "harimaya-kitafukai",
@@ -32909,7 +33113,6 @@
     "slot_total": 621,
     "hours": "10:00 〜 22:50",
     "address": "大阪府松原市丹南1丁目317-1",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/008179_01.jpg",
     "hp_url": "http://www.nobuta123.co.jp",
     "line_url": "https://line.me/R/ti/p/%40123matsubara",
     "machines_installed": [
@@ -32962,7 +33165,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123-matsubara.htm",
     "pworld_slug": "123-matsubara"
@@ -32972,7 +33175,6 @@
     "slot_total": 642,
     "hours": "10:00 〜 23:00",
     "address": "大阪府大阪市中央区千日前2-10-1 エスカ-ルなんばＢ1〜Ｂ2Ｆ",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/012738_01.jpg",
     "x_url": "https://x.com/kyoichinamba",
     "hp_url": "http://www.matsubara-kosan.co.jp",
     "line_url": "https://line.me/R/ti/p/%40sra-nanba",
@@ -33026,7 +33228,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T02:41:49Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kyo-ichinanba.htm",
     "pworld_slug": "kyo-ichinanba",
@@ -33092,7 +33294,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/scpibaraki.htm",
     "pworld_slug": "scpibaraki"
@@ -33153,7 +33355,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-jrsuita.htm",
     "pworld_slug": "kicona-jrsuita"
@@ -33213,7 +33415,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/siguma.htm",
     "pworld_slug": "siguma"
@@ -33282,7 +33484,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-imafuku.htm",
     "pworld_slug": "maruhan-imafuku"
@@ -33349,7 +33551,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-sakai.htm",
     "pworld_slug": "maruhan-sakai"
@@ -33479,7 +33681,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-matsubara.htm",
     "pworld_slug": "maruhan-matsubara"
@@ -33539,7 +33741,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/nikoniko.htm",
     "pworld_slug": "nikoniko",
@@ -33622,7 +33824,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-ishibashi.htm",
     "pworld_slug": "bellagio-ishibashi"
@@ -33679,7 +33881,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123-komagawa.htm",
     "pworld_slug": "123-komagawa"
@@ -33742,7 +33944,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123senbayashiten.htm",
     "pworld_slug": "123senbayashiten"
@@ -33808,7 +34010,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-mikuni.htm",
     "pworld_slug": "kicona-mikuni"
@@ -33869,7 +34071,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123-lapark.htm",
     "pworld_slug": "123-lapark"
@@ -33929,7 +34131,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/plaza.htm",
     "pworld_slug": "plaza"
@@ -33990,7 +34192,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/venice-fuse.htm",
     "pworld_slug": "venice-fuse"
@@ -34046,7 +34248,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-toyonaka.htm",
     "pworld_slug": "amuse-toyonaka"
@@ -34290,7 +34492,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-moriguti.htm",
     "pworld_slug": "kicona-moriguti"
@@ -34352,7 +34554,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/hanbunya.htm",
     "pworld_slug": "hanbunya"
@@ -34412,7 +34614,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123izumi.htm",
     "pworld_slug": "123izumi"
@@ -34474,7 +34676,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-terada.htm",
     "pworld_slug": "bellagio-terada"
@@ -34536,7 +34738,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaua-mikuni.htm",
     "pworld_slug": "harimaua-mikuni",
@@ -34554,7 +34756,6 @@
     "slot_total": 60,
     "hours": "10:00 〜 22:30",
     "address": "大阪府八尾市山本町1-6-16",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/017440_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/osaka/ssc/ssc017440.htm",
     "hp_url": "http://www.777nikoniko.com",
     "line_url": "https://line.me/R/ti/p/%40odg8112a",
@@ -34604,7 +34805,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/nikonikoyaoyamamoto.htm",
     "pworld_slug": "nikonikoyaoyamamoto"
@@ -34671,7 +34872,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/izumi-cosmo.htm",
     "pworld_slug": "izumi-cosmo"
@@ -34680,7 +34881,6 @@
     "pachinko_total": 456,
     "slot_total": 287,
     "address": "大阪府寝屋川市新家2-10-5",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/012089_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/osaka/ssc/ssc012089.htm",
     "x_url": "https://x.com/2525_inter",
     "hp_url": "http://www.777nikoniko.com",
@@ -34739,7 +34939,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/get-r.htm",
     "pworld_slug": "get-r"
@@ -34805,7 +35005,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiichi-suminoe.htm",
     "pworld_slug": "daiichi-suminoe"
@@ -34867,7 +35067,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-higashiosaka.htm",
     "pworld_slug": "kicona-higashiosaka"
@@ -34929,7 +35129,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-imafuku.htm",
     "pworld_slug": "kicona-imafuku"
@@ -34986,7 +35186,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-neyagawaikeda.htm",
     "pworld_slug": "arrow-neyagawaikeda"
@@ -35054,7 +35254,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/goldvenice.htm",
     "pworld_slug": "goldvenice"
@@ -35115,7 +35315,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ash.htm",
     "pworld_slug": "ash"
@@ -35176,7 +35376,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zenith.htm",
     "pworld_slug": "zenith"
@@ -35241,7 +35441,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-yokodutumi.htm",
     "pworld_slug": "bellagio-yokodutumi"
@@ -35359,7 +35559,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/miku-ps.htm",
     "pworld_slug": "miku-ps"
@@ -35419,7 +35619,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tsuruyamadai.htm",
     "pworld_slug": "tsuruyamadai"
@@ -35475,7 +35675,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/club-d.htm",
     "pworld_slug": "club-d"
@@ -35531,7 +35731,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/parks-plus.htm",
     "pworld_slug": "parks-plus"
@@ -35592,7 +35792,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tamade123.htm",
     "pworld_slug": "tamade123"
@@ -35651,7 +35851,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/king-of-kings.htm",
     "pworld_slug": "king-of-kings"
@@ -35711,7 +35911,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grankicona-matsubara.htm",
     "pworld_slug": "grankicona-matsubara"
@@ -35775,7 +35975,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-naniwa.htm",
     "pworld_slug": "arrow-naniwa"
@@ -35819,7 +36019,7 @@
         "type": "slot"
       },
       {
-        "name": "[1000円/184枚]スロ",
+        "name": "[5]スロ",
         "type": "slot"
       },
       {
@@ -35835,7 +36035,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kok1007osakahonten.htm",
     "pworld_slug": "kok1007osakahonten",
@@ -35906,7 +36106,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-shiki-ekimae.htm",
     "pworld_slug": "arrow-shiki-ekimae"
@@ -35966,7 +36166,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kyuhouji-gamba.htm",
     "pworld_slug": "kyuhouji-gamba"
@@ -36023,7 +36223,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kourienkita.htm",
     "pworld_slug": "kicona-kourienkita"
@@ -36084,7 +36284,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiana-kourien.htm",
     "pworld_slug": "daiana-kourien"
@@ -36211,7 +36411,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaya-nihonbashi.htm",
     "pworld_slug": "harimaya-nihonbashi"
@@ -36344,7 +36544,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-senbayashi.htm",
     "pworld_slug": "kicona-senbayashi"
@@ -36354,7 +36554,6 @@
     "slot_total": 305,
     "hours": "10:00 〜 22:40",
     "address": "大阪府大阪市平野区加美鞍作三丁目2-27",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/018336_01.jpg",
     "hp_url": "http://www.il-salone.com",
     "machines_installed": [
       {
@@ -36406,7 +36605,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ilsalone-hirano.htm",
     "pworld_slug": "ilsalone-hirano"
@@ -36475,7 +36674,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-ibaraki.htm",
     "pworld_slug": "maruhan-ibaraki"
@@ -36544,7 +36743,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-daito.htm",
     "pworld_slug": "maruhan-daito"
@@ -36606,7 +36805,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-fuse.htm",
     "pworld_slug": "maruhan-fuse"
@@ -36735,7 +36934,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-konohana.htm",
     "pworld_slug": "maruhan-konohana"
@@ -36802,7 +37001,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-koumyoike.htm",
     "pworld_slug": "maruhan-koumyoike"
@@ -36859,7 +37058,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/townlight-fuse.htm",
     "pworld_slug": "townlight-fuse"
@@ -36920,7 +37119,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/champion-toyonaka.htm",
     "pworld_slug": "champion-toyonaka",
@@ -36986,7 +37185,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/cosmo-e-osaka.htm",
     "pworld_slug": "cosmo-e-osaka"
@@ -37056,7 +37255,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kourien.htm",
     "pworld_slug": "kicona-kourien"
@@ -37123,7 +37322,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/magicbird2.htm",
     "pworld_slug": "magicbird2"
@@ -37155,7 +37354,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/3s.htm",
     "pworld_slug": "3s"
@@ -37225,7 +37424,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-neyagawa.htm",
     "pworld_slug": "bellagio-neyagawa"
@@ -37294,7 +37493,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123plus-n-fuseten.htm",
     "pworld_slug": "123plus-n-fuseten"
@@ -37356,7 +37555,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kitanoda123.htm",
     "pworld_slug": "kitanoda123"
@@ -37418,7 +37617,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-senboku.htm",
     "pworld_slug": "arrow-senboku"
@@ -37476,7 +37675,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kozusima.htm",
     "pworld_slug": "kicona-kozusima"
@@ -37530,7 +37729,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-nishitanabe.htm",
     "pworld_slug": "kicona-nishitanabe"
@@ -37598,7 +37797,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/sckaiduka.htm",
     "pworld_slug": "sckaiduka"
@@ -37659,7 +37858,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kyoichi-hirakata.htm",
     "pworld_slug": "kyoichi-hirakata",
@@ -37732,7 +37931,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-tondabayashi.htm",
     "pworld_slug": "kicona-tondabayashi"
@@ -37791,7 +37990,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-nanbashinkan.htm",
     "pworld_slug": "maruhan-nanbashinkan"
@@ -37859,7 +38058,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-hosaka.htm",
     "pworld_slug": "maruhan-hosaka"
@@ -37922,7 +38121,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/texas.htm",
     "pworld_slug": "texas"
@@ -37967,7 +38166,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/platinum5.htm",
     "pworld_slug": "platinum5"
@@ -38089,7 +38288,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-habikino.htm",
     "pworld_slug": "maruhan-habikino"
@@ -38099,7 +38298,6 @@
     "slot_total": 536,
     "hours": "10:00 〜 22:40",
     "address": "大阪府守口市佐太東町１丁目１４番７号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/018243_01.jpg",
     "machines_installed": [
       {
         "name": "おすすめ",
@@ -38150,7 +38348,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/v-moriguchi.htm",
     "pworld_slug": "v-moriguchi"
@@ -38160,7 +38358,6 @@
     "slot_total": 600,
     "hours": "10:00 〜 22:40",
     "address": "大阪府門真市三ツ島３丁目１４番３８号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/016625_01.jpg",
     "hp_url": "https://www.nobuta123.co.jp",
     "machines_installed": [
       {
@@ -38212,7 +38409,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123kadoma.htm",
     "pworld_slug": "123kadoma"
@@ -38279,7 +38476,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123-turuhasi.htm",
     "pworld_slug": "123-turuhasi"
@@ -38311,7 +38508,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/slot123matsubara.htm",
     "pworld_slug": "slot123matsubara"
@@ -38383,7 +38580,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kiconaneyagawaminami.htm",
     "pworld_slug": "kiconaneyagawaminami"
@@ -38444,7 +38641,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/first-yao.htm",
     "pworld_slug": "first-yao"
@@ -38482,7 +38679,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/air.htm",
     "pworld_slug": "air"
@@ -38492,7 +38689,6 @@
     "slot_total": 214,
     "hours": "10:00 〜 22:40",
     "address": "大阪府大阪市淀川区十三東2丁目12番47号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/019586_01.jpg",
     "machines_installed": [
       {
         "name": "おすすめ",
@@ -38535,7 +38731,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/eagle-r1.htm",
     "pworld_slug": "eagle-r1"
@@ -38589,7 +38785,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/elite-higashisumiyoshi.htm",
     "pworld_slug": "elite-higashisumiyoshi"
@@ -38659,7 +38855,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-nishiawaji.htm",
     "pworld_slug": "kicona-nishiawaji"
@@ -38716,7 +38912,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-matsugaoka.htm",
     "pworld_slug": "arrow-matsugaoka"
@@ -38865,7 +39061,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/super-hall.htm",
     "pworld_slug": "super-hall"
@@ -38987,7 +39183,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-matsubara.htm",
     "pworld_slug": "arrow-matsubara"
@@ -39048,7 +39244,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123nagayoshiten.htm",
     "pworld_slug": "123nagayoshiten"
@@ -39110,7 +39306,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/toga-arrow.htm",
     "pworld_slug": "toga-arrow"
@@ -39170,7 +39366,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/plaisir-tamakushi.htm",
     "pworld_slug": "plaisir-tamakushi"
@@ -39208,7 +39404,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/n-nikoniko.htm",
     "pworld_slug": "n-nikoniko"
@@ -39270,7 +39466,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrow-nanba-hips.htm",
     "pworld_slug": "arrow-nanba-hips"
@@ -39331,7 +39527,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/osaka-hall.htm",
     "pworld_slug": "osaka-hall"
@@ -39400,7 +39596,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/k-zone.htm",
     "pworld_slug": "k-zone"
@@ -39458,7 +39654,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/senri-center.htm",
     "pworld_slug": "senri-center"
@@ -39527,7 +39723,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shonai1ban.htm",
     "pworld_slug": "shonai1ban"
@@ -39591,7 +39787,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/sherra.htm",
     "pworld_slug": "sherra"
@@ -39649,7 +39845,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/hyper-arrow-mihara.htm",
     "pworld_slug": "hyper-arrow-mihara"
@@ -39721,7 +39917,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-tsumori.htm",
     "pworld_slug": "kicona-tsumori"
@@ -39855,7 +40051,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-neyagawa.htm",
     "pworld_slug": "maruhan-neyagawa"
@@ -39916,7 +40112,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shikairou.htm",
     "pworld_slug": "shikairou"
@@ -39926,7 +40122,6 @@
     "slot_total": 280,
     "hours": "10:00 〜 22:40",
     "address": "大阪府河内長野市上原西町11-7",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/013244_01.jpg",
     "hp_url": "http://www.nobuta123.co.jp",
     "machines_installed": [
       {
@@ -39978,7 +40173,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kawachinagano123.htm",
     "pworld_slug": "kawachinagano123"
@@ -40019,7 +40214,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/umeda-slot123.htm",
     "pworld_slug": "umeda-slot123"
@@ -40079,7 +40274,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/face1300.htm",
     "pworld_slug": "face1300"
@@ -40145,7 +40340,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123plusn-osaka.htm",
     "pworld_slug": "123plusn-osaka"
@@ -40208,7 +40403,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/k-arrow.htm",
     "pworld_slug": "k-arrow"
@@ -40271,7 +40466,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kikuya-sakaikita.htm",
     "pworld_slug": "kikuya-sakaikita"
@@ -40328,7 +40523,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kamishinjyo-ichiban.htm",
     "pworld_slug": "kamishinjyo-ichiban"
@@ -40344,7 +40539,6 @@
     ],
     "hours": "10:00 〜 22:30",
     "address": "大阪府大阪市北区国分寺2-1-1",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/019785_01.jpg",
     "hp_url": "https://undertree.co.jp",
     "machines_installed": [
       {
@@ -40396,7 +40590,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grankicona-honten.htm",
     "pworld_slug": "grankicona-honten"
@@ -40462,7 +40656,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/vegasvegas-daitou.htm",
     "pworld_slug": "vegasvegas-daitou"
@@ -40537,7 +40731,6 @@
     "slot_total": 200,
     "hours": "10:00 〜 22:40",
     "address": "大阪府大阪市西淀川区御幣島1-15-8",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/011422_01.jpg",
     "hp_url": "http://ameblo.jp",
     "line_url": "https://line.me/R/ti/p/%40il_mitejima",
     "machines_installed": [
@@ -40590,7 +40783,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ilsalone-mitejima.htm",
     "pworld_slug": "ilsalone-mitejima"
@@ -40651,7 +40844,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123katano.htm",
     "pworld_slug": "123katano"
@@ -40695,7 +40888,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/fukai-arrow.htm",
     "pworld_slug": "fukai-arrow"
@@ -40753,7 +40946,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/q-bang.htm",
     "pworld_slug": "q-bang"
@@ -40815,7 +41008,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ilsalone-fujiidera.htm",
     "pworld_slug": "ilsalone-fujiidera"
@@ -40868,7 +41061,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/socio-west.htm",
     "pworld_slug": "socio-west"
@@ -40878,7 +41071,6 @@
     "slot_total": 87,
     "hours": "10:00 〜 22:45",
     "address": "大阪府大阪市都島区東野田町3-3-36",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/007937_01.jpg",
     "line_url": "https://line.me/R/ti/p/%40qfa5032z",
     "machines_installed": [
       {
@@ -40930,7 +41122,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/miyako-center.htm",
     "pworld_slug": "miyako-center"
@@ -40992,7 +41184,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/venice-higasshi.htm",
     "pworld_slug": "venice-higasshi"
@@ -41052,7 +41244,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/winup.htm",
     "pworld_slug": "winup"
@@ -41062,7 +41254,6 @@
     "slot_total": 382,
     "hours": "10:00 〜 22:45",
     "address": "大阪府吹田市豊津町14-26",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/007522_01.jpg",
     "hp_url": "http://www.venice.co.jp",
     "line_url": "https://line.me/R/ti/p/%40v_esaka",
     "machines_installed": [
@@ -41115,7 +41306,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T02:41:49Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/venice-esaka-shinkan.htm",
     "pworld_slug": "venice-esaka-shinkan"
@@ -41183,7 +41374,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/il-salone.htm",
     "pworld_slug": "il-salone"
@@ -41266,7 +41457,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/golf3.htm",
     "pworld_slug": "golf3"
@@ -41335,7 +41526,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-kadoma.htm",
     "pworld_slug": "bellagio-kadoma"
@@ -41366,7 +41557,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/slot-kadoma.htm",
     "pworld_slug": "slot-kadoma"
@@ -41424,7 +41615,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/lexus-neo.htm",
     "pworld_slug": "lexus-neo"
@@ -41480,7 +41671,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/r-konoike.htm",
     "pworld_slug": "r-konoike"
@@ -41523,7 +41714,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/hankyu-kaikan.htm",
     "pworld_slug": "hankyu-kaikan"
@@ -41606,7 +41797,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/iseya-net.htm",
     "pworld_slug": "iseya-net"
@@ -41670,7 +41861,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-imazato.htm",
     "pworld_slug": "kicona-imazato"
@@ -41738,7 +41929,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiana.htm",
     "pworld_slug": "daiana"
@@ -41798,7 +41989,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tennojihallshinkan.htm",
     "pworld_slug": "tennojihallshinkan"
@@ -41854,7 +42045,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/sierra3.htm",
     "pworld_slug": "sierra3"
@@ -41912,7 +42103,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tenichi-ikuno.htm",
     "pworld_slug": "tenichi-ikuno"
@@ -41954,7 +42145,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-b-5.htm",
     "pworld_slug": "bellagio-b-5"
@@ -41998,7 +42189,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/t-svision.htm",
     "pworld_slug": "t-svision"
@@ -42037,7 +42228,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/opera43.htm",
     "pworld_slug": "opera43"
@@ -42096,7 +42287,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/hallywood.htm",
     "pworld_slug": "hallywood"
@@ -42164,7 +42355,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/scp-kishiwada.htm",
     "pworld_slug": "scp-kishiwada"
@@ -42231,7 +42422,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio.htm",
     "pworld_slug": "bellagio"
@@ -42289,7 +42480,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ritz-takatsukiten.htm",
     "pworld_slug": "ritz-takatsukiten"
@@ -42345,7 +42536,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/pinky-i.htm",
     "pworld_slug": "pinky-i"
@@ -42455,7 +42646,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/m-bros.htm",
     "pworld_slug": "m-bros"
@@ -42522,7 +42713,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/luxor-rush.htm",
     "pworld_slug": "luxor-rush"
@@ -42692,7 +42883,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/atariya-abiko.htm",
     "pworld_slug": "atariya-abiko"
@@ -42749,7 +42940,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bun-ei.htm",
     "pworld_slug": "bun-ei"
@@ -42856,7 +43047,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/medal-oh.htm",
     "pworld_slug": "medal-oh"
@@ -42919,7 +43110,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/diana-otoshi.htm",
     "pworld_slug": "diana-otoshi"
@@ -42980,7 +43171,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amore.htm",
     "pworld_slug": "amore"
@@ -43036,7 +43227,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/080808.htm",
     "pworld_slug": "080808"
@@ -43116,7 +43307,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/p-daiichi-hirano.htm",
     "pworld_slug": "p-daiichi-hirano"
@@ -43178,7 +43369,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zipangkuzuha.htm",
     "pworld_slug": "zipangkuzuha"
@@ -43246,7 +43437,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kyo-ichi-kagudanchi.htm",
     "pworld_slug": "kyo-ichi-kagudanchi"
@@ -43300,7 +43491,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zipang.htm",
     "pworld_slug": "zipang"
@@ -43356,7 +43547,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-yao.htm",
     "pworld_slug": "amuse-yao"
@@ -43417,7 +43608,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/soleil-fuse.htm",
     "pworld_slug": "soleil-fuse"
@@ -43493,7 +43684,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiichi-hall.htm",
     "pworld_slug": "daiichi-hall"
@@ -43561,7 +43752,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiichikohama.htm",
     "pworld_slug": "daiichikohama"
@@ -43621,7 +43812,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/darumaya.htm",
     "pworld_slug": "darumaya"
@@ -43683,7 +43874,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/derde.htm",
     "pworld_slug": "derde"
@@ -43743,7 +43934,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arusa2.htm",
     "pworld_slug": "arusa2"
@@ -43805,7 +43996,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shikairo-kujou.htm",
     "pworld_slug": "shikairo-kujou"
@@ -43862,7 +44053,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shikairo-hepfive.htm",
     "pworld_slug": "shikairo-hepfive",
@@ -43903,7 +44094,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/banban1.htm",
     "pworld_slug": "banban1"
@@ -43913,7 +44104,6 @@
     "slot_total": 162,
     "hours": "10:00 〜 22:45",
     "address": "大阪府大阪市北区小松原町4-11",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/007662_01.jpg",
     "x_url": "https://x.com/daitoyo_umeda",
     "hp_url": "https://www.daitoyo.com",
     "machines_installed": [
@@ -43962,7 +44152,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T02:41:49Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/de-light.htm",
     "pworld_slug": "de-light"
@@ -44027,7 +44217,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123izumisano.htm",
     "pworld_slug": "123izumisano"
@@ -44089,7 +44279,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-nishikujo.htm",
     "pworld_slug": "bellagio-nishikujo"
@@ -44215,7 +44405,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shikairo-umeda.htm",
     "pworld_slug": "shikairo-umeda"
@@ -44274,7 +44464,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/venice-yoshita.htm",
     "pworld_slug": "venice-yoshita"
@@ -44381,7 +44571,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/pachipachi.htm",
     "pworld_slug": "pachipachi"
@@ -44441,7 +44631,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/am-hotarugaike.htm",
     "pworld_slug": "am-hotarugaike"
@@ -44495,7 +44685,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daitoyo-prime.htm",
     "pworld_slug": "daitoyo-prime"
@@ -44559,7 +44749,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/am-toyonaka.htm",
     "pworld_slug": "am-toyonaka"
@@ -44634,7 +44824,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-s.htm",
     "pworld_slug": "bellagio-s"
@@ -44755,7 +44945,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/socioeast.htm",
     "pworld_slug": "socioeast"
@@ -44817,7 +45007,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/metrograzie.htm",
     "pworld_slug": "metrograzie"
@@ -44882,7 +45072,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/elite-ikeda.htm",
     "pworld_slug": "elite-ikeda"
@@ -44948,7 +45138,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaya-tokuan.htm",
     "pworld_slug": "harimaya-tokuan"
@@ -45001,7 +45191,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/merossoimamiya.htm",
     "pworld_slug": "merossoimamiya"
@@ -45069,7 +45259,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T19:04:49Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/jumbo-hagurazaki.htm",
     "pworld_slug": "jumbo-hagurazaki"
@@ -45130,7 +45320,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T19:04:49Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-esaka.htm",
     "pworld_slug": "bellagio-esaka"
@@ -45140,7 +45330,6 @@
     "slot_total": 144,
     "hours": "10:00 〜 22:45",
     "address": "大阪府枚方市牧野阪2丁目7-10",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/016411_01.jpg",
     "hp_url": "http://fujikougyou-kk.com",
     "line_url": "https://line.me/R/ti/p/@kin2516t",
     "machines_installed": [
@@ -45193,7 +45382,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/himawari-m.htm",
     "pworld_slug": "himawari-m"
@@ -45203,7 +45392,6 @@
     "slot_total": 467,
     "hours": "10:00 〜 22:45",
     "address": "大阪府大阪市北区曽根崎2丁目16番25号 ZETTA清蓮ビル",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/018770_01.jpg",
     "x_url": "https://x.com/ZETTAUMEDA",
     "hp_url": "http://www.matsubara-kosan.co.jp",
     "machines_installed": [
@@ -45260,7 +45448,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zetta-kyoichi-ume.htm",
     "pworld_slug": "zetta-kyoichi-ume"
@@ -45276,7 +45464,6 @@
     ],
     "hours": "10:00 〜 22:40",
     "address": "大阪府柏原市片山町15番22号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/018375_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/osaka/ssc/ssc018375.htm",
     "hp_url": "http://www.arai-kousan.co.jp",
     "machines_installed": [
@@ -45349,7 +45536,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/scpkashiwara.htm",
     "pworld_slug": "scpkashiwara"
@@ -45365,7 +45552,6 @@
     ],
     "hours": "10:00 〜 22:45",
     "address": "大阪府吹田市元町3-5",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/007428_01.jpg",
     "machines_installed": [
       {
         "name": "おすすめ",
@@ -45412,7 +45598,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/p-888.htm",
     "pworld_slug": "p-888"
@@ -45471,7 +45657,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-nodakita.htm",
     "pworld_slug": "kicona-nodakita"
@@ -45479,7 +45665,6 @@
   "大東洋　本店": {
     "slot_total": 318,
     "address": "大阪府大阪市北区小松原町4-7",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/007711_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/osaka/ssc/ssc007711.htm",
     "x_url": "https://x.com/daitoyo_honten",
     "hp_url": "https://www.daitoyo.com",
@@ -45505,7 +45690,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/new-daitoyo.htm",
     "pworld_slug": "new-daitoyo"
@@ -45521,7 +45706,6 @@
     ],
     "hours": "10:00 〜 22:45",
     "address": "大阪府大阪市東淀川区淡路4-12-4",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/015670_01.jpg",
     "hp_url": "http://32037.p-world.jp",
     "machines_installed": [
       {
@@ -45573,7 +45757,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/lexus-awaji.htm",
     "pworld_slug": "lexus-awaji"
@@ -45644,7 +45828,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/supercosmo-shiki.htm",
     "pworld_slug": "supercosmo-shiki"
@@ -45701,7 +45885,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/morigutitexas.htm",
     "pworld_slug": "morigutitexas"
@@ -45711,7 +45895,6 @@
     "slot_total": 101,
     "hours": "10:00 〜 23:00",
     "address": "大阪府大阪市都島区都島本通3-28-10",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/007912_01.jpg",
     "hp_url": "http://genpu.co.jp",
     "machines_installed": [
       {
@@ -45763,7 +45946,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuseichigo.htm",
     "pworld_slug": "amuseichigo"
@@ -45773,7 +45956,6 @@
     "slot_total": 104,
     "hours": "10:00 〜 22:45",
     "address": "大阪府四条畷市楠公一丁目九番五十号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/008132_01.jpg",
     "hp_url": "http://fujikougyou-kk.com",
     "machines_installed": [
       {
@@ -45825,7 +46007,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/himawarisijounawate.htm",
     "pworld_slug": "himawarisijounawate"
@@ -45884,7 +46066,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/newgold.htm",
     "pworld_slug": "newgold"
@@ -46031,7 +46213,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/abc-lucky.htm",
     "pworld_slug": "abc-lucky"
@@ -46091,7 +46273,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-hirakata.htm",
     "pworld_slug": "maruhan-hirakata"
@@ -46217,7 +46399,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/vox.htm",
     "pworld_slug": "vox"
@@ -46278,7 +46460,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-kashima.htm",
     "pworld_slug": "maruhan-kashima"
@@ -46340,7 +46522,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ilsalone.htm",
     "pworld_slug": "ilsalone"
@@ -46397,7 +46579,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ginnobudou-1st.htm",
     "pworld_slug": "ginnobudou-1st"
@@ -46453,7 +46635,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/1-ban-takatsuki.htm",
     "pworld_slug": "1-ban-takatsuki"
@@ -46463,7 +46645,6 @@
     "slot_total": 107,
     "hours": "10:00 〜 22:45",
     "address": "大阪府吹田市岸部中二丁目2番17号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/019656_01.jpg",
     "hp_url": "https://undertree.co.jp",
     "line_url": "https://line.me/ti/p/%40287qbwbx",
     "machines_installed": [
@@ -46512,7 +46693,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kishibe.htm",
     "pworld_slug": "kicona-kishibe"
@@ -46570,7 +46751,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-joto.htm",
     "pworld_slug": "amuse-joto"
@@ -46580,7 +46761,6 @@
     "slot_total": 492,
     "hours": "10:00 〜 22:40",
     "address": "大阪府大阪市淀川区十八条2-17-14",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/018809_01.jpg",
     "x_url": "https://x.com/palazzo_mikuni",
     "hp_url": "http://www.palazzo.co.jp",
     "machines_installed": [
@@ -46633,7 +46813,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/palazzo-mikuni.htm",
     "pworld_slug": "palazzo-mikuni"
@@ -46695,7 +46875,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ichiban.htm",
     "pworld_slug": "ichiban"
@@ -46754,7 +46934,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/pearl13.htm",
     "pworld_slug": "pearl13"
@@ -46814,7 +46994,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kinpachi-mito.htm",
     "pworld_slug": "kinpachi-mito"
@@ -46870,7 +47050,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-takadono.htm",
     "pworld_slug": "amuse-takadono"
@@ -46931,7 +47111,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiana-sakaemachi.htm",
     "pworld_slug": "daiana-sakaemachi"
@@ -46991,7 +47171,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/gulliver-s.htm",
     "pworld_slug": "gulliver-s"
@@ -47048,7 +47228,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bonanza-kamishinjo.htm",
     "pworld_slug": "bonanza-kamishinjo"
@@ -47104,7 +47284,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruka-izuo3.htm",
     "pworld_slug": "maruka-izuo3"
@@ -47171,7 +47351,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/vegasvegas-izumiotsu.htm",
     "pworld_slug": "vegasvegas-izumiotsu"
@@ -47208,7 +47388,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/slot-lotus.htm",
     "pworld_slug": "slot-lotus"
@@ -47248,7 +47428,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/sanwa-sanwa2.htm",
     "pworld_slug": "sanwa-sanwa2"
@@ -47311,7 +47491,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tenichi-nishinari.htm",
     "pworld_slug": "tenichi-nishinari"
@@ -47378,7 +47558,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/gachapon-hishie.htm",
     "pworld_slug": "gachapon-hishie"
@@ -47447,7 +47627,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/rakuenplus.htm",
     "pworld_slug": "rakuenplus"
@@ -47514,7 +47694,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amistad.htm",
     "pworld_slug": "amistad"
@@ -47579,7 +47759,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/cherry.htm",
     "pworld_slug": "cherry"
@@ -47640,7 +47820,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/okamachi1ban.htm",
     "pworld_slug": "okamachi1ban"
@@ -47672,7 +47852,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/slot-zest.htm",
     "pworld_slug": "slot-zest"
@@ -47739,7 +47919,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/nine.htm",
     "pworld_slug": "nine"
@@ -47801,7 +47981,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/amuse-sekime.htm",
     "pworld_slug": "amuse-sekime"
@@ -47864,7 +48044,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-daito.htm",
     "pworld_slug": "kicona-daito"
@@ -47922,7 +48102,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiana-oohata.htm",
     "pworld_slug": "daiana-oohata"
@@ -47993,7 +48173,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123-midori.htm",
     "pworld_slug": "123-midori"
@@ -48058,7 +48238,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ichien-honpo.htm",
     "pworld_slug": "ichien-honpo"
@@ -48120,7 +48300,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-juso.htm",
     "pworld_slug": "kicona-juso"
@@ -48182,7 +48362,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kireinter.htm",
     "pworld_slug": "kicona-kireinter"
@@ -48240,7 +48420,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/elite.htm",
     "pworld_slug": "elite"
@@ -48301,7 +48481,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-shijonawate.htm",
     "pworld_slug": "kicona-shijonawate"
@@ -48367,7 +48547,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ir-saroune.htm",
     "pworld_slug": "ir-saroune"
@@ -48376,7 +48556,6 @@
     "pachinko_total": 480,
     "slot_total": 290,
     "address": "大阪府八尾市植松町8丁目3番28号",
-    "photo_url": "https://www.p-world.co.jp/osaka/img/018837_01.jpg",
     "hp_url": "https://undertree.co.jp",
     "line_url": "https://line.me/ti/p/%40wch3358t",
     "machines_installed": [
@@ -48429,7 +48608,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-yaotaishi.htm",
     "pworld_slug": "kicona-yaotaishi"
@@ -48491,7 +48670,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-nozaki.htm",
     "pworld_slug": "kicona-nozaki"
@@ -48560,7 +48739,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/k2.htm",
     "pworld_slug": "k2"
@@ -48618,7 +48797,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/patio.htm",
     "pworld_slug": "patio"
@@ -48681,7 +48860,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-kire.htm",
     "pworld_slug": "kicona-kire"
@@ -48746,7 +48925,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/bellagio-juso.htm",
     "pworld_slug": "bellagio-juso"
@@ -48808,7 +48987,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kisiwada-apollo.htm",
     "pworld_slug": "kisiwada-apollo"
@@ -48940,7 +49119,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/pao-senri.htm",
     "pworld_slug": "pao-senri"
@@ -49004,7 +49183,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrowshiki.htm",
     "pworld_slug": "arrowshiki"
@@ -49069,7 +49248,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T19:04:49Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shikairow-esaka.htm",
     "pworld_slug": "shikairow-esaka"
@@ -49135,7 +49314,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/stadiumtoyonaka.htm",
     "pworld_slug": "stadiumtoyonaka"
@@ -49196,7 +49375,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tenichi-sennan.htm",
     "pworld_slug": "tenichi-sennan"
@@ -49259,7 +49438,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/q-bang4th.htm",
     "pworld_slug": "q-bang4th"
@@ -49325,7 +49504,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123-sakai.htm",
     "pworld_slug": "123-sakai"
@@ -49384,7 +49563,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ozaki-mammoth.htm",
     "pworld_slug": "ozaki-mammoth"
@@ -49458,7 +49637,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kokusai.htm",
     "pworld_slug": "kokusai"
@@ -49520,7 +49699,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/metro-imamiya.htm",
     "pworld_slug": "metro-imamiya"
@@ -49576,7 +49755,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/daiichi-t.htm",
     "pworld_slug": "daiichi-t",
@@ -49612,7 +49791,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/comecome.htm",
     "pworld_slug": "comecome"
@@ -49674,7 +49853,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/dynam-kaizuka.htm",
     "pworld_slug": "dynam-kaizuka"
@@ -49732,7 +49911,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ilsalone-ikeda.htm",
     "pworld_slug": "ilsalone-ikeda"
@@ -49796,7 +49975,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zetta-chayamachi.htm",
     "pworld_slug": "zetta-chayamachi"
@@ -49854,7 +50033,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/hattori.htm",
     "pworld_slug": "hattori"
@@ -49885,7 +50064,7 @@
         "type": "slot"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/fuyajou.htm",
     "pworld_slug": "fuyajou"
@@ -49944,7 +50123,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/west-moriguchi.htm",
     "pworld_slug": "west-moriguchi"
@@ -50005,7 +50184,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kyoichi-takatsuki.htm",
     "pworld_slug": "kyoichi-takatsuki"
@@ -50063,7 +50242,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tenichi-terada.htm",
     "pworld_slug": "tenichi-terada"
@@ -50127,7 +50306,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/copis-verge.htm",
     "pworld_slug": "copis-verge"
@@ -50184,7 +50363,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/manmosu.htm",
     "pworld_slug": "manmosu"
@@ -50241,7 +50420,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grand-chateau.htm",
     "pworld_slug": "grand-chateau"
@@ -50307,7 +50486,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/sanei-kaikan.htm",
     "pworld_slug": "sanei-kaikan"
@@ -50363,7 +50542,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/o-hall.htm",
     "pworld_slug": "o-hall"
@@ -50429,7 +50608,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ban-ban.htm",
     "pworld_slug": "ban-ban"
@@ -50489,7 +50668,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zerokujo.htm",
     "pworld_slug": "zerokujo",
@@ -50522,7 +50701,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shuttle-tondabayashi.htm",
     "pworld_slug": "shuttle-tondabayashi"
@@ -50584,7 +50763,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/siguma-yata.htm",
     "pworld_slug": "siguma-yata"
@@ -50649,7 +50828,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/west.htm",
     "pworld_slug": "west"
@@ -50715,7 +50894,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/access.htm",
     "pworld_slug": "access"
@@ -50803,7 +50982,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/golden.htm",
     "pworld_slug": "golden"
@@ -50863,7 +51042,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/sintoyo.htm",
     "pworld_slug": "sintoyo"
@@ -50919,7 +51098,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/marusanosaka.htm",
     "pworld_slug": "marusanosaka"
@@ -50988,7 +51167,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/minano5.htm",
     "pworld_slug": "minano5"
@@ -51084,7 +51263,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/salondevenice.htm",
     "pworld_slug": "salondevenice"
@@ -51143,7 +51322,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ebisubashi.htm",
     "pworld_slug": "ebisubashi"
@@ -51196,7 +51375,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/wizz.htm",
     "pworld_slug": "wizz"
@@ -51256,7 +51435,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/ichienhonpoamami.htm",
     "pworld_slug": "ichienhonpoamami"
@@ -51295,7 +51474,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zeniminoo.htm",
     "pworld_slug": "zeniminoo",
@@ -51363,7 +51542,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/misaki-v.htm",
     "pworld_slug": "misaki-v"
@@ -51426,7 +51605,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tadaoka.htm",
     "pworld_slug": "tadaoka"
@@ -51486,7 +51665,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/premio21.htm",
     "pworld_slug": "premio21"
@@ -51550,7 +51729,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/premio.htm",
     "pworld_slug": "premio"
@@ -51603,7 +51782,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/shinobugaoka-kaikan.htm",
     "pworld_slug": "shinobugaoka-kaikan"
@@ -51662,7 +51841,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/mrpachinko-hineno.htm",
     "pworld_slug": "mrpachinko-hineno"
@@ -51729,7 +51908,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/nichidaikaikann.htm",
     "pworld_slug": "nichidaikaikann"
@@ -51789,7 +51968,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/haginochaya.htm",
     "pworld_slug": "haginochaya"
@@ -51799,7 +51978,7 @@
     "slot_total": 112,
     "hours": "10:00 〜 22:45",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/happyboxtakaishi.htm",
     "pworld_slug": "happyboxtakaishi"
@@ -51809,7 +51988,7 @@
     "slot_total": 205,
     "hours": "10:00 〜 22:45",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/happy-izumi.htm",
     "pworld_slug": "happy-izumi"
@@ -51819,7 +51998,7 @@
     "slot_total": 120,
     "hours": "10:00 〜 22:50",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaya-syuntoku.htm",
     "pworld_slug": "harimaya-syuntoku"
@@ -51829,7 +52008,7 @@
     "slot_total": 110,
     "hours": "10:00 〜 21:45",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/newvegas.htm",
     "pworld_slug": "newvegas"
@@ -51839,7 +52018,7 @@
     "slot_total": 662,
     "hours": "10:00 〜 23:00",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/vegabiq-hirakata.htm",
     "pworld_slug": "vegabiq-hirakata"
@@ -51849,7 +52028,7 @@
     "slot_total": 71,
     "hours": "10:00 〜 22:40",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/minato.htm",
     "pworld_slug": "minato"
@@ -51859,7 +52038,7 @@
     "slot_total": 68,
     "hours": "10:00 〜 22:30",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaya-hatsushiba.htm",
     "pworld_slug": "harimaya-hatsushiba"
@@ -51869,7 +52048,7 @@
     "slot_total": 44,
     "hours": "10:00 〜 22:45",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/rakupatiya-kaizuka.htm",
     "pworld_slug": "rakupatiya-kaizuka"
@@ -51879,7 +52058,7 @@
     "slot_total": 64,
     "hours": "10:00 〜 22:45",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/rakupatiya2.htm",
     "pworld_slug": "rakupatiya2"
@@ -51889,7 +52068,7 @@
     "slot_total": 108,
     "hours": "10:00 〜 22:40",
     "new_machines": [],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/arrowcom.htm",
     "pworld_slug": "arrowcom"
@@ -58183,6 +58362,10 @@
     "pworld_slug": "purantan",
     "new_machines": [
       {
+        "name": "ありがとう",
+        "type": "slot"
+      },
+      {
         "name": "スマスロ ビッグドリーム THE GOLDEN PUSHER",
         "type": "slot"
       },
@@ -60516,6 +60699,10 @@
     "updated_at": "2026-05-22T12:18:35",
     "new_machines": [
       {
+        "name": "北斗無双《復活》",
+        "type": "slot"
+      },
+      {
         "name": "#スマパチ",
         "type": "pachinko"
       }
@@ -60533,6 +60720,10 @@
   "パチンコホール｜優良店": {
     "updated_at": "2026-05-22T12:18:35",
     "new_machines": [
+      {
+        "name": "9のつく日",
+        "type": "pachinko"
+      },
       {
         "name": "ミリオンゴッド／真打",
         "type": "pachinko"
@@ -88301,7 +88492,6 @@
     "slot_total": 104,
     "hours": "10:00 〜 22:40",
     "address": "京都府宇治市伊勢田町浮面65番地の5",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/015641_01.jpg",
     "machines_installed": [
       {
         "name": "おすすめ",
@@ -88352,7 +88542,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/axis.htm",
     "pworld_slug": "axis"
@@ -88413,7 +88603,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/para-mukoshi.htm",
     "pworld_slug": "para-mukoshi"
@@ -88429,7 +88619,6 @@
     ],
     "hours": "10:00 〜 23:00",
     "address": "京都府京都市上京区千本通一条下る北伊勢殿構町688",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007272_01.jpg",
     "hp_url": "http://www.king-net.co.jp",
     "line_url": "https://line.me/ti/p/%40king.senbon",
     "machines_installed": [
@@ -88482,7 +88671,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/king-senbon.htm",
     "pworld_slug": "king-senbon"
@@ -88809,7 +88998,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/bigdipper-tanabe.htm",
     "pworld_slug": "bigdipper-tanabe"
@@ -88982,7 +89171,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/king-nishien.htm",
     "pworld_slug": "king-nishien"
@@ -89080,7 +89269,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/slot-theater.htm",
     "pworld_slug": "slot-theater"
@@ -89205,7 +89394,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/s-cosmo-city-acty.htm",
     "pworld_slug": "s-cosmo-city-acty"
@@ -89267,7 +89456,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/uenosiba-cosmo.htm",
     "pworld_slug": "uenosiba-cosmo"
@@ -89378,7 +89567,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/genesis.htm",
     "pworld_slug": "genesis"
@@ -89440,7 +89629,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-akagawa.htm",
     "pworld_slug": "kicona-akagawa"
@@ -89501,7 +89690,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/magicbirdwakae.htm",
     "pworld_slug": "magicbirdwakae"
@@ -89536,7 +89725,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/slotparks.htm",
     "pworld_slug": "slotparks"
@@ -89602,7 +89791,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/magicbird-turumi.htm",
     "pworld_slug": "magicbird-turumi"
@@ -89659,7 +89848,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/magicbird.htm",
     "pworld_slug": "magicbird"
@@ -89695,7 +89884,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/super-slot-harimaya.htm",
     "pworld_slug": "super-slot-harimaya"
@@ -89755,7 +89944,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/suminodou-engel.htm",
     "pworld_slug": "suminodou-engel"
@@ -89816,7 +90005,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/rakuen-nanba.htm",
     "pworld_slug": "rakuen-nanba"
@@ -89884,7 +90073,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/verde.htm",
     "pworld_slug": "verde"
@@ -89945,7 +90134,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-shinsekai.htm",
     "pworld_slug": "maruhan-shinsekai"
@@ -90013,7 +90202,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-twinpark.htm",
     "pworld_slug": "maruhan-twinpark"
@@ -90136,7 +90325,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/richwell.htm",
     "pworld_slug": "richwell"
@@ -90272,7 +90461,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/nikoniko-hirakata.htm",
     "pworld_slug": "nikoniko-hirakata"
@@ -90334,7 +90523,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/konohana-texas.htm",
     "pworld_slug": "konohana-texas"
@@ -90394,7 +90583,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/tennoji-hall.htm",
     "pworld_slug": "tennoji-hall"
@@ -90461,7 +90650,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/kicona-fuse.htm",
     "pworld_slug": "kicona-fuse"
@@ -90529,7 +90718,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/maruhan-izumi.htm",
     "pworld_slug": "maruhan-izumi"
@@ -90590,7 +90779,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/mr-p-izumi.htm",
     "pworld_slug": "mr-p-izumi"
@@ -96068,7 +96257,6 @@
     "slot_total": 280,
     "hours": "10:00 〜 23:00",
     "address": "京都府京都市伏見区淀生津町535番地1",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/015093_01.jpg",
     "hp_url": "http://ichiban.co.jp",
     "machines_installed": [
       {
@@ -96124,7 +96312,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/ichiban-kumiyamayodo.htm",
     "pworld_slug": "ichiban-kumiyamayodo"
@@ -96191,7 +96379,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kyoichi-kameoka.htm",
     "pworld_slug": "kyoichi-kameoka"
@@ -96201,7 +96389,6 @@
     "slot_total": 338,
     "hours": "10:00 〜 23:00",
     "address": "京都府京都市上京区中立売通千本東入丹波屋町360番地",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/017180_01.jpg",
     "floor_map_url": "https://www.p-world.co.jp/kyoto/ssc/ssc017180.htm",
     "hp_url": "http://www.k-kosho.co.jp",
     "machines_installed": [
@@ -96254,7 +96441,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/sd-senbon.htm",
     "pworld_slug": "sd-senbon"
@@ -96264,7 +96451,6 @@
     "slot_total": 124,
     "hours": "10:00 〜 22:50",
     "address": "京都府京都市北区上賀茂朝露ケ原町28-5",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007390_01.jpg",
     "hp_url": "http://omega.gr.jp",
     "line_url": "https://line.me/R/ti/p/%40xdw9562n",
     "machines_installed": [
@@ -96313,7 +96499,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kamigamo-club.htm",
     "pworld_slug": "kamigamo-club"
@@ -96323,7 +96509,6 @@
     "slot_total": 215,
     "hours": "10:00 〜 22:45",
     "address": "京都府宇治市槇島町中川原207番地",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/014891_01.jpg",
     "hp_url": "http://omega.gr.jp",
     "machines_installed": [
       {
@@ -96375,7 +96560,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/omega-maxima.htm",
     "pworld_slug": "omega-maxima"
@@ -96454,7 +96639,6 @@
     "slot_total": 124,
     "hours": "10:00 〜 22:45",
     "address": "京都府城陽市寺田高田47-1",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/007391_01.jpg",
     "x_url": "https://x.com/golden_star777",
     "machines_installed": [
       {
@@ -96502,7 +96686,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/gs.htm",
     "pworld_slug": "gs"
@@ -96559,7 +96743,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/kb7.htm",
     "pworld_slug": "kb7"
@@ -96615,7 +96799,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/center-fusimi.htm",
     "pworld_slug": "center-fusimi"
@@ -96625,7 +96809,6 @@
     "slot_total": 94,
     "hours": "10:00 〜 22:50",
     "address": "京都府京田辺市河原御影30番地の5",
-    "photo_url": "https://www.p-world.co.jp/kyoto/img/019105_01.jpg",
     "machines_installed": [
       {
         "name": "おすすめ",
@@ -96680,7 +96863,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T06:10:44Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/paradise-tanabe.htm",
     "pworld_slug": "paradise-tanabe"
@@ -96744,7 +96927,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/himawari.htm",
     "pworld_slug": "himawari"
@@ -100549,7 +100732,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "京都府",
     "pworld_url": "https://www.p-world.co.jp/kyoto/nagaoka-jumbo.htm",
     "pworld_slug": "nagaoka-jumbo"
@@ -100607,7 +100790,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grankicona-izumisano.htm",
     "pworld_slug": "grankicona-izumisano"
@@ -100669,7 +100852,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/magicbird3.htm",
     "pworld_slug": "magicbird3"
@@ -100730,7 +100913,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grankicona-tsurumi.htm",
     "pworld_slug": "grankicona-tsurumi"
@@ -100791,7 +100974,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/zook.htm",
     "pworld_slug": "zook"
@@ -100852,7 +101035,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grankicona-nishiyodo.htm",
     "pworld_slug": "grankicona-nishiyodo"
@@ -100923,7 +101106,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/123esaka.htm",
     "pworld_slug": "123esaka"
@@ -100994,7 +101177,7 @@
         "type": "pachinko"
       }
     ],
-    "updated_at": "2026-05-23T21:51:42Z",
+    "updated_at": "2026-05-24T02:53:28Z",
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/harimaya-nakamozu.htm",
     "pworld_slug": "harimaya-nakamozu"
@@ -101174,5 +101357,1847 @@
     "pref": "大阪府",
     "pworld_url": "https://www.p-world.co.jp/osaka/grankicona.htm",
     "pworld_slug": "grankicona"
+  },
+  "パーラーＢＯＳＳ": {
+    "pachinko_total": 192,
+    "slot_total": 144,
+    "hours": "08:30 〜 22:45",
+    "address": "青森県むつ市金谷2丁目8-8",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[0.5]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[20]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "青森県",
+    "pworld_url": "https://www.p-world.co.jp/aomori/boss.htm",
+    "pworld_slug": "boss"
+  },
+  "セントラルディーボ宇和島北店": {
+    "pachinko_total": 416,
+    "slot_total": 221,
+    "hours": "9:00 〜 23:30",
+    "address": "愛媛県宇和島市高串字中田1番耕地435番地1",
+    "hp_url": "http://ehime.cen.co.jp",
+    "line_url": "https://line.me/R/ti/p/%40mqp1529s",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/47枚]スロ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ",
+        "type": "slot"
+      },
+      {
+        "name": "ノーマル",
+        "type": "slot"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "愛媛県",
+    "pworld_url": "https://www.p-world.co.jp/ehime/central-uwajimakita.htm",
+    "pworld_slug": "central-uwajimakita"
+  },
+  "MEGAFACE930朝倉": {
+    "pachinko_total": 440,
+    "slot_total": 498,
+    "address": "福岡県朝倉郡筑前町依井384-1",
+    "hp_url": "http://www.facegroup.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/25玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/92玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "福岡県",
+    "pworld_url": "https://www.p-world.co.jp/fukuoka/megaface-asakura.htm",
+    "pworld_slug": "megaface-asakura"
+  },
+  "シルバーバック低貸専門八代中央": {
+    "pachinko_total": 240,
+    "slot_total": 210,
+    "hours": "10:00 〜 23:00",
+    "address": "熊本県八代市旭中央通14番地1",
+    "hp_url": "http://www.silba.jp",
+    "line_url": "https://line.me/R/ti/p/%40ufi7777e",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/90玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[500円/45枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "熊本県",
+    "pworld_url": "https://www.p-world.co.jp/kumamoto/silba-tyuou.htm",
+    "pworld_slug": "silba-tyuou"
+  },
+  "ダイナム大分日田店": {
+    "pachinko_total": 320,
+    "slot_total": 192,
+    "hours": "10:00 〜 23:00",
+    "address": "大分県日田市大字友田字森ノ木747番地1",
+    "hp_url": "http://www.dynam.jp",
+    "line_url": "https://line.me/R/ti/p/%40kmw5754o",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[200円/90玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/98玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/90枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[500円/90枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "大分県",
+    "pworld_url": "https://www.p-world.co.jp/oita/dynam-hita.htm",
+    "pworld_slug": "dynam-hita"
+  },
+  "T-MAX　新栄店": {
+    "pachinko_total": 880,
+    "slot_total": 454,
+    "pachinko": [
+      {
+        "rate": "２５パチ",
+        "count": 418
+      }
+    ],
+    "slot": [
+      {
+        "rate": "1000円/46枚",
+        "count": 1334
+      }
+    ],
+    "hours": "10:00 〜 22:30",
+    "address": "鹿児島県鹿児島市新栄町3番16号",
+    "x_url": "https://x.com/tmaxshinei39_10",
+    "hp_url": "https://kenzen777.net",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1.25]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "鹿児島県",
+    "pworld_url": "https://www.p-world.co.jp/kagoshima/t-max1000.htm",
+    "pworld_slug": "t-max1000"
+  },
+  "T-MAX中種子店": {
+    "pachinko_total": 160,
+    "slot_total": 52,
+    "hours": "10:00 〜 22:45",
+    "address": "鹿児島県熊毛郡中種子町野間5184番地3",
+    "line_url": "https://line.me/R/ti/p/%40jsz9371a",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1.25]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[20]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "鹿児島県",
+    "pworld_url": "https://www.p-world.co.jp/kagoshima/tsurumaru-nakatane.htm",
+    "pworld_slug": "tsurumaru-nakatane"
+  },
+  "つばめザ・ウィング": {
+    "pachinko_total": 480,
+    "slot_total": 238,
+    "slot": [
+      {
+        "rate": "1000円/46枚",
+        "count": 480
+      }
+    ],
+    "hours": "8:00 〜 23:30",
+    "address": "宮城県塩釜市新浜町一丁目28-1",
+    "hp_url": "http://www.tsubame-777.com",
+    "line_url": "https://line.me/R/ti/p/%40qiw6600e",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[500円/125玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[200円/178玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/480玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ",
+        "type": "slot"
+      },
+      {
+        "name": "ノーマル",
+        "type": "slot"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "宮城県",
+    "pworld_url": "https://www.p-world.co.jp/miyagi/tsubame-the-wing.htm",
+    "pworld_slug": "tsubame-the-wing"
+  },
+  "ビックつばめ平店": {
+    "pachinko_total": 462,
+    "slot_total": 420,
+    "address": "福島県いわき市平字正内町19",
+    "hp_url": "http://tsubame-group.jp",
+    "line_url": "https://line.me/R/ti/p/%4039taira",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[200円/178玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/47枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/188枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "福島県",
+    "pworld_url": "https://www.p-world.co.jp/fukushima/bigtsubame-taira.htm",
+    "pworld_slug": "bigtsubame-taira"
+  },
+  "ビックつばめ小名浜西店": {
+    "pachinko_total": 378,
+    "slot_total": 320,
+    "slot": [
+      {
+        "rate": "1000円/464枚",
+        "count": 378
+      }
+    ],
+    "hours": "9:00 〜 22:50",
+    "address": "福島県いわき市小名浜字山神北46-2",
+    "hp_url": "http://tsubame-group.jp",
+    "line_url": "https://line.me/R/ti/p/%40epf7833g",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/890玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/4450玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/47枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/464枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "福島県",
+    "pworld_url": "https://www.p-world.co.jp/fukushima/tubame-onahamanishi.htm",
+    "pworld_slug": "tubame-onahamanishi"
+  },
+  "エヌワンいわき店": {
+    "pachinko_total": 480,
+    "slot_total": 433,
+    "hours": "9:00 〜 22:45",
+    "address": "福島県いわき市平下神谷字天神115",
+    "line_url": "https://line.me/R/ti/p/%40n-1iwaki",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[20]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "福島県",
+    "pworld_url": "https://www.p-world.co.jp/fukushima/n1-iwaki.htm",
+    "pworld_slug": "n1-iwaki"
+  },
+  "マックス福島北": {
+    "pachinko_total": 556,
+    "slot_total": 555,
+    "hours": "9:00 〜 22:45",
+    "address": "福島県福島市鎌田字中田10-4",
+    "hp_url": "http://minami-enterprise.com",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[0.2]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "福島県",
+    "pworld_url": "https://www.p-world.co.jp/fukushima/max-fukushimakita.htm",
+    "pworld_slug": "max-fukushimakita"
+  },
+  "パールショップともえ７G・E・T鹿嶋２": {
+    "slot_total": 363,
+    "slot": [
+      {
+        "rate": "10円スロット",
+        "count": 363
+      }
+    ],
+    "hours": "9:00 〜 22:45",
+    "address": "茨城県鹿嶋市佐田120-1",
+    "hp_url": "http://www.bishop777.com",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[10]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "茨城県",
+    "pworld_url": "https://www.p-world.co.jp/ibaraki/tomoekashima.htm",
+    "pworld_slug": "tomoekashima"
+  },
+  "パールショップともえ石岡店": {
+    "pachinko_total": 395,
+    "slot_total": 373,
+    "hours": "9:00 〜 22:45",
+    "address": "茨城県小美玉市栗又四ヶ2539-1",
+    "hp_url": "http://www.kakuta-net.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[21.7]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "茨城県",
+    "pworld_url": "https://www.p-world.co.jp/ibaraki/tomoe-ishioka.htm",
+    "pworld_slug": "tomoe-ishioka"
+  },
+  "M’sFactory　エムズファクトリー": {
+    "pachinko_total": 42,
+    "slot_total": 188,
+    "slot": [
+      {
+        "rate": "1000円/177枚",
+        "count": 42
+      }
+    ],
+    "hours": "9:00 〜 22:30",
+    "address": "茨城県常陸大宮市泉1163",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[0.5]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/100枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/177枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "茨城県",
+    "pworld_url": "https://www.p-world.co.jp/ibaraki/ms-factory.htm",
+    "pworld_slug": "ms-factory"
+  },
+  "グランドレイト": {
+    "pachinko_total": 234,
+    "slot_total": 70,
+    "hours": "09:00 〜 22:45",
+    "address": "茨城県筑西市乙1011",
+    "hp_url": "https://reitoweb.com",
+    "line_url": "https://line.me/ti/p/%40wye1775r",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[20]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "茨城県",
+    "pworld_url": "https://www.p-world.co.jp/ibaraki/grand-reito.htm",
+    "pworld_slug": "grand-reito"
+  },
+  "マルハンつくば店": {
+    "pachinko_total": 400,
+    "slot_total": 400,
+    "address": "茨城県つくば市上横場1269番地",
+    "hp_url": "http://www.maruhan.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[200円/180玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[0.4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5.5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "茨城県",
+    "pworld_url": "https://www.p-world.co.jp/ibaraki/maruhan-tsukuba.htm",
+    "pworld_slug": "maruhan-tsukuba"
+  },
+  "１円の達人鹿沼店": {
+    "pachinko_total": 320,
+    "slot_total": 200,
+    "hours": "9:00 〜 22:50",
+    "address": "栃木県鹿沼市茂呂字東久保1051-5",
+    "hp_url": "http://www.saotomesp.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[200円/175玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[200円/900玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/90枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/450枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "栃木県",
+    "pworld_url": "https://www.p-world.co.jp/tochigi/1ennotatujin-kanuma.htm",
+    "pworld_slug": "1ennotatujin-kanuma"
+  },
+  "DELGRAND　上横田": {
+    "pachinko_total": 288,
+    "slot_total": 182,
+    "hours": "9:00 〜 22:50",
+    "address": "栃木県宇都宮市上横田町1302-1",
+    "x_url": "https://x.com/derugura88",
+    "hp_url": "http://www.hajimete-pachinko.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "栃木県",
+    "pworld_url": "https://www.p-world.co.jp/tochigi/delgrand-kamiyokota.htm",
+    "pworld_slug": "delgrand-kamiyokota"
+  },
+  "デルパラ3川口店": {
+    "pachinko_total": 592,
+    "slot_total": 519,
+    "hours": "10:00 〜 23:00",
+    "address": "埼玉県川口市青木1丁目11-1",
+    "hp_url": "https://recruit.derupara.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "埼玉県",
+    "pworld_url": "https://www.p-world.co.jp/saitama/derupara-kawaguchi.htm",
+    "pworld_slug": "derupara-kawaguchi"
+  },
+  "SLOTスマートガーデン武蔵浦和３３１": {
+    "hours": "10:00 〜 22:40",
+    "address": "埼玉県さいたま市南区白幡5-1-28 グリ-ンハイツ金幸1階",
+    "hp_url": "https://www.anshinchodama.com",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/184枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "埼玉県",
+    "pworld_url": "https://www.p-world.co.jp/saitama/sg-musashiurawa.htm",
+    "pworld_slug": "sg-musashiurawa"
+  },
+  "オーパス・ワン　恵比寿店": {
+    "pachinko_total": 81,
+    "slot_total": 142,
+    "hours": "10:00 〜 22:50",
+    "address": "東京都渋谷区恵比寿西1-2-2",
+    "hp_url": "https://www.777con-pass.net",
+    "line_url": "https://line.me/R/ti/p/@opusone_ebisu",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "東京都",
+    "pworld_url": "https://www.p-world.co.jp/tokyo/opusoneebisu.htm",
+    "pworld_slug": "opusoneebisu"
+  },
+  "スロットクラブ　ジオ": {
+    "slot_total": 198,
+    "slot": [
+      {
+        "rate": "20円スロット",
+        "count": 198
+      }
+    ],
+    "hours": "10:00 〜 22:45",
+    "address": "長野県諏訪市沖田3丁目88-1",
+    "hp_url": "https://athreecanvas.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[20]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      },
+      {
+        "name": "収容台数２１０台",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "長野県",
+    "pworld_url": "https://www.p-world.co.jp/nagano/asahi-okita.htm",
+    "pworld_slug": "asahi-okita"
+  },
+  "ミッド・ガーデン新発田店": {
+    "pachinko_total": 372,
+    "slot_total": 409,
+    "slot": [
+      {
+        "rate": "1000円/400枚",
+        "count": 767
+      }
+    ],
+    "hours": "9:00 〜 22:45",
+    "address": "新潟県新発田市舟入町3-8-9",
+    "x_url": "https://x.com/midgirls_mai",
+    "hp_url": "http://www.mid-japan.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/25玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/100玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/500玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/47枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/178枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/400枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:27Z",
+    "pref": "新潟県",
+    "pworld_url": "https://www.p-world.co.jp/niigata/midgarden-shibata.htm",
+    "pworld_slug": "midgarden-shibata"
+  },
+  "がちゃぽん久居インターガーデン店": {
+    "pachinko_total": 324,
+    "slot_total": 288,
+    "hours": "9:00 〜 00:00",
+    "address": "三重県津市久居明神町2445",
+    "hp_url": "https://www.chodama.or.jp",
+    "line_url": "https://line.me/R/ti/p/%40gachaponhisai",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[500円/92枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "三重県",
+    "pworld_url": "https://www.p-world.co.jp/mie/gachapon-hisai.htm",
+    "pworld_slug": "gachapon-hisai"
+  },
+  "富士サーキット店": {
+    "pachinko_total": 332,
+    "slot_total": 141,
+    "slot": [
+      {
+        "rate": "1000円/47枚",
+        "count": 332
+      }
+    ],
+    "hours": "9:00 〜 23:40",
+    "address": "三重県鈴鹿市稲生町字中尾9479-58",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/47枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "三重県",
+    "pworld_url": "https://www.p-world.co.jp/mie/fujicircuit.htm",
+    "pworld_slug": "fujicircuit"
+  },
+  "グランワールドカップ伊勢店": {
+    "pachinko_total": 680,
+    "slot_total": 535,
+    "address": "三重県伊勢市西豊浜町1281",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/25玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[100円/100玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "slot"
+      },
+      {
+        "name": "[1000円/200枚]スロ",
+        "type": "slot"
+      },
+      {
+        "name": "[1000円/500枚]スロ",
+        "type": "slot"
+      },
+      {
+        "name": "スマスロ",
+        "type": "slot"
+      },
+      {
+        "name": "ノーマル",
+        "type": "slot"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "slot"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "三重県",
+    "pworld_url": "https://www.p-world.co.jp/mie/granworldcup-ise.htm",
+    "pworld_slug": "granworldcup-ise"
+  },
+  "ＭＧＭ松阪店": {
+    "pachinko_total": 440,
+    "slot_total": 360,
+    "hours": "9:00 〜 24:00",
+    "address": "三重県松阪市久米町1025-1",
+    "x_url": "https://x.com/matsusaka_mgm",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[5]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:26Z",
+    "pref": "三重県",
+    "pworld_url": "https://www.p-world.co.jp/mie/mgm-matsuzaka.htm",
+    "pworld_slug": "mgm-matsuzaka"
+  },
+  "キコーナ福知山店": {
+    "pachinko_total": 360,
+    "slot_total": 200,
+    "hours": "10:00 〜 22:40",
+    "address": "京都府福知山市岩井80-22",
+    "hp_url": "https://undertree.co.jp",
+    "line_url": "https://line.me/ti/p/@fukuchiyama.kicona",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/250玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/1000玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/5000玉]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/184枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "京都府",
+    "pworld_url": "https://www.p-world.co.jp/kyoto/kicona-fukuchiyama.htm",
+    "pworld_slug": "kicona-fukuchiyama"
+  },
+  "１２３門真宮前店": {
+    "pachinko_total": 352,
+    "slot_total": 460,
+    "slot": [
+      {
+        "rate": "1000円/182枚",
+        "count": 352
+      }
+    ],
+    "hours": "10:00 〜 22:30",
+    "address": "大阪府門真市宮前町12-12",
+    "hp_url": "https://www.nobuta123.co.jp",
+    "machines_installed": [
+      {
+        "name": "おすすめ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[4]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1]パチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマパチ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ラッキートリガー",
+        "type": "pachinko"
+      },
+      {
+        "name": "ライトミドル",
+        "type": "pachinko"
+      },
+      {
+        "name": "遊タイム",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/46枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "[1000円/182枚]スロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "スマスロ",
+        "type": "pachinko"
+      },
+      {
+        "name": "ノーマル",
+        "type": "pachinko"
+      },
+      {
+        "name": "6.5号機以降",
+        "type": "pachinko"
+      }
+    ],
+    "updated_at": "2026-05-24T02:53:28Z",
+    "pref": "大阪府",
+    "pworld_url": "https://www.p-world.co.jp/osaka/123kadomamiyamae.htm",
+    "pworld_slug": "123kadomamiyamae"
+  },
+  "ダイナム角田店": {
+    "updated_at": "2026-05-24T02:53:58",
+    "new_machines": [
+      {
+        "name": "北斗の拳暴凶星",
+        "type": "pachinko"
+      },
+      {
+        "name": "北斗の拳",
+        "type": "pachinko"
+      },
+      {
+        "name": "頭文字D",
+        "type": "pachinko"
+      }
+    ]
+  },
+  "ニラク上北台店": {
+    "updated_at": "2026-05-24T02:53:58",
+    "new_machines": [
+      {
+        "name": "バイオ/攻殻機動隊/真打吉宗な",
+        "type": "slot"
+      }
+    ]
+  },
+  "プレイランド": {
+    "updated_at": "2026-05-24T02:53:58",
+    "new_machines": [
+      {
+        "name": "東京喰種が登場",
+        "type": "pachinko"
+      }
+    ]
   }
 }
