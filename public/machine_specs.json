@@ -2,7 +2,7 @@
   {
     "id": 9843,
     "pworld_url": "https://www.p-world.co.jp/machine/database/9843",
-    "updated_at": "2026-05-23T11:05:23Z",
+    "updated_at": "2026-05-24T21:57:20Z",
     "name": "パチスロ からくりサーカス",
     "settings": [
       {
@@ -50,7 +50,7 @@
   {
     "id": 9923,
     "pworld_url": "https://www.p-world.co.jp/machine/database/9923",
-    "updated_at": "2026-05-23T11:05:25Z",
+    "updated_at": "2026-05-24T21:57:24Z",
     "name": "スマスロモンキーターンV",
     "ceiling_values": [
       131,
@@ -61,7 +61,7 @@
   {
     "id": 10207,
     "pworld_url": "https://www.p-world.co.jp/machine/database/10207",
-    "updated_at": "2026-05-23T11:05:28Z",
+    "updated_at": "2026-05-24T21:57:27Z",
     "name": "L 東京喰種",
     "ceiling_values": [
       100,
@@ -75,17 +75,392 @@
   {
     "id": 10370,
     "pworld_url": "https://www.p-world.co.jp/machine/database/10370",
-    "updated_at": "2026-05-23T11:05:30Z",
+    "updated_at": "2026-05-24T21:57:30Z",
     "name": "スマスロ 北斗の拳 転生の章2"
   },
   {
     "id": 10399,
     "pworld_url": "https://www.p-world.co.jp/machine/database/10399",
-    "updated_at": "2026-05-23T11:05:33Z",
+    "updated_at": "2026-05-24T21:57:33Z",
     "name": "スマスロ 甲鉄城のカバネリ 海門(うなと)決戦",
     "ceiling_values": [
       596,
       996
     ]
+  },
+  {
+    "id": 10400,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10400",
+    "updated_at": "2026-05-24T21:57:36Z",
+    "name": "e 甲鉄城のカバネリ2 咲かせや燦然"
+  },
+  {
+    "id": 10404,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10404",
+    "updated_at": "2026-05-24T21:57:39Z",
+    "name": "Pえとたま2 神祭 干支甘"
+  },
+  {
+    "id": 10405,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10405",
+    "updated_at": "2026-05-24T21:57:42Z",
+    "name": "スマスロ サンダーV"
+  },
+  {
+    "id": 10407,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10407",
+    "updated_at": "2026-05-24T21:57:45Z",
+    "name": "eFダンベル何キロ持てる?2"
+  },
+  {
+    "id": 10413,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10413",
+    "updated_at": "2026-05-24T21:57:48Z",
+    "name": "eアクダマドライブ"
+  },
+  {
+    "id": 10417,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10417",
+    "updated_at": "2026-05-24T21:57:51Z",
+    "name": "P戦国乙女7 終焉の関ヶ原 99ver."
+  },
+  {
+    "id": 10418,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10418",
+    "updated_at": "2026-05-24T21:57:53Z",
+    "name": "Lアクダマドライブ",
+    "ceiling_values": [
+      589,
+      745,
+      967
+    ]
+  },
+  {
+    "id": 10423,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10423",
+    "updated_at": "2026-05-24T21:57:57Z",
+    "name": "P痛いのは嫌なので防御力に極振りしたいと思います。 極振り129ver"
+  },
+  {
+    "id": 10424,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10424",
+    "updated_at": "2026-05-24T21:57:59Z",
+    "name": "スマスロ ミリオンゴッド‐神々の軌跡‐",
+    "ceiling_values": [
+      510,
+      1000,
+      1480
+    ]
+  },
+  {
+    "id": 10425,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10425",
+    "updated_at": "2026-05-24T21:58:02Z",
+    "name": "A‐SLOT+ 異世界かるてっとBT"
+  },
+  {
+    "id": 10426,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10426",
+    "updated_at": "2026-05-24T21:58:05Z",
+    "name": "e 終末のワルキューレ"
+  },
+  {
+    "id": 10427,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10427",
+    "updated_at": "2026-05-24T21:58:09Z",
+    "name": "アニマルスロットドッチ",
+    "ceiling_values": [
+      499,
+      999,
+      2500
+    ]
+  },
+  {
+    "id": 10428,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10428",
+    "updated_at": "2026-05-24T21:58:11Z",
+    "name": "eラグナドール 妖しき皇帝と終焉の夜叉姫"
+  },
+  {
+    "id": 10429,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10429",
+    "updated_at": "2026-05-24T21:58:14Z",
+    "name": "e 魔法少女まどか☆マギカ3 時間遡行～始まりの願い～"
+  },
+  {
+    "id": 10430,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10430",
+    "updated_at": "2026-05-24T21:58:17Z",
+    "name": "スマスロヨルムンガンド",
+    "ceiling_values": [
+      450,
+      999
+    ]
+  },
+  {
+    "id": 10431,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10431",
+    "updated_at": "2026-05-24T21:58:21Z",
+    "name": "P攻殻機動隊SAC_2045 LT99ver."
+  },
+  {
+    "id": 10432,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10432",
+    "updated_at": "2026-05-24T21:58:24Z",
+    "name": "eFキン肉マン"
+  },
+  {
+    "id": 10433,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10433",
+    "updated_at": "2026-05-24T21:58:27Z",
+    "name": "e牙狼11～冴島大河～魔戒BURST Ver."
+  },
+  {
+    "id": 10434,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10434",
+    "updated_at": "2026-05-24T21:58:30Z",
+    "name": "P Re:ゼロから始める異世界生活 season2 249ver."
+  },
+  {
+    "id": 10435,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10435",
+    "updated_at": "2026-05-24T21:58:33Z",
+    "name": "P Re:ゼロから始める異世界生活 season2 129ver."
+  },
+  {
+    "id": 10436,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10436",
+    "updated_at": "2026-05-24T21:58:35Z",
+    "name": "L虚構推理",
+    "ceiling_values": [
+      100,
+      300,
+      700,
+      1000
+    ]
+  },
+  {
+    "id": 10437,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10437",
+    "updated_at": "2026-05-24T21:58:38Z",
+    "name": "Pクイーンズブレイド奈落ナナエル79Ver."
+  },
+  {
+    "id": 10438,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10438",
+    "updated_at": "2026-05-24T21:58:41Z",
+    "name": "PAコマコマ倶楽部with坂本冬美89確変ループ10ラウンド極"
+  },
+  {
+    "id": 10439,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10439",
+    "updated_at": "2026-05-24T21:58:44Z",
+    "name": "eワンパンマン2～正義執行"
+  },
+  {
+    "id": 10440,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10440",
+    "updated_at": "2026-05-24T21:58:47Z",
+    "name": "スマスロ バイオハザードRE:3",
+    "ceiling_values": [
+      650,
+      1000
+    ]
+  },
+  {
+    "id": 10441,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10441",
+    "updated_at": "2026-05-24T21:58:50Z",
+    "name": "PA戦国乙女7 終焉の関ヶ原 ときめき78バージョン「PB機」"
+  },
+  {
+    "id": 10442,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10442",
+    "updated_at": "2026-05-24T21:58:53Z",
+    "name": "e 乃木坂46 II SWEET Version"
+  },
+  {
+    "id": 10443,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10443",
+    "updated_at": "2026-05-24T21:58:56Z",
+    "name": "PキングモンスターRUSH 67Ver."
+  },
+  {
+    "id": 10444,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10444",
+    "updated_at": "2026-05-24T21:58:58Z",
+    "name": "P モモキュンソード 速撃99ver."
+  },
+  {
+    "id": 10445,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10445",
+    "updated_at": "2026-05-24T21:59:01Z",
+    "name": "スマパチ SSSS.GRIDMAN メガSTART 159ver."
+  },
+  {
+    "id": 10446,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10446",
+    "updated_at": "2026-05-24T21:59:04Z",
+    "name": "スマスロ ビッグドリーム THE GOLDEN PUSHER",
+    "ceiling_values": [
+      333,
+      555,
+      999,
+      1499
+    ]
+  },
+  {
+    "id": 10447,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10447",
+    "updated_at": "2026-05-24T21:59:07Z",
+    "name": "eまわるん超ワープ ギンギラパラダイス VIVA FESTA"
+  },
+  {
+    "id": 10448,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10448",
+    "updated_at": "2026-05-24T21:59:10Z",
+    "name": "真打 吉宗",
+    "ceiling_values": [
+      700,
+      1000,
+      1500
+    ]
+  },
+  {
+    "id": 10449,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10449",
+    "updated_at": "2026-05-24T21:59:13Z",
+    "name": "スマスロスーパーリオエース2",
+    "ceiling_values": [
+      500,
+      750
+    ]
+  },
+  {
+    "id": 10451,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10451",
+    "updated_at": "2026-05-24T21:59:16Z",
+    "name": "e86‐エイティシックス‐"
+  },
+  {
+    "id": 10452,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10452",
+    "updated_at": "2026-05-24T21:59:19Z",
+    "name": "e転生したらスライムだった件2"
+  },
+  {
+    "id": 10453,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10453",
+    "updated_at": "2026-05-24T21:59:21Z",
+    "name": "P にゃんこ大戦争 多様性のネコ 神さまにおまかせ88ver."
+  },
+  {
+    "id": 10454,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10454",
+    "updated_at": "2026-05-24T21:59:24Z",
+    "name": "P ウルトラマンメビウス デカヘソ319"
+  },
+  {
+    "id": 10455,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10455",
+    "updated_at": "2026-05-24T21:59:27Z",
+    "name": "LBトリプルクラウンセブン"
+  },
+  {
+    "id": 10456,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10456",
+    "updated_at": "2026-05-24T21:59:30Z",
+    "name": "e リング 最恐領域"
+  },
+  {
+    "id": 10460,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10460",
+    "updated_at": "2026-05-24T21:59:33Z",
+    "name": "Lタクトオーパス デスティニー",
+    "ceiling_values": [
+      100,
+      300,
+      500,
+      699,
+      999
+    ]
+  },
+  {
+    "id": 10461,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10461",
+    "updated_at": "2026-05-24T21:59:35Z",
+    "name": "eルパン三世VSキャッツ・アイ157ver. 極限突破ブッた斬り7500"
+  },
+  {
+    "id": 10463,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10463",
+    "updated_at": "2026-05-24T21:59:38Z",
+    "name": "eリコリス・リコイル"
+  },
+  {
+    "id": 10464,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10464",
+    "updated_at": "2026-05-24T21:59:41Z",
+    "name": "PFクィーンII「2026年」"
+  },
+  {
+    "id": 10466,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10466",
+    "updated_at": "2026-05-24T21:59:44Z",
+    "name": "eカケグルイ 219ver"
+  },
+  {
+    "id": 10467,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10467",
+    "updated_at": "2026-05-24T21:59:47Z",
+    "name": "eカケグルイ 7500ver"
+  },
+  {
+    "id": 10468,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10468",
+    "updated_at": "2026-05-24T21:59:50Z",
+    "name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+    "ceiling_values": [
+      400,
+      800,
+      1000,
+      1400
+    ]
+  },
+  {
+    "id": 10469,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10469",
+    "updated_at": "2026-05-24T21:59:53Z",
+    "name": "eひきこまり吸血姫の悶々"
+  },
+  {
+    "id": 10470,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10470",
+    "updated_at": "2026-05-24T21:59:56Z",
+    "name": "e ライザのアトリエ ～常闇の女王と秘密の隠れ家～"
+  },
+  {
+    "id": 10474,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10474",
+    "updated_at": "2026-05-24T21:59:58Z",
+    "name": "LBスロットGALFY"
+  },
+  {
+    "id": 10475,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10475",
+    "updated_at": "2026-05-24T22:00:01Z",
+    "name": "e バイオハザード6"
+  },
+  {
+    "id": 10478,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10478",
+    "updated_at": "2026-05-24T22:00:04Z",
+    "name": "デカスタP戦国無双 100ver."
+  },
+  {
+    "id": 10482,
+    "pworld_url": "https://www.p-world.co.jp/machine/database/10482",
+    "updated_at": "2026-05-24T22:00:07Z",
+    "name": "P 犬夜叉3.0 大入り 甘SPEC"
   }
 ]
