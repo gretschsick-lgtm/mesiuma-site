@@ -481,7 +481,7 @@
     "time": "12:13",
     "store": "ダイナム佐世保店",
     "machine": "eフィーバーもののがたりF",
-    "machine_type": "slot",
+    "machine_type": "pachinko",
     "slot_number": "",
     "text": "昨日  Complete eフィーバー #もののがたり F 　コンプリート機能作動 Complete  ご遊技されていたお客様、 おめでとうございます  本日はファン感最終日 #サミー取材 も同日開催中 引き続きご遊技をお楽しみください  #ダイナム #コンプリート",
     "x_url": "https://x.com/dynam_00130/status/2058385798525784108",
@@ -2054,7 +2054,7 @@
     "image_url": "https://pbs.twimg.com/media/HI1z_t0bgAAONHW?format=jpg&name=large",
     "x_url": "https://x.com/gardenplus39/status/2057428193649586323",
     "collected_at": "2026-05-21T12:04:53Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "2dc9766c92f4",

@@ -1,0 +1,53 @@
+name: コンプリート画像補完
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "最大処理件数（デフォルト200）"
+        required: false
+        default: "200"
+
+jobs:
+  fetch-images:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright playwright-stealth
+          playwright install chromium
+
+      - name: X Cookie ファイル復元
+        run: |
+          mkdir -p scripts/.x_auth_profile
+          echo '${{ secrets.X_COOKIES_JSON }}' > scripts/.x_auth_profile/cookies.json
+        env:
+          X_COOKIES_JSON: ${{ secrets.X_COOKIES_JSON }}
+
+      - name: 画像補完実行
+        run: |
+          python scripts/fetch_complete_images.py \
+            --headless \
+            --limit ${{ github.event.inputs.limit || 200 }}
+
+      - name: 変更があればコミット&プッシュ
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/complete_info.json
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "chore: コンプリート画像補完 [skip ci]"
+            git push
+          fi

@@ -1,167 +1,7 @@
 {
-  "updated_at": "2026-05-25T14:42:33Z",
+  "updated_at": "2026-05-25T14:56:22Z",
   "current_month": "2026-05",
   "monthly": {
-    "2026-04": {
-      "stores": [
-        {
-          "rank": 1,
-          "name": "キャッスル春日井",
-          "count": 6
-        },
-        {
-          "rank": 2,
-          "name": "キャッスル高浜店でお楽しみください",
-          "count": 2
-        },
-        {
-          "rank": 3,
-          "name": "ジャラン水元店",
-          "count": 2
-        },
-        {
-          "rank": 4,
-          "name": "ユーコーラッキー37筑後店",
-          "count": 1
-        },
-        {
-          "rank": 5,
-          "name": "関西すろいべ(旧ネコスロ)",
-          "count": 1
-        },
-        {
-          "rank": 6,
-          "name": "SUPER CONCORDE 市野",
-          "count": 1
-        },
-        {
-          "rank": 7,
-          "name": "キャッスル春日井でお楽しみください♪",
-          "count": 1
-        },
-        {
-          "rank": 8,
-          "name": "ユーコーラッキー37辻堂店",
-          "count": 1
-        },
-        {
-          "rank": 9,
-          "name": "門前仲町スターダスト",
-          "count": 1
-        },
-        {
-          "rank": 10,
-          "name": "マルハン仙台新港店",
-          "count": 1
-        }
-      ],
-      "machines": [
-        {
-          "rank": 1,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 10
-        },
-        {
-          "rank": 2,
-          "name": "スマスロ北斗の拳",
-          "count": 2
-        },
-        {
-          "rank": 3,
-          "name": "スマスロ攻殻機動隊",
-          "count": 2
-        },
-        {
-          "rank": 4,
-          "name": "甲鉄城のカバネリ",
-          "count": 1
-        },
-        {
-          "rank": 5,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 1
-        },
-        {
-          "rank": 6,
-          "name": "コンプリート機能発動の為、本日は停止となります。",
-          "count": 1
-        },
-        {
-          "rank": 7,
-          "name": "L新鬼武者3",
-          "count": 1
-        },
-        {
-          "rank": 8,
-          "name": "ガンダムユニコーン",
-          "count": 1
-        },
-        {
-          "rank": 9,
-          "name": "無職転生",
-          "count": 1
-        },
-        {
-          "rank": 10,
-          "name": "アズールレーン",
-          "count": 1
-        }
-      ],
-      "slot_machines": [
-        {
-          "rank": 1,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 10
-        },
-        {
-          "rank": 2,
-          "name": "スマスロ北斗の拳",
-          "count": 2
-        },
-        {
-          "rank": 3,
-          "name": "スマスロ攻殻機動隊",
-          "count": 2
-        },
-        {
-          "rank": 4,
-          "name": "甲鉄城のカバネリ",
-          "count": 1
-        },
-        {
-          "rank": 5,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 1
-        },
-        {
-          "rank": 6,
-          "name": "コンプリート機能発動の為、本日は停止となります。",
-          "count": 1
-        },
-        {
-          "rank": 7,
-          "name": "L新鬼武者3",
-          "count": 1
-        },
-        {
-          "rank": 8,
-          "name": "ガンダムユニコーン",
-          "count": 1
-        },
-        {
-          "rank": 9,
-          "name": "無職転生",
-          "count": 1
-        },
-        {
-          "rank": 10,
-          "name": "アズールレーン",
-          "count": 1
-        }
-      ],
-      "pachinko_machines": [],
-      "total_count": 22
-    },
     "2026-05": {
       "stores": [
         {
@@ -213,58 +53,6 @@
           "rank": 10,
           "name": "グランキコーナひたちなか店",
           "count": 3
-        }
-      ],
-      "machines": [
-        {
-          "rank": 1,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 32
-        },
-        {
-          "rank": 2,
-          "name": "牙狼12",
-          "count": 20
-        },
-        {
-          "rank": 3,
-          "name": "スマスロ北斗の拳",
-          "count": 19
-        },
-        {
-          "rank": 4,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 16
-        },
-        {
-          "rank": 5,
-          "name": "L東京喰種",
-          "count": 10
-        },
-        {
-          "rank": 6,
-          "name": "Lチバリヨ2ZB",
-          "count": 9
-        },
-        {
-          "rank": 7,
-          "name": "スマスロ攻殻機動隊",
-          "count": 9
-        },
-        {
-          "rank": 8,
-          "name": "L炎炎ノ消防隊2",
-          "count": 9
-        },
-        {
-          "rank": 9,
-          "name": "eバイオハザード6",
-          "count": 6
-        },
-        {
-          "rank": 10,
-          "name": "スマスロ北斗の拳転生",
-          "count": 6
         }
       ],
       "slot_machines": [
@@ -342,36 +130,144 @@
         },
         {
           "rank": 5,
-          "name": "eキン肉マンから",
+          "name": "eフィーバーもののがたりF",
           "count": 1
         },
         {
           "rank": 6,
-          "name": "e東京喰種",
+          "name": "eキン肉マンから",
           "count": 1
         },
         {
           "rank": 7,
-          "name": "e東京喰種W",
+          "name": "e東京喰種",
           "count": 1
         },
         {
           "rank": 8,
-          "name": "e女神のカフェテラス",
+          "name": "Lゴジラ",
           "count": 1
         },
         {
           "rank": 9,
-          "name": "e花の慶次～黄金の一撃～",
+          "name": "e東京喰種W",
           "count": 1
         },
         {
           "rank": 10,
-          "name": "eリコリス・リコイル",
+          "name": "e女神のカフェテラス",
           "count": 1
         }
       ],
       "total_count": 263
+    },
+    "2026-04": {
+      "stores": [
+        {
+          "rank": 1,
+          "name": "キャッスル春日井",
+          "count": 6
+        },
+        {
+          "rank": 2,
+          "name": "キャッスル高浜店でお楽しみください",
+          "count": 2
+        },
+        {
+          "rank": 3,
+          "name": "ジャラン水元店",
+          "count": 2
+        },
+        {
+          "rank": 4,
+          "name": "ユーコーラッキー37筑後店",
+          "count": 1
+        },
+        {
+          "rank": 5,
+          "name": "関西すろいべ(旧ネコスロ)",
+          "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "SUPER CONCORDE 市野",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "キャッスル春日井でお楽しみください♪",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "ユーコーラッキー37辻堂店",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "門前仲町スターダスト",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "マルハン仙台新港店",
+          "count": 1
+        }
+      ],
+      "slot_machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 10
+        },
+        {
+          "rank": 2,
+          "name": "スマスロ北斗の拳",
+          "count": 2
+        },
+        {
+          "rank": 3,
+          "name": "スマスロ攻殻機動隊",
+          "count": 2
+        },
+        {
+          "rank": 4,
+          "name": "甲鉄城のカバネリ",
+          "count": 1
+        },
+        {
+          "rank": 5,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "コンプリート機能発動の為、本日は停止となります。",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "L新鬼武者3",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "ガンダムユニコーン",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "無職転生",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "アズールレーン",
+          "count": 1
+        }
+      ],
+      "pachinko_machines": [],
+      "total_count": 22
     }
   },
   "total": {
@@ -425,58 +321,6 @@
         "rank": 10,
         "name": "グランキコーナひたちなか店",
         "count": 3
-      }
-    ],
-    "machines": [
-      {
-        "rank": 1,
-        "name": "革命機ヴァルヴレイヴ2",
-        "count": 42
-      },
-      {
-        "rank": 2,
-        "name": "スマスロ北斗の拳",
-        "count": 21
-      },
-      {
-        "rank": 3,
-        "name": "牙狼12",
-        "count": 20
-      },
-      {
-        "rank": 4,
-        "name": "ミリオンゴッド神々の軌跡",
-        "count": 17
-      },
-      {
-        "rank": 5,
-        "name": "スマスロ攻殻機動隊",
-        "count": 11
-      },
-      {
-        "rank": 6,
-        "name": "L東京喰種",
-        "count": 10
-      },
-      {
-        "rank": 7,
-        "name": "Lチバリヨ2ZB",
-        "count": 9
-      },
-      {
-        "rank": 8,
-        "name": "L炎炎ノ消防隊2",
-        "count": 9
-      },
-      {
-        "rank": 9,
-        "name": "eバイオハザード6",
-        "count": 6
-      },
-      {
-        "rank": 10,
-        "name": "スマスロ北斗の拳転生",
-        "count": 6
       }
     ],
     "slot_machines": [
@@ -554,32 +398,32 @@
       },
       {
         "rank": 5,
-        "name": "eキン肉マンから",
+        "name": "eフィーバーもののがたりF",
         "count": 1
       },
       {
         "rank": 6,
-        "name": "e東京喰種",
+        "name": "eキン肉マンから",
         "count": 1
       },
       {
         "rank": 7,
-        "name": "e東京喰種W",
+        "name": "e東京喰種",
         "count": 1
       },
       {
         "rank": 8,
-        "name": "e女神のカフェテラス",
+        "name": "Lゴジラ",
         "count": 1
       },
       {
         "rank": 9,
-        "name": "e花の慶次～黄金の一撃～",
+        "name": "e東京喰種W",
         "count": 1
       },
       {
         "rank": 10,
-        "name": "eリコリス・リコイル",
+        "name": "e女神のカフェテラス",
         "count": 1
       }
     ],

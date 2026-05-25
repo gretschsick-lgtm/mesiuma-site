@@ -54,36 +54,22 @@ const ALL_PREFS = [
   "福岡県","熊本県","鹿児島県","宮崎県","大分県","長崎県","佐賀県","沖縄県",
 ];
 
-/* ── サムネイル ── */
+/* ── サムネイル（画像なし・頭文字アバターのみ） ── */
 function StoreThumb({ store }: { store: DisplayStore }) {
-  const [imgErr, setImgErr] = useState(false);
   const hasEvent = store.event_count > 0;
-  const dmmId = store.dmm_id;
-  const imgSrc = dmmId && !imgErr
-    ? `https://cdn.p-town.dmm.com/shop_images/${dmmId}/fit-in/150x0/filters:format(webp):no_upscale()/image.jpg`
-    : null;
   const initial = store.name.slice(0, 1);
   const hue = store.name.split("").reduce((a, c) => a + c.charCodeAt(0), 0) % 360;
 
   return (
-    <div style={{ flexShrink: 0, textAlign: "center", width: 80 }}>
+    <div style={{ flexShrink: 0, textAlign: "center", width: 56 }}>
       <div style={{
-        width: 80, height: 80, borderRadius: 4, overflow: "hidden", position: "relative",
-        background: imgSrc ? "#eee" : `hsl(${hue},40%,55%)`,
+        width: 56, height: 56, borderRadius: "50%", overflow: "hidden", position: "relative",
+        background: `hsl(${hue},40%,${hasEvent ? 48 : 62}%)`,
         display: "flex", alignItems: "center", justifyContent: "center",
-        fontSize: 30, fontWeight: 900, color: "#fff",
+        fontSize: 22, fontWeight: 900, color: "#fff",
+        border: hasEvent ? `2px solid ${C.red}` : "2px solid transparent",
       }}>
-        {imgSrc ? (
-          <img src={imgSrc} alt={store.name} onError={() => setImgErr(true)}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }} />
-        ) : initial}
-        {hasEvent && (
-          <div style={{
-            position: "absolute", bottom: 0, left: 0, right: 0,
-            background: C.red, color: "#fff", fontSize: 11, fontWeight: 900,
-            textAlign: "center", padding: "2px 0",
-          }}>UP!</div>
-        )}
+        {initial}
       </div>
       <div style={{ fontSize: 10, marginTop: 3, fontWeight: hasEvent ? 700 : 400, color: hasEvent ? C.red : C.muted }}>
         {hasEvent ? `${store.event_count}実績` : "実績なし"}

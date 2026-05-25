@@ -21,7 +21,6 @@ type RankItem = { rank: number; name: string; count: number };
 
 type MonthlyData = {
   stores: RankItem[];
-  machines: RankItem[];
   slot_machines: RankItem[];
   pachinko_machines: RankItem[];
   total_count: number;
@@ -33,7 +32,6 @@ type RankingData = {
   monthly: Record<string, MonthlyData>;
   total: {
     stores: RankItem[];
-    machines: RankItem[];
     slot_machines: RankItem[];
     pachinko_machines: RankItem[];
     total_count: number;
@@ -216,7 +214,7 @@ function MachineTabs({
   setMachineTabKey: (k: "slot" | "pachinko") => void;
 }) {
   const hasPachinko = (data.pachinko_machines?.length ?? 0) > 0;
-  const list = machineTabKey === "pachinko" ? (data.pachinko_machines ?? []) : (data.slot_machines ?? data.machines ?? []);
+  const list = machineTabKey === "pachinko" ? (data.pachinko_machines ?? []) : (data.slot_machines ?? []);
   return (
     <div>
       <div style={{
