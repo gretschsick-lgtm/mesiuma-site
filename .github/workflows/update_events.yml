@@ -30,6 +30,8 @@ jobs:
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python scripts/fetch_events.py --headless --job accounts
       - uses: actions/upload-artifact@v4
         with:
@@ -56,6 +58,8 @@ jobs:
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python scripts/fetch_events.py --headless --job search
       - uses: actions/upload-artifact@v4
         with:
@@ -79,6 +83,9 @@ jobs:
           pip install playwright playwright-stealth
           playwright install chromium --with-deps
       - name: Fetch Yahoo/Google
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python scripts/fetch_events.py --headless --job google
       - uses: actions/upload-artifact@v4
         with:
@@ -102,6 +109,9 @@ jobs:
           pip install playwright playwright-stealth
           playwright install chromium --with-deps
       - name: Fetch web event sites
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python scripts/fetch_events.py --headless --job web
       - uses: actions/upload-artifact@v4
         with:
@@ -125,6 +135,9 @@ jobs:
           pip install playwright playwright-stealth yt-dlp
           playwright install chromium --with-deps
       - name: Fetch YouTube channels & search
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python scripts/fetch_events.py --headless --job youtube
       - uses: actions/upload-artifact@v4
         with:
@@ -146,6 +159,9 @@ jobs:
       - name: Install dependencies
         run: pip install playwright playwright-stealth
       - name: Fetch p-town schedules + P-World interviews
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python scripts/fetch_events.py --job ptown --ptown-pages 80
       - uses: actions/upload-artifact@v4
         with:
