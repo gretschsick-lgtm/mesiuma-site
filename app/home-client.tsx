@@ -1211,7 +1211,12 @@ export default function Page() {
                       background: "#fffdf0",
                       display: "flex", flexDirection: "column",
                     }}>
-                      <div style={{ width: "100%", height: 80, flexShrink: 0, background: "linear-gradient(135deg,#996600,#c9910a,#f0cc60)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30 }}>🏆</div>
+                      {entry.image_url ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img src={entry.image_url} alt="" style={{ width: "100%", height: 80, objectFit: "cover", display: "block", flexShrink: 0 }} loading="lazy" />
+                      ) : (
+                        <div style={{ width: "100%", height: 80, flexShrink: 0, background: "linear-gradient(135deg,#996600,#c9910a,#f0cc60)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 30 }}>🏆</div>
+                      )}
                       <div style={{ padding: "6px 8px 8px", display: "flex", flexDirection: "column", gap: 3, overflow: "hidden" }}>
                         <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
                           <span style={{ background: "#c9910a", color: "#fff", fontSize: 9, fontWeight: 800, padding: "1px 5px", borderRadius: 2, whiteSpace: "nowrap" }}>コンプ</span>

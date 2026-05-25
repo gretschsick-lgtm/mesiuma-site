@@ -1,118 +1,7 @@
 {
-  "updated_at": "2026-05-25T20:23:44+09:00",
+  "updated_at": "2026-05-25T11:50:52Z",
   "current_month": "2026-05",
   "monthly": {
-    "2026-05": {
-      "stores": [
-        {
-          "rank": 1,
-          "name": "ダイナム",
-          "count": 14
-        },
-        {
-          "rank": 2,
-          "name": "キャッスル春日井",
-          "count": 7
-        },
-        {
-          "rank": 3,
-          "name": "プレイランドキャッスル熱田店",
-          "count": 7
-        },
-        {
-          "rank": 4,
-          "name": "楽園池袋",
-          "count": 6
-        },
-        {
-          "rank": 5,
-          "name": "マルハン仙台苦竹店です",
-          "count": 6
-        }
-      ],
-      "machines": [
-        {
-          "rank": 1,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 31
-        },
-        {
-          "rank": 2,
-          "name": "牙狼12",
-          "count": 20
-        },
-        {
-          "rank": 3,
-          "name": "スマスロ北斗の拳",
-          "count": 19
-        },
-        {
-          "rank": 4,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
-        },
-        {
-          "rank": 5,
-          "name": "L東京喰種",
-          "count": 10
-        }
-      ],
-      "slot_machines": [
-        {
-          "rank": 1,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 31
-        },
-        {
-          "rank": 2,
-          "name": "スマスロ北斗の拳",
-          "count": 19
-        },
-        {
-          "rank": 3,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
-        },
-        {
-          "rank": 4,
-          "name": "L東京喰種",
-          "count": 10
-        },
-        {
-          "rank": 5,
-          "name": "スマスロ攻殻機動隊",
-          "count": 9
-        }
-      ],
-      "pachinko_machines": [
-        {
-          "rank": 1,
-          "name": "牙狼12",
-          "count": 20
-        },
-        {
-          "rank": 2,
-          "name": "eバイオハザード6",
-          "count": 2
-        },
-        {
-          "rank": 3,
-          "name": "eFキン肉マン",
-          "count": 2
-        },
-        {
-          "rank": 4,
-          "name": "eフィーバーキン肉マン",
-          "count": 2
-        },
-        {
-          "rank": 5,
-          "name": "eバイオハザード6APN",
-          "count": 2
-        }
-      ],
-      "total_count": 259
-    },
     "2026-04": {
       "stores": [
         {
@@ -197,6 +86,117 @@
       ],
       "pachinko_machines": [],
       "total_count": 22
+    },
+    "2026-05": {
+      "stores": [
+        {
+          "rank": 1,
+          "name": "ダイナム",
+          "count": 14
+        },
+        {
+          "rank": 2,
+          "name": "キャッスル春日井",
+          "count": 7
+        },
+        {
+          "rank": 3,
+          "name": "プレイランドキャッスル熱田店",
+          "count": 7
+        },
+        {
+          "rank": 4,
+          "name": "楽園池袋",
+          "count": 6
+        },
+        {
+          "rank": 5,
+          "name": "マルハン仙台苦竹店です",
+          "count": 6
+        }
+      ],
+      "machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 31
+        },
+        {
+          "rank": 2,
+          "name": "スマスロ北斗の拳",
+          "count": 19
+        },
+        {
+          "rank": 3,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 15
+        },
+        {
+          "rank": 4,
+          "name": "L東京喰種",
+          "count": 10
+        },
+        {
+          "rank": 5,
+          "name": "スマスロ攻殻機動隊",
+          "count": 9
+        }
+      ],
+      "slot_machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 31
+        },
+        {
+          "rank": 2,
+          "name": "スマスロ北斗の拳",
+          "count": 19
+        },
+        {
+          "rank": 3,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 15
+        },
+        {
+          "rank": 4,
+          "name": "L東京喰種",
+          "count": 10
+        },
+        {
+          "rank": 5,
+          "name": "スマスロ攻殻機動隊",
+          "count": 9
+        }
+      ],
+      "pachinko_machines": [
+        {
+          "rank": 1,
+          "name": "牙狼12",
+          "count": 20
+        },
+        {
+          "rank": 2,
+          "name": "eバイオハザード6",
+          "count": 2
+        },
+        {
+          "rank": 3,
+          "name": "eFキン肉マン",
+          "count": 2
+        },
+        {
+          "rank": 4,
+          "name": "eフィーバーキン肉マン",
+          "count": 2
+        },
+        {
+          "rank": 5,
+          "name": "eバイオハザード6APN",
+          "count": 2
+        }
+      ],
+      "total_count": 259
     }
   },
   "total": {
@@ -240,18 +240,18 @@
       },
       {
         "rank": 3,
-        "name": "牙狼12",
-        "count": 20
-      },
-      {
-        "rank": 4,
         "name": "ミリオンゴッド神々の軌跡",
         "count": 16
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "スマスロ攻殻機動隊",
         "count": 11
+      },
+      {
+        "rank": 5,
+        "name": "L東京喰種",
+        "count": 10
       }
     ],
     "slot_machines": [
@@ -308,6 +308,6 @@
         "count": 2
       }
     ],
-    "total_count": 287
+    "total_count": 245
   }
 }
