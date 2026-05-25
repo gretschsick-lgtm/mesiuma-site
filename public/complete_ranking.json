@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T11:50:52Z",
+  "updated_at": "2026-05-25T22:58:00+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-04": {
@@ -119,34 +119,34 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 31
+          "count": 32
         },
         {
           "rank": 2,
+          "name": "牙狼12",
+          "count": 20
+        },
+        {
+          "rank": 3,
           "name": "スマスロ北斗の拳",
           "count": 19
         },
         {
-          "rank": 3,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
-        },
-        {
           "rank": 4,
-          "name": "L東京喰種",
-          "count": 10
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 16
         },
         {
           "rank": 5,
-          "name": "スマスロ攻殻機動隊",
-          "count": 9
+          "name": "L東京喰種",
+          "count": 10
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 31
+          "count": 32
         },
         {
           "rank": 2,
@@ -156,7 +156,7 @@
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 4,
@@ -196,7 +196,7 @@
           "count": 2
         }
       ],
-      "total_count": 259
+      "total_count": 263
     }
   },
   "total": {
@@ -231,7 +231,7 @@
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 41
+        "count": 42
       },
       {
         "rank": 2,
@@ -240,25 +240,25 @@
       },
       {
         "rank": 3,
-        "name": "ミリオンゴッド神々の軌跡",
-        "count": 16
+        "name": "牙狼12",
+        "count": 20
       },
       {
         "rank": 4,
-        "name": "スマスロ攻殻機動隊",
-        "count": 11
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 17
       },
       {
         "rank": 5,
-        "name": "L東京喰種",
-        "count": 10
+        "name": "スマスロ攻殻機動隊",
+        "count": 11
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 41
+        "count": 42
       },
       {
         "rank": 2,
@@ -268,7 +268,7 @@
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 16
+        "count": 17
       },
       {
         "rank": 4,
@@ -308,6 +308,6 @@
         "count": 2
       }
     ],
-    "total_count": 245
+    "total_count": 291
   }
 }
