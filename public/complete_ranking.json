@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T22:58:00+09:00",
+  "updated_at": "2026-05-25T12:15:52Z",
   "current_month": "2026-05",
   "monthly": {
     "2026-04": {
@@ -91,62 +91,62 @@
       "stores": [
         {
           "rank": 1,
-          "name": "ダイナム",
-          "count": 14
-        },
-        {
-          "rank": 2,
           "name": "キャッスル春日井",
           "count": 7
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "プレイランドキャッスル熱田店",
           "count": 7
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "楽園池袋",
           "count": 6
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "マルハン仙台苦竹店です",
           "count": 6
+        },
+        {
+          "rank": 5,
+          "name": "新！ガーデン川口安行【公式】",
+          "count": 5
         }
       ],
       "machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 32
+          "count": 31
         },
         {
           "rank": 2,
-          "name": "牙狼12",
-          "count": 20
-        },
-        {
-          "rank": 3,
           "name": "スマスロ北斗の拳",
           "count": 19
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 16
+          "count": 15
+        },
+        {
+          "rank": 4,
+          "name": "L東京喰種",
+          "count": 10
         },
         {
           "rank": 5,
-          "name": "L東京喰種",
-          "count": 10
+          "name": "スマスロ攻殻機動隊",
+          "count": 9
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 32
+          "count": 31
         },
         {
           "rank": 2,
@@ -156,7 +156,7 @@
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 16
+          "count": 15
         },
         {
           "rank": 4,
@@ -196,42 +196,42 @@
           "count": 2
         }
       ],
-      "total_count": 263
+      "total_count": 259
     }
   },
   "total": {
     "stores": [
       {
         "rank": 1,
-        "name": "ダイナム",
-        "count": 14
-      },
-      {
-        "rank": 2,
         "name": "キャッスル春日井",
         "count": 13
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "マルハン仙台苦竹店です",
         "count": 7
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "プレイランドキャッスル熱田店",
         "count": 7
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "楽園池袋",
         "count": 6
+      },
+      {
+        "rank": 5,
+        "name": "新！ガーデン川口安行【公式】",
+        "count": 5
       }
     ],
     "machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 42
+        "count": 41
       },
       {
         "rank": 2,
@@ -240,25 +240,25 @@
       },
       {
         "rank": 3,
-        "name": "牙狼12",
-        "count": 20
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 16
       },
       {
         "rank": 4,
-        "name": "ミリオンゴッド神々の軌跡",
-        "count": 17
+        "name": "スマスロ攻殻機動隊",
+        "count": 11
       },
       {
         "rank": 5,
-        "name": "スマスロ攻殻機動隊",
-        "count": 11
+        "name": "L東京喰種",
+        "count": 10
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 42
+        "count": 41
       },
       {
         "rank": 2,
@@ -268,7 +268,7 @@
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 17
+        "count": 16
       },
       {
         "rank": 4,
@@ -308,6 +308,6 @@
         "count": 2
       }
     ],
-    "total_count": 291
+    "total_count": 248
   }
 }
