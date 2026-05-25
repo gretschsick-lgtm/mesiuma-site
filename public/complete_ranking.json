@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T19:52:01+09:00",
+  "updated_at": "2026-05-25T20:23:44+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
@@ -54,7 +54,7 @@
         {
           "rank": 5,
           "name": "L東京喰種",
-          "count": 12
+          "count": 10
         }
       ],
       "slot_machines": [
@@ -76,7 +76,7 @@
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 12
+          "count": 10
         },
         {
           "rank": 5,
@@ -92,7 +92,22 @@
         },
         {
           "rank": 2,
+          "name": "eバイオハザード6",
+          "count": 2
+        },
+        {
+          "rank": 3,
           "name": "eFキン肉マン",
+          "count": 2
+        },
+        {
+          "rank": 4,
+          "name": "eフィーバーキン肉マン",
+          "count": 2
+        },
+        {
+          "rank": 5,
+          "name": "eバイオハザード6APN",
           "count": 2
         }
       ],
@@ -235,8 +250,8 @@
       },
       {
         "rank": 5,
-        "name": "L東京喰種",
-        "count": 12
+        "name": "スマスロ攻殻機動隊",
+        "count": 11
       }
     ],
     "slot_machines": [
@@ -257,13 +272,13 @@
       },
       {
         "rank": 4,
-        "name": "L東京喰種",
-        "count": 12
+        "name": "スマスロ攻殻機動隊",
+        "count": 11
       },
       {
         "rank": 5,
-        "name": "スマスロ攻殻機動隊",
-        "count": 11
+        "name": "L東京喰種",
+        "count": 10
       }
     ],
     "pachinko_machines": [
@@ -274,7 +289,22 @@
       },
       {
         "rank": 2,
+        "name": "eバイオハザード6",
+        "count": 2
+      },
+      {
+        "rank": 3,
         "name": "eFキン肉マン",
+        "count": 2
+      },
+      {
+        "rank": 4,
+        "name": "eフィーバーキン肉マン",
+        "count": 2
+      },
+      {
+        "rank": 5,
+        "name": "eバイオハザード6APN",
         "count": 2
       }
     ],

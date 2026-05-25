@@ -328,6 +328,17 @@ def is_store_tweet(text: str) -> bool:
 # ---------------------------------------------------------------------------
 # 機種タイプ判定（パチスロ / パチンコ）
 # ---------------------------------------------------------------------------
+
+# L/Ｌ プレフィックス = スマスロ（パチスロ）
+_SMASLO_PREFIX = re.compile(r'^[LＬ][^\s]')
+
+# e/ｅ プレフィックス = スマパチ（パチンコ）
+_SMAPACHI_PREFIX = re.compile(r'^[eｅ][^\s]')
+
+# CR プレフィックス = パチンコ
+_CR_PREFIX = re.compile(r'^CR')
+
+# パチスロキーワード（L/eプレフィックスなしの機種名に使用）
 _SLOT_KEYWORDS = [
     "スマスロ", "Lパチスロ", "パチスロ", "北斗", "ヴァルヴレイヴ", "ミリオンゴッド",
     "攻殻機動隊", "炎炎ノ消防隊", "東京喰種", "カバネリ", "バジリスク",
@@ -335,30 +346,51 @@ _SLOT_KEYWORDS = [
     "チバリヨ", "吉宗", "鉄拳", "まどマギ", "鬼武者", "エウレカ",
     "Re:ゼロ", "転スラ", "バイオハザード", "ブルーロック",
 ]
-_PACHINKO_PATTERNS = [
-    re.compile(r'牙狼'),
-    re.compile(r'^CR[A-Z]'),
-    re.compile(r'^e[A-Z牙]'),
-    re.compile(r'^ｅ[A-Zａ-ｚ牙]'),
-    re.compile(r'スマパチ'),
-    re.compile(r'大当たり'),
-    re.compile(r'確変'),
+
+# パチンコキーワード（eプレフィックスなしでも判定できるもの）
+_PACHINKO_KEYWORDS = [
+    "牙狼", "スマパチ", "大当たり", "確変", "甘デジ",
+    "ミドル", "ライトミドル", "右打ち",
 ]
 
 
 def get_machine_type(machine: str) -> str:
-    """機種名からパチスロ(slot) / パチンコ(pachinko) を判定する。デフォルト: slot。"""
+    """機種名からパチスロ(slot) / パチンコ(pachinko) を判定する。デフォルト: slot。
+
+    優先順位:
+    1. L/Ｌ プレフィックス → スマスロ (slot)
+    2. e/ｅ プレフィックス → スマパチ (pachinko)
+    3. CR プレフィックス  → パチンコ (pachinko)
+    4. パチンコキーワード → pachinko
+    5. スロットキーワード → slot
+    6. デフォルト        → slot
+    """
     if not machine:
         return "slot"
     m = machine.strip()
-    # スロットキーワードが含まれていれば slot 確定
+
+    # 1. L/Ｌ プレフィックス = スマスロ（スロット）
+    if _SMASLO_PREFIX.match(m):
+        return "slot"
+
+    # 2. e/ｅ プレフィックス = スマパチ（パチンコ）
+    if _SMAPACHI_PREFIX.match(m):
+        return "pachinko"
+
+    # 3. CR プレフィックス = パチンコ
+    if _CR_PREFIX.match(m):
+        return "pachinko"
+
+    # 4. パチンコキーワード
+    for kw in _PACHINKO_KEYWORDS:
+        if kw in m:
+            return "pachinko"
+
+    # 5. スロットキーワード
     for kw in _SLOT_KEYWORDS:
         if kw in m:
             return "slot"
-    # パチンコパターンにマッチすれば pachinko
-    for pat in _PACHINKO_PATTERNS:
-        if pat.search(m):
-            return "pachinko"
+
     return "slot"
 
 
@@ -926,9 +958,17 @@ def update_ranking():
         # 数字のみ・記号のみはスキップ
         if re.match(r'^[\d\s]+$', name):
             return None
+        # e/ｅ プレフィックス（パチンコ）の機種は、L/スマスロ名への正規化を適用しない
+        is_pachinko_prefix = bool(re.match(r'^[eｅ]', name))
         # 正規化マップ適用（前方一致）
         for pattern, normalized in MACHINE_NORMALIZE:
             if pattern in name:
+                # パチンコ機種をスロット名（L/スマスロ）に誤変換しない
+                if is_pachinko_prefix and (
+                    normalized.startswith("L") or normalized.startswith("Ｌ")
+                    or normalized.startswith("スマスロ")
+                ):
+                    continue
                 return normalized
         return name
 

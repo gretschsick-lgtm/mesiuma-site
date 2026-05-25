@@ -5,7 +5,7 @@
     "time": "20:59",
     "store": "スタジアム2001徳島川内店",
     "machine": "eフィーバーブルーロック",
-    "machine_type": "slot",
+    "machine_type": "pachinko",
     "slot_number": "738",
     "text": "１パチでコンプリートが出ました！   5月25日（日）19時59分 738番台 eフィーバーブルーロック   おめでとうございます！！！！！！！！ #パチンコ　#コンプリート",
     "x_url": "https://x.com/stadium2001kawa/status/2058518140741632323",
@@ -379,7 +379,7 @@
     "time": "16:04",
     "store": "スーパーD’ステーション３９女神店",
     "machine": "eバイオハザード6",
-    "machine_type": "slot",
+    "machine_type": "pachinko",
     "slot_number": "503",
     "text": "本日5月24日(日)  503番台 eバイオハザード6 コンプリート達成おめでとうございます！  ファン感謝デー最終日 まだまだこの後のお時間もご来店お待ちしております  #Dステ  #パチンコ  #スロット  #コンプリート",
     "x_url": "https://x.com/dsmegami/status/2058443940349821044",
@@ -800,7 +800,7 @@
     "image_url": "https://pbs.twimg.com/media/HI_xB2OakAA2yw3?format=jpg&name=large",
     "x_url": "https://x.com/YONEPEE2288/status/2058128861112811852",
     "collected_at": "2026-05-23T11:17:04Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "68456e53fc44",
@@ -832,7 +832,7 @@
     "image_url": "https://pbs.twimg.com/media/HI_qdwqbIAA2IZS?format=jpg&name=large",
     "x_url": "https://x.com/luckyplaza1050/status/2058121757626863840",
     "collected_at": "2026-05-23T10:53:37Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "17fbeeb70c38",
@@ -1420,7 +1420,7 @@
     "image_url": "https://pbs.twimg.com/media/HI7GXS7bIAAE0X6?format=jpg&name=large",
     "x_url": "https://x.com/sd_fukushige/status/2057800326477213902",
     "collected_at": "2026-05-23T14:31:05Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "e83e19021cf4",
@@ -2004,7 +2004,7 @@
     "image_url": "https://pbs.twimg.com/media/HI1x673a8AA3AZg?format=jpg&name=large",
     "x_url": "https://x.com/MegaSeven777/status/2057425902506750206",
     "collected_at": "2026-05-23T08:44:42Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "95949dbc5112",
@@ -2069,7 +2069,7 @@
     "image_url": "https://pbs.twimg.com/media/HI1osQ0a8AEMh-B?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2057415811925770415",
     "collected_at": "2026-05-23T08:28:13Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "f9909f0c55a4",
@@ -2166,7 +2166,7 @@
     "image_url": "https://pbs.twimg.com/media/HI1GwTCXUAACZJx?format=jpg&name=large",
     "x_url": "https://x.com/dynam_00351/status/2057378408368074900",
     "collected_at": "2026-05-22T11:00:00Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "5d972526d8b8",
@@ -2214,7 +2214,7 @@
     "image_url": "https://pbs.twimg.com/media/HI0mtF7XwAAye3o?format=jpg&name=large",
     "x_url": "https://x.com/dynam_00307/status/2057343163468038194",
     "collected_at": "2026-05-21T13:16:18Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "c01104114758",
@@ -2311,7 +2311,7 @@
     "image_url": "https://pbs.twimg.com/media/HIxJMIDbUAApSWn?format=jpg&name=large",
     "x_url": "https://x.com/ichinomiya1380/status/2057099607377866800",
     "collected_at": "2026-05-22T16:32:47Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "35296c46f527",
@@ -2713,7 +2713,7 @@
     "image_url": "https://pbs.twimg.com/media/HIv90C5bYAA1nGg?format=jpg&name=large",
     "x_url": "https://x.com/numaxxx7/status/2057021006414532878",
     "collected_at": "2026-05-21T11:00:31Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "b47d7f89b04d",
@@ -2778,7 +2778,7 @@
     "image_url": "https://pbs.twimg.com/media/HIvqsw_aAAAvmeu?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2056995789302591563",
     "collected_at": "2026-05-21T12:02:36Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "04a0d05387f9",
@@ -2847,7 +2847,7 @@
     "image_url": "https://pbs.twimg.com/media/HIr60JhbYAAyg89?format=jpg&name=large",
     "x_url": "https://x.com/dsmegami/status/2056731996915974180",
     "collected_at": "2026-05-21T11:23:23Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "2c0a10cbb8a8",
@@ -3520,7 +3520,7 @@
     "image_url": "https://pbs.twimg.com/media/HIbcPmCakAADWJa?format=jpg&name=large",
     "x_url": "https://x.com/tenpaku0730/status/2055572859045761348",
     "collected_at": "2026-05-21T11:01:43Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "ef4c38a166b0",
@@ -3599,7 +3599,7 @@
     "image_url": "https://pbs.twimg.com/media/HISNyXSaoAAn7f6?format=jpg&name=large",
     "x_url": "https://x.com/million1100/status/2054923235033264377",
     "collected_at": "2026-05-21T11:17:48Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "e7548f982bd0",
@@ -3645,7 +3645,7 @@
     "image_url": "https://pbs.twimg.com/media/HIICu_ca0AAc0x9?format=jpg&name=large",
     "x_url": "https://x.com/niga_maru/status/2054209983928263165",
     "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "dc85c44328e4",
@@ -3834,7 +3834,7 @@
     "image_url": "https://pbs.twimg.com/media/HHmeFiragAALhZ2?format=jpg&name=large",
     "x_url": "https://x.com/G_ONE_NIKENYA/status/2052146890188410891",
     "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "6336220619fa",
@@ -3998,7 +3998,7 @@
     "image_url": "https://pbs.twimg.com/media/HHYynjZbIAAtvaU?format=jpg&name=large",
     "x_url": "https://x.com/mn_utazu/status/2050882347223122311",
     "collected_at": "2026-05-21T11:11:56Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "e95cca537d92",
