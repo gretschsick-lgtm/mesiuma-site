@@ -48,6 +48,15 @@ function renderContent(text: string) {
         {line.replace("## ", "")}
       </h2>
     );
+    if (line.startsWith("### ")) return (
+      <h3 key={i} style={{
+        color: C.text, fontSize: 15, fontWeight: 800,
+        margin: "20px 0 8px", paddingLeft: 10,
+        borderLeft: `3px solid ${C.red}`,
+      }}>
+        {line.replace("### ", "")}
+      </h3>
+    );
     if (line.startsWith("# ")) return (
       <h1 key={i} style={{ color: C.text, fontSize: 22, fontWeight: 900, margin: "24px 0 12px" }}>
         {line.replace("# ", "")}
@@ -64,6 +73,20 @@ function renderContent(text: string) {
     }
     if (line === "") return <div key={i} style={{ height: 10 }} />;
     if (line.startsWith("---")) return <hr key={i} style={{ border: "none", borderTop: `1px solid ${C.border}`, margin: "20px 0" }} />;
+    // 画像: ![caption](url)
+    if (line.startsWith("![")) {
+      const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+      if (imgMatch) {
+        const [, caption, url] = imgMatch;
+        return (
+          <div key={i} style={{ margin: "16px 0" }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={url} alt={caption} style={{ width: "100%", borderRadius: 8, display: "block" }} loading="lazy" />
+            {caption && <p style={{ fontSize: 12, color: C.muted, margin: "6px 0 0", textAlign: "center" }}>{caption}</p>}
+          </div>
+        );
+      }
+    }
     return <p key={i} style={{ margin: "0 0 12px", lineHeight: 1.85, color: C.sub }}>{renderInline(line)}</p>;
   });
 }
