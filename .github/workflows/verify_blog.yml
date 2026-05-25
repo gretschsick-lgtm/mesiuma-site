@@ -1,0 +1,51 @@
+name: ブログ記事検証・自動修正・画像補完
+
+on:
+  push:
+    paths:
+      - "public/blog_posts.json"
+  workflow_dispatch:
+    inputs:
+      post_id:
+        description: "対象記事ID（空欄で全記事）"
+        required: false
+        default: ""
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 検証・自動修正・画像取得
+        run: |
+          if [ -n "${{ github.event.inputs.post_id }}" ]; then
+            python scripts/verify_blog.py \
+              --auto-fix \
+              --fetch-images \
+              --id "${{ github.event.inputs.post_id }}"
+          else
+            python scripts/verify_blog.py \
+              --auto-fix \
+              --fetch-images
+          fi
+
+      - name: 変更があればコミット&プッシュ
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/blog_posts.json
+          if git diff --cached --quiet; then
+            echo "変更なし — スキップ"
+          else
+            git commit -m "chore: ブログ記事を自動修正・画像補完 [skip ci]"
+            git push
+          fi
