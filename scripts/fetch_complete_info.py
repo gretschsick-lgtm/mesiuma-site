@@ -99,6 +99,9 @@ COMPLETE_QUERIES = [
     # ══ 【大手チェーン店名 × コンプリート】店舗直撃 ══
     "ダイナム コンプリート 番台",
     "ダイナム コンプリート機能",
+    "#ダイナム コンプリート 番台",
+    "ダイナム コンプリート おめでとうございます",
+    "ダイナム コンプリートおめでとう 番台",
     "マルハン コンプリート 番台",
     "マルハン コンプリート機能発動",
     "キコーナ コンプリート 番台",
@@ -414,6 +417,12 @@ def extract_store(text: str) -> str:
         m = pat.search(text)
         if m:
             name = m.group(1).strip()
+            # 末尾の不要語・助詞を除去
+            name = re.sub(
+                r'(です|でした|でございます|ございます|より|ます|ました|ください|'
+                r'させていただ|から|へ|では|として|にて|でお|は創業|周年).*$',
+                '', name
+            ).strip()
             if len(name) < 3:
                 continue
             if any(ng in name for ng in STORE_NG):
@@ -501,6 +510,16 @@ def parse_tweet(text: str, tweet_url: str,
         return None
 
     store = extract_store(text)
+
+    # ── チェーン名のみ（支店名なし）で取れた場合は author_name を優先 ──
+    # 例: "#ダイナム" → "ダイナム" のみ → author_name "ダイナム長野上田店" を使う
+    CHAIN_ONLY = {"ダイナム", "マルハン", "キコーナ", "楽園", "ガイア", "キャッスル",
+                  "アミューズ", "コンコルド", "ワンダーランド", "ビックマーチ", "ミリオン",
+                  "エスパス", "ガーデン", "ゼント", "ZENT", "メッセ", "クリエ"}
+    if store in CHAIN_ONLY and author_name and len(author_name) > len(store):
+        if _is_store_name(author_name) or re.search(r'店|ホール', author_name):
+            store = author_name[:28]
+
     # テキストから取れなければ作者の表示名を使う
     if not store and author_name and _is_store_name(author_name):
         store = author_name[:28]
@@ -899,6 +918,8 @@ def update_ranking():
         "コンプリート達成", "コンプリート機能", "コンプリート", "お客様",
         "ありがとうございます", "発動", "作動", "本日", "達成", "発生",
         "機能", "番台", "スロット", "パチスロ", "スマスロ", "来店",
+        "誠におめ", "おめでとう", "おめでとうございます", "ございます",
+        "コンプ", "完走", "出玉", "今日", "昨日",
     }
 
     # ── 機種名の表記ゆれ正規化マップ ────────────────────────────────────
@@ -950,6 +971,36 @@ def update_ranking():
         ("ゴッドイーター",         "スマスロゴッドイーター"),
         # 牙狼シリーズ（全バリエーションを牙狼12に統一）
         ("牙狼",                   "牙狼12"),
+        # Lチバリヨ2ZB（全角・括弧表記ゆれを統一）
+        ("チバリヨ２ＺＢ",         "Lチバリヨ2ZB"),
+        ("チバリヨ２ZB",           "Lチバリヨ2ZB"),
+        ("チバリヨ2ZB",            "Lチバリヨ2ZB"),
+        ("チバリヨ2",              "Lチバリヨ2ZB"),
+        ("チバリヨ",               "Lチバリヨ2ZB"),
+        # eバイオハザード6（型番・括弧ゆれ統一）
+        ("eバイオハザード6",        "eバイオハザード6"),
+        ("ｅバイオハザード６",      "eバイオハザード6"),
+        ("eバイオ",                "eバイオハザード6"),
+        # eフィーバーキン肉マン（eFキン肉マン統一）
+        ("eFキン肉マン",           "eフィーバーキン肉マン"),
+        ("eＦキン肉マン",          "eフィーバーキン肉マン"),
+        ("eフィーバーキン肉マン",   "eフィーバーキン肉マン"),
+        # シャーマンキング
+        ("シャーマンキング",        "Lシャーマンキング"),
+        # 新鬼武者3
+        ("新鬼武者3",              "L新鬼武者3"),
+        ("鬼武者3",                "L新鬼武者3"),
+        # かぐや様
+        ("かぐや様",               "Lかぐや様は告らせたい"),
+        # スマスロバイオハザードRE:3
+        ("バイオハザードRe",        "スマスロバイオハザードRE:3"),
+        ("バイオハザードRE:3",      "スマスロバイオハザードRE:3"),
+        ("LバイオハザードRe",       "スマスロバイオハザードRE:3"),
+        # Re:ゼロ
+        ("Re:ゼロ",               "Re:ゼロから始める異世界生活"),
+        ("リゼロ",                 "Re:ゼロから始める異世界生活"),
+        # ゴジラ
+        ("ゴジラ",                 "Lゴジラ"),
     ]
 
     def normalize_machine(name: str) -> str | None:
@@ -1028,19 +1079,19 @@ def update_ranking():
             continue
         stores_top = [
             {"rank": i + 1, "name": name, "count": cnt}
-            for i, (name, cnt) in enumerate(month_store_counter[ym].most_common(5))
+            for i, (name, cnt) in enumerate(month_store_counter[ym].most_common(10))
         ]
         machines_top = [
             {"rank": i + 1, "name": name, "count": cnt}
-            for i, (name, cnt) in enumerate(month_machine_counter.get(ym, Counter()).most_common(5))
+            for i, (name, cnt) in enumerate(month_machine_counter.get(ym, Counter()).most_common(10))
         ]
         slot_machines_top = [
             {"rank": i + 1, "name": name, "count": cnt}
-            for i, (name, cnt) in enumerate(month_slot_machine_counter.get(ym, Counter()).most_common(5))
+            for i, (name, cnt) in enumerate(month_slot_machine_counter.get(ym, Counter()).most_common(10))
         ]
         pachinko_machines_top = [
             {"rank": i + 1, "name": name, "count": cnt}
-            for i, (name, cnt) in enumerate(month_pachinko_machine_counter.get(ym, Counter()).most_common(5))
+            for i, (name, cnt) in enumerate(month_pachinko_machine_counter.get(ym, Counter()).most_common(10))
         ]
         monthly_data[ym] = {
             "stores": stores_top,
@@ -1070,19 +1121,19 @@ def update_ranking():
 
     total_stores_top = [
         {"rank": i + 1, "name": name, "count": cnt}
-        for i, (name, cnt) in enumerate(total_store_counter.most_common(5))
+        for i, (name, cnt) in enumerate(total_store_counter.most_common(10))
     ]
     total_machines_top = [
         {"rank": i + 1, "name": name, "count": cnt}
-        for i, (name, cnt) in enumerate(total_machine_counter.most_common(5))
+        for i, (name, cnt) in enumerate(total_machine_counter.most_common(10))
     ]
     total_slot_machines_top = [
         {"rank": i + 1, "name": name, "count": cnt}
-        for i, (name, cnt) in enumerate(total_slot_machine_counter.most_common(5))
+        for i, (name, cnt) in enumerate(total_slot_machine_counter.most_common(10))
     ]
     total_pachinko_machines_top = [
         {"rank": i + 1, "name": name, "count": cnt}
-        for i, (name, cnt) in enumerate(total_pachinko_machine_counter.most_common(5))
+        for i, (name, cnt) in enumerate(total_pachinko_machine_counter.most_common(10))
     ]
 
     ranking = {

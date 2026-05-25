@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T12:15:52Z",
+  "updated_at": "2026-05-25T14:42:33Z",
   "current_month": "2026-05",
   "monthly": {
     "2026-04": {
@@ -28,6 +28,31 @@
           "rank": 5,
           "name": "関西すろいべ(旧ネコスロ)",
           "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "SUPER CONCORDE 市野",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "キャッスル春日井でお楽しみください♪",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "ユーコーラッキー37辻堂店",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "門前仲町スターダスト",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "マルハン仙台新港店",
+          "count": 1
         }
       ],
       "machines": [
@@ -55,6 +80,31 @@
           "rank": 5,
           "name": "ミリオンゴッド神々の軌跡",
           "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "コンプリート機能発動の為、本日は停止となります。",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "L新鬼武者3",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "ガンダムユニコーン",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "無職転生",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "アズールレーン",
+          "count": 1
         }
       ],
       "slot_machines": [
@@ -81,6 +131,31 @@
         {
           "rank": 5,
           "name": "ミリオンゴッド神々の軌跡",
+          "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "コンプリート機能発動の為、本日は停止となります。",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "L新鬼武者3",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "ガンダムユニコーン",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "無職転生",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "アズールレーン",
           "count": 1
         }
       ],
@@ -113,40 +188,90 @@
           "rank": 5,
           "name": "新！ガーデン川口安行【公式】",
           "count": 5
+        },
+        {
+          "rank": 6,
+          "name": "マルハン",
+          "count": 4
+        },
+        {
+          "rank": 7,
+          "name": "キコーナ海老名",
+          "count": 4
+        },
+        {
+          "rank": 8,
+          "name": "ビックマーチ河和田東店",
+          "count": 3
+        },
+        {
+          "rank": 9,
+          "name": "つじちゃん店長@栄若宮大通店【キング観光】",
+          "count": 3
+        },
+        {
+          "rank": 10,
+          "name": "グランキコーナひたちなか店",
+          "count": 3
         }
       ],
       "machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 31
+          "count": 32
         },
         {
           "rank": 2,
+          "name": "牙狼12",
+          "count": 20
+        },
+        {
+          "rank": 3,
           "name": "スマスロ北斗の拳",
           "count": 19
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
+          "count": 16
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "L東京喰種",
           "count": 10
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "name": "Lチバリヨ2ZB",
+          "count": 9
+        },
+        {
+          "rank": 7,
           "name": "スマスロ攻殻機動隊",
           "count": 9
+        },
+        {
+          "rank": 8,
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
+        },
+        {
+          "rank": 9,
+          "name": "eバイオハザード6",
+          "count": 6
+        },
+        {
+          "rank": 10,
+          "name": "スマスロ北斗の拳転生",
+          "count": 6
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 31
+          "count": 32
         },
         {
           "rank": 2,
@@ -156,7 +281,7 @@
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 4,
@@ -165,8 +290,33 @@
         },
         {
           "rank": 5,
+          "name": "Lチバリヨ2ZB",
+          "count": 9
+        },
+        {
+          "rank": 6,
           "name": "スマスロ攻殻機動隊",
           "count": 9
+        },
+        {
+          "rank": 7,
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
+        },
+        {
+          "rank": 8,
+          "name": "スマスロ北斗の拳転生",
+          "count": 6
+        },
+        {
+          "rank": 9,
+          "name": "L吉宗",
+          "count": 6
+        },
+        {
+          "rank": 10,
+          "name": "スマスロゴッドイーター",
+          "count": 5
         }
       ],
       "pachinko_machines": [
@@ -178,25 +328,50 @@
         {
           "rank": 2,
           "name": "eバイオハザード6",
-          "count": 2
+          "count": 4
         },
         {
           "rank": 3,
-          "name": "eFキン肉マン",
-          "count": 2
+          "name": "eフィーバーキン肉マン",
+          "count": 4
         },
         {
           "rank": 4,
-          "name": "eフィーバーキン肉マン",
-          "count": 2
+          "name": "eフィーバーブルーロック",
+          "count": 1
         },
         {
           "rank": 5,
-          "name": "eバイオハザード6APN",
-          "count": 2
+          "name": "eキン肉マンから",
+          "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "e東京喰種",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "e東京喰種W",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "e女神のカフェテラス",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "e花の慶次～黄金の一撃～",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "eリコリス・リコイル",
+          "count": 1
         }
       ],
-      "total_count": 259
+      "total_count": 263
     }
   },
   "total": {
@@ -225,13 +400,38 @@
         "rank": 5,
         "name": "新！ガーデン川口安行【公式】",
         "count": 5
+      },
+      {
+        "rank": 6,
+        "name": "マルハン",
+        "count": 4
+      },
+      {
+        "rank": 7,
+        "name": "キコーナ海老名",
+        "count": 4
+      },
+      {
+        "rank": 8,
+        "name": "ビックマーチ河和田東店",
+        "count": 3
+      },
+      {
+        "rank": 9,
+        "name": "つじちゃん店長@栄若宮大通店【キング観光】",
+        "count": 3
+      },
+      {
+        "rank": 10,
+        "name": "グランキコーナひたちなか店",
+        "count": 3
       }
     ],
     "machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 41
+        "count": 42
       },
       {
         "rank": 2,
@@ -240,25 +440,50 @@
       },
       {
         "rank": 3,
-        "name": "ミリオンゴッド神々の軌跡",
-        "count": 16
+        "name": "牙狼12",
+        "count": 20
       },
       {
         "rank": 4,
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 17
+      },
+      {
+        "rank": 5,
         "name": "スマスロ攻殻機動隊",
         "count": 11
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "L東京喰種",
         "count": 10
+      },
+      {
+        "rank": 7,
+        "name": "Lチバリヨ2ZB",
+        "count": 9
+      },
+      {
+        "rank": 8,
+        "name": "L炎炎ノ消防隊2",
+        "count": 9
+      },
+      {
+        "rank": 9,
+        "name": "eバイオハザード6",
+        "count": 6
+      },
+      {
+        "rank": 10,
+        "name": "スマスロ北斗の拳転生",
+        "count": 6
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 41
+        "count": 42
       },
       {
         "rank": 2,
@@ -268,7 +493,7 @@
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 16
+        "count": 17
       },
       {
         "rank": 4,
@@ -279,6 +504,31 @@
         "rank": 5,
         "name": "L東京喰種",
         "count": 10
+      },
+      {
+        "rank": 6,
+        "name": "Lチバリヨ2ZB",
+        "count": 9
+      },
+      {
+        "rank": 7,
+        "name": "L炎炎ノ消防隊2",
+        "count": 9
+      },
+      {
+        "rank": 8,
+        "name": "スマスロ北斗の拳転生",
+        "count": 6
+      },
+      {
+        "rank": 9,
+        "name": "L吉宗",
+        "count": 6
+      },
+      {
+        "rank": 10,
+        "name": "スマスロゴッドイーター",
+        "count": 5
       }
     ],
     "pachinko_machines": [
@@ -290,24 +540,49 @@
       {
         "rank": 2,
         "name": "eバイオハザード6",
-        "count": 2
+        "count": 4
       },
       {
         "rank": 3,
-        "name": "eFキン肉マン",
-        "count": 2
+        "name": "eフィーバーキン肉マン",
+        "count": 4
       },
       {
         "rank": 4,
-        "name": "eフィーバーキン肉マン",
-        "count": 2
+        "name": "eフィーバーブルーロック",
+        "count": 1
       },
       {
         "rank": 5,
-        "name": "eバイオハザード6APN",
-        "count": 2
+        "name": "eキン肉マンから",
+        "count": 1
+      },
+      {
+        "rank": 6,
+        "name": "e東京喰種",
+        "count": 1
+      },
+      {
+        "rank": 7,
+        "name": "e東京喰種W",
+        "count": 1
+      },
+      {
+        "rank": 8,
+        "name": "e女神のカフェテラス",
+        "count": 1
+      },
+      {
+        "rank": 9,
+        "name": "e花の慶次～黄金の一撃～",
+        "count": 1
+      },
+      {
+        "rank": 10,
+        "name": "eリコリス・リコイル",
+        "count": 1
       }
     ],
-    "total_count": 248
+    "total_count": 285
   }
 }

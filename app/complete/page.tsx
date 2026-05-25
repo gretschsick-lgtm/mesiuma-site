@@ -52,8 +52,9 @@ const C = {
   dim: "#ddd",
 };
 
-const RANK_COLORS = ["#f5c518", "#b0b0b0", "#cd7f32", "#aaaaaa", "#aaaaaa"];
-const RANK_LABELS = ["🥇", "🥈", "🥉", "4位", "5位"];
+const RANK_COLORS = ["#f5c518", "#b0b0b0", "#cd7f32", "#4a90d9", "#4a90d9",
+  "#aaaaaa", "#aaaaaa", "#aaaaaa", "#aaaaaa", "#aaaaaa"];
+const RANK_LABELS = ["🥇", "🥈", "🥉", "4位", "5位", "6位", "7位", "8位", "9位", "10位"];
 
 const DOW = ["日", "月", "火", "水", "木", "金", "土"];
 
@@ -227,7 +228,7 @@ function MachineTabs({
           padding: "6px 12px", fontSize: 11, fontWeight: 700,
           color: C.sub, display: "flex", alignItems: "center",
         }}>
-          🎰 機種別TOP5
+          🎰 機種別TOP10
         </div>
         <div style={{ marginLeft: "auto", display: "flex" }}>
           {(["slot", "pachinko"] as const).map(k => (
@@ -315,8 +316,8 @@ function RankingSection({ ranking }: { ranking: RankingData }) {
                 borderBottom: `1px solid ${C.border}`,
                 borderRight: `1px solid ${C.border}`,
               }}>
-                🏪 店舗別TOP5
-              </div>
+                🏪 店舗別TOP10
+</div>
               {selData.stores.length > 0 ? (
                 selData.stores.map(item => (
                   <div key={item.rank} style={{ borderRight: `1px solid ${C.border}` }}>
@@ -365,7 +366,7 @@ function RankingSection({ ranking }: { ranking: RankingData }) {
               borderBottom: `1px solid ${C.border}`,
               borderRight: `1px solid ${C.border}`,
             }}>
-              🏪 店舗別TOP5
+              🏪 店舗別TOP10
             </div>
             {ranking.total.stores.length > 0 ? (
               ranking.total.stores.map(item => (
