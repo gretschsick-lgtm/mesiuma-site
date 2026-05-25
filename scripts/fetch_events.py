@@ -307,6 +307,72 @@ STORE_ACCOUNTS_FIXED: dict[str, str] = {
     "lio_yokohama":     "Lio横浜",
     "hokuou_slot":      "北欧スロット",
     "newtokyoslot":     "ニュートーキョー",
+
+    # ── 東京 マルハン ──
+    "toho_maruhan":     "マルハン新宿東宝ビル店",
+    "maruhan_bukuro":   "マルハン池袋店",
+    "ikebukuro_SB":     "マルハン池袋SLOT_BASE",
+    "MARUHANkamata":    "マルハンメガシティ2000 蒲田",
+    "maruhanyotsuya":   "マルハン八王子四谷店",
+    "maruhan_hino":     "マルハン日野店",
+    "maruhan_area":     "マルハン東京エリア",
+    "MaruhanOfficial":  "マルハン【公式】",
+
+    # ── 東京 ガイア ──
+    "GN_SANCHA1":       "ガイアネクスト三軒茶屋Ⅰ",
+    "gn_sancha2":       "ガイアネクスト三軒茶屋Ⅱ",
+    "gaia_oojima":      "ガイア大島店",
+    "Gaia_Hikifune":    "ガイア曳舟店",
+    "GAIA_FUJIMIDAI":   "ガイア富士見台南口店",
+    "gaia_kyodo":       "ガイア経堂店",
+    "GAIA_MIZUE":       "ガイア瑞江店",
+
+    # ── 東京 楽園 ──
+    "rakuenikebukuro":  "楽園池袋店ゲートウェイ",
+    "Rakuen_GS":        "楽園池袋店グリーンサイド",
+    "mask_rakuen":      "楽園アメ横店",
+    "RAKUENSHIBUYA1":   "楽園渋谷道玄坂店",
+
+    # ── 東京 キコーナ ──
+    "kicona_shinjuku":  "キコーナ新宿三丁目店",
+    "3too9_kamata_39":  "キコーナ蒲田店",
+
+    # ── 東京 ガーデン ──
+    "singardentotuka":  "新！ガーデン戸塚",
+
+    # ── 神奈川 マルハン ──
+    "maruhan_yokoham":  "マルハンメガシティ横浜町田",
+    "maruhan_sagami":   "マルハン相模原店",
+    "dedemaruhan":      "マルハン川崎桜本店",
+    "maruhan_atsugi":   "マルハン厚木店",
+    "maruhangeneral":   "神奈川マルハンエリア長",
+
+    # ── 神奈川 キコーナ ──
+    "kanagawa_kicona":  "神奈川キコーナ",
+    "Kicona_ebina":     "キコーナ海老名店",
+    "KNakamachidai":    "キコーナ仲町台店",
+
+    # ── 神奈川 ガイア ──
+    "gn_ebina":         "ガイアネクスト海老名駅前店",
+    "GAIA_WADAMACHI":   "ガイア和田町店",
+    "GN_hodogayas":     "ガイアネクスト保土ヶ谷店",
+    "GAIA_KAWASAKIS":   "ガイア川崎スロット専門店",
+
+    # ── 神奈川 楽園 ──
+    "rakuen_sagami":    "楽園相模原店",
+
+    # ── 神奈川 エスパス日拓 ──
+    "espaceseibu1":     "エスパス日拓西武新宿駅前店",
+    "kabupa777":        "エスパス日拓新宿歌舞伎町店",
+    "akibaespace":      "エスパス日拓秋葉原駅前店",
+    "ESPACE_akasaka1":  "エスパス日拓赤坂見附駅前店",
+    "espace_mizohon":   "エスパス日拓溝の口駅前本館",
+    "espacemizoshin":   "エスパス日拓溝の口駅前新館",
+
+    # ── 神奈川 ピーアーク ──
+    "p__ark_tokyo":     "ピーアーク東京",
+    "take___park":      "ピーアーク竹ノ塚スタジオ",
+    "shinjo_stage":     "ピーアーク神奈川",
 }
 
 
