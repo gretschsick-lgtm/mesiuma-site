@@ -11,9 +11,10 @@ type CompleteEntry = {
   machine_type?: "slot" | "pachinko";
   slot_number: string;
   text: string;
+  images?: string[];
+  image_url?: string;
   x_url: string;
   collected_at: string;
-  // image_url / images は転載禁止のため型から除外
 };
 
 type RankItem = { rank: number; name: string; count: number };
@@ -135,6 +136,20 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           } as React.CSSProperties}>
             {entry.text}
           </div>
+        )}
+
+        {entry.image_url && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={entry.image_url}
+            alt=""
+            style={{
+              width: "100%", display: "block",
+              maxHeight: 260, objectFit: "cover",
+              borderRadius: 6, marginBottom: 9,
+            }}
+            loading="lazy"
+          />
         )}
 
         {entry.x_url && (

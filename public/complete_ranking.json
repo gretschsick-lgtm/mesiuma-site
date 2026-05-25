@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T03:55:55+09:00",
+  "updated_at": "2026-05-25T18:25:33+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
@@ -43,18 +43,18 @@
         },
         {
           "rank": 3,
+          "name": "牙狼12",
+          "count": 19
+        },
+        {
+          "rank": 4,
           "name": "ミリオンゴッド神々の軌跡",
           "count": 15
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "L東京喰種",
           "count": 12
-        },
-        {
-          "rank": 5,
-          "name": "スマスロ攻殻機動隊",
-          "count": 9
         }
       ],
       "slot_machines": [
@@ -87,28 +87,13 @@
       "pachinko_machines": [
         {
           "rank": 1,
-          "name": "牙狼12黄金騎士極限",
-          "count": 3
+          "name": "牙狼12",
+          "count": 19
         },
         {
           "rank": 2,
-          "name": "e牙狼12黄金騎士極限",
-          "count": 2
-        },
-        {
-          "rank": 3,
           "name": "eFキン肉マン",
           "count": 2
-        },
-        {
-          "rank": 4,
-          "name": "牙狼12",
-          "count": 2
-        },
-        {
-          "rank": 5,
-          "name": "e牙狼12XX-MJ",
-          "count": 1
         }
       ],
       "total_count": 256
@@ -240,18 +225,18 @@
       },
       {
         "rank": 3,
+        "name": "牙狼12",
+        "count": 19
+      },
+      {
+        "rank": 4,
         "name": "ミリオンゴッド神々の軌跡",
         "count": 16
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "L東京喰種",
         "count": 12
-      },
-      {
-        "rank": 5,
-        "name": "スマスロ攻殻機動隊",
-        "count": 11
       }
     ],
     "slot_machines": [
@@ -284,28 +269,13 @@
     "pachinko_machines": [
       {
         "rank": 1,
-        "name": "牙狼12黄金騎士極限",
-        "count": 3
+        "name": "牙狼12",
+        "count": 19
       },
       {
         "rank": 2,
-        "name": "e牙狼12黄金騎士極限",
-        "count": 2
-      },
-      {
-        "rank": 3,
         "name": "eFキン肉マン",
         "count": 2
-      },
-      {
-        "rank": 4,
-        "name": "牙狼12",
-        "count": 2
-      },
-      {
-        "rank": 5,
-        "name": "e牙狼12XX-MJ",
-        "count": 1
       }
     ],
     "total_count": 285

@@ -549,11 +549,30 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
                 pass
             entry = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time, author_name)
             if entry:
+                # 画像URL取得（pbs.twimg.com の画像のみ・プロフィール画像除外）
+                images: list[str] = []
+                try:
+                    img_els = article.query_selector_all('img[src*="pbs.twimg.com"]')
+                    for img_el in img_els[:4]:
+                        src = img_el.get_attribute("src") or ""
+                        if not src or "profile_images" in src:
+                            continue
+                        # クエリパラメータを高解像度に統一
+                        src = re.sub(r'\?.*$', '', src) + "?format=jpg&name=large"
+                        if src not in images:
+                            images.append(src)
+                except Exception:
+                    pass
+                if images:
+                    entry["images"]    = images
+                    entry["image_url"] = images[0]
+
                 results.append(entry)
                 store_label   = entry["store"] or "店舗不明"
                 machine_label = entry["machine"] or "機種不明"
                 slot          = f" [{entry['slot_number']}番台]" if entry["slot_number"] else ""
-                log(f"    ✅ {store_label} / {machine_label}{slot} {entry['time']}")
+                img_flag      = " 🖼" if images else ""
+                log(f"    ✅ {store_label} / {machine_label}{slot} {entry['time']}{img_flag}")
 
         except Exception:
             continue
@@ -857,6 +876,8 @@ def update_ranking():
         ("吉宗",                   "L吉宗"),
         # ゴッドイーター
         ("ゴッドイーター",         "スマスロゴッドイーター"),
+        # 牙狼シリーズ（全バリエーションを牙狼12に統一）
+        ("牙狼",                   "牙狼12"),
     ]
 
     def normalize_machine(name: str) -> str | None:
