@@ -1,0 +1,74 @@
+name: Post Complete Info to X
+
+on:
+  schedule:
+    # JST 21:00（UTC 12:00）に毎日1回投稿
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '投稿対象日 (YYYY-MM-DD, 省略時は今日JST)'
+        required: false
+        default: ''
+      dry_run:
+        description: '内容確認のみ（実際には投稿しない）'
+        required: false
+        default: 'false'
+      force:
+        description: '投稿済みでも再投稿する'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install tweepy
+
+      - name: Post to X
+        env:
+          X_API_KEY:              ${{ secrets.X_API_KEY }}
+          X_API_SECRET:           ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN:         ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET:  ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            ARGS="$ARGS --date ${{ github.event.inputs.date }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            ARGS="$ARGS --force"
+          fi
+          python scripts/post_complete_x.py $ARGS
+
+      - name: Commit posted log
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/complete_posted_log.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update complete_posted_log.json"
+            git pull --rebase origin main
+            git push
+          fi
