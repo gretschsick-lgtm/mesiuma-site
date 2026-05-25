@@ -146,7 +146,9 @@ jobs:
           retention-days: 1
 
   # ─── JOB F: p-town /schedules + P-World 取材来店情報 HTTP スクレイプ ─────
+  # ⚠️ DISABLED: DMM/P-WORLD 自動収集停止 (2026-05)
   fetch-ptown:
+    if: false
     runs-on: ubuntu-latest
     timeout-minutes: 360
     steps:

@@ -1,9 +1,8 @@
 name: Update Machine Specs (P-World)
 
+# ⚠️ DISABLED: DMM/P-WORLD 自動収集停止 (2026-05)
+# 再有効化するには schedule: を復元し、fetch ジョブの if: false を削除する
 on:
-  schedule:
-    # 毎週月曜日 JST 6:00（UTC 21:00日曜）に実行
-    - cron: "0 21 * * 0"
   workflow_dispatch:
     inputs:
       ids:
@@ -24,6 +23,7 @@ permissions:
 
 jobs:
   fetch:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 30
 

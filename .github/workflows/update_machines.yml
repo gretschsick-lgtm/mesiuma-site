@@ -1,9 +1,8 @@
 name: Update Machine Data
 
+# ⚠️ DISABLED: DMM/P-WORLD 自動収集停止 (2026-05)
+# 再有効化するには schedule: を復元し、各ジョブの if: false を削除する
 on:
-  schedule:
-    # 3時間ごと (UTC 0,3,6,9,12,15,18,21時)
-    - cron: "0 0,3,6,9,12,15,18,21 * * *"
   workflow_dispatch:
 
 # リポジトリへの書き込み権限を付与
@@ -18,6 +17,7 @@ jobs:
 
   # ── 地域1: 北海道・青森・岩手 (508店) ──────────────────────────────────────
   fetch-g1:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -34,6 +34,7 @@ jobs:
 
   # ── 地域2: 東北(秋田・山形・宮城・福島) (391店) ────────────────────────────
   fetch-g2:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -50,6 +51,7 @@ jobs:
 
   # ── 地域3: 関東北部(茨城・栃木・群馬・埼玉) (624店) ─────────────────────────
   fetch-g3:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -66,6 +68,7 @@ jobs:
 
   # ── 地域4: 千葉 (240店) ────────────────────────────────────────────────────
   fetch-g4:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -82,6 +85,7 @@ jobs:
 
   # ── 地域5: 東京都 (472店) ──────────────────────────────────────────────────
   fetch-g5:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -98,6 +102,7 @@ jobs:
 
   # ── 地域6: 神奈川・甲信越・北陸(神奈川・山梨・長野・新潟) (558店) ───────────
   fetch-g6:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -114,6 +119,7 @@ jobs:
 
   # ── 地域7: 北陸・東海(富山・石川・福井・岐阜・静岡) (426店) ─────────────────
   fetch-g7:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -130,6 +136,7 @@ jobs:
 
   # ── 地域8: 東海・近畿東部(愛知・三重・滋賀) (482店) ───────────────────────
   fetch-g8:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -146,6 +153,7 @@ jobs:
 
   # ── 地域9: 近畿(京都・大阪・奈良・和歌山) (606店) ────────────────────────
   fetch-g9:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -162,6 +170,7 @@ jobs:
 
   # ── 地域10: 兵庫・中国(兵庫・鳥取・島根・岡山・広島・山口) (674店) ──────────
   fetch-g10:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -178,6 +187,7 @@ jobs:
 
   # ── 地域11: 四国・福岡・長崎(徳島・香川・愛媛・高知・福岡・佐賀・長崎) (634店) ──
   fetch-g11:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -194,6 +204,7 @@ jobs:
 
   # ── 地域12: 九州南部・沖縄(熊本・大分・宮崎・鹿児島・沖縄) (490店) ───────────
   fetch-g12:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -210,6 +221,7 @@ jobs:
 
   # ── X 新台補完 ─────────────────────────────────────────────────────────────
   fetch-x:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -234,6 +246,7 @@ jobs:
 
   # ── マージ & コミット ──────────────────────────────────────────────────────
   merge-and-push:
+    if: false  # DISABLED
     runs-on: ubuntu-latest
     needs: [fetch-g1, fetch-g2, fetch-g3, fetch-g4, fetch-g5, fetch-g6, fetch-g7, fetch-g8, fetch-g9, fetch-g10, fetch-g11, fetch-g12, fetch-x]
     if: always()
