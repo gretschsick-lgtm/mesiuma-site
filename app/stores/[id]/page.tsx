@@ -61,6 +61,42 @@ type Event = {
   // image_url は転載禁止のため型から除外
 };
 
+// /api/events レスポンス行（Supabase 由来）
+type ApiEventRow = {
+  id: string;
+  store_id: string | null;
+  store_name: string | null;
+  pref: string | null;
+  area: string | null;
+  date: string | null;
+  event_name: string | null;
+  detail: string | null;
+  cast_names: string[] | null;
+  x_url: string | null;
+  source_url: string | null;
+  source: string | null;
+  highlight: boolean;
+  created_at: string;
+  updated_at: string;
+};
+
+function adaptApiEvent(e: ApiEventRow): Event {
+  return {
+    id:        e.id,
+    date:      e.date      ?? "",
+    store:     e.store_name ?? "",
+    pref:      e.pref      ?? "",
+    area:      e.area      ?? "",
+    event:     e.event_name ?? "",
+    detail:    e.detail    ?? "",
+    cast:      (e.cast_names ?? []).join(" "),
+    highlight: !!e.highlight,
+    x_url:     e.x_url     ?? "",
+    url:       e.source_url ?? "",
+    source:    e.source    ?? "",
+  };
+}
+
 // ── カラー定数 ───────────────────────────────────────────────────────────────
 const C = {
   bg:     "#f0f0f0",
@@ -270,20 +306,26 @@ export default function StoreDetailPage() {
   // データ取得
   useEffect(() => {
     if (!id) return;
+    // stores.json + store_machines.json を先に取得
     Promise.all([
       fetch("/stores.json").then(r => r.json()),
-      fetch("/events_public.json").then(r => r.json()),
       fetch("/store_machines.json").then(r => r.json()).catch(() => ({})),
-    ]).then(([stores, evData, machines]) => {
+    ]).then(([stores, machines]) => {
       const s = (stores as Store[]).find(s => s.id === id);
       if (!s) { setNotFound(true); return; }
       setStore(s);
       track("store_page_view", { store_id: id, store_name: s.name, pref: s.pref || "" });
-      const allEvents: Event[] = Array.isArray(evData) ? evData : (evData.events || []);
-      const storeEvents = allEvents.filter(ev => ev.store === s.name);
-      storeEvents.sort((a, b) => b.date.localeCompare(a.date));
-      setEvents(storeEvents);
       if (machines[s.name]) setMachineInfo(machines[s.name] as MachineInfo);
+
+      // 店舗ID確定後にイベントを /api/events で取得（store_id 完全一致）
+      fetch(`/api/events?store_id=${encodeURIComponent(id)}&limit=200`)
+        .then(r => r.json())
+        .then(d => {
+          const evs: Event[] = (d.data ?? []).map(adaptApiEvent);
+          evs.sort((a, b) => b.date.localeCompare(a.date));
+          setEvents(evs);
+        })
+        .catch(() => {});
     }).catch(() => setNotFound(true));
   }, [id]);
 

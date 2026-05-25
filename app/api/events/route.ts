@@ -42,9 +42,10 @@ export async function GET(
     // クエリパラメータのパース
     const limitRaw = parseInt(searchParams.get("limit") ?? "200", 10);
     const limit    = Number.isNaN(limitRaw) ? 200 : Math.min(Math.max(limitRaw, 1), 1000);
-    const pref     = searchParams.get("pref")  ?? null;
-    const store    = searchParams.get("store") ?? null;
-    const date     = searchParams.get("date")  ?? null;
+    const pref     = searchParams.get("pref")     ?? null;
+    const store    = searchParams.get("store")    ?? null;
+    const storeId  = searchParams.get("store_id") ?? null;
+    const date     = searchParams.get("date")     ?? null;
 
     const supabase = createAdminClient();
 
@@ -60,9 +61,10 @@ export async function GET(
       .order("created_at", { ascending: false })
       .limit(limit);
 
-    if (pref)  query = query.eq("pref", pref);
-    if (date)  query = query.eq("date", date);
-    if (store) query = query.ilike("store_name", `%${store}%`);
+    if (pref)    query = query.eq("pref", pref);
+    if (date)    query = query.eq("date", date);
+    if (storeId) query = query.eq("store_id", storeId);  // 完全一致（優先）
+    if (store)   query = query.ilike("store_name", `%${store}%`);
 
     const { data, error } = await query;
 

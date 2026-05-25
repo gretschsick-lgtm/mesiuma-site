@@ -21,10 +21,45 @@ type Ev = {
   cast?: string;
   highlight?: boolean;
   x_url?: string;
-  image_url?: string;
+  // image_url は転載禁止のため保持しない
   url?: string;
   source?: string;
 };
+
+type ApiEventRow = {
+  id: string;
+  store_id: string | null;
+  store_name: string | null;
+  pref: string | null;
+  area: string | null;
+  date: string | null;
+  event_name: string | null;
+  detail: string | null;
+  cast_names: string[] | null;
+  x_url: string | null;
+  source_url: string | null;
+  source: string | null;
+  highlight: boolean;
+  created_at: string;
+  updated_at: string;
+};
+
+function adaptApiEvent(e: ApiEventRow): Ev {
+  return {
+    id:        e.id,
+    date:      e.date       ?? "",
+    store:     e.store_name ?? "",
+    pref:      normalizePref(e.pref ?? ""),
+    area:      e.area       ?? "",
+    event:     e.event_name ?? "",
+    detail:    e.detail     ?? "",
+    cast:      (e.cast_names ?? []).join(" "),
+    highlight: !!e.highlight,
+    x_url:     e.x_url      ?? "",
+    url:       e.source_url ?? "",
+    source:    e.source     ?? "",
+  };
+}
 type YtVideo = { id: string; title: string; published: string; thumbnail?: string };
 type PickupStore = { id: string; name: string; pref?: string; area?: string; note?: string; image_url?: string; x_url?: string; hp_url?: string };
 type StoreMachine = { hours?: string; entry_rule?: string; address?: string; pachinko_total?: number; slot_total?: number };
@@ -195,8 +230,8 @@ export default function Page() {
 
 
   useEffect(() => {
-    fetch("/events_public.json").then(r=>r.json()).then(d=>{
-      const evs: Ev[] = (Array.isArray(d) ? d : (d.events || [])).map((ev: Ev) => ({ ...ev, pref: normalizePref(ev.pref) }));
+    fetch("/api/events?limit=1000").then(r=>r.json()).then(d=>{
+      const evs: Ev[] = (d.data ?? []).map(adaptApiEvent);
       setEvents(evs);
       setLoaded(true);
     }).catch(()=>setLoaded(true));
