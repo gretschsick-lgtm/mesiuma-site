@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-25T14:56:22Z",
+  "updated_at": "2026-05-26T01:54:12+09:00",
   "current_month": "2026-05",
   "monthly": {
     "2026-05": {
@@ -46,20 +46,72 @@
         },
         {
           "rank": 9,
-          "name": "つじちゃん店長@栄若宮大通店【キング観光】",
+          "name": "メガフェイス菊陽",
           "count": 3
         },
         {
           "rank": 10,
-          "name": "グランキコーナひたちなか店",
+          "name": "つじちゃん店長@栄若宮大通店【キング観光】",
           "count": 3
+        }
+      ],
+      "machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 33
+        },
+        {
+          "rank": 2,
+          "name": "牙狼12",
+          "count": 22
+        },
+        {
+          "rank": 3,
+          "name": "スマスロ北斗の拳",
+          "count": 19
+        },
+        {
+          "rank": 4,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 18
+        },
+        {
+          "rank": 5,
+          "name": "L東京喰種",
+          "count": 13
+        },
+        {
+          "rank": 6,
+          "name": "Lチバリヨ2ZB",
+          "count": 9
+        },
+        {
+          "rank": 7,
+          "name": "スマスロ攻殻機動隊",
+          "count": 9
+        },
+        {
+          "rank": 8,
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
+        },
+        {
+          "rank": 9,
+          "name": "eバイオハザード6",
+          "count": 6
+        },
+        {
+          "rank": 10,
+          "name": "スマスロ北斗の拳転生",
+          "count": 6
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 32
+          "count": 33
         },
         {
           "rank": 2,
@@ -69,12 +121,12 @@
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 16
+          "count": 18
         },
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 10
+          "count": 13
         },
         {
           "rank": 5,
@@ -103,7 +155,7 @@
         },
         {
           "rank": 10,
-          "name": "スマスロゴッドイーター",
+          "name": "甲鉄城のカバネリ",
           "count": 5
         }
       ],
@@ -111,7 +163,7 @@
         {
           "rank": 1,
           "name": "牙狼12",
-          "count": 20
+          "count": 22
         },
         {
           "rank": 2,
@@ -125,41 +177,41 @@
         },
         {
           "rank": 4,
+          "name": "e女神のカフェテラス",
+          "count": 2
+        },
+        {
+          "rank": 5,
           "name": "eフィーバーブルーロック",
           "count": 1
         },
         {
-          "rank": 5,
-          "name": "eフィーバーもののがたりF",
-          "count": 1
-        },
-        {
           "rank": 6,
-          "name": "eキン肉マンから",
+          "name": "eひきこまり吸血姫の悶々FHV",
           "count": 1
         },
         {
           "rank": 7,
-          "name": "e東京喰種",
+          "name": "eフィーバーもののがたりF",
           "count": 1
         },
         {
           "rank": 8,
-          "name": "Lゴジラ",
+          "name": "eキン肉マンから",
           "count": 1
         },
         {
           "rank": 9,
-          "name": "e東京喰種W",
+          "name": "e東京喰種",
           "count": 1
         },
         {
           "rank": 10,
-          "name": "e女神のカフェテラス",
+          "name": "Lゴジラ",
           "count": 1
         }
       ],
-      "total_count": 263
+      "total_count": 278
     },
     "2026-04": {
       "stores": [
@@ -175,42 +227,79 @@
         },
         {
           "rank": 3,
-          "name": "ジャラン水元店",
-          "count": 2
-        },
-        {
-          "rank": 4,
           "name": "ユーコーラッキー37筑後店",
           "count": 1
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "関西すろいべ(旧ネコスロ)",
           "count": 1
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "SUPER CONCORDE 市野",
           "count": 1
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "キャッスル春日井でお楽しみください♪",
           "count": 1
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "ユーコーラッキー37辻堂店",
           "count": 1
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "門前仲町スターダスト",
           "count": 1
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "マルハン仙台新港店",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "ジャラン水元店",
+          "count": 1
+        }
+      ],
+      "machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 10
+        },
+        {
+          "rank": 2,
+          "name": "甲鉄城のカバネリ",
+          "count": 1
+        },
+        {
+          "rank": 3,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 1
+        },
+        {
+          "rank": 4,
+          "name": "コンプリート機能発動の為、本日は停止となります。",
+          "count": 1
+        },
+        {
+          "rank": 5,
+          "name": "L新鬼武者3",
+          "count": 1
+        },
+        {
+          "rank": 6,
+          "name": "ガンダムユニコーン",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "スマスロ北斗の拳",
           "count": 1
         }
       ],
@@ -222,52 +311,37 @@
         },
         {
           "rank": 2,
-          "name": "スマスロ北斗の拳",
-          "count": 2
-        },
-        {
-          "rank": 3,
-          "name": "スマスロ攻殻機動隊",
-          "count": 2
-        },
-        {
-          "rank": 4,
           "name": "甲鉄城のカバネリ",
           "count": 1
         },
         {
-          "rank": 5,
+          "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
           "count": 1
         },
         {
-          "rank": 6,
+          "rank": 4,
           "name": "コンプリート機能発動の為、本日は停止となります。",
           "count": 1
         },
         {
-          "rank": 7,
+          "rank": 5,
           "name": "L新鬼武者3",
           "count": 1
         },
         {
-          "rank": 8,
+          "rank": 6,
           "name": "ガンダムユニコーン",
           "count": 1
         },
         {
-          "rank": 9,
-          "name": "無職転生",
-          "count": 1
-        },
-        {
-          "rank": 10,
-          "name": "アズールレーン",
+          "rank": 7,
+          "name": "スマスロ北斗の拳",
           "count": 1
         }
       ],
       "pachinko_machines": [],
-      "total_count": 22
+      "total_count": 16
     }
   },
   "total": {
@@ -279,17 +353,17 @@
       },
       {
         "rank": 2,
-        "name": "マルハン仙台苦竹店です",
-        "count": 7
-      },
-      {
-        "rank": 3,
         "name": "プレイランドキャッスル熱田店",
         "count": 7
       },
       {
-        "rank": 4,
+        "rank": 3,
         "name": "楽園池袋",
+        "count": 6
+      },
+      {
+        "rank": 4,
+        "name": "マルハン仙台苦竹店です",
         "count": 6
       },
       {
@@ -314,44 +388,96 @@
       },
       {
         "rank": 9,
-        "name": "つじちゃん店長@栄若宮大通店【キング観光】",
+        "name": "メガフェイス菊陽",
         "count": 3
       },
       {
         "rank": 10,
-        "name": "グランキコーナひたちなか店",
+        "name": "つじちゃん店長@栄若宮大通店【キング観光】",
         "count": 3
+      }
+    ],
+    "machines": [
+      {
+        "rank": 1,
+        "name": "革命機ヴァルヴレイヴ2",
+        "count": 43
+      },
+      {
+        "rank": 2,
+        "name": "牙狼12",
+        "count": 22
+      },
+      {
+        "rank": 3,
+        "name": "スマスロ北斗の拳",
+        "count": 20
+      },
+      {
+        "rank": 4,
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 19
+      },
+      {
+        "rank": 5,
+        "name": "L東京喰種",
+        "count": 13
+      },
+      {
+        "rank": 6,
+        "name": "Lチバリヨ2ZB",
+        "count": 9
+      },
+      {
+        "rank": 7,
+        "name": "スマスロ攻殻機動隊",
+        "count": 9
+      },
+      {
+        "rank": 8,
+        "name": "L炎炎ノ消防隊2",
+        "count": 9
+      },
+      {
+        "rank": 9,
+        "name": "甲鉄城のカバネリ",
+        "count": 6
+      },
+      {
+        "rank": 10,
+        "name": "eバイオハザード6",
+        "count": 6
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 42
+        "count": 43
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳",
-        "count": 21
+        "count": 20
       },
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 17
+        "count": 19
       },
       {
         "rank": 4,
-        "name": "スマスロ攻殻機動隊",
-        "count": 11
+        "name": "L東京喰種",
+        "count": 13
       },
       {
         "rank": 5,
-        "name": "L東京喰種",
-        "count": 10
+        "name": "Lチバリヨ2ZB",
+        "count": 9
       },
       {
         "rank": 6,
-        "name": "Lチバリヨ2ZB",
+        "name": "スマスロ攻殻機動隊",
         "count": 9
       },
       {
@@ -361,25 +487,25 @@
       },
       {
         "rank": 8,
-        "name": "スマスロ北斗の拳転生",
+        "name": "甲鉄城のカバネリ",
         "count": 6
       },
       {
         "rank": 9,
-        "name": "L吉宗",
+        "name": "スマスロ北斗の拳転生",
         "count": 6
       },
       {
         "rank": 10,
-        "name": "スマスロゴッドイーター",
-        "count": 5
+        "name": "L吉宗",
+        "count": 6
       }
     ],
     "pachinko_machines": [
       {
         "rank": 1,
         "name": "牙狼12",
-        "count": 20
+        "count": 22
       },
       {
         "rank": 2,
@@ -393,40 +519,40 @@
       },
       {
         "rank": 4,
+        "name": "e女神のカフェテラス",
+        "count": 2
+      },
+      {
+        "rank": 5,
         "name": "eフィーバーブルーロック",
         "count": 1
       },
       {
-        "rank": 5,
-        "name": "eフィーバーもののがたりF",
-        "count": 1
-      },
-      {
         "rank": 6,
-        "name": "eキン肉マンから",
+        "name": "eひきこまり吸血姫の悶々FHV",
         "count": 1
       },
       {
         "rank": 7,
-        "name": "e東京喰種",
+        "name": "eフィーバーもののがたりF",
         "count": 1
       },
       {
         "rank": 8,
-        "name": "Lゴジラ",
+        "name": "eキン肉マンから",
         "count": 1
       },
       {
         "rank": 9,
-        "name": "e東京喰種W",
+        "name": "e東京喰種",
         "count": 1
       },
       {
         "rank": 10,
-        "name": "e女神のカフェテラス",
+        "name": "Lゴジラ",
         "count": 1
       }
     ],
-    "total_count": 285
+    "total_count": 301
   }
 }
