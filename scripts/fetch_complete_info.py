@@ -398,6 +398,34 @@ def extract_slot_number(text: str) -> str:
     return m.group(1) if m else ""
 
 
+def extract_date_from_text(text: str, posting_date: str) -> str:
+    """
+    ツイートテキスト内の「5/24(日)」「5月24日(土)」形式の日付を抽出し、
+    ツイート投稿日と近ければ（±3日）その日付を返す。
+    抽出できなければ posting_date をそのまま返す。
+    """
+    if not posting_date:
+        return posting_date
+    # 曜日付きパターン優先（確実性が高い）: "5/24(日)" "5月24日(土)" 等
+    # 曜日なしも許容するが括弧なし単独数字は誤検知しやすいので曜日必須
+    m = re.search(r'(\d{1,2})[/月](\d{1,2})(?:日)?[（(][日月火水木金土][）)]', text)
+    if not m:
+        return posting_date
+    mo_text, dy_text = int(m.group(1)), int(m.group(2))
+    # 基準年: ツイート投稿年
+    post_yr = int(posting_date[:4])
+    for yr in [post_yr, post_yr - 1]:
+        try:
+            from datetime import date as _date, timedelta
+            candidate = _date(yr, mo_text, dy_text)
+            posting   = _date.fromisoformat(posting_date)
+            if abs((posting - candidate).days) <= 3:
+                return candidate.strftime("%Y-%m-%d")
+        except ValueError:
+            pass
+    return posting_date
+
+
 def get_tweet_datetime(article) -> tuple[str, str]:
     """Xの<time datetime="...">からJSTの (date, time) を取得して返す"""
     try:
@@ -458,6 +486,10 @@ def parse_tweet(text: str, tweet_url: str,
     # Xの<time>から取得した日付を使う（取得できなければ収集日）
     if not tweet_date:
         tweet_date = today_str
+
+    # テキスト内に「5/24(日)」等の曜日付き日付があればそちらを優先
+    # （日付変わり後に前日のコンプリートを投稿するケースに対応）
+    tweet_date = extract_date_from_text(text, tweet_date)
 
     entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 
@@ -590,8 +622,10 @@ def load_all() -> list[dict]:
 def save_complete(new_entries: list[dict], target_date: str):
     all_data = load_all()
 
-    # 30日より古いデータを除去（ピンツイート対策）
-    cutoff = (date.today() - __import__('datetime').timedelta(days=30)).strftime("%Y-%m-%d")
+    # 30日より古いデータを除去（ピンツイート対策）― JST基準
+    from datetime import timezone as _tz, timedelta as _td
+    _JST = _tz(_td(hours=9))
+    cutoff = (datetime.now(_JST) - _td(days=30)).strftime("%Y-%m-%d")
     all_data = [e for e in all_data if e.get("date", "") >= cutoff]
 
     # 既存IDセット（全期間）で重複防止
