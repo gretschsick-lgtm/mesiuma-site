@@ -230,36 +230,37 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
 
   const inner = (
     <div style={{
-      display: "flex", alignItems: "center", gap: 10,
-      padding: "10px 14px",
+      display: "flex", alignItems: "center", gap: 8,
+      padding: "8px 10px",
       background: isTop3 ? (item.rank === 1 ? "linear-gradient(90deg,#fffbea,#fff9e0)" : C.white) : C.white,
       borderBottom: `1px solid ${C.border}`,
       cursor: canLink ? "pointer" : "default",
       transition: canLink ? "background 0.12s" : undefined,
+      overflow: "hidden",
     }}>
       <div style={{
-        width: 32, height: 32, borderRadius: "50%",
+        width: 28, height: 28, borderRadius: "50%",
         background: RANK_COLORS[item.rank - 1],
         display: "flex", alignItems: "center", justifyContent: "center",
-        fontSize: item.rank <= 3 ? 16 : 12,
+        fontSize: item.rank <= 3 ? 14 : 11,
         fontWeight: 800, color: "#fff",
         flexShrink: 0,
       }}>
         {item.rank <= 3 ? RANK_LABELS[item.rank - 1] : item.rank}
       </div>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ fontSize: 13, fontWeight: 700, color: canLink ? "#1d9bf0" : C.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+        <div style={{ fontSize: 12, fontWeight: 700, color: canLink ? "#1d9bf0" : C.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
           {icon} {item.name}
           {chainOnly && <span style={{ fontSize: 9, color: C.muted, fontWeight: 400, marginLeft: 4 }}>（支店不明）</span>}
         </div>
         {canLink && <div style={{ fontSize: 9, color: "#1d9bf0", marginTop: 1 }}>𝕏 公式アカウントを見る →</div>}
       </div>
       <div style={{
-        fontSize: 20, fontWeight: 900, color: isTop3 ? C.gold : C.muted,
-        flexShrink: 0, textAlign: "right",
+        fontSize: 15, fontWeight: 900, color: isTop3 ? C.gold : C.muted,
+        flexShrink: 0, textAlign: "right", minWidth: 32,
       }}>
         {item.count}
-        <span style={{ fontSize: 10, fontWeight: 400, color: C.muted, marginLeft: 2 }}>回</span>
+        <span style={{ fontSize: 10, fontWeight: 400, color: C.muted, marginLeft: 1 }}>回</span>
       </div>
     </div>
   );
@@ -291,27 +292,28 @@ function MachineTabs({
         display: "flex", alignItems: "center", justifyContent: "space-between",
         borderBottom: `1px solid ${C.border}`,
         background: "#fafafa",
-        padding: "0 0 0 10px",
+        padding: "6px 10px",
+        gap: 8,
       }}>
-        <div style={{
-          fontSize: 11, fontWeight: 700,
-          color: C.sub,
-          whiteSpace: "nowrap",
-        }}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: C.sub, whiteSpace: "nowrap", flexShrink: 0 }}>
           🎰 機種別TOP10
         </div>
-        <div style={{ display: "flex", flexShrink: 0 }}>
+        <div style={{
+          display: "flex", flexShrink: 0,
+          background: "#e4e4e4", borderRadius: 20, padding: 2, gap: 2,
+        }}>
           {(["slot", "pachinko"] as const).map(k => (
             <button
               key={k}
               onClick={() => setMachineTabKey(k)}
               style={{
-                padding: "8px 14px", fontSize: 12, fontWeight: 700,
-                border: "none", borderBottom: machineTabKey === k ? `2px solid ${C.red}` : "2px solid transparent",
-                background: "transparent",
-                color: machineTabKey === k ? C.red : k === "pachinko" && !hasPachinko ? C.dim : C.sub,
+                padding: "5px 12px", fontSize: 11, fontWeight: 700,
+                border: "none", borderRadius: 18,
+                background: machineTabKey === k ? C.red : "transparent",
+                color: machineTabKey === k ? "#fff" : k === "pachinko" && !hasPachinko ? C.dim : "#444",
                 cursor: "pointer",
                 whiteSpace: "nowrap",
+                transition: "all 0.15s",
               }}
             >
               {k === "slot" ? "スロット" : "パチンコ"}
