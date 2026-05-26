@@ -1312,10 +1312,15 @@ def main():
                 supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗")
                 return
             # ページタイトルで追加確認
-            if title and "home" not in title.lower() and "x" not in title.lower():
-                log(f"⚠️  ログインページタイトル異常: {title!r} — 続行")
-            else:
-                log(f"✅ Xログイン確認OK (title={title!r})")
+            # 「いま」を見つけよう / X = 未ログイン状態のタイトル
+            LOGGED_OUT_TITLES = ["いま", "what's happening", "happening now", "sign in", "log in"]
+            is_logged_out_title = title and any(t in title.lower() for t in LOGGED_OUT_TITLES)
+            if is_logged_out_title:
+                log(f"❌ 未ログイン状態と判定 (title={title!r}) — Xの認証情報を確認してください")
+                ctx.close()
+                supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗（タイトル）")
+                return
+            log(f"✅ Xログイン確認OK (title={title!r})")
         except PlaywrightTimeout:
             log("⚠️  ログイン確認タイムアウト — 続行")
 
