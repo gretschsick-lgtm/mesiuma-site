@@ -15,10 +15,17 @@ on:
 permissions:
   contents: write
 
+# ── 並列実行防止: 同じワークフローは必ず直列化する ─────────────────────────────
+# cancel-in-progress: false = 前の実行が終わるまで次の実行はキューで待機
+# これにより complete_info.json / complete_ranking.json の同時書き換えを防止
+concurrency:
+  group: update-complete
+  cancel-in-progress: false
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 55  # スクリプト28分 + インストール5分 + git push = 十分な余裕
 
     steps:
       - name: Checkout
@@ -37,6 +44,7 @@ jobs:
           playwright install chromium --with-deps
 
       - name: Fetch complete info from X
+        timeout-minutes: 35  # スクリプト内28分制限 + 余裕7分
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
@@ -76,10 +84,15 @@ jobs:
           else
             COUNT=$(python3 -c "import json; d=json.load(open('public/complete_info.json')); print(len(d))")
             git commit -m "chore: update complete_info.json (${COUNT}件) + ranking"
-            # 並行実行による競合対策: 最大3回リトライ
-            for i in 1 2 3; do
-              git pull --rebase origin main && git push && break
-              echo "Push attempt ${i} failed, retrying in 5s..."
-              sleep 5
+            # 並行実行による競合対策: 最大5回リトライ + rebase失敗時は abort して再試行
+            for i in 1 2 3 4 5; do
+              if git pull --rebase origin main && git push; then
+                echo "✅ Push succeeded (attempt ${i})"
+                break
+              else
+                git rebase --abort 2>/dev/null || true
+                echo "⚠️ Push attempt ${i} failed, retrying in 10s..."
+                sleep 10
+              fi
             done
           fi

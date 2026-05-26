@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 """
 X (Twitter) から店舗アカウントが投稿した「コンプリート」情報を収集して
 public/complete_info.json を生成する。
@@ -624,6 +625,11 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     except PlaywrightTimeout:
         log(f"  ⏱ Timeout: {query}")
         return results
+
+    # ─── ログインページへのリダイレクト検出 ───────────────────────────────
+    redir_url = page.url.lower()
+    if "login" in redir_url or "/flow/" in redir_url or "twitter.com/i/flow" in redir_url:
+        raise RuntimeError("LOGIN_REQUIRED")
 
     try:
         page.wait_for_selector('article[data-testid="tweet"]', timeout=10000)
@@ -1263,6 +1269,10 @@ def main():
     all_new: list[dict] = []
     query_errors = 0   # クエリ単位のエラー数
 
+    # ── 時間制限: 28分で強制終了（GH Actions 60分タイムアウトの余裕を確保）
+    MAX_RUNTIME_MIN = 28
+    script_start = time.monotonic()
+
     with sync_playwright() as pw:
         ctx = launch_browser(pw, headless=args.headless)
         page = ctx.new_page()
@@ -1290,19 +1300,54 @@ def main():
         except PlaywrightTimeout:
             log("⚠️  ログイン確認タイムアウト — 続行")
 
+        login_lost = False
         for i, query in enumerate(COMPLETE_QUERIES, 1):
-            log(f"  [{i}/{len(COMPLETE_QUERIES)}] 🔍 {query}")
-            try:
-                results = scrape_query(page, query, today)
-                log(f"       → {len(results)} 件（店舗投稿）")
-                all_new.extend(results)
-                time.sleep(1)
-            except Exception as e:
-                log(f"  ❌ {e}")
-                query_errors += 1
+            # ── 時間制限チェック ──────────────────────────────────────────────
+            elapsed_min = (time.monotonic() - script_start) / 60
+            if elapsed_min >= MAX_RUNTIME_MIN:
+                log(f"⏰ {MAX_RUNTIME_MIN}分の時間制限に達しました "
+                    f"({i-1}/{len(COMPLETE_QUERIES)}クエリ完了) — 保存して終了")
+                break
+
+            log(f"  [{i}/{len(COMPLETE_QUERIES)}] 🔍 {query}  (経過{elapsed_min:.1f}分)")
+
+            # ── クエリ実行（失敗時1回リトライ）─────────────────────────────
+            for attempt in range(2):
+                try:
+                    results = scrape_query(page, query, today)
+                    log(f"       → {len(results)} 件（店舗投稿）")
+                    all_new.extend(results)
+                    time.sleep(1)
+                    break
+                except RuntimeError as e:
+                    if "LOGIN_REQUIRED" in str(e):
+                        log("❌ Xのログインセッション切れを検出 — 収集を中止します")
+                        login_lost = True
+                        break
+                    if attempt == 0:
+                        log(f"  ⚠️ リトライします: {e}")
+                        time.sleep(3)
+                    else:
+                        log(f"  ❌ スキップ: {e}")
+                        query_errors += 1
+                except Exception as e:
+                    if attempt == 0:
+                        log(f"  ⚠️ リトライします: {e}")
+                        time.sleep(3)
+                    else:
+                        log(f"  ❌ スキップ: {e}")
+                        query_errors += 1
+
+            if login_lost:
+                break
 
         page.close()
         ctx.close()
+
+        if login_lost:
+            supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xセッション切れ")
+            # セッション切れでも収集済み分は保存して終了
+            log(f"⚠️ セッション切れのため中断。収集済み{len(all_new)}件は保存します")
 
     # 重複除去
     seen: set[str] = set()
