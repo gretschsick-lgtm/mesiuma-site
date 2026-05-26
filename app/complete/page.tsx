@@ -235,6 +235,7 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
       borderBottom: `1px solid ${C.border}`,
       cursor: canLink ? "pointer" : "default",
       boxSizing: "border-box",
+      width: "100%",
     }}>
       {/* 順位バッジ */}
       <div style={{
@@ -264,7 +265,7 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
       <div style={{
         flexShrink: 0,
         textAlign: "right",
-        minWidth: 44,
+        width: 52,
       }}>
         <span style={{
           fontSize: 18, fontWeight: 900,
@@ -384,7 +385,7 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
         {selData ? (
           <div style={{ display: "grid", gridTemplateColumns: isNarrow ? "1fr" : "1fr 1fr", gap: 0 }}>
             {/* 店舗別 */}
-            <div>
+            <div style={{ minWidth: 0 }}>
               <div style={{
                 padding: "8px 14px", fontSize: 11, fontWeight: 700,
                 color: C.sub, background: "#fafafa",
@@ -404,7 +405,9 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
               )}
             </div>
             {/* 機種別 */}
-            <MachineTabs data={selData} machineTabKey={monthMachineTab} setMachineTabKey={setMonthMachineTab} />
+            <div style={{ minWidth: 0 }}>
+              <MachineTabs data={selData} machineTabKey={monthMachineTab} setMachineTabKey={setMonthMachineTab} />
+            </div>
           </div>
         ) : (
           <div style={{ padding: "30px", color: C.muted, fontSize: 13, textAlign: "center" }}>
@@ -434,7 +437,7 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
         </div>
 
         <div style={{ display: "grid", gridTemplateColumns: isNarrow ? "1fr" : "1fr 1fr", gap: 0 }}>
-          <div>
+          <div style={{ minWidth: 0 }}>
             <div style={{
               padding: "8px 14px", fontSize: 11, fontWeight: 700,
               color: C.sub, background: "#fafafa",
@@ -453,7 +456,9 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
               <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
             )}
           </div>
-          <MachineTabs data={ranking.total} machineTabKey={totalMachineTab} setMachineTabKey={setTotalMachineTab} />
+          <div style={{ minWidth: 0 }}>
+            <MachineTabs data={ranking.total} machineTabKey={totalMachineTab} setMachineTabKey={setTotalMachineTab} />
+          </div>
         </div>
 
         <div style={{ padding: "8px 14px", fontSize: 10, color: C.muted, background: "#fafafa", borderTop: `1px solid ${C.border}` }}>
