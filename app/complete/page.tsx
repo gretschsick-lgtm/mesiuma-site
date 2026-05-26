@@ -417,6 +417,7 @@ export default function CompletePage() {
   const [refreshing, setRefreshing] = useState(false);
   const [tab, setTab] = useState<"feed" | "ranking">("feed");
   const [feedFilter, setFeedFilter] = useState<"all" | "slot" | "pachinko">("all");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const loadData = useCallback(async (silent = false) => {
     if (!silent) setLoading(true);
@@ -449,11 +450,19 @@ export default function CompletePage() {
 
   // 日付ごとにグループ化（機種名あるもののみ・新しい順）
   const grouped = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
     const map = new Map<string, CompleteEntry[]>();
     for (const e of entries) {
-      if (!e.machine || !e.machine.trim()) continue; // 機種不明は非表示
+      if (!e.machine || !e.machine.trim()) continue;
       if (feedFilter === "slot" && e.machine_type === "pachinko") continue;
       if (feedFilter === "pachinko" && e.machine_type !== "pachinko") continue;
+      if (q) {
+        const hit =
+          e.machine.toLowerCase().includes(q) ||
+          e.store.toLowerCase().includes(q) ||
+          (e.text || "").toLowerCase().includes(q);
+        if (!hit) continue;
+      }
       const d = e.date || "";
       if (!map.has(d)) map.set(d, []);
       map.get(d)!.push(e);
@@ -462,7 +471,7 @@ export default function CompletePage() {
       list.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
     }
     return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]));
-  }, [entries, feedFilter]);
+  }, [entries, feedFilter, searchQuery]);
 
   const todayStr = (() => {
     const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
@@ -531,12 +540,24 @@ export default function CompletePage() {
       }}>
         <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           <div style={{ fontSize: 13, color: C.text, fontWeight: 700 }}>
-            全 {entries.length} 件
-            {grouped.length > 1 && (
-              <span style={{ fontSize: 11, color: C.muted, fontWeight: 400, marginLeft: 8 }}>
-                ({grouped.length}日分)
-              </span>
-            )}
+            {searchQuery.trim()
+              ? <>
+                  <span style={{ color: C.red }}>
+                    {grouped.reduce((n, [, list]) => n + list.length, 0)}件
+                  </span>
+                  <span style={{ fontSize: 11, color: C.muted, fontWeight: 400, marginLeft: 4 }}>
+                    ヒット / 全{entries.length}件
+                  </span>
+                </>
+              : <>
+                  全 {entries.length} 件
+                  {grouped.length > 1 && (
+                    <span style={{ fontSize: 11, color: C.muted, fontWeight: 400, marginLeft: 8 }}>
+                      ({grouped.length}日分)
+                    </span>
+                  )}
+                </>
+            }
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             {lastUpdated && (
@@ -557,29 +578,62 @@ export default function CompletePage() {
             </button>
           </div>
         </div>
-        {/* フィードフィルター（feedタブ表示時のみ） */}
+        {/* フィードフィルター + 検索（feedタブ表示時のみ） */}
         {tab === "feed" && (
-          <div style={{ maxWidth: 900, margin: "4px auto 0", display: "flex", gap: 6 }}>
-            {([
-              { key: "all", label: "すべて" },
-              { key: "slot", label: "🎰 パチスロ" },
-              { key: "pachinko", label: "🎯 パチンコ" },
-            ] as const).map(f => (
-              <button
-                key={f.key}
-                onClick={() => setFeedFilter(f.key)}
+          <div style={{ maxWidth: 900, margin: "6px auto 0", display: "flex", flexDirection: "column", gap: 6 }}>
+            {/* 検索ボックス */}
+            <div style={{ position: "relative" }}>
+              <span style={{
+                position: "absolute", left: 10, top: "50%", transform: "translateY(-50%)",
+                fontSize: 14, pointerEvents: "none", color: C.muted,
+              }}>🔍</span>
+              <input
+                type="text"
+                value={searchQuery}
+                onChange={e => setSearchQuery(e.target.value)}
+                placeholder="機種名・店舗名で検索..."
                 style={{
-                  padding: "3px 12px", fontSize: 11, fontWeight: 700,
-                  border: `1px solid ${feedFilter === f.key ? C.red : C.border}`,
-                  borderRadius: 20,
-                  background: feedFilter === f.key ? C.red : C.white,
-                  color: feedFilter === f.key ? "#fff" : C.sub,
-                  cursor: "pointer",
+                  width: "100%", boxSizing: "border-box",
+                  padding: "7px 34px 7px 32px",
+                  fontSize: 13, borderRadius: 20,
+                  border: `1px solid ${searchQuery ? C.red : C.border}`,
+                  outline: "none", background: C.white, color: C.text,
                 }}
-              >
-                {f.label}
-              </button>
-            ))}
+              />
+              {searchQuery && (
+                <button
+                  onClick={() => setSearchQuery("")}
+                  style={{
+                    position: "absolute", right: 8, top: "50%", transform: "translateY(-50%)",
+                    background: "none", border: "none", cursor: "pointer",
+                    fontSize: 13, color: C.muted, padding: "2px 4px",
+                  }}
+                >✕</button>
+              )}
+            </div>
+            {/* タイプフィルター */}
+            <div style={{ display: "flex", gap: 6 }}>
+              {([
+                { key: "all", label: "すべて" },
+                { key: "slot", label: "🎰 パチスロ" },
+                { key: "pachinko", label: "🎯 パチンコ" },
+              ] as const).map(f => (
+                <button
+                  key={f.key}
+                  onClick={() => setFeedFilter(f.key)}
+                  style={{
+                    padding: "3px 12px", fontSize: 11, fontWeight: 700,
+                    border: `1px solid ${feedFilter === f.key ? C.red : C.border}`,
+                    borderRadius: 20,
+                    background: feedFilter === f.key ? C.red : C.white,
+                    color: feedFilter === f.key ? "#fff" : C.sub,
+                    cursor: "pointer",
+                  }}
+                >
+                  {f.label}
+                </button>
+              ))}
+            </div>
           </div>
         )}
       </div>
@@ -600,11 +654,16 @@ export default function CompletePage() {
           )
         ) : grouped.length === 0 ? (
           <div style={{ textAlign: "center", padding: "60px 0" }}>
-            <div style={{ fontSize: 44, marginBottom: 12 }}>🎰</div>
+            <div style={{ fontSize: 44, marginBottom: 12 }}>{searchQuery.trim() ? "🔍" : "🎰"}</div>
             <div style={{ fontSize: 15, fontWeight: 700, color: C.text, marginBottom: 6 }}>
-              コンプリート情報はまだありません
+              {searchQuery.trim() ? `「${searchQuery}」に一致する情報がありません` : "コンプリート情報はまだありません"}
             </div>
-            <div style={{ fontSize: 12, color: C.muted }}>スクリプト実行後に反映されます</div>
+            <div style={{ fontSize: 12, color: C.muted }}>
+              {searchQuery.trim()
+                ? <button onClick={() => setSearchQuery("")} style={{ background: "none", border: "none", color: C.red, cursor: "pointer", fontSize: 12, fontWeight: 700 }}>検索をクリア</button>
+                : "スクリプト実行後に反映されます"
+              }
+            </div>
           </div>
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
