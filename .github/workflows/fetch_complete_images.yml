@@ -1,6 +1,9 @@
 name: コンプリート画像・動画補完
 
 on:
+  schedule:
+    # JST 毎日 3:00・9:00・15:00・21:00 に実行（UTC 18:00, 0:00, 6:00, 12:00）
+    - cron: "0 18,0,6,12 * * *"
   workflow_dispatch:
     inputs:
       limit:
