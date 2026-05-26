@@ -980,9 +980,10 @@ def update_ranking():
         ("転生の章２",            "スマスロ北斗の拳転生の章2"),
         ("転生2",                 "スマスロ北斗の拳転生の章2"),
         ("転生２",                "スマスロ北斗の拳転生の章2"),
-        # スマスロ北斗の拳転生
-        ("北斗の拳転生",          "スマスロ北斗の拳転生"),
-        ("北斗転生",              "スマスロ北斗の拳転生"),
+        ("転生の章",              "スマスロ北斗の拳転生の章2"),   # 章番号省略も2に統一
+        # 北斗転生系の表記ゆれ（番号なしも2026年時点では転生の章2）
+        ("北斗の拳転生",          "スマスロ北斗の拳転生の章2"),
+        ("北斗転生",              "スマスロ北斗の拳転生の章2"),
         # スマスロ革命機ヴァルヴレイヴ2
         ("革命機ヴァルヴレイヴ２", "革命機ヴァルヴレイヴ2"),
         ("革命機ヴァルヴレイヴ2",  "革命機ヴァルヴレイヴ2"),
@@ -1089,10 +1090,21 @@ def update_ranking():
     # ── 店舗名の表記ゆれ正規化マップ（ランキング集計用）
     STORE_NORMALIZE: list[tuple[str, str]] = [
         ("楽園ハッピーロード大山 店長石川＠アカウント", "楽園ハッピーロード大山店"),
-        ("楽園池袋店",  "楽園池袋"),   # 「楽園池袋」に統一
     ]
 
-    def normalize_store(name: str) -> str:
+    # x_url のアカウントハンドル → 正式店舗名（スペース区切りの支店名対応）
+    X_URL_STORE_OVERRIDE: dict[str, str] = {
+        "rakuenikebukuro": "楽園池袋店ゲートウェイ",
+        "Rakuen_GS":       "楽園池袋店グリーンサイド",
+        "rakuen_gs":       "楽園池袋店グリーンサイド",
+    }
+
+    def normalize_store(name: str, x_url: str = "") -> str:
+        # x_url ベースの補正（優先）
+        if x_url:
+            handle = x_url.split("/status/")[0].rstrip("/").split("/")[-1]
+            if handle in X_URL_STORE_OVERRIDE:
+                return X_URL_STORE_OVERRIDE[handle]
         for pattern, normalized in STORE_NORMALIZE:
             if name == pattern:
                 return normalized
@@ -1125,7 +1137,7 @@ def update_ranking():
         if not d or len(d) < 7:
             continue
         ym = d[:7]  # "YYYY-MM"
-        store   = normalize_store((e.get("store") or "").strip())
+        store   = normalize_store((e.get("store") or "").strip(), e.get("x_url") or "")
         machine = normalize_machine(e.get("machine") or "")
         mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
 
@@ -1186,7 +1198,7 @@ def update_ranking():
     total_slot_machine_counter:     Counter = Counter()
     total_pachinko_machine_counter: Counter = Counter()
     for e in all_data:
-        store   = normalize_store((e.get("store") or "").strip())
+        store   = normalize_store((e.get("store") or "").strip(), e.get("x_url") or "")
         machine = normalize_machine(e.get("machine") or "")
         mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
         if store and store not in ("店舗不明",):

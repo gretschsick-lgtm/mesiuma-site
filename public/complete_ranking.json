@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T23:22:48+09:00",
+  "generated_at": "2026-05-26T23:35:33+09:00",
   "monthly": [
     {
       "month": "2026-05",
@@ -8,21 +8,21 @@
       "stores": [
         {
           "rank": 1,
-          "name": "楽園池袋",
-          "count": 8,
-          "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
-          "rank": 2,
           "name": "キャッスル春日井",
           "count": 7,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "プレイランドキャッスル熱田店",
           "count": 7,
           "x_url": "https://x.com/castleatsuta"
+        },
+        {
+          "rank": 3,
+          "name": "楽園池袋店ゲートウェイ",
+          "count": 6,
+          "x_url": "https://x.com/rakuenikebukuro"
         },
         {
           "rank": 4,
@@ -75,8 +75,8 @@
         },
         {
           "rank": 2,
-          "name": "スマスロ北斗の拳",
-          "count": 19
+          "name": "スマスロ北斗の拳転生の章2",
+          "count": 25
         },
         {
           "rank": 3,
@@ -95,28 +95,28 @@
         },
         {
           "rank": 6,
-          "name": "L炎炎ノ消防隊2",
+          "name": "スマスロ攻殻機動隊",
           "count": 9
         },
         {
           "rank": 7,
-          "name": "スマスロ バイオハザードRE:3",
-          "count": 7
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
         },
         {
           "rank": 8,
-          "name": "コンプリート達成",
-          "count": 5
+          "name": "L吉宗",
+          "count": 6
         },
         {
           "rank": 9,
-          "name": "攻殻機動隊",
+          "name": "甲鉄城のカバネリ",
           "count": 5
         },
         {
           "rank": 10,
-          "name": "スマスロ北斗の拳転生",
-          "count": 5
+          "name": "ゴッドイーター",
+          "count": 2
         }
       ],
       "pachinko_machines": [
@@ -127,13 +127,13 @@
         },
         {
           "rank": 2,
-          "name": "スマスロ バイオハザードRE:3",
-          "count": 4
+          "name": "e東京喰種",
+          "count": 2
         },
         {
           "rank": 3,
-          "name": "L東京喰種",
-          "count": 3
+          "name": "eバイオハザード6",
+          "count": 2
         },
         {
           "rank": 4,
@@ -152,22 +152,22 @@
         },
         {
           "rank": 7,
+          "name": "eバイオハザード6APN",
+          "count": 2
+        },
+        {
+          "rank": 8,
           "name": "eフィーバーブルーロック",
           "count": 1
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "eひきこまり吸血姫の悶々FHV",
           "count": 1
         },
         {
-          "rank": 9,
-          "name": "eフィーバーもののがたりF",
-          "count": 1
-        },
-        {
           "rank": 10,
-          "name": "eキン肉マンから",
+          "name": "eフィーバーもののがたりF",
           "count": 1
         }
       ]
@@ -270,7 +270,7 @@
         },
         {
           "rank": 7,
-          "name": "スマスロ北斗の拳",
+          "name": "スマスロ北斗の拳転生の章2",
           "count": 1
         }
       ],
@@ -287,15 +287,15 @@
       },
       {
         "rank": 2,
-        "name": "楽園池袋",
-        "count": 8,
-        "x_url": "https://x.com/rakuenikebukuro"
-      },
-      {
-        "rank": 3,
         "name": "プレイランドキャッスル熱田店",
         "count": 7,
         "x_url": "https://x.com/castleatsuta"
+      },
+      {
+        "rank": 3,
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 6,
+        "x_url": "https://x.com/rakuenikebukuro"
       },
       {
         "rank": 4,
@@ -348,8 +348,8 @@
       },
       {
         "rank": 2,
-        "name": "スマスロ北斗の拳",
-        "count": 20
+        "name": "スマスロ北斗の拳転生の章2",
+        "count": 26
       },
       {
         "rank": 3,
@@ -368,28 +368,28 @@
       },
       {
         "rank": 6,
-        "name": "L炎炎ノ消防隊2",
+        "name": "スマスロ攻殻機動隊",
         "count": 9
       },
       {
         "rank": 7,
-        "name": "スマスロ バイオハザードRE:3",
-        "count": 7
+        "name": "L炎炎ノ消防隊2",
+        "count": 9
       },
       {
         "rank": 8,
-        "name": "コンプリート達成",
-        "count": 5
+        "name": "甲鉄城のカバネリ",
+        "count": 6
       },
       {
         "rank": 9,
-        "name": "攻殻機動隊",
-        "count": 5
+        "name": "L吉宗",
+        "count": 6
       },
       {
         "rank": 10,
-        "name": "スマスロ北斗の拳転生",
-        "count": 5
+        "name": "ゴッドイーター",
+        "count": 2
       }
     ],
     "pachinko_machines": [
@@ -400,13 +400,13 @@
       },
       {
         "rank": 2,
-        "name": "スマスロ バイオハザードRE:3",
-        "count": 4
+        "name": "e東京喰種",
+        "count": 2
       },
       {
         "rank": 3,
-        "name": "L東京喰種",
-        "count": 3
+        "name": "eバイオハザード6",
+        "count": 2
       },
       {
         "rank": 4,
@@ -425,22 +425,22 @@
       },
       {
         "rank": 7,
+        "name": "eバイオハザード6APN",
+        "count": 2
+      },
+      {
+        "rank": 8,
         "name": "eフィーバーブルーロック",
         "count": 1
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "eひきこまり吸血姫の悶々FHV",
         "count": 1
       },
       {
-        "rank": 9,
-        "name": "eフィーバーもののがたりF",
-        "count": 1
-      },
-      {
         "rank": 10,
-        "name": "eキン肉マンから",
+        "name": "eフィーバーもののがたりF",
         "count": 1
       }
     ],
@@ -448,8 +448,8 @@
   },
   "store_complete_counts": {
     "キャッスル春日井": 13,
-    "楽園池袋": 8,
     "プレイランドキャッスル熱田店": 7,
+    "楽園池袋店ゲートウェイ": 6,
     "マルハン仙台苦竹店": 6,
     "新！ガーデン川口安行【公式】": 5,
     "つじちゃん店長@栄若宮大通店【キング観光】": 4,
@@ -494,6 +494,7 @@
     "パラッツォ鳩ヶ谷店【公式】": 2,
     "エクスアリーナ松戸": 2,
     "メガフェイス1300淀川": 2,
+    "楽園池袋店グリーンサイド": 2,
     "プラチナム5-中の人-": 1,
     "つばめザ・ビーム【公式】": 1,
     "ダイナム富山砺波店～Since～2006.5.23": 1,

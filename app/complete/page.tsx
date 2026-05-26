@@ -338,6 +338,7 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
   const [selectedMonth, setSelectedMonth] = useState(currentMonth);
   const selData = ranking.monthly.find(m => m.month === selectedMonth);
   const [monthMachineTab, setMonthMachineTab] = useState<"slot" | "pachinko">("slot");
+  const [totalMachineTab, setTotalMachineTab] = useState<"slot" | "pachinko">("slot");
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -429,21 +430,27 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
           </div>
         </div>
 
-        <div>
-          <div style={{
-            padding: "8px 14px", fontSize: 11, fontWeight: 700,
-            color: C.sub, background: "#fafafa",
-            borderBottom: `1px solid ${C.border}`,
-          }}>
-            🏪 店舗別TOP10
+        <div style={{ display: "grid", gridTemplateColumns: isNarrow ? "1fr" : "1fr 1fr", gap: 0 }}>
+          <div>
+            <div style={{
+              padding: "8px 14px", fontSize: 11, fontWeight: 700,
+              color: C.sub, background: "#fafafa",
+              borderBottom: `1px solid ${C.border}`,
+              borderRight: isNarrow ? "none" : `1px solid ${C.border}`,
+            }}>
+              🏪 店舗別TOP10
+            </div>
+            {ranking.total.stores.length > 0 ? (
+              ranking.total.stores.map(item => (
+                <div key={item.rank} style={{ borderRight: isNarrow ? "none" : `1px solid ${C.border}` }}>
+                  <RankingRow item={item} type="store" />
+                </div>
+              ))
+            ) : (
+              <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
+            )}
           </div>
-          {ranking.total.stores.length > 0 ? (
-            ranking.total.stores.map(item => (
-              <RankingRow key={item.rank} item={item} type="store" />
-            ))
-          ) : (
-            <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
-          )}
+          <MachineTabs data={ranking.total} machineTabKey={totalMachineTab} setMachineTabKey={setTotalMachineTab} />
         </div>
 
         <div style={{ padding: "8px 14px", fontSize: 10, color: C.muted, background: "#fafafa", borderTop: `1px solid ${C.border}` }}>
