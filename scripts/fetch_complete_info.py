@@ -469,6 +469,7 @@ def extract_date_from_text(text: str, posting_date: str) -> str:
 
 def get_tweet_datetime(article) -> tuple[str, str]:
     """Xの<time datetime="...">からJSTの (date, time) を取得して返す"""
+    from datetime import date as _date, timedelta as _td
     try:
         time_el = article.query_selector("time")
         if time_el:
@@ -482,13 +483,39 @@ def get_tweet_datetime(article) -> tuple[str, str]:
                     h += 9
                     if h >= 24:
                         h -= 24
-                        # 日付を1日進める
-                        from datetime import date as _date, timedelta
-                        d = _date(yr, mo, dy) + timedelta(days=1)
+                        d = _date(yr, mo, dy) + _td(days=1)
                         return d.strftime("%Y-%m-%d"), f"{h:02d}:{mn:02d}"
                     return f"{yr}-{mo:02d}-{dy:02d}", f"{h:02d}:{mn:02d}"
     except Exception:
         pass
+
+    # <time> 取得失敗時: 相対時間テキスト（"1時間前"等）から推定
+    try:
+        time_el = article.query_selector("time")
+        if time_el:
+            rel = time_el.inner_text().strip()  # 例: "1時間前", "昨日", "5月26日"
+            from datetime import timezone as _tz
+            JST = _tz(_td(hours=9))
+            now_jst = datetime.now(JST)
+            # "昨日" → yesterday
+            if "昨日" in rel:
+                d = (now_jst - _td(days=1)).date()
+                return d.strftime("%Y-%m-%d"), ""
+            # "N時間前" (N=1..23) → same day or yesterday
+            m2 = re.search(r'(\d+)時間前', rel)
+            if m2:
+                hours_ago = int(m2.group(1))
+                d = (now_jst - _td(hours=hours_ago)).date()
+                return d.strftime("%Y-%m-%d"), (now_jst - _td(hours=hours_ago)).strftime("%H:%M")
+            # "N分前" → same day
+            m3 = re.search(r'(\d+)分前', rel)
+            if m3:
+                mins_ago = int(m3.group(1))
+                d = (now_jst - _td(minutes=mins_ago)).date()
+                return d.strftime("%Y-%m-%d"), (now_jst - _td(minutes=mins_ago)).strftime("%H:%M")
+    except Exception:
+        pass
+
     return "", ""
 
 
@@ -534,9 +561,17 @@ def parse_tweet(text: str, tweet_url: str,
     if not machine and not store and not slot_number:
         return None
 
-    # Xの<time>から取得した日付を使う（取得できなければ収集日）
+    # Xの<time>から取得した日付を使う（取得できなければ収集日を推定）
     if not tweet_date:
-        tweet_date = today_str
+        # 深夜（JST 00:00-05:59）に実行中の場合は前日の方が確率が高い
+        from datetime import timezone as _tz, timedelta as _td
+        JST = _tz(_td(hours=9))
+        now_jst = datetime.now(JST)
+        if now_jst.hour < 6:
+            from datetime import date as _d
+            tweet_date = (_d.fromisoformat(today_str) - _td(days=1)).strftime("%Y-%m-%d")
+        else:
+            tweet_date = today_str
 
     # テキスト内に「5/24(日)」等の曜日付き日付があればそちらを優先
     # （日付変わり後に前日のコンプリートを投稿するケースに対応）

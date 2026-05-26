@@ -43,11 +43,23 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
+          # JST 日付を明示（GH Actions は UTC ランナー）
+          TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          HOUR_JST=$(TZ=Asia/Tokyo date +%H)
+          echo "🕐 JST: $TODAY_JST (${HOUR_JST}時)"
+
           if [ -n "${{ github.event.inputs.date }}" ]; then
             echo "📅 指定日付: ${{ github.event.inputs.date }}"
             python scripts/fetch_complete_info.py --headless --date "${{ github.event.inputs.date }}"
           else
-            python scripts/fetch_complete_info.py --headless
+            python scripts/fetch_complete_info.py --headless --date "$TODAY_JST"
+
+            # 深夜0〜5時は前日分も収集（日付またぎで漏れた分を補完）
+            if [ "$HOUR_JST" -lt 6 ]; then
+              YESTERDAY_JST=$(TZ=Asia/Tokyo date -d "yesterday" +%Y-%m-%d)
+              echo "🌙 深夜のため前日 $YESTERDAY_JST も再収集"
+              python scripts/fetch_complete_info.py --headless --date "$YESTERDAY_JST"
+            fi
           fi
 
       - name: Commit and push if changed
