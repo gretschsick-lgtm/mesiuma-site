@@ -758,6 +758,17 @@ def save_complete(new_entries: list[dict], target_date: str):
     # コンプリート日付が30日以上前のものは追加しない（古いピンツイート対策）
     new_only = [e for e in new_only if e.get("date", "") >= cutoff]
 
+    # ── 日付ズレ防止: target_date より未来のエントリは保存しない ──────────
+    # X検索の until: を target_date+1 に設定しているため、翌日ツイートが
+    # 混入する場合がある。日付は X の <time datetime> から UTC→JST 変換した
+    # 正確な値を使っているが、誤パース・深夜0時前後の境界で1日ズレが起きた
+    # 場合に備え、target_date 以前のエントリのみ受け入れる。
+    skipped_future = [e for e in new_only if e.get("date", "") > target_date]
+    if skipped_future:
+        log(f"⚠️  日付ズレ除外: {len(skipped_future)}件 (target={target_date}): "
+            + ", ".join(f"{e['date']} {e.get('store','?')}" for e in skipped_future[:3]))
+    new_only = [e for e in new_only if e.get("date", "") <= target_date]
+
     combined = all_data + new_only
 
     # コンプリートした日付（X datetime由来）→ 時刻 の新しい順でソート
