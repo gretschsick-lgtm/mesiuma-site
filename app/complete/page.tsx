@@ -24,6 +24,8 @@ const CHAIN_ONLY_NAMES = new Set(["マルハン","キコーナ","ダイナム","
 function isChainOnly(name: string) { return CHAIN_ONLY_NAMES.has(name) || name.length <= 4; }
 
 type MonthlyData = {
+  month: string;
+  label: string;
   stores: RankItem[];
   slot_machines: RankItem[];
   pachinko_machines: RankItem[];
@@ -31,9 +33,8 @@ type MonthlyData = {
 };
 
 type RankingData = {
-  updated_at: string;
-  current_month: string;
-  monthly: Record<string, MonthlyData>;
+  generated_at: string;
+  monthly: MonthlyData[];
   total: {
     stores: RankItem[];
     slot_machines: RankItem[];
@@ -276,13 +277,14 @@ function MachineTabs({
 }
 
 function RankingSection({ ranking }: { ranking: RankingData }) {
-  const currentMonth = ranking.current_month;
-  const monthData = ranking.monthly[currentMonth];
+  const latestMonth = ranking.monthly[0];
+  const currentMonth = latestMonth?.month ?? "";
+  const monthData = latestMonth;
 
   // 月セレクター
-  const availableMonths = Object.keys(ranking.monthly).sort((a, b) => b.localeCompare(a));
+  const availableMonths = ranking.monthly.map(m => m.month);
   const [selectedMonth, setSelectedMonth] = useState(currentMonth);
-  const selData = ranking.monthly[selectedMonth];
+  const selData = ranking.monthly.find(m => m.month === selectedMonth);
   const [monthMachineTab, setMonthMachineTab] = useState<"slot" | "pachinko">("slot");
   const [totalMachineTab, setTotalMachineTab] = useState<"slot" | "pachinko">("slot");
 
@@ -400,7 +402,7 @@ function RankingSection({ ranking }: { ranking: RankingData }) {
         </div>
 
         <div style={{ padding: "8px 14px", fontSize: 10, color: C.muted, background: "#fafafa", borderTop: `1px solid ${C.border}` }}>
-          最終更新: {ranking.updated_at.replace("T", " ").slice(0, 16)}
+          最終更新: {ranking.generated_at.replace("T", " ").slice(0, 16)}
         </div>
       </div>
     </div>

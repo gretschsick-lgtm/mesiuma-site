@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T18:36:40.783563",
+  "generated_at": "2026-05-26T18:49:59.353242",
   "total": {
     "stores": [
       {
@@ -66,32 +66,32 @@
     "slot_machines": [
       {
         "rank": 1,
+        "name": "革命機ヴァルヴレイヴ2",
+        "count": 37
+      },
+      {
+        "rank": 2,
         "name": "北斗の拳",
         "count": 19
       },
       {
-        "rank": 2,
-        "name": "革命機ヴァルヴレイヴ2",
-        "count": 11
+        "rank": 3,
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 12
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "東京喰種",
         "count": 10
       },
       {
-        "rank": 4,
-        "name": "ヴァルヴレイヴ2",
-        "count": 10
-      },
-      {
         "rank": 5,
-        "name": "革命機ヴァルヴレイヴ２",
+        "name": "L炎炎ノ消防隊2",
         "count": 8
       },
       {
         "rank": 6,
-        "name": "コンプリート達成",
+        "name": "チバリヨ2",
         "count": 5
       },
       {
@@ -101,70 +101,70 @@
       },
       {
         "rank": 8,
-        "name": "炎炎ノ消防隊2",
-        "count": 5
+        "name": "甲鉄城のカバネリ",
+        "count": 4
       },
       {
         "rank": 9,
-        "name": "ヴァルヴレイヴ２",
-        "count": 4
+        "name": "スマスロ北斗の拳転生の章2",
+        "count": 3
       },
       {
         "rank": 10,
-        "name": "ミリオンゴッド",
-        "count": 4
+        "name": "吉宗",
+        "count": 3
       }
     ],
     "pachinko_machines": [
       {
         "rank": 1,
+        "name": "e牙狼12黄金騎士極限",
+        "count": 9
+      },
+      {
+        "rank": 2,
+        "name": "eフィーバーキン肉マン",
+        "count": 5
+      },
+      {
+        "rank": 3,
+        "name": "eバイオハザード6",
+        "count": 4
+      },
+      {
+        "rank": 4,
         "name": "牙狼12",
         "count": 3
       },
       {
-        "rank": 2,
-        "name": "牙狼12黄金騎士極限",
-        "count": 3
-      },
-      {
-        "rank": 3,
+        "rank": 5,
         "name": "e東京喰種",
         "count": 2
       },
       {
-        "rank": 4,
-        "name": "【e牙狼12黄金騎士極限】",
-        "count": 2
-      },
-      {
-        "rank": 5,
-        "name": "eバイオハザード6",
-        "count": 2
-      },
-      {
         "rank": 6,
-        "name": "e牙狼12黄金騎士極限",
+        "name": "e牙狼12XX-MJ",
         "count": 2
       },
       {
         "rank": 7,
-        "name": "eFキン肉マン",
-        "count": 2
-      },
-      {
-        "rank": 8,
         "name": "e女神のカフェテラス",
         "count": 2
       },
       {
+        "rank": 8,
+        "name": "eフィーバーブルーロック",
+        "count": 1
+      },
+      {
         "rank": 9,
-        "name": "eフィーバーキン肉マン",
-        "count": 2
+        "name": "eひきこまり吸血姫の悶々FHV",
+        "count": 1
       },
       {
         "rank": 10,
-        "name": "eバイオハザード6APN",
-        "count": 2
+        "name": "eフィーバーもののがたりF",
+        "count": 1
       }
     ],
     "total_count": 308
@@ -173,7 +173,7 @@
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 252,
+      "total_count": 285,
       "stores": [
         {
           "rank": 1,
@@ -239,105 +239,105 @@
       "slot_machines": [
         {
           "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 30
+        },
+        {
+          "rank": 2,
           "name": "北斗の拳",
           "count": 18
         },
         {
-          "rank": 2,
+          "rank": 3,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 12
+        },
+        {
+          "rank": 4,
           "name": "東京喰種",
           "count": 10
         },
         {
-          "rank": 3,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 10
-        },
-        {
-          "rank": 4,
-          "name": "ヴァルヴレイヴ2",
-          "count": 10
-        },
-        {
           "rank": 5,
-          "name": "コンプリート達成",
-          "count": 5
+          "name": "L炎炎ノ消防隊2",
+          "count": 8
         },
         {
           "rank": 6,
-          "name": "攻殻機動隊",
+          "name": "チバリヨ2",
           "count": 5
         },
         {
           "rank": 7,
-          "name": "炎炎ノ消防隊2",
+          "name": "攻殻機動隊",
           "count": 5
         },
         {
           "rank": 8,
-          "name": "ヴァルヴレイヴ２",
+          "name": "甲鉄城のカバネリ",
           "count": 4
         },
         {
           "rank": 9,
-          "name": "ミリオンゴッド",
-          "count": 4
+          "name": "スマスロ北斗の拳転生の章2",
+          "count": 3
         },
         {
           "rank": 10,
-          "name": "ミリオンゴッド神々の軌跡",
-          "count": 4
+          "name": "吉宗",
+          "count": 3
         }
       ],
       "pachinko_machines": [
         {
           "rank": 1,
+          "name": "e牙狼12黄金騎士極限",
+          "count": 9
+        },
+        {
+          "rank": 2,
+          "name": "eフィーバーキン肉マン",
+          "count": 5
+        },
+        {
+          "rank": 3,
+          "name": "eバイオハザード6",
+          "count": 4
+        },
+        {
+          "rank": 4,
           "name": "牙狼12",
           "count": 3
         },
         {
-          "rank": 2,
-          "name": "牙狼12黄金騎士極限",
-          "count": 3
-        },
-        {
-          "rank": 3,
+          "rank": 5,
           "name": "e東京喰種",
           "count": 2
         },
         {
-          "rank": 4,
-          "name": "【e牙狼12黄金騎士極限】",
-          "count": 2
-        },
-        {
-          "rank": 5,
-          "name": "eバイオハザード6",
-          "count": 2
-        },
-        {
           "rank": 6,
-          "name": "e牙狼12黄金騎士極限",
+          "name": "e牙狼12XX-MJ",
           "count": 2
         },
         {
           "rank": 7,
-          "name": "eFキン肉マン",
-          "count": 2
-        },
-        {
-          "rank": 8,
           "name": "e女神のカフェテラス",
           "count": 2
         },
         {
+          "rank": 8,
+          "name": "eフィーバーブルーロック",
+          "count": 1
+        },
+        {
           "rank": 9,
-          "name": "eフィーバーキン肉マン",
-          "count": 2
+          "name": "eひきこまり吸血姫の悶々FHV",
+          "count": 1
         },
         {
           "rank": 10,
-          "name": "eバイオハザード6APN",
-          "count": 2
+          "name": "eフィーバーもののがたりF",
+          "count": 1
         }
       ]
     },
@@ -409,8 +409,8 @@
       "slot_machines": [
         {
           "rank": 1,
-          "name": "革命機ヴァルヴレイヴ２",
-          "count": 6
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 7
         },
         {
           "rank": 2,
@@ -434,27 +434,27 @@
         },
         {
           "rank": 6,
-          "name": "革命機ヴァルヴレイヴ2",
-          "count": 1
-        },
-        {
-          "rank": 7,
           "name": "ミリオンゴッド‐神々",
           "count": 1
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "コンプリート機能発動の為、本日は停止となります。",
           "count": 1
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "新鬼武者3",
           "count": 1
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "ガンダムユニコーン",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "北斗の拳",
           "count": 1
         }
       ],
