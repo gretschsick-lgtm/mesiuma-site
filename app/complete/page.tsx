@@ -71,8 +71,12 @@ function fmtDate(dateStr: string) {
   const isTodayDate = d.toDateString() === today.toDateString();
   const isYesterday = d.toDateString() === yesterday.toDateString();
   const label = isTodayDate ? "今日" : isYesterday ? "昨日" : null;
-  const mmdd = `${d.getMonth() + 1}/${d.getDate()}(${DOW[d.getDay()]})`;
-  return label ? `${label} ${mmdd}` : mmdd;
+  // 当月は「26日(火)」、別月は「4月26日(日)」
+  const sameMonth = d.getMonth() === today.getMonth() && d.getFullYear() === today.getFullYear();
+  const ddow = sameMonth
+    ? `${d.getDate()}日(${DOW[d.getDay()]})`
+    : `${d.getMonth() + 1}月${d.getDate()}日(${DOW[d.getDay()]})`;
+  return label ? `${label} ${ddow}` : ddow;
 }
 
 function fmtMonth(ym: string) {
