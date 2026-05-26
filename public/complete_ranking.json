@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T01:34:50+09:00",
+  "generated_at": "2026-05-27T01:37:32+09:00",
   "monthly": [
     {
       "month": "2026-05",
@@ -84,7 +84,7 @@
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 13
+          "count": 18
         },
         {
           "rank": 5,
@@ -121,7 +121,7 @@
         {
           "rank": 1,
           "name": "牙狼12",
-          "count": 26
+          "count": 27
         },
         {
           "rank": 2,
@@ -135,37 +135,37 @@
         },
         {
           "rank": 4,
-          "name": "e東京喰種",
-          "count": 4
-        },
-        {
-          "rank": 5,
           "name": "e女神のカフェテラス",
           "count": 3
         },
         {
-          "rank": 6,
-          "name": "カケグルイ219ver",
-          "count": 1
-        },
-        {
-          "rank": 7,
+          "rank": 5,
           "name": "eもののがたり",
           "count": 1
         },
         {
-          "rank": 8,
+          "rank": 6,
           "name": "eフィーバーブルーロック",
           "count": 1
         },
         {
-          "rank": 9,
+          "rank": 7,
           "name": "eひきこまり吸血姫の悶々FHV",
           "count": 1
         },
         {
+          "rank": 8,
+          "name": "eエヴァ１７はじまりR",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "eフィーバーもののがたりF",
+          "count": 1
+        },
+        {
           "rank": 10,
-          "name": "「eエヴァ１７はじまりR」",
+          "name": "e北斗の拳 暴凶星",
           "count": 1
         }
       ]
@@ -339,7 +339,7 @@
       {
         "rank": 4,
         "name": "L東京喰種",
-        "count": 13
+        "count": 18
       },
       {
         "rank": 5,
@@ -376,7 +376,7 @@
       {
         "rank": 1,
         "name": "牙狼12",
-        "count": 26
+        "count": 27
       },
       {
         "rank": 2,
@@ -390,37 +390,37 @@
       },
       {
         "rank": 4,
-        "name": "e東京喰種",
-        "count": 4
-      },
-      {
-        "rank": 5,
         "name": "e女神のカフェテラス",
         "count": 3
       },
       {
-        "rank": 6,
-        "name": "カケグルイ219ver",
-        "count": 1
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "name": "eもののがたり",
         "count": 1
       },
       {
-        "rank": 8,
+        "rank": 6,
         "name": "eフィーバーブルーロック",
         "count": 1
       },
       {
-        "rank": 9,
+        "rank": 7,
         "name": "eひきこまり吸血姫の悶々FHV",
         "count": 1
       },
       {
+        "rank": 8,
+        "name": "eエヴァ１７はじまりR",
+        "count": 1
+      },
+      {
+        "rank": 9,
+        "name": "eフィーバーもののがたりF",
+        "count": 1
+      },
+      {
         "rank": 10,
-        "name": "「eエヴァ１７はじまりR」",
+        "name": "e北斗の拳 暴凶星",
         "count": 1
       }
     ],
