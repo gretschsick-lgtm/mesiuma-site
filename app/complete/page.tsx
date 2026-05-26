@@ -242,7 +242,7 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
         background: RANK_COLORS[item.rank - 1],
         display: "flex", alignItems: "center", justifyContent: "center",
         fontSize: item.rank <= 3 ? 16 : 12,
-        fontWeight: 800, color: item.rank <= 3 ? "#fff" : "#555",
+        fontWeight: 800, color: "#fff",
         flexShrink: 0,
       }}>
         {item.rank <= 3 ? RANK_LABELS[item.rank - 1] : item.rank}
@@ -288,27 +288,28 @@ function MachineTabs({
   return (
     <div>
       <div style={{
-        display: "flex", flexWrap: "wrap",
+        display: "flex", alignItems: "center", justifyContent: "space-between",
         borderBottom: `1px solid ${C.border}`,
         background: "#fafafa",
+        padding: "0 0 0 10px",
       }}>
         <div style={{
-          padding: "6px 10px", fontSize: 11, fontWeight: 700,
-          color: C.sub, display: "flex", alignItems: "center",
+          fontSize: 11, fontWeight: 700,
+          color: C.sub,
           whiteSpace: "nowrap",
         }}>
           🎰 機種別TOP10
         </div>
-        <div style={{ marginLeft: "auto", display: "flex" }}>
+        <div style={{ display: "flex", flexShrink: 0 }}>
           {(["slot", "pachinko"] as const).map(k => (
             <button
               key={k}
               onClick={() => setMachineTabKey(k)}
               style={{
-                padding: "6px 10px", fontSize: 11, fontWeight: 700,
+                padding: "8px 14px", fontSize: 12, fontWeight: 700,
                 border: "none", borderBottom: machineTabKey === k ? `2px solid ${C.red}` : "2px solid transparent",
                 background: "transparent",
-                color: machineTabKey === k ? C.red : k === "pachinko" && !hasPachinko ? C.dim : C.muted,
+                color: machineTabKey === k ? C.red : k === "pachinko" && !hasPachinko ? C.dim : C.sub,
                 cursor: "pointer",
                 whiteSpace: "nowrap",
               }}
@@ -337,7 +338,6 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
   const [selectedMonth, setSelectedMonth] = useState(currentMonth);
   const selData = ranking.monthly.find(m => m.month === selectedMonth);
   const [monthMachineTab, setMonthMachineTab] = useState<"slot" | "pachinko">("slot");
-  const [totalMachineTab, setTotalMachineTab] = useState<"slot" | "pachinko">("slot");
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -429,27 +429,21 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
           </div>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: isNarrow ? "1fr" : "1fr 1fr", gap: 0 }}>
-          <div>
-            <div style={{
-              padding: "8px 14px", fontSize: 11, fontWeight: 700,
-              color: C.sub, background: "#fafafa",
-              borderBottom: `1px solid ${C.border}`,
-              borderRight: isNarrow ? "none" : `1px solid ${C.border}`,
-            }}>
-              🏪 店舗別TOP10
-            </div>
-            {ranking.total.stores.length > 0 ? (
-              ranking.total.stores.map(item => (
-                <div key={item.rank} style={{ borderRight: isNarrow ? "none" : `1px solid ${C.border}` }}>
-                  <RankingRow item={item} type="store" />
-                </div>
-              ))
-            ) : (
-              <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
-            )}
+        <div>
+          <div style={{
+            padding: "8px 14px", fontSize: 11, fontWeight: 700,
+            color: C.sub, background: "#fafafa",
+            borderBottom: `1px solid ${C.border}`,
+          }}>
+            🏪 店舗別TOP10
           </div>
-          <MachineTabs data={ranking.total} machineTabKey={totalMachineTab} setMachineTabKey={setTotalMachineTab} />
+          {ranking.total.stores.length > 0 ? (
+            ranking.total.stores.map(item => (
+              <RankingRow key={item.rank} item={item} type="store" />
+            ))
+          ) : (
+            <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
+          )}
         </div>
 
         <div style={{ padding: "8px 14px", fontSize: 10, color: C.muted, background: "#fafafa", borderTop: `1px solid ${C.border}` }}>
