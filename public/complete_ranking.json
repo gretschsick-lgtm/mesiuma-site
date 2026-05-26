@@ -1,174 +1,5 @@
 {
-  "generated_at": "2026-05-26T19:38:58.569010",
-  "total": {
-    "stores": [
-      {
-        "rank": 1,
-        "name": "キャッスル春日井",
-        "count": 13,
-        "x_url": "https://x.com/castle_kasugai"
-      },
-      {
-        "rank": 2,
-        "name": "プレイランドキャッスル熱田店",
-        "count": 7,
-        "x_url": "https://x.com/castleatsuta"
-      },
-      {
-        "rank": 3,
-        "name": "楽園池袋",
-        "count": 6,
-        "x_url": "https://x.com/rakuenikebukuro"
-      },
-      {
-        "rank": 4,
-        "name": "マルハン仙台苦竹店",
-        "count": 6,
-        "x_url": "https://x.com/niga_maru"
-      },
-      {
-        "rank": 5,
-        "name": "新！ガーデン川口安行【公式】",
-        "count": 5,
-        "x_url": "https://x.com/kawagutiangyo"
-      },
-      {
-        "rank": 6,
-        "name": "つじちゃん店長@栄若宮大通店【キング観光】",
-        "count": 4,
-        "x_url": "https://x.com/wakakin_tsujic"
-      },
-      {
-        "rank": 7,
-        "name": "キコーナ海老名",
-        "count": 4,
-        "x_url": "https://x.com/kicona_ebina"
-      },
-      {
-        "rank": 8,
-        "name": "ビックマーチ河和田東店",
-        "count": 3,
-        "x_url": "https://x.com/monky0621bm"
-      },
-      {
-        "rank": 9,
-        "name": "メガフェイス菊陽",
-        "count": 3,
-        "x_url": "https://x.com/megaface_1070"
-      },
-      {
-        "rank": 10,
-        "name": "マルハンメガシティ伊勢崎",
-        "count": 3,
-        "x_url": "https://x.com/isesaki_maruhan"
-      }
-    ],
-    "slot_machines": [
-      {
-        "rank": 1,
-        "name": "革命機ヴァルヴレイヴ2",
-        "count": 46
-      },
-      {
-        "rank": 2,
-        "name": "スマスロ北斗の拳",
-        "count": 20
-      },
-      {
-        "rank": 3,
-        "name": "ミリオンゴッド神々の軌跡",
-        "count": 18
-      },
-      {
-        "rank": 4,
-        "name": "L東京喰種",
-        "count": 12
-      },
-      {
-        "rank": 5,
-        "name": "Lチバリヨ2ZB",
-        "count": 9
-      },
-      {
-        "rank": 6,
-        "name": "スマスロ攻殻機動隊",
-        "count": 9
-      },
-      {
-        "rank": 7,
-        "name": "L炎炎ノ消防隊2",
-        "count": 9
-      },
-      {
-        "rank": 8,
-        "name": "甲鉄城のカバネリ",
-        "count": 6
-      },
-      {
-        "rank": 9,
-        "name": "L吉宗",
-        "count": 5
-      },
-      {
-        "rank": 10,
-        "name": "スマスロゴッドイーター",
-        "count": 5
-      }
-    ],
-    "pachinko_machines": [
-      {
-        "rank": 1,
-        "name": "牙狼12",
-        "count": 21
-      },
-      {
-        "rank": 2,
-        "name": "eバイオハザード6",
-        "count": 4
-      },
-      {
-        "rank": 3,
-        "name": "eフィーバーキン肉マン",
-        "count": 4
-      },
-      {
-        "rank": 4,
-        "name": "e東京喰種",
-        "count": 2
-      },
-      {
-        "rank": 5,
-        "name": "e女神のカフェテラス",
-        "count": 2
-      },
-      {
-        "rank": 6,
-        "name": "eフィーバーブルーロック",
-        "count": 1
-      },
-      {
-        "rank": 7,
-        "name": "eひきこまり吸血姫の悶々FHV",
-        "count": 1
-      },
-      {
-        "rank": 8,
-        "name": "eフィーバーもののがたりF",
-        "count": 1
-      },
-      {
-        "rank": 9,
-        "name": "Lゴジラ",
-        "count": 1
-      },
-      {
-        "rank": 10,
-        "name": "e花の慶次～黄金の一撃～",
-        "count": 1
-      }
-    ],
-    "total_count": 307
-  },
+  "generated_at": "2026-05-26T23:09:36+09:00",
   "monthly": [
     {
       "month": "2026-05",
@@ -177,21 +8,21 @@
       "stores": [
         {
           "rank": 1,
+          "name": "楽園池袋",
+          "count": 8,
+          "x_url": "https://x.com/rakuenikebukuro"
+        },
+        {
+          "rank": 2,
           "name": "キャッスル春日井",
           "count": 7,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "プレイランドキャッスル熱田店",
           "count": 7,
           "x_url": "https://x.com/castleatsuta"
-        },
-        {
-          "rank": 3,
-          "name": "楽園池袋",
-          "count": 6,
-          "x_url": "https://x.com/rakuenikebukuro"
         },
         {
           "rank": 4,
@@ -250,12 +81,12 @@
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 17
+          "count": 18
         },
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 12
+          "count": 13
         },
         {
           "rank": 5,
@@ -264,13 +95,13 @@
         },
         {
           "rank": 6,
-          "name": "スマスロ攻殻機動隊",
+          "name": "L炎炎ノ消防隊2",
           "count": 9
         },
         {
           "rank": 7,
-          "name": "L炎炎ノ消防隊2",
-          "count": 9
+          "name": "スマスロ バイオハザードRE:3",
+          "count": 7
         },
         {
           "rank": 8,
@@ -279,12 +110,12 @@
         },
         {
           "rank": 9,
-          "name": "L吉宗",
+          "name": "攻殻機動隊",
           "count": 5
         },
         {
           "rank": 10,
-          "name": "スマスロゴッドイーター",
+          "name": "スマスロ北斗の拳転生",
           "count": 5
         }
       ],
@@ -292,21 +123,21 @@
         {
           "rank": 1,
           "name": "牙狼12",
-          "count": 21
+          "count": 22
         },
         {
           "rank": 2,
-          "name": "eバイオハザード6",
-          "count": 4
+          "name": "e東京喰種",
+          "count": 2
         },
         {
           "rank": 3,
-          "name": "eフィーバーキン肉マン",
-          "count": 4
+          "name": "eバイオハザード6",
+          "count": 2
         },
         {
           "rank": 4,
-          "name": "e東京喰種",
+          "name": "eFキン肉マン",
           "count": 2
         },
         {
@@ -316,27 +147,27 @@
         },
         {
           "rank": 6,
+          "name": "eフィーバーキン肉マン",
+          "count": 2
+        },
+        {
+          "rank": 7,
+          "name": "eリコリス・リコイル",
+          "count": 2
+        },
+        {
+          "rank": 8,
+          "name": "eバイオハザード6APN",
+          "count": 2
+        },
+        {
+          "rank": 9,
           "name": "eフィーバーブルーロック",
           "count": 1
         },
         {
-          "rank": 7,
-          "name": "eひきこまり吸血姫の悶々FHV",
-          "count": 1
-        },
-        {
-          "rank": 8,
-          "name": "eフィーバーもののがたりF",
-          "count": 1
-        },
-        {
-          "rank": 9,
-          "name": "Lゴジラ",
-          "count": 1
-        },
-        {
           "rank": 10,
-          "name": "e花の慶次～黄金の一撃～",
+          "name": "eひきこまり吸血姫の悶々FHV",
           "count": 1
         }
       ]
@@ -429,7 +260,7 @@
         },
         {
           "rank": 5,
-          "name": "L新鬼武者3",
+          "name": "新鬼武者3",
           "count": 1
         },
         {
@@ -446,10 +277,179 @@
       "pachinko_machines": []
     }
   ],
+  "total": {
+    "stores": [
+      {
+        "rank": 1,
+        "name": "キャッスル春日井",
+        "count": 13,
+        "x_url": "https://x.com/castle_kasugai"
+      },
+      {
+        "rank": 2,
+        "name": "楽園池袋",
+        "count": 8,
+        "x_url": "https://x.com/rakuenikebukuro"
+      },
+      {
+        "rank": 3,
+        "name": "プレイランドキャッスル熱田店",
+        "count": 7,
+        "x_url": "https://x.com/castleatsuta"
+      },
+      {
+        "rank": 4,
+        "name": "マルハン仙台苦竹店",
+        "count": 6,
+        "x_url": "https://x.com/niga_maru"
+      },
+      {
+        "rank": 5,
+        "name": "新！ガーデン川口安行【公式】",
+        "count": 5,
+        "x_url": "https://x.com/kawagutiangyo"
+      },
+      {
+        "rank": 6,
+        "name": "つじちゃん店長@栄若宮大通店【キング観光】",
+        "count": 4,
+        "x_url": "https://x.com/wakakin_tsujic"
+      },
+      {
+        "rank": 7,
+        "name": "キコーナ海老名",
+        "count": 4,
+        "x_url": "https://x.com/kicona_ebina"
+      },
+      {
+        "rank": 8,
+        "name": "ビックマーチ河和田東店",
+        "count": 3,
+        "x_url": "https://x.com/monky0621bm"
+      },
+      {
+        "rank": 9,
+        "name": "メガフェイス菊陽",
+        "count": 3,
+        "x_url": "https://x.com/megaface_1070"
+      },
+      {
+        "rank": 10,
+        "name": "マルハンメガシティ伊勢崎",
+        "count": 3,
+        "x_url": "https://x.com/isesaki_maruhan"
+      }
+    ],
+    "slot_machines": [
+      {
+        "rank": 1,
+        "name": "革命機ヴァルヴレイヴ2",
+        "count": 46
+      },
+      {
+        "rank": 2,
+        "name": "スマスロ北斗の拳",
+        "count": 20
+      },
+      {
+        "rank": 3,
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 19
+      },
+      {
+        "rank": 4,
+        "name": "L東京喰種",
+        "count": 13
+      },
+      {
+        "rank": 5,
+        "name": "Lチバリヨ2ZB",
+        "count": 9
+      },
+      {
+        "rank": 6,
+        "name": "L炎炎ノ消防隊2",
+        "count": 9
+      },
+      {
+        "rank": 7,
+        "name": "スマスロ バイオハザードRE:3",
+        "count": 7
+      },
+      {
+        "rank": 8,
+        "name": "甲鉄城のカバネリ",
+        "count": 6
+      },
+      {
+        "rank": 9,
+        "name": "攻殻機動隊",
+        "count": 5
+      },
+      {
+        "rank": 10,
+        "name": "スマスロ北斗の拳転生",
+        "count": 5
+      }
+    ],
+    "pachinko_machines": [
+      {
+        "rank": 1,
+        "name": "牙狼12",
+        "count": 22
+      },
+      {
+        "rank": 2,
+        "name": "e東京喰種",
+        "count": 2
+      },
+      {
+        "rank": 3,
+        "name": "eバイオハザード6",
+        "count": 2
+      },
+      {
+        "rank": 4,
+        "name": "eFキン肉マン",
+        "count": 2
+      },
+      {
+        "rank": 5,
+        "name": "e女神のカフェテラス",
+        "count": 2
+      },
+      {
+        "rank": 6,
+        "name": "eフィーバーキン肉マン",
+        "count": 2
+      },
+      {
+        "rank": 7,
+        "name": "eリコリス・リコイル",
+        "count": 2
+      },
+      {
+        "rank": 8,
+        "name": "eバイオハザード6APN",
+        "count": 2
+      },
+      {
+        "rank": 9,
+        "name": "eフィーバーブルーロック",
+        "count": 1
+      },
+      {
+        "rank": 10,
+        "name": "eひきこまり吸血姫の悶々FHV",
+        "count": 1
+      }
+    ],
+    "total_count": 307
+  },
   "store_complete_counts": {
     "キャッスル春日井": 13,
+    "楽園池袋": 8,
     "プレイランドキャッスル熱田店": 7,
-    "楽園池袋": 6,
     "マルハン仙台苦竹店": 6,
     "新！ガーデン川口安行【公式】": 5,
     "つじちゃん店長@栄若宮大通店【キング観光】": 4,
@@ -476,7 +476,6 @@
     "スーパーD’ステーション３９女神店": 2,
     "グランドホール港南店": 2,
     "楽園蒲田店": 2,
-    "楽園池袋店": 2,
     "トリさん@ピーアーク北千住エリア【公式】のトリさん": 2,
     "SUPER CONCORDE": 2,
     "マルハン亀有店_亀にゃん": 2,
@@ -571,7 +570,7 @@
     "パチンコの玉屋∞新宮": 1,
     "ダイナム福岡久留米店": 1,
     "ビックマーチ八斗島店": 1,
-    "楽園ハッピーロード大山 店長石川＠アカウント": 1,
+    "楽園ハッピーロード大山店": 1,
     "スーパーD'ステーション39福重店": 1,
     "プラザ本店Ⅱ": 1,
     "マルハン下松店": 1,

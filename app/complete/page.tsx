@@ -288,13 +288,14 @@ function MachineTabs({
   return (
     <div>
       <div style={{
-        display: "flex",
+        display: "flex", flexWrap: "wrap",
         borderBottom: `1px solid ${C.border}`,
         background: "#fafafa",
       }}>
         <div style={{
-          padding: "6px 12px", fontSize: 11, fontWeight: 700,
+          padding: "6px 10px", fontSize: 11, fontWeight: 700,
           color: C.sub, display: "flex", alignItems: "center",
+          whiteSpace: "nowrap",
         }}>
           🎰 機種別TOP10
         </div>
@@ -304,14 +305,15 @@ function MachineTabs({
               key={k}
               onClick={() => setMachineTabKey(k)}
               style={{
-                padding: "6px 12px", fontSize: 11, fontWeight: 700,
+                padding: "6px 10px", fontSize: 11, fontWeight: 700,
                 border: "none", borderBottom: machineTabKey === k ? `2px solid ${C.red}` : "2px solid transparent",
                 background: "transparent",
                 color: machineTabKey === k ? C.red : k === "pachinko" && !hasPachinko ? C.dim : C.muted,
                 cursor: "pointer",
+                whiteSpace: "nowrap",
               }}
             >
-              {k === "slot" ? "🎰パチスロ" : "🎯パチンコ"}
+              {k === "slot" ? "スロット" : "パチンコ"}
             </button>
           ))}
         </div>
@@ -325,7 +327,7 @@ function MachineTabs({
   );
 }
 
-function RankingSection({ ranking }: { ranking: RankingData }) {
+function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow: boolean }) {
   const latestMonth = ranking.monthly[0];
   const currentMonth = latestMonth?.month ?? "";
   const monthData = latestMonth;
@@ -376,20 +378,20 @@ function RankingSection({ ranking }: { ranking: RankingData }) {
         </div>
 
         {selData ? (
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 0 }}>
+          <div style={{ display: "grid", gridTemplateColumns: isNarrow ? "1fr" : "1fr 1fr", gap: 0 }}>
             {/* 店舗別 */}
             <div>
               <div style={{
                 padding: "8px 14px", fontSize: 11, fontWeight: 700,
                 color: C.sub, background: "#fafafa",
                 borderBottom: `1px solid ${C.border}`,
-                borderRight: `1px solid ${C.border}`,
+                borderRight: isNarrow ? "none" : `1px solid ${C.border}`,
               }}>
                 🏪 店舗別TOP10
-</div>
+              </div>
               {selData.stores.length > 0 ? (
                 selData.stores.map(item => (
-                  <div key={item.rank} style={{ borderRight: `1px solid ${C.border}` }}>
+                  <div key={item.rank} style={{ borderRight: isNarrow ? "none" : `1px solid ${C.border}` }}>
                     <RankingRow item={item} type="store" />
                   </div>
                 ))
@@ -427,19 +429,19 @@ function RankingSection({ ranking }: { ranking: RankingData }) {
           </div>
         </div>
 
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 0 }}>
+        <div style={{ display: "grid", gridTemplateColumns: isNarrow ? "1fr" : "1fr 1fr", gap: 0 }}>
           <div>
             <div style={{
               padding: "8px 14px", fontSize: 11, fontWeight: 700,
               color: C.sub, background: "#fafafa",
               borderBottom: `1px solid ${C.border}`,
-              borderRight: `1px solid ${C.border}`,
+              borderRight: isNarrow ? "none" : `1px solid ${C.border}`,
             }}>
               🏪 店舗別TOP10
             </div>
             {ranking.total.stores.length > 0 ? (
               ranking.total.stores.map(item => (
-                <div key={item.rank} style={{ borderRight: `1px solid ${C.border}` }}>
+                <div key={item.rank} style={{ borderRight: isNarrow ? "none" : `1px solid ${C.border}` }}>
                   <RankingRow item={item} type="store" />
                 </div>
               ))
@@ -467,6 +469,14 @@ export default function CompletePage() {
   const [tab, setTab] = useState<"feed" | "ranking">("feed");
   const [feedFilter, setFeedFilter] = useState<"all" | "slot" | "pachinko">("all");
   const [searchQuery, setSearchQuery] = useState("");
+  const [isNarrow, setIsNarrow] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsNarrow(window.innerWidth < 640);
+    check();
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
+  }, []);
 
   const loadData = useCallback(async (silent = false) => {
     if (!silent) setLoading(true);
@@ -695,7 +705,7 @@ export default function CompletePage() {
           </div>
         ) : tab === "ranking" ? (
           ranking ? (
-            <RankingSection ranking={ranking} />
+            <RankingSection ranking={ranking} isNarrow={isNarrow} />
           ) : (
             <div style={{ textAlign: "center", padding: "60px 0", color: C.muted }}>
               ランキングデータを取得中...

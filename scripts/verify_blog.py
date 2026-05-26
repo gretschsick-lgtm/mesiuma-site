@@ -88,8 +88,28 @@ MACHINE_FACTS: dict[str, dict] = {
     },
 }
 
-# ─── 解析サイト画像ページ ─────────────────────────────────────────
-# ★ 新機種追加時にURLも追記すること（nana-press / ちょんぼりすた）
+# ─── P-WORLD 機種ID（メイン画像取得に使用）─────────────────────
+# ★ 新機種追加時はここにも追記すること
+# 画像URL: https://idn.p-world.co.jp/machines/{id}/image/thumb_1.jpg
+PWORLD_IDS: dict[str, int] = {
+    "SAO2":              10483,
+    "ソードアートオンラインII": 10483,
+    "花の慶次":          10490,
+    "バイオハザードRE:3": 10434,
+    "東京喰種":          10040,
+    "ミリオンゴッド":    10156,
+    "モンキーターンV":   10021,
+    "カバネリ":           9760,
+    "北斗転生2":         10227,
+    "からくりサーカス":  10316,
+    "賭ケグルイ":        10460,
+}
+
+PWORLD_IMAGE_URL = "https://idn.p-world.co.jp/machines/{id}/image/thumb_1.jpg"
+PWORLD_SEARCH    = "https://www.p-world.co.jp/machine/database/search.php?keyword={query}&category=all"
+
+# ─── 解析サイト画像ページ（設定示唆画像用 / nana-press）─────────────
+# ★ 新機種追加時にURLも追記すること
 ANALYSIS_PAGES: dict[str, list[str]] = {
     "東京喰種":        ["https://nana-press.com/kaiseki/machine/889/"],
     "からくりサーカス": ["https://nana-press.com/kaiseki/machine/571/"],
@@ -101,7 +121,7 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
     "SAO":             ["https://nana-press.com/kaiseki/machine/1161/"],
 }
 
-# ─── nana-press 機種一覧ページ（IDを検索するため） ──────────────
+# ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
 NANAPRESS_SEARCH = "https://nana-press.com/kaiseki/machine/?keyword={query}"
 
 
@@ -172,41 +192,101 @@ def auto_fix_content(content: str, title: str, pid: str) -> tuple[str, list[str]
     return content, fixes
 
 
+def fetch_pworld_image(title: str, pid: str) -> str | None:
+    """
+    P-WORLD から機種のメイン画像URLを取得。
+    1) PWORLD_IDS の既知IDを使用
+    2) 見つからなければ P-WORLD で検索してIDを取得
+    DMMは使用しない。
+    """
+    # 既知IDから検索
+    for key, mid in PWORLD_IDS.items():
+        if key.lower() in title.lower() or key.lower() in pid.lower():
+            img_url = PWORLD_IMAGE_URL.format(id=mid)
+            print(f"  🌐 P-WORLD 画像: {img_url}")
+            # 実在確認
+            try:
+                req = urllib.request.Request(img_url, headers={"User-Agent": "Mozilla/5.0"})
+                with urllib.request.urlopen(req, timeout=8) as r:
+                    if r.status == 200:
+                        return img_url
+            except Exception:
+                pass
+
+    # P-WORLD 検索
+    machine_guess = re.sub(
+        r'(スマスロ|パチスロ|スペック|解説|完全|まとめ|基本|天井|AT性能|RUSH|パチスロ|スロット|パチンコ|PA|【|】|｜.*)',
+        '', title
+    ).strip()
+    if machine_guess and len(machine_guess) > 3:
+        query = urllib.parse.quote(machine_guess)
+        search_url = PWORLD_SEARCH.format(query=query)
+        html = fetch_html(search_url)
+        # P-WORLDの機種IDを抽出
+        m = re.search(r'/machine/database/(\d+)', html)
+        if m:
+            mid = int(m.group(1))
+            img_url = PWORLD_IMAGE_URL.format(id=mid)
+            print(f"  🔍 P-WORLD 検索発見 (id={mid}): {img_url}")
+            try:
+                req = urllib.request.Request(img_url, headers={"User-Agent": "Mozilla/5.0"})
+                with urllib.request.urlopen(req, timeout=8) as r:
+                    if r.status == 200:
+                        return img_url
+            except Exception:
+                pass
+
+    return None
+
+
 def fetch_and_patch_images(post: dict) -> tuple[str | None, list[dict]]:
     """
-    解析サイトから画像URLを取得。
-    戻り値: (og_image_url, setting_images_list)
+    P-WORLD からメイン画像、nana-press から設定示唆画像を取得。
+    DMMは使用しない。
+    戻り値: (main_image_url, setting_images_list)
     """
     title = post.get("title", "")
     pid   = post.get("id", "")
 
+    # ── メイン画像は P-WORLD 優先
+    og_image = fetch_pworld_image(title, pid)
+
+    # ── 設定示唆画像は nana-press から
+    setting_imgs: list[dict] = []
     for machine_key, urls in ANALYSIS_PAGES.items():
         if machine_key.lower() not in title.lower() and machine_key.lower() not in pid.lower():
             continue
         for url in urls:
-            print(f"  📷 画像取得: {url}")
+            print(f"  📷 設定示唆画像: {url}")
             html = fetch_html(url)
             if not html:
                 continue
-            og  = extract_og_image(html)
-            imgs = extract_nanapress_images(html)
+            setting_imgs = extract_nanapress_images(html)
+            # メイン画像がまだない場合のみ nana-press の OG 画像を使用
+            if not og_image:
+                og_image = extract_og_image(html)
             time.sleep(0.5)
-            return og, imgs
+            break
+        if setting_imgs:
+            break
 
-    # ANALYSIS_PAGESにない機種はnana-pressで検索
-    # タイトルから機種名っぽい部分を抽出（「スマスロ」「スペック」等を除く）
-    machine_guess = re.sub(r'(スマスロ|パチスロ|スペック|解説|完全|まとめ|基本|天井|AT性能|RUSH|パチ|スロット)', '', title).strip()
-    if machine_guess and len(machine_guess) > 3:
-        found_url = search_nanapress_id(machine_guess)
-        if found_url:
-            print(f"  🔍 nana-press発見: {found_url}")
-            html = fetch_html(found_url)
-            og   = extract_og_image(html)
-            imgs = extract_nanapress_images(html)
-            time.sleep(0.5)
-            return og, imgs
+    # nana-press の ANALYSIS_PAGES にない機種は検索
+    if not setting_imgs:
+        machine_guess = re.sub(
+            r'(スマスロ|パチスロ|スペック|解説|完全|まとめ|基本|天井|AT性能|RUSH|パチスロ|スロット|パチンコ|PA|【|】|｜.*)',
+            '', title
+        ).strip()
+        if machine_guess and len(machine_guess) > 3:
+            found_url = search_nanapress_id(machine_guess)
+            if found_url:
+                print(f"  🔍 nana-press発見: {found_url}")
+                html = fetch_html(found_url)
+                setting_imgs = extract_nanapress_images(html)
+                if not og_image:
+                    og_image = extract_og_image(html)
+                time.sleep(0.5)
 
-    return None, []
+    return og_image, setting_imgs
 
 
 def verify_post(post: dict) -> list[str]:
