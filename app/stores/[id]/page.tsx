@@ -289,12 +289,13 @@ export default function StoreDetailPage() {
   const params = useParams();
   const id = params?.id as string;
 
-  const [store,       setStore]       = useState<Store | null>(null);
-  const [events,      setEvents]      = useState<Event[]>([]);
-  const [machineInfo, setMachineInfo] = useState<MachineInfo | null>(null);
-  const [notFound,    setNotFound]    = useState(false);
-  const [expandedIds, setExpandedIds] = useState<Set<string | number>>(new Set());
-  const [activeSection, setActiveSection] = useState("info");
+  const [store,           setStore]           = useState<Store | null>(null);
+  const [events,          setEvents]          = useState<Event[]>([]);
+  const [machineInfo,     setMachineInfo]     = useState<MachineInfo | null>(null);
+  const [notFound,        setNotFound]        = useState(false);
+  const [expandedIds,     setExpandedIds]     = useState<Set<string | number>>(new Set());
+  const [activeSection,   setActiveSection]   = useState("info");
+  const [completeCount,   setCompleteCount]   = useState<number>(0);
 
   // セクション ref（スクロールスパイ用）
   const secInfo     = useRef<HTMLDivElement>(null);
@@ -310,12 +311,15 @@ export default function StoreDetailPage() {
     Promise.all([
       fetch("/stores.json").then(r => r.json()),
       fetch("/store_machines.json").then(r => r.json()).catch(() => ({})),
-    ]).then(([stores, machines]) => {
+      fetch("/complete_ranking.json").then(r => r.json()).catch(() => ({})),
+    ]).then(([stores, machines, ranking]) => {
       const s = (stores as Store[]).find(s => s.id === id);
       if (!s) { setNotFound(true); return; }
       setStore(s);
       track("store_page_view", { store_id: id, store_name: s.name, pref: s.pref || "" });
       if (machines[s.name]) setMachineInfo(machines[s.name] as MachineInfo);
+      const counts = ranking?.store_complete_counts ?? {};
+      setCompleteCount(counts[s.name] ?? 0);
 
       // 店舗ID確定後にイベントを /api/events で取得（store_id 完全一致）
       fetch(`/api/events?store_id=${encodeURIComponent(id)}&limit=200`)
@@ -506,6 +510,11 @@ export default function StoreDetailPage() {
             {store.event_count > 0 && (
               <span style={{ background: "#fff8e0", color: "#886600", fontSize: 12, fontWeight: 700, padding: "3px 10px", borderRadius: 3, border: "1px solid #eedd88" }}>
                 ⭐ イベント {store.event_count}件
+              </span>
+            )}
+            {completeCount > 0 && (
+              <span style={{ background: "#e8f5e9", color: "#2e7d32", fontSize: 12, fontWeight: 700, padding: "3px 10px", borderRadius: 3, border: "1px solid #a5d6a7" }}>
+                🏆 コンプリート {completeCount}回
               </span>
             )}
             {upcomingEvents.length > 0 && (

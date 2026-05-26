@@ -17,7 +17,11 @@ type CompleteEntry = {
   collected_at: string;
 };
 
-type RankItem = { rank: number; name: string; count: number };
+type RankItem = { rank: number; name: string; count: number; x_url?: string };
+
+// チェーン名のみ（支店名なし）判定
+const CHAIN_ONLY_NAMES = new Set(["マルハン","キコーナ","ダイナム","楽園","ガイア","キャッスル","ガーデン","ゼント","ZENT","エスパス"]);
+function isChainOnly(name: string) { return CHAIN_ONLY_NAMES.has(name) || name.length <= 4; }
 
 type MonthlyData = {
   stores: RankItem[];
@@ -171,12 +175,17 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
 function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" }) {
   const icon = type === "store" ? "📍" : "🎰";
   const isTop3 = item.rank <= 3;
-  return (
+  const canLink = type === "store" && item.x_url && !isChainOnly(item.name);
+  const chainOnly = type === "store" && isChainOnly(item.name);
+
+  const inner = (
     <div style={{
       display: "flex", alignItems: "center", gap: 10,
       padding: "10px 14px",
       background: isTop3 ? (item.rank === 1 ? "linear-gradient(90deg,#fffbea,#fff9e0)" : C.white) : C.white,
       borderBottom: `1px solid ${C.border}`,
+      cursor: canLink ? "pointer" : "default",
+      transition: canLink ? "background 0.12s" : undefined,
     }}>
       <div style={{
         width: 32, height: 32, borderRadius: "50%",
@@ -189,9 +198,11 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
         {item.rank <= 3 ? RANK_LABELS[item.rank - 1] : item.rank}
       </div>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ fontSize: 13, fontWeight: 700, color: C.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: canLink ? "#1d9bf0" : C.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
           {icon} {item.name}
+          {chainOnly && <span style={{ fontSize: 9, color: C.muted, fontWeight: 400, marginLeft: 4 }}>（支店不明）</span>}
         </div>
+        {canLink && <div style={{ fontSize: 9, color: "#1d9bf0", marginTop: 1 }}>𝕏 公式アカウントを見る →</div>}
       </div>
       <div style={{
         fontSize: 20, fontWeight: 900, color: isTop3 ? C.gold : C.muted,
@@ -202,6 +213,15 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
       </div>
     </div>
   );
+
+  if (canLink) {
+    return (
+      <a href={item.x_url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", display: "block" }}>
+        {inner}
+      </a>
+    );
+  }
+  return inner;
 }
 
 function MachineTabs({
