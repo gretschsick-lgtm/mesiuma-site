@@ -400,7 +400,8 @@ def get_machine_type(machine: str) -> str:
     """
     if not machine:
         return "slot"
-    m = machine.strip()
+    # 括弧類（『「【〔[(）を先頭から除いてプレフィックスを判定
+    m = re.sub(r'^[『「【〔\[\(（]+', '', machine.strip())
 
     # 1. L/Ｌ プレフィックス = スマスロ（スロット）
     if _SMASLO_PREFIX.match(m):
@@ -447,7 +448,21 @@ def extract_store(text: str) -> str:
         m = pat.search(text)
         if m:
             name = m.group(1).strip()
-            # 末尾の不要語・助詞を除去
+            # ── 先頭の【公式】【NEW】等メタデータを除去
+            name = re.sub(r'^【[^】]{0,8}】\s*', '', name).strip()
+            # ── 末尾の【公式】【チェーン名】等を除去
+            name = re.sub(r'\s*【[^】]{0,12}】$', '', name).strip()
+            # ── "つじちゃん店長@店舗名" 形式: @以降の店舗名を優先
+            at_match = re.search(r'@([^\s@]{3,20}(?:店|ホール|パーラー|ランド))', name)
+            if at_match:
+                name = at_match.group(1)
+            else:
+                # ── @ハンドル・@タグを削除（"聖地ウエスタン西葛西店@新店長" → "ウエスタン西葛西店"）
+                name = re.sub(r'@\S+', '', name).strip()
+                # ── 先頭の役職・ニックネーム部分を除去（"聖地"等の余分なプレフィックス）
+                name = re.sub(r'^[^\s]{1,4}(?=\S+(?:店|ホール|パーラー))', '', name).strip() \
+                       if re.search(r'(?:店|ホール|パーラー)', name) else name
+            # ── 末尾の不要語・助詞を除去
             name = re.sub(
                 r'(です|でした|でございます|ございます|より|ます|ました|ください|'
                 r'させていただ|から|へ|では|として|にて|でお|は創業|周年).*$',
