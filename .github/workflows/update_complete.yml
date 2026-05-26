@@ -63,15 +63,23 @@ jobs:
           fi
 
       - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # トークンを明示的にセット（長時間実行後も有効）
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
           git add public/complete_info.json public/complete_ranking.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
             COUNT=$(python3 -c "import json; d=json.load(open('public/complete_info.json')); print(len(d))")
             git commit -m "chore: update complete_info.json (${COUNT}件) + ranking"
-            git pull --rebase origin main
-            git push
+            # 並行実行による競合対策: 最大3回リトライ
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "Push attempt ${i} failed, retrying in 5s..."
+              sleep 5
+            done
           fi
