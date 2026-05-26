@@ -134,7 +134,7 @@
     "date": "2026-05-26",
     "time": "19:32",
     "store": "【公式】パチンコの玉屋∞本店です♪",
-    "machine": "eFキン肉マンから",
+    "machine": "eフィーバーキン肉マン",
     "machine_type": "pachinko",
     "slot_number": "325",
     "text": "325番台 eFキン肉マンから コンプリート おめでとう御座います",
@@ -1093,7 +1093,7 @@
     "date": "2026-05-24",
     "time": "12:57",
     "store": "マルハン袋井店",
-    "machine": "eFキン肉マン",
+    "machine": "eフィーバーキン肉マン",
     "machine_type": "pachinko",
     "slot_number": "316",
     "text": "早い早過ぎるまだ13時前です 早過ぎてにゃんまるもいません 友情パワー　朝一10回転からの一撃 316番台　eFキン肉マン  コンプリート達成 おめでとうございます  ススメミライへ",
@@ -1512,7 +1512,7 @@
     "date": "2026-05-23",
     "time": "19:12",
     "store": "玉屋∞本店　店長よねピー【復活のY（ワイ）】",
-    "machine": "eキン肉マンから",
+    "machine": "eフィーバーキン肉マン",
     "slot_number": "300",
     "text": "300番台eキン肉マンからコンプリート おめでとうございまーす  【祝福の歌を一曲】 牛丼一筋300年〜♪うまいの♪ はやいの♪ やすいの〜♪ この歌３０年くらい前なんで、３３０年じゃないとおかしいですけどいいですよね",
     "images": [
@@ -2575,7 +2575,7 @@
     "date": "2026-05-21",
     "time": "22:04",
     "store": "テキサス段原店",
-    "machine": "eFキン肉マン",
+    "machine": "eフィーバーキン肉マン",
     "slot_number": "１００",
     "text": "こんばんは ヤマリン です  本日はパチンコから#コンプリート  　　　　１００番台 　　　#eFキン肉マン 　Congratulations  本日もご来店ありがとうございました 明日より３日間 #ファン感謝デー 開催です ぜひ、ご来店お待ちしております",
     "images": [
@@ -2707,7 +2707,7 @@
     "date": "2026-05-21",
     "time": "20:19",
     "store": "楽園池袋店ゲートウェイ",
-    "machine": "【eFキン肉マン】",
+    "machine": "eフィーバーキン肉マン",
     "slot_number": "2556",
     "text": "楽園池袋店ゲートウェイです 本日、5月21日(木)  パチンココーナーから 2556番台【eFキン肉マン】  コンプリート機能が作動いたしました 本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ #コンプリート",
     "images": [
@@ -2716,7 +2716,7 @@
     "image_url": "https://pbs.twimg.com/media/HI1sDjwbYAAPZ9C?format=jpg&name=large",
     "x_url": "https://x.com/rakuenikebukuro/status/2057420980671406490",
     "collected_at": "2026-05-21T13:17:19Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "c88a42a8b8ab",
@@ -2755,7 +2755,7 @@
     "date": "2026-05-21",
     "time": "19:42",
     "store": "ライブガーデン上尾店",
-    "machine": "【eFEVERキン肉マン】",
+    "machine": "eフィーバーキン肉マン",
     "slot_number": "１９４",
     "text": "こんばんは   １９４番台 【eFEVERキン肉マン】にて コンプリート達成です おめでとうございます  この後のお時間も ご来店お待ちしております  #ライブガーデン上尾 #コンプリート #スマパチ #キン肉マン",
     "images": [
@@ -2764,7 +2764,7 @@
     "image_url": "https://pbs.twimg.com/media/HI1lCuJa0AA1l9O?format=jpg&name=large",
     "x_url": "https://x.com/Lageo666/status/2057411804922630343",
     "collected_at": "2026-05-21T13:18:50Z",
-    "machine_type": "slot"
+    "machine_type": "pachinko"
   },
   {
     "id": "f4202bc40924",
