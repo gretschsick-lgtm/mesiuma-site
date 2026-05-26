@@ -223,44 +223,57 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
 }
 
 function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" }) {
-  const icon = type === "store" ? "📍" : "🎰";
   const isTop3 = item.rank <= 3;
   const canLink = type === "store" && item.x_url && !isChainOnly(item.name);
   const chainOnly = type === "store" && isChainOnly(item.name);
 
   const inner = (
     <div style={{
-      display: "flex", alignItems: "center", gap: 8,
-      padding: "8px 10px",
+      display: "flex", alignItems: "center", gap: 10,
+      padding: "9px 12px",
       background: isTop3 ? (item.rank === 1 ? "linear-gradient(90deg,#fffbea,#fff9e0)" : C.white) : C.white,
       borderBottom: `1px solid ${C.border}`,
       cursor: canLink ? "pointer" : "default",
-      transition: canLink ? "background 0.12s" : undefined,
-      overflow: "hidden",
+      boxSizing: "border-box",
     }}>
+      {/* 順位バッジ */}
       <div style={{
-        width: 28, height: 28, borderRadius: "50%",
+        width: 30, height: 30, borderRadius: "50%",
         background: RANK_COLORS[item.rank - 1],
         display: "flex", alignItems: "center", justifyContent: "center",
-        fontSize: item.rank <= 3 ? 14 : 11,
+        fontSize: item.rank <= 3 ? 15 : 12,
         fontWeight: 800, color: "#fff",
         flexShrink: 0,
       }}>
         {item.rank <= 3 ? RANK_LABELS[item.rank - 1] : item.rank}
       </div>
+      {/* 名前 + X リンク（2行） */}
       <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ fontSize: 12, fontWeight: 700, color: canLink ? "#1d9bf0" : C.text, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-          {icon} {item.name}
+        <div style={{
+          fontSize: 13, fontWeight: 700,
+          color: canLink ? "#1d9bf0" : C.text,
+          overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap",
+          lineHeight: 1.3,
+        }}>
+          {item.name}
           {chainOnly && <span style={{ fontSize: 9, color: C.muted, fontWeight: 400, marginLeft: 4 }}>（支店不明）</span>}
         </div>
-        {canLink && <div style={{ fontSize: 9, color: "#1d9bf0", marginTop: 1 }}>𝕏 公式アカウントを見る →</div>}
+        {canLink && <div style={{ fontSize: 10, color: "#1d9bf0", marginTop: 2 }}>𝕏 アカウントを見る →</div>}
       </div>
+      {/* 件数（右端・固定幅） */}
       <div style={{
-        fontSize: 15, fontWeight: 900, color: isTop3 ? C.gold : C.muted,
-        flexShrink: 0, textAlign: "right", minWidth: 32,
+        flexShrink: 0,
+        textAlign: "right",
+        minWidth: 44,
       }}>
-        {item.count}
-        <span style={{ fontSize: 10, fontWeight: 400, color: C.muted, marginLeft: 1 }}>回</span>
+        <span style={{
+          fontSize: 18, fontWeight: 900,
+          color: isTop3 ? C.gold : C.sub,
+          lineHeight: 1,
+        }}>
+          {item.count}
+        </span>
+        <span style={{ fontSize: 10, color: C.muted, marginLeft: 2 }}>回</span>
       </div>
     </div>
   );
@@ -288,35 +301,35 @@ function MachineTabs({
   const list = machineTabKey === "pachinko" ? (data.pachinko_machines ?? []) : (data.slot_machines ?? []);
   return (
     <div>
+      {/* 機種別タブヘッダー */}
       <div style={{
-        display: "flex", alignItems: "center", justifyContent: "space-between",
         borderBottom: `1px solid ${C.border}`,
-        background: "#fafafa",
-        padding: "6px 10px",
-        gap: 8,
+        background: "#f7f7f7",
+        padding: "8px 12px",
       }}>
-        <div style={{ fontSize: 11, fontWeight: 700, color: C.sub, whiteSpace: "nowrap", flexShrink: 0 }}>
+        <div style={{ fontSize: 11, fontWeight: 700, color: C.sub, marginBottom: 6 }}>
           🎰 機種別TOP10
         </div>
+        {/* トグル: 幅いっぱいに2分割 */}
         <div style={{
-          display: "flex", flexShrink: 0,
-          background: "#e4e4e4", borderRadius: 20, padding: 2, gap: 2,
+          display: "grid", gridTemplateColumns: "1fr 1fr",
+          background: "#e2e2e2", borderRadius: 10, padding: 3, gap: 3,
         }}>
           {(["slot", "pachinko"] as const).map(k => (
             <button
               key={k}
               onClick={() => setMachineTabKey(k)}
               style={{
-                padding: "5px 12px", fontSize: 11, fontWeight: 700,
-                border: "none", borderRadius: 18,
-                background: machineTabKey === k ? C.red : "transparent",
-                color: machineTabKey === k ? "#fff" : k === "pachinko" && !hasPachinko ? C.dim : "#444",
+                padding: "9px 0", fontSize: 13, fontWeight: 800,
+                border: "none", borderRadius: 8,
+                background: machineTabKey === k ? (k === "slot" ? C.red : "#2563eb") : "transparent",
+                color: machineTabKey === k ? "#fff" : k === "pachinko" && !hasPachinko ? C.dim : "#555",
                 cursor: "pointer",
-                whiteSpace: "nowrap",
                 transition: "all 0.15s",
+                letterSpacing: 0.5,
               }}
             >
-              {k === "slot" ? "スロット" : "パチンコ"}
+              {k === "slot" ? "🎰 スロット" : "🎯 パチンコ"}
             </button>
           ))}
         </div>
