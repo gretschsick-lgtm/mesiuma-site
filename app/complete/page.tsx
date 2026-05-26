@@ -13,6 +13,7 @@ type CompleteEntry = {
   text: string;
   images?: string[];
   image_url?: string;
+  video_url?: string;
   x_url: string;
   collected_at: string;
 };
@@ -115,6 +116,15 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
               {entry.slot_number}番台
             </span>
           )}
+          {entry.video_url && (
+            <span style={{
+              background: "#1a1a2e", color: "#fff",
+              fontSize: 10, fontWeight: 700, padding: "2px 7px",
+              borderRadius: 4, whiteSpace: "nowrap",
+            }}>
+              🎬 動画
+            </span>
+          )}
           {entry.time && (
             <span style={{ fontSize: 11, color: C.muted, marginLeft: "auto" }}>{entry.time}</span>
           )}
@@ -142,7 +152,46 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           </div>
         )}
 
-        {entry.image_url && (
+        {/* 動画（mp4 は inline 再生、m3u8 は X リンクのサムネ表示） */}
+        {entry.video_url && entry.video_url.includes(".mp4") ? (
+          <video
+            src={entry.video_url}
+            controls
+            muted
+            playsInline
+            preload="metadata"
+            style={{
+              width: "100%", display: "block",
+              maxHeight: 300, borderRadius: 6, marginBottom: 9,
+              background: "#000",
+            }}
+          />
+        ) : entry.video_url ? (
+          /* HLS (m3u8) → サムネ + X へのリンク */
+          <a href={entry.x_url} target="_blank" rel="noopener noreferrer" style={{ display: "block", textDecoration: "none", marginBottom: 9 }}>
+            <div style={{
+              position: "relative", borderRadius: 6, overflow: "hidden",
+              background: "#111",
+            }}>
+              {entry.image_url && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img src={entry.image_url} alt="" style={{ width: "100%", display: "block", maxHeight: 260, objectFit: "cover", opacity: 0.75 }} />
+              )}
+              <div style={{
+                position: entry.image_url ? "absolute" : "relative",
+                inset: 0, display: "flex", alignItems: "center", justifyContent: "center",
+                padding: entry.image_url ? 0 : "28px 0",
+              }}>
+                <div style={{
+                  width: 52, height: 52, borderRadius: "50%",
+                  background: "rgba(0,0,0,0.65)", display: "flex", alignItems: "center", justifyContent: "center",
+                }}>
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        ) : entry.image_url ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={entry.image_url}
@@ -154,7 +203,7 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
             }}
             loading="lazy"
           />
-        )}
+        ) : null}
 
         {entry.x_url && (
           <a href={entry.x_url} target="_blank" rel="noopener noreferrer" style={{
