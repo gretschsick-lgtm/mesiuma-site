@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T18:49:59.353242",
+  "generated_at": "2026-05-26T18:55:02.548567",
   "total": {
     "stores": [
       {
@@ -67,103 +67,103 @@
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 37
+        "count": 46
       },
       {
         "rank": 2,
-        "name": "北斗の拳",
-        "count": 19
+        "name": "スマスロ北斗の拳",
+        "count": 20
       },
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 12
+        "count": 18
       },
       {
         "rank": 4,
-        "name": "東京喰種",
-        "count": 10
+        "name": "L東京喰種",
+        "count": 12
       },
       {
         "rank": 5,
-        "name": "L炎炎ノ消防隊2",
-        "count": 8
+        "name": "Lチバリヨ2ZB",
+        "count": 9
       },
       {
         "rank": 6,
-        "name": "チバリヨ2",
-        "count": 5
+        "name": "スマスロ攻殻機動隊",
+        "count": 9
       },
       {
         "rank": 7,
-        "name": "攻殻機動隊",
-        "count": 5
+        "name": "L炎炎ノ消防隊2",
+        "count": 9
       },
       {
         "rank": 8,
         "name": "甲鉄城のカバネリ",
-        "count": 4
+        "count": 6
       },
       {
         "rank": 9,
-        "name": "スマスロ北斗の拳転生の章2",
-        "count": 3
+        "name": "スマスロ北斗の拳転生",
+        "count": 5
       },
       {
         "rank": 10,
-        "name": "吉宗",
-        "count": 3
+        "name": "L吉宗",
+        "count": 5
       }
     ],
     "pachinko_machines": [
       {
         "rank": 1,
-        "name": "e牙狼12黄金騎士極限",
-        "count": 9
+        "name": "牙狼12",
+        "count": 21
       },
       {
         "rank": 2,
-        "name": "eフィーバーキン肉マン",
-        "count": 5
-      },
-      {
-        "rank": 3,
         "name": "eバイオハザード6",
         "count": 4
       },
       {
-        "rank": 4,
-        "name": "牙狼12",
-        "count": 3
+        "rank": 3,
+        "name": "eフィーバーキン肉マン",
+        "count": 4
       },
       {
-        "rank": 5,
+        "rank": 4,
         "name": "e東京喰種",
         "count": 2
       },
       {
-        "rank": 6,
-        "name": "e牙狼12XX-MJ",
-        "count": 2
-      },
-      {
-        "rank": 7,
+        "rank": 5,
         "name": "e女神のカフェテラス",
         "count": 2
       },
       {
-        "rank": 8,
+        "rank": 6,
         "name": "eフィーバーブルーロック",
         "count": 1
       },
       {
-        "rank": 9,
+        "rank": 7,
         "name": "eひきこまり吸血姫の悶々FHV",
         "count": 1
       },
       {
-        "rank": 10,
+        "rank": 8,
         "name": "eフィーバーもののがたりF",
+        "count": 1
+      },
+      {
+        "rank": 9,
+        "name": "Lゴジラ",
+        "count": 1
+      },
+      {
+        "rank": 10,
+        "name": "e花の慶次～黄金の一撃～",
         "count": 1
       }
     ],
@@ -240,103 +240,103 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 30
+          "count": 36
         },
         {
           "rank": 2,
-          "name": "北斗の拳",
-          "count": 18
+          "name": "スマスロ北斗の拳",
+          "count": 19
         },
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 12
+          "count": 17
         },
         {
           "rank": 4,
-          "name": "東京喰種",
-          "count": 10
+          "name": "L東京喰種",
+          "count": 12
         },
         {
           "rank": 5,
-          "name": "L炎炎ノ消防隊2",
-          "count": 8
+          "name": "Lチバリヨ2ZB",
+          "count": 9
         },
         {
           "rank": 6,
-          "name": "チバリヨ2",
-          "count": 5
+          "name": "スマスロ攻殻機動隊",
+          "count": 9
         },
         {
           "rank": 7,
-          "name": "攻殻機動隊",
-          "count": 5
+          "name": "L炎炎ノ消防隊2",
+          "count": 9
         },
         {
           "rank": 8,
           "name": "甲鉄城のカバネリ",
-          "count": 4
+          "count": 5
         },
         {
           "rank": 9,
-          "name": "スマスロ北斗の拳転生の章2",
-          "count": 3
+          "name": "スマスロ北斗の拳転生",
+          "count": 5
         },
         {
           "rank": 10,
-          "name": "吉宗",
-          "count": 3
+          "name": "L吉宗",
+          "count": 5
         }
       ],
       "pachinko_machines": [
         {
           "rank": 1,
-          "name": "e牙狼12黄金騎士極限",
-          "count": 9
+          "name": "牙狼12",
+          "count": 21
         },
         {
           "rank": 2,
-          "name": "eフィーバーキン肉マン",
-          "count": 5
-        },
-        {
-          "rank": 3,
           "name": "eバイオハザード6",
           "count": 4
         },
         {
-          "rank": 4,
-          "name": "牙狼12",
-          "count": 3
+          "rank": 3,
+          "name": "eフィーバーキン肉マン",
+          "count": 4
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "e東京喰種",
           "count": 2
         },
         {
-          "rank": 6,
-          "name": "e牙狼12XX-MJ",
-          "count": 2
-        },
-        {
-          "rank": 7,
+          "rank": 5,
           "name": "e女神のカフェテラス",
           "count": 2
         },
         {
-          "rank": 8,
+          "rank": 6,
           "name": "eフィーバーブルーロック",
           "count": 1
         },
         {
-          "rank": 9,
+          "rank": 7,
           "name": "eひきこまり吸血姫の悶々FHV",
           "count": 1
         },
         {
-          "rank": 10,
+          "rank": 8,
           "name": "eフィーバーもののがたりF",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "Lゴジラ",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "e花の慶次～黄金の一撃～",
           "count": 1
         }
       ]
@@ -410,51 +410,36 @@
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 7
+          "count": 10
         },
         {
           "rank": 2,
-          "name": "ヴァルヴレイヴD",
+          "name": "甲鉄城のカバネリ",
           "count": 1
         },
         {
           "rank": 3,
-          "name": "革命機ヴァルヴレイヴ2』",
+          "name": "ミリオンゴッド神々の軌跡",
           "count": 1
         },
         {
           "rank": 4,
-          "name": "カバネリ4台",
-          "count": 1
-        },
-        {
-          "rank": 5,
-          "name": "革命機ヴァルヴレイヴ2\"",
-          "count": 1
-        },
-        {
-          "rank": 6,
-          "name": "ミリオンゴッド‐神々",
-          "count": 1
-        },
-        {
-          "rank": 7,
           "name": "コンプリート機能発動の為、本日は停止となります。",
           "count": 1
         },
         {
-          "rank": 8,
-          "name": "新鬼武者3",
+          "rank": 5,
+          "name": "L新鬼武者3",
           "count": 1
         },
         {
-          "rank": 9,
+          "rank": 6,
           "name": "ガンダムユニコーン",
           "count": 1
         },
         {
-          "rank": 10,
-          "name": "北斗の拳",
+          "rank": 7,
+          "name": "スマスロ北斗の拳",
           "count": 1
         }
       ],
