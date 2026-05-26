@@ -98,15 +98,6 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           }}>
             🏆 コンプリート
           </span>
-          {entry.machine_type === "pachinko" && (
-            <span style={{
-              background: "#e8f5e9", color: "#2e7d32",
-              fontSize: 10, fontWeight: 700, padding: "2px 7px",
-              borderRadius: 20, border: "1px solid #a5d6a7", whiteSpace: "nowrap",
-            }}>
-              🎯 パチンコ
-            </span>
-          )}
           {entry.slot_number && (
             <span style={{
               background: "#f0f8ff", color: "#0055cc",
@@ -288,51 +279,17 @@ function RankingRow({ item, type }: { item: RankItem; type: "store" | "machine" 
   return inner;
 }
 
-function MachineTabs({
-  data,
-  machineTabKey,
-  setMachineTabKey,
-}: {
-  data: MonthlyData | RankingData["total"];
-  machineTabKey: "slot" | "pachinko";
-  setMachineTabKey: (k: "slot" | "pachinko") => void;
-}) {
-  const hasPachinko = (data.pachinko_machines?.length ?? 0) > 0;
-  const list = machineTabKey === "pachinko" ? (data.pachinko_machines ?? []) : (data.slot_machines ?? []);
+function SlotMachineList({ data }: { data: MonthlyData | RankingData["total"] }) {
+  const list = data.slot_machines ?? [];
   return (
     <div>
-      {/* 機種別タブヘッダー */}
       <div style={{
         borderBottom: `1px solid ${C.border}`,
         background: "#f7f7f7",
-        padding: "8px 12px",
+        padding: "8px 14px",
+        fontSize: 11, fontWeight: 700, color: C.sub,
       }}>
-        <div style={{ fontSize: 11, fontWeight: 700, color: C.sub, marginBottom: 6 }}>
-          🎰 機種別TOP10
-        </div>
-        {/* トグル: 幅いっぱいに2分割 */}
-        <div style={{
-          display: "grid", gridTemplateColumns: "1fr 1fr",
-          background: "#e2e2e2", borderRadius: 10, padding: 3, gap: 3,
-        }}>
-          {(["slot", "pachinko"] as const).map(k => (
-            <button
-              key={k}
-              onClick={() => setMachineTabKey(k)}
-              style={{
-                padding: "9px 0", fontSize: 13, fontWeight: 800,
-                border: "none", borderRadius: 8,
-                background: machineTabKey === k ? (k === "slot" ? C.red : "#2563eb") : "transparent",
-                color: machineTabKey === k ? "#fff" : k === "pachinko" && !hasPachinko ? C.dim : "#555",
-                cursor: "pointer",
-                transition: "all 0.15s",
-                letterSpacing: 0.5,
-              }}
-            >
-              {k === "slot" ? "🎰 スロット" : "🎯 パチンコ"}
-            </button>
-          ))}
-        </div>
+        🎰 機種別TOP10
       </div>
       {list.length > 0 ? (
         list.map(item => <RankingRow key={item.rank} item={item} type="machine" />)
@@ -352,8 +309,6 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
   const availableMonths = ranking.monthly.map(m => m.month);
   const [selectedMonth, setSelectedMonth] = useState(currentMonth);
   const selData = ranking.monthly.find(m => m.month === selectedMonth);
-  const [monthMachineTab, setMonthMachineTab] = useState<"slot" | "pachinko">("slot");
-  const [totalMachineTab, setTotalMachineTab] = useState<"slot" | "pachinko">("slot");
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -416,7 +371,7 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
               )}
             </div>
             {/* 機種別 */}
-            <MachineTabs data={selData} machineTabKey={monthMachineTab} setMachineTabKey={setMonthMachineTab} />
+            <SlotMachineList data={selData} />
           </div>
         ) : (
           <div style={{ padding: "30px", color: C.muted, fontSize: 13, textAlign: "center" }}>
@@ -465,7 +420,7 @@ function RankingSection({ ranking, isNarrow }: { ranking: RankingData; isNarrow:
               <div style={{ padding: "20px", color: C.muted, fontSize: 12, textAlign: "center" }}>データ収集中...</div>
             )}
           </div>
-          <MachineTabs data={ranking.total} machineTabKey={totalMachineTab} setMachineTabKey={setTotalMachineTab} />
+          <SlotMachineList data={ranking.total} />
         </div>
 
         <div style={{ padding: "8px 14px", fontSize: 10, color: C.muted, background: "#fafafa", borderTop: `1px solid ${C.border}` }}>
@@ -483,7 +438,6 @@ export default function CompletePage() {
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [refreshing, setRefreshing] = useState(false);
   const [tab, setTab] = useState<"feed" | "ranking">("feed");
-  const [feedFilter, setFeedFilter] = useState<"all" | "slot" | "pachinko">("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [isNarrow, setIsNarrow] = useState(false);
 
@@ -529,8 +483,7 @@ export default function CompletePage() {
     const map = new Map<string, CompleteEntry[]>();
     for (const e of entries) {
       if (!e.machine || !e.machine.trim()) continue;
-      if (feedFilter === "slot" && e.machine_type === "pachinko") continue;
-      if (feedFilter === "pachinko" && e.machine_type !== "pachinko") continue;
+      if (e.machine_type === "pachinko") continue; // パチスロのみ表示
       if (q) {
         const hit =
           e.machine.toLowerCase().includes(q) ||
@@ -546,13 +499,13 @@ export default function CompletePage() {
       list.sort((a, b) => (b.time || "").localeCompare(a.time || ""));
     }
     return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]));
-  }, [entries, feedFilter, searchQuery]);
+  }, [entries, searchQuery]);
 
   const todayStr = (() => {
     const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
     return d.toISOString().slice(0, 10);
   })();
-  const todayCount = entries.filter(e => e.date === todayStr && e.machine && e.machine.trim()).length;
+  const todayCount = entries.filter(e => e.date === todayStr && e.machine && e.machine.trim() && e.machine_type !== "pachinko").length;
 
   return (
     <div style={{ minHeight: "100vh", background: C.bg, fontFamily: "'Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif" }}>
@@ -685,29 +638,6 @@ export default function CompletePage() {
                   }}
                 >✕</button>
               )}
-            </div>
-            {/* タイプフィルター */}
-            <div style={{ display: "flex", gap: 6 }}>
-              {([
-                { key: "all", label: "すべて" },
-                { key: "slot", label: "🎰 パチスロ" },
-                { key: "pachinko", label: "🎯 パチンコ" },
-              ] as const).map(f => (
-                <button
-                  key={f.key}
-                  onClick={() => setFeedFilter(f.key)}
-                  style={{
-                    padding: "3px 12px", fontSize: 11, fontWeight: 700,
-                    border: `1px solid ${feedFilter === f.key ? C.red : C.border}`,
-                    borderRadius: 20,
-                    background: feedFilter === f.key ? C.red : C.white,
-                    color: feedFilter === f.key ? "#fff" : C.sub,
-                    cursor: "pointer",
-                  }}
-                >
-                  {f.label}
-                </button>
-              ))}
             </div>
           </div>
         )}
