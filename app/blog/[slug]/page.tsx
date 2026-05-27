@@ -188,12 +188,12 @@ export default function BlogPostPage() {
             </div>
             <div style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))",
-              gap: 10,
+              gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))",
+              gap: 12,
             }}>
               {post.setting_images.map((img, i) => (
                 <div key={i} style={{
-                  background: C.white, border: `1px solid ${C.border}`,
+                  background: "#f8f8f8", border: `1px solid ${C.border}`,
                   borderRadius: 8, overflow: "hidden",
                   display: "flex", flexDirection: "column",
                 }}>
@@ -201,7 +201,7 @@ export default function BlogPostPage() {
                   <img
                     src={img.url}
                     alt={img.caption}
-                    style={{ width: "100%", aspectRatio: "4/3", objectFit: "cover", display: "block", background: "#f0f0f0" }}
+                    style={{ width: "100%", height: "auto", maxHeight: 220, objectFit: "contain", display: "block", background: "#f0f0f0" }}
                     loading="lazy"
                     onError={e => { (e.currentTarget as HTMLImageElement).parentElement!.style.display = "none"; }}
                   />

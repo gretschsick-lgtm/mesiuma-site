@@ -101,9 +101,11 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
     "北斗転生2":       ["https://nana-press.com/kaiseki/machine/1059/"],
     "バイオハザードRE:3": ["https://nana-press.com/kaiseki/machine/1140/",
                           "https://chonborista.com/slot/universal/255082/"],
-    "SAO":             ["https://nana-press.com/kaiseki/machine/490/"],
+    # SAO2 を先に記述しないと "SAO" の正規表現が "sao2" にもマッチしてしまう
     "SAO2":            ["https://chonborista.com/slot/daito-slot/256112/"],
     "ソードアートオンラインII": ["https://chonborista.com/slot/daito-slot/256112/"],
+    # SAO1（前作）: idに"sao2"が含まれるとマッチしないよう否定先読みを追加
+    r"SAO(?!2)":       ["https://nana-press.com/kaiseki/machine/490/"],
     "花の慶次.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
     "傾奇一転.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
     "賭ケグルイ":      ["https://chonborista.com/slot/yamasa/254870/"],
