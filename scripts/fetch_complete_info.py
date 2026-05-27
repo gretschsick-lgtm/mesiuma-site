@@ -225,8 +225,9 @@ MACHINE_PATTERNS = [
     re.compile(r'(?:スマスロ|Lパチスロ|パチスロ|スマパチ)\s*[　]?([^\s　\n#「」【】、。]{3,25}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|\d+番台))'),
     # L機種名（半角・全角両対応、！も許容）
     re.compile(r'[LＬ]([^\s　\n#「」【】、。]{3,20}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|\d+番台))'),
-    # e機種名（パチンコ機種）
+    # e機種名（パチンコ機種）スペースなし・スペースあり両対応
     re.compile(r'[eｅ]([^\s　\n#「」【】、。（(]{3,20}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|（|\d+番台))'),
+    re.compile(r'[eｅ]\s+([^\s　\n#「」【】、。（(]{3,25}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|（|\d+番台))'),
     re.compile(r'\d{2,4}番台\s*(?:の\s*)?[^\s\n]{0,3}?([^\s\n#]{3,25}?)(?=\s*(?:にて|で|が|コンプ|\n))'),
     re.compile(r'(北斗[^\s　\n#「」【】、。！!]{1,15})'),
     re.compile(r'(バジリスク[^\s　\n#「」【】、。！!]{0,15})'),
@@ -444,12 +445,14 @@ def launch_browser(playwright, headless: bool):
 
 def is_store_tweet(text: str) -> bool:
     """店舗アカウントの投稿かどうか判定"""
+    # 改行を空白に正規化（除外パターンが改行をまたいで効かない問題を防ぐ）
+    normalized = text.replace("\n", " ").replace("\r", " ")
     # 除外パターンに引っかかるものはスキップ
     for pat in EXCLUDE_PATTERNS:
-        if pat.search(text):
+        if pat.search(normalized):
             return False
     # 店舗投稿パターンのどれかにマッチ
-    return any(pat.search(text) for pat in STORE_TWEET_PATTERNS)
+    return any(pat.search(normalized) for pat in STORE_TWEET_PATTERNS)
 
 
 # ---------------------------------------------------------------------------
@@ -1228,7 +1231,9 @@ def update_ranking():
         if re.match(r'^[\d\s]+$', name):
             return None
         # e/ｅ プレフィックス（パチンコ）の機種は、L/スマスロ名への正規化を適用しない
-        is_pachinko_prefix = bool(re.match(r'^[eｅ]', name))
+        # 「【e東京喰種】」のように括弧で囲まれた場合も e プレフィックスを正しく検出する
+        name_stripped = re.sub(r'^[『「【〔\[\(（\s]+', '', name)
+        is_pachinko_prefix = bool(re.match(r'^[eｅ]', name_stripped))
         # 正規化マップ適用（前方一致）
         for pattern, normalized in MACHINE_NORMALIZE:
             if pattern in name:
