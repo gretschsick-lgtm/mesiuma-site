@@ -211,6 +211,12 @@ EXCLUDE_PATTERNS = [
     re.compile(r'ダーツ.*コンプ|ビリヤード.*コンプ'),           # ダーツ等
     re.compile(r'カプセル.*コンプ|ガチャポン.*コンプ'),         # カプセルトイ
     re.compile(r'(?:^|\s)RT\s'),                               # RTで始まるリツイートっぽい投稿
+    # ── コンプリート未達成を除外 ────────────────────────────────────────────
+    re.compile(r'コンプリートならず|コンプリートできず|コンプリートしなかった|惜しくもコンプ'),
+    re.compile(r'あと一歩.*コンプリート|コンプリート.*あと一歩'),
+    # ── 過去日まとめ・ランキング紹介投稿を除外 ─────────────────────────────
+    re.compile(r'\d+万発.*まとめ|\d+/\d+[|｜].*まとめ'),      # 「05/07｜5万発まとめ」等
+    re.compile(r'\d+月\d+日.*出玉ランキング|出玉ランキング.*\d+位'), # 出玉ランキングまとめ
 ]
 
 # ---------------------------------------------------------------------------
@@ -536,6 +542,12 @@ def extract_machine(text: str) -> str:
                 continue
             if name in ("スロ", "パチスロ", "スマスロ", "スマパチ", "コンプリート"):
                 continue
+            # ポイント・枚数・玉数の混入を除去（例: 攻殻機動隊/19,010Pt.）
+            name = re.sub(r'[/／]\s*[\d,]+(?:Pt\.|pt\.|枚|点|玉).*$', '', name).strip()
+            name = re.sub(r'\s+[\d,]+(?:Pt\.|pt\.|枚|点|玉).*$', '', name).strip()
+            name = re.sub(r'[\s/／]+$', '', name).strip()
+            if len(name) < 2:
+                continue
             return name[:35]
     return ""
 
@@ -718,6 +730,17 @@ def parse_tweet(text: str, tweet_url: str,
     # テキスト内に「5/24(日)」等の曜日付き日付があればそちらを優先
     # （日付変わり後に前日のコンプリートを投稿するケースに対応）
     tweet_date = extract_date_from_text(text, tweet_date)
+
+    # 深夜0〜5時の投稿はテキスト内に日付言及がなければ前日扱い
+    # 例: 5/28 00:04 投稿 → 5/27 のコンプリート報告
+    if tweet_time and tweet_date:
+        h_str = tweet_time.split(":")[0]
+        if h_str.isdigit() and 0 <= int(h_str) < 6:
+            from datetime import date as _d2, timedelta as _td2
+            backdated = (_d2.fromisoformat(tweet_date) - _td2(days=1)).strftime("%Y-%m-%d")
+            # テキストに日付の明示がなければバックデート
+            if not re.search(r'\d+[/月]\d+', text):
+                tweet_date = backdated
 
     entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 

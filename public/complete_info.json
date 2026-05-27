@@ -1,10 +1,10 @@
 [
   {
     "id": "2f0a4267fc76",
-    "date": "2026-05-28",
+    "date": "2026-05-27",
     "time": "00:04",
     "store": "クラブハウス本店@Since.1991.12.29",
-    "machine": "攻殻機動隊/19,010Pt.",
+    "machine": "攻殻機動隊",
     "machine_type": "slot",
     "slot_number": "895",
     "text": "本日の頂点発表 ドキドキワクワク おめでとうございます  スロット 895番台 L攻殻機動隊/19,010Pt. コンプリート達成  パチンコ 421 e 東京喰種/46,130Pt.  リニューアルオープン後もたくさんのご来店ありがとうございます 本日はコンプリート達成も",
@@ -3318,22 +3318,6 @@
     "machine_type": "pachinko"
   },
   {
-    "id": "c01104114758",
-    "date": "2026-05-21",
-    "time": "14:41",
-    "store": "ガイア横手店",
-    "machine": "リコリス",
-    "slot_number": "561",
-    "text": " 05/07｜5万発オーバーまとめ    TOP3（店舗名入り）    eリコリス 561番台 → 95,040発（ガイア 横手店） コンプリート    P大海物語5 HCL 261番台 → 88,190発（リボン 茨島店）    P暴凶星 576番台 → 76,330発（マルハン 外旭川店）",
-    "images": [
-      "https://pbs.twimg.com/media/HIzvBHna4AAmNar?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIzvBHna4AAmNar?format=jpg&name=large",
-    "x_url": "https://x.com/JVXcVnV10f30981/status/2057336036980830468",
-    "collected_at": "2026-05-21T14:28:40Z",
-    "machine_type": "slot"
-  },
-  {
     "id": "6dbc37f2a667",
     "date": "2026-05-21",
     "time": "13:56",
@@ -3347,22 +3331,6 @@
     "image_url": "https://pbs.twimg.com/media/HI0V2kzacAESbXn?format=jpg&name=large",
     "x_url": "https://x.com/tenpaku0730/status/2057324658555494785",
     "collected_at": "2026-05-23T08:28:13Z",
-    "machine_type": "pachinko"
-  },
-  {
-    "id": "0eb385764527",
-    "date": "2026-05-21",
-    "time": "11:06",
-    "store": "リボン茨島店",
-    "machine": "牙狼12",
-    "slot_number": "32",
-    "text": " 05/06｜5万発オーバーまとめ    TOP3（店舗名入り）    e牙狼12 32番台 → 95,700発（リボン 茨島店） コンプリート    P暴凶星 575番台 → 81,590発（マルハン 外旭川店）    eリング 177番台 → 78,070発（リボン 茨島店）  ━━━━━━━━━━━━━━━━",
-    "images": [
-      "https://pbs.twimg.com/media/HIzvBHna4AAmNar?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIzvBHna4AAmNar?format=jpg&name=large",
-    "x_url": "https://x.com/JVXcVnV10f30981/status/2057281937178492961",
-    "collected_at": "2026-05-23T08:43:40Z",
     "machine_type": "pachinko"
   },
   {
@@ -3751,23 +3719,6 @@
     "machine_type": "slot"
   },
   {
-    "id": "72347cb2be8c",
-    "date": "2026-05-20",
-    "time": "18:29",
-    "store": "マルハン能代店",
-    "machine": "カバネリ",
-    "slot_number": "138",
-    "text": " 05/04｜5万発オーバーまとめ    TOP3（店舗名入り）   e甲鉄城のカバネリ  138番台 → 95,260発（マルハン 能代店）コンプリート    eキン肉マン 260番台 → 95,100発（マルハン 由利本荘店）コンプリート    eキン肉マン 137番台 →",
-    "images": [
-      "https://pbs.twimg.com/media/HIwKsutacAEzOkx?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIwKsuvbwAAk05L?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIwKsutacAEzOkx?format=jpg&name=large",
-    "x_url": "https://x.com/JVXcVnV10f30981/status/2057030898051363308",
-    "collected_at": "2026-05-21T14:39:08Z",
-    "machine_type": "slot"
-  },
-  {
     "id": "d987feee7739",
     "date": "2026-05-20",
     "time": "18:26",
@@ -3883,7 +3834,7 @@
   },
   {
     "id": "04a0d05387f9",
-    "date": "2026-05-20",
+    "date": "2026-05-19",
     "time": "00:37",
     "store": "",
     "machine": "スマスロ北斗の拳転生の章2",
@@ -3896,24 +3847,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HIsUYcUaEAEi4ha?format=jpg&name=large",
     "x_url": "https://x.com/DAISYO365950/status/2056761044081770806",
-    "collected_at": "2026-05-21T11:00:33Z",
-    "machine_type": "slot"
-  },
-  {
-    "id": "cb90d2512633",
-    "date": "2026-05-20",
-    "time": "00:02",
-    "store": "クラブハウス本店",
-    "machine": "Lアズールレーン2",
-    "slot_number": "945",
-    "text": "こんばんわ 本日は、アズールレーンがランキングにランクイン  945番台 L アズールレーン THE ANIMATION /18,493Pt.  おめでとうございます 惜しくもコンプリートならずでしたが、この台の最高枚数も更新  #アズールレーン　#ランキング",
-    "images": [
-      "https://pbs.twimg.com/media/HIsNbBlasAAnVJ9?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIsNbBwbUAAhQNP?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIsNbBmacAAUAIb?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIsNbBlasAAnVJ9?format=jpg&name=large",
-    "x_url": "https://x.com/club_honten99/status/2056752421825896798",
     "collected_at": "2026-05-21T11:00:33Z",
     "machine_type": "slot"
   },
@@ -4367,7 +4300,7 @@
   },
   {
     "id": "7595d30ec47f",
-    "date": "2026-05-19",
+    "date": "2026-05-18",
     "time": "01:02",
     "store": "ARROW浪速店【公式】SINCE 2005.01.22",
     "machine": "スマスロ北斗の拳転生の章2",
@@ -5037,7 +4970,7 @@
   },
   {
     "id": "1d034d98ba38",
-    "date": "2026-05-05",
+    "date": "2026-05-04",
     "time": "00:26",
     "store": "サミット別府店",
     "machine": "スマスロ北斗の拳転生の章2",
@@ -5134,22 +5067,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HHWSm6Ga4AAEqC_?format=jpg&name=large",
     "x_url": "https://x.com/tokai_kaede/status/2050706559190315177",
-    "collected_at": "2026-05-21T11:11:57Z",
-    "machine_type": "slot"
-  },
-  {
-    "id": "8d7a877fcb8b",
-    "date": "2026-05-03",
-    "time": "06:55",
-    "store": "新ガーデン北戸田駅前",
-    "machine": "スマスロ攻殻機動隊",
-    "slot_number": "536",
-    "text": "5月2日の出玉ランキング  スロット部門 1位[536番台] 革命機ヴァルヴレイヴ2jF　コンプリート 17,109枚 2位[605番台] スマスロ攻殻機動隊ZS 13,189枚 3位[593番台] 炎炎ノ消防隊2 13,069枚 4位[538番台] 革命機ヴァルヴレイヴ2jF 13,006枚 5位[542番台] 東京喰種 10,396枚",
-    "images": [
-      "https://pbs.twimg.com/media/HHWI2SsbQAAbC5_?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HHWI2SsbQAAbC5_?format=jpg&name=large",
-    "x_url": "https://x.com/gardenkitatoda/status/2050695795184443553",
     "collected_at": "2026-05-21T11:11:57Z",
     "machine_type": "slot"
   },
