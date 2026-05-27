@@ -652,7 +652,7 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     url = f"https://x.com/search?q={encoded}&src=typed_query&f=live"
 
     try:
-        page.goto(url, timeout=25000, wait_until="domcontentloaded")
+        page.goto(url, timeout=15000, wait_until="domcontentloaded")
     except PlaywrightTimeout:
         log(f"  ⏱ Timeout: {query}")
         return results
@@ -670,9 +670,10 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     # ページ初期レンダリング完了まで少し待つ
     page.wait_for_timeout(1500)
 
-    # 40回スクロール: wheel距離5000px × 40回 = 合計200,000px分
+    # 25回スクロール: wheel距離5000px × 25回 = 合計125,000px分
     # date_filter で前日〜翌日に絞るため深掘り不要。短縮でクエリ数を最大化
-    for _ in range(40):
+    # 40→25に削減（250ms×25=6.25秒、1クエリあたり約4秒短縮）
+    for _ in range(25):
         page.mouse.wheel(0, 5000)
         page.wait_for_timeout(250)
 
@@ -1314,8 +1315,9 @@ def main():
     all_new: list[dict] = []
     query_errors = 0   # クエリ単位のエラー数
 
-    # ── 時間制限: 28分で強制終了（GH Actions 60分タイムアウトの余裕を確保）
-    MAX_RUNTIME_MIN = 28
+    # ── 時間制限: 22分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
+    # 81クエリ×最悪25秒=約34分がステップ上限に引っかかるため22分に短縮
+    MAX_RUNTIME_MIN = 22
     script_start = time.monotonic()
 
     with sync_playwright() as pw:
