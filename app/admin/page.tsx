@@ -366,7 +366,7 @@ export default function AdminPage() {
             {[
               {
                 name: "コンプリート情報",
-                schedule: "毎時 0分",
+                schedule: "30分ごと (JST 15〜翌2時)",
                 file: "update_complete.yml",
                 color: "orange",
               },

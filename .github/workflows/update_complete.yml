@@ -40,7 +40,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright playwright-stealth
+          pip install playwright playwright-stealth cryptography
           playwright install chromium --with-deps
 
       - name: Fetch complete info from X
@@ -48,6 +48,9 @@ jobs:
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
+          X_USERNAME: ${{ secrets.X_USERNAME }}
+          X_PASSWORD: ${{ secrets.X_PASSWORD }}
+          COOKIE_ENCRYPT_KEY: ${{ secrets.COOKIE_ENCRYPT_KEY }}
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
@@ -79,23 +82,25 @@ jobs:
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
 
           # ── コンフリクトを起こさない push 方式 ─────────────────────────────────
-          # スクリプト実行中に別コミットが push された場合でも安全にマージするため、
-          # 「生成ファイルを退避 → 最新リモートに reset → 復元 → commit → push」を繰り返す
           for i in 1 2 3 4 5; do
             # 生成ファイルを一時退避
             cp public/complete_info.json    /tmp/complete_info.json.bak
             cp public/complete_ranking.json /tmp/complete_ranking.json.bak
+            cp scripts/.x_session.enc /tmp/x_session.enc.bak 2>/dev/null || true
 
-            # 最新リモートに同期（スクリプト実行中に push されたコミットも取り込む）
+            # 最新リモートに同期
             git fetch origin main
             git reset --hard origin/main
 
             # 生成ファイルを復元
             cp /tmp/complete_info.json.bak    public/complete_info.json
             cp /tmp/complete_ranking.json.bak public/complete_ranking.json
+            cp /tmp/x_session.enc.bak scripts/.x_session.enc 2>/dev/null || true
 
-            # 変更がなければ終了
+            # 変更があるファイルだけ add
             git add public/complete_info.json public/complete_ranking.json
+            git add scripts/.x_session.enc 2>/dev/null || true
+
             if git diff --cached --quiet; then
               echo "No changes to commit"
               break
@@ -108,7 +113,6 @@ jobs:
               echo "✅ Push succeeded (attempt ${i})"
               break
             else
-              # push 失敗 → コミットを取り消して再試行（別コミットが先に push された可能性）
               git reset HEAD~1
               echo "⚠️ Push attempt ${i} failed, retrying in 10s..."
               sleep 10

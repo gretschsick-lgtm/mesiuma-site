@@ -47,6 +47,7 @@ except ImportError:
 COMPLETE_JSON      = Path(__file__).parent.parent / "public/complete_info.json"
 RANKING_JSON       = Path(__file__).parent.parent / "public/complete_ranking.json"
 PLAYWRIGHT_PROFILE = Path(__file__).parent / ".x_auth_profile"
+SESSION_FILE       = Path(__file__).parent / ".x_session.enc"
 
 # ---------------------------------------------------------------------------
 # 検索クエリ（店舗投稿に特化）
@@ -290,10 +291,57 @@ def log(msg: str):
     print(f"[{ts}] {msg}", flush=True)
 
 
+def _fernet_key(raw_key: str) -> bytes:
+    import base64, hashlib
+    return base64.urlsafe_b64encode(hashlib.sha256(raw_key.encode()).digest())
+
+
+def _save_session(ctx) -> None:
+    """ブラウザコンテキストから auth_token / ct0 を取り出し、暗号化してファイルに保存する。"""
+    encrypt_key = os.environ.get("COOKIE_ENCRYPT_KEY", "")
+    if not encrypt_key:
+        return
+    try:
+        from cryptography.fernet import Fernet
+        cookies = ctx.cookies("https://x.com")
+        session = {c["name"]: c["value"] for c in cookies if c["name"] in ("auth_token", "ct0")}
+        if len(session) < 2:
+            log("⚠️  セッション保存スキップ（auth_token / ct0 が取得できず）")
+            return
+        encrypted = Fernet(_fernet_key(encrypt_key)).encrypt(json.dumps(session).encode())
+        SESSION_FILE.write_bytes(encrypted)
+        log(f"🔐 セッションを暗号化して保存: {SESSION_FILE.name}")
+    except Exception as e:
+        log(f"⚠️  セッション保存エラー: {e}")
+
+
+def _load_session_cookies() -> list[dict]:
+    """暗号化されたセッションファイルからクッキーを復元する。"""
+    encrypt_key = os.environ.get("COOKIE_ENCRYPT_KEY", "")
+    if not encrypt_key or not SESSION_FILE.exists():
+        return []
+    try:
+        from cryptography.fernet import Fernet
+        decrypted = json.loads(Fernet(_fernet_key(encrypt_key)).decrypt(SESSION_FILE.read_bytes()))
+        auth_token = decrypted.get("auth_token", "")
+        ct0        = decrypted.get("ct0", "")
+        if not auth_token or not ct0:
+            return []
+        log("🔑 暗号化セッションファイルからクッキーを復元")
+        return [
+            {"name": "auth_token", "value": auth_token,
+             "domain": ".x.com", "path": "/", "secure": True, "httpOnly": True, "sameSite": "None"},
+            {"name": "ct0", "value": ct0,
+             "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False, "sameSite": "Lax"},
+        ]
+    except Exception as e:
+        log(f"⚠️  セッション復元エラー: {e}")
+        return []
+
+
 def _get_cookies() -> list[dict]:
     """
-    GitHub Actions: 環境変数 X_AUTH_TOKEN / X_CT0 から取得
-    ローカル: Chromeのcookieから取得
+    優先順位: 環境変数(X_AUTH_TOKEN/X_CT0) → 暗号化セッションファイル → Chrome cookie
     """
     auth_token = os.environ.get("X_AUTH_TOKEN", "")
     ct0        = os.environ.get("X_CT0", "")
@@ -306,6 +354,11 @@ def _get_cookies() -> list[dict]:
             {"name": "ct0", "value": ct0,
              "domain": ".x.com", "path": "/", "secure": True, "httpOnly": False, "sameSite": "Lax"},
         ]
+
+    # 暗号化セッションファイルから復元
+    session_cookies = _load_session_cookies()
+    if session_cookies:
+        return session_cookies
 
     if not HAS_BROWSER_COOKIE3:
         return []
@@ -326,6 +379,47 @@ def _get_cookies() -> list[dict]:
     except Exception as e:
         log(f"⚠️  browser_cookie3: {e}")
     return result
+
+
+def _login_with_credentials(page, username: str, password: str) -> bool:
+    """
+    X_AUTH_TOKEN/X_CT0 が切れた場合にユーザー名+パスワードで再ログインする。
+    成功したら True を返す。
+    """
+    log("🔐 クッキー切れ検出 — ユーザー名/パスワードで再ログインを試みます...")
+    try:
+        page.goto("https://x.com/i/flow/login", timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(3000)
+
+        # ① ユーザー名入力
+        user_input = page.wait_for_selector('input[autocomplete="username"]', timeout=10000)
+        user_input.fill(username)
+        page.keyboard.press("Enter")
+        page.wait_for_timeout(2000)
+
+        # ② 「不審なアクティビティ」確認 (電話/メール入力) が挟まる場合
+        verify_input = page.query_selector('input[data-testid="ocfEnterTextTextInput"]')
+        if verify_input:
+            log("⚠️  追加確認画面を検出 — ユーザー名で突破を試みます")
+            verify_input.fill(username)
+            page.keyboard.press("Enter")
+            page.wait_for_timeout(2000)
+
+        # ③ パスワード入力
+        pw_input = page.wait_for_selector('input[name="password"]', timeout=10000)
+        pw_input.fill(password)
+        page.keyboard.press("Enter")
+        page.wait_for_timeout(6000)
+
+        cur_url = page.url.lower()
+        if "login" not in cur_url and "flow" not in cur_url:
+            log("✅ 再ログイン成功")
+            return True
+        log(f"❌ 再ログイン失敗 (url={page.url})")
+        return False
+    except Exception as e:
+        log(f"❌ 再ログインエラー: {e}")
+        return False
 
 
 def launch_browser(playwright, headless: bool):
@@ -1342,21 +1436,30 @@ def main():
             page.wait_for_timeout(5000)
             cur_url = page.url.lower()
             title = page.title()
-            if "login" in cur_url or "flow" in cur_url:
-                log(f"❌ Xにログインできていません (url={page.url})")
-                ctx.close()
-                supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗")
-                return
-            # ページタイトルで追加確認
-            # 「いま」を見つけよう / X = 未ログイン状態のタイトル
             LOGGED_OUT_TITLES = ["いま", "what's happening", "happening now", "sign in", "log in"]
-            is_logged_out_title = title and any(t in title.lower() for t in LOGGED_OUT_TITLES)
-            if is_logged_out_title:
-                log(f"❌ 未ログイン状態と判定 (title={title!r}) — Xの認証情報を確認してください")
-                ctx.close()
-                supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗（タイトル）")
-                return
-            log(f"✅ Xログイン確認OK (title={title!r})")
+            is_logged_out = (
+                "login" in cur_url or "flow" in cur_url or
+                (title and any(t in title.lower() for t in LOGGED_OUT_TITLES))
+            )
+            if is_logged_out:
+                log(f"⚠️  クッキー認証失敗 (url={page.url}, title={title!r})")
+                x_user = os.environ.get("X_USERNAME", "")
+                x_pass = os.environ.get("X_PASSWORD", "")
+                if x_user and x_pass:
+                    if not _login_with_credentials(page, x_user, x_pass):
+                        log("❌ 再ログイン失敗。収集を中止します")
+                        ctx.close()
+                        supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗")
+                        return
+                    _save_session(ctx)
+                else:
+                    log("❌ X_USERNAME/X_PASSWORD 未設定。収集を中止します")
+                    ctx.close()
+                    supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xログイン失敗（credentials未設定）")
+                    return
+            else:
+                log(f"✅ Xログイン確認OK (title={title!r})")
+                _save_session(ctx)  # 成功のたびに最新クッキーを保存
         except PlaywrightTimeout:
             log("⚠️  ログイン確認タイムアウト — 続行")
 

@@ -65,13 +65,16 @@ const DOW = ["日", "月", "火", "水", "木", "金", "土"];
 function fmtDate(dateStr: string) {
   const d = new Date(dateStr + "T00:00:00");
   if (isNaN(d.getTime())) return dateStr;
-  const today = new Date();
-  const yesterday = new Date(today);
-  yesterday.setDate(today.getDate() - 1);
-  const isTodayDate = d.toDateString() === today.toDateString();
-  const isYesterday = d.toDateString() === yesterday.toDateString();
+  // JST基準で「今日」「昨日」を判定（dateStr は YYYY-MM-DD JST）
+  const nowJst = new Date(Date.now() + 9 * 60 * 60 * 1000);
+  const todayJstStr = nowJst.toISOString().slice(0, 10);
+  const yesterdayJst = new Date(nowJst.getTime() - 24 * 60 * 60 * 1000);
+  const yesterdayJstStr = yesterdayJst.toISOString().slice(0, 10);
+  const isTodayDate = dateStr === todayJstStr;
+  const isYesterday = dateStr === yesterdayJstStr;
   const label = isTodayDate ? "今日" : isYesterday ? "昨日" : null;
   // 当月は「26日(火)」、別月は「4月26日(日)」
+  const today = new Date(todayJstStr + "T00:00:00");
   const sameMonth = d.getMonth() === today.getMonth() && d.getFullYear() === today.getFullYear();
   const ddow = sameMonth
     ? `${d.getDate()}日(${DOW[d.getDay()]})`

@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# X session files (ローカルのプロファイルは除外、暗号化済みは CI でのみコミット)
+scripts/.x_auth_profile/
+scripts/.x_session
