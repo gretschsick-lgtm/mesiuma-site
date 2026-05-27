@@ -1108,6 +1108,10 @@ def update_ranking():
         ("リゼロ",                 "Re:ゼロから始める異世界生活"),
         # ゴジラ
         ("ゴジラ",                 "Lゴジラ"),
+        # eフィーバーもののがたり（eもののがたりは省略表記として統一。eフィーバーもののがたりFは別機種のため対象外）
+        ("eフィーバーもののがたり", "eフィーバーもののがたり"),
+        ("eFEVERもののがたり",      "eフィーバーもののがたり"),
+        ("eもののがたり",          "eフィーバーもののがたり"),
     ]
 
     def normalize_machine(name: str) -> str | None:
@@ -1318,6 +1322,9 @@ def main():
     # ── 時間制限: 22分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
     # 81クエリ×最悪25秒=約34分がステップ上限に引っかかるため22分に短縮
     MAX_RUNTIME_MIN = 22
+    # ── 連続0件での早期終了: X側のレート制限・ボット検知を検出して無駄な待機を避ける
+    MAX_CONSECUTIVE_ZEROS = 12  # 連続12クエリ0件なら終了（全クエリの約15%）
+    consecutive_zeros = 0
     script_start = time.monotonic()
 
     with sync_playwright() as pw:
@@ -1364,10 +1371,12 @@ def main():
             log(f"  [{i}/{len(COMPLETE_QUERIES)}] 🔍 {query}  (経過{elapsed_min:.1f}分)")
 
             # ── クエリ実行（失敗時1回リトライ）─────────────────────────────
+            query_result_count = 0
             for attempt in range(2):
                 try:
                     results = scrape_query(page, query, today)
-                    log(f"       → {len(results)} 件（店舗投稿）")
+                    query_result_count = len(results)
+                    log(f"       → {query_result_count} 件（店舗投稿）")
                     all_new.extend(results)
                     time.sleep(1)
                     break
@@ -1392,6 +1401,16 @@ def main():
 
             if login_lost:
                 break
+
+            # ── 連続0件チェック（X側のレート制限検出）────────────────────────
+            if query_result_count == 0:
+                consecutive_zeros += 1
+                if consecutive_zeros >= MAX_CONSECUTIVE_ZEROS:
+                    log(f"⚠️ {consecutive_zeros}クエリ連続0件を検出 "
+                        f"({i}/{len(COMPLETE_QUERIES)}クエリ完了) — X側制限の可能性、保存して終了")
+                    break
+            else:
+                consecutive_zeros = 0
 
         page.close()
         ctx.close()
