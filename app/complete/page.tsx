@@ -510,6 +510,7 @@ export default function CompletePage() {
         fetch(`/complete_info.json?t=${Date.now()}`),
         fetch(`/complete_ranking.json?t=${Date.now()}`),
       ]);
+      if (!resEntries.ok) throw new Error(`complete_info.json: ${resEntries.status}`);
       const data: CompleteEntry[] = await resEntries.json();
       setEntries(data);
       if (resRanking.ok) {
@@ -517,8 +518,8 @@ export default function CompletePage() {
         setRanking(rankData);
       }
       setLastUpdated(new Date());
-    } catch {
-      // ignore
+    } catch (e) {
+      console.error("[complete] データ取得エラー:", e);
     } finally {
       setLoading(false);
       setRefreshing(false);

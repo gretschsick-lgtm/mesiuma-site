@@ -885,8 +885,14 @@ def save_complete(new_entries: list[dict], target_date: str):
     combined.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
     combined = combined[:3000]
 
-    with open(COMPLETE_JSON, "w", encoding="utf-8") as f:
-        json.dump(combined, f, ensure_ascii=False, indent=2)
+    # 一時ファイルに書き込んでからアトミックにリネーム（書き込み中断でのファイル破損を防止）
+    import tempfile
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", dir=COMPLETE_JSON.parent, delete=False, suffix=".tmp"
+    ) as tf:
+        json.dump(combined, tf, ensure_ascii=False, indent=2)
+        tmp_path = tf.name
+    os.replace(tmp_path, COMPLETE_JSON)
 
     # 本日（target_date）の合計件数
     today_total = sum(1 for e in combined if e.get("date") == target_date)
@@ -1385,8 +1391,13 @@ def update_ranking():
         "store_complete_counts": store_complete_counts,
     }
 
-    with open(RANKING_JSON, "w", encoding="utf-8") as f:
-        json.dump(ranking, f, ensure_ascii=False, indent=2)
+    import tempfile
+    with tempfile.NamedTemporaryFile(
+        "w", encoding="utf-8", dir=RANKING_JSON.parent, delete=False, suffix=".tmp"
+    ) as tf:
+        json.dump(ranking, tf, ensure_ascii=False, indent=2)
+        tmp_path = tf.name
+    os.replace(tmp_path, RANKING_JSON)
 
     log(f"🏆 ランキング更新: 月別{len(monthly_array)}ヶ月分 / トータル店舗TOP{len(total_stores_top)} / スロット機種TOP{len(total_slot_machines_top)}")
 
