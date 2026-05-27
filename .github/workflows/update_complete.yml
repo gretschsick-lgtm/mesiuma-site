@@ -76,23 +76,41 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # トークンを明示的にセット（長時間実行後も有効）
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
-          git add public/complete_info.json public/complete_ranking.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
+
+          # ── コンフリクトを起こさない push 方式 ─────────────────────────────────
+          # スクリプト実行中に別コミットが push された場合でも安全にマージするため、
+          # 「生成ファイルを退避 → 最新リモートに reset → 復元 → commit → push」を繰り返す
+          for i in 1 2 3 4 5; do
+            # 生成ファイルを一時退避
+            cp public/complete_info.json    /tmp/complete_info.json.bak
+            cp public/complete_ranking.json /tmp/complete_ranking.json.bak
+
+            # 最新リモートに同期（スクリプト実行中に push されたコミットも取り込む）
+            git fetch origin main
+            git reset --hard origin/main
+
+            # 生成ファイルを復元
+            cp /tmp/complete_info.json.bak    public/complete_info.json
+            cp /tmp/complete_ranking.json.bak public/complete_ranking.json
+
+            # 変更がなければ終了
+            git add public/complete_info.json public/complete_ranking.json
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              break
+            fi
+
             COUNT=$(python3 -c "import json; d=json.load(open('public/complete_info.json')); print(len(d))")
             git commit -m "chore: update complete_info.json (${COUNT}件) + ranking"
-            # 並行実行による競合対策: 最大5回リトライ + rebase失敗時は abort して再試行
-            for i in 1 2 3 4 5; do
-              if git pull --rebase origin main && git push; then
-                echo "✅ Push succeeded (attempt ${i})"
-                break
-              else
-                git rebase --abort 2>/dev/null || true
-                echo "⚠️ Push attempt ${i} failed, retrying in 10s..."
-                sleep 10
-              fi
-            done
-          fi
+
+            if git push; then
+              echo "✅ Push succeeded (attempt ${i})"
+              break
+            else
+              # push 失敗 → コミットを取り消して再試行（別コミットが先に push された可能性）
+              git reset HEAD~1
+              echo "⚠️ Push attempt ${i} failed, retrying in 10s..."
+              sleep 10
+            fi
+          done
