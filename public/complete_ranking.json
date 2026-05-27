@@ -33,12 +33,14 @@
         {
           "rank": 5,
           "name": "新ガーデン川口安行",
-          "count": 5
+          "count": 5,
+          "x_url": "https://x.com/kawagutiangyo"
         },
         {
           "rank": 6,
           "name": "栄若宮大通店",
-          "count": 4
+          "count": 4,
+          "x_url": "https://x.com/wakakin_tsujic"
         },
         {
           "rank": 7,
@@ -288,12 +290,14 @@
       {
         "rank": 5,
         "name": "新ガーデン川口安行",
-        "count": 5
+        "count": 5,
+        "x_url": "https://x.com/kawagutiangyo"
       },
       {
         "rank": 6,
         "name": "栄若宮大通店",
-        "count": 4
+        "count": 4,
+        "x_url": "https://x.com/wakakin_tsujic"
       },
       {
         "rank": 7,
