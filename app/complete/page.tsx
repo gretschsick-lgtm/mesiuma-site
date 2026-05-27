@@ -102,13 +102,21 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           }}>
             🏆 コンプリート
           </span>
-          {entry.machine_type === "pachinko" && (
+          {entry.machine_type === "pachinko" ? (
             <span style={{
               background: "#e8f5e9", color: "#2e7d32",
               fontSize: 10, fontWeight: 700, padding: "2px 7px",
               borderRadius: 20, border: "1px solid #a5d6a7", whiteSpace: "nowrap",
             }}>
               🎯 パチンコ
+            </span>
+          ) : (
+            <span style={{
+              background: "#fff8e1", color: "#e65100",
+              fontSize: 10, fontWeight: 700, padding: "2px 7px",
+              borderRadius: 20, border: "1px solid #ffcc80", whiteSpace: "nowrap",
+            }}>
+              🎰 スロット
             </span>
           )}
           {entry.slot_number && (
@@ -480,7 +488,7 @@ export default function CompletePage() {
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [refreshing, setRefreshing] = useState(false);
   const [tab, setTab] = useState<"feed" | "ranking">("feed");
-  const [feedFilter, setFeedFilter] = useState<"all" | "slot" | "pachinko">("all");
+  const [feedFilter, setFeedFilter] = useState<"all" | "slot" | "pachinko">("slot");
   const [searchQuery, setSearchQuery] = useState("");
   const [isNarrow, setIsNarrow] = useState(false);
 
@@ -519,6 +527,16 @@ export default function CompletePage() {
     const timer = setInterval(() => loadData(true), 5 * 60 * 1000);
     return () => clearInterval(timer);
   }, []); // eslint-disable-line
+
+  // 集計サマリー（ユニーク店舗数・ユニーク機種数・スロット/パチンコ件数）
+  const stats = useMemo(() => {
+    const valid = entries.filter(e => e.machine && e.machine.trim());
+    const slotCount = valid.filter(e => e.machine_type !== "pachinko").length;
+    const pachinkoCount = valid.filter(e => e.machine_type === "pachinko").length;
+    const uniqueStores = new Set(entries.filter(e => e.store).map(e => e.store)).size;
+    const uniqueMachines = new Set(valid.map(e => e.machine.trim())).size;
+    return { slotCount, pachinkoCount, uniqueStores, uniqueMachines };
+  }, [entries]);
 
   // 日付ごとにグループ化（機種名あるもののみ・新しい順）
   const grouped = useMemo(() => {
@@ -630,6 +648,15 @@ export default function CompletePage() {
                   )}
                 </>
             }
+            {/* 内訳サマリー */}
+            {entries.length > 0 && !searchQuery.trim() && (
+              <div style={{ fontSize: 10, color: C.muted, fontWeight: 400, marginTop: 2, display: "flex", gap: 8 }}>
+                <span>🎰 スロット {stats.slotCount}件</span>
+                <span>🎯 パチンコ {stats.pachinkoCount}件</span>
+                <span style={{ color: C.dim }}>|</span>
+                <span>{stats.uniqueStores}店舗 · {stats.uniqueMachines}機種</span>
+              </div>
+            )}
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             {lastUpdated && (
@@ -684,11 +711,11 @@ export default function CompletePage() {
               )}
             </div>
             {/* タイプフィルター */}
-            <div style={{ display: "flex", gap: 6 }}>
+            <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
               {([
-                { key: "all", label: "すべて" },
-                { key: "slot", label: "🎰 パチスロ" },
-                { key: "pachinko", label: "🎯 パチンコ" },
+                { key: "all",      label: "すべて",    count: stats.slotCount + stats.pachinkoCount },
+                { key: "slot",     label: "🎰 パチスロ", count: stats.slotCount },
+                { key: "pachinko", label: "🎯 パチンコ", count: stats.pachinkoCount },
               ] as const).map(f => (
                 <button
                   key={f.key}
@@ -700,9 +727,18 @@ export default function CompletePage() {
                     background: feedFilter === f.key ? C.red : C.white,
                     color: feedFilter === f.key ? "#fff" : C.sub,
                     cursor: "pointer",
+                    display: "flex", alignItems: "center", gap: 4,
                   }}
                 >
                   {f.label}
+                  {f.count > 0 && (
+                    <span style={{
+                      fontSize: 10, fontWeight: 800,
+                      background: feedFilter === f.key ? "rgba(255,255,255,0.25)" : "#f0f0f0",
+                      color: feedFilter === f.key ? "#fff" : C.muted,
+                      padding: "0px 5px", borderRadius: 10,
+                    }}>{f.count}</span>
+                  )}
                 </button>
               ))}
             </div>
