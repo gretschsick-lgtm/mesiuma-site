@@ -747,11 +747,13 @@ def parse_tweet(text: str, tweet_url: str,
 
     # ── ハンドルから既知店舗名を優先使用（最高精度・誤抽出ゼロ）
     store = ""
+    is_known_store_handle = False
     handle_match = re.search(r'x\.com/([^/]+)/status', tweet_url)
     if handle_match:
         handle = handle_match.group(1).lower()
         if handle in _HANDLE_TO_STORE:
             store = _HANDLE_TO_STORE[handle]
+            is_known_store_handle = True
 
     if not store:
         store = extract_store(text)
@@ -768,13 +770,15 @@ def parse_tweet(text: str, tweet_url: str,
         if _is_store_name(clean_author) or re.search(r'店|ホール', clean_author):
             store = clean_author
 
-    # テキストから取れなければ作者の表示名を使う
+    # テキストから取れなければ作者の表示名を使う（店舗名と確認できる場合のみ）
     if not store and clean_author and _is_store_name(clean_author):
         store = clean_author
-    # それでも取れなければ表示名をそのまま（2文字以上・URL/記号なし）
-    if not store and clean_author and 2 <= len(clean_author) <= 25 and "http" not in clean_author:
-        if not re.search(r'^[a-zA-Z0-9@_\-\.]+$', clean_author):  # 英数字のみは除外
-            store = clean_author
+
+    # ── 未知ハンドル × 店舗名未確定 → お客様・PR投稿として除外 ────────────────
+    # 既知店舗ハンドル以外からのツイートは、店舗名がテキスト/author_name から
+    # 確実に特定できた場合のみ受け入れる（個人アカウント・インフルエンサー対策）
+    if not store and not is_known_store_handle:
+        return None
     machine = extract_machine(text)
     slot_number = extract_slot_number(text)
 
@@ -1533,8 +1537,11 @@ def update_ranking():
         added = 0
         for handle, count in handle_count.items():
             if handle not in existing_handles:
+                sname = handle_store.get(handle, "")
+                if not sname:
+                    continue  # 店舗名不明のハンドルは追加しない（個人アカウント混入防止）
                 existing_handles[handle] = {
-                    "store": handle_store.get(handle, handle),
+                    "store": sname,
                     "x_url": f"https://x.com/{handle}",
                     "count": count,
                 }
