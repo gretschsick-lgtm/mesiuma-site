@@ -1442,6 +1442,59 @@ def update_ranking():
 
     log(f"🏆 ランキング更新: 月別{len(monthly_array)}ヶ月分 / トータル店舗TOP{len(total_stores_top)} / スロット機種TOP{len(total_slot_machines_top)}")
 
+    # ── store_handles.json を最新データで更新（新規ハンドルの自動登録）───────────
+    STORE_HANDLES_JSON = Path(__file__).parent.parent / "public/store_handles.json"
+    try:
+        existing_handles: dict = {}
+        if STORE_HANDLES_JSON.exists():
+            existing_handles = json.loads(STORE_HANDLES_JSON.read_text(encoding="utf-8"))
+
+        # 全エントリから handle を抽出してカウント
+        handle_count: dict[str, int] = {}
+        handle_store: dict[str, str] = {}
+        for e in all_data:
+            url = e.get("x_url", "")
+            store = (e.get("store") or "").strip()
+            if url and "/status/" in url and store and len(store) >= 3:
+                handle = url.split("/status/")[0].rstrip("/").split("/")[-1].lower()
+                if handle:
+                    handle_count[handle] = handle_count.get(handle, 0) + 1
+                    # より長い店舗名を優先
+                    if handle not in handle_store or len(store) > len(handle_store.get(handle, "")):
+                        handle_store[handle] = store
+
+        # 既存ハンドルを更新・新規追加
+        added = 0
+        for handle, count in handle_count.items():
+            if handle not in existing_handles:
+                existing_handles[handle] = {
+                    "store": handle_store.get(handle, handle),
+                    "x_url": f"https://x.com/{handle}",
+                    "count": count,
+                }
+                added += 1
+            else:
+                existing_handles[handle]["count"] = count
+                # 店舗名も更新（より長い名称があれば）
+                cur = existing_handles[handle].get("store", "")
+                new = handle_store.get(handle, "")
+                if new and len(new) > len(cur):
+                    existing_handles[handle]["store"] = new
+
+        # count降順でソート
+        sorted_handles = dict(sorted(existing_handles.items(), key=lambda x: -(x[1].get("count", 0) if isinstance(x[1], dict) else 0)))
+
+        with tempfile.NamedTemporaryFile(
+            "w", encoding="utf-8", dir=STORE_HANDLES_JSON.parent, delete=False, suffix=".tmp"
+        ) as tf2:
+            json.dump(sorted_handles, tf2, ensure_ascii=False, indent=2)
+            tmp2 = tf2.name
+        os.replace(tmp2, STORE_HANDLES_JSON)
+        if added:
+            log(f"📋 store_handles.json 更新: {added}件新規追加 / 計{len(sorted_handles)}店舗")
+    except Exception as _she:
+        log(f"⚠️ store_handles.json 更新エラー: {_she}")
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -1457,8 +1510,28 @@ def main():
         JST = timezone(timedelta(hours=9))
         today = datetime.now(JST).strftime("%Y-%m-%d")
 
+    # ── 既知店舗の from:handle クエリを生成（キーワード検索より高精度・0%フォールスポジティブ）
+    STORE_HANDLES_JSON = Path(__file__).parent.parent / "public/store_handles.json"
+    handle_queries: list[str] = []
+    if STORE_HANDLES_JSON.exists():
+        try:
+            store_handles_data: dict = json.loads(STORE_HANDLES_JSON.read_text(encoding="utf-8"))
+            # count >= 2 の実績ある店舗アカウントを対象（上位60件まで）
+            active_handles = [
+                (h, info) for h, info in store_handles_data.items()
+                if isinstance(info, dict) and info.get("count", 0) >= 2
+            ]
+            active_handles.sort(key=lambda x: -x[1].get("count", 0))
+            handle_queries = [f"from:{h} コンプリート" for h, _ in active_handles[:60]]
+            log(f"📋 from:handle クエリ {len(handle_queries)}件 追加")
+        except Exception as _he:
+            log(f"⚠️ store_handles.json 読み込みエラー: {_he}")
+
+    # from:handle クエリを先頭に置くことで最重要店舗を優先収集
+    all_queries = handle_queries + list(COMPLETE_QUERIES)
+
     log("=" * 60)
-    log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(COMPLETE_QUERIES)}")
+    log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(all_queries)} (handle:{len(handle_queries)} + keyword:{len(COMPLETE_QUERIES)})")
 
     # ── Supabase: 実行開始を記録 ──────────────────────────────────────────
     sb_log_id = supabase_log_start("complete")
@@ -1467,10 +1540,12 @@ def main():
     query_errors = 0   # クエリ単位のエラー数
 
     # ── 時間制限: 22分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
-    # 81クエリ×最悪25秒=約34分がステップ上限に引っかかるため22分に短縮
     MAX_RUNTIME_MIN = 22
-    # ── 連続0件での早期終了: X側のレート制限・ボット検知を検出して無駄な待機を避ける
-    MAX_CONSECUTIVE_ZEROS = 12  # 連続12クエリ0件なら終了（全クエリの約15%）
+    # ── 連続0件での早期終了: X側のレート制限検出
+    # 最初の30クエリは0件でも継続（from:handle は投稿がない日もあるため）
+    # 30クエリ以降は連続12件0件で終了
+    MAX_CONSECUTIVE_ZEROS = 12
+    MIN_QUERIES_BEFORE_EARLY_STOP = 30  # 最低この数をこなしてから早期終了を有効化
     consecutive_zeros = 0
     script_start = time.monotonic()
 
@@ -1516,15 +1591,15 @@ def main():
             log("⚠️  ログイン確認タイムアウト — 続行")
 
         login_lost = False
-        for i, query in enumerate(COMPLETE_QUERIES, 1):
+        for i, query in enumerate(all_queries, 1):
             # ── 時間制限チェック ──────────────────────────────────────────────
             elapsed_min = (time.monotonic() - script_start) / 60
             if elapsed_min >= MAX_RUNTIME_MIN:
                 log(f"⏰ {MAX_RUNTIME_MIN}分の時間制限に達しました "
-                    f"({i-1}/{len(COMPLETE_QUERIES)}クエリ完了) — 保存して終了")
+                    f"({i-1}/{len(all_queries)}クエリ完了) — 保存して終了")
                 break
 
-            log(f"  [{i}/{len(COMPLETE_QUERIES)}] 🔍 {query}  (経過{elapsed_min:.1f}分)")
+            log(f"  [{i}/{len(all_queries)}] 🔍 {query}  (経過{elapsed_min:.1f}分)")
 
             # ── クエリ実行（失敗時1回リトライ）─────────────────────────────
             query_result_count = 0
@@ -1559,11 +1634,12 @@ def main():
                 break
 
             # ── 連続0件チェック（X側のレート制限検出）────────────────────────
+            # 最初の MIN_QUERIES_BEFORE_EARLY_STOP クエリは from:handle が多く0件でも正常
             if query_result_count == 0:
                 consecutive_zeros += 1
-                if consecutive_zeros >= MAX_CONSECUTIVE_ZEROS:
+                if i >= MIN_QUERIES_BEFORE_EARLY_STOP and consecutive_zeros >= MAX_CONSECUTIVE_ZEROS:
                     log(f"⚠️ {consecutive_zeros}クエリ連続0件を検出 "
-                        f"({i}/{len(COMPLETE_QUERIES)}クエリ完了) — X側制限の可能性、保存して終了")
+                        f"({i}/{len(all_queries)}クエリ完了) — X側制限の可能性、保存して終了")
                     break
             else:
                 consecutive_zeros = 0
