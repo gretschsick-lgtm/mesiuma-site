@@ -1,577 +1,644 @@
-[
-  {
-    "machine": "革命機ヴァルヴレイヴ2",
-    "count": 48,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロ北斗の拳転生の章2",
-    "count": 32,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "牙狼12",
-    "count": 26,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "ミリオンゴッド神々の軌跡",
-    "count": 21,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "L東京喰種",
-    "count": 18,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eフィーバーキン肉マン",
-    "count": 15,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "Lチバリヨ2ZB",
-    "count": 9,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロゴッドイーター",
-    "count": 8,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロ攻殻機動隊",
-    "count": 8,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eバイオハザード6",
-    "count": 7,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "炎炎ノ消防隊2",
-    "count": 5,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "甲鉄城",
-    "count": 4,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "沖ドキDUO アンコール",
-    "count": 4,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "不明",
-    "count": 4,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "東京喰種",
-    "count": 3,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "からくりサーカス",
-    "count": 3,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Lかぐや様は告らせたい",
-    "count": 3,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "お客様",
-    "count": 3,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "e女神のカフェテラス",
-    "count": 3,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "Lリコリス・リコイル",
-    "count": 3,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "吉宗",
-    "count": 3,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "18000枚Over",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "北斗の拳転生",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "北斗の拳",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "バイオハザードRE:3",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロ賭ケグルイ",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "L炎炎ノ消防隊2",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Ｌ炎炎ノ消防隊２",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Lアズールレーン2",
-    "count": 2,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eバイオハザード6APN",
-    "count": 2,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "攻殻機動隊",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Fキン肉マン",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "かぐや様は告らせたい",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "e東京喰種",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "沖ドキ！DUOアンコール",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "【e牙狼12黄金騎士極限】",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "ミリオンゴッド",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "コンプリート達成",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "wyork_izumi15",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "革命機ヴァルヴレイヴ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ヴァルヴレイヴ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ビッグドリーム",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "真打吉宗",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "沖ドキ！DUO",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Lバイオハザード５",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "カケグルイ219ver",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "「モンスターハンターライズ」",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ゴッドイーター",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "コンプおめ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "誠におめ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eフィーバーもののがたり",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "eフィーバーブルーロック",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "ミリオンゴット",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "カバネリ海門決戦",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "オススメ機種",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eひきこまり吸血姫の悶々FHV",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "バイオハザード5",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "プリズムナナ(",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "沖ドキDUO2",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ＬタクトオーパスＭ１",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eエヴァ１７はじまりR",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "戦国乙女4",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eフィーバーもののがたりF",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "バイオハザードRe：3",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ゾンビランドサガ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "シャーマンキング",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロ化物語",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "新鬼武者3SA",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "から、、、",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "お客様より",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Ｌかぐや様は告らせたいjA",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "閉店間際になんと",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Lシャーマンキング",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "なんと２台同時",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロ北斗の拳",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "アクダマドライブ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "沖ドキDUO",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "真打吉宗のお客様",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "炎炎の消防隊",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "モンキーターン",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "鉄拳6YD01H",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "TT-KR",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "Lゴジラ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "スマスロバイオハザード５",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "鉄拳6から一撃",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "e北斗の拳 暴凶星",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "e花の慶次～黄金の一撃～",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "モンキーターンV",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "沖ドキDUOアンコール",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "L真打吉宗",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "炎炎ノ消防隊２にて",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "コーナー",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "カバネリ",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eブルーロック",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "▶︎▶︎▶︎▶︎",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "e新世紀エヴァンゲリオン",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "eひきこまり吸血姫の悶々",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "真打じゃない方の吉宗より",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "e炎炎ノ消防隊2",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "Lいざ！番長",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": ")じゃないよね????",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "バイオハザード5\"",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "・スマスロは",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ヴヴヴ2",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "にて...",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "L新鬼武者3",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "バンドリ」から",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "ｅリング",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "eガールズ＆パンツァー最終章",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "女神のカフェテラス",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "リコリスリコイル",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "にて…",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "eフィーバー炎炎ノ消防隊",
-    "count": 1,
-    "machine_type": "pachinko"
-  },
-  {
-    "machine": "カバネリ4台",
-    "count": 1,
-    "machine_type": "slot"
-  },
-  {
-    "machine": "L吉宗",
-    "count": 1,
-    "machine_type": "slot"
+{
+  "generated_at": "2026-05-28T19:49:02+09:00",
+  "monthly": [
+    {
+      "month": "2026-05",
+      "label": "2026年5月",
+      "total_count": 307,
+      "stores": [
+        {
+          "rank": 1,
+          "name": "楽園池袋店ゲートウェイ",
+          "count": 8,
+          "x_url": "https://x.com/rakuenikebukuro"
+        },
+        {
+          "rank": 2,
+          "name": "プレイランドキャッスル熱田店",
+          "count": 8,
+          "x_url": "https://x.com/castleatsuta"
+        },
+        {
+          "rank": 3,
+          "name": "キャッスル春日井",
+          "count": 7,
+          "x_url": "https://x.com/castle_kasugai"
+        },
+        {
+          "rank": 4,
+          "name": "マルハン仙台苦竹店",
+          "count": 6,
+          "x_url": "https://x.com/niga_maru"
+        },
+        {
+          "rank": 5,
+          "name": "新ガーデン川口安行",
+          "count": 5,
+          "x_url": "https://x.com/kawagutiangyo"
+        },
+        {
+          "rank": 6,
+          "name": "SPACE(スペース444＆666)",
+          "count": 4,
+          "x_url": "https://x.com/space666tobata"
+        },
+        {
+          "rank": 7,
+          "name": "栄若宮大通店",
+          "count": 4,
+          "x_url": "https://x.com/wakakin_tsujic"
+        },
+        {
+          "rank": 8,
+          "name": "キコーナ海老名",
+          "count": 4,
+          "x_url": "https://x.com/kicona_ebina"
+        },
+        {
+          "rank": 9,
+          "name": "楽園大宮店",
+          "count": 3,
+          "x_url": "https://x.com/rakuen_ohmiya"
+        },
+        {
+          "rank": 10,
+          "name": "キクヤ春日井店",
+          "count": 3,
+          "x_url": "https://x.com/315kasugai"
+        }
+      ],
+      "slot_machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 41
+        },
+        {
+          "rank": 2,
+          "name": "スマスロ北斗の拳転生の章2",
+          "count": 36
+        },
+        {
+          "rank": 3,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 22
+        },
+        {
+          "rank": 4,
+          "name": "L東京喰種",
+          "count": 19
+        },
+        {
+          "rank": 5,
+          "name": "L炎炎ノ消防隊2",
+          "count": 11
+        },
+        {
+          "rank": 6,
+          "name": "スマスロ攻殻機動隊",
+          "count": 9
+        },
+        {
+          "rank": 7,
+          "name": "スマスロゴッドイーター",
+          "count": 9
+        },
+        {
+          "rank": 8,
+          "name": "Lチバリヨ2ZB",
+          "count": 9
+        },
+        {
+          "rank": 9,
+          "name": "沖ドキDUO アンコール",
+          "count": 7
+        },
+        {
+          "rank": 10,
+          "name": "L吉宗",
+          "count": 7
+        }
+      ],
+      "pachinko_machines": [
+        {
+          "rank": 1,
+          "name": "牙狼12",
+          "count": 27
+        },
+        {
+          "rank": 2,
+          "name": "eフィーバーキン肉マン",
+          "count": 16
+        },
+        {
+          "rank": 3,
+          "name": "eバイオハザード6",
+          "count": 9
+        },
+        {
+          "rank": 4,
+          "name": "e東京喰種",
+          "count": 3
+        },
+        {
+          "rank": 5,
+          "name": "e女神のカフェテラス",
+          "count": 3
+        },
+        {
+          "rank": 6,
+          "name": "eフィーバーもののがたり",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "eフィーバーブルーロック",
+          "count": 1
+        },
+        {
+          "rank": 8,
+          "name": "eひきこまり吸血姫の悶々FHV",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "eエヴァ１７はじまりR",
+          "count": 1
+        },
+        {
+          "rank": 10,
+          "name": "eフィーバーもののがたりF",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "month": "2026-04",
+      "label": "2026年4月",
+      "total_count": 13,
+      "stores": [
+        {
+          "rank": 1,
+          "name": "キャッスル春日井",
+          "count": 6,
+          "x_url": "https://x.com/castle_kasugai"
+        },
+        {
+          "rank": 2,
+          "name": "ユーコーラッキー37筑後店",
+          "count": 1,
+          "x_url": "https://x.com/yuko_chikugo"
+        },
+        {
+          "rank": 3,
+          "name": "キャッスル高浜店",
+          "count": 1,
+          "x_url": "https://x.com/hara_strong"
+        },
+        {
+          "rank": 4,
+          "name": "関西すろいべ(旧ネコスロ)",
+          "count": 1,
+          "x_url": "https://x.com/osaka_slot_neko"
+        },
+        {
+          "rank": 5,
+          "name": "SUPER CONCORDE 市野",
+          "count": 1,
+          "x_url": "https://x.com/concorde_ichino"
+        },
+        {
+          "rank": 6,
+          "name": "キャッスル春日井でお楽しみください♪",
+          "count": 1
+        },
+        {
+          "rank": 7,
+          "name": "ユーコーラッキー37辻堂店",
+          "count": 1,
+          "x_url": "https://x.com/yuko_tsujidou"
+        },
+        {
+          "rank": 8,
+          "name": "門前仲町スターダスト",
+          "count": 1,
+          "x_url": "https://x.com/monnaka_sd"
+        }
+      ],
+      "slot_machines": [
+        {
+          "rank": 1,
+          "name": "革命機ヴァルヴレイヴ2",
+          "count": 10
+        },
+        {
+          "rank": 2,
+          "name": "甲鉄城のカバネリ海門決戦",
+          "count": 1
+        },
+        {
+          "rank": 3,
+          "name": "ミリオンゴッド神々の軌跡",
+          "count": 1
+        },
+        {
+          "rank": 4,
+          "name": "L吉宗",
+          "count": 1
+        }
+      ],
+      "pachinko_machines": []
+    }
+  ],
+  "total": {
+    "stores": [
+      {
+        "rank": 1,
+        "name": "キャッスル春日井",
+        "count": 13,
+        "x_url": "https://x.com/castle_kasugai"
+      },
+      {
+        "rank": 2,
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 8,
+        "x_url": "https://x.com/rakuenikebukuro"
+      },
+      {
+        "rank": 3,
+        "name": "プレイランドキャッスル熱田店",
+        "count": 8,
+        "x_url": "https://x.com/castleatsuta"
+      },
+      {
+        "rank": 4,
+        "name": "マルハン仙台苦竹店",
+        "count": 6,
+        "x_url": "https://x.com/niga_maru"
+      },
+      {
+        "rank": 5,
+        "name": "新ガーデン川口安行",
+        "count": 5,
+        "x_url": "https://x.com/kawagutiangyo"
+      },
+      {
+        "rank": 6,
+        "name": "SPACE(スペース444＆666)",
+        "count": 4,
+        "x_url": "https://x.com/space666tobata"
+      },
+      {
+        "rank": 7,
+        "name": "栄若宮大通店",
+        "count": 4,
+        "x_url": "https://x.com/wakakin_tsujic"
+      },
+      {
+        "rank": 8,
+        "name": "キコーナ海老名",
+        "count": 4,
+        "x_url": "https://x.com/kicona_ebina"
+      },
+      {
+        "rank": 9,
+        "name": "楽園大宮店",
+        "count": 3,
+        "x_url": "https://x.com/rakuen_ohmiya"
+      },
+      {
+        "rank": 10,
+        "name": "キクヤ春日井店",
+        "count": 3,
+        "x_url": "https://x.com/315kasugai"
+      }
+    ],
+    "slot_machines": [
+      {
+        "rank": 1,
+        "name": "革命機ヴァルヴレイヴ2",
+        "count": 51
+      },
+      {
+        "rank": 2,
+        "name": "スマスロ北斗の拳転生の章2",
+        "count": 36
+      },
+      {
+        "rank": 3,
+        "name": "ミリオンゴッド神々の軌跡",
+        "count": 23
+      },
+      {
+        "rank": 4,
+        "name": "L東京喰種",
+        "count": 19
+      },
+      {
+        "rank": 5,
+        "name": "L炎炎ノ消防隊2",
+        "count": 11
+      },
+      {
+        "rank": 6,
+        "name": "スマスロ攻殻機動隊",
+        "count": 9
+      },
+      {
+        "rank": 7,
+        "name": "スマスロゴッドイーター",
+        "count": 9
+      },
+      {
+        "rank": 8,
+        "name": "Lチバリヨ2ZB",
+        "count": 9
+      },
+      {
+        "rank": 9,
+        "name": "L吉宗",
+        "count": 8
+      },
+      {
+        "rank": 10,
+        "name": "沖ドキDUO アンコール",
+        "count": 7
+      }
+    ],
+    "pachinko_machines": [
+      {
+        "rank": 1,
+        "name": "牙狼12",
+        "count": 27
+      },
+      {
+        "rank": 2,
+        "name": "eフィーバーキン肉マン",
+        "count": 16
+      },
+      {
+        "rank": 3,
+        "name": "eバイオハザード6",
+        "count": 9
+      },
+      {
+        "rank": 4,
+        "name": "e東京喰種",
+        "count": 3
+      },
+      {
+        "rank": 5,
+        "name": "e女神のカフェテラス",
+        "count": 3
+      },
+      {
+        "rank": 6,
+        "name": "eフィーバーもののがたり",
+        "count": 1
+      },
+      {
+        "rank": 7,
+        "name": "eフィーバーブルーロック",
+        "count": 1
+      },
+      {
+        "rank": 8,
+        "name": "eひきこまり吸血姫の悶々FHV",
+        "count": 1
+      },
+      {
+        "rank": 9,
+        "name": "eエヴァ１７はじまりR",
+        "count": 1
+      },
+      {
+        "rank": 10,
+        "name": "eフィーバーもののがたりF",
+        "count": 1
+      }
+    ],
+    "total_count": 336
+  },
+  "store_complete_counts": {
+    "キャッスル春日井": 13,
+    "楽園池袋店ゲートウェイ": 8,
+    "プレイランドキャッスル熱田店": 8,
+    "マルハン仙台苦竹店": 6,
+    "新ガーデン川口安行": 5,
+    "SPACE(スペース444＆666)": 4,
+    "栄若宮大通店": 4,
+    "キコーナ海老名": 4,
+    "楽園大宮店": 3,
+    "キクヤ春日井店": 3,
+    "楽園池袋店グリーンサイド": 3,
+    "プレイランドキャッスル東郷店": 3,
+    "ビックマーチ河和田東店": 3,
+    "メガフェイス菊陽": 3,
+    "マルハンメガシティ伊勢崎": 3,
+    "グランキコーナひたちなか店": 3,
+    "フェイス850佐賀": 3,
+    "マルハンアプリはこちら": 2,
+    "ミリオン宇多津店": 2,
+    "ダイナム柴田町店": 2,
+    "パラッツォ志村店": 2,
+    "パチンコの玉屋∞本店": 2,
+    "ビックマーチ東習志野店": 2,
+    "ダイナム兵庫たつの店": 2,
+    "でこぼこ店長＠ディーボ知寄": 2,
+    "ダイナム長野上田店": 2,
+    "テキサス小倉店": 2,
+    "店長あらた　マルハンメガシティ長野": 2,
+    "ダイナム岡山倉敷中島店": 2,
+    "キクヤ穂積店": 2,
+    "サンキワールド児島店": 2,
+    "ユーコーラッキー37辻堂店": 2,
+    "G松原店": 2,
+    "SUPER CONCORDE 市野": 2,
+    "コンコルド御前崎店": 2,
+    "甲府昭和店": 2,
+    "スーパーD’ステーション３９女神店": 2,
+    "グランドホール港南店": 2,
+    "楽園蒲田店": 2,
+    "SUPER CONCORDE": 2,
+    "マルハン亀有店_亀にゃん": 2,
+    "メガフェイス960飯塚": 2,
+    "マルハン裾野北店＠役職X": 2,
+    "ダイナム北斗七重浜店": 2,
+    "テキサス段原店": 2,
+    "ダイナム金町南口店": 2,
+    "MJアリーナ井尻店": 2,
+    "キャッスル天白店": 2,
+    "キクヤ一宮店": 2,
+    "天国朝生田店1020": 2,
+    "ARROW浪速店【公式】SINCE 2005.01.22": 2,
+    "パラッツォ鳩ヶ谷店": 2,
+    "エクスアリーナ松戸": 2,
+    "キャッスル高浜店": 2,
+    "メガフェイス1300淀川": 2,
+    "クラブハウス本店@Since.1991.12.29": 1,
+    "中吉野店": 1,
+    "んガイア尼崎店": 1,
+    "フジコー三島店": 1,
+    "スーパーD'ステーション前橋大利根店": 1,
+    "玉ノ助【パーラーダジュール公式】": 1,
+    "マルハン青梅新町店【イイじゃん!】": 1,
+    "楽園柏店＠フクゾー店長と仲間達": 1,
+    "ABC浜北店【パチンコ＆スロット】": 1,
+    "D'ステーション東金店": 1,
+    "京都駅前ラッキーパチンコ店": 1,
+    "ーク出水店": 1,
+    "トリさん@ピーアーク北千住エリア【公式】のトリさん": 1,
+    "ビックマーチ藤代店@店舗の仲間たち": 1,
+    "ダイナム茨城下妻店": 1,
+    "メガフェイス1450本山": 1,
+    "デマッセ梅津店・ライト館": 1,
+    "メガフェイス1120豊崎本館＆豊崎Ⅱ": 1,
+    "キャッスル記念橋南店": 1,
+    "イチロク八代店": 1,
+    "【公式】ダイナム栃木黒磯店": 1,
+    "プラチナム5-中の人-": 1,
+    "つばめザ・ビーム": 1,
+    "ダイナム富山砺波店～Since～2006.5.23": 1,
+    "ダイナム砂町銀座店 SINCE.1989.12.27": 1,
+    "スタジアム2001徳島川内店": 1,
+    "新ガーデン西浦和": 1,
+    "ミリオンゴット": 1,
+    "ホームラン菰野店": 1,
+    "SUPER COSMO PREMIUM大東店": 1,
+    "メガフェイス豊崎": 1,
+    "J・PARK安謝店": 1,
+    "マルハン佐賀店実績": 1,
+    "やすだ八潮店": 1,
+    "ダイアナ香里園店": 1,
+    "ダイナム和歌山御坊店": 1,
+    "ウエスタン西葛西店": 1,
+    "トワーズ西八店": 1,
+    "ディーズクラブ河渡店": 1,
+    "スーパーD'ステーション東金店": 1,
+    "ダイナム山梨笛吹店": 1,
+    "永楽本店": 1,
+    "ドキわくランド中河原駅前店": 1,
+    "ミクちゃんガイア尼崎店": 1,
+    "パラディソ古川ドルフィン館": 1,
+    "ベガスベガス名掛丁店": 1,
+    "ダイナム江北店": 1,
+    "ウイングあすと長町店": 1,
+    "BIGディッパー花小金井店": 1,
+    "りっちらんど上尾": 1,
+    "ABC豊川店": 1,
+    "つかさ月隈店（公式）": 1,
+    "原　Strong": 1,
+    "パラッツォ船橋店": 1,
+    "マルハン袋井店": 1,
+    "ダイナム佐世保店": 1,
+    "ダイナム会津若松店": 1,
+    "ダイナム福岡頴田店": 1,
+    "ダムズ小出店": 1,
+    "PSJ新宮店": 1,
+    "店長マエダクラブイーグル千歳": 1,
+    "オメガ舞屋EAST&WEST": 1,
+    "キコーナ小田原扇町店": 1,
+    "キコーナ府中": 1,
+    "マルハン名取店": 1,
+    "ビックつばめ矢野目店": 1,
+    "ピーアーク朝霞": 1,
+    "サンサンくん＠サンコー梅島店": 1,
+    "ベガビック1130豊川店": 1,
+    "ビータプローバ": 1,
+    "玉屋∞本店": 1,
+    "ワンダーランド武雄店": 1,
+    "ラッキープラザ1050可児店": 1,
+    "るしふぁ＠Ｄ'ステ仙台泉店スロ担": 1,
+    "ビックマーチ桐生店": 1,
+    "マルハン入間店": 1,
+    "高崎本店": 1,
+    "ウイング蕨６００": 1,
+    "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店": 1,
+    "マルハン松本店": 1,
+    "ビックつばめ錦店": 1,
+    "サンドラ大塚店": 1,
+    "TOHO川越店": 1,
+    "ダイナム富山砺波店": 1,
+    "テキサス白島店": 1,
+    "ニラク郡山並木店": 1,
+    "マルハン橿原北店店": 1,
+    "パチンコの玉屋∞新宮": 1,
+    "ダイナム福岡久留米店": 1,
+    "ビックマーチ八斗島店": 1,
+    "楽園ハッピーロード大山店": 1,
+    "スーパーD'ステーション39福重店": 1,
+    "プラザ本店Ⅱ": 1,
+    "マルハン下松店": 1,
+    "ゾーン行橋1000": 1,
+    "ガーデン東大宮店＠がしみや　4/21(火)リニューアル": 1,
+    "マルハン川越店": 1,
+    "すぎちゃん∞マルハン茂原店": 1,
+    "メガガーデン所沢スロット館": 1,
+    "ニューアサヒ長野青木島店": 1,
+    "ピーアーク竹の塚": 1,
+    "キング観光サウザンド名古屋駅柳橋店": 1,
+    "コンコルド築地東店": 1,
+    "アロー志紀店": 1,
+    "Ｐスパーク": 1,
+    "マルハン所沢店": 1,
+    "D’station39長与店": 1,
+    "ガーデンプラス所沢店": 1,
+    "ライブガーデン上尾店": 1,
+    "パーラーVOX": 1,
+    "ダイナム佐賀大和店": 1,
+    "コボちゃん＠遊び工房 恵庭店": 1,
+    "ダイナム栃木大田原店": 1,
+    "オリエントインペリアルホール｜青梅新町": 1,
+    "D'ステ渋川インター店": 1,
+    "GOGOアリーナ天神": 1,
+    "新ガーデン北戸田駅前": 1,
+    "DSGアリーナ高岡": 1,
+    "＠やすだひばりヶ丘店": 1,
+    "グランドセピア": 1,
+    "やすだ西池袋6号店": 1,
+    "MJアリーナ箱崎店": 1,
+    "ＭＪアリーナ干隈店": 1,
+    "マルハンメガシティ柏": 1,
+    "マルハン沼津店": 1,
+    "マルハン清河寺": 1,
+    "メガフェイス1000糸島": 1,
+    "メガフェイス1120豊崎": 1,
+    "ヴィーナスギャラリー清川店": 1,
+    "SC夢屋豊橋佐藤店": 1,
+    "ゆかぴマルイ伊那": 1,
+    "フェイス６６６神埼": 1,
+    "ABC甲府上阿原店": 1,
+    "吉兆東名川崎店": 1,
+    "M&K岡崎店": 1,
+    "イーグルアールワン南8条店": 1,
+    "ビックマーチ水戸本店": 1,
+    "メッセ三鷹店": 1,
+    "ダイナム武生店": 1,
+    "マルハン筑西店": 1,
+    "ビッグアップル.周南店": 1,
+    "スーパードーム四日市店": 1,
+    "マルハン南宮崎店": 1,
+    "まるみつ長与店": 1,
+    "ダイナム御薗店": 1,
+    "メガガイア柳井": 1,
+    "キャッスル高浜": 1,
+    "マルハン小山千駄塚店": 1,
+    "ミリオン1100朝霞店": 1,
+    "ミリオン朝霞店": 1,
+    "浜町まるみつ店": 1,
+    "クラブハウス庄内支店": 1,
+    "キコーナ相武台店": 1,
+    "ジーワン二軒屋": 1,
+    "ZENT可児店": 1,
+    "ダイナム鹿児島指宿店": 1,
+    "サミット別府店": 1,
+    "グランド元山": 1,
+    "マルハン島田": 1,
+    "サンシャイン弥生": 1,
+    "マルハンメガシティ八千代緑が丘』結果": 1,
+    "ユーコーラッキー37筑後店": 1,
+    "関西すろいべ(旧ネコスロ)": 1,
+    "キャッスル春日井でお楽しみください♪": 1,
+    "門前仲町スターダスト": 1
   }
-]
+}
