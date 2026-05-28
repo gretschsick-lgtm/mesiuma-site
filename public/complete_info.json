@@ -2156,8 +2156,8 @@
     "date": "2026-05-25",
     "time": "18:00",
     "store": "テキサス小倉店",
-    "machine": "L東京喰種",
-    "machine_type": "slot",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
     "slot_number": "802",
     "text": "こんばんは  テキサス小倉店です  5月25日  コンプリート達成             802番台         e東京喰種   ナント1人のお客様が95000玉 コンプリートまで続行とは… これぞ、まさしくコンプリートも 僕のだぞ  おめでとうございます #コンプリート",
     "x_url": "https://x.com/texas_kokura/status/2058835564040966560",
@@ -2322,7 +2322,7 @@
     "date": "2026-05-25",
     "time": "08:24",
     "store": "ウエスタン西葛西店",
-    "machine": "プリズムナナ(",
+    "machine": "Lプリズムナナ",
     "machine_type": "slot",
     "slot_number": "442",
     "text": "【2026/05/24】  西葛西 スロット差枚ランキング  1位：Lプリズムナナ(442番台)  祝コンプリート17,736枚  2位：Lスーパーリオエース2(425番台) 5,862枚   3位：Lスーパーブラックジャック(412番台)7,111枚 4位：LバイオハザードRE:3(396番台)5,212枚",
@@ -5101,23 +5101,6 @@
     "machine_type": "slot"
   },
   {
-    "id": "d697de6c73d7",
-    "date": "2026-05-19",
-    "time": "22:11",
-    "store": "メガフェイス1000糸島",
-    "machine": "革命機ヴァルヴレイヴ2",
-    "slot_number": "1868",
-    "text": "Lヴァルヴレイヴ2 1868番台  #コンプリート まで あと少しでした  ですがこの結果は流石です おめでとう御座います",
-    "images": [
-      "https://pbs.twimg.com/media/HIrz7b5bQAAMc8V?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIrz7byaUAAELJM?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIrz7b5bQAAMc8V?format=jpg&name=large",
-    "x_url": "https://x.com/face__1000/status/2056724394081501522",
-    "collected_at": "2026-05-21T11:23:23Z",
-    "machine_type": "slot"
-  },
-  {
     "id": "6713674d44d1",
     "date": "2026-05-19",
     "time": "22:01",
@@ -5435,23 +5418,6 @@
     "x_url": "https://x.com/Suyasuya_bm/status/2056619079096807848",
     "collected_at": "2026-05-21T10:57:15Z",
     "machine_type": "pachinko"
-  },
-  {
-    "id": "621a459fae0b",
-    "date": "2026-05-19",
-    "time": "10:03",
-    "store": "天国朝生田店1020",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "slot_number": "670",
-    "text": "5月19日(火) ランキング  パチンコ 670番台　牙狼12　85,780玉 661番台　牙狼12　78,650玉 107番台　東京喰種　64,340玉  スロット 228番台　北斗転生　8,651枚 200番台　ﾋﾞｯｸﾞﾄﾞﾘｰﾑ　8,313枚 258番台　東京喰種　7,655枚  惜しいっ コンプリートまであと少しでした",
-    "images": [
-      "https://pbs.twimg.com/media/HIuUyCKbMAAtqHM?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIuU0X6bcAAh6A1?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIuUyCKbMAAtqHM?format=jpg&name=large",
-    "x_url": "https://x.com/tengoku_asoda/status/2056903521598132239",
-    "collected_at": "2026-05-21T14:35:37Z",
-    "machine_type": "slot"
   },
   {
     "id": "c7bce009a147",
