@@ -319,7 +319,18 @@ export default function StoreDetailPage() {
       track("store_page_view", { store_id: id, store_name: s.name, pref: s.pref || "" });
       if (machines[s.name]) setMachineInfo(machines[s.name] as MachineInfo);
       const counts = ranking?.store_complete_counts ?? {};
-      setCompleteCount(counts[s.name] ?? 0);
+      // 完全一致 → 部分一致（complete_infoの店舗名はstores.jsonと表記が異なる場合がある）
+      const exactCount = counts[s.name];
+      let completeCount = exactCount ?? 0;
+      if (exactCount === undefined) {
+        for (const [k, v] of Object.entries(counts)) {
+          if (s.name.includes(k) || k.includes(s.name)) {
+            completeCount = v as number;
+            break;
+          }
+        }
+      }
+      setCompleteCount(completeCount);
 
       // 店舗ID確定後にイベントを /api/events で取得（store_id 完全一致）
       fetch(`/api/events?store_id=${encodeURIComponent(id)}&limit=200`)
