@@ -1527,11 +1527,14 @@ def main():
         except Exception as _he:
             log(f"⚠️ store_handles.json 読み込みエラー: {_he}")
 
-    # from:handle クエリを先頭に置くことで最重要店舗を優先収集
-    all_queries = handle_queries + list(COMPLETE_QUERIES)
+    # キーワードクエリを先頭に置き、from:handle クエリは補完として後置
+    # 理由: キーワードクエリは全X検索なので投稿がある限り必ずヒットする
+    #       from:handle クエリは特定店舗のみのため投稿がない日は全て0件になり
+    #       先頭に置くと早期終了でキーワードクエリが実行されなくなるため
+    all_queries = list(COMPLETE_QUERIES) + handle_queries
 
     log("=" * 60)
-    log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(all_queries)} (handle:{len(handle_queries)} + keyword:{len(COMPLETE_QUERIES)})")
+    log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(all_queries)} (keyword:{len(COMPLETE_QUERIES)} + handle:{len(handle_queries)})")
 
     # ── Supabase: 実行開始を記録 ──────────────────────────────────────────
     sb_log_id = supabase_log_start("complete")
@@ -1542,10 +1545,10 @@ def main():
     # ── 時間制限: 22分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
     MAX_RUNTIME_MIN = 22
     # ── 連続0件での早期終了: X側のレート制限検出
-    # 最初の30クエリは0件でも継続（from:handle は投稿がない日もあるため）
-    # 30クエリ以降は連続12件0件で終了
+    # キーワードクエリが先頭に来るため、30クエリ以降に0件が連続した場合は
+    # X側のレート制限と判断して終了
     MAX_CONSECUTIVE_ZEROS = 12
-    MIN_QUERIES_BEFORE_EARLY_STOP = 30  # 最低この数をこなしてから早期終了を有効化
+    MIN_QUERIES_BEFORE_EARLY_STOP = len(COMPLETE_QUERIES) // 2  # キーワードの半数以上実行後に有効化
     consecutive_zeros = 0
     script_start = time.monotonic()
 
@@ -1634,7 +1637,7 @@ def main():
                 break
 
             # ── 連続0件チェック（X側のレート制限検出）────────────────────────
-            # 最初の MIN_QUERIES_BEFORE_EARLY_STOP クエリは from:handle が多く0件でも正常
+            # キーワードクエリ先頭のため、半数以上実行後に連続12件0件で終了
             if query_result_count == 0:
                 consecutive_zeros += 1
                 if i >= MIN_QUERIES_BEFORE_EARLY_STOP and consecutive_zeros >= MAX_CONSECUTIVE_ZEROS:
