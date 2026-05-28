@@ -678,6 +678,38 @@ def get_tweet_datetime(article) -> tuple[str, str]:
 
 AUTHOR_NG = ["コンプリート", "パチスロ", "スロット", "パチンコ", "スマスロ", "速報", "まとめ", "情報", "bot"]
 
+# ── ハンドル → 正規店舗名マップ（main()で store_handles.json から読み込む）
+_HANDLE_TO_STORE: dict[str, str] = {}
+
+
+def _clean_author_name(name: str) -> str:
+    """Twitter表示名から余分な装飾を除去して店舗名を取り出す"""
+    # ── "ニックネーム＠店舗名" 形式: ＠以降が店舗名っぽければそちらを優先 ──
+    at_store = re.search(r'[＠@]([^\s＠@]{3,20}(?:店|ホール|パーラー|ランド|スペース|パレス|センター))', name)
+    if at_store:
+        return at_store.group(1)[:28]
+    # 先頭の【公式】等を除去
+    name = re.sub(r'^【[^】]{0,10}】\s*', '', name).strip()
+    # 末尾の【公式】【NEW】等を除去
+    name = re.sub(r'\s*【[^】]{0,12}】\s*$', '', name).strip()
+    # ＠役職X / @役職X などの役職タグを除去
+    name = re.sub(r'[＠@]\S*(役職|担当|担|公式|official|Official)\S*', '', name, flags=re.IGNORECASE).strip()
+    # 「@Since.1991」「 SINCE 2005.01.22」「【公式】SINCE...」「～Since～YYYY」形式を除去
+    # 【...】SINCE... / @Since... / (space)SINCE... / ～Since～... のいずれかを除去
+    name = re.sub(r'(?:【[^】]{0,12}】|[＠@]|[　\s])\s*(?:SINCE|Since|since)[\s\.\-/\d]+.*$', '', name).strip()
+    name = re.sub(r'[　\s]*～Since～.*$', '', name).strip()
+    # 末尾の「@xxx」「＠xxx」を除去（Since除去後の残存@含む）
+    name = re.sub(r'[＠@]\S+$', '', name).strip()
+    name = re.sub(r'[＠@]\s*$', '', name).strip()
+    # アプリ宣伝系フレーズを除去
+    name = re.sub(r'(アプリ|データ確認|はこちら|登録は|ご利用).{0,30}$', '', name).strip()
+    # 先頭の絵文字を除去
+    name = re.sub(r'^[\U0001F300-\U0001FFFF\U00002600-\U000027FF]+\s*', '', name).strip()
+    # 末尾の【公式】等を再度除去（SINCE除去後に残った場合のため）
+    name = re.sub(r'\s*【[^】]{0,12}】\s*$', '', name).strip()
+    return name[:28]
+
+
 def _is_store_name(name: str) -> bool:
     """表示名が店舗名っぽいかどうか"""
     if len(name) < 3 or len(name) > 30:
@@ -693,24 +725,36 @@ def parse_tweet(text: str, tweet_url: str,
     if not is_store_tweet(text):
         return None
 
-    store = extract_store(text)
+    # ── ハンドルから既知店舗名を優先使用（最高精度・誤抽出ゼロ）
+    store = ""
+    handle_match = re.search(r'x\.com/([^/]+)/status', tweet_url)
+    if handle_match:
+        handle = handle_match.group(1).lower()
+        if handle in _HANDLE_TO_STORE:
+            store = _HANDLE_TO_STORE[handle]
+
+    if not store:
+        store = extract_store(text)
+
+    # author_name の装飾を除去（既知ハンドルから店舗名を取得した場合はスキップ）
+    clean_author = _clean_author_name(author_name) if author_name else ""
 
     # ── チェーン名のみ（支店名なし）で取れた場合は author_name を優先 ──
     # 例: "#ダイナム" → "ダイナム" のみ → author_name "ダイナム長野上田店" を使う
     CHAIN_ONLY = {"ダイナム", "マルハン", "キコーナ", "楽園", "ガイア", "キャッスル",
                   "アミューズ", "コンコルド", "ワンダーランド", "ビックマーチ", "ミリオン",
                   "エスパス", "ガーデン", "ゼント", "ZENT", "メッセ", "クリエ"}
-    if store in CHAIN_ONLY and author_name and len(author_name) > len(store):
-        if _is_store_name(author_name) or re.search(r'店|ホール', author_name):
-            store = author_name[:28]
+    if store in CHAIN_ONLY and clean_author and len(clean_author) > len(store):
+        if _is_store_name(clean_author) or re.search(r'店|ホール', clean_author):
+            store = clean_author
 
     # テキストから取れなければ作者の表示名を使う
-    if not store and author_name and _is_store_name(author_name):
-        store = author_name[:28]
+    if not store and clean_author and _is_store_name(clean_author):
+        store = clean_author
     # それでも取れなければ表示名をそのまま（2文字以上・URL/記号なし）
-    if not store and author_name and 2 <= len(author_name) <= 25 and "http" not in author_name:
-        if not re.search(r'^[a-zA-Z0-9@_\-\.]+$', author_name):  # 英数字のみは除外
-            store = author_name[:28]
+    if not store and clean_author and 2 <= len(clean_author) <= 25 and "http" not in clean_author:
+        if not re.search(r'^[a-zA-Z0-9@_\-\.]+$', clean_author):  # 英数字のみは除外
+            store = clean_author
     machine = extract_machine(text)
     slot_number = extract_slot_number(text)
 
@@ -1475,11 +1519,15 @@ def update_ranking():
                 added += 1
             else:
                 existing_handles[handle]["count"] = count
-                # 店舗名も更新（より長い名称があれば）
+                # 店舗名も更新（装飾除去後により良い名称があれば）
                 cur = existing_handles[handle].get("store", "")
                 new = handle_store.get(handle, "")
-                if new and len(new) > len(cur):
-                    existing_handles[handle]["store"] = new
+                if new:
+                    new_clean = _clean_author_name(new)
+                    cur_clean = _clean_author_name(cur) if cur else ""
+                    # クリーン名が既存より良い（より具体的・装飾なし）場合のみ更新
+                    if new_clean and new_clean != cur_clean and len(new_clean) >= len(cur_clean):
+                        existing_handles[handle]["store"] = new_clean
 
         # count降順でソート
         sorted_handles = dict(sorted(existing_handles.items(), key=lambda x: -(x[1].get("count", 0) if isinstance(x[1], dict) else 0)))
@@ -1516,6 +1564,11 @@ def main():
     if STORE_HANDLES_JSON.exists():
         try:
             store_handles_data: dict = json.loads(STORE_HANDLES_JSON.read_text(encoding="utf-8"))
+            # ハンドル → 店舗名マップをグローバルに登録（parse_tweet で使用）
+            for h, info in store_handles_data.items():
+                if isinstance(info, dict) and info.get("store"):
+                    _HANDLE_TO_STORE[h.lower()] = info["store"]
+            log(f"📋 ハンドル→店舗名マップ {len(_HANDLE_TO_STORE)}件 登録")
             # count >= 2 の実績ある店舗アカウントを対象（上位60件まで）
             active_handles = [
                 (h, info) for h, info in store_handles_data.items()
