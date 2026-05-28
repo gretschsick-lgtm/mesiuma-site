@@ -24,11 +24,6 @@
     "x_url": "https://x.com/kawagutiangyo",
     "count": 5
   },
-  "space666tobata": {
-    "store": "SPACE(スペース444＆666)",
-    "x_url": "https://x.com/space666tobata",
-    "count": 4
-  },
   "wakakin_tsujic": {
     "store": "栄若宮大通店",
     "x_url": "https://x.com/wakakin_tsujic",
@@ -38,6 +33,11 @@
     "store": "キコーナ海老名",
     "x_url": "https://x.com/kicona_ebina",
     "count": 4
+  },
+  "space666tobata": {
+    "store": "SPACE(スペース444＆666)",
+    "x_url": "https://x.com/space666tobata",
+    "count": 3
   },
   "rakuen_ohmiya": {
     "store": "楽園大宮店",
@@ -80,7 +80,7 @@
     "count": 3
   },
   "hara_strong": {
-    "store": "原　Strong",
+    "store": "キャッスル高浜店",
     "x_url": "https://x.com/hara_strong",
     "count": 3
   },
@@ -97,6 +97,11 @@
   "sagachan_park": {
     "store": "サガちゃんPARK",
     "x_url": "https://x.com/sagachan_park",
+    "count": 3
+  },
+  "kitasenjusss": {
+    "store": "ピーアーク北千住エリア",
+    "x_url": "https://x.com/kitasenjusss",
     "count": 3
   },
   "naebomaruhan": {
@@ -167,11 +172,6 @@
   "aratanarutentyo": {
     "store": "店長あらた　マルハンメガシティ長野",
     "x_url": "https://x.com/aratanarutentyo",
-    "count": 2
-  },
-  "dynam_00399": {
-    "store": "ダイナム岡山倉敷中島店",
-    "x_url": "https://x.com/dynam_00399",
     "count": 2
   },
   "hozumi1202": {
@@ -309,6 +309,16 @@
     "x_url": "https://x.com/wl_odo",
     "count": 2
   },
+  "tamanosuke1225": {
+    "store": "玉ノ助【パーラーダジュール公式】",
+    "x_url": "https://x.com/tamanosuke1225",
+    "count": 2
+  },
+  "dynam_00399": {
+    "store": "ダイナム岡山倉敷中島店",
+    "x_url": "https://x.com/dynam_00399",
+    "count": 1
+  },
   "club_honten99": {
     "store": "クラブハウス本店",
     "x_url": "https://x.com/club_honten99",
@@ -327,11 +337,6 @@
   "d_ootone": {
     "store": "スーパーD'ステーション前橋大利根店",
     "x_url": "https://x.com/d_ootone",
-    "count": 1
-  },
-  "tamanosuke1225": {
-    "store": "玉ノ助【パーラーダジュール公式】",
-    "x_url": "https://x.com/tamanosuke1225",
     "count": 1
   },
   "oumeshinmachi": {
@@ -357,11 +362,6 @@
   "newyorkgroup15": {
     "store": "ニューヨーク出水店",
     "x_url": "https://x.com/newyorkgroup15",
-    "count": 1
-  },
-  "kitasenjusss": {
-    "store": "ピーアーク北千住エリア",
-    "x_url": "https://x.com/kitasenjusss",
     "count": 1
   },
   "bm_fujishiro": {
@@ -730,7 +730,7 @@
     "count": 1
   },
   "gardengashimiya": {
-    "store": "ガーデン東大宮店",
+    "store": "ガーデン東大宮店＠がしみや　4/21(火)リニューアル",
     "x_url": "https://x.com/gardengashimiya",
     "count": 1
   },
@@ -820,7 +820,7 @@
     "count": 1
   },
   "asobikobo": {
-    "store": "遊び工房恵庭店",
+    "store": "コボちゃん＠遊び工房 恵庭店",
     "x_url": "https://x.com/asobikobo",
     "count": 1
   },
@@ -1102,6 +1102,11 @@
   "shintentyodee1": {
     "store": "新天地Dee1",
     "x_url": "https://x.com/shintentyoDee1",
+    "count": 1
+  },
+  "pachiaikoukam": {
+    "store": "pachiaikoukam",
+    "x_url": "https://x.com/pachiaikoukam",
     "count": 1
   },
   "jvxcvnv10f30981": {
