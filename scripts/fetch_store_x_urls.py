@@ -10,8 +10,10 @@ stores.json の各店舗の公式 X アカウントを検索して x_url を補�
   python scripts/fetch_store_x_urls.py --dry-run        # 保存しない（確認用）
 """
 
+from __future__ import annotations
 import json, re, time, argparse, sys, os
 from pathlib import Path
+from typing import Optional
 
 try:
     from playwright.sync_api import sync_playwright
@@ -126,92 +128,144 @@ def _name_score(store_name: str, display_name: str) -> float:
     return common / max(len(s), len(d)) * 0.7
 
 
-def search_user_on_x(page, store_name: str, pref: str, city: str) -> dict | None:
+def _verify_x_profile(page, handle: str, store_name: str, pref: str, city: str) -> Optional[dict]:
     """
-    X の People 検索で店舗名を検索し、最も一致するアカウントを返す。
+    X プロフィールページを直接訪問してアカウント情報を取得・検証する。
     戻り値: {'x_url', 'handle', 'display_name', 'bio', 'score'} or None
     """
-    url = f"https://x.com/search?q={store_name}&f=user"
+    profile_url = f"https://x.com/{handle}"
     try:
-        page.goto(url, timeout=25000, wait_until="domcontentloaded")
+        page.goto(profile_url, timeout=20000, wait_until="domcontentloaded")
         page.wait_for_timeout(2500)
-    except Exception as e:
-        print(f"  ⚠️ ページ遷移エラー: {e}")
+    except Exception:
         return None
 
-    cells = page.query_selector_all('[data-testid="UserCell"]')
-    if not cells:
-        # ログアウト状態の場合はリロード
-        title = page.title()
-        if "ログイン" in title or "Log in" in title or "login" in title.lower():
-            print("  ❌ 未ログイン状態")
-            return None
+    # 表示名
+    try:
+        name_el = page.query_selector('[data-testid="UserName"] span')
+        disp_name = name_el.inner_text().strip() if name_el else ""
+    except Exception:
+        disp_name = ""
 
-    best: dict | None = None
+    # バイオ
+    try:
+        bio_el = page.query_selector('[data-testid="UserDescription"]')
+        bio = bio_el.inner_text().strip() if bio_el else ""
+    except Exception:
+        bio = ""
+
+    # ロケーション
+    try:
+        loc_el = page.query_selector('[data-testid="UserLocation"]')
+        location = loc_el.inner_text().strip() if loc_el else ""
+    except Exception:
+        location = ""
+
+    if not disp_name:
+        disp_name = handle  # フォールバック
+
+    score = _name_score(store_name, disp_name)
+    combined = bio + " " + location + " " + disp_name
+    has_slot_kw = bool(SLOT_KEYWORDS.search(combined))
+
+    if pref and pref.replace("県", "").replace("府", "").replace("都", "") in combined:
+        score *= 1.15
+    if city and city in combined:
+        score *= 1.10
+    if not has_slot_kw and score < 0.75:
+        return None
+    if has_slot_kw:
+        score *= 1.2
+
+    return {
+        "x_url":        f"https://x.com/{handle}",
+        "handle":       handle,
+        "display_name": disp_name,
+        "bio":          bio[:120],
+        "score":        round(score, 3),
+    }
+
+
+_SKIP_HANDLES = frozenset([
+    "search", "explore", "notifications", "messages", "home",
+    "i", "intent", "share", "hashtag", "login", "signup",
+    "privacy", "tos", "settings", "compose", "twitter",
+])
+
+
+def _extract_handles_from_links(page) -> list[str]:
+    """ページ内のリンクと表示テキストから x.com ハンドルを収集する"""
+    seen: set[str] = set()
+    found: list[str] = []
+
+    # <a href> から抽出
+    try:
+        links = page.query_selector_all('a[href*="x.com/"], a[href*="twitter.com/"]')
+        for link in links[:40]:
+            try:
+                href = link.get_attribute("href") or ""
+            except Exception:
+                continue
+            m = re.search(r'(?:x\.com|twitter\.com)/([A-Za-z0-9_]{3,50})(?:/|$|\?)', href)
+            if m:
+                h = m.group(1).lower()
+                if h not in _SKIP_HANDLES and h not in seen:
+                    seen.add(h)
+                    found.append(h)
+    except Exception:
+        pass
+
+    # ページテキストから抽出（Bing は URL をテキストとして表示する）
+    try:
+        page_text = page.inner_text('body') or ""
+        for m in re.finditer(r'(?:x|twitter)\.com/([A-Za-z0-9_]{3,50})(?:/|\s|$)', page_text):
+            h = m.group(1).lower()
+            if h not in _SKIP_HANDLES and h not in seen:
+                seen.add(h)
+                found.append(h)
+    except Exception:
+        pass
+
+    return found
+
+
+def search_user_on_x(page, store_name: str, pref: str, city: str) -> Optional[dict]:
+    """
+    Bing で「"店舗名" site:x.com パチスロ」を検索し、X プロフィールURLを抽出・検証する。
+    戻り値: {'x_url', 'handle', 'display_name', 'bio', 'score'} or None
+    """
+    import urllib.parse
+    # site:x.com を外して広く検索（x.com リンクが出るページを探す）
+    query_str = f'"{store_name}" パチスロ OR パチンコ OR スロット x.com OR twitter.com'
+    bing_url = f"https://www.bing.com/search?q={urllib.parse.quote(query_str)}&setlang=ja&cc=JP"
+
+    try:
+        page.goto(bing_url, timeout=25000, wait_until="domcontentloaded")
+        page.wait_for_timeout(2500)
+    except Exception as e:
+        print(f"  ⚠️ Bing遷移エラー: {e}")
+        return None
+
+    # Bing CAPTCHA 検出（challenge ページへのリダイレクト）
+    if "challenge" in page.url or "/sorry/" in page.url:
+        print("  ⚠️ Bing CAPTCHA 検出 — スキップ")
+        return None
+
+    handles_found = _extract_handles_from_links(page)
+
+    if not handles_found:
+        return None
+
+    # 最大3ハンドルを X プロフィールで検証
+    best: Optional[dict] = None
     best_score = 0.0
 
-    for cell in cells[:6]:
-        try:
-            # 表示名
-            name_el  = cell.query_selector('[data-testid="UserName"] span:first-child')
-            disp_name = name_el.inner_text().strip() if name_el else ""
+    for handle in handles_found[:3]:
+        result = _verify_x_profile(page, handle, store_name, pref, city)
+        if result and result["score"] > best_score:
+            best_score = result["score"]
+            best = result
 
-            # ハンドル (@xxx)
-            all_text = cell.inner_text()
-            hm = re.search(r'@([\w]+)', all_text)
-            handle = hm.group(1) if hm else ""
-
-            # バイオ
-            bio_el = cell.query_selector('[data-testid="UserDescription"]')
-            bio    = bio_el.inner_text().strip() if bio_el else ""
-
-            # ロケーション
-            loc_el  = cell.query_selector('[data-testid="UserLocation"]')
-            location = loc_el.inner_text().strip() if loc_el else ""
-
-            if not disp_name or not handle:
-                continue
-
-            # チェーン名のみアカウントはスキップ（"マルハン" だけのアカウント等）
-            if _normalize(disp_name) in {_normalize(c) for c in CHAIN_NAMES}:
-                continue
-
-            # 名前スコア
-            score = _name_score(store_name, disp_name)
-            if score < 0.35:
-                continue
-
-            combined = bio + " " + location + " " + disp_name
-
-            # パチスロ業界キーワードがあれば必須チェック通過
-            has_slot_kw = bool(SLOT_KEYWORDS.search(combined))
-
-            # 都道府県が一致すれば加点
-            if pref and pref.replace("県","").replace("府","").replace("都","") in combined:
-                score *= 1.15
-            if city and city in combined:
-                score *= 1.10
-
-            # パチスロキーワードがなく名前一致も弱い場合は除外
-            if not has_slot_kw and score < 0.75:
-                continue
-
-            if has_slot_kw:
-                score *= 1.2
-
-            if score > best_score:
-                best_score = score
-                best = {
-                    "x_url":        f"https://x.com/{handle}",
-                    "handle":       handle,
-                    "display_name": disp_name,
-                    "bio":          bio[:120],
-                    "score":        round(score, 3),
-                }
-        except Exception:
-            continue
-
-    # 最低スコアしきい値: 名前が十分に一致している + パチスロ感があるもの
     if best and best["score"] >= 0.55:
         return best
     return None
@@ -257,23 +311,17 @@ def main():
                 "Chrome/124.0.0.0 Safari/537.36"
             ),
         )
-        cookies = _get_cookies()
-        if cookies:
-            ctx.add_cookies(cookies)
-        else:
-            print("⚠️ クッキーなし — ログイン済み Chrome が必要です")
-
+        # Google検索ベースなので X ログイン不要
+        # X プロフィール検証のみ使用（ログイン無しで閲覧可能）
         page = ctx.new_page()
 
-        # ログイン確認
-        page.goto("https://x.com", timeout=20000, wait_until="domcontentloaded")
-        page.wait_for_timeout(2000)
-        title = page.title()
-        if "X" not in title and "Twitter" not in title:
-            print(f"❌ X へのログイン失敗 (title={title!r})")
-            browser.close()
-            return
-        print(f"✅ X ログイン確認 ({title})")
+        # Google 疎通確認
+        try:
+            page.goto("https://www.google.com", timeout=20000, wait_until="domcontentloaded")
+            page.wait_for_timeout(1500)
+            print(f"✅ Google 接続確認 (title={page.title()!r})")
+        except Exception as e:
+            print(f"⚠️ Google 接続エラー: {e} — 続行します")
 
         found_count = 0
         save_interval = 10  # 10件ごとに保存
@@ -303,7 +351,7 @@ def main():
                     encoding="utf-8",
                 )
 
-            time.sleep(2.0)  # レート制限対策
+            time.sleep(3.5)  # Google レート制限対策
 
         browser.close()
 
