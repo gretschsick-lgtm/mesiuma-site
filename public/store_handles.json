@@ -34,6 +34,21 @@
     "x_url": "https://x.com/kicona_ebina",
     "count": 4
   },
+  "megaface_1120": {
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "x_url": "https://x.com/megaface_1120",
+    "count": 4
+  },
+  "rakuen_gs": {
+    "store": "楽園池袋店グリーンサイド",
+    "x_url": "https://x.com/rakuen_gs",
+    "count": 4
+  },
+  "hara_strong": {
+    "store": "キャッスル高浜店",
+    "x_url": "https://x.com/hara_strong",
+    "count": 4
+  },
   "space666tobata": {
     "store": "SPACE(スペース444＆666)",
     "x_url": "https://x.com/space666tobata",
@@ -47,16 +62,6 @@
   "315kasugai": {
     "store": "キクヤ春日井店",
     "x_url": "https://x.com/315kasugai",
-    "count": 3
-  },
-  "megaface_1120": {
-    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
-    "x_url": "https://x.com/megaface_1120",
-    "count": 3
-  },
-  "rakuen_gs": {
-    "store": "楽園池袋店グリーンサイド",
-    "x_url": "https://x.com/rakuen_gs",
     "count": 3
   },
   "toumaruhana6": {
@@ -79,11 +84,6 @@
     "x_url": "https://x.com/isesaki_maruhan",
     "count": 3
   },
-  "hara_strong": {
-    "store": "キャッスル高浜店",
-    "x_url": "https://x.com/hara_strong",
-    "count": 3
-  },
   "gk_hitachinaka": {
     "store": "グランキコーナひたちなか店",
     "x_url": "https://x.com/gk_hitachinaka",
@@ -102,6 +102,16 @@
   "kitasenjusss": {
     "store": "ピーアーク北千住エリア",
     "x_url": "https://x.com/kitasenjusss",
+    "count": 3
+  },
+  "aratanarutentyo": {
+    "store": "店長あらた　マルハンメガシティ長野",
+    "x_url": "https://x.com/aratanarutentyo",
+    "count": 3
+  },
+  "kicona_matsubra": {
+    "store": "G松原店",
+    "x_url": "https://x.com/kicona_matsubra",
     "count": 3
   },
   "naebomaruhan": {
@@ -169,11 +179,6 @@
     "x_url": "https://x.com/texas_kokura",
     "count": 2
   },
-  "aratanarutentyo": {
-    "store": "店長あらた　マルハンメガシティ長野",
-    "x_url": "https://x.com/aratanarutentyo",
-    "count": 2
-  },
   "hozumi1202": {
     "store": "キクヤ穂積店",
     "x_url": "https://x.com/hozumi1202",
@@ -182,16 +187,6 @@
   "sanki_kojima": {
     "store": "サンキワールド児島店",
     "x_url": "https://x.com/sanki_kojima",
-    "count": 2
-  },
-  "yuko_tsujidou": {
-    "store": "ユーコーラッキー37辻堂店",
-    "x_url": "https://x.com/yuko_tsujidou",
-    "count": 2
-  },
-  "kicona_matsubra": {
-    "store": "G松原店",
-    "x_url": "https://x.com/kicona_matsubra",
     "count": 2
   },
   "concorde_ichino": {
@@ -308,6 +303,11 @@
     "store": "玉ノ助【パーラーダジュール公式】",
     "x_url": "https://x.com/tamanosuke1225",
     "count": 2
+  },
+  "yuko_tsujidou": {
+    "store": "ユーコーラッキー37辻堂店",
+    "x_url": "https://x.com/yuko_tsujidou",
+    "count": 1
   },
   "tengoku_asoda": {
     "store": "天国朝生田店1020",
@@ -1097,6 +1097,11 @@
   "higasshi0825": {
     "store": "マルハン八千代東店",
     "x_url": "https://x.com/higasshi0825",
+    "count": 1
+  },
+  "wl_s_sasebo": {
+    "store": "ワンダーランド佐世保白岳店",
+    "x_url": "https://x.com/wl_s_sasebo",
     "count": 1
   },
   "jvxcvnv10f30981": {

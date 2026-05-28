@@ -551,8 +551,14 @@ def extract_machine(text: str) -> str:
             # 英数字・記号のみ（日本語文字なし）はXのユーザー名等の誤抽出として除外
             if re.match(r'^[a-zA-Z0-9_\-\.\@\#\s]+$', name):
                 continue
+            # 先頭の開き括弧を除去（例: 【炎炎ノ消防隊2 → 炎炎ノ消防隊2）
+            name = re.sub(r'^[『「【（(]+', '', name).strip()
             # 末尾の閉じ括弧を除去（例: 牙狼12黄金騎士極限』 → 牙狼12黄金騎士極限）
             name = re.sub(r'[』」】）)]+$', '', name).strip()
+            if len(name) < 2:
+                continue
+            # 末尾の助詞・接続詞を除去（例: カバネリ海門決戦から → カバネリ海門決戦）
+            name = re.sub(r'(から|にて|より|での|への|として|まで|にて|っ|て|が|は|で|に|を|も|と|の)+$', '', name).strip()
             if len(name) < 2:
                 continue
             # ポイント・枚数・玉数の混入を除去（例: 攻殻機動隊/19,010Pt.）
@@ -570,6 +576,15 @@ def extract_machine(text: str) -> str:
                 "18000枚Over", "18,000枚Over", "お客様も大変", "不明",
             }
             if name in _MACHINE_EXTRACT_NG:
+                continue
+            # 「おめでとうございます」「オススメ機種」等の非機種名フレーズを除外
+            _MACHINE_NG_PATTERNS = [
+                re.compile(r'^おめでとう'),
+                re.compile(r'オススメ機種|おすすめ機種|今週のオススメ|今週おすすめ'),
+                re.compile(r'^本日.*台目$|^本日もコンプ|^本日のMVP'),
+                re.compile(r'誠におめ|ございます[！!]*$'),
+            ]
+            if any(p.search(name) for p in _MACHINE_NG_PATTERNS):
                 continue
             return name[:35]
     return ""
@@ -1254,6 +1269,7 @@ def update_ranking():
         ("炎炎ノ消防隊2",          "L炎炎ノ消防隊2"),
         ("炎炎ノ消防隊２",         "L炎炎ノ消防隊2"),
         ("炎炎ノ消防隊",           "L炎炎ノ消防隊2"),
+        ("炎炎の消防隊",           "L炎炎ノ消防隊2"),   # ひらがな「の」表記ゆれ
         # ミリオンゴッド神々の軌跡
         ("ミリオンゴッド神々の軌跡", "ミリオンゴッド神々の軌跡"),
         ("ミリオンゴッド-神々",    "ミリオンゴッド神々の軌跡"),
