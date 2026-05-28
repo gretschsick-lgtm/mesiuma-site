@@ -1499,13 +1499,15 @@ def update_ranking():
         for e in all_data:
             url = e.get("x_url", "")
             store = (e.get("store") or "").strip()
-            if url and "/status/" in url and store and len(store) >= 3:
+            if url and "/status/" in url:
                 handle = url.split("/status/")[0].rstrip("/").split("/")[-1].lower()
                 if handle:
                     handle_count[handle] = handle_count.get(handle, 0) + 1
-                    # より長い店舗名を優先
-                    if handle not in handle_store or len(store) > len(handle_store.get(handle, "")):
-                        handle_store[handle] = store
+                    if store and len(store) >= 3:
+                        # クリーン済み店舗名を優先（装飾なし・より長い）
+                        cur_store = handle_store.get(handle, "")
+                        if not cur_store or len(store) >= len(cur_store):
+                            handle_store[handle] = store
 
         # 既存ハンドルを更新・新規追加
         added = 0
