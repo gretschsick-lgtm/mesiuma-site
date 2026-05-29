@@ -1,9 +1,4 @@
 {
-  "castle_kasugai": {
-    "store": "キャッスル春日井",
-    "x_url": "https://x.com/castle_kasugai",
-    "count": 14
-  },
   "rakuenikebukuro": {
     "store": "楽園池袋店ゲートウェイ",
     "x_url": "https://x.com/rakuenikebukuro",
@@ -14,6 +9,11 @@
     "x_url": "https://x.com/castleatsuta",
     "count": 8
   },
+  "castle_kasugai": {
+    "store": "キャッスル春日井",
+    "x_url": "https://x.com/castle_kasugai",
+    "count": 7
+  },
   "niga_maru": {
     "store": "マルハン仙台苦竹店",
     "x_url": "https://x.com/niga_maru",
@@ -22,6 +22,11 @@
   "kawagutiangyo": {
     "store": "新ガーデン川口安行",
     "x_url": "https://x.com/kawagutiangyo",
+    "count": 5
+  },
+  "hara_strong": {
+    "store": "キャッスル高浜店",
+    "x_url": "https://x.com/hara_strong",
     "count": 5
   },
   "wakakin_tsujic": {
@@ -44,9 +49,14 @@
     "x_url": "https://x.com/rakuen_gs",
     "count": 4
   },
-  "hara_strong": {
-    "store": "キャッスル高浜店",
-    "x_url": "https://x.com/hara_strong",
+  "toumaruhana6": {
+    "store": "プレイランドキャッスル東郷店",
+    "x_url": "https://x.com/toumaruhana6",
+    "count": 4
+  },
+  "megaface_1070": {
+    "store": "メガフェイス菊陽",
+    "x_url": "https://x.com/megaface_1070",
     "count": 4
   },
   "space666tobata": {
@@ -64,19 +74,9 @@
     "x_url": "https://x.com/315kasugai",
     "count": 3
   },
-  "toumaruhana6": {
-    "store": "プレイランドキャッスル東郷店",
-    "x_url": "https://x.com/toumaruhana6",
-    "count": 3
-  },
   "monky0621bm": {
     "store": "ビックマーチ河和田東店",
     "x_url": "https://x.com/monky0621bm",
-    "count": 3
-  },
-  "megaface_1070": {
-    "store": "メガフェイス菊陽",
-    "x_url": "https://x.com/megaface_1070",
     "count": 3
   },
   "isesaki_maruhan": {
@@ -112,6 +112,16 @@
   "kicona_matsubra": {
     "store": "G松原店",
     "x_url": "https://x.com/kicona_matsubra",
+    "count": 3
+  },
+  "dsmegami": {
+    "store": "スーパーD’ステーション３９女神店",
+    "x_url": "https://x.com/dsmegami",
+    "count": 3
+  },
+  "super_concorde": {
+    "store": "SUPER CONCORDE",
+    "x_url": "https://x.com/super_concorde",
     "count": 3
   },
   "naebomaruhan": {
@@ -189,11 +199,6 @@
     "x_url": "https://x.com/sanki_kojima",
     "count": 2
   },
-  "concorde_ichino": {
-    "store": "SUPER CONCORDE 市野",
-    "x_url": "https://x.com/concorde_ichino",
-    "count": 2
-  },
   "omaezaki_conco": {
     "store": "コンコルド御前崎店",
     "x_url": "https://x.com/omaezaki_conco",
@@ -204,11 +209,6 @@
     "x_url": "https://x.com/sunglass_a",
     "count": 2
   },
-  "dsmegami": {
-    "store": "スーパーD’ステーション３９女神店",
-    "x_url": "https://x.com/dsmegami",
-    "count": 2
-  },
   "grand_konan": {
     "store": "グランドホール港南店",
     "x_url": "https://x.com/grand_konan",
@@ -217,11 +217,6 @@
   "rakuen_kamata": {
     "store": "楽園蒲田店",
     "x_url": "https://x.com/rakuen_kamata",
-    "count": 2
-  },
-  "super_concorde": {
-    "store": "SUPER CONCORDE",
-    "x_url": "https://x.com/super_concorde",
     "count": 2
   },
   "maruhan_kameari": {
@@ -303,6 +298,31 @@
     "store": "玉ノ助【パーラーダジュール公式】",
     "x_url": "https://x.com/tamanosuke1225",
     "count": 2
+  },
+  "marujagten": {
+    "store": "マルハン入間店",
+    "x_url": "https://x.com/marujagten",
+    "count": 2
+  },
+  "sd_fukushige": {
+    "store": "スーパーD'ステーション39福重店",
+    "x_url": "https://x.com/sd_fukushige",
+    "count": 2
+  },
+  "smaru_kawagoe": {
+    "store": "マルハン川越店",
+    "x_url": "https://x.com/smaru_kawagoe",
+    "count": 2
+  },
+  "dynam_00307": {
+    "store": "ダイナム栃木大田原店",
+    "x_url": "https://x.com/dynam_00307",
+    "count": 2
+  },
+  "concorde_ichino": {
+    "store": "SUPER CONCORDE 市野",
+    "x_url": "https://x.com/concorde_ichino",
+    "count": 1
   },
   "yuko_tsujidou": {
     "store": "ユーコーラッキー37辻堂店",
@@ -644,11 +664,6 @@
     "x_url": "https://x.com/bm_kiryu",
     "count": 1
   },
-  "marujagten": {
-    "store": "マルハン入間店",
-    "x_url": "https://x.com/marujagten",
-    "count": 1
-  },
   "wingwarabi600": {
     "store": "ウイング蕨６００",
     "x_url": "https://x.com/wingwarabi600",
@@ -709,11 +724,6 @@
     "x_url": "https://x.com/ishikawa_rakuen",
     "count": 1
   },
-  "sd_fukushige": {
-    "store": "スーパーD'ステーション39福重店",
-    "x_url": "https://x.com/sd_fukushige",
-    "count": 1
-  },
   "plaza0204": {
     "store": "プラザ本店Ⅱ",
     "x_url": "https://x.com/plaza0204",
@@ -732,11 +742,6 @@
   "gardengashimiya": {
     "store": "ガーデン東大宮店＠がしみや　4/21(火)リニューアル",
     "x_url": "https://x.com/gardengashimiya",
-    "count": 1
-  },
-  "smaru_kawagoe": {
-    "store": "マルハン川越店",
-    "x_url": "https://x.com/smaru_kawagoe",
     "count": 1
   },
   "marumaruhan0522": {
@@ -822,11 +827,6 @@
   "asobikobo": {
     "store": "コボちゃん＠遊び工房 恵庭店",
     "x_url": "https://x.com/asobikobo",
-    "count": 1
-  },
-  "dynam_00307": {
-    "store": "ダイナム栃木大田原店",
-    "x_url": "https://x.com/dynam_00307",
     "count": 1
   },
   "orientshinmachi": {
@@ -1102,6 +1102,61 @@
   "wl_s_sasebo": {
     "store": "ワンダーランド佐世保白岳店",
     "x_url": "https://x.com/wl_s_sasebo",
+    "count": 1
+  },
+  "mega_mishima": {
+    "store": "マルハンメガシティ三島駿東",
+    "x_url": "https://x.com/mega_mishima",
+    "count": 1
+  },
+  "dynam_00397": {
+    "store": "ダイナム群馬藤岡店",
+    "x_url": "https://x.com/dynam_00397",
+    "count": 1
+  },
+  "dynam_00439": {
+    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
+    "x_url": "https://x.com/dynam_00439",
+    "count": 1
+  },
+  "tk20060427": {
+    "store": "草津店",
+    "x_url": "https://x.com/tk20060427",
+    "count": 1
+  },
+  "palazzo_misato": {
+    "store": "パラッツォ三郷中央店",
+    "x_url": "https://x.com/palazzo_misato",
+    "count": 1
+  },
+  "grand_chogo": {
+    "store": "ホール長後店",
+    "x_url": "https://x.com/grand_chogo",
+    "count": 1
+  },
+  "aitatencho": {
+    "store": "綾瀬上土棚店",
+    "x_url": "https://x.com/aitatencho",
+    "count": 1
+  },
+  "aitencho_x": {
+    "store": "AI店長/マルハン相模原店",
+    "x_url": "https://x.com/aitencho_x",
+    "count": 1
+  },
+  "rakuenshibuya1": {
+    "store": "楽園渋谷道玄坂店",
+    "x_url": "https://x.com/rakuenshibuya1",
+    "count": 1
+  },
+  "royalnumanohata": {
+    "store": "ロイヤル沼ノ端店",
+    "x_url": "https://x.com/royalnumanohata",
+    "count": 1
+  },
+  "29_kitamoto": {
+    "store": "ニラク北本深井店",
+    "x_url": "https://x.com/29_kitamoto",
     "count": 1
   },
   "jvxcvnv10f30981": {
@@ -1947,11 +2002,6 @@
   "maruhan_mrmt": {
     "store": "マルハン村松店",
     "x_url": "https://x.com/maruhan_mrmt",
-    "count": 0
-  },
-  "mega_mishima": {
-    "store": "マルハンメガシティ三島駿東",
-    "x_url": "https://x.com/mega_mishima",
     "count": 0
   },
   "hibari_kimotuki": {
@@ -3849,11 +3899,6 @@
     "x_url": "https://x.com/dynam_00396",
     "count": 0
   },
-  "dynam_00397": {
-    "store": "ダイナム",
-    "x_url": "https://x.com/dynam_00397",
-    "count": 0
-  },
   "dynam_00400": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00400",
@@ -4042,11 +4087,6 @@
   "dynam_00437": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00437",
-    "count": 0
-  },
-  "dynam_00439": {
-    "store": "ダイナム",
-    "x_url": "https://x.com/dynam_00439",
     "count": 0
   },
   "dynam_00440": {
