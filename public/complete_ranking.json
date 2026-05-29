@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-29T02:58:17+09:00",
+  "generated_at": "2026-05-29T18:47:32+09:00",
   "monthly": [
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 341,
+      "total_count": 343,
       "stores": [
         {
           "rank": 1,
@@ -38,33 +38,33 @@
         },
         {
           "rank": 6,
+          "name": "プレイランドキャッスル東郷店",
+          "count": 4,
+          "x_url": "https://x.com/toumaruhana6"
+        },
+        {
+          "rank": 7,
           "name": "楽園池袋店グリーンサイド",
           "count": 4,
           "x_url": "https://x.com/rakuen_gs"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "メガフェイス菊陽",
           "count": 4,
           "x_url": "https://x.com/megaface_1070"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "キクヤ春日井店",
           "count": 4,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "栄若宮大通店",
           "count": 4,
           "x_url": "https://x.com/wakakin_tsujic"
-        },
-        {
-          "rank": 10,
-          "name": "キコーナ海老名",
-          "count": 4,
-          "x_url": "https://x.com/kicona_ebina"
         }
       ],
       "slot_machines": [
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "ミリオンゴッド神々の軌跡",
-          "count": 26
+          "count": 27
         },
         {
           "rank": 4,
@@ -256,32 +256,32 @@
       },
       {
         "rank": 6,
+        "name": "プレイランドキャッスル東郷店",
+        "count": 4,
+        "x_url": "https://x.com/toumaruhana6"
+      },
+      {
+        "rank": 7,
         "name": "キャッスル高浜店",
         "count": 4
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "楽園池袋店グリーンサイド",
         "count": 4,
         "x_url": "https://x.com/rakuen_gs"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "メガフェイス菊陽",
         "count": 4,
         "x_url": "https://x.com/megaface_1070"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "キクヤ春日井店",
         "count": 4,
         "x_url": "https://x.com/315kasugai"
-      },
-      {
-        "rank": 10,
-        "name": "栄若宮大通店",
-        "count": 4,
-        "x_url": "https://x.com/wakakin_tsujic"
       }
     ],
     "slot_machines": [
@@ -298,7 +298,7 @@
       {
         "rank": 3,
         "name": "ミリオンゴッド神々の軌跡",
-        "count": 26
+        "count": 27
       },
       {
         "rank": 4,
@@ -388,7 +388,7 @@
         "count": 1
       }
     ],
-    "total_count": 369
+    "total_count": 371
   },
   "store_complete_counts": {
     "キャッスル春日井": 14,
@@ -396,12 +396,14 @@
     "プレイランドキャッスル熱田店": 8,
     "マルハン仙台苦竹店": 6,
     "新ガーデン川口安行": 5,
+    "プレイランドキャッスル東郷店": 4,
     "キャッスル高浜店": 4,
     "楽園池袋店グリーンサイド": 4,
     "メガフェイス菊陽": 4,
     "キクヤ春日井店": 4,
     "栄若宮大通店": 4,
     "キコーナ海老名": 4,
+    "スーパーD’ステーション３９女神店": 3,
     "店長あらた　マルハンメガシティ長野": 3,
     "SUPER CONCORDE": 3,
     "ARROW浪速店": 3,
@@ -409,7 +411,6 @@
     "楽園大宮店": 3,
     "パチンコの玉屋∞本店": 3,
     "G松原店": 3,
-    "プレイランドキャッスル東郷店": 3,
     "ビックマーチ河和田東店": 3,
     "マルハンメガシティ伊勢崎": 3,
     "グランキコーナひたちなか店": 3,
@@ -437,7 +438,6 @@
     "SUPER CONCORDE 市野": 2,
     "コンコルド御前崎店": 2,
     "甲府昭和店": 2,
-    "スーパーD’ステーション３９女神店": 2,
     "グランドホール港南店": 2,
     "楽園蒲田店": 2,
     "マルハン亀有店_亀にゃん": 2,
