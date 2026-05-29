@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-29T21:53:00+09:00",
+  "generated_at": "2026-05-30T02:03:21+09:00",
   "monthly": [
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 344,
+      "total_count": 370,
       "stores": [
         {
           "rank": 1,
@@ -26,57 +26,57 @@
         },
         {
           "rank": 4,
+          "name": "キクヤ春日井店",
+          "count": 6,
+          "x_url": "https://x.com/315kasugai"
+        },
+        {
+          "rank": 5,
           "name": "マルハン仙台苦竹店",
           "count": 6,
           "x_url": "https://x.com/niga_maru"
         },
         {
-          "rank": 5,
+          "rank": 6,
+          "name": "楽園池袋店グリーンサイド",
+          "count": 5,
+          "x_url": "https://x.com/rakuen_gs"
+        },
+        {
+          "rank": 7,
           "name": "新ガーデン川口安行",
           "count": 5,
           "x_url": "https://x.com/kawagutiangyo"
         },
         {
-          "rank": 6,
+          "rank": 8,
+          "name": "テキサス小倉店",
+          "count": 4,
+          "x_url": "https://x.com/texas_kokura"
+        },
+        {
+          "rank": 9,
           "name": "プレイランドキャッスル東郷店",
           "count": 4,
           "x_url": "https://x.com/toumaruhana6"
         },
         {
-          "rank": 7,
-          "name": "楽園池袋店グリーンサイド",
-          "count": 4,
-          "x_url": "https://x.com/rakuen_gs"
-        },
-        {
-          "rank": 8,
-          "name": "メガフェイス菊陽",
-          "count": 4,
-          "x_url": "https://x.com/megaface_1070"
-        },
-        {
-          "rank": 9,
-          "name": "キクヤ春日井店",
-          "count": 4,
-          "x_url": "https://x.com/315kasugai"
-        },
-        {
           "rank": 10,
-          "name": "栄若宮大通店",
+          "name": "ARROW浪速店",
           "count": 4,
-          "x_url": "https://x.com/wakakin_tsujic"
+          "x_url": "https://x.com/arrow_naniwa"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 48
+          "count": 50
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 37
+          "count": 39
         },
         {
           "rank": 3,
@@ -86,17 +86,17 @@
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 21
+          "count": 22
         },
         {
           "rank": 5,
           "name": "L炎炎ノ消防隊2",
-          "count": 13
+          "count": 15
         },
         {
           "rank": 6,
           "name": "Lチバリヨ2ZB",
-          "count": 11
+          "count": 12
         },
         {
           "rank": 7,
@@ -106,12 +106,12 @@
         {
           "rank": 8,
           "name": "スマスロゴッドイーター",
-          "count": 9
+          "count": 10
         },
         {
           "rank": 9,
           "name": "甲鉄城のカバネリ海門決戦",
-          "count": 7
+          "count": 8
         },
         {
           "rank": 10,
@@ -123,12 +123,12 @@
         {
           "rank": 1,
           "name": "牙狼12",
-          "count": 31
+          "count": 34
         },
         {
           "rank": 2,
           "name": "eフィーバーキン肉マン",
-          "count": 16
+          "count": 17
         },
         {
           "rank": 3,
@@ -138,7 +138,7 @@
         {
           "rank": 4,
           "name": "e東京喰種",
-          "count": 4
+          "count": 5
         },
         {
           "rank": 5,
@@ -157,17 +157,17 @@
         },
         {
           "rank": 8,
-          "name": "e東京喰種W",
+          "name": "eエヴァ17はじまり",
           "count": 1
         },
         {
           "rank": 9,
-          "name": "eひきこまり吸血鬼の悶々",
+          "name": "ｅ東京喰種",
           "count": 1
         },
         {
           "rank": 10,
-          "name": "eフィーバーもののがたり",
+          "name": "e東京喰種W",
           "count": 1
         }
       ]
@@ -175,43 +175,31 @@
     {
       "month": "2026-04",
       "label": "2026年4月",
-      "total_count": 11,
+      "total_count": 3,
       "stores": [
         {
           "rank": 1,
-          "name": "キャッスル春日井",
-          "count": 7,
-          "x_url": "https://x.com/castle_kasugai"
-        },
-        {
-          "rank": 2,
           "name": "ユーコーラッキー37筑後店",
           "count": 1,
           "x_url": "https://x.com/yuko_chikugo"
         },
         {
-          "rank": 3,
+          "rank": 2,
           "name": "キャッスル高浜店",
           "count": 1
         },
         {
-          "rank": 4,
+          "rank": 3,
           "name": "関西すろいべ(旧ネコスロ)",
           "count": 1,
           "x_url": "https://x.com/osaka_slot_neko"
-        },
-        {
-          "rank": 5,
-          "name": "SUPER CONCORDE 市野",
-          "count": 1,
-          "x_url": "https://x.com/concorde_ichino"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "革命機ヴァルヴレイヴ2",
-          "count": 10
+          "count": 2
         },
         {
           "rank": 2,
@@ -226,74 +214,75 @@
     "stores": [
       {
         "rank": 1,
-        "name": "キャッスル春日井",
-        "count": 14,
-        "x_url": "https://x.com/castle_kasugai"
-      },
-      {
-        "rank": 2,
         "name": "楽園池袋店ゲートウェイ",
         "count": 8,
         "x_url": "https://x.com/rakuenikebukuro"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "name": "プレイランドキャッスル熱田店",
         "count": 8,
         "x_url": "https://x.com/castleatsuta"
       },
       {
+        "rank": 3,
+        "name": "キャッスル春日井",
+        "count": 7,
+        "x_url": "https://x.com/castle_kasugai"
+      },
+      {
         "rank": 4,
+        "name": "キクヤ春日井店",
+        "count": 6,
+        "x_url": "https://x.com/315kasugai"
+      },
+      {
+        "rank": 5,
         "name": "マルハン仙台苦竹店",
         "count": 6,
         "x_url": "https://x.com/niga_maru"
       },
       {
-        "rank": 5,
+        "rank": 6,
+        "name": "楽園池袋店グリーンサイド",
+        "count": 5,
+        "x_url": "https://x.com/rakuen_gs"
+      },
+      {
+        "rank": 7,
         "name": "新ガーデン川口安行",
         "count": 5,
         "x_url": "https://x.com/kawagutiangyo"
       },
       {
-        "rank": 6,
+        "rank": 8,
+        "name": "テキサス小倉店",
+        "count": 4,
+        "x_url": "https://x.com/texas_kokura"
+      },
+      {
+        "rank": 9,
         "name": "プレイランドキャッスル東郷店",
         "count": 4,
         "x_url": "https://x.com/toumaruhana6"
       },
       {
-        "rank": 7,
-        "name": "キャッスル高浜店",
-        "count": 4
-      },
-      {
-        "rank": 8,
-        "name": "楽園池袋店グリーンサイド",
-        "count": 4,
-        "x_url": "https://x.com/rakuen_gs"
-      },
-      {
-        "rank": 9,
-        "name": "メガフェイス菊陽",
-        "count": 4,
-        "x_url": "https://x.com/megaface_1070"
-      },
-      {
         "rank": 10,
-        "name": "キクヤ春日井店",
+        "name": "ARROW浪速店",
         "count": 4,
-        "x_url": "https://x.com/315kasugai"
+        "x_url": "https://x.com/arrow_naniwa"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "革命機ヴァルヴレイヴ2",
-        "count": 58
+        "count": 52
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 37
+        "count": 39
       },
       {
         "rank": 3,
@@ -303,17 +292,17 @@
       {
         "rank": 4,
         "name": "L東京喰種",
-        "count": 21
+        "count": 22
       },
       {
         "rank": 5,
         "name": "L炎炎ノ消防隊2",
-        "count": 13
+        "count": 15
       },
       {
         "rank": 6,
         "name": "Lチバリヨ2ZB",
-        "count": 11
+        "count": 12
       },
       {
         "rank": 7,
@@ -323,12 +312,12 @@
       {
         "rank": 8,
         "name": "スマスロゴッドイーター",
-        "count": 9
+        "count": 10
       },
       {
         "rank": 9,
         "name": "甲鉄城のカバネリ海門決戦",
-        "count": 8
+        "count": 9
       },
       {
         "rank": 10,
@@ -340,12 +329,12 @@
       {
         "rank": 1,
         "name": "牙狼12",
-        "count": 31
+        "count": 34
       },
       {
         "rank": 2,
         "name": "eフィーバーキン肉マン",
-        "count": 16
+        "count": 17
       },
       {
         "rank": 3,
@@ -355,7 +344,7 @@
       {
         "rank": 4,
         "name": "e東京喰種",
-        "count": 4
+        "count": 5
       },
       {
         "rank": 5,
@@ -374,39 +363,43 @@
       },
       {
         "rank": 8,
-        "name": "e東京喰種W",
+        "name": "eエヴァ17はじまり",
         "count": 1
       },
       {
         "rank": 9,
-        "name": "eひきこまり吸血鬼の悶々",
+        "name": "ｅ東京喰種",
         "count": 1
       },
       {
         "rank": 10,
-        "name": "eフィーバーもののがたり",
+        "name": "e東京喰種W",
         "count": 1
       }
     ],
-    "total_count": 372
+    "total_count": 391
   },
   "store_complete_counts": {
-    "キャッスル春日井": 14,
     "楽園池袋店ゲートウェイ": 8,
     "プレイランドキャッスル熱田店": 8,
+    "キャッスル春日井": 7,
+    "キクヤ春日井店": 6,
     "マルハン仙台苦竹店": 6,
+    "楽園池袋店グリーンサイド": 5,
     "新ガーデン川口安行": 5,
+    "テキサス小倉店": 4,
     "プレイランドキャッスル東郷店": 4,
+    "ARROW浪速店": 4,
     "キャッスル高浜店": 4,
-    "楽園池袋店グリーンサイド": 4,
+    "店長あらた　マルハンメガシティ長野": 4,
     "メガフェイス菊陽": 4,
-    "キクヤ春日井店": 4,
     "栄若宮大通店": 4,
     "キコーナ海老名": 4,
+    "キクヤ穂積店": 3,
+    "マルハンメガシティ三島駿東": 3,
     "スーパーD’ステーション３９女神店": 3,
-    "店長あらた　マルハンメガシティ長野": 3,
+    "ダイナム長野上田店": 3,
     "SUPER CONCORDE": 3,
-    "ARROW浪速店": 3,
     "マルハン筑西店": 3,
     "楽園大宮店": 3,
     "パチンコの玉屋∞本店": 3,
@@ -430,12 +423,8 @@
     "ビックマーチ東習志野店": 2,
     "ダイナム兵庫たつの店": 2,
     "でこぼこ店長": 2,
-    "ダイナム長野上田店": 2,
     "ダイナム富山砺波店": 2,
-    "テキサス小倉店": 2,
-    "キクヤ穂積店": 2,
     "サンキワールド児島店": 2,
-    "SUPER CONCORDE 市野": 2,
     "コンコルド御前崎店": 2,
     "甲府昭和店": 2,
     "グランドホール港南店": 2,
@@ -453,7 +442,20 @@
     "パラッツォ鳩ヶ谷店": 2,
     "エクスアリーナ松戸": 2,
     "メガフェイス1300淀川": 2,
+    "マルシェ赤羽店": 1,
+    "大安寺マルハチ": 1,
+    "はま店長": 1,
+    "スタジアム2001八女店": 1,
     "草津店": 1,
+    "T-MAX新栄店": 1,
+    "店長ダースー": 1,
+    "エムディー目黒店": 1,
+    "駅前店": 1,
+    "マルハンメガシティ水戸赤塚": 1,
+    "キコーナ鶴見": 1,
+    "マックス福島北": 1,
+    "メガフェイス930朝倉": 1,
+    "田原加治屋店": 1,
     "ダイナム群馬藤岡店": 1,
     "ダイナム滋賀彦根店～Since2025.7.18～": 1,
     "パラッツォ三郷中央店": 1,
@@ -466,8 +468,9 @@
     "サガちゃんPARK": 1,
     "あおばさち": 1,
     "エクスアリーナ東京": 1,
-    "マルハンメガシティ三島駿東": 1,
+    "ワールドカップ+1新倉吉店": 1,
     "ロイヤル沼ノ端店": 1,
+    "ダイナム岐阜高山店": 1,
     "中吉野店": 1,
     "フジコー三島店": 1,
     "スーパーD'ステーション前橋大利根店": 1,
@@ -512,6 +515,7 @@
     "ダイナム山梨笛吹店": 1,
     "ユーコーラッキー37辻堂店": 1,
     "永楽本店": 1,
+    "SUPER CONCORDE 市野": 1,
     "ドキわくランド中河原駅前店": 1,
     "パラディソ古川ドルフィン館": 1,
     "ベガスベガス名掛丁店": 1,
