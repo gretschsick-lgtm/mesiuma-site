@@ -24,10 +24,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": "https://x.com/newshinsei",
-    "address": null,
+    "address": "長野県飯田市羽場坂2351-31",
     "map_url": null,
     "city": "飯田市",
-    "dmm_id": "5518"
+    "dmm_id": "5518",
+    "pachinko_count": 320,
+    "slot_count": 162,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "ccb1428511",
@@ -40,10 +44,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": "https://x.com/tak_shinsei",
-    "address": null,
+    "address": "長野県下伊那郡高森町下市田1460-1-6",
     "map_url": null,
     "city": "下伊那郡",
-    "dmm_id": "5642"
+    "dmm_id": "5642",
+    "pachinko_count": 360,
+    "slot_count": 142,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "a6a23ebb94",
@@ -56,10 +64,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": "https://x.com/kamishin5756",
-    "address": null,
+    "address": "長野県飯田市上郷別府3322-7",
     "map_url": null,
     "city": "飯田市",
-    "dmm_id": "5528"
+    "dmm_id": "5528",
+    "pachinko_count": 220,
+    "slot_count": 144,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "6902b7c87a",
@@ -72,10 +84,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長野県飯田市駄科602-2",
     "map_url": null,
     "city": "飯田市",
-    "dmm_id": "5532"
+    "dmm_id": "5532",
+    "pachinko_count": 280,
+    "slot_count": 122,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "cdf3159e53",
@@ -105,7 +121,11 @@
     "address": "福島県郡山市横塚2丁目286-3",
     "map_url": "https://www.google.co.jp/maps/search/福島県郡山市横塚2丁目286-3",
     "city": "郡山市",
-    "dmm_id": "12583"
+    "dmm_id": "12583",
+    "pachinko_count": 588,
+    "slot_count": 518,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "9f85be81df",
@@ -135,7 +155,11 @@
     "address": "福島県いわき市小名浜大原字丁新地297-1",
     "map_url": "https://www.google.co.jp/maps/search/福島県いわき市小名浜大原字丁新地297-1",
     "city": "いわき市",
-    "dmm_id": "2428"
+    "dmm_id": "2428",
+    "pachinko_count": 400,
+    "slot_count": 283,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "4a792ee696",
@@ -151,7 +175,9 @@
     "address": "京都府京都市中京区河原町蛸薬師下る塩屋町334",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市中京区河原町蛸薬師下る塩屋町334",
     "city": "京都市中京区",
-    "dmm_id": "7049"
+    "dmm_id": "7049",
+    "pachinko_count": 200,
+    "slot_count": 144
   },
   {
     "id": "be38899045",
@@ -164,7 +190,7 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "愛知県大府市横根町前田50-1",
     "map_url": null,
     "city": "大府市",
     "dmm_id": "6213"
@@ -194,10 +220,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": "https://x.com/apollo_nishi",
-    "address": null,
+    "address": "岩手県盛岡市北飯岡1-12-3",
     "map_url": null,
     "city": "盛岡市",
-    "dmm_id": "12554"
+    "dmm_id": "12554",
+    "pachinko_count": 240,
+    "slot_count": 320,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "ec154602ed",
@@ -210,10 +240,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都八王子市東浅川町503デルパラビル",
     "map_url": null,
     "city": "八王子市",
-    "dmm_id": "13394"
+    "dmm_id": "13394",
+    "pachinko_count": 484,
+    "slot_count": 559
   },
   {
     "id": "ef10f1d7f8",
@@ -229,7 +261,8 @@
     "address": "東京都大田区蒲田4-10-14あすとウィズ地下1階地上1階",
     "map_url": "https://www.google.co.jp/maps/search/東京都大田区蒲田4-10-14あすとウィズ地下1階地上1階",
     "city": "大田区",
-    "dmm_id": "12606"
+    "dmm_id": "12606",
+    "slot_count": 355
   },
   {
     "id": "8c637984cf",
@@ -259,7 +292,11 @@
     "address": "神奈川県相模原市南区相模大野3丁目22番1号 YS-2ビル1階",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県相模原市南区相模大野3丁目22番1号+YS-2ビル1階",
     "city": "相模原市南区",
-    "dmm_id": "13275"
+    "dmm_id": "13275",
+    "pachinko_count": 552,
+    "slot_count": 612,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "0eb13d39c1",
@@ -275,7 +312,11 @@
     "address": "京都府京都市中京区西ノ京西円町40番地",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市中京区西ノ京西円町40番地",
     "city": "京都市中京区",
-    "dmm_id": "7040"
+    "dmm_id": "7040",
+    "pachinko_count": 212,
+    "slot_count": 176,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "c3fb536e55",
@@ -351,7 +392,11 @@
     "address": "福島県いわき市平下神谷字天神115",
     "map_url": "https://www.google.co.jp/maps/search/福島県いわき市平下神谷字天神115",
     "city": "いわき市",
-    "dmm_id": "2426"
+    "dmm_id": "2426",
+    "pachinko_count": 480,
+    "slot_count": 433,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "e56ecf28da",
@@ -380,10 +425,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "大阪府大阪市阿倍野区阿倍野筋1-1-61新宿ビル内",
     "map_url": null,
     "city": "大阪市阿倍野区",
-    "dmm_id": "7382"
+    "dmm_id": "7382",
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "1829100154",
@@ -396,10 +443,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": "https://x.com/king3hisayama",
-    "address": null,
+    "address": "福岡県糟屋郡久山町久原3186",
     "map_url": null,
     "city": "糟屋郡",
-    "dmm_id": "10757"
+    "dmm_id": "10757",
+    "pachinko_count": 857,
+    "slot_count": 793,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "56875586ad",
@@ -415,7 +466,11 @@
     "address": "静岡県富士市川成島52-2",
     "map_url": "https://www.google.co.jp/maps/search/静岡県富士市川成島52-2",
     "city": "富士市",
-    "dmm_id": "5289"
+    "dmm_id": "5289",
+    "pachinko_count": 222,
+    "slot_count": 202,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "725e7b47cb",
@@ -447,7 +502,11 @@
     "address": "京都府京都市伏見区桃山町西尾31-1",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市伏見区桃山町西尾31-1",
     "city": "京都市伏見区",
-    "dmm_id": "7103"
+    "dmm_id": "7103",
+    "pachinko_count": 286,
+    "slot_count": 280,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "7d40f84273",
@@ -463,7 +522,9 @@
     "address": "京都府宇治市槇島町一の坪３９−１",
     "map_url": "https://www.google.co.jp/maps/search/京都府宇治市槇島町一の坪３９−１",
     "city": "宇治市",
-    "dmm_id": "12493"
+    "dmm_id": "12493",
+    "pachinko_count": 224,
+    "slot_count": 168
   },
   {
     "id": "fea4154ccc",
@@ -476,10 +537,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "千葉県松戸市高塚新田337-9",
     "map_url": null,
     "city": "松戸市",
-    "dmm_id": "4092"
+    "dmm_id": "4092",
+    "pachinko_count": 288,
+    "slot_count": 148,
+    "open_time": "10:00",
+    "close_time": "22:55"
   },
   {
     "id": "138b7a7a55",
@@ -537,7 +602,9 @@
     "address": "神奈川県川崎市高津区溝口2-9-7日拓溝口ビル",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県川崎市高津区溝口2-9-7日拓溝口ビル",
     "city": "川崎市高津区",
-    "dmm_id": "4690"
+    "dmm_id": "4690",
+    "pachinko_count": 477,
+    "slot_count": 433
   },
   {
     "id": "bba46c680b",
@@ -553,7 +620,9 @@
     "address": "福島県いわき市小名浜字山神北46-2",
     "map_url": "https://www.google.co.jp/maps/search/福島県いわき市小名浜字山神北46-2",
     "city": "いわき市",
-    "dmm_id": "2452"
+    "dmm_id": "2452",
+    "pachinko_count": 378,
+    "slot_count": 318
   },
   {
     "id": "96ef4f78d1",
@@ -569,7 +638,9 @@
     "address": "福島県須賀川市山寺町1番地",
     "map_url": "https://www.google.co.jp/maps/search/福島県須賀川市山寺町1番地",
     "city": "須賀川市",
-    "dmm_id": "2471"
+    "dmm_id": "2471",
+    "pachinko_count": 240,
+    "slot_count": 321
   },
   {
     "id": "0403b7cf47",
@@ -585,7 +656,11 @@
     "address": "京都府京都市西京区樫原鴫谷41番地2",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市西京区樫原鴫谷41番地2",
     "city": "京都市西京区",
-    "dmm_id": "7116"
+    "dmm_id": "7116",
+    "pachinko_count": 238,
+    "slot_count": 166,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "0f8ec2b7d4",
@@ -601,7 +676,9 @@
     "address": "京都府八幡市八幡一ノ坪150-35",
     "map_url": "https://www.google.co.jp/maps/search/京都府八幡市八幡一ノ坪150-35",
     "city": "八幡市",
-    "dmm_id": "7214"
+    "dmm_id": "7214",
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "12d8ac9781",
@@ -617,7 +694,11 @@
     "address": "兵庫県西宮市甲子園口2丁目15-35",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県西宮市甲子園口2丁目15-35",
     "city": "西宮市",
-    "dmm_id": "8386"
+    "dmm_id": "8386",
+    "pachinko_count": 54,
+    "slot_count": 54,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "ffe8001fc5",
@@ -633,7 +714,11 @@
     "address": "兵庫県西宮市鳴尾町1丁目1-1",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県西宮市鳴尾町1丁目1-1",
     "city": "西宮市",
-    "dmm_id": "8385"
+    "dmm_id": "8385",
+    "pachinko_count": 168,
+    "slot_count": 80,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "cafc1098ad",
@@ -663,7 +748,11 @@
     "address": "埼玉県越谷市弥生町４-１１",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県越谷市弥生町４-１１",
     "city": "越谷市",
-    "dmm_id": "3650"
+    "dmm_id": "3650",
+    "pachinko_count": 262,
+    "slot_count": 380,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "b2baa3764b",
@@ -676,10 +765,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "大阪府東大阪市足代北2-1-2",
     "map_url": null,
     "city": "東大阪市",
-    "dmm_id": "8099"
+    "dmm_id": "8099",
+    "pachinko_count": 219,
+    "slot_count": 288
   },
   {
     "id": "2562a21c97",
@@ -695,7 +786,9 @@
     "address": "愛知県名古屋市瑞穂区神穂町1-22",
     "map_url": "https://www.google.co.jp/maps/search/愛知県名古屋市瑞穂区神穂町1-22",
     "city": "名古屋市瑞穂区",
-    "dmm_id": "5742"
+    "dmm_id": "5742",
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "06db400fa4",
@@ -708,10 +801,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "沖縄県うるま市赤道664",
     "map_url": null,
     "city": "うるま市",
-    "dmm_id": "11685"
+    "dmm_id": "11685",
+    "pachinko_count": 96,
+    "slot_count": 196
   },
   {
     "id": "e27730f3b3",
@@ -724,10 +819,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "滋賀県栗東市大橋7-2-22",
     "map_url": null,
     "city": "栗東市",
-    "dmm_id": "12610"
+    "dmm_id": "12610",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "16e69d1b44",
@@ -759,7 +856,11 @@
     "address": "福岡県福岡市東区千早5丁目5-1",
     "map_url": "https://www.google.co.jp/maps/search/福岡県福岡市東区千早5丁目5-1",
     "city": "福岡市東区",
-    "dmm_id": "10382"
+    "dmm_id": "10382",
+    "pachinko_count": 660,
+    "slot_count": 355,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "7c2015503f",
@@ -772,10 +873,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/wl_fkhigashi",
-    "address": null,
+    "address": "福岡県糟屋郡粕屋町仲原2580-2",
     "map_url": null,
     "city": "糟屋郡",
-    "dmm_id": "10754"
+    "dmm_id": "10754",
+    "pachinko_count": 430,
+    "slot_count": 394,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "43cbac115b",
@@ -791,7 +896,11 @@
     "address": "群馬県邑楽郡大泉町大字坂田1606番地10",
     "map_url": "https://www.google.co.jp/maps/search/群馬県邑楽郡大泉町大字坂田1606番地10",
     "city": "邑楽郡",
-    "dmm_id": "3280"
+    "dmm_id": "3280",
+    "pachinko_count": 384,
+    "slot_count": 332,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "c658f5eda0",
@@ -821,7 +930,9 @@
     "address": "京都府京都市上京区中立売通千本東入丹波屋町360番地",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市上京区中立売通千本東入丹波屋町360番地",
     "city": "京都市上京区",
-    "dmm_id": "7027"
+    "dmm_id": "7027",
+    "pachinko_count": 462,
+    "slot_count": 338
   },
   {
     "id": "0e2448edf6",
@@ -837,7 +948,11 @@
     "address": "京都府京都市北区上賀茂朝露ケ原町28-5",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市北区上賀茂朝露ケ原町28-5",
     "city": "京都市北区",
-    "dmm_id": "7019"
+    "dmm_id": "7019",
+    "pachinko_count": 122,
+    "slot_count": 124,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "ecc33ea3ca",
@@ -850,10 +965,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "京都府向日市鶏冠井町極楽寺28",
     "map_url": null,
     "city": "向日市",
-    "dmm_id": "7184"
+    "dmm_id": "7184",
+    "pachinko_count": 248,
+    "slot_count": 114,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "fcb555c8b3",
@@ -866,10 +985,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/wl_kouhoku",
-    "address": null,
+    "address": "佐賀県杵島郡江北町佐留志2018-1",
     "map_url": null,
     "city": "杵島郡",
-    "dmm_id": "11447"
+    "dmm_id": "11447",
+    "pachinko_count": 376,
+    "slot_count": 191,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "43d743fc58",
@@ -882,10 +1005,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "兵庫県加古川市尾上町池田字池田開拓1917",
     "map_url": null,
     "city": "加古川市",
-    "dmm_id": "8451"
+    "dmm_id": "8451",
+    "pachinko_count": 598,
+    "slot_count": 528,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "af737e3dce",
@@ -898,10 +1025,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "兵庫県尼崎市武庫川町4丁目5番地",
     "map_url": null,
     "city": "尼崎市",
-    "dmm_id": "8356"
+    "dmm_id": "8356",
+    "pachinko_count": 128,
+    "slot_count": 78,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "a77a037e80",
@@ -917,7 +1048,11 @@
     "address": "兵庫県神戸市灘区深田町四丁目1番39号",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県神戸市灘区深田町四丁目1番39号",
     "city": "神戸市灘区",
-    "dmm_id": "12697"
+    "dmm_id": "12697",
+    "pachinko_count": 92,
+    "slot_count": 98,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "762c707fbb",
@@ -949,7 +1084,9 @@
     "address": "北海道帯広市東七条南17丁目2番地",
     "map_url": "https://www.google.co.jp/maps/search/北海道帯広市東七条南17丁目2番地",
     "city": "帯広市",
-    "dmm_id": "1290"
+    "dmm_id": "1290",
+    "open_time": "09:00",
+    "close_time": "22:46"
   },
   {
     "id": "58b6b24fdf",
@@ -962,10 +1099,11 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "千葉県柏市十余二240-1",
     "map_url": null,
     "city": "柏市",
-    "dmm_id": "4182"
+    "dmm_id": "4182",
+    "close_time": "22:45"
   },
   {
     "id": "e80dacab33",
@@ -978,10 +1116,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "千葉県浦安市北栄4-29-2",
     "map_url": null,
     "city": "浦安市",
-    "dmm_id": "4285"
+    "dmm_id": "4285",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "eef2acb8b9",
@@ -1022,10 +1162,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "埼玉県上尾市中妻3-11-2",
     "map_url": null,
     "city": "上尾市",
-    "dmm_id": "13031"
+    "dmm_id": "13031",
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "2f956fa3f1",
@@ -1041,7 +1183,9 @@
     "address": "埼玉県朝霞市西原1-1-28",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県朝霞市西原1-1-28",
     "city": "朝霞市",
-    "dmm_id": "3712"
+    "dmm_id": "3712",
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "cb12dd70d7",
@@ -1054,10 +1198,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/luckyplaza1050",
-    "address": null,
+    "address": "岐阜県可児市川合字上巾2620-2",
     "map_url": null,
     "city": "可児市",
-    "dmm_id": "6477"
+    "dmm_id": "6477",
+    "pachinko_count": 559,
+    "slot_count": 484,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "c5853bf080",
@@ -1073,7 +1221,9 @@
     "address": "東京都新宿区百人町1-11-20",
     "map_url": "https://www.google.co.jp/maps/search/東京都新宿区百人町1-11-20",
     "city": "新宿区",
-    "dmm_id": "59"
+    "dmm_id": "59",
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "8bd6e146ae",
@@ -1089,7 +1239,9 @@
     "address": "東京都東村山市恩多町1-19-1",
     "map_url": "https://www.google.co.jp/maps/search/東京都東村山市恩多町1-19-1",
     "city": "東村山市",
-    "dmm_id": "13121"
+    "dmm_id": "13121",
+    "pachinko_count": 658,
+    "slot_count": 631
   },
   {
     "id": "b8c1ac5fb6",
@@ -1105,7 +1257,8 @@
     "address": "東京都練馬区北町6-32-3",
     "map_url": "https://www.google.co.jp/maps/search/東京都練馬区北町6-32-3",
     "city": "練馬区",
-    "dmm_id": "583"
+    "dmm_id": "583",
+    "slot_count": 22
   },
   {
     "id": "7043bf08d4",
@@ -1118,7 +1271,7 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "栃木県真岡市上大沼1-1-3",
     "map_url": null,
     "city": "真岡市",
     "dmm_id": "12428"
@@ -1134,10 +1287,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "沖縄県那覇市字国場1061-3",
     "map_url": null,
     "city": "那覇市",
-    "dmm_id": "11636"
+    "dmm_id": "11636",
+    "pachinko_count": 208,
+    "slot_count": 224
   },
   {
     "id": "e1138d5047",
@@ -1150,10 +1305,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "滋賀県守山市吉身4-5-51",
     "map_url": null,
     "city": "守山市",
-    "dmm_id": "6611"
+    "dmm_id": "6611",
+    "pachinko_count": 230,
+    "slot_count": 126,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "173ce9d35b",
@@ -1166,10 +1325,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "滋賀県彦根市野口町288番地1",
     "map_url": null,
     "city": "彦根市",
-    "dmm_id": "12595"
+    "dmm_id": "12595",
+    "pachinko_count": 525,
+    "slot_count": 456,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "2922db4706",
@@ -1199,7 +1362,11 @@
     "address": "福岡県久留米市三潴町高三潴1903番地",
     "map_url": "https://www.google.co.jp/maps/search/福岡県久留米市三潴町高三潴1903番地",
     "city": "久留米市",
-    "dmm_id": "10596"
+    "dmm_id": "10596",
+    "pachinko_count": 438,
+    "slot_count": 428,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "e48b1df601",
@@ -1212,10 +1379,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県北九州市若松区中川町12-21",
     "map_url": null,
     "city": "北九州市若松区",
-    "dmm_id": "10510"
+    "dmm_id": "10510",
+    "pachinko_count": 112,
+    "slot_count": 118,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "fa77b92a9b",
@@ -1228,10 +1399,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "秋田県秋田市八橋南2-4-20",
     "map_url": null,
     "city": "秋田市",
-    "dmm_id": "1781"
+    "dmm_id": "1781",
+    "pachinko_count": 160,
+    "slot_count": 283,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "68aeec0a92",
@@ -1244,10 +1419,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長崎県長崎市旭町7-12",
     "map_url": null,
     "city": "長崎市",
-    "dmm_id": "12303"
+    "dmm_id": "12303",
+    "pachinko_count": 262,
+    "slot_count": 286
   },
   {
     "id": "b05ccdb8b4",
@@ -1291,7 +1468,9 @@
     "address": "静岡県伊豆の国市守木817番地の1",
     "map_url": "https://www.google.co.jp/maps/search/静岡県伊豆の国市守木817番地の1",
     "city": "伊豆の国市",
-    "dmm_id": "5392"
+    "dmm_id": "5392",
+    "pachinko_count": 220,
+    "slot_count": 230
   },
   {
     "id": "2831618c34",
@@ -1307,7 +1486,11 @@
     "address": "静岡県裾野市平松644-1",
     "map_url": "https://www.google.co.jp/maps/search/静岡県裾野市平松644-1",
     "city": "裾野市",
-    "dmm_id": "5373"
+    "dmm_id": "5373",
+    "pachinko_count": 320,
+    "slot_count": 160,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "8a2c9ed467",
@@ -1323,7 +1506,9 @@
     "address": "静岡県静岡市駿河区緑が丘町4番16号",
     "map_url": "https://www.google.co.jp/maps/search/静岡県静岡市駿河区緑が丘町4番16号",
     "city": "静岡市駿河区",
-    "dmm_id": "12852"
+    "dmm_id": "12852",
+    "pachinko_count": 209,
+    "slot_count": 454
   },
   {
     "id": "4ec25f2784",
@@ -1411,7 +1596,11 @@
     "address": "京都府京都市下京区烏丸通七条下る東塩小路町718番地 鳥居ビル 1F地下1F地下2F",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市下京区烏丸通七条下る東塩小路町718番地+鳥居ビル+1F地下1F地下2F",
     "city": "京都市下京区",
-    "dmm_id": "7057"
+    "dmm_id": "7057",
+    "pachinko_count": 257,
+    "slot_count": 126,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "62ae9961da",
@@ -1427,7 +1616,11 @@
     "address": "京都府京都市伏見区下鳥羽浄春ヶ前町134",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市伏見区下鳥羽浄春ヶ前町134",
     "city": "京都市伏見区",
-    "dmm_id": "7098"
+    "dmm_id": "7098",
+    "pachinko_count": 240,
+    "slot_count": 280,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "5f26357a8e",
@@ -1443,7 +1636,11 @@
     "address": "京都府木津川市木津雲村92",
     "map_url": "https://www.google.co.jp/maps/search/京都府木津川市木津雲村92",
     "city": "木津川市",
-    "dmm_id": "7202"
+    "dmm_id": "7202",
+    "pachinko_count": 280,
+    "slot_count": 200,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "15e89fdfae",
@@ -1489,7 +1686,11 @@
     "address": "兵庫県神戸市北区有野町有野3494-1",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県神戸市北区有野町有野3494-1",
     "city": "神戸市北区",
-    "dmm_id": "8209"
+    "dmm_id": "8209",
+    "pachinko_count": 119,
+    "slot_count": 140,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "78989b6e4a",
@@ -1505,7 +1706,11 @@
     "address": "兵庫県神戸市東灘区青木6丁目7-16",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県神戸市東灘区青木6丁目7-16",
     "city": "神戸市東灘区",
-    "dmm_id": "8131"
+    "dmm_id": "8131",
+    "pachinko_count": 139,
+    "slot_count": 147,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "0ee7eab685",
@@ -1521,7 +1726,9 @@
     "address": "埼玉県北本市深井二丁目51番1",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県北本市深井二丁目51番1",
     "city": "北本市",
-    "dmm_id": "3759"
+    "dmm_id": "3759",
+    "pachinko_count": 400,
+    "slot_count": 240
   },
   {
     "id": "e37d33f5fa",
@@ -1537,7 +1744,9 @@
     "address": "埼玉県朝霞市本町1丁目11番10号",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県朝霞市本町1丁目11番10号",
     "city": "朝霞市",
-    "dmm_id": "3715"
+    "dmm_id": "3715",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "2bdaa9d302",
@@ -1564,10 +1773,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "宮城県仙台市青葉区一番町4-4-30",
     "map_url": null,
     "city": "仙台市青葉区",
-    "dmm_id": "2153"
+    "dmm_id": "2153",
+    "pachinko_count": 348,
+    "slot_count": 242
   },
   {
     "id": "53416b9f34",
@@ -1580,7 +1791,7 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "宮城県仙台市青葉区荒巻本沢3-7-1",
     "map_url": null,
     "city": "仙台市青葉区",
     "dmm_id": "13079"
@@ -1596,10 +1807,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "山口県岩国市今津町2-7-2",
     "map_url": null,
     "city": "岩国市",
-    "dmm_id": "9781"
+    "dmm_id": "9781",
+    "pachinko_count": 280,
+    "slot_count": 280,
+    "open_time": "09:00",
+    "close_time": "22:50"
   },
   {
     "id": "57950418a0",
@@ -1612,10 +1827,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "山梨県甲斐市中下条2012-1",
     "map_url": null,
     "city": "甲斐市",
-    "dmm_id": "5056"
+    "dmm_id": "5056",
+    "pachinko_count": 480,
+    "slot_count": 320,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "89d3566c6d",
@@ -1673,7 +1892,9 @@
     "address": "愛知県江南市上奈良町栄102",
     "map_url": "https://www.google.co.jp/maps/search/愛知県江南市上奈良町栄102",
     "city": "江南市",
-    "dmm_id": "6160"
+    "dmm_id": "6160",
+    "pachinko_count": 444,
+    "slot_count": 277
   },
   {
     "id": "e643009464",
@@ -1686,10 +1907,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都世田谷区船橋1-1-18",
     "map_url": null,
     "city": "世田谷区",
-    "dmm_id": "317"
+    "dmm_id": "317",
+    "pachinko_count": 203,
+    "slot_count": 242,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "b946b18de3",
@@ -1705,7 +1930,9 @@
     "address": "東京都北区赤羽1-8-3",
     "map_url": "https://www.google.co.jp/maps/search/東京都北区赤羽1-8-3",
     "city": "北区",
-    "dmm_id": "496"
+    "dmm_id": "496",
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "d1d92b5285",
@@ -1718,10 +1945,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都西多摩郡瑞穂町富士山栗原新田233-1 OZ瑞穂ビル",
     "map_url": null,
     "city": "西多摩郡",
-    "dmm_id": "13235"
+    "dmm_id": "13235",
+    "pachinko_count": 80,
+    "slot_count": 321,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "c3469755a1",
@@ -1737,7 +1968,8 @@
     "address": "栃木県宇都宮市砂田町483番地4",
     "map_url": "https://www.google.co.jp/maps/search/栃木県宇都宮市砂田町483番地4",
     "city": "宇都宮市",
-    "dmm_id": "13434"
+    "dmm_id": "13434",
+    "slot_count": 340
   },
   {
     "id": "e4390dc33b",
@@ -1764,10 +1996,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "沖縄県国頭郡今帰仁村字仲宗根358番地7",
     "map_url": null,
     "city": "国頭郡",
-    "dmm_id": "12798"
+    "dmm_id": "12798",
+    "pachinko_count": 16,
+    "slot_count": 34
   },
   {
     "id": "1e8c644dd4",
@@ -1794,10 +2028,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "滋賀県彦根市平田町２４１番地１",
     "map_url": null,
     "city": "彦根市",
-    "dmm_id": "13421"
+    "dmm_id": "13421",
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "a0b929d4b4",
@@ -1855,7 +2091,10 @@
     "address": "神奈川県川崎市川崎区小川町2-7",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県川崎市川崎区小川町2-7",
     "city": "川崎市川崎区",
-    "dmm_id": "4636"
+    "dmm_id": "4636",
+    "slot_count": 390,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "8a32a668dc",
@@ -1871,7 +2110,9 @@
     "address": "神奈川県川崎市高津区溝口2-9-19日拓ビル",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県川崎市高津区溝口2-9-19日拓ビル",
     "city": "川崎市高津区",
-    "dmm_id": "4695"
+    "dmm_id": "4695",
+    "pachinko_count": 251,
+    "slot_count": 283
   },
   {
     "id": "35cc231dca",
@@ -1887,7 +2128,11 @@
     "address": "神奈川県相模原市中央区東淵野辺５丁目５-２５",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県相模原市中央区東淵野辺５丁目５-２５",
     "city": "相模原市中央区",
-    "dmm_id": "4884"
+    "dmm_id": "4884",
+    "pachinko_count": 326,
+    "slot_count": 440,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "74e9874a88",
@@ -1900,10 +2145,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県京都郡苅田町幸町6-8",
     "map_url": null,
     "city": "京都郡",
-    "dmm_id": "10784"
+    "dmm_id": "10784",
+    "pachinko_count": 520,
+    "slot_count": 360
   },
   {
     "id": "e4ed338642",
@@ -1916,10 +2163,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県朝倉郡筑前町依井384-1",
     "map_url": null,
     "city": "朝倉郡",
-    "dmm_id": "13418"
+    "dmm_id": "13418",
+    "pachinko_count": 440,
+    "slot_count": 497
   },
   {
     "id": "1f5d828191",
@@ -1932,10 +2181,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県福岡市中央区小笹3-4-1",
     "map_url": null,
     "city": "福岡市中央区",
-    "dmm_id": "10439"
+    "dmm_id": "10439",
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "33ba15e2bb",
@@ -1951,7 +2202,8 @@
     "address": "福岡県福岡市南区中尾2丁目2番27号",
     "map_url": "https://www.google.co.jp/maps/search/福岡県福岡市南区中尾2丁目2番27号",
     "city": "福岡市南区",
-    "dmm_id": "10453"
+    "dmm_id": "10453",
+    "slot_count": 212
   },
   {
     "id": "3f9815f288",
@@ -1964,10 +2216,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/wl_kashii2",
-    "address": null,
+    "address": "福岡県福岡市東区千早5-5-33",
     "map_url": null,
     "city": "福岡市東区",
-    "dmm_id": "10388"
+    "dmm_id": "10388",
+    "pachinko_count": 570,
+    "slot_count": 516,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "5a9e8b194d",
@@ -1983,7 +2239,9 @@
     "address": "福岡県行橋市西宮市3丁目3-1",
     "map_url": "https://www.google.co.jp/maps/search/福岡県行橋市西宮市3丁目3-1",
     "city": "行橋市",
-    "dmm_id": "10665"
+    "dmm_id": "10665",
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "ee3a154d23",
@@ -1999,7 +2257,9 @@
     "address": "福岡県飯塚市若菜195-1",
     "map_url": "https://www.google.co.jp/maps/search/福岡県飯塚市若菜195-1",
     "city": "飯塚市",
-    "dmm_id": "10627"
+    "dmm_id": "10627",
+    "pachinko_count": 453,
+    "slot_count": 520
   },
   {
     "id": "f1410d067a",
@@ -2015,7 +2275,11 @@
     "address": "福島県福島市鎌田字中田10-4",
     "map_url": "https://www.google.co.jp/maps/search/福島県福島市鎌田字中田10-4",
     "city": "福島市",
-    "dmm_id": "2359"
+    "dmm_id": "2359",
+    "pachinko_count": 556,
+    "slot_count": 555,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "5ae9dedd4e",
@@ -2031,7 +2295,9 @@
     "address": "福島県郡山市堤1-11",
     "map_url": "https://www.google.co.jp/maps/search/福島県郡山市堤1-11",
     "city": "郡山市",
-    "dmm_id": "2391"
+    "dmm_id": "2391",
+    "pachinko_count": 323,
+    "slot_count": 231
   },
   {
     "id": "6b44a49a61",
@@ -2047,7 +2313,9 @@
     "address": "秋田県大仙市花館字中台117",
     "map_url": "https://www.google.co.jp/maps/search/秋田県大仙市花館字中台117",
     "city": "大仙市",
-    "dmm_id": "1850"
+    "dmm_id": "1850",
+    "pachinko_count": 481,
+    "slot_count": 319
   },
   {
     "id": "36ad063467",
@@ -2060,10 +2328,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "秋田県湯沢市倉内字川原田43-5",
     "map_url": null,
     "city": "湯沢市",
-    "dmm_id": "1844"
+    "dmm_id": "1844",
+    "pachinko_count": 360,
+    "slot_count": 138,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "fee927eb46",
@@ -2090,10 +2362,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長崎県佐世保市上京町5-10",
     "map_url": null,
     "city": "佐世保市",
-    "dmm_id": "11501"
+    "dmm_id": "11501",
+    "pachinko_count": 310,
+    "slot_count": 196,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "7f382f9799",
@@ -2109,7 +2385,9 @@
     "address": "静岡県伊東市鎌田1285-12",
     "map_url": "https://www.google.co.jp/maps/search/静岡県伊東市鎌田1285-12",
     "city": "伊東市",
-    "dmm_id": "5254"
+    "dmm_id": "5254",
+    "pachinko_count": 320,
+    "slot_count": 232
   },
   {
     "id": "867cc06732",
@@ -2125,7 +2403,9 @@
     "address": "静岡県富士市今泉3丁目15番30号",
     "map_url": "https://www.google.co.jp/maps/search/静岡県富士市今泉3丁目15番30号",
     "city": "富士市",
-    "dmm_id": "5268"
+    "dmm_id": "5268",
+    "pachinko_count": 432,
+    "slot_count": 392
   },
   {
     "id": "e2e55b8604",
@@ -2141,7 +2421,11 @@
     "address": "静岡県浜松市中央区葵西4丁目25番8号",
     "map_url": "https://www.google.co.jp/maps/search/静岡県浜松市中央区葵西4丁目25番8号",
     "city": "浜松市中央区",
-    "dmm_id": "5143"
+    "dmm_id": "5143",
+    "pachinko_count": 440,
+    "slot_count": 360,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "5351ce5966",
@@ -2154,10 +2438,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県浜松市中央区雄踏1-2-1",
     "map_url": null,
     "city": "浜松市中央区",
-    "dmm_id": "5172"
+    "dmm_id": "5172",
+    "pachinko_count": 437,
+    "slot_count": 441,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "a7b69218d6",
@@ -2170,10 +2458,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県浜松市中央区上新屋町1-5",
     "map_url": null,
     "city": "浜松市中央区",
-    "dmm_id": "5162"
+    "dmm_id": "5162",
+    "pachinko_count": 639,
+    "slot_count": 535,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "7074311887",
@@ -2333,7 +2625,9 @@
     "address": "三重県三重郡菰野町宿野字神明田303番地",
     "map_url": "https://www.google.co.jp/maps/search/三重県三重郡菰野町宿野字神明田303番地",
     "city": "三重郡",
-    "dmm_id": "12093"
+    "dmm_id": "12093",
+    "pachinko_count": 120,
+    "slot_count": 270
   },
   {
     "id": "eded493cc3",
@@ -2392,10 +2686,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "京都府京田辺市三山木中央8-7-3",
     "map_url": null,
     "city": "京田辺市",
-    "dmm_id": "7219"
+    "dmm_id": "7219",
+    "pachinko_count": 239,
+    "slot_count": 238
   },
   {
     "id": "7cab996e62",
@@ -2411,7 +2707,11 @@
     "address": "京都府京田辺市河原御影30番地の5",
     "map_url": "https://www.google.co.jp/maps/search/京都府京田辺市河原御影30番地の5",
     "city": "京田辺市",
-    "dmm_id": "12905"
+    "dmm_id": "12905",
+    "pachinko_count": 156,
+    "slot_count": 94,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "f755d1ee47",
@@ -2427,7 +2727,9 @@
     "address": "京都府京都市右京区西院東淳和院町37",
     "map_url": "https://www.google.co.jp/maps/search/京都府京都市右京区西院東淳和院町37",
     "city": "京都市右京区",
-    "dmm_id": "7087"
+    "dmm_id": "7087",
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "a5285eb184",
@@ -2443,7 +2745,9 @@
     "address": "京都府宇治市六地蔵奈良町28-1",
     "map_url": "https://www.google.co.jp/maps/search/京都府宇治市六地蔵奈良町28-1",
     "city": "宇治市",
-    "dmm_id": "7150"
+    "dmm_id": "7150",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "fa4c691a8a",
@@ -2459,7 +2763,11 @@
     "address": "京都府相楽郡精華町菱田桑町6-2",
     "map_url": "https://www.google.co.jp/maps/search/京都府相楽郡精華町菱田桑町6-2",
     "city": "相楽郡",
-    "dmm_id": "12410"
+    "dmm_id": "12410",
+    "pachinko_count": 234,
+    "slot_count": 126,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "2eaf7b3f8f",
@@ -2472,10 +2780,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "京都府福知山市字堀小字下高田2347番地",
     "map_url": null,
     "city": "福知山市",
-    "dmm_id": "7131"
+    "dmm_id": "7131",
+    "pachinko_count": 400,
+    "slot_count": 400
   },
   {
     "id": "5c769cadfc",
@@ -2488,10 +2798,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/wl_takeo",
-    "address": null,
+    "address": "佐賀県武雄市武雄町大字富岡12531番外7",
     "map_url": null,
     "city": "武雄市",
-    "dmm_id": "11415"
+    "dmm_id": "11415",
+    "pachinko_count": 440,
+    "slot_count": 403,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "022d5b1d65",
@@ -2504,10 +2818,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/wl_kashima",
-    "address": null,
+    "address": "佐賀県鹿島市大字高津原字三本松3191番地1",
     "map_url": null,
     "city": "鹿島市",
-    "dmm_id": "11422"
+    "dmm_id": "11422",
+    "pachinko_count": 482,
+    "slot_count": 241,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "00aeac5ae0",
@@ -2550,10 +2868,13 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "兵庫県尼崎市東園田町5-117-5",
     "map_url": null,
     "city": "尼崎市",
-    "dmm_id": "8311"
+    "dmm_id": "8311",
+    "slot_count": 186,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "221d085671",
@@ -2569,7 +2890,11 @@
     "address": "兵庫県明石市大明石町1-6-22",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県明石市大明石町1-6-22",
     "city": "明石市",
-    "dmm_id": "12350"
+    "dmm_id": "12350",
+    "pachinko_count": 150,
+    "slot_count": 142,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "74ecb566ef",
@@ -2582,10 +2907,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "兵庫県神戸市兵庫区羽坂通4-1-1",
     "map_url": null,
     "city": "神戸市兵庫区",
-    "dmm_id": "8155"
+    "dmm_id": "8155",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "7078b8bae1",
@@ -2601,7 +2928,8 @@
     "address": "兵庫県神戸市兵庫区新開地1丁目2番11号 1F",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県神戸市兵庫区新開地1丁目2番11号+1F",
     "city": "神戸市兵庫区",
-    "dmm_id": "8159"
+    "dmm_id": "8159",
+    "slot_count": 199
   },
   {
     "id": "1494cbaeb0",
@@ -2617,7 +2945,11 @@
     "address": "兵庫県神戸市北区山田町小部広刈18番地",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県神戸市北区山田町小部広刈18番地",
     "city": "神戸市北区",
-    "dmm_id": "8210"
+    "dmm_id": "8210",
+    "pachinko_count": 167,
+    "slot_count": 111,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "69145bc78f",
@@ -2633,7 +2965,9 @@
     "address": "兵庫県神戸市垂水区平磯4丁目5番5号",
     "map_url": "https://www.google.co.jp/maps/search/兵庫県神戸市垂水区平磯4丁目5番5号",
     "city": "神戸市垂水区",
-    "dmm_id": "8197"
+    "dmm_id": "8197",
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "8690f2186e",
@@ -2677,7 +3011,9 @@
     "address": "北海道夕張郡栗山町朝日4丁目43番地",
     "map_url": "https://www.google.co.jp/maps/search/北海道夕張郡栗山町朝日4丁目43番地",
     "city": "夕張郡",
-    "dmm_id": "1506"
+    "dmm_id": "1506",
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "55b4fd3cb8",
@@ -2693,7 +3029,10 @@
     "address": "北海道帯広市西24条南1丁目1番15",
     "map_url": "https://www.google.co.jp/maps/search/北海道帯広市西24条南1丁目1番15",
     "city": "帯広市",
-    "dmm_id": "1283"
+    "dmm_id": "1283",
+    "pachinko_count": 400,
+    "slot_count": 240,
+    "close_time": "22:45"
   },
   {
     "id": "9b935c4bd1",
@@ -2709,7 +3048,10 @@
     "address": "北海道札幌市中央区南二条西4丁目1番地3 札幌ナナイロ",
     "map_url": "https://www.google.co.jp/maps/search/北海道札幌市中央区南二条西4丁目1番地3+札幌ナナイロ",
     "city": "札幌市中央区",
-    "dmm_id": "12183"
+    "dmm_id": "12183",
+    "pachinko_count": 524,
+    "slot_count": 531,
+    "close_time": "22:45"
   },
   {
     "id": "222863d702",
@@ -2753,7 +3095,9 @@
     "address": "千葉県松戸市西馬橋蔵元町3-1",
     "map_url": "https://www.google.co.jp/maps/search/千葉県松戸市西馬橋蔵元町3-1",
     "city": "松戸市",
-    "dmm_id": "4064"
+    "dmm_id": "4064",
+    "pachinko_count": 339,
+    "slot_count": 365
   },
   {
     "id": "ba94a63892",
@@ -2766,10 +3110,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "和歌山県紀の川市貴志川町神戸8-1",
     "map_url": null,
     "city": "紀の川市",
-    "dmm_id": "12799"
+    "dmm_id": "12799",
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "7dd77ffec1",
@@ -2798,7 +3144,9 @@
     "address": "埼玉県ふじみ野市上福岡1-6-33",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県ふじみ野市上福岡1-6-33",
     "city": "ふじみ野市",
-    "dmm_id": "3842"
+    "dmm_id": "3842",
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "5cc4a6fba5",
@@ -2814,7 +3162,9 @@
     "address": "埼玉県川口市大字里1630 パラッツォ鳩ヶ谷第一ビル",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県川口市大字里1630+パラッツォ鳩ヶ谷第一ビル",
     "city": "川口市",
-    "dmm_id": "3468"
+    "dmm_id": "3468",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "eaa65b6f07",
@@ -2830,7 +3180,11 @@
     "address": "埼玉県所沢市花園4-2610-1",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県所沢市花園4-2610-1",
     "city": "所沢市",
-    "dmm_id": "3496"
+    "dmm_id": "3496",
+    "pachinko_count": 360,
+    "slot_count": 310,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "d55a2865a5",
@@ -2846,7 +3200,8 @@
     "address": "埼玉県所沢市日吉町11-17",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県所沢市日吉町11-17",
     "city": "所沢市",
-    "dmm_id": "3485"
+    "dmm_id": "3485",
+    "slot_count": 611
   },
   {
     "id": "61ecc102df",
@@ -2862,7 +3217,11 @@
     "address": "埼玉県蕨市塚越1-3-5",
     "map_url": "https://www.google.co.jp/maps/search/埼玉県蕨市塚越1-3-5",
     "city": "蕨市",
-    "dmm_id": "3691"
+    "dmm_id": "3691",
+    "pachinko_count": 331,
+    "slot_count": 417,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "affc0d735f",
@@ -2875,10 +3234,12 @@
     "lottery_time": "09:40",
     "con_pass_url": null,
     "x_url": "https://x.com/wl_nakatsu",
-    "address": null,
+    "address": "大分県中津市蛎瀬1280-1",
     "map_url": null,
     "city": "中津市",
-    "dmm_id": "10309"
+    "dmm_id": "10309",
+    "pachinko_count": 440,
+    "slot_count": 281
   },
   {
     "id": "df2bd8dc8a",
@@ -2908,7 +3269,9 @@
     "address": "大阪府吹田市豊津町9番25号",
     "map_url": "https://www.google.co.jp/maps/search/大阪府吹田市豊津町9番25号",
     "city": "吹田市",
-    "dmm_id": "7728"
+    "dmm_id": "7728",
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "fa6b3af605",
@@ -2924,7 +3287,9 @@
     "address": "大阪府堺市中区陶器北1686-1",
     "map_url": "https://www.google.co.jp/maps/search/大阪府堺市中区陶器北1686-1",
     "city": "堺市中区",
-    "dmm_id": "7607"
+    "dmm_id": "7607",
+    "pachinko_count": 400,
+    "slot_count": 240
   },
   {
     "id": "64c0af2794",
@@ -2940,7 +3305,11 @@
     "address": "大阪府守口市佐太東町１丁目１４番７号",
     "map_url": "https://www.google.co.jp/maps/search/大阪府守口市佐太東町１丁目１４番７号",
     "city": "守口市",
-    "dmm_id": "12109"
+    "dmm_id": "12109",
+    "pachinko_count": 1248,
+    "slot_count": 1248,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "7560f1bd30",
@@ -2970,7 +3339,9 @@
     "address": "大阪府大阪市平野区平野北1-4-13",
     "map_url": "https://www.google.co.jp/maps/search/大阪府大阪市平野区平野北1-4-13",
     "city": "高市郡",
-    "dmm_id": "6904"
+    "dmm_id": "6904",
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "3aea55a30e",
@@ -3000,7 +3371,9 @@
     "address": "宮城県仙台市若林区大和町5丁目31-12",
     "map_url": "https://www.google.co.jp/maps/search/宮城県仙台市若林区大和町5丁目31-12",
     "city": "仙台市若林区",
-    "dmm_id": "2179"
+    "dmm_id": "2179",
+    "pachinko_count": 380,
+    "slot_count": 138
   },
   {
     "id": "47e1f535bb",
@@ -3016,7 +3389,10 @@
     "address": "宮城県仙台市青葉区一番町4丁目2-10仙台東映プラザビル地下1階",
     "map_url": "https://www.google.co.jp/maps/search/宮城県仙台市青葉区一番町4丁目2-10仙台東映プラザビル地下1階",
     "city": "仙台市青葉区",
-    "dmm_id": "13398"
+    "dmm_id": "13398",
+    "slot_count": 399,
+    "open_time": "08:00",
+    "close_time": "23:45"
   },
   {
     "id": "bc85d8b8fe",
@@ -3057,10 +3433,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "山口県宇部市妻崎開作849",
     "map_url": null,
     "city": "宇部市",
-    "dmm_id": "9736"
+    "dmm_id": "9736",
+    "pachinko_count": 563,
+    "slot_count": 640
   },
   {
     "id": "8d0da9abbb",
@@ -3087,10 +3465,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "山形県山形市若宮1-2-22",
     "map_url": null,
     "city": "山形市",
-    "dmm_id": "2043"
+    "dmm_id": "2043",
+    "pachinko_count": 400,
+    "slot_count": 333
   },
   {
     "id": "f99863daf2",
@@ -3117,10 +3497,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "山梨県笛吹市石和町松本637-1",
     "map_url": null,
     "city": "笛吹市",
-    "dmm_id": "5064"
+    "dmm_id": "5064",
+    "pachinko_count": 320,
+    "slot_count": 240,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "f0677e862b",
@@ -3133,10 +3517,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "岐阜県瑞穂市稲里630",
     "map_url": null,
     "city": "瑞穂市",
-    "dmm_id": "6490"
+    "dmm_id": "6490",
+    "pachinko_count": 557,
+    "slot_count": 396
   },
   {
     "id": "fe087a5260",
@@ -3152,7 +3538,9 @@
     "address": "岐阜県高山市西之一色町2-121-1",
     "map_url": "https://www.google.co.jp/maps/search/岐阜県高山市西之一色町2-121-1",
     "city": "高山市",
-    "dmm_id": "6404"
+    "dmm_id": "6404",
+    "pachinko_count": 360,
+    "close_time": "22:45"
   },
   {
     "id": "572b913c23",
@@ -3165,10 +3553,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "岐阜県高山市下岡本町3081-1",
     "map_url": null,
     "city": "高山市",
-    "dmm_id": "6394"
+    "dmm_id": "6394",
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "29d53ba4cf",
@@ -3181,10 +3571,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "岡山県岡山市北区駅前町一丁目４番１号",
     "map_url": null,
     "city": "岡山市北区",
-    "dmm_id": "9526"
+    "dmm_id": "9526",
+    "pachinko_count": 296,
+    "slot_count": 382,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "15eb7be070",
@@ -3225,10 +3619,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "島根県出雲市姫原4-7-1",
     "map_url": null,
     "city": "出雲市",
-    "dmm_id": "9185"
+    "dmm_id": "9185",
+    "pachinko_count": 200,
+    "slot_count": 240,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "4fefb27156",
@@ -3241,10 +3639,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "島根県松江市東朝日町字小浜270",
     "map_url": null,
     "city": "松江市",
-    "dmm_id": "9151"
+    "dmm_id": "9151",
+    "pachinko_count": 475,
+    "slot_count": 380
   },
   {
     "id": "e1d70d08d9",
@@ -3257,10 +3657,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/mn_okinohama",
-    "address": null,
+    "address": "徳島県徳島市沖浜東3-4",
     "map_url": null,
     "city": "徳島市",
-    "dmm_id": "9951"
+    "dmm_id": "9951",
+    "pachinko_count": 392,
+    "slot_count": 320,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "f0a461a748",
@@ -3273,10 +3677,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/mn_naruto_ps",
-    "address": null,
+    "address": "徳島県鳴門市大津町木津野字東辰己13-1",
     "map_url": null,
     "city": "鳴門市",
-    "dmm_id": "9962"
+    "dmm_id": "9962",
+    "pachinko_count": 210,
+    "slot_count": 120
   },
   {
     "id": "51a4122c60",
@@ -3348,7 +3754,11 @@
     "address": "愛知県半田市乙川吉野町４３",
     "map_url": "https://www.google.co.jp/maps/search/愛知県半田市乙川吉野町４３",
     "city": "半田市",
-    "dmm_id": "5972"
+    "dmm_id": "5972",
+    "pachinko_count": 673,
+    "slot_count": 727,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "2a201a2a33",
@@ -3364,7 +3774,11 @@
     "address": "愛知県田原市田原町二の丸43-1",
     "map_url": "https://www.google.co.jp/maps/search/愛知県田原市田原町二の丸43-1",
     "city": "田原市",
-    "dmm_id": "6260"
+    "dmm_id": "6260",
+    "pachinko_count": 206,
+    "slot_count": 197,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "271cbcf6ca",
@@ -3380,7 +3794,11 @@
     "address": "新潟県新発田市新富町3丁目9番11号",
     "map_url": "https://www.google.co.jp/maps/search/新潟県新発田市新富町3丁目9番11号",
     "city": "新発田市",
-    "dmm_id": "8705"
+    "dmm_id": "8705",
+    "pachinko_count": 224,
+    "slot_count": 173,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "db1261fafb",
@@ -3409,10 +3827,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都府中市宮町1-50くるる1",
     "map_url": null,
     "city": "府中市",
-    "dmm_id": "868"
+    "dmm_id": "868",
+    "pachinko_count": 333,
+    "slot_count": 244,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "f0b60975e4",
@@ -3428,7 +3850,10 @@
     "address": "東京都新宿区西新宿1丁目19番1号",
     "map_url": "https://www.google.co.jp/maps/search/東京都新宿区西新宿1丁目19番1号",
     "city": "新宿区",
-    "dmm_id": "77"
+    "dmm_id": "77",
+    "slot_count": 422,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "86d2ddb6f6",
@@ -3441,10 +3866,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都杉並区下井草2-44-6",
     "map_url": null,
     "city": "杉並区",
-    "dmm_id": "398"
+    "dmm_id": "398",
+    "pachinko_count": 24,
+    "slot_count": 204,
+    "open_time": "10:00",
+    "close_time": "22:40"
   },
   {
     "id": "8695934f97",
@@ -3457,10 +3886,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都江東区亀戸5-2-5",
     "map_url": null,
     "city": "江東区",
-    "dmm_id": "187"
+    "dmm_id": "187",
+    "pachinko_count": 314,
+    "slot_count": 126,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "75f2e47124",
@@ -3473,10 +3906,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都豊島区東池袋1-11-11池袋東口ホテルホワイトシティー1Ｆ・Ｂ1Ｆ",
     "map_url": null,
     "city": "豊島区",
-    "dmm_id": "467"
+    "dmm_id": "467",
+    "pachinko_count": 304,
+    "slot_count": 144,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "e3541220e4",
@@ -3489,7 +3926,7 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "栃木県那須塩原市一区町316-7",
     "map_url": null,
     "city": "那須塩原市",
     "dmm_id": "3015"
@@ -3519,10 +3956,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "滋賀県草津市木川町306-1",
     "map_url": null,
     "city": "草津市",
-    "dmm_id": "13030"
+    "dmm_id": "13030",
+    "pachinko_count": 308,
+    "slot_count": 352
   },
   {
     "id": "df2f74a18f",
@@ -3551,7 +3990,7 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": "https://x.com/16yatsushiro",
-    "address": null,
+    "address": "熊本県八代市西片町字百田1504-1",
     "map_url": null,
     "city": "八代市",
     "dmm_id": "13214"
@@ -3567,10 +4006,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "熊本県熊本市東区戸島西2-2-75",
     "map_url": null,
     "city": "熊本市東区",
-    "dmm_id": "11221"
+    "dmm_id": "11221",
+    "pachinko_count": 401,
+    "slot_count": 423,
+    "open_time": "10:00",
+    "close_time": "22:30"
   },
   {
     "id": "83e5dd40f1",
@@ -3597,10 +4040,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "石川県小松市今江町９丁目３２９",
     "map_url": null,
     "city": "小松市",
-    "dmm_id": "8859"
+    "dmm_id": "8859",
+    "pachinko_count": 300,
+    "slot_count": 198,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "8f176a675c",
@@ -3646,7 +4093,9 @@
     "address": "神奈川県横浜市南区井土ヶ谷中町153番地",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県横浜市南区井土ヶ谷中町153番地",
     "city": "横浜市南区",
-    "dmm_id": "4463"
+    "dmm_id": "4463",
+    "pachinko_count": 359,
+    "slot_count": 380
   },
   {
     "id": "8c604f16b9",
@@ -3662,7 +4111,9 @@
     "address": "神奈川県横浜市戸塚区原宿4-53-1",
     "map_url": "https://www.google.co.jp/maps/search/神奈川県横浜市戸塚区原宿4-53-1",
     "city": "横浜市戸塚区",
-    "dmm_id": "4525"
+    "dmm_id": "4525",
+    "pachinko_count": 480,
+    "slot_count": 321
   },
   {
     "id": "afef6b0566",
@@ -3675,10 +4126,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "神奈川県横浜市緑区十日市場町883-7",
     "map_url": null,
     "city": "横浜市緑区",
-    "dmm_id": "4570"
+    "dmm_id": "4570",
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "acdc4fbc5c",
@@ -3691,10 +4144,13 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "神奈川県藤沢市本藤沢5-6-4",
     "map_url": null,
     "city": "藤沢市",
-    "dmm_id": "4793"
+    "dmm_id": "4793",
+    "pachinko_count": 468,
+    "slot_count": 336,
+    "close_time": "22:45"
   },
   {
     "id": "189d022904",
@@ -3721,10 +4177,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県八女市室岡779-1",
     "map_url": null,
     "city": "八女市",
-    "dmm_id": "12611"
+    "dmm_id": "12611",
+    "pachinko_count": 520,
+    "slot_count": 494,
+    "open_time": "10:00",
+    "close_time": "23:00"
   },
   {
     "id": "b9dfb502bf",
@@ -3737,10 +4197,13 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県太宰府市大佐野2-15-1",
     "map_url": null,
     "city": "太宰府市",
-    "dmm_id": "12624"
+    "dmm_id": "12624",
+    "pachinko_count": 336,
+    "slot_count": 501,
+    "open_time": "23:00"
   },
   {
     "id": "f16565ce99",
@@ -3756,7 +4219,11 @@
     "address": "福岡県福岡市中央区笹丘1丁目12-26",
     "map_url": "https://www.google.co.jp/maps/search/福岡県福岡市中央区笹丘1丁目12-26",
     "city": "福岡市中央区",
-    "dmm_id": "10437"
+    "dmm_id": "10437",
+    "pachinko_count": 184,
+    "slot_count": 222,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "b31328b13a",
@@ -3769,10 +4236,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県福岡市博多区祗園町1-30",
     "map_url": null,
     "city": "福岡市博多区",
-    "dmm_id": "10415"
+    "dmm_id": "10415",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "09f455aae9",
@@ -3785,10 +4254,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福岡県福岡市早良区干隈6-8-12",
     "map_url": null,
     "city": "福岡市早良区",
-    "dmm_id": "10488"
+    "dmm_id": "10488",
+    "pachinko_count": 292,
+    "slot_count": 313
   },
   {
     "id": "2ebb400ff8",
@@ -3804,7 +4275,11 @@
     "address": "福岡県飯塚市弁分40-3",
     "map_url": "https://www.google.co.jp/maps/search/福岡県飯塚市弁分40-3",
     "city": "飯塚市",
-    "dmm_id": "10629"
+    "dmm_id": "10629",
+    "pachinko_count": 520,
+    "slot_count": 434,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "f6fab50530",
@@ -3831,10 +4306,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福島県いわき市平字城東3-2-7",
     "map_url": null,
     "city": "いわき市",
-    "dmm_id": "2446"
+    "dmm_id": "2446",
+    "pachinko_count": 392,
+    "slot_count": 241
   },
   {
     "id": "4423243cbd",
@@ -3850,7 +4327,9 @@
     "address": "福島県いわき市錦町徳力31",
     "map_url": "https://www.google.co.jp/maps/search/福島県いわき市錦町徳力31",
     "city": "いわき市",
-    "dmm_id": "2455"
+    "dmm_id": "2455",
+    "pachinko_count": 376,
+    "slot_count": 251
   },
   {
     "id": "4891eca911",
@@ -3863,10 +4342,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福島県南相馬市原町区北原字沢目296-2",
     "map_url": null,
     "city": "南相馬市",
-    "dmm_id": "2498"
+    "dmm_id": "2498",
+    "pachinko_count": 479,
+    "slot_count": 320,
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "8338fea2b4",
@@ -3879,10 +4362,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "福島県福島市佐倉下字上谷地2-1",
     "map_url": null,
     "city": "福島市",
-    "dmm_id": "2370"
+    "dmm_id": "2370",
+    "pachinko_count": 320,
+    "slot_count": 128,
+    "open_time": "09:00",
+    "close_time": "22:50"
   },
   {
     "id": "0375a0a912",
@@ -3911,10 +4398,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "秋田県横手市婦気大提字谷地添130",
     "map_url": null,
     "city": "横手市",
-    "dmm_id": "1813"
+    "dmm_id": "1813",
+    "pachinko_count": 256,
+    "slot_count": 163,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "77d0f21e42",
@@ -3927,10 +4418,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "秋田県秋田市手形字蛇野163",
     "map_url": null,
     "city": "秋田市",
-    "dmm_id": "1764"
+    "dmm_id": "1764",
+    "pachinko_count": 354,
+    "slot_count": 149,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "d18a8a6a6a",
@@ -3943,10 +4438,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "秋田県秋田市泉北3-3-25",
     "map_url": null,
     "city": "秋田市",
-    "dmm_id": "1770"
+    "dmm_id": "1770",
+    "pachinko_count": 392,
+    "slot_count": 152,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "5a2f76fa9a",
@@ -3976,7 +4475,9 @@
     "address": "群馬県渋川市白井1099番地32",
     "map_url": "https://www.google.co.jp/maps/search/群馬県渋川市白井1099番地32",
     "city": "渋川市",
-    "dmm_id": "12471"
+    "dmm_id": "12471",
+    "pachinko_count": 400,
+    "slot_count": 287
   },
   {
     "id": "c0dd294692",
@@ -4003,10 +4504,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長崎県長崎市弁天町1-23",
     "map_url": null,
     "city": "長崎市",
-    "dmm_id": "11460"
+    "dmm_id": "11460",
+    "pachinko_count": 228,
+    "slot_count": 278,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "9d6e6c95bc",
@@ -4022,7 +4527,9 @@
     "address": "長野県上伊那郡箕輪町大字三日町字曽根田883-1",
     "map_url": "https://www.google.co.jp/maps/search/長野県上伊那郡箕輪町大字三日町字曽根田883-1",
     "city": "上伊那郡",
-    "dmm_id": "5632"
+    "dmm_id": "5632",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "b1990ec906",
@@ -4035,10 +4542,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長野県上田市住吉110-7",
     "map_url": null,
     "city": "上田市",
-    "dmm_id": "12118"
+    "dmm_id": "12118",
+    "pachinko_count": 480,
+    "slot_count": 328,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "1648fb057f",
@@ -4051,10 +4562,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長野県佐久市長土呂新城125-1",
     "map_url": null,
     "city": "佐久市",
-    "dmm_id": "5596"
+    "dmm_id": "5596",
+    "pachinko_count": 501,
+    "slot_count": 440
   },
   {
     "id": "432b5d01b4",
@@ -4070,7 +4583,11 @@
     "address": "長野県長野市三輪10-1-2",
     "map_url": "https://www.google.co.jp/maps/search/長野県長野市三輪10-1-2",
     "city": "長野市",
-    "dmm_id": "5449"
+    "dmm_id": "5449",
+    "pachinko_count": 180,
+    "slot_count": 101,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "6d55710c5e",
@@ -4097,7 +4614,7 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "青森県むつ市十二林3番地3",
     "map_url": null,
     "city": "むつ市",
     "dmm_id": "1731"
@@ -4113,10 +4630,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "青森県八戸市大字長苗代字前田19-2",
     "map_url": null,
     "city": "八戸市",
-    "dmm_id": "1676"
+    "dmm_id": "1676",
+    "pachinko_count": 440,
+    "slot_count": 200,
+    "open_time": "08:30",
+    "close_time": "23:00"
   },
   {
     "id": "2aed4f647a",
@@ -4129,10 +4650,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "青森県弘前市神田2-7-9",
     "map_url": null,
     "city": "弘前市",
-    "dmm_id": "1658"
+    "dmm_id": "1658",
+    "pachinko_count": 293,
+    "slot_count": 252,
+    "open_time": "08:30",
+    "close_time": "22:45"
   },
   {
     "id": "a939a5318f",
@@ -4148,7 +4673,9 @@
     "address": "静岡県三島市壱町田6-1",
     "map_url": "https://www.google.co.jp/maps/search/静岡県三島市壱町田6-1",
     "city": "三島市",
-    "dmm_id": "5225"
+    "dmm_id": "5225",
+    "pachinko_count": 373,
+    "slot_count": 293
   },
   {
     "id": "be09d3377d",
@@ -4161,10 +4688,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県下田市1-3-6",
     "map_url": null,
     "city": "下田市",
-    "dmm_id": "5364"
+    "dmm_id": "5364",
+    "pachinko_count": 181,
+    "slot_count": 85
   },
   {
     "id": "f8af5ef91a",
@@ -4180,7 +4709,11 @@
     "address": "静岡県富士市大渕3040-10",
     "map_url": "https://www.google.co.jp/maps/search/静岡県富士市大渕3040-10",
     "city": "富士市",
-    "dmm_id": "5276"
+    "dmm_id": "5276",
+    "pachinko_count": 192,
+    "slot_count": 108,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "e529f627af",
@@ -4196,7 +4729,11 @@
     "address": "静岡県富士市八代町12番12号",
     "map_url": "https://www.google.co.jp/maps/search/静岡県富士市八代町12番12号",
     "city": "富士市",
-    "dmm_id": "5269"
+    "dmm_id": "5269",
+    "pachinko_count": 240,
+    "slot_count": 320,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "1274736166",
@@ -4212,7 +4749,9 @@
     "address": "静岡県富士市荒田島町10-37",
     "map_url": "https://www.google.co.jp/maps/search/静岡県富士市荒田島町10-37",
     "city": "富士市",
-    "dmm_id": "5271"
+    "dmm_id": "5271",
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "ed06e3b9da",
@@ -4225,10 +4764,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県御殿場市川島田9-1",
     "map_url": null,
     "city": "御殿場市",
-    "dmm_id": "5340"
+    "dmm_id": "5340",
+    "pachinko_count": 200,
+    "slot_count": 200
   },
   {
     "id": "afd5488b6e",
@@ -4244,7 +4785,11 @@
     "address": "静岡県御殿場市萩原916-11",
     "map_url": "https://www.google.co.jp/maps/search/静岡県御殿場市萩原916-11",
     "city": "御殿場市",
-    "dmm_id": "5349"
+    "dmm_id": "5349",
+    "pachinko_count": 340,
+    "slot_count": 250,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "c58b8ab35c",
@@ -4257,10 +4802,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県浜松市中央区小池町字中沢1558",
     "map_url": null,
     "city": "浜松市中央区",
-    "dmm_id": "5158"
+    "dmm_id": "5158",
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "691b1c3794",
@@ -4273,7 +4820,7 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県浜松市中央区大柳町672-1",
     "map_url": null,
     "city": "浜松市中央区",
     "dmm_id": "13312"
@@ -4292,7 +4839,11 @@
     "address": "静岡県浜松市中央区泉4-13-22",
     "map_url": "https://www.google.co.jp/maps/search/静岡県浜松市中央区泉4-13-22",
     "city": "浜松市中央区",
-    "dmm_id": "5152"
+    "dmm_id": "5152",
+    "pachinko_count": 469,
+    "slot_count": 368,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "b64278092d",
@@ -4305,10 +4856,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県浜松市浜名区横須賀1133-1",
     "map_url": null,
     "city": "浜松市浜名区",
-    "dmm_id": "12555"
+    "dmm_id": "12555",
+    "pachinko_count": 440,
+    "slot_count": 360
   },
   {
     "id": "9946c73622",
@@ -4321,10 +4874,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県焼津市三ヶ名180",
     "map_url": null,
     "city": "焼津市",
-    "dmm_id": "5310"
+    "dmm_id": "5310",
+    "pachinko_count": 280,
+    "slot_count": 180,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "3109ac0220",
@@ -4337,10 +4894,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県磐田市中泉851",
     "map_url": null,
     "city": "磐田市",
-    "dmm_id": "5296"
+    "dmm_id": "5296",
+    "pachinko_count": 440,
+    "slot_count": 360,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "0cf9cec7a9",
@@ -4356,7 +4917,11 @@
     "address": "静岡県磐田市上万能262-1",
     "map_url": "https://www.google.co.jp/maps/search/静岡県磐田市上万能262-1",
     "city": "磐田市",
-    "dmm_id": "12073"
+    "dmm_id": "12073",
+    "pachinko_count": 614,
+    "slot_count": 441,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "ebee16f901",
@@ -4372,7 +4937,11 @@
     "address": "静岡県静岡市駿河区中原153番地",
     "map_url": "https://www.google.co.jp/maps/search/静岡県静岡市駿河区中原153番地",
     "city": "静岡市駿河区",
-    "dmm_id": "5106"
+    "dmm_id": "5106",
+    "pachinko_count": 396,
+    "slot_count": 432,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "247db13cc8",
@@ -4388,7 +4957,11 @@
     "address": "静岡県静岡市駿河区富士見台一丁目４番８５号",
     "map_url": "https://www.google.co.jp/maps/search/静岡県静岡市駿河区富士見台一丁目４番８５号",
     "city": "静岡市駿河区",
-    "dmm_id": "5103"
+    "dmm_id": "5103",
+    "pachinko_count": 448,
+    "slot_count": 510,
+    "open_time": "09:00",
+    "close_time": "22:30"
   },
   {
     "id": "48e98e53e1",
@@ -4401,10 +4974,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県駿東郡長泉町下土狩371-4",
     "map_url": null,
     "city": "駿東郡",
-    "dmm_id": "5415"
+    "dmm_id": "5415",
+    "pachinko_count": 126,
+    "slot_count": 108,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "85d8b29a3e",
@@ -4417,10 +4994,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": "https://x.com/mn_kanonji",
-    "address": null,
+    "address": "香川県観音寺市出作町530",
     "map_url": null,
     "city": "観音寺市",
-    "dmm_id": "9903"
+    "dmm_id": "9903",
+    "open_time": "09:00",
+    "close_time": "22:45"
   },
   {
     "id": "0ac827c91d",
@@ -4461,10 +5040,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "鹿児島県出水市六月田町888",
     "map_url": null,
     "city": "出水市",
-    "dmm_id": "11037"
+    "dmm_id": "11037",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "5b5d3dff90",
@@ -4477,7 +5058,7 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "鹿児島県志布志市志布志町安楽3618",
     "map_url": null,
     "city": "志布志市",
     "dmm_id": "11109"
@@ -6205,10 +6786,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "兵庫県神戸市長田区菅原通6-2",
     "map_url": null,
     "city": "神戸市長田区",
-    "dmm_id": "8168"
+    "dmm_id": "8168",
+    "pachinko_count": 320,
+    "slot_count": 331,
+    "open_time": "10:00",
+    "close_time": "22:50"
   },
   {
     "id": "fc8ee7eaa9",
@@ -8211,10 +8796,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "大阪府門真市三ツ島3丁目14番38",
     "map_url": null,
     "city": "門真市",
-    "dmm_id": "8021"
+    "dmm_id": "8021",
+    "pachinko_count": 396,
+    "slot_count": 34
   },
   {
     "id": "67a289ff89",
@@ -8459,10 +9046,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "宮城県仙台市青葉区栗生7-3-13",
     "map_url": null,
     "city": "仙台市青葉区",
-    "dmm_id": "2150"
+    "dmm_id": "2150",
+    "pachinko_count": 480,
+    "slot_count": 240,
+    "open_time": "09:00",
+    "close_time": "23:30"
   },
   {
     "id": "2d6e53d94a",
@@ -8603,10 +9194,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "宮城県石巻市中里4-1-8",
     "map_url": null,
     "city": "石巻市",
-    "dmm_id": "2215"
+    "dmm_id": "2215",
+    "pachinko_count": 504,
+    "slot_count": 320,
+    "open_time": "09:00",
+    "close_time": "23:00"
   },
   {
     "id": "3ce0cd10da",
@@ -8783,10 +9378,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "山梨県中巨摩郡昭和町清水新居79",
     "map_url": null,
     "city": "中巨摩郡",
-    "dmm_id": "5072"
+    "dmm_id": "5072",
+    "pachinko_count": 360,
+    "slot_count": 200,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "978d91b95b",
@@ -9953,10 +10552,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都昭島市昭和町2-5-8",
     "map_url": null,
     "city": "昭島市",
-    "dmm_id": "870"
+    "dmm_id": "870",
+    "pachinko_count": 81,
+    "slot_count": 114
   },
   {
     "id": "e7814b4a34",
@@ -10017,10 +10618,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "東京都江東区東雲1-6-13　1F",
     "map_url": null,
     "city": "江東区",
-    "dmm_id": "169"
+    "dmm_id": "169",
+    "pachinko_count": 560,
+    "slot_count": 507,
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "83c6d406ce",
@@ -12319,10 +12924,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長野県中野市大字吉田1-2",
     "map_url": null,
     "city": "中野市",
-    "dmm_id": "5571"
+    "dmm_id": "5571",
+    "pachinko_count": 288,
+    "slot_count": 283
   },
   {
     "id": "e4dc238d22",
@@ -12351,10 +12958,12 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "長野県長野市高田字五反田1724-1",
     "map_url": null,
     "city": "長野市",
-    "dmm_id": "5457"
+    "dmm_id": "5457",
+    "open_time": "10:00",
+    "close_time": "22:45"
   },
   {
     "id": "88cf713094",
@@ -12669,10 +13278,14 @@
     "con_pass_url": null,
     "hp_url": null,
     "x_url": null,
-    "address": null,
+    "address": "青森県八戸市新井田西3-11-7",
     "map_url": null,
     "city": "八戸市",
-    "dmm_id": "1668"
+    "dmm_id": "1668",
+    "pachinko_count": 320,
+    "slot_count": 240,
+    "open_time": "08:30",
+    "close_time": "23:00"
   },
   {
     "id": "2f53f066b7",
@@ -12885,10 +13498,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県三島市南二日町634-1",
     "map_url": null,
     "city": "三島市",
-    "dmm_id": "5235"
+    "dmm_id": "5235",
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "1f401e6ee2",
@@ -12917,10 +13532,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県富士宮市中原町150",
     "map_url": null,
     "city": "富士宮市",
-    "dmm_id": "5240"
+    "dmm_id": "5240",
+    "pachinko_count": 280,
+    "slot_count": 280,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "024f9b231d",
@@ -12936,7 +13555,11 @@
     "address": "静岡県富士市伝法1280",
     "map_url": "https://www.google.co.jp/maps/search/静岡県富士市伝法1280",
     "city": "富士市",
-    "dmm_id": "5285"
+    "dmm_id": "5285",
+    "pachinko_count": 426,
+    "slot_count": 240,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "72273a809f",
@@ -13064,7 +13687,11 @@
     "address": "静岡県浜松市中央区天龍川町430番1",
     "map_url": "https://www.google.co.jp/maps/search/静岡県浜松市中央区天龍川町430番1",
     "city": "浜松市中央区",
-    "dmm_id": "5154"
+    "dmm_id": "5154",
+    "pachinko_count": 320,
+    "slot_count": 240,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "b3aa9f7854",
@@ -13141,10 +13768,12 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県焼津市三和1820",
     "map_url": null,
     "city": "焼津市",
-    "dmm_id": "5312"
+    "dmm_id": "5312",
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "96e5fd5f26",
@@ -13237,10 +13866,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県静岡市葵区柳町65-1",
     "map_url": null,
     "city": "静岡市葵区",
-    "dmm_id": "5092"
+    "dmm_id": "5092",
+    "pachinko_count": 320,
+    "slot_count": 160,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "e8246b0bc6",
@@ -13349,10 +13982,14 @@
     "lottery_time": null,
     "con_pass_url": null,
     "x_url": null,
-    "address": null,
+    "address": "静岡県駿東郡清水町長沢47",
     "map_url": null,
     "city": "駿東郡",
-    "dmm_id": "5418"
+    "dmm_id": "5418",
+    "pachinko_count": 436,
+    "slot_count": 474,
+    "open_time": "09:00",
+    "close_time": "22:40"
   },
   {
     "id": "114e444182",
