@@ -1,5 +1,21 @@
 [
   {
+    "id": "f21bb9c6123a",
+    "date": "2026-05-30",
+    "time": "22:52",
+    "store": "マルハン名取店",
+    "machine": "北斗の拳転生",
+    "machine_type": "slot",
+    "slot_number": "654",
+    "text": "マルハン名取店です。  5/30(土)　22：23  654番台 L　スマスロ北斗の拳転生の章２MW コンプリート機能発動",
+    "x_url": "https://x.com/maruhan_natori/status/2060720943471923676",
+    "collected_at": "2026-05-30T18:46:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJkmrOFaEAEuL_O?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJkmrOFaEAEuL_O?format=jpg&name=large"
+  },
+  {
     "id": "0e6fc7211431",
     "date": "2026-05-30",
     "time": "21:35",
@@ -242,5 +258,21 @@
       "https://pbs.twimg.com/media/HJhfRjJW4AQIDbJ?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJhfRjJW4AQIDbJ?format=jpg&name=large"
+  },
+  {
+    "id": "58cd57dc39e7",
+    "date": "2026-05-30",
+    "time": "00:12",
+    "store": "ラ・カータ狭山本店",
+    "machine": "カバネリ488番台がコンプリ",
+    "machine_type": "slot",
+    "slot_number": "488",
+    "text": "ラカータ足利にて カバネリ488番台がコンプリート 店長泣いてましたわ ご遊技されていたお客様羨ましい",
+    "x_url": "https://x.com/lakata_kyan/status/2060741086801547773",
+    "collected_at": "2026-05-30T18:45:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJk5GHZaAAASMH_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJk5GHZaAAASMH_?format=jpg&name=large"
   }
 ]
