@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-30T23:00:46+09:00",
+  "generated_at": "2026-05-31T00:18:18+09:00",
   "monthly": [
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 378,
+      "total_count": 383,
       "stores": [
         {
           "rank": 1,
@@ -14,33 +14,33 @@
         },
         {
           "rank": 2,
+          "name": "楽園池袋店ゲートウェイ",
+          "count": 8,
+          "x_url": "https://x.com/rakuenikebukuro"
+        },
+        {
+          "rank": 3,
           "name": "キャッスル春日井",
           "count": 7,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "name": "グランキコーナひたちなか店",
+          "count": 6,
+          "x_url": "https://x.com/gk_hitachinaka"
+        },
+        {
+          "rank": 5,
           "name": "キクヤ春日井店",
           "count": 6,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 4,
-          "name": "楽園池袋店ゲートウェイ",
-          "count": 6,
-          "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
-          "rank": 5,
+          "rank": 6,
           "name": "マルハン仙台苦竹店",
           "count": 6,
           "x_url": "https://x.com/niga_maru"
-        },
-        {
-          "rank": 6,
-          "name": "グランキコーナひたちなか店",
-          "count": 5,
-          "x_url": "https://x.com/gk_hitachinaka"
         },
         {
           "rank": 7,
@@ -56,22 +56,22 @@
         },
         {
           "rank": 9,
-          "name": "テキサス小倉店",
+          "name": "ダイナム長野上田店",
           "count": 4,
-          "x_url": "https://x.com/texas_kokura"
+          "x_url": "https://x.com/tencho_szk"
         },
         {
           "rank": 10,
-          "name": "プレイランドキャッスル東郷店",
+          "name": "テキサス小倉店",
           "count": 4,
-          "x_url": "https://x.com/toumaruhana6"
+          "x_url": "https://x.com/texas_kokura"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 51
+          "count": 52
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "e牙狼12",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 4,
@@ -215,33 +215,33 @@
       },
       {
         "rank": 2,
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 8,
+        "x_url": "https://x.com/rakuenikebukuro"
+      },
+      {
+        "rank": 3,
         "name": "キャッスル春日井",
         "count": 7,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
-        "rank": 3,
+        "rank": 4,
+        "name": "グランキコーナひたちなか店",
+        "count": 6,
+        "x_url": "https://x.com/gk_hitachinaka"
+      },
+      {
+        "rank": 5,
         "name": "キクヤ春日井店",
         "count": 6,
         "x_url": "https://x.com/315kasugai"
       },
       {
-        "rank": 4,
-        "name": "楽園池袋店ゲートウェイ",
-        "count": 6,
-        "x_url": "https://x.com/rakuenikebukuro"
-      },
-      {
-        "rank": 5,
+        "rank": 6,
         "name": "マルハン仙台苦竹店",
         "count": 6,
         "x_url": "https://x.com/niga_maru"
-      },
-      {
-        "rank": 6,
-        "name": "グランキコーナひたちなか店",
-        "count": 5,
-        "x_url": "https://x.com/gk_hitachinaka"
       },
       {
         "rank": 7,
@@ -257,22 +257,22 @@
       },
       {
         "rank": 9,
-        "name": "テキサス小倉店",
+        "name": "ダイナム長野上田店",
         "count": 4,
-        "x_url": "https://x.com/texas_kokura"
+        "x_url": "https://x.com/tencho_szk"
       },
       {
         "rank": 10,
-        "name": "プレイランドキャッスル東郷店",
+        "name": "テキサス小倉店",
         "count": 4,
-        "x_url": "https://x.com/toumaruhana6"
+        "x_url": "https://x.com/texas_kokura"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 53
+        "count": 52
       },
       {
         "rank": 2,
@@ -334,7 +334,7 @@
       {
         "rank": 3,
         "name": "e牙狼12",
-        "count": 15
+        "count": 16
       },
       {
         "rank": 4,
@@ -372,21 +372,21 @@
         "count": 2
       }
     ],
-    "total_count": 399
+    "total_count": 401
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 9,
+    "楽園池袋店ゲートウェイ": 8,
     "キャッスル春日井": 7,
+    "グランキコーナひたちなか店": 6,
     "キクヤ春日井店": 6,
-    "楽園池袋店ゲートウェイ": 6,
     "マルハン仙台苦竹店": 6,
-    "グランキコーナひたちなか店": 5,
     "楽園池袋店グリーンサイド": 5,
     "新ガーデン川口安行": 5,
+    "ダイナム長野上田店": 4,
     "テキサス小倉店": 4,
     "プレイランドキャッスル東郷店": 4,
     "ARROW浪速店": 4,
-    "キャッスル高浜店": 4,
     "店長あらた　マルハンメガシティ長野": 4,
     "メガフェイス菊陽": 4,
     "栄若宮大通店": 4,
@@ -395,7 +395,7 @@
     "キクヤ穂積店": 3,
     "マルハンメガシティ三島駿東": 3,
     "スーパーD’ステーション３９女神店": 3,
-    "ダイナム長野上田店": 3,
+    "キャッスル高浜店": 3,
     "SUPER CONCORDE": 3,
     "マルハン筑西店": 3,
     "楽園大宮店": 3,
@@ -415,7 +415,6 @@
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 2,
     "マルハン仙台名坊店": 2,
     "ミクちゃんガイア尼崎店": 2,
-    "楽園池袋": 2,
     "ミリオン宇多津店": 2,
     "SuperD'station東金店": 2,
     "ダイナム柴田町店": 2,
@@ -444,8 +443,11 @@
     "マリナプローバ": 1,
     "高岡店": 1,
     "マルハンアプリはこちら": 1,
+    "メガフェイス1250": 1,
+    "ダイナム鹿児島上川内店": 1,
     "マルシェ赤羽店": 1,
     "大安寺マルハチ": 1,
+    "キコーナ松戸": 1,
     "はま店長": 1,
     "スタジアム2001八女店": 1,
     "草津店": 1,
@@ -625,8 +627,6 @@
     "サミット別府店": 1,
     "マルハン島田": 1,
     "サンシャイン弥生": 1,
-    "マルハンメガシティ八千代緑が丘』結果": 1,
-    "ユーコーラッキー37筑後店": 1,
-    "関西すろいべ(旧ネコスロ)": 1
+    "マルハンメガシティ八千代緑が丘』結果": 1
   }
 }
