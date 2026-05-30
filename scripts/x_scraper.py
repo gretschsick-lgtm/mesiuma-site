@@ -976,44 +976,9 @@ def _find_floor_map_in_page(page) -> str | None:
 
 def _fetch_floor_map_from_dmm(page, store_name: str) -> str | None:
     """
-    DMM p-town で店舗名を検索し、フロアマップ画像URLを取得する。
-    取得した画像URLを返すだけ（ダウンロードは呼び出し元で行う）。
-    UIにDMMへのリンクは一切表示しない — 画像データのみ使用。
+    ⚠️ 法的リスク回避のため無効化（2026-05）。
+    DMM/p-town からのフロアマップ取得は一切行わない。常に None を返す。
     """
-    try:
-        encoded = urllib.request.quote(store_name)
-        search_url = f"https://p-town.dmm.com/search/?keyword={encoded}"
-        page.goto(search_url, timeout=15000, wait_until="domcontentloaded")
-        page.wait_for_timeout(2000)
-
-        # 検索結果から /shops/{pref}/{id} 形式のリンクを取得
-        shop_url = None
-        for a in page.query_selector_all('a[href*="/shops/"]'):
-            href = a.get_attribute("href") or ""
-            if re.search(r'/shops/\w+/\d+', href):
-                shop_url = href if href.startswith("http") else f"https://p-town.dmm.com{href}"
-                break
-
-        if not shop_url:
-            return None
-
-        page.goto(shop_url, timeout=12000, wait_until="domcontentloaded")
-        page.wait_for_timeout(1500)
-
-        # フロアマップ画像（CDN: shop_floor_maps/）を探す
-        for img in page.query_selector_all('img[src*="shop_floor_maps"]'):
-            src = img.get_attribute("src") or ""
-            if src:
-                return src
-
-        # 遅延ロード用: data-src も確認
-        for img in page.query_selector_all('img[data-src*="shop_floor_maps"]'):
-            src = img.get_attribute("data-src") or ""
-            if src:
-                return src
-
-    except Exception:
-        pass
     return None
 
 

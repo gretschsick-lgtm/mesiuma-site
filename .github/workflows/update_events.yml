@@ -145,36 +145,12 @@ jobs:
           path: public/events_public.json
           retention-days: 1
 
-  # ─── JOB F: p-town /schedules + P-World 取材来店情報 HTTP スクレイプ ─────
-  # ⚠️ DISABLED: DMM/P-WORLD 自動収集停止 (2026-05)
-  fetch-ptown:
-    if: false
-    runs-on: ubuntu-latest
-    timeout-minutes: 360
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install dependencies
-        run: pip install playwright playwright-stealth
-      - name: Fetch p-town schedules + P-World interviews
-        env:
-          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python scripts/fetch_events.py --job ptown --ptown-pages 80
-      - uses: actions/upload-artifact@v4
-        with:
-          name: events-ptown
-          path: public/events_public.json
-          retention-days: 1
+  # ─── (削除済み) JOB F: p-town / P-World は法的リスク回避のためジョブ自体を撤去 ─
 
-  # ─── MERGE: 6ジョブの結果をマージしてコミット ────────────────────────────
+  # ─── MERGE: 5ジョブの結果をマージしてコミット ────────────────────────────
   merge-and-push:
     runs-on: ubuntu-latest
-    needs: [fetch-accounts, fetch-search, fetch-google, fetch-web, fetch-youtube, fetch-ptown]
+    needs: [fetch-accounts, fetch-search, fetch-google, fetch-web, fetch-youtube]
     if: always()
     steps:
       - uses: actions/checkout@v4
@@ -219,13 +195,6 @@ jobs:
           path: artifacts/youtube
         continue-on-error: true
 
-      - name: Download ptown result
-        uses: actions/download-artifact@v4
-        with:
-          name: events-ptown
-          path: artifacts/ptown
-        continue-on-error: true
-
       - name: Merge all results
         run: |
           python3 - <<'EOF'
@@ -248,7 +217,7 @@ jobs:
                   print(f"既存ファイル読み込みエラー: {ex}")
 
           # 各ジョブ結果マージ
-          for artifact_dir in ["artifacts/accounts", "artifacts/search", "artifacts/google", "artifacts/web", "artifacts/youtube", "artifacts/ptown"]:
+          for artifact_dir in ["artifacts/accounts", "artifacts/search", "artifacts/google", "artifacts/web", "artifacts/youtube"]:
               p = Path(artifact_dir) / "events_public.json"
               if not p.exists():
                   print(f"スキップ: {artifact_dir}")

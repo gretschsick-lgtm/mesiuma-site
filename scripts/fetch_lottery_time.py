@@ -4,7 +4,8 @@ stores.json の各店舗の整列時間・抽選時間を収集するスクリ�
 
 収集元:
   1. 店舗公式HP (hp_url) → 整列/抽選時間のパターンマッチ
-  2. P-Town (DMM) の入場ルール詳細テキスト
+  2. store_machines.json に既に保存されている entry_rule テキスト
+     ※ DMM/P-World の直接スクレイピングは行わない
 
 Usage:
     python scripts/fetch_lottery_time.py              # 全店舗を対象

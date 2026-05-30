@@ -232,6 +232,8 @@ MACHINE_PATTERNS = [
     re.compile(r'(?:スマスロ|Lパチスロ|パチスロ|スマパチ)\s*[【「]([^】」]{3,25})[】」]'),
     # スマスロ 機種名 形式
     re.compile(r'(?:スマスロ|Lパチスロ|パチスロ|スマパチ)\s*[　]?([^\s　\n#「」【】、。]{3,25}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|\d+番台))'),
+    # L北斗の拳転生（汎用Lパターンは「の」で早期停止するため先に専用パターンを置く）
+    re.compile(r'([LＬ]北斗の拳[　\s]*転生(?:の章[２2Ⅱ]?)?)'),
     # L機種名（半角・全角両対応 — プレフィックス込みでキャプチャ）
     re.compile(r'([LＬ][^\s　\n#「」【】、。]{2,19}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|\d+番台|』|」|】))'),
     # e機種名（プレフィックス込み — 『e機種名』・【e機種名】・e機種名\s全形式対応）
@@ -538,6 +540,9 @@ def get_machine_type(machine: str) -> str:
 
 
 def extract_machine(text: str) -> str:
+    # 前処理: 「北斗の拳」と「転生」の間の空白（半角・全角）を除去
+    # 例: "スマスロ北斗の拳　転生の章２" → "スマスロ北斗の拳転生の章２"
+    text = re.sub(r'(北斗の拳)\s+(転生)', r'\1\2', text)
     for pat in MACHINE_PATTERNS:
         m = pat.search(text)
         if m:
@@ -568,6 +573,10 @@ def extract_machine(text: str) -> str:
             # 末尾のバージョン番号を除去（例: eカケグルイ7500ver → eカケグルイ）
             name = re.sub(r'\d{3,6}[Vvｖ][Eeｅ][Rrｒ]$', '', name).strip()
             name = re.sub(r'[Vvｖ][Eeｅ][Rrｒ]\d{1,4}$', '', name).strip()
+            if len(name) < 2:
+                continue
+            # 「コンプリート達成」等が機種名に混入した場合に除去（例: 牙狼コンプリート達成 → 牙狼）
+            name = re.sub(r'コンプリート.*$', '', name).strip()
             if len(name) < 2:
                 continue
             # 明らかに機種名でない語句を除外（番台パターン等の誤抽出防止）
@@ -794,6 +803,11 @@ def parse_tweet(text: str, tweet_url: str,
     # 確実に特定できた場合のみ受け入れる（個人アカウント・インフルエンサー対策）
     if not store and not is_known_store_handle:
         return None
+    # 既知ハンドルだが store が未設定の場合は _HANDLE_TO_STORE から補完
+    if not store and is_known_store_handle and handle_match:
+        resolved = _HANDLE_TO_STORE.get(handle_match.group(1).lower(), "")
+        if resolved:
+            store = resolved
     machine = extract_machine(text)
     slot_number = extract_slot_number(text)
 
@@ -844,13 +858,13 @@ def parse_tweet(text: str, tweet_url: str,
     }
 
 
-def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> list[dict]:
+def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> list[dict]:
     results = []
     seen_urls: set[str] = set()
 
-    # 前日 + 当日を収集（夜間の投稿漏れ・前回実行のこぼし分をカバー）
+    # 3日前〜翌日を収集（週末・深夜・インデックス漏れを広くカバー）
     from datetime import date as _dt, timedelta
-    since_date = (_dt.fromisoformat(today_str) - timedelta(days=1)).strftime("%Y-%m-%d")
+    since_date = (_dt.fromisoformat(today_str) - timedelta(days=3)).strftime("%Y-%m-%d")
     until_date = (_dt.fromisoformat(today_str) + timedelta(days=1)).strftime("%Y-%m-%d")
     # -filter:retweets で RT を除外し、店舗の原投稿に絞る
     date_filter = f" since:{since_date} until:{until_date} -filter:retweets"
@@ -876,12 +890,10 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     # ページ初期レンダリング完了まで少し待つ
     page.wait_for_timeout(1500)
 
-    # 25回スクロール: wheel距離5000px × 25回 = 合計125,000px分
-    # date_filter で前日〜翌日に絞るため深掘り不要。短縮でクエリ数を最大化
-    # 40→25に削減（250ms×25=6.25秒、1クエリあたり約4秒短縮）
-    for _ in range(25):
+    # 30回スクロール: wheel距離5000px × 30回 = 合計150,000px分
+    for _ in range(30):
         page.mouse.wheel(0, 5000)
-        page.wait_for_timeout(250)
+        page.wait_for_timeout(200)
 
     articles = page.query_selector_all('article[data-testid="tweet"]')
 
@@ -955,6 +967,145 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 200) -> lis
     return results
 
 
+def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
+    """店舗アカウントのタイムラインを直接収集（X search のインデックス漏れ補完）。
+
+    X検索は全ツイートをインデックスしていないため、検索経由では漏れが生じる。
+    タイムライン直接収集は検索インデックスに依存しないので、実績店舗からの漏れを防ぐ。
+    """
+    from datetime import date as _dt, timedelta
+    results = []
+    seen_urls: set[str] = set()
+
+    url = f"https://x.com/{handle}"
+    try:
+        page.goto(url, timeout=15000, wait_until="domcontentloaded")
+    except PlaywrightTimeout:
+        log(f"  ⏱ Timeout timeline: @{handle}")
+        return results
+
+    redir_url = page.url.lower()
+    if "login" in redir_url or "/flow/" in redir_url:
+        raise RuntimeError("LOGIN_REQUIRED")
+
+    try:
+        page.wait_for_selector('article[data-testid="tweet"]', timeout=8000)
+    except PlaywrightTimeout:
+        return results
+
+    page.wait_for_timeout(1000)
+
+    # 2日前を下限として、それより古いツイートが出てきたら停止
+    cutoff_date = (_dt.fromisoformat(today_str) - timedelta(days=2)).strftime("%Y-%m-%d")
+
+    # 30回スクロール（タイムラインは日付逆順で深掘りが必要）
+    for scroll_i in range(30):
+        page.mouse.wheel(0, 5000)
+        page.wait_for_timeout(200)
+
+        # 10回ごとに古すぎるツイートが出ていないか確認して早期終了
+        if scroll_i > 0 and scroll_i % 10 == 0:
+            articles_check = page.query_selector_all('article[data-testid="tweet"]')
+            too_old = 0
+            for art in articles_check[-5:]:  # 末尾5件だけチェック
+                try:
+                    t_el = art.query_selector("time")
+                    if t_el:
+                        dt_attr = t_el.get_attribute("datetime") or ""
+                        if dt_attr:
+                            from datetime import datetime as _dtt, timezone as _tz
+                            JST = _tz(timedelta(hours=9))
+                            tweet_dt = _dtt.fromisoformat(dt_attr.replace("Z", "+00:00")).astimezone(JST)
+                            tweet_date_str = tweet_dt.strftime("%Y-%m-%d")
+                            if tweet_date_str < cutoff_date:
+                                too_old += 1
+                except Exception:
+                    pass
+            if too_old >= 3:
+                break  # 古いツイートが増えてきたら打ち切り
+
+    articles = page.query_selector_all('article[data-testid="tweet"]')
+    store_name = _HANDLE_TO_STORE.get(handle.lower(), "")
+
+    for article in articles[:150]:
+        try:
+            text = ""
+            for sel in ['[data-testid="tweetText"]', '[lang]']:
+                el = article.query_selector(sel)
+                if el:
+                    t = el.inner_text()
+                    if len(t) > 10:
+                        text = t
+                        break
+
+            if not text:
+                continue
+
+            # コンプリート関連ツイートだけを対象（タイムライン全件の中からフィルタ）
+            if not any(kw in text for kw in ["コンプリート", "コンプ"]):
+                continue
+            # 除外パターンチェック
+            if any(p.search(text) for p in EXCLUDE_PATTERNS):
+                continue
+
+            tweet_url = ""
+            time_el = article.query_selector("time")
+            if time_el:
+                href = time_el.evaluate("el => el.closest('a') ? el.closest('a').href : ''")
+                if href and "status" in href:
+                    tweet_url = href
+            if not tweet_url:
+                for lnk in article.query_selector_all('a[href*="/status/"]'):
+                    href = lnk.get_attribute("href") or ""
+                    if "/status/" in href:
+                        tweet_url = f"https://x.com{href}" if href.startswith("/") else href
+                        break
+
+            if not tweet_url or tweet_url in seen_urls:
+                continue
+            seen_urls.add(tweet_url)
+
+            tweet_date, tweet_time = get_tweet_datetime(article)
+
+            # 収集対象日より古いものは除外
+            if tweet_date and tweet_date < cutoff_date:
+                continue
+
+            # タイムライン収集ではハンドルが確定しているので、直接 store_name を使用
+            entry = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time,
+                                author_name=store_name)
+            if entry:
+                # 店舗名が取れなかった場合もタイムライン収集では handle から補完
+                if not entry.get("store") and store_name:
+                    entry["store"] = store_name
+
+                # 画像取得
+                images: list[str] = []
+                try:
+                    img_els = article.query_selector_all('img[src*="pbs.twimg.com"]')
+                    for img_el in img_els[:4]:
+                        src = img_el.get_attribute("src") or ""
+                        if not src or "profile_images" in src:
+                            continue
+                        src = re.sub(r'\?.*$', '', src) + "?format=jpg&name=large"
+                        if src not in images:
+                            images.append(src)
+                except Exception:
+                    pass
+                if images:
+                    entry["images"]    = images
+                    entry["image_url"] = images[0]
+
+                results.append(entry)
+
+        except Exception:
+            continue
+
+    if results:
+        log(f"    ✅ timeline @{handle}: {len(results)}件")
+    return results
+
+
 def load_all() -> list[dict]:
     if not COMPLETE_JSON.exists():
         return []
@@ -997,8 +1148,31 @@ def save_complete(new_entries: list[dict], target_date: str):
     combined.sort(key=lambda x: (x.get("date", ""), x.get("time", "")), reverse=True)
     combined = combined[:3000]
 
-    # 一時ファイルに書き込んでからアトミックにリネーム（書き込み中断でのファイル破損を防止）
+    # ── 日付別ファイルに保存（public/complete_YYYY-MM-DD.json）───────────────
+    # 各日のデータを独立したファイルに保存することで:
+    # 1. GH Actions の git push コンフリクトを軽減（今日のファイルしか変わらない）
+    # 2. フロントエンドが特定日のデータだけを軽量ロードできる
+    # 3. git log で日別の変化が追いやすくなる
     import tempfile
+    dates_in_new = {e["date"] for e in new_only if e.get("date")}
+    for day in dates_in_new:
+        day_entries = [e for e in combined if e.get("date") == day]
+        day_path = COMPLETE_JSON.parent / f"complete_{day}.json"
+        with tempfile.NamedTemporaryFile(
+            "w", encoding="utf-8", dir=COMPLETE_JSON.parent, delete=False, suffix=".tmp"
+        ) as tf:
+            json.dump(day_entries, tf, ensure_ascii=False, indent=2)
+            tmp_path = tf.name
+        os.replace(tmp_path, day_path)
+
+    # 古い日付ファイルを削除（cutoff より古いもの）
+    for p in COMPLETE_JSON.parent.glob("complete_20??-??-??.json"):
+        day_str = p.stem.replace("complete_", "")
+        if day_str < cutoff:
+            p.unlink(missing_ok=True)
+            log(f"  🗑 古い日付ファイル削除: {p.name}")
+
+    # ── complete_info.json（全件統合ファイル・後方互換性維持）─────────────────
     with tempfile.NamedTemporaryFile(
         "w", encoding="utf-8", dir=COMPLETE_JSON.parent, delete=False, suffix=".tmp"
     ) as tf:
@@ -1296,8 +1470,8 @@ def update_ranking():
         ("吉宗",                   "L吉宗"),
         # ゴッドイーター
         ("ゴッドイーター",         "スマスロゴッドイーター"),
-        # 牙狼シリーズ（全バリエーションを牙狼12に統一）
-        ("牙狼",                   "牙狼12"),
+        # 牙狼シリーズ（スマパチのeプレフィックスを保持して牙狼12に統一）
+        ("牙狼",                   "e牙狼12"),
         # Lチバリヨ2ZB（全角・括弧表記ゆれを統一）
         ("チバリヨ２ＺＢ",         "Lチバリヨ2ZB"),
         ("チバリヨ２ZB",           "Lチバリヨ2ZB"),
@@ -1614,6 +1788,7 @@ def main():
     # ── 既知店舗の from:handle クエリを生成（キーワード検索より高精度・0%フォールスポジティブ）
     STORE_HANDLES_JSON = Path(__file__).parent.parent / "public/store_handles.json"
     handle_queries: list[str] = []
+    store_handles_data: dict = {}   # タイムライン収集フェーズでも参照する
     if STORE_HANDLES_JSON.exists():
         try:
             store_handles_data: dict = json.loads(STORE_HANDLES_JSON.read_text(encoding="utf-8"))
@@ -1622,13 +1797,13 @@ def main():
                 if isinstance(info, dict) and info.get("store"):
                     _HANDLE_TO_STORE[h.lower()] = info["store"]
             log(f"📋 ハンドル→店舗名マップ {len(_HANDLE_TO_STORE)}件 登録")
-            # count >= 2 の実績ある店舗アカウントを対象（上位60件まで）
+            # count >= 1 の実績ある店舗アカウントを対象（上位100件まで）
             active_handles = [
                 (h, info) for h, info in store_handles_data.items()
-                if isinstance(info, dict) and info.get("count", 0) >= 2
+                if isinstance(info, dict) and info.get("count", 0) >= 1
             ]
             active_handles.sort(key=lambda x: -x[1].get("count", 0))
-            handle_queries = [f"from:{h} コンプリート" for h, _ in active_handles[:60]]
+            handle_queries = [f"from:{h} コンプリート" for h, _ in active_handles[:100]]
             log(f"📋 from:handle クエリ {len(handle_queries)}件 追加")
         except Exception as _he:
             log(f"⚠️ store_handles.json 読み込みエラー: {_he}")
@@ -1648,13 +1823,13 @@ def main():
     all_new: list[dict] = []
     query_errors = 0   # クエリ単位のエラー数
 
-    # ── 時間制限: 22分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
-    MAX_RUNTIME_MIN = 22
+    # ── 時間制限: 28分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
+    MAX_RUNTIME_MIN = 28
     # ── 連続0件での早期終了: X側のレート制限検出
-    # キーワードクエリが先頭に来るため、30クエリ以降に0件が連続した場合は
-    # X側のレート制限と判断して終了
+    # キーワードクエリを全件実行し終わってから from:handle クエリで連続0件が続いた場合のみ終了
+    # ※ 半数判定（//2）だとキーワード後半〜from:handle が全スキップされるバグがあったため修正
     MAX_CONSECUTIVE_ZEROS = 12
-    MIN_QUERIES_BEFORE_EARLY_STOP = len(COMPLETE_QUERIES) // 2  # キーワードの半数以上実行後に有効化
+    MIN_QUERIES_BEFORE_EARLY_STOP = len(COMPLETE_QUERIES)  # キーワード全件実行後に有効化
     consecutive_zeros = 0
     script_start = time.monotonic()
 
@@ -1700,6 +1875,38 @@ def main():
             log("⚠️  ログイン確認タイムアウト — 続行")
 
         login_lost = False
+
+        # ── フェーズ0: タイムライン直接収集（X search インデックス漏れ補完）────────────
+        # count >= 3 の実績豊富な上位アカウントのタイムラインを直接訪問して収集
+        # X search は全ツイートをインデックスしないため、これが最も確実な収集手段
+        timeline_handles = [
+            h for h, info in store_handles_data.items()
+            if isinstance(info, dict) and info.get("count", 0) >= 3
+        ]
+        timeline_handles.sort(key=lambda h: -store_handles_data.get(h, {}).get("count", 0))
+        timeline_handles = timeline_handles[:50]  # 上位50アカウント
+
+        if timeline_handles and not login_lost:
+            log(f"📡 タイムライン直接収集フェーズ: {len(timeline_handles)}アカウント")
+            tl_total = 0
+            for tl_handle in timeline_handles:
+                elapsed_min = (time.monotonic() - script_start) / 60
+                if elapsed_min >= MAX_RUNTIME_MIN - 5:  # 残り5分以上残す
+                    log("⏰ タイムライン収集を打ち切り（残り時間不足）")
+                    break
+                try:
+                    tl_results = scrape_timeline(page, tl_handle, today)
+                    all_new.extend(tl_results)
+                    tl_total += len(tl_results)
+                except RuntimeError as e:
+                    if "LOGIN_REQUIRED" in str(e):
+                        log("❌ タイムライン収集中にセッション切れ")
+                        login_lost = True
+                        break
+                except Exception as e:
+                    log(f"  ⚠️ timeline @{tl_handle} エラー: {e}")
+            log(f"📡 タイムライン収集完了: 計{tl_total}件")
+
         for i, query in enumerate(all_queries, 1):
             # ── 時間制限チェック ──────────────────────────────────────────────
             elapsed_min = (time.monotonic() - script_start) / 60
@@ -1757,8 +1964,7 @@ def main():
         ctx.close()
 
         if login_lost:
-            supabase_log_end(sb_log_id, "failed", 0, 0, 0, 1, "Xセッション切れ")
-            # セッション切れでも収集済み分は保存して終了
+            # セッション切れでも収集済み分は保存して終了（supabase_log_end は後で呼ぶ）
             log(f"⚠️ セッション切れのため中断。収集済み{len(all_new)}件は保存します")
 
     # 重複除去
@@ -1788,7 +1994,7 @@ def main():
     sb_new, sb_dup = supabase_write_complete(deduped)
 
     # ── Supabase: 実行結果を記録 ──────────────────────────────────────────
-    sb_status = "success" if query_errors == 0 else "partial"
+    sb_status = "failed" if login_lost else ("success" if query_errors == 0 else "partial")
     supabase_log_end(
         sb_log_id, sb_status,
         fetched=len(deduped),

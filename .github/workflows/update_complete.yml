@@ -2,9 +2,17 @@ name: Update Complete Info
 
 on:
   schedule:
-    # JST 15:00〜翌2:00を30分ごと実行（Publicリポジトリ=無制限無料）
-    # UTC 06:00〜17:00（30分間隔）= JST 15:00〜翌2:00
+    # ── 24時間収集スケジュール ──────────────────────────────────────────────
+    # JST 15:00〜翌2:00（夕方〜深夜・パチンコ営業時間帯）: 30分ごと フル収集
+    # UTC 06:00〜17:00（30分間隔）
     - cron: "*/30 6-17 * * *"
+    # JST 08:00・10:00・12:00（午前中）: 追加ラン（前日漏れ補完 + 朝投稿キャッチ）
+    # UTC 23:00（JST 08:00）
+    - cron: "0 23 * * *"
+    # UTC 01:00（JST 10:00）
+    - cron: "0 1 * * *"
+    # UTC 04:00（JST 13:00）
+    - cron: "0 4 * * *"
   workflow_dispatch: # 手動実行も可
     inputs:
       date:
@@ -56,21 +64,14 @@ jobs:
         run: |
           # JST 日付を明示（GH Actions は UTC ランナー）
           TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)
-          HOUR_JST=$(TZ=Asia/Tokyo date +%H)
-          echo "🕐 JST: $TODAY_JST (${HOUR_JST}時)"
+          echo "🕐 JST: $TODAY_JST"
 
           if [ -n "${{ github.event.inputs.date }}" ]; then
             echo "📅 指定日付: ${{ github.event.inputs.date }}"
             python scripts/fetch_complete_info.py --headless --date "${{ github.event.inputs.date }}"
           else
+            # since_date が2日前まで拡張されているため深夜ダブルランは不要
             python scripts/fetch_complete_info.py --headless --date "$TODAY_JST"
-
-            # 深夜0〜5時は前日分も収集（日付またぎで漏れた分を補完）
-            if [ "$HOUR_JST" -lt 6 ]; then
-              YESTERDAY_JST=$(TZ=Asia/Tokyo date -d "yesterday" +%Y-%m-%d)
-              echo "🌙 深夜のため前日 $YESTERDAY_JST も再収集"
-              python scripts/fetch_complete_info.py --headless --date "$YESTERDAY_JST"
-            fi
           fi
 
       - name: Commit and push if changed
@@ -83,10 +84,13 @@ jobs:
 
           # ── コンフリクトを起こさない push 方式 ─────────────────────────────────
           for i in 1 2 3 4 5; do
-            # 生成ファイルを一時退避
+            # 生成ファイルを一時退避（complete_info.json + 日付別ファイル + ranking）
             cp public/complete_info.json    /tmp/complete_info.json.bak
             cp public/complete_ranking.json /tmp/complete_ranking.json.bak
             cp scripts/.x_session.enc /tmp/x_session.enc.bak 2>/dev/null || true
+            # 日付別ファイルをすべてバックアップ
+            mkdir -p /tmp/complete_days
+            cp public/complete_20??-??-??.json /tmp/complete_days/ 2>/dev/null || true
 
             # 最新リモートに同期
             git fetch origin main
@@ -96,9 +100,11 @@ jobs:
             cp /tmp/complete_info.json.bak    public/complete_info.json
             cp /tmp/complete_ranking.json.bak public/complete_ranking.json
             cp /tmp/x_session.enc.bak scripts/.x_session.enc 2>/dev/null || true
+            cp /tmp/complete_days/complete_20??-??-??.json public/ 2>/dev/null || true
 
             # 変更があるファイルだけ add
             git add public/complete_info.json public/complete_ranking.json
+            git add public/complete_20??-??-??.json 2>/dev/null || true
             git add public/store_handles.json public/store_x_urls.json 2>/dev/null || true
             git add scripts/.x_session.enc 2>/dev/null || true
 

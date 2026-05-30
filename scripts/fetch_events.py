@@ -690,16 +690,7 @@ YAHOO_RT_QUERIES = [
 # JOB D: 公式イベントサイト直接スクレイピング
 # ===========================================================================
 WEB_SOURCES = [
-    # ぱちタウンイベント
-    {
-        "name":    "p-town",
-        "urls":    [
-            "https://p-town.dmm.com/event/",
-            "https://p-town.dmm.com/event/?page=2",
-            "https://p-town.dmm.com/event/?page=3",
-        ],
-        "type":    "p-town",
-    },
+    # ※ DMM p-town は法的リスク回避のため除外（旧コードは削除済み）
     # スロパチステーション公式
     {
         "name":    "slotpachi",
@@ -1281,106 +1272,8 @@ def scrape_pttown_schedules_http(
     store_names: set[str],
     max_pages: int = 30,
 ) -> list[dict]:
-    """DMM p-town /schedules を urllib で直接スクレイプ（Playwright不要）。
-    alt テキスト「{店名} {YYYY/MM/DD}/（曜日）の来店イベント情報「{取材名}」」を解析。
-    """
-    import ssl
-    import urllib.request as _ureq
-
-    _NG_EVENTS = {"通常稼働", "景品入荷", "開店情報", "傾向分析", "勝率ランキング", "看板スタッフ"}
-
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-    _headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        ),
-        "Accept-Language": "ja-JP,ja;q=0.9",
-    }
-    # <img> タグ全体を取得して属性を個別に解析（属性順序不問）
-    img_tag_re = re.compile(r'<img\s([^>]*?)/?>', re.DOTALL)
-    alt_event_re = re.compile(
-        r'(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/[（(].+?[）)][のの]来店イベント情報[「「](.+?)[」」]'
-    )
-    ptown_src_re = re.compile(r'data-src="(https://cdn\.p-town\.dmm\.com/[^"]+)"')
-    ptown_alt_re = re.compile(r'alt="([^"]+)"')
-    # フォールバック：alt のみのパターン（画像なし・後方互換）
-    alt_re = re.compile(
-        r'alt="(.+?)\s+(\d{4}/\d{1,2}/\d{1,2})/[（(].+?[）)][のの]来店イベント情報[「「](.+?)[」」]"'
-    )
-
-    results: list[dict] = []
-    log(f"\n🏢 p-town schedules HTTP スクレイプ (最大{max_pages}ページ)")
-
-    for page_no in range(1, max_pages + 1):
-        url = f"https://p-town.dmm.com/schedules?page={page_no}"
-        req = _ureq.Request(url, headers=_headers)
-        try:
-            with _ureq.urlopen(req, timeout=15, context=ctx) as r:
-                html = r.read().decode("utf-8", errors="replace")
-        except Exception as e:
-            log(f"  ⚠️  page={page_no}: {e}")
-            break
-
-        found = 0
-        for m in alt_re.finditer(html):
-            store = m.group(1).strip()
-            date_raw = m.group(2)       # "2026/05/21"
-            event_name = m.group(3).strip()
-
-            # 通常稼働など非イベントを除外
-            if any(ng in event_name for ng in _NG_EVENTS):
-                continue
-
-            # 日付: MM/DD（ゼロ埋め）
-            parts = date_raw.split("/")
-            if len(parts) == 3:
-                date_str = f"{int(parts[1]):02d}/{int(parts[2]):02d}"
-            else:
-                date_str = date_raw
-
-            # pref/area: 店名で直接引くかフォールバック
-            pref, area = store_pref_map.get(store, ("不明", "全国"))
-            if pref == "不明":
-                pref, area = _guess_pref_area(store)
-
-            # event type
-            if any(k in event_name for k in ["来店", "実践", "出演", "訪問"]):
-                ev_type = "来店"
-            elif any(k in event_name for k in ["取材", "撮影", "ロケ", "収録"]):
-                ev_type = "取材"
-            elif any(k in event_name for k in ["周年", "誕生日", "オープン", "新台"]):
-                ev_type = "イベント"
-            else:
-                ev_type = "取材"
-
-            ev = {
-                "id":        _make_id(store, date_str, f"ptown-sch-{page_no}"),
-                "date":      date_str,
-                "store":     store,
-                "pref":      pref,
-                "area":      area,
-                "event":     ev_type,
-                "detail":    event_name,
-                "cast":      event_name[:40],
-                "highlight": "",
-                "x_url":     "",
-                "url":       f"https://p-town.dmm.com/schedules?page={page_no}",
-                "source":    "p-town",
-            }
-            results.append(ev)
-            found += 1
-
-        log(f"  page={page_no}: {found}件")
-        if found == 0:
-            log("  → ページなし、終了")
-            break
-        time.sleep(0.35)
-
-    log(f"  p-town schedules 合計: {len(results)}件")
-    return results
+    """⚠️ 法的リスク回避のため無効化（2026-05）— 常に空リストを返す"""
+    return []
 
 
 # P-World URL スラッグ → 都道府県マッピング
@@ -1409,237 +1302,13 @@ def scrape_pworld_interviews_http(
     store_names: set[str],
     max_pages: int = 50,
 ) -> list[dict]:
-    """P-World 全国取材来店情報ページをHTTPスクレイプ（Playwright不要・EUC-JP）。
-    https://www.p-world.co.jp/hall/interviews/prefs を全ページ巡回し、
-    取材・来店イベント情報を画像付きで取得する。
-    """
-    import ssl
-    import urllib.request as _ureq
-
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
-    _headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-        ),
-        "Accept-Language": "ja-JP,ja;q=0.9",
-        "Referer": "https://www.p-world.co.jp/",
-    }
-
-    # ── Regex ──────────────────────────────────────────────────────────────
-    # 取材サムネイル画像（idn.p-world.co.jp = 画像サーバー）
-    img_re = re.compile(
-        r'src=["\']?(https://idn\.p-world\.co\.jp/hall/\d+/images/interviews/[^"\'>\s]+)'
-    )
-    # 店舗詳細ページリンク + 店名
-    store_link_re = re.compile(
-        r'href=["\']?(https://www\.p-world\.co\.jp/([a-z]+)/[^"\'>\s]+\.htm)["\']?'
-        r'[^>]*>([^<]{2,40})</a>'
-    )
-    # 日付: MM/DD(曜日) または MM/DD（曜日）
-    date_re = re.compile(r'(\d{1,2})/(\d{1,2})[（(]?[月火水木金土日][）)]?')
-    # イベント種別キーワード
-    ev_type_kw = [
-        ("来店", "来店"), ("出演", "来店"), ("実践", "来店"),
-        ("取材", "取材"), ("撮影", "取材"), ("ロケ", "取材"), ("収録", "取材"),
-    ]
-    # タグ内テキスト（キャスト名候補）
-    tag_text_re = re.compile(r'<(?:h[1-4]|p|span|div|li)[^>]{0,80}>([^<]{4,80})</(?:h[1-4]|p|span|div|li)>')
-    # タグ除去用
-    strip_tags_re = re.compile(r'<[^>]+>')
-
-    results: list[dict] = []
-    seen_ids: set[str] = set()
-    log(f"\n📸 P-World 取材来店情報 HTTP スクレイプ (最大{max_pages}ページ)")
-
-    for page_no in range(1, max_pages + 1):
-        url = (
-            "https://www.p-world.co.jp/hall/interviews/prefs"
-            if page_no == 1
-            else f"https://www.p-world.co.jp/hall/interviews/prefs?page={page_no}"
-        )
-        req = _ureq.Request(url, headers=_headers)
-        try:
-            with _ureq.urlopen(req, timeout=20, context=ctx) as r:
-                raw = r.read()
-            try:
-                html = raw.decode("euc-jp", errors="replace")
-            except Exception:
-                html = raw.decode("utf-8", errors="replace")
-        except Exception as e:
-            log(f"  ⚠️  page={page_no}: {e}")
-            break
-
-        # 画像URLの出現位置を全取得
-        img_matches = [(m.start(), m.group(1)) for m in img_re.finditer(html)]
-        if not img_matches:
-            if page_no == 1:
-                log("  ⚠️  page=1: 画像URLなし（構造変更の可能性）")
-            else:
-                log(f"  page={page_no}: 画像なし → 終了")
-            break
-
-        found = 0
-        for idx, (img_pos, img_url) in enumerate(img_matches):
-            # このカードの範囲: 前後のカードの中間あたり（店名リンクが画像より後ろに来る場合も考慮）
-            block_start = img_matches[idx - 1][0] if idx > 0 else max(0, img_pos - 2000)
-            block_end   = img_matches[idx + 1][0] if idx + 1 < len(img_matches) else img_pos + 2000
-            block = html[block_start:block_end]
-
-            # 店名 & 店舗URL（画像の前後両方を探す）
-            store_m = None
-            for sm in store_link_re.finditer(block):
-                txt = sm.group(3).strip()
-                # 全角スペース等を除去して店名らしいテキストのみ
-                txt = re.sub(r'[\s　]+', '', txt)
-                if len(txt) >= 2:
-                    store_m = sm
-                    store_name = txt
-                    break
-            if not store_m:
-                continue
-
-            store_url  = store_m.group(1)
-            pref_slug  = store_m.group(2)
-
-            # 日付: このカードの近傍（img_pos ±400文字）から探す
-            near = html[max(0, img_pos - 400): img_pos + 800]
-            date_m = date_re.search(near)
-            if date_m:
-                month, day = int(date_m.group(1)), int(date_m.group(2))
-                # 明らかにおかしい値は今日
-                if 1 <= month <= 12 and 1 <= day <= 31:
-                    date_str = f"{month:02d}/{day:02d}"
-                else:
-                    date_str = f"{date.today().month:02d}/{date.today().day:02d}"
-            else:
-                date_str = f"{date.today().month:02d}/{date.today().day:02d}"
-
-            # イベント種別 & キャスト名（img 後方500文字から抽出）
-            after = html[img_pos: img_pos + 800]
-            after_plain = strip_tags_re.sub(' ', after)
-
-            ev_type = "取材"
-            for kw, label in ev_type_kw:
-                if kw in after_plain:
-                    ev_type = label
-                    break
-
-            # キャスト名: タグ内テキストのうち最初の「意味のある」ものを採用
-            cast = ""
-            for tm in tag_text_re.finditer(after):
-                txt = tm.group(1).strip()
-                # 日付行・URLっぽいもの・短すぎるものは除外
-                if (len(txt) < 4 or len(txt) > 60
-                        or re.search(r'https?://', txt)
-                        or re.match(r'^\d+/\d+', txt)):
-                    continue
-                # 「更新」「設置」など無意味な単語は除外
-                if re.fullmatch(r'[更新設置情報台数]+', txt):
-                    continue
-                cast = txt
-                break
-
-            # pref/area
-            pref_from_slug = _PWORLD_SLUG_TO_PREF.get(pref_slug, "")
-            if pref_from_slug:
-                pref = pref_from_slug
-                area = PREF_AREA.get(pref, "全国")
-            else:
-                pref, area = store_pref_map.get(store_name, ("不明", "全国"))
-                if pref == "不明":
-                    pref, area = _guess_pref_area(store_name)
-
-            ev_id = _make_id(store_name, date_str, img_url)
-            if ev_id in seen_ids:
-                continue
-            seen_ids.add(ev_id)
-
-            ev = {
-                "id":        ev_id,
-                "date":      date_str,
-                "store":     store_name,
-                "pref":      pref,
-                "area":      area,
-                "event":     ev_type,
-                "detail":    cast,
-                "cast":      cast[:40],
-                "highlight": "",
-                "x_url":     "",
-                "url":       store_url,
-                "source":    "p-world",
-            }
-            results.append(ev)
-            found += 1
-
-        log(f"  page={page_no}: {found}件")
-        if found == 0 and page_no > 1:
-            break
-        time.sleep(0.4)
-
-    log(f"  P-World 取材来店情報 合計: {len(results)}件")
-    return results
+    """⚠️ 法的リスク回避のため無効化（2026-05）— 常に空リストを返す"""
+    return []
 
 
 def scrape_ptown_event(page, url: str, store_names: set[str]) -> list[dict]:
-    """ぱちタウンのイベントページをスクレイピング"""
-    results: list[dict] = []
-    try:
-        page.goto(url, timeout=20000, wait_until="domcontentloaded")
-        page.wait_for_timeout(2500)
-        for _ in range(3):
-            page.mouse.wheel(0, 2500)
-            page.wait_for_timeout(500)
-    except Exception as e:
-        log(f"    ⚠️  p-town {url}: {e}")
-        return results
-
-    # ぱちタウンのイベントカード
-    selectors = [
-        'li[class*="event"]', 'div[class*="event-item"]',
-        'div[class*="EventCard"]', 'article[class*="event"]',
-        'div[class*="hall-event"]', '.event-list li',
-    ]
-    for sel in selectors:
-        cards = page.query_selector_all(sel)
-        if cards:
-            for card in cards[:60]:
-                try:
-                    text = card.inner_text()
-                    if len(text) < 10:
-                        continue
-                    link_el = card.query_selector('a[href]')
-                    href = link_el.get_attribute("href") if link_el else ""
-                    if href and not href.startswith("http"):
-                        href = "https://p-town.dmm.com" + href
-                    img_el = card.query_selector('img[src]')
-                    img = img_el.get_attribute("src") if img_el else ""
-                    ev = _make_event(text, href or url, "p-town", store_names)
-                    if ev:
-                        results.append(ev)
-                        log(f"      🏢 {ev['store'][:18]} [{ev['pref']}] (p-town)")
-                except Exception:
-                    continue
-            if results:
-                break
-
-    # フォールバック: 全テキストから抽出
-    if not results:
-        try:
-            body = page.query_selector('main, #main, .main, body')
-            if body:
-                text = body.inner_text()
-                lines = [l.strip() for l in text.split('\n') if len(l.strip()) > 20]
-                for line in lines[:100]:
-                    ev = _make_event(line, url, "p-town", store_names)
-                    if ev:
-                        results.append(ev)
-                        log(f"      🏢 {ev['store'][:18]} [{ev['pref']}] (p-town fallback)")
-        except Exception:
-            pass
-    return results
+    """⚠️ 法的リスク回避のため無効化（2026-05）— 常に空リストを返す"""
+    return []
 
 
 def scrape_news_list(page, url: str, source_name: str, store_names: set[str]) -> list[dict]:
@@ -2111,34 +1780,12 @@ def main():
 
     all_new: list[dict] = []
 
-    # ── JOB F: p-town /schedules + P-World 取材来店情報 HTTP スクレイプ（Playwright不要）──
-    if args.job in ("ptown", "all"):
-        ptown_res = scrape_pttown_schedules_http(store_pref_map, store_names, max_pages=args.ptown_pages)
-        all_new.extend(ptown_res)
-        pworld_res = scrape_pworld_interviews_http(store_pref_map, store_names, max_pages=50)
-        all_new.extend(pworld_res)
-
-    # ptown ジョブはHTTPのみ（playwright不要）
+    # ── JOB F: p-town / P-World は法的リスク回避のため無効化 ─────────────────
+    # 旧コードは scrape_ptown_schedules_http / scrape_pworld_interviews_http にあるが
+    # 一切呼び出さない。--job ptown は no-op として残す（互換性のため）
     if args.job == "ptown":
-        seen_ids2: set[str] = set()
-        deduped2 = [e for e in all_new if not (e["id"] in seen_ids2 or seen_ids2.add(e["id"]))]  # type: ignore
-        merged2, added2 = merge_events(existing, deduped2)
-        log(f"📊 p-town+p-world収集: {len(deduped2)}件 / 新規: {added2}件 / 累計: {len(merged2)}件")
-        if added2 > 0:
-            save_events(merged2, original)
-
-        # ── Supabase 書き込み（JSON保存の後・失敗してもスクリプトは継続）────────
-        sb_new2, sb_dup2 = supabase_write_events(deduped2, sb_job_name)
-        supabase_log_end(
-            sb_log_id, "success",
-            fetched=len(deduped2),
-            new_count=sb_new2,
-            dupes=sb_dup2,
-            errors=0,
-        )
-        if deduped2:
-            supabase_update_fetch_state(sb_job_name)
-
+        log("⚠️ p-town / P-World 収集は法的リスクのため無効化されています (no-op)")
+        supabase_log_end(sb_log_id, "skipped", 0, 0, 0, 0, "p-town/p-world DISABLED")
         log("=" * 70)
         return
 

@@ -536,7 +536,7 @@ export default function CompletePage() {
 
   // 集計サマリー（ユニーク店舗数・ユニーク機種数・スロット/パチンコ件数）
   const stats = useMemo(() => {
-    const valid = entries.filter(e => e.machine && e.machine.trim());
+    const valid = entries.filter(e => e.machine && e.machine.trim() && e.machine !== "不明");
     const slotCount = valid.filter(e => e.machine_type !== "pachinko").length;
     const pachinkoCount = valid.filter(e => e.machine_type === "pachinko").length;
     const uniqueStores = new Set(entries.filter(e => e.store).map(e => e.store)).size;
@@ -549,7 +549,7 @@ export default function CompletePage() {
     const q = searchQuery.trim().toLowerCase();
     const map = new Map<string, CompleteEntry[]>();
     for (const e of entries) {
-      if (!e.machine || !e.machine.trim()) continue;
+      if (!e.machine || !e.machine.trim() || e.machine === "不明") continue;
       if (feedFilter === "slot" && e.machine_type === "pachinko") continue;
       if (feedFilter === "pachinko" && e.machine_type !== "pachinko") continue;
       if (q) {
