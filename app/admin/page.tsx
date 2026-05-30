@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo } from "react";
+import Link from "next/link";
 
 // ─── 型 ────────────────────────────────────────────────────────────────
 type CompleteEntry = {
@@ -175,7 +176,6 @@ export default function AdminPage() {
   }
 
   const todayStr = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
-  const todayComplete = completeData.filter((e) => e.date === todayStr).length;
   const latestDate = completeData[0]?.date || "";
 
   return (
@@ -196,12 +196,12 @@ export default function AdminPage() {
               })}
             </p>
           </div>
-          <a
+          <Link
             href="/"
             className="text-sm text-blue-400 hover:text-blue-300 transition"
           >
             ← サイトに戻る
-          </a>
+          </Link>
         </div>
       </div>
 

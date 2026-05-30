@@ -94,10 +94,7 @@ function cleanCast(cast?: string) {
     .replace(/[\s）)）、。,.\-─　]+$/, "")
     .trim();
 }
-function safeImg(url?: string): string {
-  if (!url) return "";
-  return url;
-}
+
 
 function isValidStore(store: string) {
   if (STORE_NG.some(w => store.includes(w))) return false;
@@ -224,6 +221,7 @@ export default function Page() {
   useEffect(() => {
     try {
       const saved = localStorage.getItem("favorites");
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       if (saved) setFavorites(new Set<string>(JSON.parse(saved)));
     } catch {}
   }, []);
@@ -277,7 +275,7 @@ export default function Page() {
     const key = String(id);
     setFavorites(prev => {
       const next = new Set(prev);
-      next.has(key) ? next.delete(key) : next.add(key);
+      if (next.has(key)) { next.delete(key); } else { next.add(key); }
       try { localStorage.setItem("favorites", JSON.stringify(Array.from(next))); } catch {}
       return next;
     });
@@ -307,7 +305,7 @@ export default function Page() {
       map.get(d)!.push(ev);
     });
     return Array.from(map.entries()).sort((a,b)=>a[0].localeCompare(b[0]));
-  }, [events, search, area, pref, showFavorites, favorites]);
+  }, [events, search, area, pref, showFavorites, favorites, todayStr]);
 
   const totalFiltered = grouped.reduce((n,[,evs])=>n+evs.length, 0);
 
@@ -418,7 +416,7 @@ export default function Page() {
 
     const storeHref = getStoreHref(ev.store);
     return (
-      <div key={ev.id} onClick={() => { track("event_card_click", { store: ev.store || "", event_id: String(ev.id || "") }); storeHref ? router.push(storeHref) : setSelectedEv(ev); }} style={{
+      <div key={ev.id} onClick={() => { track("event_card_click", { store: ev.store || "", event_id: String(ev.id || "") }); if (storeHref) { router.push(storeHref); } else { setSelectedEv(ev); } }} style={{
         background: sty.bg,
         border: `1px solid ${sty.border}44`,
         borderLeft: `3px solid ${sty.border}`,

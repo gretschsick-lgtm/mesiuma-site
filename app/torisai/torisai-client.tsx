@@ -87,26 +87,8 @@ const C = {
   orange: "#ff6600",
 };
 
-// 取材メディア一覧（取材元の名称を表示）
-const MEDIA_LABELS: Record<string, string> = {
-  "スロパチステーション": "スロパチST",
-  "パチ＆スロ必勝本": "必勝本",
-  "スロセレ": "スロセレ",
-  "フェスメディアX": "フェスメディア",
-  "1GAME": "1GAME",
-  "回胴アドベンチャー": "回胴ADV",
-  "BASHtv": "BASHtv",
-  "PLUS MADE": "PLUS MADE",
-  "デリカツ": "デリカツ",
-  "エースプロ": "エースプロ",
-  "ぱちタウンコレクション": "ぱちタウン",
-};
-function getMediaLabel(store: string): string {
-  for (const [k, v] of Object.entries(MEDIA_LABELS)) {
-    if (store.includes(k)) return v;
-  }
-  return store;
-}
+
+
 
 export default function TorisaiPage() {
   const [events, setEvents]   = useState<Ev[]>([]);
@@ -165,7 +147,7 @@ export default function TorisaiPage() {
       map.get(d)!.push(ev);
     });
     return Array.from(map.entries()).sort((a,b)=>a[0].localeCompare(b[0]));
-  }, [events, search, area, pref]);
+  }, [events, search, area, pref, todayStr]);
 
   const totalFiltered = grouped.reduce((n,[,evs])=>n+evs.length, 0);
 

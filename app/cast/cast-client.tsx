@@ -3,7 +3,6 @@
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { MEMBERS } from "./members";
-import type { Member } from "./members";
 
 type Ev = {
   id: number; date: string; store: string; pref: string;
@@ -153,9 +152,6 @@ export default function CastPage() {
         ) : (
           <div style={{ display:"flex", flexDirection:"column", gap:20 }}>
             {raitenGrouped.map(([date, evs]) => {
-              const [mm, dd] = date.split("/");
-              const d = new Date(new Date().getFullYear(), Number(mm)-1, Number(dd));
-              const isWeekend = d.getDay()===0||d.getDay()===6;
               return (
                 <div key={date}>
                   <div style={{ display:"flex", alignItems:"center", gap:8, marginBottom:10 }}>

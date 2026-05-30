@@ -123,7 +123,6 @@ export default function RaitenPage() {
 
   const renderCard = (ev: Ev) => {
     const cast = cleanCast(ev.cast);
-    const mapQ = encodeURIComponent(`${ev.store} ${ev.pref || ""}`);
     return (
       <div key={ev.id} onClick={() => setSelectedEv(ev)} style={{
         background: "#f0fff8", border: `1px solid ${C.green}44`,

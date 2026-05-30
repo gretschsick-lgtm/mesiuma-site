@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useMemo, useCallback } from "react";
+import Link from "next/link";
 
 type CompleteEntry = {
   id: string;
@@ -527,6 +528,7 @@ export default function CompletePage() {
   }, []);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     loadData();
     const timer = setInterval(() => loadData(true), 5 * 60 * 1000);
     return () => clearInterval(timer);
@@ -567,10 +569,11 @@ export default function CompletePage() {
     return [...map.entries()].sort((a, b) => b[0].localeCompare(a[0]));
   }, [entries, feedFilter, searchQuery]);
 
-  const todayStr = (() => {
+  const todayStr = useMemo(() => {
+    // eslint-disable-next-line react-hooks/purity
     const d = new Date(Date.now() + 9 * 60 * 60 * 1000);
     return d.toISOString().slice(0, 10);
-  })();
+  }, []);
   const todayCount = entries.filter(e => e.date === todayStr && e.machine && e.machine.trim()).length;
 
   return (
@@ -582,7 +585,7 @@ export default function CompletePage() {
         color: "#fff", padding: "16px 16px 0",
       }}>
         <div style={{ maxWidth: 900, margin: "0 auto" }}>
-          <a href="/" style={{ color: "#aaa", fontSize: 12, textDecoration: "none" }}>← トップ</a>
+          <Link href="/" style={{ color: "#aaa", fontSize: 12, textDecoration: "none" }}>← トップ</Link>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", margin: "8px 0 12px" }}>
             <div>
               <h1 style={{ margin: "0 0 2px", fontSize: 20, fontWeight: 800 }}>
