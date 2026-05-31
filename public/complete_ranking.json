@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-31T18:03:15+09:00",
+  "generated_at": "2026-05-31T20:20:36+09:00",
   "monthly": [
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 415,
+      "total_count": 417,
       "stores": [
         {
           "rank": 1,
-          "name": "プレイランドキャッスル熱田店",
-          "count": 9,
-          "x_url": "https://x.com/castleatsuta"
+          "name": "楽園池袋店ゲートウェイ",
+          "count": 10,
+          "x_url": "https://x.com/rakuenikebukuro"
         },
         {
           "rank": 2,
-          "name": "楽園池袋店ゲートウェイ",
+          "name": "プレイランドキャッスル熱田店",
           "count": 9,
-          "x_url": "https://x.com/rakuenikebukuro"
+          "x_url": "https://x.com/castleatsuta"
         },
         {
           "rank": 3,
@@ -90,13 +90,13 @@
         },
         {
           "rank": 5,
-          "name": "L炎炎ノ消防隊2",
+          "name": "Lチバリヨ2ZB",
           "count": 15
         },
         {
           "rank": 6,
-          "name": "Lチバリヨ2ZB",
-          "count": 14
+          "name": "L炎炎ノ消防隊2",
+          "count": 15
         },
         {
           "rank": 7,
@@ -157,13 +157,13 @@
         },
         {
           "rank": 8,
-          "name": "e女神のカフェテラス",
+          "name": "eリコリス・リコイル",
           "count": 3
         },
         {
           "rank": 9,
-          "name": "eリコリス・リコイル",
-          "count": 2
+          "name": "e女神のカフェテラス",
+          "count": 3
         },
         {
           "rank": 10,
@@ -209,15 +209,15 @@
     "stores": [
       {
         "rank": 1,
-        "name": "プレイランドキャッスル熱田店",
-        "count": 9,
-        "x_url": "https://x.com/castleatsuta"
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 10,
+        "x_url": "https://x.com/rakuenikebukuro"
       },
       {
         "rank": 2,
-        "name": "楽園池袋店ゲートウェイ",
+        "name": "プレイランドキャッスル熱田店",
         "count": 9,
-        "x_url": "https://x.com/rakuenikebukuro"
+        "x_url": "https://x.com/castleatsuta"
       },
       {
         "rank": 3,
@@ -291,13 +291,13 @@
       },
       {
         "rank": 5,
-        "name": "L炎炎ノ消防隊2",
+        "name": "Lチバリヨ2ZB",
         "count": 15
       },
       {
         "rank": 6,
-        "name": "Lチバリヨ2ZB",
-        "count": 14
+        "name": "L炎炎ノ消防隊2",
+        "count": 15
       },
       {
         "rank": 7,
@@ -358,13 +358,13 @@
       },
       {
         "rank": 8,
-        "name": "e女神のカフェテラス",
+        "name": "eリコリス・リコイル",
         "count": 3
       },
       {
         "rank": 9,
-        "name": "eリコリス・リコイル",
-        "count": 2
+        "name": "e女神のカフェテラス",
+        "count": 3
       },
       {
         "rank": 10,
@@ -372,11 +372,11 @@
         "count": 2
       }
     ],
-    "total_count": 433
+    "total_count": 435
   },
   "store_complete_counts": {
+    "楽園池袋店ゲートウェイ": 10,
     "プレイランドキャッスル熱田店": 9,
-    "楽園池袋店ゲートウェイ": 9,
     "キャッスル春日井": 7,
     "グランキコーナひたちなか店": 6,
     "フェイス850佐賀": 6,
@@ -447,6 +447,7 @@
     "メガフェイス1300淀川": 2,
     "パワーステーション小栗店": 1,
     "豊橋藤沢店": 1,
+    "オーギヤタウン半田店": 1,
     "ガイア高萩安良川店": 1,
     "ーデン国場店": 1,
     "ダイナム山形天童店": 1,
