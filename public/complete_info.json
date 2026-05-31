@@ -1,5 +1,21 @@
 [
   {
+    "id": "a09e97ee9178",
+    "date": "2026-05-31",
+    "time": "21:02",
+    "store": "ランド南ヶ丘店",
+    "machine": "",
+    "machine_type": "slot",
+    "slot_number": "1707",
+    "text": "ワンダーランド南ヶ丘店 5月31日（日） ■（1707番台）LアズールレーンTHE ANIMATION  コンプリート到達！！！ おめでとうございます ",
+    "x_url": "https://x.com/wl__minamigaoka/status/2061055619512308206",
+    "collected_at": "2026-05-31T12:27:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpXAvCakAEds_i?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpXAvCakAEds_i?format=jpg&name=large"
+  },
+  {
     "id": "2f45a9fd9840",
     "date": "2026-05-31",
     "time": "17:17",
@@ -469,6 +485,54 @@
       "https://pbs.twimg.com/media/HJjlvk6aoAAwWLP?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjlvk6aoAAwWLP?format=jpg&name=large"
+  },
+  {
+    "id": "fc40b2dd0d6f",
+    "date": "2026-05-30",
+    "time": "17:12",
+    "store": "マルハン小山千駄塚店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "258",
+    "text": "パチンココーナーからコンプリート達成にゃ  258番台　eリコリス・リコイル  おめでとうだにゃー",
+    "x_url": "https://x.com/oyamasendaduka2/status/2060635413753294937",
+    "collected_at": "2026-05-31T12:11:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjYyUuacAAC2N2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjYyUuacAAC2N2?format=jpg&name=large"
+  },
+  {
+    "id": "8cc451272df8",
+    "date": "2026-05-30",
+    "time": "16:40",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "ｅ牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "482",
+    "text": "こんにちは メガシティ三島駿東です  ｅ牙狼12　黄金騎士極限 482番台  コンプリートです おめでとうございます  みなさまこの後もぜひぜひぜひ お楽しみください",
+    "x_url": "https://x.com/mega_mishima/status/2060627269060542756",
+    "collected_at": "2026-05-31T12:11:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjN1ZKasAAldLa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjN1ZKasAAldLa?format=jpg&name=large"
+  },
+  {
+    "id": "84c80d3447b2",
+    "date": "2026-05-30",
+    "time": "16:26",
+    "store": "MJアリーナ箱崎店",
+    "machine": "Lヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "566",
+    "text": "本日5月30日  Lヴァルヴレイヴ2  　　　566番台  　  コンプリート達成 　 おめでとうございます",
+    "x_url": "https://x.com/mjhakozaki/status/2060623772064067619",
+    "collected_at": "2026-05-31T12:11:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjOXH6a0AA4Meh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjOXH6a0AA4Meh?format=jpg&name=large"
   },
   {
     "id": "5a239ba5ffcd",
