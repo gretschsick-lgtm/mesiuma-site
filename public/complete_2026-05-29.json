@@ -196,6 +196,39 @@
     "image_url": "https://pbs.twimg.com/media/HJfLPzdaEAAOph_?format=jpg&name=large"
   },
   {
+    "id": "f84d2265c7fb",
+    "date": "2026-05-29",
+    "time": "21:33",
+    "store": "サンドラ大塚店",
+    "machine": "Ｌ北斗",
+    "machine_type": "slot",
+    "slot_number": "265",
+    "text": "本日5/29(金)の営業にて Ｌ北斗の拳　265番台 コンプリート達成  データランプを見れば一目瞭然ですが そうです一撃コンプリートでした  僕も日頃から徳を積んでいつの日か コンプリートできたらいいな～（笑）  またのご来店、お待ちしてまーす",
+    "x_url": "https://x.com/otsuka_sandra/status/2060338744335732759",
+    "collected_at": "2026-06-01T06:04:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJfKsU7asAAeu1T?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJfKwfXbgAAeZxg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJfKsU7asAAeu1T?format=jpg&name=large"
+  },
+  {
+    "id": "af6f1ee81830",
+    "date": "2026-05-29",
+    "time": "21:32",
+    "store": "ージコンサートホール荒川店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "241",
+    "text": "5月29日（金） コンプリートのご報告  こんばんは 情熱ステージコンサートホール荒川店です   241番台 『eリコリス・リコイル』 　 コンプ達成～～～～  本日は遊技台停止・・・ 明日は10時からお楽しみ頂けます♪♪",
+    "x_url": "https://x.com/ch_arakawa_0920/status/2060338605076467776",
+    "collected_at": "2026-06-01T06:04:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJfJLx4bUAAVxux?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJfJLx4bUAAVxux?format=jpg&name=large"
+  },
+  {
     "id": "d39c7c94688c",
     "date": "2026-05-29",
     "time": "21:30",
@@ -210,6 +243,23 @@
       "https://pbs.twimg.com/media/HJfKYalbwAAFVao?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJfKYalbwAAFVao?format=jpg&name=large"
+  },
+  {
+    "id": "7bbe6ec1b7e4",
+    "date": "2026-05-29",
+    "time": "21:04",
+    "store": "店長の左肘ツヨシ",
+    "machine": "",
+    "machine_type": "slot",
+    "slot_number": "546",
+    "text": "本日メガシティ水戸赤塚から コンプリート達成しました お客様、おめでとうございます #546番台",
+    "x_url": "https://x.com/Naru_Maruhan/status/2060331513330516418",
+    "collected_at": "2026-06-01T06:04:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJfEl22bsAALPQD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJbdGfGbAAANK27?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJfEl22bsAALPQD?format=jpg&name=large"
   },
   {
     "id": "640f30a375a5",
@@ -293,6 +343,22 @@
       "https://pbs.twimg.com/media/HJe6NeMakAAX1l6?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJe6McxbYAEqMss?format=jpg&name=large"
+  },
+  {
+    "id": "55525b894122",
+    "date": "2026-05-29",
+    "time": "20:12",
+    "store": "マルハンメガシティ柏",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "301",
+    "text": "e牙狼12 301番台 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2060318232884429037",
+    "collected_at": "2026-06-01T06:04:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJe3FFHbMAAIQ_D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJe3FFHbMAAIQ_D?format=jpg&name=large"
   },
   {
     "id": "1639e5f93d8f",
