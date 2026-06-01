@@ -705,7 +705,12 @@
     "slot_number": "1036",
     "text": "4円パチンコエリア 1036番台　e牙狼12黄金騎士極限 コンプリート達成 おめでとうございます この後のお時間も、是非スタジアムへ",
     "x_url": "https://x.com/stadium2001yame/status/2060653910415868331",
-    "collected_at": "2026-06-01T16:28:18Z"
+    "collected_at": "2026-06-01T16:28:18Z",
+    "image_url": "https://pbs.twimg.com/media/HJjpxDJb0AANcQk?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HJjpxDJb0AANcQk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJjpxDEbMAAr2RW?format=jpg&name=large"
+    ]
   },
   {
     "id": "f0da7e98e2be",
@@ -783,7 +788,12 @@
     "slot_number": "",
     "text": "こんばんわｗｗｗ 　 週末にーーー コンプリート達成 　 番台 ｅカケグルイ～生か死か～ 　 夢子ーーー可愛いッ 　 ご遊技されていた方 おめでとうございますッ #フラミンゴ鎌ヶ谷店",
     "x_url": "https://x.com/mingo3535/status/2060648755771343342",
-    "collected_at": "2026-06-01T16:28:18Z"
+    "collected_at": "2026-06-01T16:28:18Z",
+    "image_url": "https://pbs.twimg.com/media/HJjkwrbaIAAgFaa?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HJjkwrbaIAAgFaa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJjk1nfbYAAZkja?format=jpg&name=large"
+    ]
   },
   {
     "id": "664f00b79e44",
@@ -800,6 +810,38 @@
       "https://pbs.twimg.com/media/HJjjwMHbgAAuB3b?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjjwMHbgAAuB3b?format=jpg&name=large"
+  },
+  {
+    "id": "10c423b140f2",
+    "date": "2026-05-30",
+    "time": "17:42",
+    "store": "パラッツォ船橋店",
+    "machine": "",
+    "machine_type": "slot",
+    "slot_number": "177",
+    "text": "コンプリート達成  177番台 e 仮面ライダー電王 デカヘソ239 コンプリート達成！ おめでとうございます  デカヘソでコンプリート達成は夢がありますね～",
+    "x_url": "https://x.com/palazzo_funa/status/2060642950141575382",
+    "collected_at": "2026-06-01T21:46:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjftElaAAAdWPB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjftElaAAAdWPB?format=jpg&name=large"
+  },
+  {
+    "id": "608bd0ab37cc",
+    "date": "2026-05-30",
+    "time": "17:30",
+    "store": "ダイナム鹿児島大口店",
+    "machine": "Ｌかぐや様は告らせたいｊＡ",
+    "machine_type": "slot",
+    "slot_number": "389",
+    "text": "389番台 Ｌかぐや様は告らせたいｊＡ コンプリート達成おめでとうございます(*'ω'*)",
+    "x_url": "https://x.com/dynam_00199/status/2060639923980349929",
+    "collected_at": "2026-06-01T21:46:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjdFnWWAAM025H?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjdFnWWAAM025H?format=jpg&name=large"
   },
   {
     "id": "d7a2ac0f4194",
