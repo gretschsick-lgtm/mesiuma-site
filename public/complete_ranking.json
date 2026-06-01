@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T06:52:44+09:00",
+  "generated_at": "2026-06-02T07:56:39+09:00",
   "monthly": [
     {
       "month": "2026-06",
@@ -29,7 +29,7 @@
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 508,
+      "total_count": 510,
       "stores": [
         {
           "rank": 1,
@@ -45,27 +45,27 @@
         },
         {
           "rank": 3,
+          "name": "ARROW浪速店",
+          "count": 7,
+          "x_url": "https://x.com/arrow_naniwa"
+        },
+        {
+          "rank": 4,
           "name": "マルハン仙台苦竹店",
           "count": 7,
           "x_url": "https://x.com/niga_maru"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "キャッスル春日井",
           "count": 7,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ビックマーチ河和田東店",
           "count": 6,
           "x_url": "https://x.com/monky0621bm"
-        },
-        {
-          "rank": 6,
-          "name": "ARROW浪速店",
-          "count": 6,
-          "x_url": "https://x.com/arrow_naniwa"
         },
         {
           "rank": 7,
@@ -246,27 +246,27 @@
       },
       {
         "rank": 3,
+        "name": "ARROW浪速店",
+        "count": 7,
+        "x_url": "https://x.com/arrow_naniwa"
+      },
+      {
+        "rank": 4,
         "name": "マルハン仙台苦竹店",
         "count": 7,
         "x_url": "https://x.com/niga_maru"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "キャッスル春日井",
         "count": 7,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "ビックマーチ河和田東店",
         "count": 6,
         "x_url": "https://x.com/monky0621bm"
-      },
-      {
-        "rank": 6,
-        "name": "ARROW浪速店",
-        "count": 6,
-        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 7,
@@ -397,15 +397,15 @@
         "count": 2
       }
     ],
-    "total_count": 528
+    "total_count": 530
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 10,
     "楽園池袋店ゲートウェイ": 10,
+    "ARROW浪速店": 7,
     "マルハン仙台苦竹店": 7,
     "キャッスル春日井": 7,
     "ビックマーチ河和田東店": 6,
-    "ARROW浪速店": 6,
     "グランキコーナひたちなか店": 6,
     "フェイス850佐賀": 6,
     "キクヤ春日井店": 6,
@@ -430,6 +430,7 @@
     "ビックマーチ東習志野店": 3,
     "キクヤ一宮店": 3,
     "キクヤ穂積店": 3,
+    "甲府昭和店": 3,
     "パラッツォ鳩ヶ谷店": 3,
     "スーパーD’ステーション３９女神店": 3,
     "ダイナム金町南口店": 3,
@@ -484,7 +485,6 @@
     "ダイナム富山砺波店": 2,
     "サンキワールド児島店": 2,
     "コンコルド御前崎店": 2,
-    "甲府昭和店": 2,
     "グランドホール港南店": 2,
     "楽園蒲田店": 2,
     "マルハン亀有店_亀にゃん": 2,
