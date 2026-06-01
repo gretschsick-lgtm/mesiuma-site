@@ -36,7 +36,7 @@
     "date": "2026-05-26",
     "time": "21:06",
     "store": "デマッセ梅津店・ライト館",
-    "machine": "沖ドキDUO",
+    "machine": "L沖ドキDUO アンコール",
     "machine_type": "slot",
     "slot_number": "1135",
     "text": "沖ドキ！ＤＵＯ 1135番台    コンプリート達成!!  おめでとうございます！  ドキ！ドキ！が 加・速・す・る…  明日もお楽しみ下さい♪  #沖ドキ　 #コンプリート",
@@ -67,7 +67,7 @@
     "id": "ffc389b0672c",
     "date": "2026-05-26",
     "time": "21:00",
-    "store": "ダイナム柴田町店ゆったり館",
+    "store": "ダイナム柴田町店",
     "machine": "Lバイオハザード５",
     "machine_type": "slot",
     "slot_number": "３５９",
@@ -83,7 +83,7 @@
     "id": "73cc09b3ae72",
     "date": "2026-05-26",
     "time": "20:24",
-    "store": "メガフェイス1120豊崎本館",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
     "machine": "スマスロゴッドイーター",
     "machine_type": "slot",
     "slot_number": "466",
@@ -133,7 +133,7 @@
     "id": "9e548850c070",
     "date": "2026-05-26",
     "time": "19:32",
-    "store": "玉屋∞本店",
+    "store": "パチンコの玉屋∞本店",
     "machine": "eフィーバーキン肉マン",
     "machine_type": "pachinko",
     "slot_number": "325",
@@ -162,11 +162,27 @@
     "image_url": "https://pbs.twimg.com/media/HJPO2xxbkAATF9u?format=jpg&name=large"
   },
   {
+    "id": "b445fc39dbbc",
+    "date": "2026-05-26",
+    "time": "17:26",
+    "store": "ホームラン菰野店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "ホームラン菰野店より お知らせがございます。  本日 e牙狼12  コンプリート機能が発動した為 遊技終了となります。",
+    "x_url": "https://x.com/homerun_komono/status/2059189314920354302",
+    "collected_at": "2026-06-01T17:57:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJO1xDta8AA9JfO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJO1xDta8AA9JfO?format=jpg&name=large"
+  },
+  {
     "id": "5d20f142b40c",
     "date": "2026-05-26",
     "time": "17:21",
     "store": "ビックマーチ東習志野店",
-    "machine": "牙狼12",
+    "machine": "e牙狼12",
     "machine_type": "pachinko",
     "slot_number": "417",
     "text": "千葉最大1409台の出玉情報  黄金騎士からコンプリート発動 『417番台 e牙狼』 打っていたお客様おめでとうございます  #千葉最大 #ビックマーチ",
@@ -182,7 +198,7 @@
     "date": "2026-05-26",
     "time": "14:55",
     "store": "楽園池袋店グリーンサイド",
-    "machine": "革命機ヴァルヴレイヴ2",
+    "machine": "L革命機ヴァルヴレイヴ2",
     "machine_type": "slot",
     "slot_number": "5051",
     "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、5月26日(火)  5051番台  【L革命機ヴァルヴレイヴ2】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート  #スマスロ",
@@ -213,7 +229,7 @@
     "id": "f406aa291aad",
     "date": "2026-05-26",
     "time": "13:11",
-    "store": "ダイナム兵庫たつの店ゆったり館",
+    "store": "ダイナム兵庫たつの店",
     "machine": "「モンスターハンターライズ」",
     "machine_type": "slot",
     "slot_number": "280",
@@ -224,6 +240,22 @@
       "https://pbs.twimg.com/media/HJTFB8yWIAEPuCm?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJTFB8yWIAEPuCm?format=jpg&name=large"
+  },
+  {
+    "id": "be6a6a9cbaa7",
+    "date": "2026-05-26",
+    "time": "12:35",
+    "store": "１２３天理店とあるWサブチーフの日常",
+    "machine": "",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは！ #123天理店 のナガヌーです！  昨日遅番で出勤したらコンプリート機能発動してました！ おめでとうございます！！",
+    "x_url": "https://x.com/123tenriten/status/2059116250169778682",
+    "collected_at": "2026-06-01T17:57:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJNzNmqbEAA02HU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJNzNmqbEAA02HU?format=jpg&name=large"
   },
   {
     "id": "c8f32778a9a1",
