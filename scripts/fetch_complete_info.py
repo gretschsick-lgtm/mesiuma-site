@@ -257,8 +257,10 @@ MACHINE_PATTERNS = [
     re.compile(r'(ジャグラー[^\s　\n#「」【】、。！!]{0,10})'),
     re.compile(r'(牙狼[^\s　\n#「」【】、。！!]{0,15})'),
     re.compile(r'(チバリヨ[^\s　\n#「」【】、。！!]{0,10})'),
+    re.compile(r'(真打吉宗[^\s　\n#「」【】、。！!]{0,5})'),  # 真打吉宗（より長いパターンを先に）
     re.compile(r'(吉宗[^\s　\n#「」【】、。！!]{0,10})'),
     re.compile(r'(鉄拳[^\s　\n#「」【】、。！!]{0,10})'),
+    re.compile(r'(からくりサーカス[^\s　\n#「」【】、。！!]{0,10})'),
 ]
 
 # ---------------------------------------------------------------------------
@@ -488,7 +490,7 @@ _SLOT_KEYWORDS = [
     "攻殻機動隊", "炎炎ノ消防隊", "東京喰種", "カバネリ", "バジリスク",
     "モンスターハンター", "リコリス", "ゾンビランドサガ", "ジャグラー",
     "チバリヨ", "吉宗", "鉄拳", "まどマギ", "鬼武者", "エウレカ",
-    "Re:ゼロ", "転スラ", "バイオハザード", "ブルーロック",
+    "Re:ゼロ", "転スラ", "バイオハザード", "ブルーロック", "からくりサーカス",
 ]
 
 # パチンコキーワード（eプレフィックスなしでも判定できるもの）
@@ -542,7 +544,9 @@ def get_machine_type(machine: str) -> str:
 def extract_machine(text: str) -> str:
     # 前処理: 「北斗の拳」と「転生」の間の空白（半角・全角）を除去
     # 例: "スマスロ北斗の拳　転生の章２" → "スマスロ北斗の拳転生の章２"
-    text = re.sub(r'(北斗の拳)\s+(転生)', r'\1\2', text)
+    text = re.sub(r'(北斗の拳)[　\s]+(転生)', r'\1\2', text)
+    # 炎炎の消防隊（ひらがなの・半角ﾉ → カタカナノ）
+    text = re.sub(r'炎炎[のﾉ]消防隊', '炎炎ノ消防隊', text)
     for pat in MACHINE_PATTERNS:
         m = pat.search(text)
         if m:
@@ -564,6 +568,8 @@ def extract_machine(text: str) -> str:
                 continue
             # 末尾の助詞・接続詞を除去（例: カバネリ海門決戦から → カバネリ海門決戦）
             name = re.sub(r'(から|にて|より|での|への|として|まで|にて|っ|て|が|は|で|に|を|も|と|の)+$', '', name).strip()
+            # 「から一撃」「から速報」等の余分なテキストを除去
+            name = re.sub(r'から[一-龠ぁ-んァ-ン]{1,4}$', '', name).strip()
             if len(name) < 2:
                 continue
             # ポイント・枚数・玉数の混入を除去（例: 攻殻機動隊/19,010Pt.）
@@ -635,9 +641,12 @@ def extract_store(text: str) -> str:
 
 
 def extract_slot_number(text: str) -> str:
-    """台番号を抽出"""
+    """台番号を抽出（全角数字も対応）"""
     m = re.search(r'(\d{2,4})番台', text)
-    return m.group(1) if m else ""
+    if not m:
+        return ""
+    s = m.group(1)
+    return s.translate(str.maketrans('０１２３４５６７８９', '0123456789'))
 
 
 def extract_date_from_text(text: str, posting_date: str) -> str:
@@ -862,9 +871,9 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> lis
     results = []
     seen_urls: set[str] = set()
 
-    # 3日前〜翌日を収集（週末・深夜・インデックス漏れを広くカバー）
+    # 7日前〜翌日を収集（GitHub Actions 停止・週末・深夜・インデックス漏れを広くカバー）
     from datetime import date as _dt, timedelta
-    since_date = (_dt.fromisoformat(today_str) - timedelta(days=3)).strftime("%Y-%m-%d")
+    since_date = (_dt.fromisoformat(today_str) - timedelta(days=7)).strftime("%Y-%m-%d")
     until_date = (_dt.fromisoformat(today_str) + timedelta(days=1)).strftime("%Y-%m-%d")
     # -filter:retweets で RT を除外し、店舗の原投稿に絞る
     date_filter = f" since:{since_date} until:{until_date} -filter:retweets"
@@ -995,8 +1004,8 @@ def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
 
     page.wait_for_timeout(1000)
 
-    # 2日前を下限として、それより古いツイートが出てきたら停止
-    cutoff_date = (_dt.fromisoformat(today_str) - timedelta(days=2)).strftime("%Y-%m-%d")
+    # 7日前を下限として、それより古いツイートが出てきたら停止
+    cutoff_date = (_dt.fromisoformat(today_str) - timedelta(days=7)).strftime("%Y-%m-%d")
 
     # 30回スクロール（タイムラインは日付逆順で深掘りが必要）
     for scroll_i in range(30):
@@ -1317,8 +1326,10 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
     """
     complete_reports テーブルに INSERT（ON CONFLICT DO NOTHING）。
 
-    ・保存するフィールド: id, date, report_time, store_name, machine, slot_number, x_url, collected_at
+    ・保存するフィールド: id, date, report_time, store_name, machine, machine_id,
+                          slot_number, x_url, collected_at
     ・保存しないフィールド: text（本文）, images（画像配列）, image_url（画像URL）← 転載禁止
+    ・DB保存前に machine_resolver で機種名を正規化・解決する（CLAUDE.md 参照）
     ・重複 ID は INSERT をスキップし duplicate_count に加算
     ・Supabase 書き込み失敗時は (0, 0) を返してスクリプトを継続
 
@@ -1326,6 +1337,18 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
     """
     if not entries or not _sb_env():
         return 0, 0
+
+    # DB保存前に機種名を解決するリゾルバを初期化（失敗時は None で継続）
+    resolver = None
+    try:
+        import os as _os, sys as _sys
+        _scripts_dir = _os.path.dirname(_os.path.abspath(__file__))
+        if _scripts_dir not in _sys.path:
+            _sys.path.insert(0, _scripts_dir)
+        from machine_resolver import get_resolver
+        resolver = get_resolver()
+    except (ImportError, Exception):
+        pass  # machine_resolver 未インストール時はスキップ（スクリプトは継続）
 
     total_new = 0
     total_dup = 0
@@ -1339,12 +1362,27 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
             x_url = (e.get("x_url") or "").strip()
             if not x_url:
                 continue   # x_url は NOT NULL のため空行はスキップ
+
+            # DB保存前に機種名正規化・解決（CLAUDE.md: DB保存前に必ず正規化）
+            raw_machine = e.get("machine") or ""
+            official_machine: str | None = raw_machine or None
+            machine_id: str | None = None
+            if resolver and raw_machine and raw_machine != "不明":
+                resolved = resolver.resolve(raw_machine)
+                if resolved:
+                    official_machine = resolved["official_name"]
+                    machine_id       = resolved["machine_id"]
+                else:
+                    # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
+                    resolver.save_unknown(raw_machine, x_url)
+
             rows.append({
                 "id":           e["id"],
                 "date":         e.get("date") or None,
                 "report_time":  e.get("time") or None,       # "time" → DB の "report_time"
                 "store_name":   e.get("store") or None,      # "store" → DB の "store_name"
-                "machine":      e.get("machine") or None,
+                "machine":      official_machine,
+                "machine_id":   machine_id,
                 "slot_number":  e.get("slot_number") or None,
                 "x_url":        x_url,
                 "collected_at": e.get("collected_at")
@@ -1411,11 +1449,11 @@ def update_ranking():
         "は本日の遊技は終了となりました…",
         "コンプリート機能発動の為、本日は停止となります。",
         # 投稿文の断片・X username・その他誤抽出
-        "お客様より", "真打吉宗のお客様", "真打じゃない方の吉宗より",
+        "お客様より", "真打じゃない方の吉宗より",
         "から、、、", "にて...", "にて…", "コーナー", "オススメ機種",
         "閉店間際になんと", "なんと２台同時",
         "▶︎▶︎▶︎▶︎", ")じゃないよね????", "・スマスロは", "TT-KR",
-        "鉄拳6から一撃", "18000枚Over", "コンプおめ", "誠におめ",
+        "18000枚Over", "コンプおめ", "誠におめ",
         "コンプリート機能発動", "今週のオススメ機種", "でコンプリート～",
         "カバネリ4台", "コーナー",
         "にて...", "にて…", "から、、、",
@@ -1449,6 +1487,7 @@ def update_ranking():
         ("炎炎ノ消防隊２",         "L炎炎ノ消防隊2"),
         ("炎炎ノ消防隊",           "L炎炎ノ消防隊2"),
         ("炎炎の消防隊",           "L炎炎ノ消防隊2"),
+        ("炎炎ﾉ消防隊",            "L炎炎ノ消防隊2"),  # 半角ﾉ variant
         # Lミリオンゴッド神々の軌跡
         ("Lミリオンゴッド神々の軌跡", "Lミリオンゴッド神々の軌跡"),
         ("ミリオンゴッド神々の軌跡",  "Lミリオンゴッド神々の軌跡"),
@@ -1533,6 +1572,16 @@ def update_ranking():
         ("eひきこまり吸血姫の悶々FHV",  "eひきこまり吸血姫の悶々"),  # FHVバリアント
         ("eひきこまり吸血姫の悶々",     "eひきこまり吸血姫の悶々"),
         ("eひきこまり",                "eひきこまり吸血姫の悶々"),
+        # eカケグルイ（型番・サブタイトルゆれを統一）
+        ("eカケグルイ",                "eカケグルイ"),
+        # e転生したらスライムだった件2
+        ("転生したらスライムだった件",  "e転生したらスライムだった件2"),
+        ("転スラ",                     "e転生したらスライムだった件2"),
+        # Lからくりサーカス
+        ("からくりサーカス",            "Lからくりサーカス"),
+        # L鉄拳6（「鉄拳6から一撃」等の余分なテキストは extract_machine で除去済）
+        ("鉄拳6",                      "L鉄拳6"),
+        ("鉄拳",                       "L鉄拳6"),
     ]
 
     def normalize_machine(name: str) -> str | None:

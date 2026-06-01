@@ -1,0 +1,49 @@
+name: Verify Complete Pipeline
+
+on:
+  schedule:
+    # 毎朝 JST 08:00 = UTC 23:00（前日データの最終確認）
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '検証対象日 (YYYY-MM-DD, 省略時は前日 JST)'
+        required: false
+        default: ''
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout (最新 main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 検証対象日を決定
+        id: date
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            echo "target=${{ github.event.inputs.date }}" >> "$GITHUB_OUTPUT"
+          else
+            TARGET=$(python3 -c "
+from datetime import datetime, timedelta, timezone
+JST = timezone(timedelta(hours=9))
+print((datetime.now(JST) - timedelta(days=1)).strftime('%Y-%m-%d'))
+")
+            echo "target=$TARGET" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: パイプライン検証
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "🔍 対象日: ${{ steps.date.outputs.target }}"
+          python scripts/verify_complete_pipeline.py --date "${{ steps.date.outputs.target }}"
