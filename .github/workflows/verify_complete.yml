@@ -33,11 +33,7 @@ jobs:
           if [ -n "${{ inputs.date }}" ]; then
             echo "target=${{ inputs.date }}" >> "$GITHUB_OUTPUT"
           else
-            TARGET=$(python3 -c "
-from datetime import datetime, timedelta, timezone
-JST = timezone(timedelta(hours=9))
-print((datetime.now(JST) - timedelta(days=1)).strftime('%Y-%m-%d'))
-")
+            TARGET=$(TZ=Asia/Tokyo date -d yesterday +%Y-%m-%d)
             echo "target=$TARGET" >> "$GITHUB_OUTPUT"
           fi
 
