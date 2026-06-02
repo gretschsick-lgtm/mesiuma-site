@@ -1,43 +1,58 @@
 [
   {
-    "id": "5c75631e8b23",
+    "id": "d06cee340c87",
     "date": "2026-06-01",
-    "time": "21:36",
-    "store": "ＡＢＣ豊川店",
-    "machine": "L鋼鉄城",
+    "time": "15:56",
+    "store": "松阪南店",
+    "machine": "にて",
     "machine_type": "slot",
-    "slot_number": "604",
-    "text": "コンプリート報告  おめでとうございます お客様からも直接 喜びの声を頂きました  [L鋼鉄城のカバネリ　海門決戦] 604番台にて コンプリート達成。  ――残りカバネ0体 　　　　六根清浄！――  明日より、再開致します。",
-    "x_url": "https://x.com/ABC_toyokawa/status/2061426761334964595",
-    "collected_at": "2026-06-01T17:06:33Z",
+    "slot_number": "501",
+    "text": "みなさんこんにちはウイング松阪南店です。  先程キン肉マン501番台にてコンプリートが発生しました！！  月初めからコンプリートを達成されたお客様本当におめでとう御座います  まだまだお時間が有りますので皆様のご来店お待ちしております( ◠‿◠ )  #コンプリート #ウイング #ウイング松阪南",
+    "x_url": "https://x.com/wing_matsumina/status/2061341038774723007",
+    "collected_at": "2026-06-02T12:10:55Z",
     "images": [
-      "https://pbs.twimg.com/media/HJuoQFOacAAJjDK?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HJtavzvbMAAiCeX?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJuoQFOacAAJjDK?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJtavzvbMAAiCeX?format=jpg&name=large"
   },
   {
-    "id": "71aa6912c73d",
+    "id": "052b6433f74c",
     "date": "2026-06-01",
-    "time": "12:44",
-    "store": "キコーナ泉佐野",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "グランキコーナ泉佐野 4万いれてCZ2回のみ 2日で逆コンプリート達成おめでとう 究極のボッタ店　よかったね 吐き気がするわ　遠隔、確率いじり上等で営業してる店ばっかで気持ち悪い　くそ",
-    "x_url": "https://x.com/beograd_sitonai/status/2061292774935482705",
-    "collected_at": "2026-06-01T21:46:49Z",
+    "time": "15:45",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "ｅ東京喰種Ｗ",
+    "machine_type": "pachinko",
+    "slot_number": "333",
+    "text": "みなさまこんにちは マルハンメガシティ三島駿東です  コンプリート情報 ｅ東京喰種Ｗ 333番台  コンプリートされたお客様 おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2061338203727044645",
+    "collected_at": "2026-06-02T12:10:55Z",
     "images": [
-      "https://pbs.twimg.com/media/HJsu2SebkAACWrU?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJsu2ScbsAAESqV?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HJtVO8paIAAiEuH?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJsu2SebkAACWrU?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJtVO8paIAAiEuH?format=jpg&name=large"
+  },
+  {
+    "id": "92a6af2c58d0",
+    "date": "2026-06-01",
+    "time": "15:30",
+    "store": "マルハン亀有店_亀にゃん",
+    "machine": "Ｌ革命機ヴァルヴレイヴ２ｊＦ",
+    "machine_type": "slot",
+    "slot_number": "882",
+    "text": "Ｌ革命機ヴァルヴレイヴ２ｊＦ 882番台 コンプリート   おめでとうございます！",
+    "x_url": "https://x.com/maruhan_kameari/status/2061334428949921999",
+    "collected_at": "2026-06-02T12:10:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJtOyRvbMAAgVpG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJtOyRvbMAAgVpG?format=jpg&name=large"
   },
   {
     "id": "803c2f9009ab",
     "date": "2026-06-01",
     "time": "08:15",
     "store": "サンキワールド美作店",
-    "machine": "L東京リベンジャーズ",
+    "machine": "スマスロ 東京リベンジャーズ",
     "machine_type": "slot",
     "slot_number": "",
     "text": "5月後半の出玉ランキングです  今回新たにコンプリート達成！ L東京リベンジャーズ e甲鉄城のカバネリ2  どちらも閉店ちょっと前に達成！ おめでとうございます  #出玉ランキング #パチスロ #サンキワールド #コンプリート",
@@ -48,22 +63,7 @@
       "https://pbs.twimg.com/media/HJp_ksRb0AA0UHk?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJp_mLLacAEtUy3?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJp_ix6a0AA3NsC?format=jpg&name=large"
-  },
-  {
-    "id": "4f4ba0552ab1",
-    "date": "2026-06-01",
-    "time": "08:00",
-    "store": "ん苫小牧店",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "252",
-    "text": "がちゃぽん苫小牧店です  昨日　4パチンコの252番台  eカケグルイ　7500ver がコンプリート達成 おめでとうございます  本日も朝からのご来店お待ちしております!！ #がちゃぽん #コンプリート",
-    "x_url": "https://x.com/Gachapon102030/status/2061221183106760776",
-    "collected_at": "2026-06-02T05:51:56Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJqaV2FaMAAAI4I?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJqaV2FaMAAAI4I?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJp_ix6a0AA3NsC?format=jpg&name=large",
+    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65"
   }
 ]
