@@ -286,23 +286,41 @@ def main():
         page = ctx.new_page()
         page.set_extra_http_headers({"Accept-Language": "ja-JP,ja;q=0.9"})
 
-        # X ログイン
+        # X ログイン（_get_cookies() → ctx.add_cookies() → ログイン確認）
         try:
             sys.path.insert(0, str(Path(__file__).parent))
-            from fetch_complete_info import _load_session, _login_with_credentials
-            _load_session(ctx)
-            page.goto("https://x.com/home", timeout=30000, wait_until="domcontentloaded")
-            page.wait_for_timeout(3000)
-            if "login" in page.url or "flow" in page.url:
-                x_user = os.environ.get("X_USERNAME", "")
-                x_pass = os.environ.get("X_PASSWORD", "")
-                if x_user and x_pass:
-                    _login_with_credentials(page, x_user, x_pass)
-                else:
-                    print("❌ X_USERNAME/X_PASSWORD 未設定")
-                    sys.exit(1)
+            from fetch_complete_info import _get_cookies, _login_with_credentials
+            cookies = _get_cookies()
+            if cookies:
+                ctx.add_cookies(cookies)
+                print(f"🍪 クッキー注入: {len(cookies)}個")
         except Exception as e:
-            print(f"⚠️ ログイン: {e}")
+            print(f"⚠️ クッキー読み込み: {e}")
+
+        page.goto("https://x.com/home", timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(4000)
+        cur_url = page.url.lower()
+        title = page.title().lower()
+        is_logged_out = (
+            "login" in cur_url or "flow" in cur_url or
+            any(t in title for t in ["sign in", "log in", "what's happening", "happening now", "いま"])
+        )
+        if is_logged_out:
+            print(f"⚠️ クッキー認証失敗 (url={page.url})")
+            x_user = os.environ.get("X_USERNAME", "")
+            x_pass = os.environ.get("X_PASSWORD", "")
+            if x_user and x_pass:
+                try:
+                    _login_with_credentials(page, x_user, x_pass)
+                    print("✅ パスワードログイン成功")
+                except Exception as e:
+                    print(f"❌ ログイン失敗: {e}")
+                    sys.exit(1)
+            else:
+                print("❌ X_USERNAME/X_PASSWORD 未設定。終了します")
+                sys.exit(1)
+        else:
+            print(f"✅ Xログイン確認OK (title={page.title()!r})")
 
         for chain_key, chain in target_chains.items():
             print(f"\n🔎 チェーン: {chain['name']} ({chain_key})")

@@ -150,22 +150,44 @@ def main():
         page = ctx.new_page()
         page.set_extra_http_headers({"Accept-Language": "ja-JP,ja;q=0.9"})
 
-        # X ログイン
+        # X ログイン（_get_cookies() → ctx.add_cookies() → ログイン確認）
         try:
-            from fetch_complete_info import _load_session, _login_with_credentials
-            _load_session(ctx)
-            page.goto("https://x.com/home", timeout=30000, wait_until="domcontentloaded")
-            page.wait_for_timeout(3000)
-            if "login" in page.url or "flow" in page.url:
-                x_user = os.environ.get("X_USERNAME", "")
-                x_pass = os.environ.get("X_PASSWORD", "")
-                if x_user and x_pass:
-                    _login_with_credentials(page, x_user, x_pass)
-                else:
-                    print("❌ X_USERNAME/X_PASSWORD 未設定")
-                    sys.exit(1)
+            sys.path.insert(0, str(Path(__file__).parent))
+            from fetch_complete_info import _get_cookies, _login_with_credentials
+            cookies = _get_cookies()
+            if cookies:
+                ctx.add_cookies(cookies)
+                print(f"🍪 クッキー注入: {len(cookies)}個")
+            else:
+                print("⚠️ クッキーなし")
         except Exception as e:
-            print(f"⚠️ ログイン処理: {e}")
+            print(f"⚠️ クッキー読み込みエラー: {e}")
+
+        page.goto("https://x.com/home", timeout=30000, wait_until="domcontentloaded")
+        page.wait_for_timeout(4000)
+        cur_url = page.url.lower()
+        title = page.title().lower()
+        is_logged_out = (
+            "login" in cur_url or "flow" in cur_url or
+            any(t in title for t in ["sign in", "log in", "what's happening", "happening now", "いま"])
+        )
+        if is_logged_out:
+            print(f"⚠️ クッキー認証失敗 (url={page.url})")
+            x_user = os.environ.get("X_USERNAME", "")
+            x_pass = os.environ.get("X_PASSWORD", "")
+            if x_user and x_pass:
+                try:
+                    from fetch_complete_info import _login_with_credentials
+                    _login_with_credentials(page, x_user, x_pass)
+                    print("✅ パスワードログイン成功")
+                except Exception as e:
+                    print(f"❌ ログイン失敗: {e}")
+                    sys.exit(1)
+            else:
+                print("❌ X_USERNAME/X_PASSWORD 未設定。終了します")
+                sys.exit(1)
+        else:
+            print(f"✅ Xログイン確認OK (title={page.title()!r})")
 
         # Step 1: キーワード検索で店長アカウントを発掘
         print(f"\n🔍 Step 1: キーワード検索 ({len(MANAGER_SEARCH_QUERIES)}件)")
