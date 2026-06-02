@@ -153,11 +153,6 @@ class MachineResolver:
         if not raw_name or not raw_name.strip():
             return None
 
-        # シリーズ名のみでの機種確定を禁止（raw入力で判定）
-        # 例: "吉宗" → L吉宗/L真打吉宗 が曖昧。"L吉宗" は通過させる（プレフィックス付き）
-        if raw_name.strip() in _AMBIGUOUS_SERIES:
-            return None
-
         self._ensure_loaded()
         norm = normalize_for_comparison(raw_name)
         if not norm:
@@ -176,6 +171,7 @@ class MachineResolver:
                 }
 
         # 2. エイリアス一致（machines_aliases.normalized_alias）
+        # ※ _AMBIGUOUS_SERIES チェックより先に行う（aliasが設定された機種は確実に解決）
         if norm in self._alias_map:
             a = self._alias_map[norm]
             return {
@@ -187,7 +183,12 @@ class MachineResolver:
                 "match_type":    "alias",
             }
 
-        # 3. ファジーマッチ（SequenceMatcher ratio ≥ 0.85）
+        # 3. シリーズ名のみでの機種確定を禁止（exact/alias未一致の場合のみ）
+        # 例: "吉宗" → L吉宗/L真打吉宗 が曖昧。"L吉宗" は通過させる（プレフィックス付き）
+        if raw_name.strip() in _AMBIGUOUS_SERIES:
+            return None
+
+        # 4. ファジーマッチ（SequenceMatcher ratio ≥ 0.85）
         # 類似度が同点の場合は official_name 辞書順（ロード時にソート済み）で最初のものを採用
         best_score = 0.849  # 0.85 未満は unknown 扱い
         best_match: Optional[dict] = None
