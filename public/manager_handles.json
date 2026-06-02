@@ -1,0 +1,25 @@
+{
+  "_schema": {
+    "description": "店長・スタッフの個人 X アカウント管理。store_handles.json の公式アカウントとは別管理。",
+    "fields": {
+      "handle": "X ハンドル（小文字）",
+      "store_id": "stores テーブルの店舗 ID",
+      "store_name": "店舗正式名称",
+      "store_handle": "店舗公式アカウントのハンドル（store_handles.json のキー）",
+      "role": "manager（店長） / staff（スタッフ） / pr（PR担当）",
+      "priority": "1=店舗公式, 2=店長, 3=スタッフ/PR",
+      "note": "備考"
+    },
+    "usage": "store_handles.json の type=store アカウントが最優先。このファイルは type=manager 相当の補助収集用。"
+  },
+  "_examples": {
+    "example_manager_handle": {
+      "store_id": "STORE_ID_HERE",
+      "store_name": "例: マルハン渋谷店",
+      "store_handle": "example_store_handle",
+      "role": "manager",
+      "priority": 2,
+      "note": "店長アカウント"
+    }
+  }
+}

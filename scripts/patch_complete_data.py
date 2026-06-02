@@ -24,6 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_complete_info import extract_machine, extract_slot_number, update_ranking
 from machine_resolver import get_resolver
+from store_resolver import get_resolver as get_store_resolver
 
 COMPLETE_JSON = ROOT / "public" / "complete_info.json"
 BACKUP_DIR    = ROOT / "public" / "backups"
@@ -60,6 +61,8 @@ def main():
         print("❌ Supabase 環境変数未設定。")
         print("   NEXT_PUBLIC_SUPABASE_URL と SUPABASE_SERVICE_ROLE_KEY を設定してください")
         sys.exit(1)
+
+    store_resolver = get_store_resolver()
 
     # ── バックアップ ────────────────────────────────────────────────────────
     bak_path = create_backup()
@@ -124,6 +127,17 @@ def main():
                       f"{old_type} → {resolved['machine_type']}")
 
             resolved_count += 1
+
+            # ── Step 4: store_resolver で store_id を設定 ───────────────────
+            if store_resolver and not e.get("store_id"):
+                _sname = (e.get("store") or "").strip()
+                if _sname:
+                    _sres = store_resolver.resolve(_sname)
+                    if _sres:
+                        e["store_id"] = _sres["store_id"]
+                    else:
+                        store_resolver.save_unknown(_sname, e.get("x_url", ""))
+
             kept.append(e)
         else:
             # 未解決: unknown_machines に記録して除外

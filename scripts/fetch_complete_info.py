@@ -211,6 +211,8 @@ EXCLUDE_PATTERNS = [
     re.compile(r'ダーツ.*コンプ|ビリヤード.*コンプ'),           # ダーツ等
     re.compile(r'カプセル.*コンプ|ガチャポン.*コンプ'),         # カプセルトイ
     re.compile(r'(?:^|\s)RT\s'),                               # RTで始まるリツイートっぽい投稿
+    # ── 個人の不満・皮肉投稿を除外 ───────────────────────────────────────────
+    re.compile(r'逆コンプリート'),                                      # 「逆コンプリート達成」= 個人の負け自虐投稿
     # ── コンプリート未達成を除外 ────────────────────────────────────────────
     re.compile(r'コンプリートならず|コンプリートできず|コンプリートしなかった|惜しくもコンプ'),
     re.compile(r'あと一歩.*コンプリート|コンプリート.*あと一歩'),
@@ -228,6 +230,8 @@ EXCLUDE_PATTERNS = [
 MACHINE_PATTERNS = [
     # 【機種名】コンプリート 形式（括弧内）
     re.compile(r'[『「【]([^』」】]{3,30})[』」】](?:にて|で|の)?(?:コンプリート|コンプ)'),
+    # ASCII角括弧 [L機種名] / [e機種名] の全文抽出（L鋼鉄城のカバネリ 海門決戦 等）
+    re.compile(r'\[([LＬeｅ][^\]\n]{4,35})\]'),
     # スマスロ【機種名】 形式（括弧付き）
     re.compile(r'(?:スマスロ|Lパチスロ|パチスロ|スマパチ)\s*[【「]([^】」]{3,25})[】」]'),
     # スマスロ 機種名 形式
@@ -240,6 +244,8 @@ MACHINE_PATTERNS = [
     re.compile(r'([eｅ][^\s　\n#「」【】、。（(』]{2,19}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|（|\d+番台|』|」|】))'),
     # e機種名 バージョン番号 番台 形式（例: eカケグルイ 7500ver 219番台）
     re.compile(r'([eｅ][^\s　\n#「」【】、。（(』]{2,20})\s+\S{2,10}\s+(?=\d{2,4}番台)'),
+    # e機種名　バージョン がコンプリート形式（全角スペース区切り: eカケグルイ　7500ver がコンプリート）
+    re.compile(r'([eｅ][^\s　\n#「」【】、。（(』]{2,20})[　\s]\S{2,15}[　\s]が(?:コンプリート|コンプ|達成)'),
     # e機種名（スペースあり、スペース込みで取れない場合の補完）
     re.compile(r'[eｅ]\s+([^\s　\n#「」【】、。（(』]{3,25}?)(?=\s*(?:にて|で|の|が|コンプ|達成|機能|\n|$|（|\d+番台))'),
     re.compile(r'\d{2,4}番台\s*(?:の\s*)?[^\s\n]{0,3}?([^\s\n#]{3,25}?)(?=\s*(?:にて|で|が|コンプ|\n))'),
@@ -851,6 +857,14 @@ def parse_tweet(text: str, tweet_url: str,
             if not re.search(r'\d+[/月]\d+', text):
                 tweet_date = backdated
 
+    # テキストに「昨日」が含まれ、コンプリートと近接する場合は前日扱い
+    # 例: 「昨日 252番台 eカケグルイ がコンプリート達成」→ 投稿日の前日
+    if tweet_date and not re.search(r'\d+[/月]\d+', text):
+        if re.search(r'昨日.{0,60}(?:コンプリート|コンプ|番台)', text, re.DOTALL) or \
+           re.search(r'(?:コンプリート|コンプ|番台).{0,60}昨日', text, re.DOTALL):
+            from datetime import date as _d3, timedelta as _td3
+            tweet_date = (_d3.fromisoformat(tweet_date) - _td3(days=1)).strftime("%Y-%m-%d")
+
     entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 
     return {
@@ -1184,6 +1198,43 @@ def save_complete(new_entries: list[dict], target_date: str):
         new_only = _filtered
     else:
         log("⚠️  machine_resolver 未初期化 — フィルタリングをスキップ（Supabase 環境変数を確認）")
+
+    # ── store_resolver でフィルタリング（store_id 未解決は JSON に保存しない）──
+    try:
+        from store_resolver import get_resolver as _get_store_resolver
+        _store_resolver = _get_store_resolver()
+    except (ImportError, Exception):
+        _store_resolver = None
+
+    if _store_resolver:
+        _store_resolver._ensure_loaded()
+        _store_count = len(_store_resolver._stores)
+        # stores DBが本番データとして充実している場合のみハードフィルタ有効
+        # (テストデータのみ = 100件未満の場合はenrichmentモード: store_id付与のみ)
+        _store_filter_enabled = _store_count >= 100
+        if not _store_filter_enabled:
+            log(f"ℹ️  store_resolver: stores DB={_store_count}件（100件未満）→ enrichmentモード（除外なし）")
+        _s_filtered, _s_resolved, _s_unresolved = [], 0, 0
+        for _e in new_only:
+            _store_name = (_e.get("store") or "").strip()
+            if _store_name:
+                _resolved_store = _store_resolver.resolve(_store_name)
+                if _resolved_store:
+                    _e["store_id"] = _resolved_store["store_id"]
+                    _s_resolved += 1
+                else:
+                    _store_resolver.save_unknown(_store_name, _e.get("x_url", ""))
+                    _s_unresolved += 1
+                    if _store_filter_enabled:
+                        continue  # stores DB充実時のみ除外
+            _s_filtered.append(_e)
+        if _s_unresolved:
+            log(f"{'⚠️  store_id 未解決 除外' if _store_filter_enabled else 'ℹ️  store_id 未解決（保存継続）'}: {_s_unresolved}件 → unknown_stores")
+        if _s_resolved:
+            log(f"✅ store_id 解決: {_s_resolved}件")
+        new_only = _s_filtered
+    else:
+        log("⚠️  store_resolver 未初期化 — store_id 解決をスキップ")
 
     combined = all_data + new_only
 

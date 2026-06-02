@@ -2,4761 +2,5725 @@
   "rakuenikebukuro": {
     "store": "楽園池袋店ゲートウェイ",
     "x_url": "https://x.com/rakuenikebukuro",
-    "count": 10
+    "count": 10,
+    "type": "store"
   },
   "castleatsuta": {
     "store": "プレイランドキャッスル熱田店",
     "x_url": "https://x.com/castleatsuta",
-    "count": 10
+    "count": 10,
+    "type": "store"
   },
   "castle_kasugai": {
     "store": "プレイランドキャッスル春日井店",
     "x_url": "https://x.com/castle_kasugai",
-    "count": 8
+    "count": 8,
+    "type": "store"
   },
   "niga_maru": {
     "store": "マルハン仙台苦竹店",
     "x_url": "https://x.com/niga_maru",
-    "count": 7
+    "count": 7,
+    "type": "store"
   },
   "wakakin_tsujic": {
     "store": "キング観光サウザンド栄若宮大通店",
     "x_url": "https://x.com/wakakin_tsujic",
-    "count": 7
+    "count": 7,
+    "type": "store"
   },
   "arrow_naniwa": {
     "store": "ARROW浪速店",
     "x_url": "https://x.com/arrow_naniwa",
-    "count": 6
+    "count": 6,
+    "type": "store"
   },
   "kawagutiangyo": {
     "store": "新！ガーデン川口安行",
     "x_url": "https://x.com/kawagutiangyo",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "megaface_1120": {
     "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
     "x_url": "https://x.com/megaface_1120",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "rakuen_gs": {
     "store": "楽園池袋店グリーンサイド",
     "x_url": "https://x.com/rakuen_gs",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "megaface_1070": {
     "store": "メガフェイス1070菊陽",
     "x_url": "https://x.com/megaface_1070",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "315kasugai": {
     "store": "キクヤ春日井店",
     "x_url": "https://x.com/315kasugai",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "gk_hitachinaka": {
     "store": "グランキコーナひたちなか店",
     "x_url": "https://x.com/gk_hitachinaka",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "face_850": {
     "store": "フェイス850佐賀",
     "x_url": "https://x.com/face_850",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "mega_mishima": {
     "store": "マルハンメガシティ三島駿東",
     "x_url": "https://x.com/mega_mishima",
-    "count": 5
+    "count": 5,
+    "type": "store"
   },
   "hara_strong": {
     "store": "プレイランドキャッスル高浜店",
     "x_url": "https://x.com/hara_strong",
-    "count": 4
+    "count": 4,
+    "type": "store"
   },
   "toumaruhana6": {
     "store": "プレイランドキャッスル東郷店",
     "x_url": "https://x.com/toumaruhana6",
-    "count": 4
+    "count": 4,
+    "type": "store"
   },
   "rakuen_ohmiya": {
     "store": "楽園大宮店",
     "x_url": "https://x.com/rakuen_ohmiya",
-    "count": 4
+    "count": 4,
+    "type": "store"
   },
   "isesaki_maruhan": {
     "store": "マルハンメガシティ伊勢崎",
     "x_url": "https://x.com/isesaki_maruhan",
-    "count": 4
+    "count": 4,
+    "type": "store"
   },
   "sagachan_park": {
     "store": "サガちゃんPARK",
     "x_url": "https://x.com/sagachan_park",
-    "count": 4
+    "count": 4,
+    "type": "store"
   },
   "dsmegami": {
     "store": "SuperD'station39女神店",
     "x_url": "https://x.com/dsmegami",
-    "count": 4
+    "count": 4,
+    "type": "store"
   },
   "kicona_ebina": {
     "store": "キコーナ海老名店",
     "x_url": "https://x.com/kicona_ebina",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "space666tobata": {
     "store": "SPACE(スペース444＆666)",
     "x_url": "https://x.com/space666tobata",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "kitasenjusss": {
     "store": "ピーアーク北千住エリア",
     "x_url": "https://x.com/kitasenjusss",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "aratanarutentyo": {
     "store": "店長あらた　マルハンメガシティ長野",
     "x_url": "https://x.com/aratanarutentyo",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "kicona_matsubra": {
     "store": "G松原店",
     "x_url": "https://x.com/kicona_matsubra",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "super_concorde": {
     "store": "SUPER CONCORDE",
     "x_url": "https://x.com/super_concorde",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "naebomaruhan": {
     "store": "マルハン仙台名坊店",
     "x_url": "https://x.com/naebomaruhan",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "sd_tougane": {
     "store": "SuperD'station東金店",
     "x_url": "https://x.com/sd_tougane",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "tamaya_honten": {
     "store": "パチンコの玉屋∞本店",
     "x_url": "https://x.com/tamaya_honten",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "joypackx": {
     "store": "ビックマーチ東習志野店",
     "x_url": "https://x.com/joypackx",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "texas_kokura": {
     "store": "テキサス小倉店",
     "x_url": "https://x.com/texas_kokura",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "hozumi1202": {
     "store": "キクヤ穂積店",
     "x_url": "https://x.com/hozumi1202",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "sunglass_a": {
     "store": "甲府昭和店",
     "x_url": "https://x.com/sunglass_a",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "ichinomiya1380": {
     "store": "キクヤ一宮店",
     "x_url": "https://x.com/ichinomiya1380",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "palazzo_hato": {
     "store": "パラッツォ鳩ヶ谷店",
     "x_url": "https://x.com/palazzo_hato",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "tamanosuke1225": {
     "store": "玉ノ助【パーラーダジュール公式】",
     "x_url": "https://x.com/tamanosuke1225",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "d_ootone": {
     "store": "SuperD'station前橋大利根店",
     "x_url": "https://x.com/d_ootone",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "grand_konan": {
     "store": "グランドホール港南店",
     "x_url": "https://x.com/grand_konan",
-    "count": 3
+    "count": 3,
+    "type": "store"
   },
   "monky0621bm": {
     "store": "ビックマーチ河和田東店",
     "x_url": "https://x.com/monky0621bm",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "gaia_amagasaki": {
     "store": "ミクちゃんガイア尼崎店",
     "x_url": "https://x.com/gaia_amagasaki",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "mn_utazu": {
     "store": "ミリオン宇多津店",
     "x_url": "https://x.com/mn_utazu",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00109": {
     "store": "ダイナム柴田町店ゆったり館",
     "x_url": "https://x.com/dynam_00109",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "palazzo_shimura": {
     "store": "パラッツォ志村店",
     "x_url": "https://x.com/palazzo_shimura",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00398": {
     "store": "ダイナム兵庫たつの店ゆったり館",
     "x_url": "https://x.com/dynam_00398",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "divo_x_chiyori": {
     "store": "でこぼこ店長",
     "x_url": "https://x.com/divo_x_chiyori",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00284": {
     "store": "ダイナム富山砺波店",
     "x_url": "https://x.com/dynam_00284",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "sanki_kojima": {
     "store": "サンキワールド児島店",
     "x_url": "https://x.com/sanki_kojima",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "omaezaki_conco": {
     "store": "コンコルド御前崎店",
     "x_url": "https://x.com/omaezaki_conco",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "rakuen_kamata": {
     "store": "楽園蒲田店",
     "x_url": "https://x.com/rakuen_kamata",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "maruhan_kameari": {
     "store": "マルハン亀有店_亀にゃん",
     "x_url": "https://x.com/maruhan_kameari",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dtakasakihonten": {
     "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
     "x_url": "https://x.com/dtakasakihonten",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "megaface_960": {
     "store": "メガフェイス960飯塚",
     "x_url": "https://x.com/megaface_960",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "susono_kita": {
     "store": "マルハン裾野北店",
     "x_url": "https://x.com/susono_kita",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00043": {
     "store": "ダイナム北斗七重浜店",
     "x_url": "https://x.com/dynam_00043",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "texas_danbara": {
     "store": "テキサス段原店",
     "x_url": "https://x.com/texas_danbara",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "mjijiri": {
     "store": "MJアリーナ井尻店",
     "x_url": "https://x.com/mjijiri",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "tenpaku0730": {
     "store": "キャッスル天白店",
     "x_url": "https://x.com/tenpaku0730",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "xamatsudo": {
     "store": "エクスアリーナ松戸",
     "x_url": "https://x.com/xamatsudo",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "megaface_1300": {
     "store": "メガフェイス1300淀川",
     "x_url": "https://x.com/megaface_1300",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "million1100": {
     "store": "ミリオン1100朝霞店",
     "x_url": "https://x.com/million1100",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "wl_odo": {
     "store": "ワンダーランドODO",
     "x_url": "https://x.com/wl_odo",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "marujagten": {
     "store": "マルハン入間店",
     "x_url": "https://x.com/marujagten",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "sd_fukushige": {
     "store": "SuperD'station39福重店",
     "x_url": "https://x.com/sd_fukushige",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "smaru_kawagoe": {
     "store": "マルハン川越店",
     "x_url": "https://x.com/smaru_kawagoe",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00307": {
     "store": "ダイナム栃木大田原店",
     "x_url": "https://x.com/dynam_00307",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "tengoku_asoda": {
     "store": "天国朝生田店1020",
     "x_url": "https://x.com/tengoku_asoda",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "abc_hamakita": {
     "store": "ABC浜北店【パチンコ＆スロット】",
     "x_url": "https://x.com/abc_hamakita",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "bm_fujishiro": {
     "store": "ビックマーチ藤代店@店舗の仲間たち",
     "x_url": "https://x.com/bm_fujishiro",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "homerun_komono": {
     "store": "ホームラン菰野店",
     "x_url": "https://x.com/homerun_komono",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "maruhan_natori": {
     "store": "マルハン名取店",
     "x_url": "https://x.com/maruhan_natori",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "asagao0419": {
     "store": "ピーアーク朝霞",
     "x_url": "https://x.com/asagao0419",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "otsuka_sandra": {
     "store": "サンドラ大塚店",
     "x_url": "https://x.com/otsuka_sandra",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "tamaya_shingu": {
     "store": "パチンコの玉屋∞新宮",
     "x_url": "https://x.com/tamaya_shingu",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "d_nagayoten": {
     "store": "D’station39長与店",
     "x_url": "https://x.com/d_nagayoten",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00035": {
     "store": "ダイナム金町南口店",
     "x_url": "https://x.com/dynam_00035",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "mjhakozaki": {
     "store": "MJアリーナ箱崎店",
     "x_url": "https://x.com/mjhakozaki",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "maruhankashiwa": {
     "store": "マルハンメガシティ柏",
     "x_url": "https://x.com/maruhankashiwa",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "toumei0812": {
     "store": "吉兆東名川崎店",
     "x_url": "https://x.com/toumei0812",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "suyasuya_bm": {
     "store": "ビックマーチ水戸本店",
     "x_url": "https://x.com/suyasuya_bm",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "oyamasendaduka2": {
     "store": "マルハン小山千駄塚店",
     "x_url": "https://x.com/oyamasendaduka2",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "megaface_1250": {
     "store": "メガフェイス1250",
     "x_url": "https://x.com/megaface_1250",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "aitatencho": {
     "store": "綾瀬上土棚店",
     "x_url": "https://x.com/aitatencho",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "dynam_00440": {
     "store": "ダイナム長野上田店",
     "x_url": "https://x.com/dynam_00440",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "tmaxshinei39_10": {
     "store": "T-MAX新栄店",
     "x_url": "https://x.com/tmaxshinei39_10",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "yamaguchitexas": {
     "store": "テキサス656山口店",
     "x_url": "https://x.com/yamaguchitexas",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "face930asakura": {
     "store": "メガフェイス930朝倉",
     "x_url": "https://x.com/face930asakura",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "stadium2001yame": {
     "store": "スタジアム2001八女店",
     "x_url": "https://x.com/stadium2001yame",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "mdmeguro": {
     "store": "エムディー目黒店",
     "x_url": "https://x.com/mdmeguro",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "yuko_dazaifu": {
     "store": "ユーコーラッキー37太宰府店",
     "x_url": "https://x.com/yuko_dazaifu",
-    "count": 2
+    "count": 2,
+    "type": "store"
   },
   "tencho_szk": {
     "store": "ダイナム長野上田店",
     "x_url": "https://x.com/tencho_szk",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "concorde_ichino": {
     "store": "SUPER CONCORDE 市野",
     "x_url": "https://x.com/concorde_ichino",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yuko_tsujidou": {
     "store": "ユーコーラッキー37辻堂店",
     "x_url": "https://x.com/yuko_tsujidou",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00399": {
     "store": "ダイナム岡山倉敷中島店",
     "x_url": "https://x.com/dynam_00399",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "club_honten99": {
     "store": "クラブハウス本店",
     "x_url": "https://x.com/club_honten99",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mn_nakayoshino": {
     "store": "中吉野店",
     "x_url": "https://x.com/mn_nakayoshino",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "fujiko_mishima": {
     "store": "フジコー三島店",
     "x_url": "https://x.com/fujiko_mishima",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "oumeshinmachi": {
     "store": "マルハン青梅新町店【イイじゃん!】",
     "x_url": "https://x.com/oumeshinmachi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kashiwa_rakuen": {
     "store": "楽園柏店",
     "x_url": "https://x.com/kashiwa_rakuen",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "k_e_lucky": {
     "store": "京都駅前ラッキーパチンコ店",
     "x_url": "https://x.com/k_e_lucky",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "newyorkgroup15": {
     "store": "ニューヨーク出水店",
     "x_url": "https://x.com/newyorkgroup15",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00176": {
     "store": "ダイナム茨城下妻店",
     "x_url": "https://x.com/dynam_00176",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "megaface_1450": {
     "store": "メガフェイス1450本山",
     "x_url": "https://x.com/megaface_1450",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "demasse111": {
     "store": "デマッセ梅津店・ライト館",
     "x_url": "https://x.com/demasse111",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kinenbashi1010": {
     "store": "キャッスル記念橋南店",
     "x_url": "https://x.com/kinenbashi1010",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "16yatsushiro": {
     "store": "イチロク八代店",
     "x_url": "https://x.com/16yatsushiro",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00198": {
     "store": "ダイナム栃木黒磯店",
     "x_url": "https://x.com/dynam_00198",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "platinum5_main": {
     "store": "プラチナム5-中の人-",
     "x_url": "https://x.com/platinum5_main",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tsubame_beam": {
     "store": "つばめザ・ビーム",
     "x_url": "https://x.com/tsubame_beam",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00018": {
     "store": "ダイナム砂町銀座店",
     "x_url": "https://x.com/dynam_00018",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "stadium2001kawa": {
     "store": "スタジアム2001徳島川内店",
     "x_url": "https://x.com/stadium2001kawa",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "g_nishiurawa": {
     "store": "新ガーデン西浦和",
     "x_url": "https://x.com/g_nishiurawa",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "ljbp7byyui89612": {
     "store": "ミリオンゴット",
     "x_url": "https://x.com/ljbp7byyui89612",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "scpdaitou": {
     "store": "SUPER COSMO PREMIUM大東店",
     "x_url": "https://x.com/scpdaitou",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "jparkaja": {
     "store": "J・PARK安謝店",
     "x_url": "https://x.com/jparkaja",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "since2011_8_11": {
     "store": "マルハン佐賀店実績",
     "x_url": "https://x.com/since2011_8_11",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yasuda_yashio": {
     "store": "やすだ八潮店",
     "x_url": "https://x.com/yasuda_yashio",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "daianakouri": {
     "store": "ダイアナ香里園店",
     "x_url": "https://x.com/daianakouri",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00268": {
     "store": "ダイナム和歌山御坊店",
     "x_url": "https://x.com/dynam_00268",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "western_nk": {
     "store": "ウエスタン西葛西店",
     "x_url": "https://x.com/western_nk",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "towarsnisihati": {
     "store": "トワーズ西八店",
     "x_url": "https://x.com/towarsnisihati",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dsclubkoudoten": {
     "store": "ディーズクラブ河渡店",
     "x_url": "https://x.com/dsclubkoudoten",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00380": {
     "store": "ダイナム山梨笛吹店",
     "x_url": "https://x.com/dynam_00380",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "rit3vjojmw4919": {
     "store": "永楽本店",
     "x_url": "https://x.com/rit3vjojmw4919",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dokiwakun77401": {
     "store": "ドキわくランド中河原駅前店",
     "x_url": "https://x.com/dokiwakun77401",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "paradiso_furdol": {
     "store": "パラディソ古川ドルフィン館",
     "x_url": "https://x.com/paradiso_furdol",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "bdian55346": {
     "store": "ベガスベガス名掛丁店",
     "x_url": "https://x.com/bdian55346",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00125": {
     "store": "ダイナム江北店",
     "x_url": "https://x.com/dynam_00125",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "wing_asuto": {
     "store": "ウイングあすと長町店",
     "x_url": "https://x.com/wing_asuto",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "bigdipperhanako": {
     "store": "BIGディッパー花小金井店",
     "x_url": "https://x.com/bigdipperhanako",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "richland_ageo": {
     "store": "りっちらんど上尾",
     "x_url": "https://x.com/richland_ageo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "abc_mrtwopair": {
     "store": "ABC豊川店",
     "x_url": "https://x.com/abc_mrtwopair",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tsukasa1200t": {
     "store": "つかさ月隈店（公式）",
     "x_url": "https://x.com/tsukasa1200t",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "palazzo_funa": {
     "store": "パラッツォ船橋店",
     "x_url": "https://x.com/palazzo_funa",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "maruhan_fukuroi": {
     "store": "マルハン袋井店",
     "x_url": "https://x.com/maruhan_fukuroi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00130": {
     "store": "ダイナム佐世保店",
     "x_url": "https://x.com/dynam_00130",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00154": {
     "store": "ダイナム会津若松店",
     "x_url": "https://x.com/dynam_00154",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_000281": {
     "store": "ダイナム福岡頴田店",
     "x_url": "https://x.com/dynam_000281",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "1z0ut5jlm038577": {
     "store": "ダムズ小出店",
     "x_url": "https://x.com/1z0ut5jlm038577",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "psj_shingu": {
     "store": "PSJ新宮店",
     "x_url": "https://x.com/psj_shingu",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "c_eagle_c": {
     "store": "店長マエダクラブイーグル千歳",
     "x_url": "https://x.com/c_eagle_c",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "omegamaiya": {
     "store": "オメガ舞屋EAST&WEST",
     "x_url": "https://x.com/omegamaiya",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kicona_odakico": {
     "store": "キコーナ小田原扇町店",
     "x_url": "https://x.com/kicona_odakico",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kicona_fuchu": {
     "store": "キコーナ府中",
     "x_url": "https://x.com/kicona_fuchu",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tsubame393939": {
     "store": "ビックつばめ矢野目店",
     "x_url": "https://x.com/tsubame393939",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "sanco_umejima": {
     "store": "サンコー梅島店",
     "x_url": "https://x.com/sanco_umejima",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "vegabiq1227": {
     "store": "ベガビック1130豊川店",
     "x_url": "https://x.com/vegabiq1227",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "vita444vita": {
     "store": "ビータプローバ",
     "x_url": "https://x.com/vita444vita",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yonepee2288": {
     "store": "玉屋∞本店",
     "x_url": "https://x.com/yonepee2288",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "wl_takeo": {
     "store": "ワンダーランド武雄店",
     "x_url": "https://x.com/wl_takeo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "luckyplaza1050": {
     "store": "ラッキープラザ1050可児店",
     "x_url": "https://x.com/luckyplaza1050",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "toaru_slotter": {
     "store": "D'ステ仙台泉店",
     "x_url": "https://x.com/toaru_slotter",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "bm_kiryu": {
     "store": "ビックマーチ桐生店",
     "x_url": "https://x.com/bm_kiryu",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "wingwarabi600": {
     "store": "ウイング蕨６００",
     "x_url": "https://x.com/wingwarabi600",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mtmmaruhan": {
     "store": "マルハン松本店",
     "x_url": "https://x.com/mtmmaruhan",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "d_purple777": {
     "store": "ビックつばめ錦店",
     "x_url": "https://x.com/d_purple777",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "sansponavi": {
     "store": "TOHO川越店",
     "x_url": "https://x.com/sansponavi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "texashakushima": {
     "store": "テキサス白島店",
     "x_url": "https://x.com/texashakushima",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "niraku_namiki": {
     "store": "ニラク郡山並木店",
     "x_url": "https://x.com/niraku_namiki",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "billy_maruhan": {
     "store": "マルハン橿原北店店",
     "x_url": "https://x.com/billy_maruhan",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00361": {
     "store": "ダイナム福岡久留米店",
     "x_url": "https://x.com/dynam_00361",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "bm_yattajima": {
     "store": "ビックマーチ八斗島店",
     "x_url": "https://x.com/bm_yattajima",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "ishikawa_rakuen": {
     "store": "楽園ハッピーロード大山店",
     "x_url": "https://x.com/ishikawa_rakuen",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "plaza0204": {
     "store": "プラザ本店Ⅱ",
     "x_url": "https://x.com/plaza0204",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "marukudatencho": {
     "store": "マルハン下松店",
     "x_url": "https://x.com/marukudatencho",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "zone_yukuhashi": {
     "store": "ゾーン行橋1000",
     "x_url": "https://x.com/zone_yukuhashi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gardengashimiya": {
     "store": "ガーデン東大宮店＠がしみや　4/21(火)リニューアル",
     "x_url": "https://x.com/gardengashimiya",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "marumaruhan0522": {
     "store": "すぎちゃん∞マルハン茂原店",
     "x_url": "https://x.com/marumaruhan0522",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "megagarden": {
     "store": "メガガーデン所沢スロット館",
     "x_url": "https://x.com/megagarden",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tenchoufujimori": {
     "store": "ニューアサヒ長野青木島店",
     "x_url": "https://x.com/tenchoufujimori",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mogup_take": {
     "store": "ピーアーク竹の塚",
     "x_url": "https://x.com/mogup_take",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yanakin1515": {
     "store": "キング観光サウザンド名古屋駅柳橋店",
     "x_url": "https://x.com/yanakin1515",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "concorde_tsuiji": {
     "store": "コンコルド築地東店",
     "x_url": "https://x.com/concorde_tsuiji",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "shiki8_18_28": {
     "store": "アロー志紀店",
     "x_url": "https://x.com/shiki8_18_28",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "p_spark01": {
     "store": "Ｐスパーク",
     "x_url": "https://x.com/p_spark01",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "smaru_tokoro": {
     "store": "マルハン所沢店",
     "x_url": "https://x.com/smaru_tokoro",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kanamina_tencyo": {
     "store": "ダイナム金町南口店",
     "x_url": "https://x.com/kanamina_tencyo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gardenplus39": {
     "store": "ガーデンプラス所沢店",
     "x_url": "https://x.com/gardenplus39",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "lageo666": {
     "store": "ライブガーデン上尾店",
     "x_url": "https://x.com/lageo666",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "vox_ikeda_1224": {
     "store": "パーラーVOX",
     "x_url": "https://x.com/vox_ikeda_1224",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00351": {
     "store": "ダイナム佐賀大和店",
     "x_url": "https://x.com/dynam_00351",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "asobikobo": {
     "store": "コボちゃん＠遊び工房 恵庭店",
     "x_url": "https://x.com/asobikobo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "orientshinmachi": {
     "store": "オリエントインペリアルホール｜青梅新町",
     "x_url": "https://x.com/orientshinmachi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "d_shibukawa": {
     "store": "D'ステ渋川インター店",
     "x_url": "https://x.com/d_shibukawa",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gogoarenatenjin": {
     "store": "GOGOアリーナ天神",
     "x_url": "https://x.com/gogoarenatenjin",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gardenkitatoda": {
     "store": "新ガーデン北戸田駅前",
     "x_url": "https://x.com/gardenkitatoda",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dsgarenatakaoka": {
     "store": "DSGアリーナ高岡",
     "x_url": "https://x.com/dsgarenatakaoka",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yasuda_hibari": {
     "store": "やすだひばりヶ丘店",
     "x_url": "https://x.com/yasuda_hibari",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "grandsepia15": {
     "store": "グランドセピア",
     "x_url": "https://x.com/grandsepia15",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yasuda_nishiike": {
     "store": "やすだ西池袋6号店",
     "x_url": "https://x.com/yasuda_nishiike",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mjhosikuma": {
     "store": "ＭＪアリーナ干隈店",
     "x_url": "https://x.com/mjhosikuma",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "numaxxx7": {
     "store": "マルハン沼津店",
     "x_url": "https://x.com/numaxxx7",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mk_mten": {
     "store": "マルハン清河寺",
     "x_url": "https://x.com/mk_mten",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "face__1000": {
     "store": "メガフェイス1000糸島",
     "x_url": "https://x.com/face__1000",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kiyokawa_vg": {
     "store": "ヴィーナスギャラリー清川店",
     "x_url": "https://x.com/kiyokawa_vg",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yumeya310": {
     "store": "SC夢屋豊橋佐藤店",
     "x_url": "https://x.com/yumeya310",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "face_666kanzaki": {
     "store": "フェイス６６６神埼",
     "x_url": "https://x.com/face_666kanzaki",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "abc_kamiahara": {
     "store": "ABC甲府上阿原店",
     "x_url": "https://x.com/abc_kamiahara",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mkokazaki": {
     "store": "M&K岡崎店",
     "x_url": "https://x.com/mkokazaki",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "eagle_c_tencho": {
     "store": "イーグルアールワン南8条店",
     "x_url": "https://x.com/eagle_c_tencho",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "messe_mitaka": {
     "store": "メッセ三鷹店",
     "x_url": "https://x.com/messe_mitaka",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00133": {
     "store": "ダイナム武生店",
     "x_url": "https://x.com/dynam_00133",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "majishan_tencho": {
     "store": "マルハン筑西店",
     "x_url": "https://x.com/majishan_tencho",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "ba_shunan": {
     "store": "ビッグアップル.周南店",
     "x_url": "https://x.com/ba_shunan",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "sdyokkaichi1223": {
     "store": "スーパードーム四日市店",
     "x_url": "https://x.com/sdyokkaichi1223",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "_minamimiyazaki": {
     "store": "マルハン南宮崎店",
     "x_url": "https://x.com/_minamimiyazaki",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "maru_nagayo": {
     "store": "まるみつ長与店",
     "x_url": "https://x.com/maru_nagayo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00135": {
     "store": "ダイナム御薗店",
     "x_url": "https://x.com/dynam_00135",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yanaimg": {
     "store": "メガガイア柳井",
     "x_url": "https://x.com/yanaimg",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "castle_takahama": {
     "store": "キャッスル高浜",
     "x_url": "https://x.com/castle_takahama",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "marumitsu_hama": {
     "store": "浜町まるみつ店",
     "x_url": "https://x.com/marumitsu_hama",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "vd28829": {
     "store": "クラブハウス庄内支店",
     "x_url": "https://x.com/vd28829",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kicona_sobudai": {
     "store": "キコーナ相武台店",
     "x_url": "https://x.com/kicona_sobudai",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "g_one_nikenya": {
     "store": "ジーワン二軒屋",
     "x_url": "https://x.com/g_one_nikenya",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "zentkani": {
     "store": "ZENT可児店",
     "x_url": "https://x.com/zentkani",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00167": {
     "store": "ダイナム鹿児島指宿店",
     "x_url": "https://x.com/dynam_00167",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "summitbeltupu": {
     "store": "サミット別府店",
     "x_url": "https://x.com/summitbeltupu",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "grandmotoyama": {
     "store": "グランド元山",
     "x_url": "https://x.com/grandmotoyama",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tokai_kaede": {
     "store": "マルハン島田",
     "x_url": "https://x.com/tokai_kaede",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "saku07saku": {
     "store": "サンシャイン弥生",
     "x_url": "https://x.com/saku07saku",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "chiba_pachislo": {
     "store": "マルハンメガシティ八千代緑が丘』結果",
     "x_url": "https://x.com/chiba_pachislo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yuko_chikugo": {
     "store": "ユーコーラッキー37筑後店",
     "x_url": "https://x.com/yuko_chikugo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "monnaka_sd": {
     "store": "門前仲町スターダスト",
     "x_url": "https://x.com/monnaka_sd",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "megaseven777": {
     "store": "メガセブン",
     "x_url": "https://x.com/MegaSeven777",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "daisyo365950": {
     "store": "スロット大将",
     "x_url": "https://x.com/DAISYO365950",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "z_zoron": {
     "store": "Zゾーン",
     "x_url": "https://x.com/z_zoron",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "apulo_1229": {
     "store": "アプロ1229",
     "x_url": "https://x.com/apulo_1229",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "toponegojo": {
     "store": "トポネ五条店",
     "x_url": "https://x.com/toponegojo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "shintentyodee1": {
     "store": "新天地Dee1",
     "x_url": "https://x.com/shintentyoDee1",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "higasshi0825": {
     "store": "マルハン八千代東店",
     "x_url": "https://x.com/higasshi0825",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "wl_s_sasebo": {
     "store": "ワンダーランド佐世保白岳店",
     "x_url": "https://x.com/wl_s_sasebo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00397": {
     "store": "ダイナム群馬藤岡店",
     "x_url": "https://x.com/dynam_00397",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00439": {
     "store": "ダイナム滋賀彦根店～Since2025.7.18～",
     "x_url": "https://x.com/dynam_00439",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tk20060427": {
     "store": "草津店",
     "x_url": "https://x.com/tk20060427",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "palazzo_misato": {
     "store": "パラッツォ三郷中央店",
     "x_url": "https://x.com/palazzo_misato",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "grand_chogo": {
     "store": "ホール長後店",
     "x_url": "https://x.com/grand_chogo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "aitencho_x": {
     "store": "AI店長/マルハン相模原店",
     "x_url": "https://x.com/aitencho_x",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "rakuenshibuya1": {
     "store": "楽園渋谷道玄坂店",
     "x_url": "https://x.com/rakuenshibuya1",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "royalnumanohata": {
     "store": "ロイヤル沼ノ端店",
     "x_url": "https://x.com/royalnumanohata",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "29_kitamoto": {
     "store": "ニラク北本深井店",
     "x_url": "https://x.com/29_kitamoto",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "wl_hinodemachi": {
     "store": "ワンダーランド日出町店",
     "x_url": "https://x.com/wl_hinodemachi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gaia_takahagi": {
     "store": "ガイア高萩安良川店",
     "x_url": "https://x.com/gaia_takahagi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00041": {
     "store": "ダイナム滑川店～SINCE1995.4.8～",
     "x_url": "https://x.com/dynam_00041",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00094": {
     "store": "ダイナム氷見店",
     "x_url": "https://x.com/dynam_00094",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00199": {
     "store": "ダイナム鹿児島大口店",
     "x_url": "https://x.com/dynam_00199",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00230": {
     "store": "ダイナム熊本長洲店",
     "x_url": "https://x.com/dynam_00230",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00424": {
     "store": "ダイナム山形天童店",
     "x_url": "https://x.com/dynam_00424",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00432": {
     "store": "ダイナム岐阜高山店",
     "x_url": "https://x.com/dynam_00432",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "sanki_mimasaka": {
     "store": "サンキワールド美作店",
     "x_url": "https://x.com/sanki_mimasaka",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "last_mission_7": {
     "store": "サラリーマン店長メガシティ静岡",
     "x_url": "https://x.com/last_mission_7",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "psj_ayaragi": {
     "store": "羅木店",
     "x_url": "https://x.com/psj_ayaragi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "eagle_r1_juso": {
     "store": "r1十三駅東口店",
     "x_url": "https://x.com/eagle_r1_juso",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tamtamtenc_maru": {
     "store": "タムタム店長(メガシティ市原）",
     "x_url": "https://x.com/tamtamtenc_maru",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "hibari_shingu": {
     "store": "ひばり新宮店",
     "x_url": "https://x.com/hibari_shingu",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "king422_7_17_27": {
     "store": "大阪No.1店長を目指す(キングオブキングス1007大阪",
     "x_url": "https://x.com/king422_7_17_27",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "nagara315": {
     "store": "キクヤ長良店",
     "x_url": "https://x.com/nagara315",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "rakuenkamiaraya": {
     "store": "楽園上新屋",
     "x_url": "https://x.com/rakuenkamiaraya",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kingkuwana": {
     "store": "光サウザンド桑名本店",
     "x_url": "https://x.com/kingkuwana",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "millionneo_n": {
     "store": "明石店",
     "x_url": "https://x.com/millionneo_n",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "pwst_oguri": {
     "store": "パワーステーション小栗店",
     "x_url": "https://x.com/pwst_oguri",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "ams_re_kokuba": {
     "store": "ーデン国場店",
     "x_url": "https://x.com/ams_re_kokuba",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "newyork_izumi15": {
     "store": "ーク出水店",
     "x_url": "https://x.com/newyork_izumi15",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "aisen_hutami": {
     "store": "AISEN 二見店",
     "x_url": "https://x.com/aisen_hutami",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gnishifunabashi": {
     "store": "船橋店",
     "x_url": "https://x.com/gnishifunabashi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mogumogu_tencho": {
     "store": "ŧ‹”ŧ‹”食べますもぐ美ﾃﾝﾁｮ(店長) ꕤ in金古",
     "x_url": "https://x.com/mogumogu_tencho",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "panenka3939": {
     "store": "ビックマーチ勝田",
     "x_url": "https://x.com/panenka3939",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "marinaprova0601": {
     "store": "マリナプローバ",
     "x_url": "https://x.com/marinaprova0601",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "concorde1220": {
     "store": "山田店長Ｖ3",
     "x_url": "https://x.com/concorde1220",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "face_1300": {
     "store": "FACE1300小倉南店",
     "x_url": "https://x.com/face_1300",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "bigdipper_kyoto": {
     "store": "ＢＩＧディッパー京都駅前店",
     "x_url": "https://x.com/bigdipper_kyoto",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "keiztakaoka": {
     "store": "高岡店",
     "x_url": "https://x.com/keiztakaoka",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tsukimaru777": {
     "store": "マルハンアプリはこちら",
     "x_url": "https://x.com/tsukimaru777",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "29_kasama": {
     "store": "ニラク笠間店",
     "x_url": "https://x.com/29_kasama",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "vegabiq0427": {
     "store": "ク1000仙台店",
     "x_url": "https://x.com/vegabiq0427",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "fuwafuwa_bm": {
     "store": "ビックマーチひたちなか店",
     "x_url": "https://x.com/fuwafuwa_bm",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "dynam_00417_01": {
     "store": "ダイナム鹿児島上川内店",
     "x_url": "https://x.com/dynam_00417_01",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "marcheakabane": {
     "store": "マルシェ赤羽店",
     "x_url": "https://x.com/marcheakabane",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "daianji08": {
     "store": "大安寺マルハチ",
     "x_url": "https://x.com/daianji08",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kicona_matsudo": {
     "store": "キコーナ松戸",
     "x_url": "https://x.com/kicona_matsudo",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "hama_tencho3939": {
     "store": "はま店長",
     "x_url": "https://x.com/hama_tencho3939",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "ch_arakawa_0920": {
     "store": "ージコンサートホール荒川店",
     "x_url": "https://x.com/ch_arakawa_0920",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "obihirohimbx2n": {
     "store": "店長ダースー",
     "x_url": "https://x.com/obihirohimbx2n",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "rakuenshibuya2": {
     "store": "駅前店",
     "x_url": "https://x.com/rakuenshibuya2",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "maruhanakatsuka": {
     "store": "マルハンメガシティ水戸赤塚",
     "x_url": "https://x.com/maruhanakatsuka",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "gkicona_turumi": {
     "store": "キコーナ鶴見",
     "x_url": "https://x.com/gkicona_turumi",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "29_ootawara": {
     "store": "田原加治屋店",
     "x_url": "https://x.com/29_ootawara",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "mzus_miyaki": {
     "store": "みやき店",
     "x_url": "https://x.com/mzus_miyaki",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "777aoba777": {
     "store": "あおばさち",
     "x_url": "https://x.com/777aoba777",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "xatokyo1223": {
     "store": "エクスアリーナ東京",
     "x_url": "https://x.com/xatokyo1223",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "worldcuparea": {
     "store": "ワールドカップ+1新倉吉店",
     "x_url": "https://x.com/worldcuparea",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "kicona_hashirii": {
     "store": "キコーナ豊中走井",
     "x_url": "https://x.com/kicona_hashirii",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "myoung19750427": {
     "store": "ヤング舞鶴店",
     "x_url": "https://x.com/myoung19750427",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yuko_nagaeki": {
     "store": "ユーコーラッキー長崎駅前店☆",
     "x_url": "https://x.com/yuko_nagaeki",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "divo_x_kosaka": {
     "store": "ディーボ小坂店【公式】アカウント",
     "x_url": "https://x.com/divo_x_kosaka",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "tsukasa7t": {
     "store": "つかさ築地店",
     "x_url": "https://x.com/tsukasa7t",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "rakuen_mznkc": {
     "store": "楽園溝の口店",
     "x_url": "https://x.com/rakuen_mznkc",
-    "count": 1
+    "count": 1,
+    "type": "store"
   },
   "yuka_qi_m": {
     "store": "ゆかぴマルイ伊那",
     "x_url": "https://x.com/yuka_qi_m",
-    "count": 1
+    "count": 1,
+    "type": "store"
+  },
+  "abc_toyokawa": {
+    "store": "ＡＢＣ豊川店",
+    "x_url": "https://x.com/ABC_toyokawa",
+    "count": 1,
+    "type": "store"
+  },
+  "gachapon102030": {
+    "store": "がちゃぽん苫小牧店",
+    "x_url": "https://x.com/Gachapon102030",
+    "count": 1,
+    "type": "store"
   },
   "jvxcvnv10f30981": {
     "store": "マルハン",
     "x_url": "https://x.com/jvxcvnv10f30981",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "opyzconyrh883pt": {
     "store": "たっちゅん宝鐘の一味・vivid",
     "x_url": "https://x.com/opyzconyrh883pt",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "ponpon_8787": {
     "store": "ぽん",
     "x_url": "https://x.com/ponpon_8787",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhanshinkou": {
     "store": "マルハン仙台新港店",
     "x_url": "https://x.com/maruhanshinkou",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "jaran_mizumoto": {
     "store": "ジャラン水元店",
     "x_url": "https://x.com/jaran_mizumoto",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "iwacon_0601": {
     "store": "コンサートホール岩槻店",
     "x_url": "https://x.com/iwacon_0601",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "gaia_kawasakis": {
     "store": "ガイア川崎スロット専門店",
     "x_url": "https://x.com/gaia_kawasakis",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kashii": {
     "store": "ワンダーランド香椎本館",
     "x_url": "https://x.com/wl_kashii",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_fkhigashi": {
     "store": "ワンダーランド1188福岡東店",
     "x_url": "https://x.com/wl_fkhigashi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kouhoku": {
     "store": "ワンダーランド江北店",
     "x_url": "https://x.com/wl_kouhoku",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_mizuma": {
     "store": "ワンダーランド三潴店",
     "x_url": "https://x.com/wl_mizuma",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan7n_n": {
     "store": "マルハン裾野北店",
     "x_url": "https://x.com/maruhan7n_n",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradise_kizu": {
     "store": "パラダイス木津駅前店",
     "x_url": "https://x.com/paradise_kizu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kashii2": {
     "store": "ワンダーランド香椎Ⅱ",
     "x_url": "https://x.com/wl_kashii2",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kashima": {
     "store": "ワンダーランド鹿島店",
     "x_url": "https://x.com/wl_kashima",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_nakatsu": {
     "store": "ワンダーランド中津米山店",
     "x_url": "https://x.com/wl_nakatsu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kzone888888": {
     "store": "K’ZONE",
     "x_url": "https://x.com/kzone888888",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mn_okinohama": {
     "store": "ミリオン沖浜店",
     "x_url": "https://x.com/mn_okinohama",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mn_naruto_ps": {
     "store": "ミリオン鳴門店",
     "x_url": "https://x.com/mn_naruto_ps",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "pandora_idog": {
     "store": "ビッグパンドラ井土ヶ谷店新館",
     "x_url": "https://x.com/pandora_idog",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_ukihab": {
     "store": "ワンダーランド　うきはバイパス店",
     "x_url": "https://x.com/wl_ukihab",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mgr_aratajima": {
     "store": "マルハン荒田島店",
     "x_url": "https://x.com/mgr_aratajima",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mn_kanonji": {
     "store": "ミリオン観音寺店",
     "x_url": "https://x.com/mn_kanonji",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_itami_": {
     "store": "キコーナ伊丹店",
     "x_url": "https://x.com/kicona_itami_",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "world_mosalion": {
     "store": "ワールド3",
     "x_url": "https://x.com/world_mosalion",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mikutoyo3939": {
     "store": "ミクちゃんアリーナ豊岡店",
     "x_url": "https://x.com/mikutoyo3939",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "usausa3939usa": {
     "store": "ユーコーラッキー宇佐店",
     "x_url": "https://x.com/usausa3939usa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "daitoyo_higashi": {
     "store": "DAITOYO　Prime",
     "x_url": "https://x.com/daitoyo_higashi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "taishoutx": {
     "store": "テキサス大正",
     "x_url": "https://x.com/taishoutx",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "palazzo_mikuni": {
     "store": "パラッツォ大阪三国店",
     "x_url": "https://x.com/palazzo_mikuni",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mn_shimada": {
     "store": "ミリオン島田店",
     "x_url": "https://x.com/mn_shimada",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "2525_hirakata": {
     "store": "ニコニコ枚方店",
     "x_url": "https://x.com/2525_hirakata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "ams_ekimae": {
     "store": "アムズガーデン仙台駅前店",
     "x_url": "https://x.com/ams_ekimae",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "lakata_kyan": {
     "store": "ラ・カータ狭山本店",
     "x_url": "https://x.com/lakata_kyan",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "shogunmorioka": {
     "store": "将軍盛岡店",
     "x_url": "https://x.com/shogunmorioka",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mn_kawauchi": {
     "store": "ミリオン川内店",
     "x_url": "https://x.com/mn_kawauchi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mn_syowa": {
     "store": "ミリオン昭和店",
     "x_url": "https://x.com/mn_syowa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "king666_toka": {
     "store": "キング666東海店",
     "x_url": "https://x.com/king666_toka",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "marumaru_saku": {
     "store": "マルハン佐久店",
     "x_url": "https://x.com/marumaru_saku",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_hikarinomori": {
     "store": "ワンダーランド光の森店",
     "x_url": "https://x.com/wl_hikarinomori",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_yanagawa": {
     "store": "ワンダーランド柳川",
     "x_url": "https://x.com/wl_yanagawa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_hyakunenbashi": {
     "store": "ワンダーランド百年橋店",
     "x_url": "https://x.com/wl_hyakunenbashi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_nishijin": {
     "store": "ワンダーランド西新",
     "x_url": "https://x.com/wl_nishijin",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_sue": {
     "store": "ワンダーランド須恵店",
     "x_url": "https://x.com/wl_sue",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "g_gosyoslot": {
     "store": "ガイア五所川原スロット館",
     "x_url": "https://x.com/g_gosyoslot",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "apiamaruhan": {
     "store": "マルハン草薙アピア店",
     "x_url": "https://x.com/apiamaruhan",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_taniyama": {
     "store": "ワンダーランド1177谷山店",
     "x_url": "https://x.com/wl_taniyama",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kshinei": {
     "store": "ワンダーランド1188鹿児島新栄店",
     "x_url": "https://x.com/wl_kshinei",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "keizueno": {
     "store": "KEIZアピタ伊賀上野店",
     "x_url": "https://x.com/keizueno",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhanyonkita": {
     "store": "マルハン四日市北店",
     "x_url": "https://x.com/maruhanyonkita",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "aflagkuwana": {
     "store": "A-FLAG桑名店",
     "x_url": "https://x.com/aflagkuwana",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "aflagtsu": {
     "store": "A-FLAG津店",
     "x_url": "https://x.com/aflagtsu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "katsuraomega": {
     "store": "オメガ千代原口2番館",
     "x_url": "https://x.com/katsuraomega",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "golden_star777": {
     "store": "城陽ゴールデンスター",
     "x_url": "https://x.com/golden_star777",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "s_kicona__itami": {
     "store": "パチンコキコーナ伊丹店",
     "x_url": "https://x.com/s_kicona__itami",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_kakogawa": {
     "store": "キコーナ加古川店",
     "x_url": "https://x.com/kicona_kakogawa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "gaiaarena1226": {
     "store": "ミクちゃんガイアアリーナ店",
     "x_url": "https://x.com/gaiaarena1226",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_himeji": {
     "store": "キコーナ姫路店",
     "x_url": "https://x.com/kicona_himeji",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_mukogawa": {
     "store": "キコーナ武庫川店",
     "x_url": "https://x.com/kicona_mukogawa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_ktadain": {
     "store": "キコーナタウン川西多田院店",
     "x_url": "https://x.com/kicona_ktadain",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kiconakusiro": {
     "store": "キコーナ川西久代店",
     "x_url": "https://x.com/kiconakusiro",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_ogi": {
     "store": "キコーナ青木店",
     "x_url": "https://x.com/kicona_ogi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_hannishi": {
     "store": "キコーナ阪神西宮店",
     "x_url": "https://x.com/kicona_hannishi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "hakodatepon": {
     "store": "函館ひまわり",
     "x_url": "https://x.com/hakodatepon",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "habin_iwamizawa": {
     "store": "パーラーハビン岩見沢店",
     "x_url": "https://x.com/habin_iwamizawa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhantukisamu": {
     "store": "マルハン月寒店",
     "x_url": "https://x.com/maruhantukisamu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "towarsyachiyo": {
     "store": "トワーズ八千代店",
     "x_url": "https://x.com/towarsyachiyo",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "510eru_ekimae": {
     "store": "ピーアーク千葉駅前",
     "x_url": "https://x.com/510eru_ekimae",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "yasuda_inage": {
     "store": "やすだ稲毛駅前店",
     "x_url": "https://x.com/yasuda_inage",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "hinomaru_tatumi": {
     "store": "ヒノマル辰巳店",
     "x_url": "https://x.com/hinomaru_tatumi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhanichihara": {
     "store": "マルハンメガシティ市原",
     "x_url": "https://x.com/maruhanichihara",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "vzone_kashiwa": {
     "store": "VZONE柏店",
     "x_url": "https://x.com/vzone_kashiwa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mobaratowars": {
     "store": "トワーズ茂原店",
     "x_url": "https://x.com/mobaratowars",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "gardenomiyakita": {
     "store": "ガーデン大宮北",
     "x_url": "https://x.com/gardenomiyakita",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "tokorozawatw": {
     "store": "トワーズ所沢店",
     "x_url": "https://x.com/tokorozawatw",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "tw_niiza": {
     "store": "トワーズ新座店",
     "x_url": "https://x.com/tw_niiza",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "matsumomo916": {
     "store": "メガボックス東松山店",
     "x_url": "https://x.com/matsumomo916",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "sayama_towars": {
     "store": "トワーズ狭山店",
     "x_url": "https://x.com/sayama_towars",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "newgold_yao": {
     "store": "ニューゴールド",
     "x_url": "https://x.com/newgold_yao",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "m_izumi_yone": {
     "store": "マルハン和泉店",
     "x_url": "https://x.com/m_izumi_yone",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mharayamadai": {
     "store": "マルハン原山台店",
     "x_url": "https://x.com/mharayamadai",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "plus71219990": {
     "store": "ラクエンプラス",
     "x_url": "https://x.com/plus71219990",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "2525_suminodo": {
     "store": "ニコニコ住道店",
     "x_url": "https://x.com/2525_suminodo",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhandaitoh": {
     "store": "マルハン大東店",
     "x_url": "https://x.com/maruhandaitoh",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "slot_theater": {
     "store": "スロットシアター四海樓",
     "x_url": "https://x.com/slot_theater",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_shinkan": {
     "store": "マルハンなんば新館",
     "x_url": "https://x.com/maruhan_shinkan",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_namba": {
     "store": "マルハンなんば本館",
     "x_url": "https://x.com/maruhan_namba",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "shikairowhonten": {
     "store": "四海樓本店",
     "x_url": "https://x.com/shikairowhonten",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mh_kitakagaya": {
     "store": "マルハン北加賀屋店",
     "x_url": "https://x.com/mh_kitakagaya",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "shikairow_at": {
     "store": "四海樓アタリヤ",
     "x_url": "https://x.com/shikairow_at",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "zettachayamachi": {
     "store": "ZETTA茶屋町店",
     "x_url": "https://x.com/zettachayamachi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "imafukumaruhan": {
     "store": "マルハン今福店",
     "x_url": "https://x.com/imafukumaruhan",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "bellaterada20": {
     "store": "ベラジオ寺田町店",
     "x_url": "https://x.com/bellaterada20",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "tennoji_hall": {
     "store": "天王寺ホール本館",
     "x_url": "https://x.com/tennoji_hall",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_kire": {
     "store": "キコーナ喜連瓜破店",
     "x_url": "https://x.com/kicona_kire",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "ki_sembayashi": {
     "store": "キコーナ千林店",
     "x_url": "https://x.com/ki_sembayashi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "juso_pearl": {
     "store": "パールサーティーン",
     "x_url": "https://x.com/juso_pearl",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "gene_kyobashi": {
     "store": "京橋会館＆GENESIS",
     "x_url": "https://x.com/gene_kyobashi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mbt_1227": {
     "store": "マジックバード鶴見",
     "x_url": "https://x.com/mbt_1227",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "daiana_ootoshi": {
     "store": "ダイアナ寝屋川大利店",
     "x_url": "https://x.com/daiana_ootoshi",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "2525_neyagawa_p": {
     "store": "ニコニコ寝屋川店パチンコ館",
     "x_url": "https://x.com/2525_neyagawa_p",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "bellaneya0810": {
     "store": "ベラジオ寝屋川店",
     "x_url": "https://x.com/bellaneya0810",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_settsu": {
     "store": "マルハン摂津店",
     "x_url": "https://x.com/maruhan_settsu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kicona_huse": {
     "store": "キコーナ布施店",
     "x_url": "https://x.com/kicona_huse",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhanfuse": {
     "store": "マルハン布施店",
     "x_url": "https://x.com/maruhanfuse",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_sennnan": {
     "store": "マルハン泉南店",
     "x_url": "https://x.com/maruhan_sennnan",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mr_pachinko1189": {
     "store": "ミスターパチンコ泉大津店",
     "x_url": "https://x.com/mr_pachinko1189",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "vegas_senri": {
     "store": "ベガスベガス千里店",
     "x_url": "https://x.com/vegas_senri",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_ibaraki": {
     "store": "マルハン茨木店",
     "x_url": "https://x.com/maruhan_ibaraki",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhantakatsuk": {
     "store": "マルハン高槻店",
     "x_url": "https://x.com/maruhantakatsuk",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_inter": {
     "store": "パラディソ仙台東インター店",
     "x_url": "https://x.com/paradiso_inter",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradisoiwakiri": {
     "store": "パラディソ岩切店",
     "x_url": "https://x.com/paradisoiwakiri",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_okino": {
     "store": "パラディソ沖野店",
     "x_url": "https://x.com/paradiso_okino",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_hutuka": {
     "store": "パラディソ二日町店",
     "x_url": "https://x.com/paradiso_hutuka",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_nato": {
     "store": "スロットインパラディソ名取",
     "x_url": "https://x.com/paradiso_nato",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_rinku": {
     "store": "パラディソ名取りんくう店",
     "x_url": "https://x.com/paradiso_rinku",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_sibata": {
     "store": "パラディソ柴田店",
     "x_url": "https://x.com/paradiso_sibata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_motoku": {
     "store": "パラディソ石巻元倉店",
     "x_url": "https://x.com/paradiso_motoku",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_wakuya": {
     "store": "パラディソ涌谷店",
     "x_url": "https://x.com/paradiso_wakuya",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "paradiso_taiwad": {
     "store": "パラディソ大和ドルフィン館",
     "x_url": "https://x.com/paradiso_taiwad",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "divo_x_central": {
     "store": "セントラルディーボ山越店",
     "x_url": "https://x.com/divo_x_central",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "king_shinsakae": {
     "store": "キング観光サウザンド栄東新町店",
     "x_url": "https://x.com/king_shinsakae",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mikado_ozone": {
     "store": "ミカド観光大曽根店",
     "x_url": "https://x.com/mikado_ozone",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "2hirokouji": {
     "store": "キング観光サウザンド今池2号店",
     "x_url": "https://x.com/2hirokouji",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kyorakuueda": {
     "store": "サンシャインKYORAKU植田",
     "x_url": "https://x.com/kyorakuueda",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "keiz_odaka": {
     "store": "KEIZ大高店",
     "x_url": "https://x.com/keiz_odaka",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "cosmo_obu": {
     "store": "コスモジャパン大府店",
     "x_url": "https://x.com/cosmo_obu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "yout_kachigawa": {
     "store": "yout勝川店",
     "x_url": "https://x.com/yout_kachigawa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "taiki_inazawa2": {
     "store": "タイキ稲沢駅前店",
     "x_url": "https://x.com/taiki_inazawa2",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "midgirls_naoki": {
     "store": "ミッド・ガーデン堀之内店",
     "x_url": "https://x.com/midgirls_naoki",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "delze_bigsite": {
     "store": "デルゼビッグサイト新潟竹尾店",
     "x_url": "https://x.com/delze_bigsite",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "damzshibata": {
     "store": "DAMZ新発田店",
     "x_url": "https://x.com/damzshibata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_shibata": {
     "store": "マルハン新発田店",
     "x_url": "https://x.com/maruhan_shibata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "chyoshida0722": {
     "store": "コンサートホール吉田店",
     "x_url": "https://x.com/chyoshida0722",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "zap_777_bnb": {
     "store": "スロットZAP長岡インター店",
     "x_url": "https://x.com/zap_777_bnb",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "3too9_kamata_39": {
     "store": "キコーナ蒲田店",
     "x_url": "https://x.com/3too9_kamata_39",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "opus1annex": {
     "store": "オーパス・ワンアネックス立石店",
     "x_url": "https://x.com/opus1annex",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "yasuda_ike7": {
     "store": "YASUDA9（東池袋9号店）",
     "x_url": "https://x.com/yasuda_ike7",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "sunflower00320": {
     "store": "サンフラワー千ヶ瀬店",
     "x_url": "https://x.com/sunflower00320",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "odawara_m": {
     "store": "マルハン小田原店",
     "x_url": "https://x.com/odawara_m",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "mikayuka1908": {
     "store": "マルハン川崎桜本店",
     "x_url": "https://x.com/mikayuka1908",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "m_sakai1022": {
     "store": "マルハン平塚店",
     "x_url": "https://x.com/m_sakai1022",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "singardentotuka": {
     "store": "新！ガーデン戸塚",
     "x_url": "https://x.com/singardentotuka",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "miharu_aviva": {
     "store": "アビバ三春町店",
     "x_url": "https://x.com/miharu_aviva",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "gn_ebina": {
     "store": "ガイアネクスト海老名駅前店",
     "x_url": "https://x.com/gn_ebina",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "yasuda_sagami": {
     "store": "やすだ相模原店",
     "x_url": "https://x.com/yasuda_sagami",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "zapofuna": {
     "store": "ZAP大船店",
     "x_url": "https://x.com/zapofuna",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhankanda772": {
     "store": "マルハン苅田店",
     "x_url": "https://x.com/maruhankanda772",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "ucchyx409": {
     "store": "玉屋409雑餉隈",
     "x_url": "https://x.com/ucchyx409",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "hakozakimaruhan": {
     "store": "マルハン箱崎店",
     "x_url": "https://x.com/hakozakimaruhan",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00070": {
     "store": "ダイナム小名浜店",
     "x_url": "https://x.com/dynam_00070",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00123": {
     "store": "ダイナム二本松店",
     "x_url": "https://x.com/dynam_00123",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00084": {
     "store": "ダイナム原町店",
     "x_url": "https://x.com/dynam_00084",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "gardentoride": {
     "store": "ガーデン取手",
     "x_url": "https://x.com/gardentoride",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "pssapollo": {
     "store": "パワースロットステージアポロ神立店",
     "x_url": "https://x.com/pssapollo",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00438": {
     "store": "ダイナム茨城江戸崎店",
     "x_url": "https://x.com/dynam_00438",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "reitochan6417": {
     "store": "レイトスロットステージ筑西",
     "x_url": "https://x.com/reitochan6417",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "keizmatsumoto": {
     "store": "KEIZ松本店",
     "x_url": "https://x.com/keizmatsumoto",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "shimoasaenjoy": {
     "store": "ニューアサヒ下諏訪店",
     "x_url": "https://x.com/shimoasaenjoy",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "apulo_0810": {
     "store": "APULO篠ノ井店",
     "x_url": "https://x.com/apulo_0810",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "sdchuou": {
     "store": "スーパードーム中央店",
     "x_url": "https://x.com/sdchuou",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "concorde_dandy": {
     "store": "GOLDCONCORDE富士",
     "x_url": "https://x.com/concorde_dandy",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_yoshida": {
     "store": "マルハン吉田店",
     "x_url": "https://x.com/maruhan_yoshida",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "concordesouemon": {
     "store": "コンコルド焼津惣右衛門店",
     "x_url": "https://x.com/concordesouemon",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_yaizu": {
     "store": "マルハン焼津店",
     "x_url": "https://x.com/maruhan_yaizu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "concordekiku": {
     "store": "コンコルド菊川店",
     "x_url": "https://x.com/concordekiku",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "maruhan_mrmt": {
     "store": "マルハン村松店",
     "x_url": "https://x.com/maruhan_mrmt",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "hibari_kimotuki": {
     "store": "ひばり肝付店",
     "x_url": "https://x.com/hibari_kimotuki",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "hibaringo777": {
     "store": "ひばり宮之城店",
     "x_url": "https://x.com/hibaringo777",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "kamataseven": {
     "store": "マルハンメガシティ2000 蒲田7",
     "x_url": "https://x.com/kamataseven",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "hirokimaxkamata": {
     "store": "ヒロキMAX蒲田店",
     "x_url": "https://x.com/hirokimaxkamata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00100": {
     "store": "ダイナム相模原店",
     "x_url": "https://x.com/dynam_00100",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00001": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00001",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00002": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00002",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00003": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00003",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00004": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00004",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00005": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00005",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00006": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00006",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00007": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00007",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00008": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00008",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00009": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00009",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00010": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00010",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00011": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00011",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00012": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00012",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00013": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00013",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00014": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00014",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00015": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00015",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00016": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00016",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00017": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00017",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00019": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00019",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00020": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00020",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00021": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00021",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00022": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00022",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00023": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00023",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00024": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00024",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00025": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00025",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00026": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00026",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00027": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00027",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00028": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00028",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00029": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00029",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00030": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00030",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00031": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00031",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00032": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00032",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00033": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00033",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00034": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00034",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00036": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00036",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00037": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00037",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00038": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00038",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00039": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00039",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00040": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00040",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00042": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00042",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00044": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00044",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00045": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00045",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00046": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00046",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00047": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00047",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00048": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00048",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00049": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00049",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00050": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00050",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00051": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00051",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00052": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00052",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00053": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00053",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00054": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00054",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00055": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00055",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00056": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00056",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00057": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00057",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00058": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00058",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00059": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00059",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00060": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00060",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00061": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00061",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00062": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00062",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00063": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00063",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00064": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00064",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00065": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00065",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00066": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00066",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00067": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00067",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00068": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00068",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00069": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00069",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00071": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00071",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00072": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00072",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00073": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00073",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00074": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00074",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00075": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00075",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00076": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00076",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00077": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00077",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00078": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00078",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00079": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00079",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00080": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00080",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00081": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00081",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00082": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00082",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00083": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00083",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00085": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00085",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00086": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00086",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00087": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00087",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00088": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00088",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00089": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00089",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00090": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00090",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00091": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00091",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00092": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00092",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00093": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00093",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00095": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00095",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00096": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00096",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00097": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00097",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00098": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00098",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00099": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00099",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00101": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00101",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00102": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00102",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00103": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00103",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00104": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00104",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00105": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00105",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00106": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00106",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00107": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00107",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00108": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00108",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00110": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00110",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00111": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00111",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00112": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00112",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00113": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00113",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00114": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00114",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00115": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00115",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00116": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00116",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00117": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00117",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00118": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00118",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00119": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00119",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00120": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00120",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00121": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00121",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00122": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00122",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00124": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00124",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00126": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00126",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00127": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00127",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00128": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00128",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00129": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00129",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00131": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00131",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00132": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00132",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00134": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00134",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00136": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00136",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00137": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00137",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00138": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00138",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00139": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00139",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00140": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00140",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00141": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00141",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00142": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00142",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00143": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00143",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00144": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00144",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00145": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00145",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00146": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00146",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00147": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00147",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00148": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00148",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00149": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00149",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00150": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00150",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00151": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00151",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00152": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00152",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00153": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00153",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00155": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00155",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00156": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00156",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00157": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00157",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00158": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00158",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00159": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00159",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00160": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00160",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00161": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00161",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00162": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00162",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00163": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00163",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00164": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00164",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00165": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00165",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00166": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00166",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00168": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00168",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00169": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00169",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00170": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00170",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00171": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00171",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00172": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00172",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00173": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00173",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00174": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00174",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00175": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00175",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00177": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00177",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00178": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00178",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00179": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00179",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00180": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00180",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00181": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00181",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00182": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00182",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00183": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00183",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00184": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00184",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00185": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00185",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00186": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00186",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00187": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00187",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00188": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00188",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00189": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00189",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00190": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00190",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00191": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00191",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00192": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00192",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00193": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00193",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00194": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00194",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00195": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00195",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00196": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00196",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00197": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00197",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00200": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00200",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00201": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00201",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00202": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00202",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00203": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00203",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00204": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00204",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00205": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00205",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00206": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00206",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00207": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00207",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00208": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00208",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00209": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00209",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00210": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00210",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00211": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00211",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00212": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00212",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00213": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00213",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00214": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00214",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00215": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00215",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00216": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00216",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00217": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00217",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00218": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00218",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00219": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00219",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00220": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00220",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00221": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00221",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00222": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00222",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00223": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00223",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00224": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00224",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00225": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00225",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00226": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00226",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00227": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00227",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00228": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00228",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00229": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00229",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00231": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00231",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00232": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00232",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00233": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00233",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00234": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00234",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00235": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00235",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00236": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00236",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00237": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00237",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00238": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00238",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00239": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00239",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00240": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00240",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00241": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00241",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00242": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00242",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00243": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00243",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00244": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00244",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00245": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00245",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00246": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00246",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00247": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00247",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00248": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00248",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00249": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00249",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00250": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00250",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00251": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00251",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00252": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00252",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00253": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00253",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00254": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00254",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00255": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00255",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00256": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00256",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00257": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00257",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00258": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00258",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00259": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00259",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00260": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00260",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00261": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00261",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00262": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00262",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00263": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00263",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00264": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00264",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00265": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00265",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00266": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00266",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00267": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00267",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00269": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00269",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00270": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00270",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00271": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00271",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00272": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00272",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00273": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00273",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00274": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00274",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00275": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00275",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00276": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00276",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00277": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00277",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00278": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00278",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00279": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00279",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00280": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00280",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00281": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00281",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00282": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00282",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00283": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00283",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00285": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00285",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00286": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00286",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00287": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00287",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00288": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00288",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00289": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00289",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00290": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00290",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00291": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00291",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00292": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00292",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00293": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00293",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00294": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00294",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00295": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00295",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00296": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00296",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00297": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00297",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00298": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00298",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00299": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00299",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00300": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00300",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00301": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00301",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00302": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00302",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00303": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00303",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00304": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00304",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00305": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00305",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00306": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00306",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00308": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00308",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00309": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00309",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00310": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00310",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00311": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00311",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00312": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00312",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00313": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00313",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00314": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00314",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00315": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00315",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00316": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00316",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00317": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00317",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00318": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00318",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00319": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00319",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00320": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00320",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00321": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00321",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00322": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00322",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00323": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00323",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00324": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00324",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00325": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00325",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00326": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00326",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00327": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00327",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00328": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00328",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00329": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00329",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00330": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00330",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00331": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00331",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00332": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00332",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00333": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00333",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00334": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00334",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00335": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00335",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00336": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00336",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00337": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00337",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00338": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00338",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00339": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00339",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00340": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00340",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00341": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00341",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00342": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00342",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00343": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00343",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00344": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00344",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00345": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00345",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00346": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00346",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00347": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00347",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00348": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00348",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00349": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00349",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00350": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00350",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00352": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00352",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00353": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00353",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00354": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00354",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00355": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00355",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00356": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00356",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00357": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00357",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00358": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00358",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00359": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00359",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00360": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00360",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00362": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00362",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00363": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00363",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00364": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00364",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00365": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00365",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00366": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00366",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00367": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00367",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00368": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00368",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00369": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00369",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00370": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00370",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00371": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00371",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00372": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00372",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00373": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00373",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00374": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00374",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00375": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00375",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00376": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00376",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00377": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00377",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00378": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00378",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00379": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00379",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00381": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00381",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00382": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00382",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00383": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00383",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00384": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00384",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00385": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00385",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00386": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00386",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00387": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00387",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00388": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00388",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00389": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00389",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00390": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00390",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00391": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00391",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00392": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00392",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00393": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00393",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00394": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00394",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00395": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00395",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00396": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00396",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00400": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00400",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00401": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00401",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00402": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00402",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00403": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00403",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00404": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00404",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00405": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00405",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00406": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00406",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00407": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00407",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00408": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00408",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00409": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00409",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00410": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00410",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00411": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00411",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00412": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00412",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00413": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00413",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00414": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00414",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00415": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00415",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00416": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00416",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00417": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00417",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00418": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00418",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00419": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00419",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00420": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00420",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00421": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00421",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00422": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00422",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00423": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00423",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00425": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00425",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00426": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00426",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00427": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00427",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00428": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00428",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00429": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00429",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00430": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00430",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00431": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00431",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00433": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00433",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00434": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00434",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00435": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00435",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00436": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00436",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00437": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00437",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00441": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00441",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00442": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00442",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00443": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00443",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00444": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00444",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00445": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00445",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00446": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00446",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00447": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00447",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00448": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00448",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00449": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00449",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00450": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00450",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00451": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00451",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00452": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00452",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00453": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00453",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00454": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00454",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00455": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00455",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00456": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00456",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00457": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00457",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00458": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00458",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00459": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00459",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00460": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00460",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00461": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00461",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00462": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00462",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00463": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00463",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00464": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00464",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00465": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00465",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00466": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00466",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00467": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00467",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00468": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00468",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00469": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00469",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00470": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00470",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00471": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00471",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00472": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00472",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00473": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00473",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00474": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00474",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00475": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00475",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00476": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00476",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00477": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00477",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00478": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00478",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00479": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00479",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00480": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00480",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00481": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00481",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00482": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00482",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00483": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00483",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00484": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00484",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00485": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00485",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00486": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00486",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00487": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00487",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00488": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00488",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00489": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00489",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00490": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00490",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00491": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00491",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00492": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00492",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00493": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00493",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00494": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00494",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00495": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00495",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00496": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00496",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00497": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00497",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00498": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00498",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00499": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00499",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "dynam_00500": {
     "store": "ダイナム",
     "x_url": "https://x.com/dynam_00500",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_hakata": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_hakata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_tenjin": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_tenjin",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kokurakita": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_kokurakita",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_yahata": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_yahata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_tobata": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_tobata",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_wakamatsu": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_wakamatsu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_moji": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_moji",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_tagawa": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_tagawa",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_iizuka": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_iizuka",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_omuta": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_omuta",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kurume": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_kurume",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_saga": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_saga",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_nagasaki": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_nagasaki",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kumamoto": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_kumamoto",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_oita": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_oita",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_miyazaki": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_miyazaki",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kagoshima": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_kagoshima",
-    "count": 0
+    "count": 0,
+    "type": "store"
   },
   "wl_kitakyushu": {
     "store": "ワンダーランド",
     "x_url": "https://x.com/wl_kitakyushu",
-    "count": 0
+    "count": 0,
+    "type": "store"
   }
 }
