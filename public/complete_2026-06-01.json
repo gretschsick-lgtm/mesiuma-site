@@ -1,26 +1,100 @@
 [
   {
-    "id": "d06cee340c87",
+    "id": "3edf82d4fd43",
     "date": "2026-06-01",
-    "time": "15:56",
-    "store": "松阪南店",
-    "machine": "にて",
+    "time": "20:57",
+    "store": "MJアリーナ井尻店",
+    "machine": "スマスロ北斗の拳転生の章2",
     "machine_type": "slot",
-    "slot_number": "501",
-    "text": "みなさんこんにちはウイング松阪南店です。  先程キン肉マン501番台にてコンプリートが発生しました！！  月初めからコンプリートを達成されたお客様本当におめでとう御座います  まだまだお時間が有りますので皆様のご来店お待ちしております( ◠‿◠ )  #コンプリート #ウイング #ウイング松阪南",
-    "x_url": "https://x.com/wing_matsumina/status/2061341038774723007",
-    "collected_at": "2026-06-02T12:10:55Z",
+    "slot_number": "729",
+    "text": "本日6月1日(月) Wコンプリート達成 729番台 Lスマスロ北斗の拳 転生の章2   659番台 L革命機ヴァルヴレイヴ2 おめでとうございます",
+    "x_url": "https://x.com/mjijiri/status/2061416889159655499",
+    "store_handle": "mjijiri",
+    "store_x_url": "https://x.com/mjijiri",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T13:42:54Z",
     "images": [
-      "https://pbs.twimg.com/media/HJtavzvbMAAiCeX?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HJud7CvakAALES7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJufrroa8AAGdOn?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJtavzvbMAAiCeX?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJud7CvakAALES7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "9f1517664d"
+  },
+  {
+    "id": "a1c19f7a8b0e",
+    "date": "2026-06-01",
+    "time": "17:45",
+    "store": "楽園蒲田店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "2001",
+    "text": "先程 2001番台　いざ番長  がコンプリートとなりました。 遊技台は停止させて頂いております。  この後のお時間も 楽園蒲田店でお楽しみください。",
+    "x_url": "https://x.com/rakuen_kamata/status/2061368574124621837",
+    "store_handle": "rakuen_kamata",
+    "store_x_url": "https://x.com/rakuen_kamata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T13:57:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJtzctNbwAAI8L4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJtztPhaoAAe0yn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJtzctNbwAAI8L4?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "bdd2e55ff9"
+  },
+  {
+    "id": "caa33bcf066a",
+    "date": "2026-06-01",
+    "time": "17:10",
+    "store": "メガフェイス1450本山",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1288",
+    "text": "コンプリート速報  6月に入ってすぐに出ました！！  1288番台 Lパチスロ 革命機ヴァルヴレイヴ２  #コンプリート　達成 　　　おめでとうございます  16時台での快挙に驚きが隠せません  #メガフェイス1450本山 #コンプリート #スマスロヴァルヴレイヴ２",
+    "x_url": "https://x.com/megaface_1450/status/2061359594559914157",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T13:42:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJtgnZsaEAA5gsY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJtgnZsaEAA5gsY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "44b996496f"
+  },
+  {
+    "id": "e9120b7c580f",
+    "date": "2026-06-01",
+    "time": "16:53",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "582",
+    "text": "コンプリート機能発動 先ほど、 582番台   スマスロ革命機ヴァルヴレイヴ2 にて  コンプリート機能発動！！   明日開放予定になります。  この後も    #キャッスル春日井 へ  ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2061355398792425954",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T13:45:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJtnwhja0AALyGP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJtnwhja0AALyGP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
   },
   {
     "id": "052b6433f74c",
     "date": "2026-06-01",
     "time": "15:45",
     "store": "マルハンメガシティ三島駿東",
-    "machine": "ｅ東京喰種Ｗ",
+    "machine": "e東京喰種W",
     "machine_type": "pachinko",
     "slot_number": "333",
     "text": "みなさまこんにちは マルハンメガシティ三島駿東です  コンプリート情報 ｅ東京喰種Ｗ 333番台  コンプリートされたお客様 おめでとうございます",
@@ -29,14 +103,19 @@
     "images": [
       "https://pbs.twimg.com/media/HJtVO8paIAAiEuH?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJtVO8paIAAiEuH?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJtVO8paIAAiEuH?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "source_account_type": "store_official",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "92a6af2c58d0",
     "date": "2026-06-01",
     "time": "15:30",
     "store": "マルハン亀有店_亀にゃん",
-    "machine": "Ｌ革命機ヴァルヴレイヴ２ｊＦ",
+    "machine": "L革命機ヴァルヴレイヴ2",
     "machine_type": "slot",
     "slot_number": "882",
     "text": "Ｌ革命機ヴァルヴレイヴ２ｊＦ 882番台 コンプリート   おめでとうございます！",
@@ -45,7 +124,35 @@
     "images": [
       "https://pbs.twimg.com/media/HJtOyRvbMAAgVpG?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJtOyRvbMAAgVpG?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJtOyRvbMAAgVpG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "maruhan_kameari",
+    "store_x_url": "https://x.com/maruhan_kameari",
+    "source_account_type": "store_official",
+    "store_id": "abcf4e1c2c"
+  },
+  {
+    "id": "0c3bfc2cf267",
+    "date": "2026-06-01",
+    "time": "11:04",
+    "store": "天国朝生田店1020",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "107",
+    "text": "コンプリート情報  6月1日(月)  【107番台】東京喰種  コンプ達成 おめでとうございます  6月は良いスタート 東京喰種のオススメは始ったばかりです ぜひ、今週も朝天にご来店ください",
+    "x_url": "https://x.com/tengoku_asoda/status/2061629925355135005",
+    "store_handle": "tengoku_asoda",
+    "store_x_url": "https://x.com/tengoku_asoda",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T13:44:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJxhcYlacAAjAf7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJsX5Wpa4AAaRh8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJxhcYlacAAjAf7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "534303d3b5"
   },
   {
     "id": "803c2f9009ab",
@@ -64,6 +171,10 @@
       "https://pbs.twimg.com/media/HJp_mLLacAEtUy3?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJp_ix6a0AA3NsC?format=jpg&name=large",
-    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65"
+    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65",
+    "store_handle": "sanki_mimasaka",
+    "store_x_url": "https://x.com/sanki_mimasaka",
+    "source_account_type": "store_official",
+    "store_id": "2da33fbb32"
   }
 ]
