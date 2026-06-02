@@ -739,6 +739,8 @@ AUTHOR_NG = ["コンプリート", "パチスロ", "スロット", "パチンコ
 
 # ── ハンドル → 正規店舗名マップ（main()で store_handles.json から読み込む）
 _HANDLE_TO_STORE: dict[str, str] = {}
+# ── ハンドル → 店舗info dict（type/x_url/store等 — store_handles.json の全フィールド）
+_HANDLE_TO_INFO: dict[str, dict] = {}
 
 
 def _clean_author_name(name: str) -> str:
@@ -867,6 +869,26 @@ def parse_tweet(text: str, tweet_url: str,
 
     entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 
+    # ── 投稿元アカウント種別 + 店舗 X リンクを解決 ──────────────────────────
+    # 優先順: store_official(公式) > store_manager(店長) > unknown
+    source_account_type = "unknown"
+    store_x_url_val     = ""
+    manager_x_url_val   = ""
+    store_handle_val    = ""
+    if handle_match:
+        _h = handle_match.group(1).lower()
+        store_handle_val = _h
+        _info = _HANDLE_TO_INFO.get(_h)
+        if _info:
+            _htype = _info.get("type", "store")
+            _hxurl = _info.get("x_url", f"https://x.com/{_h}")
+            if _htype == "manager":
+                source_account_type = "store_manager"
+                manager_x_url_val   = _hxurl
+            else:
+                source_account_type = "store_official"
+                store_x_url_val     = _hxurl
+
     return {
         "id": entry_id,
         "date": tweet_date,
@@ -877,6 +899,10 @@ def parse_tweet(text: str, tweet_url: str,
         "slot_number": slot_number,                  # 台番号
         "text": text[:250].replace("\n", " "),
         "x_url": tweet_url,
+        "store_handle":         store_handle_val,
+        "store_x_url":          store_x_url_val,
+        "manager_x_url":        manager_x_url_val,
+        "source_account_type":  source_account_type,
         "collected_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
@@ -1706,6 +1732,19 @@ def update_ranking():
         except Exception:
             pass
 
+    # store_handles.json も store_name→x_url マップとして使用（store_x_urls.json を補完）
+    STORE_HANDLES_JSON2 = Path(__file__).parent.parent / "public/store_handles.json"
+    if STORE_HANDLES_JSON2.exists():
+        try:
+            _sh2 = json.loads(STORE_HANDLES_JSON2.read_text(encoding="utf-8"))
+            for _h2, _info2 in _sh2.items():
+                if isinstance(_info2, dict) and _info2.get("store") and _info2.get("x_url"):
+                    _sname2 = _info2["store"]
+                    if _sname2 not in store_x_urls_map:
+                        store_x_urls_map[_sname2] = _info2["x_url"]
+        except Exception:
+            pass
+
     # ── 店舗名の表記ゆれ正規化マップ（ランキング集計用）
     STORE_NORMALIZE: list[tuple[str, str]] = [
         ("楽園ハッピーロード大山 店長石川＠アカウント", "楽園ハッピーロード大山店"),
@@ -1947,6 +1986,7 @@ def main():
             for h, info in store_handles_data.items():
                 if isinstance(info, dict) and info.get("store"):
                     _HANDLE_TO_STORE[h.lower()] = info["store"]
+                    _HANDLE_TO_INFO[h.lower()] = info
             log(f"📋 ハンドル→店舗名マップ {len(_HANDLE_TO_STORE)}件 登録")
             # count >= 1 の実績ある店舗アカウントを対象（上位100件まで）
             active_handles = [

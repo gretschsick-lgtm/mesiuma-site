@@ -12,7 +12,8 @@ type EventRow = {
   date: string | null;
   event_name: string | null;
   detail: string | null;
-  cast_names: string[] | null;
+  cast_names: string[] | null;  // 後方互換維持
+  performer_id: number | null;  // cast_members.id FK
   x_url: string | null;
   source_url: string | null;
   source: string | null;
@@ -54,7 +55,7 @@ export async function GET(
       .from("events")
       .select(
         "id, store_id, store_name, pref, area, date, event_name, detail, " +
-        "cast_names, x_url, source_url, source, highlight, created_at, updated_at"
+        "cast_names, performer_id, x_url, source_url, source, highlight, created_at, updated_at"
       )
       .eq("ng_flag", false)
       .order("date", { ascending: false })

@@ -16,6 +16,10 @@ type CompleteEntry = {
   image_url?: string;
   video_url?: string;
   x_url: string;
+  store_handle?: string;
+  store_x_url?: string;
+  manager_x_url?: string;
+  source_account_type?: "store_official" | "store_manager" | "media" | "performer" | "unknown";
   collected_at: string;
 };
 
@@ -152,12 +156,24 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
           </div>
         )}
 
-        {entry.store && (
-          <div style={{ fontSize: 12, color: C.sub, marginBottom: 7, display: "flex", alignItems: "center", gap: 3 }}>
-            <span style={{ flexShrink: 0 }}>📍</span>
-            <span style={{ fontWeight: 600 }}>{entry.store}</span>
-          </div>
-        )}
+        {entry.store && (() => {
+          // 優先: store_x_url > manager_x_url > x_url（投稿元ツイート）
+          const storeLink = entry.store_x_url || entry.manager_x_url || entry.x_url || null;
+          const storeIcon = entry.source_account_type === "store_manager" ? "🏪" : "📍";
+          return (
+            <div style={{ fontSize: 12, color: C.sub, marginBottom: 7, display: "flex", alignItems: "center", gap: 3 }}>
+              <span style={{ flexShrink: 0 }}>{storeIcon}</span>
+              {storeLink ? (
+                <a href={storeLink} target="_blank" rel="noopener noreferrer"
+                   style={{ fontWeight: 600, color: "#1d9bf0", textDecoration: "none" }}>
+                  {entry.store}
+                </a>
+              ) : (
+                <span style={{ fontWeight: 600 }}>{entry.store}</span>
+              )}
+            </div>
+          );
+        })()}
 
         {entry.text && (
           <div style={{

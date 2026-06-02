@@ -35,6 +35,12 @@
     "count": 6,
     "type": "store"
   },
+  "mega_mishima": {
+    "store": "マルハンメガシティ三島駿東",
+    "x_url": "https://x.com/mega_mishima",
+    "count": 6,
+    "type": "store"
+  },
   "kawagutiangyo": {
     "store": "新！ガーデン川口安行",
     "x_url": "https://x.com/kawagutiangyo",
@@ -74,12 +80,6 @@
   "face_850": {
     "store": "フェイス850佐賀",
     "x_url": "https://x.com/face_850",
-    "count": 5,
-    "type": "store"
-  },
-  "mega_mishima": {
-    "store": "マルハンメガシティ三島駿東",
-    "x_url": "https://x.com/mega_mishima",
     "count": 5,
     "type": "store"
   },
@@ -227,6 +227,12 @@
     "count": 3,
     "type": "store"
   },
+  "maruhan_kameari": {
+    "store": "マルハン亀有店_亀にゃん",
+    "x_url": "https://x.com/maruhan_kameari",
+    "count": 3,
+    "type": "store"
+  },
   "monky0621bm": {
     "store": "ビックマーチ河和田東店",
     "x_url": "https://x.com/monky0621bm",
@@ -290,12 +296,6 @@
   "rakuen_kamata": {
     "store": "楽園蒲田店",
     "x_url": "https://x.com/rakuen_kamata",
-    "count": 2,
-    "type": "store"
-  },
-  "maruhan_kameari": {
-    "store": "マルハン亀有店_亀にゃん",
-    "x_url": "https://x.com/maruhan_kameari",
     "count": 2,
     "type": "store"
   },

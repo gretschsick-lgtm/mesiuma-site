@@ -148,6 +148,46 @@ def main():
 
     after_count = len(kept)
 
+    # ── store_handles.json から store_x_url / source_account_type を付与 ────
+    store_handles_path = ROOT / "public" / "store_handles.json"
+    handle_to_info: dict[str, dict] = {}
+    if store_handles_path.exists():
+        try:
+            sh_data = json.loads(store_handles_path.read_text(encoding="utf-8"))
+            for h, info in sh_data.items():
+                if isinstance(info, dict):
+                    handle_to_info[h.lower()] = info
+        except Exception as _she2:
+            print(f"⚠️ store_handles.json 読み込みエラー: {_she2}")
+
+    store_x_enriched = 0
+    for e in kept:
+        x_url_e = e.get("x_url", "")
+        if not x_url_e:
+            continue
+        m_h = re.search(r'x\.com/([^/]+)/status', x_url_e)
+        if not m_h:
+            continue
+        handle_e = m_h.group(1).lower()
+        e["store_handle"] = e.get("store_handle") or handle_e
+        info_e = handle_to_info.get(handle_e)
+        if info_e:
+            htype_e = info_e.get("type", "store")
+            hxurl_e = info_e.get("x_url", f"https://x.com/{handle_e}")
+            if htype_e == "manager":
+                if not e.get("manager_x_url"):
+                    e["manager_x_url"] = hxurl_e
+                e["source_account_type"] = "store_manager"
+            else:
+                if not e.get("store_x_url"):
+                    e["store_x_url"] = hxurl_e
+                    store_x_enriched += 1
+                e["source_account_type"] = "store_official"
+        elif not e.get("source_account_type"):
+            e["source_account_type"] = "unknown"
+
+    print(f"🔗 store_x_url 付与: {store_x_enriched}件")
+
     # ── 保存 ────────────────────────────────────────────────────────────────
     COMPLETE_JSON.write_text(
         json.dumps(kept, ensure_ascii=False, indent=2),

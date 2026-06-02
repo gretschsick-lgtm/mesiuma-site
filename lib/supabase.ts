@@ -20,9 +20,50 @@ export type Store = {
   cast_count_30d: number;
   created_at: string;
   updated_at: string;
+  // Step7 拡張カラム（すべて NULL 許可・後方互換）
+  normalized_name: string | null;
+  is_active: boolean;
+  parent_store_id: string | null;
+  source_url: string | null;
+  address_history: Array<{ address: string; changed_at: string }>;
+};
+
+export type StoreMachineRow = {
+  id: string;
+  store_id: string;
+  machine_id: string;
+  rate: string | null;
+  count: number | null;
+  is_active: boolean;
+  detected_at: string;
+  updated_at: string;
+};
+
+export type UnknownStoreRow = {
+  id: string;
+  raw_name: string;
+  normalized_name: string | null;
+  source_site: string | null;
+  source_url: string | null;
+  detected_at: string;
+  count: number;
+  status: "pending" | "approved" | "rejected" | "ignored";
+};
+
+export type Agency = {
+  id: string;
+  name: string;
+  slug: string | null;
+  hp_url: string | null;
+  x_url: string | null;
+  description: string | null;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
 };
 
 export type CastMember = {
+  // 既存カラム
   id: number;
   name: string;
   slug: string | null;
@@ -32,6 +73,20 @@ export type CastMember = {
   ng_reason: string | null;
   created_at: string;
   updated_at: string;
+  // Step2 拡張カラム（すべて NULL 許可・後方互換）
+  agency_id: string | null;
+  display_name: string | null;
+  normalized_name: string | null;
+  birthday: string | null;
+  description: string | null;
+  profile_image_url: string | null;
+  instagram_url: string | null;
+  youtube_url: string | null;
+  area: string | null;
+  gender: "male" | "female" | "other" | "unknown" | null;
+  is_active: boolean | null;
+  source: "manual" | "auto" | "freelance" | null;
+  first_detected_at: string | null;
 };
 
 export type Event = {
@@ -43,7 +98,8 @@ export type Event = {
   date: string | null;
   event_name: string | null;
   detail: string | null;
-  cast_names: string[] | null;
+  cast_names: string[] | null;  // 後方互換維持・削除禁止
+  performer_id: number | null;  // cast_members.id FK（Step3追加）
   x_url: string | null;
   source_url: string | null;
   source: string | null;
@@ -61,6 +117,7 @@ export type CompleteReport = {
   store_name: string | null;
   store_id: string | null;
   machine: string | null;
+  machine_id: string | null;  // machines_master.id への FK（解決済みのみ設定）
   slot_number: string | null;
   x_url: string;
   // image_url はDB上に存在するが SELECT・表示しない
@@ -88,15 +145,180 @@ export type FetchState = {
   updated_at: string;
 };
 
+// 機種マスタ関連型（machines.ts の MachineMaster / MachineAlias / UnknownMachine と同構造）
+export type MachineMasterRow = {
+  id: string;
+  official_name: string;
+  manufacturer: string | null;
+  brand: string | null;
+  type: "slot" | "pachinko";
+  normalized_name: string;
+  release_date: string | null;
+  source_url: string | null;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
+};
+
+export type MachineAliasRow = {
+  id: string;
+  machine_id: string;
+  alias_name: string;
+  normalized_alias: string;
+  confidence: number;
+  created_at: string;
+};
+
+export type UnknownMachineRow = {
+  id: string;
+  raw_name: string;
+  normalized_raw_name: string | null;
+  source_site: string | null;
+  source_url: string | null;
+  detected_at: string;
+  count: number;
+  status: "pending" | "approved" | "rejected" | "ignored";
+};
+
+export type UnknownPerformerRow = {
+  id: string;
+  raw_name: string;
+  normalized_name: string | null;
+  source_site: string | null;
+  source_url: string | null;
+  detected_at: string;
+  count: number;
+  status: "pending" | "approved" | "rejected" | "ignored";
+};
+
 export type Database = {
   public: {
     Tables: {
-      stores:           { Row: Store };
+      agencies: {
+        Row: Agency;
+        Insert: {
+          id?: string;
+          name: string;
+          slug?: string | null;
+          hp_url?: string | null;
+          x_url?: string | null;
+          description?: string | null;
+          is_active?: boolean;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: Partial<Agency>;
+      };
+      stores: {
+        Row: Store;
+        Insert: {
+          id?: string;
+          name: string;
+          pref?: string | null;
+          area?: string | null;
+          address?: string | null;
+          hp_url?: string | null;
+          x_url?: string | null;
+          dmm_id?: string | null;
+          pworld_id?: string | null;
+          normalized_name?: string | null;
+          is_active?: boolean;
+          parent_store_id?: string | null;
+          source_url?: string | null;
+          address_history?: Array<{ address: string; changed_at: string }>;
+        };
+        Update: Partial<Store>;
+      };
+      store_machines: {
+        Row: StoreMachineRow;
+        Insert: {
+          id?: string;
+          store_id: string;
+          machine_id: string;
+          rate?: string | null;
+          count?: number | null;
+          is_active?: boolean;
+          detected_at?: string;
+          updated_at?: string;
+        };
+        Update: Partial<StoreMachineRow>;
+      };
+      unknown_stores: {
+        Row: UnknownStoreRow;
+        Insert: {
+          id?: string;
+          raw_name: string;
+          normalized_name?: string | null;
+          source_site?: string | null;
+          source_url?: string | null;
+          detected_at?: string;
+          count?: number;
+          status?: "pending" | "approved" | "rejected" | "ignored";
+        };
+        Update: Partial<UnknownStoreRow>;
+      };
       cast_members:     { Row: CastMember };
       events:           { Row: Event };
       complete_reports: { Row: CompleteReport };
       fetch_logs:       { Row: FetchLog };
       fetch_state:      { Row: FetchState };
+      machines_master: {
+        Row: MachineMasterRow;
+        Insert: {
+          id?: string;
+          official_name: string;
+          manufacturer?: string | null;
+          brand?: string | null;
+          type?: "slot" | "pachinko";
+          normalized_name: string;
+          release_date?: string | null;
+          source_url?: string | null;
+          is_active?: boolean;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: Partial<MachineMasterRow>;
+      };
+      machines_aliases: {
+        Row: MachineAliasRow;
+        Insert: {
+          id?: string;
+          machine_id: string;
+          alias_name: string;
+          normalized_alias: string;
+          confidence?: number;
+          created_at?: string;
+        };
+        Update: Partial<MachineAliasRow>;
+      };
+      unknown_machines: {
+        Row: UnknownMachineRow;
+        Insert: {
+          id?: string;
+          raw_name: string;
+          normalized_raw_name?: string | null;
+          source_site?: string | null;
+          source_url?: string | null;
+          detected_at?: string;
+          count?: number;
+          status?: "pending" | "approved" | "rejected" | "ignored";
+        };
+        Update: Partial<UnknownMachineRow>;
+      };
+      unknown_performers: {
+        Row: UnknownPerformerRow;
+        Insert: {
+          id?: string;
+          raw_name: string;
+          normalized_name?: string | null;
+          source_site?: string | null;
+          source_url?: string | null;
+          detected_at?: string;
+          count?: number;
+          status?: "pending" | "approved" | "rejected" | "ignored";
+        };
+        Update: Partial<UnknownPerformerRow>;
+      };
     };
   };
 };
@@ -162,7 +384,7 @@ export async function getPublicEvents(options?: {
     .select(
       // image_url は意図的に SELECT から除外
       "id, store_id, store_name, pref, area, date, event_name, detail, " +
-      "cast_names, x_url, source_url, source, highlight, created_at"
+      "cast_names, performer_id, x_url, source_url, source, highlight, created_at"
     )
     .eq("ng_flag", false)
     .order("date", { ascending: false })
