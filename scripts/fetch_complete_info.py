@@ -28,9 +28,13 @@ from pathlib import Path
 
 try:
     from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+    HAS_PLAYWRIGHT = True
 except ImportError:
-    print("❌ playwright not installed. Run: pip install playwright && playwright install chromium")
-    sys.exit(1)
+    # merge_complete_data.py など playwright 不要なインポート元でも動作するよう
+    # ここでは exit しない。main() 実行時に確認する。
+    HAS_PLAYWRIGHT = False
+    sync_playwright = None  # type: ignore
+    PlaywrightTimeout = Exception  # type: ignore
 
 try:
     from playwright_stealth import Stealth
@@ -2050,6 +2054,11 @@ def main():
     parser.add_argument("--partial", action="store_true",
         help="部分収集モード: complete_partial_{mode}.json に書き出す（merge_complete_data.py で統合）")
     args = parser.parse_args()
+
+    # playwright が必要な処理の場合はここで確認
+    if not HAS_PLAYWRIGHT:
+        print("❌ playwright not installed. Run: pip install playwright && playwright install chromium")
+        sys.exit(1)
 
     # GH Actions は UTC で動くので JST (+9h) に変換する
     if args.date:
