@@ -1,5 +1,27 @@
 [
   {
+    "id": "31a3254021f2",
+    "date": "2026-05-27",
+    "time": "23:46",
+    "store": "クラブハウス本店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【攻殻機動隊】コンプリート達成  本日も店内大盛況 盛り上がりを見せた一日となりました ご遊技頂きありがとうございました  #コンプリート　#攻殻機動隊",
+    "x_url": "https://x.com/club_honten99/status/2059647485682024916",
+    "store_handle": "club_honten99",
+    "store_x_url": "https://x.com/club_honten99",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T20:35:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJVWYVAbkAAkE2x?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJVWYVAbkAAkE2x?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "118fb35bd3"
+  },
+  {
     "id": "dd378d1f24bf",
     "date": "2026-05-27",
     "time": "23:44",

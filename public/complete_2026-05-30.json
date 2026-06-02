@@ -254,6 +254,29 @@
     "store_id": "ddce6b9b74"
   },
   {
+    "id": "8a7b7dea16c1",
+    "date": "2026-05-30",
+    "time": "20:55",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "2156",
+    "text": "◤◢◤◢◤◢◤◢◤◢  コンプリート報告  ◤◢◤◢◤◢◤◢◤◢  2156番台 \"e牙狼12黄金騎士極限\" 先ほどコンプリート機能が 作動いたしました  コンプリート おめでとうございます  明日もご来店お待ちしてます！",
+    "x_url": "https://x.com/Concorde_ichino/status/2060691555158204743",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T20:34:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJkKTGsaAAAMuoH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJjaD-RbYAAxKZi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJkKTGsaAAAMuoH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3b33dd116a"
+  },
+  {
     "id": "1705963f404d",
     "date": "2026-05-30",
     "time": "20:45",
