@@ -163,6 +163,39 @@
     "image_url": "https://pbs.twimg.com/media/HJkVQjJboAAg4o8?format=jpg&name=large"
   },
   {
+    "id": "7bb1c0d91cd0",
+    "date": "2026-05-30",
+    "time": "21:35",
+    "store": "マルハン袋井店",
+    "machine": "ｅ真・一騎当千～軍神覚醒～",
+    "machine_type": "pachinko",
+    "slot_number": "455",
+    "text": "455番台　ｅ真・一騎当千～軍神覚醒～より  コンプリート達成 おめでとうございます  今日はコンプリートおじさん代理が失礼します",
+    "x_url": "https://x.com/maruhan_fukuroi/status/2060701589560861122",
+    "collected_at": "2026-06-02T05:34:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJkVI1baAAA9xAt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJkVI1baQAAmndV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJkVI1baAAA9xAt?format=jpg&name=large"
+  },
+  {
+    "id": "f0b62ea03723",
+    "date": "2026-05-30",
+    "time": "21:30",
+    "store": "ABC浜北店【パチンコ＆スロット】",
+    "machine": "L北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "410",
+    "text": "【ABC浜北店より速報】 先程『L北斗の拳 転生の章2』410番台にてコンプリート達成されました！！ おめでとうございます この後もABC浜北店でお楽しみ下さい #L北斗の拳転生の章2 #コンプリート",
+    "x_url": "https://x.com/ABC_hamakita/status/2060700347824558364",
+    "collected_at": "2026-06-02T05:34:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJkSXpxaUAA8FWM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJkSXpxaUAA8FWM?format=jpg&name=large"
+  },
+  {
     "id": "2b0af445d9fb",
     "date": "2026-05-30",
     "time": "21:26",
