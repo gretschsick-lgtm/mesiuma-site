@@ -13,30 +13,15 @@
     "images": [
       "https://pbs.twimg.com/media/HJVM9_hbgAAK5KU?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVM9_hbgAAK5KU?format=jpg&name=large"
-  },
-  {
-    "id": "eafc302a7c9f",
-    "date": "2026-05-27",
-    "time": "22:35",
-    "store": "メガフェイス1300淀川",
-    "machine": "無職転生",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "【速報】 ​先ほどの『スマスロ無職転生』でのコンプリート達成に続いて⋯ なんと お次はスマスロかぐや様は告らせたい からもコンプリート達成 ​当店から本日2台目のコンプリート…！ 達成されたお客様おめでとうございます #かぐや様 #コンプリート #メガフェイス1300淀川",
-    "x_url": "https://x.com/megaface_1300/status/2059629496597434477",
-    "collected_at": "2026-06-01T21:48:57Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJVGCaFaUAAQ-Nl?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJVGCaFaUAAQ-Nl?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVM9_hbgAAK5KU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
     "id": "fc9397219edc",
     "date": "2026-05-27",
     "time": "22:34",
     "store": "キコーナ豊中走井",
-    "machine": "北斗の拳転生",
+    "machine": "スマスロ北斗の拳転生の章2",
     "machine_type": "slot",
     "slot_number": "",
     "text": "本日！！  Lスマスロ北斗の拳 転生の章２より  コンプリート達成です   おめでとうございます   #つぶやキコーナ  #キコーナ豊中走井",
@@ -45,14 +30,15 @@
     "images": [
       "https://pbs.twimg.com/media/HJVF0bHb0AASqD4?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVF0bHb0AASqD4?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVF0bHb0AASqD4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "9b718feb79cb",
     "date": "2026-05-27",
     "time": "22:29",
     "store": "ヤング舞鶴店",
-    "machine": "ゴッドイーター",
+    "machine": "スマスロゴッドイーター",
     "machine_type": "slot",
     "slot_number": "",
     "text": "本日もご来店ありがとうございました  『スマスロゴッドイーター』  コンプリート達成でございます  おめでとうございます  羨ましい限りです  #コンプリート #スマスロ #ゴッドイーター",
@@ -61,7 +47,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJVE4a7bYAA2vvu?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVE4a7bYAA2vvu?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVE4a7bYAA2vvu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
     "id": "e368b71f6766",
@@ -77,23 +64,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJVDAQya0AAFhKD?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVDAQya0AAFhKD?format=jpg&name=large"
-  },
-  {
-    "id": "0799af40d34b",
-    "date": "2026-05-27",
-    "time": "22:16",
-    "store": "マルハン筑西店",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "494",
-    "text": "コンプリート速報  ゴッドイーター 494番台のお客様 おめでとうございます",
-    "x_url": "https://x.com/kei_megane_mgr/status/2059624855008628879",
-    "collected_at": "2026-05-28T17:53:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJU4Su9bMAAVsr6?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJU4Su9bMAAVsr6?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVDAQya0AAFhKD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "b40c51a9e388",
@@ -102,14 +74,15 @@
     "store": "ミクちゃんガイア尼崎店",
     "machine": "スマスロ北斗の拳転生の章2",
     "machine_type": "slot",
-    "slot_number": "１８７",
+    "slot_number": "187",
     "text": "１８７番台 北斗の拳 転生の章２  お見事！ コンプリート達成です  転生、、 コンプリート多くないかい？  #ミクちゃんガイア尼崎店 #コンプリート #北斗の拳",
     "x_url": "https://x.com/GAIA_amagasaki/status/2059620302532080101",
     "collected_at": "2026-05-27T17:01:59Z",
     "images": [
       "https://pbs.twimg.com/media/HJU9owDaoAAls9u?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJU9owDaoAAls9u?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJU9owDaoAAls9u?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "110b2f7396e3",
@@ -125,7 +98,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJU5Q0VbEAA5E7F?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJU5Q0VbEAA5E7F?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJU5Q0VbEAA5E7F?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "9a36f127c859",
@@ -141,40 +115,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJU41AfbcAAvOQk?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJU41AfbcAAvOQk?format=jpg&name=large"
-  },
-  {
-    "id": "6dc3728282fa",
-    "date": "2026-05-27",
-    "time": "21:34",
-    "store": "マルハン筑西店",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "494",
-    "text": "マルハン筑西店より コンプリート速報  スマスロ ゴッドイーター リザレクション 494番台のお客様 おめでとうございます",
-    "x_url": "https://x.com/Majishan_Tencho/status/2059614303775514785",
-    "collected_at": "2026-05-28T17:53:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJU4Su9bMAAVsr6?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJPdsgMaMAA4uy6?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJU4Su9bMAAVsr6?format=jpg&name=large"
-  },
-  {
-    "id": "cb7cf0f8efa2",
-    "date": "2026-05-27",
-    "time": "21:25",
-    "store": "グループの本店",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "477",
-    "text": "こんばんは もりちゃんです⸝꙳  【速報】  ⟡.· ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ⟡.· \\\\　477番台 タクトオーパス デスティニー　// ⟡.· ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ⟡.·  コンプリート  こんなに赤く光るんですね  おめでとうございます  #ZENTグループの本店",
-    "x_url": "https://x.com/ZENTtoyota/status/2059611866977235341",
-    "collected_at": "2026-06-01T17:53:32Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJU175VakAEdh6V?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJU175VakAEdh6V?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJU41AfbcAAvOQk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "99e75eb5a38e",
@@ -190,7 +132,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJU05IGa8AARZTb?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJU05IGa8AARZTb?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJU05IGa8AARZTb?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "ba874f47af32",
@@ -206,7 +149,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJU1aq-asAE3_CX?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJU1aq-asAE3_CX?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJU1aq-asAE3_CX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000018"
   },
   {
     "id": "e0f49f8ba57a",
@@ -222,7 +166,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUxhhXa8AAIl8v?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUxhhXa8AAIl8v?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUxhhXa8AAIl8v?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "e7a2d13c1a2c",
@@ -238,7 +183,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUwO92aMAA6HrH?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUwO92aMAA6HrH?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUwO92aMAA6HrH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "1edb9b5fa337",
@@ -254,14 +200,15 @@
     "images": [
       "https://pbs.twimg.com/media/HJUvOPMbMAARrR2?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUvOPMbMAARrR2?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUvOPMbMAARrR2?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "d742f2a62cee",
     "date": "2026-05-27",
     "time": "20:48",
     "store": "ユーコーラッキー長崎駅前店☆",
-    "machine": "ミリオンゴッド",
+    "machine": "Lミリオンゴッド神々の軌跡",
     "machine_type": "slot",
     "slot_number": "",
     "text": "コンプリート報告です  本日、当店設置の 「Lミリオンゴッド 神々の軌跡」にて  コンプリート機能が発動致しました   ご遊技いただいたお客様、 おめでとうございます   引き続き、皆様のご来店を お待ち致しております  #コンプリート  #長崎駅前 #ミリオンゴッド",
@@ -270,7 +217,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUtqHMbMAAMaKF?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUtqHMbMAAMaKF?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUtqHMbMAAMaKF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "3098d7403eff",
@@ -286,7 +234,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUp3-YboAARzeH?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUp3-YboAARzeH?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUp3-YboAARzeH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013"
   },
   {
     "id": "c44f085d7b89",
@@ -302,7 +251,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUodCCbQAAni_Y?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUodCCbQAAni_Y?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUodCCbQAAni_Y?format=jpg&name=large",
+    "machine_id": "b95d7d14-c053-4306-b910-3a2e695cd512"
   },
   {
     "id": "ac0873ddde38",
@@ -318,7 +268,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUnsljaAAAOMJz?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUnsljaAAAOMJz?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUnsljaAAAOMJz?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "06eb3bb3dbee",
@@ -334,7 +285,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUldKvasAA_HwZ?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUldKvasAA_HwZ?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUldKvasAA_HwZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "d0a4af882df2",
@@ -343,7 +295,7 @@
     "store": "ディーボ小坂店【公式】アカウント",
     "machine": "Lかぐや様は告らせたい",
     "machine_type": "slot",
-    "slot_number": "３６２",
+    "slot_number": "362",
     "text": "３６２番台 かぐや様は告らせたいから コンプリートおめでとうございます。  朝の、着席番号２５番。狙い通りだったのでしょうか 夢を掴むならやっぱりSANKYOですね あと 362番台を追走してるかぐや様がもう一台頑張れ＃コンプリート＃ディーボ小坂",
     "x_url": "https://x.com/divo_x_kosaka/status/2059593576435335561",
     "collected_at": "2026-05-28T17:53:39Z",
@@ -351,7 +303,8 @@
       "https://pbs.twimg.com/media/HJUlcXPbYAAAxt5?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJUlcW0awAA1xQV?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUlcXPbYAAAxt5?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUlcXPbYAAAxt5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "1c5e28f4bc46",
@@ -367,7 +320,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUdb7YbQAA33B6?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUdb7YbQAA33B6?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUdb7YbQAA33B6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "98b41f029779",
@@ -383,7 +337,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUbkStbgAAQgbe?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUbkStbgAAQgbe?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUbkStbgAAQgbe?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "d255a8306629",
@@ -399,7 +354,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUWPwNbsAAUW2r?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUWPwNbsAAUW2r?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUWPwNbsAAUW2r?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "62266ff68ae0",
@@ -416,7 +372,8 @@
       "https://pbs.twimg.com/media/HJUT3zMa8AEXi-q?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJDMbaqbkAAVMAv?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUT3zMa8AEXi-q?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUT3zMa8AEXi-q?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
     "id": "44c7d246d06f",
@@ -432,7 +389,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUQZepa8AEyKFz?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUQZepa8AEyKFz?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUQZepa8AEyKFz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
     "id": "e3a3b322b0b6",
@@ -448,20 +406,22 @@
     "images": [
       "https://pbs.twimg.com/media/HJURkL_aIAApzyd?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJURkL_aIAApzyd?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJURkL_aIAApzyd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "68ddb4140616",
     "date": "2026-05-27",
     "time": "18:43",
     "store": "ーク出水店",
-    "machine": "不明",
+    "machine": "スマスロ攻殻機動隊",
     "machine_type": "slot",
     "slot_number": "",
     "text": "昨日ニューヨーク出水店にて コンプリート達成！ 機種は L スマスロ攻殻機動隊 ZS おめでとうございます 昨日は超女神スロット取材でした。 次回も見逃せない  @newyork_izumi15   #コンプリート達成 #ニューヨーク出水店 #PR",
     "x_url": "https://x.com/newyorkgroup15/status/2059571059507228901",
     "collected_at": "2026-05-27T16:58:51Z",
-    "video_url": "https://video.twimg.com/tweet_video/HJUQ8qNbgAASTxU.mp4"
+    "video_url": "https://video.twimg.com/tweet_video/HJUQ8qNbgAASTxU.mp4",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "eb2c82b09f33",
@@ -477,23 +437,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUQwU4awAATkkB?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUQwU4awAATkkB?format=jpg&name=large"
-  },
-  {
-    "id": "5cfd30f74203",
-    "date": "2026-05-27",
-    "time": "18:16",
-    "store": "グランキコーナひたちなか店",
-    "machine": "真・一騎当千～軍神覚醒～",
-    "machine_type": "slot",
-    "slot_number": "393",
-    "text": "こんばんは！ 店内より( 'ω'o【コンプリート速報】  1円パチンココーナー 393番台 【真・一騎当千～軍神覚醒～】  コンプリート達成 おめでとうございます！！  #グランキコーナひたちなか店 #コンプリート #つぶやキコーナ",
-    "x_url": "https://x.com/GK_hitachinaka/status/2059564396960178563",
-    "collected_at": "2026-05-30T15:09:19Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJUK5R9bMAEhsA6?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJUK5R9bMAEhsA6?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUQwU4awAATkkB?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
   },
   {
     "id": "400ba51c3e16",
@@ -509,7 +454,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUKe6uakAAn7wL?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUKe6uakAAn7wL?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUKe6uakAAn7wL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035"
   },
   {
     "id": "185af50181bc",
@@ -525,7 +471,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJUB-2uaoAATCge?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUB-2uaoAATCge?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUB-2uaoAATCge?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "117278601ead",
@@ -542,31 +489,15 @@
       "https://pbs.twimg.com/media/HJTz4oybMAE8tKJ?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJTnjyZbwAAHYgj?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJTz4oybMAE8tKJ?format=jpg&name=large"
-  },
-  {
-    "id": "978785cf4937",
-    "date": "2026-05-27",
-    "time": "15:42",
-    "store": "ピーアーク北千住エリア",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "656",
-    "text": "5月27日（水） ピーアーク北千住SSS トリエス  656番台 L かぐや様は告らせたい コンプリート達成  早くね？  #適応デキマセン",
-    "x_url": "https://x.com/Kitasenjusss/status/2059525535991251383",
-    "collected_at": "2026-05-28T17:53:39Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJTnjyZbwAAHYgj?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJFYY1fa4AAT_Nu?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJTnjyZbwAAHYgj?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJTz4oybMAE8tKJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "a8061a65784d",
     "date": "2026-05-27",
     "time": "15:41",
     "store": "ユーコーラッキー37太宰府店",
-    "machine": "ヴァルヴレイヴ",
+    "machine": "L革命機ヴァルヴレイヴ2",
     "machine_type": "slot",
     "slot_number": "",
     "text": "【コンプリート達成】 本日、当店設置の「革命機ヴァルヴレイヴ」にて コンプリート機能が発動いたしました!!! ご遊技いただき、誠にありがとうございました。  引き続き、皆さまのご来店をお待ちしております",
@@ -575,14 +506,15 @@
     "images": [
       "https://pbs.twimg.com/media/HJTnTYnakAAnDGV?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJTnTYnakAAnDGV?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJTnTYnakAAnDGV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "ffb06e35b38c",
     "date": "2026-05-27",
     "time": "12:25",
     "store": "ビックマーチ藤代店",
-    "machine": "ビッグドリーム",
+    "machine": "Lビッグドリーム",
     "machine_type": "slot",
     "slot_number": "479",
     "text": "コンプリート情報  昨日の479番台ビッグドリームにてコンプリートです  おめでとうございます  本日も元気に営業中です ご来店お待ちしております",
@@ -591,7 +523,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJS6hqSa8AAL_7V?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJS6hqSa8AAL_7V?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJS6hqSa8AAL_7V?format=jpg&name=large",
+    "machine_id": "26fc95df-4767-41bc-8330-89f463ce04bc"
   },
   {
     "id": "d900c7b3d016",
@@ -608,7 +541,8 @@
       "https://pbs.twimg.com/media/HJSZUrNWYAciNqY?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJSZU0cXwAU2x0L?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJSZUrNWYAciNqY?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJSZUrNWYAciNqY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "8325185052c0",
@@ -624,7 +558,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJVcJrZbcAE7Y6G?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVcJrZbcAE7Y6G?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVcJrZbcAE7Y6G?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "2a8a79e0746f",
@@ -636,7 +571,7 @@
     "slot_number": "503",
     "text": "おはようございます 昨日の閉店直前にて…  503番台  『チバリヨ』ＣＯＭＰＬＥＴＥ達成  お客様から 「ギリギリ間に合ってよかった～疲れたけど」 と嬉しいコメント頂いてます  本日も⑨時④⑤分、入場抽選スタート 誕生月間の大胡店、お見逃しなく  #コンプリート #スロット",
     "x_url": "https://x.com/dynam_00311/status/2059409333129973846",
-    "collected_at": "2026-06-01T17:38:40Z",
+    "collected_at": "2026-06-02T10:56:39Z",
     "images": [
       "https://pbs.twimg.com/media/HJR924UXEAYxZaI?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJR93ZxW8AETW34?format=jpg&name=large",
@@ -649,7 +584,7 @@
     "date": "2026-05-27",
     "time": "02:04",
     "store": "G松原店",
-    "machine": "eひきこまり吸血鬼の悶々",
+    "machine": "eひきこまり吸血姫の悶々",
     "machine_type": "pachinko",
     "slot_number": "260",
     "text": "260番台「eひきこまり吸血鬼の悶々」にてコンプリート機能発動！  喰種やカケグルイも暴れてたけど  可愛い顔したコイツが  一番  強暴でちた  き～ちぃ～  #つぶやキコーナ #グランマ #グランキコーナ松原店",
@@ -658,7 +593,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJVzCLSaQAA826H?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVzCLSaQAA826H?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVzCLSaQAA826H?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000034"
   },
   {
     "id": "2f0a4267fc76",
@@ -676,6 +612,7 @@
       "https://pbs.twimg.com/media/HJVab37aYAA9rbp?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJVac_zaIAAl-oJ?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVaRSDbQAElX2H?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVaRSDbQAElX2H?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   }
 ]

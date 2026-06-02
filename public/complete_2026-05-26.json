@@ -1,22 +1,5 @@
 [
   {
-    "id": "92a5e70f637d",
-    "date": "2026-05-26",
-    "time": "23:02",
-    "store": "メガフェイス1120豊崎本館",
-    "machine": "東京喰種",
-    "machine_type": "slot",
-    "slot_number": "97",
-    "text": "コンプリート速報 豊崎本館から3台目！？ 97番台 東京喰種でコンプリート達成！！  他にも万枚機種が・・・  コンプリートおめでとうございます #梅屋シンさん来店 #東京喰種 #コンプリート",
-    "x_url": "https://x.com/megaface_1120/status/2059273951973613928",
-    "collected_at": "2026-06-01T21:31:08Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJQB1VLbIAAVYML?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJQB2ambYAA1cUY?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJQB1VLbIAAVYML?format=jpg&name=large"
-  },
-  {
     "id": "3c96479bb367",
     "date": "2026-05-26",
     "time": "22:04",
@@ -30,7 +13,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJP1PkUaMAAea15?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJP1PkUaMAAea15?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJP1PkUaMAAea15?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "4c1fc3381f74",
@@ -46,7 +30,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJPx577bYAIpEhj?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPx577bYAIpEhj?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPx577bYAIpEhj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030"
   },
   {
     "id": "a176961920f9",
@@ -62,7 +47,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJPoBL0aYAAbUCl?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPoBL0aYAAbUCl?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPoBL0aYAAbUCl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013"
   },
   {
     "id": "e13fab4f5811",
@@ -78,23 +64,25 @@
     "images": [
       "https://pbs.twimg.com/media/HJPnUyMbEAEzmkb?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPnUyMbEAEzmkb?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPnUyMbEAEzmkb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "ffc389b0672c",
     "date": "2026-05-26",
     "time": "21:00",
     "store": "ダイナム柴田町店",
-    "machine": "Lバイオハザード５",
+    "machine": "スマスロ バイオハザード5",
     "machine_type": "slot",
-    "slot_number": "３５９",
+    "slot_number": "359",
     "text": "#ダイナム ５/２６(火) ２０：１５  ３５９番台 Lバイオハザード５  コンプリートしましたおめでとうございます",
     "x_url": "https://x.com/dynam_00109/status/2059243202339574231",
     "collected_at": "2026-05-26T15:12:55Z",
     "images": [
       "https://pbs.twimg.com/media/HJPmxl2WkAAIH5D?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPmxl2WkAAIH5D?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPmxl2WkAAIH5D?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
   },
   {
     "id": "73cc09b3ae72",
@@ -111,7 +99,8 @@
       "https://pbs.twimg.com/media/HJPeWa4aAAAthzX?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJPeXRTaoAAERI4?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPeWa4aAAAthzX?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPeWa4aAAAthzX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
     "id": "ac0c4e301965",
@@ -120,7 +109,7 @@
     "store": "パラッツォ志村店",
     "machine": "e新世紀エヴァンゲリオン",
     "machine_type": "pachinko",
-    "slot_number": "３０３",
+    "slot_number": "303",
     "text": "速報  ４円パチンコ ３０３番台 e 新世紀エヴァンゲリオン 　　　　　〜はじまりの記憶〜  にてコンプリート機能発動 志村の夜はまだまだこれから  最後のお時間までお楽しみ下さい",
     "x_url": "https://x.com/palazzo_shimura/status/2059233435915517974",
     "collected_at": "2026-05-26T15:03:39Z",
@@ -128,7 +117,8 @@
       "https://pbs.twimg.com/media/HJPdELnaIAAZaTx?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJPdtZ_awAA6foP?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPdELnaIAAZaTx?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPdELnaIAAZaTx?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8"
   },
   {
     "id": "e62d5d6a705e",
@@ -144,7 +134,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJPSzXdbsAAf78t?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPSzXdbsAAf78t?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPSzXdbsAAf78t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
     "id": "9e548850c070",
@@ -160,7 +151,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJPSwQAaMAAd4im?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPSwQAaMAAd4im?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPSwQAaMAAd4im?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
     "id": "0f9d11eac170",
@@ -176,14 +168,15 @@
     "images": [
       "https://pbs.twimg.com/media/HJPO2xxbkAATF9u?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPO2xxbkAATF9u?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPO2xxbkAATF9u?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "50b3ee3fbfdf",
     "date": "2026-05-26",
     "time": "18:29",
     "store": "エムディー目黒店",
-    "machine": "ヴァルヴレイヴ",
+    "machine": "L革命機ヴァルヴレイヴ2",
     "machine_type": "slot",
     "slot_number": "752",
     "text": "【超速報】  ┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ  752番台 2026.5.26  17:55 ┈┈┈┈┈┈┈┈┈┈  コンプリート達成 常連のヴァルヴレイヴァー様 18994枚で通常に落ちた時はハラハラでしたが 無事に引き戻してドライブ飛んで安心のコンプリート",
@@ -192,14 +185,15 @@
     "images": [
       "https://pbs.twimg.com/media/HJPECIxbwAA6ZFt?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJPECIxbwAA6ZFt?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJPECIxbwAA6ZFt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "167475718a41",
     "date": "2026-05-26",
     "time": "17:47",
     "store": "楽園溝の口店",
-    "machine": "牙狼12",
+    "machine": "e牙狼12",
     "machine_type": "pachinko",
     "slot_number": "718",
     "text": "本日月日 ⠀ 718番台　牙狼12 黄金騎士極限 ⠀ コンプリート機能が作動したため  遊技台を停止させていただきます ⠀ おめでとうございます ⠀ #コンプリート #牙狼 ⠀",
@@ -208,7 +202,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJO6VQtb0AAb2F-?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJO6VQtb0AAb2F-?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJO6VQtb0AAb2F-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "b445fc39dbbc",
@@ -224,7 +219,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJO1xDta8AA9JfO?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJO1xDta8AA9JfO?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJO1xDta8AA9JfO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "5d20f142b40c",
@@ -240,7 +236,24 @@
     "images": [
       "https://pbs.twimg.com/media/HJO0o5DaEAA2-d_?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJO0o5DaEAA2-d_?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJO0o5DaEAA2-d_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "ba603dde6d20",
+    "date": "2026-05-26",
+    "time": "15:40",
+    "store": "グランドホール港南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "211",
+    "text": "211番台 【e牙狼12黄金騎士極限】 コンプリート達成おめでとうございます！ まだまだお時間沢山ございます！ この後もグランドで！",
+    "x_url": "https://x.com/grand_konan/status/2059162740309348356",
+    "collected_at": "2026-06-02T10:56:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJOZgMibIAAAjoU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJOZgMibIAAAjoU?format=jpg&name=large"
   },
   {
     "id": "fc4dfb0ebcea",
@@ -256,7 +269,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJOTMTva0AENUir?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJOTMTva0AENUir?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJOTMTva0AENUir?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "070c33b44493",
@@ -265,14 +279,15 @@
     "store": "プレイランドキャッスル東郷店",
     "machine": "カケグルイ219ver",
     "machine_type": "slot",
-    "slot_number": "２３",
+    "slot_number": "23",
     "text": "先程、２３番台      スマパチ カケグルイ 219verにて      コンプリート機能作動の為、      稼働を停止しております。        #コンプリート  明日の開放をお楽しみに",
     "x_url": "https://x.com/toumaruhana6/status/2059143530980032606",
     "collected_at": "2026-05-26T15:03:53Z",
     "images": [
       "https://pbs.twimg.com/media/HJOL0a2aQAAtINp?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJOL0a2aQAAtINp?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJOL0a2aQAAtINp?format=jpg&name=large",
+    "machine_id": "0122d122-8f45-44ae-bd1d-f63f5c47c77d"
   },
   {
     "id": "f406aa291aad",
@@ -288,23 +303,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJTFB8yWIAEPuCm?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJTFB8yWIAEPuCm?format=jpg&name=large"
-  },
-  {
-    "id": "be6a6a9cbaa7",
-    "date": "2026-05-26",
-    "time": "12:35",
-    "store": "１２３天理店とあるWサブチーフの日常",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんにちは！ #123天理店 のナガヌーです！  昨日遅番で出勤したらコンプリート機能発動してました！ おめでとうございます！！",
-    "x_url": "https://x.com/123tenriten/status/2059116250169778682",
-    "collected_at": "2026-06-01T17:57:32Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJNzNmqbEAA02HU?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJNzNmqbEAA02HU?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJTFB8yWIAEPuCm?format=jpg&name=large",
+    "machine_id": "1eab6b8d-1f3c-4d20-a794-f95cd22b518b"
   },
   {
     "id": "c8f32778a9a1",
@@ -320,6 +320,7 @@
     "images": [
       "https://pbs.twimg.com/media/HJSgL2AXgAALxAn?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJSgL2AXgAALxAn?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJSgL2AXgAALxAn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   }
 ]
