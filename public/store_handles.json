@@ -1787,6 +1787,36 @@
     "count": 1,
     "type": "store"
   },
+  "wing_matsumina": {
+    "store": "ウイング松阪南店",
+    "x_url": "https://x.com/wing_matsumina",
+    "count": 1,
+    "type": "store"
+  },
+  "wl__minamigaoka": {
+    "store": "ランド南ヶ丘店",
+    "x_url": "https://x.com/wl__minamigaoka",
+    "count": 1,
+    "type": "store"
+  },
+  "ZENTtoyohashi": {
+    "store": "ゼント豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi",
+    "count": 1,
+    "type": "store"
+  },
+  "ZENTtoyota": {
+    "store": "ゼント豊田本店",
+    "x_url": "https://x.com/ZENTtoyota",
+    "count": 1,
+    "type": "store"
+  },
+  "123tenriten": {
+    "store": "123天理店",
+    "x_url": "https://x.com/123tenriten",
+    "count": 1,
+    "type": "manager"
+  },
   "jvxcvnv10f30981": {
     "store": "マルハン",
     "x_url": "https://x.com/jvxcvnv10f30981",
