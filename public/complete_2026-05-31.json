@@ -394,6 +394,28 @@
     "store_id": "8ea13b6c57"
   },
   {
+    "id": "73e1541b5f41",
+    "date": "2026-05-31",
+    "time": "20:50",
+    "store": "マルハン亀有店_亀にゃん",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "994",
+    "text": "Ｌ　スマスロ北斗の拳　転生の章２　ＭＷ 994番台 コンプリート   おめでとうございます！",
+    "x_url": "https://x.com/maruhan_kameari/status/2061052571515552254",
+    "store_handle": "maruhan_kameari",
+    "store_x_url": "https://x.com/maruhan_kameari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T22:21:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpFObkbIAAlMAX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpFObkbIAAlMAX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "abcf4e1c2c"
+  },
+  {
     "id": "6779791134d3",
     "date": "2026-05-31",
     "time": "20:48",

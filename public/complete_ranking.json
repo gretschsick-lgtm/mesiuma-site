@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-03T05:48:08+09:00",
+  "generated_at": "2026-06-03T07:30:20+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 18,
+      "total_count": 20,
       "stores": [
         {
           "rank": 1,
@@ -56,15 +56,15 @@
         },
         {
           "rank": 9,
-          "name": "マルハン袋井店",
+          "name": "キコーナ海老名店",
           "count": 1,
-          "x_url": "https://x.com/maruhan_fukuroi"
+          "x_url": "https://x.com/kicona_ebina"
         },
         {
           "rank": 10,
-          "name": "MJアリーナ井尻店",
+          "name": "マルハン袋井店",
           "count": 1,
-          "x_url": "https://x.com/mjijiri"
+          "x_url": "https://x.com/maruhan_fukuroi"
         }
       ],
       "slot_machines": [
@@ -85,21 +85,26 @@
         },
         {
           "rank": 4,
-          "name": "L甲鉄城のカバネリ海門決戦",
+          "name": "Lミリオンゴッド神々の軌跡",
           "count": 1
         },
         {
           "rank": 5,
-          "name": "いざ！番長",
+          "name": "L甲鉄城のカバネリ海門決戦",
           "count": 1
         },
         {
           "rank": 6,
-          "name": "L東京喰種",
+          "name": "いざ！番長",
           "count": 1
         },
         {
           "rank": 7,
+          "name": "L東京喰種",
+          "count": 1
+        },
+        {
+          "rank": 8,
           "name": "スマスロ 東京リベンジャーズ",
           "count": 1
         }
@@ -112,16 +117,21 @@
         },
         {
           "rank": 2,
-          "name": "eカケグルイ",
+          "name": "eリコリス・リコイル",
           "count": 1
         },
         {
           "rank": 3,
-          "name": "e新世紀エヴァンゲリオン",
+          "name": "eカケグルイ",
           "count": 1
         },
         {
           "rank": 4,
+          "name": "e新世紀エヴァンゲリオン",
+          "count": 1
+        },
+        {
+          "rank": 5,
           "name": "e東京喰種W",
           "count": 1
         }
@@ -130,7 +140,7 @@
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 474,
+      "total_count": 482,
       "stores": [
         {
           "rank": 1,
@@ -152,57 +162,57 @@
         },
         {
           "rank": 4,
+          "name": "キクヤ春日井店",
+          "count": 7,
+          "x_url": "https://x.com/315kasugai"
+        },
+        {
+          "rank": 5,
           "name": "キャッスル春日井",
           "count": 7,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ARROW浪速店",
           "count": 6,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "グランキコーナひたちなか店",
           "count": 6,
           "x_url": "https://x.com/gk_hitachinaka"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "メガフェイス1300淀川",
           "count": 5,
           "x_url": "https://x.com/megaface_1300"
         },
         {
-          "rank": 8,
-          "name": "フェイス850佐賀",
-          "count": 5,
-          "x_url": "https://x.com/face_850"
-        },
-        {
           "rank": 9,
-          "name": "マルハンメガシティ三島駿東",
+          "name": "SuperD'station東金店",
           "count": 5,
-          "x_url": "https://x.com/mega_mishima"
+          "x_url": "https://x.com/sd_tougane"
         },
         {
           "rank": 10,
-          "name": "キクヤ春日井店",
+          "name": "フェイス850佐賀",
           "count": 5,
-          "x_url": "https://x.com/315kasugai"
+          "x_url": "https://x.com/face_850"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 76
+          "count": 79
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 51
+          "count": 54
         },
         {
           "rank": 3,
@@ -249,7 +259,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 34
+          "count": 35
         },
         {
           "rank": 2,
@@ -359,56 +369,56 @@
       },
       {
         "rank": 5,
+        "name": "キクヤ春日井店",
+        "count": 7,
+        "x_url": "https://x.com/315kasugai"
+      },
+      {
+        "rank": 6,
         "name": "キャッスル春日井",
         "count": 7,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "name": "マルハン亀有店_亀にゃん",
+        "count": 6,
+        "x_url": "https://x.com/maruhan_kameari"
+      },
+      {
+        "rank": 8,
         "name": "ARROW浪速店",
         "count": 6,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
-        "rank": 7,
+        "rank": 9,
         "name": "グランキコーナひたちなか店",
         "count": 6,
         "x_url": "https://x.com/gk_hitachinaka"
       },
       {
-        "rank": 8,
+        "rank": 10,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 5,
         "x_url": "https://x.com/wakakin_tsujic"
-      },
-      {
-        "rank": 9,
-        "name": "メガフェイス1300淀川",
-        "count": 5,
-        "x_url": "https://x.com/megaface_1300"
-      },
-      {
-        "rank": 10,
-        "name": "フェイス850佐賀",
-        "count": 5,
-        "x_url": "https://x.com/face_850"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 81
+        "count": 84
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 53
+        "count": 56
       },
       {
         "rank": 3,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 39
+        "count": 40
       },
       {
         "rank": 4,
@@ -450,7 +460,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 37
+        "count": 38
       },
       {
         "rank": 2,
@@ -474,12 +484,12 @@
       },
       {
         "rank": 6,
-        "name": "eカケグルイ",
-        "count": 7
+        "name": "eリコリス・リコイル",
+        "count": 8
       },
       {
         "rank": 7,
-        "name": "eリコリス・リコイル",
+        "name": "eカケグルイ",
         "count": 7
       },
       {
@@ -498,28 +508,31 @@
         "count": 3
       }
     ],
-    "total_count": 509
+    "total_count": 519
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 10,
     "楽園池袋店ゲートウェイ": 10,
     "マルハンメガシティ三島駿東": 7,
     "マルハン仙台苦竹店": 7,
+    "キクヤ春日井店": 7,
     "キャッスル春日井": 7,
+    "マルハン亀有店_亀にゃん": 6,
     "ARROW浪速店": 6,
     "グランキコーナひたちなか店": 6,
     "キング観光サウザンド栄若宮大通店": 5,
     "メガフェイス1300淀川": 5,
+    "SuperD'station東金店": 5,
     "フェイス850佐賀": 5,
-    "キクヤ春日井店": 5,
     "楽園池袋店グリーンサイド": 5,
     "パラッツォ鳩ヶ谷店": 4,
-    "マルハン亀有店_亀にゃん": 4,
     "楽園蒲田店": 4,
     "SUPER COSMO PREMIUM大東店": 4,
     "マルハンメガシティ伊勢崎": 4,
     "楽園大宮店": 4,
+    "SPACE(スペース444＆666)": 4,
     "キクヤ一宮店": 4,
+    "テキサス小倉店": 4,
     "プレイランドキャッスル東郷店": 4,
     "メガフェイス菊陽": 4,
     "栄若宮大通店": 4,
@@ -531,14 +544,12 @@
     "プレイランドキャッスル春日井店": 3,
     "天国朝生田店1020": 3,
     "マルハン仙台名坊店": 3,
-    "SuperD'station東金店": 3,
     "ゾーン行橋1000": 3,
     "SuperD'station前橋大利根店": 3,
     "ビックマーチ東習志野店": 3,
     "ダイナム長野上田店": 3,
     "キクヤ穂積店": 3,
     "甲府昭和店": 3,
-    "テキサス小倉店": 3,
     "スーパーD’ステーション３９女神店": 3,
     "キャッスル高浜店": 3,
     "店長あらた　マルハンメガシティ長野": 3,
@@ -547,10 +558,10 @@
     "G松原店": 3,
     "メガフェイス960飯塚": 3,
     "グランドホール港南店": 3,
-    "SPACE(スペース444＆666)": 3,
     "キコーナ海老名": 3,
     "ビックマーチ桐生店": 2,
     "マルハン袋井店": 2,
+    "サガちゃんPARK": 2,
     "ビックマーチ八斗島店": 2,
     "ビックマーチ藤代店@店舗の仲間たち": 2,
     "りっちらんど上尾": 2,
@@ -603,6 +614,7 @@
     "テキサス段原店": 2,
     "キャッスル天白店": 2,
     "エクスアリーナ松戸": 2,
+    "キコーナ海老名店": 1,
     "サンキワールド美作店": 1,
     "サラリーマン店長メガシティ静岡": 1,
     "羅木店": 1,
@@ -666,7 +678,6 @@
     "マルハン八千代東店": 1,
     "AI店長/マルハン相模原店": 1,
     "楽園渋谷道玄坂店": 1,
-    "サガちゃんPARK": 1,
     "あおばさち": 1,
     "ワールドカップ+1新倉吉店": 1,
     "ダイナム岐阜高山店": 1,

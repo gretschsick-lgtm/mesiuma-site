@@ -69,6 +69,28 @@
     "store_id": "abcf4e1c2c"
   },
   {
+    "id": "f6a5f1f0a40d",
+    "date": "2026-06-01",
+    "time": "19:02",
+    "store": "サガちゃんPARK",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "1463",
+    "text": "ヤッホー     コンプリート達成   eリコリス・リコイルM3　1463番台   おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2061387987179671862",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T22:21:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJuFZrBagAAP4sf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJuFZrBagAAP4sf?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "3a8e08cee48f",
     "date": "2026-06-01",
     "time": "18:25",

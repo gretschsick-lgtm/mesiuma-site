@@ -785,6 +785,28 @@
     "manager_x_url": "https://x.com/aitatencho"
   },
   {
+    "id": "a827358818c3",
+    "date": "2026-05-30",
+    "time": "18:36",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "100",
+    "text": "【SPACE666】 コンプリート発生 北斗の拳　転生の章２【100番台】 おめでとうございます",
+    "x_url": "https://x.com/space666tobata/status/2060656647685767670",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T22:21:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjsSHEbIAAHVRO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjsSHEbIAAHVRO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "222daa8a5d67",
     "date": "2026-05-30",
     "time": "18:34",
@@ -1019,6 +1041,28 @@
     "store_id": "c545330ad2"
   },
   {
+    "id": "9731a1b7d19e",
+    "date": "2026-05-30",
+    "time": "16:08",
+    "store": "SuperD'station東金店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんにちは スーパーD'ステーション東金店です  本日も出ました e牙狼12黄金騎士極限 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後もお時間の許します限り ごゆっくりお楽しみ下さいませ  #千葉 #東金 #Dステ #牙狼 #スマパチ",
+    "x_url": "https://x.com/sd_tougane/status/2060619366635622825",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T22:22:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjJg77aAAAcVyN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjJg77aAAAcVyN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "7f6d7ae0f2"
+  },
+  {
     "id": "f3298108637b",
     "date": "2026-05-30",
     "time": "14:53",
@@ -1104,6 +1148,29 @@
     "store_x_url": "https://x.com/fuwafuwa_bm",
     "source_account_type": "store_official",
     "store_id": "ad7b9c09cc"
+  },
+  {
+    "id": "6d0981f13d61",
+    "date": "2026-05-30",
+    "time": "08:30",
+    "store": "テキサス小倉店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おはようございます テキサス小倉店です  5/29の結果発表       コンプリート機種 L革命機ヴァルヴレイヴ2 L炎炎ノ消防隊2 2台ランクインでした。  なんと…万枚も10台達成  週末のご遊技機種の参考にどうぞ  本日も多数様の御来店 お待ちしております。  #スロハン #30日",
+    "x_url": "https://x.com/texas_kokura/status/2060503957202485471",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T22:22:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJf6z0UaMAAgmNU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJf60AgboAAT1Cd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJf6z0UaMAAgmNU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "7be267e3ea"
   },
   {
     "id": "ff287bdc99b1",
