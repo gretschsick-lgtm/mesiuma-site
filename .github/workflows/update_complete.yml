@@ -6,6 +6,11 @@ on:
     # JST 15:00〜翌2:00（夕方〜深夜・パチンコ営業時間帯）: 30分ごと フル収集
     # UTC 06:00〜17:00（30分間隔）
     - cron: "*/30 6-17 * * *"
+    # ── プライムタイム固定補完（スケジューラーgap対策）──────────────────────
+    # UTC 13:00 = JST 22:00: 21:00〜22:00帯の漏れ補完（コンプ投稿ピーク帯）
+    - cron: "0 13 * * *"
+    # UTC 14:30 = JST 23:30: 22:30〜23:30帯の漏れ補完
+    - cron: "30 14 * * *"
     # JST 08:00・10:00・12:00（午前中）: 追加ラン（前日漏れ補完 + 朝投稿キャッチ）
     # UTC 23:00（JST 08:00）
     - cron: "0 23 * * *"
@@ -40,10 +45,11 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 25  # 各ジョブ最大195/4×9.5s ≈ 8分 + バッファ
+    timeout-minutes: 25  # 各ジョブ最大 50クエリ×9.5s ≈ 8分 + バッファ
     strategy:
       matrix:
-        mode: [handle_a, handle_b, keyword_a, keyword_b]
+        # 7並列: handle_a〜d（rank1-200直接クエリ）+ keyword_a/b（全国キーワード）+ manager（店長専用）
+        mode: [handle_a, handle_b, handle_c, handle_d, keyword_a, keyword_b, manager]
       fail-fast: false  # 1ジョブ失敗でも他は継続
 
     steps:

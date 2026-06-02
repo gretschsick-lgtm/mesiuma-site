@@ -5770,5 +5770,29 @@
     "x_url": "https://x.com/wl_kitakyushu",
     "count": 0,
     "type": "store"
+  },
+  "gaia_oomagari": {
+    "type": "store",
+    "store": "ガイア大曲店",
+    "count": 0,
+    "x_url": "https://x.com/gaia_oomagari"
+  },
+  "gaia_oojima": {
+    "type": "store",
+    "store": "ガイア大島店",
+    "count": 0,
+    "x_url": "https://x.com/gaia_oojima"
+  },
+  "gaia_kyodo": {
+    "type": "store",
+    "store": "ガイア経堂",
+    "count": 0,
+    "x_url": "https://x.com/gaia_kyodo"
+  },
+  "dynam_hokkaido": {
+    "type": "store",
+    "store": "ダイナム北海道地域",
+    "count": 0,
+    "x_url": "https://x.com/dynam_hokkaido"
   }
 }

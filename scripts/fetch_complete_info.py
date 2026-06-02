@@ -2052,8 +2052,9 @@ def main():
     parser.add_argument("--headless", action="store_true")
     parser.add_argument("--date", default=None)
     parser.add_argument("--mode", default="all",
-        choices=["all", "handle_a", "handle_b", "keyword_a", "keyword_b", "keyword", "handle"],
-        help="収集モード: handle_a=上位50ハンドル, handle_b=51-100ハンドル, keyword_a=前半キーワード, keyword_b=後半キーワード")
+        choices=["all", "handle_a", "handle_b", "handle_c", "handle_d",
+                 "keyword_a", "keyword_b", "keyword", "handle", "manager"],
+        help="収集モード: handle_a=上位50 / handle_b=51-100 / handle_c=101-150 / handle_d=151-200 / manager=店長専用 / keyword_a/b=キーワード前後半")
     parser.add_argument("--partial", action="store_true",
         help="部分収集モード: complete_partial_{mode}.json に書き出す（merge_complete_data.py で統合）")
     args = parser.parse_args()
@@ -2084,14 +2085,24 @@ def main():
                     _HANDLE_TO_STORE[h.lower()] = info["store"]
                     _HANDLE_TO_INFO[h.lower()] = info
             log(f"📋 ハンドル→店舗名マップ {len(_HANDLE_TO_STORE)}件 登録")
-            # count >= 1 の実績ある店舗アカウントを対象（上位100件まで）
+            # count >= 1 の実績ある店舗アカウントを対象（上位200件まで）
             active_handles = [
                 (h, info) for h, info in store_handles_data.items()
                 if isinstance(info, dict) and info.get("count", 0) >= 1
+                and info.get("type", "store") != "manager"
             ]
             active_handles.sort(key=lambda x: -x[1].get("count", 0))
-            handle_queries = [f"from:{h} コンプリート" for h, _ in active_handles[:100]]
+            handle_queries = [f"from:{h} コンプリート" for h, _ in active_handles[:200]]
             log(f"📋 from:handle クエリ {len(handle_queries)}件 追加")
+
+            # 店長・副店長・主任アカウント（count閾値なし・全件対象）
+            manager_handles_list = [
+                (h, info) for h, info in store_handles_data.items()
+                if isinstance(info, dict) and info.get("type") == "manager"
+            ]
+            manager_handles_list.sort(key=lambda x: -x[1].get("count", 0))
+            manager_queries = [f"from:{h} コンプリート" for h, _ in manager_handles_list]
+            log(f"📋 manager from:handle クエリ {len(manager_queries)}件 追加")
         except Exception as _he:
             log(f"⚠️ store_handles.json 読み込みエラー: {_he}")
 
@@ -2110,7 +2121,16 @@ def main():
         all_queries = handle_queries[:50]
     elif _mode == "handle_b":
         # handle_b: 51〜100ハンドル
-        all_queries = handle_queries[50:]
+        all_queries = handle_queries[50:100]
+    elif _mode == "handle_c":
+        # handle_c: 101〜150ハンドル
+        all_queries = handle_queries[100:150]
+    elif _mode == "handle_d":
+        # handle_d: 151〜200ハンドル
+        all_queries = handle_queries[150:200]
+    elif _mode == "manager":
+        # manager: 店長・副店長・主任アカウント専用
+        all_queries = manager_queries
     else:  # "all"
         all_queries = list(COMPLETE_QUERIES) + handle_queries
 
