@@ -3556,5 +3556,83 @@
     "x_url": "https://x.com/maruhanshizunai",
     "count": 0,
     "type": "store"
+  },
+  "akita_slot_info": {
+    "type": "manager",
+    "store": "",
+    "count": 0,
+    "x_url": "https://x.com/akita_slot_info"
+  },
+  "abc_shiraita": {
+    "type": "manager",
+    "store": "",
+    "count": 0,
+    "x_url": "https://x.com/abc_shiraita"
+  },
+  "dynam_00160": {
+    "type": "manager",
+    "store": "",
+    "count": 0,
+    "x_url": "https://x.com/dynam_00160"
+  },
+  "dynam_00326": {
+    "type": "manager",
+    "store": "",
+    "count": 0,
+    "x_url": "https://x.com/dynam_00326"
+  },
+  "mg_koshigayaoz": {
+    "type": "manager",
+    "store": "",
+    "count": 0,
+    "x_url": "https://x.com/mg_koshigayaoz"
+  },
+  "kansai_slot": {
+    "type": "manager",
+    "store": "",
+    "count": 0,
+    "x_url": "https://x.com/kansai_slot"
+  },
+  "dynam_00405": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00405",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00402": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00402",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00157": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00157",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00256": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00256",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00248": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00248",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00098": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00098",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00129": {
+    "store": "ダイナム（自動発掘）",
+    "x_url": "https://x.com/dynam_00129",
+    "count": 0,
+    "type": "store"
   }
 }
