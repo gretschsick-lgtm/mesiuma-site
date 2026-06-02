@@ -28,20 +28,41 @@ STORE_HANDLES_JSON = ROOT / "public" / "store_handles.json"
 MANAGER_KEYWORDS = [
     "tencho", "tenchou", "店長", "副店長", "主任", "店長公式",
     "tentyou", "storemanager", "store_manager",
+    "エリア長", "統括", "支配人", "番台長", "スーパーバイザー",
+    "area_manager", "areamgr", "sv_", "area_",
 ]
 
 # 明らかに店長アカウントでないキーワード（false positive 除去）
-NG_KEYWORDS = ["公式", "official", "企業", "corp", "pr", "news"]
+NG_KEYWORDS = ["公式", "official", "企業", "corp", "pr", "news",
+               "採用", "recruit", "求人", "campaign", "キャンペーン"]
 
 # 店長系キーワード収集クエリ
 MANAGER_SEARCH_QUERIES = [
+    # 店長系
     "店長 コンプリート機能発動 番台",
     "店長 コンプリート達成 番台",
     "tencho コンプリート 番台",
-    "副店長 コンプリート 番台",
     "当店長 コンプリート 番台",
     "うちの店長 コンプリート 番台",
     "店長より コンプリート 番台",
+    "店長公式 コンプリート 番台",
+    "店長ブログ コンプリート 番台",
+    # 副店長・主任
+    "副店長 コンプリート 番台",
+    "副店長 コンプリート機能発動",
+    "主任 コンプリート 番台",
+    "主任 コンプリート機能発動 番台",
+    # エリア長・統括
+    "エリア長 コンプリート 番台",
+    "統括 コンプリート 番台",
+    "スーパーバイザー コンプリート 番台",
+    # 英語・ローマ字系
+    "tencho コンプリート機能",
+    "tenchou コンプリート 番台",
+    "store manager コンプリート 番台",
+    # 店番台長系
+    "番台長 コンプリート",
+    "支配人 コンプリート 番台",
 ]
 
 try:
