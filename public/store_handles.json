@@ -3280,5 +3280,281 @@
     "x_url": "https://x.com/sunshine_kouhou",
     "count": 0,
     "type": "store"
+  },
+  "pachislotenchou": {
+    "store": "マルハン静岡東部店長",
+    "x_url": "https://x.com/pachislotenchou",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruiketentyou": {
+    "store": "マルハンメガシティ柏店長",
+    "x_url": "https://x.com/maruiketentyou",
+    "count": 0,
+    "type": "manager"
+  },
+  "tenchowashimiya": {
+    "store": "マルハン鷲宮店長",
+    "x_url": "https://x.com/tenchowashimiya",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhankanda": {
+    "store": "マルハン八千代東店長",
+    "x_url": "https://x.com/maruhankanda",
+    "count": 0,
+    "type": "manager"
+  },
+  "marumeganeten": {
+    "store": "マルハン氏家店長",
+    "x_url": "https://x.com/marumeganeten",
+    "count": 0,
+    "type": "manager"
+  },
+  "naeboss20041229": {
+    "store": "マルハン札幌北店長",
+    "x_url": "https://x.com/naeboss20041229",
+    "count": 0,
+    "type": "manager"
+  },
+  "m_kamimaru": {
+    "store": "マルハン統括店長（小牧・茶屋が坂）",
+    "x_url": "https://x.com/m_kamimaru",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhan_gotenba": {
+    "store": "マルハン萩原東店長",
+    "x_url": "https://x.com/maruhan_gotenba",
+    "count": 0,
+    "type": "manager"
+  },
+  "mujiie_ten": {
+    "store": "マルハンメガシティ伊勢崎店長",
+    "x_url": "https://x.com/mujiie_ten",
+    "count": 0,
+    "type": "manager"
+  },
+  "dynam_002200": {
+    "store": "ダイナム島原店長",
+    "x_url": "https://x.com/dynam_002200",
+    "count": 0,
+    "type": "manager"
+  },
+  "dynam_kodooji": {
+    "store": "ダイナム大胡店長",
+    "x_url": "https://x.com/dynam_kodooji",
+    "count": 0,
+    "type": "manager"
+  },
+  "dynam_00252": {
+    "store": "ダイナム松任店",
+    "x_url": "https://x.com/dynam_00252",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00067": {
+    "store": "ダイナム白河店",
+    "x_url": "https://x.com/dynam_00067",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00366": {
+    "store": "ダイナム山形寒河江店",
+    "x_url": "https://x.com/dynam_00366",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00117": {
+    "store": "ダイナム松阪店",
+    "x_url": "https://x.com/dynam_00117",
+    "count": 0,
+    "type": "store"
+  },
+  "dynam_00369": {
+    "store": "ダイナム群馬桐生店",
+    "x_url": "https://x.com/dynam_00369",
+    "count": 0,
+    "type": "store"
+  },
+  "kingwakamiya": {
+    "store": "キング観光エリア長（若宮・金山・柳橋）",
+    "x_url": "https://x.com/kingwakamiya",
+    "count": 0,
+    "type": "manager"
+  },
+  "king_suzuin": {
+    "store": "キング観光鈴鹿インター店長",
+    "x_url": "https://x.com/king_suzuin",
+    "count": 0,
+    "type": "manager"
+  },
+  "king_ise01": {
+    "store": "キング観光サウザンド伊勢店",
+    "x_url": "https://x.com/king_ise01",
+    "count": 0,
+    "type": "store"
+  },
+  "takemaru_bm": {
+    "store": "ビックマーチつくば本店/高崎おおやぎ店長",
+    "x_url": "https://x.com/takemaru_bm",
+    "count": 0,
+    "type": "manager"
+  },
+  "you1890863": {
+    "store": "ビックマーチ伊勢崎店長",
+    "x_url": "https://x.com/You1890863",
+    "count": 0,
+    "type": "manager"
+  },
+  "bm_ishibashi": {
+    "store": "ビックマーチ石橋店",
+    "x_url": "https://x.com/bm_ishibashi",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_nishikawada": {
+    "store": "ビックマーチ西川田店",
+    "x_url": "https://x.com/bm_nishikawada",
+    "count": 0,
+    "type": "store"
+  },
+  "sc_watari": {
+    "store": "ビックマーチ渡里店",
+    "x_url": "https://x.com/sc_watari",
+    "count": 0,
+    "type": "store"
+  },
+  "mjkuukou": {
+    "store": "MJアリーナ空港店",
+    "x_url": "https://x.com/mjkuukou",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_niigata": {
+    "store": "マルハン松島店",
+    "x_url": "https://x.com/maruhan_niigata",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_towada": {
+    "store": "マルハン十和田店",
+    "x_url": "https://x.com/maruhan_towada",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_tanno": {
+    "store": "マルハン端野店",
+    "x_url": "https://x.com/maruhan_tanno",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_shunan": {
+    "store": "マルハン周南店",
+    "x_url": "https://x.com/maruhan_shunan",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_hu": {
+    "store": "マルハン東浦店",
+    "x_url": "https://x.com/maruhan_HU",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_sagami": {
+    "store": "マルハン相模原店",
+    "x_url": "https://x.com/maruhan_sagami",
+    "count": 0,
+    "type": "store"
+  },
+  "ma_kun_maruhan": {
+    "store": "マルハン那須塩原店",
+    "x_url": "https://x.com/ma_kun_maruhan",
+    "count": 0,
+    "type": "store"
+  },
+  "bd88maruhan": {
+    "store": "マルハン松飛台店",
+    "x_url": "https://x.com/bd88maruhan",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_koiwa": {
+    "store": "マルハン小岩店",
+    "x_url": "https://x.com/MARUHAN_KOIWA",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhanmito": {
+    "store": "マルハン水戸けやき台店",
+    "x_url": "https://x.com/maruhanmito",
+    "count": 0,
+    "type": "store"
+  },
+  "dedemaruhan": {
+    "store": "マルハン川崎桜本店",
+    "x_url": "https://x.com/dedemaruhan",
+    "count": 0,
+    "type": "store"
+  },
+  "nishimo_maruhan": {
+    "store": "マルハン太田新道町店",
+    "x_url": "https://x.com/nishimo_maruhan",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_hamada": {
+    "store": "マルハン浜田店",
+    "x_url": "https://x.com/maruhan_hamada",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_mutsu": {
+    "store": "マルハンむつ店",
+    "x_url": "https://x.com/maruhan_mutsu",
+    "count": 0,
+    "type": "store"
+  },
+  "maru_kudamatsu": {
+    "store": "マルハン下松店",
+    "x_url": "https://x.com/maru_kudamatsu",
+    "count": 0,
+    "type": "store"
+  },
+  "yattajima_m": {
+    "store": "マルハン八斗島店",
+    "x_url": "https://x.com/yattajima_m",
+    "count": 0,
+    "type": "store"
+  },
+  "yattajima0422": {
+    "store": "マルハン大間々店",
+    "x_url": "https://x.com/yattajima0422",
+    "count": 0,
+    "type": "store"
+  },
+  "ishiokamaruhan": {
+    "store": "マルハン石岡店",
+    "x_url": "https://x.com/ishiokamaruhan",
+    "count": 0,
+    "type": "store"
+  },
+  "yamajinmaruhan": {
+    "store": "マルハン鶴見店",
+    "x_url": "https://x.com/yamajinmaruhan",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_tsukuba": {
+    "store": "マルハンつくば店",
+    "x_url": "https://x.com/maruhan_tsukuba",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhanshizunai": {
+    "store": "マルハン静内店",
+    "x_url": "https://x.com/maruhanshizunai",
+    "count": 0,
+    "type": "store"
   }
 }

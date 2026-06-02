@@ -1,0 +1,111 @@
+name: Discover Manager Handles
+
+on:
+  schedule:
+    # 毎週月曜 JST 09:00 (UTC 00:00)
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'dry-run モード（store_handles.json を更新しない）'
+        required: false
+        default: 'false'
+      max_stores:
+        description: '巡回する上位店舗数 (default: 30)'
+        required: false
+        default: '30'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discover-manager-handles
+  cancel-in-progress: true
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install playwright playwright-stealth cryptography
+          playwright install chromium --with-deps
+
+      - name: Discover manager handles
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+          X_USERNAME: ${{ secrets.X_USERNAME }}
+          X_PASSWORD: ${{ secrets.X_PASSWORD }}
+          COOKIE_ENCRYPT_KEY: ${{ secrets.COOKIE_ENCRYPT_KEY }}
+        run: |
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+          MAX_STORES="${{ github.event.inputs.max_stores }}"
+          MAX_STORES="${MAX_STORES:-30}"
+
+          ARGS="--headless --max-stores ${MAX_STORES}"
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+
+          python scripts/fetch_manager_handles.py $ARGS
+
+      - name: Discover chain handles
+        env:
+          X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
+          X_CT0: ${{ secrets.X_CT0 }}
+          X_USERNAME: ${{ secrets.X_USERNAME }}
+          X_PASSWORD: ${{ secrets.X_PASSWORD }}
+          COOKIE_ENCRYPT_KEY: ${{ secrets.COOKIE_ENCRYPT_KEY }}
+        run: |
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+          ARGS="--headless"
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          python scripts/fetch_chain_handles.py $ARGS || true
+
+      - name: Commit and push if changed
+        if: github.event.inputs.dry_run != 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
+
+          for i in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            git add public/store_handles.json scripts/.x_session.enc 2>/dev/null || true
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              break
+            fi
+
+            COUNT=$(python3 -c "import json; d=json.load(open('public/store_handles.json')); mgr=sum(1 for v in d.values() if isinstance(v,dict) and v.get('type')=='manager'); print(mgr)")
+            git commit -m "chore: discover manager/chain handles (manager: ${COUNT}件)"
+
+            if git push; then
+              echo "✅ Push succeeded (attempt ${i})"
+              break
+            else
+              git reset HEAD~1
+              echo "⚠️ Retry ${i}..."
+              sleep 10
+            fi
+          done
