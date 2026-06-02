@@ -13,6 +13,9 @@
     "image_url": "https://pbs.twimg.com/media/HHN-m4CbgAAutuN?format=jpg&name=large",
     "x_url": "https://x.com/megaface_1300/status/2050121467489382707",
     "collected_at": "2026-05-21T11:33:05Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "megaface_1300",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/megaface_1300"
   }
 ]

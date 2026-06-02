@@ -16,7 +16,10 @@
     "image_url": "https://pbs.twimg.com/media/HHZOK4ibUAA9qog?format=jpg&name=large",
     "x_url": "https://x.com/isesaki_maruhan/status/2050913095070204088",
     "collected_at": "2026-05-21T11:35:34Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "isesaki_maruhan",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/isesaki_maruhan"
   },
   {
     "id": "834a4695789b",
@@ -32,7 +35,10 @@
     "image_url": "https://pbs.twimg.com/media/HHYynjZbIAAtvaU?format=jpg&name=large",
     "x_url": "https://x.com/mn_utazu/status/2050882347223122311",
     "collected_at": "2026-05-21T11:11:56Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "mn_utazu",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/mn_utazu"
   },
   {
     "id": "e95cca537d92",
@@ -48,7 +54,10 @@
     "image_url": "https://pbs.twimg.com/media/HHWQHnDa4AAYcaw?format=jpg&name=large",
     "x_url": "https://x.com/KawagutiAngyo/status/2050711940347908509",
     "collected_at": "2026-05-21T11:11:57Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kawagutiangyo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kawagutiangyo"
   },
   {
     "id": "55d618425912",
@@ -67,7 +76,10 @@
     "image_url": "https://pbs.twimg.com/media/HHWSm6Ga4AAEqC_?format=jpg&name=large",
     "x_url": "https://x.com/tokai_kaede/status/2050706559190315177",
     "collected_at": "2026-05-21T11:11:57Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "tokai_kaede",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/tokai_kaede"
   },
   {
     "id": "0654236075bc",
@@ -86,6 +98,9 @@
     "image_url": "https://pbs.twimg.com/media/HHVMBsfaYAA2fGe?format=jpg&name=large",
     "x_url": "https://x.com/saku07saku/status/2050628803144438073",
     "collected_at": "2026-05-21T11:11:57Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "saku07saku",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/saku07saku"
   }
 ]

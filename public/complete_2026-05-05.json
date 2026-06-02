@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HHj_t0PXAAA1xAl?format=jpg&name=large",
     "x_url": "https://x.com/dynam_00167/status/2051670797085798417",
     "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "dynam_00167",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/dynam_00167"
   },
   {
     "id": "76fae77a4d6b",
@@ -30,7 +33,10 @@
     "image_url": "https://pbs.twimg.com/media/HHjWFO5bQAAW5oR?format=jpg&name=large",
     "x_url": "https://x.com/shintentyoDee1/status/2051628301765238825",
     "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "shintentyodee1",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/shintentyoDee1"
   },
   {
     "id": "9a5367c922b6",
@@ -46,6 +52,9 @@
     "image_url": "https://pbs.twimg.com/media/HHjQjVDaIAAG5CX?format=jpg&name=large",
     "x_url": "https://x.com/Kicona_ebina/status/2051619027789951026",
     "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kicona_ebina",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kicona_ebina"
   }
 ]

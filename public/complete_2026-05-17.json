@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HIhXaNfa0AAFshD?format=jpg&name=large",
     "x_url": "https://x.com/Majishan_Tencho/status/2055989343806980125",
     "collected_at": "2026-05-21T10:54:58Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "majishan_tencho",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/majishan_tencho"
   },
   {
     "id": "0e82168e3cc3",
@@ -29,7 +32,10 @@
     "image_url": "https://pbs.twimg.com/media/HIhQH04asAAAr8N?format=jpg&name=large",
     "x_url": "https://x.com/ba_shunan/status/2055985300510515257",
     "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "ba_shunan",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/ba_shunan"
   },
   {
     "id": "032bf3de97f4",
@@ -45,7 +51,10 @@
     "image_url": "https://pbs.twimg.com/media/HIhHk38aIAAu_is?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2055972070337695868",
     "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castleatsuta",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castleatsuta"
   },
   {
     "id": "8de8d9fe1651",
@@ -61,7 +70,10 @@
     "image_url": "https://pbs.twimg.com/media/HIhGE2rbMAAweR3?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2055970302933549277",
     "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castleatsuta",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castleatsuta"
   },
   {
     "id": "355336602de4",
@@ -77,6 +89,9 @@
     "image_url": "https://pbs.twimg.com/media/HIg97C2agAACh1j?format=jpg&name=large",
     "x_url": "https://x.com/XAmatsudo/status/2055961324937683455",
     "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "xamatsudo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/xamatsudo"
   }
 ]

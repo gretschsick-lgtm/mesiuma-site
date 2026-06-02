@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HIICu_ca0AAc0x9?format=jpg&name=large",
     "x_url": "https://x.com/niga_maru/status/2054209983928263165",
     "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "niga_maru",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/niga_maru"
   },
   {
     "id": "dc85c44328e4",
@@ -27,7 +30,10 @@
     "image_url": "https://pbs.twimg.com/media/HIHg-AsbkAAUYfa?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2054170389966950811",
     "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castleatsuta",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castleatsuta"
   },
   {
     "id": "90c3c44222e2",
@@ -46,7 +52,10 @@
     "image_url": "https://pbs.twimg.com/media/HIHXsR4bYAAQX9w?format=jpg&name=large",
     "x_url": "https://x.com/vd28829/status/2054161546721530035",
     "collected_at": "2026-05-21T11:20:59Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "vd28829",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/vd28829"
   },
   {
     "id": "d04407c69636",
@@ -62,7 +71,10 @@
     "image_url": "https://pbs.twimg.com/media/HIHG1qAakAALOBl?format=jpg&name=large",
     "x_url": "https://x.com/Kicona_sobudai/status/2054141541850161284",
     "collected_at": "2026-05-21T11:20:59Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kicona_sobudai",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kicona_sobudai"
   },
   {
     "id": "da25344386cc",
@@ -76,7 +88,10 @@
     "image_url": "https://pbs.twimg.com/media/HIG7lona8AAoga0?format=jpg&name=large",
     "x_url": "https://x.com/castleatsuta/status/2054131989075337588",
     "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castleatsuta",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castleatsuta"
   },
   {
     "id": "0ba1dc5771f8",
@@ -92,7 +107,10 @@
     "image_url": "https://pbs.twimg.com/media/HIG73cSbAAABaOg?format=jpg&name=large",
     "x_url": "https://x.com/castle_kasugai/status/2054129486145401230",
     "collected_at": "2026-05-21T11:24:30Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castle_kasugai",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castle_kasugai"
   },
   {
     "id": "fd261019e11d",
@@ -108,6 +126,9 @@
     "image_url": "https://pbs.twimg.com/media/HIG7qdcbwAA9mwh?format=jpg&name=large",
     "x_url": "https://x.com/castle_kasugai/status/2054129301822582926",
     "collected_at": "2026-05-21T11:24:30Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castle_kasugai",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castle_kasugai"
   }
 ]

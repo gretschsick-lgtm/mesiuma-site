@@ -14,6 +14,9 @@
     "image_url": "https://pbs.twimg.com/media/HInRliqbQAAAcd0?format=jpg&name=large",
     "x_url": "https://x.com/arrow_naniwa/status/2056405170473578520",
     "collected_at": "2026-05-21T10:57:16Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "arrow_naniwa",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/arrow_naniwa"
   }
 ]

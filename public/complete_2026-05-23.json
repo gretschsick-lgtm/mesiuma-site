@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAoNsebsAALGbo?format=jpg&name=large",
     "x_url": "https://x.com/rakuen_kamata/status/2058189357555798147",
     "collected_at": "2026-05-23T14:42:08Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "rakuen_kamata",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/rakuen_kamata"
   },
   {
     "id": "f371091a5a03",
@@ -31,7 +34,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAmpMxb0AA38XF?format=jpg&name=large",
     "x_url": "https://x.com/c_eagle_c/status/2058187522573017445",
     "collected_at": "2026-05-23T14:36:28Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "c_eagle_c",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/c_eagle_c"
   },
   {
     "id": "2ba17ec7844d",
@@ -47,7 +53,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAjLS1XkAEnm1G?format=jpg&name=large",
     "x_url": "https://x.com/dynam_00109/status/2058183709405090268",
     "collected_at": "2026-05-23T14:38:51Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "dynam_00109",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/dynam_00109"
   },
   {
     "id": "def6e5a52a2b",
@@ -63,7 +72,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAgHSqaAAADixN?format=jpg&name=large",
     "x_url": "https://x.com/omegamaiya/status/2058180346366263778",
     "collected_at": "2026-05-23T14:11:48Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "omegamaiya",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/omegamaiya"
   },
   {
     "id": "5b509e976028",
@@ -76,7 +88,10 @@
     "text": "楽園池袋店ゲートウェイです 本日、5月23日(日)  パチンココーナーから 2076番台【e　東京喰種】  コンプリート機能が作動いたしました  本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！",
     "x_url": "https://x.com/rakuenikebukuro/status/2058540326957228256",
     "collected_at": "2026-05-24T16:33:41Z",
-    "image_url": "https://pbs.twimg.com/media/HJFnf5zbgAAYbIs?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJFnf5zbgAAYbIs?format=jpg&name=large",
+    "store_handle": "rakuenikebukuro",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/rakuenikebukuro"
   },
   {
     "id": "5edf3c141220",
@@ -92,7 +107,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAYhHjbgAA3Kp9?format=jpg&name=large",
     "x_url": "https://x.com/kicona_odakico/status/2058171993934213364",
     "collected_at": "2026-05-23T14:41:23Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kicona_odakico",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kicona_odakico"
   },
   {
     "id": "de293bc64fc6",
@@ -105,7 +123,10 @@
     "text": "キコーナ府中店から速報ですᐠ(∗ᵔᗜᵔ∗)ᐟ  スロットから 【 スマスロ化物語 】 #コンプリート 達成〜  おめでとうございます   #キコーナ府中  #ハイパー818  #つぶやキコーナ",
     "x_url": "https://x.com/kicona_fuchu/status/2058171154943336786",
     "collected_at": "2026-05-24T10:27:29Z",
-    "image_url": "https://pbs.twimg.com/media/HJAXwWOawAAvYNy?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJAXwWOawAAvYNy?format=jpg&name=large",
+    "store_handle": "kicona_fuchu",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kicona_fuchu"
   },
   {
     "id": "6440b630738c",
@@ -121,7 +142,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAPE1Hb0AAP346?format=jpg&name=large",
     "x_url": "https://x.com/maruhan_natori/status/2058164575355429361",
     "collected_at": "2026-05-23T14:18:22Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "maruhan_natori",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/maruhan_natori"
   },
   {
     "id": "6f3d85410bb7",
@@ -138,7 +162,10 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HJAKUfbaEAA_Ns7?format=jpg&name=large",
     "x_url": "https://x.com/Kitasenjusss/status/2058156382172660217",
-    "collected_at": "2026-05-23T18:13:53Z"
+    "collected_at": "2026-05-23T18:13:53Z",
+    "store_handle": "kitasenjusss",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kitasenjusss"
   },
   {
     "id": "e4e06d222e6a",
@@ -154,7 +181,10 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HJAG3YJbwAA_dDG?format=jpg&name=large",
     "x_url": "https://x.com/wakakin_tsujic/status/2058152581852287312",
-    "collected_at": "2026-05-23T18:14:38Z"
+    "collected_at": "2026-05-23T18:14:38Z",
+    "store_handle": "wakakin_tsujic",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/wakakin_tsujic"
   },
   {
     "id": "60c3af173570",
@@ -170,7 +200,10 @@
     "image_url": "https://pbs.twimg.com/media/HJAGVjibsAAz9U3?format=jpg&name=large",
     "x_url": "https://x.com/monky0621bm/status/2058152003524825421",
     "collected_at": "2026-05-23T14:34:13Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "monky0621bm",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/monky0621bm"
   },
   {
     "id": "846ccdc9512a",
@@ -186,7 +219,10 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HI_-743bAAEPyXu?format=jpg&name=large",
     "x_url": "https://x.com/apulo_1229/status/2058145188816835010",
-    "collected_at": "2026-05-23T18:14:38Z"
+    "collected_at": "2026-05-23T18:14:38Z",
+    "store_handle": "apulo_1229",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/apulo_1229"
   },
   {
     "id": "4d6118619f03",
@@ -202,7 +238,10 @@
     "image_url": "https://pbs.twimg.com/media/HI__TgHawAABwSc?format=jpg&name=large",
     "x_url": "https://x.com/tsubame393939/status/2058144731235033248",
     "collected_at": "2026-05-23T11:19:28Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "tsubame393939",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/tsubame393939"
   },
   {
     "id": "6b43b00eb763",
@@ -218,7 +257,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_9uBLaEAEPYfu?format=jpg&name=large",
     "x_url": "https://x.com/Asagao0419/status/2058142527518298117",
     "collected_at": "2026-05-23T11:13:02Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "asagao0419",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/asagao0419"
   },
   {
     "id": "7c77cf5a6710",
@@ -234,7 +276,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_77YCaIAAocSG?format=jpg&name=large",
     "x_url": "https://x.com/sanco_umejima/status/2058140885611860452",
     "collected_at": "2026-05-23T11:09:45Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "sanco_umejima",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/sanco_umejima"
   },
   {
     "id": "6133cd80d5c7",
@@ -250,7 +295,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_7H7nbQAAlAbU?format=jpg&name=large",
     "x_url": "https://x.com/tencho_szk/status/2058139675571962056",
     "collected_at": "2026-05-23T12:44:19Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "tencho_szk",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/tencho_szk"
   },
   {
     "id": "f63f4c2cfa8a",
@@ -266,7 +314,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_6pp3bsAAWX1W?format=jpg&name=large",
     "x_url": "https://x.com/VEGABIQ1227/status/2058139186860097743",
     "collected_at": "2026-05-23T10:56:37Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "vegabiq1227",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/vegabiq1227"
   },
   {
     "id": "ddafd27449c0",
@@ -284,7 +335,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_5iRgaQAAJQm9?format=jpg&name=large",
     "x_url": "https://x.com/SUPER_CONCORDE/status/2058138134546907139",
     "collected_at": "2026-05-23T10:54:22Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "super_concorde",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/super_concorde"
   },
   {
     "id": "5fceb78a5c28",
@@ -300,7 +354,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_5W5sbcAAn3r8?format=jpg&name=large",
     "x_url": "https://x.com/VITA444VITA/status/2058137827129606393",
     "collected_at": "2026-05-23T11:07:13Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "vita444vita",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/vita444vita"
   },
   {
     "id": "b19d34b8ee80",
@@ -316,7 +373,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_yslHbQAA-XdW?format=jpg&name=large",
     "x_url": "https://x.com/GK_hitachinaka/status/2058130411650425080",
     "collected_at": "2026-05-23T10:59:46Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "gk_hitachinaka",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/gk_hitachinaka"
   },
   {
     "id": "63c384eda5d5",
@@ -332,7 +392,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_xB2OakAA2yw3?format=jpg&name=large",
     "x_url": "https://x.com/YONEPEE2288/status/2058128861112811852",
     "collected_at": "2026-05-23T11:17:04Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "yonepee2288",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/yonepee2288"
   },
   {
     "id": "68456e53fc44",
@@ -348,7 +411,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_us-ubgAAMajt?format=jpg&name=large",
     "x_url": "https://x.com/wl_takeo/status/2058128351915896843",
     "collected_at": "2026-05-23T11:10:30Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "wl_takeo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/wl_takeo"
   },
   {
     "id": "fa1c5c6da3bf",
@@ -364,7 +430,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_qdwqbIAA2IZS?format=jpg&name=large",
     "x_url": "https://x.com/luckyplaza1050/status/2058121757626863840",
     "collected_at": "2026-05-23T10:53:37Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "luckyplaza1050",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/luckyplaza1050"
   },
   {
     "id": "17fbeeb70c38",
@@ -380,7 +449,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_qLJXbgAALrGC?format=jpg&name=large",
     "x_url": "https://x.com/rakuenikebukuro/status/2058121722738663765",
     "collected_at": "2026-05-23T10:54:22Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "rakuenikebukuro",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/rakuenikebukuro"
   },
   {
     "id": "94211806aed6",
@@ -396,7 +468,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_kHoPa8AAVEP9?format=jpg&name=large",
     "x_url": "https://x.com/toaru_slotter/status/2058114379070210459",
     "collected_at": "2026-05-23T11:13:47Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "toaru_slotter",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/toaru_slotter"
   },
   {
     "id": "1f8eee4d961d",
@@ -412,7 +487,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_jv04aEAAXiRT?format=jpg&name=large",
     "x_url": "https://x.com/bm_kiryu/status/2058114268567077071",
     "collected_at": "2026-05-23T11:18:43Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "bm_kiryu",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/bm_kiryu"
   },
   {
     "id": "78e3db9cf571",
@@ -428,7 +506,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_jJxDa0AA_HJh?format=jpg&name=large",
     "x_url": "https://x.com/marujagten/status/2058113754228043869",
     "collected_at": "2026-05-23T11:18:43Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "marujagten",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/marujagten"
   },
   {
     "id": "ef1739aad50b",
@@ -444,7 +525,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_gBIrbkAAuKMk?format=jpg&name=large",
     "x_url": "https://x.com/maruhan_kameari/status/2058111945631232324",
     "collected_at": "2026-05-23T11:16:19Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "maruhan_kameari",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/maruhan_kameari"
   },
   {
     "id": "6de6a5204ac4",
@@ -461,7 +545,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_UzoebkAAhrsN?format=jpg&name=large",
     "x_url": "https://x.com/DTAKASAKIHONTEN/status/2058101270423150633",
     "collected_at": "2026-05-23T11:13:47Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "dtakasakihonten",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/dtakasakihonten"
   },
   {
     "id": "5a17b22edb24",
@@ -477,7 +564,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_XJ4maAAAZsjn?format=jpg&name=large",
     "x_url": "https://x.com/wingwarabi600/status/2058100134630834653",
     "collected_at": "2026-05-23T11:17:04Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "wingwarabi600",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/wingwarabi600"
   },
   {
     "id": "15e4c36687ce",
@@ -494,7 +584,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_Uxj-aoAA5jm9?format=jpg&name=large",
     "x_url": "https://x.com/face_850/status/2058097515216748817",
     "collected_at": "2026-05-23T10:55:52Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "face_850",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/face_850"
   },
   {
     "id": "3575a4857043",
@@ -510,7 +603,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_Rnh3asAAQfaj?format=jpg&name=large",
     "x_url": "https://x.com/KawagutiAngyo/status/2058094309585698968",
     "collected_at": "2026-05-23T10:55:52Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kawagutiangyo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kawagutiangyo"
   },
   {
     "id": "48036e428500",
@@ -527,7 +623,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_DD-ubsAAwIG7?format=jpg&name=large",
     "x_url": "https://x.com/DTAKASAKIHONTEN/status/2058088038404853802",
     "collected_at": "2026-05-23T10:55:52Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "dtakasakihonten",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/dtakasakihonten"
   },
   {
     "id": "fd9b5e1cfc3b",
@@ -546,7 +645,10 @@
     "image_url": "https://pbs.twimg.com/media/HImYc4LawAAlE-c?format=jpg&name=large",
     "x_url": "https://x.com/MTMmaruhan/status/2058076698898526222",
     "collected_at": "2026-05-23T10:57:22Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "mtmmaruhan",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/mtmmaruhan"
   },
   {
     "id": "710b5e686557",
@@ -563,7 +665,10 @@
     "image_url": "https://pbs.twimg.com/media/HI_Aas8aYAAFNQk?format=jpg&name=large",
     "x_url": "https://x.com/d_purple777/status/2058076332651921798",
     "collected_at": "2026-05-23T11:04:05Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "d_purple777",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/d_purple777"
   },
   {
     "id": "348c87c76e61",
@@ -580,7 +685,10 @@
     "image_url": "https://pbs.twimg.com/media/HI-98gzacAA1VdW?format=jpg&name=large",
     "x_url": "https://x.com/divo_x_chiyori/status/2058074518640566279",
     "collected_at": "2026-05-23T10:57:22Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "divo_x_chiyori",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/divo_x_chiyori"
   },
   {
     "id": "022a0bdd08f8",
@@ -596,7 +704,10 @@
     "image_url": "https://pbs.twimg.com/media/HI-ffV3asAAa3qG?format=jpg&name=large",
     "x_url": "https://x.com/castle_kasugai/status/2058039003358912904",
     "collected_at": "2026-05-23T10:53:37Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castle_kasugai",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castle_kasugai"
   },
   {
     "id": "be727328aa0a",
@@ -612,7 +723,10 @@
     "image_url": "https://pbs.twimg.com/media/HI-fIVHakAAFHX2?format=jpg&name=large",
     "x_url": "https://x.com/monky0621bm/status/2058038524474269790",
     "collected_at": "2026-05-23T11:39:16Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "monky0621bm",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/monky0621bm"
   },
   {
     "id": "9300928d9688",
@@ -630,7 +744,10 @@
     "image_url": "https://pbs.twimg.com/media/HI9vrV4bkAANDVJ?format=jpg&name=large",
     "x_url": "https://x.com/otsuka_sandra/status/2057999327868723266",
     "collected_at": "2026-05-23T11:43:18Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "otsuka_sandra",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/otsuka_sandra"
   },
   {
     "id": "b76a8842c815",
@@ -646,7 +763,10 @@
     "image_url": "https://pbs.twimg.com/media/HI6jKX1a8AACT-V?format=jpg&name=large",
     "x_url": "https://x.com/sansponavi/status/2057998950532039095",
     "collected_at": "2026-05-23T08:35:11Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "sansponavi",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/sansponavi"
   },
   {
     "id": "9d2f942e09e4",
@@ -663,7 +783,10 @@
     "images": [
       "https://pbs.twimg.com/media/HJC1qH5WYAAn1QS?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJC1qsPWoAId9Or?format=jpg&name=large"
-    ]
+    ],
+    "store_handle": "dynam_00284",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/dynam_00284"
   },
   {
     "id": "f53c79552c01",
@@ -682,6 +805,9 @@
     "image_url": "https://pbs.twimg.com/media/HI9mklZaMAAc8vd?format=jpg&name=large",
     "x_url": "https://x.com/texashakushima/status/2057982342678069341",
     "collected_at": "2026-05-23T11:43:18Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "texashakushima",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/texashakushima"
   }
 ]

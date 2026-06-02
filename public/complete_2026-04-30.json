@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HHJgvrXbIAAe6Vx?format=jpg&name=large",
     "x_url": "https://x.com/YUKO_CHIKUGO/status/2049807198835069372",
     "collected_at": "2026-05-21T11:33:05Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "yuko_chikugo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/yuko_chikugo"
   },
   {
     "id": "88085b04739b",
@@ -29,6 +32,9 @@
     "image_url": "https://pbs.twimg.com/media/HHJMLVKaEAArvsJ?format=jpg&name=large",
     "x_url": "https://x.com/Hara_Strong/status/2049784591444316347",
     "collected_at": "2026-05-21T11:33:05Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "hara_strong",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/hara_strong"
   }
 ]

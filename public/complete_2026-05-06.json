@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HHo1elybYAAvnOz?format=jpg&name=large",
     "x_url": "https://x.com/KawagutiAngyo/status/2052011390622466385",
     "collected_at": "2026-05-21T10:56:15Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kawagutiangyo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kawagutiangyo"
   },
   {
     "id": "ba4ba0995831",
@@ -29,7 +32,10 @@
     "image_url": "https://pbs.twimg.com/media/HHoqzYWbIAAm8vK?format=jpg&name=large",
     "x_url": "https://x.com/Rakuen_GS/status/2052003796822401230",
     "collected_at": "2026-05-21T10:56:15Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "rakuen_gs",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/rakuen_gs"
   },
   {
     "id": "25c745c7727e",
@@ -45,6 +51,9 @@
     "image_url": "https://pbs.twimg.com/media/HHoh9tdasAAkncm?format=jpg&name=large",
     "x_url": "https://x.com/ZENTkani/status/2051989969686999360",
     "collected_at": "2026-05-21T10:56:16Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "zentkani",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/zentkani"
   }
 ]

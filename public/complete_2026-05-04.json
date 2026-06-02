@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HHeL21obYAApXfC?format=jpg&name=large",
     "x_url": "https://x.com/GRANDmotoyama/status/2051262106843189250",
     "collected_at": "2026-05-21T10:58:17Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "grandmotoyama",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/grandmotoyama"
   },
   {
     "id": "1d034d98ba38",
@@ -29,6 +32,9 @@
     "image_url": "https://pbs.twimg.com/media/HHfBoyIboAABLyE?format=jpg&name=large",
     "x_url": "https://x.com/summitbeltupu/status/2051322481571697149",
     "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "summitbeltupu",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/summitbeltupu"
   }
 ]

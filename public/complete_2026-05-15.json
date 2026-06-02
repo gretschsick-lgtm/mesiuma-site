@@ -11,6 +11,9 @@
     "image_url": "https://pbs.twimg.com/media/HIXL-UOaUAAT8-I?format=jpg&name=large",
     "x_url": "https://x.com/castle_takahama/status/2055273337342120116",
     "collected_at": "2026-05-21T11:01:43Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "castle_takahama",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/castle_takahama"
   }
 ]

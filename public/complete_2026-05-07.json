@@ -13,7 +13,10 @@
     "image_url": "https://pbs.twimg.com/media/HHthTC8bcAAVPVA?format=jpg&name=large",
     "x_url": "https://x.com/Rakuen_GS/status/2052341040611524773",
     "collected_at": "2026-05-21T10:56:15Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "rakuen_gs",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/rakuen_gs"
   },
   {
     "id": "ae548f1bedd8",
@@ -29,7 +32,10 @@
     "image_url": "https://pbs.twimg.com/media/HHtTYczawAAidVW?format=jpg&name=large",
     "x_url": "https://x.com/KawagutiAngyo/status/2052326015272403328",
     "collected_at": "2026-05-21T10:56:15Z",
-    "machine_type": "slot"
+    "machine_type": "slot",
+    "store_handle": "kawagutiangyo",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/kawagutiangyo"
   },
   {
     "id": "de2884231cea",
@@ -45,6 +51,9 @@
     "image_url": "https://pbs.twimg.com/media/HHmeFiragAALhZ2?format=jpg&name=large",
     "x_url": "https://x.com/G_ONE_NIKENYA/status/2052146890188410891",
     "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "pachinko"
+    "machine_type": "pachinko",
+    "store_handle": "g_one_nikenya",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/g_one_nikenya"
   }
 ]
