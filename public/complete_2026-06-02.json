@@ -65,5 +65,27 @@
     "image_url": "https://pbs.twimg.com/media/HJzg_G3agAA-mqU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "3917e74a54"
+  },
+  {
+    "id": "aa4c7737659f",
+    "date": "2026-06-02",
+    "time": "19:27",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2833",
+    "text": "コンプリート情報  19:15 今週のオススメ機種 L革命機ヴァルヴレイヴ2   2833番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2061756604555698507",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T18:43:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJzUi-3acAAfvKQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJzUi-3acAAfvKQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "04138e2cd3"
   }
 ]

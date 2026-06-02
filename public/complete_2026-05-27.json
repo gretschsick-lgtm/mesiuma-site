@@ -1,5 +1,28 @@
 [
   {
+    "id": "dd378d1f24bf",
+    "date": "2026-05-27",
+    "time": "23:44",
+    "store": "キクヤ一宮店",
+    "machine": "パチスロ 革命機ヴァルヴレイヴ",
+    "machine_type": "slot",
+    "slot_number": "524",
+    "text": "本日はコンプリートが2台  524番台 21:25 パチスロ 革命機ヴァルヴレイヴ  387番台 21:40 L主役は銭形5  今回導入した銭形が 早くもコンプリートって 羨ましい",
+    "x_url": "https://x.com/ichinomiya1380/status/2059647014120661043",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T18:43:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJVWCoMa4AALSIY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJVWCoKaoAAKYmC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJVWCoMa4AALSIY?format=jpg&name=large",
+    "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
+    "store_id": "1fa35fdc7d"
+  },
+  {
     "id": "fc9a7ebb308e",
     "date": "2026-05-27",
     "time": "23:05",

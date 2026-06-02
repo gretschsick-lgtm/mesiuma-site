@@ -153,6 +153,28 @@
     "store_id": "8ea13b6c57"
   },
   {
+    "id": "3b28e4964461",
+    "date": "2026-05-31",
+    "time": "22:45",
+    "store": "りっちらんど上尾",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "311",
+    "text": "～りっちらんど速報～  　　　スロット 　　　　311番台 　　『ヴァルヴレイヴ2』  コンプリート 致しました  明日のご来店もお待ちしております",
+    "x_url": "https://x.com/richland_ageo/status/2061081557025300887",
+    "store_handle": "richland_ageo",
+    "store_x_url": "https://x.com/richland_ageo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T18:43:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpuiKrbUAEFbYu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpuiKrbUAEFbYu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "db8237aaa8"
+  },
+  {
     "id": "d4cf87a24aa0",
     "date": "2026-05-31",
     "time": "22:15",
