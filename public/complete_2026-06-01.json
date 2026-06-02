@@ -46,6 +46,29 @@
     "store_id": "bdd2e55ff9"
   },
   {
+    "id": "df7d70826cb6",
+    "date": "2026-06-01",
+    "time": "17:37",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "439",
+    "text": "こんにちは マルハンメガシティ三島駿東です  続・コンプリート情報 ｅ新世紀エヴァンゲリオン１７　はじまりの記憶Ｒ 439番台  コンプリートされたお客様 おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2061366431607124478",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T14:36:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJtwmpfaIAA3V02?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJtVO8paIAAiEuH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJtwmpfaIAA3V02?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "caa33bcf066a",
     "date": "2026-06-01",
     "time": "17:10",
