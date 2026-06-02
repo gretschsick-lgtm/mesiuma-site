@@ -131,6 +131,28 @@
     "store_id": "7d561df44c"
   },
   {
+    "id": "d4cf87a24aa0",
+    "date": "2026-05-31",
+    "time": "22:15",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "2610",
+    "text": "コンプリート機能発動 先ほど、 ２６１０番台   スマスロ東京喰種 にて   コンプリート機能発動！！  明日開放予定になります。   明日も    #キャッスル春日井 へ  ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2061074009119494187",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T15:13:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpn3mEbUAA5nZD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpn3mEbUAA5nZD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "cbc9c2710d"
+  },
+  {
     "id": "46545a9ebce9",
     "date": "2026-05-31",
     "time": "22:08",
@@ -625,6 +647,28 @@
     "store_x_url": "https://x.com/yamaguchitexas",
     "source_account_type": "store_official",
     "store_id": "ae3ae0c75f"
+  },
+  {
+    "id": "2b294a9d785b",
+    "date": "2026-05-31",
+    "time": "13:32",
+    "store": "ゼント豊橋藤沢店",
+    "machine": "eとある科学の超電磁砲2",
+    "machine_type": "pachinko",
+    "slot_number": "334",
+    "text": "334番台 eとある科学の超電磁砲 PHASE NEXT コンプリート機能作動しました 解放は明日となります この後もご来店お待ちしております  #フジゼン #ZENT豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi/status/2060942363670028664",
+    "store_handle": "zenttoyohashi",
+    "store_x_url": "https://x.com/ZENTtoyohashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T15:14:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJnwIiIbQAAviV-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJnwIiIbQAAviV-?format=jpg&name=large",
+    "machine_id": "df2d4e4c-6302-4b7a-9b14-67305485d063",
+    "store_id": "25a28fe066"
   },
   {
     "id": "3d76513cab77",
