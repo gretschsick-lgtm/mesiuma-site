@@ -141,7 +141,7 @@
     "store": "店長あらた　マルハンメガシティ長野",
     "x_url": "https://x.com/aratanarutentyo",
     "count": 3,
-    "type": "store"
+    "type": "manager"
   },
   "kicona_matsubra": {
     "store": "G松原店",
@@ -273,7 +273,7 @@
     "store": "でこぼこ店長",
     "x_url": "https://x.com/divo_x_chiyori",
     "count": 2,
-    "type": "store"
+    "type": "manager"
   },
   "dynam_00284": {
     "store": "ダイナム富山砺波店",
@@ -639,7 +639,7 @@
     "store": "プラチナム5-中の人-",
     "x_url": "https://x.com/platinum5_main",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "tsubame_beam": {
     "store": "つばめザ・ビーム",
@@ -837,7 +837,7 @@
     "store": "店長マエダクラブイーグル千歳",
     "x_url": "https://x.com/c_eagle_c",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "omegamaiya": {
     "store": "オメガ舞屋EAST&WEST",
@@ -1413,7 +1413,7 @@
     "store": "AI店長/マルハン相模原店",
     "x_url": "https://x.com/aitencho_x",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "rakuenshibuya1": {
     "store": "楽園渋谷道玄坂店",
@@ -1491,7 +1491,7 @@
     "store": "サラリーマン店長メガシティ静岡",
     "x_url": "https://x.com/last_mission_7",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "psj_ayaragi": {
     "store": "羅木店",
@@ -1509,7 +1509,7 @@
     "store": "タムタム店長(メガシティ市原）",
     "x_url": "https://x.com/tamtamtenc_maru",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "hibari_shingu": {
     "store": "ひばり新宮店",
@@ -1521,7 +1521,7 @@
     "store": "大阪No.1店長を目指す(キングオブキングス1007大阪",
     "x_url": "https://x.com/king422_7_17_27",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "nagara315": {
     "store": "キクヤ長良店",
@@ -1581,7 +1581,7 @@
     "store": "ŧ‹”ŧ‹”食べますもぐ美ﾃﾝﾁｮ(店長) ꕤ in金古",
     "x_url": "https://x.com/mogumogu_tencho",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "panenka3939": {
     "store": "ビックマーチ勝田",
@@ -1599,7 +1599,7 @@
     "store": "山田店長Ｖ3",
     "x_url": "https://x.com/concorde1220",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "face_1300": {
     "store": "FACE1300小倉南店",
@@ -1623,7 +1623,7 @@
     "store": "マルハンアプリはこちら",
     "x_url": "https://x.com/tsukimaru777",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "29_kasama": {
     "store": "ニラク笠間店",
@@ -1671,7 +1671,7 @@
     "store": "はま店長",
     "x_url": "https://x.com/hama_tencho3939",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "ch_arakawa_0920": {
     "store": "ージコンサートホール荒川店",
@@ -1683,7 +1683,7 @@
     "store": "店長ダースー",
     "x_url": "https://x.com/obihirohimbx2n",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "rakuenshibuya2": {
     "store": "駅前店",
@@ -5752,5 +5752,23 @@
     "x_url": "https://x.com/wl_kitakyushu",
     "count": 0,
     "type": "store"
+  },
+  "juraku8": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/juraku8",
+    "count": 1,
+    "type": "manager"
+  },
+  "threeninedesu": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/threeninedesu",
+    "count": 1,
+    "type": "manager"
+  },
+  "pachiaikoukam": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/pachiaikoukam",
+    "count": 1,
+    "type": "manager"
   }
 }

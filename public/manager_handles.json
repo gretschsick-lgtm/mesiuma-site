@@ -1,25 +1,121 @@
 {
-  "_schema": {
-    "description": "店長・スタッフの個人 X アカウント管理。store_handles.json の公式アカウントとは別管理。",
-    "fields": {
-      "handle": "X ハンドル（小文字）",
-      "store_id": "stores テーブルの店舗 ID",
-      "store_name": "店舗正式名称",
-      "store_handle": "店舗公式アカウントのハンドル（store_handles.json のキー）",
-      "role": "manager（店長） / staff（スタッフ） / pr（PR担当）",
-      "priority": "1=店舗公式, 2=店長, 3=スタッフ/PR",
-      "note": "備考"
-    },
-    "usage": "store_handles.json の type=store アカウントが最優先。このファイルは type=manager 相当の補助収集用。"
+  "aratanarutentyo": {
+    "store": "店長あらた　マルハンメガシティ長野",
+    "x_url": "https://x.com/aratanarutentyo",
+    "count": 3,
+    "type": "manager",
+    "associated_store_id": null
   },
-  "_examples": {
-    "example_manager_handle": {
-      "store_id": "STORE_ID_HERE",
-      "store_name": "例: マルハン渋谷店",
-      "store_handle": "example_store_handle",
-      "role": "manager",
-      "priority": 2,
-      "note": "店長アカウント"
-    }
+  "divo_x_chiyori": {
+    "store": "でこぼこ店長",
+    "x_url": "https://x.com/divo_x_chiyori",
+    "count": 2,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "platinum5_main": {
+    "store": "プラチナム5-中の人-",
+    "x_url": "https://x.com/platinum5_main",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "c_eagle_c": {
+    "store": "店長マエダクラブイーグル千歳",
+    "x_url": "https://x.com/c_eagle_c",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "aitencho_x": {
+    "store": "AI店長/マルハン相模原店",
+    "x_url": "https://x.com/aitencho_x",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "last_mission_7": {
+    "store": "サラリーマン店長メガシティ静岡",
+    "x_url": "https://x.com/last_mission_7",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "tamtamtenc_maru": {
+    "store": "タムタム店長(メガシティ市原）",
+    "x_url": "https://x.com/tamtamtenc_maru",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": "da09e59bc3"
+  },
+  "king422_7_17_27": {
+    "store": "大阪No.1店長を目指す(キングオブキングス1007大阪",
+    "x_url": "https://x.com/king422_7_17_27",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "mogumogu_tencho": {
+    "store": "ŧ‹”ŧ‹”食べますもぐ美ﾃﾝﾁｮ(店長) ꕤ in金古",
+    "x_url": "https://x.com/mogumogu_tencho",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "concorde1220": {
+    "store": "山田店長Ｖ3",
+    "x_url": "https://x.com/concorde1220",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "tsukimaru777": {
+    "store": "マルハンアプリはこちら",
+    "x_url": "https://x.com/tsukimaru777",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "hama_tencho3939": {
+    "store": "はま店長",
+    "x_url": "https://x.com/hama_tencho3939",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "obihirohimbx2n": {
+    "store": "店長ダースー",
+    "x_url": "https://x.com/obihirohimbx2n",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "123tenriten": {
+    "store": "123天理店",
+    "x_url": "https://x.com/123tenriten",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "juraku8": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/juraku8",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "threeninedesu": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/threeninedesu",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "pachiaikoukam": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/pachiaikoukam",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
   }
 }
