@@ -3151,24 +3151,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
-    "id": "2a8a79e0746f",
-    "date": "2026-05-27",
-    "time": "08:00",
-    "store": "ダイナム群馬大胡店",
-    "machine": "ＬＥＴＥ",
-    "machine_type": "slot",
-    "slot_number": "503",
-    "text": "おはようございます 昨日の閉店直前にて…  503番台  『チバリヨ』ＣＯＭＰＬＥＴＥ達成  お客様から 「ギリギリ間に合ってよかった～疲れたけど」 と嬉しいコメント頂いてます  本日も⑨時④⑤分、入場抽選スタート 誕生月間の大胡店、お見逃しなく  #コンプリート #スロット",
-    "x_url": "https://x.com/dynam_00311/status/2059409333129973846",
-    "collected_at": "2026-06-02T10:56:39Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJR924UXEAYxZaI?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJR93ZxW8AETW34?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJR93n_XMAM8SdQ?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJR924UXEAYxZaI?format=jpg&name=large"
-  },
-  {
     "id": "fbad2f3f40b4",
     "date": "2026-05-27",
     "time": "02:04",
@@ -3458,7 +3440,8 @@
     "images": [
       "https://pbs.twimg.com/media/HJOZgMibIAAAjoU?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJOZgMibIAAAjoU?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJOZgMibIAAAjoU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "fc4dfb0ebcea",

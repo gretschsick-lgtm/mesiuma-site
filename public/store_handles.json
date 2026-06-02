@@ -184,6 +184,11 @@
     "x_url": "https://x.com/d_ootone",
     "count": 3
   },
+  "grand_konan": {
+    "store": "グランドホール港南店",
+    "x_url": "https://x.com/grand_konan",
+    "count": 3
+  },
   "monky0621bm": {
     "store": "ビックマーチ河和田東店",
     "x_url": "https://x.com/monky0621bm",
@@ -232,11 +237,6 @@
   "omaezaki_conco": {
     "store": "コンコルド御前崎店",
     "x_url": "https://x.com/omaezaki_conco",
-    "count": 2
-  },
-  "grand_konan": {
-    "store": "グランドホール港南店",
-    "x_url": "https://x.com/grand_konan",
     "count": 2
   },
   "rakuen_kamata": {
