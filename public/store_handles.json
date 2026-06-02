@@ -5794,5 +5794,203 @@
     "store": "ダイナム北海道地域",
     "count": 0,
     "x_url": "https://x.com/dynam_hokkaido"
+  },
+  "pia_ikebukuro": {
+    "store": "PIA池袋店",
+    "x_url": "https://x.com/pia_ikebukuro",
+    "count": 0,
+    "type": "store"
+  },
+  "pia_yokohama": {
+    "store": "PIA横浜店",
+    "x_url": "https://x.com/pia_yokohama",
+    "count": 0,
+    "type": "store"
+  },
+  "pia_kashiwa": {
+    "store": "PIA柏店",
+    "x_url": "https://x.com/pia_kashiwa",
+    "count": 0,
+    "type": "store"
+  },
+  "pia_ofuna": {
+    "store": "PIA大船店",
+    "x_url": "https://x.com/pia_ofuna",
+    "count": 0,
+    "type": "store"
+  },
+  "pia_khakkei": {
+    "store": "PIA鶴ヶ峰店",
+    "x_url": "https://x.com/pia_khakkei",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_utsunomiya": {
+    "store": "ビックマーチ宇都宮店",
+    "x_url": "https://x.com/bm_utsunomiya",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_tochihon": {
+    "store": "ビックマーチ栃木本店",
+    "x_url": "https://x.com/bm_tochihon",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_mitohon": {
+    "store": "ビックマーチ水戸本店",
+    "x_url": "https://x.com/bm_mitohon",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_takasaki": {
+    "store": "ビックマーチ高崎店",
+    "x_url": "https://x.com/bm_takasaki",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhankofu": {
+    "store": "マルハン甲府店",
+    "x_url": "https://x.com/maruhankofu",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhanbarajima": {
+    "store": "マルハン薔薇島店",
+    "x_url": "https://x.com/maruhanbarajima",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_hino": {
+    "store": "マルハン日野店",
+    "x_url": "https://x.com/maruhan_hino",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhanumeda": {
+    "store": "マルハン梅田店",
+    "x_url": "https://x.com/maruhanumeda",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_bukuro": {
+    "store": "マルハン池袋店",
+    "x_url": "https://x.com/maruhan_bukuro",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_ujiie": {
+    "store": "マルハン氏家店",
+    "x_url": "https://x.com/maruhan_ujiie",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_hachi": {
+    "store": "マルハン八王子店",
+    "x_url": "https://x.com/maruhan_hachi",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhanofficial": {
+    "store": "マルハン公式",
+    "x_url": "https://x.com/MaruhanOfficial",
+    "count": 0,
+    "type": "store"
+  },
+  "kingkanko": {
+    "store": "キング観光",
+    "x_url": "https://x.com/kingkanko",
+    "count": 0,
+    "type": "store"
+  },
+  "king_suzuka": {
+    "store": "キング観光鈴鹿店",
+    "x_url": "https://x.com/king_suzuka",
+    "count": 0,
+    "type": "store"
+  },
+  "king_kanayama": {
+    "store": "キング観光金山店",
+    "x_url": "https://x.com/king_kanayama",
+    "count": 0,
+    "type": "store"
+  },
+  "123osakahonten": {
+    "store": "123大阪本店",
+    "x_url": "https://x.com/123osakahonten",
+    "count": 0,
+    "type": "store"
+  },
+  "123goshaten": {
+    "store": "123五社店",
+    "x_url": "https://x.com/123goshaten",
+    "count": 0,
+    "type": "store"
+  },
+  "123katanoten": {
+    "store": "123片野店",
+    "x_url": "https://x.com/123katanoten",
+    "count": 0,
+    "type": "store"
+  },
+  "yasuda_maebashi": {
+    "store": "やすだ前橋店",
+    "x_url": "https://x.com/yasuda_maebashi",
+    "count": 0,
+    "type": "store"
+  },
+  "yasuda_yamato36": {
+    "store": "やすだ大和36店",
+    "x_url": "https://x.com/yasuda_yamato36",
+    "count": 0,
+    "type": "store"
+  },
+  "yasuda_toda": {
+    "store": "やすだ戸田店",
+    "x_url": "https://x.com/yasuda_toda",
+    "count": 0,
+    "type": "store"
+  },
+  "yasuda_oomiya": {
+    "store": "やすだ大宮店",
+    "x_url": "https://x.com/yasuda_oomiya",
+    "count": 0,
+    "type": "store"
+  },
+  "d_chibaminato": {
+    "store": "D'STATION千葉みなと店",
+    "x_url": "https://x.com/d_chibaminato",
+    "count": 0,
+    "type": "store"
+  },
+  "dstation_ooyodo": {
+    "store": "D'STATION大淀店",
+    "x_url": "https://x.com/dstation_ooyodo",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_coltd": {
+    "store": "ABC",
+    "x_url": "https://x.com/abc_coltd",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_nakayoshida": {
+    "store": "ABC中吉田店",
+    "x_url": "https://x.com/abc_nakayoshida",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_yanagicho": {
+    "store": "ABC柳町店",
+    "x_url": "https://x.com/abc_yanagicho",
+    "count": 0,
+    "type": "store"
+  },
+  "kicona_osaka": {
+    "store": "キコーナ大阪",
+    "x_url": "https://x.com/kicona_osaka",
+    "count": 0,
+    "type": "store"
   }
 }
