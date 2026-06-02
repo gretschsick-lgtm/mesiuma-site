@@ -489,7 +489,7 @@
     "store": "綾瀬上土棚店",
     "x_url": "https://x.com/aitatencho",
     "count": 2,
-    "type": "store"
+    "type": "manager"
   },
   "dynam_00440": {
     "store": "ダイナム長野上田店",
@@ -537,7 +537,7 @@
     "store": "ダイナム長野上田店",
     "x_url": "https://x.com/tencho_szk",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "concorde_ichino": {
     "store": "SUPER CONCORDE 市野",
@@ -981,7 +981,7 @@
     "store": "マルハン下松店",
     "x_url": "https://x.com/marukudatencho",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "zone_yukuhashi": {
     "store": "ゾーン行橋1000",
@@ -1011,7 +1011,7 @@
     "store": "ニューアサヒ長野青木島店",
     "x_url": "https://x.com/tenchoufujimori",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "mogup_take": {
     "store": "ピーアーク竹の塚",
@@ -1191,7 +1191,7 @@
     "store": "イーグルアールワン南8条店",
     "x_url": "https://x.com/eagle_c_tencho",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "messe_mitaka": {
     "store": "メッセ三鷹店",
@@ -1209,7 +1209,7 @@
     "store": "マルハン筑西店",
     "x_url": "https://x.com/majishan_tencho",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "ba_shunan": {
     "store": "ビッグアップル.周南店",
@@ -1814,6 +1814,24 @@
   "123tenriten": {
     "store": "123天理店",
     "x_url": "https://x.com/123tenriten",
+    "count": 1,
+    "type": "manager"
+  },
+  "juraku8": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/juraku8",
+    "count": 1,
+    "type": "manager"
+  },
+  "threeninedesu": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/threeninedesu",
+    "count": 1,
+    "type": "manager"
+  },
+  "pachiaikoukam": {
+    "store": "(店舗名不明)",
+    "x_url": "https://x.com/pachiaikoukam",
     "count": 1,
     "type": "manager"
   },
@@ -5752,23 +5770,5 @@
     "x_url": "https://x.com/wl_kitakyushu",
     "count": 0,
     "type": "store"
-  },
-  "juraku8": {
-    "store": "(店舗名不明)",
-    "x_url": "https://x.com/juraku8",
-    "count": 1,
-    "type": "manager"
-  },
-  "threeninedesu": {
-    "store": "(店舗名不明)",
-    "x_url": "https://x.com/threeninedesu",
-    "count": 1,
-    "type": "manager"
-  },
-  "pachiaikoukam": {
-    "store": "(店舗名不明)",
-    "x_url": "https://x.com/pachiaikoukam",
-    "count": 1,
-    "type": "manager"
   }
 }

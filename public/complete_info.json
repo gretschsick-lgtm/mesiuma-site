@@ -83,7 +83,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_handle": "last_mission_7",
     "store_x_url": "https://x.com/last_mission_7",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/last_mission_7"
   },
   {
     "id": "7543fd46ca45",
@@ -300,7 +301,9 @@
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
     "store_handle": "tamtamtenc_maru",
     "store_x_url": "https://x.com/tamtamtenc_maru",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/tamtamtenc_maru",
+    "store_id": "da09e59bc3"
   },
   {
     "id": "4ecd76577227",
@@ -384,7 +387,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000016",
     "store_handle": "king422_7_17_27",
     "store_x_url": "https://x.com/king422_7_17_27",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/king422_7_17_27"
   },
   {
     "id": "4d258dfd8f2b",
@@ -1129,7 +1133,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000018",
     "store_handle": "mogumogu_tencho",
     "store_x_url": "https://x.com/mogumogu_tencho",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/mogumogu_tencho"
   },
   {
     "id": "88c24bcb00b9",
@@ -1213,7 +1218,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_handle": "concorde1220",
     "store_x_url": "https://x.com/concorde1220",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/concorde1220"
   },
   {
     "id": "da903e86a22f",
@@ -1340,7 +1346,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_handle": "tsukimaru777",
     "store_x_url": "https://x.com/tsukimaru777",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/tsukimaru777"
   },
   {
     "id": "063aede81bca",
@@ -1420,8 +1427,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_handle": "aitatencho",
     "store_x_url": "https://x.com/aitatencho",
-    "source_account_type": "store_official",
-    "store_id": "aec3655c52"
+    "source_account_type": "store_manager",
+    "store_id": "aec3655c52",
+    "manager_x_url": "https://x.com/aitatencho"
   },
   {
     "id": "222daa8a5d67",
@@ -1888,7 +1896,8 @@
     "image_url": "https://pbs.twimg.com/media/HJfWD1UaUAAeRC5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000005",
     "store_handle": "juraku8",
-    "source_account_type": "unknown"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/juraku8"
   },
   {
     "id": "4325ed13bda3",
@@ -1929,7 +1938,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000007",
     "store_handle": "hama_tencho3939",
     "store_x_url": "https://x.com/hama_tencho3939",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/hama_tencho3939"
   },
   {
     "id": "63c2000c8613",
@@ -2078,7 +2088,8 @@
     "machine_id": "938162c9-5192-45a1-988d-d63b7bb75738",
     "store_handle": "obihirohimbx2n",
     "store_x_url": "https://x.com/obihirohimbx2n",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/obihirohimbx2n"
   },
   {
     "id": "640f30a375a5",
@@ -2752,7 +2763,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000005",
     "store_handle": "aratanarutentyo",
     "store_x_url": "https://x.com/aratanarutentyo",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aratanarutentyo"
   },
   {
     "id": "ea6e9b5408f7",
@@ -2814,8 +2826,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_handle": "aitatencho",
     "store_x_url": "https://x.com/aitatencho",
-    "source_account_type": "store_official",
-    "store_id": "aec3655c52"
+    "source_account_type": "store_manager",
+    "store_id": "aec3655c52",
+    "manager_x_url": "https://x.com/aitatencho"
   },
   {
     "id": "c452e16ab384",
@@ -2900,7 +2913,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_handle": "aratanarutentyo",
     "store_x_url": "https://x.com/aratanarutentyo",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aratanarutentyo"
   },
   {
     "id": "9f9c2146a7b5",
@@ -2922,7 +2936,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000007",
     "store_handle": "aitencho_x",
     "store_x_url": "https://x.com/aitencho_x",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aitencho_x"
   },
   {
     "id": "97c7a78c9780",
@@ -3192,7 +3207,8 @@
     "image_url": "https://pbs.twimg.com/media/HJVGdmdaEAAYNjS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_handle": "threeninedesu",
-    "source_account_type": "unknown"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/threeninedesu"
   },
   {
     "id": "e9581245bf09",
@@ -4372,7 +4388,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000006",
     "store_handle": "platinum5_main",
     "store_x_url": "https://x.com/platinum5_main",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/platinum5_main"
   },
   {
     "id": "fb49d1eceebf",
@@ -4392,7 +4409,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000017",
     "store_handle": "divo_x_chiyori",
     "store_x_url": "https://x.com/divo_x_chiyori",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/divo_x_chiyori"
   },
   {
     "id": "9e0f61565077",
@@ -4451,8 +4469,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_handle": "tencho_szk",
     "store_x_url": "https://x.com/tencho_szk",
-    "source_account_type": "store_official",
-    "store_id": "b42f5fe289"
+    "source_account_type": "store_manager",
+    "store_id": "b42f5fe289",
+    "manager_x_url": "https://x.com/tencho_szk"
   },
   {
     "id": "3bbfc24b1d62",
@@ -5578,7 +5597,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000013",
     "store_handle": "c_eagle_c",
     "store_x_url": "https://x.com/c_eagle_c",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/c_eagle_c"
   },
   {
     "id": "2ba17ec7844d",
@@ -6254,7 +6274,8 @@
     "machine_id": "d5ec225f-a289-4577-9d2d-56ea7305f3d9",
     "store_handle": "divo_x_chiyori",
     "store_x_url": "https://x.com/divo_x_chiyori",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/divo_x_chiyori"
   },
   {
     "id": "022a0bdd08f8",
@@ -6747,8 +6768,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_handle": "marukudatencho",
     "store_x_url": "https://x.com/marukudatencho",
-    "source_account_type": "store_official",
-    "store_id": "ec2322cb03"
+    "source_account_type": "store_manager",
+    "store_id": "ec2322cb03",
+    "manager_x_url": "https://x.com/marukudatencho"
   },
   {
     "id": "c6a7b7ac7739",
@@ -7002,8 +7024,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_handle": "tenchoufujimori",
     "store_x_url": "https://x.com/tenchoufujimori",
-    "source_account_type": "store_official",
-    "store_id": "d473c469be"
+    "source_account_type": "store_manager",
+    "store_id": "d473c469be",
+    "manager_x_url": "https://x.com/tenchoufujimori"
   },
   {
     "id": "2da85c94523f",
@@ -7255,7 +7278,8 @@
     "machine_type": "slot",
     "machine_id": "11111111-1111-1111-1111-000000000014",
     "store_handle": "pachiaikoukam",
-    "source_account_type": "unknown"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/pachiaikoukam"
   },
   {
     "id": "fae836addde2",
@@ -8646,7 +8670,8 @@
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_handle": "aratanarutentyo",
     "store_x_url": "https://x.com/aratanarutentyo",
-    "source_account_type": "store_official"
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aratanarutentyo"
   },
   {
     "id": "52d71de5addf",
@@ -8710,8 +8735,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_handle": "eagle_c_tencho",
     "store_x_url": "https://x.com/eagle_c_tencho",
-    "source_account_type": "store_official",
-    "store_id": "9ff188237d"
+    "source_account_type": "store_manager",
+    "store_id": "9ff188237d",
+    "manager_x_url": "https://x.com/eagle_c_tencho"
   },
   {
     "id": "0b219a08c5b1",
@@ -8835,8 +8861,9 @@
     "machine_id": "11111111-1111-1111-1111-000000000035",
     "store_handle": "majishan_tencho",
     "store_x_url": "https://x.com/majishan_tencho",
-    "source_account_type": "store_official",
-    "store_id": "d530f6adc5"
+    "source_account_type": "store_manager",
+    "store_id": "d530f6adc5",
+    "manager_x_url": "https://x.com/majishan_tencho"
   },
   {
     "id": "032bf3de97f4",

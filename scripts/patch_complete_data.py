@@ -64,6 +64,19 @@ def main():
 
     store_resolver = get_store_resolver()
 
+    # ── manager_handles.json から handle → associated_store_id マップ読み込み ──
+    mgr_handle_to_sid: dict[str, str] = {}
+    mgr_handles_path = ROOT / "public" / "manager_handles.json"
+    if mgr_handles_path.exists():
+        try:
+            _mgr_data = json.loads(mgr_handles_path.read_text(encoding="utf-8"))
+            for _h, _info in _mgr_data.items():
+                if isinstance(_info, dict) and _info.get("associated_store_id"):
+                    mgr_handle_to_sid[_h.lower()] = _info["associated_store_id"]
+            print(f"📋 manager_handles: {len(mgr_handle_to_sid)}件の store_id マッピング読み込み")
+        except Exception as _me:
+            print(f"⚠️  manager_handles.json 読み込みエラー: {_me}")
+
     # ── バックアップ ────────────────────────────────────────────────────────
     bak_path = create_backup()
 
@@ -134,7 +147,7 @@ def main():
                 _shandle = (e.get("store_handle") or "").lower()
                 _sres = store_resolver.resolve(_sname) if _sname else None
 
-                # フォールバック: 名前解決失敗時はハンドルで x_url 直引き
+                # フォールバック1: 名前解決失敗時はハンドルで x_url 直引き
                 if not _sres and _shandle:
                     try:
                         _rows = store_resolver._sb_get(
@@ -145,6 +158,11 @@ def main():
                             _sres = {"store_id": _rows[0]["id"]}
                     except Exception:
                         pass
+
+                # フォールバック2: manager_handles.json の associated_store_id
+                if not _sres and _shandle and _shandle in mgr_handle_to_sid:
+                    e["store_id"] = mgr_handle_to_sid[_shandle]
+                    _sres = {"store_id": mgr_handle_to_sid[_shandle]}
 
                 if _sres:
                     e["store_id"] = _sres["store_id"]

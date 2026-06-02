@@ -46,7 +46,8 @@
     "x_url": "https://x.com/tamtamtenc_maru",
     "count": 1,
     "type": "manager",
-    "associated_store_id": "da09e59bc3"
+    "associated_store_id": "da09e59bc3",
+    "associated_store": "マルハンメガシティ市原"
   },
   "king422_7_17_27": {
     "store": "大阪No.1店長を目指す(キングオブキングス1007大阪",
@@ -114,6 +115,48 @@
   "pachiaikoukam": {
     "store": "(店舗名不明)",
     "x_url": "https://x.com/pachiaikoukam",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "aitatencho": {
+    "store": "綾瀬上土棚店",
+    "x_url": "https://x.com/aitatencho",
+    "count": 2,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "tencho_szk": {
+    "store": "ダイナム長野上田店",
+    "x_url": "https://x.com/tencho_szk",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "marukudatencho": {
+    "store": "マルハン下松店",
+    "x_url": "https://x.com/marukudatencho",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "tenchoufujimori": {
+    "store": "ニューアサヒ長野青木島店",
+    "x_url": "https://x.com/tenchoufujimori",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "eagle_c_tencho": {
+    "store": "イーグルアールワン南8条店",
+    "x_url": "https://x.com/eagle_c_tencho",
+    "count": 1,
+    "type": "manager",
+    "associated_store_id": null
+  },
+  "majishan_tencho": {
+    "store": "マルハン筑西店",
+    "x_url": "https://x.com/majishan_tencho",
     "count": 1,
     "type": "manager",
     "associated_store_id": null
