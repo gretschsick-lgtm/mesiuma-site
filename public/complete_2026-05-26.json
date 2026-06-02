@@ -101,7 +101,30 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-02T13:43:34Z",
     "machine_id": "9784d282-51b0-4b31-a4c8-f16118a31749",
-    "store_id": "5b93315c4d"
+    "store_id": "5b93315c4d",
+    "video_url": "https://video.twimg.com/amplify_video/2059252069081759744/vid/avc1/0/0/1078x1920/r-mH58mH5HeDSJO5.mp4"
+  },
+  {
+    "id": "5ee8ba6d3c63",
+    "date": "2026-05-26",
+    "time": "21:12",
+    "store": "イチロク八代店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "491",
+    "text": "なんと・・・ 本日またまたコンプリートでました 491番台　いざ番長 コンプリート達成されました おめでとうございます",
+    "x_url": "https://x.com/16yatsushiro/status/2059246387997691992",
+    "store_handle": "16yatsushiro",
+    "store_x_url": "https://x.com/16yatsushiro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:23:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJPpqBMaAAE6w7I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJPpqBMaAAE6w7I?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "f05651bd65"
   },
   {
     "id": "a176961920f9",

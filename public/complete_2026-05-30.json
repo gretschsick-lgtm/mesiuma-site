@@ -14,7 +14,11 @@
       "https://pbs.twimg.com/media/HJkuaGTboAA_79H?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkuaGTboAA_79H?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "source_account_type": "store_official",
+    "store_id": "fb78bbe137"
   },
   {
     "id": "a9b5170af097",
@@ -32,7 +36,11 @@
       "https://pbs.twimg.com/media/HJkivDmbAAEIxI2?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkisz0bYAAHjyA?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000018"
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "source_account_type": "store_official",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "f62ea20d5b2d",
@@ -49,7 +57,11 @@
       "https://pbs.twimg.com/media/HJkoo3QXQAIMgaK?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkoo3QXQAIMgaK?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "dynam_00094",
+    "store_x_url": "https://x.com/dynam_00094",
+    "source_account_type": "store_official",
+    "store_id": "40ada5f6a0"
   },
   {
     "id": "f21bb9c6123a",
@@ -66,7 +78,11 @@
       "https://pbs.twimg.com/media/HJkmrOFaEAEuL_O?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkmrOFaEAEuL_O?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "maruhan_natori",
+    "store_x_url": "https://x.com/maruhan_natori",
+    "source_account_type": "store_official",
+    "store_id": "0c64b81c6c"
   },
   {
     "id": "c2ee7a42ac09",
@@ -83,7 +99,11 @@
       "https://pbs.twimg.com/media/HJkcSIKbcAA_U3t?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkcSIKbcAA_U3t?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000017"
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "source_account_type": "store_official",
+    "store_id": "771f030669"
   },
   {
     "id": "6873aec77731",
@@ -100,7 +120,11 @@
       "https://pbs.twimg.com/media/HJkahWybwAA77Wv?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkahWybwAA77Wv?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "d_ootone",
+    "store_x_url": "https://x.com/d_ootone",
+    "source_account_type": "store_official",
+    "store_id": "202d8724cc"
   },
   {
     "id": "0e6fc7211431",
@@ -117,7 +141,11 @@
       "https://pbs.twimg.com/media/HJkVQjJboAAg4o8?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkVQjJboAAg4o8?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000007"
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_handle": "gk_hitachinaka",
+    "store_x_url": "https://x.com/gk_hitachinaka",
+    "source_account_type": "store_official",
+    "store_id": "bcc41247bb"
   },
   {
     "id": "f0b62ea03723",
@@ -134,7 +162,11 @@
       "https://pbs.twimg.com/media/HJkSXpxaUAA8FWM?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkSXpxaUAA8FWM?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "abc_hamakita",
+    "store_x_url": "https://x.com/abc_hamakita",
+    "source_account_type": "store_official",
+    "store_id": "88454198b8"
   },
   {
     "id": "2b0af445d9fb",
@@ -151,7 +183,33 @@
       "https://pbs.twimg.com/media/HJkTGsHb0AAB3OF?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkTGsHb0AAB3OF?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "source_account_type": "store_official",
+    "store_id": "04950fcd53"
+  },
+  {
+    "id": "9b63eaed8aca",
+    "date": "2026-05-30",
+    "time": "21:18",
+    "store": "SUPER COSMO PREMIUM大東店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "速報！  e東京喰種でコンプリート達成！ おめでとうございます！  ５月最後も！ 本物の大東店へ！ お待ちしております！  #フォローお願いします",
+    "x_url": "https://x.com/SCPdaitou/status/2060697475376410634",
+    "store_handle": "scpdaitou",
+    "store_x_url": "https://x.com/scpdaitou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:25:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJkRaMlbUAAJRWe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJkRaMlbUAAJRWe?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "8ea13b6c57"
   },
   {
     "id": "e98fdac2cb71",
@@ -168,7 +226,11 @@
       "https://pbs.twimg.com/media/HJkQ2KxbEAAGs2M?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkQ2KxbEAAGs2M?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000018"
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_handle": "palazzo_shimura",
+    "store_x_url": "https://x.com/palazzo_shimura",
+    "source_account_type": "store_official",
+    "store_id": "c5968482a1"
   },
   {
     "id": "a26e16c38cd7",
@@ -185,7 +247,11 @@
       "https://pbs.twimg.com/media/HJkLcNsasAAPWJh?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkLcNsasAAPWJh?format=jpg&name=large",
-    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_handle": "gaia_takahagi",
+    "store_x_url": "https://x.com/gaia_takahagi",
+    "source_account_type": "store_official",
+    "store_id": "ddce6b9b74"
   },
   {
     "id": "1705963f404d",
@@ -202,7 +268,11 @@
       "https://pbs.twimg.com/media/HJkJvFuagAAxGd8?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkJvFuagAAxGd8?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "source_account_type": "store_official",
+    "store_id": "e744c71a3d"
   },
   {
     "id": "ed5ed64bf834",
@@ -219,7 +289,11 @@
       "https://pbs.twimg.com/media/HJkJVx8a8AAJ2nJ?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkJVx8a8AAJ2nJ?format=jpg&name=large",
-    "machine_id": "1a50b566-ade8-422e-82c1-c601b448e226"
+    "machine_id": "1a50b566-ade8-422e-82c1-c601b448e226",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "source_account_type": "store_official",
+    "store_id": "b42f5fe289"
   },
   {
     "id": "7931b54c899c",
@@ -236,7 +310,11 @@
       "https://pbs.twimg.com/media/HJkJXtYa0AA57xC?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkJXtYa0AA57xC?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "source_account_type": "store_official",
+    "store_id": "53cfcde9a2"
   },
   {
     "id": "ee29a1e383e9",
@@ -254,7 +332,11 @@
       "https://pbs.twimg.com/media/HJkJKS5akAA-gA7?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkJKS5bwAAWYyu?format=jpg&name=large",
-    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2"
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2",
+    "store_handle": "ams_re_kokuba",
+    "store_x_url": "https://x.com/ams_re_kokuba",
+    "source_account_type": "store_official",
+    "store_id": "1ab1e77778"
   },
   {
     "id": "0f64913b0088",
@@ -271,7 +353,11 @@
       "https://pbs.twimg.com/amplify_video_thumb/2060685873101094912/img/OWstztOzq_se2fOR.jpg?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/amplify_video_thumb/2060685873101094912/img/OWstztOzq_se2fOR.jpg?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "newyork_izumi15",
+    "store_x_url": "https://x.com/newyork_izumi15",
+    "source_account_type": "store_official",
+    "store_id": "2eabd788e9"
   },
   {
     "id": "60241b1bdf6f",
@@ -288,7 +374,11 @@
       "https://pbs.twimg.com/media/HJkGRBMXUAcbrjS?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkGRBMXUAcbrjS?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "dynam_00424",
+    "store_x_url": "https://x.com/dynam_00424",
+    "source_account_type": "store_official",
+    "store_id": "9ba958fb36"
   },
   {
     "id": "dd0d14ed1b44",
@@ -305,7 +395,11 @@
       "https://pbs.twimg.com/media/HJkGOsTbgAACgGl?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkGOsTbgAACgGl?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000018"
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_handle": "aisen_hutami",
+    "store_x_url": "https://x.com/aisen_hutami",
+    "source_account_type": "store_official",
+    "store_id": "8bba89f2c2"
   },
   {
     "id": "e23062b65cf6",
@@ -322,7 +416,11 @@
       "https://pbs.twimg.com/media/HJkFvRgaQAAPm2A?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkFvRgaQAAPm2A?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "gnishifunabashi",
+    "store_x_url": "https://x.com/gnishifunabashi",
+    "source_account_type": "store_official",
+    "store_id": "01d7f876ac"
   },
   {
     "id": "31119bfba40b",
@@ -339,7 +437,11 @@
       "https://pbs.twimg.com/media/HJkDUV2bYAA2Wya?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkDUV2bYAA2Wya?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000030"
+    "machine_id": "11111111-1111-1111-1111-000000000030",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "source_account_type": "store_official",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "f01d5aa47804",
@@ -358,7 +460,11 @@
       "https://pbs.twimg.com/media/HJkCMQsakAA0-uX?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/amplify_video_thumb/2060680714182647808/img/MT0cOoTSw5Nz9Wby.jpg?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000018"
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_handle": "mogumogu_tencho",
+    "store_x_url": "https://x.com/mogumogu_tencho",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/mogumogu_tencho"
   },
   {
     "id": "88c24bcb00b9",
@@ -375,7 +481,11 @@
       "https://pbs.twimg.com/media/HJkBo3pbsAAp24t?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkBo3pbsAAp24t?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "source_account_type": "store_official",
+    "store_id": "e88b656fb5"
   },
   {
     "id": "52ca6cd5eacf",
@@ -392,7 +502,11 @@
       "https://pbs.twimg.com/media/HJkAvR7aYAASAT3?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJkAvR7aYAASAT3?format=jpg&name=large",
-    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8"
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
+    "store_handle": "panenka3939",
+    "store_x_url": "https://x.com/panenka3939",
+    "source_account_type": "store_official",
+    "store_id": "87ba33d920"
   },
   {
     "id": "c93e64b0499d",
@@ -409,7 +523,11 @@
       "https://pbs.twimg.com/media/HJj-QQbasAE9t6d?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj-QQbasAE9t6d?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000006"
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_handle": "marinaprova0601",
+    "store_x_url": "https://x.com/marinaprova0601",
+    "source_account_type": "store_official",
+    "store_id": "8919b5c36e"
   },
   {
     "id": "c6615164a2b8",
@@ -427,7 +545,11 @@
       "https://pbs.twimg.com/media/HJj-DB7bkAAJvuH?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj-DB2bwAAeOyE?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "concorde1220",
+    "store_x_url": "https://x.com/concorde1220",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/concorde1220"
   },
   {
     "id": "da903e86a22f",
@@ -444,7 +566,11 @@
       "https://pbs.twimg.com/media/HJj9Si1boAAmrqo?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj9Si1boAAmrqo?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000035"
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "source_account_type": "store_official",
+    "store_id": "18425371bb"
   },
   {
     "id": "100887304019",
@@ -461,7 +587,11 @@
       "https://pbs.twimg.com/media/HJj8jFpbcAA4VRi?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj8jFpbcAA4VRi?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "tamaya_shingu",
+    "store_x_url": "https://x.com/tamaya_shingu",
+    "source_account_type": "store_official",
+    "store_id": "771dac8044"
   },
   {
     "id": "05d37c6be400",
@@ -478,7 +608,11 @@
       "https://pbs.twimg.com/media/HJj773bXIAAfwls?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj773bXIAAfwls?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "dynam_00041",
+    "store_x_url": "https://x.com/dynam_00041",
+    "source_account_type": "store_official",
+    "store_id": "4d118c9998"
   },
   {
     "id": "e11eba85c971",
@@ -496,7 +630,11 @@
       "https://pbs.twimg.com/media/HJj6YFXaQAAQpgP?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj6WhHagAACtpU?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "bigdipper_kyoto",
+    "store_x_url": "https://x.com/bigdipper_kyoto",
+    "source_account_type": "store_official",
+    "store_id": "35782adb87"
   },
   {
     "id": "5efc35081028",
@@ -513,7 +651,11 @@
       "https://pbs.twimg.com/media/HJj1aKtbQAAZOfa?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj1aKtbQAAZOfa?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000003"
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_handle": "keiztakaoka",
+    "store_x_url": "https://x.com/keiztakaoka",
+    "source_account_type": "store_official",
+    "store_id": "2bd74068ff"
   },
   {
     "id": "7a6abd2e795f",
@@ -531,7 +673,11 @@
       "https://pbs.twimg.com/media/HJKuV47bAAEZZyH?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj1sEoaUAAr67n?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "tsukimaru777",
+    "store_x_url": "https://x.com/tsukimaru777",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/tsukimaru777"
   },
   {
     "id": "063aede81bca",
@@ -548,7 +694,11 @@
       "https://pbs.twimg.com/media/HJj1mNrasAA86h-?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJj1mNrasAA86h-?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_handle": "dsmegami",
+    "store_x_url": "https://x.com/dsmegami",
+    "source_account_type": "store_official",
+    "store_id": "30980119a2"
   },
   {
     "id": "d9bb14c4cf2d",
@@ -565,7 +715,11 @@
       "https://pbs.twimg.com/media/HJjzsNXa4AAjk8p?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjzsNXa4AAjk8p?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000007"
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_handle": "gk_hitachinaka",
+    "store_x_url": "https://x.com/gk_hitachinaka",
+    "source_account_type": "store_official",
+    "store_id": "bcc41247bb"
   },
   {
     "id": "0fa9ecbdc47b",
@@ -582,7 +736,11 @@
       "https://pbs.twimg.com/media/HJjzizHakAEhVL4?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjzizHakAEhVL4?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000030"
+    "machine_id": "11111111-1111-1111-1111-000000000030",
+    "store_handle": "asagao0419",
+    "store_x_url": "https://x.com/asagao0419",
+    "source_account_type": "store_official",
+    "store_id": "81e6034462"
   },
   {
     "id": "09c54a79920a",
@@ -596,7 +754,12 @@
     "x_url": "https://x.com/aitatencho/status/2060659003785687304",
     "collected_at": "2026-06-01T06:05:15Z",
     "image_url": "https://pbs.twimg.com/media/HJjucP0aEAEXwv5?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_handle": "aitatencho",
+    "store_x_url": "https://x.com/aitatencho",
+    "source_account_type": "store_manager",
+    "store_id": "aec3655c52",
+    "manager_x_url": "https://x.com/aitatencho"
   },
   {
     "id": "222daa8a5d67",
@@ -614,7 +777,11 @@
       "https://pbs.twimg.com/media/HJhoWhTaUAEn_1o?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjr2LnaIAA7a-7?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "source_account_type": "store_official",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "206c410063cb",
@@ -632,7 +799,11 @@
       "https://pbs.twimg.com/media/HJjpxDJb0AANcQk?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJjpxDEbMAAr2RW?format=jpg&name=large"
     ],
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "stadium2001yame",
+    "store_x_url": "https://x.com/stadium2001yame",
+    "source_account_type": "store_official",
+    "store_id": "bc0f789589"
   },
   {
     "id": "f0da7e98e2be",
@@ -650,7 +821,11 @@
       "https://pbs.twimg.com/media/HJjN1ZKasAAldLa?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjksZgbwAAjJ8V?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "source_account_type": "store_official",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "b17931d850db",
@@ -667,7 +842,11 @@
       "https://pbs.twimg.com/media/HJjlvk6aoAAwWLP?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjlvk6aoAAwWLP?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "source_account_type": "store_official",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "3a57d99e39cb",
@@ -684,7 +863,11 @@
       "https://pbs.twimg.com/media/HJjmj5kagAAoeHc?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjmj5kagAAoeHc?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000008"
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "source_account_type": "store_official",
+    "store_id": "1fa35fdc7d"
   },
   {
     "id": "664f00b79e44",
@@ -701,23 +884,11 @@
       "https://pbs.twimg.com/media/HJjjwMHbgAAuB3b?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjjwMHbgAAuB3b?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
-  },
-  {
-    "id": "10c423b140f2",
-    "date": "2026-05-30",
-    "time": "17:42",
-    "store": "パラッツォ船橋店",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "177",
-    "text": "コンプリート達成  177番台 e 仮面ライダー電王 デカヘソ239 コンプリート達成！ おめでとうございます  デカヘソでコンプリート達成は夢がありますね～",
-    "x_url": "https://x.com/palazzo_funa/status/2060642950141575382",
-    "collected_at": "2026-06-02T12:10:41Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJjftElaAAAdWPB?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJjftElaAAAdWPB?format=jpg&name=large"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "29_kasama",
+    "store_x_url": "https://x.com/29_kasama",
+    "source_account_type": "store_official",
+    "store_id": "6407b78a2e"
   },
   {
     "id": "608bd0ab37cc",
@@ -734,7 +905,11 @@
       "https://pbs.twimg.com/media/HJjdFnWWAAM025H?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjdFnWWAAM025H?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000017"
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_handle": "dynam_00199",
+    "store_x_url": "https://x.com/dynam_00199",
+    "source_account_type": "store_official",
+    "store_id": "9cb32493c0"
   },
   {
     "id": "d7a2ac0f4194",
@@ -751,7 +926,11 @@
       "https://pbs.twimg.com/media/HJjbQ97bAAEkFiE?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjbQ97bAAEkFiE?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_handle": "tamanosuke1225",
+    "store_x_url": "https://x.com/tamanosuke1225",
+    "source_account_type": "store_official",
+    "store_id": "4966644685"
   },
   {
     "id": "fc40b2dd0d6f",
@@ -768,7 +947,11 @@
       "https://pbs.twimg.com/media/HJjYyUuacAAC2N2?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjYyUuacAAC2N2?format=jpg&name=large",
-    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_handle": "oyamasendaduka2",
+    "store_x_url": "https://x.com/oyamasendaduka2",
+    "source_account_type": "store_official",
+    "store_id": "f012229481"
   },
   {
     "id": "8cc451272df8",
@@ -785,7 +968,11 @@
       "https://pbs.twimg.com/media/HJjN1ZKasAAldLa?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjN1ZKasAAldLa?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "source_account_type": "store_official",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "84c80d3447b2",
@@ -802,7 +989,11 @@
       "https://pbs.twimg.com/media/HJjOXH6a0AA4Meh?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJjOXH6a0AA4Meh?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "mjhakozaki",
+    "store_x_url": "https://x.com/mjhakozaki",
+    "source_account_type": "store_official",
+    "store_id": "c545330ad2"
   },
   {
     "id": "2614a680d023",
@@ -819,7 +1010,11 @@
       "https://pbs.twimg.com/media/HJiKOIoa8AA7BVJ?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJiKOIoa8AA7BVJ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "messe_mitaka",
+    "store_x_url": "https://x.com/messe_mitaka",
+    "source_account_type": "store_official",
+    "store_id": "8409531db2"
   },
   {
     "id": "23a48403275d",
@@ -836,7 +1031,11 @@
       "https://pbs.twimg.com/media/HJh0YtnaUAAsGDa?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJh0YtnaUAAsGDa?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_handle": "vegabiq0427",
+    "store_x_url": "https://x.com/vegabiq0427",
+    "source_account_type": "store_official",
+    "store_id": "dfbb934e94"
   },
   {
     "id": "e42a556c3514",
@@ -855,7 +1054,11 @@
       "https://pbs.twimg.com/media/HJhm9a7a0AERvTi?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJhm9a8aAAAHDTX?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000021"
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_handle": "fuwafuwa_bm",
+    "store_x_url": "https://x.com/fuwafuwa_bm",
+    "source_account_type": "store_official",
+    "store_id": "ad7b9c09cc"
   },
   {
     "id": "ff287bdc99b1",
@@ -872,6 +1075,10 @@
       "https://pbs.twimg.com/media/HJhfRjJW4AQIDbJ?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJhfRjJW4AQIDbJ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "dynam_00417_01",
+    "store_x_url": "https://x.com/dynam_00417_01",
+    "source_account_type": "store_official",
+    "store_id": "b14577d755"
   }
 ]
