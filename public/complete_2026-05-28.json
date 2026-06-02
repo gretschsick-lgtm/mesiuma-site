@@ -4,24 +4,36 @@
     "date": "2026-05-28",
     "time": "23:42",
     "store": "メガフェイス1250",
-    "machine": "ミリオンゴッド神々の軌跡",
+    "machine": "Lミリオンゴッド神々の軌跡",
     "machine_type": "slot",
     "slot_number": "749",
     "text": "フェイス田川 コンプリート速報 なんと！！！閉店時間前に L　ミリオンゴッド神々の軌跡 749番台から コンプリーーーーーート達成！！！ おめでとうございます",
     "x_url": "https://x.com/megaface_1250/status/2060008819862983114",
-    "collected_at": "2026-05-31T05:21:20Z"
+    "collected_at": "2026-05-31T05:21:20Z",
+    "image_url": "https://pbs.twimg.com/media/HJadZzmaEAAT3zH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "megaface_1250",
+    "store_x_url": "https://x.com/megaface_1250",
+    "source_account_type": "store_official",
+    "store_id": "0d4ae9709d"
   },
   {
     "id": "60e1692984ba",
     "date": "2026-05-28",
     "time": "22:55",
     "store": "ダイナム金町南口店",
-    "machine": "ＬタクトオーパスＭ１",
+    "machine": "LタクトオーパスM1",
     "machine_type": "slot",
     "slot_number": "643",
     "text": "こんばんは #ダイナム金町南口店 です  コンプリート情報でーす 22：20頃 643番台ＬタクトオーパスＭ１ コンプリート達成です  おめでとうございます 本日も1日お疲れ様でした  #ダイナム",
     "x_url": "https://x.com/dynam_00035/status/2059996904528769116",
-    "collected_at": "2026-05-31T05:21:20Z"
+    "collected_at": "2026-05-31T05:21:20Z",
+    "image_url": "https://pbs.twimg.com/media/HJaURMvXUAEV-8-?format=jpg&name=large",
+    "machine_id": "b8fc2843-6262-4a6a-8992-726cf39ce39c",
+    "store_handle": "dynam_00035",
+    "store_x_url": "https://x.com/dynam_00035",
+    "source_account_type": "store_official",
+    "store_id": "dcbb4c52ca"
   },
   {
     "id": "8effce7f57f8",
@@ -37,7 +49,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJaPUCUbUAAZXBZ?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJaPUCUbUAAZXBZ?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJaPUCUbUAAZXBZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_handle": "dynam_00397",
+    "store_x_url": "https://x.com/dynam_00397",
+    "source_account_type": "store_official",
+    "store_id": "d88ff27c89"
   },
   {
     "id": "de71048c2663",
@@ -53,7 +70,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJaQjdsasAAcGCg?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJaQjdsasAAcGCg?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJaQjdsasAAcGCg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "source_account_type": "store_official",
+    "store_id": "3917e74a54"
   },
   {
     "id": "069ea1a24e1f",
@@ -69,7 +91,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJaOxtFWcAU2ZAi?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJaOxtFWcAU2ZAi?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJaOxtFWcAU2ZAi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "dynam_00307",
+    "store_x_url": "https://x.com/dynam_00307",
+    "source_account_type": "store_official",
+    "store_id": "fa00cfe601"
   },
   {
     "id": "e9f2f181e7c6",
@@ -86,7 +113,34 @@
       "https://pbs.twimg.com/amplify_video_thumb/2059987661348302848/img/LgVR71R_NGh3EvrK.jpg?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJXHcehXIAQfOEk?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2059987661348302848/img/LgVR71R_NGh3EvrK.jpg?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2059987661348302848/img/LgVR71R_NGh3EvrK.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_handle": "dynam_00439",
+    "store_x_url": "https://x.com/dynam_00439",
+    "source_account_type": "store_official",
+    "store_id": "ef6da04b5b"
+  },
+  {
+    "id": "3c9e947bbc5c",
+    "date": "2026-05-28",
+    "time": "22:12",
+    "store": "新ガーデン北戸田駅前",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "今日はなんとヴァルヴレイヴ2コンプリート おめでとうございます꒰ঌᐢ.ˬ.ᐢ໒꒱ 羨ましいですଘ(੭*ˊᵕˋ)੭♡ 私もコンプリートしてみたいのと直接音が聞きたいなぁ . . . #新ガーデン北戸田駅前 #コンプリート #ヴァルヴレイヴ2",
+    "x_url": "https://x.com/gardenkitatoda/status/2059986271603433695",
+    "store_handle": "gardenkitatoda",
+    "store_x_url": "https://x.com/gardenkitatoda",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:43:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJaKkvTboAAP82m?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJaKkvTboAAP82m?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "53a1ab0c58"
   },
   {
     "id": "21fbf48d9aca",
@@ -103,40 +157,12 @@
       "https://pbs.twimg.com/media/HJaEFAMbQAAaUD7?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJaEFANbMAA9uU0?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJaEFAMbQAAaUD7?format=jpg&name=large"
-  },
-  {
-    "id": "9db200751dc1",
-    "date": "2026-05-28",
-    "time": "21:52",
-    "store": "ウイング利府店",
-    "machine": "",
-    "machine_type": "slot",
-    "slot_number": "413",
-    "text": "ただいま！ パチンコ　413番台 eカケグルイ 7500ver COMPLETE達成おめでとうございます  ２時間ちょっとの時間でCOMPLETE 新台カケグルイの破壊力恐るべし…  明日もオススメ・新台・その他の機種も 是非！！ウイング利府店で楽しんでください！ #カケグルイ　#コンプリート　#みさきち",
-    "x_url": "https://x.com/wing_rifu/status/2059981107928744254",
-    "collected_at": "2026-05-30T19:00:52Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJaF2gvbYAAZvs7?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJaF2gvbYAAZvs7?format=jpg&name=large"
-  },
-  {
-    "id": "8c1b54ca12e2",
-    "date": "2026-05-28",
-    "time": "21:49",
-    "store": "フェイス850佐賀",
-    "machine": "𝟡𝟝,𝟘𝟘𝟘玉",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "コンプリート達成ーーッ  本日、#FACE850佐賀　スマパチコーナー  カケグルイ にて、、、 【𝟡𝟝,𝟘𝟘𝟘玉】コンプリート機能が発動いたしましたっ( °Д° )  ご遊技されたお客様、本当におめでとうございますっっ  #メガンダイ取材　大盛り上がりですね",
-    "x_url": "https://x.com/face_850/status/2059980371752866019",
-    "collected_at": "2026-05-31T05:40:18Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJaFOiGa4AAb6at?format=jpg&name=large",
-      "https://pbs.twimg.com/amplify_video_thumb/2059781995371384832/img/KcAcZhnj1ictvSzB?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJaFOiGa4AAb6at?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJaEFAMbQAAaUD7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_handle": "palazzo_misato",
+    "store_x_url": "https://x.com/palazzo_misato",
+    "source_account_type": "store_official",
+    "store_id": "4ca478a01a"
   },
   {
     "id": "0020974ec1a9",
@@ -152,24 +178,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZ-k9takAAi0LL?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZ-k9takAAi0LL?format=jpg&name=large"
-  },
-  {
-    "id": "41df8daa6475",
-    "date": "2026-05-28",
-    "time": "21:35",
-    "store": "BIG OPUS１５都城店(地域最大級多数設置)",
-    "machine": "Lスマスロ攻殻機動隊ZS",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "コンプリート達成  【Lスマスロ攻殻機動隊ZS】  おめでとうございます  明日29日は DEAD or ALIVE取材  ご来店お待ちしております♪",
-    "x_url": "https://x.com/miyakonojo15/status/2059976776265417153",
-    "collected_at": "2026-05-31T05:41:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJaB9UPbsAA8Y4m?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJaB9UVaMAAEQhz?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJaB9UPbsAA8Y4m?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZ-k9takAAi0LL?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_handle": "mzus_miyaki",
+    "store_x_url": "https://x.com/mzus_miyaki",
+    "source_account_type": "store_official",
+    "store_id": "a0c1412332"
   },
   {
     "id": "382489be6f41",
@@ -185,7 +199,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJaASrlbAAAOTjA?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJaASrlbAAAOTjA?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJaASrlbAAAOTjA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "isesaki_maruhan",
+    "store_x_url": "https://x.com/isesaki_maruhan",
+    "source_account_type": "store_official",
+    "store_id": "fe04efdcd0"
   },
   {
     "id": "964a0f7643fe",
@@ -201,7 +220,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZ-qKsaEAANu50?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZ-qKsaEAANu50?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZ-qKsaEAANu50?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_handle": "grand_chogo",
+    "store_x_url": "https://x.com/grand_chogo",
+    "source_account_type": "store_official",
+    "store_id": "4ccd1ee56f"
   },
   {
     "id": "7ee82b00fca7",
@@ -217,7 +241,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZ_SUvboAEqaRS?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZ_SUvboAEqaRS?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZ_SUvboAEqaRS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_handle": "sd_fukushige",
+    "store_x_url": "https://x.com/sd_fukushige",
+    "source_account_type": "store_official",
+    "store_id": "ad0ceba11b"
   },
   {
     "id": "1652bc10fe18",
@@ -233,23 +262,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZ_VuyagAAU4u4?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZ_VuyagAAU4u4?format=jpg&name=large"
-  },
-  {
-    "id": "5ac65abb214f",
-    "date": "2026-05-28",
-    "time": "21:17",
-    "store": "BM瀬田店",
-    "machine": "がお見事",
-    "machine_type": "slot",
-    "slot_number": "309",
-    "text": "速報 ミリオンゴッド神々の軌跡 309番台がお見事 コンプリート達成しました ご遊技されていたお客様 おめでとうございます 店内には重要告知が沢山ありますので 是非確認して下さいね  #コンプリート　#ミリオンゴッド　#滋賀県　#BMグループ",
-    "x_url": "https://x.com/BMsetaten/status/2059972260426031438",
-    "collected_at": "2026-05-31T05:40:29Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJZ92N4aYAAcfZR?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJZ92N4aYAAcfZR?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZ_VuyagAAU4u4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "source_account_type": "store_official",
+    "store_id": "8ce05e9ade"
   },
   {
     "id": "c1dba57ebf58",
@@ -265,7 +283,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZ9TaiakAAoXQs?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZ9TaiakAAoXQs?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZ9TaiakAAoXQs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "source_account_type": "store_official",
+    "store_id": "8ce05e9ade"
   },
   {
     "id": "545575e3fb73",
@@ -282,7 +305,12 @@
       "https://pbs.twimg.com/amplify_video_thumb/2059962151847219201/img/184bHagYlzF4-Z5v.jpg?format=jpg&name=large",
       "https://pbs.twimg.com/amplify_video_thumb/2059949119771435008/img/OFlqjIiljySff_yE?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2059962151847219201/img/184bHagYlzF4-Z5v.jpg?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2059962151847219201/img/184bHagYlzF4-Z5v.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aratanarutentyo"
   },
   {
     "id": "ea6e9b5408f7",
@@ -298,7 +326,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZzGu1bIAAADYm?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZzGu1bIAAADYm?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZzGu1bIAAADYm?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_handle": "marujagten",
+    "store_x_url": "https://x.com/marujagten",
+    "source_account_type": "store_official",
+    "store_id": "d4297a55cc"
   },
   {
     "id": "7c839b697679",
@@ -314,7 +347,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZygTvaQAAJksv?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZygTvaQAAJksv?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZygTvaQAAJksv?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_handle": "d_nagayoten",
+    "store_x_url": "https://x.com/d_nagayoten",
+    "source_account_type": "store_official",
+    "store_id": "0a78bac15d"
   },
   {
     "id": "123ab3dd9ed5",
@@ -330,14 +368,20 @@
     "images": [
       "https://pbs.twimg.com/media/HJZukexbYAI9IlV?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZukexbYAI9IlV?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZukexbYAI9IlV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "aitatencho",
+    "store_x_url": "https://x.com/aitatencho",
+    "source_account_type": "store_manager",
+    "store_id": "aec3655c52",
+    "manager_x_url": "https://x.com/aitatencho"
   },
   {
     "id": "c452e16ab384",
     "date": "2026-05-28",
     "time": "20:08",
     "store": "ワンダーランド佐世保白岳店",
-    "machine": "不明",
+    "machine": "L炎炎ノ消防隊2",
     "machine_type": "slot",
     "slot_number": "852",
     "text": "コンプリートきたぁぁぁぁぁ！ 炎炎の消防隊2   852番台 おめでとうございます！！！！！！  次は！？",
@@ -346,14 +390,19 @@
     "images": [
       "https://pbs.twimg.com/media/HJZuHK7bcAAnKy9?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZuHK7bcAAnKy9?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZuHK7bcAAnKy9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_handle": "wl_s_sasebo",
+    "store_x_url": "https://x.com/wl_s_sasebo",
+    "source_account_type": "store_official",
+    "store_id": "decf22fad3"
   },
   {
     "id": "af73cdffd5a7",
     "date": "2026-05-28",
     "time": "19:56",
     "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
-    "machine": "不明",
+    "machine": "L炎炎ノ消防隊2",
     "machine_type": "slot",
     "slot_number": "442",
     "text": "コンプリート速報 豊崎本館　442番台  今週のオススメ機種 炎炎ﾉ消防隊2がコンプリート達成！！  燃え尽きた・・・  コンプリートおめでとうございます #コンプリート #炎炎ﾉ消防隊2 #メガフェイス1120豊崎本館",
@@ -363,7 +412,12 @@
       "https://pbs.twimg.com/media/HJZrKxvaAAA2NCU?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJZrLxQbMAA6NyR?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZrKxvaAAA2NCU?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZrKxvaAAA2NCU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "source_account_type": "store_official",
+    "store_id": "036ad33f3f"
   },
   {
     "id": "25f6cbc88c33",
@@ -379,7 +433,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZo4D5aIAAfxKi?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZo4D5aIAAfxKi?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZo4D5aIAAfxKi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_handle": "higasshi0825",
+    "store_x_url": "https://x.com/higasshi0825",
+    "source_account_type": "store_official",
+    "store_id": "b4e5178a87"
   },
   {
     "id": "ed973d42e292",
@@ -396,7 +455,12 @@
       "https://pbs.twimg.com/media/HJUl3zJbMAAjqG1?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJUl6WnakAAl713?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJUl3zJbMAAjqG1?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJUl3zJbMAAjqG1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aratanarutentyo"
   },
   {
     "id": "9f9c2146a7b5",
@@ -414,7 +478,12 @@
       "https://pbs.twimg.com/media/HJZjiOTaAAAlLMw?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJZjiOTbUAADF4A?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZjiOQakAAP_TO?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZjiOQakAAP_TO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_handle": "aitencho_x",
+    "store_x_url": "https://x.com/aitencho_x",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/aitencho_x"
   },
   {
     "id": "97c7a78c9780",
@@ -430,7 +499,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZiQcWaUAAUmqn?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZiQcWaUAAUmqn?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZiQcWaUAAUmqn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "rakuenshibuya1",
+    "store_x_url": "https://x.com/rakuenshibuya1",
+    "source_account_type": "store_official",
+    "store_id": "7cd594b2fb"
   },
   {
     "id": "0678ba6b9799",
@@ -446,7 +520,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZYStaaYAAJ3qI?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZYStaaYAAJ3qI?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZYStaaYAAJ3qI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "source_account_type": "store_official",
+    "store_id": "ee5a196fc0"
   },
   {
     "id": "143310727c45",
@@ -462,7 +541,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZYCttbQAAXwzW?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZYCttbQAAXwzW?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZYCttbQAAXwzW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "777aoba777",
+    "store_x_url": "https://x.com/777aoba777",
+    "source_account_type": "store_official",
+    "store_id": "af7cf5f9e6"
   },
   {
     "id": "0ea8822e4341",
@@ -474,7 +558,12 @@
     "slot_number": "770",
     "text": "こんばんわテラタニです  【速報】  ヴァルヴレイヴ770番台にて コンプリート達成 おめでとう御座います  最近導入されましたひな壇にて 見やすくなっております。 是非とも一度ご覧下さいませ_(._.)_  #エクスアリーナ東京 #ヴヴヴ #コンプリート #金髪",
     "x_url": "https://x.com/XAtokyo1223/status/2059925833993896072",
-    "collected_at": "2026-05-28T17:33:19Z"
+    "collected_at": "2026-05-28T17:33:19Z",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "xatokyo1223",
+    "store_x_url": "https://x.com/xatokyo1223",
+    "source_account_type": "store_official",
+    "store_id": "98752ae840"
   },
   {
     "id": "6af68667ee53",
@@ -490,7 +579,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJZRhzTboAEsREQ?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZRhzTboAEsREQ?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZRhzTboAEsREQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "source_account_type": "store_official",
+    "store_id": "b42f5fe289"
   },
   {
     "id": "7b42588bbef4",
@@ -507,7 +601,12 @@
       "https://pbs.twimg.com/media/HJZBAFebIAAPpru?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJZBAFcaQAAp5aL?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJZBAFebIAAPpru?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJZBAFebIAAPpru?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "worldcuparea",
+    "store_x_url": "https://x.com/worldcuparea",
+    "source_account_type": "store_official",
+    "store_id": "b8989fd485"
   },
   {
     "id": "2ac0da66c01b",
@@ -523,7 +622,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJY_6zMbAAEUbZb?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJY_6zMbAAEUbZb?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJY_6zMbAAEUbZb?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "source_account_type": "store_official",
+    "store_id": "94cb46d6fb"
   },
   {
     "id": "f48b656637b0",
@@ -539,7 +643,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJY8cogbEAAyqHK?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJY8cogbEAAyqHK?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJY8cogbEAAyqHK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "source_account_type": "store_official",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "e78b7405299e",
@@ -555,24 +664,12 @@
     "images": [
       "https://pbs.twimg.com/media/HJY8HAiaQAEEfvz?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJY8HAiaQAEEfvz?format=jpg&name=large"
-  },
-  {
-    "id": "ffef51fb8be0",
-    "date": "2026-05-28",
-    "time": "15:23",
-    "store": "ロイヤル沼ノ端店",
-    "machine": "不明",
-    "machine_type": "slot",
-    "slot_number": "344",
-    "text": "ミリオンゴッド344番台でコンプリート～ おめでとうございます データチェックしてみてね～  https:// p-town.dmm.com/shops/hokkaido /1343/jackpot …",
-    "x_url": "https://x.com/RoyalNumanohata/status/2059883162386448778",
-    "collected_at": "2026-05-28T17:33:40Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJYnGysbIAEy508?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJYr9uVaQAAyod7?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJYnGysbIAEy508?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJY8HAiaQAEEfvz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "source_account_type": "store_official",
+    "store_id": "19b76dd507"
   },
   {
     "id": "8a7ddaf1b2f6",
@@ -589,7 +686,12 @@
       "https://pbs.twimg.com/media/HJYWhrcaEAACb9u?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJX2JZOaQAAYmwx?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJYWhrcaEAACb9u?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJYWhrcaEAACb9u?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "source_account_type": "store_official",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "901020ca060e",
@@ -605,14 +707,19 @@
     "images": [
       "https://pbs.twimg.com/media/HJdH9wLWIAMLWAf?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJdH9wLWIAMLWAf?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJdH9wLWIAMLWAf?format=jpg&name=large",
+    "machine_id": "26fc95df-4767-41bc-8330-89f463ce04bc",
+    "store_handle": "dynam_00432",
+    "store_x_url": "https://x.com/dynam_00432",
+    "source_account_type": "store_official",
+    "store_id": "ab833f2c6e"
   },
   {
     "id": "fc2ae71d1d94",
     "date": "2026-05-28",
     "time": "08:47",
     "store": "天国朝生田店1020",
-    "machine": "】リコリス・リコイル",
+    "machine": "スマスロ リコリス・リコイル",
     "machine_type": "slot",
     "slot_number": "593",
     "text": "朝天コンプリート情報 5月28日(木)  【593番台】リコリス・リコイル  コンプリート達成 おめでとうございます  閉店ギリギリでのコンプ達成でした 5月のコンプリート多い気が…  #コンプリート #リコリコ",
@@ -622,7 +729,12 @@
       "https://pbs.twimg.com/media/HJcXzUhboAAcudj?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJcX7Z9bcAAqK3Y?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJcXzUhboAAcudj?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJcXzUhboAAcudj?format=jpg&name=large",
+    "machine_id": "d5ec225f-a289-4577-9d2d-56ea7305f3d9",
+    "store_handle": "tengoku_asoda",
+    "store_x_url": "https://x.com/tengoku_asoda",
+    "source_account_type": "store_official",
+    "store_id": "534303d3b5"
   },
   {
     "id": "c9cf82291d7e",
@@ -638,7 +750,11 @@
     "images": [
       "https://pbs.twimg.com/media/HJVGdmdaEAAYNjS?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJVGdmdaEAAYNjS?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJVGdmdaEAAYNjS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_handle": "threeninedesu",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/threeninedesu"
   },
   {
     "id": "e9581245bf09",
@@ -654,6 +770,11 @@
     "images": [
       "https://pbs.twimg.com/media/HJao3xLbQAArkXA?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJao3xLbQAArkXA?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJao3xLbQAArkXA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "source_account_type": "store_official",
+    "store_id": "dd02f6f68a"
   }
 ]

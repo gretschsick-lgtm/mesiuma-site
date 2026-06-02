@@ -203,7 +203,7 @@
     "store_x_url": "https://x.com/scpdaitou",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-02T16:25:00Z",
+    "collected_at": "2026-06-02T16:39:29Z",
     "images": [
       "https://pbs.twimg.com/media/HJkRaMlbUAAJRWe?format=jpg&name=large"
     ],
@@ -994,6 +994,28 @@
     "store_x_url": "https://x.com/mjhakozaki",
     "source_account_type": "store_official",
     "store_id": "c545330ad2"
+  },
+  {
+    "id": "f3298108637b",
+    "date": "2026-05-30",
+    "time": "14:53",
+    "store": "DSGアリーナ高岡",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "\\\\アリーナ速報//  なんと夕方前で complete達成の猛者が  46枚スロット Lからくりサーカス  おめでとうございます  まだまだこれから 夜もお待ちしております♬  #コンプリート #月末もDSGでお楽しみください",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2060600519773892617",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:43:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJi5HHJboAASDLb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJi5HHJboAASDLb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "c774e988a7"
   },
   {
     "id": "2614a680d023",

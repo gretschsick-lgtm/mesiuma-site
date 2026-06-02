@@ -105,28 +105,6 @@
     "video_url": "https://video.twimg.com/amplify_video/2059252069081759744/vid/avc1/0/0/1078x1920/r-mH58mH5HeDSJO5.mp4"
   },
   {
-    "id": "5ee8ba6d3c63",
-    "date": "2026-05-26",
-    "time": "21:12",
-    "store": "イチロク八代店",
-    "machine": "いざ！番長",
-    "machine_type": "slot",
-    "slot_number": "491",
-    "text": "なんと・・・ 本日またまたコンプリートでました 491番台　いざ番長 コンプリート達成されました おめでとうございます",
-    "x_url": "https://x.com/16yatsushiro/status/2059246387997691992",
-    "store_handle": "16yatsushiro",
-    "store_x_url": "https://x.com/16yatsushiro",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-02T16:23:50Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJPpqBMaAAE6w7I?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJPpqBMaAAE6w7I?format=jpg&name=large",
-    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
-    "store_id": "f05651bd65"
-  },
-  {
     "id": "a176961920f9",
     "date": "2026-05-26",
     "time": "21:06",
@@ -318,6 +296,28 @@
     "store_id": "b5b93b356b"
   },
   {
+    "id": "a064c5e2ccbf",
+    "date": "2026-05-26",
+    "time": "18:21",
+    "store": "キング観光サウザンド名古屋駅柳橋店",
+    "machine": "eひきこまり吸血姫の悶々",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは #やなキン です   eひきこまり吸血姫の悶々にて コンプリート達成しました  おめでとうございます  この後のお時間も お楽しみ下さいませ #キング観光 #柳橋 #名古屋 #ひきこまり　#コンプリート",
+    "x_url": "https://x.com/yanakin1515/status/2059203242073149452",
+    "store_handle": "yanakin1515",
+    "store_x_url": "https://x.com/yanakin1515",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:40:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJPCaHMaQAArXzp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJPCaHMaQAArXzp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000034",
+    "store_id": "3f8923222d"
+  },
+  {
     "id": "167475718a41",
     "date": "2026-05-26",
     "time": "17:47",
@@ -379,6 +379,28 @@
     "store_x_url": "https://x.com/joypackx",
     "source_account_type": "store_official",
     "store_id": "e744c71a3d"
+  },
+  {
+    "id": "49091cb9e7cf",
+    "date": "2026-05-26",
+    "time": "16:56",
+    "store": "やすだ西池袋6号店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは やすだ西池袋６号店より【速報】  e東京喰種が先ほど　#コンプリート しましたー おめでとうございます  夕方からも是非 お待ちしております♪ #酒好き店長 #池袋西口 #コンプリート",
+    "x_url": "https://x.com/yasuda_nishiike/status/2059181769866518744",
+    "store_handle": "yasuda_nishiike",
+    "store_x_url": "https://x.com/yasuda_nishiike",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:44:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJOrtWMbIAA3HfK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJOrtWMbIAA3HfK?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "9c57229900"
   },
   {
     "id": "ba603dde6d20",

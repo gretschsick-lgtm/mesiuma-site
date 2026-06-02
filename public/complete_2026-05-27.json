@@ -394,7 +394,7 @@
     "store_x_url": "https://x.com/zone_yukuhashi",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-02T16:25:10Z",
+    "collected_at": "2026-06-02T16:39:33Z",
     "images": [
       "https://pbs.twimg.com/media/HJUoVxpbYAAbTf4?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJUoVxoaoAMDbnO?format=jpg&name=large"
@@ -847,5 +847,27 @@
     "store_x_url": "https://x.com/club_honten99",
     "source_account_type": "store_official",
     "store_id": "118fb35bd3"
+  },
+  {
+    "id": "95b019498d75",
+    "date": "2026-05-27",
+    "time": "00:01",
+    "store": "ＭＪアリーナ干隈店",
+    "machine": "スマスロ 秘宝伝",
+    "machine_type": "slot",
+    "slot_number": "180",
+    "text": "本日5月26日  L秘宝伝　180番台  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mjhosikuma/status/2059288923235656013",
+    "store_handle": "mjhosikuma",
+    "store_x_url": "https://x.com/mjhosikuma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:44:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJQQURcagAErEx6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJQQURcagAErEx6?format=jpg&name=large",
+    "machine_id": "4a8abedb-1c83-4af5-a5ff-0798dce8ab34",
+    "store_id": "2b4d471207"
   }
 ]

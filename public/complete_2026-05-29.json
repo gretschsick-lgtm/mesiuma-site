@@ -363,6 +363,28 @@
     "manager_x_url": "https://x.com/obihirohimbx2n"
   },
   {
+    "id": "e0b787eddf44",
+    "date": "2026-05-29",
+    "time": "21:07",
+    "store": "D'ステ渋川インター店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "皆様こんばんは  緊急速報 e牙狼12XX-MJ 一撃コンプリート達成  一撃でコンプリートすぎすぎます(*´▽｀*) おめでとうございます  #コンプリート",
+    "x_url": "https://x.com/d_shibukawa/status/2060332086373040278",
+    "store_handle": "d_shibukawa",
+    "store_x_url": "https://x.com/d_shibukawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:43:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJfFBk7aEAEqXLj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJfFBk7aEAEqXLj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3bdebc5119"
+  },
+  {
     "id": "640f30a375a5",
     "date": "2026-05-29",
     "time": "20:59",
@@ -745,5 +767,27 @@
     "store_x_url": "https://x.com/arrow_naniwa",
     "source_account_type": "store_official",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "c91d88924c5f",
+    "date": "2026-05-29",
+    "time": "00:38",
+    "store": "アロー志紀店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは、わってぃーです！  本日e牙狼12黄金騎士極限 コンプリートです  ご遊技されていたお客様おめでとうございます！！",
+    "x_url": "https://x.com/shiki8_18_28/status/2060385185712250891",
+    "store_handle": "shiki8_18_28",
+    "store_x_url": "https://x.com/shiki8_18_28",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:41:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJf1Z7SawAAFItZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJf1Z7SawAAFItZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "866d0fcc81"
   }
 ]
