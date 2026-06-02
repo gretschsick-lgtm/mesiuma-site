@@ -149,6 +149,28 @@ COMPLETE_QUERIES = [
     "当ホール コンプリート 達成",
     "コンプリート達成 スマスロ",
     "コンプリート機能 おめでとうございます",
+
+    # ══ 【完走系】パチンコ確変完走 / スロット完走 ══
+    "完走 番台",
+    "完走達成 番台",
+    "完走 おめでとうございます 番台",
+    "完走 コンプリート 番台",
+    "本日 完走 番台",
+    "#完走 番台",
+
+    # ══ 【コンプ短縮形】一部店舗は "コンプ" と書く ══
+    "コンプ達成 番台",
+    "コンプ機能発動 番台",
+    "コンプ おめでとうございます 番台",
+
+    # ══ 【COMPLETE 英語表記】 ══
+    "COMPLETE 番台",
+    "COMPLETE機能発動",
+
+    # ══ 【高出玉量目 = スマスロ完走指標】══
+    "19000枚 番台",
+    "20000枚 番台",
+    "18000枚 番台",
 ]
 
 # ---------------------------------------------------------------------------
@@ -2014,8 +2036,8 @@ def main():
     all_new: list[dict] = []
     query_errors = 0   # クエリ単位のエラー数
 
-    # ── 時間制限: 28分で強制終了（GH Actions ステップタイムアウト35分の余裕を確保）
-    MAX_RUNTIME_MIN = 28
+    # ── 時間制限: 40分で強制終了（GH Actions ステップタイムアウト50分の余裕を確保）
+    MAX_RUNTIME_MIN = 40
     # ── 連続0件での早期終了: X側のレート制限検出
     # キーワードクエリを全件実行し終わってから from:handle クエリで連続0件が続いた場合のみ終了
     # ※ 半数判定（//2）だとキーワード後半〜from:handle が全スキップされるバグがあったため修正
@@ -2070,12 +2092,22 @@ def main():
         # ── フェーズ0: タイムライン直接収集（X search インデックス漏れ補完）────────────
         # count >= 3 の実績豊富な上位アカウントのタイムラインを直接訪問して収集
         # X search は全ツイートをインデックスしないため、これが最も確実な収集手段
+
+        # バックフィル実行時（--date が当日以外）はタイムライン収集をスキップ
+        # 過去日付のタイムラインは最新ツイートが先頭に来るため収集効果がほぼゼロ
+        from datetime import date as _today_date
+        _is_backfill = (today != _today_date.today().strftime("%Y-%m-%d"))
+
         timeline_handles = [
             h for h, info in store_handles_data.items()
             if isinstance(info, dict) and info.get("count", 0) >= 3
         ]
         timeline_handles.sort(key=lambda h: -store_handles_data.get(h, {}).get("count", 0))
         timeline_handles = timeline_handles[:50]  # 上位50アカウント
+
+        if _is_backfill:
+            log(f"📅 バックフィル実行（{today}）: タイムライン収集をスキップ（時間節約）")
+            timeline_handles = []
 
         if timeline_handles and not login_lost:
             log(f"📡 タイムライン直接収集フェーズ: {len(timeline_handles)}アカウント")

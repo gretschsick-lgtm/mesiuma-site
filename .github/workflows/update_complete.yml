@@ -40,7 +40,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 55  # スクリプト28分 + インストール5分 + git push = 十分な余裕
+    timeout-minutes: 70  # スクリプト40分 + インストール5分 + git push = 十分な余裕
 
     steps:
       - name: Checkout
@@ -59,7 +59,7 @@ jobs:
           playwright install chromium --with-deps
 
       - name: Fetch complete info from X
-        timeout-minutes: 35  # スクリプト内28分制限 + 余裕7分
+        timeout-minutes: 50  # スクリプト内40分制限 + 余裕10分
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
