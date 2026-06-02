@@ -1151,6 +1151,40 @@ def save_complete(new_entries: list[dict], target_date: str):
             + ", ".join(f"{e['date']} {e.get('store','?')}" for e in skipped_future[:3]))
     new_only = [e for e in new_only if e.get("date", "") <= target_date]
 
+    # ── machine_resolver でフィルタリング（machine_id 未解決は JSON に保存しない）──
+    # Supabase 環境変数が設定されている場合のみ有効（ローカル・未設定時はスキップ）
+    try:
+        import sys as _sys2, os as _os2
+        _sd = _os2.path.dirname(_os2.path.abspath(__file__))
+        if _sd not in _sys2.path:
+            _sys2.path.insert(0, _sd)
+        from machine_resolver import get_resolver as _get_resolver
+        _save_resolver = _get_resolver()
+    except (ImportError, Exception):
+        _save_resolver = None
+
+    if _save_resolver:
+        _filtered, _skipped_unresolved = [], 0
+        for _e in new_only:
+            _raw = (_e.get("machine") or "").strip()
+            if not _raw or _raw == "不明":
+                _skipped_unresolved += 1
+                continue
+            _resolved = _save_resolver.resolve(_raw)
+            if _resolved:
+                _e["machine"]      = _resolved["official_name"]
+                _e["machine_type"] = _resolved["machine_type"]
+                _e["machine_id"]   = _resolved["machine_id"]
+                _filtered.append(_e)
+            else:
+                _save_resolver.save_unknown(_raw, _e.get("x_url", ""))
+                _skipped_unresolved += 1
+        if _skipped_unresolved:
+            log(f"⚠️  machine_id 未解決 {_skipped_unresolved}件を除外（unknown_machines に記録）")
+        new_only = _filtered
+    else:
+        log("⚠️  machine_resolver 未初期化 — フィルタリングをスキップ（Supabase 環境変数を確認）")
+
     combined = all_data + new_only
 
     # コンプリートした日付（X datetime由来）→ 時刻 の新しい順でソート
