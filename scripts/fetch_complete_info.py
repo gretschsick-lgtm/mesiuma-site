@@ -959,10 +959,11 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> lis
         pass
 
     # ページ初期レンダリング完了まで少し待つ
-    page.wait_for_timeout(1500)
+    page.wait_for_timeout(1000)
 
-    # 30回スクロール: wheel距離5000px × 30回 = 合計150,000px分
-    for _ in range(30):
+    # 20回スクロール: wheel距離5000px × 20回 = 合計100,000px（約250〜300ツイート分）
+    # 30→20に削減: 1クエリ約2秒節約 → 195クエリで約6分節約、40分制限内で完走可能
+    for _ in range(20):
         page.mouse.wheel(0, 5000)
         page.wait_for_timeout(200)
 
@@ -1069,8 +1070,9 @@ def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
     # 7日前を下限として、それより古いツイートが出てきたら停止
     cutoff_date = (_dt.fromisoformat(today_str) - timedelta(days=7)).strftime("%Y-%m-%d")
 
-    # 30回スクロール（タイムラインは日付逆順で深掘りが必要）
-    for scroll_i in range(30):
+    # 20回スクロール（タイムラインは日付逆順で深掘りが必要）
+    # 30→20に削減: タイムライン1アカウントあたり約2秒節約
+    for scroll_i in range(20):
         page.mouse.wheel(0, 5000)
         page.wait_for_timeout(200)
 
@@ -2103,7 +2105,7 @@ def main():
             if isinstance(info, dict) and info.get("count", 0) >= 3
         ]
         timeline_handles.sort(key=lambda h: -store_handles_data.get(h, {}).get("count", 0))
-        timeline_handles = timeline_handles[:50]  # 上位50アカウント
+        timeline_handles = timeline_handles[:30]  # 上位30アカウント（50→30: 時間節約のため削減）
 
         if _is_backfill:
             log(f"📅 バックフィル実行（{today}）: タイムライン収集をスキップ（時間節約）")

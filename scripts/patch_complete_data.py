@@ -131,12 +131,25 @@ def main():
             # ── Step 4: store_resolver で store_id を設定 ───────────────────
             if store_resolver and not e.get("store_id"):
                 _sname = (e.get("store") or "").strip()
-                if _sname:
-                    _sres = store_resolver.resolve(_sname)
-                    if _sres:
-                        e["store_id"] = _sres["store_id"]
-                    else:
-                        store_resolver.save_unknown(_sname, e.get("x_url", ""))
+                _shandle = (e.get("store_handle") or "").lower()
+                _sres = store_resolver.resolve(_sname) if _sname else None
+
+                # フォールバック: 名前解決失敗時はハンドルで x_url 直引き
+                if not _sres and _shandle:
+                    try:
+                        _rows = store_resolver._sb_get(
+                            f"stores?select=id,name&x_url=ilike.*{_shandle}*&limit=1"
+                        )
+                        if _rows:
+                            e["store_id"] = _rows[0]["id"]
+                            _sres = {"store_id": _rows[0]["id"]}
+                    except Exception:
+                        pass
+
+                if _sres:
+                    e["store_id"] = _sres["store_id"]
+                elif _sname:
+                    store_resolver.save_unknown(_sname, e.get("x_url", ""))
 
             kept.append(e)
         else:
