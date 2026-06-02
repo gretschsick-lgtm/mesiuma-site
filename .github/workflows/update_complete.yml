@@ -38,9 +38,13 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  fetch:
+  collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 70  # スクリプト40分 + インストール5分 + git push = 十分な余裕
+    timeout-minutes: 25  # 各ジョブ最大195/4×9.5s ≈ 8分 + バッファ
+    strategy:
+      matrix:
+        mode: [handle_a, handle_b, keyword_a, keyword_b]
+      fail-fast: false  # 1ジョブ失敗でも他は継続
 
     steps:
       - name: Checkout
@@ -58,8 +62,8 @@ jobs:
           pip install playwright playwright-stealth cryptography
           playwright install chromium --with-deps
 
-      - name: Fetch complete info from X
-        timeout-minutes: 50  # スクリプト内40分制限 + 余裕10分
+      - name: Fetch complete info (${{ matrix.mode }})
+        timeout-minutes: 20
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}
@@ -69,17 +73,67 @@ jobs:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
-          # JST 日付を明示（GH Actions は UTC ランナー）
           TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)
-          echo "🕐 JST: $TODAY_JST"
-
+          echo "🕐 JST: $TODAY_JST  mode: ${{ matrix.mode }}"
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            echo "📅 指定日付: ${{ github.event.inputs.date }}"
-            python scripts/fetch_complete_info.py --headless --date "${{ github.event.inputs.date }}"
+            TARGET_DATE="${{ github.event.inputs.date }}"
           else
-            # since_date が2日前まで拡張されているため深夜ダブルランは不要
-            python scripts/fetch_complete_info.py --headless --date "$TODAY_JST"
+            TARGET_DATE="$TODAY_JST"
           fi
+          python scripts/fetch_complete_info.py \
+            --headless \
+            --date "$TARGET_DATE" \
+            --mode "${{ matrix.mode }}" \
+            --partial
+
+      - name: Upload partial result
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: complete-partial-${{ matrix.mode }}
+          path: public/complete_partial_${{ matrix.mode }}.json
+          if-no-files-found: warn
+          retention-days: 1
+
+  merge:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    if: always()  # 一部のcollectジョブが失敗しても統合は実行
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install cryptography
+
+      - name: Download all partial results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: complete-partial-*
+          path: public/
+          merge-multiple: true
+
+      - name: Merge partial results
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          TODAY_JST=$(TZ=Asia/Tokyo date +%Y-%m-%d)
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            TARGET_DATE="${{ github.event.inputs.date }}"
+          else
+            TARGET_DATE="$TODAY_JST"
+          fi
+          python scripts/merge_complete_data.py --date "$TARGET_DATE"
 
       - name: Commit and push if changed
         env:
@@ -89,27 +143,21 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
 
-          # ── コンフリクトを起こさない push 方式 ─────────────────────────────────
           for i in 1 2 3 4 5; do
-            # 生成ファイルを一時退避（complete_info.json + 日付別ファイル + ranking）
             cp public/complete_info.json    /tmp/complete_info.json.bak
             cp public/complete_ranking.json /tmp/complete_ranking.json.bak
             cp scripts/.x_session.enc /tmp/x_session.enc.bak 2>/dev/null || true
-            # 日付別ファイルをすべてバックアップ
             mkdir -p /tmp/complete_days
             cp public/complete_20??-??-??.json /tmp/complete_days/ 2>/dev/null || true
 
-            # 最新リモートに同期
             git fetch origin main
             git reset --hard origin/main
 
-            # 生成ファイルを復元
             cp /tmp/complete_info.json.bak    public/complete_info.json
             cp /tmp/complete_ranking.json.bak public/complete_ranking.json
             cp /tmp/x_session.enc.bak scripts/.x_session.enc 2>/dev/null || true
             cp /tmp/complete_days/complete_20??-??-??.json public/ 2>/dev/null || true
 
-            # 変更があるファイルだけ add
             git add public/complete_info.json public/complete_ranking.json
             git add public/complete_20??-??-??.json 2>/dev/null || true
             git add public/store_handles.json public/store_x_urls.json 2>/dev/null || true
@@ -121,7 +169,7 @@ jobs:
             fi
 
             COUNT=$(python3 -c "import json; d=json.load(open('public/complete_info.json')); print(len(d))")
-            git commit -m "chore: update complete_info.json (${COUNT}件) + ranking"
+            git commit -m "chore: update complete_info.json (${COUNT}件) + ranking [parallel]"
 
             if git push; then
               echo "✅ Push succeeded (attempt ${i})"

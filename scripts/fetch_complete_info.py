@@ -1985,10 +1985,70 @@ def update_ranking():
         log(f"⚠️ store_handles.json 更新エラー: {_she}")
 
 
+def save_partial(new_entries: list[dict], today_str: str, mode_name: str) -> int:
+    """--partial モード: complete_partial_{mode}.json に書き出す。
+
+    machine_resolver で解決済みのエントリのみを対象日付フィルタ後に保存。
+    merge_complete_data.py が複数の部分ファイルを統合して complete_info.json を更新する。
+    """
+    from datetime import timezone as _tz, timedelta as _td
+    _JST = _tz(_td(hours=9))
+    cutoff = (datetime.now(_JST) - _td(days=30)).strftime("%Y-%m-%d")
+
+    # 日付フィルタ
+    valid = [e for e in new_entries
+             if e.get("date", "") >= cutoff and e.get("date", "") <= today_str]
+
+    # machine_resolver
+    try:
+        import sys as _sys2, os as _os2
+        _sd = _os2.path.dirname(_os2.path.abspath(__file__))
+        if _sd not in _sys2.path:
+            _sys2.path.insert(0, _sd)
+        from machine_resolver import get_resolver as _get_resolver
+        _pr = _get_resolver()
+    except Exception:
+        _pr = None
+
+    if _pr:
+        resolved_entries = []
+        unresolved = 0
+        for e in valid:
+            raw = (e.get("machine") or "").strip()
+            if not raw or raw == "不明":
+                unresolved += 1
+                continue
+            res = _pr.resolve(raw)
+            if res:
+                e["machine"] = res["official_name"]
+                e["machine_type"] = res["machine_type"]
+                e["machine_id"] = res["machine_id"]
+                resolved_entries.append(e)
+            else:
+                _pr.save_unknown(raw, e.get("x_url", ""))
+                unresolved += 1
+        if unresolved:
+            log(f"⚠️  machine_id 未解決 {unresolved}件を除外")
+        valid = resolved_entries
+
+    partial_path = COMPLETE_JSON.parent / f"complete_partial_{mode_name}.json"
+    partial_path.write_text(
+        json.dumps(valid, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    log(f"📦 部分結果: {len(valid)}件 → {partial_path.name}")
+    return len(valid)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
     parser.add_argument("--date", default=None)
+    parser.add_argument("--mode", default="all",
+        choices=["all", "handle_a", "handle_b", "keyword_a", "keyword_b", "keyword", "handle"],
+        help="収集モード: handle_a=上位50ハンドル, handle_b=51-100ハンドル, keyword_a=前半キーワード, keyword_b=後半キーワード")
+    parser.add_argument("--partial", action="store_true",
+        help="部分収集モード: complete_partial_{mode}.json に書き出す（merge_complete_data.py で統合）")
     args = parser.parse_args()
 
     # GH Actions は UTC で動くので JST (+9h) に変換する
@@ -2023,14 +2083,27 @@ def main():
         except Exception as _he:
             log(f"⚠️ store_handles.json 読み込みエラー: {_he}")
 
-    # キーワードクエリを先頭に置き、from:handle クエリは補完として後置
-    # 理由: キーワードクエリは全X検索なので投稿がある限り必ずヒットする
-    #       from:handle クエリは特定店舗のみのため投稿がない日は全て0件になり
-    #       先頭に置くと早期終了でキーワードクエリが実行されなくなるため
-    all_queries = list(COMPLETE_QUERIES) + handle_queries
+    # モード別クエリ選択
+    _mode = args.mode
+    if _mode == "keyword" or _mode == "keyword_a":
+        # keyword_a: COMPLETE_QUERIES の前半50件
+        _kw_slice = COMPLETE_QUERIES[:50] if _mode == "keyword_a" else list(COMPLETE_QUERIES)
+        all_queries = _kw_slice
+    elif _mode == "keyword_b":
+        all_queries = COMPLETE_QUERIES[50:]
+    elif _mode == "handle":
+        all_queries = handle_queries
+    elif _mode == "handle_a":
+        # handle_a: 上位50ハンドル + タイムライン収集あり
+        all_queries = handle_queries[:50]
+    elif _mode == "handle_b":
+        # handle_b: 51〜100ハンドル
+        all_queries = handle_queries[50:]
+    else:  # "all"
+        all_queries = list(COMPLETE_QUERIES) + handle_queries
 
     log("=" * 60)
-    log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(all_queries)} (keyword:{len(COMPLETE_QUERIES)} + handle:{len(handle_queries)})")
+    log(f"🎰 コンプリート収集開始（店舗投稿のみ）  {today}  クエリ数={len(all_queries)} (mode:{args.mode}  keyword:{len(COMPLETE_QUERIES)} / handle:{len(handle_queries)})")
 
     # ── Supabase: 実行開始を記録 ──────────────────────────────────────────
     sb_log_id = supabase_log_start("complete")
@@ -2106,6 +2179,11 @@ def main():
         ]
         timeline_handles.sort(key=lambda h: -store_handles_data.get(h, {}).get("count", 0))
         timeline_handles = timeline_handles[:30]  # 上位30アカウント（50→30: 時間節約のため削減）
+
+        # タイムライン収集はhandle_a・allモードのみ実行
+        if args.mode not in ("all", "handle_a"):
+            log(f"📅 mode={args.mode}: タイムライン収集をスキップ")
+            timeline_handles = []
 
         if _is_backfill:
             log(f"📅 バックフィル実行（{today}）: タイムライン収集をスキップ（時間節約）")
@@ -2198,13 +2276,30 @@ def main():
 
     log(f"\n📊 収集: {len(deduped)} 件（店舗投稿・重複除去後）")
 
-    # ── JSON 保存（既存の動作をそのまま維持）────────────────────────────────
+    # ── JSON 保存 ──────────────────────────────────────────────────────────
     json_added = 0
-    if deduped:
-        json_added = save_complete(deduped, today)
-        log(f"✅ {json_added}件を新規追加")
+    if args.partial:
+        # 部分収集モード: complete_partial_{mode}.json に書き出す
+        if deduped:
+            json_added = save_partial(deduped, today, args.mode)
+            log(f"✅ 部分保存: {json_added}件 → complete_partial_{args.mode}.json")
+        else:
+            log("ℹ️  新規の店舗投稿コンプリートが見つかりませんでした")
+        # ランキング更新はスキップ（merge_complete_data.py が行う）
+        supabase_write_complete(deduped)
+        supabase_log_end(
+            sb_log_id, "success",
+            fetched=len(deduped), new_count=json_added, dupes=0,
+            errors=query_errors,
+        )
+        log("=" * 60)
+        return
     else:
-        log("ℹ️  新規の店舗投稿コンプリートが見つかりませんでした")
+        if deduped:
+            json_added = save_complete(deduped, today)
+            log(f"✅ {json_added}件を新規追加")
+        else:
+            log("ℹ️  新規の店舗投稿コンプリートが見つかりませんでした")
 
     log(f"\n=== {today} 店舗コンプリート一覧 ===")
     today_entries = [e for e in deduped if e.get("date") == today]
