@@ -1,5 +1,28 @@
 [
   {
+    "id": "b4a9db3a7c9a",
+    "date": "2026-06-01",
+    "time": "23:20",
+    "store": "ARROW浪速店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "480",
+    "text": "本日、  e 東京喰種　480番台 L 東京喰種　941番台  コンプリート達成おめでとうございます  #東京喰種 #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2061452877038784734",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T17:58:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJuykMFboAA1Rdy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJvATcNawAA9-_O?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJuykMFboAA1Rdy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "044d23ed107a",
     "date": "2026-06-01",
     "time": "22:48",
@@ -35,6 +58,28 @@
     "image_url": "https://pbs.twimg.com/media/HJu1LkBaIAAvbIY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000005",
     "store_id": "1f0627c183"
+  },
+  {
+    "id": "5c75631e8b23",
+    "date": "2026-06-01",
+    "time": "21:36",
+    "store": "ＡＢＣ豊川店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "604",
+    "text": "コンプリート報告  おめでとうございます お客様からも直接 喜びの声を頂きました  [L鋼鉄城のカバネリ　海門決戦] 604番台にて コンプリート達成。  ――残りカバネ0体 　　　　六根清浄！――  明日より、再開致します。",
+    "x_url": "https://x.com/ABC_toyokawa/status/2061426761334964595",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T17:58:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJuoQFOacAAJjDK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJuoQFOacAAJjDK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "58111f872e"
   },
   {
     "id": "002b47bdb4a1",

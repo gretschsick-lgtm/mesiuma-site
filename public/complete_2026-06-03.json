@@ -1,5 +1,27 @@
 [
   {
+    "id": "a517c3e205c2",
+    "date": "2026-06-03",
+    "time": "20:46",
+    "store": "M&K岡崎店",
+    "machine": "LタクトオーパスM1",
+    "machine_type": "slot",
+    "slot_number": "1817",
+    "text": "1817番台 コンプリートおめでとうございます #Ｌタクトオーパス #コンプリート #mk岡崎",
+    "x_url": "https://x.com/MKokazaki/status/2062138735379227038",
+    "store_handle": "mkokazaki",
+    "store_x_url": "https://x.com/mkokazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T17:58:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4wQAYbwAAtaPn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4wQAYbwAAtaPn?format=jpg&name=large",
+    "machine_id": "b8fc2843-6262-4a6a-8992-726cf39ce39c",
+    "store_id": "341c9ef1a4"
+  },
+  {
     "id": "b75efc08c787",
     "date": "2026-06-03",
     "time": "19:56",
