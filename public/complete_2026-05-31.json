@@ -109,28 +109,6 @@
     "store_id": "5ce36297f9"
   },
   {
-    "id": "ab05d3751fc1",
-    "date": "2026-05-31",
-    "time": "22:56",
-    "store": "r1十三駅東口店",
-    "machine": "eカケグルイ",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "なんと！！eカケグルイコンプリート コンプリートしたお客様と 一緒に喜び分かち合えてハッピー  おめでとうございます #イーグルr1十三駅東口店 #カケグルイ #コンプリート #祝",
-    "x_url": "https://x.com/EAGLE_R1_juso/status/2061084298812568013",
-    "collected_at": "2026-06-01T16:46:11Z",
-    "image_url": "https://pbs.twimg.com/media/HJpxPlqaYAAKgB1?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HJpxPlqaYAAKgB1?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJpxPl8bgAAHCS0?format=jpg&name=large"
-    ],
-    "machine_id": "11111111-1111-1111-1111-000000000035",
-    "store_handle": "eagle_r1_juso",
-    "store_x_url": "https://x.com/eagle_r1_juso",
-    "source_account_type": "store_official",
-    "store_id": "7d561df44c"
-  },
-  {
     "id": "f4339d655260",
     "date": "2026-05-31",
     "time": "22:56",
@@ -151,6 +129,28 @@
     "image_url": "https://pbs.twimg.com/media/HJpxO6nakAA0zy-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031",
     "store_id": "8ea13b6c57"
+  },
+  {
+    "id": "ab05d3751fc1",
+    "date": "2026-05-31",
+    "time": "22:56",
+    "store": "r1十三駅東口店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "なんと！！eカケグルイコンプリート コンプリートしたお客様と 一緒に喜び分かち合えてハッピー  おめでとうございます #イーグルr1十三駅東口店 #カケグルイ #コンプリート #祝",
+    "x_url": "https://x.com/EAGLE_R1_juso/status/2061084298812568013",
+    "collected_at": "2026-06-01T16:46:11Z",
+    "image_url": "https://pbs.twimg.com/media/HJpxPlqaYAAKgB1?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HJpxPlqaYAAKgB1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJpxPl8bgAAHCS0?format=jpg&name=large"
+    ],
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_handle": "eagle_r1_juso",
+    "store_x_url": "https://x.com/eagle_r1_juso",
+    "source_account_type": "store_official",
+    "store_id": "7d561df44c"
   },
   {
     "id": "3b28e4964461",
@@ -197,6 +197,19 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "2adabf50f679",
+    "date": "2026-05-31",
+    "time": "22:13",
+    "store": "MGM鈴鹿店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "x_url": "https://x.com/mgm_suzuka/status/2061073478917501175",
+    "collected_at": "2026-06-02T14:37:06+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "46545a9ebce9",
     "date": "2026-05-31",
     "time": "22:08",
@@ -218,6 +231,19 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "d45b907e95d7",
+    "date": "2026-05-31",
+    "time": "21:56",
+    "store": "鹿浜店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "888",
+    "x_url": "https://x.com/shikahama_m/status/2061069189973266915",
+    "collected_at": "2026-06-03T08:46:55+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "fdede8fc7978",
     "date": "2026-05-31",
     "time": "21:47",
@@ -237,6 +263,19 @@
     "store_x_url": "https://x.com/wakakin_tsujic",
     "source_account_type": "store_official",
     "store_id": "771f030669"
+  },
+  {
+    "id": "855af3ec0d09",
+    "date": "2026-05-31",
+    "time": "21:40",
+    "store": "メガフェイス1450本山",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "325",
+    "x_url": "https://x.com/megaface_1450/status/2061065155111198821",
+    "collected_at": "2026-06-03T08:46:55+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "95277132838a",
@@ -283,25 +322,17 @@
     "store_id": "7ac364008f"
   },
   {
-    "id": "2210cee21ba0",
+    "id": "caffee68a208",
     "date": "2026-05-31",
-    "time": "21:17",
-    "store": "T-MAX新栄店",
-    "machine": "L革命機ヴァルヴレイヴ2",
+    "time": "21:30",
+    "store": "スーパーD’ステーション倉賀野店",
+    "machine": "L炎炎ノ消防隊2",
     "machine_type": "slot",
-    "slot_number": "1180",
-    "text": "こんばんは新栄店トンカツ君です 　　ヴァルヴレイヴ2　1180番台にて コンプリート達成です おめでとうございます！",
-    "x_url": "https://x.com/tmaxshinei39_10/status/2061059479345782976",
-    "collected_at": "2026-06-01T11:32:27Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_handle": "tmaxshinei39_10",
-    "store_x_url": "https://x.com/tmaxshinei39_10",
-    "source_account_type": "store_official",
-    "store_id": "9823f30ca7"
+    "slot_number": "702",
+    "x_url": "https://x.com/SDkuraganoten/status/2061062722998137072",
+    "collected_at": "2026-06-03T00:29:16+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "c3019a67349c",
@@ -325,6 +356,27 @@
     "store_x_url": "https://x.com/toumei0812",
     "source_account_type": "store_official",
     "store_id": "c6fe6bdd0b"
+  },
+  {
+    "id": "2210cee21ba0",
+    "date": "2026-05-31",
+    "time": "21:17",
+    "store": "T-MAX新栄店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1180",
+    "text": "こんばんは新栄店トンカツ君です 　　ヴァルヴレイヴ2　1180番台にて コンプリート達成です おめでとうございます！",
+    "x_url": "https://x.com/tmaxshinei39_10/status/2061059479345782976",
+    "collected_at": "2026-06-01T11:32:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "tmaxshinei39_10",
+    "store_x_url": "https://x.com/tmaxshinei39_10",
+    "source_account_type": "store_official",
+    "store_id": "9823f30ca7"
   },
   {
     "id": "87d7ea0896af",
@@ -504,6 +556,19 @@
     "store_id": "01a41812b5"
   },
   {
+    "id": "18a716b0d6ea",
+    "date": "2026-05-31",
+    "time": "20:25",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "669",
+    "x_url": "https://x.com/eagle_c_tencho/status/2061046479373176966",
+    "collected_at": "2026-06-03T11:55:26+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "e0c1929e3937",
     "date": "2026-05-31",
     "time": "20:10",
@@ -524,6 +589,19 @@
     "image_url": "https://pbs.twimg.com/media/HJpLbwPaEAAwoBC?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "fe04efdcd0"
+  },
+  {
+    "id": "70679c9fc28c",
+    "date": "2026-05-31",
+    "time": "20:09",
+    "store": "播磨屋日本橋一丁目店",
+    "machine": "スマスロ 化物語",
+    "machine_type": "slot",
+    "slot_number": "52",
+    "x_url": "https://x.com/HM_nippombashi/status/2061042253469233542",
+    "collected_at": "2026-06-03T11:54:45+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "0df0f99eb21d",
@@ -588,6 +666,32 @@
     "store_x_url": "https://x.com/nagara315",
     "source_account_type": "store_official",
     "store_id": "6a73de6b19"
+  },
+  {
+    "id": "4cb2d73949e8",
+    "date": "2026-05-31",
+    "time": "19:42",
+    "store": "マルハン石岡店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "139",
+    "x_url": "https://x.com/M_tsuchiura_Y/status/2061035476438642861",
+    "collected_at": "2026-06-02T13:20:46+00:00",
+    "text": "",
+    "images": []
+  },
+  {
+    "id": "790543eb7281",
+    "date": "2026-05-31",
+    "time": "19:36",
+    "store": "でこぼこ店長",
+    "machine": "スマスロ リコリス・リコイル",
+    "machine_type": "slot",
+    "slot_number": "391",
+    "x_url": "https://x.com/divo_x_chiyori/status/2061034137063141596",
+    "collected_at": "2026-06-02T13:20:46+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "4a87d2066ae6",
@@ -673,6 +777,32 @@
     "store_x_url": "https://x.com/sd_tougane",
     "source_account_type": "store_official",
     "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "c1e0011c66df",
+    "date": "2026-05-31",
+    "time": "18:53",
+    "store": "サンシャインKYORAKU平針",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "x_url": "https://x.com/kyorakuhirabari/status/2061023173643264336",
+    "collected_at": "2026-06-02T16:39:14+00:00",
+    "text": "",
+    "images": []
+  },
+  {
+    "id": "0d17f6dfb328",
+    "date": "2026-05-31",
+    "time": "18:33",
+    "store": "MGM鈴鹿店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "x_url": "https://x.com/mgm_suzuka/status/2061018271328182623",
+    "collected_at": "2026-06-02T20:34:57+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "8c4bf67ced81",

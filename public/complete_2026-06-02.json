@@ -1,5 +1,31 @@
 [
   {
+    "id": "650d3d0f00a4",
+    "date": "2026-06-02",
+    "time": "23:07",
+    "store": "G松原店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "1033",
+    "x_url": "https://x.com/kicona_matsubra/status/2061811912179069275",
+    "collected_at": "2026-06-02T22:22:03+00:00",
+    "text": "",
+    "images": []
+  },
+  {
+    "id": "c1f5c82ac645",
+    "date": "2026-06-02",
+    "time": "23:02",
+    "store": "マルハン仙台苦竹店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "49",
+    "x_url": "https://x.com/niga_maru/status/2061810604118364538",
+    "collected_at": "2026-06-02T20:35:00+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "67a2f7a90646",
     "date": "2026-06-02",
     "time": "22:50",

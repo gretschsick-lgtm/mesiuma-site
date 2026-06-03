@@ -1,5 +1,18 @@
 [
   {
+    "id": "044d23ed107a",
+    "date": "2026-06-01",
+    "time": "22:48",
+    "store": "DASULLAR 津幡店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1218",
+    "x_url": "https://x.com/dasullaer/status/2061444840848843150",
+    "collected_at": "2026-06-02T18:37:30+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "dafe7ee64507",
     "date": "2026-06-01",
     "time": "22:33",
@@ -89,6 +102,19 @@
     "image_url": "https://pbs.twimg.com/media/HJuR3AYaYAEzuYz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "abcf4e1c2c"
+  },
+  {
+    "id": "a2e986e90ab4",
+    "date": "2026-06-01",
+    "time": "19:08",
+    "store": "マルハン阿見店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "133",
+    "x_url": "https://x.com/amztwinpark/status/2061389301737509322",
+    "collected_at": "2026-06-02T13:21:09+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "f6a5f1f0a40d",
@@ -309,6 +335,19 @@
     "store_x_url": "https://x.com/maruhan_kameari",
     "source_account_type": "store_official",
     "store_id": "abcf4e1c2c"
+  },
+  {
+    "id": "59320dc75bcb",
+    "date": "2026-06-01",
+    "time": "12:03",
+    "store": "天国朝生田店1020",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "x_url": "https://x.com/tengoku_asoda/status/2061644884755550383",
+    "collected_at": "2026-06-02T13:44:45+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "0c3bfc2cf267",

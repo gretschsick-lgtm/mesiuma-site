@@ -85,6 +85,32 @@
     "store_id": "0c64b81c6c"
   },
   {
+    "id": "e141c5a94209",
+    "date": "2026-05-30",
+    "time": "22:25",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "321",
+    "x_url": "https://x.com/oumeshinmachi/status/2060714153636163594",
+    "collected_at": "2026-06-02T23:48:49+00:00",
+    "text": "",
+    "images": []
+  },
+  {
+    "id": "bdcee5d62765",
+    "date": "2026-05-30",
+    "time": "22:13",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "312",
+    "x_url": "https://x.com/oumeshinmachi/status/2060711226154573835",
+    "collected_at": "2026-06-02T23:48:49+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "c2ee7a42ac09",
     "date": "2026-05-30",
     "time": "22:06",
@@ -556,27 +582,6 @@
     "store_id": "87ba33d920"
   },
   {
-    "id": "c93e64b0499d",
-    "date": "2026-05-30",
-    "time": "19:57",
-    "store": "マリナプローバ",
-    "machine": "L東京喰種",
-    "machine_type": "slot",
-    "slot_number": "748",
-    "text": "【お知らせ】  19時47分頃、 【748番台　L東京喰種】にて コンプリート機能が発動しましたので、 本日の遊技は終了となりました！  おつかれさまでした！  #パチスロ　#コンプリート　#東京喰種　#マリナプローバ",
-    "x_url": "https://x.com/MARINAPROVA0601/status/2060676896992669887",
-    "collected_at": "2026-05-30T11:50:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJj-QQbasAE9t6d?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJj-QQbasAE9t6d?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000006",
-    "store_handle": "marinaprova0601",
-    "store_x_url": "https://x.com/marinaprova0601",
-    "source_account_type": "store_official",
-    "store_id": "8919b5c36e"
-  },
-  {
     "id": "c6615164a2b8",
     "date": "2026-05-30",
     "time": "19:57",
@@ -597,6 +602,27 @@
     "store_x_url": "https://x.com/concorde1220",
     "source_account_type": "store_manager",
     "manager_x_url": "https://x.com/concorde1220"
+  },
+  {
+    "id": "c93e64b0499d",
+    "date": "2026-05-30",
+    "time": "19:57",
+    "store": "マリナプローバ",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "748",
+    "text": "【お知らせ】  19時47分頃、 【748番台　L東京喰種】にて コンプリート機能が発動しましたので、 本日の遊技は終了となりました！  おつかれさまでした！  #パチスロ　#コンプリート　#東京喰種　#マリナプローバ",
+    "x_url": "https://x.com/MARINAPROVA0601/status/2060676896992669887",
+    "collected_at": "2026-05-30T11:50:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJj-QQbasAE9t6d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJj-QQbasAE9t6d?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_handle": "marinaprova0601",
+    "store_x_url": "https://x.com/marinaprova0601",
+    "source_account_type": "store_official",
+    "store_id": "8919b5c36e"
   },
   {
     "id": "da903e86a22f",
@@ -1023,6 +1049,19 @@
     "store_id": "f012229481"
   },
   {
+    "id": "fed978c48011",
+    "date": "2026-05-30",
+    "time": "17:03",
+    "store": "テキサス白島店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "x_url": "https://x.com/texashakushima/status/2060633246850060698",
+    "collected_at": "2026-06-02T16:23:49+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "8cc451272df8",
     "date": "2026-05-30",
     "time": "16:40",
@@ -1149,6 +1188,19 @@
     "store_x_url": "https://x.com/vegabiq0427",
     "source_account_type": "store_official",
     "store_id": "dfbb934e94"
+  },
+  {
+    "id": "fc41744b03bc",
+    "date": "2026-05-30",
+    "time": "09:10",
+    "store": "ダイナム北海道札幌東雁来店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "333",
+    "x_url": "https://x.com/dynam_00402/status/2060876536568279044",
+    "collected_at": "2026-06-02T13:42:39+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "e42a556c3514",

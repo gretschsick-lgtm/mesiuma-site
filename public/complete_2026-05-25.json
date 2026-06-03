@@ -116,6 +116,19 @@
     "store_x_url": "https://x.com/monky0621bm"
   },
   {
+    "id": "c468d6d98877",
+    "date": "2026-05-25",
+    "time": "21:58",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "490",
+    "x_url": "https://x.com/since2011_8_11/status/2058895451806675122",
+    "collected_at": "2026-06-02T16:25:14+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "e51328d1ac19",
     "date": "2026-05-25",
     "time": "21:48",
@@ -275,6 +288,19 @@
     "store_x_url": "https://x.com/megaface_1070"
   },
   {
+    "id": "416724c31f04",
+    "date": "2026-05-25",
+    "time": "19:09",
+    "store": "イーグルアールワン南8条店",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "497",
+    "x_url": "https://x.com/eagle_c_tencho/status/2058852932339323373",
+    "collected_at": "2026-06-03T11:55:26+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "d5f4570192a8",
     "date": "2026-05-25",
     "time": "19:02",
@@ -377,6 +403,19 @@
     "store_handle": "jparkaja",
     "source_account_type": "store_official",
     "store_x_url": "https://x.com/jparkaja"
+  },
+  {
+    "id": "0df5e3c5ccb3",
+    "date": "2026-05-25",
+    "time": "17:00",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "972",
+    "x_url": "https://x.com/eagle_c_tencho/status/2058820427074642266",
+    "collected_at": "2026-06-03T11:55:26+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "48116c572c59",

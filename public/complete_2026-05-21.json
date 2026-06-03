@@ -57,6 +57,26 @@
     "store_x_url": "https://x.com/niga_maru"
   },
   {
+    "id": "077ca61621a4",
+    "date": "2026-05-21",
+    "time": "22:21",
+    "store": "",
+    "machine": "Lチバリヨ2ZB",
+    "slot_number": "1051",
+    "text": "1051番台 Lチバリヨ2プラスはコンプリート機能作動の為遊技終了となりました。 #PR",
+    "images": [
+      "https://pbs.twimg.com/media/HI2JLZ7aUAAyQSD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HI2JLZ7aUAAyQSD?format=jpg&name=large",
+    "x_url": "https://x.com/pachiaikoukaM/status/2057451652102410625",
+    "collected_at": "2026-05-22T11:38:10Z",
+    "machine_type": "slot",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_handle": "pachiaikoukam",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/pachiaikoukam"
+  },
+  {
     "id": "fae836addde2",
     "date": "2026-05-21",
     "time": "22:13",

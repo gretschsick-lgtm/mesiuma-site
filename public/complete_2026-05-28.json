@@ -208,6 +208,19 @@
     "store_id": "a0c1412332"
   },
   {
+    "id": "8089e1d274c3",
+    "date": "2026-05-28",
+    "time": "21:32",
+    "store": "パラディソ古川ドルフィン館",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "x_url": "https://x.com/paradiso_furdol/status/2059976062780772471",
+    "collected_at": "2026-06-03T12:16:12+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "382489be6f41",
     "date": "2026-05-28",
     "time": "21:28",
@@ -438,6 +451,19 @@
     "store_id": "decf22fad3"
   },
   {
+    "id": "45d9d8802d1b",
+    "date": "2026-05-28",
+    "time": "20:08",
+    "store": "キング塩尻店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "623",
+    "x_url": "https://x.com/kingshiojiri/status/2059954932879622544",
+    "collected_at": "2026-06-02T13:51:59+00:00",
+    "text": "",
+    "images": []
+  },
+  {
     "id": "af73cdffd5a7",
     "date": "2026-05-28",
     "time": "19:56",
@@ -566,6 +592,19 @@
     "store_x_url": "https://x.com/sagachan_park",
     "source_account_type": "store_official",
     "store_id": "ee5a196fc0"
+  },
+  {
+    "id": "baa6e605419c",
+    "date": "2026-05-28",
+    "time": "18:33",
+    "store": "ABC松本白板店",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "80",
+    "x_url": "https://x.com/ABC_shiraita/status/2059931180104073437",
+    "collected_at": "2026-06-03T00:39:12+00:00",
+    "text": "",
+    "images": []
   },
   {
     "id": "143310727c45",
