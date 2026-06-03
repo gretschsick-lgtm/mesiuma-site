@@ -109,26 +109,28 @@
     "store_id": "5ce36297f9"
   },
   {
-    "id": "f4339d655260",
+    "id": "675c92fc3451",
     "date": "2026-05-31",
-    "time": "22:56",
-    "store": "SUPER COSMO PREMIUM大東店",
-    "machine": "eフィーバーキン肉マン",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "【速報】  スマパチ『キン肉マン』 コンプリート達成 おめでとうございます！  22：49コンプリートって…… 流石にこのレベルの滑り込みは初めてです。 御見逸れ致しました(≧▽≦；)   #コンプリート  #スマパチ  #スーコス大東  #フォローお願いします",
-    "x_url": "https://x.com/SCPdaitou/status/2061084328629854708",
-    "store_handle": "scpdaitou",
-    "store_x_url": "https://x.com/scpdaitou",
+    "time": "23:05",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "125",
+    "text": "【SPACE666】 結果発表！！！！ 本日31日  Lいざ！番長　125番台 コンプリート達成  L革命機ヴァルヴレイヴ２　468番台 13000枚Over  モンスターハンターライズ　134番台 12500枚Over  本日も万枚Overが６台と 多くの台で楽しめましたね 明日から6月に突入",
+    "x_url": "https://x.com/space666tobata/status/2061086546376200675",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-02T16:39:29Z",
+    "collected_at": "2026-06-03T18:36:33Z",
     "images": [
-      "https://pbs.twimg.com/media/HJpxO6nakAA0zy-?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HJps-DBaAAAOqQ9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJptCcCbMAI3g8f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJptDscboAA5By7?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJpxO6nakAA0zy-?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000031",
-    "store_id": "8ea13b6c57"
+    "image_url": "https://pbs.twimg.com/media/HJps-DBaAAAOqQ9?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "f8132a1307"
   },
   {
     "id": "ab05d3751fc1",
@@ -151,6 +153,28 @@
     "store_x_url": "https://x.com/eagle_r1_juso",
     "source_account_type": "store_official",
     "store_id": "7d561df44c"
+  },
+  {
+    "id": "f4339d655260",
+    "date": "2026-05-31",
+    "time": "22:56",
+    "store": "SUPER COSMO PREMIUM大東店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【速報】  スマパチ『キン肉マン』 コンプリート達成 おめでとうございます！  22：49コンプリートって…… 流石にこのレベルの滑り込みは初めてです。 御見逸れ致しました(≧▽≦；)   #コンプリート  #スマパチ  #スーコス大東  #フォローお願いします",
+    "x_url": "https://x.com/SCPdaitou/status/2061084328629854708",
+    "store_handle": "scpdaitou",
+    "store_x_url": "https://x.com/scpdaitou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-02T16:39:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpxO6nakAA0zy-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpxO6nakAA0zy-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "8ea13b6c57"
   },
   {
     "id": "3b28e4964461",
@@ -335,6 +359,27 @@
     "images": []
   },
   {
+    "id": "2210cee21ba0",
+    "date": "2026-05-31",
+    "time": "21:17",
+    "store": "T-MAX新栄店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1180",
+    "text": "こんばんは新栄店トンカツ君です 　　ヴァルヴレイヴ2　1180番台にて コンプリート達成です おめでとうございます！",
+    "x_url": "https://x.com/tmaxshinei39_10/status/2061059479345782976",
+    "collected_at": "2026-06-01T11:32:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "tmaxshinei39_10",
+    "store_x_url": "https://x.com/tmaxshinei39_10",
+    "source_account_type": "store_official",
+    "store_id": "9823f30ca7"
+  },
+  {
     "id": "c3019a67349c",
     "date": "2026-05-31",
     "time": "21:17",
@@ -356,27 +401,6 @@
     "store_x_url": "https://x.com/toumei0812",
     "source_account_type": "store_official",
     "store_id": "c6fe6bdd0b"
-  },
-  {
-    "id": "2210cee21ba0",
-    "date": "2026-05-31",
-    "time": "21:17",
-    "store": "T-MAX新栄店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "1180",
-    "text": "こんばんは新栄店トンカツ君です 　　ヴァルヴレイヴ2　1180番台にて コンプリート達成です おめでとうございます！",
-    "x_url": "https://x.com/tmaxshinei39_10/status/2061059479345782976",
-    "collected_at": "2026-06-01T11:32:27Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJpZ9PObwAAZIb8?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_handle": "tmaxshinei39_10",
-    "store_x_url": "https://x.com/tmaxshinei39_10",
-    "source_account_type": "store_official",
-    "store_id": "9823f30ca7"
   },
   {
     "id": "87d7ea0896af",

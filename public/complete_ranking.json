@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T03:11:10+09:00",
+  "generated_at": "2026-06-04T03:51:15+09:00",
   "monthly": [
     {
       "month": "2026-06",
@@ -170,7 +170,7 @@
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 517,
+      "total_count": 518,
       "stores": [
         {
           "rank": 1,
@@ -222,15 +222,15 @@
         },
         {
           "rank": 9,
-          "name": "SuperD'station東金店",
+          "name": "SPACE(スペース444＆666)",
           "count": 5,
-          "x_url": "https://x.com/sd_tougane"
+          "x_url": "https://x.com/space666tobata"
         },
         {
           "rank": 10,
-          "name": "フェイス850佐賀",
+          "name": "SuperD'station東金店",
           "count": 5,
-          "x_url": "https://x.com/face_850"
+          "x_url": "https://x.com/sd_tougane"
         }
       ],
       "slot_machines": [
@@ -538,7 +538,7 @@
         "count": 5
       }
     ],
-    "total_count": 571
+    "total_count": 572
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 11,
@@ -552,6 +552,7 @@
     "グランキコーナひたちなか店": 6,
     "キング観光サウザンド栄若宮大通店": 5,
     "メガフェイス1300淀川": 5,
+    "SPACE(スペース444＆666)": 5,
     "SuperD'station東金店": 5,
     "フェイス850佐賀": 5,
     "楽園池袋店グリーンサイド": 5,
@@ -565,7 +566,6 @@
     "イーグルアールワン南8条店": 4,
     "マルハンメガシティ伊勢崎": 4,
     "楽園大宮店": 4,
-    "SPACE(スペース444＆666)": 4,
     "キクヤ一宮店": 4,
     "テキサス小倉店": 4,
     "プレイランドキャッスル東郷店": 4,
