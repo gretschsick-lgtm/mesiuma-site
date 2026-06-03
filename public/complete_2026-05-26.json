@@ -22,6 +22,29 @@
     "store_id": "799f6143bf"
   },
   {
+    "id": "92a5e70f637d",
+    "date": "2026-05-26",
+    "time": "23:02",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "97",
+    "text": "コンプリート速報 豊崎本館から3台目！？ 97番台 東京喰種でコンプリート達成！！  他にも万枚機種が・・・  コンプリートおめでとうございます #梅屋シンさん来店 #東京喰種 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2059273951973613928",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T12:12:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJQB1VLbIAAVYML?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJQB2ambYAA1cUY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJQB1VLbIAAVYML?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "d76a1b2e661f",
     "date": "2026-05-26",
     "time": "22:35",
@@ -316,6 +339,28 @@
     "image_url": "https://pbs.twimg.com/media/HJPCaHMaQAArXzp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000034",
     "store_id": "3f8923222d"
+  },
+  {
+    "id": "5cacb77fc78f",
+    "date": "2026-05-26",
+    "time": "18:21",
+    "store": "M&K岡崎店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1211",
+    "text": "1211番台 コンプリートおめでとうございます #Ｌヴァルヴレイヴ２ #コンプリート #mk岡崎 #今週のおすすめ機種",
+    "x_url": "https://x.com/MKokazaki/status/2059203301158387721",
+    "store_handle": "mkokazaki",
+    "store_x_url": "https://x.com/mkokazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T12:13:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJPCfQJaYAAmgzQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJPCfQJaYAAmgzQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "341c9ef1a4"
   },
   {
     "id": "167475718a41",
