@@ -231,7 +231,8 @@
     "x_url": "https://x.com/mgm_suzuka/status/2061073478917501175",
     "collected_at": "2026-06-02T14:37:06+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpnYQWbEAAv_rQ?format=jpg&name=large"
   },
   {
     "id": "46545a9ebce9",
@@ -255,6 +256,28 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "c5272d4580e6",
+    "date": "2026-05-31",
+    "time": "22:02",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "505",
+    "text": " 505番台 e牙狼12 コンプリート達成 #5月31日 #メガフェイス菊陽 ",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2061070719526797456",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T22:36:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpk5TTbsAAj_ey?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpk5TTbsAAj_ey?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "d45b907e95d7",
     "date": "2026-05-31",
     "time": "21:56",
@@ -265,7 +288,8 @@
     "x_url": "https://x.com/shikahama_m/status/2061069189973266915",
     "collected_at": "2026-06-03T08:46:55+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpjIEYa0AEcVtC?format=jpg&name=large"
   },
   {
     "id": "fdede8fc7978",
@@ -299,7 +323,8 @@
     "x_url": "https://x.com/megaface_1450/status/2061065155111198821",
     "collected_at": "2026-06-03T08:46:55+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpbSY8bUAA_VQj?format=jpg&name=large"
   },
   {
     "id": "95277132838a",
@@ -356,7 +381,8 @@
     "x_url": "https://x.com/SDkuraganoten/status/2061062722998137072",
     "collected_at": "2026-06-03T00:29:16+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpdlUtaIAAwf88?format=jpg&name=large"
   },
   {
     "id": "2210cee21ba0",
@@ -590,7 +616,8 @@
     "x_url": "https://x.com/eagle_c_tencho/status/2061046479373176966",
     "collected_at": "2026-06-03T11:55:26+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpO2MrboAAHoiP?format=jpg&name=large"
   },
   {
     "id": "e0c1929e3937",
@@ -625,7 +652,8 @@
     "x_url": "https://x.com/HM_nippombashi/status/2061042253469233542",
     "collected_at": "2026-06-03T11:54:45+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpH30YaEAEkcpy?format=jpg&name=large"
   },
   {
     "id": "0df0f99eb21d",
@@ -702,7 +730,8 @@
     "x_url": "https://x.com/M_tsuchiura_Y/status/2061035476438642861",
     "collected_at": "2026-06-02T13:20:46+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpEbEwaYAAiTM6?format=jpg&name=large"
   },
   {
     "id": "790543eb7281",
@@ -715,7 +744,8 @@
     "x_url": "https://x.com/divo_x_chiyori/status/2061034137063141596",
     "collected_at": "2026-06-02T13:20:46+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJpDoAPb0AADcnO?format=jpg&name=large"
   },
   {
     "id": "4a87d2066ae6",
@@ -813,7 +843,8 @@
     "x_url": "https://x.com/kyorakuhirabari/status/2061023173643264336",
     "collected_at": "2026-06-02T16:39:14+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJo5pvMaIAAVWNu?format=jpg&name=large"
   },
   {
     "id": "0d17f6dfb328",
@@ -826,7 +857,8 @@
     "x_url": "https://x.com/mgm_suzuka/status/2061018271328182623",
     "collected_at": "2026-06-02T20:34:57+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJo1HqdboAAE754?format=jpg&name=large"
   },
   {
     "id": "8c4bf67ced81",
