@@ -2,13 +2,13 @@
   "rakuenikebukuro": {
     "store": "楽園池袋店ゲートウェイ",
     "x_url": "https://x.com/rakuenikebukuro",
-    "count": 10,
+    "count": 11,
     "type": "store"
   },
   "castleatsuta": {
     "store": "プレイランドキャッスル熱田店",
     "x_url": "https://x.com/castleatsuta",
-    "count": 10,
+    "count": 11,
     "type": "store"
   },
   "castle_kasugai": {
@@ -323,6 +323,12 @@
     "count": 3,
     "type": "store"
   },
+  "mjhosikuma": {
+    "store": "ＭＪアリーナ干隈店",
+    "x_url": "https://x.com/mjhosikuma",
+    "count": 3,
+    "type": "store"
+  },
   "gaia_amagasaki": {
     "store": "ミクちゃんガイア尼崎店",
     "x_url": "https://x.com/gaia_amagasaki",
@@ -605,12 +611,6 @@
     "count": 2,
     "type": "store"
   },
-  "mjhosikuma": {
-    "store": "ＭＪアリーナ干隈店",
-    "x_url": "https://x.com/mjhosikuma",
-    "count": 2,
-    "type": "store"
-  },
   "face_666kanzaki": {
     "store": "フェイス６６６神埼",
     "x_url": "https://x.com/face_666kanzaki",
@@ -665,6 +665,24 @@
     "count": 2,
     "type": "store"
   },
+  "oumeshinmachi": {
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "x_url": "https://x.com/oumeshinmachi",
+    "count": 2,
+    "type": "store"
+  },
+  "kinenbashi1010": {
+    "store": "キャッスル記念橋南店",
+    "x_url": "https://x.com/kinenbashi1010",
+    "count": 2,
+    "type": "store"
+  },
+  "kicona_matsudo": {
+    "store": "キコーナ松戸",
+    "x_url": "https://x.com/kicona_matsudo",
+    "count": 2,
+    "type": "store"
+  },
   "mn_utazu": {
     "store": "ミリオン宇多津店",
     "x_url": "https://x.com/mn_utazu",
@@ -701,12 +719,6 @@
     "count": 1,
     "type": "store"
   },
-  "oumeshinmachi": {
-    "store": "マルハン青梅新町店【イイじゃん!】",
-    "x_url": "https://x.com/oumeshinmachi",
-    "count": 1,
-    "type": "store"
-  },
   "kashiwa_rakuen": {
     "store": "楽園柏店",
     "x_url": "https://x.com/kashiwa_rakuen",
@@ -734,12 +746,6 @@
   "demasse111": {
     "store": "デマッセ梅津店・ライト館",
     "x_url": "https://x.com/demasse111",
-    "count": 1,
-    "type": "store"
-  },
-  "kinenbashi1010": {
-    "store": "キャッスル記念橋南店",
-    "x_url": "https://x.com/kinenbashi1010",
     "count": 1,
     "type": "store"
   },
@@ -1664,12 +1670,6 @@
   "marcheakabane": {
     "store": "マルシェ赤羽店",
     "x_url": "https://x.com/marcheakabane",
-    "count": 1,
-    "type": "store"
-  },
-  "kicona_matsudo": {
-    "store": "キコーナ松戸",
-    "x_url": "https://x.com/kicona_matsudo",
     "count": 1,
     "type": "store"
   },
