@@ -571,7 +571,7 @@ export default function CompletePage() {
       if (q) {
         const hit =
           e.machine.toLowerCase().includes(q) ||
-          e.store.toLowerCase().includes(q) ||
+          (e.store || "").toLowerCase().includes(q) ||
           (e.text || "").toLowerCase().includes(q);
         if (!hit) continue;
       }
