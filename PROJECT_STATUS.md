@@ -1,6 +1,6 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-04 (Phase1-6 完了)
+更新日時: 2026-06-04 (Priority1-5 完了)
 
 ---
 
@@ -94,22 +94,22 @@
 
 ---
 
-## 現在の実測値 (2026-06-04)
+## 現在の実測値 (2026-06-04 Priority1-5)
 
 | 指標 | 値 | 目標 |
 |------|-----|------|
-| complete_info.json 件数 | 565件 | - |
-| Supabase 件数 | 565件 | - |
+| complete_info.json 件数 | 571件 | - |
+| Supabase 件数 | 571件 | - |
 | JSON only | 0件 | 0件 ✅ |
 | SB only | 0件 | 0件 ✅ |
 | 機種名不一致 | 0件 | 0件 ✅ |
 | machine_id=NULL (SB) | 0件 | 0件 ✅ |
 | unknown_machines (pending) | 0件 | 0件 ✅ |
 | machines_aliases 総件数 | 154件 | - |
-| COMPLETE_QUERIES | 107件 | - |
+| COMPLETE_QUERIES | 116件 | - |
 | 誤分類 (machine_type) | 0件 | 0件 ✅ |
 | ゴミデータ (JSON) | 0件 | 0件 ✅ |
-| store_handles 総件数 | 618件 | 3000件 ❌ |
+| store_handles 総件数 | 1491件 | 3000件 △ |
 | manager_handles | 45件 | 500件 ❌ |
 
 ---
@@ -145,7 +145,78 @@
 
 ---
 
+## Priority1-5 調査・実施結果 (2026-06-04)
+
+### Priority 1: コンプリート画像反映漏れ調査
+
+| 確認項目 | 実測値 |
+|---------|-------|
+| image_url件数 (truthy) | 530件/571件 |
+| 実表示件数 (slot tab) | 381件 |
+| 実表示件数 (all tab) | 530件 |
+| 反映漏れ件数 (slot visible・画像なし) | 26件 (null/empty string) |
+| HTTPステータス (全530件) | 200 OK |
+| Vercel反映状況 | Phase 1 fix デプロイ済み ✅ (referrerPolicy:"no-referrer" 確認) |
+| Next.js表示状況 | 条件分岐正常 / image_url=""はJS falsy→非表示 |
+| CSS非表示 | なし |
+| 条件分岐 | slot tab でpachinko 163件非表示（設計通り） |
+| CSP ブロック | なし (vercel.json 未設定) |
+
+**原因**:
+- A) 26件のスロットエントリでimage_urlが未取得またはnull → fetch_complete_images.py待ち/ツイート削除
+- B) image_url="" の2件 → JSONのバグ（nullに修正済み ✅）
+- 「image_urlありなのに表示されない」バグ: 0件（全530件正常）
+
+**修正**:
+- `image_url=""` の2件を null に修正（complete_info.json）
+- パチンコ149件の slot tab 非表示は設計通り
+
+---
+
+### Priority 5: COMPLETE_QUERIES 更新 (107→116件)
+
+- 重複クエリ削除: 「炎炎ノ消防隊 コンプリート 番台」が2件→1件 (-1)
+- 実績確認済み新規追加 (+10件):
+  - ひきこまり / 東京リベンジャーズ / 無職転生 / ビッグドリーム / ゾンビランドサガ
+  - タクトオーパス / 鉄拳 / 超電磁砲 / 一騎当千 / 番長
+
+---
+
 ## Phase 2-4 調査結果 (2026-06-04実測)
+
+### Priority 2: Store Expansion 実施結果
+
+| 追加元 | 新規件数 | 追加後総計 |
+|--------|---------|----------|
+| events_public.json (店舗系フィルタ) | +873件 | 1491件 |
+| stores.json / store_x_urls.json | 0件(既登録済み) | - |
+
+- フィルタ基準: ユニーク出現店舗 ≤ 3 かつ メディアキーワードなし
+- メディア系94件は除外 (複数店舗に言及するアグリゲーター)
+- 618件 → **1491件** (+873件)
+
+チェーン別追加結果:
+| チェーン | 追加前 | 追加後 | 状況 |
+|---------|-------|-------|------|
+| アミューズ | 3 | 8 | △ |
+| ガイア | 10 | 20 | △ |
+| MJ | 4 | 5 | △ |
+| ニッコー | 0 | 0 | ✗ イベントデータに出現なし |
+| コスモス | 0 | 0 | ✗ イベントデータに出現なし |
+| 共楽 | 0 | 0 | ✗ イベントデータに出現なし |
+| VEAM | 1 | 1 | ✗ count=0のまま |
+
+### Priority 3: Manager Expansion 状況
+- 現在: **45件** (count>0: 24件)
+- イベントデータからmanager判定不可 → 手動X検索が必要
+- 次のアクション: 各チェーンの店長アカウントを fetch_store_x_urls.py で探索
+
+### Priority 4: count=0店舗 理由調査
+- count=0合計: 1171件（うち旧618件分の298件含む）
+- PIA: 7件 count=0 → コンプリートのツイート形式が検索クエリにマッチしない可能性
+- アミューズ: 8件 count=0 → 同上
+- VEAM: 1件 count=0 → veam_web は公式アカウントだがコンプリート投稿なし
+- **根本原因**: X APIによるリアルタイム確認が必要。GH Actions次回実行後にcount変化を監視する
 
 ### Phase 2: Store Expansion 状況
 
@@ -197,11 +268,10 @@
 
 ## チェーン別 store_handles カバー率 (2026-06-04実測)
 
-### 全体
-- 総件数: 618件 (store=573, manager=45)
-- count=0（未実績）: 298件
+### 全体 (2026-06-04 更新後)
+- 総件数: 1491件 (store=1435, manager=45, unknown=11)
+- count=0（未実績）: 1171件
 - count>=1（実績あり）: 320件
-- 未分類（独立店舗等）: 298件 (48%)
 
 ### チェーン別
 
@@ -236,16 +306,17 @@
 ## 未完了の作業
 
 ### 高優先
-- [ ] store_handles 拡大 (現618件 → 目標3000件)
-  - 優先追加チェーン: ニッコー, VEAM, コスモス, 共楽, PIA (未登録/未実績)
-  - ワンダーランド (37件登録済み・実績5件) → アカウントの実際のツイート確認
-  - D'STATION (SuperD'station表記を含む) → 追加6件以上
+- [ ] store_handles 1491件 → 3000件 (残り +1509件)
+  - ニッコー, コスモス, 共楽: イベントデータに出現なし → 手動X検索必要
+  - fetch_store_x_urls.py を定期実行して自動発掘
 - [ ] manager_handles 拡大 (現45件 → 目標500件)
-- [x] unknown_machines pending → **0件 ✅** (Phase 6 完了)
+  - 手動X検索 or fetch_store_x_urls.py で探索
+- [x] unknown_machines pending → **0件 ✅**
 - [ ] supabase_write_complete() を ON CONFLICT DO UPDATE に変更
+- [ ] fetch_complete_images.py 再実行 (24件の slot entries で image_url 未取得)
 
 ### 中優先
-- [ ] 6/4 以降のdaily件数継続監視（激減原因確認）
+- [ ] 6/4 以降のdaily件数継続監視
 - [ ] patch_complete_data.py を Supabase にも適用するステップ追加
 
 ---
