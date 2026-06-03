@@ -1,5 +1,71 @@
 [
   {
+    "id": "cabfc20c3ca3",
+    "date": "2026-06-03",
+    "time": "18:56",
+    "store": "ＭＪアリーナ干隈店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "197",
+    "text": "本日6月3日  L革命機ヴァルヴレイヴ2　197番台  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mjhosikuma/status/2062111072082157972",
+    "store_handle": "mjhosikuma",
+    "store_x_url": "https://x.com/mjhosikuma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:38:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4XFxlbgAAIZPy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4XFxlbgAAIZPy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "2b4d471207"
+  },
+  {
+    "id": "197f354a43fe",
+    "date": "2026-06-03",
+    "time": "16:54",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "2180",
+    "text": "2180番台 スマスロ 北斗の拳 転生の章2 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2062080364940808674",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:26:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ37BvsbwAEDKO9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ37BvsbwAEDKO9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "cb0be1f296"
+  },
+  {
+    "id": "67a2f7a90646",
+    "date": "2026-06-02",
+    "time": "22:50",
+    "store": "キコーナ松戸",
+    "machine": "スロット ゾンビランドサガ",
+    "machine_type": "slot",
+    "slot_number": "833",
+    "text": "こんばんは！！   松戸市にあるパチンコ店！キコーナ松戸店です！！  コンプリート報告～！！  833番台　Lスロット　ゾンビランドサガ にてコンプリートです！！  おめでとうございます！！  明日もご来店お待ちしております！  #つぶやキコーナ #コンプリート  #キコーナ松戸",
+    "x_url": "https://x.com/kicona_matsudo/status/2061807645611495737",
+    "store_handle": "kicona_matsudo",
+    "store_x_url": "https://x.com/kicona_matsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:26:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ0DFEdacAAtdWO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ0DFEdacAAtdWO?format=jpg&name=large",
+    "machine_id": "e073ea8a-65ae-4499-9280-618d3520a980",
+    "store_id": "ef570556fc"
+  },
+  {
     "id": "477bfd37f5b9",
     "date": "2026-06-02",
     "time": "22:23",
@@ -109,6 +175,28 @@
     "image_url": "https://pbs.twimg.com/media/HJzUi-3acAAfvKQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "04138e2cd3"
+  },
+  {
+    "id": "2449a999ee6b",
+    "date": "2026-06-02",
+    "time": "19:13",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e転生したらスライムだった件2",
+    "machine_type": "pachinko",
+    "slot_number": "2311",
+    "text": "楽園池袋店ゲートウェイです 本日、6月2日(火)  パチンココーナーから 2311番台 【e転生したらスライムだった件2】  コンプリート機能が作動いたしました 本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2061753165104705993",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:25:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJzRk2CacAABh28?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJzRk2CacAABh28?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000036",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "b8dc1361aee4",
@@ -378,6 +466,28 @@
     "image_url": "https://pbs.twimg.com/media/HJtnwhja0AALyGP?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "cbc9c2710d"
+  },
+  {
+    "id": "11ad456d5503",
+    "date": "2026-06-01",
+    "time": "16:39",
+    "store": "キャッスル記念橋南店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "1876",
+    "text": "キャッスル記念橋南店です。  １８７６番台 スマスロ　攻殻機動隊  先ほどコンプリートしました。  遊技台の稼働を停止しております。 明日の開放をお待ちください！",
+    "x_url": "https://x.com/kinenbashi1010/status/2061351888843616439",
+    "store_handle": "kinenbashi1010",
+    "store_x_url": "https://x.com/kinenbashi1010",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:28:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJtkdkuaUAEO5pP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJtkdkuaUAEO5pP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "e5a3df2192"
   },
   {
     "id": "052b6433f74c",
@@ -727,6 +837,28 @@
     "image_url": "https://pbs.twimg.com/media/HJpfbqnbIAA6RjH?format=jpg&name=large",
     "machine_id": "1a50b566-ade8-422e-82c1-c601b448e226",
     "store_id": "98752ae840"
+  },
+  {
+    "id": "e04a13ed72de",
+    "date": "2026-05-31",
+    "time": "21:35",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "349",
+    "text": "349番台 スマスロ　北斗の拳 コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2061063908119707728",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:27:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJpeOoxbYAAXuiM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJpeOoxbYAAXuiM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_id": "7ac364008f"
   },
   {
     "id": "2210cee21ba0",
@@ -5775,8 +5907,8 @@
     "date": "2026-05-26",
     "time": "14:24",
     "store": "プレイランドキャッスル東郷店",
-    "machine": "eカケグルイ",
-    "machine_type": "pachinko",
+    "machine": "カケグルイ219ver",
+    "machine_type": "slot",
     "slot_number": "23",
     "text": "先程、２３番台      スマパチ カケグルイ 219verにて      コンプリート機能作動の為、      稼働を停止しております。        #コンプリート  明日の開放をお楽しみに",
     "x_url": "https://x.com/toumaruhana6/status/2059143530980032606",
@@ -5785,7 +5917,7 @@
       "https://pbs.twimg.com/media/HJOL0a2aQAAtINp?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HJOL0a2aQAAtINp?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "machine_id": "0122d122-8f45-44ae-bd1d-f63f5c47c77d",
     "store_handle": "toumaruhana6",
     "store_x_url": "https://x.com/toumaruhana6",
     "source_account_type": "store_official",
@@ -5796,7 +5928,7 @@
     "date": "2026-05-26",
     "time": "13:11",
     "store": "ダイナム兵庫たつの店",
-    "machine": "モンスターハンターライズ",
+    "machine": "「モンスターハンターライズ」",
     "machine_type": "slot",
     "slot_number": "280",
     "text": "コンプリート報告です  5/26(火) 10スロット 280番台「モンスターハンターライズ」で コンプリート達成  コンプリート達成したお客様 おめでとうございます  #ダイナム #たつの #龍野",
@@ -11122,47 +11254,5 @@
     "store_x_url": "https://x.com/shintentyoDee1",
     "source_account_type": "store_official",
     "store_id": "a2efcbb4cc"
-  },
-  {
-    "id": "4be6bf38c401",
-    "date": "2026-05-04",
-    "time": "20:26",
-    "store": "グランド元山",
-    "machine": "Lアズールレーン2",
-    "slot_number": "446",
-    "text": "速報です  446番台「アズールレーン」がコンプリート達成  一撃でしょうか おめでとうございます  #グランド元山 #コンプリート #パチンコ #スロット",
-    "images": [
-      "https://pbs.twimg.com/media/HHeL21obYAApXfC?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HHeL21obYAApXfC?format=jpg&name=large",
-    "x_url": "https://x.com/GRANDmotoyama/status/2051262106843189250",
-    "collected_at": "2026-05-21T10:58:17Z",
-    "machine_type": "slot",
-    "machine_id": "cc397c5c-3872-4d97-a65c-b99e27374223",
-    "store_handle": "grandmotoyama",
-    "store_x_url": "https://x.com/grandmotoyama",
-    "source_account_type": "store_official",
-    "store_id": "c52618694d"
-  },
-  {
-    "id": "1d034d98ba38",
-    "date": "2026-05-04",
-    "time": "00:26",
-    "store": "サミット別府店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "slot_number": "1516",
-    "text": "コンプリート達成 本日6.25スロットより 1516番台 【スマスロ北斗の拳転生の章】が 見事コンプリート達成 私たまたま横切ったときに 『発動まで30枚ったい』の表示が ウキウキしながら見届けて、 ドヤ撮影いたしました 心より祝福申し上げます",
-    "images": [
-      "https://pbs.twimg.com/media/HHfBoyIboAABLyE?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HHfBoyIboAABLyE?format=jpg&name=large",
-    "x_url": "https://x.com/summitbeltupu/status/2051322481571697149",
-    "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_handle": "summitbeltupu",
-    "store_x_url": "https://x.com/summitbeltupu",
-    "source_account_type": "store_official",
-    "store_id": "9a4dfb7369"
   }
 ]

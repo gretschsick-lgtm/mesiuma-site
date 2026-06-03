@@ -230,6 +230,25 @@
     "store_x_url": "https://x.com/dsgarenatakaoka"
   },
   {
+    "id": "e0ce53126484",
+    "date": "2026-05-20",
+    "time": "20:45",
+    "store": "やすだひばりヶ丘店",
+    "machine": "コーナー",
+    "slot_number": "１６０",
+    "text": "やすひば速報  スマパチコーナー１６０番台 e転生したらスライムだった件２より コンプリート達成  この後のお時間もお楽しみ下さい",
+    "images": [
+      "https://pbs.twimg.com/media/HIwpH1raIAA_qVf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HIwpH1raIAA_qVf?format=jpg&name=large",
+    "x_url": "https://x.com/yasuda_hibari/status/2057065046870466923",
+    "collected_at": "2026-05-22T12:21:29Z",
+    "machine_type": "slot",
+    "store_handle": "yasuda_hibari",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/yasuda_hibari"
+  },
+  {
     "id": "88dbc7aff75e",
     "date": "2026-05-20",
     "time": "20:42",
@@ -435,6 +454,26 @@
     "store_handle": "castle_kasugai",
     "source_account_type": "store_official",
     "store_x_url": "https://x.com/castle_kasugai"
+  },
+  {
+    "id": "f94e4d3eebdc",
+    "date": "2026-05-20",
+    "time": "18:15",
+    "store": "テキサス小倉店",
+    "machine": "▶︎▶︎▶︎▶︎",
+    "slot_number": "765",
+    "text": "こんばんは テキサス小倉店です！  5月20日(水)  ＼コンプリート達成／   765番台▶︎▶︎▶︎▶︎ e カケグルイ　7500  　　　　　　　　　　　　 最新機種コンプリート おめでとうございます！！  この後もごゆっくり お楽しみください #テキサス1111",
+    "images": [
+      "https://pbs.twimg.com/media/HIwHiITbIAAsncd?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HIwHiIYa4AAHt7-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HIwHiITbIAAsncd?format=jpg&name=large",
+    "x_url": "https://x.com/texas_kokura/status/2057027417882124647",
+    "collected_at": "2026-05-21T11:00:31Z",
+    "machine_type": "slot",
+    "store_handle": "texas_kokura",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/texas_kokura"
   },
   {
     "id": "b3291bf83c99",

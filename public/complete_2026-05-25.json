@@ -20,6 +20,25 @@
     "manager_x_url": "https://x.com/platinum5_main"
   },
   {
+    "id": "9bae8161882e",
+    "date": "2026-05-25",
+    "time": "22:56",
+    "store": "つばめザ・ビーム",
+    "machine": "コンプおめ",
+    "machine_type": "slot",
+    "slot_number": "111",
+    "text": "365日！毎日に楽しさのビーム！  月日(月) コンプリート   革命機ヴァルヴレイヴ 111番台 コンプおめでとうございます  #スマスロ #スロット #コンプ #コンプリート #ヴヴヴ #ヴァルヴレイヴ #予感はありました",
+    "x_url": "https://x.com/Tsubame_Beam/status/2058909965117780066",
+    "collected_at": "2026-06-02T11:54:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJKsmA-bIAAJgjV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJKsmA-bIAAJgjV?format=jpg&name=large",
+    "store_handle": "tsubame_beam",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/tsubame_beam"
+  },
+  {
     "id": "fb49d1eceebf",
     "date": "2026-05-25",
     "time": "22:44",
@@ -75,6 +94,26 @@
     "store_handle": "sagachan_park",
     "source_account_type": "store_official",
     "store_x_url": "https://x.com/sagachan_park"
+  },
+  {
+    "id": "8470ffde15fa",
+    "date": "2026-05-25",
+    "time": "22:29",
+    "store": "ビックマーチ河和田東店",
+    "machine": "牙狼から284番台",
+    "machine_type": "pachinko",
+    "slot_number": "284",
+    "text": "閉店間際にコンプリート  東の牙狼から284番台 誠におめでとう御座います  やっぱりマーチの牙狼が好き  #ビックマーチ河和田東店  #コンプリート #牙狼",
+    "x_url": "https://x.com/monky0621bm/status/2058903320023179727",
+    "collected_at": "2026-06-02T12:09:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJKxqBKbgAAQaCf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJKxqBMbYAAeJ1R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJKxqBKbgAAQaCf?format=jpg&name=large",
+    "store_handle": "monky0621bm",
+    "source_account_type": "store_official",
+    "store_x_url": "https://x.com/monky0621bm"
   },
   {
     "id": "e51328d1ac19",
@@ -419,6 +458,25 @@
     "store_handle": "315kasugai",
     "source_account_type": "store_official",
     "store_x_url": "https://x.com/315kasugai"
+  },
+  {
+    "id": "be6a6a9cbaa7",
+    "date": "2026-05-25",
+    "time": "12:35",
+    "store": "１２３天理店とあるWサブチーフの日常",
+    "machine": "",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは！ #123天理店 のナガヌーです！  昨日遅番で出勤したらコンプリート機能発動してました！ おめでとうございます！！",
+    "x_url": "https://x.com/123tenriten/status/2059116250169778682",
+    "collected_at": "2026-06-02T12:12:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJNzNmqbEAA02HU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJNzNmqbEAA02HU?format=jpg&name=large",
+    "store_handle": "123tenriten",
+    "source_account_type": "store_manager",
+    "manager_x_url": "https://x.com/123tenriten"
   },
   {
     "id": "5f684a94ac27",

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cabfc20c3ca3",
+    "date": "2026-06-03",
+    "time": "18:56",
+    "store": "ＭＪアリーナ干隈店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "197",
+    "text": "本日6月3日  L革命機ヴァルヴレイヴ2　197番台  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mjhosikuma/status/2062111072082157972",
+    "store_handle": "mjhosikuma",
+    "store_x_url": "https://x.com/mjhosikuma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:38:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4XFxlbgAAIZPy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4XFxlbgAAIZPy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "2b4d471207"
+  },
+  {
+    "id": "197f354a43fe",
+    "date": "2026-06-03",
+    "time": "16:54",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "2180",
+    "text": "2180番台 スマスロ 北斗の拳 転生の章2 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2062080364940808674",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T15:26:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ37BvsbwAEDKO9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ37BvsbwAEDKO9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "cb0be1f296"
+  }
+]
