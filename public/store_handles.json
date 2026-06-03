@@ -3639,5 +3639,11 @@
     "x_url": "https://x.com/dynam_00129",
     "count": 0,
     "type": "store"
+  },
+  "dst_777_area_x": {
+    "type": "manager",
+    "store": "SuperD'station39女神店",
+    "count": 0,
+    "x_url": "https://x.com/dst_777_area_x"
   }
 }
