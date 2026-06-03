@@ -224,17 +224,22 @@ function CompleteCard({ entry }: { entry: CompleteEntry }) {
             </div>
           </a>
         ) : entry.image_url ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={entry.image_url}
-            alt=""
-            style={{
-              width: "100%", display: "block",
-              maxHeight: 260, objectFit: "cover",
-              borderRadius: 6, marginBottom: 9,
-            }}
-            loading="lazy"
-          />
+          /* 画像サムネイル → X投稿へ遷移 */
+          <a href={entry.x_url} target="_blank" rel="noopener noreferrer"
+             style={{ display: "block", textDecoration: "none", marginBottom: 9 }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={entry.image_url}
+              alt=""
+              referrerPolicy="no-referrer"
+              style={{
+                width: "100%", display: "block",
+                maxHeight: 260, objectFit: "cover",
+                borderRadius: 6, cursor: "pointer",
+              }}
+              loading="lazy"
+            />
+          </a>
         ) : null}
 
         {entry.x_url && (
