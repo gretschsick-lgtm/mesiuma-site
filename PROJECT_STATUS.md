@@ -1,6 +1,6 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-04
+更新日時: 2026-06-04 (machines_aliases強化)
 
 ---
 
@@ -48,6 +48,17 @@
 新規machines_aliases登録 (5件):
 - e女神, ミリオンゴット, ヴヴヴ2, e戦乱カグラ, e閃乱カグラ
 
+### machines_aliases 強化 (2026-06-04)
+- 70件 → **150件** (+80件)
+- 追加対象機種: L革命機ヴァルヴレイヴ2/パチスロ革命機/東京喰種4種/北斗の拳/モンキーターン/カバネリ/牙狼/からくりサーカス/炎炎ノ消防隊/ミリオンゴッド/かぐや様/モンハンライズ/ゴジラ/戦国乙女/シンフォギア/ゴッドイーター/ダンベル/ToLOVEる/ジャグラー/吉宗/一騎当千/リコリコ/バイオ/エヴァ/チバリヨ/攻殻/鬼武者/バジリスク/リゼロ/転スラ/閃乱カグラ他
+- 重複防止: normalized_alias unique制約を尊重し、prefix除去衝突は先着優先でスキップ
+
+### unknown_machines 整理 (2026-06-04)
+- 72件 → pending **3件**, rejected 36件, ignored 33件
+- rejected (ゴミ): 番台番号混入・URL断片・et_date・コーナー・取材・LIMITSTOP等 36件
+- ignored (alias登録済み): 東京喰種・カバネリ・革命機・牙狼・モンハンライズ・エヴァ等 33件
+- pending残3件 (要調査): L鋼鉄城・キン肉マン・ライザのアトリエ
+
 ### SB-only 33件 → JSON反映 (2026-06-04)
 - complete_info.json: 532 → 565件
 - 11個のdaily JSON更新
@@ -65,7 +76,8 @@
 | SB only | 0件 | 0件 ✅ |
 | 機種名不一致 | 0件 | 0件 ✅ |
 | machine_id=NULL (SB) | 0件 | 0件 ✅ |
-| unknown_machines | 71件 | 0件 ❌ |
+| unknown_machines (pending) | 3件 | 0件 ⚠️ |
+| machines_aliases 総件数 | 150件 | - |
 | 誤分類 (machine_type) | 0件 | 0件 ✅ |
 | ゴミデータ (JSON) | 0件 | 0件 ✅ |
 | store_handles 総件数 | 618件 | 3000件 ❌ |
@@ -150,7 +162,7 @@
   - ワンダーランド (37件登録済み・実績5件) → アカウントの実際のツイート確認
   - D'STATION (SuperD'station表記を含む) → 追加6件以上
 - [ ] manager_handles 拡大 (現45件 → 目標500件)
-- [ ] unknown_machines 71件を精査・machines_master に登録
+- [ ] unknown_machines pending 3件を精査 (L鋼鉄城・キン肉マン・ライザのアトリエ)
 - [ ] supabase_write_complete() を ON CONFLICT DO UPDATE に変更
 
 ### 中優先
@@ -180,6 +192,8 @@
 | machine_id=NULL | 0件 ✅ |
 | unknown_machines | 71件 |
 | machines_master 総件数 | 376件（e閃乱カグラ追加後）|
+| machines_aliases 総件数 | 150件（+80件追加後）|
+| unknown_machines pending | 3件（L鋼鉄城・キン肉マン・ライザのアトリエ）|
 
 ---
 
@@ -199,6 +213,7 @@
   2. COMPLETE_QUERIESに新機種（ヴヴヴ2、e女神のカフェテラス、e閃乱カグラ）を追加
   3. 収集対象store_handlesを3000件に拡大することで網羅率向上
 
-### ボトルネック 3: unknown_machines 71件
-- 機種マスタ未登録のためmachine_id=NULLになる機種が71件存在
-- 1件ずつ確認・登録が必要
+### ボトルネック 3: unknown_machines pending 3件
+- 72件中69件整理済み (rejected 36件 + ignored 33件)
+- 残3件: L鋼鉄城（甲鉄城誤字の可能性）、キン肉マン（機種曖昧）、ライザのアトリエ（machines_master未登録）
+- ライザのアトリエはmachines_master登録検討
