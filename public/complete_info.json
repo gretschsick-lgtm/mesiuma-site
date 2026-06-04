@@ -302,6 +302,28 @@
     "image_url": "https://pbs.twimg.com/media/HJ4k2M4a4AA467y?format=jpg&name=large"
   },
   {
+    "id": "41db09827439",
+    "date": "2026-06-03",
+    "time": "19:18",
+    "store": "FACE1300小倉南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "631",
+    "text": "コンプリート速報  631番台　e牙狼12黄金騎士極限  コンプリート達成 おめでとう御座います  スロットコーナーも かなり盛り上がってます  次のコンプリートもお待ちしてます♪  #コンプリート #スロパチステーション #メガフェイス1300小倉南店",
+    "x_url": "https://x.com/face_1300/status/2062116653215928557",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-04T18:34:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4cKZIbsAA9zJh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4cKZIbsAA9zJh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "0902f1362ba4",
     "date": "2026-06-03",
     "time": "19:08",
@@ -563,6 +585,29 @@
     "image_url": "https://pbs.twimg.com/media/HJzsY3KaMAAk-UU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "ae3ae0c75f"
+  },
+  {
+    "id": "c58e0c7c1354",
+    "date": "2026-06-02",
+    "time": "20:49",
+    "store": "テキサス小倉店",
+    "machine": "eバイオハザード6",
+    "machine_type": "pachinko",
+    "slot_number": "798",
+    "text": "こんばんは テキサス小倉店です！  6月2日(火)  ＼コンプリート達成／   798番台▶︎▶︎▶︎▶︎ e バイオハザード6  　　　　　　　　　　　　 おめでとうございます！！ #テキサス1111",
+    "x_url": "https://x.com/texas_kokura/status/2061777281601929481",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-04T18:34:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJzngZqbsAApdM9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJzngZnacAAxROk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJzngZqbsAApdM9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030",
+    "store_id": "7be267e3ea"
   },
   {
     "id": "41562cde2fa4",
