@@ -95,7 +95,8 @@
     "x_url": "https://x.com/oumeshinmachi/status/2060714153636163594",
     "collected_at": "2026-06-02T23:48:49+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJkgVXXbwAALdgC?format=jpg&name=large"
   },
   {
     "id": "bdcee5d62765",
@@ -108,7 +109,8 @@
     "x_url": "https://x.com/oumeshinmachi/status/2060711226154573835",
     "collected_at": "2026-06-02T23:48:49+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJkdc5rbcAAmeQF?format=jpg&name=large"
   },
   {
     "id": "c2ee7a42ac09",
@@ -733,6 +735,28 @@
     "store_id": "35782adb87"
   },
   {
+    "id": "658228d41381",
+    "date": "2026-05-30",
+    "time": "19:30",
+    "store": "SuperD'station東金店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "スーパーD'ステーション東金店です                またまた出ました 　        e牙狼12黄金騎士極限                   本日なんと2台目 　　　 　コンプリート達成 　　   　おめでとうございます  まだまだ店内も盛り上がっております この後もお時間もごゆっくりと",
+    "x_url": "https://x.com/sd_tougane/status/2060670052794302866",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T23:50:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJj2tm2bwAAMOn_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJj2tm2bwAAMOn_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "7f6d7ae0f2"
+  },
+  {
     "id": "5efc35081028",
     "date": "2026-05-30",
     "time": "19:19",
@@ -837,6 +861,28 @@
     "store_x_url": "https://x.com/asagao0419",
     "source_account_type": "store_official",
     "store_id": "81e6034462"
+  },
+  {
+    "id": "213b429c8620",
+    "date": "2026-05-30",
+    "time": "18:56",
+    "store": "SuperD'station東金店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは スーパーD'ステーション東金店です  本日2台目！！ L真打吉宗 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後もお時間の許します限り、 ごゆっくりとお楽しみください  #千葉 #東金 #パチンコ #スロット #吉宗",
+    "x_url": "https://x.com/sd_tougane/status/2060661745350516886",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T23:50:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJjvfgZa8AAJTF6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjvfgZa8AAJTF6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "7f6d7ae0f2"
   },
   {
     "id": "09c54a79920a",
@@ -1082,7 +1128,12 @@
     "x_url": "https://x.com/texashakushima/status/2060633246850060698",
     "collected_at": "2026-06-02T16:23:49+00:00",
     "text": "",
-    "images": []
+    "images": [
+      "https://pbs.twimg.com/media/HJjW_BebMAAtdGO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJjW_A1akAART63?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJjW_BJa4AAIC1D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJjW_BebMAAtdGO?format=jpg&name=large"
   },
   {
     "id": "8cc451272df8",
@@ -1223,7 +1274,11 @@
     "x_url": "https://x.com/dynam_00402/status/2060876536568279044",
     "collected_at": "2026-06-02T13:42:39+00:00",
     "text": "",
-    "images": []
+    "images": [
+      "https://pbs.twimg.com/media/HJm0RtQWYAMCONK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJm0SLYWIAMHeZp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJm0RtQWYAMCONK?format=jpg&name=large"
   },
   {
     "id": "e42a556c3514",

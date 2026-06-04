@@ -10,7 +10,8 @@
     "x_url": "https://x.com/kicona_matsubra/status/2061811912179069275",
     "collected_at": "2026-06-02T22:22:03+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJ0DO1pbsAApIVH?format=jpg&name=large"
   },
   {
     "id": "c1f5c82ac645",
@@ -23,7 +24,8 @@
     "x_url": "https://x.com/niga_maru/status/2061810604118364538",
     "collected_at": "2026-06-02T20:35:00+00:00",
     "text": "",
-    "images": []
+    "images": [],
+    "image_url": "https://pbs.twimg.com/media/HJ0F0P3aQAAUZZH?format=jpg&name=large"
   },
   {
     "id": "67a2f7a90646",
@@ -246,5 +248,29 @@
     "image_url": "https://pbs.twimg.com/media/HJzG73qaoAAsL2F?format=jpg&name=large",
     "machine_id": "e073ea8a-65ae-4499-9280-618d3520a980",
     "store_id": "8282115e87"
+  },
+  {
+    "id": "1dc4c1df22cc",
+    "date": "2026-06-02",
+    "time": "11:52",
+    "store": "テキサス白島店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは  #テキサス白島店 です！    ーー昨日のコンプリート達成、万枚OVERーーー  #L甲鉄城のカバネリ海門決戦  #L沖ドキDUOアンコール　コンプリート達成！   データはこちらから  https:// pscube.jp/dedamajyoho-P- townDMMpachi/c734005/ …  この後のお時間もお待ちしております。 #コンプリート #スマスロ",
+    "x_url": "https://x.com/texashakushima/status/2062004536005562793",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-03T23:50:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ22Mk0aIAAkNT3?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ21rTcacAAJ3hO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ21y2BaIAAfhL6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ22Mk0aIAAkNT3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "dae931c16e"
   }
 ]
