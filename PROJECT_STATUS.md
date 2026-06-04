@@ -1,10 +1,35 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-04 (Priority1-5 完了)
+更新日時: 2026-06-04 (slot/pachinko 誤分類バグ修正完了)
 
 ---
 
 ## 完了した作業
+
+### slot/pachinko 誤分類バグ修正 (2026-06-04)
+
+**根本原因（3層）:**
+1. `machine_resolver.py`: AMBIGUOUS_SERIES チェックが exact/alias match より後にあり迂回されていた
+2. `machines_aliases` (Supabase): prefix なし "東京喰種"/"北斗"/"リコリコ" 等が slot 側に紐づき AMBIGUOUS_SERIES を迂回
+3. `fetch_complete_info.py MACHINE_NORMALIZE`: "東京喰種" → "L東京喰種" の ambiguous mapping
+
+**修正内容:**
+
+| 対象 | 修正内容 |
+|------|---------|
+| `machine_resolver.py` | AMBIGUOUS_SERIES チェックを exact/alias match より前に移動 |
+| `machine_resolver.py` | AMBIGUOUS_SERIES に "リコリス", "リコリコ", "リコリス・リコイル", "北斗の拳" 追加 |
+| `machines_aliases` (Supabase) | 危険alias 6件削除: "東京喰種"/"東京グール"/"北斗"/"北斗の拳"/"リコリコ"/"リコリス・リコイル" |
+| `fetch_complete_info.py _SLOT_KEYWORDS` | "東京喰種"/"リコリス"/"北斗" 削除（slot/pachinko 両存在シリーズ） |
+| `fetch_complete_info.py MACHINE_NORMALIZE` | ("東京喰種","L東京喰種"), ("北斗の拳","スマスロ北斗の拳"), ("北斗","スマスロ北斗の拳") 削除 |
+| `complete_ranking.json` | 再生成 (slot/pachinko 完全分離確認 ✅) |
+
+**修正後検証:**
+- eプレフィックス機種が slot 側: 0件 ✅
+- slot 機種が pachinko 側: 0件 ✅
+- slot/pachinko 分布: slot=409, pachinko=163 (complete_info.json)
+
+---
 
 ### 機種名抽出バグ修正 (scripts/fetch_complete_info.py)
 - MACHINE_PATTERNS の `の|` バグ修正（北斗転生問題）
@@ -105,7 +130,7 @@
 | 機種名不一致 | 0件 | 0件 ✅ |
 | machine_id=NULL (SB) | 0件 | 0件 ✅ |
 | unknown_machines (pending) | 0件 | 0件 ✅ |
-| machines_aliases 総件数 | 154件 | - |
+| machines_aliases 総件数 | 148件 (-6件: 危険alias削除) | - |
 | COMPLETE_QUERIES | 116件 | - |
 | 誤分類 (machine_type) | 0件 | 0件 ✅ |
 | ゴミデータ (JSON) | 0件 | 0件 ✅ |

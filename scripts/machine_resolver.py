@@ -27,9 +27,14 @@ _PREFIX_RE = re.compile(r'^(スマスロ|L|パチスロ|スロット|SLOT)', re.
 
 # シリーズ名のみでの機種確定を禁止するリスト（raw入力の strip() と比較）
 # 例: "吉宗" は L吉宗 / L真打吉宗 の両方があり曖昧 → unknown_machines に記録
+# 重要: このチェックは exact match / alias match よりも前に実施すること（resolve() 参照）
 _AMBIGUOUS_SERIES = {
-    "北斗", "ジャグラー", "番長", "エヴァ", "ガンダム",
-    "東京喰種", "モンキー", "吉宗", "バジリスク", "カバネリ",
+    "北斗", "北斗の拳",          # スマスロ北斗の拳(slot) と eフィーバー北斗(pachinko) 両方存在
+    "ジャグラー", "番長",
+    "エヴァ", "ガンダム",
+    "東京喰種",                  # L東京喰種(slot) と e東京喰種(pachinko) 両方存在
+    "モンキー", "吉宗", "バジリスク", "カバネリ",
+    "リコリス", "リコリコ", "リコリス・リコイル",  # スマスロ(slot) と eリコリス(pachinko) 両方存在
 }
 
 
@@ -153,6 +158,13 @@ class MachineResolver:
         if not raw_name or not raw_name.strip():
             return None
 
+        # 0. シリーズ名のみでの機種確定を禁止（exact/alias matchより先に確認）
+        # slot/pachinko 両方が存在するシリーズは prefix なし入力を unknown に送る
+        # 例: "東京喰種" → L東京喰種(slot) と e東京喰種(pachinko) が曖昧
+        # 例外: "L東京喰種" や "e東京喰種" など prefix 付きはこのチェックをパス
+        if raw_name.strip() in _AMBIGUOUS_SERIES:
+            return None
+
         self._ensure_loaded()
         norm = normalize_for_comparison(raw_name)
         if not norm:
@@ -171,7 +183,6 @@ class MachineResolver:
                 }
 
         # 2. エイリアス一致（machines_aliases.normalized_alias）
-        # ※ _AMBIGUOUS_SERIES チェックより先に行う（aliasが設定された機種は確実に解決）
         if norm in self._alias_map:
             a = self._alias_map[norm]
             return {
@@ -183,8 +194,8 @@ class MachineResolver:
                 "match_type":    "alias",
             }
 
-        # 3. シリーズ名のみでの機種確定を禁止（exact/alias未一致の場合のみ）
-        # 例: "吉宗" → L吉宗/L真打吉宗 が曖昧。"L吉宗" は通過させる（プレフィックス付き）
+        # 3. ファジーマッチ用の追加 AMBIGUOUS_SERIES チェック（到達しないはずだが念のため）
+        # normalized 後に曖昧性が生じるケースを防ぐ
         if raw_name.strip() in _AMBIGUOUS_SERIES:
             return None
 

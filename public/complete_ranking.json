@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T19:02:18+09:00",
+  "generated_at": "2026-06-04T20:42:43+09:00",
   "monthly": [
     {
       "month": "2026-06",
@@ -342,38 +342,6 @@
           "count": 5
         }
       ]
-    },
-    {
-      "month": "2026-04",
-      "label": "2026年4月",
-      "total_count": 3,
-      "stores": [
-        {
-          "rank": 1,
-          "name": "ユーコーラッキー37筑後店",
-          "count": 1,
-          "x_url": "https://x.com/yuko_chikugo"
-        },
-        {
-          "rank": 2,
-          "name": "キャッスル高浜店",
-          "count": 1
-        },
-        {
-          "rank": 3,
-          "name": "関西すろいべ(旧ネコスロ)",
-          "count": 1,
-          "x_url": "https://x.com/osaka_slot_neko"
-        }
-      ],
-      "slot_machines": [
-        {
-          "rank": 1,
-          "name": "L革命機ヴァルヴレイヴ2",
-          "count": 2
-        }
-      ],
-      "pachinko_machines": []
     }
   ],
   "total": {
