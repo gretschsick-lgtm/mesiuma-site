@@ -366,6 +366,29 @@
     "store_id": "dcbb4c52ca"
   },
   {
+    "id": "d36d97b0d30c",
+    "date": "2026-06-02",
+    "time": "22:59",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "963",
+    "text": "【ヴァルヴレイヴ2 コンプリート達成!!】  本日の主役降臨  963番台 L革命機ヴァルヴレイヴ2  コンプリート機能発動  BONUS/RUSH回数 139回  グラフも終始右肩上がり まさにヴヴヴらしい圧巻の展開  店内に響く歓喜の瞬間",
+    "x_url": "https://x.com/megaface_1300/status/2061809967343214810",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-04T16:21:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ0FLk6agAA8UkN?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2061809900888727552/img/wdIqabD8dkhWJ6bq.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ0FLk6agAA8UkN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "67a2f7a90646",
     "date": "2026-06-02",
     "time": "22:50",
@@ -12254,48 +12277,5 @@
     "store_x_url": "https://x.com/zentkani",
     "source_account_type": "store_official",
     "store_id": "1a4b125e8f"
-  },
-  {
-    "id": "c863e17b0fb8",
-    "date": "2026-05-05",
-    "time": "23:30",
-    "store": "ダイナム鹿児島指宿店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "slot_number": "457",
-    "text": " 5月5日　コンプリート  　　　　 457番台 　　 Lスマスロ北斗の拳 　　　　転生の章2  　コンプリート達成  おめでとうございます   #ダイナム　#コンプリート #スロット　#北斗の拳",
-    "images": [
-      "https://pbs.twimg.com/media/HHj_t0PXAAA1xAl?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HHj_t0PXAAA1xAl?format=jpg&name=large",
-    "x_url": "https://x.com/dynam_00167/status/2051670797085798417",
-    "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_handle": "dynam_00167",
-    "store_x_url": "https://x.com/dynam_00167",
-    "source_account_type": "store_official",
-    "store_id": "7ed84b7f36"
-  },
-  {
-    "id": "76fae77a4d6b",
-    "date": "2026-05-05",
-    "time": "20:41",
-    "store": "",
-    "machine": "スマスロ リコリス・リコイル",
-    "slot_number": "163",
-    "text": "#リコリスリコイル　163番台 早速 #コンプリート 達成!! 初当たり 25回転...144回当たり... うぉぉ おめでとうございますっ 5月5日 スロットだけじゃない。",
-    "images": [
-      "https://pbs.twimg.com/media/HHjWFO5bQAAW5oR?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HHjWHLGbwAAZGZC?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HHjWFO5bQAAW5oR?format=jpg&name=large",
-    "x_url": "https://x.com/shintentyoDee1/status/2051628301765238825",
-    "collected_at": "2026-05-21T10:58:16Z",
-    "machine_type": "slot",
-    "machine_id": "d5ec225f-a289-4577-9d2d-56ea7305f3d9",
-    "store_handle": "shintentyodee1",
-    "store_x_url": "https://x.com/shintentyoDee1",
-    "source_account_type": "store_official",
-    "store_id": "a2efcbb4cc"
   }
 ]
