@@ -1,5 +1,27 @@
 [
   {
+    "id": "c6314f90be98",
+    "date": "2026-06-04",
+    "time": "21:36",
+    "store": "サガちゃんPARK",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "2514",
+    "text": "ヤッホー     コンプリート達成   Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡　2514番台   おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2062513754202673459",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-04T17:31:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ-FUtxakAAcjiO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ-FUtxakAAcjiO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "92eaf4c5cf6e",
     "date": "2026-06-04",
     "time": "20:29",
