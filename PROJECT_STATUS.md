@@ -1,10 +1,43 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-04 (slot/pachinko 誤分類バグ修正完了)
+更新日時: 2026-06-04 (AMBIGUOUS_SERIES 全監査・炎炎/からくり誤分類バグ修正完了)
 
 ---
 
 ## 完了した作業
+
+### AMBIGUOUS_SERIES 全監査・炎炎/からくり誤分類バグ修正 (2026-06-04)
+
+**監査対象 9シリーズの結果:**
+
+| シリーズ | 判定 | 理由 |
+|---------|------|------|
+| 賭ケグルイ | ✅ 安全 | prefix付き alias のみ。prefix なし alias なし |
+| 牙狼 | ✅ 安全 | pachinko のみ |
+| 炎炎 | ❌ 修正済み | L炎炎(slot) + eフィーバー炎炎/e炎炎(pachinko) 両方存在 |
+| シンフォギア | ✅ 安全 | slot のみ |
+| エヴァ | ✅ 安全 | prefix付きで分離済み |
+| ゴッドイーター | ✅ 安全 | slot のみ |
+| からくり | ❌ 修正済み | Lからくりサーカス(slot) + Pフィーバーからくりサーカス(pachinko) 両方存在 |
+| モンハン | ✅ 安全 | slot のみ |
+| キン肉マン | ✅ 安全 | pachinko のみ |
+
+**炎炎・からくりの修正内容:**
+
+| 対象 | 修正内容 |
+|------|---------|
+| `machines_aliases` (Supabase) | 危険alias 7件削除: "炎炎2"/"炎炎の消防隊"/"炎炎ノ消防隊"/"炎炎の消防隊2"/"炎炎ノ消防隊2"/"からくり"/"からくりサーカス" → 148件→141件 |
+| `machine_resolver.py` | AMBIGUOUS_SERIES に "炎炎ノ消防隊","炎炎の消防隊","炎炎ノ消防隊2","炎炎の消防隊2","炎炎2","からくり","からくりサーカス" 追加 |
+| `fetch_complete_info.py _SLOT_KEYWORDS` | "炎炎ノ消防隊"/"からくりサーカス" 削除 |
+| `fetch_complete_info.py MACHINE_NORMALIZE` | prefix なし炎炎5件・からくりサーカス1件を削除（prefix付き "Ｌ炎炎ノ消防隊２" は保持） |
+| `complete_ranking.json` | 再生成 (slot/pachinko 完全分離確認 ✅ 誤分類0件) |
+
+**修正後検証:**
+- eプレフィックス機種が slot 側: 0件 ✅
+- slot 機種が pachinko 側: 0件 ✅
+- slot/pachinko 分布: slot=415, pachinko=170 (complete_info.json 585件)
+
+---
 
 ### slot/pachinko 誤分類バグ修正 (2026-06-04)
 
@@ -123,14 +156,14 @@
 
 | 指標 | 値 | 目標 |
 |------|-----|------|
-| complete_info.json 件数 | 571件 | - |
+| complete_info.json 件数 | 585件 | - |
 | Supabase 件数 | 571件 | - |
-| JSON only | 0件 | 0件 ✅ |
-| SB only | 0件 | 0件 ✅ |
+| JSON only | - | - |
+| SB only | - | - |
 | 機種名不一致 | 0件 | 0件 ✅ |
 | machine_id=NULL (SB) | 0件 | 0件 ✅ |
 | unknown_machines (pending) | 0件 | 0件 ✅ |
-| machines_aliases 総件数 | 148件 (-6件: 危険alias削除) | - |
+| machines_aliases 総件数 | 141件 (-7件: 炎炎/からくり危険alias削除) | - |
 | COMPLETE_QUERIES | 116件 | - |
 | 誤分類 (machine_type) | 0件 | 0件 ✅ |
 | ゴミデータ (JSON) | 0件 | 0件 ✅ |
