@@ -126,6 +126,28 @@
     "image_url": "https://pbs.twimg.com/media/HJ4k2M4a4AA467y?format=jpg&name=large"
   },
   {
+    "id": "0902f1362ba4",
+    "date": "2026-06-03",
+    "time": "19:08",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "501",
+    "text": "501番台 【e牙狼12黄金騎士極限】  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2062114259291738326",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-04T16:45:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4Z9dabwAE89hN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4Z9dabwAE89hN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "473cf265d0f3",
     "date": "2026-06-03",
     "time": "19:00",
@@ -168,6 +190,28 @@
     "image_url": "https://pbs.twimg.com/media/HJ4XFxlbgAAIZPy?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "2b4d471207"
+  },
+  {
+    "id": "d68d5700ab00",
+    "date": "2026-06-03",
+    "time": "18:31",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "209",
+    "text": "209番台 【eカケグルイ~生か死か～】 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2062105001615654955",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-04T16:45:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4RZgPbYAA7jWO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4RZgPbYAA7jWO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "de68290eab"
   },
   {
     "id": "197f354a43fe",
