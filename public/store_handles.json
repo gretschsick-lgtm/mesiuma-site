@@ -44,7 +44,13 @@
   "arrow_naniwa": {
     "store": "ARROW浪速店",
     "x_url": "https://x.com/arrow_naniwa",
-    "count": 6,
+    "count": 7,
+    "type": "store"
+  },
+  "sd_tougane": {
+    "store": "SuperD'station東金店",
+    "x_url": "https://x.com/sd_tougane",
+    "count": 7,
     "type": "store"
   },
   "gk_hitachinaka": {
@@ -65,15 +71,21 @@
     "count": 6,
     "type": "store"
   },
-  "rakuen_gs": {
-    "store": "楽園池袋店グリーンサイド",
-    "x_url": "https://x.com/rakuen_gs",
-    "count": 5,
-    "type": "store"
-  },
   "megaface_1070": {
     "store": "メガフェイス1070菊陽",
     "x_url": "https://x.com/megaface_1070",
+    "count": 6,
+    "type": "store"
+  },
+  "megaface_1300": {
+    "store": "メガフェイス1300淀川",
+    "x_url": "https://x.com/megaface_1300",
+    "count": 6,
+    "type": "store"
+  },
+  "rakuen_gs": {
+    "store": "楽園池袋店グリーンサイド",
+    "x_url": "https://x.com/rakuen_gs",
     "count": 5,
     "type": "store"
   },
@@ -89,21 +101,27 @@
     "count": 5,
     "type": "store"
   },
-  "megaface_1300": {
-    "store": "メガフェイス1300淀川",
-    "x_url": "https://x.com/megaface_1300",
-    "count": 5,
-    "type": "store"
-  },
   "sagachan_park": {
     "store": "サガちゃんPARK",
     "x_url": "https://x.com/sagachan_park",
     "count": 5,
     "type": "store"
   },
-  "sd_tougane": {
-    "store": "SuperD'station東金店",
-    "x_url": "https://x.com/sd_tougane",
+  "rakuen_ohmiya": {
+    "store": "楽園大宮店",
+    "x_url": "https://x.com/rakuen_ohmiya",
+    "count": 5,
+    "type": "store"
+  },
+  "space666tobata": {
+    "store": "SPACE(スペース444＆666)",
+    "x_url": "https://x.com/space666tobata",
+    "count": 5,
+    "type": "store"
+  },
+  "megaface_1450": {
+    "store": "メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450",
     "count": 5,
     "type": "store"
   },
@@ -116,12 +134,6 @@
   "toumaruhana6": {
     "store": "プレイランドキャッスル東郷店",
     "x_url": "https://x.com/toumaruhana6",
-    "count": 4,
-    "type": "store"
-  },
-  "rakuen_ohmiya": {
-    "store": "楽園大宮店",
-    "x_url": "https://x.com/rakuen_ohmiya",
     "count": 4,
     "type": "store"
   },
@@ -155,12 +167,6 @@
     "count": 4,
     "type": "store"
   },
-  "space666tobata": {
-    "store": "SPACE(スペース444＆666)",
-    "x_url": "https://x.com/space666tobata",
-    "count": 4,
-    "type": "store"
-  },
   "texas_kokura": {
     "store": "テキサス小倉店",
     "x_url": "https://x.com/texas_kokura",
@@ -191,12 +197,6 @@
     "count": 4,
     "type": "store"
   },
-  "megaface_1450": {
-    "store": "メガフェイス1450本山",
-    "x_url": "https://x.com/megaface_1450",
-    "count": 4,
-    "type": "store"
-  },
   "oumeshinmachi": {
     "store": "マルハン青梅新町店【イイじゃん!】",
     "x_url": "https://x.com/oumeshinmachi",
@@ -212,7 +212,25 @@
   "kitasenjusss": {
     "store": "ピーアーク北千住エリア",
     "x_url": "https://x.com/kitasenjusss",
-    "count": 3,
+    "count": 4,
+    "type": "store"
+  },
+  "bm_fujishiro": {
+    "store": "ビックマーチ藤代店@店舗の仲間たち",
+    "x_url": "https://x.com/bm_fujishiro",
+    "count": 4,
+    "type": "store"
+  },
+  "xatokyo1223": {
+    "store": "エクスアリーナ東京",
+    "x_url": "https://x.com/xatokyo1223",
+    "count": 4,
+    "type": "store"
+  },
+  "maruhan_fukuroi": {
+    "store": "マルハン袋井店",
+    "x_url": "https://x.com/maruhan_fukuroi",
+    "count": 4,
     "type": "store"
   },
   "aratanarutentyo": {
@@ -293,12 +311,6 @@
     "count": 3,
     "type": "store"
   },
-  "bm_fujishiro": {
-    "store": "ビックマーチ藤代店@店舗の仲間たち",
-    "x_url": "https://x.com/bm_fujishiro",
-    "count": 3,
-    "type": "store"
-  },
   "yamaguchitexas": {
     "store": "テキサス656山口店",
     "x_url": "https://x.com/yamaguchitexas",
@@ -320,12 +332,6 @@
   "oyamasendaduka2": {
     "store": "マルハン小山千駄塚店",
     "x_url": "https://x.com/oyamasendaduka2",
-    "count": 3,
-    "type": "store"
-  },
-  "xatokyo1223": {
-    "store": "エクスアリーナ東京",
-    "x_url": "https://x.com/xatokyo1223",
     "count": 3,
     "type": "store"
   },
@@ -362,6 +368,30 @@
   "richland_ageo": {
     "store": "りっちらんど上尾",
     "x_url": "https://x.com/richland_ageo",
+    "count": 3,
+    "type": "store"
+  },
+  "dynam_00035": {
+    "store": "ダイナム金町南口店",
+    "x_url": "https://x.com/dynam_00035",
+    "count": 3,
+    "type": "store"
+  },
+  "mkokazaki": {
+    "store": "M&K岡崎店",
+    "x_url": "https://x.com/mkokazaki",
+    "count": 3,
+    "type": "store"
+  },
+  "daianji08": {
+    "store": "大安寺マルハチ",
+    "x_url": "https://x.com/daianji08",
+    "count": 3,
+    "type": "store"
+  },
+  "texashakushima": {
+    "store": "テキサス白島店",
+    "x_url": "https://x.com/texashakushima",
     "count": 3,
     "type": "store"
   },
@@ -509,12 +539,6 @@
     "count": 2,
     "type": "store"
   },
-  "dynam_00035": {
-    "store": "ダイナム金町南口店",
-    "x_url": "https://x.com/dynam_00035",
-    "count": 2,
-    "type": "store"
-  },
   "mjhakozaki": {
     "store": "MJアリーナ箱崎店",
     "x_url": "https://x.com/mjhakozaki",
@@ -653,27 +677,9 @@
     "count": 2,
     "type": "store"
   },
-  "maruhan_fukuroi": {
-    "store": "マルハン袋井店",
-    "x_url": "https://x.com/maruhan_fukuroi",
-    "count": 2,
-    "type": "store"
-  },
   "bm_kiryu": {
     "store": "ビックマーチ桐生店",
     "x_url": "https://x.com/bm_kiryu",
-    "count": 2,
-    "type": "store"
-  },
-  "mkokazaki": {
-    "store": "M&K岡崎店",
-    "x_url": "https://x.com/mkokazaki",
-    "count": 2,
-    "type": "store"
-  },
-  "daianji08": {
-    "store": "大安寺マルハチ",
-    "x_url": "https://x.com/daianji08",
     "count": 2,
     "type": "store"
   },
@@ -713,12 +719,6 @@
     "count": 2,
     "type": "store"
   },
-  "texashakushima": {
-    "store": "テキサス白島店",
-    "x_url": "https://x.com/texashakushima",
-    "count": 2,
-    "type": "store"
-  },
   "threeninedesu": {
     "store": "(店舗名不明)",
     "x_url": "https://x.com/threeninedesu",
@@ -729,6 +729,12 @@
     "store": "MGM鈴鹿店",
     "x_url": "https://x.com/mgm_suzuka",
     "count": 2
+  },
+  "g_nishiurawa": {
+    "store": "新ガーデン西浦和",
+    "x_url": "https://x.com/g_nishiurawa",
+    "count": 2,
+    "type": "store"
   },
   "mn_utazu": {
     "store": "ミリオン宇多津店",
@@ -823,12 +829,6 @@
   "stadium2001kawa": {
     "store": "スタジアム2001徳島川内店",
     "x_url": "https://x.com/stadium2001kawa",
-    "count": 1,
-    "type": "store"
-  },
-  "g_nishiurawa": {
-    "store": "新ガーデン西浦和",
-    "x_url": "https://x.com/g_nishiurawa",
     "count": 1,
     "type": "store"
   },
