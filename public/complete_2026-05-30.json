@@ -96,7 +96,12 @@
     "collected_at": "2026-06-02T23:48:49+00:00",
     "text": "",
     "images": [],
-    "image_url": "https://pbs.twimg.com/media/HJkgVXXbwAALdgC?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJkgVXXbwAALdgC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "7ac364008f",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "source_account_type": "store_official"
   },
   {
     "id": "bdcee5d62765",
@@ -110,7 +115,12 @@
     "collected_at": "2026-06-02T23:48:49+00:00",
     "text": "",
     "images": [],
-    "image_url": "https://pbs.twimg.com/media/HJkdc5rbcAAmeQF?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJkdc5rbcAAmeQF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "7ac364008f",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "source_account_type": "store_official"
   },
   {
     "id": "c2ee7a42ac09",
@@ -435,6 +445,29 @@
     "store_x_url": "https://x.com/ams_re_kokuba",
     "source_account_type": "store_official",
     "store_id": "1ab1e77778"
+  },
+  {
+    "id": "cb106c4efdf8",
+    "date": "2026-05-30",
+    "time": "20:40",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "900",
+    "text": "こんばんは またまたメガシティ三島駿東です  革命機ヴァルヴレイヴ 900番台  本日台目コンプリートです おめでとうございます  みなさまこの後も お楽しみください",
+    "x_url": "https://x.com/mega_mishima/status/2060687668187738571",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-05T16:20:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJkIcaubgAA0Zmq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJjksZgbwAAjJ8V?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJkIcaubgAA0Zmq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "0f64913b0088",
@@ -1133,7 +1166,12 @@
       "https://pbs.twimg.com/media/HJjW_A1akAART63?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJjW_BJa4AAIC1D?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJjW_BebMAAtdGO?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJjW_BebMAAtdGO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "dae931c16e",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "source_account_type": "store_official"
   },
   {
     "id": "8cc451272df8",
@@ -1300,7 +1338,11 @@
       "https://pbs.twimg.com/media/HJm0RtQWYAMCONK?format=jpg&name=large",
       "https://pbs.twimg.com/media/HJm0SLYWIAMHeZp?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HJm0RtQWYAMCONK?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJm0RtQWYAMCONK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_handle": "dynam_00402",
+    "store_x_url": "https://x.com/dynam_00402",
+    "source_account_type": "store_official"
   },
   {
     "id": "e42a556c3514",
