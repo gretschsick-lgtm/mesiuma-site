@@ -1,10 +1,36 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-05 (実データ検証・machine_id=None修正・store_handles type修正・Supabase upsert改善)
+更新日時: 2026-06-05 (実データ検証・machine_id=None修正・store_handles type修正・Supabase upsert改善・image_urlなし8件監査完了)
 
 ---
 
 ## 完了した作業
+
+### image_urlなし8件 監査・image_status付与 (2026-06-05)
+
+確認方法: cdn.syndication.twimg.com/tweet-result API
+
+| # | date | store | machine | 判定 | 根拠 |
+|---|------|-------|---------|------|------|
+| 1 | 2026-05-28 | エクスアリーナ東京 | e牙狼12 | no_image | 投稿存在・media=空 |
+| 2 | 2026-05-28 | エクスアリーナ東京 | L革命機ヴァルヴレイヴ2 | no_image | 投稿存在・media=空 |
+| 3 | 2026-05-27 | ーク出水店 | スマスロ攻殻機動隊 | video_only | animated_gif mp4 / video_url確認済 |
+| 4 | 2026-05-26 | メガフェイス1300淀川 | eシン・エヴァンゲリオン | video_only | amplify_video mp4 / video_url確認済 |
+| 5 | 2026-05-25 | (なし) | L沖ドキDUO アンコール | video_only | amplify_video mp4 / video_url確認済 |
+| 6 | 2026-05-24 | ダイナム佐世保店 | eフィーバーもののがたりF | video_only | ext_tw_video mp4 / video_url確認済 |
+| 7 | 2026-05-22 | 楽園ハッピーロード大山店 | L沖ドキDUO アンコール | no_image | 投稿存在・media=空 |
+| 8 | 2026-05-22 | メガガーデン所沢スロット館 | スマスロ北斗の拳転生の章2 | video_only | amplify_video mp4 / video_url確認済 |
+
+**結果:**
+- 補完成功(image_url追加): 0件 (取得可能な静止画なし)
+- no_image (テキストのみ投稿): **3件** (image_status="no_image" 付与)
+- video_only (動画のみ投稿): **5件** (image_status="video_only" 付与)
+- 削除済み: **0件**
+- 残件数(未処理): **0件 ✅**
+
+**完了条件達成:** image_urlなし && image_statusなし = 0件 ✅
+
+---
 
 ### 実データ検証・修正 (2026-06-05)
 
@@ -465,7 +491,10 @@
 - [x] unknown_machines pending → **0件 ✅**
 - [x] supabase_write_complete() を ON CONFLICT DO UPDATE に変更 **✅ 2026-06-05完了**
   - merge-duplicates に変更, NULL値はpayloadから除外してNULL上書き防止
-- [ ] fetch_complete_images.py 再実行 (8件の entries で image_url 未取得)
+- [x] image_urlなし8件 監査完了 **✅ 2026-06-05**
+  - no_image: 3件 (テキストのみ投稿), video_only: 5件 (mp4動画)
+  - 削除済み: 0件, 補完可能: 0件
+  - image_status フィールドをcomplete_info.jsonに付与
 
 ### 中優先
 - [ ] 6/4 以降のdaily件数継続監視

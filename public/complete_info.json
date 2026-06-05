@@ -5103,7 +5103,8 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-03T10:57:38Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "98752ae840"
+    "store_id": "98752ae840",
+    "image_status": "no_image"
   },
   {
     "id": "7ee82b00fca7",
@@ -5477,7 +5478,8 @@
     "store_handle": "xatokyo1223",
     "store_x_url": "https://x.com/xatokyo1223",
     "source_account_type": "store_official",
-    "store_id": "98752ae840"
+    "store_id": "98752ae840",
+    "image_status": "no_image"
   },
   {
     "id": "6af68667ee53",
@@ -6476,7 +6478,8 @@
     "store_handle": "newyorkgroup15",
     "store_x_url": "https://x.com/newyorkgroup15",
     "source_account_type": "store_official",
-    "store_id": "2eabd788e9"
+    "store_id": "2eabd788e9",
+    "image_status": "video_only"
   },
   {
     "id": "eb2c82b09f33",
@@ -6907,7 +6910,8 @@
     "collected_at": "2026-06-02T13:43:34Z",
     "machine_id": "9784d282-51b0-4b31-a4c8-f16118a31749",
     "store_id": "5b93315c4d",
-    "video_url": "https://video.twimg.com/amplify_video/2059252069081759744/vid/avc1/0/0/1078x1920/r-mH58mH5HeDSJO5.mp4"
+    "video_url": "https://video.twimg.com/amplify_video/2059252069081759744/vid/avc1/0/0/1078x1920/r-mH58mH5HeDSJO5.mp4",
+    "image_status": "video_only"
   },
   {
     "id": "5ee8ba6d3c63",
@@ -7466,7 +7470,8 @@
     "store_handle": "wl_odo",
     "store_x_url": "https://x.com/wl_odo",
     "source_account_type": "store_official",
-    "store_id": "576fdd84fc"
+    "store_id": "576fdd84fc",
+    "image_status": "video_only"
   },
   {
     "id": "4fecbceaa202",
@@ -8558,7 +8563,8 @@
     "store_handle": "dynam_00130",
     "store_x_url": "https://x.com/dynam_00130",
     "source_account_type": "store_official",
-    "store_id": "fa10b3e68e"
+    "store_id": "fa10b3e68e",
+    "image_status": "video_only"
   },
   {
     "id": "af5cd0a20444",
@@ -9781,7 +9787,8 @@
     "store_handle": "ishikawa_rakuen",
     "store_x_url": "https://x.com/ishikawa_rakuen",
     "source_account_type": "store_official",
-    "store_id": "ca52a63614"
+    "store_id": "ca52a63614",
+    "image_status": "no_image"
   },
   {
     "id": "45dbc94604bd",
@@ -10015,7 +10022,8 @@
     "store_handle": "megagarden",
     "store_x_url": "https://x.com/megagarden",
     "source_account_type": "store_official",
-    "store_id": "3f4043aa43"
+    "store_id": "3f4043aa43",
+    "image_status": "video_only"
   },
   {
     "id": "bcbaf11a999d",
