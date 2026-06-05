@@ -1,10 +1,103 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-04 (AMBIGUOUS_SERIES 全監査・炎炎/からくり誤分類バグ修正完了)
+更新日時: 2026-06-05 (実データ検証・machine_id=None修正・store_handles type修正・Supabase upsert改善)
 
 ---
 
 ## 完了した作業
+
+### 実データ検証・修正 (2026-06-05)
+
+#### Priority 1: 誤分類監査 (対象9シリーズ)
+
+| シリーズ | slot件数 | pachinko件数 | 誤分類 |
+|---------|---------|-------------|-------|
+| 東京喰種 | L東京喰種 27件 | e東京喰種/e東京喰種W | 0件 ✅ |
+| リコリス | スマスロ リコリス・リコイル | eリコリス・リコイル | 0件 ✅ |
+| 北斗 | パチスロ北斗/スマスロ北斗転生章2等 | e北斗の拳 暴凶星 | 0件 ✅ |
+| 炎炎 | L炎炎ノ消防隊2/Lパチスロ炎炎ノ消防隊 | e炎炎ノ消防隊2 | 0件 ✅ |
+| からくり | Lからくりサーカス/Lパチスロからくりサーカス2 | - | 0件 ✅ |
+| 賭ケグルイ | スマスロ賭ケグルイ/カケグルイ219ver | eカケグルイ | 0件 ✅ |
+| 牙狼 | - | e牙狼12/e牙狼12黄金騎士極限 | 0件 ✅ |
+| シンフォギア | ランキング圏外 | - | 0件 ✅ |
+| エヴァ | - | e新世紀エヴァンゲリオン等 | 0件 ✅ |
+
+**確認結果: 誤分類 0件 ✅**
+- complete_info.json 602件: e/P/PA/PF/スマパチがslot側 = 0件, L/スマスロ/パチスロがpachinko側 = 0件
+- complete_ranking.json: slot_machines/pachinko_machines 両方で誤分類 0件
+
+#### Priority 2: 画像反映漏れ監査
+
+| 確認項目 | 実測値 |
+|---------|-------|
+| image_urlあり | 594件/602件 |
+| image_urlなし | 8件 (ツイート削除またはimage未取得) |
+| x_urlあり | 602件/602件 (全件) |
+| 表示ロジック | image_url truethy → `<img>`表示 ✅ |
+| 代替表示 | 「Xで見る」ボタン常時表示 ✅ |
+| image_urlありなのに非表示 | 0件 ✅ |
+
+**完了条件達成: 反映漏れ 0件 ✅**
+
+#### Priority 3: store_handles監査
+
+| 確認項目 | 修正前 | 修正後 |
+|---------|-------|-------|
+| 総件数 | 1491件 | 1491件 |
+| store件数 | 1435件 | 1446件 (+11) |
+| manager件数 | 45件 | 45件 |
+| type=None | 11件 | **0件 ✅** |
+| count=0件数 | 1171件 | 1171件 |
+| count>0件数 | 320件 | 320件 |
+| 重複x_url | 0件 | 0件 ✅ |
+| 不正URL | 0件 | 0件 ✅ |
+
+**修正内容:** type=None の11件(全て店舗アカウント確認済み) → type="store" に修正
+
+#### Priority 4: manager_handles監査
+
+| 確認項目 | 実測値 |
+|---------|-------|
+| 現在件数 | 45件 |
+| count>0 | 24件 |
+| count=0 | 21件 |
+| 店舗公式をmanager扱い | 0件 ✅ |
+| 演者/媒体をmanager扱い | 0件 ✅ |
+
+**判定根拠:** ハンドル名/店舗名に「tencho」「店長」等の個人キーワード確認済み
+
+#### Priority 5: Supabase upsert仕様修正
+
+| 項目 | 修正前 | 修正後 |
+|------|-------|-------|
+| ON CONFLICT | DO NOTHING (ignore-duplicates) | **DO UPDATE (merge-duplicates)** |
+| machine更新 | 不可 | 可 ✅ |
+| machine_id更新 | 不可 | 可(NULL送信は除外) ✅ |
+| store_name更新 | 不可 | 可(NULL除外) ✅ |
+| store_id更新 | 不可 | 可(NULL除外) ✅ |
+| NULL上書き防止 | 該当なし | payloadからNULL値を除外 ✅ |
+
+**修正内容:**
+- `prefer="resolution=merge-duplicates"` に変更
+- NULL値フィールドはpayloadから除外 (machine_id未解決時はDB既存値を保持)
+- 対象フィールド: machine, machine_id, store_name, store_id, slot_number
+
+#### machine_id=None 修正 (patch_complete_data.py実行)
+
+| 機種名 | 修正前 | 修正後 |
+|-------|-------|-------|
+| L革命機ヴァルヴレイヴ2 | 6件 NULL | 0件 ✅ |
+| e女神のカフェテラス | 3件 NULL | 0件 ✅ |
+| eエヴァ17はじまりR | 3件 NULL | 0件 ✅ |
+| スマスロ北斗の拳転生の章2 | 2件 NULL | 0件 ✅ |
+| e牙狼12 | 2件 NULL | 0件 ✅ |
+| Lミリオンゴッド神々の軌跡 | 2件 NULL | 0件 ✅ |
+| その他14機種 | 各1件 NULL | 0件 ✅ |
+| **合計** | **33件 NULL** | **0件 ✅** |
+
+**patch_complete_data.py 実行結果:** 修正前602件→修正後602件, 解決率 602/602 (100.0%)
+
+---
 
 ### AMBIGUOUS_SERIES 全監査・炎炎/からくり誤分類バグ修正 (2026-06-04)
 
@@ -152,23 +245,23 @@
 
 ---
 
-## 現在の実測値 (2026-06-04 Priority1-5)
+## 現在の実測値 (2026-06-05 更新)
 
 | 指標 | 値 | 目標 |
 |------|-----|------|
-| complete_info.json 件数 | 585件 | - |
-| Supabase 件数 | 571件 | - |
-| JSON only | - | - |
-| SB only | - | - |
-| 機種名不一致 | 0件 | 0件 ✅ |
-| machine_id=NULL (SB) | 0件 | 0件 ✅ |
-| unknown_machines (pending) | 0件 | 0件 ✅ |
-| machines_aliases 総件数 | 141件 (-7件: 炎炎/からくり危険alias削除) | - |
-| COMPLETE_QUERIES | 116件 | - |
+| complete_info.json 件数 | 602件 | - |
+| machine_id=NULL (JSON) | **0件 ✅** | 0件 ✅ |
 | 誤分類 (machine_type) | 0件 | 0件 ✅ |
-| ゴミデータ (JSON) | 0件 | 0件 ✅ |
+| image_urlあり | 594件/602件 | - |
+| image_urlありなのに非表示 | 0件 | 0件 ✅ |
 | store_handles 総件数 | 1491件 | 3000件 △ |
+| store_handles type=None | **0件 ✅** | 0件 ✅ |
 | manager_handles | 45件 | 500件 ❌ |
+| store_handles重複URL | 0件 ✅ | 0件 ✅ |
+| Supabase upsert仕様 | **DO UPDATE ✅** | DO UPDATE |
+| machines_aliases 総件数 | 141件 | - |
+| COMPLETE_QUERIES | 116件 | - |
+| ゴミデータ (JSON) | 0件 | 0件 ✅ |
 
 ---
 
@@ -370,8 +463,9 @@
 - [ ] manager_handles 拡大 (現45件 → 目標500件)
   - 手動X検索 or fetch_store_x_urls.py で探索
 - [x] unknown_machines pending → **0件 ✅**
-- [ ] supabase_write_complete() を ON CONFLICT DO UPDATE に変更
-- [ ] fetch_complete_images.py 再実行 (24件の slot entries で image_url 未取得)
+- [x] supabase_write_complete() を ON CONFLICT DO UPDATE に変更 **✅ 2026-06-05完了**
+  - merge-duplicates に変更, NULL値はpayloadから除外してNULL上書き防止
+- [ ] fetch_complete_images.py 再実行 (8件の entries で image_url 未取得)
 
 ### 中優先
 - [ ] 6/4 以降のdaily件数継続監視

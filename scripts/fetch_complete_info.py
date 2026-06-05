@@ -1502,7 +1502,7 @@ def supabase_update_fetch_state(job_name: str) -> None:
 
 def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
     """
-    complete_reports テーブルに INSERT（ON CONFLICT DO NOTHING）。
+    complete_reports テーブルに UPSERT（ON CONFLICT DO UPDATE）。
 
     ・保存するフィールド: id, date, report_time, store_name, machine, machine_id,
                           slot_number, x_url, collected_at
@@ -1554,19 +1554,27 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
                     # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
                     resolver.save_unknown(raw_machine, x_url)
 
-            rows.append({
+            row: dict = {
                 "id":           e["id"],
                 "date":         e.get("date") or None,
                 "report_time":  e.get("time") or None,       # "time" → DB の "report_time"
-                "store_name":   e.get("store") or None,      # "store" → DB の "store_name"
-                "machine":      official_machine,
-                "machine_id":   machine_id,
-                "slot_number":  e.get("slot_number") or None,
                 "x_url":        x_url,
                 "collected_at": e.get("collected_at")
                                 or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 # text / images / image_url は意図的に送信しない
-            })
+            }
+            # NULL値は含めない: ON CONFLICT DO UPDATE で既存の正常値をNULLで上書きしないため
+            if e.get("store") or None:
+                row["store_name"] = e["store"]
+            if e.get("slot_number") or None:
+                row["slot_number"] = e["slot_number"]
+            if official_machine:
+                row["machine"] = official_machine
+            if machine_id:
+                row["machine_id"] = machine_id   # 解決済みのみ: NULL上書きを防止
+            if e.get("store_id"):
+                row["store_id"] = e["store_id"]
+            rows.append(row)
 
         if not rows:
             continue
@@ -1575,9 +1583,10 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
             status, body = _sb_request(
                 "POST", "complete_reports",
                 body=rows,
-                # ignore-duplicates = ON CONFLICT DO NOTHING（既存データを書き換えない）
-                # return=representation で実際に INSERT された行数を取得
-                prefer="resolution=ignore-duplicates,return=representation",
+                # merge-duplicates = ON CONFLICT DO UPDATE SET (payload列のみ更新)
+                # NULL値はpayloadから除外済みのため既存の正常値を上書きしない
+                # return=representation で実際に INSERT/UPDATE された行数を取得
+                prefer="resolution=merge-duplicates,return=representation",
             )
             if status in (200, 201):
                 inserted = len(json.loads(body)) if body else 0
