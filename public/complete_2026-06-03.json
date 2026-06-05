@@ -134,6 +134,29 @@
     "store_id": "85ed302b85"
   },
   {
+    "id": "958df75d2c20",
+    "date": "2026-06-03",
+    "time": "20:58",
+    "store": "FACE1300小倉南店",
+    "machine": "スマスロ甲鉄城のカバネリ",
+    "machine_type": "slot",
+    "slot_number": "751",
+    "text": "コンプリート速報  751番台　スマスロ甲鉄城のカバネリ 　　　　　　　　　海門（うなと）決戦  コンプリート達成 おめでとう御座います  本日2台目のコンプリート 閉店まで後2時間 盛り上げていきましょう  #MEGAFACE1300小倉南 #スロパチステーション",
+    "x_url": "https://x.com/face_1300/status/2062141955279302895",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-05T17:01:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4w8PeaYAA28no?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJzunzxbUAAMq1S?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4w8PeaYAA28no?format=jpg&name=large",
+    "machine_id": "83473efa-df5b-458f-8644-f47f6ad2d3b3",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "a517c3e205c2",
     "date": "2026-06-03",
     "time": "20:46",
@@ -167,7 +190,34 @@
     "collected_at": "2026-06-03T15:33:55+00:00",
     "text": "",
     "images": [],
-    "image_url": "https://pbs.twimg.com/media/HJ4k2M4a4AA467y?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJ4k2M4a4AA467y?format=jpg&name=large",
+    "machine_id": "e3a94052-d77e-4de9-892f-427e1695211a",
+    "store_id": "5878704f24",
+    "store_handle": "wing_asuto",
+    "store_x_url": "https://x.com/wing_asuto",
+    "source_account_type": "store_official"
+  },
+  {
+    "id": "3607da80ffdf",
+    "date": "2026-06-03",
+    "time": "19:46",
+    "store": "テキサス小倉店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "761",
+    "text": "こんばんは  テキサス小倉店です  6月3日   761番台 eカケグルイ    おめでとうございます #コンプリート  #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2062123649482813531",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-05T17:01:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ4iha7a8AAn6Ce?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ4iha7a8AAn6Ce?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "7be267e3ea"
   },
   {
     "id": "41db09827439",
@@ -313,6 +363,10 @@
     "collected_at": "2026-06-03T15:32:49+00:00",
     "text": "",
     "images": [],
-    "image_url": "https://pbs.twimg.com/media/HJ3hYIxa8AAlksg?format=jpg&name=large"
+    "image_url": "https://pbs.twimg.com/media/HJ3hYIxa8AAlksg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_handle": "rit3vjojmw4919",
+    "store_x_url": "https://x.com/rit3vjojmw4919",
+    "source_account_type": "store_official"
   }
 ]
