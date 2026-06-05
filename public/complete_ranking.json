@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-05T14:32:58+09:00",
+  "generated_at": "2026-06-05T17:15:03+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 61,
+      "total_count": 62,
       "stores": [
         {
           "rank": 1,
@@ -14,57 +14,57 @@
         },
         {
           "rank": 2,
+          "name": "ＭＪアリーナ干隈店",
+          "count": 2,
+          "x_url": "https://x.com/mjhosikuma"
+        },
+        {
+          "rank": 3,
           "name": "サガちゃんPARK",
           "count": 2,
           "x_url": "https://x.com/sagachan_park"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "マルハン川越店",
           "count": 2,
           "x_url": "https://x.com/smaru_kawagoe"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "ユーコーラッキー37太宰府店",
           "count": 2,
           "x_url": "https://x.com/yuko_dazaifu"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "FACE1300小倉南店",
           "count": 2,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "パチンコの玉屋∞本店",
           "count": 2,
           "x_url": "https://x.com/tamaya_honten"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "マルハン亀有店_亀にゃん",
           "count": 2,
           "x_url": "https://x.com/maruhan_kameari"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "マルハンメガシティ三島駿東",
           "count": 2,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "天国朝生田店1020",
           "count": 2,
           "x_url": "https://x.com/tengoku_asoda"
-        },
-        {
-          "rank": 10,
-          "name": "ビックマーチ東習志野店",
-          "count": 1,
-          "x_url": "https://x.com/joypackx"
         }
       ],
       "slot_machines": [
@@ -105,17 +105,17 @@
         },
         {
           "rank": 8,
-          "name": "Lチバリヨ2ZB",
+          "name": "Lからくりサーカス",
           "count": 1
         },
         {
           "rank": 9,
-          "name": "スマスロゴッドイーター",
+          "name": "Lチバリヨ2ZB",
           "count": 1
         },
         {
           "rank": 10,
-          "name": "Lパチスロ 機動戦士ガンダムユニコーン 覚醒DRIVE",
+          "name": "スマスロゴッドイーター",
           "count": 1
         }
       ],
@@ -511,7 +511,7 @@
         "count": 5
       }
     ],
-    "total_count": 600
+    "total_count": 601
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 11,
@@ -535,6 +535,7 @@
     "SPACE(スペース444＆666)": 5,
     "フェイス850佐賀": 5,
     "楽園池袋店グリーンサイド": 5,
+    "ＭＪアリーナ干隈店": 4,
     "ビックマーチ東習志野店": 4,
     "マルハン川越店": 4,
     "ダイナム長野上田店": 4,
@@ -556,7 +557,6 @@
     "ビックマーチ藤代店@店舗の仲間たち": 3,
     "FACE1300小倉南店": 3,
     "M&K岡崎店": 3,
-    "ＭＪアリーナ干隈店": 3,
     "ダイナム金町南口店": 3,
     "テキサス656山口店": 3,
     "大安寺マルハチ": 3,

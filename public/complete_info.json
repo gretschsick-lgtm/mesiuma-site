@@ -1,5 +1,27 @@
 [
   {
+    "id": "c49a540b173d",
+    "date": "2026-06-05",
+    "time": "15:23",
+    "store": "ＭＪアリーナ干隈店",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "211",
+    "text": "本日6月5日  Lからくりサーカス　211番台  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mjhosikuma/status/2062782395427025359",
+    "store_handle": "mjhosikuma",
+    "store_x_url": "https://x.com/mjhosikuma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-05T07:59:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKB5p6EaMAAlvrF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKB5p6EaMAAlvrF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "2b4d471207"
+  },
+  {
     "id": "364057969fef",
     "date": "2026-06-04",
     "time": "22:24",
