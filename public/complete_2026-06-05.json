@@ -1,5 +1,27 @@
 [
   {
+    "id": "dc163068c622",
+    "date": "2026-06-05",
+    "time": "22:52",
+    "store": "マルハン仙台苦竹店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "36",
+    "text": "マルハン仙台苦竹店です。  6/5(金)　22：23 36番台  eリコリス・リコイル  コンプリート機能発動",
+    "x_url": "https://x.com/niga_maru/status/2062895409564201321",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-05T17:48:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKDf-UIbgAAM20b?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKDf-UIbgAAM20b?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "fb78bbe137"
+  },
+  {
     "id": "37301d063881",
     "date": "2026-06-05",
     "time": "20:35",

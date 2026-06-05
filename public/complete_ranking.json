@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-06T02:17:48+09:00",
+  "generated_at": "2026-06-06T03:05:50+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 70,
+      "total_count": 71,
       "stores": [
         {
           "rank": 1,
@@ -20,51 +20,51 @@
         },
         {
           "rank": 3,
+          "name": "マルハン仙台苦竹店",
+          "count": 2,
+          "x_url": "https://x.com/niga_maru"
+        },
+        {
+          "rank": 4,
           "name": "ダイナム金町南口店",
           "count": 2,
           "x_url": "https://x.com/dynam_00035"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "ＭＪアリーナ干隈店",
           "count": 2,
           "x_url": "https://x.com/mjhosikuma"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "サガちゃんPARK",
           "count": 2,
           "x_url": "https://x.com/sagachan_park"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "マルハン川越店",
           "count": 2,
           "x_url": "https://x.com/smaru_kawagoe"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ユーコーラッキー37太宰府店",
           "count": 2,
           "x_url": "https://x.com/yuko_dazaifu"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "新ガーデン西浦和",
           "count": 2,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "テキサス小倉店",
           "count": 2,
           "x_url": "https://x.com/texas_kokura"
-        },
-        {
-          "rank": 10,
-          "name": "パチンコの玉屋∞本店",
-          "count": 2,
-          "x_url": "https://x.com/tamaya_honten"
         }
       ],
       "slot_machines": [
@@ -132,42 +132,42 @@
         },
         {
           "rank": 3,
-          "name": "e牙狼12",
+          "name": "eリコリス・リコイル",
           "count": 2
         },
         {
           "rank": 4,
+          "name": "e牙狼12",
+          "count": 2
+        },
+        {
+          "rank": 5,
           "name": "eとある科学の超電磁砲2",
           "count": 1
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "eフィーバーキン肉マン",
           "count": 1
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "e閃乱カグラ",
           "count": 1
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "e女神のカフェテラス",
           "count": 1
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "eバイオハザード6",
           "count": 1
         },
         {
-          "rank": 9,
-          "name": "e転生したらスライムだった件2",
-          "count": 1
-        },
-        {
           "rank": 10,
-          "name": "e東京喰種",
+          "name": "e転生したらスライムだった件2",
           "count": 1
         }
       ]
@@ -360,15 +360,15 @@
       },
       {
         "rank": 3,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "マルハン仙台苦竹店",
         "count": 9,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/niga_maru"
       },
       {
         "rank": 4,
-        "name": "マルハン仙台苦竹店",
-        "count": 8,
-        "x_url": "https://x.com/niga_maru"
+        "name": "マルハンメガシティ三島駿東",
+        "count": 9,
+        "x_url": "https://x.com/mega_mishima"
       },
       {
         "rank": 5,
@@ -493,7 +493,7 @@
       {
         "rank": 7,
         "name": "eリコリス・リコイル",
-        "count": 8
+        "count": 9
       },
       {
         "rank": 8,
@@ -511,13 +511,13 @@
         "count": 5
       }
     ],
-    "total_count": 609
+    "total_count": 610
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 11,
     "楽園池袋店ゲートウェイ": 11,
+    "マルハン仙台苦竹店": 9,
     "マルハンメガシティ三島駿東": 9,
-    "マルハン仙台苦竹店": 8,
     "キクヤ春日井店": 8,
     "ARROW浪速店": 7,
     "SuperD'station東金店": 7,
