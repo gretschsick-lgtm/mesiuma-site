@@ -885,6 +885,28 @@
     "source_account_type": "store_official"
   },
   {
+    "id": "0e36b82050cd",
+    "date": "2026-05-31",
+    "time": "18:45",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "334",
+    "text": "こんばんは メガシティ三島駿東です  ｅ東京喰種 334番台  本日のコンプリートです おめでとうございます  皆様この後もぜひお楽しみください",
+    "x_url": "https://x.com/mega_mishima/status/2061021114122272867",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T16:14:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJoz9mDbgAA1NWA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJoz9mDbgAA1NWA?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "0d17f6dfb328",
     "date": "2026-05-31",
     "time": "18:33",
@@ -947,28 +969,6 @@
     "image_url": "https://pbs.twimg.com/media/HJovXBJaoAAxBlX?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "d2b37d41c5"
-  },
-  {
-    "id": "a7a8c49eff5d",
-    "date": "2026-05-31",
-    "time": "18:00",
-    "store": "SuperD'station東金店",
-    "machine": "L真打吉宗",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "スーパーD'ステーション東金店です  本日も出ました！！ 　L真打吉宗 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後もお時間の許します限り、 ごゆっくりとお楽しみください  #千葉 #東金 #パチンコ #スロット #吉宗 #コンプリート",
-    "x_url": "https://x.com/sd_tougane/status/2061009795239538942",
-    "store_handle": "sd_tougane",
-    "store_x_url": "https://x.com/sd_tougane",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-06T15:53:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HJorAxabcAA1-Qp?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HJorAxabcAA1-Qp?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000010",
-    "store_id": "7f6d7ae0f2"
   },
   {
     "id": "59af316fb803",

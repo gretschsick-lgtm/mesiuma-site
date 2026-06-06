@@ -45,6 +45,28 @@
     "store_id": "fb78bbe137"
   },
   {
+    "id": "1f51f8df15a0",
+    "date": "2026-06-05",
+    "time": "21:40",
+    "store": "T-MAX新栄店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "460",
+    "text": "こんばんは T－MAX新栄店です  　e東京喰種Ｗ460番台 コンプリート達成 　　おめでとうございます",
+    "x_url": "https://x.com/tmaxshinei39_10/status/2062877238383792545",
+    "store_handle": "tmaxshinei39_10",
+    "store_x_url": "https://x.com/tmaxshinei39_10",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T16:23:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKDP33MaMAAsBYN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKDP33MaMAAsBYN?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "9823f30ca7"
+  },
+  {
     "id": "b78f3612d745",
     "date": "2026-06-05",
     "time": "21:33",
