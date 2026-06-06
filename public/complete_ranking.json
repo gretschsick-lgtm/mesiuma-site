@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-06T09:26:18+09:00",
+  "generated_at": "2026-06-06T14:09:59+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 73,
+      "total_count": 75,
       "stores": [
         {
           "rank": 1,
@@ -20,58 +20,58 @@
         },
         {
           "rank": 3,
+          "name": "キクヤ一宮店",
+          "count": 2,
+          "x_url": "https://x.com/ichinomiya1380"
+        },
+        {
+          "rank": 4,
           "name": "マルハン仙台苦竹店",
           "count": 2,
           "x_url": "https://x.com/niga_maru"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "ダイナム金町南口店",
           "count": 2,
           "x_url": "https://x.com/dynam_00035"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ＭＪアリーナ干隈店",
           "count": 2,
           "x_url": "https://x.com/mjhosikuma"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "サガちゃんPARK",
           "count": 2,
           "x_url": "https://x.com/sagachan_park"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "マルハン川越店",
           "count": 2,
           "x_url": "https://x.com/smaru_kawagoe"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ユーコーラッキー37太宰府店",
           "count": 2,
           "x_url": "https://x.com/yuko_dazaifu"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "新ガーデン西浦和",
           "count": 2,
           "x_url": "https://x.com/g_nishiurawa"
-        },
-        {
-          "rank": 10,
-          "name": "テキサス小倉店",
-          "count": 2,
-          "x_url": "https://x.com/texas_kokura"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 14
+          "count": 15
         },
         {
           "rank": 2,
@@ -105,17 +105,17 @@
         },
         {
           "rank": 8,
-          "name": "Lからくりサーカス",
+          "name": "L鉄拳6",
           "count": 1
         },
         {
           "rank": 9,
-          "name": "Lチバリヨ2ZB",
+          "name": "Lからくりサーカス",
           "count": 1
         },
         {
           "rank": 10,
-          "name": "スマスロゴッドイーター",
+          "name": "Lチバリヨ2ZB",
           "count": 1
         }
       ],
@@ -366,15 +366,15 @@
       },
       {
         "rank": 4,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "キクヤ春日井店",
         "count": 9,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/315kasugai"
       },
       {
         "rank": 5,
-        "name": "キクヤ春日井店",
-        "count": 8,
-        "x_url": "https://x.com/315kasugai"
+        "name": "マルハンメガシティ三島駿東",
+        "count": 9,
+        "x_url": "https://x.com/mega_mishima"
       },
       {
         "rank": 6,
@@ -396,22 +396,22 @@
       },
       {
         "rank": 9,
-        "name": "メガフェイス1450本山",
+        "name": "キクヤ一宮店",
         "count": 6,
-        "x_url": "https://x.com/megaface_1450"
+        "x_url": "https://x.com/ichinomiya1380"
       },
       {
         "rank": 10,
-        "name": "テキサス小倉店",
+        "name": "メガフェイス1450本山",
         "count": 6,
-        "x_url": "https://x.com/texas_kokura"
+        "x_url": "https://x.com/megaface_1450"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 101
+        "count": 102
       },
       {
         "rank": 2,
@@ -511,17 +511,18 @@
         "count": 5
       }
     ],
-    "total_count": 613
+    "total_count": 615
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 11,
     "楽園池袋店ゲートウェイ": 11,
     "マルハン仙台苦竹店": 9,
+    "キクヤ春日井店": 9,
     "マルハンメガシティ三島駿東": 9,
-    "キクヤ春日井店": 8,
     "ARROW浪速店": 7,
     "SuperD'station東金店": 7,
     "キャッスル春日井": 7,
+    "キクヤ一宮店": 6,
     "メガフェイス1450本山": 6,
     "テキサス小倉店": 6,
     "メガフェイス1300淀川": 6,
@@ -529,7 +530,6 @@
     "フェイス850佐賀": 6,
     "グランキコーナひたちなか店": 6,
     "楽園大宮店": 5,
-    "キクヤ一宮店": 5,
     "マルハンメガシティ伊勢崎": 5,
     "パチンコの玉屋∞本店": 5,
     "キング観光サウザンド栄若宮大通店": 5,
