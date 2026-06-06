@@ -67,6 +67,28 @@
     "store_id": "dcbb4c52ca"
   },
   {
+    "id": "79fd560d4bac",
+    "date": "2026-06-05",
+    "time": "20:21",
+    "store": "ロイヤル沼ノ端店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "223",
+    "text": "先程e牙狼12　223番台でコンプリート機能発動 おめでとうございます！ 当店のデータも見てみて下さい。  https:// p-town.dmm.com/shops/hokkaido /1343/jackpot …",
+    "x_url": "https://x.com/RoyalNumanohata/status/2062857407190257971",
+    "store_handle": "royalnumanohata",
+    "store_x_url": "https://x.com/royalnumanohata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T10:29:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKC94K4aAAAb_eq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKC94K4aAAAb_eq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "8ac20dc797"
+  },
+  {
     "id": "a7f3c0e65ea6",
     "date": "2026-06-05",
     "time": "20:10",

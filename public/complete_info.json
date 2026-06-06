@@ -1,5 +1,49 @@
 [
   {
+    "id": "d6b7edeca217",
+    "date": "2026-06-06",
+    "time": "19:01",
+    "store": "マルハン仙台名坊店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "2001",
+    "text": "【2001番台】  【機種名 L炎炎ノ消防隊2 】  でコンプリート達成    おめでとうございます  データを確認できる マルハンアプリはこちらから   http:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/naebomaruhan/status/2063199590065848651",
+    "store_handle": "naebomaruhan",
+    "store_x_url": "https://x.com/naebomaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T10:44:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKH1EQfbUAAMssS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKH1EQfbUAAMssS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "01a41812b5"
+  },
+  {
+    "id": "06b1a809921f",
+    "date": "2026-06-06",
+    "time": "18:11",
+    "store": "マルハン小山千駄塚店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "731",
+    "text": "にゃにゃにゃ！？  731番台 Lパチスロ革命機ヴァルヴレイヴ2  コンプリート達成！  革命軍に入隊決定にゃ〜〜  おめでとうございますにゃ～♪",
+    "x_url": "https://x.com/oyamasendaduka2/status/2063187062619299900",
+    "store_handle": "oyamasendaduka2",
+    "store_x_url": "https://x.com/oyamasendaduka2",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T10:29:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKHpjMgaAAA7KKa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKHpjMgaAAA7KKa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f012229481"
+  },
+  {
     "id": "66d56da93daf",
     "date": "2026-06-06",
     "time": "15:21",
@@ -132,6 +176,28 @@
     "image_url": "https://pbs.twimg.com/media/HKDA8UIWwAAIPjA?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "dcbb4c52ca"
+  },
+  {
+    "id": "79fd560d4bac",
+    "date": "2026-06-05",
+    "time": "20:21",
+    "store": "ロイヤル沼ノ端店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "223",
+    "text": "先程e牙狼12　223番台でコンプリート機能発動 おめでとうございます！ 当店のデータも見てみて下さい。  https:// p-town.dmm.com/shops/hokkaido /1343/jackpot …",
+    "x_url": "https://x.com/RoyalNumanohata/status/2062857407190257971",
+    "store_handle": "royalnumanohata",
+    "store_x_url": "https://x.com/royalnumanohata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T10:29:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKC94K4aAAAb_eq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKC94K4aAAAb_eq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "8ac20dc797"
   },
   {
     "id": "a7f3c0e65ea6",
