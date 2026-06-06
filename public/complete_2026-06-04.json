@@ -44,6 +44,28 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "7eddd1e50802",
+    "date": "2026-06-04",
+    "time": "21:20",
+    "store": "メガフェイス1000糸島",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "1861",
+    "text": "#フェイス糸島 から今月最初の コンプリート達成 #L炎炎ノ消防隊2 1861番台 今月の糸島店に注目してね",
+    "x_url": "https://x.com/face__1000/status/2062509713334645008",
+    "store_handle": "face__1000",
+    "store_x_url": "https://x.com/face__1000",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T19:11:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ-BjEOakAAWgbh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ-BjEOakAAWgbh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "1b892a97fe"
+  },
+  {
     "id": "25c20b795d3b",
     "date": "2026-06-04",
     "time": "20:30",
@@ -196,5 +218,27 @@
     "image_url": "https://pbs.twimg.com/media/HJ8YvEzaQAAqBRH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "04950fcd53"
+  },
+  {
+    "id": "ef1d75b5f399",
+    "date": "2026-06-04",
+    "time": "11:00",
+    "store": "ダイナム山形天童店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "330",
+    "text": "こんにちは！ ダイナム山形天童店です   コンプリートのお知らせ    ３３０番台 #Ｌ北斗の拳転生の章２   昨日、コンプリート出ましたあああ！！！   おめでとうございます   #ダイナム #コンプリート #スマスロ",
+    "x_url": "https://x.com/dynam_00424/status/2062716117827699188",
+    "store_handle": "dynam_00424",
+    "store_x_url": "https://x.com/dynam_00424",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T19:15:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKA9X20XIAAfgw3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKA9X20XIAAfgw3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "9ba958fb36"
   }
 ]
