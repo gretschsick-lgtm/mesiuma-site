@@ -159,6 +159,28 @@
     "store_id": "a3859aaee1"
   },
   {
+    "id": "2923c193add7",
+    "date": "2026-06-06",
+    "time": "20:37",
+    "store": "マルハンメガシティ伊勢崎",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "10",
+    "text": "コンプリート達成報告 『e牙狼12黄金騎士極限』  10番台のお客様 コンプリート達成 おめでとうございます  #コンプリート　#群馬マルハン",
+    "x_url": "https://x.com/isesaki_maruhan/status/2063223659729436686",
+    "store_handle": "isesaki_maruhan",
+    "store_x_url": "https://x.com/isesaki_maruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T23:07:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIKbahb0AAp_r-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIKbahb0AAp_r-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "fe04efdcd0"
+  },
+  {
     "id": "d92a4189bc9c",
     "date": "2026-06-06",
     "time": "20:18",
@@ -570,6 +592,28 @@
     "image_url": "https://pbs.twimg.com/media/HKHBGZZaQAAvuQO?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "53a1ab0c58"
+  },
+  {
+    "id": "05d3cfd35f7a",
+    "date": "2026-06-06",
+    "time": "00:34",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "541",
+    "text": "本日、  e牙狼12黄金騎士極限 　541番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2063283489521434905",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T23:07:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKJBOjtbQAEmCGI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKJBOjtbQAEmCGI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "d619395d023b",
@@ -3414,6 +3458,28 @@
     "image_url": "https://pbs.twimg.com/media/HJovXBJaoAAxBlX?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "d2b37d41c5"
+  },
+  {
+    "id": "a7a8c49eff5d",
+    "date": "2026-05-31",
+    "time": "18:00",
+    "store": "SuperD'station東金店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "スーパーD'ステーション東金店です  本日も出ました！！ 　L真打吉宗 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後もお時間の許します限り、 ごゆっくりとお楽しみください  #千葉 #東金 #パチンコ #スロット #吉宗 #コンプリート",
+    "x_url": "https://x.com/sd_tougane/status/2061009795239538942",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-06T23:08:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJorAxabcAA1-Qp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJorAxabcAA1-Qp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "7f6d7ae0f2"
   },
   {
     "id": "59af316fb803",

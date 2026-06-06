@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-07T06:14:13+09:00",
+  "generated_at": "2026-06-07T08:26:46+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 110,
+      "total_count": 112,
       "stores": [
         {
           "rank": 1,
@@ -32,39 +32,39 @@
         },
         {
           "rank": 5,
+          "name": "マルハンメガシティ伊勢崎",
+          "count": 2,
+          "x_url": "https://x.com/isesaki_maruhan"
+        },
+        {
+          "rank": 6,
           "name": "メガフェイス1000糸島",
           "count": 2,
           "x_url": "https://x.com/face__1000"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "キング観光サウザンド名古屋駅柳橋店",
           "count": 2,
           "x_url": "https://x.com/yanakin1515"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "プレイランドキャッスル熱田店",
           "count": 2,
           "x_url": "https://x.com/castleatsuta"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "M&K岡崎店",
           "count": 2,
           "x_url": "https://x.com/mkokazaki"
         },
         {
-          "rank": 9,
-          "name": "キクヤ一宮店",
-          "count": 2,
-          "x_url": "https://x.com/ichinomiya1380"
-        },
-        {
           "rank": 10,
-          "name": "マルハン仙台苦竹店",
+          "name": "ARROW浪速店",
           "count": 2,
-          "x_url": "https://x.com/niga_maru"
+          "x_url": "https://x.com/arrow_naniwa"
         }
       ],
       "slot_machines": [
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 11
+          "count": 13
         },
         {
           "rank": 2,
@@ -175,7 +175,7 @@
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 523,
+      "total_count": 524,
       "stores": [
         {
           "rank": 1,
@@ -191,15 +191,15 @@
         },
         {
           "rank": 3,
-          "name": "マルハンメガシティ三島駿東",
+          "name": "SuperD'station東金店",
           "count": 8,
-          "x_url": "https://x.com/mega_mishima"
+          "x_url": "https://x.com/sd_tougane"
         },
         {
           "rank": 4,
-          "name": "SuperD'station東金店",
-          "count": 7,
-          "x_url": "https://x.com/sd_tougane"
+          "name": "マルハンメガシティ三島駿東",
+          "count": 8,
+          "x_url": "https://x.com/mega_mishima"
         },
         {
           "rank": 5,
@@ -378,27 +378,27 @@
       },
       {
         "rank": 6,
+        "name": "ARROW浪速店",
+        "count": 8,
+        "x_url": "https://x.com/arrow_naniwa"
+      },
+      {
+        "rank": 7,
+        "name": "SuperD'station東金店",
+        "count": 8,
+        "x_url": "https://x.com/sd_tougane"
+      },
+      {
+        "rank": 8,
         "name": "メガフェイス1450本山",
         "count": 7,
         "x_url": "https://x.com/megaface_1450"
       },
       {
-        "rank": 7,
+        "rank": 9,
         "name": "メガフェイス1300淀川",
         "count": 7,
         "x_url": "https://x.com/megaface_1300"
-      },
-      {
-        "rank": 8,
-        "name": "ARROW浪速店",
-        "count": 7,
-        "x_url": "https://x.com/arrow_naniwa"
-      },
-      {
-        "rank": 9,
-        "name": "SuperD'station東金店",
-        "count": 7,
-        "x_url": "https://x.com/sd_tougane"
       },
       {
         "rank": 10,
@@ -463,7 +463,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 50
+        "count": 52
       },
       {
         "rank": 2,
@@ -511,7 +511,7 @@
         "count": 5
       }
     ],
-    "total_count": 649
+    "total_count": 652
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 12,
@@ -519,11 +519,12 @@
     "マルハンメガシティ三島駿東": 10,
     "マルハン仙台苦竹店": 9,
     "キクヤ春日井店": 9,
+    "ARROW浪速店": 8,
+    "SuperD'station東金店": 8,
     "メガフェイス1450本山": 7,
     "メガフェイス1300淀川": 7,
-    "ARROW浪速店": 7,
-    "SuperD'station東金店": 7,
     "キャッスル春日井": 7,
+    "マルハンメガシティ伊勢崎": 6,
     "ビックマーチ東習志野店": 6,
     "キクヤ一宮店": 6,
     "キング観光サウザンド栄若宮大通店": 6,
@@ -533,7 +534,6 @@
     "グランキコーナひたちなか店": 6,
     "マルハン小山千駄塚店": 5,
     "楽園大宮店": 5,
-    "マルハンメガシティ伊勢崎": 5,
     "パチンコの玉屋∞本店": 5,
     "SPACE(スペース444＆666)": 5,
     "SUPER COSMO PREMIUM大東店": 5,
