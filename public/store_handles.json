@@ -72,10 +72,10 @@
     "type": "store"
   },
   "maruhan_kameari": {
-    "store": "マルハン亀有店_亀にゃん",
+    "store": "マルハン亀有店 中の人・亀にゃん",
     "x_url": "https://x.com/maruhan_kameari",
     "count": 6,
-    "type": "store"
+    "type": "manager"
   },
   "megaface_1070": {
     "store": "メガフェイス1070菊陽",
@@ -186,10 +186,10 @@
     "type": "store"
   },
   "kicona_ebina": {
-    "store": "キコーナ海老名店",
+    "store": "キコーナ海老名店 中の人",
     "x_url": "https://x.com/kicona_ebina",
     "count": 4,
-    "type": "store"
+    "type": "manager"
   },
   "palazzo_hato": {
     "store": "パラッツォ鳩ヶ谷店",
@@ -366,10 +366,10 @@
     "type": "manager"
   },
   "marujagten": {
-    "store": "マルハン入間店",
+    "store": "マルハン入間店 パワ店イッチー",
     "x_url": "https://x.com/marujagten",
     "count": 3,
-    "type": "store"
+    "type": "manager"
   },
   "paradiso_furdol": {
     "store": "パラディソ古川ドルフィン館",
@@ -1074,10 +1074,10 @@
     "type": "store"
   },
   "billy_maruhan": {
-    "store": "マルハン橿原北店店",
+    "store": "マルハン橿原北店 おっちー店長",
     "x_url": "https://x.com/billy_maruhan",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "dynam_00361": {
     "store": "ダイナム福岡久留米店",
@@ -1104,16 +1104,16 @@
     "type": "manager"
   },
   "gardengashimiya": {
-    "store": "ガーデン東大宮店＠がしみや　4/21(火)リニューアル",
+    "store": "ガーデン東大宮店 中の人・がしみや",
     "x_url": "https://x.com/gardengashimiya",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "marumaruhan0522": {
-    "store": "すぎちゃん∞マルハン茂原店",
+    "store": "マルハン茂原店 中の人・すぎちゃん",
     "x_url": "https://x.com/marumaruhan0522",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "megagarden": {
     "store": "メガガーデン所沢スロット館",
@@ -1149,7 +1149,7 @@
     "store": "ダイナム金町南口店",
     "x_url": "https://x.com/kanamina_tencyo",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "gardenplus39": {
     "store": "ガーデンプラス所沢店",
@@ -1176,10 +1176,10 @@
     "type": "store"
   },
   "asobikobo": {
-    "store": "コボちゃん＠遊び工房 恵庭店",
+    "store": "遊び工房恵庭店 中の人・コボちゃん",
     "x_url": "https://x.com/asobikobo",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "orientshinmachi": {
     "store": "オリエントインペリアルホール｜青梅新町",
@@ -1920,10 +1920,10 @@
     "type": "store"
   },
   "uecchan_dy": {
-    "store": "柴田町店",
+    "store": "ダイナム柴田町店 中の人・うえっちゃん",
     "x_url": "https://x.com/uecchan_dy",
     "count": 1,
-    "type": "store"
+    "type": "manager"
   },
   "jvxcvnv10f30981": {
     "store": "マルハン",
@@ -2076,10 +2076,10 @@
     "type": "store"
   },
   "mikutoyo3939": {
-    "store": "ミクちゃんアリーナ豊岡店",
+    "store": "ミクちゃんアリーナ豊岡店 中の人",
     "x_url": "https://x.com/mikutoyo3939",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "usausa3939usa": {
     "store": "ユーコーラッキー宇佐店",
@@ -2772,10 +2772,10 @@
     "type": "store"
   },
   "m_sakai1022": {
-    "store": "マルハン平塚店",
+    "store": "マルハン平塚店 店長",
     "x_url": "https://x.com/m_sakai1022",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "singardentotuka": {
     "store": "新！ガーデン戸塚",
@@ -2862,10 +2862,10 @@
     "type": "store"
   },
   "reitochan6417": {
-    "store": "レイトスロットステージ筑西",
+    "store": "レイトスロットステージ筑西 中の人・れいとちゃん",
     "x_url": "https://x.com/reitochan6417",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "keizmatsumoto": {
     "store": "KEIZ松本店",
@@ -3552,10 +3552,10 @@
     "type": "store"
   },
   "ma_kun_maruhan": {
-    "store": "マルハン那須塩原店",
+    "store": "マルハン那須塩原店 中の人・まーくん",
     "x_url": "https://x.com/ma_kun_maruhan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "bd88maruhan": {
     "store": "マルハン松飛台店",
@@ -3576,16 +3576,16 @@
     "type": "store"
   },
   "dedemaruhan": {
-    "store": "マルハン川崎桜本店",
+    "store": "マルハン川崎桜本店 メガパー店長",
     "x_url": "https://x.com/dedemaruhan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "nishimo_maruhan": {
-    "store": "マルハン太田新道町店",
+    "store": "マルハン太田新道町店 店長にしもん",
     "x_url": "https://x.com/nishimo_maruhan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "maruhan_hamada": {
     "store": "マルハン浜田店",
@@ -3990,10 +3990,10 @@
     "type": "store"
   },
   "kabupa777": {
-    "store": "エスパス日拓新宿歌舞伎町店",
+    "store": "エスパス日拓新宿歌舞伎町店 中の人・かぶぱ",
     "x_url": "https://x.com/kabupa777",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "pmuraten": {
     "store": "ぱちんこ村",
@@ -4125,7 +4125,7 @@
     "store": "SuperＤ’station仙台泉店",
     "x_url": "https://x.com/stonetencho",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "ohta_channel": {
     "store": "オータ豊川店",
@@ -4206,10 +4206,10 @@
     "type": "store"
   },
   "maruhan1177": {
-    "store": "マルハンメガシティ柏",
+    "store": "マルハン古河店 ヒットミン店長",
     "x_url": "https://x.com/maruhan1177",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "ore_pachi_slot": {
     "store": "マルハンメガシティ長野店",
@@ -4506,10 +4506,10 @@
     "type": "store"
   },
   "y_tencho_capT": {
-    "store": "やすだ稲毛駅前店",
+    "store": "やすだ稲毛駅前店 店長",
     "x_url": "https://x.com/y_tencho_capT",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "runarion_": {
     "store": "遊び工房恵庭店",
@@ -4665,7 +4665,7 @@
     "store": "パチンコ店",
     "x_url": "https://x.com/narareina_staff",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "itdonaldo0806": {
     "store": "新！ガーデン桶川",
@@ -5052,10 +5052,10 @@
     "type": "store"
   },
   "takomake7pankun": {
-    "store": "グランパ中野",
+    "store": "グランパ中野 中の人・たこぱん",
     "x_url": "https://x.com/takomake7pankun",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "g_kasukabe": {
     "store": "朝10時開店",
@@ -5082,10 +5082,10 @@
     "type": "store"
   },
   "chanoma_777": {
-    "store": "ピーアーク北綾瀬駅前",
+    "store": "ピーアーク北綾瀬駅前 中の人・茶の間ちゃん",
     "x_url": "https://x.com/chanoma_777",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "mikado_world": {
     "store": "ミカドワールド店",
@@ -5412,10 +5412,10 @@
     "type": "store"
   },
   "chibidebukusome": {
-    "store": "ニラク郡山大町店",
+    "store": "ニラク郡山大町店 中の人・ちびでぶくそめ",
     "x_url": "https://x.com/chibidebukusome",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "ABC_kawashimada": {
     "store": "ABC御殿場川島田店",
@@ -5667,7 +5667,7 @@
     "store": "マルハン厚木店",
     "x_url": "https://x.com/tencho_m810",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "maruhan_atsugi": {
     "store": "マルハン厚木店",
@@ -5760,10 +5760,10 @@
     "type": "store"
   },
   "yamaptencho": {
-    "store": "ダイナム滋賀彦根店",
+    "store": "ダイナム滋賀彦根店 店長ヤマシタ",
     "x_url": "https://x.com/yamaptencho",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "maimi_slot": {
     "store": "キコーナ武庫川店",
@@ -5772,10 +5772,10 @@
     "type": "store"
   },
   "yuzuchan_dayo2": {
-    "store": "中日ホール竹谷店",
+    "store": "中日ホール竹谷店 中の人・ゆずちゃん",
     "x_url": "https://x.com/yuzuchan_dayo2",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "Slo_Plan_T": {
     "store": "キューデンアネックス西新井店",
@@ -5784,10 +5784,10 @@
     "type": "store"
   },
   "koufukunosuke": {
-    "store": "MGM国領店",
+    "store": "MGM国領店 中の人・コウフクノスケ",
     "x_url": "https://x.com/koufukunosuke",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "LAKATA_TSURU5": {
     "store": "ラカータ鶴ヶ島777",
@@ -5832,10 +5832,10 @@
     "type": "store"
   },
   "sloten15_jungo": {
-    "store": "マルハン＝平塚店",
+    "store": "マルハン平塚店 店長ウエノ",
     "x_url": "https://x.com/sloten15_jungo",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "hyogominchat": {
     "store": "ヴィーナス",
@@ -6108,10 +6108,10 @@
     "type": "store"
   },
   "yoyochanranchan": {
-    "store": "キコーナ守口店",
+    "store": "キコーナ守口店 中の人・よよちゃん&らんちゃん",
     "x_url": "https://x.com/yoyochanranchan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "sengendaiduo": {
     "store": "せんげん台DUO",
@@ -6306,10 +6306,10 @@
     "type": "store"
   },
   "maruhan_141chan": {
-    "store": "マルハンメガシティ伊勢崎",
+    "store": "マルハンメガシティ伊勢崎 中の人・141ちゃん",
     "x_url": "https://x.com/maruhan_141chan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "ladynana__777": {
     "store": "DSGワールド",
@@ -6381,7 +6381,7 @@
     "store": "やすだ朝霞店",
     "x_url": "https://x.com/tencho_toratenn",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "29_sasakino": {
     "store": "ニラク福島笹木野店",
@@ -6414,10 +6414,10 @@
     "type": "store"
   },
   "kamokunsyuzai": {
-    "store": "戸越ミナト",
+    "store": "戸越ミナト 中の人・カモくん",
     "x_url": "https://x.com/kamokunsyuzai",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "pachi456456": {
     "store": "ジャムフレンドクラブ朝霞",
@@ -6786,10 +6786,10 @@
     "type": "store"
   },
   "slotomoro": {
-    "store": "マルハン鹿浜店",
+    "store": "マルハン鹿浜店 中の人・スロトモ",
     "x_url": "https://x.com/slotomoro",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "123settsuten": {
     "store": "１２３摂津店",
@@ -6879,7 +6879,7 @@
     "store": "キコーナ香里園店",
     "x_url": "https://x.com/hard_tenchou",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "sibafu_gokyo": {
     "store": "サンシャイン",
@@ -6924,10 +6924,10 @@
     "type": "store"
   },
   "ponzu_chan16384": {
-    "store": "A-FLAG桑名店",
+    "store": "A-FLAG桑名店 中の人・ポンズちゃん",
     "x_url": "https://x.com/ponzu_chan16384",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "wl___isahaya": {
     "store": "ワンダーランド諫早店",
@@ -7056,10 +7056,10 @@
     "type": "store"
   },
   "kitabatake0323": {
-    "store": "ニラク大町店",
+    "store": "ニラク大町店 中の人・北畠",
     "x_url": "https://x.com/kitabatake0323",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "akari_f_arrows": {
     "store": "ニューアサヒ甲府昭和店",
@@ -7284,10 +7284,10 @@
     "type": "store"
   },
   "123fuseten": {
-    "store": "１２３＋Ｎ布施店",
+    "store": "１２３＋Ｎ布施店 中の人・あずごん",
     "x_url": "https://x.com/123fuseten",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "shikairow_esaka": {
     "store": "四海樓　江坂店",
@@ -7530,10 +7530,10 @@
     "type": "store"
   },
   "markunsaikyoun1": {
-    "store": "マルハン萩原店　ライト館",
+    "store": "マルハン萩原店 中の人・まるくん",
     "x_url": "https://x.com/markunsaikyoun1",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "imaike_1": {
     "store": "キング観光サウザンド今池1号店",
@@ -7674,10 +7674,10 @@
     "type": "store"
   },
   "niconanachannel": {
-    "store": "エスパス新大久保駅前店",
+    "store": "エスパス新大久保駅前店 中の人・ニコナナ",
     "x_url": "https://x.com/niconanachannel",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "haru_slot777": {
     "store": "クレイジーチャンス米子",
@@ -7890,10 +7890,10 @@
     "type": "store"
   },
   "slot_shinchan": {
-    "store": "キコーナ京都向日店",
+    "store": "キコーナ京都向日店 中の人・しんちゃん",
     "x_url": "https://x.com/slot_shinchan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "wing_tamaki": {
     "store": "ウイング玉城店",
@@ -7914,10 +7914,10 @@
     "type": "store"
   },
   "maruhan_chiitan": {
-    "store": "マルハン昭島店",
+    "store": "マルハン昭島店 ちーたん店長",
     "x_url": "https://x.com/maruhan_chiitan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "morimoriafro": {
     "store": "パーラーハビン岩見沢店",
@@ -7941,7 +7941,7 @@
     "store": "マルハン裾野北店",
     "x_url": "https://x.com/ageagetencho",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "LAKATA_KAMISATO": {
     "store": "ラ・カータ狭山本店",
@@ -8001,7 +8001,7 @@
     "store": "Ｄ’station妙典駅前店",
     "x_url": "https://x.com/tea_time_tencyo",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "shoukunps": {
     "store": "将軍　下赤塚店",
@@ -8019,7 +8019,7 @@
     "store": "SUPER　SLOT　SUNFLOWER＋",
     "x_url": "https://x.com/alien_tentyo",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "GO_PSBRANDsano": {
     "store": "PSブランド佐野店",
@@ -8040,10 +8040,10 @@
     "type": "store"
   },
   "ayuayu__chan": {
-    "store": "大曲ひまわり",
+    "store": "大曲ひまわり 中の人・あゆあゆちゃん",
     "x_url": "https://x.com/ayuayu__chan",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "fukusima10z": {
     "store": "ダイナム本宮店",
@@ -8244,10 +8244,10 @@
     "type": "store"
   },
   "matsudo_rakuen": {
-    "store": "楽園松戸店",
+    "store": "楽園松戸店 中の人・イシヅー店長",
     "x_url": "https://x.com/matsudo_rakuen",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "sabbat_ET": {
     "store": "ベガスベガス大東店",
@@ -8307,7 +8307,7 @@
     "store": "マルハン吉田店",
     "x_url": "https://x.com/MH_tencho1010",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "sd_iiduka": {
     "store": "レインボー",
@@ -8364,10 +8364,10 @@
     "type": "store"
   },
   "kaikun_okinawa": {
-    "store": "エルグラン西町本店",
+    "store": "エルグラン西町本店 中の人・カイくん",
     "x_url": "https://x.com/kaikun_okinawa",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "CONCORDE_NUMAZU": {
     "store": "フィーバー",
@@ -8826,10 +8826,10 @@
     "type": "store"
   },
   "espacemizoshin": {
-    "store": "エスパス日拓溝の口駅前新館",
+    "store": "エスパス日拓溝の口新館 中の人・シンカ",
     "x_url": "https://x.com/espacemizoshin",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "garizo2": {
     "store": "ワンダーランド香椎本館",
@@ -8883,7 +8883,7 @@
     "store": "マルハン裾野北店",
     "x_url": "https://x.com/nihathitencho",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "dp_nishiurawa_s": {
     "store": "10時開店",
@@ -9084,10 +9084,10 @@
     "type": "store"
   },
   "123shinonometen": {
-    "store": "123+N東雲店",
+    "store": "123+N東雲店 ツッコミ店長",
     "x_url": "https://x.com/123shinonometen",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "123yokohamaten": {
     "store": "123横浜西口店",
@@ -9120,16 +9120,16 @@
     "type": "store"
   },
   "123takarazuka": {
-    "store": "123宝塚店",
+    "store": "123宝塚店 中の人・平成女子",
     "x_url": "https://x.com/123takarazuka",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "gaia_ichinomiya": {
-    "store": "メガガイア一宮",
+    "store": "メガガイア一宮1515 店長スギ",
     "x_url": "https://x.com/gaia_ichinomiya",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "Takehara_Gaia": {
     "store": "ガイア竹原店",
@@ -9330,10 +9330,10 @@
     "type": "store"
   },
   "espace_akasaka1": {
-    "store": "エスパス日拓赤坂見附駅前店",
+    "store": "エスパス日拓赤坂見附駅前店 中の人・なぎちゃん",
     "x_url": "https://x.com/espace_akasaka1",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "arrownambahips": {
     "store": "ARROWnamBaHIPS",
@@ -9432,10 +9432,10 @@
     "type": "store"
   },
   "channanafes": {
-    "store": "麗都スロットステージ土浦店",
+    "store": "コンコルド/麗都スロット 中の人・なな",
     "x_url": "https://x.com/channanafes",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "omoshirotaicho": {
     "store": "123門真店",
@@ -9489,13 +9489,13 @@
     "store": "やすだ稲毛駅前店",
     "x_url": "https://x.com/y_tencho_capt",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "uratencho777": {
     "store": "パラッツォ大阪三国店",
     "x_url": "https://x.com/uratencho777",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "k7k7xoxo": {
     "store": "プレイスポットドラゴン小田急相模原店",
@@ -9780,16 +9780,16 @@
     "type": "store"
   },
   "244zent": {
-    "store": "ZENT長久手店(別)",
+    "store": "ZENT長久手店 244店長",
     "x_url": "https://x.com/244zent",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "zent_toushitsu": {
-    "store": "ZENT豊田本店",
+    "store": "ZENT豊田本店 増殖店長",
     "x_url": "https://x.com/ZENT_toushitsu",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "d_jouetsu": {
     "store": "Super D'station上越店",
@@ -9876,10 +9876,10 @@
     "type": "store"
   },
   "niraku_ushiku": {
-    "store": "ニラクひたち野うしく店",
+    "store": "ニラクひたち野うしく店 情熱店長",
     "x_url": "https://x.com/niraku_ushiku",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "niraku_saiyou": {
     "store": "ニラク採用公式",
@@ -9888,10 +9888,10 @@
     "type": "store"
   },
   "niraku_niracco": {
-    "store": "ニラク公式キャラ",
+    "store": "ニラク 公式キャラ・ニラック（中の人）",
     "x_url": "https://x.com/niraku_niracco",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "niraku_kabeya": {
     "store": "ニラクいわき神谷店",
@@ -10002,16 +10002,16 @@
     "type": "store"
   },
   "mg_iwatsuki": {
-    "store": "メガガイア岩槻店",
+    "store": "メガガイア岩槻店 店長ハギハラ",
     "x_url": "https://x.com/MG_IWATSUKI",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "mg_tsuchiyama": {
-    "store": "メガガイア土山店",
+    "store": "メガガイア土山店 中の人（新店長）",
     "x_url": "https://x.com/MG_TSUCHIYAMA",
     "count": 0,
-    "type": "store"
+    "type": "manager"
   },
   "mg_hikari_2": {
     "store": "メガガイア光ツインパークII",
@@ -10180,5 +10180,695 @@
     "x_url": "https://x.com/stadium2001onga",
     "count": 0,
     "type": "store"
+  },
+  "mh_tencho0220": {
+    "store": "マルハン小田原店 店長いっぺー",
+    "x_url": "https://x.com/MH_Tencho0220",
+    "count": 0,
+    "type": "manager"
+  },
+  "kamiotai1516": {
+    "store": "マルハン上小田井駅前店 店長ナガイ",
+    "x_url": "https://x.com/KAMIOTAI1516",
+    "count": 0,
+    "type": "manager"
+  },
+  "okada777maruhan": {
+    "store": "マルハン筑西店 店長オカダ",
+    "x_url": "https://x.com/okada777maruhan",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruikenokokyu": {
+    "store": "マルハン池袋店 店長（フクロウの呼吸）",
+    "x_url": "https://x.com/maruikenokokyu",
+    "count": 0,
+    "type": "manager"
+  },
+  "kobarin1007": {
+    "store": "マルハン松本店 店長こばりん",
+    "x_url": "https://x.com/kobarin1007",
+    "count": 0,
+    "type": "manager"
+  },
+  "tenchou7758": {
+    "store": "マルハン茅ヶ崎店 店長ひちわ",
+    "x_url": "https://x.com/tenchou7758",
+    "count": 0,
+    "type": "manager"
+  },
+  "tenchouhiroyuki": {
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "x_url": "https://x.com/tenchouhiroyuki",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhanhigashi": {
+    "store": "マルハン静岡東部エリア担当 トッティ",
+    "x_url": "https://x.com/maruhanhigashi",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhanoumeten": {
+    "store": "マルハン青梅店 店長",
+    "x_url": "https://x.com/maruhanoumeten",
+    "count": 0,
+    "type": "manager"
+  },
+  "shiro4684": {
+    "store": "マルハン青梅新町店 シロ店長",
+    "x_url": "https://x.com/shiro4684",
+    "count": 0,
+    "type": "manager"
+  },
+  "kanachantencho": {
+    "store": "ダイナム下館店 店長かなちゃん",
+    "x_url": "https://x.com/kanachantencho",
+    "count": 0,
+    "type": "manager"
+  },
+  "dynam_3912": {
+    "store": "ダイナム山形イオンタウン酒田店 店長",
+    "x_url": "https://x.com/dynam_3912",
+    "count": 0,
+    "type": "manager"
+  },
+  "ito_p_": {
+    "store": "キコーナ 店長いとP",
+    "x_url": "https://x.com/ito_p_",
+    "count": 0,
+    "type": "manager"
+  },
+  "kiconafuchu_sm": {
+    "store": "キコーナ府中店 かかりぎみ店長",
+    "x_url": "https://x.com/kiconafuchu_sm",
+    "count": 0,
+    "type": "manager"
+  },
+  "sannomiyakicona": {
+    "store": "スロットキコーナ三宮店 中の人",
+    "x_url": "https://x.com/sannomiyakicona",
+    "count": 0,
+    "type": "manager"
+  },
+  "kicona_kyoto": {
+    "store": "キコーナ京都向日店 中の人",
+    "x_url": "https://x.com/kicona_kyoto",
+    "count": 0,
+    "type": "manager"
+  },
+  "yoshio_tencho77": {
+    "store": "D'ステーション神栖店 店長よしを",
+    "x_url": "https://x.com/yoshio_tencho77",
+    "count": 0,
+    "type": "manager"
+  },
+  "tenchomiya": {
+    "store": "スーパーD'ステーション39日向店 店長宮",
+    "x_url": "https://x.com/tenchomiya",
+    "count": 0,
+    "type": "manager"
+  },
+  "yancha_tencyo": {
+    "store": "スーパーD'ステーション錦糸町店 店長やんちゃマン",
+    "x_url": "https://x.com/yancha_tencyo",
+    "count": 0,
+    "type": "manager"
+  },
+  "dnekodansyaku": {
+    "store": "スーパーD'ステーション熊谷店 店長ねこだん",
+    "x_url": "https://x.com/Dnekodansyaku",
+    "count": 0,
+    "type": "manager"
+  },
+  "d_tencho": {
+    "store": "D'ステーション前橋若宮店 ノリノリ店長",
+    "x_url": "https://x.com/d_tencho",
+    "count": 0,
+    "type": "manager"
+  },
+  "mg_meidaimae": {
+    "store": "メガガイア明大前 店長サガラ",
+    "x_url": "https://x.com/mg_meidaimae",
+    "count": 0,
+    "type": "manager"
+  },
+  "mg_aomorichuo": {
+    "store": "メガガイア青森中央 店長石川",
+    "x_url": "https://x.com/MG_AOMORICHUO",
+    "count": 0,
+    "type": "manager"
+  },
+  "megabayashi3939": {
+    "store": "メガガイア調布 メガバヤシ店長",
+    "x_url": "https://x.com/megabayashi3939",
+    "count": 0,
+    "type": "manager"
+  },
+  "miku_tsuyoshi_": {
+    "store": "ミクちゃんガイア尼崎店 最強の挑戦者店長",
+    "x_url": "https://x.com/miku_tsuyoshi_",
+    "count": 0,
+    "type": "manager"
+  },
+  "zentnotentyou": {
+    "store": "ZENT坂祝店 店長ONO",
+    "x_url": "https://x.com/ZENTnotentyou",
+    "count": 0,
+    "type": "manager"
+  },
+  "zent_1010_": {
+    "store": "ZENT小坂店 MCU店長",
+    "x_url": "https://x.com/Zent_1010_",
+    "count": 0,
+    "type": "manager"
+  },
+  "zent_777": {
+    "store": "ZENT小坂店 NO.1店長",
+    "x_url": "https://x.com/ZENT_777",
+    "count": 0,
+    "type": "manager"
+  },
+  "zent_ky": {
+    "store": "ZENT豊橋藤沢店 だんご店長",
+    "x_url": "https://x.com/ZENT_ky",
+    "count": 0,
+    "type": "manager"
+  },
+  "zent_39": {
+    "store": "ZENT多治見店 DX店長",
+    "x_url": "https://x.com/ZENT_39",
+    "count": 0,
+    "type": "manager"
+  },
+  "zent_maed": {
+    "store": "ZENT住吉店 まえD店長",
+    "x_url": "https://x.com/ZENT_maeD",
+    "count": 0,
+    "type": "manager"
+  },
+  "gorizentgori": {
+    "store": "ZENT下市場店 ゴリ店長",
+    "x_url": "https://x.com/gorizentgori",
+    "count": 0,
+    "type": "manager"
+  },
+  "zent_simacchi7": {
+    "store": "ZENT木曽川店 しまっち店長",
+    "x_url": "https://x.com/ZENT_simacchi7",
+    "count": 0,
+    "type": "manager"
+  },
+  "nagakutetencho": {
+    "store": "ZENT長久手店 てんちょ",
+    "x_url": "https://x.com/nagakutetencho",
+    "count": 0,
+    "type": "manager"
+  },
+  "zentwaiten": {
+    "store": "ZENT名古屋北店 ワイ店長",
+    "x_url": "https://x.com/zentwaiten",
+    "count": 0,
+    "type": "manager"
+  },
+  "kingkankotentyo": {
+    "store": "キング観光 店長・サウザンド鈴鹿店",
+    "x_url": "https://x.com/kingkankotentyo",
+    "count": 0,
+    "type": "manager"
+  },
+  "nnsyphlghoj4rfu": {
+    "store": "キング観光 店長・西澤（BIG BOSS）",
+    "x_url": "https://x.com/nNSyPhlGhOJ4rfU",
+    "count": 0,
+    "type": "manager"
+  },
+  "kingsaito777": {
+    "store": "キング観光 店長・サウザンド長浜インター店",
+    "x_url": "https://x.com/kingsaito777",
+    "count": 0,
+    "type": "manager"
+  },
+  "king24gate": {
+    "store": "キング観光 エリア長・ふじもん",
+    "x_url": "https://x.com/king24gate",
+    "count": 0,
+    "type": "manager"
+  },
+  "sanocchi_king": {
+    "store": "キング観光 店長・サウザンド桑名本店",
+    "x_url": "https://x.com/sanocchi_king",
+    "count": 0,
+    "type": "manager"
+  },
+  "mask_rakuen": {
+    "store": "楽園 店長・アメ横店",
+    "x_url": "https://x.com/mask_rakuen",
+    "count": 0,
+    "type": "manager"
+  },
+  "rakuen_numadu": {
+    "store": "楽園 店長・沼津店",
+    "x_url": "https://x.com/rakuen_numadu",
+    "count": 0,
+    "type": "manager"
+  },
+  "go_to_rakuen": {
+    "store": "楽園 本社スタッフ（パラダイスのK）",
+    "x_url": "https://x.com/go_to_rakuen",
+    "count": 0,
+    "type": "manager"
+  },
+  "espaceakihabara": {
+    "store": "エスパス日拓 中の人・秋葉原駅前店",
+    "x_url": "https://x.com/espaceakihabara",
+    "count": 0,
+    "type": "manager"
+  },
+  "shibuyahonkan": {
+    "store": "エスパス日拓 中の人・渋谷本館",
+    "x_url": "https://x.com/shibuyahonkan",
+    "count": 0,
+    "type": "manager"
+  },
+  "owner_kawaguchi": {
+    "store": "ガーデン 店長・川口北原台店",
+    "x_url": "https://x.com/owner_kawaguchi",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_yashio": {
+    "store": "ガーデン八潮店長 トラてん",
+    "x_url": "https://x.com/y_tencho_yashio",
+    "count": 0,
+    "type": "manager"
+  },
+  "123sasazukaten": {
+    "store": "123 店長・笹塚店",
+    "x_url": "https://x.com/123sasazukaten",
+    "count": 0,
+    "type": "manager"
+  },
+  "123higashiosaka": {
+    "store": "123 店長・東大阪店（み組のミタニ）",
+    "x_url": "https://x.com/123higashiosaka",
+    "count": 0,
+    "type": "manager"
+  },
+  "123habikinoten": {
+    "store": "123 チーフ・羽曳野店",
+    "x_url": "https://x.com/123habikinoten",
+    "count": 0,
+    "type": "manager"
+  },
+  "entakun_123": {
+    "store": "123 スタッフ・エンタくん",
+    "x_url": "https://x.com/entakun_123",
+    "count": 0,
+    "type": "manager"
+  },
+  "megaface_daicha": {
+    "store": "メガフェイス 店長・1030伊都（ダイちゃん店長）",
+    "x_url": "https://x.com/megaface_daicha",
+    "count": 0,
+    "type": "manager"
+  },
+  "megaface930_y": {
+    "store": "メガフェイス 店長・930朝倉（店長Y）",
+    "x_url": "https://x.com/megaface930_y",
+    "count": 0,
+    "type": "manager"
+  },
+  "megaface_k": {
+    "store": "メガフェイス 店長・960飯塚（ロックロック店長）",
+    "x_url": "https://x.com/megaface_k",
+    "count": 0,
+    "type": "manager"
+  },
+  "abc_takuteke": {
+    "store": "ABC浜松森田町店 タクテケ店長",
+    "x_url": "https://x.com/abc_takuteke",
+    "count": 0,
+    "type": "manager"
+  },
+  "abc_mangan": {
+    "store": "ABC松本白板店 マンガン店長",
+    "x_url": "https://x.com/abc_mangan",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_saiko": {
+    "store": "やすだ幕張店 サイコ店長",
+    "x_url": "https://x.com/y_tencho_saiko",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_kashi": {
+    "store": "やすだ柏店 BIGBOSS",
+    "x_url": "https://x.com/y_tencho_kashi",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_ike79": {
+    "store": "やすだ池袋店 akc店長",
+    "x_url": "https://x.com/y_tencho_ike79",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_10": {
+    "store": "やすだ前橋店 げんしろう店長",
+    "x_url": "https://x.com/y_tencho_10",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_asaka": {
+    "store": "やすだ朝霞店 サイコ店長",
+    "x_url": "https://x.com/y_tencho_asaka",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_nishi6": {
+    "store": "やすだ稲毛駅前店 クロ軍曹店長",
+    "x_url": "https://x.com/y_tencho_nishi6",
+    "count": 0,
+    "type": "manager"
+  },
+  "y_tencho_inage": {
+    "store": "やすだ稲毛駅前店 うめかわ店長",
+    "x_url": "https://x.com/y_tencho_inage",
+    "count": 0,
+    "type": "manager"
+  },
+  "yasunaka_tencho": {
+    "store": "やすだ仲宿店 グルグルメガネ店長",
+    "x_url": "https://x.com/yasunaka_tencho",
+    "count": 0,
+    "type": "manager"
+  },
+  "tencho_shimizu": {
+    "store": "やすだ清水町店 かぶきもん店長",
+    "x_url": "https://x.com/tencho_shimizu",
+    "count": 0,
+    "type": "manager"
+  },
+  "yt03132575": {
+    "store": "やすだ大和店 うぇぽん店長",
+    "x_url": "https://x.com/yt03132575",
+    "count": 0,
+    "type": "manager"
+  },
+  "amuse_s20180808": {
+    "store": "アミューズ三ノ宮店",
+    "x_url": "https://x.com/amuse_s20180808",
+    "count": 0,
+    "type": "store"
+  },
+  "g_kitaasaka": {
+    "store": "ガーデン北朝霞店",
+    "x_url": "https://x.com/g_kitaasaka",
+    "count": 0,
+    "type": "store"
+  },
+  "scp_izumi": {
+    "store": "スーパーコスモプレミアム和泉店",
+    "x_url": "https://x.com/scp_izumi",
+    "count": 0,
+    "type": "store"
+  },
+  "scdaitou": {
+    "store": "スーパーコスモプレミアム大東店",
+    "x_url": "https://x.com/SCPdaitou",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_moritacho": {
+    "store": "ABC浜松森田町店",
+    "x_url": "https://x.com/ABC_moritacho",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_aoinishi": {
+    "store": "ABC浜松葵西店",
+    "x_url": "https://x.com/abc_aoinishi",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_koikecho": {
+    "store": "ABC浜松小池町店",
+    "x_url": "https://x.com/abc_koikecho",
+    "count": 0,
+    "type": "store"
+  },
+  "abc_showa": {
+    "store": "ABC甲府昭和通り店",
+    "x_url": "https://x.com/ABC_SHOWA",
+    "count": 0,
+    "type": "store"
+  },
+  "wl__isahaya": {
+    "store": "ワンダーランド諫早店",
+    "x_url": "https://x.com/wl__isahaya",
+    "count": 0,
+    "type": "store"
+  },
+  "wl_hyakunen": {
+    "store": "ワンダーランド百年橋店",
+    "x_url": "https://x.com/wl_hyakunen",
+    "count": 0,
+    "type": "store"
+  },
+  "29_hitachitaga": {
+    "store": "ニラク常陸多賀店",
+    "x_url": "https://x.com/29_hitachitaga",
+    "count": 0,
+    "type": "store"
+  },
+  "29_inadaira": {
+    "store": "ニラク武蔵村山伊奈平店",
+    "x_url": "https://x.com/29_inadaira",
+    "count": 0,
+    "type": "store"
+  },
+  "29_kamikitadai": {
+    "store": "ニラク上北台店",
+    "x_url": "https://x.com/29_kamikitadai",
+    "count": 0,
+    "type": "store"
+  },
+  "tencho_kudo": {
+    "store": "マルハン仙台駅東店 店長",
+    "x_url": "https://x.com/tencho_kudo",
+    "count": 0,
+    "type": "manager"
+  },
+  "tenchou_bb": {
+    "store": "スーパーD'ステーション39都城駅前店 BB店長",
+    "x_url": "https://x.com/tenchou_bb",
+    "count": 0,
+    "type": "manager"
+  },
+  "chibaminato1227": {
+    "store": "マルハン千葉みなと店 510店長",
+    "x_url": "https://x.com/chibaminato1227",
+    "count": 0,
+    "type": "manager"
+  },
+  "ngc2070r136a1": {
+    "store": "マルハンMEGACITY2000蒲田7 ウスイ店長",
+    "x_url": "https://x.com/ngc2070r136a1",
+    "count": 0,
+    "type": "manager"
+  },
+  "goluten": {
+    "store": "マルハン吉原店 ごるてん店長",
+    "x_url": "https://x.com/goluten",
+    "count": 0,
+    "type": "manager"
+  },
+  "yoshiwara_mgr": {
+    "store": "マルハン吉原店 役職担当",
+    "x_url": "https://x.com/yoshiwara_mgr",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhangeneral": {
+    "store": "マルハン神奈川エリア長・ハイボール将軍",
+    "x_url": "https://x.com/maruhangeneral",
+    "count": 0,
+    "type": "manager"
+  },
+  "sintaro_maruhan": {
+    "store": "マルハン山梨長野エリア担当 シンタロウ",
+    "x_url": "https://x.com/sintaro_maruhan",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhan_tenchou": {
+    "store": "マルハン中原店 いいないいな店長",
+    "x_url": "https://x.com/maruhan_tenchou",
+    "count": 0,
+    "type": "manager"
+  },
+  "chariten0812": {
+    "store": "マルハン村松店 チャリンコ店長",
+    "x_url": "https://x.com/chariten0812",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhanmj": {
+    "store": "マルハン浜松中央店 MJ店長",
+    "x_url": "https://x.com/maruhanmj",
+    "count": 0,
+    "type": "manager"
+  },
+  "endo1maruhan": {
+    "store": "マルハンメガシティ長野 エンドウ店長",
+    "x_url": "https://x.com/endo1maruhan",
+    "count": 0,
+    "type": "manager"
+  },
+  "tsuzukitentyo": {
+    "store": "マルハン都筑店 店長",
+    "x_url": "https://x.com/tsuzukitentyo",
+    "count": 0,
+    "type": "manager"
+  },
+  "2wmyxddmdlxx2ur": {
+    "store": "マルハンメガシティ静岡 EXIT店長",
+    "x_url": "https://x.com/2WMYXDDMDlXX2Ur",
+    "count": 0,
+    "type": "manager"
+  },
+  "725_marutaka": {
+    "store": "マルハン福島店 マルタカ店長",
+    "x_url": "https://x.com/725_marutaka",
+    "count": 0,
+    "type": "manager"
+  },
+  "marushibatentyo": {
+    "store": "マルハン新発田店 なかまる店長",
+    "x_url": "https://x.com/marushibatentyo",
+    "count": 0,
+    "type": "manager"
+  },
+  "gifuroku1229": {
+    "store": "マルハン岐阜六条店 チーズケーキ店長",
+    "x_url": "https://x.com/gifuroku1229",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhanaigi": {
+    "store": "マルハン中部エリア担当 がんちゃん",
+    "x_url": "https://x.com/maruhanaigi",
+    "count": 0,
+    "type": "manager"
+  },
+  "tenchou_ohkubo": {
+    "store": "マルハン八王子四谷店 オオクボ店長",
+    "x_url": "https://x.com/tenchou_ohkubo",
+    "count": 0,
+    "type": "manager"
+  },
+  "fujiyama122": {
+    "store": "マルハン川口店 フジヤマ店長",
+    "x_url": "https://x.com/fujiyama122",
+    "count": 0,
+    "type": "manager"
+  },
+  "yamato_tenchou": {
+    "store": "マルハンメガシティ東大和 7th店長",
+    "x_url": "https://x.com/yamato_tenchou",
+    "count": 0,
+    "type": "manager"
+  },
+  "yokoyan_777": {
+    "store": "マルハン日野店 よこやん店長",
+    "x_url": "https://x.com/yokoyan_777",
+    "count": 0,
+    "type": "manager"
+  },
+  "shuji_pten": {
+    "store": "マルハン大山店 シュウジ店長",
+    "x_url": "https://x.com/shuji_pten",
+    "count": 0,
+    "type": "manager"
+  },
+  "mkawaguchi_ten": {
+    "store": "マルハン川口店 シュウジ店長",
+    "x_url": "https://x.com/mkawaguchi_ten",
+    "count": 0,
+    "type": "manager"
+  },
+  "runnerbeyan": {
+    "store": "マルハン深谷店 ベーやん店長",
+    "x_url": "https://x.com/runnerbeyan",
+    "count": 0,
+    "type": "manager"
+  },
+  "ibatochimaruhan": {
+    "store": "マルハン茨城栃木エリア長 ひでのさと",
+    "x_url": "https://x.com/ibatochimaruhan",
+    "count": 0,
+    "type": "manager"
+  },
+  "smaru_ftentyou": {
+    "store": "マルハン入間店 チャリ店ヨシダ",
+    "x_url": "https://x.com/Smaru_ftentyou",
+    "count": 0,
+    "type": "manager"
+  },
+  "mihaeruz2487": {
+    "store": "マルハン上里店→入間店 ミハエル店長",
+    "x_url": "https://x.com/MihaeruZ2487",
+    "count": 0,
+    "type": "manager"
+  },
+  "bugten_maruhan": {
+    "store": "マルハン水戸けやき台店 ナスノ店長",
+    "x_url": "https://x.com/bugten_maruhan",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhansaitama": {
+    "store": "マルハン埼玉エリア担当 まちゃみ",
+    "x_url": "https://x.com/maruhansaitama",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhan_area": {
+    "store": "マルハン東京・千葉エリア担当 とみおか",
+    "x_url": "https://x.com/maruhan_area",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhan_yoshi": {
+    "store": "マルハンメガシティ八千代緑が丘 ヨッシー店長",
+    "x_url": "https://x.com/maruhan_yoshi",
+    "count": 0,
+    "type": "manager"
+  },
+  "koyatatsu_777": {
+    "store": "マルハン千葉北店 コヤタツ店長",
+    "x_url": "https://x.com/koyatatsu_777",
+    "count": 0,
+    "type": "manager"
+  },
+  "bosomobara": {
+    "store": "マルハン茂原店 ぼーそー店長",
+    "x_url": "https://x.com/BOSOmobara",
+    "count": 0,
+    "type": "manager"
+  },
+  "mh_miyatencho": {
+    "store": "マルハン東新田店 みやけん店長",
+    "x_url": "https://x.com/MH_miyatencho",
+    "count": 0,
+    "type": "manager"
+  },
+  "mkamisato_ten": {
+    "store": "マルハン上里店 なおくん（Coret出向）",
+    "x_url": "https://x.com/mkamisato_ten",
+    "count": 0,
+    "type": "manager"
   }
 }
