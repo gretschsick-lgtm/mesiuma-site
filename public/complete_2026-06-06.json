@@ -91,6 +91,28 @@
     "store_id": "3b33dd116a"
   },
   {
+    "id": "48503f6bdcfd",
+    "date": "2026-06-06",
+    "time": "22:28",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "423",
+    "text": "【速報】  コンプリート達成 【革命機ヴァルヴレイヴ】 423番台 コンプリート達成  おめでとうございます  本日も終盤戦 続報にもご期待ください",
+    "x_url": "https://x.com/g_nishiurawa/status/2063251570977071435",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T12:57:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIX6qXbcAAViN-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIX6qXbcAAViN-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
+  },
+  {
     "id": "e04fe452087c",
     "date": "2026-06-06",
     "time": "22:16",
@@ -111,6 +133,28 @@
     "image_url": "https://pbs.twimg.com/media/HKIhr6MXoAAioTl?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "148b379bdd"
+  },
+  {
+    "id": "78064963af0b",
+    "date": "2026-06-06",
+    "time": "22:15",
+    "store": "マルハンメガシティ伊勢崎",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "555",
+    "text": "またまたコンプリート達成報告 『革命機ヴァルヴレイヴ2』   555番台のお客様  コンプリート達成  おめでとうございます  #コンプリート #群馬マルハン",
+    "x_url": "https://x.com/isesaki_maruhan/status/2063248413727277415",
+    "store_handle": "isesaki_maruhan",
+    "store_x_url": "https://x.com/isesaki_maruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T12:57:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIhBOGasAAy3VP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIhBOGasAAy3VP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "fe04efdcd0"
   },
   {
     "id": "87f3b6b4f53f",
@@ -157,6 +201,29 @@
     "image_url": "https://pbs.twimg.com/media/HJ8aT5_aQAAp5b5?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
     "store_id": "5b20cfecf8"
+  },
+  {
+    "id": "b0a47f589984",
+    "date": "2026-06-06",
+    "time": "21:43",
+    "store": "FACE1300小倉南店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1822",
+    "text": "コンプリート速報  1822番台　L革命機ヴァルヴレイヴ2  コンプリート達成 おめでとう御座います  本日3台目のコンプリート 盛り上がってきましたぁーーー #コンプリート #ヴァルヴレイヴ2 #MEGAFACE1300小倉南店",
+    "x_url": "https://x.com/face_1300/status/2063240345803202918",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T12:57:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIaJ3paoAATq91?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKHFpG3a4AAk6tw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIaJ3paoAATq91?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "18425371bb"
   },
   {
     "id": "3ad63f824c77",
@@ -725,7 +792,8 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-06T20:54:52Z",
     "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "703d5e39e5"
+    "store_id": "703d5e39e5",
+    "image_url": "https://pbs.twimg.com/media/HKHPLz3bkAAIzPb?format=jpg&name=large"
   },
   {
     "id": "66d56da93daf",

@@ -22,6 +22,52 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "c6cb45ee09fe",
+    "date": "2026-06-07",
+    "time": "19:31",
+    "store": "クラブハウス庄内支店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "441",
+    "text": "クラブハウス庄内支店　速報  441番台：e女神のカフェテラス 233番台：Pまどかマギカ3  本日2台のコンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/vd28829/status/2063569634545349009",
+    "store_handle": "vd28829",
+    "store_x_url": "https://x.com/vd28829",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T13:09:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNFl8zbIAA7BDW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKNFnGYboAAYAoa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKNFnwxa4AAkg6C?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNFl8zbIAA7BDW?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "e4c0e587eb"
+  },
+  {
+    "id": "7839b514132c",
+    "date": "2026-06-07",
+    "time": "18:32",
+    "store": "ビッグパンドラ井土ヶ谷店新館",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "200",
+    "text": " 本日の遊技結果より  L攻殻機動隊 200番台にて コンプリート機能が作動しました 最大持玉 19,004枚 ART30回・総回転4,940回  この後のお時間も、 ビッグパンドラ井土ヶ谷新館で お楽しみください  #攻殻機動隊 #スマスロ #パチスロ #井土ヶ谷 #パンドラ井土ヶ谷新館",
+    "x_url": "https://x.com/PANDORA_idog/status/2063554646501892235",
+    "store_handle": "pandora_idog",
+    "store_x_url": "https://x.com/pandora_idog",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T12:58:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKM3L7ja8AA7s-U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKM3L7ja8AA7s-U?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "9c67ec7560"
+  },
+  {
     "id": "d24bec4bf80c",
     "date": "2026-06-07",
     "time": "15:49",
