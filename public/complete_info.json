@@ -44,28 +44,6 @@
     "store_id": "5878704f24"
   },
   {
-    "id": "8429847dc578",
-    "date": "2026-06-07",
-    "time": "21:48",
-    "store": "マルハン所沢店",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "216",
-    "text": "コンプリート達成  216番台: e東京喰種  おめでとうございます！",
-    "x_url": "https://x.com/Smaru_tokoro/status/2063603975723811133",
-    "store_handle": "smaru_tokoro",
-    "store_x_url": "https://x.com/smaru_tokoro",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-07T15:56:48Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKNkMSYbMAAVvfn?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKNkMSYbMAAVvfn?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
-    "store_id": "ffbb0bd0fb"
-  },
-  {
     "id": "437ea0ef0208",
     "date": "2026-06-07",
     "time": "21:26",
@@ -110,26 +88,27 @@
     "store_id": "e5a3df2192"
   },
   {
-    "id": "b0b8303d1861",
+    "id": "b21be1156a40",
     "date": "2026-06-07",
-    "time": "20:52",
-    "store": "ピーアーク竹の塚",
-    "machine": "L革命機ヴァルヴレイヴ2",
+    "time": "20:45",
+    "store": "メガフェイス1070菊陽",
+    "machine": "チバリヨ2",
     "machine_type": "slot",
-    "slot_number": "3301",
-    "text": "快　挙　達　成  3F 3301番台 L革命機ヴァルヴレイヴ2　から  ||◤￣￣￣￣￣￣￣￣￣￣￣￣￣◥|| 　連日のコンプリート達成 ||◣＿＿＿＿＿＿＿＿＿＿＿＿＿◢||  おめでとうございます  本日のピーアーク竹ノ塚、  まだまだ見逃せない展開がこの後も続く",
-    "x_url": "https://x.com/moguP_take/status/2063589792152240142",
-    "store_handle": "mogup_take",
-    "store_x_url": "https://x.com/mogup_take",
+    "slot_number": "941",
+    "text": " 941番台　Lチバリヨ2 コンプリート達成 #6月7日 #メガフェイス菊陽 ",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2063588047523053864",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-07T15:56:25Z",
+    "collected_at": "2026-06-07T16:14:18Z",
     "images": [
-      "https://pbs.twimg.com/media/HKNXjQPaYAAtCEQ?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HKNWYnEacAA3xc2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKMl_zkb0AAPDFc?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HKNXjQPaYAAtCEQ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "70b0b77ae9"
+    "image_url": "https://pbs.twimg.com/media/HKNWYnEacAA3xc2?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "1ef9f4fc5e5f",
@@ -167,7 +146,7 @@
     "store_x_url": "https://x.com/face_850",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-07T15:55:34Z",
+    "collected_at": "2026-06-07T16:14:48Z",
     "images": [
       "https://pbs.twimg.com/media/HKNSqXdbgAA8Fgi?format=jpg&name=large"
     ],
@@ -198,6 +177,28 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "b8d77f6b7fec",
+    "date": "2026-06-07",
+    "time": "20:03",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "469",
+    "text": "469番台「e牙狼12」！！ コンプリート おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2063577474320257364",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T16:15:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNLisGboAARrFq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNLisGboAARrFq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "c6cb45ee09fe",
     "date": "2026-06-07",
     "time": "19:31",
@@ -220,28 +221,6 @@
     "image_url": "https://pbs.twimg.com/media/HKNFl8zbIAA7BDW?format=jpg&name=large",
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
     "store_id": "e4c0e587eb"
-  },
-  {
-    "id": "00d2cd3f2deb",
-    "date": "2026-06-07",
-    "time": "19:08",
-    "store": "ヴィーナスギャラリー清川店",
-    "machine": "Lカケグルイ",
-    "machine_type": "slot",
-    "slot_number": "490",
-    "text": "本日6/7 490番台 『カケグルイ』 コンプリート達成となりました  コンプリート達成されたお客様 おめでとうございます  流石7500搭載機 波に乗ってしまうと段違いの破壊力 正に作品名に違わない台です  #ヴィーナスギャラリー  #ヴィーナスギャラリー清川店  #カケグルイ",
-    "x_url": "https://x.com/kiyokawa_VG/status/2063563618520903774",
-    "store_handle": "kiyokawa_vg",
-    "store_x_url": "https://x.com/kiyokawa_vg",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-07T15:59:38Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKNALCfakAAYIS4?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKNALCfakAAYIS4?format=jpg&name=large",
-    "machine_id": "a0c961e5-c35f-4fd2-9d1d-bb55a286bba3",
-    "store_id": "7bf0daad52"
   },
   {
     "id": "7839b514132c",
@@ -532,6 +511,28 @@
     "image_url": "https://pbs.twimg.com/media/HKIek3uakAASGxS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000030",
     "store_id": "3917e74a54"
+  },
+  {
+    "id": "9580e2602a80",
+    "date": "2026-06-06",
+    "time": "22:01",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "482",
+    "text": "【SPACE666】 コンプリート速報 コンプリート速報  革命機ヴァルヴレイヴ2　　482番台  コンプリート速報 コンプリート速報  本日2台目のコンプリート達成！！！！ おめでとうございます！！！",
+    "x_url": "https://x.com/space666tobata/status/2063244917779087468",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T16:15:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKId5w8a0AAAvVa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKId5w8a0AAAvVa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
   },
   {
     "id": "87f3b6b4f53f",
@@ -999,6 +1000,28 @@
     "image_url": "https://pbs.twimg.com/media/HKH0ZCAacAAHmtD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "e744c71a3d"
+  },
+  {
+    "id": "50c0666221b8",
+    "date": "2026-06-06",
+    "time": "18:53",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "165",
+    "text": "【SPACE666】 コンプリート速報 コンプリート速報 コンプリート速報  R8.6.6本日初めてのコンプリートが発生しました！！  スマスロ攻殻機動隊　　165番台  おめでとうございます！！！",
+    "x_url": "https://x.com/space666tobata/status/2063197646240805265",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T16:15:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKHyCvCbQAAFKex?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKHyCvCbQAAFKex?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "f8132a1307"
   },
   {
     "id": "f596af1d063e",
