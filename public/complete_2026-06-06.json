@@ -159,6 +159,50 @@
     "store_id": "a3859aaee1"
   },
   {
+    "id": "891d41664a62",
+    "date": "2026-06-06",
+    "time": "21:06",
+    "store": "フジコー三島店",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "1217",
+    "text": "なんとなんと  本日‥‥月日  1217番台 #沖ドキDUOアンコール  コンプリート達成  おめでとうございます  本日月日という日に コンプリート達成するという事は…  なんとも羨ましい事ですね  明日は #Fの意志  ご来店お待ちしております  #6月6日 #コンプリート",
+    "x_url": "https://x.com/fujiko_mishima/status/2063231053549199647",
+    "store_handle": "fujiko_mishima",
+    "store_x_url": "https://x.com/fujiko_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T00:10:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIRtIKaoAA3k7X?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIRtIKaoAA3k7X?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "f3183f2029"
+  },
+  {
+    "id": "f5fe24b45b00",
+    "date": "2026-06-06",
+    "time": "20:43",
+    "store": "M&K岡崎店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1216",
+    "text": "1216番台 コンプリートおめでとうございます #Ｌヴァルヴレイヴ２ #コンプリート #mk岡崎 #本日6月6日 #本日2台目",
+    "x_url": "https://x.com/MKokazaki/status/2063225332841513186",
+    "store_handle": "mkokazaki",
+    "store_x_url": "https://x.com/mkokazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T00:07:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIMgSPaMAAfjB5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIMgSPaMAAfjB5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "341c9ef1a4"
+  },
+  {
     "id": "2923c193add7",
     "date": "2026-06-06",
     "time": "20:37",
@@ -269,6 +313,28 @@
     "store_id": "1b892a97fe"
   },
   {
+    "id": "88f3a7c86c69",
+    "date": "2026-06-06",
+    "time": "19:40",
+    "store": "サガちゃんPARK",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "2371",
+    "text": "ヤッホー  2371番台 バイオハザード5  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2063209307924316366",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T00:11:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKH94O6bcAEc84X?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKH94O6bcAEc84X?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "0f210b953ab5",
     "date": "2026-06-06",
     "time": "19:38",
@@ -289,6 +355,28 @@
     "image_url": "https://pbs.twimg.com/media/HKH9WGxaAAAFCm6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "70b0b77ae9"
+  },
+  {
+    "id": "9aaa48d4e737",
+    "date": "2026-06-06",
+    "time": "19:21",
+    "store": "イチロク八代店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "445",
+    "text": "こんばんわー 速報です・・・なんと・・・ パチンココーナーからコンプリート出ました 445番台　eフィーバーからくりサーカス2 魔王ver. コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/16yatsushiro/status/2063204591622349306",
+    "store_handle": "16yatsushiro",
+    "store_x_url": "https://x.com/16yatsushiro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T00:08:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKH5g0NaUAABd4A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKH5g0NaUAABd4A?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "f05651bd65"
   },
   {
     "id": "e00cc268be7f",
