@@ -45,6 +45,28 @@
     "store_id": "fb78bbe137"
   },
   {
+    "id": "3fdd6679dcf4",
+    "date": "2026-06-05",
+    "time": "21:49",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "533",
+    "text": "千葉最大1409台の出玉情報  2日連続 黄金騎士からコンプリート発動 『533番台 e牙狼』 打っていたお客様おめでとうございます  #千葉最大 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2062879424987668489",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T15:17:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKDR56VakAAcw2Q?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKDR56VakAAcw2Q?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e744c71a3d"
+  },
+  {
     "id": "1f51f8df15a0",
     "date": "2026-06-05",
     "time": "21:40",

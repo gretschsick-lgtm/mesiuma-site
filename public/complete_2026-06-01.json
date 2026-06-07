@@ -65,6 +65,29 @@
     "store_id": "1f0627c183"
   },
   {
+    "id": "21d8f41228e2",
+    "date": "2026-06-01",
+    "time": "22:01",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "861",
+    "text": "こんばんは マルハンメガシティ三島駿東です  続・続コンプリート情報 Ｌ炎炎ノ消防隊２ 861番台  コンプリートされたお客様 おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2061432910738239856",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-07T15:09:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJut1__bEAAj29-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJtwmpfaIAA3V02?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJut1__bEAAj29-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "38d99c4d98c9",
     "date": "2026-06-01",
     "time": "21:55",
