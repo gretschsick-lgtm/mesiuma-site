@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createAdminClient } from "@/lib/supabase";
 import { normalizeMachineName, addMachineMaster, addAlias } from "@/lib/machines";
-import type { MachineMaster } from "@/lib/machines";
 
 // GET /api/admin/machines — 機種マスタ一覧
 export async function GET(req: NextRequest) {
