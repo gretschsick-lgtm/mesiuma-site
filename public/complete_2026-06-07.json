@@ -89,6 +89,28 @@
     "store_id": "0d4ae9709d"
   },
   {
+    "id": "54e36cc47e85",
+    "date": "2026-06-07",
+    "time": "21:26",
+    "store": "サガちゃんPARK",
+    "machine": "スマスロバイオハザードRE:3",
+    "machine_type": "slot",
+    "slot_number": "2154",
+    "text": "ヤッホー  2154番台 LバイオハザードRE:3  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2063598596914831770",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T14:33:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNf87EbQAAUuKP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNf87EbQAAUuKP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "5435a2d4ba52",
     "date": "2026-06-07",
     "time": "21:01",
@@ -242,6 +264,29 @@
     "image_url": "https://pbs.twimg.com/media/HKNLisGboAARrFq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "de68290eab"
+  },
+  {
+    "id": "91f62f12b891",
+    "date": "2026-06-07",
+    "time": "19:39",
+    "store": "ＢＩＧディッパー京都駅前店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "203",
+    "text": "本日⑦日 イメージガール 櫻木ゆきさん来店日  @sakuragiyuki0    北斗の拳転生の章２ ２０３番台コンプリート達成！！ おめでとうございます この後も女神パワーで上げてくぜ  #京都駅前ディッパーコンプリート",
+    "x_url": "https://x.com/bigdipper_kyoto/status/2063571584154268086",
+    "store_handle": "bigdipper_kyoto",
+    "store_x_url": "https://x.com/bigdipper_kyoto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T14:34:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKM9JDMaEAAPlIY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKM9hEib0AAwjKB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKM9JDMaEAAPlIY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "35782adb87"
   },
   {
     "id": "ee72cdce6106",
