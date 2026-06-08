@@ -200,6 +200,28 @@
     "store_id": "ec2322cb03"
   },
   {
+    "id": "75eac96ac23a",
+    "date": "2026-06-05",
+    "time": "18:28",
+    "store": "キクヤ春日井店",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "513",
+    "text": "513番台　バイオハザード コンプリートおめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2062829003543830936",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T16:45:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKCj7N4a8AAZJW4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKCj7N4a8AAZJW4?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "ea9f0e122853",
     "date": "2026-06-05",
     "time": "17:52",
