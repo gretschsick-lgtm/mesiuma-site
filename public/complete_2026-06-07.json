@@ -422,6 +422,28 @@
     "store_id": "bcc41247bb"
   },
   {
+    "id": "9cf73c8aa53a",
+    "date": "2026-06-07",
+    "time": "09:17",
+    "store": "ARROW浪速店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "991",
+    "text": "昨日…    【L東京喰種】  991番台  コンプリート達成  おめでとうございます   #東京喰種 #スロット #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2063777479878434824",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T10:24:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKQCfIPasAA9omL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKQCfIPasAA9omL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "286006c8bad0",
     "date": "2026-06-07",
     "time": "09:00",

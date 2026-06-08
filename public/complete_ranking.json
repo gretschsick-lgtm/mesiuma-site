@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-08T18:03:37+09:00",
+  "generated_at": "2026-06-08T19:39:17+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 156,
+      "total_count": 157,
       "stores": [
         {
           "rank": 1,
@@ -56,15 +56,15 @@
         },
         {
           "rank": 9,
-          "name": "新ガーデン西浦和",
+          "name": "ARROW浪速店",
           "count": 3,
-          "x_url": "https://x.com/g_nishiurawa"
+          "x_url": "https://x.com/arrow_naniwa"
         },
         {
           "rank": 10,
-          "name": "マルハンメガシティ伊勢崎",
+          "name": "新ガーデン西浦和",
           "count": 3,
-          "x_url": "https://x.com/isesaki_maruhan"
+          "x_url": "https://x.com/g_nishiurawa"
         }
       ],
       "slot_machines": [
@@ -105,17 +105,17 @@
         },
         {
           "rank": 8,
+          "name": "L東京喰種",
+          "count": 4
+        },
+        {
+          "rank": 9,
           "name": "スマスロゴッドイーター",
           "count": 3
         },
         {
-          "rank": 9,
-          "name": "Lかぐや様は告らせたい",
-          "count": 3
-        },
-        {
           "rank": 10,
-          "name": "L東京喰種",
+          "name": "Lかぐや様は告らせたい",
           "count": 3
         }
       ],
@@ -366,27 +366,27 @@
       },
       {
         "rank": 4,
+        "name": "ARROW浪速店",
+        "count": 9,
+        "x_url": "https://x.com/arrow_naniwa"
+      },
+      {
+        "rank": 5,
         "name": "マルハン仙台苦竹店",
         "count": 9,
         "x_url": "https://x.com/niga_maru"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "キクヤ春日井店",
         "count": 9,
         "x_url": "https://x.com/315kasugai"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "楽園大宮店",
         "count": 8,
         "x_url": "https://x.com/rakuen_ohmiya"
-      },
-      {
-        "rank": 7,
-        "name": "ARROW浪速店",
-        "count": 8,
-        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 8,
@@ -426,7 +426,7 @@
       {
         "rank": 4,
         "name": "L東京喰種",
-        "count": 27
+        "count": 28
       },
       {
         "rank": 5,
@@ -511,16 +511,16 @@
         "count": 5
       }
     ],
-    "total_count": 695
+    "total_count": 696
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 13,
     "楽園池袋店ゲートウェイ": 11,
     "マルハンメガシティ三島駿東": 11,
+    "ARROW浪速店": 9,
     "マルハン仙台苦竹店": 9,
     "キクヤ春日井店": 9,
     "楽園大宮店": 8,
-    "ARROW浪速店": 8,
     "SuperD'station東金店": 8,
     "フェイス850佐賀": 7,
     "グランキコーナひたちなか店": 7,
