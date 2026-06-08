@@ -42,10 +42,13 @@ concurrency:
   group: update-complete
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 25  # 各ジョブ最大 50クエリ×9.5s ≈ 8分 + バッファ
+    timeout-minutes: 75  # keyword_b/manager は最大249クエリ×15s ≈ 62分 + バッファ
     strategy:
       matrix:
         # 7並列: handle_a〜d（rank1-200直接クエリ）+ keyword_a/b（全国キーワード）+ manager（店長専用）
@@ -69,7 +72,7 @@ jobs:
           playwright install chromium --with-deps
 
       - name: Fetch complete info (${{ matrix.mode }})
-        timeout-minutes: 20
+        timeout-minutes: 70
         env:
           X_AUTH_TOKEN: ${{ secrets.X_AUTH_TOKEN }}
           X_CT0: ${{ secrets.X_CT0 }}

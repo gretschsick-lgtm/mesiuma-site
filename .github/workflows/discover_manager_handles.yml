@@ -18,6 +18,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: discover-manager-handles
   cancel-in-progress: true
