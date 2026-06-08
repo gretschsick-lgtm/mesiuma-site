@@ -135,6 +135,28 @@
     "store_id": "1a4b125e8f"
   },
   {
+    "id": "3fc4918f1801",
+    "date": "2026-06-06",
+    "time": "22:22",
+    "store": "DAITOYO　Prime",
+    "machine": "e範馬刃牙",
+    "machine_type": "pachinko",
+    "slot_number": "192",
+    "text": "DAITOYO Prime速報 192番台【e範馬刃牙　199ver.】 コンプリート達成 #パチンコ #バキ #コンプリート",
+    "x_url": "https://x.com/daitoyo_higashi/status/2063250052370604507",
+    "store_handle": "daitoyo_higashi",
+    "store_x_url": "https://x.com/daitoyo_higashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T05:49:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIi2f6bkAMI-8M?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIi2f6bkAMI-8M?format=jpg&name=large",
+    "machine_id": "6f6d56b2-665a-4ebd-8120-fdcb50b2c7ca",
+    "store_id": "7671933905"
+  },
+  {
     "id": "e04fe452087c",
     "date": "2026-06-06",
     "time": "22:16",

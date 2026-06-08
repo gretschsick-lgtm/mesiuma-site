@@ -378,6 +378,28 @@
     "store_id": "f012229481"
   },
   {
+    "id": "9b0e39b2d1f4",
+    "date": "2026-06-07",
+    "time": "16:34",
+    "store": "楽園大宮店",
+    "machine": "e花の慶次～黄金の一撃～",
+    "machine_type": "pachinko",
+    "slot_number": "1610",
+    "text": "本日！ 1610番台 e花の慶次～黄金の一撃H4 にて コンプリート達成！   おめでとうございます！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2063524970085650508",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T05:50:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKMc_rsbkAAl7vJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKMc_rsbkAAl7vJ?format=jpg&name=large",
+    "machine_id": "92b9e76a-1949-4c72-830c-0850d77e6675",
+    "store_id": "04950fcd53"
+  },
+  {
     "id": "d24bec4bf80c",
     "date": "2026-06-07",
     "time": "15:49",
