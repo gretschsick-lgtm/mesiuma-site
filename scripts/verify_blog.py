@@ -76,6 +76,11 @@ MACHINE_FACTS: dict[str, dict] = {
         "must_not_contain": ["純増約4.5枚/G"],
         "maker": "サミー",
     },
+    "化物語": {
+        "must_contain":     ["血闘ノ刻", "特別ノ刻"],
+        "must_not_contain": [],
+        "maker": "サミー",
+    },
     "バイオハザードRE:3": {
         "must_contain":     ["スパイクチャンシー", "BINGO"],
         "must_not_contain": [],
@@ -109,6 +114,7 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
     "花の慶次.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
     "傾奇一転.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
     "賭ケグルイ":      ["https://chonborista.com/slot/yamasa/254870/"],
+    "化物語.*鬼99":   ["https://nana-press.com/kaiseki/machine/1153/"],
 }
 
 # ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
