@@ -1157,6 +1157,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "c95513844d84",
+    "date": "2026-06-06",
+    "time": "18:51",
+    "store": "マルハンメガシティ柏",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "344",
+    "text": "コンプリート速報 344番台　eリコリス・リコイル  おめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2063197163921015292",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-08T00:21:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKHydKYbIAAfCkC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKHydKYbIAAfCkC?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "e5e18632fd"
+  },
+  {
     "id": "f596af1d063e",
     "date": "2026-06-06",
     "time": "18:17",
