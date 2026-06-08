@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-09T05:20:47+09:00",
+  "generated_at": "2026-06-09T07:02:17+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 164,
+      "total_count": 166,
       "stores": [
         {
           "rank": 1,
@@ -38,40 +38,40 @@
         },
         {
           "rank": 6,
+          "name": "新ガーデン西浦和",
+          "count": 4,
+          "x_url": "https://x.com/g_nishiurawa"
+        },
+        {
+          "rank": 7,
           "name": "楽園大宮店",
           "count": 4,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ビックマーチ東習志野店",
           "count": 4,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ＭＪアリーナ干隈店",
           "count": 3,
           "x_url": "https://x.com/mjhosikuma"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "プレイランドキャッスル春日井店",
           "count": 3,
           "x_url": "https://x.com/castle_kasugai"
-        },
-        {
-          "rank": 10,
-          "name": "パチンコの玉屋∞本店",
-          "count": 3,
-          "x_url": "https://x.com/tamaya_honten"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 39
+          "count": 41
         },
         {
           "rank": 2,
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 126
+        "count": 128
       },
       {
         "rank": 2,
@@ -511,7 +511,7 @@
         "count": 5
       }
     ],
-    "total_count": 703
+    "total_count": 705
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 13,
@@ -541,6 +541,7 @@
     "サガちゃんPARK": 5,
     "プレイランドキャッスル春日井店": 5,
     "キクヤ穂積店": 5,
+    "新ガーデン西浦和": 5,
     "マルハン川越店": 5,
     "イーグルアールワン南8条店": 5,
     "M&K岡崎店": 5,
@@ -550,9 +551,9 @@
     "キコーナ府中": 4,
     "SUPER CONCORDE 市野": 4,
     "エムディー目黒店": 4,
+    "T-MAX新栄店": 4,
     "SUPER CONCORDE": 4,
     "メガフェイス960飯塚": 4,
-    "新ガーデン西浦和": 4,
     "キング観光サウザンド名古屋駅柳橋店": 4,
     "ビックマーチ河和田東店": 4,
     "ダイナム金町南口店": 4,
@@ -580,7 +581,6 @@
     "マルハンメガシティ柏": 3,
     "キャッスル天白店": 3,
     "新ガーデン北戸田駅前": 3,
-    "T-MAX新栄店": 3,
     "SuperD'station39福重店": 3,
     "ユーコーラッキー37太宰府店": 3,
     "メガフェイス930朝倉": 3,
