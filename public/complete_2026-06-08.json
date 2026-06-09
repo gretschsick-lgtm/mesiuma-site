@@ -44,6 +44,29 @@
     "store_id": "1cd7e84e8e"
   },
   {
+    "id": "fc7186dafae1",
+    "date": "2026-06-08",
+    "time": "21:49",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 豊崎本館　　5番台 チバリヨ2　コンプリートです！  ほぼ一撃でコンプリートされてますね 並びで凄い出玉ですね！ おめでとうございます #メガフェイス豊崎本館 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2063966629088940229",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T15:58:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKSukbeasAAp1d0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKSullLacAATjon?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKSukbeasAAp1d0?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "6ef0f672c83c",
     "date": "2026-06-08",
     "time": "21:05",
