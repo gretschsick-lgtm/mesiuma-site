@@ -1,5 +1,28 @@
 [
   {
+    "id": "dbae256fecb2",
+    "date": "2026-06-09",
+    "time": "23:00",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "825",
+    "text": "【コンプリート】   こんばんは！ キクヤ穂積店ですッ！   コンプリート報告です！！ 18時42分頃　 825番台 スマスロ　 沖ドキ！DUO　アンコール  21時09分頃 365番台 スマパチ 牙狼１２　黄金騎士極限  コンプリート達成です！！ おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2064346780720878078",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T21:39:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKYINiybkAEI6BD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKYINixbIAAdrJS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKYINiybkAEI6BD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c800581abf"
+  },
+  {
     "id": "d70e9201ecb7",
     "date": "2026-06-09",
     "time": "22:32",
@@ -110,6 +133,29 @@
     "image_url": "https://pbs.twimg.com/media/HKWRUs7bwAAclir?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "60a960ef7c42",
+    "date": "2026-06-08",
+    "time": "22:29",
+    "store": "楽園蒲田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1050",
+    "text": "先程、 1050番台 北斗転生がコンプリートと なりました。 遊技台は停止致しました。  明日も 最新機種を大量導入済みの 楽園蒲田店でお楽しみください！",
+    "x_url": "https://x.com/rakuen_kamata/status/2063976779879256519",
+    "store_handle": "rakuen_kamata",
+    "store_x_url": "https://x.com/rakuen_kamata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T21:37:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKS36oCa4AAe2Os?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKS36ogbcAA-yFr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKS36oCa4AAe2Os?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "bdd2e55ff9"
   },
   {
     "id": "f7befd73f91e",
@@ -1068,6 +1114,28 @@
     "image_url": "https://pbs.twimg.com/media/HKIkWrIb0AADbdU?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
     "store_id": "3b33dd116a"
+  },
+  {
+    "id": "cf6e62e3f2aa",
+    "date": "2026-06-06",
+    "time": "22:32",
+    "store": "マルハン川越店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "1044",
+    "text": "マルハン川越店です！  コンプリート速報 ミリオンゴッド‐神々の軌跡‐ 1044番台 おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2063252638515515400",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T21:38:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKIlLyvbQAAmsvG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKIlLyvbQAAmsvG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "3917e74a54"
   },
   {
     "id": "48503f6bdcfd",
@@ -2437,6 +2505,24 @@
     "image_url": "https://pbs.twimg.com/media/HKDt8McakAE3aIp?format=jpg&name=large",
     "machine_id": "df2d4e4c-6302-4b7a-9b14-67305485d063",
     "store_id": "44b996496f"
+  },
+  {
+    "id": "76e59a16599d",
+    "date": "2026-06-04",
+    "time": "22:59",
+    "store": "ビックマーチ藤代店@店舗の仲間たち",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "462",
+    "text": "本日もご来店ありがとうございました  コンプリート情報  462番台の牙狼よりコンプリートです おめでとうございます  連日のコンプリート凄いですね  明日も9時オープンとなります お待ちしております",
+    "x_url": "https://x.com/bm_fujishiro/status/2062534616695861477",
+    "store_handle": "bm_fujishiro",
+    "store_x_url": "https://x.com/bm_fujishiro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T21:38:14Z",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "082c2eac75"
   },
   {
     "id": "364057969fef",
