@@ -1,10 +1,34 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-06 (manager_handles 45→210件達成, store_handles 1812件)
+更新日時: 2026-06-08 (store_handles 1818→2404件 +586件達成)
 
 ---
 
 ## 完了した作業
+
+### store_handles 大規模拡充フェーズ (2026-06-08)
+
+#### store_handles 1818 → 2404件 (+586件) ✅
+
+| フェーズ | 追加件数 | 内訳 |
+|---------|---------|------|
+| Phase 1 | +534件 | Dynam 440件 (@dynam_00001〜@dynam_00500) + ZENT 1件 (@zenttoyota) + events pattern 25件 + complete_info未登録 1件 + マルハン 67件 |
+| Phase 2 | +52件 | ガイア系 31件 + ニラク 35件 + ABC 16件 + エスパス 5件 + テキサス 5件 + PIA 9件 + 玉屋 9件（重複除外後） |
+| **合計** | **+586件** | **1818件 → 2404件** |
+
+**重複除外数:** 68件以上（Phase 2 時点で確認済み）
+
+**新規 manager 候補 (5件):**
+
+| ハンドル | 紐付け店舗 | 根拠 |
+|---------|-----------|------|
+| @maruchigamgr | マルハン茅ヶ崎 | プロフに「マネージャー」 |
+| @chibakita_staff | マルハン千葉北 | プロフに「スタッフ」 |
+| @m_makiguchi | マルハン千葉ニュータウン | プロフに「スタッフ」 |
+| @ueno_honkan0821 | エスパス上野本館 | 店舗公式キャラクター/中の人 |
+| @yae_chanel | エスパス高田馬場 | プロフに「スタッフ」 |
+
+---
 
 ### manager_handles 強化フェーズ (2026-06-06)
 
@@ -445,7 +469,7 @@
 | 誤分類 (machine_type) | 0件 | 0件 ✅ |
 | image_urlあり | 594件/602件 | - |
 | image_urlありなのに非表示 | 0件 | 0件 ✅ |
-| store_handles 総件数 | **1697件** (+206) | 3000件 △ |
+| store_handles 総件数 | **2404件** (+586) | 3000件 △ |
 | store_handles type=None | **0件 ✅** | 0件 ✅ |
 | manager_handles | **45件 (調査中→200件目標)** | 200件 △ |
 | store_handles count=0 | 1358件 | - |
@@ -650,8 +674,9 @@
 ## 未完了の作業
 
 ### 高優先
-- [ ] store_handles 1491件 → 3000件 (残り +1509件)
-  - ニッコー, コスモス, 共楽: イベントデータに出現なし → 手動X検索必要
+- [ ] store_handles 2404件 → 3000件 (残り +596件)
+  - Dynam 追加済 (440件) / マルハン・ガイア・ニラク・ABC等 追加済
+  - ニッコー, コスモス, 共楽, fetch_chain_handles.py で追加可能
   - fetch_store_x_urls.py を定期実行して自動発掘
 - [ ] manager_handles 拡大 (現45件 → 目標500件)
   - 手動X検索 or fetch_store_x_urls.py で探索
