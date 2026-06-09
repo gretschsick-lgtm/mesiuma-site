@@ -44,6 +44,29 @@
     "store_id": "1cd7e84e8e"
   },
   {
+    "id": "6ef0f672c83c",
+    "date": "2026-06-08",
+    "time": "21:05",
+    "store": "ABC浜北店【パチンコ＆スロット】",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "413",
+    "text": "【ABC浜北店より速報】 先ほど『北斗の拳 転生の章2』413番台にてコンプリート達成されました おめでとうございます オススメ初日からのコンプリートは縁起が良きです この後もABC浜北店でお楽しみ下さい #L北斗の拳転生の章2 #コンプリート",
+    "x_url": "https://x.com/ABC_hamakita/status/2063955458810155072",
+    "store_handle": "abc_hamakita",
+    "store_x_url": "https://x.com/abc_hamakita",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T00:16:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKShyStboAA8jyA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKSjlRnbEAAV3Ad?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKShyStboAA8jyA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "88454198b8"
+  },
+  {
     "id": "a76df906fb92",
     "date": "2026-06-08",
     "time": "19:29",
@@ -86,6 +109,28 @@
     "image_url": "https://pbs.twimg.com/media/HKRhJsDbIAAumwf?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "1a874032932b",
+    "date": "2026-06-07",
+    "time": "23:32",
+    "store": "ホームラン菰野店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ホームラン菰野店より   お知らせがございます。 北斗の拳　転生の章2 コンプリート機能が発動した為 遊技終了となります。   #コンプリート  #コモホ  #ホームラン菰野",
+    "x_url": "https://x.com/homerun_komono/status/2063630195635191880",
+    "store_handle": "homerun_komono",
+    "store_x_url": "https://x.com/homerun_komono",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T00:16:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKN8sehawAAinYD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKN8sehawAAinYD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "fc7cd3a3c8"
   },
   {
     "id": "b9f3a0d2c26c",
@@ -241,6 +286,28 @@
     "image_url": "https://pbs.twimg.com/media/HKNaPd6aUAAehlK?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "e5a3df2192"
+  },
+  {
+    "id": "576c40e0e6ac",
+    "date": "2026-06-07",
+    "time": "21:01",
+    "store": "マルハン名取店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "576",
+    "text": "マルハン名取店です。  6/7(日)　20：46  576番台 ｅリコリス・リコイルＭ３ コンプリート機能発動",
+    "x_url": "https://x.com/maruhan_natori/status/2063592180518982071",
+    "store_handle": "maruhan_natori",
+    "store_x_url": "https://x.com/maruhan_natori",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T00:16:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNZ38xbYAIeiv5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNZ38xbYAIeiv5?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "0c64b81c6c"
   },
   {
     "id": "b21be1156a40",
