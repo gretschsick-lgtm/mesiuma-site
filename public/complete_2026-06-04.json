@@ -198,6 +198,28 @@
     "store_id": "98752ae840"
   },
   {
+    "id": "98cc865ac8e8",
+    "date": "2026-06-04",
+    "time": "16:06",
+    "store": "楽園溝の口店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1722",
+    "text": "本日月日  1722番台　北斗の拳 転生の章2  コンプリート機能が作動したため 遊技台を停止させていただきます  おめでとうございます  #コンプリート #北斗の拳",
+    "x_url": "https://x.com/rakuen_mznkc/status/2062430832980365387",
+    "store_handle": "rakuen_mznkc",
+    "store_x_url": "https://x.com/rakuen_mznkc",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T17:09:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ85xt-aYAAOj-3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ85xt-aYAAOj-3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "bfa1c4d8d7"
+  },
+  {
     "id": "aa3268d7eb78",
     "date": "2026-06-04",
     "time": "15:54",
