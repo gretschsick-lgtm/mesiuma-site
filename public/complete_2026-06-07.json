@@ -490,6 +490,28 @@
     "store_id": "9c67ec7560"
   },
   {
+    "id": "8b0ae97e017d",
+    "date": "2026-06-07",
+    "time": "17:08",
+    "store": "スタジアム2001八女店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "701",
+    "text": "スタジアムコンプリート速報  ７０１番台　キン肉マン コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/stadium2001yame/status/2063533462146187671",
+    "store_handle": "stadium2001yame",
+    "store_x_url": "https://x.com/stadium2001yame",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T05:04:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKMj1VHbQAAZiqT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKMj1VHbQAAZiqT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "bc0f789589"
+  },
+  {
     "id": "5c18fbbfd1da",
     "date": "2026-06-07",
     "time": "16:49",
@@ -510,6 +532,28 @@
     "image_url": "https://pbs.twimg.com/media/HKMgc1BaEAAy8IC?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "94cb46d6fb"
+  },
+  {
+    "id": "465f3eddf8cf",
+    "date": "2026-06-07",
+    "time": "16:46",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "1558",
+    "text": "コンプリート情報  16:30 eフィーバーキン肉マン   1558番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2063527954911793550",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-09T05:04:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKMfmsIaYAAUJJy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKMfmsIaYAAUJJy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "04138e2cd3"
   },
   {
     "id": "a8130769ef47",
