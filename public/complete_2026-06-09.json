@@ -1,5 +1,27 @@
 [
   {
+    "id": "d52c4d1b275e",
+    "date": "2026-06-09",
+    "time": "23:19",
+    "store": "綾瀬上土棚店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "100",
+    "text": "マルハン綾瀬上土棚店 閉店間際でギリギリ滑り込み  100番台e牙狼からコンプリート達成  すごい凄すぎる おめでとうございます",
+    "x_url": "https://x.com/aitatencho/status/2064351614920745396",
+    "store_handle": "aitatencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aitatencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-10T05:18:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKYM2XGb0AE4cUc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKYM2XGb0AE4cUc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "aec3655c52"
+  },
+  {
     "id": "dbae256fecb2",
     "date": "2026-06-09",
     "time": "23:00",

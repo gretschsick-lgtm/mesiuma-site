@@ -199,6 +199,28 @@
     "store_id": "0c64b81c6c"
   },
   {
+    "id": "c696af33b547",
+    "date": "2026-06-07",
+    "time": "20:58",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "477",
+    "text": "６月７日（日） ま、またコンプリート達成の ヴァルヴレイヴ2！ 今日ハ477番台デス。。。",
+    "x_url": "https://x.com/315kasugai/status/2063591410386022414",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T05:17:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNZQ1TbgAEjQWo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNZQ1TbgAEjQWo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "b0b8303d1861",
     "date": "2026-06-07",
     "time": "20:52",
@@ -686,5 +708,28 @@
     "image_url": "https://pbs.twimg.com/media/HKIgsS4bIAApulh?format=jpg&name=large",
     "machine_id": "aabcc0b2-23dc-4ff1-bbcd-0e5d149c1d5a",
     "store_id": "04950fcd53"
+  },
+  {
+    "id": "8c10a34e82b0",
+    "date": "2026-06-07",
+    "time": "00:28",
+    "store": "マルシェ赤羽店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "73",
+    "text": "---『Congratulations!』--- ヴァルヴレイヴ　73番台 コンプリート機能発動 おめでとうございます  明日も是非ご来店下さい",
+    "x_url": "https://x.com/marcheakabane/status/2063644340635988047",
+    "store_handle": "marcheakabane",
+    "store_x_url": "https://x.com/marcheakabane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T05:17:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKOJd30aoAAdYhd?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKOJgeybMAABihL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKOJd30aoAAdYhd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "48ad96966d"
   }
 ]

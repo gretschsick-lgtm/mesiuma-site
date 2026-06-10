@@ -1,5 +1,27 @@
 [
   {
+    "id": "d52c4d1b275e",
+    "date": "2026-06-09",
+    "time": "23:19",
+    "store": "綾瀬上土棚店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "100",
+    "text": "マルハン綾瀬上土棚店 閉店間際でギリギリ滑り込み  100番台e牙狼からコンプリート達成  すごい凄すぎる おめでとうございます",
+    "x_url": "https://x.com/aitatencho/status/2064351614920745396",
+    "store_handle": "aitatencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aitatencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-10T05:18:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKYM2XGb0AE4cUc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKYM2XGb0AE4cUc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "aec3655c52"
+  },
+  {
     "id": "dbae256fecb2",
     "date": "2026-06-09",
     "time": "23:00",
@@ -558,6 +580,28 @@
     "store_id": "0c64b81c6c"
   },
   {
+    "id": "c696af33b547",
+    "date": "2026-06-07",
+    "time": "20:58",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "477",
+    "text": "６月７日（日） ま、またコンプリート達成の ヴァルヴレイヴ2！ 今日ハ477番台デス。。。",
+    "x_url": "https://x.com/315kasugai/status/2063591410386022414",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T05:17:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNZQ1TbgAEjQWo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNZQ1TbgAEjQWo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "b0b8303d1861",
     "date": "2026-06-07",
     "time": "20:52",
@@ -1045,6 +1089,29 @@
     "image_url": "https://pbs.twimg.com/media/HKIgsS4bIAApulh?format=jpg&name=large",
     "machine_id": "aabcc0b2-23dc-4ff1-bbcd-0e5d149c1d5a",
     "store_id": "04950fcd53"
+  },
+  {
+    "id": "8c10a34e82b0",
+    "date": "2026-06-07",
+    "time": "00:28",
+    "store": "マルシェ赤羽店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "73",
+    "text": "---『Congratulations!』--- ヴァルヴレイヴ　73番台 コンプリート機能発動 おめでとうございます  明日も是非ご来店下さい",
+    "x_url": "https://x.com/marcheakabane/status/2063644340635988047",
+    "store_handle": "marcheakabane",
+    "store_x_url": "https://x.com/marcheakabane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T05:17:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKOJd30aoAAdYhd?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKOJgeybMAABihL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKOJd30aoAAdYhd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "48ad96966d"
   },
   {
     "id": "7f62c687fb24",
@@ -1912,6 +1979,28 @@
     "image_url": "https://pbs.twimg.com/media/HKHydKYbIAAfCkC?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "e5e18632fd"
+  },
+  {
+    "id": "175ceb1cc7c4",
+    "date": "2026-06-06",
+    "time": "18:18",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "698",
+    "text": "6月6日 698番台ヴヴヴ2にてコンプリート  しっかりやってくれましたね  おめでとうございます",
+    "x_url": "https://x.com/eagle_c_tencho/status/2063188671206171013",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-10T05:17:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKHrKMtaYAAN3-e?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKHrKMtaYAAN3-e?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "9ff188237d"
   },
   {
     "id": "f596af1d063e",
