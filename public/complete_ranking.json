@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-06-11T04:53:28+09:00",
+  "generated_at": "2026-06-11T05:50:01+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 210,
+      "total_count": 212,
       "stores": [
         {
           "rank": 1,
+          "name": "キクヤ春日井店",
+          "count": 6,
+          "x_url": "https://x.com/315kasugai"
+        },
+        {
+          "rank": 2,
           "name": "FACE1300小倉南店",
           "count": 6,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "ARROW浪速店",
           "count": 5,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "新ガーデン西浦和",
           "count": 5,
           "x_url": "https://x.com/g_nishiurawa"
-        },
-        {
-          "rank": 4,
-          "name": "キクヤ春日井店",
-          "count": 5,
-          "x_url": "https://x.com/315kasugai"
         },
         {
           "rank": 5,
@@ -71,12 +71,12 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 49
+          "count": 50
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 19
+          "count": 20
         },
         {
           "rank": 3,
@@ -348,27 +348,27 @@
     "stores": [
       {
         "rank": 1,
+        "name": "キクヤ春日井店",
+        "count": 13,
+        "x_url": "https://x.com/315kasugai"
+      },
+      {
+        "rank": 2,
         "name": "プレイランドキャッスル熱田店",
         "count": 13,
         "x_url": "https://x.com/castleatsuta"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "name": "楽園池袋店ゲートウェイ",
         "count": 12,
         "x_url": "https://x.com/rakuenikebukuro"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "マルハンメガシティ三島駿東",
         "count": 12,
         "x_url": "https://x.com/mega_mishima"
-      },
-      {
-        "rank": 4,
-        "name": "キクヤ春日井店",
-        "count": 12,
-        "x_url": "https://x.com/315kasugai"
       },
       {
         "rank": 5,
@@ -411,12 +411,12 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 135
+        "count": 136
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 73
+        "count": 74
       },
       {
         "rank": 3,
@@ -511,13 +511,13 @@
         "count": 5
       }
     ],
-    "total_count": 747
+    "total_count": 749
   },
   "store_complete_counts": {
+    "キクヤ春日井店": 13,
     "プレイランドキャッスル熱田店": 13,
     "楽園池袋店ゲートウェイ": 12,
     "マルハンメガシティ三島駿東": 12,
-    "キクヤ春日井店": 12,
     "ARROW浪速店": 11,
     "SuperD'station東金店": 9,
     "メガフェイス1300淀川": 9,
@@ -578,6 +578,7 @@
     "綾瀬上土棚店": 3,
     "キコーナ松戸": 3,
     "ビックマーチ水戸本店": 3,
+    "サンドラ大塚店": 3,
     "ホームラン菰野店": 3,
     "ウイングあすと長町店": 3,
     "MJアリーナ箱崎店": 3,
@@ -644,7 +645,6 @@
     "パチンコの玉屋∞新宮": 2,
     "ピーアーク朝霞": 2,
     "玉ノ助【パーラーダジュール公式】": 2,
-    "サンドラ大塚店": 2,
     "D'ステ渋川インター店": 2,
     "アロー志紀店": 2,
     "ダイナム栃木大田原店": 2,
