@@ -1,6 +1,6 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-10 (Playwright text取得改善 / merge dedup強化 / recrawl_empty_text.py追加)
+更新日時: 2026-06-10 (Playwright text取得改善 / merge dedup強化 / recrawl_empty_text.py追加 / store_handles +20件)
 
 ---
 
@@ -201,6 +201,27 @@ python scripts/recrawl_empty_text.py --limit 10
 - manager: 220件
 
 **目標:** 5000件まで残り **2161件**
+
+#### store_handles 2839 → 2859件 (+20件) ✅ (2026-06-10)
+
+優先地域（沖縄/愛知/福岡/山口/栃木/熊本/千葉）の未登録店舗公式ハンドルを追加。
+
+| 地域 | 追加件数 | 追加ハンドル |
+|------|---------|------------|
+| 沖縄県 | +5 | ams_ace, ams_itoman, amznago1, elgranura, slotokinawa |
+| 愛知県 | +4 | castleotobashi, chita_tokai, chita_0424, zeal_touti |
+| 福岡県 | +6 | passage830, passagegt600, a1fukuchi, megaface_u, beamhara, gion1_1 |
+| 山口県 | +1 | hakkoizumi |
+| 栃木県 | +2 | airk_bm, delgrandipk |
+| 熊本県 | +1 | belairarao |
+| 千葉県 | +1 | 16shibayama |
+| **合計** | **+20** | |
+
+**type内訳 (2859件):**
+- store: 2639件
+- manager: 220件
+
+**目標:** 5000件まで残り **2141件**
 
 ---
 

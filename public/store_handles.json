@@ -17032,5 +17032,145 @@
     "x_url": "https://x.com/anianimatsuri",
     "count": 0,
     "type": "store"
+  },
+  "ams_ace": {
+    "store": "アムズエース具志川店",
+    "x_url": "https://x.com/ams_ace",
+    "pref": "沖縄県",
+    "count": 0,
+    "type": "store"
+  },
+  "ams_itoman": {
+    "store": "アムズらいと糸満店",
+    "x_url": "https://x.com/ams_itoman",
+    "pref": "沖縄県",
+    "count": 0,
+    "type": "store"
+  },
+  "amznago1": {
+    "store": "アムズガーデン名護店",
+    "x_url": "https://x.com/amznago1",
+    "pref": "沖縄県",
+    "count": 0,
+    "type": "store"
+  },
+  "elgranura": {
+    "store": "エルグラン西町本店",
+    "x_url": "https://x.com/elgranura",
+    "pref": "沖縄県",
+    "count": 0,
+    "type": "store"
+  },
+  "slotokinawa": {
+    "store": "ピータイムふてんま",
+    "x_url": "https://x.com/slotokinawa",
+    "pref": "沖縄県",
+    "count": 0,
+    "type": "store"
+  },
+  "castleotobashi": {
+    "store": "プレイランドキャッスル尾頭橋店",
+    "x_url": "https://x.com/castleotobashi",
+    "pref": "愛知県",
+    "count": 0,
+    "type": "store"
+  },
+  "chita_tokai": {
+    "store": "プレイランドキャッスル知多東海店",
+    "x_url": "https://x.com/chita_tokai",
+    "pref": "愛知県",
+    "count": 0,
+    "type": "store"
+  },
+  "chita_0424": {
+    "store": "プレイランドキャッスル知多店",
+    "x_url": "https://x.com/chita_0424",
+    "pref": "愛知県",
+    "count": 0,
+    "type": "store"
+  },
+  "zeal_touti": {
+    "store": "ジール当知店",
+    "x_url": "https://x.com/zeal_touti",
+    "pref": "愛知県",
+    "count": 0,
+    "type": "store"
+  },
+  "passage830": {
+    "store": "パサージュ830西港",
+    "x_url": "https://x.com/passage830",
+    "pref": "福岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "passagegt600": {
+    "store": "パサージュGT600北方",
+    "x_url": "https://x.com/passagegt600",
+    "pref": "福岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "a1fukuchi": {
+    "store": "エーワン福智店",
+    "x_url": "https://x.com/a1fukuchi",
+    "pref": "福岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "megaface_u": {
+    "store": "メガフェイス1000糸島",
+    "x_url": "https://x.com/megaface_u",
+    "pref": "福岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "beamhara": {
+    "store": "BEAM HARA 333",
+    "x_url": "https://x.com/beamhara",
+    "pref": "福岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "gion1_1": {
+    "store": "GION1・1",
+    "x_url": "https://x.com/gion1_1",
+    "pref": "福岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "hakkoizumi": {
+    "store": "ゴールデン八光出水店",
+    "x_url": "https://x.com/hakkoizumi",
+    "pref": "山口県",
+    "count": 0,
+    "type": "store"
+  },
+  "airk_bm": {
+    "store": "ビックマーチ桐生店",
+    "x_url": "https://x.com/airk_bm",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "delgrandipk": {
+    "store": "グランド3店",
+    "x_url": "https://x.com/delgrandipk",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "belairarao": {
+    "store": "ベルエアマックス荒尾店",
+    "x_url": "https://x.com/belairarao",
+    "pref": "熊本県",
+    "count": 0,
+    "type": "store"
+  },
+  "16shibayama": {
+    "store": "MGM芝山店",
+    "x_url": "https://x.com/16shibayama",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
   }
 }
