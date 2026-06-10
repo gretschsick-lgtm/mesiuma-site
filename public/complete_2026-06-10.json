@@ -1,28 +1,5 @@
 [
   {
-    "id": "8732ea6f25e7",
-    "date": "2026-06-10",
-    "time": "22:28",
-    "store": "メガフェイス1070菊陽",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "478",
-    "text": "478番台 #e牙狼12 コンプリート達成 #メガフェイス菊陽 #6月10日",
-    "x_url": "https://x.com/MEGAFACE_1070/status/2064701276622037309",
-    "store_handle": "megaface_1070",
-    "store_x_url": "https://x.com/megaface_1070",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-10T17:15:31Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKdK3NWb0AAxMPD?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HKcdqxWaUAAWNW-?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKdK3NWb0AAxMPD?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "ac9e0c0f5d"
-  },
-  {
     "id": "9c08eb4f8e44",
     "date": "2026-06-10",
     "time": "19:02",
@@ -58,7 +35,7 @@
     "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-10T17:46:40Z",
+    "collected_at": "2026-06-10T16:30:41Z",
     "images": [
       "https://pbs.twimg.com/media/HKcZNM8asAAjmOL?format=jpg&name=large"
     ],
@@ -102,7 +79,7 @@
     "store_x_url": "https://x.com/castle_kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-10T17:32:10Z",
+    "collected_at": "2026-06-10T16:30:18Z",
     "images": [
       "https://pbs.twimg.com/media/HKb41onasAAnmbU?format=jpg&name=large"
     ],

@@ -1128,6 +1128,28 @@
     "image_url": "https://pbs.twimg.com/media/HKHPLz3bkAAIzPb?format=jpg&name=large"
   },
   {
+    "id": "689b691435af",
+    "date": "2026-06-06",
+    "time": "15:50",
+    "store": "キクヤ春日井店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "1219",
+    "text": "1219番台 eカケグルイ 7500ver コンプリート おめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2063151612374438124",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T16:46:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKHJaoJbUAAigES?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKHJaoJbUAAigES?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "66d56da93daf",
     "date": "2026-06-06",
     "time": "15:21",
