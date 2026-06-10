@@ -17172,5 +17172,306 @@
     "pref": "千葉県",
     "count": 0,
     "type": "store"
+  },
+  "ekimaehollywood": {
+    "store": "スーパーハリウッド800",
+    "x_url": "https://x.com/ekimaehollywood",
+    "pref": "岡山県",
+    "count": 0,
+    "type": "store"
+  },
+  "slothousell": {
+    "store": "スロットLL",
+    "x_url": "https://x.com/slothousell",
+    "pref": "広島県",
+    "count": 0,
+    "type": "store"
+  },
+  "d_miyakonojyo": {
+    "store": "スーパーDステーション39都城駅前店",
+    "x_url": "https://x.com/d_miyakonojyo",
+    "pref": "宮崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "sd_nobeoka": {
+    "store": "スーパーD'ステーション39延岡店",
+    "x_url": "https://x.com/sd_nobeoka",
+    "pref": "宮崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "gachapon_miyako": {
+    "store": "がちゃぽん都城店",
+    "x_url": "https://x.com/gachapon_miyako",
+    "pref": "宮崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "mmiyakonojo": {
+    "store": "マルハン都城南店",
+    "x_url": "https://x.com/mmiyakonojo",
+    "pref": "宮崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "miyakonojo720": {
+    "store": "マルハン都城店",
+    "x_url": "https://x.com/miyakonojo720",
+    "pref": "宮崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "shinseidee": {
+    "store": "Dee0.GOGO",
+    "x_url": "https://x.com/shinseidee",
+    "pref": "大分県",
+    "count": 0,
+    "type": "store"
+  },
+  "d_matuura": {
+    "store": "D'ステーション39松浦店",
+    "x_url": "https://x.com/d_matuura",
+    "pref": "長崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "d_sazainter": {
+    "store": "スーパーD'ステーション39佐々インター店",
+    "x_url": "https://x.com/d_sazainter",
+    "pref": "長崎県",
+    "count": 0,
+    "type": "store"
+  },
+  "sintosin5355": {
+    "store": "コトブキプラスさいたま新都心店",
+    "x_url": "https://x.com/sintosin5355",
+    "pref": "埼玉県",
+    "count": 0,
+    "type": "store"
+  },
+  "psaitama007": {
+    "store": "パチンコキサイ",
+    "x_url": "https://x.com/psaitama007",
+    "pref": "埼玉県",
+    "count": 0,
+    "type": "store"
+  },
+  "champion_belz": {
+    "store": "チャンピオンBelz",
+    "x_url": "https://x.com/champion_belz",
+    "pref": "長野県",
+    "count": 0,
+    "type": "store"
+  },
+  "ntwakaho": {
+    "store": "ニュートーキョー若穂店",
+    "x_url": "https://x.com/ntwakaho",
+    "pref": "長野県",
+    "count": 0,
+    "type": "store"
+  },
+  "ntshinonoi": {
+    "store": "ニュートーキョー篠ノ井店",
+    "x_url": "https://x.com/ntshinonoi",
+    "pref": "長野県",
+    "count": 0,
+    "type": "store"
+  },
+  "shima12_17": {
+    "store": "キクヤ島店",
+    "x_url": "https://x.com/shima12_17",
+    "pref": "岐阜県",
+    "count": 0,
+    "type": "store"
+  },
+  "vegabiq1200gifu": {
+    "store": "ベガビック1200岐阜六条店",
+    "x_url": "https://x.com/vegabiq1200gifu",
+    "pref": "岐阜県",
+    "count": 0,
+    "type": "store"
+  },
+  "joyl_gihu": {
+    "store": "ジョイランド岐阜",
+    "x_url": "https://x.com/joyl_gihu",
+    "pref": "岐阜県",
+    "count": 0,
+    "type": "store"
+  },
+  "kichiennu": {
+    "store": "コンコルド777岐阜羽島駅前店",
+    "x_url": "https://x.com/kichiennu",
+    "pref": "岐阜県",
+    "count": 0,
+    "type": "store"
+  },
+  "yamagata_slosen": {
+    "store": "SLOT ZERO 山形店",
+    "x_url": "https://x.com/yamagata_slosen",
+    "pref": "山形県",
+    "count": 0,
+    "type": "store"
+  },
+  "vvteppoumachi": {
+    "store": "ベガスベガス鉄砲町店",
+    "x_url": "https://x.com/vvteppoumachi",
+    "pref": "山形県",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_yuri": {
+    "store": "マルハン由利本荘店",
+    "x_url": "https://x.com/maruhan_yuri",
+    "pref": "秋田県",
+    "count": 0,
+    "type": "store"
+  },
+  "tegada_no_ny": {
+    "store": "ニューヨークニューヨーク広面店",
+    "x_url": "https://x.com/tegada_no_ny",
+    "pref": "秋田県",
+    "count": 0,
+    "type": "store"
+  },
+  "daitoh_gosho": {
+    "store": "ダイトー五所川原店",
+    "x_url": "https://x.com/daitoh_gosho",
+    "pref": "青森県",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhankitakami": {
+    "store": "マルハン北上店",
+    "x_url": "https://x.com/maruhankitakami",
+    "pref": "岩手県",
+    "count": 0,
+    "type": "store"
+  },
+  "oofunato46": {
+    "store": "カネマン大船渡",
+    "x_url": "https://x.com/oofunato46",
+    "pref": "岩手県",
+    "count": 0,
+    "type": "store"
+  },
+  "kaneman_tushida": {
+    "store": "カネマン津志田",
+    "x_url": "https://x.com/kaneman_tushida",
+    "pref": "岩手県",
+    "count": 0,
+    "type": "store"
+  },
+  "r_kaneman": {
+    "store": "カネマン陸前高田",
+    "x_url": "https://x.com/r_kaneman",
+    "pref": "岩手県",
+    "count": 0,
+    "type": "store"
+  },
+  "kaneman_1111": {
+    "store": "カネマン奥州1111",
+    "x_url": "https://x.com/kaneman_1111",
+    "pref": "岩手県",
+    "count": 0,
+    "type": "store"
+  },
+  "wing_tsu0": {
+    "store": "ウイング津店",
+    "x_url": "https://x.com/wing_tsu0",
+    "pref": "三重県",
+    "count": 0,
+    "type": "store"
+  },
+  "mgm_0808": {
+    "store": "MGM三重グループ長",
+    "x_url": "https://x.com/mgm_0808",
+    "pref": "三重県",
+    "count": 0,
+    "type": "manager"
+  },
+  "mgm_1227": {
+    "store": "MGM四日市店",
+    "x_url": "https://x.com/mgm_1227",
+    "pref": "三重県",
+    "count": 0,
+    "type": "store"
+  },
+  "kingsanshi1177": {
+    "store": "キング観光サウザンド桑名サンシパーク店",
+    "x_url": "https://x.com/kingsanshi1177",
+    "pref": "三重県",
+    "count": 0,
+    "type": "store"
+  },
+  "homerun_mie": {
+    "store": "ホームラン三重チェーン公式",
+    "x_url": "https://x.com/homerun_mie",
+    "pref": "三重県",
+    "count": 0,
+    "type": "store"
+  },
+  "homerun_kuwana": {
+    "store": "ホームラン桑名店",
+    "x_url": "https://x.com/homerun_kuwana",
+    "pref": "三重県",
+    "count": 0,
+    "type": "store"
+  },
+  "mega_dsg": {
+    "store": "DSG MEGA WORLD金沢",
+    "x_url": "https://x.com/mega_dsg",
+    "pref": "石川県",
+    "count": 0,
+    "type": "store"
+  },
+  "ezone_kanazawa": {
+    "store": "イーゾーン金沢店",
+    "x_url": "https://x.com/ezone_kanazawa",
+    "pref": "石川県",
+    "count": 0,
+    "type": "store"
+  },
+  "ezonekanazawa": {
+    "store": "イーゾーン金沢店（北陸統括）",
+    "x_url": "https://x.com/ezonekanazawa",
+    "pref": "石川県",
+    "count": 0,
+    "type": "manager"
+  },
+  "north_tym": {
+    "store": "ノースランド（富山）",
+    "x_url": "https://x.com/north_tym",
+    "pref": "富山県",
+    "count": 0,
+    "type": "store"
+  },
+  "usa067708390873": {
+    "store": "スーパーUSA富山店",
+    "x_url": "https://x.com/usa067708390873",
+    "pref": "富山県",
+    "count": 0,
+    "type": "manager"
+  },
+  "dsg071727": {
+    "store": "DSGメガワールド鯖江店",
+    "x_url": "https://x.com/dsg071727",
+    "pref": "福井県",
+    "count": 0,
+    "type": "store"
+  },
+  "dsg_harue": {
+    "store": "DSGアリーナ春江店",
+    "x_url": "https://x.com/dsg_harue",
+    "pref": "福井県",
+    "count": 0,
+    "type": "store"
+  },
+  "kamikami_dsg": {
+    "store": "DSG福井エリア長",
+    "x_url": "https://x.com/kamikami_dsg",
+    "pref": "福井県",
+    "count": 0,
+    "type": "manager"
   }
 }
