@@ -66,6 +66,29 @@
     "store_id": "17e07c997f"
   },
   {
+    "id": "722b17735e24",
+    "date": "2026-06-07",
+    "time": "22:16",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "826",
+    "text": "閉店間際 コンプリート発生  826番台 #ヴァルヴレイヴ コンプリート達成！  おめでとうございます   明日も朝10時OPEN 皆さまのご来店を心よりお待ちしております",
+    "x_url": "https://x.com/g_nishiurawa/status/2063611166681931931",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T17:45:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNrV_-akAAQcM8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKNrXZnbAAAUqjJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNrV_-akAAQcM8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
+  },
+  {
     "id": "545a228bc06e",
     "date": "2026-06-07",
     "time": "22:05",
@@ -131,6 +154,28 @@
     "image_url": "https://pbs.twimg.com/media/HKNi_xybwAApj8D?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003",
     "store_id": "3b33dd116a"
+  },
+  {
+    "id": "8429847dc578",
+    "date": "2026-06-07",
+    "time": "21:48",
+    "store": "マルハン所沢店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "216",
+    "text": "コンプリート達成  216番台: e東京喰種  おめでとうございます！",
+    "x_url": "https://x.com/Smaru_tokoro/status/2063603975723811133",
+    "store_handle": "smaru_tokoro",
+    "store_x_url": "https://x.com/smaru_tokoro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T17:20:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNkMSYbMAAVvfn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNkMSYbMAAVvfn?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "ffbb0bd0fb"
   },
   {
     "id": "437ea0ef0208",
