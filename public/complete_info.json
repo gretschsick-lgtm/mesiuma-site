@@ -447,6 +447,28 @@
     "store_id": "63ba670979"
   },
   {
+    "id": "049fe94ec1f4",
+    "date": "2026-06-08",
+    "time": "22:14",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "326",
+    "text": "#コンプリート報告 です 【eFキン肉マン】326番台のお客様 おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2063972832225431778",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T21:51:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKS0SfbbAAAgmqw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKS0SfbbAAAgmqw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "5e00449f9f32",
     "date": "2026-06-08",
     "time": "21:55",
