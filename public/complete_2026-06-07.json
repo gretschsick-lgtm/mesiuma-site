@@ -44,6 +44,28 @@
     "store_id": "5b93315c4d"
   },
   {
+    "id": "89e86989b183",
+    "date": "2026-06-07",
+    "time": "22:31",
+    "store": "ガーデン東大宮店＠がしみや　4/21(火)リニューアル",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "1354",
+    "text": "【コンプリート！】  1354番台：チバリヨ2 コンプリート達成  おめでとうございます！",
+    "x_url": "https://x.com/GARDENgashimiya/status/2063614754841846186",
+    "store_handle": "gardengashimiya",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/gardengashimiya",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-10T12:51:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNuo0OacAEMFNv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNuo0OacAEMFNv?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "17e07c997f"
+  },
+  {
     "id": "545a228bc06e",
     "date": "2026-06-07",
     "time": "22:05",

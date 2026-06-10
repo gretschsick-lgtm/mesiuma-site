@@ -177,5 +177,29 @@
     "image_url": "https://pbs.twimg.com/media/HKWRUs7bwAAclir?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "0a32c3e2edc2",
+    "date": "2026-06-09",
+    "time": "04:55",
+    "store": "ARROW浪速店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "1008",
+    "text": "6月8日   L炎炎ノ消防隊２　1008番台   e牙狼12黄金騎士極限　557番台　 ef東京喰種　401番台　 コンプリート達成 おめでとうございます  #スロット　#パチンコ　 #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2064073884945842565",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T13:21:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKUP2XubIAAIBEc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKUP3kia8AAwPQ8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "dd02f6f68a"
   }
 ]

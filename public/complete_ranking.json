@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-06-10T20:40:35+09:00",
+  "generated_at": "2026-06-10T22:30:26+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 197,
+      "total_count": 202,
       "stores": [
         {
           "rank": 1,
           "name": "FACE1300小倉南店",
-          "count": 5,
+          "count": 6,
           "x_url": "https://x.com/face_1300"
         },
         {
           "rank": 2,
+          "name": "ARROW浪速店",
+          "count": 5,
+          "x_url": "https://x.com/arrow_naniwa"
+        },
+        {
+          "rank": 3,
           "name": "メガフェイス1450本山",
           "count": 5,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "name": "メガフェイス1300淀川",
+          "count": 4,
+          "x_url": "https://x.com/megaface_1300"
+        },
+        {
+          "rank": 5,
           "name": "マルハンメガシティ三島駿東",
           "count": 4,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 4,
-          "name": "ARROW浪速店",
-          "count": 4,
-          "x_url": "https://x.com/arrow_naniwa"
-        },
-        {
-          "rank": 5,
+          "rank": 6,
           "name": "サガちゃんPARK",
           "count": 4,
           "x_url": "https://x.com/sagachan_park"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "キクヤ春日井店",
           "count": 4,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "新ガーデン西浦和",
           "count": 4,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "楽園大宮店",
           "count": 4,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "マルハン川越店",
           "count": 4,
           "x_url": "https://x.com/smaru_kawagoe"
-        },
-        {
-          "rank": 10,
-          "name": "ビックマーチ東習志野店",
-          "count": 4,
-          "x_url": "https://x.com/joypackx"
         }
       ],
       "slot_machines": [
@@ -85,18 +85,18 @@
         },
         {
           "rank": 4,
-          "name": "Lチバリヨ2ZB",
-          "count": 5
+          "name": "L炎炎ノ消防隊2",
+          "count": 6
         },
         {
           "rank": 5,
-          "name": "Lかぐや様は告らせたい",
-          "count": 5
+          "name": "Lチバリヨ2ZB",
+          "count": 6
         },
         {
           "rank": 6,
-          "name": "L炎炎ノ消防隊2",
-          "count": 5
+          "name": "Lかぐや様は告らせたい",
+          "count": 6
         },
         {
           "rank": 7,
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 17
+          "count": 18
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "eリコリス・リコイル",
-          "count": 7
+          "count": 8
         },
         {
           "rank": 4,
@@ -360,21 +360,21 @@
       },
       {
         "rank": 3,
+        "name": "ARROW浪速店",
+        "count": 11,
+        "x_url": "https://x.com/arrow_naniwa"
+      },
+      {
+        "rank": 4,
         "name": "キクヤ春日井店",
         "count": 11,
         "x_url": "https://x.com/315kasugai"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "楽園池袋店ゲートウェイ",
         "count": 11,
         "x_url": "https://x.com/rakuenikebukuro"
-      },
-      {
-        "rank": 5,
-        "name": "ARROW浪速店",
-        "count": 10,
-        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 6,
@@ -384,15 +384,15 @@
       },
       {
         "rank": 7,
-        "name": "マルハン仙台苦竹店",
+        "name": "メガフェイス1300淀川",
         "count": 9,
-        "x_url": "https://x.com/niga_maru"
+        "x_url": "https://x.com/megaface_1300"
       },
       {
         "rank": 8,
-        "name": "メガフェイス1300淀川",
-        "count": 8,
-        "x_url": "https://x.com/megaface_1300"
+        "name": "マルハン仙台苦竹店",
+        "count": 9,
+        "x_url": "https://x.com/niga_maru"
       },
       {
         "rank": 9,
@@ -431,17 +431,17 @@
       {
         "rank": 5,
         "name": "L炎炎ノ消防隊2",
-        "count": 22
+        "count": 23
       },
       {
         "rank": 6,
         "name": "Lチバリヨ2ZB",
-        "count": 19
+        "count": 20
       },
       {
         "rank": 7,
         "name": "Lかぐや様は告らせたい",
-        "count": 15
+        "count": 16
       },
       {
         "rank": 8,
@@ -463,7 +463,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 55
+        "count": 56
       },
       {
         "rank": 2,
@@ -477,12 +477,12 @@
       },
       {
         "rank": 4,
-        "name": "e東京喰種",
-        "count": 14
+        "name": "eリコリス・リコイル",
+        "count": 15
       },
       {
         "rank": 5,
-        "name": "eリコリス・リコイル",
+        "name": "e東京喰種",
         "count": 14
       },
       {
@@ -511,23 +511,24 @@
         "count": 5
       }
     ],
-    "total_count": 735
+    "total_count": 740
   },
   "store_complete_counts": {
     "プレイランドキャッスル熱田店": 13,
     "マルハンメガシティ三島駿東": 12,
+    "ARROW浪速店": 11,
     "キクヤ春日井店": 11,
     "楽園池袋店ゲートウェイ": 11,
-    "ARROW浪速店": 10,
     "SuperD'station東金店": 9,
+    "メガフェイス1300淀川": 9,
     "マルハン仙台苦竹店": 9,
-    "メガフェイス1300淀川": 8,
     "サガちゃんPARK": 8,
     "楽園大宮店": 8,
     "キング観光サウザンド栄若宮大通店": 8,
     "フェイス850佐賀": 7,
     "グランキコーナひたちなか店": 7,
     "マルハンメガシティ伊勢崎": 7,
+    "FACE1300小倉南店": 7,
     "SPACE(スペース444＆666)": 7,
     "ビックマーチ東習志野店": 7,
     "メガフェイス1450本山": 7,
@@ -536,11 +537,11 @@
     "パチンコの玉屋∞本店": 6,
     "マルハン小山千駄塚店": 6,
     "マルハン川越店": 6,
-    "FACE1300小倉南店": 6,
     "イーグルアールワン南8条店": 6,
     "キクヤ一宮店": 6,
     "テキサス小倉店": 6,
     "マルハン亀有店_亀にゃん": 6,
+    "パラディソ古川ドルフィン館": 5,
     "楽園蒲田店": 5,
     "SUPER CONCORDE 市野": 5,
     "T-MAX新栄店": 5,
@@ -553,7 +554,6 @@
     "マルハン仙台名坊店": 5,
     "SUPER COSMO PREMIUM大東店": 5,
     "DSGアリーナ高岡": 4,
-    "パラディソ古川ドルフィン館": 4,
     "メガフェイス930朝倉": 4,
     "グランドホール港南店": 4,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 4,
@@ -613,6 +613,7 @@
     "マルハン入間店": 3,
     "玉屋∞本店": 2,
     "ABC浜北店【パチンコ＆スロット】": 2,
+    "ガーデン東大宮店＠がしみや　4/21(火)リニューアル": 2,
     "ＢＩＧディッパー京都駅前店": 2,
     "クラブハウス庄内支店": 2,
     "ヴィーナスギャラリー清川店": 2,
@@ -800,7 +801,6 @@
     "ダイナム福岡久留米店": 1,
     "楽園ハッピーロード大山店": 1,
     "プラザ本店Ⅱ": 1,
-    "ガーデン東大宮店＠がしみや　4/21(火)リニューアル": 1,
     "すぎちゃん∞マルハン茂原店": 1,
     "メガガーデン所沢スロット館": 1,
     "ダイナム岡山倉敷中島店": 1,
