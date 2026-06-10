@@ -90,15 +90,21 @@ def main():
         all_entries.extend(entries)
 
     # シャード間重複排除 (同じツイートが複数シャードでヒットする場合)
-    seen: set[str] = set()
-    deduped: list[dict] = []
+    # text有のエントリを text空より優先する（handle_a が text空で keyword_b が text有のケース対策）
+    best: dict[str, dict] = {}
     for e in all_entries:
         eid = e.get("id", "")
-        if eid and eid not in seen:
-            seen.add(eid)
-            deduped.append(e)
+        if not eid:
+            continue
+        if eid not in best:
+            best[eid] = e
+        elif not best[eid].get("text") and e.get("text"):
+            best[eid] = e  # text空 → text有 に差し替え
+    deduped = list(best.values())
 
-    print(f"合計: {len(deduped)}件 (重複排除後, 元={len(all_entries)}件)")
+    text_upgraded = sum(1 for eid, e in best.items() if e.get("text"))
+    print(f"合計: {len(deduped)}件 (重複排除後, 元={len(all_entries)}件, text有優先更新有)")
+
 
     # store_handle 空欄を補完（keyword-mode で store_handle が未設定のエントリ向け安全網）
     handle_info = _load_handle_info()

@@ -1,10 +1,81 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-10 (COMPLETE_QUERIES最適化: 299→227件 / 新規8クエリ追加)
+更新日時: 2026-06-10 (Playwright text取得改善 / merge dedup強化 / recrawl_empty_text.py追加)
 
 ---
 
 ## 完了した作業
+
+### Playwright text取得精度改善 (2026-06-10) ✅
+
+#### 解析結果サマリ
+
+| 指標 | 値 |
+|------|-----|
+| text空エントリ | 33件 (4.5%) |
+| 原因 | PlaywrightによるtweetText DOM取得失敗（キーワード不足ではない） |
+| 分類: text空・images空 | 26件（削除済み/非公開 OR DOM完全失敗） |
+| 分類: text空・imagesあり | 7件（テキストDOMのみ失敗） |
+| store_official失敗率 | 3.9% |
+| store_manager失敗率 | 14.8%（4倍高い） |
+| 最多失敗日 | 2026-05-31（10/61件 = 16.4%） |
+| 失敗集中原因 | React hydration未完了時にinner_text()が空を返す |
+
+#### 実施した改善
+
+**1. `_extract_text_from_article()` ヘルパー追加** (`scripts/fetch_complete_info.py`)
+
+| フォールバック順 | 方法 |
+|---------------|------|
+| 1st | `el.inner_text()` (通常ケース) |
+| 2nd | `el.text_content()` (partial hydration時) |
+| 3rd | `article.evaluate("innerText \|\| textContent")` (hydration未完了時) |
+
+対象セレクター: `[data-testid="tweetText"]` → `[lang]` の順
+
+**2. `scrape_query` / `scrape_timeline` のtext抽出をヘルパーで統一**
+
+- `scrape_query` (line ~1148): インライン抽出コードを削除 → `_extract_text_from_article()` 呼び出しに置換
+- `scrape_timeline` (line ~1272): 同上
+
+**3. `merge_complete_data.py` dedup強化**
+
+- 変更前: 最初出現優先（handle_a が text空、keyword_b が text有 → text空が勝つバグ）
+- 変更後: **text有優先** — 同一IDで text空 vs text有 なら text有に差し替え
+
+**4. `scripts/recrawl_empty_text.py` 新規作成**
+
+text空33件を再クロールしてテキスト回復するスクリプト:
+```bash
+# 全件再クロール
+python scripts/recrawl_empty_text.py --headless
+
+# dry-run（変更なし・確認のみ）
+python scripts/recrawl_empty_text.py --dry-run
+
+# 上限指定
+python scripts/recrawl_empty_text.py --limit 10
+```
+
+#### 改善後の期待指標
+
+| 指標 | 現在 | 期待（保守）| 期待（楽観） |
+|------|------|------------|-------------|
+| text取得率 | 95.5% (702/735) | 96.5% (+7) | 98.9% (+25) |
+| ランキング追加件数 | - | +7件 | +25件 |
+| store_id補完可能 | - | +最大18件 | - |
+| slot_number補完可能 | - | +最大8件 | - |
+
+#### ランキング影響試算（text空33件が全回復した場合）
+
+| 店舗 | 現在 | 回復後 |
+|------|------|--------|
+| イーグルアールワン南8条店 | 6 | **9** (+3) |
+| マルハン青梅新町店 | 3 | **5** (+2) |
+| MGM鈴鹿店 | 2 | **4** (+2) |
+| マルハン仙台苦竹店 | 9 | **10** (+1) |
+
+---
 
 ### COMPLETE_QUERIES 最適化 (2026-06-10) ✅
 

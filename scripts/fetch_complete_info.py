@@ -1058,6 +1058,51 @@ def parse_tweet(text: str, tweet_url: str,
     }
 
 
+def _extract_text_from_article(article) -> str:
+    """articleからツイートテキストを多段フォールバックで抽出する。
+
+    X の React hydration タイミングにより inner_text() が空になることがあるため、
+    text_content() → JS evaluate() の順でフォールバックを試みる。
+    """
+    for sel in ['[data-testid="tweetText"]', '[lang]']:
+        el = article.query_selector(sel)
+        if not el:
+            continue
+        # 1st: inner_text（通常ケース）
+        try:
+            t = (el.inner_text() or "").strip()
+            if len(t) > 10:
+                return t
+        except Exception:
+            pass
+        # 2nd: text_content（partial hydration fallback）
+        try:
+            t = (el.text_content() or "").strip()
+            if len(t) > 10:
+                return t
+        except Exception:
+            pass
+    # 3rd: JS evaluate（hydration 未完了時の最終手段）
+    try:
+        t = article.evaluate(
+            "el => {"
+            "  const tw = el.querySelector('[data-testid=\"tweetText\"]');"
+            "  if (tw) { const v = tw.innerText || tw.textContent || '';"
+            "    if (v.trim().length > 10) return v.trim(); }"
+            "  const lang = el.querySelector('[lang]');"
+            "  if (lang) { const v = lang.innerText || lang.textContent || '';"
+            "    if (v.trim().length > 10) return v.trim(); }"
+            "  return '';"
+            "}"
+        )
+        t = (t or "").strip()
+        if len(t) > 10:
+            return t
+    except Exception:
+        pass
+    return ""
+
+
 def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> list[dict]:
     results = []
     seen_urls: set[str] = set()
@@ -1100,14 +1145,7 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> lis
 
     for article in articles[:max_tweets]:
         try:
-            text = ""
-            for sel in ['[data-testid="tweetText"]', '[lang]']:
-                el = article.query_selector(sel)
-                if el:
-                    t = el.inner_text()
-                    if len(t) > 10:
-                        text = t
-                        break
+            text = _extract_text_from_article(article)
 
             tweet_url = ""
             time_el = article.query_selector("time")
@@ -1231,14 +1269,7 @@ def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
 
     for article in articles[:150]:
         try:
-            text = ""
-            for sel in ['[data-testid="tweetText"]', '[lang]']:
-                el = article.query_selector(sel)
-                if el:
-                    t = el.inner_text()
-                    if len(t) > 10:
-                        text = t
-                        break
+            text = _extract_text_from_article(article)
 
             if not text:
                 continue
