@@ -22,6 +22,28 @@
     "store_id": "142c75164f"
   },
   {
+    "id": "3130626e5546",
+    "date": "2026-06-10",
+    "time": "18:51",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "2356",
+    "text": "楽園池袋店ゲートウェイです 本日、6月10日(水)  パチンココーナーから 2356番台 【eリコリス・リコイル】  コンプリート機能が作動いたしました 本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2064646673536823775",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T16:30:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKcZNM8asAAjmOL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKcZNM8asAAjmOL?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "91d1f72aee4f",
     "date": "2026-06-10",
     "time": "16:43",
@@ -42,5 +64,27 @@
     "image_url": "https://pbs.twimg.com/media/HKb7rhJawAAKVCY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "c774e988a7"
+  },
+  {
+    "id": "b11158e800f3",
+    "date": "2026-06-10",
+    "time": "16:30",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "632",
+    "text": "コンプリート機能発動 先ほど、 ６３２番台   スマスロ革命機ヴァルヴレイヴ２にて コンプリート機能発動！！   明日開放予定になります。 この後も     #キャッスル春日井 へ   ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2064611111526396393",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T16:30:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKb41onasAAnmbU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKb41onasAAnmbU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
   }
 ]
