@@ -558,6 +558,28 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "2dd797a75177",
+    "date": "2026-06-07",
+    "time": "21:21",
+    "store": "MJアリーナ箱崎店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "515",
+    "text": "  本日6月7日   L北斗の拳転生の章2  　　　　515番台  　          コンプリート達成 　     おめでとうございます",
+    "x_url": "https://x.com/mjhakozaki/status/2063597303232082428",
+    "store_handle": "mjhakozaki",
+    "store_x_url": "https://x.com/mjhakozaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-10T09:42:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNez1CbQAAVmEr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNez1CbQAAVmEr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "c545330ad2"
+  },
+  {
     "id": "5435a2d4ba52",
     "date": "2026-06-07",
     "time": "21:01",
@@ -2699,8 +2721,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-09T21:38:14Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "082c2eac75",
-    "image_url": "https://pbs.twimg.com/profile_images/1275300911049396224/C8W8sRzJ_200x200.jpg?format=jpg&name=large"
+    "store_id": "082c2eac75"
   },
   {
     "id": "364057969fef",
@@ -8209,8 +8230,7 @@
     "collected_at": "2026-06-03T10:57:38Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "98752ae840",
-    "image_status": "no_image",
-    "image_url": "https://pbs.twimg.com/profile_images/1628816574462447616/zeuG7Nop_200x200.jpg?format=jpg&name=large"
+    "image_status": "no_image"
   },
   {
     "id": "7ee82b00fca7",
@@ -8585,8 +8605,7 @@
     "store_x_url": "https://x.com/xatokyo1223",
     "source_account_type": "store_official",
     "store_id": "98752ae840",
-    "image_status": "no_image",
-    "image_url": "https://pbs.twimg.com/profile_images/1628816574462447616/zeuG7Nop_200x200.jpg?format=jpg&name=large"
+    "image_status": "no_image"
   },
   {
     "id": "6af68667ee53",
@@ -12895,8 +12914,7 @@
     "store_x_url": "https://x.com/ishikawa_rakuen",
     "source_account_type": "store_official",
     "store_id": "ca52a63614",
-    "image_status": "no_image",
-    "image_url": "https://pbs.twimg.com/profile_images/2054872230883102721/uxK49Dni_200x200.jpg?format=jpg&name=large"
+    "image_status": "no_image"
   },
   {
     "id": "45dbc94604bd",
