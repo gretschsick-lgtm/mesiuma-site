@@ -1,10 +1,61 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-10 (store_handles 2608→2839件 +231件達成)
+更新日時: 2026-06-10 (complete_ranking 精度改善: store_id補完13件 / update_ranking store補完ロジック追加)
 
 ---
 
 ## 完了した作業
+
+### complete_ranking 精度改善 (2026-06-10) ✅
+
+#### COMPLETE監査結果
+
+| 項目 | 件数 |
+|------|------|
+| complete_info 総件数 | 735件 |
+| 有効件数（重複なし） | 735件 |
+| 重複件数 | 0件 |
+| 店舗不明（修正後残り） | 3件（manager / (店舗名不明)） |
+| machine不明件数 | 0件 |
+| slot_number不明件数 | 132件 |
+| store_idあり件数 | 699件 |
+| store_idなし件数 | 36件 |
+| ranking store_complete_counts合計 | 732件 |
+| ランキング差分 | 3件（修正不可manager） |
+
+#### source別集計
+
+| source | 件数 | 割合 |
+|--------|------|------|
+| store_official | 696件 | 94.7% |
+| store_manager | 37件 | 5.0% |
+| unknown | 2件 | 0.3% |
+
+#### 修正内容
+
+1. **complete_info.json 13件 store名補完**: store_handle → store_handles.json逆引きで空欄補完
+   - sagachan_park → サガちゃんPARK (3件)
+   - wl_odo → ワンダーランドODO (2件)
+   - megaface_1250 → メガフェイス1250 (1件)
+   - z_zoron → Zゾーン (1件)
+   - kitasenjusss → ピーアーク北千住エリア (2件)
+   - apulo_1229 → アプロ1229 (1件)
+   - megaseven777 → メガセブン (1件)
+   - daisyo365950 → スロット大将 (1件)
+   - tamanosuke1225 → 玉ノ助【パーラーダジュール公式】 (1件)
+
+2. **update_ranking() store補完ロジック追加**: store空欄時にstore_handle→store_handles.jsonで自動補完（恒久対策）
+
+#### 修正前後比較
+
+| 指標 | 修正前 | 修正後 |
+|------|--------|--------|
+| ranking合計 | 719件 | 732件 |
+| ランキング差分 | 16件 | 3件（最小限・修正不可） |
+| サガちゃんPARK total | 5件 | 8件 |
+| メガフェイス1250 total | 未計上 | 1件 |
+
+---
 
 ### store_handles 5000件拡張フェーズ (2026-06-09〜10)
 

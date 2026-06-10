@@ -2016,6 +2016,7 @@ def update_ranking():
 
     # store_handles.json も store_name→x_url マップとして使用（store_x_urls.json を補完）
     STORE_HANDLES_JSON2 = Path(__file__).parent.parent / "public/store_handles.json"
+    handle_to_store: dict[str, str] = {}  # handle → 正式店舗名（store空欄補完用）
     if STORE_HANDLES_JSON2.exists():
         try:
             _sh2 = json.loads(STORE_HANDLES_JSON2.read_text(encoding="utf-8"))
@@ -2024,6 +2025,9 @@ def update_ranking():
                     _sname2 = _info2["store"]
                     if _sname2 not in store_x_urls_map:
                         store_x_urls_map[_sname2] = _info2["x_url"]
+                    # handle → store_name マップ（(店舗名不明) は除外）
+                    if _sname2 and _sname2 != "(店舗名不明)":
+                        handle_to_store[_h2.lower()] = _sname2
         except Exception:
             pass
 
@@ -2079,7 +2083,13 @@ def update_ranking():
         if not d or len(d) < 7:
             continue
         ym = d[:7]  # "YYYY-MM"
-        store   = normalize_store((e.get("store") or "").strip(), e.get("x_url") or "")
+        _raw_store = (e.get("store") or "").strip()
+        # store 空欄時: store_handle → handle_to_store で補完
+        if not _raw_store:
+            _sh_key = (e.get("store_handle") or "").lower()
+            if _sh_key and _sh_key in handle_to_store:
+                _raw_store = handle_to_store[_sh_key]
+        store   = normalize_store(_raw_store, e.get("x_url") or "")
         machine = normalize_machine(e.get("machine") or "")
         mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
 
@@ -2140,7 +2150,12 @@ def update_ranking():
     total_slot_machine_counter:     Counter = Counter()
     total_pachinko_machine_counter: Counter = Counter()
     for e in all_data:
-        store   = normalize_store((e.get("store") or "").strip(), e.get("x_url") or "")
+        _raw_store2 = (e.get("store") or "").strip()
+        if not _raw_store2:
+            _sh_key2 = (e.get("store_handle") or "").lower()
+            if _sh_key2 and _sh_key2 in handle_to_store:
+                _raw_store2 = handle_to_store[_sh_key2]
+        store   = normalize_store(_raw_store2, e.get("x_url") or "")
         machine = normalize_machine(e.get("machine") or "")
         mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
         if store and store not in ("店舗不明",):
