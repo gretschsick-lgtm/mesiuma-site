@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-06-12T02:26:53+09:00",
+  "generated_at": "2026-06-12T03:30:03+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 230,
+      "total_count": 231,
       "stores": [
         {
           "rank": 1,
+          "name": "新ガーデン西浦和",
+          "count": 6,
+          "x_url": "https://x.com/g_nishiurawa"
+        },
+        {
+          "rank": 2,
           "name": "キクヤ春日井店",
           "count": 6,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "FACE1300小倉南店",
           "count": 6,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "マルハンメガシティ三島駿東",
           "count": 5,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 5,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ビックマーチ東習志野店",
           "count": 5,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "パチンコの玉屋∞本店",
           "count": 5,
           "x_url": "https://x.com/tamaya_honten"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ARROW浪速店",
           "count": 5,
           "x_url": "https://x.com/arrow_naniwa"
-        },
-        {
-          "rank": 8,
-          "name": "新ガーデン西浦和",
-          "count": 5,
-          "x_url": "https://x.com/g_nishiurawa"
         },
         {
           "rank": 9,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 52
+          "count": 53
         },
         {
           "rank": 2,
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 137
+        "count": 138
       },
       {
         "rank": 2,
@@ -511,7 +511,7 @@
         "count": 6
       }
     ],
-    "total_count": 760
+    "total_count": 761
   },
   "store_complete_counts": {
     "マルハンメガシティ三島駿東": 13,
@@ -527,6 +527,7 @@
     "サガちゃんPARK": 8,
     "マルハン仙台苦竹店": 8,
     "マルハン小山千駄塚店": 7,
+    "新ガーデン西浦和": 7,
     "フェイス850佐賀": 7,
     "楽園大宮店": 7,
     "グランキコーナひたちなか店": 7,
@@ -537,7 +538,6 @@
     "プレイランドキャッスル春日井店": 6,
     "キクヤ穂積店": 6,
     "T-MAX新栄店": 6,
-    "新ガーデン西浦和": 6,
     "マルハン川越店": 6,
     "イーグルアールワン南8条店": 6,
     "キクヤ一宮店": 6,
