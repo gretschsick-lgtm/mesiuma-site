@@ -1,5 +1,96 @@
 [
   {
+    "id": "8184e8f167c1",
+    "date": "2026-06-11",
+    "time": "22:43",
+    "store": "マルハン松本店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "392",
+    "text": "速報です。 本日e東京喰種W 392番台 #コンプリート  おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2065067287556849769",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-11T16:51:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ9cwLeboAEk3KK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ9cxkVaAAAI2R0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ9cwLeboAEk3KK?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "5b20cfecf8"
+  },
+  {
+    "id": "b7ee338ae261",
+    "date": "2026-06-11",
+    "time": "21:59",
+    "store": "マルハン松本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "452",
+    "text": "速報です。 本日L革命機ヴァルヴレイヴ2jF 452番台 #コンプリート  おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2065056369796083808",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-11T16:51:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HJ9cwLeboAEk3KK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ9cxkVaAAAI2R0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HJ9cwLeboAEk3KK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b20cfecf8"
+  },
+  {
+    "id": "a664bee03868",
+    "date": "2026-06-11",
+    "time": "21:45",
+    "store": "マルハン佐賀店実績",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "266",
+    "text": "e牙狼12黄金騎士極限 　　　266番台 　　　21時30分 　   コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2065052679290679720",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-11T16:49:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiJJ9GaoAAvx-m?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKiJRd_bIAAerfV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiJJ9GaoAAvx-m?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "40bee74824"
+  },
+  {
+    "id": "0f834f421dbb",
+    "date": "2026-06-11",
+    "time": "20:22",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "3163",
+    "text": "3163番台 ゴッドイーターリザレクション コンプリート機能が発動しましたので   遊技台停止となります。   明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2065031938067620105",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-11T16:46:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKh3U5gacAAWdK9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKh3U5gacAAWdK9?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "0e68345b3639",
     "date": "2026-06-11",
     "time": "18:15",
@@ -20,6 +111,28 @@
     "image_url": "https://pbs.twimg.com/media/HKhac2SXgAAblaJ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000030",
     "store_id": "971411637a"
+  },
+  {
+    "id": "04fbac59a24e",
+    "date": "2026-06-11",
+    "time": "15:15",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "879",
+    "text": "皆さんこんにちは マルハンメガシティ三島駿東から 新着コンプリート情報  ＬからくりサーカスＧ 879番台  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2064954764782367089",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-11T16:46:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKgwMzIa8AAQJVC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKgwMzIa8AAQJVC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "8732ea6f25e7",
@@ -175,6 +288,28 @@
     "image_url": "https://pbs.twimg.com/media/HKb41onasAAnmbU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "cbc9c2710d"
+  },
+  {
+    "id": "7fd454bf6a52",
+    "date": "2026-06-10",
+    "time": "13:01",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1508",
+    "text": "まだ昼過ぎですが… 1508番台 L革命機ヴァルヴレイヴ２ コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2064558540271018201",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-11T16:46:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKbJDLwasAA_eCx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKbJDLwasAA_eCx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "771f030669"
   },
   {
     "id": "d52c4d1b275e",
@@ -16114,151 +16249,5 @@
     "store_x_url": "https://x.com/marumitsu_hama",
     "source_account_type": "store_official",
     "store_id": "d754c8b22c"
-  },
-  {
-    "id": "78ca36512118",
-    "date": "2026-05-12",
-    "time": "23:40",
-    "store": "マルハン仙台苦竹店",
-    "machine": "eバイオハザード6",
-    "slot_number": "262",
-    "text": "マルハン仙台苦竹店です。  5/12(火)　23:10 262番台 eバイオハザード6APN  コンプリート機能発動",
-    "images": [
-      "https://pbs.twimg.com/media/HIICu_ca0AAc0x9?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIICu_ca0AAc0x9?format=jpg&name=large",
-    "x_url": "https://x.com/niga_maru/status/2054209983928263165",
-    "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "pachinko",
-    "machine_id": "11111111-1111-1111-1111-000000000030",
-    "store_handle": "niga_maru",
-    "store_x_url": "https://x.com/niga_maru",
-    "source_account_type": "store_official",
-    "store_id": "fb78bbe137"
-  },
-  {
-    "id": "dc85c44328e4",
-    "date": "2026-05-12",
-    "time": "21:02",
-    "store": "プレイランドキャッスル熱田店",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "slot_number": "3562",
-    "text": "Lミリオンゴッド 神々の軌跡 3562番台    コンプリート機能が発動しましたので     遊技台停止となります。     明日の開放をお待ちくださいませ。",
-    "images": [],
-    "image_url": "https://pbs.twimg.com/media/HIHg-AsbkAAUYfa?format=jpg&name=large",
-    "x_url": "https://x.com/castleatsuta/status/2054170389966950811",
-    "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_handle": "castleatsuta",
-    "store_x_url": "https://x.com/castleatsuta",
-    "source_account_type": "store_official",
-    "store_id": "cb0be1f296"
-  },
-  {
-    "id": "90c3c44222e2",
-    "date": "2026-05-12",
-    "time": "20:27",
-    "store": "クラブハウス庄内支店",
-    "machine": "スマスロ賭ケグルイ",
-    "slot_number": "435",
-    "text": "クラブハウス庄内支店 速報 435番台　eカケグルイ 7500ver 新台入替初日から…コンプリート達成 おめでとうございます  #クラブハウス #コンプリート #飯塚 #パチンコ #スロット",
-    "images": [
-      "https://pbs.twimg.com/media/HIHXsR4bYAAQX9w?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIHXtw_aEAAWuzh?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIHXvbmakAAuyKv?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HIHXwJ8boAAfA0k?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIHXsR4bYAAQX9w?format=jpg&name=large",
-    "x_url": "https://x.com/vd28829/status/2054161546721530035",
-    "collected_at": "2026-05-21T11:20:59Z",
-    "machine_type": "slot",
-    "machine_id": "1a50b566-ade8-422e-82c1-c601b448e226",
-    "store_handle": "vd28829",
-    "store_x_url": "https://x.com/vd28829",
-    "source_account_type": "store_official",
-    "store_id": "e4c0e587eb"
-  },
-  {
-    "id": "d04407c69636",
-    "date": "2026-05-12",
-    "time": "19:08",
-    "store": "キコーナ相武台店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "slot_number": "513",
-    "text": "キコーナ相武台店です  先程、46枚スロットコーナー 513番台L北斗の拳転生の章2にて  コンプリート達成！  おめでとうございます   この後のお時間も お楽しみ下さいませ  #つぶやキコーナ",
-    "images": [
-      "https://pbs.twimg.com/media/HIHG1qAakAALOBl?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIHG1qAakAALOBl?format=jpg&name=large",
-    "x_url": "https://x.com/Kicona_sobudai/status/2054141541850161284",
-    "collected_at": "2026-05-21T11:20:59Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_handle": "kicona_sobudai",
-    "store_x_url": "https://x.com/kicona_sobudai",
-    "source_account_type": "store_official",
-    "store_id": "7a072365d8"
-  },
-  {
-    "id": "da25344386cc",
-    "date": "2026-05-12",
-    "time": "18:30",
-    "store": "プレイランドキャッスル熱田店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "slot_number": "3273",
-    "text": "L革命期ヴァルヴレイヴ２ 3273番台   コンプリート機能が発動しましたので    遊技台停止となります。    明日の開放をお待ちくださいませ。",
-    "images": [],
-    "image_url": "https://pbs.twimg.com/media/HIG7lona8AAoga0?format=jpg&name=large",
-    "x_url": "https://x.com/castleatsuta/status/2054131989075337588",
-    "collected_at": "2026-05-21T11:24:29Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_handle": "castleatsuta",
-    "store_x_url": "https://x.com/castleatsuta",
-    "source_account_type": "store_official",
-    "store_id": "cb0be1f296"
-  },
-  {
-    "id": "0ba1dc5771f8",
-    "date": "2026-05-12",
-    "time": "18:20",
-    "store": "キャッスル春日井",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "slot_number": "2006",
-    "text": "コンプリート機能発動 先ほど、2006番台 ミリオンゴッド神々の軌跡にて   コンプリート機能発動！！   明日開放予定になります。   明日も #キャッスル春日井 お待ちしております♪",
-    "images": [
-      "https://pbs.twimg.com/media/HIG73cSbAAABaOg?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIG73cSbAAABaOg?format=jpg&name=large",
-    "x_url": "https://x.com/castle_kasugai/status/2054129486145401230",
-    "collected_at": "2026-05-21T11:24:30Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_handle": "castle_kasugai",
-    "store_x_url": "https://x.com/castle_kasugai",
-    "source_account_type": "store_official",
-    "store_id": "cbc9c2710d"
-  },
-  {
-    "id": "fd261019e11d",
-    "date": "2026-05-12",
-    "time": "18:19",
-    "store": "キャッスル春日井",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "slot_number": "2017",
-    "text": "コンプリート機能発動 先ほど、2017番台 ミリオンゴッド神々の軌跡にて   コンプリート機能発動！！   明日開放予定になります。   明日も #キャッスル春日井 お待ちしております♪",
-    "images": [
-      "https://pbs.twimg.com/media/HIG7qdcbwAA9mwh?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIG7qdcbwAA9mwh?format=jpg&name=large",
-    "x_url": "https://x.com/castle_kasugai/status/2054129301822582926",
-    "collected_at": "2026-05-21T11:24:30Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_handle": "castle_kasugai",
-    "store_x_url": "https://x.com/castle_kasugai",
-    "source_account_type": "store_official",
-    "store_id": "cbc9c2710d"
   }
 ]
