@@ -17991,5 +17991,173 @@
     "pref": "愛媛県",
     "count": 0,
     "type": "store"
+  },
+  "bekonyan": {
+    "store": "マルハン中標津店",
+    "x_url": "https://x.com/bekonyan",
+    "pref": "北海道",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhan_ebetsu": {
+    "store": "マルハン江別店",
+    "x_url": "https://x.com/maruhan_ebetsu",
+    "pref": "北海道",
+    "count": 0,
+    "type": "store"
+  },
+  "happyotaru": {
+    "store": "プレイランドハッピー小樽駅前店",
+    "x_url": "https://x.com/happyotaru",
+    "pref": "北海道",
+    "count": 0,
+    "type": "store"
+  },
+  "mutotantoma": {
+    "store": "豊平ひまわり",
+    "x_url": "https://x.com/mutotantoma",
+    "pref": "北海道",
+    "count": 0,
+    "type": "manager"
+  },
+  "dadakkotencho": {
+    "store": "豊平ひまわり",
+    "x_url": "https://x.com/dadakkotencho",
+    "pref": "北海道",
+    "count": 0,
+    "type": "manager"
+  },
+  "himawarioto": {
+    "store": "豊平ひまわり",
+    "x_url": "https://x.com/himawarioto",
+    "pref": "北海道",
+    "count": 0,
+    "type": "manager"
+  },
+  "tsubameaizu3939": {
+    "store": "ビックつばめ会津若松店",
+    "x_url": "https://x.com/tsubameaizu3939",
+    "pref": "福島県",
+    "count": 0,
+    "type": "store"
+  },
+  "fukushimaamaru": {
+    "store": "マルハン福島エリア",
+    "x_url": "https://x.com/fukushimaamaru",
+    "pref": "福島県",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruhan_yabuki": {
+    "store": "マルハン矢吹店",
+    "x_url": "https://x.com/maruhan_yabuki",
+    "pref": "福島県",
+    "count": 0,
+    "type": "store"
+  },
+  "aladdin_suka": {
+    "store": "アラジン須賀川店",
+    "x_url": "https://x.com/aladdin_suka",
+    "pref": "福島県",
+    "count": 0,
+    "type": "store"
+  },
+  "a_yatsuyamada": {
+    "store": "アラジン八山田店",
+    "x_url": "https://x.com/a_yatsuyamada",
+    "pref": "福島県",
+    "count": 0,
+    "type": "store"
+  },
+  "aladdin_p_s": {
+    "store": "アラジン白河店",
+    "x_url": "https://x.com/aladdin_p_s",
+    "pref": "福島県",
+    "count": 0,
+    "type": "store"
+  },
+  "Toki_yukari": {
+    "store": "新潟マルハン",
+    "x_url": "https://x.com/Toki_yukari",
+    "pref": "新潟県",
+    "count": 0,
+    "type": "manager"
+  },
+  "gpkoufu": {
+    "store": "ゲームパニック甲府",
+    "x_url": "https://x.com/gpkoufu",
+    "pref": "山梨県",
+    "count": 0,
+    "type": "store"
+  },
+  "ABC_alps": {
+    "store": "ABC甲府アルプス通り店",
+    "x_url": "https://x.com/ABC_alps",
+    "pref": "山梨県",
+    "count": 0,
+    "type": "store"
+  },
+  "ABCHATENKOU": {
+    "store": "ABC甲府昭和通り店",
+    "x_url": "https://x.com/ABCHATENKOU",
+    "pref": "山梨県",
+    "count": 0,
+    "type": "manager"
+  },
+  "concorde_kouya": {
+    "store": "コンコルド静岡紺屋町店",
+    "x_url": "https://x.com/concorde_kouya",
+    "pref": "静岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "Concorde_yuto": {
+    "store": "コンコルド浜松雄踏店",
+    "x_url": "https://x.com/Concorde_yuto",
+    "pref": "静岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "Concorde_kake": {
+    "store": "STAR CONCORDE 掛川店",
+    "x_url": "https://x.com/Concorde_kake",
+    "pref": "静岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "Concorde_midori": {
+    "store": "コンコルド静岡緑が丘店",
+    "x_url": "https://x.com/Concorde_midori",
+    "pref": "静岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "moomin_maruhan": {
+    "store": "マルハンメガシティ三島駿東",
+    "x_url": "https://x.com/moomin_maruhan",
+    "pref": "静岡県",
+    "count": 0,
+    "type": "manager"
+  },
+  "gameenoki4": {
+    "store": "えの木高松店",
+    "x_url": "https://x.com/gameenoki4",
+    "pref": "香川県",
+    "count": 0,
+    "type": "store"
+  },
+  "ABC_kamiahara": {
+    "store": "ABC甲府上阿原店",
+    "x_url": "https://x.com/ABC_kamiahara",
+    "pref": "山梨県",
+    "count": 0,
+    "type": "store"
+  },
+  "minatomaruhan": {
+    "store": "マルハン函館港店",
+    "x_url": "https://x.com/minatomaruhan",
+    "pref": "北海道",
+    "count": 0,
+    "type": "store"
   }
 }
