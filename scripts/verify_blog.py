@@ -91,6 +91,16 @@ MACHINE_FACTS: dict[str, dict] = {
         "must_not_contain": [],
         "maker": "バンナム",
     },
+    "超デカ超一撃": {
+        "must_contain":     ["HYPER喰種RUSH", "喰MAXループ"],
+        "must_not_contain": [],
+        "maker": "ビスティ",
+    },
+    "ダークハイビ": {
+        "must_contain":     ["ダークハイビモード", "BIG BONUS"],
+        "must_not_contain": [],
+        "maker": "パイオニア（ピーセカンド）",
+    },
 }
 
 # ─── 解析サイト画像ページ（メイン画像 + 設定示唆画像）───────────
@@ -115,6 +125,8 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
     "傾奇一転.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
     "賭ケグルイ":      ["https://chonborista.com/slot/yamasa/254870/"],
     "化物語.*鬼99":   ["https://nana-press.com/kaiseki/machine/1153/"],
+    "超デカ超一撃":    ["https://nana-press.com/kaiseki/machine/1196/"],
+    "ダークハイビ":    ["https://chonborista.com/slot/pionia-slot/257827/"],
 }
 
 # ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
