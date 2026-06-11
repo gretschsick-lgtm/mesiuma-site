@@ -17473,5 +17473,523 @@
     "pref": "福井県",
     "count": 0,
     "type": "manager"
+  },
+  "d_ootayajima": {
+    "store": "D'ステーション太田矢島店",
+    "x_url": "https://x.com/d_ootayajima",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "store"
+  },
+  "nagaokaheiji": {
+    "store": "マルハン長岡平島店",
+    "x_url": "https://x.com/nagaokaheiji",
+    "pref": "新潟県",
+    "count": 0,
+    "type": "store"
+  },
+  "face_701": {
+    "store": "フェイス701巨勢",
+    "x_url": "https://x.com/face_701",
+    "pref": "佐賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "tenguytoshima": {
+    "store": "テンガイ戸島店",
+    "x_url": "https://x.com/tenguytoshima",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhankanoya": {
+    "store": "マルハン鹿屋店",
+    "x_url": "https://x.com/maruhankanoya",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhanoroshi": {
+    "store": "マルハン卸本町店",
+    "x_url": "https://x.com/maruhanoroshi",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "maru_kanoya": {
+    "store": "まるみつ鹿屋店",
+    "x_url": "https://x.com/maru_kanoya",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "arrowtenri": {
+    "store": "ARROW天理店",
+    "x_url": "https://x.com/arrowtenri",
+    "pref": "奈良県",
+    "count": 0,
+    "type": "store"
+  },
+  "123kashihara": {
+    "store": "123+N橿原店",
+    "x_url": "https://x.com/123kashihara",
+    "pref": "奈良県",
+    "count": 0,
+    "type": "store"
+  },
+  "ichiban_ohm": {
+    "store": "ICHI-BAN近江八幡店SLOT333",
+    "x_url": "https://x.com/ichiban_ohm",
+    "pref": "滋賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "tenguykaratsu": {
+    "store": "テンガイ唐津店",
+    "x_url": "https://x.com/tenguykaratsu",
+    "pref": "佐賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "s_boss1226": {
+    "store": "スーパーBOSS",
+    "x_url": "https://x.com/s_boss1226",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "wakamiyad": {
+    "store": "D'ステーション前橋若宮店",
+    "x_url": "https://x.com/wakamiyad",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "store"
+  },
+  "ippon315": {
+    "store": "キクヤ千葉店",
+    "x_url": "https://x.com/ippon315",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "c_yamatokoizumi": {
+    "store": "サイバーパチンコ大和小泉店",
+    "x_url": "https://x.com/c_yamatokoizumi",
+    "pref": "奈良県",
+    "count": 0,
+    "type": "store"
+  },
+  "metro_hills": {
+    "store": "メトロヒルズ",
+    "x_url": "https://x.com/metro_hills",
+    "pref": "和歌山県",
+    "count": 0,
+    "type": "store"
+  },
+  "wing_hashimoto": {
+    "store": "ウイング橋本店",
+    "x_url": "https://x.com/wing_hashimoto",
+    "pref": "和歌山県",
+    "count": 0,
+    "type": "store"
+  },
+  "love_kainan1229": {
+    "store": "LOVE海南店",
+    "x_url": "https://x.com/love_kainan1229",
+    "pref": "和歌山県",
+    "count": 0,
+    "type": "store"
+  },
+  "ps_aqua756": {
+    "store": "パチンコ＆スロットアクア",
+    "x_url": "https://x.com/ps_aqua756",
+    "pref": "和歌山県",
+    "count": 0,
+    "type": "store"
+  },
+  "dstation_kaneko": {
+    "store": "スーパーD'ステーション金古店",
+    "x_url": "https://x.com/dstation_kaneko",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "store"
+  },
+  "mc_ichihara": {
+    "store": "メガサイバースロットパチンコ市原店",
+    "x_url": "https://x.com/mc_ichihara",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "manager"
+  },
+  "koufu_asahi": {
+    "store": "ニューアサヒ甲府南店",
+    "x_url": "https://x.com/koufu_asahi",
+    "pref": "山梨県",
+    "count": 0,
+    "type": "store"
+  },
+  "ichiban_honten_": {
+    "store": "ICHI-BAN本店",
+    "x_url": "https://x.com/ichiban_honten_",
+    "pref": "滋賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "durhams_1": {
+    "store": "Durham S-1",
+    "x_url": "https://x.com/durhams_1",
+    "pref": "滋賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_isesaki": {
+    "store": "ビックマーチ伊勢崎店",
+    "x_url": "https://x.com/bm_isesaki",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "store"
+  },
+  "maenakanohito": {
+    "store": "マルハンメガシティ前橋インター",
+    "x_url": "https://x.com/maenakanohito",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "manager"
+  },
+  "shinmaruten0701": {
+    "store": "マルハン前橋天川大島店",
+    "x_url": "https://x.com/shinmaruten0701",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "store"
+  },
+  "shigemaruarea": {
+    "store": "マルハン群馬エリア",
+    "x_url": "https://x.com/shigemaruarea",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "manager"
+  },
+  "maruki_777": {
+    "store": "パチンコマルキ松戸店",
+    "x_url": "https://x.com/maruki_777",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "toridereito": {
+    "store": "レイト取手",
+    "x_url": "https://x.com/toridereito",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "store"
+  },
+  "maru_kiriplus": {
+    "store": "まるみつ霧島店PLUS",
+    "x_url": "https://x.com/maru_kiriplus",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "newkorakuen_t": {
+    "store": "ニュー後楽園",
+    "x_url": "https://x.com/newkorakuen_t",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "western_sakura": {
+    "store": "ウエスタン佐倉店",
+    "x_url": "https://x.com/western_sakura",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "nishikatakai": {
+    "store": "マルハン前橋西片貝店",
+    "x_url": "https://x.com/nishikatakai",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "manager"
+  },
+  "tomoenaganuma": {
+    "store": "パールショップともえ稲毛長沼店",
+    "x_url": "https://x.com/tomoenaganuma",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "tokushima_m_nys": {
+    "store": "ミリオン中吉野店",
+    "x_url": "https://x.com/tokushima_m_nys",
+    "pref": "徳島県",
+    "count": 0,
+    "type": "store"
+  },
+  "mg_kisuke": {
+    "store": "MGキスケ店",
+    "x_url": "https://x.com/mg_kisuke",
+    "pref": "愛媛県",
+    "count": 0,
+    "type": "store"
+  },
+  "kit_kisuke": {
+    "store": "KIT(キスケBOX3F)",
+    "x_url": "https://x.com/kit_kisuke",
+    "pref": "愛媛県",
+    "count": 0,
+    "type": "store"
+  },
+  "lsno0430": {
+    "store": "ライブガーデン佐野店・佐野スロット店",
+    "x_url": "https://x.com/lsno0430",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "livetotigi": {
+    "store": "ライブガーデン栃木本店",
+    "x_url": "https://x.com/livetotigi",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "island_sano": {
+    "store": "アイランド佐野店",
+    "x_url": "https://x.com/island_sano",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "loym1152": {
+    "store": "スーパーライブガーデン小山喜沢店",
+    "x_url": "https://x.com/loym1152",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "lnogi1007": {
+    "store": "スーパーライブガーデン野木店",
+    "x_url": "https://x.com/lnogi1007",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "daieisano": {
+    "store": "ダイエー佐野店",
+    "x_url": "https://x.com/DAIEISANO",
+    "pref": "栃木県",
+    "count": 0,
+    "type": "store"
+  },
+  "mgm254638": {
+    "store": "MGM水戸北店スタッフ(さくらこ)",
+    "x_url": "https://x.com/mgm254638",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "manager"
+  },
+  "olympus205": {
+    "store": "オリンパス船橋店",
+    "x_url": "https://x.com/olympus205",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "456_goddess": {
+    "store": "メガ・ガディス JR船橋駅前店",
+    "x_url": "https://x.com/456_goddess",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "mgmizumi": {
+    "store": "MGM出水店",
+    "x_url": "https://x.com/MGMizumi",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_gakumori": {
+    "store": "ビックマーチつくば学園の森店スタッフ",
+    "x_url": "https://x.com/bm_gakumori",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "manager"
+  },
+  "bm_katsuta": {
+    "store": "ビックマーチ勝田店",
+    "x_url": "https://x.com/bm_katsuta",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "store"
+  },
+  "venicenara": {
+    "store": "ベニス奈良店",
+    "x_url": "https://x.com/venicenara",
+    "pref": "奈良県",
+    "count": 0,
+    "type": "store"
+  },
+  "kicona1111_39": {
+    "store": "キコーナひたちなか店",
+    "x_url": "https://x.com/kicona1111_39",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "store"
+  },
+  "carol96kamimine": {
+    "store": "キャロル96上峰店",
+    "x_url": "https://x.com/carol96kamimine",
+    "pref": "佐賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "arenakashiwa": {
+    "store": "エクスアリーナ柏",
+    "x_url": "https://x.com/arenakashiwa",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "kashiwa_sw": {
+    "store": "SUPERWAVE柏店",
+    "x_url": "https://x.com/kashiwa_sw",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "concordemiyacon": {
+    "store": "SKY CONCORDE富士宮",
+    "x_url": "https://x.com/Concordemiyacon",
+    "pref": "静岡県",
+    "count": 0,
+    "type": "store"
+  },
+  "asuwan_m": {
+    "store": "アスワン幕張店",
+    "x_url": "https://x.com/asuwan_m",
+    "pref": "千葉県",
+    "count": 0,
+    "type": "store"
+  },
+  "million_heiwa": {
+    "store": "ミリオン平和台店",
+    "x_url": "https://x.com/million_heiwa",
+    "pref": "徳島県",
+    "count": 0,
+    "type": "store"
+  },
+  "yeskaseda": {
+    "store": "イエスランド加世田店",
+    "x_url": "https://x.com/yeskaseda",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "morinagadai2g3": {
+    "store": "モリナガ天文館第二G3店",
+    "x_url": "https://x.com/MorinagaDai2G3",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "morinagasoumori": {
+    "store": "モリナガ草牟田店",
+    "x_url": "https://x.com/MorinagaSoumori",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "morinagananei": {
+    "store": "モリナガ第一&第二南栄店",
+    "x_url": "https://x.com/MorinagaNanei",
+    "pref": "鹿児島県",
+    "count": 0,
+    "type": "store"
+  },
+  "bmsc_yachiyo": {
+    "store": "ビックマーチスロットクラブ八千代",
+    "x_url": "https://x.com/bmsc_yachiyo",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "store"
+  },
+  "bm_yachiyo": {
+    "store": "ビックマーチ八千代店",
+    "x_url": "https://x.com/bm_yachiyo",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "store"
+  },
+  "v_ritto": {
+    "store": "ベニス栗東店",
+    "x_url": "https://x.com/v_ritto",
+    "pref": "滋賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "maruhan_taka803": {
+    "store": "マルハン高松店",
+    "x_url": "https://x.com/maruhan_taka803",
+    "pref": "香川県",
+    "count": 0,
+    "type": "store"
+  },
+  "apinana_nagaoka": {
+    "store": "アピナ長岡店",
+    "x_url": "https://x.com/apinana_nagaoka",
+    "pref": "新潟県",
+    "count": 0,
+    "type": "store"
+  },
+  "mgm23512917": {
+    "store": "MGM下妻店",
+    "x_url": "https://x.com/mgm23512917",
+    "pref": "茨城県",
+    "count": 0,
+    "type": "store"
+  },
+  "mawakayamainter": {
+    "store": "マルハン和歌山インター店",
+    "x_url": "https://x.com/mawakayamainter",
+    "pref": "和歌山県",
+    "count": 0,
+    "type": "store"
+  },
+  "nagahama1011": {
+    "store": "キング観光サウザンド長浜インター店",
+    "x_url": "https://x.com/nagahama1011",
+    "pref": "滋賀県",
+    "count": 0,
+    "type": "store"
+  },
+  "123matsushige": {
+    "store": "123松茂店",
+    "x_url": "https://x.com/123matsushige",
+    "pref": "徳島県",
+    "count": 0,
+    "type": "store"
+  },
+  "kouchitakasu": {
+    "store": "マルハン高知高須店",
+    "x_url": "https://x.com/kouchitakasu",
+    "pref": "高知県",
+    "count": 0,
+    "type": "store"
+  },
+  "marutatedanyan": {
+    "store": "マルハン館林店",
+    "x_url": "https://x.com/marutatedanyan",
+    "pref": "群馬県",
+    "count": 0,
+    "type": "manager"
+  },
+  "supernikko_go": {
+    "store": "Super Nikko",
+    "x_url": "https://x.com/SuperNikko_Go",
+    "pref": "愛媛県",
+    "count": 0,
+    "type": "store"
   }
 }
