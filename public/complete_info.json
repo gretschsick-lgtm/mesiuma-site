@@ -1401,6 +1401,28 @@
     "store_id": "53cfcde9a2"
   },
   {
+    "id": "4151124fdef7",
+    "date": "2026-06-07",
+    "time": "20:25",
+    "store": "マルハン川越店",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "102",
+    "text": "マルハン川越店です！ コンプリート速報 e エヴァンゲリオン17 102番台  おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2063582995085251012",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T00:30:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKNQiQRaQAAneq3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKNQiQRaQAAneq3?format=jpg&name=large",
+    "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b",
+    "store_id": "3917e74a54"
+  },
+  {
     "id": "45458a798697",
     "date": "2026-06-07",
     "time": "20:11",
