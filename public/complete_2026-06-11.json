@@ -92,6 +92,28 @@
     "store_id": "40bee74824"
   },
   {
+    "id": "04ba2b9b1856",
+    "date": "2026-06-11",
+    "time": "21:41",
+    "store": "メガフェイス1450本山",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1316",
+    "text": "コンプリート速報  1316番台　ヴァルヴレイヴ2 #コンプリート　達成です  おめでとうございます  ハラキリの力、凄い  #ヴァルヴレイヴ2 #メガフェイス1450本山店",
+    "x_url": "https://x.com/megaface_1450/status/2065051743713628501",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T16:14:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiEZZTbQAA-jQ0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiEZZTbQAA-jQ0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "0f834f421dbb",
     "date": "2026-06-11",
     "time": "20:22",
@@ -156,5 +178,28 @@
     "image_url": "https://pbs.twimg.com/media/HKgwMzIa8AAQJVC?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000021",
     "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "7436ac6be3f2",
+    "date": "2026-06-11",
+    "time": "14:48",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプ速報〜  本日1台目のコンプリートは 豊崎Ⅱの週間オススメ機種の e東京喰種から  おめでとうございます",
+    "x_url": "https://x.com/megaface_1120/status/2064947741403586692",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T16:14:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKgp0Vza8AApKJ0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKgp1OXasAAyEun?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKgp0Vza8AApKJ0?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "036ad33f3f"
   }
 ]

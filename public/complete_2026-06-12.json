@@ -46,6 +46,51 @@
     "store_id": "dae931c16e"
   },
   {
+    "id": "0675f354094d",
+    "date": "2026-06-12",
+    "time": "20:35",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2105",
+    "text": "楽園池袋店ゲートウェイです 本日、6月12日(金)  パチンココーナーから 2105番台 【e牙狼12　黄金騎士極限】  本日2台目 コンプリート機能が作動いたしました 本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ",
+    "x_url": "https://x.com/rakuenikebukuro/status/2065397626254815285",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T16:12:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKnEMacbMAAro8c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKnEMacbMAAro8c?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ef707cf8fe"
+  },
+  {
+    "id": "ba7f75c7d1bb",
+    "date": "2026-06-12",
+    "time": "19:21",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート速報 豊崎Ⅱ 東京喰種より コンプリーーーート！！！  横も５万その横も４万・・・？ オススメ機種おそるべし・・・ コンプリート達成おめでとうございます #玉道場 #e東京喰種 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2065379025015673127",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T16:14:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKmxrYfagAAHMBs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKmxsqHaMAAp5Qq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKmxrYfagAAHMBs?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "10d712864e6e",
     "date": "2026-06-12",
     "time": "17:05",
