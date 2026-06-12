@@ -250,6 +250,28 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "c522e009b164",
+    "date": "2026-06-11",
+    "time": "20:23",
+    "store": "光サウザンド桑名本店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "#キング観光サウザンド桑名本店 ６月11日(木) #Lチバリヨ2 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/kingkuwana/status/2065032196340273507",
+    "store_handle": "kingkuwana",
+    "store_x_url": "https://x.com/kingkuwana",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T20:24:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKh3Jz6akAAg6rH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKh3Jz6akAAg6rH?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "0097ac46b6"
+  },
+  {
     "id": "0f834f421dbb",
     "date": "2026-06-11",
     "time": "20:22",
