@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-06-12T19:38:28+09:00",
+  "generated_at": "2026-06-12T22:33:49+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 235,
+      "total_count": 238,
       "stores": [
         {
           "rank": 1,
+          "name": "ARROW浪速店",
+          "count": 6,
+          "x_url": "https://x.com/arrow_naniwa"
+        },
+        {
+          "rank": 2,
           "name": "新ガーデン西浦和",
           "count": 6,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "キクヤ春日井店",
           "count": 6,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "FACE1300小倉南店",
           "count": 6,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "マルハンメガシティ三島駿東",
           "count": 5,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 5,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "ビックマーチ東習志野店",
           "count": 5,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "パチンコの玉屋∞本店",
           "count": 5,
           "x_url": "https://x.com/tamaya_honten"
-        },
-        {
-          "rank": 8,
-          "name": "ARROW浪速店",
-          "count": 5,
-          "x_url": "https://x.com/arrow_naniwa"
         },
         {
           "rank": 9,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 54
+          "count": 55
         },
         {
           "rank": 2,
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 20
+          "count": 21
         },
         {
           "rank": 2,
@@ -373,7 +373,7 @@
       {
         "rank": 5,
         "name": "ARROW浪速店",
-        "count": 11,
+        "count": 12,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 139
+        "count": 140
       },
       {
         "rank": 2,
@@ -463,7 +463,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 58
+        "count": 59
       },
       {
         "rank": 2,
@@ -511,14 +511,14 @@
         "count": 6
       }
     ],
-    "total_count": 765
+    "total_count": 768
   },
   "store_complete_counts": {
     "マルハンメガシティ三島駿東": 13,
     "キクヤ春日井店": 13,
     "プレイランドキャッスル熱田店": 12,
     "楽園池袋店ゲートウェイ": 12,
-    "ARROW浪速店": 11,
+    "ARROW浪速店": 12,
     "キング観光サウザンド栄若宮大通店": 9,
     "SuperD'station東金店": 9,
     "メガフェイス1300淀川": 9,
@@ -554,6 +554,7 @@
     "マルハン仙台名坊店": 5,
     "SUPER COSMO PREMIUM大東店": 5,
     "キャッスル春日井": 5,
+    "テキサス白島店": 4,
     "ユーコーラッキー37太宰府店": 4,
     "メガフェイス1070菊陽": 4,
     "キャッスル天白店": 4,
@@ -602,7 +603,6 @@
     "テキサス656山口店": 3,
     "大安寺マルハチ": 3,
     "ピーアーク北千住エリア": 3,
-    "テキサス白島店": 3,
     "MJアリーナ井尻店": 3,
     "りっちらんど上尾": 3,
     "マルハン青梅新町店【イイじゃん!】": 3,
@@ -614,6 +614,7 @@
     "キャッスル高浜店": 3,
     "店長あらた　マルハンメガシティ長野": 3,
     "マルハン入間店": 3,
+    "BIGディッパー花小金井店": 2,
     "ダイナム山梨笛吹店": 2,
     "SuperD'station39女神店": 2,
     "玉屋∞本店": 2,
@@ -776,7 +777,6 @@
     "ドキわくランド中河原駅前店": 1,
     "ベガスベガス名掛丁店": 1,
     "ダイナム江北店": 1,
-    "BIGディッパー花小金井店": 1,
     "ABC豊川店": 1,
     "つかさ月隈店（公式）": 1,
     "原　Strong": 1,
