@@ -265,6 +265,28 @@
     "store_id": "21517d1bec"
   },
   {
+    "id": "ef8e837d0436",
+    "date": "2026-06-09",
+    "time": "18:59",
+    "store": "メガガイア柳井",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは メガガイア柳井です  速報  本日 『スマスロ ミリオンゴッド‐神々の軌跡‐』が コンプリート達成致しました おめでとうございます  この後も是非お待ちしております ※設定示唆ではございません。",
+    "x_url": "https://x.com/YanaiMg/status/2064286143395557574",
+    "store_handle": "yanaimg",
+    "store_x_url": "https://x.com/yanaimg",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T08:45:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKXRTkBaUAAJnQq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKXRTkBaUAAJnQq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "d21346dd49"
+  },
+  {
     "id": "54f47466d7c0",
     "date": "2026-06-09",
     "time": "18:26",

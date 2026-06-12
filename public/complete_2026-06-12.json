@@ -1,0 +1,24 @@
+[
+  {
+    "id": "10d712864e6e",
+    "date": "2026-06-12",
+    "time": "17:05",
+    "store": "ユーコーラッキー37太宰府店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】  本日、当店設置の「ヴァルヴレイヴ」にて コンプリート機能が発動いたしました!!! ご遊技いただき、誠にありがとうございました。 引き続き、皆さまのご来店をお待ちしております。",
+    "x_url": "https://x.com/yuko_dazaifu/status/2065344698370478584",
+    "store_handle": "yuko_dazaifu",
+    "store_x_url": "https://x.com/yuko_dazaifu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T08:30:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKmT6sLa0AAtwnD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKmT6sLa0AAtwnD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "85ed302b85"
+  }
+]
