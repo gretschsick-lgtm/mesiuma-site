@@ -10,6 +10,9 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   # ─── JOB A: X アカウントタイムライン（メディア + 個別店舗）──────────────
   fetch-accounts:

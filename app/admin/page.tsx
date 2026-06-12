@@ -78,7 +78,7 @@ export default function AdminPage() {
   useEffect(() => {
     Promise.all([
       fetch("/complete_info.json").then((r) => r.json()).catch(() => []),
-      fetch("/events_public.json").then((r) => r.json()).catch(() => []),
+      fetch("/events_public.json").then((r) => r.json()).then((d) => d?.events ?? d ?? []).catch(() => []),
       fetch("/areas.json")
         .then((r) => r.json())
         .then((areas: Record<string, Record<string, unknown[]>>) => {
