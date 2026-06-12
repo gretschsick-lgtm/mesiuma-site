@@ -667,6 +667,28 @@
     "store_id": "bc0f789589"
   },
   {
+    "id": "3dcea5752d33",
+    "date": "2026-06-07",
+    "time": "16:52",
+    "store": "マルハンメガシティ八千代緑が丘",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "eフィーバーキン肉マンで コンプリート達成です！ おめでとうございます！！  #メガシティ八千代緑が丘",
+    "x_url": "https://x.com/maruhanmidori/status/2063529567369961788",
+    "store_handle": "maruhanmidori",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-06-12T17:32:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKMg9kMbkAAvyd-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKMg9kMbkAAvyd-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "39314b64e0"
+  },
+  {
     "id": "5c18fbbfd1da",
     "date": "2026-06-07",
     "time": "16:49",
@@ -775,28 +797,6 @@
     "image_url": "https://pbs.twimg.com/media/HKMSvpebkAAyKCz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "bcc41247bb"
-  },
-  {
-    "id": "0c2e5a4968a6",
-    "date": "2026-06-07",
-    "time": "14:35",
-    "store": "ビックマーチ東習志野店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "423",
-    "text": "千葉最大1409台の出玉情報  早くもコンプリート 『423番台 e牙狼』 怖いぐらい連荘したんだろうな 打っていたお客様おめでとうございます  コンプ予備軍も待機中！ 狙っちゃってください  #ビックマーチ #千葉最大",
-    "x_url": "https://x.com/joypackx/status/2063494956975894844",
-    "store_handle": "joypackx",
-    "store_x_url": "https://x.com/joypackx",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:15:30Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKMBukwaUAAUL91?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKMBukwaUAAUL91?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "e744c71a3d"
   },
   {
     "id": "9cf73c8aa53a",

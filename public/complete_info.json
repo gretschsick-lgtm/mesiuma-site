@@ -59,7 +59,7 @@
     "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:12:57Z",
+    "collected_at": "2026-06-12T16:54:16Z",
     "images": [
       "https://pbs.twimg.com/media/HKnEMacbMAAro8c?format=jpg&name=large"
     ],
@@ -81,7 +81,7 @@
     "store_x_url": "https://x.com/megaface_1120",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:14:14Z",
+    "collected_at": "2026-06-12T16:55:34Z",
     "images": [
       "https://pbs.twimg.com/media/HKmxrYfagAAHMBs?format=jpg&name=large",
       "https://pbs.twimg.com/media/HKmxsqHaMAAp5Qq?format=jpg&name=large"
@@ -218,7 +218,7 @@
     "store_x_url": "https://x.com/megaface_1450",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:14:44Z",
+    "collected_at": "2026-06-12T16:56:05Z",
     "images": [
       "https://pbs.twimg.com/media/HKiEZZTbQAA-jQ0?format=jpg&name=large"
     ],
@@ -306,7 +306,7 @@
     "store_x_url": "https://x.com/megaface_1120",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:14:14Z",
+    "collected_at": "2026-06-12T16:55:34Z",
     "images": [
       "https://pbs.twimg.com/media/HKgp0Vza8AApKJ0?format=jpg&name=large",
       "https://pbs.twimg.com/media/HKgp1OXasAAyEun?format=jpg&name=large"
@@ -1876,6 +1876,28 @@
     "store_id": "bc0f789589"
   },
   {
+    "id": "3dcea5752d33",
+    "date": "2026-06-07",
+    "time": "16:52",
+    "store": "マルハンメガシティ八千代緑が丘",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "eフィーバーキン肉マンで コンプリート達成です！ おめでとうございます！！  #メガシティ八千代緑が丘",
+    "x_url": "https://x.com/maruhanmidori/status/2063529567369961788",
+    "store_handle": "maruhanmidori",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-06-12T17:32:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKMg9kMbkAAvyd-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKMg9kMbkAAvyd-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "39314b64e0"
+  },
+  {
     "id": "5c18fbbfd1da",
     "date": "2026-06-07",
     "time": "16:49",
@@ -1984,28 +2006,6 @@
     "image_url": "https://pbs.twimg.com/media/HKMSvpebkAAyKCz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "bcc41247bb"
-  },
-  {
-    "id": "0c2e5a4968a6",
-    "date": "2026-06-07",
-    "time": "14:35",
-    "store": "ビックマーチ東習志野店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "423",
-    "text": "千葉最大1409台の出玉情報  早くもコンプリート 『423番台 e牙狼』 怖いぐらい連荘したんだろうな 打っていたお客様おめでとうございます  コンプ予備軍も待機中！ 狙っちゃってください  #ビックマーチ #千葉最大",
-    "x_url": "https://x.com/joypackx/status/2063494956975894844",
-    "store_handle": "joypackx",
-    "store_x_url": "https://x.com/joypackx",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:15:30Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKMBukwaUAAUL91?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKMBukwaUAAUL91?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "e744c71a3d"
   },
   {
     "id": "9cf73c8aa53a",
@@ -2141,28 +2141,6 @@
     "image_url": "https://pbs.twimg.com/media/HKIsCzyWQAAvVhW?format=jpg&name=large",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
     "store_id": "1c290737dc"
-  },
-  {
-    "id": "fbb2bf1e92a2",
-    "date": "2026-06-06",
-    "time": "23:00",
-    "store": "ダイナム金町南口店",
-    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "machine_type": "slot",
-    "slot_number": "432",
-    "text": "こんばんはダイナム金町南口店です  6月6日(土) 本日3回目のコンプリート報告  本日3回目の機種も スマスロ ミリオンゴッド-神々の軌跡-です 432番台 22時20分頃にコンプリート  長時間のご遊技お疲れ様でした  #ダイナム　#コンプ　#ゴッド",
-    "x_url": "https://x.com/dynam_00035/status/2063259728495431826",
-    "store_handle": "dynam_00035",
-    "store_x_url": "https://x.com/dynam_00035",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:32:49Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKIryF-XYAAaPUS?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKIryF-XYAAaPUS?format=jpg&name=large",
-    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
-    "store_id": "dcbb4c52ca"
   },
   {
     "id": "70ff5503c556",
@@ -2580,7 +2558,7 @@
     "store_x_url": "https://x.com/315kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-12T16:13:05Z",
+    "collected_at": "2026-06-12T16:54:24Z",
     "images": [
       "https://pbs.twimg.com/media/HKIWfE6bkAAI91f?format=jpg&name=large"
     ],
@@ -3289,6 +3267,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "703d5e39e5",
     "image_url": "https://pbs.twimg.com/media/HKHPLz3bkAAIzPb?format=jpg&name=large"
+  },
+  {
+    "id": "9777df49d09c",
+    "date": "2026-06-06",
+    "time": "15:51",
+    "store": "ワンダーランド1188鹿児島新栄店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "135",
+    "text": "コンプリート速報 135番台　牙狼12コンプリートしました ｵﾒﾃﾞﾄｳｺﾞｻﾞｲﾏｽ",
+    "x_url": "https://x.com/wl_kshinei/status/2063151722089116032",
+    "store_handle": "wl_kshinei",
+    "store_x_url": "https://x.com/wl_kshinei",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-12T17:02:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKHJEg3a4AE1qto?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKHJEg3a4AE1qto?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "3b4b2e74d4"
   },
   {
     "id": "689b691435af",

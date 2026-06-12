@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T01:52:47+09:00",
+  "generated_at": "2026-06-13T02:33:52+09:00",
   "monthly": [
     {
       "month": "2026-06",
@@ -20,39 +20,39 @@
         },
         {
           "rank": 3,
-          "name": "ビックマーチ東習志野店",
-          "count": 6,
-          "x_url": "https://x.com/joypackx"
-        },
-        {
-          "rank": 4,
           "name": "ARROW浪速店",
           "count": 6,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 5,
+          "rank": 4,
           "name": "新ガーデン西浦和",
           "count": 6,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "FACE1300小倉南店",
           "count": 6,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "マルハンメガシティ三島駿東",
           "count": 5,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 5,
           "x_url": "https://x.com/wakakin_tsujic"
+        },
+        {
+          "rank": 8,
+          "name": "ビックマーチ東習志野店",
+          "count": 5,
+          "x_url": "https://x.com/joypackx"
         },
         {
           "rank": 9,
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "Lミリオンゴッド神々の軌跡",
-          "count": 11
+          "count": 10
         },
         {
           "rank": 4,
@@ -137,12 +137,12 @@
         },
         {
           "rank": 4,
-          "name": "e東京喰種",
-          "count": 6
+          "name": "eフィーバーキン肉マン",
+          "count": 7
         },
         {
           "rank": 5,
-          "name": "eフィーバーキン肉マン",
+          "name": "e東京喰種",
           "count": 6
         },
         {
@@ -384,27 +384,27 @@
       },
       {
         "rank": 7,
-        "name": "ビックマーチ東習志野店",
-        "count": 9,
-        "x_url": "https://x.com/joypackx"
-      },
-      {
-        "rank": 8,
         "name": "SuperD'station東金店",
         "count": 9,
         "x_url": "https://x.com/sd_tougane"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "メガフェイス1300淀川",
         "count": 9,
         "x_url": "https://x.com/megaface_1300"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "name": "グランキコーナひたちなか店",
         "count": 8,
         "x_url": "https://x.com/gk_hitachinaka"
+      },
+      {
+        "rank": 10,
+        "name": "メガフェイス1450本山",
+        "count": 8,
+        "x_url": "https://x.com/megaface_1450"
       }
     ],
     "slot_machines": [
@@ -421,7 +421,7 @@
       {
         "rank": 3,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 50
+        "count": 49
       },
       {
         "rank": 4,
@@ -473,7 +473,7 @@
       {
         "rank": 3,
         "name": "eフィーバーキン肉マン",
-        "count": 24
+        "count": 25
       },
       {
         "rank": 4,
@@ -520,11 +520,11 @@
     "プレイランドキャッスル熱田店": 12,
     "ARROW浪速店": 12,
     "キング観光サウザンド栄若宮大通店": 9,
-    "ビックマーチ東習志野店": 9,
     "SuperD'station東金店": 9,
     "メガフェイス1300淀川": 9,
     "グランキコーナひたちなか店": 8,
     "メガフェイス1450本山": 8,
+    "ビックマーチ東習志野店": 8,
     "パチンコの玉屋∞本店": 8,
     "サガちゃんPARK": 8,
     "マルハン仙台苦竹店": 8,
@@ -540,7 +540,6 @@
     "プレイランドキャッスル春日井店": 6,
     "キクヤ穂積店": 6,
     "T-MAX新栄店": 6,
-    "ダイナム金町南口店": 6,
     "イーグルアールワン南8条店": 6,
     "キクヤ一宮店": 6,
     "テキサス小倉店": 6,
@@ -551,6 +550,7 @@
     "SUPER CONCORDE 市野": 5,
     "ＭＪアリーナ干隈店": 5,
     "パラッツォ鳩ヶ谷店": 5,
+    "ダイナム金町南口店": 5,
     "M&K岡崎店": 5,
     "マルハン仙台名坊店": 5,
     "SUPER COSMO PREMIUM大東店": 5,
@@ -673,9 +673,11 @@
     "やすだひばりヶ丘店": 1,
     "クラブハウス庄内支店": 1,
     "ビッグパンドラ井土ヶ谷店新館": 1,
+    "マルハンメガシティ八千代緑が丘": 1,
     "ZENT可児店": 1,
     "DAITOYO　Prime": 1,
     "ワンダーランド　うきはバイパス店": 1,
+    "ワンダーランド1188鹿児島新栄店": 1,
     "キコーナ海老名店": 1,
     "DASULLAR 津幡店": 1,
     "ＡＢＣ豊川店": 1,
