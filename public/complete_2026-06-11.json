@@ -311,7 +311,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-13T17:02:42Z",
     "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "dd02f6f68a"
+    "store_id": "dd02f6f68a",
+    "image_url": "https://pbs.twimg.com/media/HKhkz7gbYAAHI7n.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HKhkz7gbYAAHI7n.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKhkz7gbYAAHI7n.jpg?format=jpg&name=large"
+    ]
   },
   {
     "id": "0e68345b3639",
@@ -334,6 +339,29 @@
     "image_url": "https://pbs.twimg.com/media/HKhac2SXgAAblaJ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000030",
     "store_id": "971411637a"
+  },
+  {
+    "id": "6e6dd39e2e8d",
+    "date": "2026-06-11",
+    "time": "17:25",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "481",
+    "text": "こんばんは マルハンメガシティ三島駿です  本日２台目 新着コンプリート情報  ■e牙狼12　黄金騎士極限■ 481番台  おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2064987248043385036",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T18:04:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKhMOd7acAA-lVH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKgwMzIa8AAQJVC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKhMOd7acAA-lVH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "04fbac59a24e",
@@ -379,6 +407,28 @@
     "image_url": "https://pbs.twimg.com/media/HKgp0Vza8AApKJ0?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "036ad33f3f"
+  },
+  {
+    "id": "1b5df39a61dd",
+    "date": "2026-06-11",
+    "time": "14:23",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "440",
+    "text": "440番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリートおめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2064941578175869148",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T18:03:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKglXXWbgAAfT9-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKglXXWbgAAfT9-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5a18003e2d"
   },
   {
     "id": "5ca1e9857f44",

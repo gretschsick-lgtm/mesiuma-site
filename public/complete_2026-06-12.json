@@ -1,5 +1,23 @@
 [
   {
+    "id": "ae90c50732f5",
+    "date": "2026-06-12",
+    "time": "23:33",
+    "store": "マルハン仙台名坊店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "2457",
+    "text": "【2457番台】  【機種名 スマスロ ミリオンゴッド‐神々の軌跡‐】  でコンプリート達成    おめでとうございます  データを確認できる マルハンアプリはこちらから   http://maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/naebomaruhan/status/2065442438622359932",
+    "store_handle": "naebomaruhan",
+    "store_x_url": "https://x.com/naebomaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T18:35:57Z",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "01a41812b5"
+  },
+  {
     "id": "edb0a78f4057",
     "date": "2026-06-12",
     "time": "22:36",
@@ -226,6 +244,28 @@
     "image_url": "https://pbs.twimg.com/media/HKltDBibcAAkBIP?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "ef707cf8fe"
+  },
+  {
+    "id": "8696c6d36095",
+    "date": "2026-06-12",
+    "time": "09:30",
+    "store": "楽園大宮店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "621",
+    "text": "昨日！！  1円パチンコ621番台  e東京喰種MWにて  コンプリート達成！！ おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2065592487146574204",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T18:35:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKoLwQfbgAAIu-t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKoLwQfbgAAIu-t?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04950fcd53"
   },
   {
     "id": "67bdc959ba66",
