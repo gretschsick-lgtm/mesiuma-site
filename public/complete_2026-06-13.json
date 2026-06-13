@@ -1,5 +1,27 @@
 [
   {
+    "id": "0c3d41abf340",
+    "date": "2026-06-13",
+    "time": "17:53",
+    "store": "ミリオン宇多津店",
+    "machine": "eアズールレーン2",
+    "machine_type": "pachinko",
+    "slot_number": "236",
+    "text": "コンプリートのお知らせです  ⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆  236番台  eアズールレーン  ⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆  以上ミリオン宇多津店からの お知らせでした⋆͛⋆",
+    "x_url": "https://x.com/mn_utazu/status/2065719221687140774",
+    "store_handle": "mn_utazu",
+    "store_x_url": "https://x.com/mn_utazu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T08:57:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrolrGacAAwli4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrolrGacAAwli4?format=jpg&name=large",
+    "machine_id": "72c0ff95-f4d1-4075-a45f-d9952b2cde3c",
+    "store_id": "bc6d6b4e4b"
+  },
+  {
     "id": "a5d77707bde1",
     "date": "2026-06-13",
     "time": "15:45",

@@ -1,5 +1,27 @@
 [
   {
+    "id": "0c3d41abf340",
+    "date": "2026-06-13",
+    "time": "17:53",
+    "store": "ミリオン宇多津店",
+    "machine": "eアズールレーン2",
+    "machine_type": "pachinko",
+    "slot_number": "236",
+    "text": "コンプリートのお知らせです  ⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆  236番台  eアズールレーン  ⋆┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⋆  以上ミリオン宇多津店からの お知らせでした⋆͛⋆",
+    "x_url": "https://x.com/mn_utazu/status/2065719221687140774",
+    "store_handle": "mn_utazu",
+    "store_x_url": "https://x.com/mn_utazu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T08:57:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrolrGacAAwli4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrolrGacAAwli4?format=jpg&name=large",
+    "machine_id": "72c0ff95-f4d1-4075-a45f-d9952b2cde3c",
+    "store_id": "bc6d6b4e4b"
+  },
+  {
     "id": "a5d77707bde1",
     "date": "2026-06-13",
     "time": "15:45",
@@ -3209,6 +3231,28 @@
     "image_url": "https://pbs.twimg.com/media/HKH1EQfbUAAMssS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003",
     "store_id": "01a41812b5"
+  },
+  {
+    "id": "e7db316e93aa",
+    "date": "2026-06-06",
+    "time": "19:01",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "613",
+    "text": "Lミリオンゴッド-神々の軌跡-から コンプリート達成です  おめでとうございます  #613番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2063199682655072262",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T08:57:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKH1FNzaQAAbMQH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKH1FNzaQAAbMQH?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "703d5e39e5"
   },
   {
     "id": "76fdddd36597",
