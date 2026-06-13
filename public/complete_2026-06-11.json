@@ -1,5 +1,53 @@
 [
   {
+    "id": "bc6f752109df",
+    "date": "2026-06-11",
+    "time": "23:57",
+    "store": "メガフェイス930朝倉",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "738",
+    "text": "本日のMVP  スロットコーナー【738番台】 #北斗転生  コンプリート  パチンココーナー【439番台】 #牙狼 87500pt   リニューアル【3日目】は コンプリート＆10000over多数の 大盛り上がりな1日  明日から始まる 『共闘 盟友伝』も 目が離せませんよ〜  #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2065085983989924057",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:33:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKionF6acAAHsba?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKiotWVakAA_jeN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "e88b656fb5"
+  },
+  {
+    "id": "6611c2cfa7a1",
+    "date": "2026-06-11",
+    "time": "23:57",
+    "store": "メガフェイス930朝倉",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日のMVP  スロットコーナー【738番台】 #北斗転生  コンプリート  パチンココーナー【439番台】 #牙狼 87500pt   リニューアル【3日目】は コンプリート＆10000over多数の 大盛り上がりな1日  明日から始まる 『共闘 盟友伝』も 目が離せませんよ〜  #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2065085983989924057",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:33:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKionF6acAAHsba?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKiotWVakAA_jeN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e88b656fb5"
+  },
+  {
     "id": "8184e8f167c1",
     "date": "2026-06-11",
     "time": "22:43",
@@ -21,6 +69,28 @@
     "image_url": "https://pbs.twimg.com/media/HJ9cwLeboAEk3KK?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
     "store_id": "5b20cfecf8"
+  },
+  {
+    "id": "d8ae975bb342",
+    "date": "2026-06-11",
+    "time": "22:31",
+    "store": "メガフェイス1450本山",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "612",
+    "text": "コンプリート速報  612番台　eリコリス・リコイル #コンプリート　達成です  おめでとうございます  コンプリート羨ましい  #eリコリス・リコイル #メガフェイス1450本山店",
+    "x_url": "https://x.com/megaface_1450/status/2065064342887018895",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:02:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiSE8HboAADCig?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiSE8HboAADCig?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "44b996496f"
   },
   {
     "id": "2cd53aaf6823",

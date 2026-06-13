@@ -22,6 +22,29 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "72a94c6ade52",
+    "date": "2026-06-13",
+    "time": "19:17",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "55",
+    "text": "コンプリート速報 豊崎本館　　55番台 いざ！番長 コンプリート達成おめでとうございます 他にもコンプリートしそうな台が まだお時間あります！ 最高の週末を豊崎で",
+    "x_url": "https://x.com/megaface_1120/status/2065740353597297008",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:02:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKr718fasAAvXjn?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKr74GsbgAA6duL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKr718fasAAvXjn?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "9f0a1406b837",
     "date": "2026-06-13",
     "time": "18:24",
