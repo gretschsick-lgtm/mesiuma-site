@@ -270,6 +270,29 @@
     "store_id": "21517d1bec"
   },
   {
+    "id": "695f9d8e5a98",
+    "date": "2026-06-09",
+    "time": "19:00",
+    "store": "オリエントインペリアルホール｜青梅新町",
+    "machine": "eリング 最恐領域",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "インペリ5月の出玉ランキングです  スロットコーナーから Lゴッドイーターがコンプリート達成  パチンココーナーからは 導入すぐのeリング最恐領域が2台ランクイン  #青梅市 #パチンコ #スロット",
+    "x_url": "https://x.com/orientshinmachi/status/2064286388410057135",
+    "store_handle": "orientshinmachi",
+    "store_x_url": "https://x.com/orientshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:47:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKSQ1_tacAAKByj?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKSQ20gaMAAd6a2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKSQ1_tacAAKByj?format=jpg&name=large",
+    "machine_id": "66ea5e04-eb2d-4d97-9f60-1bb5584a0caa",
+    "store_id": "21517d1bec"
+  },
+  {
     "id": "ef8e837d0436",
     "date": "2026-06-09",
     "time": "18:59",
@@ -380,28 +403,6 @@
     "store_id": "7f6d7ae0f2"
   },
   {
-    "id": "58e94923450f",
-    "date": "2026-06-09",
-    "time": "09:30",
-    "store": "楽園大宮店",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "machine_type": "slot",
-    "slot_number": "2113",
-    "text": "昨日！！ 20円スロット2113番台  Lミリオンゴッド神々の軌跡にて コンプリート達成！！ おめでとうございます！！",
-    "x_url": "https://x.com/RAKUEN_ohmiya/status/2064505323629740396",
-    "store_handle": "rakuen_ohmiya",
-    "store_x_url": "https://x.com/rakuen_ohmiya",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-13T16:23:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKYYI2maAAA5PxE?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKYYI2maAAA5PxE?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_id": "04950fcd53"
-  },
-  {
     "id": "0a32c3e2edc2",
     "date": "2026-06-09",
     "time": "04:55",
@@ -423,6 +424,54 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "5e718761ac86",
+    "date": "2026-06-09",
+    "time": "04:55",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "6月8日   L炎炎ノ消防隊２　1008番台   e牙狼12黄金騎士極限　557番台　 ef東京喰種　401番台　 コンプリート達成 おめでとうございます  #スロット　#パチンコ　 #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2064073884945842565",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:53:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKUP2XubIAAIBEc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKUP3kia8AAwPQ8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "fb896e26fa4d",
+    "date": "2026-06-09",
+    "time": "04:55",
+    "store": "ARROW浪速店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "6月8日   L炎炎ノ消防隊２　1008番台   e牙狼12黄金騎士極限　557番台　 ef東京喰種　401番台　 コンプリート達成 おめでとうございます  #スロット　#パチンコ　 #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2064073884945842565",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:53:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKUP2XubIAAIBEc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKUP3kia8AAwPQ8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKUP0YKbkAADrp-?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "dd02f6f68a"
   },
   {
