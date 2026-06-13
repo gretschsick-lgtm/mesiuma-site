@@ -1,13 +1,13 @@
 {
-  "315kasugai": {
-    "store": "キクヤ春日井店",
-    "x_url": "https://x.com/315kasugai",
-    "count": 14,
-    "type": "store"
-  },
   "arrow_naniwa": {
     "store": "ARROW浪速店",
     "x_url": "https://x.com/arrow_naniwa",
+    "count": 14,
+    "type": "store"
+  },
+  "315kasugai": {
+    "store": "キクヤ春日井店",
+    "x_url": "https://x.com/315kasugai",
     "count": 14,
     "type": "store"
   },
@@ -41,6 +41,12 @@
     "count": 12,
     "type": "store"
   },
+  "megaface_1120": {
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "x_url": "https://x.com/megaface_1120",
+    "count": 10,
+    "type": "store"
+  },
   "sd_tougane": {
     "store": "SuperD'station東金店",
     "x_url": "https://x.com/sd_tougane",
@@ -53,9 +59,15 @@
     "count": 9,
     "type": "store"
   },
-  "megaface_1120": {
-    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
-    "x_url": "https://x.com/megaface_1120",
+  "megaface_1450": {
+    "store": "メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450",
+    "count": 9,
+    "type": "store"
+  },
+  "space666tobata": {
+    "store": "SPACE(スペース444＆666)",
+    "x_url": "https://x.com/space666tobata",
     "count": 9,
     "type": "store"
   },
@@ -83,12 +95,6 @@
     "count": 8,
     "type": "store"
   },
-  "megaface_1450": {
-    "store": "メガフェイス1450本山",
-    "x_url": "https://x.com/megaface_1450",
-    "count": 8,
-    "type": "store"
-  },
   "tamaya_honten": {
     "store": "パチンコの玉屋∞本店",
     "x_url": "https://x.com/tamaya_honten",
@@ -113,12 +119,6 @@
     "count": 7,
     "type": "store"
   },
-  "space666tobata": {
-    "store": "SPACE(スペース444＆666)",
-    "x_url": "https://x.com/space666tobata",
-    "count": 7,
-    "type": "store"
-  },
   "isesaki_maruhan": {
     "store": "マルハンメガシティ伊勢崎",
     "x_url": "https://x.com/isesaki_maruhan",
@@ -137,12 +137,6 @@
     "count": 7,
     "type": "store"
   },
-  "oyamasendaduka2": {
-    "store": "マルハン小山千駄塚店",
-    "x_url": "https://x.com/oyamasendaduka2",
-    "count": 7,
-    "type": "store"
-  },
   "face_1300": {
     "store": "FACE1300小倉南店",
     "x_url": "https://x.com/face_1300",
@@ -158,12 +152,18 @@
   "maruhan_kameari": {
     "store": "マルハン亀有店 中の人・亀にゃん",
     "x_url": "https://x.com/maruhan_kameari",
-    "count": 6,
+    "count": 7,
     "type": "manager"
   },
   "texas_kokura": {
     "store": "テキサス小倉店",
     "x_url": "https://x.com/texas_kokura",
+    "count": 7,
+    "type": "store"
+  },
+  "oyamasendaduka2": {
+    "store": "マルハン小山千駄塚店",
+    "x_url": "https://x.com/oyamasendaduka2",
     "count": 6,
     "type": "store"
   },
@@ -200,6 +200,12 @@
   "tmaxshinei39_10": {
     "store": "T-MAX新栄店",
     "x_url": "https://x.com/tmaxshinei39_10",
+    "count": 6,
+    "type": "store"
+  },
+  "face930asakura": {
+    "store": "メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura",
     "count": 6,
     "type": "store"
   },
@@ -275,6 +281,30 @@
     "count": 5,
     "type": "store"
   },
+  "super_concorde": {
+    "store": "SUPER CONCORDE",
+    "x_url": "https://x.com/super_concorde",
+    "count": 5,
+    "type": "store"
+  },
+  "texashakushima": {
+    "store": "テキサス白島店",
+    "x_url": "https://x.com/texashakushima",
+    "count": 4,
+    "type": "store"
+  },
+  "megaface_960": {
+    "store": "メガフェイス960飯塚",
+    "x_url": "https://x.com/megaface_960",
+    "count": 4,
+    "type": "store"
+  },
+  "p_spark01": {
+    "store": "Ｐスパーク",
+    "x_url": "https://x.com/p_spark01",
+    "count": 4,
+    "type": "store"
+  },
   "toumaruhana6": {
     "store": "プレイランドキャッスル東郷店",
     "x_url": "https://x.com/toumaruhana6",
@@ -317,18 +347,6 @@
     "count": 4,
     "type": "store"
   },
-  "super_concorde": {
-    "store": "SUPER CONCORDE",
-    "x_url": "https://x.com/super_concorde",
-    "count": 4,
-    "type": "store"
-  },
-  "megaface_960": {
-    "store": "メガフェイス960飯塚",
-    "x_url": "https://x.com/megaface_960",
-    "count": 4,
-    "type": "store"
-  },
   "zone_yukuhashi": {
     "store": "ゾーン行橋1000",
     "x_url": "https://x.com/zone_yukuhashi",
@@ -353,12 +371,6 @@
     "count": 4,
     "type": "store"
   },
-  "face930asakura": {
-    "store": "メガフェイス930朝倉",
-    "x_url": "https://x.com/face930asakura",
-    "count": 4,
-    "type": "store"
-  },
   "mdmeguro": {
     "store": "エムディー目黒店",
     "x_url": "https://x.com/mdmeguro",
@@ -377,12 +389,6 @@
     "count": 4,
     "type": "store"
   },
-  "texashakushima": {
-    "store": "テキサス白島店",
-    "x_url": "https://x.com/texashakushima",
-    "count": 4,
-    "type": "store"
-  },
   "tenpaku0730": {
     "store": "キャッスル天白店",
     "x_url": "https://x.com/tenpaku0730",
@@ -392,12 +398,6 @@
   "maruhankashiwa": {
     "store": "マルハンメガシティ柏",
     "x_url": "https://x.com/maruhankashiwa",
-    "count": 4,
-    "type": "store"
-  },
-  "p_spark01": {
-    "store": "Ｐスパーク",
-    "x_url": "https://x.com/p_spark01",
     "count": 4,
     "type": "store"
   },
@@ -411,6 +411,24 @@
     "store": "マルハンメガシティ水戸赤塚",
     "x_url": "https://x.com/maruhanakatsuka",
     "count": 4,
+    "type": "store"
+  },
+  "dtakasakihonten": {
+    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
+    "x_url": "https://x.com/dtakasakihonten",
+    "count": 4,
+    "type": "store"
+  },
+  "d_ootone": {
+    "store": "SuperD'station前橋大利根店",
+    "x_url": "https://x.com/d_ootone",
+    "count": 3,
+    "type": "store"
+  },
+  "mjijiri": {
+    "store": "MJアリーナ井尻店",
+    "x_url": "https://x.com/mjijiri",
+    "count": 3,
     "type": "store"
   },
   "rakuen_gs": {
@@ -440,18 +458,6 @@
   "tamanosuke1225": {
     "store": "玉ノ助【パーラーダジュール公式】",
     "x_url": "https://x.com/tamanosuke1225",
-    "count": 3,
-    "type": "store"
-  },
-  "d_ootone": {
-    "store": "SuperD'station前橋大利根店",
-    "x_url": "https://x.com/d_ootone",
-    "count": 3,
-    "type": "store"
-  },
-  "mjijiri": {
-    "store": "MJアリーナ井尻店",
-    "x_url": "https://x.com/mjijiri",
     "count": 3,
     "type": "store"
   },
@@ -587,12 +593,6 @@
     "count": 3,
     "type": "store"
   },
-  "dtakasakihonten": {
-    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
-    "x_url": "https://x.com/dtakasakihonten",
-    "count": 3,
-    "type": "store"
-  },
   "tamaya_shingu": {
     "store": "パチンコの玉屋∞新宮",
     "x_url": "https://x.com/tamaya_shingu",
@@ -609,6 +609,18 @@
     "store": "ミリオン宇多津店",
     "x_url": "https://x.com/mn_utazu",
     "count": 3,
+    "type": "store"
+  },
+  "shiki8_18_28": {
+    "store": "アロー志紀店",
+    "x_url": "https://x.com/shiki8_18_28",
+    "count": 3,
+    "type": "store"
+  },
+  "orientshinmachi": {
+    "store": "オリエントインペリアルホール｜青梅新町",
+    "x_url": "https://x.com/orientshinmachi",
+    "count": 2,
     "type": "store"
   },
   "kawagutiangyo": {
@@ -728,12 +740,6 @@
   "bm_yattajima": {
     "store": "ビックマーチ八斗島店",
     "x_url": "https://x.com/bm_yattajima",
-    "count": 2,
-    "type": "store"
-  },
-  "shiki8_18_28": {
-    "store": "アロー志紀店",
-    "x_url": "https://x.com/shiki8_18_28",
     "count": 2,
     "type": "store"
   },
@@ -893,12 +899,6 @@
     "count": 2,
     "type": "store"
   },
-  "orientshinmachi": {
-    "store": "オリエントインペリアルホール｜青梅新町",
-    "x_url": "https://x.com/orientshinmachi",
-    "count": 2,
-    "type": "store"
-  },
   "yanaimg": {
     "store": "メガガイア柳井",
     "x_url": "https://x.com/yanaimg",
@@ -917,15 +917,51 @@
     "count": 2,
     "type": "store"
   },
-  "vd28829": {
-    "store": "クラブハウス庄内支店",
-    "x_url": "https://x.com/vd28829",
+  "sanki_mimasaka": {
+    "store": "サンキワールド美作店",
+    "x_url": "https://x.com/sanki_mimasaka",
+    "count": 2,
+    "type": "store"
+  },
+  "western_nk": {
+    "store": "ウエスタン西葛西店",
+    "x_url": "https://x.com/western_nk",
     "count": 1,
     "type": "store"
   },
   "yuko_tsujidou": {
     "store": "ユーコーラッキー37辻堂店",
     "x_url": "https://x.com/yuko_tsujidou",
+    "count": 1,
+    "type": "store"
+  },
+  "daisyo365950": {
+    "store": "スロット大将",
+    "x_url": "https://x.com/DAISYO365950",
+    "count": 1,
+    "type": "store"
+  },
+  "aitencho_x": {
+    "store": "マルハン相模原店",
+    "x_url": "https://x.com/aitencho_x",
+    "count": 1,
+    "type": "manager"
+  },
+  "concorde1220": {
+    "store": "メガコンコルド1220名古屋みなと23号通り店",
+    "x_url": "https://x.com/concorde1220",
+    "count": 1,
+    "type": "manager"
+  },
+  "mirage_baraki": {
+    "store": "サンドラ大塚店",
+    "x_url": "https://x.com/mirage_baraki",
+    "count": 1,
+    "type": "store"
+  },
+  "vd28829": {
+    "store": "クラブハウス庄内支店",
+    "x_url": "https://x.com/vd28829",
     "count": 1,
     "type": "store"
   },
@@ -1022,12 +1058,6 @@
   "daianakouri": {
     "store": "ダイアナ香里園店",
     "x_url": "https://x.com/daianakouri",
-    "count": 1,
-    "type": "store"
-  },
-  "western_nk": {
-    "store": "ウエスタン西葛西店",
-    "x_url": "https://x.com/western_nk",
     "count": 1,
     "type": "store"
   },
@@ -1421,12 +1451,6 @@
     "count": 1,
     "type": "store"
   },
-  "daisyo365950": {
-    "store": "スロット大将",
-    "x_url": "https://x.com/DAISYO365950",
-    "count": 1,
-    "type": "store"
-  },
   "apulo_1229": {
     "store": "アプロ1229",
     "x_url": "https://x.com/apulo_1229",
@@ -1480,12 +1504,6 @@
     "x_url": "https://x.com/grand_chogo",
     "count": 1,
     "type": "store"
-  },
-  "aitencho_x": {
-    "store": "マルハン相模原店",
-    "x_url": "https://x.com/aitencho_x",
-    "count": 1,
-    "type": "manager"
   },
   "rakuenshibuya1": {
     "store": "楽園渋谷道玄坂店",
@@ -1544,12 +1562,6 @@
   "dynam_00432": {
     "store": "ダイナム岐阜高山店",
     "x_url": "https://x.com/dynam_00432",
-    "count": 1,
-    "type": "store"
-  },
-  "sanki_mimasaka": {
-    "store": "サンキワールド美作店",
-    "x_url": "https://x.com/sanki_mimasaka",
     "count": 1,
     "type": "store"
   },
@@ -1654,12 +1666,6 @@
     "x_url": "https://x.com/marinaprova0601",
     "count": 1,
     "type": "store"
-  },
-  "concorde1220": {
-    "store": "メガコンコルド1220名古屋みなと23号通り店",
-    "x_url": "https://x.com/concorde1220",
-    "count": 1,
-    "type": "manager"
   },
   "keiztakaoka": {
     "store": "高岡店",
@@ -1958,12 +1964,6 @@
   "wl_kshinei": {
     "store": "ワンダーランド1188鹿児島新栄店",
     "x_url": "https://x.com/wl_kshinei",
-    "count": 1,
-    "type": "store"
-  },
-  "mirage_baraki": {
-    "store": "サンドラ大塚店",
-    "x_url": "https://x.com/mirage_baraki",
     "count": 1,
     "type": "store"
   },
