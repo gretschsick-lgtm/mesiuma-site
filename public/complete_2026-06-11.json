@@ -1,5 +1,53 @@
 [
   {
+    "id": "bc6f752109df",
+    "date": "2026-06-11",
+    "time": "23:57",
+    "store": "メガフェイス930朝倉",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "738",
+    "text": "本日のMVP  スロットコーナー【738番台】 #北斗転生  コンプリート  パチンココーナー【439番台】 #牙狼 87500pt   リニューアル【3日目】は コンプリート＆10000over多数の 大盛り上がりな1日  明日から始まる 『共闘 盟友伝』も 目が離せませんよ〜  #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2065085983989924057",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T23:46:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKionF6acAAHsba?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKiotWVakAA_jeN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "e88b656fb5"
+  },
+  {
+    "id": "6611c2cfa7a1",
+    "date": "2026-06-11",
+    "time": "23:57",
+    "store": "メガフェイス930朝倉",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日のMVP  スロットコーナー【738番台】 #北斗転生  コンプリート  パチンココーナー【439番台】 #牙狼 87500pt   リニューアル【3日目】は コンプリート＆10000over多数の 大盛り上がりな1日  明日から始まる 『共闘 盟友伝』も 目が離せませんよ〜  #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2065085983989924057",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T23:46:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKionF6acAAHsba?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKiotWVakAA_jeN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKiowTSasAAhlfZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e88b656fb5"
+  },
+  {
     "id": "79592daa52bb",
     "date": "2026-06-11",
     "time": "23:24",
