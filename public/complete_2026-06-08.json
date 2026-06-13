@@ -134,6 +134,29 @@
     "store_id": "036ad33f3f"
   },
   {
+    "id": "7acc578a290d",
+    "date": "2026-06-08",
+    "time": "21:40",
+    "store": "マルハン",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "マルハン茨島店が圧巻の結果を残した1日でした なんと5万発オーバーが 15台 出現  さらに、Pエヴァ15 65番台が91,550発を記録しコンプリート達成目前 東京喰種、エヴァ17、牙狼12、終末のワルキューレなど主力機種が軒並み結果を残し、週末らしい盛り上がりを見せました",
+    "x_url": "https://x.com/JVXcVnV10f30981/status/2063964337967161494",
+    "store_handle": "jvxcvnv10f30981",
+    "store_x_url": "https://x.com/jvxcvnv10f30981",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T15:53:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKSsoC_aYAA5NRk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKL5exxbEAEge_D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKSsoC_aYAA5NRk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "0cce8e9b66"
+  },
+  {
     "id": "6ef0f672c83c",
     "date": "2026-06-08",
     "time": "21:05",
@@ -244,28 +267,6 @@
     "image_url": "https://pbs.twimg.com/media/HKSOuBwawAAy2ST?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000017",
     "store_id": "bb1fd7e8e2"
-  },
-  {
-    "id": "00f71fd1efd5",
-    "date": "2026-06-08",
-    "time": "17:59",
-    "store": "グランド元山",
-    "machine": "Lからくりサーカス",
-    "machine_type": "slot",
-    "slot_number": "769",
-    "text": "【速報】 グランドフィナーレ最終日に 769番台の『からくりサーカス』がコンプリートしました！ おめでとうございます  #グランド元山 #コンプリート #パチンコ　#スロット",
-    "x_url": "https://x.com/GRANDmotoyama/status/2063908774537232520",
-    "store_handle": "grandmotoyama",
-    "store_x_url": "https://x.com/grandmotoyama",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-13T15:02:05Z",
-    "images": [
-      "https://pbs.twimg.com/media/HKR5sKybMAAMxhZ?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HKR5sKybMAAMxhZ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000021",
-    "store_id": "c52618694d"
   },
   {
     "id": "82beaae8b593",
