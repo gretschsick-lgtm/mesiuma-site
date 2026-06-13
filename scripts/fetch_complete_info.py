@@ -762,6 +762,111 @@ def extract_machine(text: str) -> str:
     return ""
 
 
+def extract_machines(text: str) -> list[str]:
+    """テキスト内の全機種名を抽出（複数機種対応版）。
+
+    1投稿に複数機種が含まれる場合、全機種名のリストを返す。
+    抽出できなければ空リストを返す（呼び出し側で extract_machine にフォールバックすること）。
+    """
+    # extract_machine と同じ前処理
+    text = re.sub(r'(北斗の拳)[　\s]+(転生)', r'\1\2', text)
+    text = re.sub(r'炎炎[のﾉ]消防隊', '炎炎ノ消防隊', text)
+    text = re.sub(r'(カバネリ)[　\s]+(海門決戦)', r'\1\2', text)
+    text = re.sub(r'スマパチ\s+([^\s　\n]{3,})', lambda m: ('e' + m.group(1)) if not m.group(1).startswith(('e', 'ｅ')) else m.group(1), text)
+
+    _NG: set[str] = {
+        "お客様", "お客様より", "閉店間際になんと", "なんと２台同時",
+        "18000枚Over", "18,000枚Over", "お客様も大変", "不明",
+        "速報", "e速報", "お客様おめ", "お客様〜",
+    }
+    _NG_PATS = [
+        re.compile(r'^おめでとう'),
+        re.compile(r'オススメ機種|おすすめ機種|今週のオススメ|今週おすすめ'),
+        re.compile(r'^本日.*台目$|^本日もコンプ|^本日のMVP'),
+        re.compile(r'誠におめ|ございます[！!]*$'),
+        re.compile(r'^お客様'),        # お客様おめ、お客様〜 等の誤抽出
+        re.compile(r'^ご遊技'),        # ご遊技されていた方おめ 等
+        re.compile(r'らしい|の名に|を見せ|がお勧め|速報$|おめ$|おめで'),  # 説明フレーズ
+    ]
+
+    def _validate(raw: str, match_start: int) -> str | None:
+        # プレフィックス補完: マッチ位置の直前 1-2 文字に e/L があれば付加
+        # 例: 専用パターン `(東京喰種...)` が e東京喰種 の「東」にマッチした場合、直前の「e」を補完
+        if match_start >= 1:
+            pre2 = text[max(0, match_start - 2):match_start]
+            prefix_m = re.search(r'[eLＬｅ][fｆ]?$', pre2)
+            if prefix_m and not raw.startswith(tuple('eLＬｅ')):
+                raw = prefix_m.group() + raw
+
+        name = raw.strip()
+        if len(name) < 2 or re.match(r'^[#@\s!！]+$', name):
+            return None
+        if "http" in name.lower():
+            return None
+        if name in ("スロ", "パチスロ", "スマスロ", "スマパチ", "コンプリート"):
+            return None
+        if re.match(r'^[a-zA-Z0-9_\-\.\@\#\s]+$', name):
+            return None
+        name = re.sub(r'^[『「【（(、。・，,！!…　\s]+', '', name).strip()
+        name = re.sub(r'[』」】）)]+$', '', name).strip()
+        if len(name) < 2:
+            return None
+        name = re.sub(r'(から|にて|より|での|への|として|まで|にて|っ|て|が|は|で|に|を|も|と|の|増台|等|など)+$', '', name).strip()
+        name = re.sub(r'から[一-龠ぁ-んァ-ン]{1,4}$', '', name).strip()
+        if len(name) < 2:
+            return None
+        name = re.sub(r'[/／]\s*[\d,]+(?:Pt\.|pt\.|枚|点|玉).*$', '', name).strip()
+        name = re.sub(r'\s+[\d,]+(?:Pt\.|pt\.|枚|点|玉).*$', '', name).strip()
+        name = re.sub(r'[\s/／]+$', '', name).strip()
+        name = re.sub(r'\d{3,6}[Vvｖ][Eeｅ][Rrｒ]$', '', name).strip()
+        name = re.sub(r'[Vvｖ][Eeｅ][Rrｒ]\d{1,4}$', '', name).strip()
+        if len(name) < 2:
+            return None
+        name = re.sub(r'コンプリ[ート]*.*$', '', name).strip()
+        if len(name) < 2:
+            return None
+        # コンプリ除去後に再度末尾助詞を除去（「よりコンプリー」→「より」が残るケース対策）
+        name = re.sub(r'(から|にて|より|での|への|として|まで|にて|っ|て|が|は|で|に|を|も|と|の|増台|等|など)+$', '', name).strip()
+        if len(name) < 2:
+            return None
+        # 台番号・時刻パターンを含む誤抽出を除外
+        if re.search(r'\d+番台', name):
+            return None
+        if re.search(r'\d+時\d+分', name):
+            return None
+        if name in _NG:
+            return None
+        if any(p.search(name) for p in _NG_PATS):
+            return None
+        return name[:35]
+
+    found_with_pos: list[tuple[int, str]] = []
+    for pat in MACHINE_PATTERNS:
+        for m in pat.finditer(text):
+            validated = _validate(m.group(1), m.start(1))
+            if validated:
+                found_with_pos.append((m.start(1), validated))
+
+    if not found_with_pos:
+        return []
+
+    found_with_pos.sort(key=lambda x: x[0])
+    all_names = [n for _, n in found_with_pos]
+
+    # サブストリング重複除去: 他の名前に含まれる短い名前を除外
+    # 例: 「東京喰種」が「e東京喰種」の部分文字列 → 除外して「e東京喰種」のみ残す
+    result: list[str] = []
+    seen: set[str] = set()
+    for _, name in found_with_pos:
+        if any(name != other and name in other for other in all_names):
+            continue
+        if name not in seen:
+            seen.add(name)
+            result.append(name)
+
+    return result
+
+
 def extract_store(text: str) -> str:
     for pat in STORE_PATTERNS:
         m = pat.search(text)
@@ -933,9 +1038,15 @@ def _is_store_name(name: str) -> bool:
 
 def parse_tweet(text: str, tweet_url: str,
                 today_str: str, tweet_date: str, tweet_time: str,
-                author_name: str = "") -> dict | None:
+                author_name: str = "") -> list[dict]:
+    """1投稿を解析してコンプリートエントリのリストを返す。
+
+    複数機種が含まれる投稿では機種ごとに1エントリを生成する。
+    1機種目の id は後方互換のため md5(tweet_url)、
+    2機種目以降は md5(tweet_url + ":" + machine) を使う。
+    """
     if not is_store_tweet(text):
-        return None
+        return []
 
     # ── ハンドルから既知店舗名を優先使用（最高精度・誤抽出ゼロ）
     store = ""
@@ -970,18 +1081,23 @@ def parse_tweet(text: str, tweet_url: str,
     # 既知店舗ハンドル以外からのツイートは、店舗名がテキスト/author_name から
     # 確実に特定できた場合のみ受け入れる（個人アカウント・インフルエンサー対策）
     if not store and not is_known_store_handle:
-        return None
+        return []
     # 既知ハンドルだが store が未設定の場合は _HANDLE_TO_STORE から補完
     if not store and is_known_store_handle and handle_match:
         resolved = _HANDLE_TO_STORE.get(handle_match.group(1).lower(), "")
         if resolved:
             store = resolved
-    machine = extract_machine(text)
+
+    # 全機種名を抽出（複数機種対応）。取れなければ単一抽出にフォールバック
+    machines = extract_machines(text)
+    if not machines:
+        machines = [extract_machine(text)]
+
     slot_number = extract_slot_number(text)
 
     # 機種名も店舗名も台番号も取れないものは除外
-    if not machine and not store and not slot_number:
-        return None
+    if not machines[0] and not store and not slot_number:
+        return []
 
     # Xの<time>から取得した日付を使う（取得できなければ収集日を推定）
     if not tweet_date:
@@ -1018,7 +1134,7 @@ def parse_tweet(text: str, tweet_url: str,
             from datetime import date as _d3, timedelta as _td3
             tweet_date = (_d3.fromisoformat(tweet_date) - _td3(days=1)).strftime("%Y-%m-%d")
 
-    entry_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
+    primary_id = hashlib.md5(tweet_url.encode()).hexdigest()[:12]
 
     # ── 投稿元アカウント種別 + 店舗 X リンクを解決 ──────────────────────────
     # 優先順: store_official(公式) > store_manager(店長) > unknown
@@ -1040,22 +1156,33 @@ def parse_tweet(text: str, tweet_url: str,
                 source_account_type = "store_official"
                 store_x_url_val     = _hxurl
 
-    return {
-        "id": entry_id,
-        "date": tweet_date,
-        "time": tweet_time,                          # JST HH:MM
-        "store": store,
-        "machine": machine,
-        "machine_type": get_machine_type(machine),   # "slot" or "pachinko"
-        "slot_number": slot_number,                  # 台番号
-        "text": text[:250].replace("\n", " "),
-        "x_url": tweet_url,
-        "store_handle":         store_handle_val,
-        "store_x_url":          store_x_url_val,
-        "manager_x_url":        manager_x_url_val,
-        "source_account_type":  source_account_type,
-        "collected_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    }
+    collected_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    truncated_text = text[:250].replace("\n", " ")
+
+    results: list[dict] = []
+    for i, machine in enumerate(machines):
+        if not machine and i > 0:
+            continue  # 2機種目以降で機種名なしはスキップ
+        # 1機種目は後方互換のため x_url のみで id 生成
+        # 2機種目以降は x_url + machine で衝突しない id を生成
+        entry_id = primary_id if i == 0 else hashlib.md5(f"{tweet_url}:{machine}".encode()).hexdigest()[:12]
+        results.append({
+            "id":                   entry_id,
+            "date":                 tweet_date,
+            "time":                 tweet_time,
+            "store":                store,
+            "machine":              machine,
+            "machine_type":         get_machine_type(machine),
+            "slot_number":          slot_number if i == 0 else "",
+            "text":                 truncated_text,
+            "x_url":                tweet_url,
+            "store_handle":         store_handle_val,
+            "store_x_url":          store_x_url_val,
+            "manager_x_url":        manager_x_url_val,
+            "source_account_type":  source_account_type,
+            "collected_at":         collected_at,
+        })
+    return results
 
 
 def _extract_text_from_article(article) -> str:
@@ -1173,8 +1300,8 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> lis
                     author_name = author_el.inner_text().strip()
             except Exception:
                 pass
-            entry = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time, author_name)
-            if entry:
+            parsed_entries = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time, author_name)
+            if parsed_entries:
                 # 画像URL取得（pbs.twimg.com の画像のみ・プロフィール画像除外）
                 images: list[str] = []
                 try:
@@ -1189,14 +1316,14 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> lis
                             images.append(src)
                 except Exception:
                     pass
-                if images:
-                    entry["images"]    = images
-                    entry["image_url"] = images[0]
-
-                results.append(entry)
-                store_label   = entry["store"] or "店舗不明"
-                machine_label = entry["machine"] or "機種不明"
-                slot          = f" [{entry['slot_number']}番台]" if entry["slot_number"] else ""
+                for entry in parsed_entries:
+                    if images:
+                        entry["images"]    = images
+                        entry["image_url"] = images[0]
+                    results.append(entry)
+                store_label   = parsed_entries[0]["store"] or "店舗不明"
+                machine_label = "/".join(e["machine"] for e in parsed_entries if e["machine"]) or "機種不明"
+                slot          = f" [{parsed_entries[0]['slot_number']}番台]" if parsed_entries[0]["slot_number"] else ""
                 img_flag      = " 🖼" if images else ""
                 log(f"    ✅ {store_label} / {machine_label}{slot} {entry['time']}{img_flag}")
 
@@ -1305,13 +1432,9 @@ def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
                 continue
 
             # タイムライン収集ではハンドルが確定しているので、直接 store_name を使用
-            entry = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time,
-                                author_name=store_name)
-            if entry:
-                # 店舗名が取れなかった場合もタイムライン収集では handle から補完
-                if not entry.get("store") and store_name:
-                    entry["store"] = store_name
-
+            parsed_entries = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time,
+                                         author_name=store_name)
+            if parsed_entries:
                 # 画像取得
                 images: list[str] = []
                 try:
@@ -1325,11 +1448,14 @@ def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
                             images.append(src)
                 except Exception:
                     pass
-                if images:
-                    entry["images"]    = images
-                    entry["image_url"] = images[0]
-
-                results.append(entry)
+                for entry in parsed_entries:
+                    # 店舗名が取れなかった場合もタイムライン収集では handle から補完
+                    if not entry.get("store") and store_name:
+                        entry["store"] = store_name
+                    if images:
+                        entry["images"]    = images
+                        entry["image_url"] = images[0]
+                    results.append(entry)
 
         except Exception:
             continue
