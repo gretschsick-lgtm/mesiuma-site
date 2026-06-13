@@ -134,5 +134,27 @@
     "image_url": "https://pbs.twimg.com/media/HKmT6sLa0AAtwnD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "85ed302b85"
+  },
+  {
+    "id": "67bdc959ba66",
+    "date": "2026-06-12",
+    "time": "00:16",
+    "store": "Ｐスパーク",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "1015",
+    "text": "おめでとうございまーす 1015番台ミリオンゴッドでコンプリート さすがゴッド  残り時間わずかとなりますが 最後までお楽しみくださいませ   #コンプリート　 #ミリオンゴッド",
+    "x_url": "https://x.com/p_spark01/status/2065453149629096122",
+    "store_handle": "p_spark01",
+    "store_x_url": "https://x.com/p_spark01",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T00:29:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKn2oWSaAAACT4B?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKn2oWSaAAACT4B?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "83936d5766"
   }
 ]
