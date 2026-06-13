@@ -1,10 +1,82 @@
 # PROJECT STATUS
 
-更新日時: 2026-06-13 (store_handles +162件 → 3162件 / complete_info品質修正2件 / ランキング再生成)
+更新日時: 2026-06-13 (store_id=NULL 36件→7件解消 / store名修正11件 / ランキング再生成)
 
 ---
 
 ## 完了した作業
+
+### store_id補完・ランキング精度向上フェーズ (2026-06-13) ✅
+
+#### 結果サマリ
+
+| 項目 | 修正前 | 修正後 |
+|------|--------|--------|
+| store_id=NULL | 36件 | **7件** |
+| 解消件数 | - | **+29件** |
+| store名修正 | - | 11件 |
+| machine_id=NULL | 0件 | 0件 ✅ |
+| unknown machine_type | 0件 | 0件 ✅ |
+| duplicate x_url | 0件 | 0件 ✅ |
+| store_complete_counts店舗数 | 316 | **317** |
+
+#### store_id解消内訳 (29件)
+
+| handle | store | store_id | 根拠 |
+|--------|-------|----------|------|
+| rit3vjojmw4919 | 永楽本店 | 9088276f84 | x_urlマッチ |
+| kicona_matsubra | グランキコーナ松原店 | 8ae4af0570 | 店名(G松原=グランキコーナ松原) |
+| amztwinpark | マルハン阿見店 | 0b9d0c6fe1 | exact名前 |
+| last_mission_7 | マルハンメガシティ静岡 | 247db13cc8 | 名前マッチ |
+| mgm_suzuka (x2) | MGM鈴鹿店 | 9f0125bcdf | exact名前 |
+| sdkuraganoten | SuperD'station倉賀野店 | 42b2de7da4 | 名前マッチ |
+| king422_7_17_27 | P.E.KINGOFKINGS1007大阪本店 | 1e5ee637d8 | キングオブキングス1007 |
+| m_tsuchiura_y | マルハン石岡店 | 5dc7ad1b06 | exact名前 |
+| kyorakuhirabari | サンシャインKYORAKU平針 | 56367572f3 | exact名前 |
+| mogumogu_tencho | SuperD'station金古店 | 56784696fe | 金古マッチ |
+| concorde1220 | メガコンコルド1220名古屋みなと23号通り店 | 4c09166012 | handle番号一致 |
+| dynam_00402 | ダイナム北海道札幌東雁来店ゆったり館 | 6b87a59758 | 名前マッチ |
+| aratanarutentyo (x3) | マルハンメガシティ長野 | 5306945d72 | 名前マッチ |
+| kingshiojiri | キング塩尻店 | e049cca6be | exact名前 |
+| aitencho_x | マルハン相模原店 | e8fa032890 | 名前マッチ |
+| abc_shiraita | ABC松本白板店 | 8fc3a90037 | exact名前 |
+| maruhanginsui | マルハン大牟田銀水店 | 4d6f264ea1 | exact名前 |
+| uecchan_dy | ダイナム柴田町店ゆったり館 | 2fd1618f8d | store_handles確認 |
+| c_eagle_c | クラブイーグル千歳店 | 997d3c9351 | 名前マッチ |
+| shikahama_m | マルハン鹿浜店 | 4a069e2565 | X検索確認 |
+| tsukimaru777 | マルハン月寒店 | c8c62153e2 | X検索確認 |
+| divo_x_chiyori (x3) | DIVO知寄店 | 475eeb06b8 | X検索確認(ディーボ知寄) |
+| threeninedesu (x2) | ９９９（スリーナイン） | 36f1a6233c | X検索確認 |
+
+#### 残存store_id=NULL 7件（stores.json未登録・解消不可）
+
+| handle | store | 理由 |
+|--------|-------|------|
+| dasullaer | DASULLAR 津幡店 | stores.json未登録 |
+| hm_nippombashi | 播磨屋日本橋一丁目店 | stores.json未登録 |
+| juraku8 | (店舗名不明) | 公式キャラアカウント・特定不可 |
+| hama_tencho3939 | はま店長 | 店舗名特定不可 |
+| obihirohimbx2n | 店長ダースー | 店舗名特定不可 |
+| platinum5_main | プラチナム5 | stores.json未登録 |
+| pachiaikoukam | (店舗名不明) | 店舗名特定不可 |
+
+#### ランキング (2026-06-13更新後)
+
+| 指標 | 値 |
+|------|-----|
+| total_count | 793件 |
+| store_complete_counts | 317店舗 |
+
+**総合TOP5店舗:**
+1. ARROW浪速店: 14件
+2. キクヤ春日井店: 14件
+3. 楽園池袋店ゲートウェイ: 13件
+4. マルハンメガシティ三島駿東: 13件
+5. プレイランドキャッスル熱田店: 12件
+
+---
+
+### store_handles拡充 + complete_info品質修正 (2026-06-13) ✅
 
 ### store_handles拡充 + complete_info品質修正 (2026-06-13) ✅
 
