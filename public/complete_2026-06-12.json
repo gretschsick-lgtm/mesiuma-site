@@ -91,6 +91,29 @@
     "store_id": "ef707cf8fe"
   },
   {
+    "id": "d2abcc249115",
+    "date": "2026-06-12",
+    "time": "19:31",
+    "store": "楽園蒲田店",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "1110",
+    "text": "先程、 1110番台 L沖ドキDUOアンコール がコンプリートとなりました。  遊技台は停止させて頂いております。  この後も 新機種大量導入済み！ 楽園蒲田店で お楽しみください。",
+    "x_url": "https://x.com/rakuen_kamata/status/2065381390896763286",
+    "store_handle": "rakuen_kamata",
+    "store_x_url": "https://x.com/rakuen_kamata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T11:21:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKm1JyHaAAAeqkQ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKm1PaYbQAE3tlD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKm1JyHaAAAeqkQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "bdd2e55ff9"
+  },
+  {
     "id": "ba7f75c7d1bb",
     "date": "2026-06-12",
     "time": "19:21",

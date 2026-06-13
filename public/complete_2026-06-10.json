@@ -23,6 +23,28 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "49ee6c41f346",
+    "date": "2026-06-10",
+    "time": "20:37",
+    "store": "マルハン仙台名坊店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "780",
+    "text": "【780番台】  【機種名 eリコリス・リコイル 】  でコンプリート達成    おめでとうございます  データを確認できる マルハンアプリはこちらから    http:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/naebomaruhan/status/2064673280980816117",
+    "store_handle": "naebomaruhan",
+    "store_x_url": "https://x.com/naebomaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-13T11:14:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKcwwx2a8AMXAes?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKcwwx2a8AMXAes?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "01a41812b5"
+  },
+  {
     "id": "a8a64d258d90",
     "date": "2026-06-10",
     "time": "20:34",
