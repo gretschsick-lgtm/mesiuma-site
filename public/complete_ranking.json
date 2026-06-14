@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T09:49:52+09:00",
+  "generated_at": "2026-06-14T15:28:41+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 303,
+      "total_count": 309,
       "stores": [
         {
           "rank": 1,
@@ -14,51 +14,51 @@
         },
         {
           "rank": 2,
+          "name": "メガフェイス1450本山",
+          "count": 9,
+          "x_url": "https://x.com/megaface_1450"
+        },
+        {
+          "rank": 3,
           "name": "キクヤ春日井店",
           "count": 9,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 7,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 4,
-          "name": "メガフェイス1450本山",
+          "rank": 5,
+          "name": "FACE1300小倉南店",
           "count": 7,
-          "x_url": "https://x.com/megaface_1450"
+          "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ビックマーチ東習志野店",
           "count": 7,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "楽園大宮店",
           "count": 6,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "マルハンメガシティ三島駿東",
           "count": 6,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "新ガーデン西浦和",
           "count": 6,
           "x_url": "https://x.com/g_nishiurawa"
-        },
-        {
-          "rank": 9,
-          "name": "FACE1300小倉南店",
-          "count": 6,
-          "x_url": "https://x.com/face_1300"
         },
         {
           "rank": 10,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 59
+          "count": 62
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "eリコリス・リコイル",
-          "count": 13
+          "count": 15
         },
         {
           "rank": 4,
@@ -384,34 +384,34 @@
       },
       {
         "rank": 7,
+        "name": "メガフェイス1450本山",
+        "count": 11,
+        "x_url": "https://x.com/megaface_1450"
+      },
+      {
+        "rank": 8,
         "name": "SPACE(スペース444＆666)",
         "count": 10,
         "x_url": "https://x.com/space666tobata"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "ビックマーチ東習志野店",
         "count": 10,
         "x_url": "https://x.com/joypackx"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "サガちゃんPARK",
         "count": 9,
         "x_url": "https://x.com/sagachan_park"
-      },
-      {
-        "rank": 10,
-        "name": "楽園大宮店",
-        "count": 9,
-        "x_url": "https://x.com/rakuen_ohmiya"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 144
+        "count": 147
       },
       {
         "rank": 2,
@@ -483,7 +483,7 @@
       {
         "rank": 5,
         "name": "eリコリス・リコイル",
-        "count": 20
+        "count": 22
       },
       {
         "rank": 6,
@@ -511,7 +511,7 @@
         "count": 6
       }
     ],
-    "total_count": 829
+    "total_count": 835
   },
   "store_complete_counts": {
     "ARROW浪速店": 19,
@@ -520,13 +520,14 @@
     "マルハンメガシティ三島駿東": 14,
     "プレイランドキャッスル熱田店": 13,
     "キング観光サウザンド栄若宮大通店": 11,
+    "メガフェイス1450本山": 11,
     "SPACE(スペース444＆666)": 10,
     "ビックマーチ東習志野店": 10,
     "サガちゃんPARK": 9,
     "楽園大宮店": 9,
-    "メガフェイス1450本山": 9,
     "SuperD'station東金店": 9,
     "メガフェイス1300淀川": 9,
+    "FACE1300小倉南店": 8,
     "グランキコーナひたちなか店": 8,
     "パチンコの玉屋∞本店": 8,
     "マルハン仙台苦竹店": 8,
@@ -539,7 +540,6 @@
     "フェイス850佐賀": 7,
     "マルハン川越店": 7,
     "マルハンメガシティ伊勢崎": 7,
-    "FACE1300小倉南店": 7,
     "SUPER CONCORDE": 6,
     "SUPER CONCORDE 市野": 6,
     "楽園蒲田店": 6,
@@ -590,6 +590,7 @@
     "ミリオン宇多津店": 3,
     "パチンコの玉屋∞新宮": 3,
     "マルハン佐賀店実績": 3,
+    "クラブハウス本店": 3,
     "綾瀬上土棚店": 3,
     "キコーナ松戸": 3,
     "オリエントインペリアルホール｜青梅新町": 3,
@@ -660,7 +661,6 @@
     "ダイナム栃木大田原店": 2,
     "D’station39長与店": 2,
     "９９９（スリーナイン）": 2,
-    "クラブハウス本店": 2,
     "ミクちゃんガイア尼崎店": 2,
     "ワンダーランドODO": 2,
     "ダイナム柴田町店": 2,
@@ -674,7 +674,9 @@
     "ダイナム北斗七重浜店": 2,
     "テキサス段原店": 2,
     "キコーナ海老名": 2,
+    "天王寺ホール本館": 1,
     "マルハン川崎桜本店": 1,
+    "京橋会館＆GENESIS": 1,
     "VZONE柏店": 1,
     "マルハン": 1,
     "やすだひばりヶ丘店": 1,

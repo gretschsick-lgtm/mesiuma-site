@@ -245,6 +245,30 @@
     "store_id": "771f030669"
   },
   {
+    "id": "bc23bdef0bf0",
+    "date": "2026-06-13",
+    "time": "17:55",
+    "store": "天王寺ホール本館",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成  本日も革命機ヴァルヴレイヴ２からコンプリート コンプされたお客様おめでとうございます  明日はGⅠ宝塚記念ということは？？ 大人の事情×ジャンバリ取材  明日のご来店もお待ちしております！！  #大阪 #天王寺 #コンプリート #PR",
+    "x_url": "https://x.com/tennoji_hall/status/2065719637980193148",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:19:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKro6U8aQAATCRa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKro9_PaQAANVBw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKrpAXgawAA9zBw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKro6U8aQAATCRa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3936a4b9d5"
+  },
+  {
     "id": "0c3d41abf340",
     "date": "2026-06-13",
     "time": "17:53",
@@ -265,6 +289,73 @@
     "image_url": "https://pbs.twimg.com/media/HKrolrGacAAwli4?format=jpg&name=large",
     "machine_id": "72c0ff95-f4d1-4075-a45f-d9952b2cde3c",
     "store_id": "bc6d6b4e4b"
+  },
+  {
+    "id": "e3e1128a9070",
+    "date": "2026-06-13",
+    "time": "17:36",
+    "store": "FACE1300小倉南店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1813",
+    "text": "コンプリート報告  1813番台　Lヴァルヴレイヴ2  コンプリート達成 おめでとう御座います  本日1台目のコンプリート これに続いて盛り上げましょう  #コンプリート #MEGAFACE1300小倉南 #まいまろ",
+    "x_url": "https://x.com/face_1300/status/2065714864539197828",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:20:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrkt8EbwAAYtAs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKrPElaaoAETWOR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrkt8EbwAAYtAs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "9c7962c35be4",
+    "date": "2026-06-13",
+    "time": "17:00",
+    "store": "メガフェイス1450本山",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "610",
+    "text": "速報です  　　　610番台 eリコリス・リコイル #コンプリート　達成です  おめでとうございます  この時間でのコンプリート・・・ 凄まじい出玉力です  #メガフェイス1450本山 #eリコリスリコイル",
+    "x_url": "https://x.com/megaface_1450/status/2065705740787171357",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:20:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "44b996496f"
+  },
+  {
+    "id": "74502e22cb34",
+    "date": "2026-06-13",
+    "time": "17:00",
+    "store": "メガフェイス1450本山",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "速報です  　　　610番台 eリコリス・リコイル #コンプリート　達成です  おめでとうございます  この時間でのコンプリート・・・ 凄まじい出玉力です  #メガフェイス1450本山 #eリコリスリコイル",
+    "x_url": "https://x.com/megaface_1450/status/2065705740787171357",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:20:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "44b996496f"
   },
   {
     "id": "ba1bbbf40795",
@@ -550,6 +641,29 @@
     "image_url": "https://pbs.twimg.com/media/HKnO3bibEAAAa_D?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "dae931c16e"
+  },
+  {
+    "id": "42051afa0e8a",
+    "date": "2026-06-12",
+    "time": "21:19",
+    "store": "京橋会館＆GENESIS",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "-congratulation- 『#ヴァルヴレイヴ２』 からコンプリート達成 19,000枚おめでとうございます  ””本日も”” お店選び大正解でしたね  ””明日も”” お待ちしております  #日本トップランカー への挑戦 #稼働率 #関西トップランカー の営業 #パチンコ #スロット #大阪 #京橋",
+    "x_url": "https://x.com/gene_kyobashi/status/2065408653126181103",
+    "store_handle": "gene_kyobashi",
+    "store_x_url": "https://x.com/gene_kyobashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:19:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKnOG5magAAlSd9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKnLGe8aoAA23Oc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKnOG5magAAlSd9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "489d68398f"
   },
   {
     "id": "0675f354094d",
@@ -1185,6 +1299,29 @@
     "image_url": "https://pbs.twimg.com/media/HKglXXWbgAAfT9-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "5a18003e2d"
+  },
+  {
+    "id": "86d57cc9b6ff",
+    "date": "2026-06-11",
+    "time": "01:05",
+    "store": "クラブハウス本店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "月日の結果発表 ドキドキワクワク 本日の結果は如何に  スロット  位890番台 L戦国乙女5／19,003Pt. 位849番台  Lソードアート・オンラインII／12,346Pt.  パチンコ 位439番台 e東京喰種MW／71,080Pt. 位376番台 e エヴァ",
+    "x_url": "https://x.com/club_honten99/status/2065103155839611120",
+    "store_handle": "club_honten99",
+    "store_x_url": "https://x.com/club_honten99",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T05:49:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKi4RJHaEAE5Dd9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKi4SZDa0AAXOKb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKi4RJHaEAE5Dd9?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "118fb35bd3"
   },
   {
     "id": "5ca1e9857f44",

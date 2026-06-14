@@ -245,6 +245,30 @@
     "store_id": "771f030669"
   },
   {
+    "id": "bc23bdef0bf0",
+    "date": "2026-06-13",
+    "time": "17:55",
+    "store": "天王寺ホール本館",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成  本日も革命機ヴァルヴレイヴ２からコンプリート コンプされたお客様おめでとうございます  明日はGⅠ宝塚記念ということは？？ 大人の事情×ジャンバリ取材  明日のご来店もお待ちしております！！  #大阪 #天王寺 #コンプリート #PR",
+    "x_url": "https://x.com/tennoji_hall/status/2065719637980193148",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:19:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKro6U8aQAATCRa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKro9_PaQAANVBw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKrpAXgawAA9zBw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKro6U8aQAATCRa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3936a4b9d5"
+  },
+  {
     "id": "0c3d41abf340",
     "date": "2026-06-13",
     "time": "17:53",
@@ -265,6 +289,73 @@
     "image_url": "https://pbs.twimg.com/media/HKrolrGacAAwli4?format=jpg&name=large",
     "machine_id": "72c0ff95-f4d1-4075-a45f-d9952b2cde3c",
     "store_id": "bc6d6b4e4b"
+  },
+  {
+    "id": "e3e1128a9070",
+    "date": "2026-06-13",
+    "time": "17:36",
+    "store": "FACE1300小倉南店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1813",
+    "text": "コンプリート報告  1813番台　Lヴァルヴレイヴ2  コンプリート達成 おめでとう御座います  本日1台目のコンプリート これに続いて盛り上げましょう  #コンプリート #MEGAFACE1300小倉南 #まいまろ",
+    "x_url": "https://x.com/face_1300/status/2065714864539197828",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:20:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrkt8EbwAAYtAs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKrPElaaoAETWOR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrkt8EbwAAYtAs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "9c7962c35be4",
+    "date": "2026-06-13",
+    "time": "17:00",
+    "store": "メガフェイス1450本山",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "610",
+    "text": "速報です  　　　610番台 eリコリス・リコイル #コンプリート　達成です  おめでとうございます  この時間でのコンプリート・・・ 凄まじい出玉力です  #メガフェイス1450本山 #eリコリスリコイル",
+    "x_url": "https://x.com/megaface_1450/status/2065705740787171357",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:20:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "44b996496f"
+  },
+  {
+    "id": "74502e22cb34",
+    "date": "2026-06-13",
+    "time": "17:00",
+    "store": "メガフェイス1450本山",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "速報です  　　　610番台 eリコリス・リコイル #コンプリート　達成です  おめでとうございます  この時間でのコンプリート・・・ 凄まじい出玉力です  #メガフェイス1450本山 #eリコリスリコイル",
+    "x_url": "https://x.com/megaface_1450/status/2065705740787171357",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T06:20:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrUlscbEAA7PXO?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "44b996496f"
   },
   {
     "id": "ba1bbbf40795",
