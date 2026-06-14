@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T17:47:19+09:00",
+  "generated_at": "2026-06-14T19:00:20+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 310,
+      "total_count": 313,
       "stores": [
         {
           "rank": 1,
@@ -15,7 +15,7 @@
         {
           "rank": 2,
           "name": "メガフェイス1450本山",
-          "count": 9,
+          "count": 10,
           "x_url": "https://x.com/megaface_1450"
         },
         {
@@ -38,21 +38,21 @@
         },
         {
           "rank": 6,
+          "name": "楽園大宮店",
+          "count": 7,
+          "x_url": "https://x.com/rakuen_ohmiya"
+        },
+        {
+          "rank": 7,
           "name": "ビックマーチ東習志野店",
           "count": 7,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "プレイランドキャッスル熱田店",
           "count": 6,
           "x_url": "https://x.com/castleatsuta"
-        },
-        {
-          "rank": 8,
-          "name": "楽園大宮店",
-          "count": 6,
-          "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
           "rank": 9,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 62
+          "count": 63
         },
         {
           "rank": 2,
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "Lミリオンゴッド神々の軌跡",
-          "count": 16
+          "count": 17
         },
         {
           "rank": 4,
@@ -128,7 +128,7 @@
         {
           "rank": 2,
           "name": "e牙狼12黄金騎士極限",
-          "count": 26
+          "count": 27
         },
         {
           "rank": 3,
@@ -378,40 +378,40 @@
       },
       {
         "rank": 6,
+        "name": "メガフェイス1450本山",
+        "count": 12,
+        "x_url": "https://x.com/megaface_1450"
+      },
+      {
+        "rank": 7,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 11,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
-        "rank": 7,
-        "name": "メガフェイス1450本山",
-        "count": 11,
-        "x_url": "https://x.com/megaface_1450"
+        "rank": 8,
+        "name": "楽園大宮店",
+        "count": 10,
+        "x_url": "https://x.com/rakuen_ohmiya"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "SPACE(スペース444＆666)",
         "count": 10,
         "x_url": "https://x.com/space666tobata"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "ビックマーチ東習志野店",
         "count": 10,
         "x_url": "https://x.com/joypackx"
-      },
-      {
-        "rank": 10,
-        "name": "サガちゃんPARK",
-        "count": 9,
-        "x_url": "https://x.com/sagachan_park"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 147
+        "count": 148
       },
       {
         "rank": 2,
@@ -421,7 +421,7 @@
       {
         "rank": 3,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 54
+        "count": 55
       },
       {
         "rank": 4,
@@ -463,7 +463,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 64
+        "count": 65
       },
       {
         "rank": 2,
@@ -511,7 +511,7 @@
         "count": 6
       }
     ],
-    "total_count": 836
+    "total_count": 839
   },
   "store_complete_counts": {
     "ARROW浪速店": 19,
@@ -519,18 +519,19 @@
     "プレイランドキャッスル熱田店": 14,
     "楽園池袋店ゲートウェイ": 14,
     "マルハンメガシティ三島駿東": 14,
+    "メガフェイス1450本山": 12,
     "キング観光サウザンド栄若宮大通店": 11,
-    "メガフェイス1450本山": 11,
+    "楽園大宮店": 10,
     "SPACE(スペース444＆666)": 10,
     "ビックマーチ東習志野店": 10,
     "サガちゃんPARK": 9,
-    "楽園大宮店": 9,
     "SuperD'station東金店": 9,
     "メガフェイス1300淀川": 9,
     "FACE1300小倉南店": 8,
     "グランキコーナひたちなか店": 8,
     "パチンコの玉屋∞本店": 8,
     "マルハン仙台苦竹店": 8,
+    "キクヤ一宮店": 7,
     "プレイランドキャッスル春日井店": 7,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 7,
     "マルハン仙台名坊店": 7,
@@ -548,7 +549,6 @@
     "T-MAX新栄店": 6,
     "マルハン小山千駄塚店": 6,
     "ダイナム金町南口店": 6,
-    "キクヤ一宮店": 6,
     "マルハン亀有店_亀にゃん": 6,
     "マルハン青梅新町店【イイじゃん!】": 5,
     "グランドホール港南店": 5,

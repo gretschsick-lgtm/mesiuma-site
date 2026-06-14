@@ -403,6 +403,28 @@
     "store_id": "7f6d7ae0f2"
   },
   {
+    "id": "58e94923450f",
+    "date": "2026-06-09",
+    "time": "09:30",
+    "store": "楽園大宮店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "2113",
+    "text": "昨日！！ 20円スロット2113番台  Lミリオンゴッド神々の軌跡にて コンプリート達成！！ おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2064505323629740396",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T09:25:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKYYI2maAAA5PxE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKYYI2maAAA5PxE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "04950fcd53"
+  },
+  {
     "id": "0a32c3e2edc2",
     "date": "2026-06-09",
     "time": "04:55",
