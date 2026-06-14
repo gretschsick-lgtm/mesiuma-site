@@ -112,6 +112,28 @@
     "store_id": "94cb46d6fb"
   },
   {
+    "id": "61c92c050283",
+    "date": "2026-06-13",
+    "time": "19:53",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "Lビッグドリーム",
+    "machine_type": "slot",
+    "slot_number": "3037",
+    "text": "スマスロビッグドリーム　3037番台  コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2065749358298243226",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T00:20:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKsEB-jaUAA898f?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKsEB-jaUAA898f?format=jpg&name=large",
+    "machine_id": "26fc95df-4767-41bc-8330-89f463ce04bc",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "0f4efa6d1b59",
     "date": "2026-06-13",
     "time": "19:51",
