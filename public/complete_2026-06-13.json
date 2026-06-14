@@ -113,6 +113,30 @@
     "store_id": "7ac364008f"
   },
   {
+    "id": "2ea5bc3371c8",
+    "date": "2026-06-13",
+    "time": "22:07",
+    "store": "テキサス小倉店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  6月13日(土)  コンプリート達成   932番台▶︎▶︎▶︎▶︎ e 牙狼12 黄金騎士極限  　　　　　　　　　　　　 おめでとうございます！！  テキサス小倉の牙狼は 誰にも止められない  #天地繁栄 #コンプリート",
+    "x_url": "https://x.com/texas_kokura/status/2066145580628549759",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T18:10:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxscYva8AA2hME?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKxscYwaoAAeHeO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKxscadacAEZiLQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxscYva8AA2hME?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "4f49ab3d5799",
     "date": "2026-06-13",
     "time": "21:12",
@@ -447,6 +471,28 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "412e975c5ec6",
+    "date": "2026-06-13",
+    "time": "16:14",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報  革命期ヴァルヴレイヴ2  コンプリート達成  早いっおめでとう御座います  #メガフェイス1300淀川",
+    "x_url": "https://x.com/megaface_1300/status/2065694337791598810",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T18:09:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKrSDFea8AE4BGq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKrSDFea8AE4BGq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "ba1bbbf40795",
     "date": "2026-06-13",
     "time": "16:06",
@@ -573,7 +619,12 @@
     "source_account_type": "unknown",
     "collected_at": "2026-06-14T11:40:19Z",
     "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "20138d2c07"
+    "store_id": "20138d2c07",
+    "image_url": "https://pbs.twimg.com/profile_images/2044709525081694208/Q955cqZm_200x200.jpg?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/profile_images/2044709525081694208/Q955cqZm_200x200.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKnMVY0WwAA6SOC.jpg?format=jpg&name=large"
+    ]
   },
   {
     "id": "2307ddb0b8cb",
