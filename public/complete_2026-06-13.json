@@ -90,6 +90,28 @@
     "store_id": "7ac364008f"
   },
   {
+    "id": "e919d8e7a02a",
+    "date": "2026-06-13",
+    "time": "22:24",
+    "store": "MJアリーナ箱崎店",
+    "machine": "スマスロ 東京リベンジャーズ",
+    "machine_type": "slot",
+    "slot_number": "558",
+    "text": "本日6月13日   L東京リベンジャーズ  　　　 558番台   　          コンプリート達成 　     おめでとうございます",
+    "x_url": "https://x.com/mjhakozaki/status/2065787313708585247",
+    "store_handle": "mjhakozaki",
+    "store_x_url": "https://x.com/mjhakozaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T23:43:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKsmnDDbgAA3yNy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKsmnDDbgAA3yNy?format=jpg&name=large",
+    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65",
+    "store_id": "c545330ad2"
+  },
+  {
     "id": "e3f3fb971f6a",
     "date": "2026-06-13",
     "time": "22:19",
