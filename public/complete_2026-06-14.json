@@ -23,6 +23,28 @@
     "store_id": "1f0627c183"
   },
   {
+    "id": "f1b19b626d16",
+    "date": "2026-06-14",
+    "time": "21:03",
+    "store": "マルハン吉田店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハン吉田店、 L炎炎ノ消防隊2 から コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/MH_tencho1010/status/2066129448869691405",
+    "store_handle": "mh_tencho1010",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/MH_tencho1010",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-14T16:53:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxc1WAbUAA8FIf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxc1WAbUAA8FIf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "3a6334a19a"
+  },
+  {
     "id": "038326e06d09",
     "date": "2026-06-14",
     "time": "19:56",
@@ -88,6 +110,28 @@
     "image_url": "https://pbs.twimg.com/media/HKw_eY3bIAAxsra?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "aec3655c52"
+  },
+  {
+    "id": "98b0f7340ec1",
+    "date": "2026-06-14",
+    "time": "18:27",
+    "store": "キクヤ穂積店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "53",
+    "text": "【コンプリート】 こんばんは！  キクヤ穂積店ですッ！ コンプリート報告です！！  17時28分頃　  53番台　スマパチ 東京喰種　超デカ超一撃ver.  コンプリート達成です！！  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2066090100258451725",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T15:36:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKw5_lSbgAAlC2h?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKw5_lSbgAAlC2h?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "c800581abf"
   },
   {
     "id": "48928dc41b11",
