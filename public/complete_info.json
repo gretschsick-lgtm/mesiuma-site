@@ -179,6 +179,28 @@
     "store_id": "036ad33f3f"
   },
   {
+    "id": "ab359b9424dc",
+    "date": "2026-06-13",
+    "time": "18:47",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "パチスロ北斗の拳 転生の章",
+    "machine_type": "slot",
+    "slot_number": "2163",
+    "text": "スマスロ北斗の拳 転生の章　2163番台 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2065732903716442346",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-14T08:11:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKr08lraUAAnR3_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKr08lraUAAnR3_?format=jpg&name=large",
+    "machine_id": "28bf41c3-d782-4ae9-b9e0-cc892130680d",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "9f0a1406b837",
     "date": "2026-06-13",
     "time": "18:24",

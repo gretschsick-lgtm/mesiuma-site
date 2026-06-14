@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-14T15:28:41+09:00",
+  "generated_at": "2026-06-14T17:47:19+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 309,
+      "total_count": 310,
       "stores": [
         {
           "rank": 1,
@@ -44,27 +44,27 @@
         },
         {
           "rank": 7,
+          "name": "プレイランドキャッスル熱田店",
+          "count": 6,
+          "x_url": "https://x.com/castleatsuta"
+        },
+        {
+          "rank": 8,
           "name": "楽園大宮店",
           "count": 6,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "マルハンメガシティ三島駿東",
           "count": 6,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "新ガーデン西浦和",
           "count": 6,
           "x_url": "https://x.com/g_nishiurawa"
-        },
-        {
-          "rank": 10,
-          "name": "プレイランドキャッスル熱田店",
-          "count": 5,
-          "x_url": "https://x.com/castleatsuta"
         }
       ],
       "slot_machines": [
@@ -76,7 +76,7 @@
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 23
+          "count": 24
         },
         {
           "rank": 3,
@@ -360,21 +360,21 @@
       },
       {
         "rank": 3,
+        "name": "プレイランドキャッスル熱田店",
+        "count": 14,
+        "x_url": "https://x.com/castleatsuta"
+      },
+      {
+        "rank": 4,
         "name": "楽園池袋店ゲートウェイ",
         "count": 14,
         "x_url": "https://x.com/rakuenikebukuro"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "マルハンメガシティ三島駿東",
         "count": 14,
         "x_url": "https://x.com/mega_mishima"
-      },
-      {
-        "rank": 5,
-        "name": "プレイランドキャッスル熱田店",
-        "count": 13,
-        "x_url": "https://x.com/castleatsuta"
       },
       {
         "rank": 6,
@@ -416,7 +416,7 @@
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 76
+        "count": 77
       },
       {
         "rank": 3,
@@ -511,14 +511,14 @@
         "count": 6
       }
     ],
-    "total_count": 835
+    "total_count": 836
   },
   "store_complete_counts": {
     "ARROW浪速店": 19,
     "キクヤ春日井店": 16,
+    "プレイランドキャッスル熱田店": 14,
     "楽園池袋店ゲートウェイ": 14,
     "マルハンメガシティ三島駿東": 14,
-    "プレイランドキャッスル熱田店": 13,
     "キング観光サウザンド栄若宮大通店": 11,
     "メガフェイス1450本山": 11,
     "SPACE(スペース444＆666)": 10,
