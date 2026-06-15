@@ -93,6 +93,28 @@
     "store_id": "ef570556fc"
   },
   {
+    "id": "c2e4c50a6cec",
+    "date": "2026-06-15",
+    "time": "19:15",
+    "store": "サガちゃんPARK",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "1457",
+    "text": "ヤッホー  ｅリコリス・リコイル 1457番台　コンプリート達成！  おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2066464482004783218",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T18:52:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK2KhnPbkAA_8Z1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK2KhnPbkAA_8Z1?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "d24cf1fe6494",
     "date": "2026-06-14",
     "time": "21:54",
