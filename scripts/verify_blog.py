@@ -31,7 +31,7 @@ KNOWN_ERRORS: list[tuple[str, str, str]] = [
     ("憑喰RUSH",            "東京喰種咬（かみつき）",        "東京喰種"),
     ("隻眼のRUSH",          "隻眼の梟（せきがんのふくろう）", "東京喰種"),
     ("喰種ハンター",        "レミニセンス",                  "東京喰種"),
-    ("FINAL CIRCUS",        "超からくりサーカス",            "からくりサーカス"),
+    ("FINAL CIRCUS",        "超からくりサーカス",            "からくりサーカス(?!2)"),
     ("神々の軌跡RUSH",      "GOD GAME（GG）",               "ミリオンゴッド"),
     ("ミリオンゴッド ZONE", "SUPER GOD GAME（SGG）",        "ミリオンゴッド"),
     ("波多野SG",            "SGラッシュ",                    "モンキーターン"),
@@ -49,7 +49,7 @@ MACHINE_FACTS: dict[str, dict] = {
         "maker": "フィールズ/スパイキー（CROSSALPHA）",
         "at_name": "東京喰種咬（かみつき）",
     },
-    "からくりサーカス": {
+    "からくりサーカス(?!2)": {
         "must_contain":     ["超からくりサーカス", "純増約7.6枚/G"],
         "must_not_contain": ["FINAL CIRCUS（FC）", "純増約4.2枚"],
         "maker": "SANKYO",
@@ -101,6 +101,17 @@ MACHINE_FACTS: dict[str, dict] = {
         "must_not_contain": [],
         "maker": "パイオニア（ピーセカンド）",
     },
+    "からくりサーカス2": {
+        "must_contain":     ["超からくりサーカス", "機械仕掛けの女神"],
+        "must_not_contain": [],
+        "maker": "SANKYO",
+        "at_name": "超からくりサーカス",
+    },
+    "リコリス・リコイル": {
+        "must_contain":     ["SPECIAL LycoReco RUSH", "ULTIMATE DRIVE"],
+        "must_not_contain": [],
+        "maker": "ニューギン",
+    },
 }
 
 # ─── 解析サイト画像ページ（メイン画像 + 設定示唆画像）───────────
@@ -109,7 +120,7 @@ MACHINE_FACTS: dict[str, dict] = {
 # ★ 新機種追加時にURLも追記すること
 ANALYSIS_PAGES: dict[str, list[str]] = {
     "東京喰種":        ["https://nana-press.com/kaiseki/machine/889/"],
-    "からくりサーカス": ["https://nana-press.com/kaiseki/machine/571/"],
+    "からくりサーカス(?!2)": ["https://nana-press.com/kaiseki/machine/571/"],
     "ミリオンゴッド":  ["https://nana-press.com/kaiseki/machine/1116/"],
     "モンキーターンV": ["https://nana-press.com/kaiseki/machine/644/"],
     "カバネリ":        ["https://nana-press.com/kaiseki/machine/437/"],
@@ -127,6 +138,9 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
     "化物語.*鬼99":   ["https://nana-press.com/kaiseki/machine/1153/"],
     "超デカ超一撃":    ["https://nana-press.com/kaiseki/machine/1196/"],
     "ダークハイビ":    ["https://chonborista.com/slot/pionia-slot/257827/"],
+    "からくりサーカス2": ["https://chonborista.com/slot/sankyo-slot/256699/"],
+    "リコリス・リコイル": ["https://nana-press.com/kaiseki/machine/1129/",
+                          "https://chonborista.com/pachinko/newgin/251935/"],
 }
 
 # ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
@@ -191,12 +205,16 @@ def auto_fix_content(content: str, title: str, pid: str) -> tuple[str, list[str]
     fixes = []
     for wrong, correct, machine in KNOWN_ERRORS:
         if machine != "all":
-            if machine.lower() not in title.lower() and machine.lower() not in pid.lower():
+            try:
+                machine_matched = (
+                    re.search(machine, title, re.IGNORECASE) is not None
+                    or re.search(machine, pid, re.IGNORECASE) is not None
+                )
+            except re.error:
+                machine_matched = (machine.lower() in title.lower() or machine.lower() in pid.lower())
+            if not machine_matched:
                 continue
         if wrong in content:
-            # からくりサーカスのSANKYOは正しいので修正しない
-            if wrong == "SANKYO" and machine == "からくりサーカス":
-                continue
             content = content.replace(wrong, correct)
             fixes.append(f"  ✏️  修正: '{wrong}' → '{correct}'")
     return content, fixes
@@ -285,15 +303,27 @@ def verify_post(post: dict) -> list[str]:
 
     for wrong, correct, machine in KNOWN_ERRORS:
         if machine != "all":
-            if machine.lower() not in title.lower() and machine.lower() not in pid.lower():
+            try:
+                machine_matched = (
+                    re.search(machine, title, re.IGNORECASE) is not None
+                    or re.search(machine, pid, re.IGNORECASE) is not None
+                )
+            except re.error:
+                machine_matched = (machine.lower() in title.lower() or machine.lower() in pid.lower())
+            if not machine_matched:
                 continue
-        if wrong == "SANKYO" and machine == "からくりサーカス":
-            continue
         if wrong in content:
             errors.append(f"❌ 誤記: '{wrong}' → 正しくは '{correct}'")
 
     for machine_key, facts in MACHINE_FACTS.items():
-        if machine_key.lower() not in title.lower() and machine_key.lower() not in pid.lower():
+        try:
+            key_matched = (
+                re.search(machine_key, title, re.IGNORECASE) is not None
+                or re.search(machine_key, pid, re.IGNORECASE) is not None
+            )
+        except re.error:
+            key_matched = (machine_key.lower() in title.lower() or machine_key.lower() in pid.lower())
+        if not key_matched:
             continue
         for must in facts.get("must_contain", []):
             if must not in content:
