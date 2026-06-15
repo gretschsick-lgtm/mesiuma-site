@@ -115,6 +115,28 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "8c2eda4ad68b",
+    "date": "2026-06-14",
+    "time": "22:49",
+    "store": "マルハン仙台名坊店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "221",
+    "text": "【221番台】  【機種名 スマパチ e東京喰種】  でコンプリート達成    おめでとうございます  データを確認できる マルハンアプリはこちらから    http:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/naebomaruhan/status/2066155952466989547",
+    "store_handle": "naebomaruhan",
+    "store_x_url": "https://x.com/naebomaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T22:25:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKx1rsoaMAAc83O?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKx1rsoaMAAc83O?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "01a41812b5"
+  },
+  {
     "id": "d24cf1fe6494",
     "date": "2026-06-14",
     "time": "21:54",
