@@ -313,6 +313,28 @@
     "store_id": "04950fcd53"
   },
   {
+    "id": "1745391cefeb",
+    "date": "2026-06-14",
+    "time": "18:44",
+    "store": "SUPER CONCORDE",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "3407",
+    "text": "コンプリート報告   L革命機ヴァルヴレイヴ2 3407番台でコンプリート機能が作動いたしました  ご遊戯されていたM様おめでとうございます  コメント 『単純に嬉しいです！ありがとうございます！』  このあとのお時間もまだまだスパコンで   お楽しみくださいませ",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2066094311507435797",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T11:48:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKw8-1cboAAaAFn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKw8-1cboAAaAFn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "98b0f7340ec1",
     "date": "2026-06-14",
     "time": "18:27",
