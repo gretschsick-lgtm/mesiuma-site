@@ -671,6 +671,52 @@
     ]
   },
   {
+    "id": "293e5eb14050",
+    "date": "2026-06-13",
+    "time": "00:53",
+    "store": "ARROW浪速店",
+    "machine": "eようこそ実力至上主義の教室へ",
+    "machine_type": "pachinko",
+    "slot_number": "105",
+    "text": "本日、  eようこそ実力至上主義の教室へ　105番台  e牙狼12黄金騎士極限 　546番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2065824982899589460",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T09:51:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKtIzDIaMAAx8N8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKtIzDFakAExkl8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKtIzDIaMAAx8N8?format=jpg&name=large",
+    "machine_id": "c9b2f5a8-b7dc-4a24-9419-35336699eb52",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "98e4931e1497",
+    "date": "2026-06-13",
+    "time": "00:53",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日、  eようこそ実力至上主義の教室へ　105番台  e牙狼12黄金騎士極限 　546番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2065824982899589460",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T09:51:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKtIzDIaMAAx8N8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKtIzDFakAExkl8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKtIzDIaMAAx8N8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "2307ddb0b8cb",
     "date": "2026-06-13",
     "time": "00:07",

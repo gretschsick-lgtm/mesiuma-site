@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-15T16:02:34+09:00",
+  "generated_at": "2026-06-15T19:30:44+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 339,
+      "total_count": 341,
       "stores": [
         {
           "rank": 1,
           "name": "ARROW浪速店",
-          "count": 13,
+          "count": 15,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
@@ -128,7 +128,7 @@
         {
           "rank": 2,
           "name": "e牙狼12黄金騎士極限",
-          "count": 27
+          "count": 28
         },
         {
           "rank": 3,
@@ -349,7 +349,7 @@
       {
         "rank": 1,
         "name": "ARROW浪速店",
-        "count": 19,
+        "count": 21,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -462,12 +462,12 @@
     "pachinko_machines": [
       {
         "rank": 1,
-        "name": "e牙狼12",
-        "count": 65
+        "name": "e牙狼12黄金騎士極限",
+        "count": 66
       },
       {
         "rank": 2,
-        "name": "e牙狼12黄金騎士極限",
+        "name": "e牙狼12",
         "count": 65
       },
       {
@@ -511,10 +511,10 @@
         "count": 6
       }
     ],
-    "total_count": 864
+    "total_count": 866
   },
   "store_complete_counts": {
-    "ARROW浪速店": 19,
+    "ARROW浪速店": 21,
     "キクヤ春日井店": 16,
     "マルハンメガシティ三島駿東": 15,
     "プレイランドキャッスル熱田店": 14,
