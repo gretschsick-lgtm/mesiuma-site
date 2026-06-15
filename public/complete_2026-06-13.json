@@ -159,6 +159,28 @@
     "store_id": "7be267e3ea"
   },
   {
+    "id": "9f293402073e",
+    "date": "2026-06-13",
+    "time": "21:16",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "1665",
+    "text": "コンプリート情報  21:10 今週のオススメ機種 eリコリス・リコイル   1665番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2065770394548936770",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T06:23:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKsXMaYaMAETRMh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKsXMaYaMAETRMh?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "04138e2cd3"
+  },
+  {
     "id": "4f49ab3d5799",
     "date": "2026-06-13",
     "time": "21:12",

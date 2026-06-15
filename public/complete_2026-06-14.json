@@ -90,6 +90,28 @@
     "store_id": "1f0627c183"
   },
   {
+    "id": "e9aeeca9e69f",
+    "date": "2026-06-14",
+    "time": "21:06",
+    "store": "ビックマーチ八斗島店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "585",
+    "text": "りんりんは焼肉もぐもぐタイムなので、 代理でコンプ報告です！  【最新台】585番台【Lソードアート・オンラインⅡ】 コンプリート達成！ おめでとうございます  #ビックマーチ八斗島　 #ソードアートオン・ラインⅡ　 #コンプリート",
+    "x_url": "https://x.com/bm_yattajima/status/2066130270437478549",
+    "store_handle": "bm_yattajima",
+    "store_x_url": "https://x.com/bm_yattajima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T06:54:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxc1rLb0AEPYQm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxc1rLb0AEPYQm?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "c0b0731585"
+  },
+  {
     "id": "f1b19b626d16",
     "date": "2026-06-14",
     "time": "21:03",
@@ -333,5 +355,27 @@
     "image_url": "https://pbs.twimg.com/media/HKwv0QqbEAAnNvV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "85ed302b85"
+  },
+  {
+    "id": "45bc5a109f57",
+    "date": "2026-06-14",
+    "time": "17:00",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "468",
+    "text": "こんにちは マルハンメガシティ三島駿東です  コンプリート情報 e牙狼12　黄金騎士極限 468番台  コンプリートされたお客様 おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2066068129155817832",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T06:54:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKwjzGUaUAAYPN2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKwjzGUaUAAYPN2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "1cd7e84e8e"
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-15T09:53:21+09:00",
+  "generated_at": "2026-06-15T16:02:34+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 336,
+      "total_count": 339,
       "stores": [
         {
           "rank": 1,
@@ -44,27 +44,27 @@
         },
         {
           "rank": 7,
+          "name": "マルハンメガシティ三島駿東",
+          "count": 7,
+          "x_url": "https://x.com/mega_mishima"
+        },
+        {
+          "rank": 8,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 7,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "FACE1300小倉南店",
           "count": 7,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "プレイランドキャッスル熱田店",
           "count": 6,
           "x_url": "https://x.com/castleatsuta"
-        },
-        {
-          "rank": 10,
-          "name": "マルハンメガシティ三島駿東",
-          "count": 6,
-          "x_url": "https://x.com/mega_mishima"
         }
       ],
       "slot_machines": [
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12",
-          "count": 34
+          "count": 35
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "eリコリス・リコイル",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 4,
@@ -360,21 +360,21 @@
       },
       {
         "rank": 3,
+        "name": "マルハンメガシティ三島駿東",
+        "count": 15,
+        "x_url": "https://x.com/mega_mishima"
+      },
+      {
+        "rank": 4,
         "name": "プレイランドキャッスル熱田店",
         "count": 14,
         "x_url": "https://x.com/castleatsuta"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "楽園池袋店ゲートウェイ",
         "count": 14,
         "x_url": "https://x.com/rakuenikebukuro"
-      },
-      {
-        "rank": 5,
-        "name": "マルハンメガシティ三島駿東",
-        "count": 14,
-        "x_url": "https://x.com/mega_mishima"
       },
       {
         "rank": 6,
@@ -462,13 +462,13 @@
     "pachinko_machines": [
       {
         "rank": 1,
-        "name": "e牙狼12黄金騎士極限",
+        "name": "e牙狼12",
         "count": 65
       },
       {
         "rank": 2,
-        "name": "e牙狼12",
-        "count": 64
+        "name": "e牙狼12黄金騎士極限",
+        "count": 65
       },
       {
         "rank": 3,
@@ -483,7 +483,7 @@
       {
         "rank": 5,
         "name": "eリコリス・リコイル",
-        "count": 22
+        "count": 23
       },
       {
         "rank": 6,
@@ -511,14 +511,14 @@
         "count": 6
       }
     ],
-    "total_count": 861
+    "total_count": 864
   },
   "store_complete_counts": {
     "ARROW浪速店": 19,
     "キクヤ春日井店": 16,
+    "マルハンメガシティ三島駿東": 15,
     "プレイランドキャッスル熱田店": 14,
     "楽園池袋店ゲートウェイ": 14,
-    "マルハンメガシティ三島駿東": 14,
     "メガフェイス1450本山": 12,
     "SuperD'station東金店": 11,
     "楽園大宮店": 11,
@@ -544,6 +544,7 @@
     "マルハン川越店": 7,
     "マルハンメガシティ伊勢崎": 7,
     "マルハン松本店": 6,
+    "パラッツォ鳩ヶ谷店": 6,
     "SUPER CONCORDE 市野": 6,
     "楽園蒲田店": 6,
     "メガフェイス930朝倉": 6,
@@ -560,7 +561,6 @@
     "パラディソ古川ドルフィン館": 5,
     "メガフェイス1250": 5,
     "ＭＪアリーナ干隈店": 5,
-    "パラッツォ鳩ヶ谷店": 5,
     "M&K岡崎店": 5,
     "SUPER COSMO PREMIUM大東店": 5,
     "キャッスル春日井": 5,
@@ -588,6 +588,7 @@
     "プレイランドキャッスル東郷店": 4,
     "メガフェイス菊陽": 4,
     "栄若宮大通店": 4,
+    "ビックマーチ八斗島店": 3,
     "テキサス段原店": 3,
     "D’station39長与店": 3,
     "玉ノ助【パーラーダジュール公式】": 3,
@@ -651,7 +652,6 @@
     "楽園溝の口店": 2,
     "永楽本店": 2,
     "ビックマーチ桐生店": 2,
-    "ビックマーチ八斗島店": 2,
     "MGM鈴鹿店": 2,
     "吉兆東名川崎店": 2,
     "メガフェイス1120豊崎本館": 2,
