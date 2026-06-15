@@ -1,5 +1,28 @@
 [
   {
+    "id": "d24cf1fe6494",
+    "date": "2026-06-14",
+    "time": "21:54",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日6月14日、  480番台　e 東京喰種    492番台　e牙狼12黄金騎士極限 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/arrow_naniwa/status/2066142230948258074",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T18:32:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxpaAwbAAAVK7A?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKxow5pbsAAFdu7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxpaAwbAAAVK7A?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "f56627752c95",
     "date": "2026-06-14",
     "time": "21:49",
