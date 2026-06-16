@@ -112,6 +112,28 @@
     "store_id": "22f6e14d11"
   },
   {
+    "id": "5bfcb8cff7a8",
+    "date": "2026-06-16",
+    "time": "18:32",
+    "store": "ワンダーランドODO",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "1706",
+    "text": "コンプリート達成！ Lからくりサーカス【1706番台】 おめでとうございます これからの時間も小戸本館で",
+    "x_url": "https://x.com/wl_odo/status/2066816186311201075",
+    "store_handle": "wl_odo",
+    "store_x_url": "https://x.com/wl_odo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T22:10:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK7MULnasAAfw8L?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK7MULnasAAfw8L?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "576fdd84fc"
+  },
+  {
     "id": "f48b9eb4fcc0",
     "date": "2026-06-15",
     "time": "23:00",
@@ -315,6 +337,28 @@
     "image_url": "https://pbs.twimg.com/media/HK2bldyagAACcfV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "b5b93b356b"
+  },
+  {
+    "id": "dc14d81097af",
+    "date": "2026-06-15",
+    "time": "20:12",
+    "store": "エクスアリーナ松戸",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "435",
+    "text": "エクスアリーナ松戸よりお知らせです⋆͛⋆  435番台『e東京喰種 超デカ超一撃ver.』にて コンプリート機能発動となりました  おめでとうございます  この後も22:45まで営業しております ご来店お待ちしております",
+    "x_url": "https://x.com/XAmatsudo/status/2066479003519902041",
+    "store_handle": "xamatsudo",
+    "store_x_url": "https://x.com/xamatsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T22:26:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK2bsjobEAAlt7G?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK2bsjobEAAlt7G?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "a21784a348"
   },
   {
     "id": "9a8b83327e77",
@@ -1234,6 +1278,28 @@
     "store_id": "1cd7e84e8e"
   },
   {
+    "id": "71893f94aa44",
+    "date": "2026-06-13",
+    "time": "21:37",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "566",
+    "text": "千葉最大1409台の出玉情報  今日のコンプリートは 『566番台 e東京喰種』 夜まで打って粘りがちですね 打っていたお客様おめでとうございます  #千葉最大 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2065775563164508263",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T22:08:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKsb7Vya0AAnMB0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKsb7Vya0AAnMB0?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "e744c71a3d"
+  },
+  {
     "id": "9f293402073e",
     "date": "2026-06-13",
     "time": "21:16",
@@ -1276,6 +1342,28 @@
     "image_url": "https://pbs.twimg.com/media/HKsWTJ6aEAAzbG2?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "db8237aaa8"
+  },
+  {
+    "id": "925cc0f47900",
+    "date": "2026-06-13",
+    "time": "20:52",
+    "store": "SuperD'station39福重店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "129",
+    "text": "2日連続 福重店オススメ機種 129番台　#牙狼　 #コンプリート　達成です  オススメだから仕方ないよね おめでとうございます  #Dステ福重",
+    "x_url": "https://x.com/sd_fukushige/status/2065764274329587986",
+    "store_handle": "sd_fukushige",
+    "store_x_url": "https://x.com/sd_fukushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T22:40:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKsQ-RVa4AAKyhW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKsQ-RVa4AAKyhW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ad0ceba11b"
   },
   {
     "id": "63d432473022",

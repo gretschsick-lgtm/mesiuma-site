@@ -205,6 +205,28 @@
     "store_id": "b5b93b356b"
   },
   {
+    "id": "dc14d81097af",
+    "date": "2026-06-15",
+    "time": "20:12",
+    "store": "エクスアリーナ松戸",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "435",
+    "text": "エクスアリーナ松戸よりお知らせです⋆͛⋆  435番台『e東京喰種 超デカ超一撃ver.』にて コンプリート機能発動となりました  おめでとうございます  この後も22:45まで営業しております ご来店お待ちしております",
+    "x_url": "https://x.com/XAmatsudo/status/2066479003519902041",
+    "store_handle": "xamatsudo",
+    "store_x_url": "https://x.com/xamatsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T22:26:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK2bsjobEAAlt7G?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK2bsjobEAAlt7G?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "a21784a348"
+  },
+  {
     "id": "9a8b83327e77",
     "date": "2026-06-15",
     "time": "19:18",
