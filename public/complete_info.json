@@ -427,6 +427,28 @@
     "store_id": "7f6d7ae0f2"
   },
   {
+    "id": "b6d49d88e626",
+    "date": "2026-06-14",
+    "time": "21:48",
+    "store": "キコーナ鶴見",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日さらにスロットからも  L革命機ヴァルヴレイヴ2にて  　　　コンプリート達成  おめでとうございます #グランキコーナ鶴見 #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2066140642246627503",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T16:21:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxn9UjbkAA0zDF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxn9UjbkAA0zDF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cd7a76c703"
+  },
+  {
     "id": "dee78cc4f47b",
     "date": "2026-06-14",
     "time": "21:46",
@@ -18771,90 +18793,5 @@
     "store_x_url": "https://x.com/arrow_naniwa",
     "source_account_type": "store_official",
     "store_id": "dd02f6f68a"
-  },
-  {
-    "id": "752e0b33c5ff",
-    "date": "2026-05-17",
-    "time": "21:30",
-    "store": "マルハン筑西店",
-    "machine": "eカケグルイ",
-    "slot_number": "219",
-    "text": "コンプリート速報  マルハン筑西店  パチンコ最新台 eカケグルイ 7500ver 219番台のお客様  コンプリート機能発動 おめでとうございます  羨ましい、、、",
-    "images": [
-      "https://pbs.twimg.com/media/HIhXaNfa0AAFshD?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIhXaNfa0AAFshD?format=jpg&name=large",
-    "x_url": "https://x.com/Majishan_Tencho/status/2055989343806980125",
-    "collected_at": "2026-05-21T10:54:58Z",
-    "machine_type": "pachinko",
-    "machine_id": "11111111-1111-1111-1111-000000000035",
-    "store_handle": "majishan_tencho",
-    "store_x_url": "https://x.com/majishan_tencho",
-    "source_account_type": "store_manager",
-    "store_id": "d530f6adc5",
-    "manager_x_url": "https://x.com/majishan_tencho"
-  },
-  {
-    "id": "032bf3de97f4",
-    "date": "2026-05-17",
-    "time": "20:21",
-    "store": "プレイランドキャッスル熱田店",
-    "machine": "L炎炎ノ消防隊2",
-    "slot_number": "3213",
-    "text": "Lパチスロ 炎炎ノ消防隊2　3213番台   コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
-    "images": [
-      "https://pbs.twimg.com/media/HIhHk38aIAAu_is?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIhHk38aIAAu_is?format=jpg&name=large",
-    "x_url": "https://x.com/castleatsuta/status/2055972070337695868",
-    "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000003",
-    "store_handle": "castleatsuta",
-    "store_x_url": "https://x.com/castleatsuta",
-    "source_account_type": "store_official",
-    "store_id": "cb0be1f296"
-  },
-  {
-    "id": "8de8d9fe1651",
-    "date": "2026-05-17",
-    "time": "20:14",
-    "store": "プレイランドキャッスル熱田店",
-    "machine": "スマスロバイオハザードRE:3",
-    "slot_number": "3112",
-    "text": "スマスロ バイオハザードRE:3　3112番台   コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
-    "images": [
-      "https://pbs.twimg.com/media/HIhGE2rbMAAweR3?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIhGE2rbMAAweR3?format=jpg&name=large",
-    "x_url": "https://x.com/castleatsuta/status/2055970302933549277",
-    "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000018",
-    "store_handle": "castleatsuta",
-    "store_x_url": "https://x.com/castleatsuta",
-    "source_account_type": "store_official",
-    "store_id": "cb0be1f296"
-  },
-  {
-    "id": "355336602de4",
-    "date": "2026-05-17",
-    "time": "19:39",
-    "store": "エクスアリーナ松戸",
-    "machine": "eバイオハザード6",
-    "slot_number": "282",
-    "text": "エクスアリーナ松戸よりお知らせです⋆͛⋆  282番台『eバイオハザード6』にて コンプリート機能発動となりました  おめでとうございます  この後も22:45まで営業しております ご来店お待ちしております",
-    "images": [
-      "https://pbs.twimg.com/media/HIg97C2agAACh1j?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HIg97C2agAACh1j?format=jpg&name=large",
-    "x_url": "https://x.com/XAmatsudo/status/2055961324937683455",
-    "collected_at": "2026-05-21T10:54:59Z",
-    "machine_type": "pachinko",
-    "machine_id": "11111111-1111-1111-1111-000000000030",
-    "store_handle": "xamatsudo",
-    "store_x_url": "https://x.com/xamatsudo",
-    "source_account_type": "store_official",
-    "store_id": "a21784a348"
   }
 ]

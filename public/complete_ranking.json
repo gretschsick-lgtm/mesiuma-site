@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-16T20:35:53+09:00",
+  "generated_at": "2026-06-17T01:30:40+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 360,
+      "total_count": 361,
       "stores": [
         {
           "rank": 1,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 74
+          "count": 75
         },
         {
           "rank": 2,
@@ -175,7 +175,7 @@
     {
       "month": "2026-05",
       "label": "2026年5月",
-      "total_count": 512,
+      "total_count": 508,
       "stores": [
         {
           "rank": 1,
@@ -197,45 +197,45 @@
         },
         {
           "rank": 4,
-          "name": "プレイランドキャッスル熱田店",
-          "count": 7,
-          "x_url": "https://x.com/castleatsuta"
-        },
-        {
-          "rank": 5,
           "name": "キクヤ春日井店",
           "count": 7,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 6,
+          "rank": 5,
           "name": "マルハン仙台苦竹店",
           "count": 6,
           "x_url": "https://x.com/niga_maru"
         },
         {
-          "rank": 7,
+          "rank": 6,
           "name": "ARROW浪速店",
           "count": 6,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 8,
+          "rank": 7,
           "name": "フェイス850佐賀",
           "count": 6,
           "x_url": "https://x.com/face_850"
         },
         {
-          "rank": 9,
+          "rank": 8,
           "name": "グランキコーナひたちなか店",
           "count": 6,
           "x_url": "https://x.com/gk_hitachinaka"
         },
         {
-          "rank": 10,
+          "rank": 9,
           "name": "SPACE(スペース444＆666)",
           "count": 5,
           "x_url": "https://x.com/space666tobata"
+        },
+        {
+          "rank": 10,
+          "name": "SUPER COSMO PREMIUM大東店",
+          "count": 5,
+          "x_url": "https://x.com/scpdaitou"
         }
       ],
       "slot_machines": [
@@ -262,7 +262,7 @@
         {
           "rank": 5,
           "name": "L炎炎ノ消防隊2",
-          "count": 16
+          "count": 15
         },
         {
           "rank": 6,
@@ -281,13 +281,13 @@
         },
         {
           "rank": 9,
-          "name": "スマスロバイオハザードRE:3",
+          "name": "L沖ドキDUO アンコール",
           "count": 10
         },
         {
           "rank": 10,
-          "name": "L沖ドキDUO アンコール",
-          "count": 10
+          "name": "スマスロ北斗の拳",
+          "count": 9
         }
       ],
       "pachinko_machines": [
@@ -314,12 +314,12 @@
         {
           "rank": 5,
           "name": "eバイオハザード6",
-          "count": 9
+          "count": 8
         },
         {
           "rank": 6,
           "name": "eカケグルイ",
-          "count": 8
+          "count": 7
         },
         {
           "rank": 7,
@@ -372,33 +372,33 @@
       },
       {
         "rank": 5,
-        "name": "プレイランドキャッスル熱田店",
-        "count": 13,
-        "x_url": "https://x.com/castleatsuta"
-      },
-      {
-        "rank": 6,
         "name": "ビックマーチ東習志野店",
         "count": 12,
         "x_url": "https://x.com/joypackx"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "name": "メガフェイス1450本山",
         "count": 12,
         "x_url": "https://x.com/megaface_1450"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "name": "SuperD'station東金店",
         "count": 11,
         "x_url": "https://x.com/sd_tougane"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "name": "楽園大宮店",
         "count": 11,
         "x_url": "https://x.com/rakuen_ohmiya"
+      },
+      {
+        "rank": 9,
+        "name": "プレイランドキャッスル熱田店",
+        "count": 11,
+        "x_url": "https://x.com/castleatsuta"
       },
       {
         "rank": 10,
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 157
+        "count": 158
       },
       {
         "rank": 2,
@@ -431,7 +431,7 @@
       {
         "rank": 5,
         "name": "L炎炎ノ消防隊2",
-        "count": 25
+        "count": 24
       },
       {
         "rank": 6,
@@ -488,12 +488,12 @@
       {
         "rank": 6,
         "name": "eカケグルイ",
-        "count": 15
+        "count": 14
       },
       {
         "rank": 7,
         "name": "eバイオハザード6",
-        "count": 12
+        "count": 11
       },
       {
         "rank": 8,
@@ -511,18 +511,18 @@
         "count": 7
       }
     ],
-    "total_count": 873
+    "total_count": 870
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
     "マルハンメガシティ三島駿東": 16,
     "キクヤ春日井店": 16,
     "楽園池袋店ゲートウェイ": 14,
-    "プレイランドキャッスル熱田店": 13,
     "ビックマーチ東習志野店": 12,
     "メガフェイス1450本山": 12,
     "SuperD'station東金店": 11,
     "楽園大宮店": 11,
+    "プレイランドキャッスル熱田店": 11,
     "キング観光サウザンド栄若宮大通店": 11,
     "サガちゃんPARK": 10,
     "SPACE(スペース444＆666)": 10,
@@ -588,6 +588,7 @@
     "メガフェイス菊陽": 4,
     "栄若宮大通店": 4,
     "キャッスル春日井": 4,
+    "キコーナ鶴見": 3,
     "ビックマーチ八斗島店": 3,
     "テキサス段原店": 3,
     "D’station39長与店": 3,
@@ -624,7 +625,6 @@
     "G松原店": 3,
     "ダイナム岡山倉敷中島店": 2,
     "キクヤ長良店": 2,
-    "キコーナ鶴見": 2,
     "玉ノ助【パーラーダジュール公式】": 2,
     "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店": 2,
     "BIGディッパー花小金井店": 2,
@@ -642,7 +642,6 @@
     "ロイヤル沼ノ端店": 2,
     "ダイナム和歌山御坊店": 2,
     "フジコー三島店": 2,
-    "エクスアリーナ松戸": 2,
     "ライブガーデン上尾店": 2,
     "メガフェイス1000糸島": 2,
     "ダイナム鹿児島上川内店": 2,
@@ -690,6 +689,7 @@
     "ZENT可児店": 1,
     "DAITOYO　Prime": 1,
     "スーパードーム四日市店": 1,
+    "エクスアリーナ松戸": 1,
     "ワンダーランド　うきはバイパス店": 1,
     "ワンダーランド1188鹿児島新栄店": 1,
     "グランキコーナ松原店": 1,
@@ -832,7 +832,6 @@
     "マルハン清河寺": 1,
     "SC夢屋豊橋佐藤店": 1,
     "ゆかぴマルイ伊那": 1,
-    "スロット大将": 1,
-    "マルハン筑西店": 1
+    "スロット大将": 1
   }
 }
