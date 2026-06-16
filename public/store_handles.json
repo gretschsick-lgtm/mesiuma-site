@@ -24602,5 +24602,215 @@
     "x_url": "https://x.com/FunabashiTowars",
     "count": 0,
     "type": "store"
+  },
+  "cb300athena": {
+    "store": "アテナスロットワンCB300",
+    "x_url": "https://x.com/CB300athena",
+    "count": 0,
+    "type": "store"
+  },
+  "apro7slot": {
+    "store": "アプロ7",
+    "x_url": "https://x.com/apro7slot",
+    "count": 0,
+    "type": "store"
+  },
+  "vg_nishijin": {
+    "store": "ヴィーナスギャラリー西新店",
+    "x_url": "https://x.com/VG_nishijin",
+    "count": 0,
+    "type": "store"
+  },
+  "beamyame": {
+    "store": "BEAM YAME",
+    "x_url": "https://x.com/BeamYame",
+    "count": 0,
+    "type": "store"
+  },
+  "apina_nonoichi": {
+    "store": "アピナ野々市店",
+    "x_url": "https://x.com/apina_nonoichi",
+    "count": 0,
+    "type": "store"
+  },
+  "kg_tokai": {
+    "store": "KYORAKU東海店",
+    "x_url": "https://x.com/KG_tokai",
+    "count": 0,
+    "type": "store"
+  },
+  "ohta_nishi_": {
+    "store": "オータ西店",
+    "x_url": "https://x.com/ohta_nishi_",
+    "count": 0,
+    "type": "store"
+  },
+  "kicona_tlfuse": {
+    "store": "タウンライト布施店",
+    "x_url": "https://x.com/kicona_tlfuse",
+    "count": 0,
+    "type": "store"
+  },
+  "kicona_ibaraki": {
+    "store": "キコーナ茨木店",
+    "x_url": "https://x.com/kicona_ibaraki",
+    "count": 0,
+    "type": "store"
+  },
+  "space-miyako": {
+    "store": "スペースミヤコ",
+    "x_url": "https://x.com/space-miyako",
+    "count": 0,
+    "type": "store"
+  },
+  "grand_chateau_": {
+    "store": "グランシャトー",
+    "x_url": "https://x.com/Grand_Chateau_",
+    "count": 0,
+    "type": "store"
+  },
+  "kicona_nodanan": {
+    "store": "キコーナ野田南店",
+    "x_url": "https://x.com/kicona_nodanan",
+    "count": 0,
+    "type": "store"
+  },
+  "marukaikawadani": {
+    "store": "マルカ伊川谷店",
+    "x_url": "https://x.com/marukaikawadani",
+    "count": 0,
+    "type": "store"
+  },
+  "vg_himeji2": {
+    "store": "ヴィーナスギャラリー姫路Ⅱ",
+    "x_url": "https://x.com/vg_himeji2",
+    "count": 0,
+    "type": "store"
+  },
+  "dino_ohgi555": {
+    "store": "Dino青木駅前",
+    "x_url": "https://x.com/Dino_ohgi555",
+    "count": 0,
+    "type": "store"
+  },
+  "nishiwaki_maru": {
+    "store": "マルハン西脇店",
+    "x_url": "https://x.com/nishiwaki_maru",
+    "count": 0,
+    "type": "store"
+  },
+  "deluyoko_7": {
+    "store": "DELUXE 7西横浜店",
+    "x_url": "https://x.com/Deluyoko_7",
+    "count": 0,
+    "type": "store"
+  },
+  "access_slot3": {
+    "store": "アクセス",
+    "x_url": "https://x.com/access_slot3",
+    "count": 0,
+    "type": "store"
+  },
+  "maru_hirasawa": {
+    "store": "マルハン平沢店",
+    "x_url": "https://x.com/maru_hirasawa",
+    "count": 0,
+    "type": "store"
+  },
+  "hollywood_kanon": {
+    "store": "スーパーハリウッド1000観音店",
+    "x_url": "https://x.com/hollywood_kanon",
+    "count": 0,
+    "type": "store"
+  },
+  "angeloleone0707": {
+    "store": "レオーネ・アンジェロ",
+    "x_url": "https://x.com/ANGELOLEONE0707",
+    "count": 0,
+    "type": "store"
+  },
+  "_fuku_chaaaaan": {
+    "store": "スーパーハリウッド宇品&アルファー",
+    "x_url": "https://x.com/_fuku_chaaaaan",
+    "count": 0,
+    "type": "store"
+  },
+  "rosegarden1213": {
+    "store": "ローズガーデン",
+    "x_url": "https://x.com/RoseGarden1213",
+    "count": 0,
+    "type": "store"
+  },
+  "kowakingyano": {
+    "store": "キング矢野店",
+    "x_url": "https://x.com/kowakingyano",
+    "count": 0,
+    "type": "store"
+  },
+  "centurykaita": {
+    "store": "センチュリー海田",
+    "x_url": "https://x.com/centurykaita",
+    "count": 0,
+    "type": "store"
+  },
+  "lakata_ekimae6": {
+    "store": "ラカータ大宮駅前店",
+    "x_url": "https://x.com/LAKATA_EKIMAE6",
+    "count": 0,
+    "type": "store"
+  },
+  "palazzo_warabi": {
+    "store": "パラッツォ蕨店",
+    "x_url": "https://x.com/palazzo_warabi",
+    "count": 0,
+    "type": "store"
+  },
+  "lakata_omiyahon": {
+    "store": "ラカータ大宮本店",
+    "x_url": "https://x.com/LAKATA_OMIYAHON",
+    "count": 0,
+    "type": "store"
+  },
+  "hima_tawanyan": {
+    "store": "ひまわりタワー",
+    "x_url": "https://x.com/Hima_Tawanyan",
+    "count": 0,
+    "type": "store"
+  },
+  "p_station5_23": {
+    "store": "P-STATION",
+    "x_url": "https://x.com/P_Station5_23",
+    "count": 0,
+    "type": "store"
+  },
+  "hardrock1119": {
+    "store": "Hard Rock仙台一番町店",
+    "x_url": "https://x.com/HardRock1119",
+    "count": 0,
+    "type": "store"
+  },
+  "hard69party": {
+    "store": "Hard Rock 仙台駅前店",
+    "x_url": "https://x.com/Hard69pArty",
+    "count": 0,
+    "type": "store"
+  },
+  "lion_tanakamae": {
+    "store": "ライオン田中前店",
+    "x_url": "https://x.com/lion_tanakamae",
+    "count": 0,
+    "type": "store"
+  },
+  "matsumori_tiger": {
+    "store": "パチンコタイガー松森店",
+    "x_url": "https://x.com/matsumori_tiger",
+    "count": 0,
+    "type": "store"
+  },
+  "newseven_": {
+    "store": "夢広場ニューセブン南吉成店",
+    "x_url": "https://x.com/newseven_",
+    "count": 0,
+    "type": "store"
   }
 }
