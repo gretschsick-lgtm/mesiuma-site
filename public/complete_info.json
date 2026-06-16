@@ -48,6 +48,30 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "4e81a37c381c",
+    "date": "2026-06-15",
+    "time": "22:07",
+    "store": "テキサス白島店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス白島店です  コンプリート情報が届きましたので ご案内いたします。  #L革命機ヴァルブレイヴ２  コンプリート達成 おめでとうございます  明日日も白島テキサスは 朝時開店です  皆様のご来店をお待ちしています  #テキサス #コンプリート",
+    "x_url": "https://x.com/texashakushima/status/2066507996176531542",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T23:59:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK21aPjbEAAdwv1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK21cYlbYAAssqJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK21qTIaEAEBL_1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK21aPjbEAAdwv1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "dae931c16e"
+  },
+  {
     "id": "36c96fa6ae65",
     "date": "2026-06-15",
     "time": "22:02",
@@ -68,6 +92,28 @@
     "image_url": "https://pbs.twimg.com/media/HK206DqWoAAFd_G?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "fa5e8b8de7"
+  },
+  {
+    "id": "1d4ca6dacb8e",
+    "date": "2026-06-15",
+    "time": "20:38",
+    "store": "グランドホール港南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "111",
+    "text": "Congratulations!  　　　　牙狼12黄金騎士極限　111番台 　　　　　　本日2人目の騎士さま 　　　　　　コンプリート達成です 　　　　　　おめでとうございます",
+    "x_url": "https://x.com/grand_konan/status/2066485523200590168",
+    "store_handle": "grand_konan",
+    "store_x_url": "https://x.com/grand_konan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-15T23:58:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK2enNfaYAAgJh3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK2enNfaYAAgJh3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "63ba670979"
   },
   {
     "id": "9a8b83327e77",
