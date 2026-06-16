@@ -42,5 +42,28 @@
     "image_url": "https://pbs.twimg.com/media/HK7sXMfa0AAIrcx?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "cc35a017ad"
+  },
+  {
+    "id": "de87869541cf",
+    "date": "2026-06-16",
+    "time": "20:10",
+    "store": "やすだひばりヶ丘店",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "184",
+    "text": "やすひば速報  #月間おすすめ　機種から  　　１８４番台 　e北斗の拳　暴凶星  コンプリート達成  おめでとうございます  この後のご来店も お待ちしております  #パチンコ  #コンプリート",
+    "x_url": "https://x.com/yasuda_hibari/status/2066840711291687255",
+    "store_handle": "yasuda_hibari",
+    "store_x_url": "https://x.com/yasuda_hibari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T19:41:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK7hRmtaoAABMPw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK7hW6nawAEsaXf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK7hRmtaoAABMPw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_id": "22f6e14d11"
   }
 ]
