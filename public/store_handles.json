@@ -25184,5 +25184,35 @@
     "x_url": "https://x.com/slot333A",
     "count": 0,
     "type": "store"
+  },
+  "ws8988": {
+    "store": "ウエスト大正",
+    "x_url": "https://x.com/ws8988",
+    "count": 0,
+    "type": "store"
+  },
+  "m_powerspot": {
+    "store": "ベガスベガス弁天町店",
+    "x_url": "https://x.com/m_powerspot",
+    "count": 0,
+    "type": "store"
+  },
+  "mzus_sasaoka": {
+    "store": "エムザス笹丘店",
+    "x_url": "https://x.com/mzus_sasaoka",
+    "count": 0,
+    "type": "store"
+  },
+  "mzus_group": {
+    "store": "エムザス小笹店",
+    "x_url": "https://x.com/mzus_group",
+    "count": 0,
+    "type": "store"
+  },
+  "tamaya_nakao": {
+    "store": "SLOT玉屋222中尾",
+    "x_url": "https://x.com/tamaya_nakao",
+    "count": 0,
+    "type": "store"
   }
 }
