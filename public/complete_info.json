@@ -1,5 +1,50 @@
 [
   {
+    "id": "54a544e02374",
+    "date": "2026-06-16",
+    "time": "23:26",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "290",
+    "text": "コンプリート速報 豊崎本館　290番台 沖ドキDUO 閉店前のコンプリーーーート  今日はいろいろな機種から万枚overが・・・ コンプリート達成おめでとうございます #ガイモンさん来店 #メガフェイス1120豊崎本館 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2066890132792463562",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:37:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK8Q22DbkAAN7ag?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK8Q4YxboAAvBS3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK8Q22DbkAAN7ag?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "036ad33f3f"
+  },
+  {
+    "id": "cd91cbafde9c",
+    "date": "2026-06-16",
+    "time": "21:43",
+    "store": "ダイナム長野上田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "557",
+    "text": "557番台  L革命機ヴァルヴレイヴ2jF  コンプリート  引き続き 毎日来ていただけるように 精進します  「毎日本物」  #ダイナム長野上田店 #コンプリート",
+    "x_url": "https://x.com/tencho_szk/status/2066864319275606424",
+    "store_handle": "tencho_szk",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tencho_szk",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-16T20:37:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK76JHObQAAFG7D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK76JHObQAAFG7D?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "b42f5fe289"
+  },
+  {
     "id": "dcbe646df65b",
     "date": "2026-06-16",
     "time": "20:44",
@@ -628,6 +673,28 @@
     "store_id": "a213dcf5c4"
   },
   {
+    "id": "e5d02e8d451f",
+    "date": "2026-06-14",
+    "time": "20:32",
+    "store": "ダイナム長野上田店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "87",
+    "text": "本日２件目のコンプリート報告は…  87番台e牙狼12 黄金騎士極限  夏の風物詩  いいえ、  上ダの風物詩  といえば、やはり牙狼を抜きには語れません。  おめでとうございます  #コンプリート #牙狼  #ダイナム #長野県ダイナム #信州ダイナム #長野上田店",
+    "x_url": "https://x.com/dynam_00440/status/2066121514504867992",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:36:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxVLrabAAAst0A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxVLrabAAAst0A?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "b42f5fe289"
+  },
+  {
     "id": "45cbea158074",
     "date": "2026-06-14",
     "time": "20:17",
@@ -871,6 +938,119 @@
     "image_url": "https://pbs.twimg.com/media/HKwjzGUaUAAYPN2?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "a15aefaee27c",
+    "date": "2026-06-14",
+    "time": "12:00",
+    "store": "ダイナム熊本長洲店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "368",
+    "text": "こんにちは ダイナム熊本長洲店です  6月14日(日) 368番台  #L北斗の拳転生の章2 コンプリート達成  おめでとうございます  #ダイナム #コンプリート",
+    "x_url": "https://x.com/dynam_00230/status/2066355129222148455",
+    "store_handle": "dynam_00230",
+    "store_x_url": "https://x.com/dynam_00230",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:37:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK0rClAW4AEegjr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK0rClAW4AEegjr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "43a560ee66"
+  },
+  {
+    "id": "f5c0f1691607",
+    "date": "2026-06-14",
+    "time": "09:30",
+    "store": "楽園大宮店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "213",
+    "text": "昨日！！  4円パチンコ213番台  e東京喰種MWにて  コンプリート達成！！ おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2066317262068596899",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:37:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKyZmazbEAAu3xX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKyZmazbEAAu3xX?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04950fcd53"
+  },
+  {
+    "id": "fc0b44ada48f",
+    "date": "2026-06-14",
+    "time": "09:16",
+    "store": "ダイナム長野上田店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "760",
+    "text": "おはようございます  実は昨日6/13  こっちのゴッド いや 760番台 LパチスロゴッドイーターリザレクションSLED  コンプリートしておりました  このあと抽選になります お待ちしております  #ダイナム長野上田店 #コンプリート",
+    "x_url": "https://x.com/tencho_szk/status/2065951423188353054",
+    "store_handle": "tencho_szk",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tencho_szk",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-16T20:37:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKu73UIbEAAey0X?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKu73UJboAACBVo?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKu73UKbEAAn5bo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKu73UIbEAAey0X?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "b42f5fe289"
+  },
+  {
+    "id": "42ff9a827e95",
+    "date": "2026-06-14",
+    "time": "09:03",
+    "store": "ダイナム鹿児島上川内店",
+    "machine": "eひきこまり吸血姫の悶々",
+    "machine_type": "pachinko",
+    "slot_number": "239",
+    "text": "＜コンプリート報告  昨日、239番台ひきこまり吸血姫の悶々にて コンプリート達成 達成されたお客様、おめでとうございます",
+    "x_url": "https://x.com/dynam_00417/status/2066310585889820682",
+    "store_handle": "dynam_00417",
+    "store_x_url": "https://x.com/dynam_00417",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:37:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK0ChzvWkAAibuT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK0ChzvWkAAibuT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000034",
+    "store_id": "b14577d755"
+  },
+  {
+    "id": "7c8960f25134",
+    "date": "2026-06-14",
+    "time": "09:00",
+    "store": "PSJ新宮店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "66",
+    "text": "６月１４日（日）  パチンココーナー     ６６番台　   e女神のカフェテラス     コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/psj_shingu/status/2066309713013129610",
+    "store_handle": "psj_shingu",
+    "store_x_url": "https://x.com/psj_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:37:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxf23Wb0AAIzIs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKxf5GmaEAAH894?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxf23Wb0AAIzIs?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "e99e36a403"
   },
   {
     "id": "a23c655925d2",
@@ -1519,6 +1699,28 @@
     "image_url": "https://pbs.twimg.com/media/HKrD7mjacAAh3PW?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000035",
     "store_id": "ee5a196fc0"
+  },
+  {
+    "id": "ba29de0dcd55",
+    "date": "2026-06-13",
+    "time": "15:04",
+    "store": "アプロ1229",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  コンプリート達成 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢ 『L革命機ヴァルヴレイヴ2』 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢ おめでとうございます  本日「スロセレ」取材協力日！ この後のお時間もアプロでお楽しみください♪ #コンプリート #APULO811 #スロセレ",
+    "x_url": "https://x.com/apulo_1229/status/2065676737044984152",
+    "store_handle": "apulo_1229",
+    "store_x_url": "https://x.com/apulo_1229",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T21:09:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKq_zPZbgAAVeF6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKq_zPZbgAAVeF6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "82706c4cc8"
   },
   {
     "id": "c3cc8bc44a7b",

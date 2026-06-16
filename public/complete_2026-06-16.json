@@ -1,5 +1,50 @@
 [
   {
+    "id": "54a544e02374",
+    "date": "2026-06-16",
+    "time": "23:26",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "290",
+    "text": "コンプリート速報 豊崎本館　290番台 沖ドキDUO 閉店前のコンプリーーーート  今日はいろいろな機種から万枚overが・・・ コンプリート達成おめでとうございます #ガイモンさん来店 #メガフェイス1120豊崎本館 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2066890132792463562",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-16T20:37:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK8Q22DbkAAN7ag?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK8Q4YxboAAvBS3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK8Q22DbkAAN7ag?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "036ad33f3f"
+  },
+  {
+    "id": "cd91cbafde9c",
+    "date": "2026-06-16",
+    "time": "21:43",
+    "store": "ダイナム長野上田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "557",
+    "text": "557番台  L革命機ヴァルヴレイヴ2jF  コンプリート  引き続き 毎日来ていただけるように 精進します  「毎日本物」  #ダイナム長野上田店 #コンプリート",
+    "x_url": "https://x.com/tencho_szk/status/2066864319275606424",
+    "store_handle": "tencho_szk",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tencho_szk",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-16T20:37:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK76JHObQAAFG7D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK76JHObQAAFG7D?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "b42f5fe289"
+  },
+  {
     "id": "dcbe646df65b",
     "date": "2026-06-16",
     "time": "20:44",
