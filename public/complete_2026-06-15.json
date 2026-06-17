@@ -316,6 +316,29 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "5bdbad555f26",
+    "date": "2026-06-15",
+    "time": "18:06",
+    "store": "ピーアーク北千住エリア",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "707",
+    "text": "6月15日（月） ピーアーク北千住SSS トリエス  707番台 L 革命機ヴァルヴレイヴ コンプリート達成  うん、コイツが1番早いわ  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2066447130227830856",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T14:13:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK1-tnTbYAAbHms?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKsPR5sasAArXes?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK1-tnTbYAAbHms?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8282115e87"
+  },
+  {
     "id": "392ab0852ff2",
     "date": "2026-06-15",
     "time": "17:50",
