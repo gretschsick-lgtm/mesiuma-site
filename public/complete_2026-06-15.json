@@ -336,5 +336,49 @@
     "image_url": "https://pbs.twimg.com/media/HK1uS2_aIAAt92P?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "b5b93b356b"
+  },
+  {
+    "id": "0a93d6e0544b",
+    "date": "2026-06-15",
+    "time": "16:31",
+    "store": "SUPER COSMO PREMIUM大東店",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報！  Lゴットイーターで コンプリート達成！  おめでとうございます！  ゴゴゴニブゴゴ・・・・  まだまだお時間御座いますので！ お待ちしております！  #コンプリート",
+    "x_url": "https://x.com/SCPdaitou/status/2066423460101050482",
+    "store_handle": "scpdaitou",
+    "store_x_url": "https://x.com/scpdaitou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T06:39:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK1pLlPakAA0FLQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK1pLlPakAA0FLQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012",
+    "store_id": "8ea13b6c57"
+  },
+  {
+    "id": "adf459e3d8d0",
+    "date": "2026-06-15",
+    "time": "14:49",
+    "store": "マルハン所沢店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "91",
+    "text": "91番台:e牙狼12    コンプリート達成   おめでとうございます  #マルハン所沢店",
+    "x_url": "https://x.com/Smaru_tokoro/status/2066397585322189302",
+    "store_handle": "smaru_tokoro",
+    "store_x_url": "https://x.com/smaru_tokoro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T06:39:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK1RPfgbkAAE68F?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK1RPfgbkAAE68F?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ffbb0bd0fb"
   }
 ]
