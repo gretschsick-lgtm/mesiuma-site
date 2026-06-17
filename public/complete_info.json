@@ -110,6 +110,28 @@
     "store_id": "19b76dd507"
   },
   {
+    "id": "12d97dedd477",
+    "date": "2026-06-17",
+    "time": "19:26",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "2837",
+    "text": "コンプリート機能発動 先ほど、２８３７番台 スマスロソードアート・オンラインⅡにて コンプリート機能発動！！ 明日開放予定となります。 この後も #キャッスル春日井 へ ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2067192224853696983",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T16:35:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLAkXd3b0AAF1Ff?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLAkXd3b0AAF1Ff?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "cbc9c2710d"
+  },
+  {
     "id": "be11c38a079b",
     "date": "2026-06-17",
     "time": "19:22",
@@ -492,6 +514,28 @@
     "image_url": "https://pbs.twimg.com/media/HK2mLcTb0AAneWH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "18425371bb"
+  },
+  {
+    "id": "cdb81f269516",
+    "date": "2026-06-15",
+    "time": "20:54",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2087",
+    "text": "楽園池袋店ゲートウェイです 本日、6月15日(月)  パチンココーナーから 2087番台　【e牙狼12　黄金騎士極限】  コンプリート機能が作動いたしました 本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2066489497060274629",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T16:34:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK2k16pawAE_9Uq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK2k16pawAE_9Uq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "d31da15e6a1d",
@@ -19482,27 +19526,5 @@
     "store_x_url": "https://x.com/DAISYO365950",
     "source_account_type": "store_official",
     "store_id": "1ffbe5b95c"
-  },
-  {
-    "id": "7595d30ec47f",
-    "date": "2026-05-18",
-    "time": "01:02",
-    "store": "ARROW浪速店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "slot_number": "397",
-    "text": "本日、  e新世紀エヴァンゲリオン ～はじまりの記憶～　397番台 e北斗の拳11 暴凶星 　580番台  コンプリート達成おめでとうございます  #パチンコ  #コンプリート",
-    "images": [
-      "https://pbs.twimg.com/media/HInRliqbQAAAcd0?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HInRl1eaAAArugj?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HInRliqbQAAAcd0?format=jpg&name=large",
-    "x_url": "https://x.com/arrow_naniwa/status/2056405170473578520",
-    "collected_at": "2026-05-21T10:57:16Z",
-    "machine_type": "slot",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_handle": "arrow_naniwa",
-    "store_x_url": "https://x.com/arrow_naniwa",
-    "source_account_type": "store_official",
-    "store_id": "dd02f6f68a"
   }
 ]
