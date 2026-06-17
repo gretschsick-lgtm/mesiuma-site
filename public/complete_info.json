@@ -1,5 +1,28 @@
 [
   {
+    "id": "be11c38a079b",
+    "date": "2026-06-17",
+    "time": "19:22",
+    "store": "マルハン松本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "157",
+    "text": "速報です。 本日ｅ牙狼１２ＸＸ－ＭＪ 157番台 #コンプリート  おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2067191101258355082",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T10:42:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKSBthEb0AA4V3c?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKSBuqSbYAAQKwM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKSBthEb0AA4V3c?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "5b20cfecf8"
+  },
+  {
     "id": "487745ace4ac",
     "date": "2026-06-17",
     "time": "15:18",
@@ -314,6 +337,28 @@
     "image_url": "https://pbs.twimg.com/media/HK2zIRObYAA2bNw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "b5b93b356b"
+  },
+  {
+    "id": "bae70a768582",
+    "date": "2026-06-15",
+    "time": "21:04",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "542",
+    "text": "本日、    542番台 　e牙狼12黄金騎士極限 　   コンプリート達成 おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2066491923872039411",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T10:58:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK2iwkQbAAAY3Zf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK2iwkQbAAAY3Zf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "9b3ed82ad289",
