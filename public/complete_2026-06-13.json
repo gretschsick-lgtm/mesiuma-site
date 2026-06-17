@@ -135,6 +135,28 @@
     "store_id": "7ac364008f"
   },
   {
+    "id": "7015d952a7fb",
+    "date": "2026-06-13",
+    "time": "22:09",
+    "store": "ニューアサヒ長野青木島店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "299",
+    "text": "デジャヴか？ SAO？SAC？もう知らん。  L攻殻機動隊　299番台 コンプリートにより 本日は稼働停止となります。 #コンプリート #新台ではない",
+    "x_url": "https://x.com/shaka_na_baby/status/2065783561953960099",
+    "store_handle": "shaka_na_baby",
+    "store_x_url": "https://x.com/shaka_na_baby",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T18:18:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKsi0fvbsAEBvIq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKsi0fvbsAEBvIq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "d473c469be"
+  },
+  {
     "id": "2ea5bc3371c8",
     "date": "2026-06-13",
     "time": "22:07",
