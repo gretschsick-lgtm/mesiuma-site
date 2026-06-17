@@ -265,6 +265,28 @@
     "store_id": "bdd2e55ff9"
   },
   {
+    "id": "850024fad8fe",
+    "date": "2026-06-17",
+    "time": "14:04",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【速・報】   ​ スマスロ ヴァルヴレイヴ2 ​コ ン プ リ ー ト 達 成  ​「…早すぎるッ！！！」  本当におめでとうございます  ​ヴァルヴレイヴのポテンシャル、恐るべし…！  この後もまだまだ盛り上がっていきましょーーっ！  #VVV2 #コンプリート　 #メガフェイス1300淀川",
+    "x_url": "https://x.com/megaface_1300/status/2067111161217392887",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T21:56:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK_aoWmbMAAoM8H?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK_aoWmbMAAoM8H?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "5376d68fcc51",
     "date": "2026-06-16",
     "time": "23:55",
@@ -376,6 +398,28 @@
     "image_url": "https://pbs.twimg.com/media/HK76JHObQAAFG7D?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "b42f5fe289"
+  },
+  {
+    "id": "ee4287215064",
+    "date": "2026-06-16",
+    "time": "21:01",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "440",
+    "text": "【速報】 なんと昨日につづき、本日も『440番台』 「Lパチスロ 革命機ヴァルヴレイヴ2」にて 【コンプリート機能発動】となりました これで『2日連続コンプリート』達成 おめでとうございます 明日も皆様のご来店をお待ちしております。",
+    "x_url": "https://x.com/315kasugai/status/2067216109103935777",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-17T22:23:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLA4-U2bYAACiHl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLA4-U2bYAACiHl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5a18003e2d"
   },
   {
     "id": "dcbe646df65b",

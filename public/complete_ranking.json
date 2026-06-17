@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-18T06:09:31+09:00",
+  "generated_at": "2026-06-18T07:33:11+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 404,
+      "total_count": 406,
       "stores": [
         {
           "rank": 1,
@@ -15,7 +15,7 @@
         {
           "rank": 2,
           "name": "キクヤ春日井店",
-          "count": 10,
+          "count": 11,
           "x_url": "https://x.com/315kasugai"
         },
         {
@@ -62,16 +62,16 @@
         },
         {
           "rank": 10,
-          "name": "キング観光サウザンド栄若宮大通店",
+          "name": "メガフェイス1300淀川",
           "count": 7,
-          "x_url": "https://x.com/wakakin_tsujic"
+          "x_url": "https://x.com/megaface_1300"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 87
+          "count": 89
         },
         {
           "rank": 2,
@@ -355,7 +355,7 @@
       {
         "rank": 2,
         "name": "キクヤ春日井店",
-        "count": 17,
+        "count": 18,
         "x_url": "https://x.com/315kasugai"
       },
       {
@@ -390,28 +390,28 @@
       },
       {
         "rank": 8,
+        "name": "メガフェイス1300淀川",
+        "count": 11,
+        "x_url": "https://x.com/megaface_1300"
+      },
+      {
+        "rank": 9,
         "name": "SuperD'station東金店",
         "count": 11,
         "x_url": "https://x.com/sd_tougane"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "プレイランドキャッスル熱田店",
         "count": 11,
         "x_url": "https://x.com/castleatsuta"
-      },
-      {
-        "rank": 10,
-        "name": "キング観光サウザンド栄若宮大通店",
-        "count": 11,
-        "x_url": "https://x.com/wakakin_tsujic"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 170
+        "count": 172
       },
       {
         "rank": 2,
@@ -511,22 +511,22 @@
         "count": 8
       }
     ],
-    "total_count": 912
+    "total_count": 914
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
-    "キクヤ春日井店": 17,
+    "キクヤ春日井店": 18,
     "マルハンメガシティ三島駿東": 16,
     "楽園池袋店ゲートウェイ": 15,
     "ビックマーチ東習志野店": 13,
     "楽園大宮店": 12,
     "メガフェイス1450本山": 12,
+    "メガフェイス1300淀川": 11,
     "SuperD'station東金店": 11,
     "プレイランドキャッスル熱田店": 11,
     "キング観光サウザンド栄若宮大通店": 11,
     "プレイランドキャッスル春日井店": 10,
     "サガちゃんPARK": 10,
-    "メガフェイス1300淀川": 10,
     "SPACE(スペース444＆666)": 10,
     "キクヤ穂積店": 9,
     "FACE1300小倉南店": 9,
