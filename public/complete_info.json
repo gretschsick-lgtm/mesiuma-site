@@ -171,7 +171,7 @@
     "store_x_url": "https://x.com/wl_takeo",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-18T17:48:32Z",
+    "collected_at": "2026-06-18T16:37:48Z",
     "images": [
       "https://pbs.twimg.com/media/HLBHqsfakAAG_cH?format=jpg&name=large"
     ],
@@ -259,7 +259,7 @@
     "store_x_url": "https://x.com/plaza0204",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-18T17:50:41Z",
+    "collected_at": "2026-06-18T16:39:57Z",
     "images": [
       "https://pbs.twimg.com/media/HLAvGegaMAAgfle?format=jpg&name=large"
     ],
@@ -370,7 +370,7 @@
     "store_x_url": "https://x.com/d_purple777",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-18T17:49:28Z",
+    "collected_at": "2026-06-18T16:38:44Z",
     "images": [
       "https://pbs.twimg.com/media/HLAcv9ybkAAkaSj?format=jpg&name=large",
       "https://pbs.twimg.com/media/HLAcwQoawAAr2rC?format=jpg&name=large"
@@ -481,7 +481,7 @@
     "store_x_url": "https://x.com/space666tobata",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-18T17:34:50Z",
+    "collected_at": "2026-06-18T16:55:08Z",
     "images": [
       "https://pbs.twimg.com/media/HK8XfMnbkAAo4_b?format=jpg&name=large",
       "https://pbs.twimg.com/media/HK8XkFjbUAEd_uW?format=jpg&name=large",
@@ -1209,6 +1209,30 @@
     "store_id": "ffbb0bd0fb"
   },
   {
+    "id": "beef3b9cfe52",
+    "date": "2026-06-15",
+    "time": "08:49",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "ジャグラーガールズ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ガイの記録簿  6/15(月) マルハンメガシティ水戸赤塚  ⑤の日＝GO TOポスター ジャグラー仕掛けメイン  総差枚 +25,100枚  ジャグラーシリーズ ■ジャグラーシリーズ 総差枚 +48,800枚  全系考察 ■ゴーゴージャグラー ■ジャグラーガールズ  ⑤まつわり仕掛け ■555番台",
+    "x_url": "https://x.com/pachi_slohunter/status/2066669478013002159",
+    "store_handle": "pachi_slohunter",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-06-18T16:54:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK5I7u0bMAA_xtn?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK5I7uwaIAAQx7z?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HK5I7uubYAA4hUD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK5I7u0bMAA_xtn?format=jpg&name=large",
+    "machine_id": "b639428d-0422-46e2-9f3f-474c47bbace3",
+    "store_id": "703d5e39e5"
+  },
+  {
     "id": "47eaab93807d",
     "date": "2026-06-14",
     "time": "22:57",
@@ -1409,6 +1433,28 @@
     "image_url": "https://pbs.twimg.com/media/HKSAJC9bcAEVBGW?format=jpg&name=large",
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
     "store_id": "5b20cfecf8"
+  },
+  {
+    "id": "3b5ce3cbd72c",
+    "date": "2026-06-14",
+    "time": "21:44",
+    "store": "グランキコーナひたちなか店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは！  店内より速報です‹‹\\(´ω` )/››~♪  パチンココーナー 『牙狼12  黄金騎士』より コンプリート達成  おめでとうございます  #グランキコーナひたちなか店 #コンプリート達成 #つぶやキコーナ",
+    "x_url": "https://x.com/GK_hitachinaka/status/2066139749996482865",
+    "store_handle": "gk_hitachinaka",
+    "store_x_url": "https://x.com/gk_hitachinaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-18T18:19:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKxnIkYaIAEXLY3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKxnIkYaIAEXLY3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "bcc41247bb"
   },
   {
     "id": "a7cd35a569a5",
