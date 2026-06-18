@@ -1,5 +1,28 @@
 [
   {
+    "id": "15735ed31899",
+    "date": "2026-06-18",
+    "time": "22:08",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 キターーーーーー！ 豊崎本館より 今週のオススメ機種♪ ヴァルヴレイヴ２より コンプリート達成です 流石はオススメ機種、、、 おめでとうございます",
+    "x_url": "https://x.com/megaface_1120/status/2067595184699998234",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-18T19:24:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLGSyzyaEAA808_?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLGSyzubsAA_Ksl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLGSyzyaEAA808_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "5281679ba691",
     "date": "2026-06-18",
     "time": "21:34",
@@ -42,6 +65,28 @@
     "image_url": "https://pbs.twimg.com/media/HLGI2sVaQAAeFW3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "98752ae840"
+  },
+  {
+    "id": "c30d9d8b96e6",
+    "date": "2026-06-18",
+    "time": "19:43",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "968",
+    "text": "968番台かぐや様がコンプリートです おめでとうございます！！ #コンプリート #カグヤ様",
+    "x_url": "https://x.com/tamaya_honten/status/2067558823297241228",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-18T19:25:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLFxk3xaEAAlscg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLFxk3xaEAAlscg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "de68290eab"
   },
   {
     "id": "8e1ccb2af1e8",
@@ -1185,6 +1230,28 @@
     "image_url": "https://pbs.twimg.com/media/HK1pLlPakAA0FLQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_id": "8ea13b6c57"
+  },
+  {
+    "id": "15d8d6292bb5",
+    "date": "2026-06-15",
+    "time": "16:15",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "472",
+    "text": "こんにちは メガシティ三島駿東です  e牙狼12　黄金騎士極限 472番台 コンプリートです  おめでとうございます  みなさまこの後もぜひ お楽しみください",
+    "x_url": "https://x.com/mega_mishima/status/2066419183395774809",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-18T19:23:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK1iTySawAAJo8x?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK1iTySawAAJo8x?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "adf459e3d8d0",
