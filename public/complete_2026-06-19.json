@@ -1,5 +1,49 @@
 [
   {
+    "id": "97b83d693275",
+    "date": "2026-06-19",
+    "time": "22:21",
+    "store": "マルハン原山台店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "出ました！スマパチ #牙狼 で #コンプリート 達成  本当におめでとうございます 600回ハマリからの一撃だったようで、とても喜ばれていました",
+    "x_url": "https://x.com/yDqzFk8QP854264/status/2067961069952536666",
+    "store_handle": "ydqzfk8qp854264",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-06-19T21:06:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLfoK1bYAAYI1p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLfoK1bYAAYI1p?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "dd65562cc7"
+  },
+  {
+    "id": "6420073aadd9",
+    "date": "2026-06-19",
+    "time": "22:10",
+    "store": "メガフェイス1450本山",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "770",
+    "text": "速報です  　　770番台 e牙狼12黄金騎士極限 #コンプリート　達成です！！  おめでとうございます  牙狼の勢いは凄いですね  またのご来店心よりお待ちしております  #メガフェイス1450本山店 #e牙狼12黄金騎士極限",
+    "x_url": "https://x.com/megaface_1450/status/2067958074392887643",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T21:06:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLXhGfaIAA6OdR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLXhGfaIAA6OdR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "8e65b781f378",
     "date": "2026-06-19",
     "time": "21:17",
