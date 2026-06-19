@@ -244,6 +244,28 @@
     "store_id": "19b76dd507"
   },
   {
+    "id": "eaf3821b8a06",
+    "date": "2026-06-17",
+    "time": "20:05",
+    "store": "グランドホール港南店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1051",
+    "text": "1051番台 L北斗の拳　転生の章2 コンプリート達成 　　　おめでとうございます！ 明日もグランドで！ ポイント交換会忘れずに！！！",
+    "x_url": "https://x.com/grand_konan/status/2067201865385959836",
+    "store_handle": "grand_konan",
+    "store_x_url": "https://x.com/grand_konan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T08:58:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLAmnDSaMAA7vm7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLAmnDSaMAA7vm7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "63ba670979"
+  },
+  {
     "id": "12d97dedd477",
     "date": "2026-06-17",
     "time": "19:26",
