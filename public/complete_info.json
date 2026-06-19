@@ -1,5 +1,50 @@
 [
   {
+    "id": "8e65b781f378",
+    "date": "2026-06-19",
+    "time": "21:17",
+    "store": "プレイランドキャッスル東郷店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "2078",
+    "text": "先程、2078番台     スマスロ ソードアート・オンラインIIにて     コンプリート機能作動の為、     稼働を停止しております。      #コンプリート 明日の開放をお楽しみに",
+    "x_url": "https://x.com/toumaruhana6/status/2067944976433258923",
+    "store_handle": "toumaruhana6",
+    "store_x_url": "https://x.com/toumaruhana6",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T14:09:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLQ-dzbQAAM1W1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLQ-dzbQAAM1W1?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "cc35a017ad"
+  },
+  {
+    "id": "93f3b8a56ef2",
+    "date": "2026-06-19",
+    "time": "21:14",
+    "store": "マルハン袋井店",
+    "machine": "eバイオハザード6",
+    "machine_type": "pachinko",
+    "slot_number": "189",
+    "text": "6月19日 先日1円コーナーから出ましたが本日も 189番台「eバイオハザード6」 祝祝祝 コンプリート達成！！ おめでとうございます  どのモードでコンプリートされたのか気になりますね",
+    "x_url": "https://x.com/maruhan_fukuroi/status/2067944102956814623",
+    "store_handle": "maruhan_fukuroi",
+    "store_x_url": "https://x.com/maruhan_fukuroi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T13:54:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLQMvDbcAE7BY5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLLQMvIa8AAdhN0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLQMvDbcAE7BY5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030",
+    "store_id": "1f0627c183"
+  },
+  {
     "id": "4f7d75c3e83c",
     "date": "2026-06-19",
     "time": "16:11",
@@ -20,6 +65,28 @@
     "image_url": "https://pbs.twimg.com/media/HLKK2s0acAAgv-R?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "9ff188237d"
+  },
+  {
+    "id": "3f5507f8a258",
+    "date": "2026-06-19",
+    "time": "13:46",
+    "store": "SuperD'station39福重店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "88",
+    "text": "福重店オススメ機種 88番台　#牙狼　 #コンプリート　達成です  おめでとうございます",
+    "x_url": "https://x.com/sd_fukushige/status/2067831317996392758",
+    "store_handle": "sd_fukushige",
+    "store_x_url": "https://x.com/sd_fukushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T14:26:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLJplXCbIAEV-3c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLJplXCbIAEV-3c?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ad0ceba11b"
   },
   {
     "id": "15735ed31899",
@@ -111,6 +178,29 @@
     "store_id": "de68290eab"
   },
   {
+    "id": "be14c526361b",
+    "date": "2026-06-18",
+    "time": "18:23",
+    "store": "テキサス小倉店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは  テキサス小倉店です  6月18日 1.1円パチンココーナーから コンプリート達成   168番 e キン肉マン   おめでとうございます  この後もご来店 お待ちしております  #コンプリート #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2067538610400952614",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T14:24:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLFWw_mbYAAT-0F?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLFWw_nb0AAwYqw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLFWw_mbYAAT-0F?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "8e1ccb2af1e8",
     "date": "2026-06-18",
     "time": "17:17",
@@ -133,6 +223,24 @@
     "image_url": "https://pbs.twimg.com/media/HLFQASbboAA8n-h?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "53cfcde9a2"
+  },
+  {
+    "id": "c069c5f44a23",
+    "date": "2026-06-18",
+    "time": "15:47",
+    "store": "エムディー目黒店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "753",
+    "text": "【コンプリート速報】  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ   753番台 　　　2026.06.18    15:22 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  コンプリート達成おめでとうございます  当店でなんと4回目のコンプリート達成の超常連様",
+    "x_url": "https://x.com/mdmeguro/status/2067499327682228438",
+    "store_handle": "mdmeguro",
+    "store_x_url": "https://x.com/mdmeguro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T14:24:54Z",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "b5b93b356b"
   },
   {
     "id": "2bdcd22064ec",
@@ -179,6 +287,28 @@
     "image_url": "https://pbs.twimg.com/media/HLBE8mraAAAejya?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "19b76dd507"
+  },
+  {
+    "id": "f621ab89bae8",
+    "date": "2026-06-17",
+    "time": "22:57",
+    "store": "マルハンメガシティ柏",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "1034",
+    "text": "コンプリート速報 1034番台　いざ！番長  粘って粘ってこの時間でコンプリート 本当におめでとうございます!",
+    "x_url": "https://x.com/maruhankashiwa/status/2067245243377033241",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T14:25:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLBUS9dbwAA_4K5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLBUS9dbwAA_4K5?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "e5e18632fd"
   },
   {
     "id": "71d862532bf3",
@@ -267,6 +397,50 @@
     "image_url": "https://pbs.twimg.com/media/HLBIzsybUAA_Ov1?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
     "store_id": "d5fbda7161"
+  },
+  {
+    "id": "d40bf343504b",
+    "date": "2026-06-17",
+    "time": "20:55",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "26",
+    "text": "マルハン川越店です！    コンプリート速報 e牙狼12黄金騎士極限 26番台   おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2067214634525057414",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T13:55:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLA4sE8bAAAdHPo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLA4sE8bAAAdHPo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3917e74a54"
+  },
+  {
+    "id": "c90620340d0e",
+    "date": "2026-06-17",
+    "time": "20:52",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "398",
+    "text": "千葉最大1409台の出玉情報  今日もコンプリート発動 『398番台 e東京喰種』 打っていたお客様おめでとうございます  #千葉最大 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2067213867047157865",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T13:55:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLA4DV9aQAEvPgN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLA4DV9aQAEvPgN?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "e744c71a3d"
   },
   {
     "id": "3409b021db4c",
@@ -670,6 +844,28 @@
     "image_url": "https://pbs.twimg.com/media/HK8Hzr8bAAEHvKM?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "58111f872e"
+  },
+  {
+    "id": "c8f3e4f8b4e3",
+    "date": "2026-06-16",
+    "time": "22:24",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "1020",
+    "text": "本日2台目のコンプリート 1020番台 L炎炎ノ消防隊 おめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2066874604472438902",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T14:24:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HK8Df3CbMAEN3k2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HK8Df3CbMAEN3k2?format=jpg&name=large",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2",
+    "store_id": "771f030669"
   },
   {
     "id": "2e6a9020428d",
