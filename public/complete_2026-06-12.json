@@ -15,7 +15,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-13T18:35:57Z",
     "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_id": "01a41812b5"
+    "store_id": "01a41812b5",
+    "image_url": "https://pbs.twimg.com/media/HKnsE47aYAAaOQ6.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HKnsE47aYAAaOQ6.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKnsE47aYAAaOQ6.jpg?format=jpg&name=large"
+    ]
   },
   {
     "id": "edb0a78f4057",
@@ -125,7 +130,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-13T21:33:40Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "ad0ceba11b"
+    "store_id": "ad0ceba11b",
+    "image_url": "https://pbs.twimg.com/media/HKnRbyIaQAA6srU.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HKnRbyIaQAA6srU.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKnRbyIaQAA6srU.jpg?format=jpg&name=large"
+    ]
   },
   {
     "id": "c1f613052f6a",
@@ -195,6 +205,29 @@
     "image_url": "https://pbs.twimg.com/media/HKnEMacbMAAro8c?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "ef707cf8fe"
+  },
+  {
+    "id": "8a9fab5472ee",
+    "date": "2026-06-12",
+    "time": "20:02",
+    "store": "パラッツォ大阪三国店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "「e東京喰種MW」から、 見事コンプリート達成のお知らせです  素晴らしい引き、おめでとうございます！  本日6月12日も22:40まで営業しております  仕事帰りやこの後の時間からでも、 まだまだお楽しみいただけますよ   皆様のご来店を心よりお待ちしております  #コンプリート  #パラッツォ",
+    "x_url": "https://x.com/palazzo_mikuni/status/2065389266121998426",
+    "store_handle": "palazzo_mikuni",
+    "store_x_url": "https://x.com/palazzo_mikuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T00:35:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKm8aqoa8AEi6YU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKm8fMOakAAaqlV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKm8aqoa8AEi6YU?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "f6a0acc322"
   },
   {
     "id": "d2abcc249115",
