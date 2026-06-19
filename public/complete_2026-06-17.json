@@ -222,6 +222,28 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "d22e8000b697",
+    "date": "2026-06-17",
+    "time": "20:37",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "51",
+    "text": "マルハン川越店です！    コンプリート速報 e牙狼12黄金騎士極限 51番台   おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2067210063509676153",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T17:25:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLA0iHqa4AEBvB-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLA0iHqa4AEBvB-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3917e74a54"
+  },
+  {
     "id": "05e2642c5a96",
     "date": "2026-06-17",
     "time": "20:35",
@@ -330,6 +352,28 @@
     "image_url": "https://pbs.twimg.com/media/HLAmnDSaMAA7vm7?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "63ba670979"
+  },
+  {
+    "id": "69c006eeab9c",
+    "date": "2026-06-17",
+    "time": "19:37",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "34",
+    "text": "マルハン川越店です！    コンプリート速報 e牙狼12黄金騎士極限 34番台   おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2067195035532349810",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T17:25:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLAmmR9boAAblLG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLAmmR9boAAblLG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3917e74a54"
   },
   {
     "id": "12d97dedd477",

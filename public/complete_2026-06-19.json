@@ -58,13 +58,35 @@
     "store_x_url": "https://x.com/niga_maru",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-19T16:59:26Z",
+    "collected_at": "2026-06-19T17:40:39Z",
     "images": [
       "https://pbs.twimg.com/media/HLK_1WIbgAAK35e?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HLK_1WIbgAAK35e?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "fb78bbe137"
+  },
+  {
+    "id": "07ddf4b1086b",
+    "date": "2026-06-19",
+    "time": "18:18",
+    "store": "サガちゃんPARK",
+    "machine": "eブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "1309",
+    "text": "ヤッホー  1309番台 eブルーロック  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2067899886545334379",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T17:27:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLKn-fxboAAuLOZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLKn-fxboAAuLOZ?format=jpg&name=large",
+    "machine_id": "8242d72f-0825-4c89-820a-c5f4b5c96a0b",
+    "store_id": "ee5a196fc0"
   },
   {
     "id": "4f7d75c3e83c",

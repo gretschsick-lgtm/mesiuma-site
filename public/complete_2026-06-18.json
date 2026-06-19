@@ -1,5 +1,27 @@
 [
   {
+    "id": "b9ee8db6ddff",
+    "date": "2026-06-18",
+    "time": "23:00",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "376",
+    "text": "【コンプリート】  こんばんは！  キクヤ穂積店ですッ！ コンプリート報告です！！  20時57分頃　376番台  スマパチ　牙狼１２　黄金騎士極限  コンプリート達成です！！   おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2067608276049809605",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T17:26:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLGQWVga8AA1qXN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLGQWVga8AA1qXN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c800581abf"
+  },
+  {
     "id": "15735ed31899",
     "date": "2026-06-18",
     "time": "22:08",
@@ -136,29 +158,6 @@
     "store_id": "53cfcde9a2"
   },
   {
-    "id": "424d848c82b0",
-    "date": "2026-06-18",
-    "time": "16:56",
-    "store": "マルハン下松店",
-    "machine": "L甲鉄城のカバネリ海門決戦",
-    "machine_type": "slot",
-    "slot_number": "557",
-    "text": "テキサス白島店6月16日 【6の付く日・情報共有DM】  ✼••┈┈┈┈┈┈┈┈┈┈┈┈••✼  ■カバネリ海門決戦 557番台から設定6確定がでたそうです  序盤から一気に伸ばして最終差枚+10,000枚over  投資も少なめで理想の展開すぎます  ‐‐‐  ◆詳しく送って頂きました",
-    "x_url": "https://x.com/milmey_pachi/status/2067516808752660958",
-    "store_handle": "milmey_pachi",
-    "store_x_url": "https://x.com/milmey_pachi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-19T17:00:51Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLFF4KLagAApuuB?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HK2Km6bbUAAKoOe?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLFF4KLagAApuuB?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000005",
-    "store_id": "ec2322cb03"
-  },
-  {
     "id": "c069c5f44a23",
     "date": "2026-06-18",
     "time": "15:47",
@@ -175,5 +174,50 @@
     "collected_at": "2026-06-19T14:24:54Z",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "b5b93b356b"
+  },
+  {
+    "id": "1e724b0fd8cf",
+    "date": "2026-06-18",
+    "time": "15:00",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "57",
+    "text": "マルハン川越店です！    コンプリート速報 e牙狼12黄金騎士極限 57番台   おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2067487472754266560",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T16:29:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLEsxLEbsAALBOY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLEsxLEbsAALBOY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3917e74a54"
+  },
+  {
+    "id": "ee8790dbf6f4",
+    "date": "2026-06-18",
+    "time": "01:08",
+    "store": "ARROW浪速店",
+    "machine": "スマスロバイオハザードRE:3",
+    "machine_type": "slot",
+    "slot_number": "1064",
+    "text": "本日、  スロット ソードアート・オンラインII　1064番台  スマスロ バイオハザードRE:3　1166番台  コンプリート達成おめでとうございます #スロット #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2067640535993795066",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T16:28:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLG7BDQaMAAMBvz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLG7BngaYAAiKv4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLG7BDQaMAAMBvz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_id": "dd02f6f68a"
   }
 ]
