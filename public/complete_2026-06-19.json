@@ -89,6 +89,29 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "34a8da3a764c",
+    "date": "2026-06-19",
+    "time": "16:45",
+    "store": "マルハン佐賀店実績",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "210",
+    "text": "e新世紀エヴァンゲリオン17 　　　210番台 　　　16時32分 　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2067876452541018196",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-19T18:27:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLKSUPNbAAAmf1R?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLKSYp1bAAAfzZR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLKSUPNbAAAmf1R?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
+    "store_id": "40bee74824"
+  },
+  {
     "id": "4f7d75c3e83c",
     "date": "2026-06-19",
     "time": "16:11",
