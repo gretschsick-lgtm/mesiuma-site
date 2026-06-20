@@ -67,6 +67,29 @@
     "store_id": "2386a7238d"
   },
   {
+    "id": "dc72bcefa50a",
+    "date": "2026-06-20",
+    "time": "22:18",
+    "store": "マルハン松本店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "478",
+    "text": "速報です。 本日Lゴッドイーターリザレクション 478番台 #コンプリート  おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2068322689669050691",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T21:15:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKh2S5dakAANihF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKh2UVla4AADrHZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKh2S5dakAANihF?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "5b20cfecf8"
+  },
+  {
     "id": "8012cfa18029",
     "date": "2026-06-20",
     "time": "22:16",
@@ -177,6 +200,29 @@
     "image_url": "https://pbs.twimg.com/media/HLQQ1W7bcAAd3gj?format=jpg&name=large",
     "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
     "store_id": "fe04efdcd0"
+  },
+  {
+    "id": "c4aa5348b971",
+    "date": "2026-06-20",
+    "time": "20:31",
+    "store": "マルハン松本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "450",
+    "text": "速報です。 本日L革命機ヴァルヴレイヴ2jF 450番台 #コンプリート  おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2068295587431424021",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T21:15:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HKh2S5dakAANihF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HKh2UVla4AADrHZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HKh2S5dakAANihF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b20cfecf8"
   },
   {
     "id": "e1949f9c8c54",

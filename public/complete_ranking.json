@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T04:48:40+09:00",
+  "generated_at": "2026-06-21T06:43:39+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 469,
+      "total_count": 472,
       "stores": [
         {
           "rank": 1,
@@ -56,22 +56,22 @@
         },
         {
           "rank": 9,
-          "name": "パチンコの玉屋∞本店",
+          "name": "マルハン松本店",
           "count": 8,
-          "x_url": "https://x.com/tamaya_honten"
+          "x_url": "https://x.com/mtmmaruhan"
         },
         {
           "rank": 10,
-          "name": "テキサス小倉店",
+          "name": "パチンコの玉屋∞本店",
           "count": 8,
-          "x_url": "https://x.com/texas_kokura"
+          "x_url": "https://x.com/tamaya_honten"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 101
+          "count": 102
         },
         {
           "rank": 2,
@@ -86,16 +86,16 @@
         {
           "rank": 4,
           "name": "L炎炎ノ消防隊2",
-          "count": 11
+          "count": 12
         },
         {
           "rank": 5,
-          "name": "L甲鉄城のカバネリ海門決戦",
-          "count": 9
+          "name": "スマスロゴッドイーター",
+          "count": 10
         },
         {
           "rank": 6,
-          "name": "スマスロゴッドイーター",
+          "name": "L甲鉄城のカバネリ海門決戦",
           "count": 9
         },
         {
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 171
+        "count": 172
       },
       {
         "rank": 2,
@@ -426,7 +426,7 @@
       {
         "rank": 4,
         "name": "L炎炎ノ消防隊2",
-        "count": 25
+        "count": 26
       },
       {
         "rank": 5,
@@ -436,7 +436,7 @@
       {
         "rank": 6,
         "name": "スマスロゴッドイーター",
-        "count": 17
+        "count": 18
       },
       {
         "rank": 7,
@@ -511,7 +511,7 @@
         "count": 7
       }
     ],
-    "total_count": 900
+    "total_count": 903
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
@@ -532,20 +532,20 @@
     "サガちゃんPARK": 10,
     "プレイランドキャッスル春日井店": 10,
     "プレイランドキャッスル熱田店": 10,
+    "マルハン松本店": 9,
     "キクヤ穂積店": 9,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 9,
     "FACE1300小倉南店": 9,
     "新ガーデン西浦和": 9,
     "マルハンメガシティ伊勢崎": 8,
+    "SUPER CONCORDE": 8,
     "エムディー目黒店": 8,
     "マルハン仙台名坊店": 8,
     "マルハン仙台苦竹店": 7,
     "イーグルアールワン南8条店": 7,
     "グランドホール港南店": 7,
-    "マルハン松本店": 7,
     "楽園蒲田店": 7,
     "ダイナム長野上田店": 7,
-    "SUPER CONCORDE": 7,
     "マルハン袋井店": 6,
     "SuperD'station39福重店": 6,
     "りっちらんど上尾": 6,

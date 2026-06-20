@@ -178,6 +178,29 @@
     "store_id": "d754c8b22c"
   },
   {
+    "id": "f44384b747e2",
+    "date": "2026-06-19",
+    "time": "19:24",
+    "store": "SUPER CONCORDE",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "3306",
+    "text": "コンプリート報告  3306番台 L炎炎ノ消防隊2で コンプリート機能が作動いたしました  ご遊技されていたお客様 ちゅん様、おめでとうございます。  お客様のコメント 大変ありがとうございました  氷は炎でよく溶けるんですね このあとのお時間もスパコンでお楽しみください",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2067916397674639701",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T21:15:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLK29bWbAAAMjC7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLFvEsEbcAAreeO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLK29bWbAAAMjC7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "07ddf4b1086b",
     "date": "2026-06-19",
     "time": "18:18",
