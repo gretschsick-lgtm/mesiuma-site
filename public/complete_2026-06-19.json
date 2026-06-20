@@ -44,6 +44,28 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "d7e5deed511c",
+    "date": "2026-06-19",
+    "time": "21:59",
+    "store": "マルハン川越店",
+    "machine": "Lビッグドリーム",
+    "machine_type": "slot",
+    "slot_number": "1114",
+    "text": "マルハン川越店です！  コンプリート速報 スマスロ ビッグドリーム  1114番台 おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2067955530614866084",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T17:15:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLaMN5aMAAZLEH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLaMN5aMAAZLEH?format=jpg&name=large",
+    "machine_id": "26fc95df-4767-41bc-8330-89f463ce04bc",
+    "store_id": "3917e74a54"
+  },
+  {
     "id": "771add64101a",
     "date": "2026-06-19",
     "time": "21:31",
@@ -168,7 +190,7 @@
     "store_x_url": "https://x.com/kitasenjusss",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-20T15:01:06Z",
+    "collected_at": "2026-06-20T17:04:51Z",
     "images": [
       "https://pbs.twimg.com/media/HLKWFAjaIAE8pDP?format=jpg&name=large",
       "https://pbs.twimg.com/media/HK1-tnTbYAAbHms?format=jpg&name=large"

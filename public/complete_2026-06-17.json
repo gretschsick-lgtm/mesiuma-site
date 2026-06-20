@@ -235,7 +235,7 @@
     "store_x_url": "https://x.com/mega_mishima",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-20T15:01:01Z",
+    "collected_at": "2026-06-20T17:04:43Z",
     "images": [
       "https://pbs.twimg.com/media/HLAx6w2aMAA238y?format=jpg&name=large"
     ],
@@ -374,6 +374,28 @@
     "image_url": "https://pbs.twimg.com/media/HLAmnDSaMAA7vm7?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "63ba670979"
+  },
+  {
+    "id": "308eb7d5c9fc",
+    "date": "2026-06-17",
+    "time": "19:49",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "e転生したらスライムだった件2",
+    "machine_type": "pachinko",
+    "slot_number": "1618",
+    "text": "e転生したらスライムだった件２  1618番台 コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2067197883783458991",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T17:04:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLApe73a0AAD2-E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLApe73a0AAD2-E?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000036",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "69c006eeab9c",
