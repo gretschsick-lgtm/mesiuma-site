@@ -44,6 +44,28 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "771add64101a",
+    "date": "2026-06-19",
+    "time": "21:31",
+    "store": "キャッスル天白店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "261",
+    "text": "～コンプリート機能発動～     261番台    #eリコリス・リコイル    台の稼働を停止しております！！       明日の開放をお待ちください！",
+    "x_url": "https://x.com/tenpaku0730/status/2067948263823851982",
+    "store_handle": "tenpaku0730",
+    "store_x_url": "https://x.com/tenpaku0730",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T07:43:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLTnjZbEAAehQ9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLTnjZbEAAehQ9?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "d5fbda7161"
+  },
+  {
     "id": "8e65b781f378",
     "date": "2026-06-19",
     "time": "21:17",
