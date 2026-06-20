@@ -248,6 +248,28 @@
     "store_id": "7be267e3ea"
   },
   {
+    "id": "4405f1790aa6",
+    "date": "2026-06-20",
+    "time": "19:22",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "270",
+    "text": "e牙狼12 270番台コンプリート達成 おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2068278379498123287",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T23:42:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQAOHGbQAED_7R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQAOHGbQAED_7R?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "0ef83addce"
+  },
+  {
     "id": "f242914f944f",
     "date": "2026-06-20",
     "time": "16:40",
