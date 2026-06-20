@@ -1,5 +1,50 @@
 [
   {
+    "id": "f1d1aded8a02",
+    "date": "2026-06-20",
+    "time": "22:19",
+    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "727",
+    "text": "━━━━━━━━━━━━━━━         　　   727番台 スマスロ 甲鉄城のカバネリ 海門決戦  コンプリート達成  おめでとうございます  見事なコンプリート達成  圧巻の出玉で ホールを盛り上げていただきました  素晴らしい結果を ありがとうございました",
+    "x_url": "https://x.com/DTAKASAKIHONTEN/status/2068322885018493351",
+    "store_handle": "dtakasakihonten",
+    "store_x_url": "https://x.com/dtakasakihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T15:03:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQoUmoasAAU8KJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQoVT5bkAACwOk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQoUmoasAAU8KJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "2386a7238d"
+  },
+  {
+    "id": "8012cfa18029",
+    "date": "2026-06-20",
+    "time": "22:16",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "L無職転生～異世界行ったら本気だす～",
+    "machine_type": "slot",
+    "slot_number": "20",
+    "text": "楽園池袋店ゲートウェイです 本日、6月20日（土）  5円スロットコーナーから 20番台 【L無職転生～異世界行ったら本気だす～】  コンプリート機能が作動いたしました 本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ",
+    "x_url": "https://x.com/rakuenikebukuro/status/2068322006718988394",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T15:01:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQn5vWaQAAm2t2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQn5vWaQAAm2t2?format=jpg&name=large",
+    "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "04e43e406762",
     "date": "2026-06-20",
     "time": "22:08",
@@ -65,6 +110,28 @@
     "image_url": "https://pbs.twimg.com/media/HLP-LqqbgAA9Sxe?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "7be267e3ea"
+  },
+  {
+    "id": "bc36ab508f0a",
+    "date": "2026-06-20",
+    "time": "16:55",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "5071",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、6月20日(土)  5071番台  【L革命機ヴァルヴレイヴ2】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート  #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2068241215678750815",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T15:03:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLPebGxasAAesqn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLPebGxasAAesqn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "19b76dd507"
   },
   {
     "id": "f242914f944f",
