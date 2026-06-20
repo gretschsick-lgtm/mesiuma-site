@@ -111,6 +111,52 @@
     "store_id": "de68290eab"
   },
   {
+    "id": "33750315ade2",
+    "date": "2026-06-20",
+    "time": "21:32",
+    "store": "テキサス小倉店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  6月20日(日)  キタキターナント⋯ コンプリート達成3台目   544番台▶︎▶︎▶︎ Lヴァルヴレイヴ  　　　　　　　　　　　　 おめでとうございます！！  テキサス小倉 ヴァルヴレイヴはまだまだいくぜ〜  #コンプリート #ヴァルヴレイヴ",
+    "x_url": "https://x.com/texas_kokura/status/2068310918753382636",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T18:14:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQdzhzaUAAUjXB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQdzkGawAAGt--?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQdzhzaUAAUjXB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "7be267e3ea"
+  },
+  {
+    "id": "3a8a22e95072",
+    "date": "2026-06-20",
+    "time": "21:29",
+    "store": "テキサス小倉店",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  6月20日(日)  まだまだ コンプリート達成2台目   645番台▶︎▶︎▶︎ L沖ドキDUOアンコール2  　　　　　　　　　　　　 おめでとうございます！！  あのドキドキは テキサス小倉しかあり得ない  #コンプリート #沖ドキDUOアンコール2",
+    "x_url": "https://x.com/texas_kokura/status/2068310266048364571",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T18:14:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQdNVSagAAhzw6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQdNV8boAAU7lG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQdNVSagAAhzw6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "90aee4b19e93",
     "date": "2026-06-20",
     "time": "20:37",
@@ -176,5 +222,27 @@
     "image_url": "https://pbs.twimg.com/media/HLPa4FmagAAI8o0?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "de68290eab"
+  },
+  {
+    "id": "4cbc7b41dcc7",
+    "date": "2026-06-20",
+    "time": "00:00",
+    "store": "ダイナム岐阜高山店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "812",
+    "text": "6/20(土) コンプリート達成  812番台 L炎炎ノ消防隊2  ご遊技されていたお客様 おめでとうございます！  #ダイナム　#高山　#炎炎　#コンプリート",
+    "x_url": "https://x.com/dynam_00432/status/2068348189707534820",
+    "store_handle": "dynam_00432",
+    "store_x_url": "https://x.com/dynam_00432",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-20T18:52:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQ_t3RWkAA2-9O?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQ_t3RWkAA2-9O?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "ab833f2c6e"
   }
 ]
