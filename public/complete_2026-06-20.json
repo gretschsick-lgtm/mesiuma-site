@@ -1,5 +1,53 @@
 [
   {
+    "id": "5a998634950d",
+    "date": "2026-06-20",
+    "time": "23:43",
+    "store": "クラブハウス本店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "月日の結果発表 ドキドキワクワク 本日の結果は如何に  スロット 位930番台 L北斗 転生の章2／19,009Pt. 位884番台 L戦国乙女5／13,496Pt. 位817番台 LモンスターハンターライズXA／11,019Pt.  3台が万枚到達 うち1台がコンプリート達成",
+    "x_url": "https://x.com/club_honten99/status/2068343972351852869",
+    "store_handle": "club_honten99",
+    "store_x_url": "https://x.com/club_honten99",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T09:38:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQ7Vetb0AAGSJz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQ7bMkaYAAUMDy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQ7cnRbMAAVCrY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQ7Vetb0AAGSJz?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "118fb35bd3"
+  },
+  {
+    "id": "f20e6041efc0",
+    "date": "2026-06-20",
+    "time": "23:34",
+    "store": "ARROW浪速店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "810",
+    "text": "本日、  スマスロ ミリオンゴッド‐神々の軌跡‐ 810番台　909番台  スマスロ 沖ドキ!DUO アンコール　847番台  コンプリート達成おめでとうございます #スロット #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2068341759621607854",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T09:38:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQ5xllbYAEjhC_?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQ5x4_a4AAprRa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQ5yPRagAA9G54?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQ5xllbYAEjhC_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "90ac47cbe7fe",
     "date": "2026-06-20",
     "time": "22:43",
@@ -178,6 +226,28 @@
     "image_url": "https://pbs.twimg.com/media/HLQdNVSagAAhzw6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000013",
     "store_id": "7be267e3ea"
+  },
+  {
+    "id": "ba93de7f3d47",
+    "date": "2026-06-20",
+    "time": "21:29",
+    "store": "ジャラン水元店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "663",
+    "text": "663番台 ｅ東京喰種MW コンプリートおめでとうございます  デカヘソ導入されてからというもの どうもそちらに目がいきがちですが こっちでコンプリート達成は渋いです  おめでとうございます   #ジャラン浅草店  #コンプリート報告  #東京喰種",
+    "x_url": "https://x.com/jaran_asakusa/status/2068310145315332334",
+    "store_handle": "jaran_asakusa",
+    "store_x_url": "https://x.com/jaran_asakusa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T10:07:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQdHMkasAAvipg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQdHMkasAAvipg?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "4a02bce30d"
   },
   {
     "id": "860ecb374e51",
