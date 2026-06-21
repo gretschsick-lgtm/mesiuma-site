@@ -180,6 +180,28 @@
     "store_id": "7be267e3ea"
   },
   {
+    "id": "860ecb374e51",
+    "date": "2026-06-20",
+    "time": "20:41",
+    "store": "エムディー目黒店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "757",
+    "text": "【コンプリート速報】  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ   757番台 　　　2026.06.20    20:14 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/mdmeguro/status/2068298115262951615",
+    "store_handle": "mdmeguro",
+    "store_x_url": "https://x.com/mdmeguro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T06:30:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQSK7Wb0AAO9jJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQSK7Wb0AAO9jJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "b5b93b356b"
+  },
+  {
     "id": "90aee4b19e93",
     "date": "2026-06-20",
     "time": "20:37",
@@ -424,6 +446,28 @@
     "store_id": "d5fbda7161"
   },
   {
+    "id": "0f7f29d9ea2f",
+    "date": "2026-06-19",
+    "time": "21:21",
+    "store": "ＭＪアリーナ干隈店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "230",
+    "text": "本日6月19日  Lミリオンゴッド　230番台  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mjhosikuma/status/2067945936710746412",
+    "store_handle": "mjhosikuma",
+    "store_x_url": "https://x.com/mjhosikuma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T06:31:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLRX84bYAAoR6m?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLRX84bYAAoR6m?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "2b4d471207"
+  },
+  {
     "id": "8e65b781f378",
     "date": "2026-06-19",
     "time": "21:17",
@@ -467,6 +511,50 @@
     "image_url": "https://pbs.twimg.com/media/HLLQMvDbcAE7BY5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000030",
     "store_id": "1f0627c183"
+  },
+  {
+    "id": "7c439077938a",
+    "date": "2026-06-19",
+    "time": "21:10",
+    "store": "ダイナム鹿児島上川内店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "374",
+    "text": "＜コンプリート報告  本日374番台L東京喰種にて コンプリート達成  達成されたお客様、おめでとうございます",
+    "x_url": "https://x.com/dynam_00417/status/2067943055185862855",
+    "store_handle": "dynam_00417",
+    "store_x_url": "https://x.com/dynam_00417",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T06:00:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLPQBJW4AAx00t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLPQBJW4AAx00t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "b14577d755"
+  },
+  {
+    "id": "c01157685f3a",
+    "date": "2026-06-19",
+    "time": "20:20",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "484",
+    "text": "【SPACE666】 ６月１９日 コンプリート速報  革命機ヴァルヴレイヴ2　484番台 コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/space666tobata/status/2067930602637279245",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T06:31:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLLD57ZacAAH8YO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLLD57ZacAAH8YO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
   },
   {
     "id": "dcc23687bfe9",
