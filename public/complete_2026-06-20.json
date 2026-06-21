@@ -70,6 +70,29 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "af908ed78958",
+    "date": "2026-06-20",
+    "time": "22:39",
+    "store": "SUPER CONCORDE",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "3510",
+    "text": "コンプリート報告  Ｌいざ番長　3510番台  Ｓ沖ドキ!!　ゴージャス　3154番台  ご遊技されていたお客様 閉店時間ギリギリでのコンプリート おめでとうございます  やはり侍は強かった…  明日のご来店もお待ちしております",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2068327845991235963",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T19:44:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQtHr1bYAA9pAD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQtJQ4aMAAcblw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQtHr1bYAA9pAD?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "23fb57bcc565",
     "date": "2026-06-20",
     "time": "22:28",
@@ -113,6 +136,28 @@
     "image_url": "https://pbs.twimg.com/media/HLQpmwkawAAiFgL?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "18425371bb"
+  },
+  {
+    "id": "ee8b2dcec162",
+    "date": "2026-06-20",
+    "time": "22:20",
+    "store": "ホール長後店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "331",
+    "text": "こんばんは グランドホール長後店です  331番台　おめでとうございます！！  　牙狼12コンプリート達成！！   明日も　#グランド #スマスロ #牙狼12 #コンプリート #藤沢",
+    "x_url": "https://x.com/grand_chogo/status/2068322989209497714",
+    "store_handle": "grand_chogo",
+    "store_x_url": "https://x.com/grand_chogo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T19:44:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQowK5akAAt5XA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQowK5akAAt5XA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "4ccd1ee56f"
   },
   {
     "id": "f1d1aded8a02",
@@ -562,6 +607,28 @@
     "image_url": "https://pbs.twimg.com/media/HLPGXLPWUAA_run?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "d64e7ddf08"
+  },
+  {
+    "id": "024443c812e9",
+    "date": "2026-06-20",
+    "time": "15:04",
+    "store": "ジーワン二軒屋",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "315",
+    "text": "コンプリート達成  昨日… 315番台 e東京喰種 コンプリート達成 おめでとうございます！ 大きな盛り上がりを見せてくれました 本日もコンプリート目指して頑張ってください  #GPNE二軒屋 #東京喰種 #コンプリート",
+    "x_url": "https://x.com/G_ONE_NIKENYA/status/2068575855178317868",
+    "store_handle": "g_one_nikenya",
+    "store_x_url": "https://x.com/g_one_nikenya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T19:44:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLUOmFCaEAA7OYT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLUOmFCaEAA7OYT?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "9eed1f762a"
   },
   {
     "id": "4cbc7b41dcc7",
