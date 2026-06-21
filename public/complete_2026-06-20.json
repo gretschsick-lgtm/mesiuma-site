@@ -105,7 +105,7 @@
     "store_x_url": "https://x.com/face_1300",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-21T14:47:33Z",
+    "collected_at": "2026-06-21T15:24:59Z",
     "images": [
       "https://pbs.twimg.com/media/HLQpmwkawAAiFgL?format=jpg&name=large",
       "https://pbs.twimg.com/media/HLQYDfFaUAAcB7R?format=jpg&name=large"
@@ -205,26 +205,28 @@
     "store_id": "de68290eab"
   },
   {
-    "id": "50c91fa3d4db",
+    "id": "4a203952599c",
     "date": "2026-06-20",
-    "time": "21:57",
-    "store": "ヴィーナスギャラリー清川店",
-    "machine": "Lミリオンゴッド神々の軌跡",
+    "time": "22:02",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
     "machine_type": "slot",
-    "slot_number": "",
-    "text": "遂に、神の一撃が炸裂  6/20 『ミリオンGOD』 コンプリート達成です  コンプリート達成されたお客様、おめでとうございます  #ヴィーナスギャラリー  #ヴィーナスギャラリー清川店  #ミリオンゴッド  #コンプリート達成",
-    "x_url": "https://x.com/kiyokawa_VG/status/2068317336684433796",
-    "store_handle": "kiyokawa_vg",
-    "store_x_url": "https://x.com/kiyokawa_vg",
+    "slot_number": "439",
+    "text": "速報MONSTER速報   439番台 #ヴァルヴレイヴ コンプリート達成！  おめでとうございます  #ガーデン西浦和 #コンプリート",
+    "x_url": "https://x.com/g_nishiurawa/status/2068318590932234410",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-21T14:47:18Z",
+    "collected_at": "2026-06-21T15:25:39Z",
     "images": [
-      "https://pbs.twimg.com/media/HLQjp04bAAAHHhV?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HLQkrOyaAAAZhA0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQks3cbAAAsYiS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQkutoasAAOgkz?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HLQjp04bAAAHHhV?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_id": "7bf0daad52"
+    "image_url": "https://pbs.twimg.com/media/HLQkrOyaAAAZhA0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
   },
   {
     "id": "33750315ade2",
@@ -362,29 +364,6 @@
     "store_id": "5b20cfecf8"
   },
   {
-    "id": "8878c818cb63",
-    "date": "2026-06-20",
-    "time": "20:09",
-    "store": "SUPER CONCORDE 市野",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "7461",
-    "text": "◤◢◤◢◤◢◤◢◤◢ 　コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  7461番台 \"L革命機ヴァルヴレイヴ2\" 先ほどコンプリート機能が 作動いたしました 「これが革命の光だ！」  明日も市野店・雄踏店の 両店でお待ちしております。",
-    "x_url": "https://x.com/Concorde_ichino/status/2068290230264934750",
-    "store_handle": "concorde_ichino",
-    "store_x_url": "https://x.com/concorde_ichino",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-21T15:06:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLQKC_caAAA60nU?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HLFrn6eaYAAH_kj?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLQKC_caAAA60nU?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "3b33dd116a"
-  },
-  {
     "id": "e1949f9c8c54",
     "date": "2026-06-20",
     "time": "19:38",
@@ -494,6 +473,28 @@
     "image_url": "https://pbs.twimg.com/media/HLPkNfCaYAAfbpP?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
     "store_id": "04138e2cd3"
+  },
+  {
+    "id": "bc36ab508f0a",
+    "date": "2026-06-20",
+    "time": "16:55",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "5071",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、6月20日(土)  5071番台  【L革命機ヴァルヴレイヴ2】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート  #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2068241215678750815",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T15:25:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLPebGxasAAesqn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLPebGxasAAesqn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "19b76dd507"
   },
   {
     "id": "f242914f944f",

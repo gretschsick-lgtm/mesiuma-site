@@ -399,5 +399,27 @@
     "image_url": "https://pbs.twimg.com/media/HLJplXCbIAEV-3c?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "ad0ceba11b"
+  },
+  {
+    "id": "0d24b4f0b334",
+    "date": "2026-06-19",
+    "time": "01:36",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "493",
+    "text": "本日、  493番台 e牙狼12黄金騎士極限  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2068009988933710277",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T15:20:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLML-GfacAMkblp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLML-GfacAMkblp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   }
 ]
