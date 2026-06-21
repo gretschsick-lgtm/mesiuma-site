@@ -1,5 +1,28 @@
 [
   {
+    "id": "26198f644377",
+    "date": "2026-06-21",
+    "time": "21:45",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "119",
+    "text": "コンプリート速報 豊崎本館　119番台 ミリオンゴッド　神々の軌跡 コンプリート達成おめでとうございます！ 万枚出てる台は他にもたくさん 　　　力 　　　力 力力力力力力力力力力 　　　力　　　　　力 　　力　　　　　　力 　力　　　　　　　力 力　　　　　力　　力 　　　　　　　力力",
+    "x_url": "https://x.com/megaface_1120/status/2068676725647790183",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T16:16:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLVqK3WbcAAmuRg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLVqN6Ha4AABQEE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLVqK3WbcAAmuRg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "18a4c8a3570c",
     "date": "2026-06-21",
     "time": "21:37",
@@ -43,6 +66,28 @@
     "image_url": "https://pbs.twimg.com/media/HLVQQk0aAAAm98Y?format=jpg&name=large",
     "machine_id": "c9b2f5a8-b7dc-4a24-9419-35336699eb52",
     "store_id": "a213dcf5c4"
+  },
+  {
+    "id": "836d5781f080",
+    "date": "2026-06-21",
+    "time": "17:20",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "722",
+    "text": "722番台　e牙狼12黄金騎士極限 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2068610068300619776",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T16:16:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLUtk0HaAAA9hLU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLUtk0HaAAA9hLU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "7727fba52aac",
