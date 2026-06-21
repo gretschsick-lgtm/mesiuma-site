@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-21T08:51:47+09:00",
+  "generated_at": "2026-06-21T09:49:34+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 474,
+      "total_count": 475,
       "stores": [
         {
           "rank": 1,
@@ -44,34 +44,34 @@
         },
         {
           "rank": 7,
+          "name": "新ガーデン西浦和",
+          "count": 9,
+          "x_url": "https://x.com/g_nishiurawa"
+        },
+        {
+          "rank": 8,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 9,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "楽園大宮店",
           "count": 9,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "マルハン松本店",
           "count": 8,
           "x_url": "https://x.com/mtmmaruhan"
-        },
-        {
-          "rank": 10,
-          "name": "パチンコの玉屋∞本店",
-          "count": 8,
-          "x_url": "https://x.com/tamaya_honten"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 102
+          "count": 103
         },
         {
           "rank": 2,
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 172
+        "count": 173
       },
       {
         "rank": 2,
@@ -511,7 +511,7 @@
         "count": 7
       }
     ],
-    "total_count": 905
+    "total_count": 906
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
@@ -530,13 +530,13 @@
     "SuperD'station東金店": 11,
     "グランキコーナひたちなか店": 10,
     "サガちゃんPARK": 10,
+    "新ガーデン西浦和": 10,
     "プレイランドキャッスル春日井店": 10,
     "プレイランドキャッスル熱田店": 10,
     "マルハン松本店": 9,
     "キクヤ穂積店": 9,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 9,
     "FACE1300小倉南店": 9,
-    "新ガーデン西浦和": 9,
     "マルハンメガシティ伊勢崎": 8,
     "SUPER CONCORDE": 8,
     "エムディー目黒店": 8,
