@@ -292,6 +292,72 @@
     "store_id": "0ef83addce"
   },
   {
+    "id": "2c6b371dc470",
+    "date": "2026-06-20",
+    "time": "18:00",
+    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "419",
+    "text": "速報   本日月日(土) 滋賀ダイナム6店舗一斉新景品入荷【 S S R 】 419番台 eキン肉マン  /／  #コンプリート達成  \\＼  おめでとうございますﾌﾞﾗﾎﾞｰ!  この後のお時間もぜひ 当店へお越しくださいませ  #ダイナム　#滋賀彦根",
+    "x_url": "https://x.com/dynam_00439/status/2068257553155588553",
+    "store_handle": "dynam_00439",
+    "store_x_url": "https://x.com/dynam_00439",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T08:51:50Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2068250617236328448/img/ozh4QsaU1-F4Rl0Z.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2068250617236328448/img/ozh4QsaU1-F4Rl0Z.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "ef6da04b5b"
+  },
+  {
+    "id": "1fb61e0af5db",
+    "date": "2026-06-20",
+    "time": "17:20",
+    "store": "ニューアサヒ長野青木島店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "365",
+    "text": "速報ですꉂ 金富士でわなく 金兎 超乱舞のリアル  本日一発目 e牙狼12 365番台 コンプリート おめでとうございます  #青アサ  #コンプリート  #アサヒ超乱舞",
+    "x_url": "https://x.com/ikechanasahi/status/2068247657823555666",
+    "store_handle": "ikechanasahi",
+    "store_x_url": "https://x.com/ikechanasahi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T08:51:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLPkSGbagAAl-bp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLPkSGbagAAl-bp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "d473c469be"
+  },
+  {
+    "id": "e8dcf7def34c",
+    "date": "2026-06-20",
+    "time": "17:20",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "1251",
+    "text": "コンプリート情報  17:00 最新機種 ｅ東京喰種ＭＷ   1251番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2068247622591344652",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-21T08:51:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLPkNfCaYAAfbpP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLPkNfCaYAAfbpP?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04138e2cd3"
+  },
+  {
     "id": "f242914f944f",
     "date": "2026-06-20",
     "time": "16:40",
