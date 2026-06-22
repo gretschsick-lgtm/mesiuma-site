@@ -48,6 +48,29 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "ede196ce950f",
+    "date": "2026-06-20",
+    "time": "23:14",
+    "store": "ワンダーランド1188福岡東店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート報告  新台 LソードアートオンラインⅡ  まさかの閉店直前にコンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/wl_fkhigashi/status/2068336784111813013",
+    "store_handle": "wl_fkhigashi",
+    "store_x_url": "https://x.com/wl_fkhigashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-22T06:29:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQ1LlNaYAAJO41?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLPJR4ZaEAALPQ7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQ1LlNaYAAJO41?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "4a358354ff"
+  },
+  {
     "id": "90ac47cbe7fe",
     "date": "2026-06-20",
     "time": "22:43",
