@@ -91,29 +91,6 @@
     "store_id": "e5e18632fd"
   },
   {
-    "id": "9366b45de378",
-    "date": "2026-06-21",
-    "time": "22:38",
-    "store": "FACE1300小倉南店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "本日2台目のコンプリート達成 e牙狼12黄金騎士極限 おめでとうございます",
-    "x_url": "https://x.com/face_1300/status/2068690084380209475",
-    "store_handle": "face_1300",
-    "store_x_url": "https://x.com/face_1300",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-22T20:26:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLV2pm2bUAEHh2D?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HLVM5C7aMAEZFwV?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLV2pm2bUAEHh2D?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "18425371bb"
-  },
-  {
     "id": "4cfdbe86ffd8",
     "date": "2026-06-21",
     "time": "22:37",
@@ -134,29 +111,6 @@
     "image_url": "https://pbs.twimg.com/media/HLV2KRIboAAB6zH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014",
     "store_id": "e5e18632fd"
-  },
-  {
-    "id": "9a1666841d69",
-    "date": "2026-06-21",
-    "time": "22:37",
-    "store": "新ガーデン西浦和",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "閉店間際  #ヴァルヴレイヴ コンプリート達成  まさかのラストスパート 閉店間際に一気に駆け抜け、見事コンプリート達成  おめでとうございます  最後の最後まで何が起こるかわからない… まさにヴヴヴらしい展開でした  #コンプリート",
-    "x_url": "https://x.com/g_nishiurawa/status/2068689654522749311",
-    "store_handle": "g_nishiurawa",
-    "store_x_url": "https://x.com/g_nishiurawa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-22T20:26:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLV2LZea4AAzTOH?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HLV2Ra3aQAEuVHl?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLV2LZea4AAzTOH?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "a213dcf5c4"
   },
   {
     "id": "26198f644377",
@@ -1573,6 +1527,29 @@
     "image_url": "https://pbs.twimg.com/media/HLKn-fxboAAuLOZ?format=jpg&name=large",
     "machine_id": "8242d72f-0825-4c89-820a-c5f4b5c96a0b",
     "store_id": "ee5a196fc0"
+  },
+  {
+    "id": "7f2afd786eae",
+    "date": "2026-06-19",
+    "time": "17:03",
+    "store": "ビックマーチ東習志野店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "千葉最大1409台の出玉情報  今日は早くも 2台仲良くコンプリート 『609番台 eエヴァ17』 『1452番台 L真打吉宗』  打っていたお客様おめでとうございます  #千葉最大 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2067880962827149574",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-22T20:40:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLKWxuybMAA14VL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLKWxwRaMAAz5FC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLKWxuybMAA14VL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "e744c71a3d"
   },
   {
     "id": "8e74358f7608",
