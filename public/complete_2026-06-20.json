@@ -523,6 +523,29 @@
     "store_id": "0ef83addce"
   },
   {
+    "id": "1ee4861beffc",
+    "date": "2026-06-20",
+    "time": "19:13",
+    "store": "テキサス段原店",
+    "machine": "e東京リベンジャーズ",
+    "machine_type": "pachinko",
+    "slot_number": "233",
+    "text": "再びヤマリン です  本日２台目の #コンプリート も パチンココーナーから  　　　　２３３番台 　#ｅ東京リベンジャーズ 　Congratulations  この後のお時間も迷わず段テキへ",
+    "x_url": "https://x.com/Texas_danbara/status/2068276143304876403",
+    "store_handle": "texas_danbara",
+    "store_x_url": "https://x.com/texas_danbara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-22T17:28:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLP-LqqbgAA9Sxe?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLP-LqmbwAAEqel?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLP-LqqbgAA9Sxe?format=jpg&name=large",
+    "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
+    "store_id": "cf70bb294d"
+  },
+  {
     "id": "2c6b371dc470",
     "date": "2026-06-20",
     "time": "18:00",

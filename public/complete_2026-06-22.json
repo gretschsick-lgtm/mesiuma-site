@@ -1,5 +1,50 @@
 [
   {
+    "id": "67bc1b66fd87",
+    "date": "2026-06-22",
+    "time": "22:52",
+    "store": "ミリオン1100朝霞店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "3165",
+    "text": "コンプリート速報  3165番台キン肉マン  夕方にはコンプリートしていましたね。なんて恐ろしい台… これでスマパチのコンプは2日連続です #ミリオン朝霞店 #コンプリート",
+    "x_url": "https://x.com/million1100/status/2069055828934676690",
+    "store_handle": "million1100",
+    "store_x_url": "https://x.com/million1100",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-22T17:28:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLbDTsiaUAA_-48?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLbDTsiaUAA_-48?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "732b85339d"
+  },
+  {
+    "id": "9e35f1f422ce",
+    "date": "2026-06-22",
+    "time": "17:23",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "◤◢◤◢◤◢◤◢◤◢ 　コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  6520番台 ”スマスロ真打吉宗” 先ほどコンプリート機能が 作動いたしました  この後のお時間も 市野でお楽しみください!!  ーーーーーーーーーーーーーーーーー ≪6/21～6/27≫市野のオススメはコチラ!! Pe新世紀エヴァンゲリオン17",
+    "x_url": "https://x.com/Concorde_ichino/status/2068973012531982428",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-22T17:37:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLZzjgXasAAKwmy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLZx6nfbwAAcyd7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLZzjgXasAAKwmy?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
+    "store_id": "3b33dd116a"
+  },
+  {
     "id": "4b81325d352f",
     "date": "2026-06-22",
     "time": "14:39",
@@ -20,5 +65,29 @@
     "image_url": "https://pbs.twimg.com/media/HLZR8AkasAE8zWw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "c774e988a7"
+  },
+  {
+    "id": "f7aebd7dcfe6",
+    "date": "2026-06-22",
+    "time": "09:30",
+    "store": "マルハンメガシティ柏",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハンメガシティ柏 6/21　出玉ランキング  パチンコ e牙狼1282,000発OVER  e牙狼1263,000発OVER e慶次　57,000発OVER   スロット Lチバリヨコンプリート達成 LバイオRE:317,600枚OVER Lシャーマンキング13,300枚OVER  おめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2068853977459097626",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-22T17:28:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLX4bl7bEAAKxKY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLX4co3a4AAJvqR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLX4diObIAAe0Ny?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLX4bl7bEAAKxKY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_id": "e5e18632fd"
   }
 ]
