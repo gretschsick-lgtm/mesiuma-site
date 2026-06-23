@@ -67,6 +67,29 @@
     "store_id": "04950fcd53"
   },
   {
+    "id": "f7176c20450b",
+    "date": "2026-06-22",
+    "time": "20:05",
+    "store": "テキサス小倉店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "932",
+    "text": "こんばんは  テキサス小倉店です  6月22日  コンプリート達成   932番台 e牙狼 黄金騎士極限   おめでとうございます #コンプリート #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2069013916982923751",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T19:59:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLadMDRbQAAXlsk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLadMDTasAAS-3P?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLadMDRbQAAXlsk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "9e35f1f422ce",
     "date": "2026-06-22",
     "time": "17:23",
