@@ -338,6 +338,30 @@
     "store_id": "3917e74a54"
   },
   {
+    "id": "c19e7b29c1e9",
+    "date": "2026-06-18",
+    "time": "10:10",
+    "store": "テキサス白島店",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは テキサス白島店です  昨日のBEST台のご案内です #L沖ドキDUOアンコール コンプリート達成  #L戦国乙女5　２台 その他データの確認はこちらから  https:// pscube.jp/dedamajyoho-P- townDMMpachi/c734005/ …  本日も皆様のご来店お待ちしております  #コンプリート #テキサス",
+    "x_url": "https://x.com/texashakushima/status/2067776879629599175",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T05:14:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLIiORNaMAA9W_7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLIiPRwbUAAIJWV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLIiRrya8AAaDT8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLIiORNaMAA9W_7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "dae931c16e"
+  },
+  {
     "id": "ee8790dbf6f4",
     "date": "2026-06-18",
     "time": "01:08",
