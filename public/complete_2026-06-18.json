@@ -201,28 +201,6 @@
     "store_id": "db8237aaa8"
   },
   {
-    "id": "cad370c5b544",
-    "date": "2026-06-18",
-    "time": "19:47",
-    "store": "ワンダーランド1188鹿児島新栄店",
-    "machine": "スマスロ攻殻機動隊",
-    "machine_type": "slot",
-    "slot_number": "2322",
-    "text": "L攻殻機動隊2322番台より ｺﾝﾌﾟﾘｰﾄ到達の報告が入りました まだまだァァァ #1188鹿児島新栄店",
-    "x_url": "https://x.com/wl_kshinei/status/2067559832102772995",
-    "store_handle": "wl_kshinei",
-    "store_x_url": "https://x.com/wl_kshinei",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-23T17:16:15Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLFyeIubQAEj76W?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLFyeIubQAEj76W?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000008",
-    "store_id": "3b4b2e74d4"
-  },
-  {
     "id": "c30d9d8b96e6",
     "date": "2026-06-18",
     "time": "19:43",
@@ -243,28 +221,6 @@
     "image_url": "https://pbs.twimg.com/media/HLFxk3xaEAAlscg?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000017",
     "store_id": "de68290eab"
-  },
-  {
-    "id": "ff309ca15215",
-    "date": "2026-06-18",
-    "time": "19:35",
-    "store": "ダイナム茨城江戸崎店",
-    "machine": "L東京喰種",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "あーーーーー(；ﾟДﾟ)  ミリオンゴットに続いて－－－(；ﾟДﾟ)   #オススメ　 #Ｌ東京喰種  おめでとうございます！！！！  #コンプリート #ダイナム",
-    "x_url": "https://x.com/dynam_00438/status/2067556734701367491",
-    "store_handle": "dynam_00438",
-    "store_x_url": "https://x.com/dynam_00438",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-23T17:00:57Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLFv44AWAAAAaZG?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLFv44AWAAAAaZG?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000006",
-    "store_id": "927bb0ff72"
   },
   {
     "id": "be14c526361b",
