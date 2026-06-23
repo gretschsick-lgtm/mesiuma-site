@@ -1,5 +1,27 @@
 [
   {
+    "id": "7819b8e4ba11",
+    "date": "2026-06-21",
+    "time": "23:08",
+    "store": "キコーナ鶴見",
+    "machine": "eブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日！  eブルーロックにて コンプリート達成  閉店間際でのコンプリートおめでとうございます♪  #グランキコーナ鶴見 #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2068697536270155952",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T12:41:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLV9aw0bkAAJvp0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLV9aw0bkAAJvp0?format=jpg&name=large",
+    "machine_id": "8242d72f-0825-4c89-820a-c5f4b5c96a0b",
+    "store_id": "cd7a76c703"
+  },
+  {
     "id": "ded2b3b1cde7",
     "date": "2026-06-21",
     "time": "23:06",
