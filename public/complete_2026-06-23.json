@@ -1,5 +1,49 @@
 [
   {
+    "id": "bf4dda030707",
+    "date": "2026-06-23",
+    "time": "21:57",
+    "store": "エクスアリーナ東京",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "600",
+    "text": "緊急速報  こんばんわテラタニです。  間に合いました 600番台牙狼より コンプリーーーーーーート 達成いたしました おめでとう御座います  このお時間でのコンプリート 誠にありがとう御座います グラフが凄く綺麗です  #エクスアリーナ東京 #コンプリート #牙狼 #金髪",
+    "x_url": "https://x.com/XAtokyo1223/status/2069404379556487557",
+    "store_handle": "xatokyo1223",
+    "store_x_url": "https://x.com/xatokyo1223",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T15:30:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLf_pFLasAA9mKh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLf_pFLasAA9mKh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "98752ae840"
+  },
+  {
+    "id": "e8c51c68c107",
+    "date": "2026-06-23",
+    "time": "21:47",
+    "store": "ビックマーチ河和田東店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "270",
+    "text": "感謝をカタチに…  コンプリート速報 東の牙狼から270番台 コンプリート達成 誠にサンキューです  久しぶりですねww  #ビックマーチ河和田東店 #コンプリート #牙狼",
+    "x_url": "https://x.com/monky0621bm/status/2069401867717840901",
+    "store_handle": "monky0621bm",
+    "store_x_url": "https://x.com/monky0621bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T15:30:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLf-B37a4AAfg4N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLf-B37a4AAfg4N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c70e842b0a"
+  },
+  {
     "id": "0b7dd7249b36",
     "date": "2026-06-23",
     "time": "20:47",
