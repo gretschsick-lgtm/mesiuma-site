@@ -22,6 +22,51 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "4440e6f81e52",
+    "date": "2026-06-21",
+    "time": "22:42",
+    "store": "メガフェイス1300淀川",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【 コンプリート速報 】   ​なんとなんとーーーっ  閉店間際の劇的ドラマ  Lからくりサーカス から  見事コンプリート達成  ​最後の最後まで諦めない劇的な展開…！  本当にお見事すぎますっ  本当におめでとうございます  #からくりサーカス  #コンプリート",
+    "x_url": "https://x.com/megaface_1300/status/2068691085287727523",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T09:30:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLV3bDebQAEoeJB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLV3bDebQAEoeJB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "5b93315c4d"
+  },
+  {
+    "id": "9366b45de378",
+    "date": "2026-06-21",
+    "time": "22:38",
+    "store": "FACE1300小倉南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日2台目のコンプリート達成 e牙狼12黄金騎士極限 おめでとうございます",
+    "x_url": "https://x.com/face_1300/status/2068690084380209475",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-23T09:30:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLV2pm2bUAEHh2D?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLVM5C7aMAEZFwV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLV2pm2bUAEHh2D?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "4cfdbe86ffd8",
     "date": "2026-06-21",
     "time": "22:37",
