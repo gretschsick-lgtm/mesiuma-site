@@ -532,6 +532,28 @@
     "store_id": "4b832e6bfe"
   },
   {
+    "id": "f1f44d078ba6",
+    "date": "2026-06-23",
+    "time": "15:49",
+    "store": "キコーナ鶴見",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日  スマスロ ミリオンゴッド-神々の軌跡-  　　　 コンプリート達成 おめでとうございます  #グランキコーナ鶴見 #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2069311893848867076",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T19:56:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLesIFWbMAEl4iW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLesIFWbMAEl4iW?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "cd7a76c703"
+  },
+  {
     "id": "35f372a1d104",
     "date": "2026-06-23",
     "time": "14:06",
