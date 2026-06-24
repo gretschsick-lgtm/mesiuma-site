@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-06-25T06:57:02+09:00",
+  "generated_at": "2026-06-25T08:46:14+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 579,
+      "total_count": 580,
       "stores": [
         {
           "rank": 1,
           "name": "ARROW浪速店",
-          "count": 20,
+          "count": 21,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 133
+          "count": 134
         },
         {
           "rank": 2,
@@ -349,7 +349,7 @@
       {
         "rank": 1,
         "name": "ARROW浪速店",
-        "count": 24,
+        "count": 25,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 182
+        "count": 183
       },
       {
         "rank": 2,
@@ -511,10 +511,10 @@
         "count": 6
       }
     ],
-    "total_count": 870
+    "total_count": 871
   },
   "store_complete_counts": {
-    "ARROW浪速店": 24,
+    "ARROW浪速店": 25,
     "キクヤ春日井店": 18,
     "マルハンメガシティ三島駿東": 18,
     "キング観光サウザンド栄若宮大通店": 16,
