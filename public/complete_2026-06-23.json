@@ -154,6 +154,28 @@
     "store_id": "b06d0873ca"
   },
   {
+    "id": "22f2142e8d18",
+    "date": "2026-06-23",
+    "time": "18:01",
+    "store": "スタジアム2001八女店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "1068",
+    "text": "スタジアムコンプリート速報 1068番台　牙狼１２黄金騎士極限 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/stadium2001yame/status/2069344965587845402",
+    "store_handle": "stadium2001yame",
+    "store_x_url": "https://x.com/stadium2001yame",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T00:25:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLfJri5bYAA-r0d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLfJri5bYAA-r0d?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "bc0f789589"
+  },
+  {
     "id": "3207a1700b48",
     "date": "2026-06-23",
     "time": "17:26",
