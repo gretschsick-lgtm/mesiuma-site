@@ -1,5 +1,72 @@
 [
   {
+    "id": "1764612b0d30",
+    "date": "2026-06-24",
+    "time": "20:06",
+    "store": "サガちゃんPARK",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "1474",
+    "text": "ヤッホー   1474番台 e新世紀ｴｳﾞｧ17はじまりR    コンプリート達成   おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2069738839326003575",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T11:45:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLkwcMHXsAAvfb7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLkwcMHXsAAvfb7?format=jpg&name=large",
+    "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b",
+    "store_id": "ee5a196fc0"
+  },
+  {
+    "id": "c9e1970cfd9b",
+    "date": "2026-06-24",
+    "time": "17:45",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1402",
+    "text": "1402番台 L革命機ヴァルヴレイヴ２ コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2069703363584012484",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T11:43:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLkQPIUaAAAIMc1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLkQPIUaAAAIMc1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "771f030669"
+  },
+  {
+    "id": "e8389a196868",
+    "date": "2026-06-24",
+    "time": "16:12",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "492",
+    "text": "L革命機ヴァルヴレイヴ2 　　　492番台 　　　15時58分 　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2069679958759539163",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T11:50:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLj68tpWYAAJXXR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLj68tFbAAAeJzA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLj68tpWYAAJXXR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "40bee74824"
+  },
+  {
     "id": "e69ef41036d0",
     "date": "2026-06-24",
     "time": "14:20",
@@ -1549,6 +1616,30 @@
     "store_id": "fe04efdcd0"
   },
   {
+    "id": "0afd9fa8d122",
+    "date": "2026-06-20",
+    "time": "20:37",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "493",
+    "text": "L革命機ヴァルヴレイヴ2 　　　493番台 　　　20時29分 　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2068297135116911063",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T11:50:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQQzUUb0AApLgC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQQ3GCawAASRER?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2068296719419506688/img/ANzl9Wd_svhOi2rU.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQQzUUb0AApLgC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "40bee74824"
+  },
+  {
     "id": "c4aa5348b971",
     "date": "2026-06-20",
     "time": "20:31",
@@ -1618,6 +1709,30 @@
     "store_id": "3b33dd116a"
   },
   {
+    "id": "a1be9b88b411",
+    "date": "2026-06-20",
+    "time": "19:44",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "497",
+    "text": "L革命機ヴァルヴレイヴ2 　　　497番台 　　　19時35分 　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2068283743979331748",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T11:50:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLQEzG8bIAAAABr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLQE2Wka4AE7zT0?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2068283521052073984/img/PQZ-foBP8MKJ-8BL.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLQEzG8bIAAAABr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "40bee74824"
+  },
+  {
     "id": "e1949f9c8c54",
     "date": "2026-06-20",
     "time": "19:38",
@@ -1684,6 +1799,30 @@
     "image_url": "https://pbs.twimg.com/media/HLP-LqqbgAA9Sxe?format=jpg&name=large",
     "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
     "store_id": "cf70bb294d"
+  },
+  {
+    "id": "0b0f72e34d06",
+    "date": "2026-06-20",
+    "time": "18:18",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "496",
+    "text": "L革命機ヴァルヴレイヴ2 　　　496番台 　　　18時07分 　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2068262143460593676",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T11:50:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLPxdN1aAAAIXhd?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLPxEXDaQAAHEFQ?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2068261885104005120/img/8lvGW7hXI7kDFYia.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLPxdN1aAAAIXhd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "40bee74824"
   },
   {
     "id": "422b75612eda",

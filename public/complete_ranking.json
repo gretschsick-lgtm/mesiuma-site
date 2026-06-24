@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T18:34:30+09:00",
+  "generated_at": "2026-06-24T21:19:55+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 557,
+      "total_count": 563,
       "stores": [
         {
           "rank": 1,
@@ -38,40 +38,40 @@
         },
         {
           "rank": 6,
+          "name": "キング観光サウザンド栄若宮大通店",
+          "count": 11,
+          "x_url": "https://x.com/wakakin_tsujic"
+        },
+        {
+          "rank": 7,
           "name": "マルハン川越店",
           "count": 11,
           "x_url": "https://x.com/smaru_kawagoe"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "楽園大宮店",
           "count": 10,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "メガフェイス1300淀川",
           "count": 10,
           "x_url": "https://x.com/megaface_1300"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "FACE1300小倉南店",
           "count": 10,
           "x_url": "https://x.com/face_1300"
-        },
-        {
-          "rank": 10,
-          "name": "キング観光サウザンド栄若宮大通店",
-          "count": 10,
-          "x_url": "https://x.com/wakakin_tsujic"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 124
+          "count": 129
         },
         {
           "rank": 2,
@@ -366,21 +366,21 @@
       },
       {
         "rank": 4,
+        "name": "キング観光サウザンド栄若宮大通店",
+        "count": 15,
+        "x_url": "https://x.com/wakakin_tsujic"
+      },
+      {
+        "rank": 5,
         "name": "楽園池袋店ゲートウェイ",
         "count": 14,
         "x_url": "https://x.com/rakuenikebukuro"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "メガフェイス1300淀川",
         "count": 14,
         "x_url": "https://x.com/megaface_1300"
-      },
-      {
-        "rank": 6,
-        "name": "キング観光サウザンド栄若宮大通店",
-        "count": 14,
-        "x_url": "https://x.com/wakakin_tsujic"
       },
       {
         "rank": 7,
@@ -411,7 +411,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 180
+        "count": 185
       },
       {
         "rank": 2,
@@ -507,26 +507,26 @@
       },
       {
         "rank": 10,
-        "name": "e新世紀エヴァンゲリオン",
+        "name": "eエヴァ17はじまりR",
         "count": 6
       }
     ],
-    "total_count": 876
+    "total_count": 882
   },
   "store_complete_counts": {
     "ARROW浪速店": 24,
     "キクヤ春日井店": 19,
     "マルハンメガシティ三島駿東": 18,
+    "キング観光サウザンド栄若宮大通店": 15,
     "楽園池袋店ゲートウェイ": 14,
     "メガフェイス1300淀川": 14,
-    "キング観光サウザンド栄若宮大通店": 14,
     "メガフェイス1450本山": 14,
     "ビックマーチ東習志野店": 14,
     "楽園大宮店": 13,
     "新ガーデン西浦和": 13,
+    "サガちゃんPARK": 12,
     "テキサス小倉店": 12,
     "マルハン川越店": 12,
-    "サガちゃんPARK": 11,
     "FACE1300小倉南店": 11,
     "プレイランドキャッスル熱田店": 11,
     "プレイランドキャッスル春日井店": 11,
@@ -539,6 +539,7 @@
     "マルハン松本店": 9,
     "SUPER CONCORDE": 9,
     "エムディー目黒店": 9,
+    "マルハン佐賀店実績": 8,
     "マルハン仙台名坊店": 8,
     "エクスアリーナ東京": 7,
     "SUPER CONCORDE 市野": 7,
@@ -582,7 +583,6 @@
     "ビックマーチ水戸本店": 4,
     "ダイナム鹿児島上川内店": 4,
     "マルハン仙台苦竹店": 4,
-    "マルハン佐賀店実績": 4,
     "キャッスル記念橋南店": 4,
     "キング観光サウザンド名古屋駅柳橋店": 4,
     "キコーナ松戸": 4,
