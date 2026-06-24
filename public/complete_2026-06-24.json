@@ -1,5 +1,27 @@
 [
   {
+    "id": "2e2989b8e268",
+    "date": "2026-06-24",
+    "time": "20:57",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "3162",
+    "text": "3162番台　Lゴッドイーター コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2069751814720000042",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T14:12:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLk8F07WMAEP0uk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLk8F07WMAEP0uk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "1764612b0d30",
     "date": "2026-06-24",
     "time": "20:06",
