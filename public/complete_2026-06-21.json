@@ -156,6 +156,28 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "6bfc4df0fa20",
+    "date": "2026-06-21",
+    "time": "21:47",
+    "store": "キャッスル天白店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "217",
+    "text": "～コンプリート機能発動～    217番台   #e東京喰種  台の稼働を停止しております！！  明日の開放をお待ちください！   #キャッスル天白店",
+    "x_url": "https://x.com/tenpaku0730/status/2068677126430331063",
+    "store_handle": "tenpaku0730",
+    "store_x_url": "https://x.com/tenpaku0730",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T15:31:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLVqldqbgAAZy5p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLVqldqbgAAZy5p?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "d5fbda7161"
+  },
+  {
     "id": "26198f644377",
     "date": "2026-06-21",
     "time": "21:45",

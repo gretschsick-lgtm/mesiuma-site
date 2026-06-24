@@ -110,6 +110,28 @@
     "store_id": "7ac364008f"
   },
   {
+    "id": "dc376c3e12b0",
+    "date": "2026-06-23",
+    "time": "20:09",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報  Lヴァルヴレイヴ2  コンプリート機能発動  本日も限界突破  画面には「コンプリート機能が作動しました」の文字… そして隣には見届け人（？）のメガトラ  「ボクもビックリしたトラ」  店内騒然 ヴヴヴの勢いはまだまだ止まらない",
+    "x_url": "https://x.com/megaface_1300/status/2069377374169551290",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-24T16:00:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLfnwLzboAAbB5p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLfnwLzboAAbB5p?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "5c37864fa6ac",
     "date": "2026-06-23",
     "time": "19:51",
