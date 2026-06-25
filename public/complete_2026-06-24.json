@@ -45,6 +45,29 @@
     "store_id": "30980119a2"
   },
   {
+    "id": "543f70775270",
+    "date": "2026-06-24",
+    "time": "22:01",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "578",
+    "text": "578番台 #e東京喰種 コンプリート達成 #メガフェイス菊陽 #6月24日",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2069767938606080470",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-25T17:25:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLlK90ZaUAEz639?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLkoh7EaYAA456K?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLlK90ZaUAEz639?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "2e2989b8e268",
     "date": "2026-06-24",
     "time": "20:57",

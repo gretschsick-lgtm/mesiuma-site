@@ -1,25 +1,69 @@
 [
   {
-    "id": "9257ecdb888b",
+    "id": "5ad01b82f5e0",
     "date": "2026-06-25",
-    "time": "17:30",
-    "store": "ＡＢＣ豊川店",
-    "machine": "スマスロ攻殻機動隊",
+    "time": "22:23",
+    "store": "グランキコーナひたちなか店",
+    "machine": "L革命機ヴァルヴレイヴ2",
     "machine_type": "slot",
-    "slot_number": "289",
-    "text": "コンプリート報告～  おめでとうございます  L攻殻機動隊　289番台にて・・・ #コンプリート達成   ー明日から、稼働再開デスー  #ABC豊川店",
-    "x_url": "https://x.com/ABC_toyokawa/status/2070062068322144525",
-    "store_handle": "abc_toyokawa",
-    "store_x_url": "https://x.com/ABC_toyokawa",
+    "slot_number": "",
+    "text": "こんばんは！  店内から速報です！  スロットコーナーより 「革命機ヴァルヴレイヴ2」 コンプリート達成！  おめでとうございます！  6月25日(木) 新台入替日のご来店もお待ちしております  #グランキコーナひたちなか店 #つぶやキコーナ",
+    "x_url": "https://x.com/GK_hitachinaka/status/2069410976710144240",
+    "store_handle": "gk_hitachinaka",
+    "store_x_url": "https://x.com/gk_hitachinaka",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-25T16:55:26Z",
+    "collected_at": "2026-06-25T17:25:40Z",
     "images": [
-      "https://pbs.twimg.com/media/HLpUwGIa4AAfO2e?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HLgGT-hb0AAy6CY?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HLpUwGIa4AAfO2e?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000008",
-    "store_id": "58111f872e"
+    "image_url": "https://pbs.twimg.com/media/HLgGT-hb0AAy6CY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "bcc41247bb"
+  },
+  {
+    "id": "d10621efd4b9",
+    "date": "2026-06-25",
+    "time": "20:31",
+    "store": "ユーコーラッキー37太宰府店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】   本日、当店設置の「L東京喰種」にて コンプリート機能が発動いたしました!!!  ご遊技いただき、誠にありがとうございました。",
+    "x_url": "https://x.com/yuko_dazaifu/status/2070107668719759686",
+    "store_handle": "yuko_dazaifu",
+    "store_x_url": "https://x.com/yuko_dazaifu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-25T17:29:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLp_sQSagAAMY3W?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLp_sQSagAAMY3W?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "85ed302b85"
+  },
+  {
+    "id": "3c436f9c06c0",
+    "date": "2026-06-25",
+    "time": "17:05",
+    "store": "フェイス850佐賀",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "855",
+    "text": "ꉂꉂ速報ꉂꉂ ｷﾀ━━━━(°∀°)━━━━!!!! こ、こ、こ、こ、  コ ン プ リ  | ト  855番台 牙狼より 達成されましたっ おめでとうございます #コンプリート #complete #こんぷりーと",
+    "x_url": "https://x.com/face_850/status/2070055829089431858",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-25T17:26:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLpQzFBbMAAmet_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLpQzFBbMAAmet_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "53cfcde9a2"
   },
   {
     "id": "83f611d5e2fd",
