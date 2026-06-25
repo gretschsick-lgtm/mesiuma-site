@@ -141,6 +141,10 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
     "からくりサーカス2": ["https://chonborista.com/slot/sankyo-slot/256699/"],
     "リコリス・リコイル": ["https://nana-press.com/kaiseki/machine/1129/",
                           "https://chonborista.com/pachinko/newgin/251935/"],
+    "南国育ち.*SPECIAL": ["https://nana-press.com/kaiseki/machine/1173/",
+                          "https://chonborista.com/slot/amute/259472/"],
+    "東京リベンジャーズ.*聖夜": ["https://nana-press.com/kaiseki/machine/1184/",
+                                  "https://chonborista.com/pachinko/sammy/259722/"],
 }
 
 # ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
