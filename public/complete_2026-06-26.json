@@ -20,5 +20,27 @@
     "image_url": "https://pbs.twimg.com/media/HLuz6eaa8AAY79f?format=jpg&name=large",
     "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65",
     "store_id": "bdd2e55ff9"
+  },
+  {
+    "id": "4e077572fabc",
+    "date": "2026-06-26",
+    "time": "14:11",
+    "store": "楽園溝の口店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "605",
+    "text": "本日月日  605番台　eリコリス・リコイル  コンプリート達成 おめでとうございます  #コンプリート #eリコリス・リコイル #eリコリコ",
+    "x_url": "https://x.com/rakuen_mznkc/status/2070374474395034092",
+    "store_handle": "rakuen_mznkc",
+    "store_x_url": "https://x.com/rakuen_mznkc",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T14:36:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLtyUX5bwAA6Cza?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLtyUX5bwAA6Cza?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "bfa1c4d8d7"
   }
 ]

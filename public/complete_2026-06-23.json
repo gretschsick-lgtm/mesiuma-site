@@ -308,6 +308,29 @@
     "store_id": "bc0f789589"
   },
   {
+    "id": "9c73e99d39e1",
+    "date": "2026-06-23",
+    "time": "17:30",
+    "store": "マルハン島田店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日オススメの  e東京喰種からコンプリート おめでとうございます  引き続き島田店のオススメ機種で お楽しみください♪",
+    "x_url": "https://x.com/shimada_0721/status/2069337163473240123",
+    "store_handle": "shimada_0721",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-06-26T14:35:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLe8j-CboAA0E8V?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLe8vAhagAAUVxB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLe8j-CboAA0E8V?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "264139d5f0"
+  },
+  {
     "id": "3207a1700b48",
     "date": "2026-06-23",
     "time": "17:26",
