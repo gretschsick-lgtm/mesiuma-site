@@ -1,5 +1,23 @@
 [
   {
+    "id": "d93c1496092b",
+    "date": "2026-06-24",
+    "time": "23:17",
+    "store": "サガちゃんPARK",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "1484",
+    "text": "ヤッホー     1484番台 e新世紀ｴｳﾞｧ17はじまりR      コンプリート達成    おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2069786974001779101",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T15:52:53Z",
+    "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "8bacb302af07",
     "date": "2026-06-24",
     "time": "23:11",
@@ -66,6 +84,51 @@
     "image_url": "https://pbs.twimg.com/media/HLlK90ZaUAEz639?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "ac9e0c0f5d"
+  },
+  {
+    "id": "58056922187d",
+    "date": "2026-06-24",
+    "time": "21:35",
+    "store": "マルハンメガシティ柏",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "858",
+    "text": "コンプリート速報 858番台　かぐや様は告らせたい  コンプリート達成 本当におめでとうございます!",
+    "x_url": "https://x.com/maruhankashiwa/status/2069761336117228011",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T15:51:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLlEwleWUAEkzDq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLlEwleWUAEkzDq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "e5e18632fd"
+  },
+  {
+    "id": "afc8abab3373",
+    "date": "2026-06-24",
+    "time": "21:26",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "931",
+    "text": "コンプリートのお知らせ  931番台ヴァルヴレイヴ2 コンプリート達成  おめでとう御座います",
+    "x_url": "https://x.com/megaface_1300/status/2069758947041653219",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T15:23:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLlCxqZWsAAknyU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLlCxp8bQAAebcG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLlCxqZWsAAknyU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
   },
   {
     "id": "2e2989b8e268",
