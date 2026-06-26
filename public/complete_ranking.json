@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-26T14:47:51+09:00",
+  "generated_at": "2026-06-26T17:21:20+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 594,
+      "total_count": 596,
       "stores": [
         {
           "rank": 1,
@@ -14,39 +14,39 @@
         },
         {
           "rank": 2,
+          "name": "メガフェイス1450本山",
+          "count": 14,
+          "x_url": "https://x.com/megaface_1450"
+        },
+        {
+          "rank": 3,
           "name": "ビックマーチ東習志野店",
           "count": 14,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "キクヤ春日井店",
           "count": 13,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 12,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "FACE1300小倉南店",
           "count": 12,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "新ガーデン西浦和",
           "count": 12,
           "x_url": "https://x.com/g_nishiurawa"
-        },
-        {
-          "rank": 7,
-          "name": "メガフェイス1450本山",
-          "count": 12,
-          "x_url": "https://x.com/megaface_1450"
         },
         {
           "rank": 8,
@@ -76,7 +76,7 @@
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 40
+          "count": 42
         },
         {
           "rank": 3,
@@ -372,39 +372,39 @@
       },
       {
         "rank": 5,
+        "name": "メガフェイス1450本山",
+        "count": 15,
+        "x_url": "https://x.com/megaface_1450"
+      },
+      {
+        "rank": 6,
         "name": "ビックマーチ東習志野店",
         "count": 15,
         "x_url": "https://x.com/joypackx"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "メガフェイス1300淀川",
         "count": 14,
         "x_url": "https://x.com/megaface_1300"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "プレイランドキャッスル春日井店",
         "count": 13,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "FACE1300小倉南店",
         "count": 13,
         "x_url": "https://x.com/face_1300"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "楽園大宮店",
         "count": 13,
         "x_url": "https://x.com/rakuen_ohmiya"
-      },
-      {
-        "rank": 10,
-        "name": "楽園池袋店ゲートウェイ",
-        "count": 13,
-        "x_url": "https://x.com/rakuenikebukuro"
       }
     ],
     "slot_machines": [
@@ -416,7 +416,7 @@
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 66
+        "count": 68
       },
       {
         "rank": 3,
@@ -511,20 +511,20 @@
         "count": 5
       }
     ],
-    "total_count": 855
+    "total_count": 857
   },
   "store_complete_counts": {
     "ARROW浪速店": 25,
     "マルハンメガシティ三島駿東": 18,
     "キクヤ春日井店": 17,
     "キング観光サウザンド栄若宮大通店": 16,
+    "メガフェイス1450本山": 15,
     "ビックマーチ東習志野店": 15,
     "メガフェイス1300淀川": 14,
     "プレイランドキャッスル春日井店": 13,
     "FACE1300小倉南店": 13,
     "楽園大宮店": 13,
     "楽園池袋店ゲートウェイ": 13,
-    "メガフェイス1450本山": 13,
     "マルハン川越店": 13,
     "プレイランドキャッスル熱田店": 12,
     "テキサス小倉店": 12,
