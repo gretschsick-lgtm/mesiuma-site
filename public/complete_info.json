@@ -1,5 +1,72 @@
 [
   {
+    "id": "3b59675da9e9",
+    "date": "2026-06-26",
+    "time": "23:58",
+    "store": "マルシェ赤羽店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "76",
+    "text": "--『Congratulations!』---  ヴァルヴレイヴ　76番台 コンプリート機能発動   明日は土曜日 ご来店お待ちしております(｀･ω･´)ゞ",
+    "x_url": "https://x.com/marcheakabane/status/2070522157344641525",
+    "store_handle": "marcheakabane",
+    "store_x_url": "https://x.com/marcheakabane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T17:22:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLv4cwIaEAA9uk0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLv4z50bIAAU4kb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLv4cwIaEAA9uk0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "48ad96966d"
+  },
+  {
+    "id": "41e694010a31",
+    "date": "2026-06-26",
+    "time": "20:04",
+    "store": "M&K岡崎店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1212",
+    "text": "1212番台 コンプリートおめでとうございます #Ｌヴァルヴレイヴ２ #コンプリート #mk岡崎 #本日東雲りりさん来店",
+    "x_url": "https://x.com/MKokazaki/status/2070463260667813909",
+    "store_handle": "mkokazaki",
+    "store_x_url": "https://x.com/mkokazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T17:22:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLvDXGKbYAAP_Cr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLvDXGKbYAAP_Cr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "341c9ef1a4"
+  },
+  {
+    "id": "1c3def2411ac",
+    "date": "2026-06-26",
+    "time": "19:36",
+    "store": "ユーコーラッキー37太宰府店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 本日、当店設置の「ヴァルヴレイヴ」にて コンプリート機能が発動いたしました!!! ご遊技いただき、誠にありがとうございました。  引き続き、皆さまのご来店をお待ちしております。",
+    "x_url": "https://x.com/yuko_dazaifu/status/2070456240057295212",
+    "store_handle": "yuko_dazaifu",
+    "store_x_url": "https://x.com/yuko_dazaifu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T17:22:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLu84gWaIAAKZRr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLu84gWaIAAKZRr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "85ed302b85"
+  },
+  {
     "id": "d8a3572556be",
     "date": "2026-06-26",
     "time": "18:58",
@@ -22,6 +89,28 @@
     "store_id": "bdd2e55ff9"
   },
   {
+    "id": "2a3d95d49edd",
+    "date": "2026-06-26",
+    "time": "17:05",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "1135",
+    "text": "コンプリート情報  16:50 今週のオススメ機種 e女神のカフェテラスJLZ   1135番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2070418077934845994",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-26T17:21:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLuaQDKa4AAYvxt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLuaQDKa4AAYvxt?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "04138e2cd3"
+  },
+  {
     "id": "4e077572fabc",
     "date": "2026-06-26",
     "time": "14:11",
@@ -42,29 +131,6 @@
     "image_url": "https://pbs.twimg.com/media/HLtyUX5bwAA6Cza?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "bfa1c4d8d7"
-  },
-  {
-    "id": "2a1f6e486b58",
-    "date": "2026-06-26",
-    "time": "08:00",
-    "store": "吉兆東名川崎店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "昨日６月２５日 北斗の拳転生の章２にて コンプリート！！！ おめでとうございます ・・・この流れはまさか！！！ 本日は昨日と異なり９時開店 ぜひご来店ください",
-    "x_url": "https://x.com/toumei0812/status/2070280878983639390",
-    "store_handle": "toumei0812",
-    "store_x_url": "https://x.com/toumei0812",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-26T16:35:20Z",
-    "images": [
-      "https://pbs.twimg.com/media/HLrGdzubcAEJ89Z?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HLrGmpsb0AAD6h5?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HLrGdzubcAEJ89Z?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "c6fe6bdd0b"
   },
   {
     "id": "e10a7f67b266",
