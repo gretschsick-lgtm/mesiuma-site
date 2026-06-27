@@ -546,7 +546,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-26T15:52:53Z",
     "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b",
-    "store_id": "ee5a196fc0"
+    "store_id": "ee5a196fc0",
+    "image_url": "https://pbs.twimg.com/media/HLlcRIDXMAAqPnW.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HLlcRIDXMAAqPnW.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLlcRIDXMAAqPnW.jpg?format=jpg&name=large"
+    ]
   },
   {
     "id": "8bacb302af07",
