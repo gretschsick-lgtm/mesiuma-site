@@ -1,5 +1,49 @@
 [
   {
+    "id": "e0c9713e30d3",
+    "date": "2026-06-27",
+    "time": "23:16",
+    "store": "マルハン仙台苦竹店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "414",
+    "text": "マルハン仙台苦竹店です。   6/27(土)　19：20  414番台    Ｌパチスロ炎炎ノ消防隊２  コンプリート機能発動",
+    "x_url": "https://x.com/niga_maru/status/2070873965556568533",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T14:44:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL045UfbIAAXZZt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL045UfbIAAXZZt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "fb78bbe137"
+  },
+  {
+    "id": "3e76e2b44abe",
+    "date": "2026-06-27",
+    "time": "22:04",
+    "store": "京都駅前ラッキーパチンコ店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "301",
+    "text": "Lソードアート・オンラインII　301番台 コンプリート達成  おめでとうございます  本日も多数様のご来店 誠にありがとうございます   https:// p-town.dmm.com/shops/kyoto/70 57 …  #京都駅前ラッキー　#コンプリート #パチンコ　#パチスロ",
+    "x_url": "https://x.com/K_E_lucky/status/2070855667884441766",
+    "store_handle": "k_e_lucky",
+    "store_x_url": "https://x.com/k_e_lucky",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T14:12:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0n09tb0AAfNW-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0n09tb0AAfNW-?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "b06d0873ca"
+  },
+  {
     "id": "6229fe065b8d",
     "date": "2026-06-27",
     "time": "20:48",
@@ -64,6 +108,51 @@
     "image_url": "https://pbs.twimg.com/media/HL0VWSrbcAEjtH7?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
     "store_id": "3f8923222d"
+  },
+  {
+    "id": "f27afd20968c",
+    "date": "2026-06-27",
+    "time": "20:33",
+    "store": "SUPER CONCORDE",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "3609",
+    "text": "コンプリート報告  L真打吉宗　3609番台にて コンプリート機能が作動いたしました  ご遊技されていた『AKA様』 おめでとうございます  週末はまだまだ  このあとのお時間も、明日も スパコンでお楽しみください♪",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2070832837297840621",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T14:28:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0TSCYa8AA7_eP?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLuqnWta8AA2LxA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0TSCYa8AA7_eP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "94cb46d6fb"
+  },
+  {
+    "id": "91d5f4d701c1",
+    "date": "2026-06-27",
+    "time": "19:27",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "501",
+    "text": "コンプリート機能発動 先ほど、501番台   スマパチ リコリス・リコイル にて  コンプリート機能発動！！    明日開放予定となります。   明日も #キャッスル春日井 へ   ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2070816278470971554",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T14:44:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0EVatbYAAfpvg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0EVatbYAAfpvg?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "cbc9c2710d"
   },
   {
     "id": "efb165c16cd6",
@@ -487,6 +576,29 @@
     "store_id": "85ed302b85"
   },
   {
+    "id": "d37db657ec78",
+    "date": "2026-06-25",
+    "time": "19:28",
+    "store": "ワンダーランドODO",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "またです。  本日、 牙狼でコンプリート発生。  95,000発到達。  6/18の投稿から数日。  事実は時々、 想像を超えてきます。  これが今日の “真実”です。",
+    "x_url": "https://x.com/wl_odo/status/2070091666644729939",
+    "store_handle": "wl_odo",
+    "store_x_url": "https://x.com/wl_odo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T14:14:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLpxZYqbcAARth1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLETTXAbwAAL-Gr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLpxZYqbcAARth1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "576fdd84fc"
+  },
+  {
     "id": "9257ecdb888b",
     "date": "2026-06-25",
     "time": "17:30",
@@ -612,12 +724,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-26T15:52:53Z",
     "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b",
-    "store_id": "ee5a196fc0",
-    "image_url": "https://pbs.twimg.com/media/HLlcRIDXMAAqPnW.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HLlcRIDXMAAqPnW.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HLlcRIDXMAAqPnW.jpg?format=jpg&name=large"
-    ]
+    "store_id": "ee5a196fc0"
   },
   {
     "id": "8bacb302af07",
