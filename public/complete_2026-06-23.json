@@ -1,5 +1,27 @@
 [
   {
+    "id": "f0be3ab0c3ea",
+    "date": "2026-06-23",
+    "time": "23:55",
+    "store": "メガフェイス930朝倉",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "6月23日 パラシュート部隊 #斎藤優 さん 　　　　　  TEAM NEXT ▷▶︎▷ #ゆう坊 さん 　　　　　 #メガフェイス930朝倉  んんんんんん～！！本日の結果発表～！！！ e牙狼のコンプリートを筆頭に 10000pt overも多数あり！ 結果はコチラをちぇっく！check！要チェック",
+    "x_url": "https://x.com/face930asakura/status/2069434110322557044",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T12:17:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLgbQC8bkAESz8S?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLgbQC8bkAESz8S?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e88b656fb5"
+  },
+  {
     "id": "42257579acc3",
     "date": "2026-06-23",
     "time": "23:18",
@@ -351,6 +373,28 @@
     "image_url": "https://pbs.twimg.com/media/HLfCVhka8AA1B4I?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "4b832e6bfe"
+  },
+  {
+    "id": "bb9e6a5563bc",
+    "date": "2026-06-23",
+    "time": "16:03",
+    "store": "メガフェイス930朝倉",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "421",
+    "text": "速報  4円パチンココーナーより  【421番台 e牙狼】 コンプリート  黄金騎士…朝倉に爆誕────  #コンプリィィィィト #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2069315275020009776",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T12:17:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLevRWzaEAAqUDB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLevRWzaEAAqUDB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e88b656fb5"
   },
   {
     "id": "f1f44d078ba6",
