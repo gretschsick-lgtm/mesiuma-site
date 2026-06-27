@@ -199,6 +199,28 @@
     "store_id": "dcbb4c52ca"
   },
   {
+    "id": "a8f18940a535",
+    "date": "2026-06-27",
+    "time": "21:02",
+    "store": "メガフェイス1450本山",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "647",
+    "text": "超速報  ６４７番台 ｅ東京喰種 超デカ超一撃ver #コンプリート 達成です  おめでとうございます  #メガフェイス1450本山 #e東京喰種超デカ超一撃ver",
+    "x_url": "https://x.com/megaface_1450/status/2070840284297187615",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T23:38:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0YF6JaQAAYH1u?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0YF6JaQAAYH1u?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "6229fe065b8d",
     "date": "2026-06-27",
     "time": "20:48",
