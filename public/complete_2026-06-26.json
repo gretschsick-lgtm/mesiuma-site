@@ -156,6 +156,28 @@
     "store_id": "341c9ef1a4"
   },
   {
+    "id": "db9a43637304",
+    "date": "2026-06-26",
+    "time": "19:51",
+    "store": "キコーナ鶴見",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日  Lソードアート・オンラインⅡ にてコンプリート達成  誠におめでとうございます  #グランキコーナ鶴見 #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2070460030974042472",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T15:27:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLu_axLaAAAkTdH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLu_axLaAAAkTdH?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "cd7a76c703"
+  },
+  {
     "id": "1c3def2411ac",
     "date": "2026-06-26",
     "time": "19:36",
@@ -176,6 +198,52 @@
     "image_url": "https://pbs.twimg.com/media/HLu84gWaIAAKZRr?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "85ed302b85"
+  },
+  {
+    "id": "ce4a33ec3226",
+    "date": "2026-06-26",
+    "time": "19:20",
+    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "461",
+    "text": "速報  本日月日(金) 新景品入荷 461番台 ｅ牙狼１２黄金騎士極限  /／  #コンプリート達成  \\＼  おめでとうございますﾌﾞﾗﾎﾞｰ!  この後のお時間もぜひ 当店へお越しくださいませ  #ダイナム #滋賀彦根",
+    "x_url": "https://x.com/dynam_00439/status/2070452012819546480",
+    "store_handle": "dynam_00439",
+    "store_x_url": "https://x.com/dynam_00439",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T15:27:28Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2070451531317735424/img/OmdCwWUcnGxBsszz.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLsdkFcWwAAtMsS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2070451531317735424/img/OmdCwWUcnGxBsszz.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "ef6da04b5b"
+  },
+  {
+    "id": "1efa54defca5",
+    "date": "2026-06-26",
+    "time": "19:15",
+    "store": "スーパードーム四日市店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】  本日、スマスロヴァルヴレイヴ2にてコンプリート達成しました  最後まで走り切ったお客様、おめでとうございます 良い展開連発で最高の結果に！  本日も店内まだまだ盛り上がっております 次のコンプリートはあなたかも…！？  #ヴァルヴレイヴ2 #スマスロ",
+    "x_url": "https://x.com/SDYokkaichi1223/status/2070450748928692459",
+    "store_handle": "sdyokkaichi1223",
+    "store_x_url": "https://x.com/sdyokkaichi1223",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-27T15:27:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLu0jlyaIAAzYYW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLu0kqPaEAAqWUd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLu0jlyaIAAzYYW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a3859aaee1"
   },
   {
     "id": "455aff6eb1a0",
