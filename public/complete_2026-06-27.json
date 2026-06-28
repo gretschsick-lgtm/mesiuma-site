@@ -155,6 +155,29 @@
     "store_id": "d5fbda7161"
   },
   {
+    "id": "18092d2bd287",
+    "date": "2026-06-27",
+    "time": "21:30",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "871",
+    "text": "続・速報  871番台 #ヴァルヴレイヴ コンプリート到達  本日2台目のコンプリート  おめでとうございます  この後も続く台はあるのか 店内からもっと目が離せません",
+    "x_url": "https://x.com/g_nishiurawa/status/2070847165497552950",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T09:13:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0gfMSboAA8pK0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0ggqwbAAEB3vc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0gfMSboAA8pK0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
+  },
+  {
     "id": "71a1f6d2c6a3",
     "date": "2026-06-27",
     "time": "21:13",
