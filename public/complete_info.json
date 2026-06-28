@@ -46,6 +46,28 @@
     "store_id": "57ac307cdc"
   },
   {
+    "id": "94801672bb24",
+    "date": "2026-06-28",
+    "time": "20:29",
+    "store": "キコーナ府中",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "キコーナ府中店から速報ですᐠ(∗ᵔᗜᵔ∗)ᐟ    スロット  【ミリオンゴッド‐神々の軌跡‐ 】  #コンプリート 達成〜  おめでとうございます   #キコーナ府中 #ハイパー818 #つぶやキコーナ",
+    "x_url": "https://x.com/kicona_fuchu/status/2071194314647249240",
+    "store_handle": "kicona_fuchu",
+    "store_x_url": "https://x.com/kicona_fuchu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:47:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5cEZEb0AAg_VJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5cEZEb0AAg_VJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "bb1fd7e8e2"
+  },
+  {
     "id": "768757fb2f3d",
     "date": "2026-06-28",
     "time": "19:07",
@@ -89,6 +111,28 @@
     "image_url": "https://pbs.twimg.com/media/HL46hG8bcAAEq_N?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "7be267e3ea"
+  },
+  {
+    "id": "894b24efd2dd",
+    "date": "2026-06-28",
+    "time": "17:55",
+    "store": "光サウザンド桑名本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "6月28日(日) 皆様こんばんは！ #キング観光サウザンド桑名本店 です！  【#Lヴァルヴレイヴ2】 コンプリート達成しました 　　　おめでとうございます",
+    "x_url": "https://x.com/kingkuwana/status/2071155535274197429",
+    "store_handle": "kingkuwana",
+    "store_x_url": "https://x.com/kingkuwana",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T16:17:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL436CKbsAA7cDK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL436CKbsAA7cDK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "0097ac46b6"
   },
   {
     "id": "cb1db83b9707",
@@ -151,12 +195,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-28T15:36:39Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "ee5a196fc0",
-    "image_url": "https://pbs.twimg.com/media/HL4k2DjaMAAbgPI.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HL4k2DjaMAAbgPI.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HL4k2DjaMAAbgPI.jpg?format=jpg&name=large"
-    ]
+    "store_id": "ee5a196fc0"
   },
   {
     "id": "1c2008ce182a",
@@ -289,6 +328,52 @@
     "image_url": "https://pbs.twimg.com/media/HL0n09tb0AAfNW-?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
     "store_id": "b06d0873ca"
+  },
+  {
+    "id": "b23b7acd219d",
+    "date": "2026-06-27",
+    "time": "22:01",
+    "store": "FACE1300小倉南店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 L炎炎の消防隊2 Lかぐや様は告らせない  Wコンプリート達成  おめでとうございます #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2070855147094421531",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:51:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0nxqSbIAATkUR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "bffb8c8b4380",
+    "date": "2026-06-27",
+    "time": "22:01",
+    "store": "FACE1300小倉南店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 L炎炎の消防隊2 Lかぐや様は告らせない  Wコンプリート達成  おめでとうございます #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2070855147094421531",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:51:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0nxqSbIAATkUR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "18425371bb"
   },
   {
     "id": "536fb07b29ee",
@@ -981,6 +1066,28 @@
     "image_url": "https://pbs.twimg.com/media/HLvRqRFW0AEghnC?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "64e47df24f"
+  },
+  {
+    "id": "3212183128b3",
+    "date": "2026-06-26",
+    "time": "20:58",
+    "store": "メガフェイス1300淀川",
+    "machine": "パチスロ 革命機ヴァルヴレイヴ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【COMPLETE達成】  Lパチスロ 革命機ヴァルヴレイヴ **コンプリート達成!!**  右肩上がり 最後まで走り切り、見事コンプリート機能が発動しました  ご遊技いただいたお客様、おめでとうございます  #MEGAFACE淀川 #ヴヴヴ #コンプリート #スマスロ #パチスロ",
+    "x_url": "https://x.com/megaface_1300/status/2070476779752763394",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T16:05:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLvPp5cbsAApUEB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLvPp5cbsAApUEB?format=jpg&name=large",
+    "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
+    "store_id": "5b93315c4d"
   },
   {
     "id": "3abc058ae18e",
@@ -1851,6 +1958,29 @@
     "store_id": "771f030669"
   },
   {
+    "id": "7ebdad6805e6",
+    "date": "2026-06-24",
+    "time": "18:19",
+    "store": "ピーアーク北千住エリア",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "626",
+    "text": "6月24日（水） ピーアーク北千住SSS トリエス  626番台 L 革命機ヴァルヴレイヴ2 コンプリート達成  はぁ  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2069711976725639170",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:47:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLkYEoUWIAAjV32?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLVJotjbQAAT9kk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLkYEoUWIAAjV32?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8282115e87"
+  },
+  {
     "id": "a219bcbe3320",
     "date": "2026-06-24",
     "time": "18:07",
@@ -1937,6 +2067,28 @@
     "image_url": "https://pbs.twimg.com/media/HLkQPIUaAAAIMc1?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "771f030669"
+  },
+  {
+    "id": "ec4de5923b81",
+    "date": "2026-06-24",
+    "time": "16:38",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "Lスーパービンゴネオ",
+    "machine_type": "slot",
+    "slot_number": "55",
+    "text": "楽園池袋店ゲートウェイです 本日、6月24日（水）  地下1階　5円スロットコーナーから 55番台【ＬスーパービンゴネオＳＢ５ 】  コンプリート機能が作動いたしました  本日は遊技台停止となります 申し訳ございません。。。  明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ",
+    "x_url": "https://x.com/rakuenikebukuro/status/2069686693322776608",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T16:19:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLkBE8gbQAA0Pn6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLkBE8gbQAA0Pn6?format=jpg&name=large",
+    "machine_id": "716572a7-b35e-447c-bb67-a7d69faea6ed",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "e8389a196868",
@@ -2738,6 +2890,28 @@
     "image_url": "https://pbs.twimg.com/media/HLaPkbVagAAgwN1?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "d473c469be"
+  },
+  {
+    "id": "d85fb49a3663",
+    "date": "2026-06-22",
+    "time": "18:51",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2127",
+    "text": "楽園池袋店ゲートウェイです 本日、6月22日(月)  パチンココーナーから  2127番台　【e牙狼12　黄金騎士極限】 コンプリート機能が作動いたしました  本日は遊技台停止となります 申し訳ございません。。。 明日もご来店お待ちしております！！  #楽園池袋  #ゲートウェイ #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2068995243677229478",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:47:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLaMNSzawAAZrmu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLaMNSzawAAZrmu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "9e35f1f422ce",

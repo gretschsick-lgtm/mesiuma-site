@@ -110,6 +110,52 @@
     "store_id": "b06d0873ca"
   },
   {
+    "id": "b23b7acd219d",
+    "date": "2026-06-27",
+    "time": "22:01",
+    "store": "FACE1300小倉南店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 L炎炎の消防隊2 Lかぐや様は告らせない  Wコンプリート達成  おめでとうございます #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2070855147094421531",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:51:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0nxqSbIAATkUR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "bffb8c8b4380",
+    "date": "2026-06-27",
+    "time": "22:01",
+    "store": "FACE1300小倉南店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 L炎炎の消防隊2 Lかぐや様は告らせない  Wコンプリート達成  おめでとうございます #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2070855147094421531",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:51:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0nxqSbIAATkUR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "536fb07b29ee",
     "date": "2026-06-27",
     "time": "21:50",
