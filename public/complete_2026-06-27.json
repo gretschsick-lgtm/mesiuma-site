@@ -287,6 +287,29 @@
     "store_id": "3f8923222d"
   },
   {
+    "id": "c33f0b72f37c",
+    "date": "2026-06-27",
+    "time": "20:40",
+    "store": "テキサス小倉店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  6月27日(土)  ＼コンプリート達成／   535番台▶︎▶︎▶︎▶︎ L革命機ヴァルヴレイヴ2  　　　　　　　　　　　　 おめでとうございます！！ #テキサス1111 #サザンスター",
+    "x_url": "https://x.com/texas_kokura/status/2070834587698422183",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T05:23:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0VFCxboAAdwIk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0VFCvbsAAg1Xb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0VFCxboAAdwIk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "f27afd20968c",
     "date": "2026-06-27",
     "time": "20:33",
@@ -353,6 +376,29 @@
     "image_url": "https://pbs.twimg.com/media/HL0GNUXaQAAVrfX?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "3b4b2e74d4"
+  },
+  {
+    "id": "2cd5df84c79e",
+    "date": "2026-06-27",
+    "time": "19:36",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "857",
+    "text": "速報  857番台 #ヴァルヴレイヴ コンプリート到達  おめでとうございます  本日初のコンプリート  次に続く台はあるのか 店内から目が離せません",
+    "x_url": "https://x.com/g_nishiurawa/status/2070818664610435371",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T05:23:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0Gj5gaUAAMMuZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0GlIeaYAANtdt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0Gj5gaUAAMMuZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
   },
   {
     "id": "91d5f4d701c1",
