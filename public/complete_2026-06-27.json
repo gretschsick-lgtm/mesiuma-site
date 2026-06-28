@@ -110,6 +110,52 @@
     "store_id": "b06d0873ca"
   },
   {
+    "id": "b23b7acd219d",
+    "date": "2026-06-27",
+    "time": "22:01",
+    "store": "FACE1300小倉南店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 L炎炎の消防隊2 Lかぐや様は告らせない  Wコンプリート達成  おめでとうございます #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2070855147094421531",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:51:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0nxqSbIAATkUR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "bffb8c8b4380",
+    "date": "2026-06-27",
+    "time": "22:01",
+    "store": "FACE1300小倉南店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 L炎炎の消防隊2 Lかぐや様は告らせない  Wコンプリート達成  おめでとうございます #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2070855147094421531",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:51:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0nxqSbIAATkUR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0nxqVakAAsup2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "536fb07b29ee",
     "date": "2026-06-27",
     "time": "21:50",
@@ -644,28 +690,6 @@
     "image_url": "https://pbs.twimg.com/media/HLyz0rsbIAAgJFM?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "e744c71a3d"
-  },
-  {
-    "id": "c3c4c851e50f",
-    "date": "2026-06-27",
-    "time": "09:00",
-    "store": "ダイナム金町南口店",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "machine_type": "slot",
-    "slot_number": "422",
-    "text": "おはようございます #ダイナム金町南口店 です  昨日6/27(土)閉店間際に #コンプリート 【422番台ミリオンゴッド】 おめでとうございます そしておつかれさまでした  ②台並んでのコンプ初めて見ました 素敵な景色ですねｗ  さぁ本日28日(日)は",
-    "x_url": "https://x.com/dynam_00035/status/2071020814837670220",
-    "store_handle": "dynam_00035",
-    "store_x_url": "https://x.com/dynam_00035",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-06-28T16:36:13Z",
-    "images": [
-      "https://pbs.twimg.com/media/HL2-cwFXEAAy2fk?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HL2-cwFXEAAy2fk?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004",
-    "store_id": "dcbb4c52ca"
   },
   {
     "id": "a1a885883e4b",
