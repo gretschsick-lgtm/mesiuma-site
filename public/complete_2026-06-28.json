@@ -1,5 +1,27 @@
 [
   {
+    "id": "da01a136760e",
+    "date": "2026-06-28",
+    "time": "22:35",
+    "store": "SuperD'station東金店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは スーパーD'ステーション東金店です  本日もでました！ Lチバリヨ2  コンプリート達成 おめでとうございます  明日もぜひご来店ください！ 従業員一同、心よりお待ちしております！  #千葉 #東金 #コンプリート #チバリヨ #パチンコ #スロット",
+    "x_url": "https://x.com/sd_tougane/status/2071225959672607143",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T18:07:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL54cP9bcAAk43V?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL54cP9bcAAk43V?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "7f6d7ae0f2"
+  },
+  {
     "id": "b9a81acf048b",
     "date": "2026-06-28",
     "time": "22:01",
