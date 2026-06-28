@@ -335,6 +335,28 @@
     "store_id": "bdd2e55ff9"
   },
   {
+    "id": "6d45bdb93358",
+    "date": "2026-06-26",
+    "time": "17:53",
+    "store": "サガちゃんPARK",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "2512",
+    "text": "ヤッホー  2512番台 スマスロミリオンゴッド  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2070430118380773487",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T15:06:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLulM3TaMAAFga0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLulM3TaMAAFga0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "e1b5f1e82709",
     "date": "2026-06-26",
     "time": "17:15",
