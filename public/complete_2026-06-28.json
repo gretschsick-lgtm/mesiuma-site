@@ -22,6 +22,28 @@
     "store_id": "7f6d7ae0f2"
   },
   {
+    "id": "88cc656092d9",
+    "date": "2026-06-28",
+    "time": "22:03",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "671",
+    "text": "6月28日 671番台  ヴヴヴ2にてコンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/eagle_c_tencho/status/2071217815110197377",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-06-28T19:00:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5xn8daUAAfrIg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5xn8daUAAfrIg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "9ff188237d"
+  },
+  {
     "id": "b9a81acf048b",
     "date": "2026-06-28",
     "time": "22:01",
@@ -66,6 +88,72 @@
     "image_url": "https://pbs.twimg.com/media/HL0iNeeagAAIhvA?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "57ac307cdc"
+  },
+  {
+    "id": "95c138b1b1c0",
+    "date": "2026-06-28",
+    "time": "21:27",
+    "store": "マルハンメガシティ伊勢崎",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "67",
+    "text": "コンプリート達成報告 e牙狼12黄金騎士極限 67番台　 ご遊技のお客様  おめでとうございます  先日も報告あったばかりですが やはり牙狼はスゴイですね",
+    "x_url": "https://x.com/isesaki_maruhan/status/2071208791950160052",
+    "store_handle": "isesaki_maruhan",
+    "store_x_url": "https://x.com/isesaki_maruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T19:06:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5oidobMAAEULB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5oidobMAAEULB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "fe04efdcd0"
+  },
+  {
+    "id": "031613eafed9",
+    "date": "2026-06-28",
+    "time": "21:25",
+    "store": "マルハン南宮崎店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハン南宮崎店より コンプリート速報   なんと！！  e 甲鉄城のカバネリ2 より  コンプリート達成が確認されました   さぞかし面白かったと思われます おめでとうございます",
+    "x_url": "https://x.com/_minamimiyazaki/status/2071208239845515487",
+    "store_handle": "_minamimiyazaki",
+    "store_x_url": "https://x.com/_minamimiyazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T19:06:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5mOl8aUAA4EIN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5mOl8aUAA4EIN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "905bbbb31c"
+  },
+  {
+    "id": "040ab76aca00",
+    "date": "2026-06-28",
+    "time": "21:00",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "21",
+    "text": "マルハン川越店です！    コンプリート速報 e牙狼12黄金騎士極限 21番台   おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2071201950859698198",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-28T19:06:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5heAqbkAAtSwO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5heAqbkAAtSwO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "3917e74a54"
   },
   {
     "id": "94801672bb24",
