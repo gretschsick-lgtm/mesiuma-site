@@ -91,6 +91,52 @@
     "store_id": "fb78bbe137"
   },
   {
+    "id": "aa626ae48c96",
+    "date": "2026-06-29",
+    "time": "21:48",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "874",
+    "text": "速報  874番台 #ヴァルヴレイヴ コンプリート達成 おめでとうございます  本日初のコンプリート達成です  この後もさらなる好結果に期待 店内の盛り上がりに注目です",
+    "x_url": "https://x.com/g_nishiurawa/status/2071576628539601143",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-29T20:07:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL-35u9agAEt9dW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL-37k_bUAECT1Q?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL-37oAbgAAqo5_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL-35u9agAEt9dW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
+  },
+  {
+    "id": "34bf1a5440cf",
+    "date": "2026-06-29",
+    "time": "21:42",
+    "store": "マルハン川越店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1098",
+    "text": "こんばんは！マルハン川越店です！  L革命機ヴァルヴレイヴ2　1098番台 コンプリートおめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2071574947789770824",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-29T20:07:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL-2LG0bsAAR8SO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL-2LG0bsAAR8SO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3917e74a54"
+  },
+  {
     "id": "08da53a915c9",
     "date": "2026-06-29",
     "time": "20:39",
@@ -1758,7 +1804,7 @@
     "store_x_url": "https://x.com/rakuen_ohmiya",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-06-29T19:25:48Z",
+    "collected_at": "2026-06-29T20:07:01Z",
     "images": [
       "https://pbs.twimg.com/media/HLvCd5xaMAAkBge?format=jpg&name=large"
     ],
