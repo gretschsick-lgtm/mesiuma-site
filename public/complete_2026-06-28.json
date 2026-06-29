@@ -89,6 +89,51 @@
     "store_id": "bcc41247bb"
   },
   {
+    "id": "06688b05e583",
+    "date": "2026-06-28",
+    "time": "22:01",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1490",
+    "text": "本日のコンプリート 1490番台&1400番台 L革命機ヴァルヴレイヴ２ おめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2071217518359019932",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-29T18:00:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5xWn5bAAAMrtA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5xWn9acAA2BNS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5xWn5bAAAMrtA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "771f030669"
+  },
+  {
+    "id": "b9c457508e8f",
+    "date": "2026-06-28",
+    "time": "21:39",
+    "store": "やすだ八潮店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "814",
+    "text": "やすだ八潮店です  3台目のコンプリート 814番台　L甲鉄城のカバネリ海門決戦 おめでとうございます  #コンプリート #カバネリ",
+    "x_url": "https://x.com/yasuda_yashio/status/2071211846477222297",
+    "store_handle": "yasuda_yashio",
+    "store_x_url": "https://x.com/yasuda_yashio",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-29T18:15:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5sMjcbAAAMiYz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5sMjcbAAAMiYz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "f6cd9d33ba"
+  },
+  {
     "id": "b92a2364ab96",
     "date": "2026-06-28",
     "time": "21:38",
