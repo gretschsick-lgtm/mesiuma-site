@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-30T05:43:10+09:00",
+  "generated_at": "2026-06-30T06:56:43+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 710,
+      "total_count": 711,
       "stores": [
         {
           "rank": 1,
@@ -44,34 +44,34 @@
         },
         {
           "rank": 7,
+          "name": "テキサス小倉店",
+          "count": 14,
+          "x_url": "https://x.com/texas_kokura"
+        },
+        {
+          "rank": 8,
           "name": "メガフェイス1300淀川",
           "count": 14,
           "x_url": "https://x.com/megaface_1300"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "FACE1300小倉南店",
           "count": 14,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "楽園池袋店ゲートウェイ",
           "count": 14,
           "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
-          "rank": 10,
-          "name": "テキサス小倉店",
-          "count": 13,
-          "x_url": "https://x.com/texas_kokura"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 158
+          "count": 159
         },
         {
           "rank": 2,
@@ -391,22 +391,22 @@
       },
       {
         "rank": 9,
-        "name": "FACE1300小倉南店",
+        "name": "テキサス小倉店",
         "count": 14,
-        "x_url": "https://x.com/face_1300"
+        "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 10,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "FACE1300小倉南店",
         "count": 14,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/face_1300"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 169
+        "count": 170
       },
       {
         "rank": 2,
@@ -506,7 +506,7 @@
         "count": 4
       }
     ],
-    "total_count": 771
+    "total_count": 772
   },
   "store_complete_counts": {
     "ARROW浪速店": 23,
@@ -517,10 +517,10 @@
     "マルハン川越店": 15,
     "メガフェイス1300淀川": 15,
     "楽園池袋店ゲートウェイ": 15,
+    "テキサス小倉店": 14,
     "FACE1300小倉南店": 14,
     "マルハンメガシティ三島駿東": 14,
     "プレイランドキャッスル春日井店": 14,
-    "テキサス小倉店": 13,
     "サガちゃんPARK": 13,
     "楽園大宮店": 13,
     "キクヤ春日井店": 13,
