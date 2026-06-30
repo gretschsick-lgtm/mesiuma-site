@@ -22,6 +22,24 @@
     "store_id": "7f6d7ae0f2"
   },
   {
+    "id": "0bca6f4fe5d8",
+    "date": "2026-06-28",
+    "time": "22:34",
+    "store": "ニューアサヒ長野青木島店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "815",
+    "text": "ドンドンドン\\c( ॑꒳ ॑ \\c)ﾄﾞﾝ 速報ですꉂ  6/28 本日2発目 815番台 Lゴッドイーターリザレクション コンプリート達成 おめでとうございます  #青アサ  #コンプリート",
+    "x_url": "https://x.com/ikechanasahi/status/2071225787400036662",
+    "store_handle": "ikechanasahi",
+    "store_x_url": "https://x.com/ikechanasahi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-30T12:13:22Z",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "d473c469be"
+  },
+  {
     "id": "6d87e8f4dc28",
     "date": "2026-06-28",
     "time": "22:27",
@@ -127,7 +145,13 @@
     "source_account_type": "store_official",
     "collected_at": "2026-06-30T05:02:55Z",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
-    "store_id": "4af5cc0d0b"
+    "store_id": "4af5cc0d0b",
+    "image_url": "https://pbs.twimg.com/media/HL5tZHnaMAAktJO.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HL5tZHnaMAAktJO.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5tZHnaMAAktJO.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5tmAZbsAA8dus.jpg?format=jpg&name=large"
+    ]
   },
   {
     "id": "b9c457508e8f",
@@ -396,6 +420,30 @@
     "image_url": "https://pbs.twimg.com/media/HL5ZxLIboAIsS7c?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "cf70bb294d"
+  },
+  {
+    "id": "789bbefb6c96",
+    "date": "2026-06-28",
+    "time": "19:45",
+    "store": "天王寺ホール本館",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんわ 本日はLヴァルヴレイヴからコンプリート達成 お客様おめでとうございます  明日は  ジャンバリ潜入来店取材炎 　　　　　　 ぶっ通し取材＋1ヶ月 　　　　　ラスト2日  オマチシテマス。  #大阪 #天王寺 #パチンコ #スロット #VVV",
+    "x_url": "https://x.com/tennoji_hall/status/2071183096121299411",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-30T12:13:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5RRKZaYAAFDBp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5RthOaIAAJMZw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5R-udbcAE8l3u?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5RRKZaYAAFDBp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3936a4b9d5"
   },
   {
     "id": "b77c33b073aa",
