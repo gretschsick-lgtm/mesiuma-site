@@ -560,6 +560,29 @@
     "store_id": "ad0ceba11b"
   },
   {
+    "id": "775b5212d7b3",
+    "date": "2026-06-24",
+    "time": "12:03",
+    "store": "ダイナム御薗店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "りんちゃん休日のため、 #ダイナム 御薗店 副店長から コンプリートのお知らせです  6月23日火曜日 e東京喰種 超デカ超一撃verにて コンプリート達成！ おめでとうございます  X用の撮影と投稿大変ですね はやくりんちゃん帰ってきてー",
+    "x_url": "https://x.com/dynam_00135/status/2069617353965351326",
+    "store_handle": "dynam_00135",
+    "store_x_url": "https://x.com/dynam_00135",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-30T21:22:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLjCA1KXIAAJFPL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLjCBBXWcAAUdV8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLjCA1KXIAAJFPL?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "cbb8a68df4"
+  },
+  {
     "id": "2a397fe17bdd",
     "date": "2026-06-24",
     "time": "08:30",
