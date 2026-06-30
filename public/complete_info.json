@@ -790,6 +790,28 @@
     "store_id": "f6cd9d33ba"
   },
   {
+    "id": "ca6e88069bce",
+    "date": "2026-06-28",
+    "time": "18:35",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "1286",
+    "text": "こんばんは メガシティ三島駿東です  パチスロ　かぐや様は告らせたい 1286番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2071165457915371587",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-06-30T16:52:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL4_gtXaYAA68bj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL4_gtXaYAA68bj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "48d9da337c6f",
     "date": "2026-06-28",
     "time": "18:02",
