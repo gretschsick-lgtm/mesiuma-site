@@ -123,7 +123,7 @@
     "store_x_url": "https://x.com/castle_kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T16:57:05Z",
+    "collected_at": "2026-07-01T17:45:33Z",
     "images": [
       "https://pbs.twimg.com/media/HMImLrXbwAAca5Q?format=jpg&name=large"
     ],
@@ -145,7 +145,7 @@
     "store_x_url": "https://x.com/castle_kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T16:57:05Z",
+    "collected_at": "2026-07-01T17:45:33Z",
     "images": [
       "https://pbs.twimg.com/media/HMIFA13aYAAWOP3?format=jpg&name=large"
     ],
@@ -191,7 +191,7 @@
     "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T16:56:41Z",
+    "collected_at": "2026-07-01T17:45:09Z",
     "images": [
       "https://pbs.twimg.com/media/HMEEwXfW4AAkKHt?format=jpg&name=large"
     ],
@@ -427,6 +427,24 @@
     "store_id": "7be267e3ea"
   },
   {
+    "id": "41b3e0aff183",
+    "date": "2026-06-29",
+    "time": "22:21",
+    "store": "新ガーデン北戸田駅前",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "507",
+    "text": "勢い止まらず 507番台ミリオンゴッド～神々の軌跡～ 2台目のコンプリート おめでとうございます  #ガーデン北戸田駅前 #コンプリート #ミリオンゴッド",
+    "x_url": "https://x.com/gardenkitatoda/status/2071584869822709795",
+    "store_handle": "gardenkitatoda",
+    "store_x_url": "https://x.com/gardenkitatoda",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T18:15:59Z",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "53a1ab0c58"
+  },
+  {
     "id": "aa626ae48c96",
     "date": "2026-06-29",
     "time": "21:48",
@@ -518,29 +536,6 @@
     "store_id": "1c290737dc"
   },
   {
-    "id": "6d0f4f76f09e",
-    "date": "2026-06-29",
-    "time": "20:55",
-    "store": "テキサス小倉店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんばんは テキサス小倉店です  6月29日(月)  ＼コンプリート達成／ なんと、、第三弾   959番台▶︎▶︎▶︎▶︎ e 牙狼12 黄金騎士極限  　　　　　　　　　　　　 テキサス1111の勢いは止まらない この後もごゆっくりお楽しみください！",
-    "x_url": "https://x.com/texas_kokura/status/2071563276027347151",
-    "store_handle": "texas_kokura",
-    "store_x_url": "https://x.com/texas_kokura",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-01T17:04:04Z",
-    "images": [
-      "https://pbs.twimg.com/media/HL-rztIbQAAYI-f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HL-rztaa8AAyesM?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HL-rztIbQAAYI-f?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "7be267e3ea"
-  },
-  {
     "id": "08da53a915c9",
     "date": "2026-06-29",
     "time": "20:39",
@@ -598,7 +593,7 @@
     "store_x_url": "https://x.com/wakakin_tsujic",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T16:56:26Z",
+    "collected_at": "2026-07-01T17:44:54Z",
     "images": [
       "https://pbs.twimg.com/media/HL-nLGiaIAAeOud?format=jpg&name=large"
     ],
@@ -627,28 +622,6 @@
     "image_url": "https://pbs.twimg.com/media/HL-fdRnacAAB-Mx?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "f3183f2029"
-  },
-  {
-    "id": "0a97edef5130",
-    "date": "2026-06-29",
-    "time": "19:46",
-    "store": "マルハンメガシティ三島駿東",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "472",
-    "text": "マルハンメガシティ三島駿東から コンプリート最新情報  ｅ牙狼１２ＸＸ－ＭＪ 472番台  コンプリート達成 牙狼は本日2台目のコンプリート  おめでとうございます",
-    "x_url": "https://x.com/mega_mishima/status/2071545835616440328",
-    "store_handle": "mega_mishima",
-    "store_x_url": "https://x.com/mega_mishima",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-01T17:04:04Z",
-    "images": [
-      "https://pbs.twimg.com/media/HL-bINBacAAEEHn?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HL-bINBacAAEEHn?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "1cd7e84e8e"
   },
   {
     "id": "849335c83186",
@@ -1574,6 +1547,28 @@
     "image_url": "https://pbs.twimg.com/media/HL6drR4bQAIgwt5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "9a529b0405d9",
+    "date": "2026-06-28",
+    "time": "00:33",
+    "store": "キコーナ鶴見",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日閉店間際に・・・ L革命機ヴァルヴレイヴ2にて  　　　 コンプリート達成   おめでとうございます  #グランキコーナ鶴見  #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2071255645488291877",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T18:15:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL6T-pkbAAAA-A3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL6T-pkbAAAA-A3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cd7a76c703"
   },
   {
     "id": "e0c9713e30d3",
@@ -2884,7 +2879,7 @@
     "store_x_url": "https://x.com/315kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T16:56:18Z",
+    "collected_at": "2026-07-01T17:44:46Z",
     "images": [
       "https://pbs.twimg.com/media/HLuJyOTaIAAmPmn?format=jpg&name=large"
     ],

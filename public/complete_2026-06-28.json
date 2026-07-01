@@ -833,5 +833,27 @@
     "image_url": "https://pbs.twimg.com/media/HL6drR4bQAIgwt5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "9a529b0405d9",
+    "date": "2026-06-28",
+    "time": "00:33",
+    "store": "キコーナ鶴見",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日閉店間際に・・・ L革命機ヴァルヴレイヴ2にて  　　　 コンプリート達成   おめでとうございます  #グランキコーナ鶴見  #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2071255645488291877",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T18:15:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL6T-pkbAAAA-A3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL6T-pkbAAAA-A3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cd7a76c703"
   }
 ]
