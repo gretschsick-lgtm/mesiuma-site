@@ -203,6 +203,28 @@
     "store_id": "f3183f2029"
   },
   {
+    "id": "849335c83186",
+    "date": "2026-06-29",
+    "time": "19:25",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "476",
+    "text": "6月29日（月） ★コンプリート情報★ 476番台「Lヴァルヴレイヴ２」 おめでとうございます！",
+    "x_url": "https://x.com/315kasugai/status/2071540467318358126",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T08:33:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL-XDs9bIAAGWzu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL-XDs9bIAAGWzu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "0b3cac8f8c85",
     "date": "2026-06-29",
     "time": "19:18",
