@@ -23,6 +23,28 @@
     "store_id": "a213dcf5c4"
   },
   {
+    "id": "f0d939884150",
+    "date": "2026-06-30",
+    "time": "21:24",
+    "store": "サガちゃんPARK",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "1309",
+    "text": "ヤッホー     1309番台  ｅフィーバーブルーロックＭＺ  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2071932832763801716",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T05:28:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMD76tuWUAAzwa4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMD76tuWUAAzwa4?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "741b4cbd2fe3",
     "date": "2026-06-30",
     "time": "16:18",

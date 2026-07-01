@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-01T09:46:57+09:00",
+  "generated_at": "2026-07-01T15:01:10+09:00",
   "monthly": [
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 731,
+      "total_count": 732,
       "stores": [
         {
           "rank": 1,
@@ -56,15 +56,15 @@
         },
         {
           "rank": 9,
-          "name": "メガフェイス1300淀川",
+          "name": "サガちゃんPARK",
           "count": 14,
-          "x_url": "https://x.com/megaface_1300"
+          "x_url": "https://x.com/sagachan_park"
         },
         {
           "rank": 10,
-          "name": "FACE1300小倉南店",
+          "name": "メガフェイス1300淀川",
           "count": 14,
-          "x_url": "https://x.com/face_1300"
+          "x_url": "https://x.com/megaface_1300"
         }
       ],
       "slot_machines": [
@@ -391,15 +391,15 @@
       },
       {
         "rank": 9,
-        "name": "メガフェイス1300淀川",
+        "name": "サガちゃんPARK",
         "count": 14,
-        "x_url": "https://x.com/megaface_1300"
+        "x_url": "https://x.com/sagachan_park"
       },
       {
         "rank": 10,
-        "name": "FACE1300小倉南店",
+        "name": "メガフェイス1300淀川",
         "count": 14,
-        "x_url": "https://x.com/face_1300"
+        "x_url": "https://x.com/megaface_1300"
       }
     ],
     "slot_machines": [
@@ -506,7 +506,7 @@
         "count": 4
       }
     ],
-    "total_count": 731
+    "total_count": 732
   },
   "store_complete_counts": {
     "ARROW浪速店": 26,
@@ -517,10 +517,10 @@
     "マルハンメガシティ三島駿東": 15,
     "キング観光サウザンド栄若宮大通店": 15,
     "メガフェイス1450本山": 15,
+    "サガちゃんPARK": 14,
     "メガフェイス1300淀川": 14,
     "FACE1300小倉南店": 14,
     "楽園池袋店ゲートウェイ": 14,
-    "サガちゃんPARK": 13,
     "キクヤ春日井店": 13,
     "プレイランドキャッスル春日井店": 12,
     "楽園大宮店": 12,
