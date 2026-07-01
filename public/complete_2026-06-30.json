@@ -1,5 +1,27 @@
 [
   {
+    "id": "0fbdddc73b4e",
+    "date": "2026-06-30",
+    "time": "23:00",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "373",
+    "text": "【コンプリート】 こんばんは！  キクヤ穂積店ですッ   コンプリート報告です！！     本日も”牙狼１２　黄金騎士極限” ３７３番台  コンプリート達成です！！  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2071956924262690828",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T20:05:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMD8DzNW4AAuUoq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMD8DzNW4AAuUoq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c800581abf"
+  },
+  {
     "id": "ea84d44bb0ea",
     "date": "2026-06-30",
     "time": "22:30",
