@@ -289,6 +289,28 @@
     "store_id": "771f030669"
   },
   {
+    "id": "4073d9003da6",
+    "date": "2026-06-29",
+    "time": "20:13",
+    "store": "新ガーデン北戸田駅前",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "510",
+    "text": "510番台ミリオンゴッド～神々の軌跡～ コンプリートです おめでとうございます  #ガーデン北戸田駅前 #コンプリート #ミリオンゴッド",
+    "x_url": "https://x.com/gardenkitatoda/status/2071552726937530624",
+    "store_handle": "gardenkitatoda",
+    "store_x_url": "https://x.com/gardenkitatoda",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T23:50:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL-iLgBaIAAP6Oj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL-iLgBaIAAP6Oj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "53a1ab0c58"
+  },
+  {
     "id": "72f7db03871a",
     "date": "2026-06-29",
     "time": "20:01",
@@ -309,6 +331,28 @@
     "image_url": "https://pbs.twimg.com/media/HL-fdRnacAAB-Mx?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "f3183f2029"
+  },
+  {
+    "id": "0a97edef5130",
+    "date": "2026-06-29",
+    "time": "19:46",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "472",
+    "text": "マルハンメガシティ三島駿東から コンプリート最新情報  ｅ牙狼１２ＸＸ－ＭＪ 472番台  コンプリート達成 牙狼は本日2台目のコンプリート  おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2071545835616440328",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T23:50:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL-bINBacAAEEHn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL-bINBacAAEEHn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "849335c83186",
