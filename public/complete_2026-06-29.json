@@ -104,7 +104,7 @@
     "store_x_url": "https://x.com/texas_kokura",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T15:49:27Z",
+    "collected_at": "2026-07-01T16:34:05Z",
     "images": [
       "https://pbs.twimg.com/media/HL_A-_jbwAAA-l6?format=jpg&name=large",
       "https://pbs.twimg.com/media/HL_A-_jbQAA9PCu?format=jpg&name=large"
@@ -160,6 +160,29 @@
     "store_id": "3917e74a54"
   },
   {
+    "id": "a98e4a891df0",
+    "date": "2026-06-29",
+    "time": "21:40",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "417",
+    "text": "千葉最大1409台の出玉情報  今日は仲良く2台続けてコンプリート発動 『417番台 e牙狼』 『531番台 e牙狼』 打っていたお客様おめでとうございます  牙狼は千葉最大47台設置中  牙狼打つならビックマーチガオー  #千葉最大 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2071574577025826964",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T16:33:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL-2GYibQAAFKst?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL-2GYwaAAACXLT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL-2GYibQAAFKst?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e744c71a3d"
+  },
+  {
     "id": "27176bebb913",
     "date": "2026-06-29",
     "time": "21:00",
@@ -173,54 +196,13 @@
     "store_x_url": "https://x.com/dynam_00133",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-01T15:49:35Z",
+    "collected_at": "2026-07-01T16:33:56Z",
     "images": [
       "https://pbs.twimg.com/media/HL-s2UxXYAA5pZn?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HL-s2UxXYAA5pZn?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "1c290737dc"
-  },
-  {
-    "id": "cc9e72366bb2",
-    "date": "2026-06-29",
-    "time": "21:00",
-    "store": "ＡＢＣ豊川店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "324",
-    "text": "#コンプリート達成  L北斗の拳　転生2【324番台】  おめでとうございます～  明日稼働再開  #ABC豊川店",
-    "x_url": "https://x.com/ABC_toyokawa/status/2071564348334768452",
-    "store_handle": "abc_toyokawa",
-    "store_x_url": "https://x.com/ABC_toyokawa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-01T15:49:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HL-k6DybQAAe3ld?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HL9wJC2asAAXZTk?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HL-k6DybQAAe3ld?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "58111f872e"
-  },
-  {
-    "id": "6d0f4f76f09e",
-    "date": "2026-06-29",
-    "time": "20:55",
-    "store": "テキサス小倉店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんばんは テキサス小倉店です  6月29日(月)  ＼コンプリート達成／ なんと、、第三弾   959番台▶︎▶︎▶︎▶︎ e 牙狼12 黄金騎士極限  　　　　　　　　　　　　 テキサス1111の勢いは止まらない この後もごゆっくりお楽しみください！",
-    "x_url": "https://x.com/texas_kokura/status/2071563276027347151",
-    "store_handle": "texas_kokura",
-    "store_x_url": "https://x.com/texas_kokura",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-01T15:49:35Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "7be267e3ea"
   },
   {
     "id": "08da53a915c9",
@@ -265,28 +247,6 @@
     "image_url": "https://pbs.twimg.com/media/HL-nQ5IaIAAZNbz?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
     "store_id": "9823f30ca7"
-  },
-  {
-    "id": "b778deaf7d42",
-    "date": "2026-06-29",
-    "time": "20:35",
-    "store": "キング観光サウザンド栄若宮大通店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "1406",
-    "text": "1406番台 L革命機ヴァルヴレイヴ２ コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
-    "x_url": "https://x.com/wakakin_tsujic/status/2071558167302209842",
-    "store_handle": "wakakin_tsujic",
-    "store_x_url": "https://x.com/wakakin_tsujic",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-01T15:18:30Z",
-    "images": [
-      "https://pbs.twimg.com/media/HL-nLGiaIAAeOud?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HL-nLGiaIAAeOud?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "771f030669"
   },
   {
     "id": "72f7db03871a",
