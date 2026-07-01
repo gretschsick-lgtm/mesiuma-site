@@ -1,5 +1,27 @@
 [
   {
+    "id": "0664307f74bd",
+    "date": "2026-07-01",
+    "time": "20:39",
+    "store": "キャッスル天白店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "2122",
+    "text": "～コンプリート機能発動～  2122番台  #ソードアート・オンラインⅡ    台の稼働を停止しております！！  明日の開放をお待ちください！   #キャッスル天白店",
+    "x_url": "https://x.com/tenpaku0730/status/2072283893756236007",
+    "store_handle": "tenpaku0730",
+    "store_x_url": "https://x.com/tenpaku0730",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-01T12:22:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMI6DdBbgAAaHLv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMI6DdBbgAAaHLv?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "d5fbda7161"
+  },
+  {
     "id": "38e20fbe1a4c",
     "date": "2026-06-30",
     "time": "21:35",
