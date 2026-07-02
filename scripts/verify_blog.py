@@ -107,6 +107,16 @@ MACHINE_FACTS: dict[str, dict] = {
         "maker": "SANKYO",
         "at_name": "超からくりサーカス",
     },
+    "戦国コレクション6": {
+        "must_contain":     ["時幻城RUSH", "夢幻回廊"],
+        "must_not_contain": [],
+        "maker": "コナミアミューズメント",
+    },
+    "一方通行.*最狂": {
+        "must_contain":     ["アクセラレータOVER RUSH", "最狂ジャッジメント"],
+        "must_not_contain": [],
+        "maker": "オレンジ",
+    },
     "リコリス・リコイル": {
         "must_contain":     ["SPECIAL LycoReco RUSH", "ULTIMATE DRIVE"],
         "must_not_contain": [],
@@ -145,6 +155,8 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
                           "https://chonborista.com/slot/amute/259472/"],
     "東京リベンジャーズ.*聖夜": ["https://nana-press.com/kaiseki/machine/1184/",
                                   "https://chonborista.com/pachinko/sammy/259722/"],
+    "戦国コレクション6":  ["https://chonborista.com/slot/konami-slot/257820/"],
+    "一方通行.*最狂":     ["https://chonborista.com/pachinko/fujishouji/261665/"],
 }
 
 # ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
