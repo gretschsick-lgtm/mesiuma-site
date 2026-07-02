@@ -22,6 +22,50 @@
     "store_id": "f3183f2029"
   },
   {
+    "id": "90ec4762f0d3",
+    "date": "2026-07-02",
+    "time": "17:45",
+    "store": "ダイナム北斗七重浜店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！ 北斗七重浜店です 17：20コンプリート達成  ヴァルヴレイヴ２  オメデトウゴザイマス  #コンプリーーーーーート  #ダイナム　#北斗市",
+    "x_url": "https://x.com/dynam_00043/status/2072602473219441094",
+    "store_handle": "dynam_00043",
+    "store_x_url": "https://x.com/dynam_00043",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T13:17:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMNc9alWcAAjwp3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMNc9alWcAAjwp3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "20138d2c07"
+  },
+  {
+    "id": "236765af4301",
+    "date": "2026-07-02",
+    "time": "15:45",
+    "store": "玉屋∞本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "444",
+    "text": "15：22・・・　  ４４４番台e牙狼１２から コンプリートおめでとうございます",
+    "x_url": "https://x.com/YONEPEE2288/status/2072572348419744128",
+    "store_handle": "yonepee2288",
+    "store_x_url": "https://x.com/yonepee2288",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T13:22:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMNBO9WbgAAftb2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMNBO9WbgAAftb2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "590556b79c"
+  },
+  {
     "id": "47d6fa8c71a1",
     "date": "2026-07-02",
     "time": "14:15",

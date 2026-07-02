@@ -112,6 +112,28 @@
     "store_id": "a213dcf5c4"
   },
   {
+    "id": "a26fe13750ac",
+    "date": "2026-06-30",
+    "time": "21:29",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "501",
+    "text": "501番台 e牙狼12 コンプリート達成 #6月30日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2071934096125894756",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T13:21:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMD9ESfWsAAoHt-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMD9ESfWsAAoHt-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "f0d939884150",
     "date": "2026-06-30",
     "time": "21:24",
