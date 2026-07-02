@@ -1,5 +1,27 @@
 [
   {
+    "id": "8c36d642d348",
+    "date": "2026-07-02",
+    "time": "22:47",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2103",
+    "text": "楽園池袋店ゲートウェイです  本日、7月2日(木)   4円パチンココーナーから  2103番台　【e牙狼12　黄金騎士極限】   コンプリート機能が作動いたしました  本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2072678583382974841",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T17:28:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMOeOoAbcAEKPis?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMOeOoAbcAEKPis?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "1075235a181d",
     "date": "2026-07-02",
     "time": "22:28",
@@ -88,6 +110,72 @@
     "image_url": "https://pbs.twimg.com/media/HMOBIlkaIAAhGZr?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "f3183f2029"
+  },
+  {
+    "id": "7d8f7c3fd507",
+    "date": "2026-07-02",
+    "time": "19:21",
+    "store": "新！ガーデン川口安行",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "668",
+    "text": "こんばんは みたりーです  本日なんと…！！  668番台 e牙狼12 黄金騎士極限 にてコンプリート達成  おめでとうございます！！  この後 夜からのご来店お待ちしています  #新ガーデン川口安行 #コンプリート",
+    "x_url": "https://x.com/KawagutiAngyo/status/2072626588412498213",
+    "store_handle": "kawagutiangyo",
+    "store_x_url": "https://x.com/kawagutiangyo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T17:29:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMNyr6MagAAkQpw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMNyr6MagAAkQpw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "57ac307cdc"
+  },
+  {
+    "id": "02e3da64e5db",
+    "date": "2026-07-02",
+    "time": "19:08",
+    "store": "パラッツォ船橋店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2087",
+    "text": "コンプリート達成   2087番台 Ｌ革命機ヴァルヴレイヴ２ おめでとうございます  この後の時間もまだまだいくぜ 全員パラ船に集合",
+    "x_url": "https://x.com/palazzo_funa/status/2072623338112057637",
+    "store_handle": "palazzo_funa",
+    "store_x_url": "https://x.com/palazzo_funa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T17:29:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMNuU9Ea0AAtsP5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMNuU9Ea0AAtsP5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "208e7c8d7f"
+  },
+  {
+    "id": "ebe56f48950a",
+    "date": "2026-07-02",
+    "time": "18:02",
+    "store": "キクヤ春日井店",
+    "machine": "スマスロ賭ケグルイ",
+    "machine_type": "slot",
+    "slot_number": "1178",
+    "text": "1178番台 賭ケグルイ コンプリートおめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2072606859681567196",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T17:27:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMNg7U9bQAAE2ua?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMNg7U9bQAAE2ua?format=jpg&name=large",
+    "machine_id": "1a50b566-ade8-422e-82c1-c601b448e226",
+    "store_id": "5a18003e2d"
   },
   {
     "id": "90ec4762f0d3",
