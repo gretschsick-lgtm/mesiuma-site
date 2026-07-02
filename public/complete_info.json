@@ -1,5 +1,27 @@
 [
   {
+    "id": "9bf7218bb951",
+    "date": "2026-07-02",
+    "time": "20:23",
+    "store": "フジコー三島店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1808",
+    "text": "本日7月2日  1808番台  #北斗の拳転生の章2  ご遊技されていたお客様 2度目の #コンプリート 達成 おめでとうございます  #スマスロ",
+    "x_url": "https://x.com/fujiko_mishima/status/2072642248890814755",
+    "store_handle": "fujiko_mishima",
+    "store_x_url": "https://x.com/fujiko_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T11:33:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMOBIlkaIAAhGZr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMOBIlkaIAAhGZr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "f3183f2029"
+  },
+  {
     "id": "47d6fa8c71a1",
     "date": "2026-07-02",
     "time": "14:15",
@@ -196,6 +218,28 @@
     "image_url": "https://pbs.twimg.com/media/HMImLrXbwAAca5Q?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "cbc9c2710d"
+  },
+  {
+    "id": "6191a15d2101",
+    "date": "2026-07-01",
+    "time": "19:07",
+    "store": "ワンダーランド　うきはバイパス店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成 機種は… L革命機ヴァルヴレイヴ2jF 7月1日ワンダーランド創業日 コンプリート 感謝そして… おめでとうございます",
+    "x_url": "https://x.com/wl_ukihab/status/2072260823763018236",
+    "store_handle": "wl_ukihab",
+    "store_x_url": "https://x.com/wl_ukihab",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T11:57:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMIk4nuaoAAuBKl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMIk4nuaoAAuBKl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8e44448b4a"
   },
   {
     "id": "d21ea1157111",

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-02T18:23:15+09:00",
+  "generated_at": "2026-07-02T21:08:05+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 13,
+      "total_count": 15,
       "stores": [
         {
           "rank": 1,
@@ -20,86 +20,91 @@
         },
         {
           "rank": 3,
+          "name": "フジコー三島店",
+          "count": 1,
+          "x_url": "https://x.com/fujiko_mishima"
+        },
+        {
+          "rank": 4,
           "name": "キング観光サウザンド名古屋駅柳橋店",
           "count": 1,
           "x_url": "https://x.com/yanakin1515"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "プレイランドキャッスル高浜店",
           "count": 1,
           "x_url": "https://x.com/hara_strong"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "キクヤ一宮店",
           "count": 1,
           "x_url": "https://x.com/ichinomiya1380"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "T-MAX新栄店",
           "count": 1,
           "x_url": "https://x.com/tmaxshinei39_10"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "キャッスル天白店",
           "count": 1,
           "x_url": "https://x.com/tenpaku0730"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ワンダーランド武雄店",
           "count": 1,
           "x_url": "https://x.com/wl_takeo"
         },
         {
-          "rank": 9,
-          "name": "ニューヨーク出水店",
-          "count": 1,
-          "x_url": "https://x.com/newyorkgroup15"
-        },
-        {
           "rank": 10,
-          "name": "テキサス小倉店",
+          "name": "ワンダーランド　うきはバイパス店",
           "count": 1,
-          "x_url": "https://x.com/texas_kokura"
+          "x_url": "https://x.com/wl_ukihab"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
+          "name": "L革命機ヴァルヴレイヴ2",
+          "count": 3
+        },
+        {
+          "rank": 2,
           "name": "スマスロ攻殻機動隊",
           "count": 2
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "スロット ソードアート・オンラインⅡ",
           "count": 2
         },
         {
-          "rank": 3,
-          "name": "L革命機ヴァルヴレイヴ2",
-          "count": 2
-        },
-        {
           "rank": 4,
-          "name": "Lミリオンゴッド神々の軌跡",
+          "name": "スマスロ北斗の拳転生の章2",
           "count": 1
         },
         {
           "rank": 5,
-          "name": "スマスロゴッドイーター",
+          "name": "Lミリオンゴッド神々の軌跡",
           "count": 1
         },
         {
           "rank": 6,
-          "name": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+          "name": "スマスロゴッドイーター",
           "count": 1
         },
         {
           "rank": 7,
+          "name": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+          "count": 1
+        },
+        {
+          "rank": 8,
           "name": "L甲鉄城のカバネリ海門決戦",
           "count": 1
         }
@@ -522,12 +527,12 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 164
+        "count": 165
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 45
+        "count": 46
       },
       {
         "rank": 3,
@@ -622,7 +627,7 @@
         "count": 4
       }
     ],
-    "total_count": 737
+    "total_count": 739
   },
   "store_complete_counts": {
     "ARROW浪速店": 25,
@@ -676,6 +681,7 @@
     "パラッツォ鳩ヶ谷店": 5,
     "グランドホール港南店": 5,
     "マルハン仙台名坊店": 5,
+    "フジコー三島店": 4,
     "プレイランドキャッスル高浜店": 4,
     "キクヤ一宮店": 4,
     "メガフェイス960飯塚": 4,
@@ -693,7 +699,6 @@
     "マルハン小山千駄塚店": 4,
     "パラッツォ船橋店": 3,
     "ＡＢＣ豊川店": 3,
-    "フジコー三島店": 3,
     "メガフェイス1250": 3,
     "ビックマーチ八斗島店": 3,
     "ダイナム岡山倉敷中島店": 3,
@@ -713,6 +718,7 @@
     "キコーナ松戸": 3,
     "ピーアーク竹の塚": 3,
     "ワンダーランド武雄店": 2,
+    "ワンダーランド　うきはバイパス店": 2,
     "SUPER COSMO PREMIUM大東店": 2,
     "マルハン南宮崎店": 2,
     "アロー志紀店": 2,
@@ -804,7 +810,6 @@
     "ダイナム和歌山御坊店": 1,
     "フェイス６６６神埼": 1,
     "ライブガーデン上尾店": 1,
-    "ワンダーランド　うきはバイパス店": 1,
     "イチロク八代店": 1,
     "永楽本店": 1,
     "グランキコーナ松原店": 1,
