@@ -1,71 +1,25 @@
 [
   {
-    "id": "1075235a181d",
+    "id": "8c36d642d348",
     "date": "2026-07-02",
-    "time": "22:28",
-    "store": "ビックマーチ河和田東店",
+    "time": "22:47",
+    "store": "楽園池袋店ゲートウェイ",
     "machine": "e牙狼12",
     "machine_type": "pachinko",
-    "slot_number": "274",
-    "text": "さすが東の牙狼  本日2台目のコンプリート 274番台のお客様 誠におめでとう御座います  #ビックマーチ河和田東店 #東の牙狼 #コンプリート",
-    "x_url": "https://x.com/monky0621bm/status/2072673724156035195",
-    "store_handle": "monky0621bm",
-    "store_x_url": "https://x.com/monky0621bm",
+    "slot_number": "2103",
+    "text": "楽園池袋店ゲートウェイです  本日、7月2日(木)   4円パチンココーナーから  2103番台　【e牙狼12　黄金騎士極限】   コンプリート機能が作動いたしました  本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2072678583382974841",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-02T15:08:43Z",
+    "collected_at": "2026-07-02T15:49:12Z",
     "images": [
-      "https://pbs.twimg.com/media/HMOdw_vboAABNzp?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMOdw_1aoAEYOfJ?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HMOeOoAbcAEKPis?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HMOdw_vboAABNzp?format=jpg&name=large",
+    "image_url": "https://pbs.twimg.com/media/HMOeOoAbcAEKPis?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "c70e842b0a"
-  },
-  {
-    "id": "c8c54f653526",
-    "date": "2026-07-02",
-    "time": "20:32",
-    "store": "パラッツォ鳩ヶ谷店",
-    "machine": "スマスロバイオハザードRE:3",
-    "machine_type": "slot",
-    "slot_number": "3500",
-    "text": "コンプリート情報  20:20 スマスロ バイオハザードRE:3　3500番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
-    "x_url": "https://x.com/palazzo_hato/status/2072644513877942777",
-    "store_handle": "palazzo_hato",
-    "store_x_url": "https://x.com/palazzo_hato",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-02T15:17:01Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMODEqnaQAA1Llf?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMODEqnaQAA1Llf?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000018",
-    "store_id": "04138e2cd3"
-  },
-  {
-    "id": "642e9065aa60",
-    "date": "2026-07-02",
-    "time": "20:30",
-    "store": "ビックマーチ河和田東店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "271",
-    "text": "コンプリート速報  東の牙狼からコンプリート 271番台のお客様 誠におめでとう御座います  #ビックマーチ河和田東店 #東の牙狼 #コンプリート",
-    "x_url": "https://x.com/monky0621bm/status/2072644104086077596",
-    "store_handle": "monky0621bm",
-    "store_x_url": "https://x.com/monky0621bm",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-02T15:08:43Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMOC04NagAAKDF1?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMOC04LbsAAQ9sl?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMOC04NagAAKDF1?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "c70e842b0a"
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "9bf7218bb951",
@@ -88,6 +42,28 @@
     "image_url": "https://pbs.twimg.com/media/HMOBIlkaIAAhGZr?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "f3183f2029"
+  },
+  {
+    "id": "ebe56f48950a",
+    "date": "2026-07-02",
+    "time": "18:02",
+    "store": "キクヤ春日井店",
+    "machine": "スマスロ賭ケグルイ",
+    "machine_type": "slot",
+    "slot_number": "1178",
+    "text": "1178番台 賭ケグルイ コンプリートおめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2072606859681567196",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-02T15:48:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMNg7U9bQAAE2ua?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMNg7U9bQAAE2ua?format=jpg&name=large",
+    "machine_id": "1a50b566-ade8-422e-82c1-c601b448e226",
+    "store_id": "5a18003e2d"
   },
   {
     "id": "90ec4762f0d3",
