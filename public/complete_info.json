@@ -195,7 +195,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-03T17:20:36Z",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "a21784a348"
+    "store_id": "a21784a348",
+    "image_url": "https://pbs.twimg.com/media/HMSh_31b0AA7GNn.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HMSh_31b0AA7GNn.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMSh_31b0AA7GNn?format=jpg&name=large"
+    ]
   },
   {
     "id": "75ae59379d6a",
@@ -218,29 +223,6 @@
     "image_url": "https://pbs.twimg.com/media/HMQuZ8EWkAArVqG?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "223cc37d93"
-  },
-  {
-    "id": "ef59e61adf95",
-    "date": "2026-07-03",
-    "time": "00:21",
-    "store": "クラブハウス本店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "月日の結果発表  スロット 位853番台 L真打吉宗／12,627Pt. 位917番台 L北斗 転生の章2／12,541Pt.  万枚越えが2台月初めから盛り上げております 明日はコンプリートなのか、、  #MVP　#北斗転生　#吉宗",
-    "x_url": "https://x.com/club_honten99/status/2073064546034757790",
-    "store_handle": "club_honten99",
-    "store_x_url": "https://x.com/club_honten99",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-03T18:49:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMUAfzEbAAA285f?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMUAgolaUAAJ4yB?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMUAfzEbAAA285f?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "118fb35bd3"
   },
   {
     "id": "8c36d642d348",
@@ -2781,6 +2763,29 @@
     "image_url": "https://pbs.twimg.com/media/HL0p8_Wa4AA5Yd-?format=jpg&name=large",
     "machine_id": "cc397c5c-3872-4d97-a65c-b99e27374223",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "40bbe1909bcf",
+    "date": "2026-06-27",
+    "time": "22:09",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "455",
+    "text": "こんばんは メガシティ三島駿東です  続けて e牙狼12　黄金騎士極限 455番台 コンプリートです  本日4台目 おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2070857083071926329",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T19:54:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL0pOfLaAAAYyik?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0llCWbYAAbYWe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL0pOfLaAAAYyik?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "d2c77b835d1d",
