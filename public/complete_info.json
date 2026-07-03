@@ -195,12 +195,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-03T17:20:36Z",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "a21784a348",
-    "image_url": "https://pbs.twimg.com/media/HMSh_31b0AA7GNn.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HMSh_31b0AA7GNn.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMSh_31b0AA7GNn?format=jpg&name=large"
-    ]
+    "store_id": "a21784a348"
   },
   {
     "id": "75ae59379d6a",
@@ -223,6 +218,29 @@
     "image_url": "https://pbs.twimg.com/media/HMQuZ8EWkAArVqG?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "223cc37d93"
+  },
+  {
+    "id": "ef59e61adf95",
+    "date": "2026-07-03",
+    "time": "00:21",
+    "store": "クラブハウス本店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "月日の結果発表  スロット 位853番台 L真打吉宗／12,627Pt. 位917番台 L北斗 転生の章2／12,541Pt.  万枚越えが2台月初めから盛り上げております 明日はコンプリートなのか、、  #MVP　#北斗転生　#吉宗",
+    "x_url": "https://x.com/club_honten99/status/2073064546034757790",
+    "store_handle": "club_honten99",
+    "store_x_url": "https://x.com/club_honten99",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T18:49:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMUAfzEbAAA285f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMUAgolaUAAJ4yB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMUAfzEbAAA285f?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "118fb35bd3"
   },
   {
     "id": "8c36d642d348",
