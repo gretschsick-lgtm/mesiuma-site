@@ -1,5 +1,29 @@
 [
   {
+    "id": "c4005569eb19",
+    "date": "2026-06-28",
+    "time": "23:04",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【SPACE666】 本日の結果発表～ 本日はチバリヨ２がコンプリートし ３日連続コンプリート発生となりました はたして４日連続となるのか！？  明日もご来店お待ちしています",
+    "x_url": "https://x.com/space666tobata/status/2071233393925480721",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T15:05:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL5-2fAbcAArZrJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5-4DaboAAofSn?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5-6ZlbMAAMeUB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL5-2fAbcAArZrJ?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "da01a136760e",
     "date": "2026-06-28",
     "time": "22:35",

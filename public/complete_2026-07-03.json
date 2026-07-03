@@ -1,25 +1,93 @@
 [
   {
-    "id": "ce5bfdd1d31d",
+    "id": "0ed70091b7e5",
     "date": "2026-07-03",
-    "time": "22:31",
-    "store": "プレイランドキャッスル熱田店",
-    "machine": "e東京喰種",
+    "time": "23:00",
+    "store": "ワンダーランドODO",
+    "machine": "e牙狼12",
     "machine_type": "pachinko",
-    "slot_number": "73",
-    "text": "73番台　e東京喰種 超デカ超一撃Ver  コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
-    "x_url": "https://x.com/castleatsuta/status/2073036809031102560",
-    "store_handle": "castleatsuta",
-    "store_x_url": "https://x.com/castleatsuta",
+    "slot_number": "715",
+    "text": "創業月間だから  “ODOろく”ことも多いよね  本日21:50頃 e牙狼12（715番台）  コンプリート達成  “ODOろき”はちゃんと続きます",
+    "x_url": "https://x.com/wl_odo/status/2073044087003840881",
+    "store_handle": "wl_odo",
+    "store_x_url": "https://x.com/wl_odo",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-03T15:44:43Z",
+    "collected_at": "2026-07-03T15:04:29Z",
     "images": [
-      "https://pbs.twimg.com/media/HMTlPRuaQAAPaam?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HMTsd6eaMAAKMGF?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HMTlPRuaQAAPaam?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
-    "store_id": "cb0be1f296"
+    "image_url": "https://pbs.twimg.com/media/HMTsd6eaMAAKMGF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "576fdd84fc"
+  },
+  {
+    "id": "e3caf42febee",
+    "date": "2026-07-03",
+    "time": "22:50",
+    "store": "DSGアリーナ高岡",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ギリギリ滑り込みコーンプ #スマスロゴッドイーター 誠におめでとうございます  いい感じで週末にバトン繋げました 明日もご来店お待ちしております  #LIMITSTOP #コンプリート",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2073041762411745547",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T15:05:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMTsaDnbwAA4iOi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMTsaDnbwAA4iOi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012",
+    "store_id": "c774e988a7"
+  },
+  {
+    "id": "fe32eba2f087",
+    "date": "2026-07-03",
+    "time": "22:32",
+    "store": "FACE1300小倉南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート達成2】 パチンココーナーから 牙狼12黄金騎士極限 コンプリート達成 さらに ヴァルヴレイヴ2 本日2台目のコンプリート  おめでとうございます  #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2073037146295095435",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T16:30:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMToSfJaUAAcUl5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMToSfHbUAAaRi8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMToSfJaUAAcUl5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "91af27e5171c",
+    "date": "2026-07-03",
+    "time": "22:32",
+    "store": "FACE1300小倉南店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成2】 パチンココーナーから 牙狼12黄金騎士極限 コンプリート達成 さらに ヴァルヴレイヴ2 本日2台目のコンプリート  おめでとうございます  #メガフェイス1300小倉南 #コンプリート",
+    "x_url": "https://x.com/face_1300/status/2073037146295095435",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T16:30:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMToSfJaUAAcUl5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMToSfHbUAAaRi8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMToSfJaUAAcUl5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "18425371bb"
   },
   {
     "id": "30013a22930e",
@@ -57,7 +125,7 @@
     "store_x_url": "https://x.com/rakuen_ohmiya",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-03T16:01:15Z",
+    "collected_at": "2026-07-03T15:20:55Z",
     "images": [
       "https://pbs.twimg.com/media/HMTVO2lbMAA5fml?format=jpg&name=large"
     ],
@@ -66,26 +134,28 @@
     "store_id": "04950fcd53"
   },
   {
-    "id": "4f5bd47223de",
+    "id": "b113d7b1572f",
     "date": "2026-07-03",
-    "time": "17:25",
-    "store": "エクスアリーナ松戸",
-    "machine": "e東京喰種W",
-    "machine_type": "pachinko",
-    "slot_number": "336",
-    "text": "エクスアリーナ松戸よりお知らせです⋆͛⋆  336番台『e東京喰種W』にて コンプリート機能発動となりました  おめでとうございます  この後も22:45まで営業しております ご来店お待ちしております",
-    "x_url": "https://x.com/XAmatsudo/status/2072959940793446650",
-    "store_handle": "xamatsudo",
-    "store_x_url": "https://x.com/xamatsudo",
+    "time": "20:56",
+    "store": "ＢＩＧディッパー京都駅前店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "125",
+    "text": "３日 ＢＤ３７  タイガーハイパー『超』 　来店取材  ２０時台に来ました ヴァルヴレイヴ２ 　　１２５番台にて コンプリート達成！！  おめでとうございます  #京都駅前ディッパーコンプリート",
+    "x_url": "https://x.com/bigdipper_kyoto/status/2073013085133222104",
+    "store_handle": "bigdipper_kyoto",
+    "store_x_url": "https://x.com/bigdipper_kyoto",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-03T15:50:52Z",
+    "collected_at": "2026-07-03T15:09:50Z",
     "images": [
-      "https://pbs.twimg.com/media/HMSh_31b0AA7GNn?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HMTQED7aIAA7Mig?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMTQTI3bsAAJssy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMTQdkQbsAAOLkT?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HMSh_31b0AA7GNn?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "a21784a348"
+    "image_url": "https://pbs.twimg.com/media/HMTQED7aIAA7Mig?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "35782adb87"
   },
   {
     "id": "75ae59379d6a",
