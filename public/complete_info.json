@@ -3455,6 +3455,72 @@
     "store_id": "cd7a76c703"
   },
   {
+    "id": "957640e34809",
+    "date": "2026-06-26",
+    "time": "19:50",
+    "store": "ヒノマル辰巳店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "251",
+    "text": "こんばんは ただいまの遊技成果  スロット Lミリオンゴッド　251番台　10,100pt L北斗の拳　259番台　9,900pt L炎炎ノ消防隊　279番台　7,900pt  3台とも現在進行形！どこまでいっちゃうのかしら…？  最終結果は明日朝の続報をお待ちください(^^)/",
+    "x_url": "https://x.com/hinomaru_5ii/status/2070459556610683208",
+    "store_handle": "hinomaru_5ii",
+    "store_x_url": "https://x.com/hinomaru_5ii",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T06:53:57Z",
+    "images": [
+      "https://pbs.twimg.com/card_img/2070874174239670272/ACkjCVjL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/card_img/2070874174239670272/ACkjCVjL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "b8be6f3aad"
+  },
+  {
+    "id": "e49b7bbde206",
+    "date": "2026-06-26",
+    "time": "19:50",
+    "store": "ヒノマル辰巳店",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは ただいまの遊技成果  スロット Lミリオンゴッド　251番台　10,100pt L北斗の拳　259番台　9,900pt L炎炎ノ消防隊　279番台　7,900pt  3台とも現在進行形！どこまでいっちゃうのかしら…？  最終結果は明日朝の続報をお待ちください(^^)/",
+    "x_url": "https://x.com/hinomaru_5ii/status/2070459556610683208",
+    "store_handle": "hinomaru_5ii",
+    "store_x_url": "https://x.com/hinomaru_5ii",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T06:53:57Z",
+    "images": [
+      "https://pbs.twimg.com/card_img/2070874174239670272/ACkjCVjL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/card_img/2070874174239670272/ACkjCVjL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_id": "b8be6f3aad"
+  },
+  {
+    "id": "642c7c1f2298",
+    "date": "2026-06-26",
+    "time": "19:50",
+    "store": "ヒノマル辰巳店",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは ただいまの遊技成果  スロット Lミリオンゴッド　251番台　10,100pt L北斗の拳　259番台　9,900pt L炎炎ノ消防隊　279番台　7,900pt  3台とも現在進行形！どこまでいっちゃうのかしら…？  最終結果は明日朝の続報をお待ちください(^^)/",
+    "x_url": "https://x.com/hinomaru_5ii/status/2070459556610683208",
+    "store_handle": "hinomaru_5ii",
+    "store_x_url": "https://x.com/hinomaru_5ii",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-03T06:53:57Z",
+    "images": [
+      "https://pbs.twimg.com/card_img/2070874174239670272/ACkjCVjL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/card_img/2070874174239670272/ACkjCVjL?format=jpg&name=large",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2",
+    "store_id": "b8be6f3aad"
+  },
+  {
     "id": "1c3def2411ac",
     "date": "2026-06-26",
     "time": "19:36",
