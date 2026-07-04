@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:19:12+09:00",
+  "generated_at": "2026-07-04T18:05:27+09:00",
   "monthly": [
     {
       "month": "2026-07",
@@ -150,7 +150,7 @@
     {
       "month": "2026-06",
       "label": "2026年6月",
-      "total_count": 700,
+      "total_count": 702,
       "stores": [
         {
           "rank": 1,
@@ -236,13 +236,13 @@
         },
         {
           "rank": 5,
-          "name": "Lチバリヨ2ZB",
-          "count": 17
+          "name": "スマスロゴッドイーター",
+          "count": 18
         },
         {
           "rank": 6,
-          "name": "スマスロゴッドイーター",
-          "count": 16
+          "name": "Lチバリヨ2ZB",
+          "count": 17
         },
         {
           "rank": 7,
@@ -572,7 +572,7 @@
       {
         "rank": 5,
         "name": "スマスロゴッドイーター",
-        "count": 18
+        "count": 20
       },
       {
         "rank": 6,
@@ -652,7 +652,7 @@
         "count": 4
       }
     ],
-    "total_count": 753
+    "total_count": 755
   },
   "store_complete_counts": {
     "ARROW浪速店": 26,
@@ -752,6 +752,7 @@
     "玉屋∞本店": 2,
     "ワンダーランド武雄店": 2,
     "SUPER COSMO PREMIUM大東店": 2,
+    "GOLD CONCORDE富士": 2,
     "マルハン南宮崎店": 2,
     "アロー志紀店": 2,
     "キコーナ府中": 2,

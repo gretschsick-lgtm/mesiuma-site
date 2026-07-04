@@ -273,6 +273,29 @@
     "store_id": "fe04efdcd0"
   },
   {
+    "id": "4ef1775fbd94",
+    "date": "2026-06-28",
+    "time": "21:26",
+    "store": "GOLD CONCORDE富士",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "5508",
+    "text": "GOLD CONCORDEから速報です！  5508番台 『ＬパチスロゴッドイーターリザレクションＳＬＥＤ』 　 コンプリート機能発動いたしました 先ほどの5507番台と並びでのコンプリート おめでとうございます！  ニックネーム：SATOMI様 一言：『祝!!初コンプリート』  この後も、お時間の許す限り",
+    "x_url": "https://x.com/Concorde_fuji/status/2071208704666656859",
+    "store_handle": "concorde_fuji",
+    "store_x_url": "https://x.com/Concorde_fuji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T08:31:22Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2071208389225668608/img/EqrGCti7tUJ2fwo7.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5pJehaIAAkZGH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2071208389225668608/img/EqrGCti7tUJ2fwo7.jpg?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "5451581d88"
+  },
+  {
     "id": "031613eafed9",
     "date": "2026-06-28",
     "time": "21:25",
@@ -495,6 +518,29 @@
     "image_url": "https://pbs.twimg.com/media/HL5RRKZaYAAFDBp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "3936a4b9d5"
+  },
+  {
+    "id": "292726976dc4",
+    "date": "2026-06-28",
+    "time": "19:43",
+    "store": "GOLD CONCORDE富士",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "5507",
+    "text": "GOLD CONCORDEから速報です！  5507番台 『ＬパチスロゴッドイーターリザレクションＳＬＥＤ』 　 コンプリート機能発動いたしました おめでとうございます！  ニックネーム：ヒデ様 一言：『コンプリート、初です！』  この後のお時間も是非 ゴルコンでお楽しみください",
+    "x_url": "https://x.com/Concorde_fuji/status/2071182725651038394",
+    "store_handle": "concorde_fuji",
+    "store_x_url": "https://x.com/Concorde_fuji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T08:31:22Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2071182067694718976/img/yAtNWbV528NsoX1Q.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL5RN84a8AAlh9R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2071182067694718976/img/yAtNWbV528NsoX1Q.jpg?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "5451581d88"
   },
   {
     "id": "b77c33b073aa",
