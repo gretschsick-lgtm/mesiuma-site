@@ -1,5 +1,51 @@
 [
   {
+    "id": "f4756e265f19",
+    "date": "2026-07-03",
+    "time": "23:17",
+    "store": "メガフェイス960飯塚",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "705",
+    "text": "本日のMVP  スロット705番台 Lソードアート・オンラインⅡ 19,010Pt.  パチンコ239番台 e東京喰種 59,810Pt.  本日SAO2がコンプリート達成です 　おめでとうございます  #メガフェイス960飯塚 #コンプリート",
+    "x_url": "https://x.com/megaface_960/status/2073048474573226245",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T04:50:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMTylkUawAA1de4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMTylkQaMAAhODL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMTylkUawAA1de4?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "4130ca6374"
+  },
+  {
+    "id": "33bdec6f4579",
+    "date": "2026-07-03",
+    "time": "23:17",
+    "store": "メガフェイス960飯塚",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日のMVP  スロット705番台 Lソードアート・オンラインⅡ 19,010Pt.  パチンコ239番台 e東京喰種 59,810Pt.  本日SAO2がコンプリート達成です 　おめでとうございます  #メガフェイス960飯塚 #コンプリート",
+    "x_url": "https://x.com/megaface_960/status/2073048474573226245",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T04:50:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMTylkUawAA1de4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMTylkQaMAAhODL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMTylkUawAA1de4?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "4130ca6374"
+  },
+  {
     "id": "0ed70091b7e5",
     "date": "2026-07-03",
     "time": "23:00",
@@ -110,6 +156,28 @@
     "image_url": "https://pbs.twimg.com/media/HMTbUWsakAAnHGx?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014",
     "store_id": "3917e74a54"
+  },
+  {
+    "id": "c25f48e0cd42",
+    "date": "2026-07-03",
+    "time": "21:26",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "543",
+    "text": "炎炎の消防隊２からコンプリート おめでとうございます  #543番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2073020635564093622",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T04:35:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMTZP2ebkAACiHE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMTZP2ebkAACiHE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "703d5e39e5"
   },
   {
     "id": "671e2eecd3fc",
@@ -963,6 +1031,30 @@
     "image_url": "https://pbs.twimg.com/media/HMIk4nuaoAAuBKl?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "8e44448b4a"
+  },
+  {
+    "id": "f841b2fb32d7",
+    "date": "2026-07-01",
+    "time": "18:04",
+    "store": "天王寺ホール本館",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプ発生  3台目はヴァルヴレイヴ2から コンプされたお客様おめでとうございます  はやいですね 立て続けにもう3台目、、、  本日は大型新台入替初日となっております  ご来店お待ちしております  #大阪 #天王寺 #コンプリート #PR",
+    "x_url": "https://x.com/tennoji_hall/status/2072244913153155479",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T05:05:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMIXZvtbUAA1Bi-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMIXeESbIAAfoPm?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMIXfmNbsAAcSat?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMIXZvtbUAA1Bi-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3936a4b9d5"
   },
   {
     "id": "d21ea1157111",
