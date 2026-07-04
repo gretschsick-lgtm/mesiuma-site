@@ -113,6 +113,28 @@
     "store_id": "fb78bbe137"
   },
   {
+    "id": "851a206af20c",
+    "date": "2026-06-29",
+    "time": "22:33",
+    "store": "マルハン仙台新港店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "615",
+    "text": "6/29(月) 22:00頃 615番台  スマスロ東京喰種 コンプリート機能発動",
+    "x_url": "https://x.com/maruhanshinkou/status/2071587746104356945",
+    "store_handle": "maruhanshinkou",
+    "store_x_url": "https://x.com/maruhanshinkou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T16:02:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL_CEvCbAAARLAQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL_CEvCbAAARLAQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "1da438c5d6"
+  },
+  {
     "id": "57ccb4276232",
     "date": "2026-06-29",
     "time": "22:28",
@@ -538,5 +560,27 @@
     "image_url": "https://pbs.twimg.com/media/HL9hFQabcAAiiCU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "85ed302b85"
+  },
+  {
+    "id": "088d29b33c17",
+    "date": "2026-06-29",
+    "time": "14:15",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "468",
+    "text": "こんにちは メガシティ三島駿東です  e牙狼12　黄金騎士極限 468番台 コンプリートです  おめでとうございます  この後のご来店も お待ちしております",
+    "x_url": "https://x.com/mega_mishima/status/2071462414495953068",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T15:39:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL9NupzbIAE-_kX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL9NupzbIAE-_kX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "1cd7e84e8e"
   }
 ]
