@@ -1,5 +1,29 @@
 [
   {
+    "id": "7c5f766390b8",
+    "date": "2026-07-04",
+    "time": "22:32",
+    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "182",
+    "text": "本日月日［土］   D’ステーション創業月間━━━ 高崎本店ホール速報！！  182番台　牙狼12黄金騎士極限 【創業月間】を盛り上げる 　　　　　渾身のコンプリート  【創業月間】を飾る見事な達成 　　　　　おめでとうございます  ━まもなくD’ステーション創業日━",
+    "x_url": "https://x.com/DTAKASAKIHONTEN/status/2073399597352018275",
+    "store_handle": "dtakasakihonten",
+    "store_x_url": "https://x.com/dtakasakihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T19:18:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYxvGDbcAAZ6B1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMYxwSoa0AAHCY1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMYxxnSaIAA-geA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYxvGDbcAAZ6B1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "2386a7238d"
+  },
+  {
     "id": "00a0a51c8cef",
     "date": "2026-07-04",
     "time": "22:22",
@@ -174,6 +198,30 @@
     "image_url": "https://pbs.twimg.com/media/HMX7wjJacAAQBUs?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000034",
     "store_id": "14d65f4223"
+  },
+  {
+    "id": "ee80504174a4",
+    "date": "2026-07-04",
+    "time": "18:27",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "873",
+    "text": "速報  本日最初のコンプリート達成  873番台 #ヴァルヴレイヴ コンプリート達成  おめでとうございます  次に続くコンプリートは現れるのか",
+    "x_url": "https://x.com/g_nishiurawa/status/2073337934116454874",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-04T19:33:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMX5vG3aAAAxvbH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMX52JbboAAuMH_?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMX528GasAEGtGD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMX5vG3aAAAxvbH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
   },
   {
     "id": "b3cf9e02ee01",
