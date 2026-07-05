@@ -1,5 +1,28 @@
 [
   {
+    "id": "bcb373f1fedf",
+    "date": "2026-07-05",
+    "time": "22:23",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "6308",
+    "text": "◤◢◤◢◤◢◤◢◤◢  コンプリート報告  ◤◢◤◢◤◢◤◢◤◢  本日2台目の コンプリート台はこちら ↓　↓　↓　↓　↓　↓ 『 神 拳 勝  舞!! 』  6308番台 『北斗の拳 転生の章2』 先ほどコンプリート機能が 作動いたしました  我が生涯に一片の悔いなし  明日もご来店お待ちしてます!",
+    "x_url": "https://x.com/Concorde_ichino/status/2073759605533147546",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T17:17:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMd5T5ebAAAX3lL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMMyQ4DbMAAq9sW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMd5T5ebAAAX3lL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "3b33dd116a"
+  },
+  {
     "id": "8cc068887539",
     "date": "2026-07-05",
     "time": "21:16",
@@ -35,13 +58,59 @@
     "store_x_url": "https://x.com/dynam_00397",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-05T17:02:13Z",
+    "collected_at": "2026-07-05T17:46:24Z",
     "images": [
       "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
     "store_id": "d88ff27c89"
+  },
+  {
+    "id": "90c050557e5b",
+    "date": "2026-07-05",
+    "time": "19:29",
+    "store": "マルハン松本店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "477",
+    "text": "本日ＬパチスロゴッドイーターリザレクションＳＬＥＤ   477番台　#コンプリート おめでとうございます！",
+    "x_url": "https://x.com/MTMmaruhan/status/2073715805674701033",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T17:18:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLzu-rmakAASIsR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLzu-prbsAAs-Sg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLzu-rmakAASIsR?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "5b20cfecf8"
+  },
+  {
+    "id": "2ca1dd47bb6f",
+    "date": "2026-07-05",
+    "time": "19:24",
+    "store": "エムディー目黒店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "773",
+    "text": "【コンプリート速報No.53】  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ   773番台 　　　2026.07.05    18:56 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  常連様、なんと一撃でのコンプリート達成  お客様によるとまさかの半分……最高連続……",
+    "x_url": "https://x.com/mdmeguro/status/2073714589754433812",
+    "store_handle": "mdmeguro",
+    "store_x_url": "https://x.com/mdmeguro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T15:46:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdQbJRa8AABLyB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL0xjEmagAA_dX4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdQbJRa8AABLyB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "b5b93b356b"
   },
   {
     "id": "f1c2b40eb30c",
@@ -66,6 +135,30 @@
     "store_id": "cb0be1f296"
   },
   {
+    "id": "00ba769c1fe4",
+    "date": "2026-07-05",
+    "time": "19:09",
+    "store": "プレイランドキャッスル高浜店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "26",
+    "text": "【アソビの殿堂】から 速報です！ な、な、なんと.....！！ 1円パチンコ！ ［26番台］     『e東京喰種』にて        ≪コンプリート機能発動！！≫    おめでとうございます♬      ※開放は明日予定となります。  7月7日新台入替初日朝9時開店予定となります！ 皆様のご来店お待ちしております！！",
+    "x_url": "https://x.com/Hara_Strong/status/2073710752356343877",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T17:16:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdLE0_akAAKguC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdL6REb0AAzrIe?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdL_j-bIAAfKie?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdLE0_akAAKguC?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "4af5cc0d0b"
+  },
+  {
     "id": "d96487a53a83",
     "date": "2026-07-05",
     "time": "18:38",
@@ -86,6 +179,28 @@
     "image_url": "https://pbs.twimg.com/media/HMdE_87awAA5SnX?format=jpg&name=large",
     "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
     "store_id": "14d65f4223"
+  },
+  {
+    "id": "856cfbcc423c",
+    "date": "2026-07-05",
+    "time": "18:26",
+    "store": "SUPER COSMO PREMIUM大東店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【速報】  スマスロ『ヴァルヴレイヴ２』 コンプリート達成 おめでとうございます！  やっぱ調子良いと 出玉速度は凄いんですよね、この台。  それにしてもこのコンプリート画面 本当に祝う気あるのか？  #コンプリート #スマスロ #スーコス大東 #フォローお願いします",
+    "x_url": "https://x.com/SCPdaitou/status/2073700065387106580",
+    "store_handle": "scpdaitou",
+    "store_x_url": "https://x.com/scpdaitou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T17:16:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdBPFpacAAfmA6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdBPFpacAAfmA6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8ea13b6c57"
   },
   {
     "id": "409e3f2ddc54",
@@ -222,6 +337,28 @@
     "image_url": "https://pbs.twimg.com/media/HMYsNrIaIAABTFb?format=jpg&name=large",
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
     "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "a01dd19f3c3e",
+    "date": "2026-07-04",
+    "time": "21:42",
+    "store": "キング観光サウザンド名古屋駅柳橋店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1221",
+    "text": "キング観光 サウザンド名古屋駅柳橋店  1221番台　北斗の拳　転生の章2 コンプリートしました おめでとうございます！  このあともお楽しみください #柳橋店 #コンプリート #北斗転生2",
+    "x_url": "https://x.com/yanakin1515/status/2073386893874774309",
+    "store_handle": "yanakin1515",
+    "store_x_url": "https://x.com/yanakin1515",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T15:46:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYmYY2bQAAvaqr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYmYY2bQAAvaqr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "3f8923222d"
   },
   {
     "id": "5e6884d0a855",
@@ -577,6 +714,28 @@
     "image_url": "https://pbs.twimg.com/media/HMXJF7HaEAEHYpJ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "b42f5fe289"
+  },
+  {
+    "id": "ec9d808d6bd3",
+    "date": "2026-07-04",
+    "time": "14:40",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "675",
+    "text": "コンプリート機能発動 先ほど、675番台   スマスロ革命機ヴァルヴレイヴ２ にてコンプリート機能発動！！ 明日開放予定となります。 この後のお時間も #キャッスル春日井 へ   ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2073280828466147589",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T16:16:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMXF38RaUAAysxN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMXF38RaUAAysxN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
   },
   {
     "id": "b1fc6d64f806",
@@ -1089,12 +1248,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-05T05:26:10Z",
     "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
-    "store_id": "d473c469be",
-    "image_url": "https://pbs.twimg.com/media/HMOaz0fa0AAOTIz.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HMOaz0fa0AAOTIz.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMOaz0fa0AAOTIz?format=jpg&name=large"
-    ]
+    "store_id": "d473c469be"
   },
   {
     "id": "5d8716415afc",
