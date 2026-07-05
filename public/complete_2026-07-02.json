@@ -63,6 +63,28 @@
     "store_id": "d473c469be"
   },
   {
+    "id": "5d8716415afc",
+    "date": "2026-07-02",
+    "time": "22:06",
+    "store": "SuperD'station39福重店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "859",
+    "text": "創業月間1発目 859番台　チバリヨ2から #コンプリート　達成です おめでとうございます",
+    "x_url": "https://x.com/sd_fukushige/status/2072668147459719273",
+    "store_handle": "sd_fukushige",
+    "store_x_url": "https://x.com/sd_fukushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T07:05:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMOYQPgacAAKZrN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMOYQPgacAAKZrN?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "ad0ceba11b"
+  },
+  {
     "id": "0df5d08b9a79",
     "date": "2026-07-02",
     "time": "21:31",
