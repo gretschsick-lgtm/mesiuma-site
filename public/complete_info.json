@@ -1,5 +1,27 @@
 [
   {
+    "id": "d96487a53a83",
+    "date": "2026-07-05",
+    "time": "18:38",
+    "store": "ライブガーデン上尾店",
+    "machine": "e東京リベンジャーズ",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは  4番台 【e東京リベンジャーズ】にて コンプリート達成です おめでとうございます  この後のお時間も ご来店お待ちしております  #ライブガーデン上尾 #パチンコ #コンプリート #東リベ",
+    "x_url": "https://x.com/Lageo666/status/2073703148209008838",
+    "store_handle": "lageo666",
+    "store_x_url": "https://x.com/lageo666",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T12:25:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdE_87awAA5SnX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdE_87awAA5SnX?format=jpg&name=large",
+    "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
+    "store_id": "14d65f4223"
+  },
+  {
     "id": "7c5f766390b8",
     "date": "2026-07-04",
     "time": "22:32",
@@ -933,12 +955,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-05T05:26:10Z",
     "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
-    "store_id": "d473c469be",
-    "image_url": "https://pbs.twimg.com/media/HMOaz0fa0AAOTIz.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HMOaz0fa0AAOTIz.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMOaz0fa0AAOTIz?format=jpg&name=large"
-    ]
+    "store_id": "d473c469be"
   },
   {
     "id": "5d8716415afc",

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-05T20:40:20+09:00",
+  "generated_at": "2026-07-05T21:58:01+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 85,
+      "total_count": 86,
       "stores": [
         {
           "rank": 1,
@@ -20,51 +20,51 @@
         },
         {
           "rank": 3,
+          "name": "ライブガーデン上尾店",
+          "count": 2,
+          "x_url": "https://x.com/lageo666"
+        },
+        {
+          "rank": 4,
           "name": "キクヤ春日井店",
           "count": 2,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "SuperD'station東金店",
           "count": 2,
           "x_url": "https://x.com/sd_tougane"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "楽園池袋店ゲートウェイ",
           "count": 2,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "新ガーデン西浦和",
           "count": 2,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "玉屋∞本店",
           "count": 2,
           "x_url": "https://x.com/yonepee2288"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ダイナム長野上田店",
           "count": 2,
           "x_url": "https://x.com/tencho_szk"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "メガフェイス960飯塚",
           "count": 2,
           "x_url": "https://x.com/megaface_960"
-        },
-        {
-          "rank": 10,
-          "name": "プレイランドキャッスル高浜店",
-          "count": 2,
-          "x_url": "https://x.com/hara_strong"
         }
       ],
       "slot_machines": [
@@ -152,11 +152,16 @@
         },
         {
           "rank": 7,
-          "name": "e女神のカフェテラス",
+          "name": "e東京リベンジャーズ",
           "count": 1
         },
         {
           "rank": 8,
+          "name": "e女神のカフェテラス",
+          "count": 1
+        },
+        {
+          "rank": 9,
           "name": "eフィーバーキン肉マン",
           "count": 1
         }
@@ -667,7 +672,7 @@
         "count": 4
       }
     ],
-    "total_count": 775
+    "total_count": 776
   },
   "store_complete_counts": {
     "ARROW浪速店": 26,
@@ -739,6 +744,7 @@
     "楽園蒲田店": 4,
     "スタジアム2001八女店": 4,
     "マルハン小山千駄塚店": 4,
+    "ライブガーデン上尾店": 3,
     "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店": 3,
     "ヴィーナスギャラリー清川店": 3,
     "玉屋∞本店": 3,
@@ -762,7 +768,6 @@
     "テキサス白島店": 3,
     "ピーアーク竹の塚": 3,
     "ウイングあすと長町店": 2,
-    "ライブガーデン上尾店": 2,
     "ミクちゃんガイア尼崎店": 2,
     "ＢＩＧディッパー京都駅前店": 2,
     "新！ガーデン川口安行": 2,
