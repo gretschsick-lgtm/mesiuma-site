@@ -156,6 +156,28 @@
     "store_id": "ae3ae0c75f"
   },
   {
+    "id": "5f8801731f80",
+    "date": "2026-07-04",
+    "time": "20:24",
+    "store": "フェイス850佐賀",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "1050",
+    "text": "【速報】 本日台目のコンプリート達成です  1050番台 #キン肉マン で　#コンプリート   ご遊技されているお客様、本当におめでとうございます #FACE850佐賀　まだまだ盛り上がっていきますよー(〃>▽<〃)/*",
+    "x_url": "https://x.com/face_850/status/2073367368143880546",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T15:30:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYUoOibkAANujw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYUoOibkAANujw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "53cfcde9a2"
+  },
+  {
     "id": "6c07f87c2856",
     "date": "2026-07-04",
     "time": "20:20",
