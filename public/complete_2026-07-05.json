@@ -1,5 +1,28 @@
 [
   {
+    "id": "90c050557e5b",
+    "date": "2026-07-05",
+    "time": "19:29",
+    "store": "マルハン松本店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "477",
+    "text": "本日ＬパチスロゴッドイーターリザレクションＳＬＥＤ   477番台　#コンプリート おめでとうございます！",
+    "x_url": "https://x.com/MTMmaruhan/status/2073715805674701033",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T14:30:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HLzu-rmakAASIsR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HLzu-prbsAAs-Sg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HLzu-rmakAASIsR?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "5b20cfecf8"
+  },
+  {
     "id": "d96487a53a83",
     "date": "2026-07-05",
     "time": "18:38",
