@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T00:37:08+09:00",
+  "generated_at": "2026-07-06T01:24:35+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 91,
+      "total_count": 94,
       "stores": [
         {
           "rank": 1,
@@ -20,63 +20,63 @@
         },
         {
           "rank": 3,
+          "name": "プレイランドキャッスル春日井店",
+          "count": 3,
+          "x_url": "https://x.com/castle_kasugai"
+        },
+        {
+          "rank": 4,
           "name": "プレイランドキャッスル熱田店",
           "count": 2,
           "x_url": "https://x.com/castleatsuta"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "ライブガーデン上尾店",
           "count": 2,
           "x_url": "https://x.com/lageo666"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "GOLD CONCORDE富士",
           "count": 2,
           "x_url": "https://x.com/Concorde_fuji"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "キクヤ春日井店",
           "count": 2,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "SuperD'station東金店",
           "count": 2,
           "x_url": "https://x.com/sd_tougane"
         },
         {
-          "rank": 8,
-          "name": "フェイス850佐賀",
-          "count": 2,
-          "x_url": "https://x.com/face_850"
-        },
-        {
           "rank": 9,
-          "name": "楽園池袋店ゲートウェイ",
+          "name": "キング観光サウザンド名古屋駅柳橋店",
           "count": 2,
-          "x_url": "https://x.com/rakuenikebukuro"
+          "x_url": "https://x.com/yanakin1515"
         },
         {
           "rank": 10,
-          "name": "新ガーデン西浦和",
+          "name": "フェイス850佐賀",
           "count": 2,
-          "x_url": "https://x.com/g_nishiurawa"
+          "x_url": "https://x.com/face_850"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 22
+          "count": 24
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 6
+          "count": 7
         },
         {
           "rank": 3,
@@ -572,12 +572,12 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 169
+        "count": 171
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 48
+        "count": 49
       },
       {
         "rank": 3,
@@ -672,7 +672,7 @@
         "count": 4
       }
     ],
-    "total_count": 765
+    "total_count": 768
   },
   "store_complete_counts": {
     "ARROW浪速店": 26,
@@ -686,12 +686,12 @@
     "マルハン川越店": 14,
     "メガフェイス1300淀川": 14,
     "サガちゃんPARK": 13,
+    "プレイランドキャッスル春日井店": 13,
     "FACE1300小倉南店": 13,
     "楽園大宮店": 13,
     "ニューアサヒ長野青木島店": 13,
     "メガフェイス1450本山": 13,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 12,
-    "プレイランドキャッスル春日井店": 12,
     "マルハン松本店": 11,
     "プレイランドキャッスル熱田店": 10,
     "ダイナム長野上田店": 10,
@@ -699,6 +699,7 @@
     "メガフェイス1070菊陽": 9,
     "SPACE(スペース444＆666)": 9,
     "SUPER CONCORDE": 9,
+    "エムディー目黒店": 8,
     "キャッスル天白店": 8,
     "SuperD'station東金店": 7,
     "イーグルアールワン南8条店": 7,
@@ -707,10 +708,10 @@
     "パラッツォ船橋店": 7,
     "メガフェイス930朝倉": 7,
     "ダイナム金町南口店": 7,
-    "エムディー目黒店": 7,
     "マルハン佐賀店実績": 7,
     "マルハンメガシティ柏": 7,
     "パチンコの玉屋∞本店": 7,
+    "キング観光サウザンド名古屋駅柳橋店": 6,
     "フェイス850佐賀": 6,
     "メガフェイス960飯塚": 6,
     "マルハン仙台名坊店": 6,
@@ -721,7 +722,6 @@
     "SUPER CONCORDE 市野": 6,
     "プレイランドキャッスル高浜店": 5,
     "パラッツォ鳩ヶ谷店": 5,
-    "キング観光サウザンド名古屋駅柳橋店": 5,
     "T-MAX新栄店": 5,
     "プレイランドキャッスル東郷店": 5,
     "やすだ八潮店": 5,
