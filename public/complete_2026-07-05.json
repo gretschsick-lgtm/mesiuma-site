@@ -22,27 +22,26 @@
     "store_id": "771f030669"
   },
   {
-    "id": "2ca1dd47bb6f",
+    "id": "5b915d3ee121",
     "date": "2026-07-05",
-    "time": "19:24",
-    "store": "エムディー目黒店",
-    "machine": "L革命機ヴァルヴレイヴ2",
+    "time": "20:58",
+    "store": "ダイナム群馬藤岡店",
+    "machine": "チバリヨ2",
     "machine_type": "slot",
-    "slot_number": "773",
-    "text": "【コンプリート速報No.53】  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ   773番台 　　　2026.07.05    18:56 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  常連様、なんと一撃でのコンプリート達成  お客様によるとまさかの半分……最高連続……",
-    "x_url": "https://x.com/mdmeguro/status/2073714589754433812",
-    "store_handle": "mdmeguro",
-    "store_x_url": "https://x.com/mdmeguro",
+    "slot_number": "428",
+    "text": "本日さきほど 428番台 Lチバリヨ2 コンプリート達成 キレイな右肩上がりグラフになっていました コンプリートされたお客様、おめでとうございます #ダイナム",
+    "x_url": "https://x.com/dynam_00397/status/2073738335672275433",
+    "store_handle": "dynam_00397",
+    "store_x_url": "https://x.com/dynam_00397",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-05T15:46:30Z",
+    "collected_at": "2026-07-05T17:02:13Z",
     "images": [
-      "https://pbs.twimg.com/media/HMdQbJRa8AABLyB?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HL0xjEmagAA_dX4?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HMdQbJRa8AABLyB?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "b5b93b356b"
+    "image_url": "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "d88ff27c89"
   },
   {
     "id": "f1c2b40eb30c",
