@@ -178,6 +178,72 @@
     "store_id": "0c64b81c6c"
   },
   {
+    "id": "58e32801c416",
+    "date": "2026-07-04",
+    "time": "19:59",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "391",
+    "text": "千葉最大1409台の出玉情報  本日4台目のコンプリート発動 『391番台 e東京喰種』 打っていたお客様おめでとうございます  本日のコンプリート機種 ①e牙狼 ②e牙狼 ③L攻殻機動隊 ④e東京喰種  #コンプリート４台目 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2073361082304131444",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T11:10:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYO6tEaMAAyguq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYO6tEaMAAyguq?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "e744c71a3d"
+  },
+  {
+    "id": "4f830c9d32e8",
+    "date": "2026-07-04",
+    "time": "19:59",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "千葉最大1409台の出玉情報  本日4台目のコンプリート発動 『391番台 e東京喰種』 打っていたお客様おめでとうございます  本日のコンプリート機種 ①e牙狼 ②e牙狼 ③L攻殻機動隊 ④e東京喰種  #コンプリート４台目 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2073361082304131444",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T11:10:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYO6tEaMAAyguq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYO6tEaMAAyguq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e744c71a3d"
+  },
+  {
+    "id": "6f79f33a8cd3",
+    "date": "2026-07-04",
+    "time": "19:59",
+    "store": "ビックマーチ東習志野店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "千葉最大1409台の出玉情報  本日4台目のコンプリート発動 『391番台 e東京喰種』 打っていたお客様おめでとうございます  本日のコンプリート機種 ①e牙狼 ②e牙狼 ③L攻殻機動隊 ④e東京喰種  #コンプリート４台目 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2073361082304131444",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-05T11:10:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYO6tEaMAAyguq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYO6tEaMAAyguq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "e744c71a3d"
+  },
+  {
     "id": "906c8f6240a9",
     "date": "2026-07-04",
     "time": "19:11",

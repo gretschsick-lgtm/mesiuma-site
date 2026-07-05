@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-05T18:22:15+09:00",
+  "generated_at": "2026-07-05T20:40:20+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 82,
+      "total_count": 85,
       "stores": [
         {
           "rank": 1,
@@ -14,57 +14,57 @@
         },
         {
           "rank": 2,
+          "name": "ビックマーチ東習志野店",
+          "count": 3,
+          "x_url": "https://x.com/joypackx"
+        },
+        {
+          "rank": 3,
           "name": "キクヤ春日井店",
           "count": 2,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "SuperD'station東金店",
           "count": 2,
           "x_url": "https://x.com/sd_tougane"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "楽園池袋店ゲートウェイ",
           "count": 2,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "新ガーデン西浦和",
           "count": 2,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "玉屋∞本店",
           "count": 2,
           "x_url": "https://x.com/yonepee2288"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ダイナム長野上田店",
           "count": 2,
           "x_url": "https://x.com/tencho_szk"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "メガフェイス960飯塚",
           "count": 2,
           "x_url": "https://x.com/megaface_960"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "プレイランドキャッスル高浜店",
           "count": 2,
           "x_url": "https://x.com/hara_strong"
-        },
-        {
-          "rank": 10,
-          "name": "FACE1300小倉南店",
-          "count": 2,
-          "x_url": "https://x.com/face_1300"
         }
       ],
       "slot_machines": [
@@ -75,12 +75,12 @@
         },
         {
           "rank": 2,
-          "name": "スマスロ北斗の拳転生の章2",
-          "count": 4
+          "name": "スマスロ攻殻機動隊",
+          "count": 5
         },
         {
           "rank": 3,
-          "name": "スマスロ攻殻機動隊",
+          "name": "スマスロ北斗の拳転生の章2",
           "count": 4
         },
         {
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12",
-          "count": 10
+          "count": 11
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 4,
@@ -510,15 +510,15 @@
       },
       {
         "rank": 2,
-        "name": "テキサス小倉店",
-        "count": 18,
-        "x_url": "https://x.com/texas_kokura"
+        "name": "ビックマーチ東習志野店",
+        "count": 21,
+        "x_url": "https://x.com/joypackx"
       },
       {
         "rank": 3,
-        "name": "ビックマーチ東習志野店",
+        "name": "テキサス小倉店",
         "count": 18,
-        "x_url": "https://x.com/joypackx"
+        "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 4,
@@ -602,7 +602,7 @@
       {
         "rank": 8,
         "name": "スマスロ攻殻機動隊",
-        "count": 12
+        "count": 13
       },
       {
         "rank": 9,
@@ -619,7 +619,7 @@
       {
         "rank": 1,
         "name": "e牙狼12",
-        "count": 95
+        "count": 96
       },
       {
         "rank": 2,
@@ -629,7 +629,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 39
+        "count": 40
       },
       {
         "rank": 4,
@@ -667,12 +667,12 @@
         "count": 4
       }
     ],
-    "total_count": 772
+    "total_count": 775
   },
   "store_complete_counts": {
     "ARROW浪速店": 26,
+    "ビックマーチ東習志野店": 21,
     "テキサス小倉店": 18,
-    "ビックマーチ東習志野店": 18,
     "新ガーデン西浦和": 16,
     "キクヤ春日井店": 15,
     "楽園池袋店ゲートウェイ": 15,
