@@ -68,6 +68,50 @@
     "store_id": "975ee0f886"
   },
   {
+    "id": "a2023ca659f5",
+    "date": "2026-07-05",
+    "time": "21:33",
+    "store": "GOGOアリーナ天神",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ㅤ    ㅤ   ㅤ ㅤ   本日7月5日  　　　    チバリヨ2　1番台   　　 　　　コンプリート達成  　　おめでとうございます",
+    "x_url": "https://x.com/gogoarenatenjin/status/2073747169040113676",
+    "store_handle": "gogoarenatenjin",
+    "store_x_url": "https://x.com/gogoarenatenjin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T14:13:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMduDbjaYAAiBLu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMduDbjaYAAiBLu?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "c8ce6d1db9"
+  },
+  {
+    "id": "3ea7fcf5e7aa",
+    "date": "2026-07-05",
+    "time": "21:31",
+    "store": "GOGOアリーナ天神",
+    "machine": "L ToLOVEるダークネス",
+    "machine_type": "slot",
+    "slot_number": "348",
+    "text": "ㅤ    ㅤ   ㅤ ㅤ  本日7月5日  　ToLOVEるダークネス　348番台 　　 　　　コンプリート達成  　　おめでとうございます",
+    "x_url": "https://x.com/gogoarenatenjin/status/2073746654738645470",
+    "store_handle": "gogoarenatenjin",
+    "store_x_url": "https://x.com/gogoarenatenjin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T14:13:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdtlllaAAAUqxi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdtlllaAAAUqxi?format=jpg&name=large",
+    "machine_id": "17984efc-a25c-4c14-9626-4ee87ea10822",
+    "store_id": "c8ce6d1db9"
+  },
+  {
     "id": "099c52af531d",
     "date": "2026-07-05",
     "time": "21:23",
