@@ -23,6 +23,28 @@
     "store_id": "3b33dd116a"
   },
   {
+    "id": "e675012c6909",
+    "date": "2026-07-05",
+    "time": "21:53",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "444",
+    "text": "コンプリート速報 ≪e牙狼12黄金騎士極限≫ 444番台のお客様 コンプリート、おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2073752171129274407",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T00:14:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdylIgasAAJlH7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdylIgasAAJlH7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "099c52af531d",
     "date": "2026-07-05",
     "time": "21:23",
@@ -109,6 +131,28 @@
     "image_url": "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
     "store_id": "d88ff27c89"
+  },
+  {
+    "id": "9bb01294474f",
+    "date": "2026-07-05",
+    "time": "19:55",
+    "store": "サガちゃんPARK",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "2112",
+    "text": "ヤッホー   Ｌスマスロ攻殻機動隊ＺＳ 2112番台     コンプリート   おめでとうございますっ",
+    "x_url": "https://x.com/sagachan_park/status/2073722507350434275",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T00:13:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdXnDmakAAMERB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdXnDmakAAMERB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "ee5a196fc0"
   },
   {
     "id": "90c050557e5b",

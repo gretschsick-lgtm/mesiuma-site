@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-06T08:43:32+09:00",
+  "generated_at": "2026-07-06T09:48:42+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 103,
+      "total_count": 106,
       "stores": [
         {
           "rank": 1,
@@ -50,28 +50,28 @@
         },
         {
           "rank": 8,
+          "name": "サガちゃんPARK",
+          "count": 2,
+          "x_url": "https://x.com/sagachan_park"
+        },
+        {
+          "rank": 9,
           "name": "プレイランドキャッスル熱田店",
           "count": 2,
           "x_url": "https://x.com/castleatsuta"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "ライブガーデン上尾店",
           "count": 2,
           "x_url": "https://x.com/lageo666"
-        },
-        {
-          "rank": 10,
-          "name": "GOLD CONCORDE富士",
-          "count": 2,
-          "x_url": "https://x.com/Concorde_fuji"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 28
+          "count": 29
         },
         {
           "rank": 2,
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "スマスロ攻殻機動隊",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 4,
@@ -128,7 +128,7 @@
         {
           "rank": 2,
           "name": "e牙狼12黄金騎士極限",
-          "count": 9
+          "count": 10
         },
         {
           "rank": 3,
@@ -557,22 +557,22 @@
       },
       {
         "rank": 9,
-        "name": "キクヤ春日井店",
+        "name": "サガちゃんPARK",
         "count": 14,
-        "x_url": "https://x.com/315kasugai"
+        "x_url": "https://x.com/sagachan_park"
       },
       {
         "rank": 10,
-        "name": "マルハン川越店",
+        "name": "キクヤ春日井店",
         "count": 14,
-        "x_url": "https://x.com/smaru_kawagoe"
+        "x_url": "https://x.com/315kasugai"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 175
+        "count": 176
       },
       {
         "rank": 2,
@@ -607,7 +607,7 @@
       {
         "rank": 8,
         "name": "スマスロ攻殻機動隊",
-        "count": 13
+        "count": 14
       },
       {
         "rank": 9,
@@ -629,7 +629,7 @@
       {
         "rank": 2,
         "name": "e牙狼12黄金騎士極限",
-        "count": 77
+        "count": 78
       },
       {
         "rank": 3,
@@ -672,7 +672,7 @@
         "count": 4
       }
     ],
-    "total_count": 777
+    "total_count": 780
   },
   "store_complete_counts": {
     "ARROW浪速店": 26,
@@ -683,10 +683,10 @@
     "マルハンメガシティ三島駿東": 15,
     "キング観光サウザンド栄若宮大通店": 14,
     "メガフェイス1450本山": 14,
+    "サガちゃんPARK": 14,
     "キクヤ春日井店": 14,
     "マルハン川越店": 14,
     "メガフェイス1300淀川": 14,
-    "サガちゃんPARK": 13,
     "プレイランドキャッスル春日井店": 13,
     "FACE1300小倉南店": 13,
     "楽園大宮店": 13,
@@ -696,9 +696,10 @@
     "プレイランドキャッスル熱田店": 10,
     "ダイナム長野上田店": 10,
     "キクヤ穂積店": 10,
-    "メガフェイス1070菊陽": 9,
+    "メガフェイス1070菊陽": 10,
     "SPACE(スペース444＆666)": 9,
     "SUPER CONCORDE": 9,
+    "パチンコの玉屋∞本店": 8,
     "イーグルアールワン南8条店": 8,
     "エムディー目黒店": 8,
     "キャッスル天白店": 8,
@@ -711,7 +712,6 @@
     "ダイナム金町南口店": 7,
     "マルハン佐賀店実績": 7,
     "マルハンメガシティ柏": 7,
-    "パチンコの玉屋∞本店": 7,
     "プレイランドキャッスル高浜店": 6,
     "キング観光サウザンド名古屋駅柳橋店": 6,
     "フェイス850佐賀": 6,

@@ -335,6 +335,29 @@
     "store_id": "8e44448b4a"
   },
   {
+    "id": "2ef6039d45b6",
+    "date": "2026-07-01",
+    "time": "18:24",
+    "store": "メガフェイス1070菊陽",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "866",
+    "text": "866番台 Lヴァルヴレイヴ2 コンプリート達成 #7月1日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2072250064597397769",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T00:14:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMIcceMaUAA7N31?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMHu4KIawAAiiiC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMIcceMaUAA7N31?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "f841b2fb32d7",
     "date": "2026-07-01",
     "time": "18:04",
