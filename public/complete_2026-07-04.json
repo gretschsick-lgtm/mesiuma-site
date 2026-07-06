@@ -268,6 +268,28 @@
     "store_id": "0c64b81c6c"
   },
   {
+    "id": "7aaa85a83b95",
+    "date": "2026-07-04",
+    "time": "20:05",
+    "store": "ワンダーランド1188鹿児島新栄店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "1416",
+    "text": "先程インカムで コンプリート発動の報告有  e東京喰種1416番台 流石でｺﾞﾜｽ",
+    "x_url": "https://x.com/wl_kshinei/status/2073362671534305722",
+    "store_handle": "wl_kshinei",
+    "store_x_url": "https://x.com/wl_kshinei",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T16:14:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMYPkEEbQAA78FJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMYPkEEbQAA78FJ?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "3b4b2e74d4"
+  },
+  {
     "id": "58e32801c416",
     "date": "2026-07-04",
     "time": "19:59",
