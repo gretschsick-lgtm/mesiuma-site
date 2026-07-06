@@ -426,6 +426,28 @@
     "store_id": "53cfcde9a2"
   },
   {
+    "id": "f00abd42dbb3",
+    "date": "2026-07-01",
+    "time": "16:20",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "336",
+    "text": "こんばんは メガシティ三島駿東です  ｅ東京喰種 336番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2072218647628546533",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T19:40:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMH_DtCagAAznTg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMH_DtCagAAznTg?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "28f717a84072",
     "date": "2026-07-01",
     "time": "14:55",

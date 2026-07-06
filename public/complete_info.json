@@ -1,5 +1,27 @@
 [
   {
+    "id": "4ec3986a25bb",
+    "date": "2026-07-06",
+    "time": "21:13",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "696",
+    "text": "本日も出ました  696番台  ヴヴヴ2にてコンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/eagle_c_tencho/status/2074104420418408485",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-06T19:50:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMiy-gZbYAAOV-a?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMiy-gZbYAAOV-a?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "9ff188237d"
+  },
+  {
     "id": "1702cead4a5f",
     "date": "2026-07-06",
     "time": "20:54",
@@ -88,6 +110,28 @@
     "image_url": "https://pbs.twimg.com/media/HMiXWhCaQAAVIgQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031",
     "store_id": "b06d0873ca"
+  },
+  {
+    "id": "5eb6e1fc3dab",
+    "date": "2026-07-06",
+    "time": "19:10",
+    "store": "SuperD'station東金店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは スーパーD'ステーション東金店です  本日も出ました e牙狼12黄金騎士極限 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後もお時間の許します限り ごゆっくりお楽しみ下さいませ  #千葉 #東金 #Dステ #牙狼 #スマパチ",
+    "x_url": "https://x.com/sd_tougane/status/2074073531789476106",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T19:40:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMiW4mya8AEGscw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMiW4mya8AEGscw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "7f6d7ae0f2"
   },
   {
     "id": "0f418e05814d",
@@ -382,6 +426,29 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "ab43402de49f",
+    "date": "2026-07-05",
+    "time": "19:35",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "485",
+    "text": "コンプリート速報 豊崎Ⅱ　485番台 キン肉マンがコンプリーーート！！  本日までのオススメ機種で最終日に・・・ completeおめでとうございます #メガフェイス豊崎 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2073717514765537613",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T20:11:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdSQzFbUAAdtgy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdSSdGaoAAjUxc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdSQzFbUAAdtgy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "4ae2267ab826",
     "date": "2026-07-05",
     "time": "19:33",
@@ -494,6 +561,30 @@
     "image_url": "https://pbs.twimg.com/media/HMdLE0_akAAKguC?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "4af5cc0d0b"
+  },
+  {
+    "id": "144e9dc000e1",
+    "date": "2026-07-05",
+    "time": "19:02",
+    "store": "天王寺ホール本館",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日もコンプリート達成  e東京喰種からコンプリート コンプされたお客様おめでとうございます  ここ最近はパチンコのコンプが続きますね  明日は最新台一挙全台開放日！！！！ 新台打つなら是非テンホで！！！！！  明日のご来店もお待ちしております  #大阪 #天王寺 #コンプリート #PR",
+    "x_url": "https://x.com/tennoji_hall/status/2073709139231191183",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T20:10:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdLO6SbIAAg2uu?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdLSo7boAE_-w9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdLWYtbkAAjfXz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdLO6SbIAAg2uu?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "3936a4b9d5"
   },
   {
     "id": "d96487a53a83",
@@ -2719,6 +2810,28 @@
     "image_url": "https://pbs.twimg.com/media/HMIFZYsaEAEK9vk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "53cfcde9a2"
+  },
+  {
+    "id": "f00abd42dbb3",
+    "date": "2026-07-01",
+    "time": "16:20",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "336",
+    "text": "こんばんは メガシティ三島駿東です  ｅ東京喰種 336番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2072218647628546533",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T19:40:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMH_DtCagAAznTg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMH_DtCagAAznTg?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "28f717a84072",
