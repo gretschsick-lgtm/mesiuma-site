@@ -50,5 +50,6 @@ jobs:
             echo "変更なし — スキップ"
           else
             git commit -m "chore: ブログ記事を自動修正・画像補完 [skip ci]"
+            git pull --rebase origin main
             git push
           fi
