@@ -45,6 +45,28 @@
     "store_id": "de68290eab"
   },
   {
+    "id": "b0c3241fb69e",
+    "date": "2026-07-05",
+    "time": "21:39",
+    "store": "メガフェイス1250",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "375",
+    "text": "コンプリート速報  只今のお時間 革命機ヴァルヴレイヴ2　375番台 コンプリート達成です  おめでとうございます  #コンプリート　#VVV2",
+    "x_url": "https://x.com/megaface_1250/status/2073748482230546482",
+    "store_handle": "megaface_1250",
+    "store_x_url": "https://x.com/megaface_1250",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T23:12:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdvKHxaYAAdkJy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdvKHxaYAAdkJy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "0d4ae9709d"
+  },
+  {
     "id": "593a506c5d01",
     "date": "2026-07-05",
     "time": "21:33",
