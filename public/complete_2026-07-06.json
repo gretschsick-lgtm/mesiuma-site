@@ -45,28 +45,6 @@
     "store_id": "5b20cfecf8"
   },
   {
-    "id": "18f158929591",
-    "date": "2026-07-06",
-    "time": "20:31",
-    "store": "M&K岡崎店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "1211",
-    "text": "1211番台 コンプリートおめでとうございます #Ｌヴァルヴレイヴ2 #コンプリート #mk岡崎 #今週のおすすめ機種",
-    "x_url": "https://x.com/MKokazaki/status/2074093962084925859",
-    "store_handle": "mkokazaki",
-    "store_x_url": "https://x.com/mkokazaki",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-06T17:04:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMipduFakAEE7ao?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMipduFakAEE7ao?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "341c9ef1a4"
-  },
-  {
     "id": "d5061e1ef736",
     "date": "2026-07-06",
     "time": "19:38",
@@ -112,25 +90,51 @@
     "store_id": "b06d0873ca"
   },
   {
-    "id": "ebc786cd1c4c",
+    "id": "0f418e05814d",
     "date": "2026-07-06",
-    "time": "17:36",
-    "store": "M&K岡崎店",
-    "machine": "e牙狼12",
+    "time": "00:53",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
     "machine_type": "pachinko",
-    "slot_number": "163",
-    "text": "163番台 コンプリートおめでとうございます #ｅ牙狼１２ #コンプリート #mk岡崎 #今週のおすすめ機種",
-    "x_url": "https://x.com/MKokazaki/status/2074049817886810327",
-    "store_handle": "mkokazaki",
-    "store_x_url": "https://x.com/mkokazaki",
+    "slot_number": "492",
+    "text": "本日、  e牙狼12黄金騎士極限 　492番台、574番台  Lパチスロ 革命機ヴァルヴレイヴ2　929番台  コンプリート達成おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2074159760740643273",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-06T17:04:28Z",
+    "collected_at": "2026-07-06T17:36:26Z",
     "images": [
-      "https://pbs.twimg.com/media/HMiBT5KbsAAtHJZ?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HMjlN89bYAAy2Gm?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMjlOaKaAAALvFt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMjlPFkaQAAJVS1?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HMiBT5KbsAAtHJZ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "341c9ef1a4"
+    "image_url": "https://pbs.twimg.com/media/HMjlN89bYAAy2Gm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "e2b023b441fd",
+    "date": "2026-07-06",
+    "time": "00:53",
+    "store": "ARROW浪速店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日、  e牙狼12黄金騎士極限 　492番台、574番台  Lパチスロ 革命機ヴァルヴレイヴ2　929番台  コンプリート達成おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2074159760740643273",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-06T17:36:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMjlN89bYAAy2Gm?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMjlOaKaAAALvFt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMjlPFkaQAAJVS1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMjlN89bYAAy2Gm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "dd02f6f68a"
   }
 ]
