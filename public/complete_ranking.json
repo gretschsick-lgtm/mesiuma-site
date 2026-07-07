@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-07-07T09:49:57+09:00",
+  "generated_at": "2026-07-07T14:31:30+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 136,
+      "total_count": 141,
       "stores": [
         {
           "rank": 1,
+          "name": "テキサス白島店",
+          "count": 6,
+          "x_url": "https://x.com/texashakushima"
+        },
+        {
+          "rank": 2,
           "name": "パラッツォ船橋店",
           "count": 6,
           "x_url": "https://x.com/palazzo_funa"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "新ガーデン西浦和",
           "count": 5,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "キクヤ春日井店",
           "count": 4,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "ビックマーチ東習志野店",
           "count": 4,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "イーグルアールワン南8条店",
           "count": 3,
           "x_url": "https://x.com/eagle_c_tencho"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "SuperD'station東金店",
           "count": 3,
           "x_url": "https://x.com/sd_tougane"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ARROW浪速店",
           "count": 3,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "メガフェイス1450本山",
           "count": 3,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "楽園池袋店ゲートウェイ",
           "count": 3,
           "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
-          "rank": 10,
-          "name": "プレイランドキャッスル高浜店",
-          "count": 3,
-          "x_url": "https://x.com/hara_strong"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 39
+          "count": 40
         },
         {
           "rank": 2,
@@ -85,22 +85,22 @@
         },
         {
           "rank": 4,
-          "name": "Lチバリヨ2ZB",
+          "name": "スロット ソードアート・オンラインⅡ",
           "count": 4
         },
         {
           "rank": 5,
+          "name": "Lチバリヨ2ZB",
+          "count": 4
+        },
+        {
+          "rank": 6,
           "name": "スマスロゴッドイーター",
           "count": 3
         },
         {
-          "rank": 6,
-          "name": "Lミリオンゴッド神々の軌跡",
-          "count": 3
-        },
-        {
           "rank": 7,
-          "name": "スロット ソードアート・オンラインⅡ",
+          "name": "Lミリオンゴッド神々の軌跡",
           "count": 3
         },
         {
@@ -111,11 +111,11 @@
         {
           "rank": 9,
           "name": "L沖ドキDUO アンコール",
-          "count": 1
+          "count": 2
         },
         {
           "rank": 10,
-          "name": "L ToLOVEるダークネス",
+          "name": "L東京喰種",
           "count": 1
         }
       ],
@@ -572,7 +572,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 167
+        "count": 168
       },
       {
         "rank": 2,
@@ -587,7 +587,7 @@
       {
         "rank": 4,
         "name": "スロット ソードアート・オンラインⅡ",
-        "count": 21
+        "count": 22
       },
       {
         "rank": 5,
@@ -611,12 +611,12 @@
       },
       {
         "rank": 9,
-        "name": "L甲鉄城のカバネリ海門決戦",
-        "count": 10
+        "name": "L東京喰種",
+        "count": 11
       },
       {
         "rank": 10,
-        "name": "L東京喰種",
+        "name": "L甲鉄城のカバネリ海門決戦",
         "count": 10
       }
     ],
@@ -672,7 +672,7 @@
         "count": 3
       }
     ],
-    "total_count": 747
+    "total_count": 752
   },
   "store_complete_counts": {
     "ARROW浪速店": 27,
@@ -696,6 +696,7 @@
     "ダイナム長野上田店": 10,
     "FACE1300小倉南店": 10,
     "パチンコの玉屋∞本店": 9,
+    "テキサス白島店": 9,
     "キクヤ穂積店": 9,
     "SUPER CONCORDE": 9,
     "SuperD'station東金店": 8,
@@ -727,7 +728,6 @@
     "やすだ八潮店": 5,
     "ダイナム金町南口店": 5,
     "グランドホール港南店": 5,
-    "テキサス白島店": 4,
     "京都駅前ラッキーパチンコ店": 4,
     "天王寺ホール本館": 4,
     "マルハン仙台苦竹店": 4,
