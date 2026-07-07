@@ -357,6 +357,30 @@
     "store_id": "b5b93b356b"
   },
   {
+    "id": "f0f30d2245fc",
+    "date": "2026-07-05",
+    "time": "19:19",
+    "store": "新ガーデン西浦和",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "888",
+    "text": "コンプリート達成  888番台 #ヴァルヴレイヴ コンプリート達成  本日見事にコンプリート到達  おめでとうございます  この勢いはまだまだ続くのか 店内の熱い展開に引き続きご注目ください",
+    "x_url": "https://x.com/g_nishiurawa/status/2073713411985440959",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-07T00:41:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdPKcbb0AAuLJs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdPPMKbcAAK6bA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMdPUhSakAAWrN0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdPKcbb0AAuLJs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "a213dcf5c4"
+  },
+  {
     "id": "f1c2b40eb30c",
     "date": "2026-07-05",
     "time": "19:09",
@@ -447,6 +471,29 @@
     "image_url": "https://pbs.twimg.com/media/HMdE_87awAA5SnX?format=jpg&name=large",
     "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
     "store_id": "14d65f4223"
+  },
+  {
+    "id": "9e53b13ed377",
+    "date": "2026-07-05",
+    "time": "18:37",
+    "store": "ピーアーク北千住エリア",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "678",
+    "text": "7月5日（日） ピーアーク北千住SSS トリエス  678番台 L からくりサーカス コンプリート達成  からくりサーカス2が 明日導入です。  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2073702922618368353",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-07T00:11:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdF0NpaEAADgsI?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2041742649577893891/img/VTFrO_9Z4ivoYGvb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdF0NpaEAADgsI?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "8282115e87"
   },
   {
     "id": "856cfbcc423c",
