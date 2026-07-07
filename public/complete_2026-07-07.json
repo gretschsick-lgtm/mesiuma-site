@@ -1,5 +1,27 @@
 [
   {
+    "id": "72ee4a138e4b",
+    "date": "2026-07-07",
+    "time": "23:57",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "580",
+    "text": "本日、  e牙狼12黄金騎士極限 　580番台  コンプリート達成おめでとうございます #コンプリート #パチンコ",
+    "x_url": "https://x.com/arrow_naniwa/status/2074508030654488640",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-07T19:38:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoiDEtbAAAs6NU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoiDEtbAAAs6NU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "e8a8c6aa7b47",
     "date": "2026-07-07",
     "time": "22:40",
@@ -20,6 +42,51 @@
     "image_url": "https://pbs.twimg.com/media/HMoQRWHbsAAEzvI?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "590556b79c"
+  },
+  {
+    "id": "0215d56b9c39",
+    "date": "2026-07-07",
+    "time": "22:18",
+    "store": "GOGOアリーナ天神",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "504",
+    "text": "ㅤ    ㅤ   ㅤ ㅤ  本日7月7日  　 e牙狼12 黄金騎士極限 504番台 　　 　　　コンプリート達成  　　おめでとうございます",
+    "x_url": "https://x.com/gogoarenatenjin/status/2074483156582097296",
+    "store_handle": "gogoarenatenjin",
+    "store_x_url": "https://x.com/gogoarenatenjin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-07T19:40:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoLbwiakAAz88E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoLbwiakAAz88E?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c8ce6d1db9"
+  },
+  {
+    "id": "24cede534433",
+    "date": "2026-07-07",
+    "time": "22:14",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "699",
+    "text": "出ました7月7日に  2台目コンプリート  699番台ヴヴヴ2  おめでとうございます",
+    "x_url": "https://x.com/eagle_c_tencho/status/2074482255683371303",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-07T19:40:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoKnZtaQAAP8tz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMngqpLagAAxaL2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoKnZtaQAAP8tz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "9ff188237d"
   },
   {
     "id": "b3fea733b779",
