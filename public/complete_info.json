@@ -1068,6 +1068,50 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "740c065f5762",
+    "date": "2026-07-07",
+    "time": "09:30",
+    "store": "楽園大宮店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "411",
+    "text": "昨日！  4円パチンコ411番台 　e東京喰種Wにて  コンプリート達成！！ おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2074652183770091632",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T11:06:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMo4i2dbMAAl6nV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMo4i2dbMAAl6nV?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04950fcd53"
+  },
+  {
+    "id": "66771e5a8b3a",
+    "date": "2026-07-07",
+    "time": "09:30",
+    "store": "楽園大宮店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "519",
+    "text": "昨日！ 4円パチンコ519番台 eリコリス・リコイルM3にて  コンプリート達成！！ おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2074652183044517988",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T11:06:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMo6Db9aMAIdcUS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMo6Db9aMAIdcUS?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "04950fcd53"
+  },
+  {
     "id": "a69b67988d96",
     "date": "2026-07-07",
     "time": "09:00",

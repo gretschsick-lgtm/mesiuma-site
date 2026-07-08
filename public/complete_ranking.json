@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-08T17:49:31+09:00",
+  "generated_at": "2026-07-08T20:14:06+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 196,
+      "total_count": 198,
       "stores": [
         {
           "rank": 1,
@@ -26,45 +26,45 @@
         },
         {
           "rank": 4,
+          "name": "楽園大宮店",
+          "count": 5,
+          "x_url": "https://x.com/rakuen_ohmiya"
+        },
+        {
+          "rank": 5,
           "name": "新ガーデン西浦和",
           "count": 5,
           "x_url": "https://x.com/g_nishiurawa"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ARROW浪速店",
           "count": 4,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "メガフェイス1450本山",
           "count": 4,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "マルハン仙台名坊店",
           "count": 4,
           "x_url": "https://x.com/naebomaruhan"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "楽園池袋店ゲートウェイ",
           "count": 4,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "キクヤ春日井店",
           "count": 4,
           "x_url": "https://x.com/315kasugai"
-        },
-        {
-          "rank": 10,
-          "name": "プレイランドキャッスル春日井店",
-          "count": 4,
-          "x_url": "https://x.com/castle_kasugai"
         }
       ],
       "slot_machines": [
@@ -138,17 +138,17 @@
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 5,
-          "name": "eフィーバーキン肉マン",
+          "name": "eリコリス・リコイル",
           "count": 4
         },
         {
           "rank": 6,
-          "name": "eリコリス・リコイル",
-          "count": 3
+          "name": "eフィーバーキン肉マン",
+          "count": 4
         },
         {
           "rank": 7,
@@ -551,21 +551,21 @@
       },
       {
         "rank": 8,
+        "name": "楽園大宮店",
+        "count": 13,
+        "x_url": "https://x.com/rakuen_ohmiya"
+      },
+      {
+        "rank": 9,
         "name": "サガちゃんPARK",
         "count": 13,
         "x_url": "https://x.com/sagachan_park"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "ニューアサヒ長野青木島店",
         "count": 13,
         "x_url": "https://x.com/tenchoufujimori"
-      },
-      {
-        "rank": 10,
-        "name": "キング観光サウザンド栄若宮大通店",
-        "count": 13,
-        "x_url": "https://x.com/wakakin_tsujic"
       }
     ],
     "slot_machines": [
@@ -639,12 +639,12 @@
       {
         "rank": 4,
         "name": "eリコリス・リコイル",
-        "count": 20
+        "count": 21
       },
       {
         "rank": 5,
         "name": "e東京喰種W",
-        "count": 18
+        "count": 19
       },
       {
         "rank": 6,
@@ -672,7 +672,7 @@
         "count": 3
       }
     ],
-    "total_count": 766
+    "total_count": 768
   },
   "store_complete_counts": {
     "ARROW浪速店": 27,
@@ -682,6 +682,7 @@
     "楽園池袋店ゲートウェイ": 17,
     "新ガーデン西浦和": 15,
     "メガフェイス1450本山": 14,
+    "楽園大宮店": 13,
     "サガちゃんPARK": 13,
     "ニューアサヒ長野青木島店": 13,
     "キング観光サウザンド栄若宮大通店": 13,
@@ -691,7 +692,6 @@
     "キクヤ春日井店": 12,
     "マルハン松本店": 12,
     "マルハン川越店": 12,
-    "楽園大宮店": 11,
     "FACE1300小倉南店": 11,
     "メガフェイス1070菊陽": 11,
     "ダイナム長野上田店": 11,
