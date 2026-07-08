@@ -911,6 +911,28 @@
     "store_id": "cb0be1f296"
   },
   {
+    "id": "18ca52d9f052",
+    "date": "2026-07-07",
+    "time": "19:25",
+    "store": "ユーコーラッキー37辻堂店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】 本日、当店設置の「#Lソードアート・オンラインⅡ」にて コンプリート機能が発動いたしました!!! ご遊技いただき、誠にありがとうございました。  引き続き、皆さまのご来店をお待ちしております。",
+    "x_url": "https://x.com/YUKO_TSUJIDOU/status/2074439559149244776",
+    "store_handle": "yuko_tsujidou",
+    "store_x_url": "https://x.com/yuko_tsujidou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T19:16:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnjx91bUAEjqcu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnjx91bUAEjqcu?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "71055539bc"
+  },
+  {
     "id": "e3d2d98d9d54",
     "date": "2026-07-07",
     "time": "19:23",
