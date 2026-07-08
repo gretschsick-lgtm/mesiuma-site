@@ -22,6 +22,28 @@
     "store_id": "1fa35fdc7d"
   },
   {
+    "id": "ca549c74182c",
+    "date": "2026-07-06",
+    "time": "22:38",
+    "store": "M&K岡崎店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1265",
+    "text": "1265番台 コンプリートおめでとうございます #Ｌ北斗の拳転生２ #コンプリート #mk岡崎 #本日4台目",
+    "x_url": "https://x.com/MKokazaki/status/2074125778737045949",
+    "store_handle": "mkokazaki",
+    "store_x_url": "https://x.com/mkokazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T18:17:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMjGZuna4AAoKd4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMjGZuna4AAoKd4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "341c9ef1a4"
+  },
+  {
     "id": "4ec3986a25bb",
     "date": "2026-07-06",
     "time": "21:13",
