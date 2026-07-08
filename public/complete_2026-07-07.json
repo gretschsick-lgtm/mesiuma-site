@@ -177,6 +177,28 @@
     "store_id": "04138e2cd3"
   },
   {
+    "id": "86d8109c510b",
+    "date": "2026-07-07",
+    "time": "22:00",
+    "store": "メガフェイス1450本山",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "882",
+    "text": "速報です  つい先ほど・・・！  882番台 Lチバリヨ2にて  #コンプリート’達成です！ おめでとうございます  またのご来店お待ちしております♬  #メガフェイス1450本山店 #コンプリート #Lチバリヨ2",
+    "x_url": "https://x.com/megaface_1450/status/2074478547998028064",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T08:10:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn_S95bwAAwD0E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn_S95bwAAwD0E?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "8ff67fba8c1c",
     "date": "2026-07-07",
     "time": "21:50",
