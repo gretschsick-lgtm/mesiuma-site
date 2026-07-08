@@ -66,6 +66,29 @@
     "store_id": "590556b79c"
   },
   {
+    "id": "6dac4abdf6cf",
+    "date": "2026-07-07",
+    "time": "22:39",
+    "store": "パラッツォ船橋店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "731",
+    "text": "コンプリート報告  今週のオススメ機種より  731番台 e牙狼12黄金騎士極限 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/palazzo_funa/status/2074488424627925325",
+    "store_handle": "palazzo_funa",
+    "store_x_url": "https://x.com/palazzo_funa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T17:01:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoPwRTaoAADiga?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMoP0Xga8AA-yw7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoPwRTaoAADiga?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "208e7c8d7f"
+  },
+  {
     "id": "851e58e359c4",
     "date": "2026-07-07",
     "time": "22:34",
@@ -86,6 +109,28 @@
     "image_url": "https://pbs.twimg.com/media/HMoPDkIbEAAzMDd?format=jpg&name=large",
     "machine_id": "e073ea8a-65ae-4499-9280-618d3520a980",
     "store_id": "9f95fe8e0a"
+  },
+  {
+    "id": "ad82153b0098",
+    "date": "2026-07-07",
+    "time": "22:32",
+    "store": "マルハン筑西店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "209",
+    "text": "マルハン筑西店より コンプリート速報  eフィーバーキン肉マン 209番台のお客様 おめでとうございます",
+    "x_url": "https://x.com/Majishan_Tencho/status/2074486745488560380",
+    "store_handle": "majishan_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/majishan_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-08T17:01:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoOKFtacAEueCv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoOKFtacAEueCv?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "d530f6adc5"
   },
   {
     "id": "23828a26f7ee",
@@ -375,6 +420,50 @@
     "image_url": "https://pbs.twimg.com/media/HMn8opkaMAAzU-I?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "c4b75bb3bd94",
+    "date": "2026-07-07",
+    "time": "21:10",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "L無職転生～異世界行ったら本気だす～",
+    "machine_type": "slot",
+    "slot_number": "1013",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、7月7日(火)  1013番台 【e無職転生～異世界行ったら本気だす～】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2074466063786615149",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T17:01:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn747-a0AAlP2M?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn747-a0AAlP2M?format=jpg&name=large",
+    "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036",
+    "store_id": "19b76dd507"
+  },
+  {
+    "id": "f6af8e8dddff",
+    "date": "2026-07-07",
+    "time": "21:10",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "1025",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、7月7日(火)  1025番台 【e東京喰種】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2074466034657136892",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T17:01:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn73OwbwAA0f2q?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn73OwbwAA0f2q?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "19b76dd507"
   },
   {
     "id": "ed4fea2d5233",
@@ -912,6 +1001,28 @@
     "store_id": "57ac307cdc"
   },
   {
+    "id": "82c63dfbd249",
+    "date": "2026-07-07",
+    "time": "18:48",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "5063",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、7月7日(火)  5063番台 【L革命機ヴァルヴレイヴ2】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート  #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2074430396058783874",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T17:01:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnaW0ibAAALzwD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnaW0ibAAALzwD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "19b76dd507"
+  },
+  {
     "id": "6fcf95acdcfd",
     "date": "2026-07-07",
     "time": "18:39",
@@ -1088,29 +1199,6 @@
     "image_url": "https://pbs.twimg.com/media/HMmnpCwaUAALIrQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "ac9e0c0f5d"
-  },
-  {
-    "id": "965c3ab8169d",
-    "date": "2026-07-07",
-    "time": "13:52",
-    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
-    "machine": "e東京喰種W",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "コンプリート速報 早い！凄い！羨ましい・・・ 先程豊崎Ⅱ、今週のオススメ機種 ｅ東京喰種Ｗより コンプリーーーーート♪ ジロウさん、わーさんの W来店で店内は盛り上がってますよ～ おめでとうございます #ジロウさん来店 #わーさん来店",
-    "x_url": "https://x.com/megaface_1120/status/2074355874567721394",
-    "store_handle": "megaface_1120",
-    "store_x_url": "https://x.com/megaface_1120",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-08T16:16:13Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMmXg62bEAEppLH?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMmXg60akAA-ijC?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMmXg62bEAEppLH?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "036ad33f3f"
   },
   {
     "id": "740c065f5762",
