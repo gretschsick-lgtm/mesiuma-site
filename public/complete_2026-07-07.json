@@ -1090,6 +1090,29 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "965c3ab8169d",
+    "date": "2026-07-07",
+    "time": "13:52",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート速報 早い！凄い！羨ましい・・・ 先程豊崎Ⅱ、今週のオススメ機種 ｅ東京喰種Ｗより コンプリーーーーート♪ ジロウさん、わーさんの W来店で店内は盛り上がってますよ～ おめでとうございます #ジロウさん来店 #わーさん来店",
+    "x_url": "https://x.com/megaface_1120/status/2074355874567721394",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T16:16:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMmXg62bEAEppLH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMmXg60akAA-ijC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMmXg62bEAEppLH?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "740c065f5762",
     "date": "2026-07-07",
     "time": "09:30",
