@@ -1,5 +1,27 @@
 [
   {
+    "id": "c593650cf09d",
+    "date": "2026-07-08",
+    "time": "22:30",
+    "store": "やすだ八潮店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おめでとうございます NOより Lかぐや様は告らせたい コンプリート達成！",
+    "x_url": "https://x.com/yasuda_yashio/status/2074848506586739050",
+    "store_handle": "yasuda_yashio",
+    "store_x_url": "https://x.com/yasuda_yashio",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T23:12:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMtXUFPbUAAkS2C?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMtXUFPbUAAkS2C?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "f6cd9d33ba"
+  },
+  {
     "id": "f7b3590c6128",
     "date": "2026-07-08",
     "time": "20:31",
