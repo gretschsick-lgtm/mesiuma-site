@@ -156,6 +156,28 @@
     "store_id": "c8ce6d1db9"
   },
   {
+    "id": "415249a771d3",
+    "date": "2026-07-05",
+    "time": "21:29",
+    "store": "ガイア高萩安良川店",
+    "machine": "スマスロ 化物語",
+    "machine_type": "slot",
+    "slot_number": "1085",
+    "text": "【超速報】  先程1085番台　 L スマスロ化物語にて  コンプリート達成  ご遊技頂き感謝です  #ガイア高萩　#怪異の王　 #コンプリート　#チバラキガイア",
+    "x_url": "https://x.com/GAIA_TAKAHAGI/status/2073745961386725484",
+    "store_handle": "gaia_takahagi",
+    "store_x_url": "https://x.com/gaia_takahagi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T15:30:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMds1ZdaEAAk_pP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMds1ZdaEAAk_pP?format=jpg&name=large",
+    "machine_id": "92105b27-3261-4af0-b2ed-24f63c5cd477",
+    "store_id": "ddce6b9b74"
+  },
+  {
     "id": "099c52af531d",
     "date": "2026-07-05",
     "time": "21:23",
@@ -264,6 +286,29 @@
     "image_url": "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
     "store_id": "d88ff27c89"
+  },
+  {
+    "id": "a605976f3c3b",
+    "date": "2026-07-05",
+    "time": "20:30",
+    "store": "ＡＢＣ豊川店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "101",
+    "text": "コンプリート速報  e女神のカフェテラス 【101番台】  これは女神が宿ってましたね 看板に偽りなし  明日稼働再開です  #ABC豊川店",
+    "x_url": "https://x.com/ABC_toyokawa/status/2073731114536186158",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T15:47:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdVfoPbIAABWo5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMTiU3ybEAEKQC1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdVfoPbIAABWo5?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "58111f872e"
   },
   {
     "id": "9bb01294474f",

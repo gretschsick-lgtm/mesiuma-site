@@ -1,27 +1,5 @@
 [
   {
-    "id": "11ae0e367b0d",
-    "date": "2026-07-08",
-    "time": "21:54",
-    "store": "パラディソ古川ドルフィン館",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんばんわ～　ドルフィン騎士む～たんです新台入替3日目 e牙狼12黄金騎士極限 出ました～コンプリーーート おめでとうございます #古川ドルフィン館　#コンプリート",
-    "x_url": "https://x.com/paradiso_furdol/status/2074839455857602564",
-    "store_handle": "paradiso_furdol",
-    "store_x_url": "https://x.com/paradiso_furdol",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-08T15:00:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMtNE94bMAAVSjB?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMtNE94bMAAVSjB?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "142c75164f"
-  },
-  {
     "id": "f7b3590c6128",
     "date": "2026-07-08",
     "time": "20:31",
@@ -42,29 +20,6 @@
     "image_url": "https://pbs.twimg.com/media/HMs8ckwa0AEWguI?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "b06d0873ca"
-  },
-  {
-    "id": "d7b3b68aab82",
-    "date": "2026-07-08",
-    "time": "18:50",
-    "store": "メガフェイス1070菊陽",
-    "machine": "e東京リベンジャーズ",
-    "machine_type": "pachinko",
-    "slot_number": "121",
-    "text": "本日、新台 121番台 e東京リベンジャーズ聖夜 コンプリート達成 #7月8日 #メガフェイス菊陽",
-    "x_url": "https://x.com/MEGAFACE_1070/status/2074793253355106538",
-    "store_handle": "megaface_1070",
-    "store_x_url": "https://x.com/megaface_1070",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-08T14:49:34Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMsldg_a0AABIgI?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMqq0O4aEAA3OIH?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMsldg_a0AABIgI?format=jpg&name=large",
-    "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
-    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "c83e46ec4d1b",
@@ -153,6 +108,28 @@
     "image_url": "https://pbs.twimg.com/media/HMoQRWHbsAAEzvI?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "590556b79c"
+  },
+  {
+    "id": "851e58e359c4",
+    "date": "2026-07-07",
+    "time": "22:34",
+    "store": "スロットシアター四海樓",
+    "machine": "スロット ゾンビランドサガ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "3Fアニスロコーナーからゾンビランドサガにてコンプリート達成、おめでとうございます٩(๑òωó๑)۶",
+    "x_url": "https://x.com/slot_theater/status/2074487135613464579",
+    "store_handle": "slot_theater",
+    "store_x_url": "https://x.com/slot_theater",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T16:00:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoPDkIbEAAzMDd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoPDkIbEAAzMDd?format=jpg&name=large",
+    "machine_id": "e073ea8a-65ae-4499-9280-618d3520a980",
+    "store_id": "9f95fe8e0a"
   },
   {
     "id": "23828a26f7ee",
@@ -397,6 +374,28 @@
     "image_url": "https://pbs.twimg.com/media/HMoAjw1b0AAhJsd?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "cc35a017ad"
+  },
+  {
+    "id": "8416cb779da5",
+    "date": "2026-07-07",
+    "time": "21:25",
+    "store": "キャッスル天白店",
+    "machine": "L無職転生～異世界行ったら本気だす～",
+    "machine_type": "slot",
+    "slot_number": "186",
+    "text": "～コンプリート機能発動～  186番台   #無職転生～異世界行ったら本気だす  台の稼働を停止しております！！ 明日の開放をお待ちください！ #キャッスル天白店",
+    "x_url": "https://x.com/tenpaku0730/status/2074469730606559442",
+    "store_handle": "tenpaku0730",
+    "store_x_url": "https://x.com/tenpaku0730",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T15:30:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn9ppGaEAA1KpW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn9ppGaEAA1KpW?format=jpg&name=large",
+    "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036",
+    "store_id": "d5fbda7161"
   },
   {
     "id": "25cb87f7db41",
@@ -979,50 +978,6 @@
     "store_id": "f012229481"
   },
   {
-    "id": "0b9b0e79da67",
-    "date": "2026-07-07",
-    "time": "18:32",
-    "store": "楽園池袋店ゲートウェイ",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "2131",
-    "text": "楽園池袋店ゲートウェイです  本日、7月7日(火)   4円パチンココーナーから   2131番台　 【e牙狼12黄金騎士極限】    2台目のコンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
-    "x_url": "https://x.com/rakuenikebukuro/status/2074426438904856680",
-    "store_handle": "rakuenikebukuro",
-    "store_x_url": "https://x.com/rakuenikebukuro",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-08T14:46:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMnXPpfasAAfcVM?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMnXPpfasAAfcVM?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "ef707cf8fe"
-  },
-  {
-    "id": "b1d2d0e38858",
-    "date": "2026-07-07",
-    "time": "18:12",
-    "store": "ゼント豊橋藤沢店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんとよ〜だっちでぇ〜す  二つ目のご報告でございます  e牙狼12コンプリート機能作動しました こちらの台も明日開放予定です  まだまだお待ちしてますよぉ〜  #フジゼン #ZENT豊橋藤沢店",
-    "x_url": "https://x.com/ZENTtoyohashi/status/2074421337926635666",
-    "store_handle": "zenttoyohashi",
-    "store_x_url": "https://x.com/zenttoyohashi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-08T14:46:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMnTNN8aYAAF3I3?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMnTNN8aYAAF3I3?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "25a28fe066"
-  },
-  {
     "id": "5dcd8e6bc225",
     "date": "2026-07-07",
     "time": "18:06",
@@ -1066,28 +1021,6 @@
     "image_url": "https://pbs.twimg.com/media/HMnOnVmasAA70fm?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "f6cd9d33ba"
-  },
-  {
-    "id": "98b22a8ca731",
-    "date": "2026-07-07",
-    "time": "17:43",
-    "store": "ゼント豊橋藤沢店",
-    "machine": "Lかぐや様は告らせたい",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんとよ〜 だっちでぇ〜す  ｺｳﾊﾝｾﾝ  Lかぐや様は告らせたい コンプリート機能作動しました こちらの台は明日開放となります  まだまだお待ちしております  #フジゼン #ZENT豊橋藤沢店",
-    "x_url": "https://x.com/ZENTtoyohashi/status/2074413953384685896",
-    "store_handle": "zenttoyohashi",
-    "store_x_url": "https://x.com/zenttoyohashi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-08T14:46:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMnMfFdaIAAeO7b?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMnMfFdaIAAeO7b?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000017",
-    "store_id": "25a28fe066"
   },
   {
     "id": "434075b77b4f",
@@ -1814,6 +1747,28 @@
     "store_id": "c8ce6d1db9"
   },
   {
+    "id": "415249a771d3",
+    "date": "2026-07-05",
+    "time": "21:29",
+    "store": "ガイア高萩安良川店",
+    "machine": "スマスロ 化物語",
+    "machine_type": "slot",
+    "slot_number": "1085",
+    "text": "【超速報】  先程1085番台　 L スマスロ化物語にて  コンプリート達成  ご遊技頂き感謝です  #ガイア高萩　#怪異の王　 #コンプリート　#チバラキガイア",
+    "x_url": "https://x.com/GAIA_TAKAHAGI/status/2073745961386725484",
+    "store_handle": "gaia_takahagi",
+    "store_x_url": "https://x.com/gaia_takahagi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T15:30:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMds1ZdaEAAk_pP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMds1ZdaEAAk_pP?format=jpg&name=large",
+    "machine_id": "92105b27-3261-4af0-b2ed-24f63c5cd477",
+    "store_id": "ddce6b9b74"
+  },
+  {
     "id": "099c52af531d",
     "date": "2026-07-05",
     "time": "21:23",
@@ -1922,6 +1877,29 @@
     "image_url": "https://pbs.twimg.com/media/HMdmBhJagAAdr22?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
     "store_id": "d88ff27c89"
+  },
+  {
+    "id": "a605976f3c3b",
+    "date": "2026-07-05",
+    "time": "20:30",
+    "store": "ＡＢＣ豊川店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "101",
+    "text": "コンプリート速報  e女神のカフェテラス 【101番台】  これは女神が宿ってましたね 看板に偽りなし  明日稼働再開です  #ABC豊川店",
+    "x_url": "https://x.com/ABC_toyokawa/status/2073731114536186158",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-08T15:47:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMdVfoPbIAABWo5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMTiU3ybEAEKQC1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMdVfoPbIAABWo5?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "58111f872e"
   },
   {
     "id": "9bb01294474f",
