@@ -645,6 +645,29 @@
     "store_id": "e5b15421f1"
   },
   {
+    "id": "beb65cac062e",
+    "date": "2026-07-07",
+    "time": "20:54",
+    "store": "メガフェイス1300淀川",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリートのお知らせ  LソードアートオンラインII  コンプリート達成  これは凄まじいです 本当におめでとうございます  #メガフェイス1300淀川",
+    "x_url": "https://x.com/megaface_1300/status/2074462086990852151",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-09T23:15:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn4RI5bsAA5nnS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMn4RJCbwAAnR6X?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn4RI5bsAA5nnS?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "7fffa6f1534b",
     "date": "2026-07-07",
     "time": "20:51",
