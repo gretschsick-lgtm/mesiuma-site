@@ -45,6 +45,29 @@
     "store_id": "5b20cfecf8"
   },
   {
+    "id": "c8ecc8641593",
+    "date": "2026-07-09",
+    "time": "17:39",
+    "store": "サンコー梅島店",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "86",
+    "text": "e新世紀エヴァンゲリオン ～はじまりの記憶～86番台  【コンプリート達成】  おめでとうございます  お陰様で４円パチンコ ２ヶ月連続エリア支持率No.１  #サンコー梅島 #SANCO梅島 #コンプリート #スマパチ",
+    "x_url": "https://x.com/sanco_umejima/status/2075137874169856441",
+    "store_handle": "sanco_umejima",
+    "store_x_url": "https://x.com/sanco_umejima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-09T21:17:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMxeyKcbUAADaWT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMxeyKqbYAAe78x?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMxeyKcbUAADaWT?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
+    "store_id": "4f1f51278a"
+  },
+  {
     "id": "00087f48b672",
     "date": "2026-07-09",
     "time": "07:03",
