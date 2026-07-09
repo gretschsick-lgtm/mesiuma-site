@@ -154,6 +154,29 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "e9329c865370",
+    "date": "2026-07-07",
+    "time": "23:01",
+    "store": "メガフェイス960飯塚",
+    "machine": "Lアズールレーン2",
+    "machine_type": "slot",
+    "slot_number": "716",
+    "text": "本日のMVP  スロット716番台 Lアズールレーン 18,751Pt.  パチンコ334番台 eエヴァンゲリオン 始まりの記憶 78,070Pt.  本日はスロット2台コンプリート達成しました おめでとうございます  #メガフェイス960飯塚 #コンプリート",
+    "x_url": "https://x.com/megaface_960/status/2074493991387795615",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-09T12:20:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoU-pBasAA9OcN?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMoU_AFbUAAUq1w?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoU-pBasAA9OcN?format=jpg&name=large",
+    "machine_id": "cc397c5c-3872-4d97-a65c-b99e27374223",
+    "store_id": "4130ca6374"
+  },
+  {
     "id": "04b941ef3728",
     "date": "2026-07-07",
     "time": "22:44",
