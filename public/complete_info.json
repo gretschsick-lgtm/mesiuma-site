@@ -22,6 +22,28 @@
     "store_id": "f6cd9d33ba"
   },
   {
+    "id": "11ae0e367b0d",
+    "date": "2026-07-08",
+    "time": "21:54",
+    "store": "パラディソ古川ドルフィン館",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんわ～　ドルフィン騎士む～たんです新台入替3日目 e牙狼12黄金騎士極限 出ました～コンプリーーート おめでとうございます #古川ドルフィン館　#コンプリート",
+    "x_url": "https://x.com/paradiso_furdol/status/2074839455857602564",
+    "store_handle": "paradiso_furdol",
+    "store_x_url": "https://x.com/paradiso_furdol",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-09T05:06:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMtNE94bMAAVSjB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMtNE94bMAAVSjB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "142c75164f"
+  },
+  {
     "id": "f7b3590c6128",
     "date": "2026-07-08",
     "time": "20:31",
@@ -640,6 +662,28 @@
     "image_url": "https://pbs.twimg.com/media/HMn7TAAagAIHiwO?format=jpg&name=large",
     "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
     "store_id": "01a41812b5"
+  },
+  {
+    "id": "f7f6b36a03bb",
+    "date": "2026-07-07",
+    "time": "20:55",
+    "store": "ワンダーランド1177谷山店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート報告 おめでとうございます!! ｅ牙狼12よりコンプリートです",
+    "x_url": "https://x.com/wl_taniyama/status/2074462188627165685",
+    "store_handle": "wl_taniyama",
+    "store_x_url": "https://x.com/wl_taniyama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-09T04:52:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn4TjIbsAACnID?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn4TjIbsAACnID?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e5b15421f1"
   },
   {
     "id": "7fffa6f1534b",
