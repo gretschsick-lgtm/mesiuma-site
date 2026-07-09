@@ -22,6 +22,29 @@
     "store_id": "b02201d0b9"
   },
   {
+    "id": "3208608b49ba",
+    "date": "2026-07-09",
+    "time": "17:59",
+    "store": "マルハン松本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "152",
+    "text": "速報です。 本日e牙狼12XX-MJ 152番台 #コンプリート  おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2075142727231279508",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-09T19:31:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HL_Cba-awAAwIz4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL_CdpdbgAARm3X?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HL_Cba-awAAwIz4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "5b20cfecf8"
+  },
+  {
     "id": "00087f48b672",
     "date": "2026-07-09",
     "time": "07:03",
