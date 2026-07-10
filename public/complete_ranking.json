@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-11T06:39:29+09:00",
+  "generated_at": "2026-07-11T08:40:46+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 253,
+      "total_count": 256,
       "stores": [
         {
           "rank": 1,
@@ -32,39 +32,39 @@
         },
         {
           "rank": 5,
+          "name": "ニューアサヒ長野青木島店",
+          "count": 5,
+          "x_url": "https://x.com/tenchoufujimori"
+        },
+        {
+          "rank": 6,
           "name": "イーグルアールワン南8条店",
           "count": 5,
           "x_url": "https://x.com/eagle_c_tencho"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "楽園池袋店ゲートウェイ",
           "count": 5,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "楽園大宮店",
           "count": 5,
           "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ビックマーチ東習志野店",
           "count": 5,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "新ガーデン西浦和",
           "count": 5,
           "x_url": "https://x.com/g_nishiurawa"
-        },
-        {
-          "rank": 10,
-          "name": "プレイランドキャッスル春日井店",
-          "count": 5,
-          "x_url": "https://x.com/castle_kasugai"
         }
       ],
       "slot_machines": [
@@ -138,7 +138,7 @@
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 9
+          "count": 10
         },
         {
           "rank": 5,
@@ -556,21 +556,21 @@
       },
       {
         "rank": 8,
+        "name": "ニューアサヒ長野青木島店",
+        "count": 14,
+        "x_url": "https://x.com/tenchoufujimori"
+      },
+      {
+        "rank": 9,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 14,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "name": "メガフェイス1300淀川",
         "count": 14,
         "x_url": "https://x.com/megaface_1300"
-      },
-      {
-        "rank": 10,
-        "name": "サガちゃんPARK",
-        "count": 13,
-        "x_url": "https://x.com/sagachan_park"
       }
     ],
     "slot_machines": [
@@ -644,7 +644,7 @@
       {
         "rank": 4,
         "name": "e東京喰種W",
-        "count": 21
+        "count": 22
       },
       {
         "rank": 5,
@@ -677,7 +677,7 @@
         "count": 4
       }
     ],
-    "total_count": 765
+    "total_count": 768
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
@@ -687,10 +687,10 @@
     "メガフェイス1450本山": 16,
     "マルハンメガシティ三島駿東": 16,
     "新ガーデン西浦和": 15,
+    "ニューアサヒ長野青木島店": 14,
     "キング観光サウザンド栄若宮大通店": 14,
     "メガフェイス1300淀川": 14,
     "サガちゃんPARK": 13,
-    "ニューアサヒ長野青木島店": 13,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 13,
     "プレイランドキャッスル春日井店": 13,
     "マルハン松本店": 12,
@@ -716,6 +716,7 @@
     "エムディー目黒店": 7,
     "キクヤ穂積店": 7,
     "クラブハウス本店": 7,
+    "マルハンメガシティ水戸赤塚": 6,
     "マルハン仙台苦竹店": 6,
     "プレイランドキャッスル東郷店": 6,
     "キング観光サウザンド名古屋駅柳橋店": 6,
@@ -731,7 +732,6 @@
     "京都駅前ラッキーパチンコ店": 5,
     "SUPER CONCORDE 市野": 5,
     "パラッツォ鳩ヶ谷店": 5,
-    "マルハンメガシティ水戸赤塚": 5,
     "M&K岡崎店": 5,
     "GOLD CONCORDE富士": 5,
     "フェイス850佐賀": 5,
@@ -743,6 +743,7 @@
     "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店": 4,
     "ダイナム武生店": 4,
     "新！ガーデン川口安行": 4,
+    "ワンダーランドODO": 4,
     "ＡＢＣ豊川店": 4,
     "天王寺ホール本館": 4,
     "エクスアリーナ東京": 4,
@@ -763,7 +764,6 @@
     "ミクちゃんガイア尼崎店": 3,
     "マルハン名取店": 3,
     "ダイナム岐阜高山店": 3,
-    "ワンダーランドODO": 3,
     "エクスアリーナ松戸": 3,
     "ビックマーチ河和田東店": 3,
     "フジコー三島店": 3,
