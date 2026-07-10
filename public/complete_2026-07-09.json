@@ -22,6 +22,51 @@
     "store_id": "b02201d0b9"
   },
   {
+    "id": "62fc4f880efe",
+    "date": "2026-07-09",
+    "time": "21:56",
+    "store": "ビックつばめ錦店",
+    "machine": "スマスロ 化物語",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "スマスロ　化物語 コンプリート達成 達成された方おめでとうございます   #ビックつばめ錦店 #化物語 #コンプリート",
+    "x_url": "https://x.com/d_purple777/status/2075202401490149512",
+    "store_handle": "d_purple777",
+    "store_x_url": "https://x.com/d_purple777",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T00:15:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMyZbtba8AAjPG_?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMyZb4LasAA0aep?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMyZbtba8AAjPG_?format=jpg&name=large",
+    "machine_id": "92105b27-3261-4af0-b2ed-24f63c5cd477",
+    "store_id": "2e3d2677f8"
+  },
+  {
+    "id": "e35c9eb3cd39",
+    "date": "2026-07-09",
+    "time": "20:50",
+    "store": "ガーデン東大宮店＠がしみや　4/21(火)リニューアル",
+    "machine": "Lシャーマンキング",
+    "machine_type": "slot",
+    "slot_number": "858",
+    "text": "※ 速 報 ※  858番台  Lシャーマンキング コンプリート達成  おめでとうございます  #スロット #シャーマンキング #がしみや",
+    "x_url": "https://x.com/GARDENgashimiya/status/2075185719900045596",
+    "store_handle": "gardengashimiya",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/gardengashimiya",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-10T00:07:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMyJU8absAEQrvf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMyJU8absAEQrvf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000015",
+    "store_id": "17e07c997f"
+  },
+  {
     "id": "3208608b49ba",
     "date": "2026-07-09",
     "time": "17:59",

@@ -45,6 +45,28 @@
     "store_id": "3b33dd116a"
   },
   {
+    "id": "a83dc7f6b092",
+    "date": "2026-07-05",
+    "time": "22:15",
+    "store": "ワンダーランド中津米山店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Ｌチバリヨ２ 怒涛の一撃 コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/wl_nakatsu/status/2073757708671730173",
+    "store_handle": "wl_nakatsu",
+    "store_x_url": "https://x.com/wl_nakatsu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T00:45:53Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2073757506766254080/img/oWNeI6qTiYiN8l6E.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2073757506766254080/img/oWNeI6qTiYiN8l6E.jpg?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "502838224b"
+  },
+  {
     "id": "e675012c6909",
     "date": "2026-07-05",
     "time": "21:53",
