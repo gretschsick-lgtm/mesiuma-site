@@ -360,6 +360,28 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "85a3c176f165",
+    "date": "2026-07-07",
+    "time": "23:55",
+    "store": "ユーコーラッキー長崎駅前店☆",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "7日ランキング速報  パチンコ eRe:ゼロ2　36000発over  スロット L革命機ヴァルヴレイヴ 　17000枚over コンプリートおめでとうございます  本日は多数様のご来店ありがとうございました 明日もご来店お待ち致しております",
+    "x_url": "https://x.com/yuko_nagaeki/status/2074507479539708210",
+    "store_handle": "yuko_nagaeki",
+    "store_x_url": "https://x.com/yuko_nagaeki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T07:56:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMoaOMYboAAv8Rl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMoaOMYboAAv8Rl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "12547c7b5f"
+  },
+  {
     "id": "e9329c865370",
     "date": "2026-07-07",
     "time": "23:01",
@@ -1071,6 +1093,28 @@
     "image_url": "https://pbs.twimg.com/media/HMn3fLqacAA8Hby?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "acd9156fa0"
+  },
+  {
+    "id": "c962a956972a",
+    "date": "2026-07-07",
+    "time": "20:51",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "2011",
+    "text": "楽園池袋店ゲートウェイです  本日、7月7日(火)   4円パチンココーナーから   2011番台　 【e東京喰種W】    ３台目のコンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2074461223496945961",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T07:41:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn0NNPaMAAfBAK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn0NNPaMAAfBAK?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "959123ce8e32",
