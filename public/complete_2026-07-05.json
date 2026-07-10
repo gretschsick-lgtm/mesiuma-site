@@ -743,6 +743,28 @@
     "store_id": "5451581d88"
   },
   {
+    "id": "269ac89fc9e6",
+    "date": "2026-07-05",
+    "time": "16:46",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "687",
+    "text": "コンプリート機能発動  先ほど、６８７番台   スマスロ革命機ヴァルヴレイヴ２にて コンプリート機能発動！！ 明日開放予定となります。  この後も #キャッスル春日井 へ   ご来店、お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2073674752477270504",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T16:57:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMcsHgtboAA-oXr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMcsHgtboAA-oXr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
+  },
+  {
     "id": "cc7070312a53",
     "date": "2026-07-05",
     "time": "16:42",
