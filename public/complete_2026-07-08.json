@@ -1,27 +1,5 @@
 [
   {
-    "id": "1eabb16d8efe",
-    "date": "2026-07-08",
-    "time": "23:33",
-    "store": "ビックマーチ東習志野店",
-    "machine": "チバリヨ2",
-    "machine_type": "slot",
-    "slot_number": "96",
-    "text": "あ、お風呂から出たら閉店間際にコンプリート報告来てましたw  96番台チバリヨ2から達成です  おめでとうございます",
-    "x_url": "https://x.com/bmyachiyo/status/2074864346510032983",
-    "store_handle": "bmyachiyo",
-    "store_x_url": "https://x.com/bmyachiyo",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-10T15:10:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMtmH6PbsAEstWO?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMtmH6PbsAEstWO?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
-    "store_id": "e744c71a3d"
-  },
-  {
     "id": "64bba2626dab",
     "date": "2026-07-08",
     "time": "23:23",
@@ -70,6 +48,28 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "6a2585d15399",
+    "date": "2026-07-08",
+    "time": "22:35",
+    "store": "玉屋∞本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "457",
+    "text": "457番台e牙狼からコンプリートおめでとうございます  ありがとうございますいつも今日も",
+    "x_url": "https://x.com/YONEPEE2288/status/2074849810751119739",
+    "store_handle": "yonepee2288",
+    "store_x_url": "https://x.com/yonepee2288",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T15:57:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMtYj9aaUAARvBC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMtYj9aaUAARvBC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "590556b79c"
+  },
+  {
     "id": "c593650cf09d",
     "date": "2026-07-08",
     "time": "22:30",
@@ -114,26 +114,26 @@
     "store_id": "142c75164f"
   },
   {
-    "id": "1bf288645b5d",
+    "id": "7278561a388f",
     "date": "2026-07-08",
-    "time": "21:26",
-    "store": "楽園大宮店",
-    "machine": "e東京喰種W",
-    "machine_type": "pachinko",
-    "slot_number": "235",
-    "text": "本日21時頃！！ B1F 4円パチンコ235番台 　e東京喰種MWにて  コンプリート達成！！ おめでとうございます！！",
-    "x_url": "https://x.com/RAKUEN_ohmiya/status/2074832380041576569",
-    "store_handle": "rakuen_ohmiya",
-    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "time": "21:50",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2162",
+    "text": "Lからくりサーカス2 2162番台 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2074838627830694262",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-10T15:43:05Z",
+    "collected_at": "2026-07-10T15:51:29Z",
     "images": [
-      "https://pbs.twimg.com/media/HMtI-q0agAA5wWp?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HMtOYJ1akAAj2p9?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HMtI-q0agAA5wWp?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "04950fcd53"
+    "image_url": "https://pbs.twimg.com/media/HMtOYJ1akAAj2p9?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "20e9c07e6a54",
@@ -200,28 +200,6 @@
     "image_url": "https://pbs.twimg.com/media/HMsbuxBbsAAff0s?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
     "store_id": "771f030669"
-  },
-  {
-    "id": "1fe404b79889",
-    "date": "2026-07-08",
-    "time": "17:39",
-    "store": "プレイランドキャッスル高浜店",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "692",
-    "text": "早くもっ 【アソビの殿堂】から 速報です！！  【692番台】 『Lからくりサーカス2』          ≪コンプリート機能発動！！≫  　　　　       おめでとうございます♬  ※開放は明日予定となります！  来ましたね！ 初コンプリート 本日【水曜日】 運命の一劇は是非 キャッスルで！ おまちしてます！",
-    "x_url": "https://x.com/Hara_Strong/status/2074775254698979343",
-    "store_handle": "hara_strong",
-    "store_x_url": "https://x.com/hara_strong",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-10T15:18:03Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMsU_psbwAAJrkp?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMsU_psbwAAJrkp?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "store_id": "4af5cc0d0b"
   },
   {
     "id": "1c4fdb94759e",

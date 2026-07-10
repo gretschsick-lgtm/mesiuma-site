@@ -556,28 +556,6 @@
     "store_id": "7f6d7ae0f2"
   },
   {
-    "id": "0bfae1f0acc1",
-    "date": "2026-07-04",
-    "time": "18:00",
-    "store": "ダイナム岐阜高山店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "902",
-    "text": "6/20(土) コンプリート達成  902番台 L革命期ヴァルヴレイヴ2  ご遊技されていたお客様 おめでとうございます！  #ダイナム　#高山　#VVV2　#コンプリート",
-    "x_url": "https://x.com/dynam_00432/status/2073331023132127585",
-    "store_handle": "dynam_00432",
-    "store_x_url": "https://x.com/dynam_00432",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-10T15:09:19Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMXzlAHXAAEg4x-?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMXzlAHXAAEg4x-?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "ab833f2c6e"
-  },
-  {
     "id": "47f4ce6abc2d",
     "date": "2026-07-04",
     "time": "17:39",
@@ -709,5 +687,27 @@
     "image_url": "https://pbs.twimg.com/media/HMXARRAbEAAZDL7?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "341c9ef1a4"
+  },
+  {
+    "id": "c4b7d0f20025",
+    "date": "2026-07-04",
+    "time": "05:55",
+    "store": "ニラク北本深井店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "７月４日（土）４パチコーナーより #e東京喰種Ｗ ・・・ コンプリート機能発動 おめでとうございま～す #コンプリート",
+    "x_url": "https://x.com/29_kitamoto/status/2073510912590283224",
+    "store_handle": "29_kitamoto",
+    "store_x_url": "https://x.com/29_kitamoto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-10T16:13:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMaW0HUbcAAX_qd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMaW0HUbcAAX_qd?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "b5621dfb98"
   }
 ]
