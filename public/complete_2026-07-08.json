@@ -136,28 +136,6 @@
     "store_id": "cb0be1f296"
   },
   {
-    "id": "1bf288645b5d",
-    "date": "2026-07-08",
-    "time": "21:26",
-    "store": "楽園大宮店",
-    "machine": "e東京喰種W",
-    "machine_type": "pachinko",
-    "slot_number": "235",
-    "text": "本日21時頃！！ B1F 4円パチンコ235番台 　e東京喰種MWにて  コンプリート達成！！ おめでとうございます！！",
-    "x_url": "https://x.com/RAKUEN_ohmiya/status/2074832380041576569",
-    "store_handle": "rakuen_ohmiya",
-    "store_x_url": "https://x.com/rakuen_ohmiya",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-10T17:11:20Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMtI-q0agAA5wWp?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMtI-q0agAA5wWp?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "04950fcd53"
-  },
-  {
     "id": "20e9c07e6a54",
     "date": "2026-07-08",
     "time": "20:48",
@@ -222,30 +200,6 @@
     "image_url": "https://pbs.twimg.com/media/HMsbuxBbsAAff0s?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
     "store_id": "771f030669"
-  },
-  {
-    "id": "85738b7be92a",
-    "date": "2026-07-08",
-    "time": "18:00",
-    "store": "メッセ三鷹店",
-    "machine": "eブルーロック",
-    "machine_type": "pachinko",
-    "slot_number": "376",
-    "text": "本日もご来店ありがとうございます、店長です。  なんと昨日、376番台のブルーロックがコンプリートいたしました！ 圧倒的なデータを前に私も震えております。  さすがは創業周年月間。 皆さまの引きの強さとフロアの熱気には感服です。  この衝撃を更新していけるよう日々感謝を伝えて参ります。",
-    "x_url": "https://x.com/messe_mitaka/status/2075142922324885719",
-    "store_handle": "messe_mitaka",
-    "store_x_url": "https://x.com/messe_mitaka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-10T16:40:32Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMxDaIxakAAHXVA?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMxDhbnboAAwn24?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMxDlzlb0AAV3Vv?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMxDaIxakAAHXVA?format=jpg&name=large",
-    "machine_id": "8242d72f-0825-4c89-820a-c5f4b5c96a0b",
-    "store_id": "8409531db2"
   },
   {
     "id": "1c4fdb94759e",
