@@ -180,5 +180,27 @@
     "image_url": "https://pbs.twimg.com/media/HM51_RObsAA25WT?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
     "store_id": "dae931c16e"
+  },
+  {
+    "id": "0552053e09a1",
+    "date": "2026-07-10",
+    "time": "07:10",
+    "store": "ニラク北本深井店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "７月１０日（金）スロットコーナーより 新台Ｌからくりサーカス２ＪＧ  コンプリート機能発動 おめでとうございます  #コンプリート  #からくりサーカス #ニラク北本",
+    "x_url": "https://x.com/29_kitamoto/status/2075704114491638128",
+    "store_handle": "29_kitamoto",
+    "store_x_url": "https://x.com/29_kitamoto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T18:06:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM5gczQb0AEc0WX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM5gczQb0AEc0WX?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "b5621dfb98"
   }
 ]
