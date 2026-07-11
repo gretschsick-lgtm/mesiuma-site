@@ -22,6 +22,28 @@
     "store_id": "5d87041776"
   },
   {
+    "id": "f4a8eb0bb4ea",
+    "date": "2026-07-10",
+    "time": "18:38",
+    "store": "マルハンメガシティ柏",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1023",
+    "text": "コンプリート速報  【1023番台　からくりサーカス２】 新台３日目の快挙 大迫力のコンプリートでした 本当におめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2075514961401634857",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T16:28:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM21px9aMAANNy-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM21px9aMAANNy-?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "e5e18632fd"
+  },
+  {
     "id": "6291032919a0",
     "date": "2026-07-10",
     "time": "18:31",
@@ -88,6 +110,28 @@
     "image_url": "https://pbs.twimg.com/media/HM2KmZibwAE3kTM?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "cf70bb294d"
+  },
+  {
+    "id": "47b121cc3b5c",
+    "date": "2026-07-10",
+    "time": "15:09",
+    "store": "DSGアリーナ高岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "アリーナ速報  夕方前にコンプリート発生  #e牙狼12黄金騎士極限 #ＬＩＭＩＴＳＴＯＰ  ご遊技されていたお客様も とっても喜ばれておりました  おめでとうございます  お仕事終わりは #たかあり で決まり♬",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2075462334211092938",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T16:28:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM2FxOoa4AAJtnD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM2FxOoa4AAJtnD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c774e988a7"
   },
   {
     "id": "166e6700ee2c",
