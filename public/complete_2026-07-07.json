@@ -80,7 +80,7 @@
     "store_x_url": "https://x.com/niga_maru",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-11T18:29:02Z",
+    "collected_at": "2026-07-11T19:43:53Z",
     "images": [
       "https://pbs.twimg.com/media/HMociN7bgAAKgdW?format=jpg&name=large"
     ],
@@ -644,28 +644,6 @@
     "image_url": "https://pbs.twimg.com/media/HMn88OQacAAMsZJ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "cbc9c2710d"
-  },
-  {
-    "id": "a17c90ef925c",
-    "date": "2026-07-07",
-    "time": "21:17",
-    "store": "ダイナム長野上田店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "本日も牙狼よりコンプリートです 流石の一言でございます ホントにおめでとうございます  まだ営業時間はありますので 皆様のコンプ報告ありましたら 共有させて頂きます  #コンプリート #牙狼 #ダイナム  #長野県ダイナム #信州ダイナム #長野上田店",
-    "x_url": "https://x.com/dynam_00440/status/2074467920273653823",
-    "store_handle": "dynam_00440",
-    "store_x_url": "https://x.com/dynam_00440",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-11T18:29:08Z",
-    "images": [
-      "https://pbs.twimg.com/media/HMn9GGZasAA3TgO?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HMn9GGZasAA3TgO?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "b42f5fe289"
   },
   {
     "id": "ab67b610a8ba",
