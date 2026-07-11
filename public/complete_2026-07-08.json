@@ -272,6 +272,30 @@
     "store_id": "771f030669"
   },
   {
+    "id": "85738b7be92a",
+    "date": "2026-07-08",
+    "time": "18:00",
+    "store": "メッセ三鷹店",
+    "machine": "eブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "376",
+    "text": "本日もご来店ありがとうございます、店長です。  なんと昨日、376番台のブルーロックがコンプリートいたしました！ 圧倒的なデータを前に私も震えております。  さすがは創業周年月間。 皆さまの引きの強さとフロアの熱気には感服です。  この衝撃を更新していけるよう日々感謝を伝えて参ります。",
+    "x_url": "https://x.com/messe_mitaka/status/2075142922324885719",
+    "store_handle": "messe_mitaka",
+    "store_x_url": "https://x.com/messe_mitaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T07:48:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMxDaIxakAAHXVA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMxDhbnboAAwn24?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMxDlzlb0AAV3Vv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMxDaIxakAAHXVA?format=jpg&name=large",
+    "machine_id": "8242d72f-0825-4c89-820a-c5f4b5c96a0b",
+    "store_id": "8409531db2"
+  },
+  {
     "id": "1fe404b79889",
     "date": "2026-07-08",
     "time": "17:39",
