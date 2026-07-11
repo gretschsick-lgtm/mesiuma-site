@@ -22,6 +22,52 @@
     "store_id": "1fa35fdc7d"
   },
   {
+    "id": "798d20cf2665",
+    "date": "2026-07-06",
+    "time": "23:07",
+    "store": "メガフェイス960飯塚",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "503",
+    "text": "本日のMVP  スロット503番台 Lかぐや様 16,573Pt.  パチンコ314番台 eキン肉マン 95,120Pt.  本日は\"キン肉マン\"が コンプリート達成しました  おめでとうございます  明日は周年です 盛り上げていきましょう  #メガフェイス960飯塚",
+    "x_url": "https://x.com/megaface_960/status/2074133063517471188",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T04:27:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMjNA13aQAAoSFb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMjNA12b0AAfFhh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMjNA13aQAAoSFb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "4130ca6374"
+  },
+  {
+    "id": "6e82cbd1419a",
+    "date": "2026-07-06",
+    "time": "23:07",
+    "store": "メガフェイス960飯塚",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日のMVP  スロット503番台 Lかぐや様 16,573Pt.  パチンコ314番台 eキン肉マン 95,120Pt.  本日は\"キン肉マン\"が コンプリート達成しました  おめでとうございます  明日は周年です 盛り上げていきましょう  #メガフェイス960飯塚",
+    "x_url": "https://x.com/megaface_960/status/2074133063517471188",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T04:27:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMjNA13aQAAoSFb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMjNA12b0AAfFhh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMjNA13aQAAoSFb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "4130ca6374"
+  },
+  {
     "id": "1659256ccae5",
     "date": "2026-07-06",
     "time": "22:40",
@@ -64,6 +110,28 @@
     "image_url": "https://pbs.twimg.com/media/HMjGZuna4AAoKd4?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "341c9ef1a4"
+  },
+  {
+    "id": "c4cc74f9d426",
+    "date": "2026-07-06",
+    "time": "21:22",
+    "store": "メガフェイス960飯塚",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "◤◢速報◤◢  こんばんは 只今 　　\"【eキン肉マン】\" 　　　　　　　　　がなんと...  ◤◢◤◢◤◢◤◢◤◢◤◢◤◢  コンプリート達成 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢  おめでとうございます  この流れで明日も盛り上げるぞ〜  #メガフェイス960飯塚 #コンプリート",
+    "x_url": "https://x.com/megaface_960/status/2074106634088137178",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T04:27:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMi0-shasAABDMs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMi0-shasAABDMs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "4130ca6374"
   },
   {
     "id": "4ec3986a25bb",

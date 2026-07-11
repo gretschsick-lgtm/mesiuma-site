@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-07-11T09:40:09+09:00",
+  "generated_at": "2026-07-11T13:52:32+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 257,
+      "total_count": 266,
       "stores": [
         {
           "rank": 1,
+          "name": "テキサス白島店",
+          "count": 9,
+          "x_url": "https://x.com/texashakushima"
+        },
+        {
+          "rank": 2,
+          "name": "メガフェイス960飯塚",
+          "count": 7,
+          "x_url": "https://x.com/megaface_960"
+        },
+        {
+          "rank": 3,
           "name": "パラッツォ船橋店",
           "count": 7,
           "x_url": "https://x.com/palazzo_funa"
         },
         {
-          "rank": 2,
+          "rank": 4,
           "name": "ARROW浪速店",
           "count": 6,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 3,
+          "rank": 5,
+          "name": "楽園大宮店",
+          "count": 6,
+          "x_url": "https://x.com/rakuen_ohmiya"
+        },
+        {
+          "rank": 6,
           "name": "メガフェイス1450本山",
           "count": 6,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 4,
-          "name": "テキサス白島店",
-          "count": 6,
-          "x_url": "https://x.com/texashakushima"
-        },
-        {
-          "rank": 5,
+          "rank": 7,
           "name": "ニューアサヒ長野青木島店",
           "count": 5,
           "x_url": "https://x.com/tenchoufujimori"
         },
         {
-          "rank": 6,
+          "rank": 8,
           "name": "イーグルアールワン南8条店",
           "count": 5,
           "x_url": "https://x.com/eagle_c_tencho"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "name": "楽園池袋店ゲートウェイ",
           "count": 5,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
-          "rank": 8,
-          "name": "楽園大宮店",
-          "count": 5,
-          "x_url": "https://x.com/rakuen_ohmiya"
-        },
-        {
-          "rank": 9,
+          "rank": 10,
           "name": "ビックマーチ東習志野店",
           "count": 5,
           "x_url": "https://x.com/joypackx"
-        },
-        {
-          "rank": 10,
-          "name": "新ガーデン西浦和",
-          "count": 5,
-          "x_url": "https://x.com/g_nishiurawa"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 69
+          "count": 70
         },
         {
           "rank": 2,
@@ -81,12 +81,12 @@
         {
           "rank": 3,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 12
+          "count": 13
         },
         {
           "rank": 4,
           "name": "スロット ソードアート・オンラインⅡ",
-          "count": 8
+          "count": 9
         },
         {
           "rank": 5,
@@ -110,13 +110,13 @@
         },
         {
           "rank": 9,
-          "name": "スマスロゴッドイーター",
+          "name": "Lかぐや様は告らせたい",
           "count": 4
         },
         {
           "rank": 10,
-          "name": "Lかぐや様は告らせたい",
-          "count": 3
+          "name": "スマスロゴッドイーター",
+          "count": 4
         }
       ],
       "pachinko_machines": [
@@ -133,17 +133,17 @@
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 14
+          "count": 16
         },
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 10
+          "count": 11
         },
         {
           "rank": 5,
           "name": "eフィーバーキン肉マン",
-          "count": 5
+          "count": 7
         },
         {
           "rank": 6,
@@ -577,7 +577,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 185
+        "count": 186
       },
       {
         "rank": 2,
@@ -592,7 +592,7 @@
       {
         "rank": 4,
         "name": "スロット ソードアート・オンラインⅡ",
-        "count": 25
+        "count": 26
       },
       {
         "rank": 5,
@@ -612,7 +612,7 @@
       {
         "rank": 8,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 13
+        "count": 14
       },
       {
         "rank": 9,
@@ -639,12 +639,12 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 42
+        "count": 44
       },
       {
         "rank": 4,
         "name": "e東京喰種W",
-        "count": 22
+        "count": 23
       },
       {
         "rank": 5,
@@ -654,7 +654,7 @@
       {
         "rank": 6,
         "name": "eフィーバーキン肉マン",
-        "count": 13
+        "count": 15
       },
       {
         "rank": 7,
@@ -677,7 +677,7 @@
         "count": 4
       }
     ],
-    "total_count": 769
+    "total_count": 778
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
@@ -690,26 +690,26 @@
     "ニューアサヒ長野青木島店": 14,
     "キング観光サウザンド栄若宮大通店": 14,
     "メガフェイス1300淀川": 14,
+    "楽園大宮店": 13,
     "サガちゃんPARK": 13,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 13,
     "プレイランドキャッスル春日井店": 13,
+    "テキサス白島店": 12,
     "マルハン松本店": 12,
-    "楽園大宮店": 12,
     "キクヤ春日井店": 12,
     "マルハン川越店": 12,
     "FACE1300小倉南店": 11,
     "ダイナム長野上田店": 11,
     "プレイランドキャッスル熱田店": 10,
+    "メガフェイス960飯塚": 10,
     "メガフェイス1070菊陽": 10,
     "マルハン佐賀店実績": 9,
-    "テキサス白島店": 9,
     "やすだ八潮店": 8,
     "SPACE(スペース444＆666)": 8,
     "パラッツォ船橋店": 8,
     "イーグルアールワン南8条店": 8,
     "SUPER CONCORDE": 8,
     "パチンコの玉屋∞本店": 7,
-    "メガフェイス960飯塚": 7,
     "新ガーデン北戸田駅前": 7,
     "キャッスル天白店": 7,
     "SuperD'station東金店": 7,
@@ -750,6 +750,7 @@
     "マルハン青梅新町店【イイじゃん!】": 4,
     "グランドホール港南店": 4,
     "ウイングあすと長町店": 3,
+    "パラッツォ大阪三国店": 3,
     "ユーコーラッキー長崎駅前店☆": 3,
     "ダイナム滋賀彦根店～Since2025.7.18～": 3,
     "GOGOアリーナ天神": 3,
@@ -817,7 +818,6 @@
     "テキサス656山口店": 1,
     "ニラク北本深井店": 1,
     "ＢＩＧディッパー京都駅前店": 1,
-    "パラッツォ大阪三国店": 1,
     "ニューヨーク出水店": 1,
     "キコーナ府中": 1,
     "キング観光サウザンド栄東新町店": 1,
