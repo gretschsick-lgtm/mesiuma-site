@@ -1026,6 +1026,29 @@
     "store_id": "53a1ab0c58"
   },
   {
+    "id": "bca4d6c33ef1",
+    "date": "2026-07-07",
+    "time": "19:54",
+    "store": "ピーアーク北千住エリア",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "710",
+    "text": "7月7日（火） ピーアーク北千住SSS トリエス 710番台 L 革命機ヴァルヴレイヴ  ピーアーク北千住 1043番台 L革命機ヴァルヴレイヴ2  Wコンプリート達成  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2074446965291794883",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T11:58:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnqhNhaIAAGyZ0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMnqhNkbQAAbM_s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnqhNhaIAAGyZ0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8282115e87"
+  },
+  {
     "id": "cd27a17eee33",
     "date": "2026-07-07",
     "time": "19:49",

@@ -1,5 +1,93 @@
 [
   {
+    "id": "fc5700e69950",
+    "date": "2026-07-11",
+    "time": "20:45",
+    "store": "パラディソ古川ドルフィン館",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは  本日も多くのお客様にご来店いただき ありがとうございました  パチンココーナーよりお知らせ e牙狼１２黄金騎士極限 コンプリート達成しました 　おめでとうございます  この後もごゆっくりお楽しみください  #牙狼 #コンプリート #スマパチ #古川ドルフィン",
+    "x_url": "https://x.com/paradiso_furdol/status/2075909216166990167",
+    "store_handle": "paradiso_furdol",
+    "store_x_url": "https://x.com/paradiso_furdol",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T12:00:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8bDN9aIAEEyHu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8bDN9aIAEEyHu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "142c75164f"
+  },
+  {
+    "id": "58942ddc1573",
+    "date": "2026-07-11",
+    "time": "20:01",
+    "store": "つばめザ・ビーム",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "66",
+    "text": "365日！毎日に楽しさのビーム！  月日(土) コンプリート   革命機ヴァルヴレイヴ2 66番台 コンプおめでとうございます  #スマスロ #スロット #コンプ #コンプリート #ヴヴヴ2 #ヴァルヴレイヴ #驚きは無し",
+    "x_url": "https://x.com/Tsubame_Beam/status/2075898147344458015",
+    "store_handle": "tsubame_beam",
+    "store_x_url": "https://x.com/tsubame_beam",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T11:46:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8SCzsacAABA3m?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8SCzsacAABA3m?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3cb8faad6e"
+  },
+  {
+    "id": "d105f72458f7",
+    "date": "2026-07-11",
+    "time": "19:03",
+    "store": "ユーコーラッキー37太宰府店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】   本日、当店設置の「ヴァルヴレイヴ」にて コンプリート機能が発動いたしました!!!   ご遊技いただき、誠にありがとうございました。 この後ご来店をお待ちしております！",
+    "x_url": "https://x.com/yuko_dazaifu/status/2075883573727592670",
+    "store_handle": "yuko_dazaifu",
+    "store_x_url": "https://x.com/yuko_dazaifu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T12:00:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8FGvkasAATyy5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8FGvkasAATyy5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "85ed302b85"
+  },
+  {
+    "id": "44d427d55d41",
+    "date": "2026-07-11",
+    "time": "17:08",
+    "store": "ユーコーラッキー37太宰府店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成】  本日、当店設置の「からくりサーカス2」にて コンプリート機能が発動いたしました!!!  ご遊技いただき、誠にありがとうございました。 この後ご来店をお待ちしております！",
+    "x_url": "https://x.com/yuko_dazaifu/status/2075854619981586470",
+    "store_handle": "yuko_dazaifu",
+    "store_x_url": "https://x.com/yuko_dazaifu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T12:00:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM7qxPhaMAAwvPq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM7qxPhaMAAwvPq?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "85ed302b85"
+  },
+  {
     "id": "596a761b55a6",
     "date": "2026-07-11",
     "time": "16:57",
