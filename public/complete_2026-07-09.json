@@ -45,6 +45,29 @@
     "store_id": "2e3d2677f8"
   },
   {
+    "id": "9bdc76688e9f",
+    "date": "2026-07-09",
+    "time": "20:54",
+    "store": "ワンダーランド1188福岡東店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報  Ｌかぐや様は告らせたい　コンプリート達成  どれだけ告白し告白されたんでしょうか  コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/wl_fkhigashi/status/2075186778890441099",
+    "store_handle": "wl_fkhigashi",
+    "store_x_url": "https://x.com/wl_fkhigashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T00:31:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMyKhV6a4AAPecL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMtWD3VagAEL8Dh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMyKhV6a4AAPecL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "4a358354ff"
+  },
+  {
     "id": "e35c9eb3cd39",
     "date": "2026-07-09",
     "time": "20:50",
