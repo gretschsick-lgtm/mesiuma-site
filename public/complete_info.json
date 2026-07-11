@@ -44,6 +44,30 @@
     "store_id": "3cb8faad6e"
   },
   {
+    "id": "74430e92a64f",
+    "date": "2026-07-11",
+    "time": "19:41",
+    "store": "テキサス小倉店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  7月11日(土)　  まだまだ行くぜ ＼2台目コンプリート達成／   803番台▶︎▶︎▶︎▶︎ e東京喰種  　　　　　　　　　　　　 コンプリートも僕のだぞ  おめでとうございます！！ #テキサス1111 #でちゃう取材",
+    "x_url": "https://x.com/texas_kokura/status/2075893273672220739",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T13:03:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8N64eaEAAiy1f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM8N65vaQAAWp-c?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM8N65wa4AMXFMn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8N64eaEAAiy1f?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "d105f72458f7",
     "date": "2026-07-11",
     "time": "19:03",
@@ -834,6 +858,29 @@
     "image_url": "https://pbs.twimg.com/media/HMs8ckwa0AEWguI?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "b06d0873ca"
+  },
+  {
+    "id": "d7b3b68aab82",
+    "date": "2026-07-08",
+    "time": "18:50",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e東京リベンジャーズ",
+    "machine_type": "pachinko",
+    "slot_number": "121",
+    "text": "本日、新台 121番台 e東京リベンジャーズ聖夜 コンプリート達成 #7月8日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2074793253355106538",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T13:13:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMsldg_a0AABIgI?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMqq0O4aEAA3OIH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMsldg_a0AABIgI?format=jpg&name=large",
+    "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "b9184812c773",
