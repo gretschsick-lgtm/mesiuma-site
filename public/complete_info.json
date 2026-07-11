@@ -1,5 +1,27 @@
 [
   {
+    "id": "596a761b55a6",
+    "date": "2026-07-11",
+    "time": "16:57",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "500",
+    "text": "500番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2075851914303226044",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-11T09:18:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM7oT2ZbkAAHcOh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM7oT2ZbkAAHcOh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "7ac364008f"
+  },
+  {
     "id": "e984724d82c3",
     "date": "2026-07-11",
     "time": "16:15",
