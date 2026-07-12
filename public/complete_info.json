@@ -431,6 +431,28 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "3346bdacb9cc",
+    "date": "2026-07-11",
+    "time": "20:09",
+    "store": "ワンダーランド1177谷山店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "速報!! e牙狼12からコンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/wl_taniyama/status/2075900351262417328",
+    "store_handle": "wl_taniyama",
+    "store_x_url": "https://x.com/wl_taniyama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-12T08:31:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8USpKaEAA0Psw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8USpKaEAA0Psw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e5b15421f1"
+  },
+  {
     "id": "58942ddc1573",
     "date": "2026-07-11",
     "time": "20:01",
@@ -3254,6 +3276,28 @@
     "store_id": "036ad33f3f"
   },
   {
+    "id": "0b9b0e79da67",
+    "date": "2026-07-07",
+    "time": "18:32",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "2131",
+    "text": "楽園池袋店ゲートウェイです  本日、7月7日(火)   4円パチンココーナーから   2131番台　 【e牙狼12黄金騎士極限】    2台目のコンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2074426438904856680",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-12T08:00:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnXPpfasAAfcVM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnXPpfasAAfcVM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "5dcd8e6bc225",
     "date": "2026-07-07",
     "time": "18:06",
@@ -4372,14 +4416,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-11T23:29:21Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "4a358354ff",
-    "image_url": "https://pbs.twimg.com/media/HMdqBnubAAAuos6.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HMdqBnubAAAuos6.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMdqBnubAAAuos6?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMdqDeEasAE4pZO?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HMa0hyma8AAgV_G?format=jpg&name=large"
-    ]
+    "store_id": "4a358354ff"
   },
   {
     "id": "3251f9a96c50",
