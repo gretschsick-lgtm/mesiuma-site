@@ -299,6 +299,29 @@
     "store_id": "dcbb4c52ca"
   },
   {
+    "id": "a14cb1571ae9",
+    "date": "2026-07-11",
+    "time": "21:07",
+    "store": "メガフェイス1070菊陽",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "520",
+    "text": "さらにさらに 520番台 eリコリス・リコイル コンプリート達成 #7月11日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2075914834634490337",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-12T12:07:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8hiaGbwAAnrKN?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM8fcZqawAA3Avq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8hiaGbwAAnrKN?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "fc5700e69950",
     "date": "2026-07-11",
     "time": "20:45",
