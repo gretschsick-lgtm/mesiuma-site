@@ -1641,6 +1641,28 @@
     "store_id": "cd7a76c703"
   },
   {
+    "id": "6d396ad07e90",
+    "date": "2026-07-09",
+    "time": "20:55",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "400",
+    "text": "400番台ｅ東京喰種ｗから コンプリートです おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2075187141416788330",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-12T20:49:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMyLhUMbcAALQN1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMyLhUMbcAALQN1?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "9bdc76688e9f",
     "date": "2026-07-09",
     "time": "20:54",
