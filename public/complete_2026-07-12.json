@@ -231,6 +231,28 @@
     "store_id": "ae3ae0c75f"
   },
   {
+    "id": "afb2e0a60fc4",
+    "date": "2026-07-12",
+    "time": "16:22",
+    "store": "マルハン吉田店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "e東京喰種からコンプリート達成！ おめでとうございます  羨ましい",
+    "x_url": "https://x.com/MH_tencho1010/status/2076205440904655011",
+    "store_handle": "mh_tencho1010",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/MH_tencho1010",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-12T17:11:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNAngYsbMAAI6-D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNAngYsbMAAI6-D?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "3a6334a19a"
+  },
+  {
     "id": "5426384790bf",
     "date": "2026-07-12",
     "time": "15:46",
