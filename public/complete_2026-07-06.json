@@ -156,6 +156,28 @@
     "store_id": "ef707cf8fe"
   },
   {
+    "id": "02c0d5cd55f7",
+    "date": "2026-07-06",
+    "time": "21:30",
+    "store": "M&K岡崎店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1211",
+    "text": "1211番台・1212番台 並びコンプリートおめでとうございます #Ｌヴァルヴレイヴ2 #コンプリート #mk岡崎 #今週のおすすめ機種",
+    "x_url": "https://x.com/MKokazaki/status/2074108740899610769",
+    "store_handle": "mkokazaki",
+    "store_x_url": "https://x.com/mkokazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-12T10:18:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMi25Qtb0AAyqYa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMi25Qtb0AAyqYa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "341c9ef1a4"
+  },
+  {
     "id": "c4cc74f9d426",
     "date": "2026-07-06",
     "time": "21:22",
