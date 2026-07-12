@@ -1561,6 +1561,30 @@
     "store_id": "f6cd9d33ba"
   },
   {
+    "id": "a4995c6f340a",
+    "date": "2026-07-07",
+    "time": "17:50",
+    "store": "ダイナム",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日 7/7(火)  #石川ダイナム 全店 合同賞品入荷  朝から多数様ご来店 ありがとうございます  この後、お仕事帰りのご来店もお待ちしております  明日8日(水)  ダイナム小松店( @dynam_00169 )  新台入替 17時開店(予定)  #Lからくりサーカス2 導入予定  加賀店は 初日17時開店で コンプリート達成",
+    "x_url": "https://x.com/dynam_ishikawa/status/2074415671996494289",
+    "store_handle": "dynam_ishikawa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-07-12T18:18:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnNFi4awAAADZb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMnNKm6a8AA9Ss_?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMnNMslboAA_Rbg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnNFi4awAAADZb?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "7a402402d4"
+  },
+  {
     "id": "aea4f61035d8",
     "date": "2026-07-07",
     "time": "17:14",
