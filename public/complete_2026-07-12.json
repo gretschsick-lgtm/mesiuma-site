@@ -94,5 +94,28 @@
     "image_url": "https://pbs.twimg.com/media/HM8W3U5akAAn1n6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "ae3ae0c75f"
+  },
+  {
+    "id": "5426384790bf",
+    "date": "2026-07-12",
+    "time": "15:46",
+    "store": "テキサス段原店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんにちは！ テキサス段原店です  No223 #牙狼黄金騎士極限 コンプリート達成 おめでとうございます  Congratulations  本日もこの後、２２時４５分頃まで 営業しております 最後まで段テキでお楽しみください",
+    "x_url": "https://x.com/Texas_danbara/status/2076196417262309604",
+    "store_handle": "texas_danbara",
+    "store_x_url": "https://x.com/texas_danbara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-12T12:59:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNAhoYXbMAAM0EU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNAhoYmbcAARmDM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNAhoYXbMAAM0EU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "cf70bb294d"
   }
 ]
