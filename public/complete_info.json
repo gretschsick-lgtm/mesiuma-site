@@ -410,6 +410,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "ae989668eab1",
+    "date": "2026-07-11",
+    "time": "23:10",
+    "store": "メガフェイス1450本山",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "764",
+    "text": "コンプリート速報  7月11日(土) な、なんと本日3台目です  764番台 e牙狼12黄金騎士極限  やはり最後はこちらの台 おめでとうございます  またのご来店お待ちしております  #メガフェイス1450本山店 #e牙狼12黄金騎士極限 #コンプリート",
+    "x_url": "https://x.com/megaface_1450/status/2075945706280415577",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T05:01:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM86IcWbUAAz_lT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM86IcWbUAAz_lT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "ecac5fac8937",
     "date": "2026-07-11",
     "time": "22:49",
@@ -2964,6 +2986,28 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "a17c90ef925c",
+    "date": "2026-07-07",
+    "time": "21:17",
+    "store": "ダイナム長野上田店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日も牙狼よりコンプリートです 流石の一言でございます ホントにおめでとうございます  まだ営業時間はありますので 皆様のコンプ報告ありましたら 共有させて頂きます  #コンプリート #牙狼 #ダイナム  #長野県ダイナム #信州ダイナム #長野上田店",
+    "x_url": "https://x.com/dynam_00440/status/2074467920273653823",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T04:32:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMn9GGZasAA3TgO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMn9GGZasAA3TgO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "b42f5fe289"
+  },
+  {
     "id": "ab67b610a8ba",
     "date": "2026-07-07",
     "time": "21:16",
@@ -3297,6 +3341,28 @@
     "image_url": "https://pbs.twimg.com/media/HMn0DNcasAAbOMP?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "b6859066d461",
+    "date": "2026-07-07",
+    "time": "20:34",
+    "store": "メガフェイス960飯塚",
+    "machine": "Lアズールレーン2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "◤◢速報◤◢  こんばんは 只今 　　\"【Lアズールレーン】\" 　　　　　　　　　がなんと...  ◤◢◤◢◤◢◤◢◤◢◤◢◤◢  コンプリート達成 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢  おめでとうございます  店内まだまだ盛り上がってます お時間ある方はぜひ飯塚店へ",
+    "x_url": "https://x.com/megaface_960/status/2074456964038635932",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T04:44:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnzTRtasAApiXR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnzTRtasAApiXR?format=jpg&name=large",
+    "machine_id": "cc397c5c-3872-4d97-a65c-b99e27374223",
+    "store_id": "4130ca6374"
   },
   {
     "id": "36a20703422e",

@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-07-13T09:37:01+09:00",
+  "generated_at": "2026-07-13T14:09:34+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 351,
+      "total_count": 354,
       "stores": [
         {
           "rank": 1,
+          "name": "メガフェイス1450本山",
+          "count": 9,
+          "x_url": "https://x.com/megaface_1450"
+        },
+        {
+          "rank": 2,
           "name": "テキサス白島店",
           "count": 9,
           "x_url": "https://x.com/texashakushima"
         },
         {
-          "rank": 2,
-          "name": "メガフェイス1450本山",
+          "rank": 3,
+          "name": "メガフェイス960飯塚",
           "count": 8,
-          "x_url": "https://x.com/megaface_1450"
+          "x_url": "https://x.com/megaface_960"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "メガフェイス1070菊陽",
           "count": 7,
           "x_url": "https://x.com/megaface_1070"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "ビックマーチ東習志野店",
           "count": 7,
           "x_url": "https://x.com/joypackx"
-        },
-        {
-          "rank": 5,
-          "name": "メガフェイス960飯塚",
-          "count": 7,
-          "x_url": "https://x.com/megaface_960"
         },
         {
           "rank": 6,
@@ -123,12 +123,12 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 41
+          "count": 42
         },
         {
           "rank": 2,
           "name": "e牙狼12",
-          "count": 26
+          "count": 27
         },
         {
           "rank": 3,
@@ -532,15 +532,15 @@
       },
       {
         "rank": 4,
-        "name": "楽園池袋店ゲートウェイ",
+        "name": "メガフェイス1450本山",
         "count": 17,
-        "x_url": "https://x.com/rakuenikebukuro"
+        "x_url": "https://x.com/megaface_1450"
       },
       {
         "rank": 5,
-        "name": "メガフェイス1450本山",
-        "count": 16,
-        "x_url": "https://x.com/megaface_1450"
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 17,
+        "x_url": "https://x.com/rakuenikebukuro"
       },
       {
         "rank": 6,
@@ -629,12 +629,12 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 93
+        "count": 94
       },
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 83
+        "count": 84
       },
       {
         "rank": 3,
@@ -677,14 +677,14 @@
         "count": 4
       }
     ],
-    "total_count": 823
+    "total_count": 826
   },
   "store_complete_counts": {
     "テキサス小倉店": 19,
     "ARROW浪速店": 19,
     "ビックマーチ東習志野店": 18,
+    "メガフェイス1450本山": 17,
     "楽園池袋店ゲートウェイ": 17,
-    "メガフェイス1450本山": 16,
     "キング観光サウザンド栄若宮大通店": 16,
     "マルハンメガシティ三島駿東": 15,
     "メガフェイス1300淀川": 15,
@@ -693,15 +693,15 @@
     "ニューアサヒ長野青木島店": 14,
     "プレイランドキャッスル春日井店": 14,
     "サガちゃんPARK": 13,
+    "ダイナム長野上田店": 12,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 12,
     "キクヤ春日井店": 12,
     "マルハン川越店": 12,
     "テキサス白島店": 11,
     "楽園大宮店": 11,
+    "メガフェイス960飯塚": 11,
     "FACE1300小倉南店": 11,
-    "ダイナム長野上田店": 11,
     "マルハン松本店": 10,
-    "メガフェイス960飯塚": 10,
     "プレイランドキャッスル熱田店": 9,
     "キクヤ穂積店": 8,
     "SPACE(スペース444＆666)": 8,
