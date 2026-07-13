@@ -88,6 +88,29 @@
     "store_id": "ffbb0bd0fb"
   },
   {
+    "id": "55a64f545174",
+    "date": "2026-07-10",
+    "time": "20:59",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "550",
+    "text": "550番台 e東京喰種MW コンプリート達成 #7月10日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2075550521096868259",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T14:45:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM3WMwXakAAb5KI?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM1ZOOrbsAARFrL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM3WMwXakAAb5KI?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "340289845f04",
     "date": "2026-07-10",
     "time": "20:48",

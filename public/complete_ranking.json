@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-13T21:33:17+09:00",
+  "generated_at": "2026-07-13T23:57:01+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 363,
+      "total_count": 365,
       "stores": [
         {
           "rank": 1,
@@ -14,15 +14,15 @@
         },
         {
           "rank": 2,
-          "name": "テキサス白島店",
+          "name": "メガフェイス1070菊陽",
           "count": 9,
-          "x_url": "https://x.com/texashakushima"
+          "x_url": "https://x.com/megaface_1070"
         },
         {
           "rank": 3,
-          "name": "メガフェイス1070菊陽",
-          "count": 8,
-          "x_url": "https://x.com/megaface_1070"
+          "name": "テキサス白島店",
+          "count": 9,
+          "x_url": "https://x.com/texashakushima"
         },
         {
           "rank": 4,
@@ -86,7 +86,7 @@
         {
           "rank": 4,
           "name": "Lチバリヨ2ZB",
-          "count": 11
+          "count": 12
         },
         {
           "rank": 5,
@@ -138,7 +138,7 @@
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 13
+          "count": 14
         },
         {
           "rank": 5,
@@ -544,27 +544,27 @@
       },
       {
         "rank": 6,
+        "name": "メガフェイス1070菊陽",
+        "count": 16,
+        "x_url": "https://x.com/megaface_1070"
+      },
+      {
+        "rank": 7,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 16,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "ニューアサヒ長野青木島店",
         "count": 15,
         "x_url": "https://x.com/tenchoufujimori"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "マルハンメガシティ三島駿東",
         "count": 15,
         "x_url": "https://x.com/mega_mishima"
-      },
-      {
-        "rank": 9,
-        "name": "メガフェイス1070菊陽",
-        "count": 15,
-        "x_url": "https://x.com/megaface_1070"
       },
       {
         "rank": 10,
@@ -602,7 +602,7 @@
       {
         "rank": 6,
         "name": "Lチバリヨ2ZB",
-        "count": 20
+        "count": 21
       },
       {
         "rank": 7,
@@ -644,7 +644,7 @@
       {
         "rank": 4,
         "name": "e東京喰種W",
-        "count": 23
+        "count": 24
       },
       {
         "rank": 5,
@@ -677,7 +677,7 @@
         "count": 4
       }
     ],
-    "total_count": 835
+    "total_count": 837
   },
   "store_complete_counts": {
     "テキサス小倉店": 21,
@@ -685,10 +685,10 @@
     "メガフェイス1450本山": 18,
     "ビックマーチ東習志野店": 18,
     "楽園池袋店ゲートウェイ": 17,
+    "メガフェイス1070菊陽": 16,
     "キング観光サウザンド栄若宮大通店": 16,
     "ニューアサヒ長野青木島店": 15,
     "マルハンメガシティ三島駿東": 15,
-    "メガフェイス1070菊陽": 15,
     "メガフェイス1300淀川": 15,
     "新ガーデン西浦和": 15,
     "プレイランドキャッスル春日井店": 14,
@@ -722,6 +722,7 @@
     "新ガーデン北戸田駅前": 7,
     "ピーアーク北千住エリア": 7,
     "SuperD'station東金店": 7,
+    "フェイス850佐賀": 6,
     "テキサス段原店": 6,
     "マルハンメガシティ柏": 6,
     "プレイランドキャッスル東郷店": 6,
@@ -738,7 +739,6 @@
     "パラッツォ鳩ヶ谷店": 5,
     "マルハン仙台名坊店": 5,
     "GOLD CONCORDE富士": 5,
-    "フェイス850佐賀": 5,
     "SuperD'station39福重店": 5,
     "キコーナ松戸": 4,
     "パラッツォ大阪三国店": 4,
