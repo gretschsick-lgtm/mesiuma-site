@@ -584,6 +584,28 @@
     "store_id": "b5b93b356b"
   },
   {
+    "id": "a39ed164c5df",
+    "date": "2026-07-11",
+    "time": "19:07",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "続きまして・・・ 令和パチ年7月 e東京喰種MW コンプリートおめでとうございます  #2番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2075884740121657405",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T19:24:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8GHZXbUAAxpqZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8GHZXbUAAxpqZ?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "703d5e39e5"
+  },
+  {
     "id": "58205494f1e3",
     "date": "2026-07-11",
     "time": "19:05",
@@ -626,6 +648,28 @@
     "image_url": "https://pbs.twimg.com/media/HM8FGvkasAATyy5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "85ed302b85"
+  },
+  {
+    "id": "998590d6a2ed",
+    "date": "2026-07-11",
+    "time": "18:58",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "1000",
+    "text": "令和パチ年7月 e東京喰種W コンプリートおめでとうございます  #1000番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2075882347912921266",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T19:24:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8D8s7awAEbAFM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8D8s7awAEbAFM?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "703d5e39e5"
   },
   {
     "id": "ef3faaaba756",

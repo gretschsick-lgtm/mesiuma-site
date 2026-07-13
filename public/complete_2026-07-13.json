@@ -109,5 +109,50 @@
     "image_url": "https://pbs.twimg.com/media/HNG_Ac5bEAAE8KV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "bb1fd7e8e2"
+  },
+  {
+    "id": "e9b3d4cbf7af",
+    "date": "2026-07-13",
+    "time": "21:11",
+    "store": "FACE1300小倉南店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "568",
+    "text": "◯コンプリート速報  568番台　eカケグルイ7500ver  コンプリート達成 おめでとう御座います  本日4台目のコンプリート 盛り上がりすぎてるっ  #コンプリート #カケグルイ #メガフェイス1300小倉南",
+    "x_url": "https://x.com/face_1300/status/2076640608547172580",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T19:40:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNG1n6xaAAAMkAH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNGfeONbUAA1TeK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNG1n6xaAAAMkAH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "989cb617af4f",
+    "date": "2026-07-13",
+    "time": "20:05",
+    "store": "ビックマーチ東習志野店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "537",
+    "text": "千葉最大1409台の出玉情報  本日もコンプリート 『537番台 e牙狼』 打っていたお客様おめでとうございます  牙狼を打つならビックマーチガオー  #牙狼千葉最大設置 #ビックマーチ",
+    "x_url": "https://x.com/joypackx/status/2076623936742473745",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T19:12:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNGmdyragAATNPd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNGmdyragAATNPd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e744c71a3d"
   }
 ]
