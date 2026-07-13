@@ -447,7 +447,13 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-13T12:25:11Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "ac9e0c0f5d"
+    "store_id": "ac9e0c0f5d",
+    "image_url": "https://pbs.twimg.com/media/HNAm__RaQAA_rxq.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HNAm__RaQAA_rxq.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNAm__RaQAA_rxq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_E7D9a8AAAYBm?format=jpg&name=large"
+    ]
   },
   {
     "id": "5426384790bf",
