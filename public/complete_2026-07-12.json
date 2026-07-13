@@ -276,6 +276,51 @@
     "store_id": "ae3ae0c75f"
   },
   {
+    "id": "312ccdbd8ff2",
+    "date": "2026-07-12",
+    "time": "19:48",
+    "store": "テキサス小倉店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "539",
+    "text": "こんばんは  テキサス小倉店です  7月12日  コンプリート達成   539番台 革命機ヴァルヴレイヴ 2   おめでとうございます  この後もご来店お待ちしております #コンプリート  #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2076257367709380697",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T12:25:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNBZDhlaYAATO-l?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNBZDhZbsAAjGOl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNBZDhlaYAATO-l?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "7be267e3ea"
+  },
+  {
+    "id": "a7d0ee7a8c6e",
+    "date": "2026-07-12",
+    "time": "19:44",
+    "store": "メガフェイス1450本山",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "757",
+    "text": "コンプリート速報  7月12日（日）  757番台　e牙狼12 #コンプリート　達成です  おめでとうございます  コンプリート羨ましい  #e牙狼12 #メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450/status/2076256414155379129",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T12:25:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNBRP-paIAAPzr3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNBRP-paIAAPzr3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "81a77c546da7",
     "date": "2026-07-12",
     "time": "19:36",
@@ -296,6 +341,29 @@
     "image_url": "https://pbs.twimg.com/media/HNBWREKawAAjkKs?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "c800581abf"
+  },
+  {
+    "id": "e9c110442bd5",
+    "date": "2026-07-12",
+    "time": "19:36",
+    "store": "パラッツォ大阪三国店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "793",
+    "text": "7/12（日） 793番台 Ｌ革命機ヴァルヴレイヴ２ #コンプリート 達成です  おめでとうございます  まだSANKYOBOXから良い報告をお待ちしてますよ この後のお時間からでもご来店お待ちしてます  明日も10：00より営業開始 皆様のご来店を心よりお待ちしております",
+    "x_url": "https://x.com/palazzo_mikuni/status/2076254408531493318",
+    "store_handle": "palazzo_mikuni",
+    "store_x_url": "https://x.com/palazzo_mikuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T12:25:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNBVZBQaMAA34VH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNBWQT5bwAA2yw0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNBVZBQaMAA34VH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f6a0acc322"
   },
   {
     "id": "1d7ac255cbd9",
@@ -362,6 +430,24 @@
     "image_url": "https://pbs.twimg.com/media/HNAngYsbMAAI6-D?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "3a6334a19a"
+  },
+  {
+    "id": "2fb381af7bdd",
+    "date": "2026-07-12",
+    "time": "16:09",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "473",
+    "text": "473番台 牙狼12 コンプリート達成 #7月12日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2076202320451469603",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T12:25:11Z",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "5426384790bf",
