@@ -89,6 +89,28 @@
     "store_id": "53cfcde9a2"
   },
   {
+    "id": "bb81bd306cae",
+    "date": "2026-07-13",
+    "time": "22:10",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "699",
+    "text": "こんばんは メガシティ三島駿東です  Ｌチバリヨ２ＺＢ 699番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2076655382445895934",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T00:26:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNHAWwGasAA6tmI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNHAWwGasAA6tmI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "6737d5f739c3",
     "date": "2026-07-13",
     "time": "21:52",
@@ -4687,6 +4709,28 @@
     "image_url": "https://pbs.twimg.com/media/HMnNFi4awAAADZb?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "7a402402d4"
+  },
+  {
+    "id": "98b22a8ca731",
+    "date": "2026-07-07",
+    "time": "17:43",
+    "store": "ゼント豊橋藤沢店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんとよ〜 だっちでぇ〜す  ｺｳﾊﾝｾﾝ  Lかぐや様は告らせたい コンプリート機能作動しました こちらの台は明日開放となります  まだまだお待ちしております  #フジゼン #ZENT豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi/status/2074413953384685896",
+    "store_handle": "zenttoyohashi",
+    "store_x_url": "https://x.com/zenttoyohashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T23:56:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnMfFdaIAAeO7b?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnMfFdaIAAeO7b?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "25a28fe066"
   },
   {
     "id": "aea4f61035d8",

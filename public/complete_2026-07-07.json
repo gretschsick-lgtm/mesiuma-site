@@ -1695,6 +1695,28 @@
     "store_id": "7a402402d4"
   },
   {
+    "id": "98b22a8ca731",
+    "date": "2026-07-07",
+    "time": "17:43",
+    "store": "ゼント豊橋藤沢店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんとよ〜 だっちでぇ〜す  ｺｳﾊﾝｾﾝ  Lかぐや様は告らせたい コンプリート機能作動しました こちらの台は明日開放となります  まだまだお待ちしております  #フジゼン #ZENT豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi/status/2074413953384685896",
+    "store_handle": "zenttoyohashi",
+    "store_x_url": "https://x.com/zenttoyohashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-13T23:56:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMnMfFdaIAAeO7b?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMnMfFdaIAAeO7b?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "25a28fe066"
+  },
+  {
     "id": "aea4f61035d8",
     "date": "2026-07-07",
     "time": "17:14",
