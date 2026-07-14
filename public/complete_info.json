@@ -1,27 +1,5 @@
 [
   {
-    "id": "c10c8d805dd5",
-    "date": "2026-07-14",
-    "time": "20:32",
-    "store": "イーグルアールワン南8条店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "665",
-    "text": "本日も出ました  665番台 ヴヴヴ2コンプリート達成  おめでとうございます",
-    "x_url": "https://x.com/eagle_c_tencho/status/2076993172685856963",
-    "store_handle": "eagle_c_tencho",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/eagle_c_tencho",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-07-14T15:24:20Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNL2R-2boAAfOBQ?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNL2R-2boAAfOBQ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "9ff188237d"
-  },
-  {
     "id": "ea50928001a0",
     "date": "2026-07-14",
     "time": "19:38",
@@ -57,7 +35,7 @@
     "store_x_url": "https://x.com/arrow_naniwa",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-14T15:24:24Z",
+    "collected_at": "2026-07-14T16:05:54Z",
     "images": [
       "https://pbs.twimg.com/media/HNHXCIybEAAan3k?format=jpg&name=large"
     ],
@@ -377,6 +355,28 @@
     "image_url": "https://pbs.twimg.com/media/HM9AzJ0bkAAvwam?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "864c220e8fa7",
+    "date": "2026-07-12",
+    "time": "23:16",
+    "store": "マルハン仙台苦竹店",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "678",
+    "text": "マルハン仙台苦竹店です。 7/12（日）23：00  678番台  Ｌミリオンゴッド-神々の軌跡-  コンプリート機能発動",
+    "x_url": "https://x.com/niga_maru/status/2076309813458534704",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:43:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "fb78bbe137"
   },
   {
     "id": "56594965454d",
@@ -737,6 +737,30 @@
     "image_url": "https://pbs.twimg.com/media/HNBrg14aEAAKujN?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000035",
     "store_id": "ef570556fc"
+  },
+  {
+    "id": "19f451c1e189",
+    "date": "2026-07-12",
+    "time": "20:47",
+    "store": "パラッツォ船橋店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2084",
+    "text": "コンプリート報告  2084番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリート達成 おめでとうございます  甲子園来店取材全国大会2026夏 １回戦でコンプリートが飛び出しました！ どんどん打ちまくれ～",
+    "x_url": "https://x.com/palazzo_funa/status/2076272268825809093",
+    "store_handle": "palazzo_funa",
+    "store_x_url": "https://x.com/palazzo_funa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T14:43:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNBlu16bQAAOFKX?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNBl9yVboAAdXu4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNBmBYiasAAw6c0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNBlu16bQAAOFKX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "208e7c8d7f"
   },
   {
     "id": "0e2e6a9208d5",
@@ -1284,6 +1308,28 @@
     "image_url": "https://pbs.twimg.com/media/HM83QecbIAAE2Xq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014",
     "store_id": "1674e7f5b3"
+  },
+  {
+    "id": "012fd45c34b3",
+    "date": "2026-07-11",
+    "time": "22:42",
+    "store": "キクヤ春日井店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "510",
+    "text": "7/11　キクヤ春日井店コンプリート情報！！  510番台「Lからくりサーカス２」  閉店直前での滑り込みコンプですと！？ おめでとうございますぅ",
+    "x_url": "https://x.com/315kasugai/status/2075938679391186995",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:06:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM82pacawAAr5zv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM82pacawAAr5zv?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "5a18003e2d"
   },
   {
     "id": "b6e2223c786d",
@@ -2226,6 +2272,29 @@
     "store_id": "4966644685"
   },
   {
+    "id": "8cb9d280f8bf",
+    "date": "2026-07-11",
+    "time": "14:15",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "257",
+    "text": "コンプリート速報 豊崎本館　257番台 革命機ヴァルヴレイヴ2が・・・ 早すぎる、速すぎる・・・complete！！  黒瀬ルイさんは台風で来店出来ていませんが 店内かなり盛り上がっています！！ この後お時間あればメガフェイス豊崎へ！！！",
+    "x_url": "https://x.com/megaface_1120/status/2075811299163021685",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:29:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM7Ce2naIAAjiIT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM7Cf4kbgAAXTnu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM7Ce2naIAAjiIT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "7eee61ea3e88",
     "date": "2026-07-11",
     "time": "13:37",
@@ -2832,6 +2901,29 @@
     "store_id": "d473c469be"
   },
   {
+    "id": "39c987242aa9",
+    "date": "2026-07-09",
+    "time": "15:44",
+    "store": "プレイランドキャッスル高浜店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "459",
+    "text": "ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! 【アソビの殿堂】からの 　　　　　速報ですッ！！！  パチスロ 　革命機ヴァルヴレイヴ2 　　　『459番台』にて コンプリート機能発動！！！ ※明日開放予定です。  本日９日ッ！！ 賞品：湖池屋 『ストロング』登場中！  お仕事・ご予定終わりは キャッスルへ！！",
+    "x_url": "https://x.com/Hara_Strong/status/2075108750994952262",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:43:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMxEPttaYAEVtwb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMxEU9wbEAAeq4n?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMxEPttaYAEVtwb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "4af5cc0d0b"
+  },
+  {
     "id": "00087f48b672",
     "date": "2026-07-09",
     "time": "07:03",
@@ -3150,6 +3242,28 @@
     "store_id": "771f030669"
   },
   {
+    "id": "90c3898ef0ff",
+    "date": "2026-07-08",
+    "time": "19:06",
+    "store": "ゼント豊橋藤沢店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんとよ〜だっちでぇ〜す  Lかぐや様は告らせたい！ コンプリート機能作動 昨日のじゃないの？って思われた方  7/8でございますよぉ〜  まだまだお待ちしております  #フジゼン #ZENT豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi/status/2074797341551546444",
+    "store_handle": "zenttoyohashi",
+    "store_x_url": "https://x.com/zenttoyohashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:06:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMspK5maYAAe1D3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMspK5maYAAe1D3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "25a28fe066"
+  },
+  {
     "id": "d7b3b68aab82",
     "date": "2026-07-08",
     "time": "18:50",
@@ -3239,6 +3353,28 @@
     "image_url": "https://pbs.twimg.com/media/HMsU_psbwAAJrkp?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "4af5cc0d0b"
+  },
+  {
+    "id": "da7624f1b0d9",
+    "date": "2026-07-08",
+    "time": "17:26",
+    "store": "将軍盛岡店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "７月８日（水）  ２０スロ最新台 「#スマスロからくりサーカス２」より コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/shogunmorioka/status/2074772209634324978",
+    "store_handle": "shogunmorioka",
+    "store_x_url": "https://x.com/shogunmorioka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:13:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMsQfjRaAAAUmHA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMsQfjRaAAAUmHA?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "6db7e456e3"
   },
   {
     "id": "1c4fdb94759e",

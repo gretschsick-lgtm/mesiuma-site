@@ -295,6 +295,28 @@
     "store_id": "771f030669"
   },
   {
+    "id": "90c3898ef0ff",
+    "date": "2026-07-08",
+    "time": "19:06",
+    "store": "ゼント豊橋藤沢店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんとよ〜だっちでぇ〜す  Lかぐや様は告らせたい！ コンプリート機能作動 昨日のじゃないの？って思われた方  7/8でございますよぉ〜  まだまだお待ちしております  #フジゼン #ZENT豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi/status/2074797341551546444",
+    "store_handle": "zenttoyohashi",
+    "store_x_url": "https://x.com/zenttoyohashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:06:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMspK5maYAAe1D3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMspK5maYAAe1D3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "25a28fe066"
+  },
+  {
     "id": "d7b3b68aab82",
     "date": "2026-07-08",
     "time": "18:50",
@@ -384,6 +406,28 @@
     "image_url": "https://pbs.twimg.com/media/HMsU_psbwAAJrkp?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "4af5cc0d0b"
+  },
+  {
+    "id": "da7624f1b0d9",
+    "date": "2026-07-08",
+    "time": "17:26",
+    "store": "将軍盛岡店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "７月８日（水）  ２０スロ最新台 「#スマスロからくりサーカス２」より コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/shogunmorioka/status/2074772209634324978",
+    "store_handle": "shogunmorioka",
+    "store_x_url": "https://x.com/shogunmorioka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:13:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMsQfjRaAAAUmHA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMsQfjRaAAAUmHA?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "6db7e456e3"
   },
   {
     "id": "1c4fdb94759e",
