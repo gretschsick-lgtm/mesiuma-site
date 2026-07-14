@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-15T00:23:29+09:00",
+  "generated_at": "2026-07-15T01:04:54+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 400,
+      "total_count": 401,
       "stores": [
         {
           "rank": 1,
@@ -32,15 +32,15 @@
         },
         {
           "rank": 5,
-          "name": "マルハンメガシティ水戸赤塚",
+          "name": "ARROW浪速店",
           "count": 8,
-          "x_url": "https://x.com/maruhanakatsuka"
+          "x_url": "https://x.com/arrow_naniwa"
         },
         {
           "rank": 6,
-          "name": "パラッツォ船橋店",
+          "name": "マルハンメガシティ水戸赤塚",
           "count": 8,
-          "x_url": "https://x.com/palazzo_funa"
+          "x_url": "https://x.com/maruhanakatsuka"
         },
         {
           "rank": 7,
@@ -50,9 +50,9 @@
         },
         {
           "rank": 8,
-          "name": "ARROW浪速店",
+          "name": "パラッツォ船橋店",
           "count": 7,
-          "x_url": "https://x.com/arrow_naniwa"
+          "x_url": "https://x.com/palazzo_funa"
         },
         {
           "rank": 9,
@@ -62,9 +62,9 @@
         },
         {
           "rank": 10,
-          "name": "ニューアサヒ長野青木島店",
+          "name": "イーグルアールワン南8条店",
           "count": 6,
-          "x_url": "https://x.com/tenchoufujimori"
+          "x_url": "https://x.com/eagle_c_tencho"
         }
       ],
       "slot_machines": [
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 21
+          "count": 22
         },
         {
           "rank": 4,
@@ -520,15 +520,15 @@
       },
       {
         "rank": 2,
-        "name": "ビックマーチ東習志野店",
+        "name": "ARROW浪速店",
         "count": 18,
-        "x_url": "https://x.com/joypackx"
+        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 3,
-        "name": "ARROW浪速店",
-        "count": 17,
-        "x_url": "https://x.com/arrow_naniwa"
+        "name": "ビックマーチ東習志野店",
+        "count": 18,
+        "x_url": "https://x.com/joypackx"
       },
       {
         "rank": 4,
@@ -639,7 +639,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 40
+        "count": 41
       },
       {
         "rank": 4,
@@ -677,12 +677,12 @@
         "count": 4
       }
     ],
-    "total_count": 801
+    "total_count": 802
   },
   "store_complete_counts": {
     "テキサス小倉店": 20,
+    "ARROW浪速店": 18,
     "ビックマーチ東習志野店": 18,
-    "ARROW浪速店": 17,
     "楽園池袋店ゲートウェイ": 17,
     "メガフェイス1070菊陽": 16,
     "メガフェイス1450本山": 15,
@@ -701,9 +701,9 @@
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 11,
     "キクヤ春日井店": 11,
     "ダイナム長野上田店": 10,
+    "イーグルアールワン南8条店": 9,
     "やすだ八潮店": 9,
     "パチンコの玉屋∞本店": 9,
-    "パラッツォ船橋店": 9,
     "キャッスル天白店": 9,
     "マルハン松本店": 9,
     "楽園大宮店": 9,
@@ -711,7 +711,7 @@
     "SPACE(スペース444＆666)": 8,
     "プレイランドキャッスル高浜店": 8,
     "エムディー目黒店": 8,
-    "イーグルアールワン南8条店": 8,
+    "パラッツォ船橋店": 8,
     "マルハン佐賀店実績": 8,
     "マルハンメガシティ柏": 7,
     "マルハンメガシティ伊勢崎": 7,

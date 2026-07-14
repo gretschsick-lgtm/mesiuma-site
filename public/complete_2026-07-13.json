@@ -1,5 +1,27 @@
 [
   {
+    "id": "fa336fd156ff",
+    "date": "2026-07-13",
+    "time": "23:38",
+    "store": "ARROW浪速店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "480",
+    "text": "本日、  e東京喰種　480番台  コンプリート達成　おめでとうございます #パチンコ　#コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2076677679915680087",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T15:24:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNHXCIybEAAan3k?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNHXCIybEAAan3k?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "83089d792b00",
     "date": "2026-07-13",
     "time": "22:48",
