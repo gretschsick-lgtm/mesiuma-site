@@ -288,6 +288,28 @@
     "store_id": "e744c71a3d"
   },
   {
+    "id": "5f17c501a4b0",
+    "date": "2026-07-13",
+    "time": "20:01",
+    "store": "メガフェイス930朝倉",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "467",
+    "text": "激速報〜‼︎  入れ替え後…     初の  新台コンプリート発動‼︎ おめでとう御座います  Lからくりサーカス2 『467番台』  #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2076622969204580530",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T17:45:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNGk8Uya4AARNVi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNGk8Uya4AARNVi?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "e88b656fb5"
+  },
+  {
     "id": "62c75192e093",
     "date": "2026-07-13",
     "time": "19:49",
@@ -399,6 +421,28 @@
     "image_url": "https://pbs.twimg.com/media/HM9AzJ0bkAAvwam?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "864c220e8fa7",
+    "date": "2026-07-12",
+    "time": "23:16",
+    "store": "マルハン仙台苦竹店",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "678",
+    "text": "マルハン仙台苦竹店です。 7/12（日）23：00  678番台  Ｌミリオンゴッド-神々の軌跡-  コンプリート機能発動",
+    "x_url": "https://x.com/niga_maru/status/2076309813458534704",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T18:15:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "fb78bbe137"
   },
   {
     "id": "56594965454d",

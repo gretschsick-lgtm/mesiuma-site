@@ -24,6 +24,28 @@
     "store_id": "7f6d7ae0f2"
   },
   {
+    "id": "864c220e8fa7",
+    "date": "2026-07-12",
+    "time": "23:16",
+    "store": "マルハン仙台苦竹店",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "678",
+    "text": "マルハン仙台苦竹店です。 7/12（日）23：00  678番台  Ｌミリオンゴッド-神々の軌跡-  コンプリート機能発動",
+    "x_url": "https://x.com/niga_maru/status/2076309813458534704",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T18:15:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "fb78bbe137"
+  },
+  {
     "id": "56594965454d",
     "date": "2026-07-12",
     "time": "22:53",
