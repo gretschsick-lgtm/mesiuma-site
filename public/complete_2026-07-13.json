@@ -198,5 +198,27 @@
     "image_url": "https://pbs.twimg.com/media/HNGmdyragAATNPd?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "e744c71a3d"
+  },
+  {
+    "id": "bc4447cbfeee",
+    "date": "2026-07-13",
+    "time": "18:18",
+    "store": "ビックマーチ水戸本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "620",
+    "text": "Lヴァルヴレイヴ2 620番台コンプリート達成 おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2076597210104594758",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T06:11:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNGOJfzaMAA94LQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNGOJfzaMAA94LQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "0ef83addce"
   }
 ]
