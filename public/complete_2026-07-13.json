@@ -265,5 +265,27 @@
     "image_url": "https://pbs.twimg.com/media/HNGOJfzaMAA94LQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "0ef83addce"
+  },
+  {
+    "id": "2d044a922e39",
+    "date": "2026-07-13",
+    "time": "15:36",
+    "store": "ミリオン宇多津店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1188",
+    "text": "コンプリートのお知らせです    1188番台  Ｌからくりサーカス2    以上ミリオン宇多津店からの お知らせでした⋆͛⋆",
+    "x_url": "https://x.com/mn_utazu/status/2076556303787565330",
+    "store_handle": "mn_utazu",
+    "store_x_url": "https://x.com/mn_utazu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T11:29:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNFo5JzagAAZgJH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNFo5JzagAAZgJH?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "bc6d6b4e4b"
   }
 ]
