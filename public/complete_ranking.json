@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-15T06:29:25+09:00",
+  "generated_at": "2026-07-15T08:38:58+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 413,
+      "total_count": 415,
       "stores": [
         {
           "rank": 1,
+          "name": "ビックマーチ東習志野店",
+          "count": 10,
+          "x_url": "https://x.com/joypackx"
+        },
+        {
+          "rank": 2,
           "name": "メガフェイス1450本山",
           "count": 10,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "テキサス白島店",
           "count": 10,
           "x_url": "https://x.com/texashakushima"
-        },
-        {
-          "rank": 3,
-          "name": "ビックマーチ東習志野店",
-          "count": 9,
-          "x_url": "https://x.com/joypackx"
         },
         {
           "rank": 4,
@@ -110,13 +110,13 @@
         },
         {
           "rank": 9,
-          "name": "Lかぐや様は告らせたい",
+          "name": "L真打吉宗",
           "count": 7
         },
         {
           "rank": 10,
-          "name": "L真打吉宗",
-          "count": 6
+          "name": "Lかぐや様は告らせたい",
+          "count": 7
         }
       ],
       "pachinko_machines": [
@@ -128,7 +128,7 @@
         {
           "rank": 2,
           "name": "e牙狼12",
-          "count": 34
+          "count": 35
         },
         {
           "rank": 3,
@@ -520,15 +520,15 @@
       },
       {
         "rank": 2,
-        "name": "ARROW浪速店",
-        "count": 18,
-        "x_url": "https://x.com/arrow_naniwa"
+        "name": "ビックマーチ東習志野店",
+        "count": 19,
+        "x_url": "https://x.com/joypackx"
       },
       {
         "rank": 3,
-        "name": "ビックマーチ東習志野店",
+        "name": "ARROW浪速店",
         "count": 18,
-        "x_url": "https://x.com/joypackx"
+        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 4,
@@ -634,7 +634,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 82
+        "count": 83
       },
       {
         "rank": 3,
@@ -677,12 +677,12 @@
         "count": 4
       }
     ],
-    "total_count": 814
+    "total_count": 816
   },
   "store_complete_counts": {
     "テキサス小倉店": 20,
+    "ビックマーチ東習志野店": 19,
     "ARROW浪速店": 18,
-    "ビックマーチ東習志野店": 18,
     "楽園池袋店ゲートウェイ": 17,
     "メガフェイス1070菊陽": 16,
     "メガフェイス1450本山": 15,
@@ -784,6 +784,7 @@
     "ダイナム岡山倉敷中島店": 3,
     "ヒノマル辰巳店": 3,
     "グランドホール港南店": 3,
+    "やすだひばりヶ丘店": 2,
     "ミリオン宇多津店": 2,
     "光サウザンド桑名本店": 2,
     "デマッセ梅津店・ライト館": 2,
@@ -862,7 +863,6 @@
     "マルハン下松店": 1,
     "キャッスル記念橋南店": 1,
     "プラザ本店Ⅱ": 1,
-    "やすだひばりヶ丘店": 1,
     "キング観光サウザンド今池1号店": 1,
     "キクヤ長良店": 1
   }
