@@ -1,5 +1,49 @@
 [
   {
+    "id": "420605fed181",
+    "date": "2026-07-14",
+    "time": "22:38",
+    "store": "京都駅前ラッキーパチンコ店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "62",
+    "text": "eリコリス・リコイル　62番台 コンプリート達成  おめでとうございます  本日も多数様のご来店 誠にありがとうございます   https:// p-town.dmm.com/shops/kyoto/70 57 …  #京都駅前ラッキー　#京都駅前　 #コンプリート #パチンコ　#パチスロ",
+    "x_url": "https://x.com/K_E_lucky/status/2077025012343837161",
+    "store_handle": "k_e_lucky",
+    "store_x_url": "https://x.com/k_e_lucky",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T16:47:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNMTODHaUAAJcC5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNMTODHaUAAJcC5?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "b06d0873ca"
+  },
+  {
+    "id": "c10c8d805dd5",
+    "date": "2026-07-14",
+    "time": "20:32",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "665",
+    "text": "本日も出ました  665番台 ヴヴヴ2コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/eagle_c_tencho/status/2076993172685856963",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-14T15:24:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNL2R-2boAAfOBQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNL2R-2boAAfOBQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "9ff188237d"
+  },
+  {
     "id": "ea50928001a0",
     "date": "2026-07-14",
     "time": "19:38",
