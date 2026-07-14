@@ -22,6 +22,29 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "69a5f7455796",
+    "date": "2026-07-13",
+    "time": "23:18",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "469",
+    "text": "コンプリート速報 豊崎Ⅱ　　469番台 e牙狼12黄金騎士極限　コンプリートです 隣同士でコンプリート オススメ機種が暴れた一日ですね おめでとうございます #玉ちゃんさん来店 #メガフェイス豊崎 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2076672657979031894",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T20:50:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNHSvEFbUAAchOi?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNHSwRAbUAA7kow?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNHSvEFbUAAchOi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "83089d792b00",
     "date": "2026-07-13",
     "time": "22:48",
@@ -153,6 +176,29 @@
     "image_url": "https://pbs.twimg.com/media/HNHAWwGasAA6tmI?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014",
     "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "e27ddb015d76",
+    "date": "2026-07-13",
+    "time": "21:56",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "468",
+    "text": "コンプリート速報 豊崎Ⅱ　　468番台 e牙狼12黄金騎士極限　コンプリート!!!!! おめでとうございます 流石オススメ機種ですね  #玉ちゃんさん来店 #メガフェイス豊崎 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2076652103616102583",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T20:50:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNG_subaMAAo1ZT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNG_t3jbMAAj3z8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNG_subaMAAo1ZT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "036ad33f3f"
   },
   {
     "id": "6737d5f739c3",
