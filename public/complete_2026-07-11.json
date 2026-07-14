@@ -361,6 +361,29 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "36ad143e2ec3",
+    "date": "2026-07-11",
+    "time": "20:56",
+    "store": "ピーアーク北千住エリア",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1041",
+    "text": "7月11日（土） ピーアーク北千住  1041番台 L からくりサーカス2 コンプリート達成  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2075912161113817214",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-14T19:00:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8fGKuaUAA83X7?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2041742649577893891/img/VTFrO_9Z4ivoYGvb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8fGKuaUAA83X7?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "8282115e87"
+  },
+  {
     "id": "fc5700e69950",
     "date": "2026-07-11",
     "time": "20:45",
