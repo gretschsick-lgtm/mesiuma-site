@@ -22,6 +22,51 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "d5908a6557ee",
+    "date": "2026-07-15",
+    "time": "22:00",
+    "store": "パラッツォ三郷中央店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "806",
+    "text": "ｺﾝﾅ時間ﾆｺﾝﾊﾞﾝﾐ ﾗﾝｷﾝｸﾞﾍﾟﾀﾍﾟﾀﾍﾟﾀｸﾞｰ  ｺﾝﾌﾟﾘｰﾄ ～Congratulations～ 806番台 e東京喰種W  Pﾗﾝｷﾝｸﾞに「東京喰種」がｲｯﾊﾟｲ 週間ｵｽｽﾒ機種もﾗﾝｸｲﾝ ﾊﾟﾗﾐｻのｵｽｽﾒは本当にｵｽｽﾒﾔﾃﾞ  明日も””#揺るぎなき熱量””",
+    "x_url": "https://x.com/palazzo_misato/status/2077377648595251217",
+    "store_handle": "palazzo_misato",
+    "store_x_url": "https://x.com/palazzo_misato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T19:02:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNRStg7awAAhIB7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNRSvuJagAANT0_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNRStg7awAAhIB7?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "4ca478a01a"
+  },
+  {
+    "id": "a4e631eac3c7",
+    "date": "2026-07-15",
+    "time": "21:59",
+    "store": "ワンダーランド武雄店",
+    "machine": "L無職転生～異世界行ったら本気だす～",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 ～ワンダーランド武雄店～  ｅ無職転生～異世界行ったら本気だす～  おめでとうございます",
+    "x_url": "https://x.com/wl_takeo/status/2077377618719178895",
+    "store_handle": "wl_takeo",
+    "store_x_url": "https://x.com/wl_takeo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T19:01:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNRTvRpbgAAu_kQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNRTvRpbgAAu_kQ?format=jpg&name=large",
+    "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036",
+    "store_id": "83a44a3e46"
+  },
+  {
     "id": "118577065133",
     "date": "2026-07-15",
     "time": "21:54",

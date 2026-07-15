@@ -290,6 +290,28 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "02fb862a1f52",
+    "date": "2026-07-10",
+    "time": "15:03",
+    "store": "マルハンメガシティ八千代緑が丘",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "L革命機ヴァルヴレイヴ2jF 一撃コンプリート達成おめでとうございます！",
+    "x_url": "https://x.com/maruhanmidori/status/2075460871141400667",
+    "store_handle": "maruhanmidori",
+    "store_x_url": "https://x.com/maruhanmidori",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T19:26:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM2D15Ka0AEm8kj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM2D15Ka0AEm8kj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "39314b64e0"
+  },
+  {
     "id": "166e6700ee2c",
     "date": "2026-07-10",
     "time": "11:11",

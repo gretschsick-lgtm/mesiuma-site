@@ -293,6 +293,29 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "48760111c4a3",
+    "date": "2026-07-09",
+    "time": "14:45",
+    "store": "ヒノマル辰巳店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "614",
+    "text": "こんにちは ただいまの遊技成果  スロット L革命機ヴァルヴレイブ2　614番台　10,300pt  革命機ヴァルヴレイヴ２が早くも大台突破 ...スゴイ  新台のからくりサーカス2は導入済み マイジャグラー増台済み  この後もまだまだお時間ございます。 是非ともご来店下さいませ",
+    "x_url": "https://x.com/hinomaru_5ii/status/2075093843201175851",
+    "store_handle": "hinomaru_5ii",
+    "store_x_url": "https://x.com/hinomaru_5ii",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T18:54:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMwzi5IbgAAzFWN?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMwzuT6bEAAUAbR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMwzi5IbgAAzFWN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "b8be6f3aad"
+  },
+  {
     "id": "00087f48b672",
     "date": "2026-07-09",
     "time": "07:03",
