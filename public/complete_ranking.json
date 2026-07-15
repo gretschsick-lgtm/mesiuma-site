@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-15T09:34:47+09:00",
+  "generated_at": "2026-07-15T13:37:50+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 415,
+      "total_count": 420,
       "stores": [
         {
           "rank": 1,
+          "name": "テキサス白島店",
+          "count": 13,
+          "x_url": "https://x.com/texashakushima"
+        },
+        {
+          "rank": 2,
           "name": "ビックマーチ東習志野店",
           "count": 10,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "メガフェイス1450本山",
           "count": 10,
           "x_url": "https://x.com/megaface_1450"
-        },
-        {
-          "rank": 3,
-          "name": "テキサス白島店",
-          "count": 10,
-          "x_url": "https://x.com/texashakushima"
         },
         {
           "rank": 4,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 101
+          "count": 104
         },
         {
           "rank": 2,
@@ -106,7 +106,7 @@
         {
           "rank": 8,
           "name": "L東京喰種",
-          "count": 8
+          "count": 9
         },
         {
           "rank": 9,
@@ -550,34 +550,34 @@
       },
       {
         "rank": 7,
+        "name": "テキサス白島店",
+        "count": 15,
+        "x_url": "https://x.com/texashakushima"
+      },
+      {
+        "rank": 8,
         "name": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
         "count": 14,
         "x_url": "https://x.com/megaface_1120"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "マルハンメガシティ三島駿東",
         "count": 14,
         "x_url": "https://x.com/mega_mishima"
       },
       {
-        "rank": 9,
-        "name": "ニューアサヒ長野青木島店",
-        "count": 14,
-        "x_url": "https://x.com/tenchoufujimori"
-      },
-      {
         "rank": 10,
-        "name": "新ガーデン西浦和",
+        "name": "メガフェイス1300淀川",
         "count": 14,
-        "x_url": "https://x.com/g_nishiurawa"
+        "x_url": "https://x.com/megaface_1300"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 195
+        "count": 198
       },
       {
         "rank": 2,
@@ -606,12 +606,12 @@
       },
       {
         "rank": 7,
-        "name": "スマスロ攻殻機動隊",
-        "count": 15
+        "name": "L東京喰種",
+        "count": 16
       },
       {
         "rank": 8,
-        "name": "L東京喰種",
+        "name": "スマスロ攻殻機動隊",
         "count": 15
       },
       {
@@ -621,7 +621,7 @@
       },
       {
         "rank": 10,
-        "name": "Lかぐや様は告らせたい",
+        "name": "L炎炎ノ消防隊2",
         "count": 13
       }
     ],
@@ -677,7 +677,7 @@
         "count": 4
       }
     ],
-    "total_count": 816
+    "total_count": 821
   },
   "store_complete_counts": {
     "テキサス小倉店": 20,
@@ -686,16 +686,16 @@
     "楽園池袋店ゲートウェイ": 17,
     "メガフェイス1070菊陽": 16,
     "メガフェイス1450本山": 15,
+    "テキサス白島店": 15,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 14,
     "マルハンメガシティ三島駿東": 14,
+    "メガフェイス1300淀川": 14,
     "ニューアサヒ長野青木島店": 14,
     "新ガーデン西浦和": 14,
     "キング観光サウザンド栄若宮大通店": 14,
-    "メガフェイス1300淀川": 13,
     "プレイランドキャッスル春日井店": 13,
     "FACE1300小倉南店": 12,
     "キクヤ春日井店": 12,
-    "テキサス白島店": 12,
     "サガちゃんPARK": 12,
     "マルハン川越店": 12,
     "マルハンメガシティ水戸赤塚": 11,
@@ -816,6 +816,7 @@
     "マルシェ赤羽店": 2,
     "ダイナム富山砺波店": 2,
     "りっちらんど上尾": 2,
+    "YASUDA9（東池袋9号店）": 1,
     "SuperD'station金古店": 1,
     "マルハン吉田店": 1,
     "ワンダーランド柳川": 1,

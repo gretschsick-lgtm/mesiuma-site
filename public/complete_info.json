@@ -490,6 +490,50 @@
     "store_id": "18425371bb"
   },
   {
+    "id": "f82edc1665c0",
+    "date": "2026-07-13",
+    "time": "19:33",
+    "store": "YASUDA9（東池袋9号店）",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "＜ｺﾝﾌﾟﾘｰﾄｿｸﾎｳ!!!  YASUDANO 初代ヴァルヴレイヴ コンプリート達成 おめでとうございます  この後もご来店お待ちしております ＜ﾏﾀﾞﾏﾀﾞｺﾚｶﾗ",
+    "x_url": "https://x.com/yasuda_ike7/status/2076616090311115161",
+    "store_handle": "yasuda_ike7",
+    "store_x_url": "https://x.com/yasuda_ike7",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T04:28:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNGfThCbYAAUpiK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNGfThCbYAAUpiK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3d7efeb79f"
+  },
+  {
+    "id": "2b2d88bc806a",
+    "date": "2026-07-13",
+    "time": "18:34",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "共闘は続く  あちらでも… こちらでも… 止まらない  Lヴァルヴレイヴ2 コンプリート達成   共闘店舗みんなで最高の一日を。 お客様の笑顔が何よりの力です  コンプリート達成、おめでとうございます",
+    "x_url": "https://x.com/megaface_1300/status/2076601116603883939",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T04:28:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNGRtQ6bMAANbkC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNGRtQ6bMAANbkC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "bc4447cbfeee",
     "date": "2026-07-13",
     "time": "18:18",
@@ -2515,6 +2559,78 @@
     "image_url": "https://pbs.twimg.com/media/HM6567Bb0AAvPbC?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "39314b64e0"
+  },
+  {
+    "id": "c18dbe5d4433",
+    "date": "2026-07-11",
+    "time": "11:00",
+    "store": "テキサス白島店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは テキサス白島店です  昨日のＢＥＳＴ台のご案内です #L炎炎ノ消防隊２ コンプリート達成  #L東京喰種 #L革命機ヴァルヴレイヴ２ その他データの確認はこちらから  https:// pscube.jp/dedamajyoho-P- townDMMpachi/c734005/ …  本日も皆様のご来店をお待ちしております  #テキサス #コンプリート #炎炎",
+    "x_url": "https://x.com/texashakushima/status/2076124384516026792",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T04:12:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM_DxGda0AEr-02?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_DyL3bQAAt8pl?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_D3KbboAACYhM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM_DxGda0AEr-02?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "dae931c16e"
+  },
+  {
+    "id": "7e0675b4e95b",
+    "date": "2026-07-11",
+    "time": "11:00",
+    "store": "テキサス白島店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは テキサス白島店です  昨日のＢＥＳＴ台のご案内です #L炎炎ノ消防隊２ コンプリート達成  #L東京喰種 #L革命機ヴァルヴレイヴ２ その他データの確認はこちらから  https:// pscube.jp/dedamajyoho-P- townDMMpachi/c734005/ …  本日も皆様のご来店をお待ちしております  #テキサス #コンプリート #炎炎",
+    "x_url": "https://x.com/texashakushima/status/2076124384516026792",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T04:12:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM_DxGda0AEr-02?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_DyL3bQAAt8pl?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_D3KbboAACYhM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM_DxGda0AEr-02?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "dae931c16e"
+  },
+  {
+    "id": "08a954cdfe9d",
+    "date": "2026-07-11",
+    "time": "11:00",
+    "store": "テキサス白島店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは テキサス白島店です  昨日のＢＥＳＴ台のご案内です #L炎炎ノ消防隊２ コンプリート達成  #L東京喰種 #L革命機ヴァルヴレイヴ２ その他データの確認はこちらから  https:// pscube.jp/dedamajyoho-P- townDMMpachi/c734005/ …  本日も皆様のご来店をお待ちしております  #テキサス #コンプリート #炎炎",
+    "x_url": "https://x.com/texashakushima/status/2076124384516026792",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T04:12:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM_DxGda0AEr-02?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_DyL3bQAAt8pl?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM_D3KbboAACYhM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM_DxGda0AEr-02?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "dae931c16e"
   },
   {
     "id": "4ffc17376fa7",
