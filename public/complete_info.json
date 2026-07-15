@@ -2516,6 +2516,29 @@
     "store_id": "4966644685"
   },
   {
+    "id": "cdb196a6b2f6",
+    "date": "2026-07-11",
+    "time": "14:54",
+    "store": "ワンダーランド武雄店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "718",
+    "text": "【週末…やっぱり武雄店が動きました!!】 ●ーーーーーーーーーーーーー●  　　本日 7月11日（土）　   　 　　ワンダーワンデー取材 　   　グループ全店 朝10時開店   ●ーーーーーーーーーーーーー●   「武雄店」「7月」「創業月間」 e牙狼12黄金騎士極限：718番台 早くもコンプリート達成",
+    "x_url": "https://x.com/wl_takeo/status/2075821095773696053",
+    "store_handle": "wl_takeo",
+    "store_x_url": "https://x.com/wl_takeo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T06:13:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM7KSMabEAAcdA-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM7K_F7asAA7L0-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM7KSMabEAAcdA-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "83a44a3e46"
+  },
+  {
     "id": "8cb9d280f8bf",
     "date": "2026-07-11",
     "time": "14:15",
@@ -3669,6 +3692,28 @@
     "image_url": "https://pbs.twimg.com/media/HMsU_psbwAAJrkp?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "4af5cc0d0b"
+  },
+  {
+    "id": "da7624f1b0d9",
+    "date": "2026-07-08",
+    "time": "17:26",
+    "store": "将軍盛岡店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "７月８日（水）  ２０スロ最新台 「#スマスロからくりサーカス２」より コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/shogunmorioka/status/2074772209634324978",
+    "store_handle": "shogunmorioka",
+    "store_x_url": "https://x.com/shogunmorioka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T06:12:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMsQfjRaAAAUmHA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMsQfjRaAAAUmHA?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "6db7e456e3"
   },
   {
     "id": "1c4fdb94759e",
