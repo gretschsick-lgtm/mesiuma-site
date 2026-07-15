@@ -406,30 +406,6 @@
     "store_id": "ef570556fc"
   },
   {
-    "id": "19f451c1e189",
-    "date": "2026-07-12",
-    "time": "20:47",
-    "store": "パラッツォ船橋店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "2084",
-    "text": "コンプリート報告  2084番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリート達成 おめでとうございます  甲子園来店取材全国大会2026夏 １回戦でコンプリートが飛び出しました！ どんどん打ちまくれ～",
-    "x_url": "https://x.com/palazzo_funa/status/2076272268825809093",
-    "store_handle": "palazzo_funa",
-    "store_x_url": "https://x.com/palazzo_funa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-15T14:47:08Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNBlu16bQAAOFKX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HNBl9yVboAAdXu4?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HNBmBYiasAAw6c0?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNBlu16bQAAOFKX?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "208e7c8d7f"
-  },
-  {
     "id": "0e2e6a9208d5",
     "date": "2026-07-12",
     "time": "20:20",
@@ -546,6 +522,29 @@
     "image_url": "https://pbs.twimg.com/media/HNBekqca8AA-c2U?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "fe04efdcd0"
+  },
+  {
+    "id": "1892ae3e030b",
+    "date": "2026-07-12",
+    "time": "19:52",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成  L革命機ヴァルヴレイヴ2 COMPLETE達成!!  止まらない衝撃。 鳴り止まない歓声。 そして…コンプリート。  MEGA FACE1300淀川、 この瞬間を見逃すな おめでとうございます",
+    "x_url": "https://x.com/megaface_1300/status/2076258274706669767",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T16:49:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNBZ5QIbQAAD08V?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNBZ5QKbQAAR8eJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNBZ5QIbQAAD08V?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
   },
   {
     "id": "312ccdbd8ff2",
@@ -702,6 +701,28 @@
     "image_url": "https://pbs.twimg.com/media/HNA2gTNaoAA75PQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "ae3ae0c75f"
+  },
+  {
+    "id": "5d7927f1669a",
+    "date": "2026-07-12",
+    "time": "16:40",
+    "store": "メガフェイス1300淀川",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成!!】  ​ Lスマスロ炎炎ノ消防隊2にて、 見事、コンプリート達成 ​ 本当におめでとうございます  ​#炎炎ノ消防隊 #コンプリート #メガフェイス1300淀川",
+    "x_url": "https://x.com/megaface_1300/status/2076209959730352176",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T16:49:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNAt7ZSbIAAs6gu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNAt7ZSbIAAs6gu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "5b93315c4d"
   },
   {
     "id": "afb2e0a60fc4",

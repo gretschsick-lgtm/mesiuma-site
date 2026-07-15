@@ -22,6 +22,52 @@
     "store_id": "b02201d0b9"
   },
   {
+    "id": "2fffb96dd3f4",
+    "date": "2026-07-09",
+    "time": "23:13",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "閉店前の滑り込み  ヴァルヴレイヴ2 北斗の拳 転生2  コンプリート達成御座います  #メガフェイス1300淀川 #コンプリート",
+    "x_url": "https://x.com/megaface_1300/status/2075221848414138637",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T16:49:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMyrRNKboAAsU3n?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMyrRNXaMAA41Za?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMyrRNKboAAsU3n?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
+    "id": "721b8b469ad0",
+    "date": "2026-07-09",
+    "time": "23:13",
+    "store": "メガフェイス1300淀川",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "閉店前の滑り込み  ヴァルヴレイヴ2 北斗の拳 転生2  コンプリート達成御座います  #メガフェイス1300淀川 #コンプリート",
+    "x_url": "https://x.com/megaface_1300/status/2075221848414138637",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-15T16:49:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HMyrRNKboAAsU3n?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HMyrRNXaMAA41Za?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HMyrRNKboAAsU3n?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "62fc4f880efe",
     "date": "2026-07-09",
     "time": "21:56",
