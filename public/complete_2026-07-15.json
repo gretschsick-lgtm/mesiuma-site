@@ -22,6 +22,28 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "ef8b524b1619",
+    "date": "2026-07-15",
+    "time": "22:13",
+    "store": "キクヤ一宮店",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "658",
+    "text": "658番台 17時27分頃 ミリオンゴッド-神々の軌跡- コンプリート おめでとうございます！",
+    "x_url": "https://x.com/ichinomiya1380/status/2077381091598713226",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T00:04:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNRXBwIaMAEI1cv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNRXBwIaMAEI1cv?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "1fa35fdc7d"
+  },
+  {
     "id": "d5908a6557ee",
     "date": "2026-07-15",
     "time": "22:00",
@@ -132,6 +154,28 @@
     "image_url": "https://pbs.twimg.com/media/HNQltvVbgAA1f7D?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "d5fbda7161"
+  },
+  {
+    "id": "4adc1d55df58",
+    "date": "2026-07-15",
+    "time": "17:19",
+    "store": "キクヤ一宮店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "522",
+    "text": "522番台 からくりサーカス2 17時12分頃 コンプリート おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2077307172418138574",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T00:04:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNQT3KCaQAAqQ_n?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNQT3KCaQAAqQ_n?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "1fa35fdc7d"
   },
   {
     "id": "a98b09267dc0",
