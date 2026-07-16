@@ -13,7 +13,7 @@
     "store_x_url": "https://x.com/mega_mishima",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-16T14:57:14Z",
+    "collected_at": "2026-07-16T15:35:14Z",
     "images": [
       "https://pbs.twimg.com/media/HNWbtjKa0AAS61g?format=jpg&name=large"
     ],
@@ -198,28 +198,6 @@
     "image_url": "https://pbs.twimg.com/media/HNQltvVbgAA1f7D?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "d5fbda7161"
-  },
-  {
-    "id": "486d5c891cb3",
-    "date": "2026-07-15",
-    "time": "17:25",
-    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "速報  本日月日(水) 黒木ねねさん( @janbari_nene )ご来店 604番台 Ｌからくりサーカス2jg  /／  #コンプリート達成  \\＼  おめでとうございますﾌﾞﾗﾎﾞｰ!  この後のお時間もぜひ 当店へお越しくださいませ  #ダイナム　#滋賀奈良もバズりたい",
-    "x_url": "https://x.com/dynam_00439/status/2077308435406971072",
-    "store_handle": "dynam_00439",
-    "store_x_url": "https://x.com/dynam_00439",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-16T15:24:33Z",
-    "images": [
-      "https://pbs.twimg.com/amplify_video_thumb/2077297828561637376/img/8eSCdeAvTa8BMz0D?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2077297828561637376/img/8eSCdeAvTa8BMz0D?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "store_id": "ef6da04b5b"
   },
   {
     "id": "4adc1d55df58",
@@ -2315,6 +2293,28 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "02efaa3289d4",
+    "date": "2026-07-11",
+    "time": "21:49",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e花の慶次～黄金の一撃～",
+    "machine_type": "pachinko",
+    "slot_number": "1181",
+    "text": "楽園池袋店ゲートウェイです  本日、7月11日(土) 4円パチンココーナーから   1181番台　 【e花の慶次～黄金の一撃】    2台目のコンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2075925325868105880",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T15:35:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8lSK2akAAei-s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8lSK2akAAei-s?format=jpg&name=large",
+    "machine_id": "92b9e76a-1949-4c72-830c-0850d77e6675",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "692444d80ebe",
     "date": "2026-07-11",
     "time": "21:35",
@@ -2359,28 +2359,6 @@
     "image_url": "https://pbs.twimg.com/media/HM8fagxasAAyP30?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "44b996496f"
-  },
-  {
-    "id": "31d2ca3cbb53",
-    "date": "2026-07-11",
-    "time": "21:20",
-    "store": "プレイランドキャッスル熱田店",
-    "machine": "ｅリング",
-    "machine_type": "pachinko",
-    "slot_number": "1612",
-    "text": "eリング 最恐領域　1612番台 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
-    "x_url": "https://x.com/castleatsuta/status/2075918237808947444",
-    "store_handle": "castleatsuta",
-    "store_x_url": "https://x.com/castleatsuta",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-16T14:57:30Z",
-    "images": [
-      "https://pbs.twimg.com/media/HM8kh4aaUAAnvsx?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HM8kh4aaUAAnvsx?format=jpg&name=large",
-    "machine_id": "bf723790-7fc9-4a52-b119-c0dc972c29e1",
-    "store_id": "cb0be1f296"
   },
   {
     "id": "2d2d79a1b8ec",
