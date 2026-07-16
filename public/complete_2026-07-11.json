@@ -360,6 +360,28 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "31d2ca3cbb53",
+    "date": "2026-07-11",
+    "time": "21:20",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "ｅリング",
+    "machine_type": "pachinko",
+    "slot_number": "1612",
+    "text": "eリング 最恐領域　1612番台 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2075918237808947444",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T14:57:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8kh4aaUAAnvsx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8kh4aaUAAnvsx?format=jpg&name=large",
+    "machine_id": "bf723790-7fc9-4a52-b119-c0dc972c29e1",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "2d2d79a1b8ec",
     "date": "2026-07-11",
     "time": "21:09",
