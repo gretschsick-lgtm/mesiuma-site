@@ -46,6 +46,28 @@
     "store_id": "1cd7e84e8e"
   },
   {
+    "id": "327f906c7ff2",
+    "date": "2026-07-16",
+    "time": "21:26",
+    "store": "サガちゃんPARK",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2040",
+    "text": "ヤッホー   2040番台 からくりサーカス２     コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2077731657826861372",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:57:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNWV6rFaMAAMfMG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNWV6rFaMAAMfMG?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "4fec72597609",
     "date": "2026-07-16",
     "time": "14:17",
