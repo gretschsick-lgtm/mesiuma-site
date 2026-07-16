@@ -1,5 +1,28 @@
 [
   {
+    "id": "eeadd58612f8",
+    "date": "2026-07-14",
+    "time": "23:33",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "481",
+    "text": "本日、  e牙狼12黄金騎士極限　481番台、551番台  コンプリート達成　おめでとうございます #パチンコ　#コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2077038804318540241",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:31:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNMfXZnawAAwR5t?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNMfXZlbcAAdrMz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNMfXZnawAAwR5t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "420605fed181",
     "date": "2026-07-14",
     "time": "22:38",
@@ -109,6 +132,28 @@
     "image_url": "https://pbs.twimg.com/media/HNFW8dDbgAAWf6f?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "f6a0acc322"
+  },
+  {
+    "id": "bfa1d107e009",
+    "date": "2026-07-14",
+    "time": "20:20",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "3277",
+    "text": "3277番台　Lパチスロ 革命機ヴァルヴレイヴ2   コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2076990273859817933",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:31:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNLzYERawAAnect?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNLzYERawAAnect?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "deaed970fa58",

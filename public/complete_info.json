@@ -1,5 +1,29 @@
 [
   {
+    "id": "7ac9edca9e39",
+    "date": "2026-07-16",
+    "time": "23:13",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【SPACE666】  結果発表！！！！ 本日16日 かぐや様は告らせたい　  706番台　17000枚over  革命機ヴァルヴレイヴ2　478番台　16000枚over  革命機ヴァルヴレイヴ2　492番台　13000枚over かぐや様がVVV2を抜いて1位でゴール コンプリートまでわずかでした。  万枚が12台over",
+    "x_url": "https://x.com/space666tobata/status/2077758514865610798",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:31:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNWsnzjagAAZY6E?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNWtpdkb0AA4Xrh?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNWuTJqbgAAlXXW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNWsnzjagAAZY6E?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "b91420661319",
     "date": "2026-07-16",
     "time": "22:00",
@@ -268,6 +292,29 @@
     "store_id": "d5fbda7161"
   },
   {
+    "id": "486d5c891cb3",
+    "date": "2026-07-15",
+    "time": "17:25",
+    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  本日月日(水) 黒木ねねさん( @janbari_nene )ご来店 604番台 Ｌからくりサーカス2jg  /／  #コンプリート達成  \\＼  おめでとうございますﾌﾞﾗﾎﾞｰ!  この後のお時間もぜひ 当店へお越しくださいませ  #ダイナム　#滋賀奈良もバズりたい",
+    "x_url": "https://x.com/dynam_00439/status/2077308435406971072",
+    "store_handle": "dynam_00439",
+    "store_x_url": "https://x.com/dynam_00439",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:30:14Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2077307661104902144/img/L2X9IS1NnaGFsVVO.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2077297828561637376/img/8eSCdeAvTa8BMz0D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2077307661104902144/img/L2X9IS1NnaGFsVVO.jpg?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "ef6da04b5b"
+  },
+  {
     "id": "4adc1d55df58",
     "date": "2026-07-15",
     "time": "17:19",
@@ -332,6 +379,29 @@
     "image_url": "https://pbs.twimg.com/media/HNQRB8daUAAkR71?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "cbc9c2710d"
+  },
+  {
+    "id": "eeadd58612f8",
+    "date": "2026-07-14",
+    "time": "23:33",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "481",
+    "text": "本日、  e牙狼12黄金騎士極限　481番台、551番台  コンプリート達成　おめでとうございます #パチンコ　#コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2077038804318540241",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:31:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNMfXZnawAAwR5t?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNMfXZlbcAAdrMz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNMfXZnawAAwR5t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "420605fed181",
@@ -443,6 +513,28 @@
     "image_url": "https://pbs.twimg.com/media/HNFW8dDbgAAWf6f?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "f6a0acc322"
+  },
+  {
+    "id": "bfa1d107e009",
+    "date": "2026-07-14",
+    "time": "20:20",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "3277",
+    "text": "3277番台　Lパチスロ 革命機ヴァルヴレイヴ2   コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2076990273859817933",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:31:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNLzYERawAAnect?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNLzYERawAAnect?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "deaed970fa58",
@@ -2671,6 +2763,28 @@
     "image_url": "https://pbs.twimg.com/media/HM8WvKqawAAyTLM?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "c774e988a7"
+  },
+  {
+    "id": "24b2cce308ee",
+    "date": "2026-07-11",
+    "time": "20:14",
+    "store": "楽園上新屋",
+    "machine": "スマスロ 化物語",
+    "machine_type": "slot",
+    "slot_number": "3355",
+    "text": "コンプリートのご報告  楽園上新屋店 L化物語　3355番台  ご遊技台を停止させて頂きます",
+    "x_url": "https://x.com/rakuenkamiaraya/status/2075901520168853998",
+    "store_handle": "rakuenkamiaraya",
+    "store_x_url": "https://x.com/rakuenkamiaraya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T18:00:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8VbdHacAAuajM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8VbdHacAAuajM?format=jpg&name=large",
+    "machine_id": "92105b27-3261-4af0-b2ed-24f63c5cd477",
+    "store_id": "4c31296b58"
   },
   {
     "id": "3346bdacb9cc",
