@@ -111,6 +111,28 @@
     "store_id": "d2b37d41c5"
   },
   {
+    "id": "cbed8ddee2d3",
+    "date": "2026-07-15",
+    "time": "19:52",
+    "store": "グランドホール港南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "118",
+    "text": "118番台 e牙狼12黄金騎士極限 コンプリート達成おめでとうございます さすがは黄金騎士ですね！！！ 明日以降もご来店お待ちしております！！！",
+    "x_url": "https://x.com/grand_konan/status/2077345430153953760",
+    "store_handle": "grand_konan",
+    "store_x_url": "https://x.com/grand_konan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T04:22:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNQ1_4DasAAz3Bg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNQ1_4DasAAz3Bg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "63ba670979"
+  },
+  {
     "id": "9b9ccf12ce96",
     "date": "2026-07-15",
     "time": "19:42",
