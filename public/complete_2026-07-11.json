@@ -314,6 +314,28 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "02efaa3289d4",
+    "date": "2026-07-11",
+    "time": "21:49",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e花の慶次～黄金の一撃～",
+    "machine_type": "pachinko",
+    "slot_number": "1181",
+    "text": "楽園池袋店ゲートウェイです  本日、7月11日(土) 4円パチンココーナーから   1181番台　 【e花の慶次～黄金の一撃】    2台目のコンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2075925325868105880",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T15:35:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8lSK2akAAei-s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8lSK2akAAei-s?format=jpg&name=large",
+    "machine_id": "92b9e76a-1949-4c72-830c-0850d77e6675",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "692444d80ebe",
     "date": "2026-07-11",
     "time": "21:35",
@@ -373,7 +395,7 @@
     "store_x_url": "https://x.com/castleatsuta",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-16T14:57:30Z",
+    "collected_at": "2026-07-16T16:57:57Z",
     "images": [
       "https://pbs.twimg.com/media/HM8kh4aaUAAnvsx?format=jpg&name=large"
     ],

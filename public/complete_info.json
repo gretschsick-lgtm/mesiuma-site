@@ -13,13 +13,59 @@
     "store_x_url": "https://x.com/mega_mishima",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-16T14:57:14Z",
+    "collected_at": "2026-07-16T15:35:14Z",
     "images": [
       "https://pbs.twimg.com/media/HNWbtjKa0AAS61g?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HNWbtjKa0AAS61g?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "4fec72597609",
+    "date": "2026-07-16",
+    "time": "14:17",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "459",
+    "text": "コンプリート速報 豊崎Ⅱ　459番台 e牙狼12黄金騎士極限　コンプリートです!!!!!  牙狼今週だけで何台目のコンプリートなのか  豊崎本館には橘リノさん来店中! 豊崎店へのご来店お待ちしております #メガフェイス豊崎 #橘リノさん #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2077623601688424668",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T16:58:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNUzKjhaQAAw2xV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNUzPj4a0AAhZor?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNUzKjhaQAAw2xV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "036ad33f3f"
+  },
+  {
+    "id": "c9a97a0202ef",
+    "date": "2026-07-15",
+    "time": "22:51",
+    "store": "マルハン佐賀店実績",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "541",
+    "text": "Ｌからくりサーカス２ 　　　541番台 　　　22時45分 　    コンプリート おめでとうございます #マルハン佐賀店実績",
+    "x_url": "https://x.com/since2011_8_11/status/2077390522663280917",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T17:08:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNRfHhYacAIUrE2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNRfMIVbMAAxr4A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNRfHhYacAIUrE2?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "40bee74824"
   },
   {
     "id": "2d4c34edb9d2",
@@ -133,6 +179,28 @@
     "store_id": "d2b37d41c5"
   },
   {
+    "id": "90b8cd2921cc",
+    "date": "2026-07-15",
+    "time": "21:16",
+    "store": "パチンコの玉屋∞新宮",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "639",
+    "text": "こんばんは 玉屋∞新宮です(/・ω・)/   先程639番台 『Lからくりサーカス2』 コンプリート達成致しました  #からくりサーカス2 #コンプリート",
+    "x_url": "https://x.com/tamaya_shingu/status/2077366727621677522",
+    "store_handle": "tamaya_shingu",
+    "store_x_url": "https://x.com/tamaya_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T17:08:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNRIVoHbIAAAOzE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNRIVoHbIAAAOzE?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "771dac8044"
+  },
+  {
     "id": "cbed8ddee2d3",
     "date": "2026-07-15",
     "time": "19:52",
@@ -198,28 +266,6 @@
     "image_url": "https://pbs.twimg.com/media/HNQltvVbgAA1f7D?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "d5fbda7161"
-  },
-  {
-    "id": "486d5c891cb3",
-    "date": "2026-07-15",
-    "time": "17:25",
-    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "速報  本日月日(水) 黒木ねねさん( @janbari_nene )ご来店 604番台 Ｌからくりサーカス2jg  /／  #コンプリート達成  \\＼  おめでとうございますﾌﾞﾗﾎﾞｰ!  この後のお時間もぜひ 当店へお越しくださいませ  #ダイナム　#滋賀奈良もバズりたい",
-    "x_url": "https://x.com/dynam_00439/status/2077308435406971072",
-    "store_handle": "dynam_00439",
-    "store_x_url": "https://x.com/dynam_00439",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-16T15:24:33Z",
-    "images": [
-      "https://pbs.twimg.com/amplify_video_thumb/2077297828561637376/img/8eSCdeAvTa8BMz0D?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2077297828561637376/img/8eSCdeAvTa8BMz0D?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "store_id": "ef6da04b5b"
   },
   {
     "id": "4adc1d55df58",
@@ -2315,6 +2361,28 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "02efaa3289d4",
+    "date": "2026-07-11",
+    "time": "21:49",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e花の慶次～黄金の一撃～",
+    "machine_type": "pachinko",
+    "slot_number": "1181",
+    "text": "楽園池袋店ゲートウェイです  本日、7月11日(土) 4円パチンココーナーから   1181番台　 【e花の慶次～黄金の一撃】    2台目のコンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2075925325868105880",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-16T15:35:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM8lSK2akAAei-s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM8lSK2akAAei-s?format=jpg&name=large",
+    "machine_id": "92b9e76a-1949-4c72-830c-0850d77e6675",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "692444d80ebe",
     "date": "2026-07-11",
     "time": "21:35",
@@ -2374,7 +2442,7 @@
     "store_x_url": "https://x.com/castleatsuta",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-16T14:57:30Z",
+    "collected_at": "2026-07-16T16:57:57Z",
     "images": [
       "https://pbs.twimg.com/media/HM8kh4aaUAAnvsx?format=jpg&name=large"
     ],
