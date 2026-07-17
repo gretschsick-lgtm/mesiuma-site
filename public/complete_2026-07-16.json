@@ -68,6 +68,28 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "35f9af170b6d",
+    "date": "2026-07-16",
+    "time": "16:36",
+    "store": "やすだ西池袋６号店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "63",
+    "text": "６３番台攻殻機動隊 コンプリートおめでとうございます",
+    "x_url": "https://x.com/yasuda_nakajuku/status/2077658528538558798",
+    "store_handle": "yasuda_nakajuku",
+    "store_x_url": "https://x.com/yasuda_nakajuku",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T12:42:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNVTaAabkAAnUGl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNVTaAabkAAnUGl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "9c57229900"
+  },
+  {
     "id": "4fec72597609",
     "date": "2026-07-16",
     "time": "14:17",

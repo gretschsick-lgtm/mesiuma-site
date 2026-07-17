@@ -1,5 +1,49 @@
 [
   {
+    "id": "0f7813243f77",
+    "date": "2026-07-17",
+    "time": "21:20",
+    "store": "SuperD'station東金店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは スーパーD'ステーション東金店です  本日も出ました e東京喰種 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後のお時間も ごゆっくりとお楽しみ下さいませ  #千葉 #東金 #Dステ #東京喰種 #スマパチ #コンプリート",
+    "x_url": "https://x.com/sd_tougane/status/2078092351432446412",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T12:45:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNbbur-a8AAOlnL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNbbur-a8AAOlnL?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "7f6d7ae0f2"
+  },
+  {
+    "id": "126227bd215d",
+    "date": "2026-07-17",
+    "time": "20:51",
+    "store": "楽園大宮店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "512",
+    "text": "先ほど！！ 地下パチンコ 512番台   eリコリス・リコイル にてコンプリート達成！！     おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2078085206498844940",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T12:46:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNbXcBgaoAA39LK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNbXcBgaoAA39LK?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "04950fcd53"
+  },
+  {
     "id": "b6b3ded5d2bc",
     "date": "2026-07-17",
     "time": "19:17",

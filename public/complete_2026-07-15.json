@@ -1,5 +1,23 @@
 [
   {
+    "id": "5c173a435cf1",
+    "date": "2026-07-15",
+    "time": "23:35",
+    "store": "キクヤ一宮店",
+    "machine": "モンキーターンV",
+    "machine_type": "slot",
+    "slot_number": "402",
+    "text": "402番台 22時26分頃 モンキーターンV コンプリート おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2077401735619059966",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T13:14:01Z",
+    "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0",
+    "store_id": "1fa35fdc7d"
+  },
+  {
     "id": "c9a97a0202ef",
     "date": "2026-07-15",
     "time": "22:51",
