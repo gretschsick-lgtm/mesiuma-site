@@ -112,46 +112,6 @@
     "store_id": "4af5cc0d0b"
   },
   {
-    "id": "8cb5c2a7c733",
-    "date": "2026-07-17",
-    "time": "18:45",
-    "store": "メガフェイス1450本山",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "1309",
-    "text": "コンプリート速報  7月17日（金）  1309番台にて ▰　▰　▰　▰　▰　▰ Lヴァルヴレイヴ2 ▰　▰　▰　▰　▰　▰  #コンプリート達成　です おめでとうございます～  これからの時間も ご来店お待ちしております  #メガフェイス1450本山 #VVV2",
-    "x_url": "https://x.com/megaface_1450/status/2078053343969112114",
-    "store_handle": "megaface_1450",
-    "store_x_url": "https://x.com/megaface_1450",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T18:38:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNa10lsaQAAX5Te?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNa10lsaQAAX5Te?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "44b996496f"
-  },
-  {
-    "id": "2e45ad003fbd",
-    "date": "2026-07-17",
-    "time": "18:07",
-    "store": "ワンダーランド1177谷山店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "牙狼12よりコンプリート!! お客様おめでとうございます。",
-    "x_url": "https://x.com/wl_taniyama/status/2078044015820464403",
-    "store_handle": "wl_taniyama",
-    "store_x_url": "https://x.com/wl_taniyama",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T18:38:37Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "e5b15421f1"
-  },
-  {
     "id": "a92bf26b6195",
     "date": "2026-07-17",
     "time": "15:06",
@@ -3655,24 +3615,6 @@
     "image_url": "https://pbs.twimg.com/media/HM73F2FaEAEeSCV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003",
     "store_id": "dae931c16e"
-  },
-  {
-    "id": "0094e7027069",
-    "date": "2026-07-11",
-    "time": "17:45",
-    "store": "マルハンメガシティ八千代緑が丘",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんばんは！ e牙狼12XX-MJ 本日2台目の牙狼！コンプリート達成！  まだまだご来店お待ちしております  #メガシティ八千代緑が丘",
-    "x_url": "https://x.com/maruhanmidori/status/2075864143312421123",
-    "store_handle": "maruhanmidori",
-    "store_x_url": "https://x.com/maruhanmidori",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T19:09:50Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "39314b64e0"
   },
   {
     "id": "908e82893a8b",
