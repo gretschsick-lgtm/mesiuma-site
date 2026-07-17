@@ -1,5 +1,27 @@
 [
   {
+    "id": "a92bf26b6195",
+    "date": "2026-07-17",
+    "time": "15:06",
+    "store": "キャッスル記念橋南店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "68",
+    "text": "キャッスル記念橋南店です。  ６８番台 e東京喰種　超デカ超一撃ver.  先ほどコンプリートしました。  遊技台の稼働を停止しております。 明日の開放をお待ちください！",
+    "x_url": "https://x.com/kinenbashi1010/status/2077998302944186689",
+    "store_handle": "kinenbashi1010",
+    "store_x_url": "https://x.com/kinenbashi1010",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T09:57:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNaDFvVasAAkQNR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNaDFvVasAAkQNR?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "e5a3df2192"
+  },
+  {
     "id": "1bc629dfeb75",
     "date": "2026-07-17",
     "time": "08:00",
