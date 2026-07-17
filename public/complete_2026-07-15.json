@@ -15,7 +15,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-17T13:14:01Z",
     "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0",
-    "store_id": "1fa35fdc7d"
+    "store_id": "1fa35fdc7d",
+    "image_url": "https://pbs.twimg.com/media/HNRp3ctaMAAieC0.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HNRp3ctaMAAieC0.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNRp3ctaMAAieC0?format=jpg&name=large"
+    ]
   },
   {
     "id": "c9a97a0202ef",
@@ -172,6 +177,28 @@
     "image_url": "https://pbs.twimg.com/media/HNRIVoHbIAAAOzE?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "771dac8044"
+  },
+  {
+    "id": "3d21a2c666a7",
+    "date": "2026-07-15",
+    "time": "20:06",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L ToLOVEるダークネス",
+    "machine_type": "slot",
+    "slot_number": "797",
+    "text": "本日2台目のコンプリート 797番台 ToLOVEるダークネス おめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2077349113092612304",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T16:24:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNQ6AUVagAAJoGY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNQ6AUVagAAJoGY?format=jpg&name=large",
+    "machine_id": "17984efc-a25c-4c14-9626-4ee87ea10822",
+    "store_id": "771f030669"
   },
   {
     "id": "cbed8ddee2d3",
