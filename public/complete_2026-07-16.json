@@ -37,7 +37,7 @@
     "store_x_url": "https://x.com/mjhosikuma",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-17T17:08:13Z",
+    "collected_at": "2026-07-17T16:24:15Z",
     "images": [
       "https://pbs.twimg.com/media/HNWfqY0bEAE37qj?format=jpg&name=large"
     ],
@@ -112,42 +112,6 @@
     "store_id": "9c57229900"
   },
   {
-    "id": "070c96e6395b",
-    "date": "2026-07-16",
-    "time": "20:54",
-    "store": "テキサス小倉店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "927",
-    "text": "こんばんは  テキサス小倉店です  7月16日  コンプリート達成   927番台 e牙狼12 黄金騎士極限   おめでとうございます  この後もご来店お待ちしております  #コンプリート  #テキサス小倉店",
-    "x_url": "https://x.com/texas_kokura/status/2077723531627167883",
-    "store_handle": "texas_kokura",
-    "store_x_url": "https://x.com/texas_kokura",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T17:08:13Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "7be267e3ea"
-  },
-  {
-    "id": "f4c8e3e2dfbd",
-    "date": "2026-07-16",
-    "time": "20:36",
-    "store": "FACE1300小倉南店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "【コンプリート達成】 e牙狼12黄金騎士極限 コンプリート達成 おめでとうございます #メガフェイス1300小倉南 #コンプリート",
-    "x_url": "https://x.com/face_1300/status/2077719047391862833",
-    "store_handle": "face_1300",
-    "store_x_url": "https://x.com/face_1300",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T17:08:13Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "18425371bb"
-  },
-  {
     "id": "35f9af170b6d",
     "date": "2026-07-16",
     "time": "16:36",
@@ -213,5 +177,27 @@
     "image_url": "https://pbs.twimg.com/media/HNZOUika0AAF444?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "bce5c48be3"
+  },
+  {
+    "id": "6d77ecc8fb74",
+    "date": "2026-07-16",
+    "time": "00:36",
+    "store": "楽園大宮店",
+    "machine": "eひきこまり吸血姫の悶々",
+    "machine_type": "pachinko",
+    "slot_number": "465",
+    "text": "昨日22時ごろ！！ 地下パチンコ465番台 eひきこまり吸血鬼の悶々 にて コンプリート達成！！  おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2078141848569463170",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T17:32:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNcK4-ebAAEpHlY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNcK4-ebAAEpHlY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000034",
+    "store_id": "04950fcd53"
   }
 ]

@@ -35,7 +35,7 @@
     "store_x_url": "https://x.com/demasse111",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-17T16:35:26Z",
+    "collected_at": "2026-07-17T15:53:36Z",
     "images": [
       "https://pbs.twimg.com/media/HNbZi0ra4AAp_kv?format=jpg&name=large",
       "https://pbs.twimg.com/media/HNbZvj_aYAAssNQ?format=jpg&name=large"
@@ -67,28 +67,6 @@
     "store_id": "04950fcd53"
   },
   {
-    "id": "3c342cc4baf1",
-    "date": "2026-07-17",
-    "time": "20:48",
-    "store": "やすだひばりヶ丘店",
-    "machine": "e北斗の拳 暴凶星",
-    "machine_type": "pachinko",
-    "slot_number": "184",
-    "text": "こんばんは  やすひば速報  ７月も月間オススメの  e北斗の拳暴凶星　 184番台より  #コンプリート達成  おめでとうございます  明日もスタッフ ヤンクル一同 ご来店お待ちしてます #パチンコ　#スロット #コンプリート",
-    "x_url": "https://x.com/yasuda_hibari/status/2078084297806995898",
-    "store_handle": "yasuda_hibari",
-    "store_x_url": "https://x.com/yasuda_hibari",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T16:45:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNbUa35bUAENCYM?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNbUa35bUAENCYM?format=jpg&name=large",
-    "machine_id": "531c3170-97eb-4ba1-89fc-0ee33a8bf426",
-    "store_id": "22f6e14d11"
-  },
-  {
     "id": "1f78060a1651",
     "date": "2026-07-17",
     "time": "19:47",
@@ -102,7 +80,7 @@
     "store_x_url": "https://x.com/demasse111",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-17T16:35:26Z",
+    "collected_at": "2026-07-17T15:53:36Z",
     "images": [
       "https://pbs.twimg.com/media/HNbGz2ubQAAKHDm?format=jpg&name=large"
     ],
@@ -154,28 +132,6 @@
     "image_url": "https://pbs.twimg.com/media/HNaDFvVasAAkQNR?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "e5a3df2192"
-  },
-  {
-    "id": "45209c8a1a07",
-    "date": "2026-07-17",
-    "time": "09:00",
-    "store": "ダイナム福岡久留米店",
-    "machine": "沖ドキ！DUO",
-    "machine_type": "slot",
-    "slot_number": "442",
-    "text": "7月16日　コンプリート報告  442番台　Ｌ沖ドキ！ＤＵＯ２  閉店ギリギリで達成  おめでとうございます  本日も10時開店です 皆様のご来店お待ちしております",
-    "x_url": "https://x.com/dynam_00361/status/2077906220661272973",
-    "store_handle": "dynam_00361",
-    "store_x_url": "https://x.com/dynam_00361",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-17T16:43:45Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNY0smAWcAAmuI2?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNY0smAWcAAmuI2?format=jpg&name=large",
-    "machine_id": "e7c07365-bf87-42b7-b4fc-309ec000beb5",
-    "store_id": "223cc37d93"
   },
   {
     "id": "1bc629dfeb75",
