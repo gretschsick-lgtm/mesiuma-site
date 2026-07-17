@@ -514,6 +514,51 @@
     "store_id": "5a18003e2d"
   },
   {
+    "id": "f9ed080aa03a",
+    "date": "2026-07-14",
+    "time": "21:47",
+    "store": "ピーアーク北千住エリア",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "630",
+    "text": "7月14日（火） ピーアーク北千住SSS トリエス  630番台番台 L 革命機ヴァルヴレイヴ2 コンプリート達成  おやすみなさい  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2077012222681956475",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T07:54:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNMHmUcaUAAHI7O?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2041742649577893891/img/VTFrO_9Z4ivoYGvb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNMHmUcaUAAHI7O?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8282115e87"
+  },
+  {
+    "id": "2a52e2affc5e",
+    "date": "2026-07-14",
+    "time": "21:44",
+    "store": "マルハン荒田島店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "362",
+    "text": "先程、当店362番台 Lパチスロ からくりサーカス2にて コンプリート達成しました お客様おめでとうございます  ｺﾝﾌﾟﾘｰﾄ画面こんなんなんや・・",
+    "x_url": "https://x.com/mgr_aratajima/status/2077011452054159550",
+    "store_handle": "mgr_aratajima",
+    "store_x_url": "https://x.com/mgr_aratajima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-17T07:54:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNMGp_zbIAA9JfL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNMGp_zbIAA9JfL?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "cf6450d457"
+  },
+  {
     "id": "1b9e9226c6bc",
     "date": "2026-07-14",
     "time": "20:55",
