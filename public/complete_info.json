@@ -891,6 +891,29 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "037662fc6995",
+    "date": "2026-07-16",
+    "time": "17:53",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 豊崎本館　 VVV2から・・・ コンプリーーーート！！！  すでにいろいろな所から万枚が・・・ completeおめでとうございます #橘リノさん来店 #コンプリート #ヴァルヴレイヴ2",
+    "x_url": "https://x.com/megaface_1120/status/2077677921037439478",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T20:37:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNVjWIHaMAAWao7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNVjXLrbEAAkxYh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNVjWIHaMAAWao7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "35f9af170b6d",
     "date": "2026-07-16",
     "time": "16:36",
@@ -2480,6 +2503,30 @@
     "image_url": "https://pbs.twimg.com/media/HNCIxUwbEAArNXj?format=jpg&name=large",
     "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
     "store_id": "fb78bbe137"
+  },
+  {
+    "id": "f4149379b06c",
+    "date": "2026-07-12",
+    "time": "23:10",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "503",
+    "text": "【SPACE666】 結果発表！！！！ 本日12日(*'▽')  ミリオンゴッド　503番台 コンプリート達成  ミリオンゴッド　517番台 16000枚Over達成  ミリオンゴッド　511番台 14000枚Over達成  本日は特にミリオンゴッドと ヴヴヴ２が盛り上がっていましたね！",
+    "x_url": "https://x.com/space666tobata/status/2076308094116851766",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T20:38:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNB_xK0bYAAPt2y?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNCB7WVbIAA3a2p?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNCB8imagAA9RJE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNB_xK0bYAAPt2y?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "f8132a1307"
   },
   {
     "id": "56594965454d",
