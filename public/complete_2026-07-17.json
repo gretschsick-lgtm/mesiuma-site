@@ -156,6 +156,28 @@
     "store_id": "e5a3df2192"
   },
   {
+    "id": "45209c8a1a07",
+    "date": "2026-07-17",
+    "time": "09:00",
+    "store": "ダイナム福岡久留米店",
+    "machine": "沖ドキ！DUO",
+    "machine_type": "slot",
+    "slot_number": "442",
+    "text": "7月16日　コンプリート報告  442番台　Ｌ沖ドキ！ＤＵＯ２  閉店ギリギリで達成  おめでとうございます  本日も10時開店です 皆様のご来店お待ちしております",
+    "x_url": "https://x.com/dynam_00361/status/2077906220661272973",
+    "store_handle": "dynam_00361",
+    "store_x_url": "https://x.com/dynam_00361",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T06:26:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNY0smAWcAAmuI2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNY0smAWcAAmuI2?format=jpg&name=large",
+    "machine_id": "e7c07365-bf87-42b7-b4fc-309ec000beb5",
+    "store_id": "223cc37d93"
+  },
+  {
     "id": "1bc629dfeb75",
     "date": "2026-07-17",
     "time": "08:00",
