@@ -1,5 +1,50 @@
 [
   {
+    "id": "ef33aa8f634b",
+    "date": "2026-07-18",
+    "time": "20:23",
+    "store": "ダイナム長野上田店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "上ダにシチサンあり──────。  シチサンに牙狼あり──────。  101番台 e牙狼12黄金騎士極限より  魂のコンプリート頂きました  本当にすごい…おめでとうございます  そして、上ダの夏はまだまだこれからです  皆様のご来店、心よりお待ちしております  #コンプリート #牙狼",
+    "x_url": "https://x.com/dynam_00440/status/2078440603671814413",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T12:21:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgatlPakAAN3cF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgatlPakAAN3cF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "b42f5fe289"
+  },
+  {
+    "id": "8a3d2956edc5",
+    "date": "2026-07-18",
+    "time": "18:10",
+    "store": "パラッツォ船橋店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "727",
+    "text": "コンプリート達成  727番台 e牙狼12黄金騎士極限 コンプリートおめでとうございます",
+    "x_url": "https://x.com/palazzo_funa/status/2078406946068299948",
+    "store_handle": "palazzo_funa",
+    "store_x_url": "https://x.com/palazzo_funa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T11:51:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNf7bKcbwAAPF5e?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNf73Xxa8AAJbnC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNf7bKcbwAAPF5e?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "208e7c8d7f"
+  },
+  {
     "id": "f87d1ebe3db2",
     "date": "2026-07-18",
     "time": "18:00",

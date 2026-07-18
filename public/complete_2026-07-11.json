@@ -1,5 +1,27 @@
 [
   {
+    "id": "ed626c8e23df",
+    "date": "2026-07-11",
+    "time": "23:33",
+    "store": "オメガ千代原口2番館",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日の結果発表！ いざ！番長　コンプリート達成！！  6000over ゴッドイーターリザレクション BIRDIE　WING 沖ドキDUOアンコール 戦国乙女５  5000over 真打吉宗 ウルトラマン　最終決戦 炎炎ノ消防隊2 かぐや様は告らせたい  オメガ千代原口2番館(⋈◍＞◡＜◍)。✧♡",
+    "x_url": "https://x.com/katsuraomega/status/2075951580919300271",
+    "store_handle": "katsuraomega",
+    "store_x_url": "https://x.com/katsuraomega",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T12:21:21Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2075951507883819008/img/JpRBx7aG_tI2sEOG.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2075951507883819008/img/JpRBx7aG_tI2sEOG.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "5812d4df27"
+  },
+  {
     "id": "dfeed3a85cc1",
     "date": "2026-07-11",
     "time": "23:11",
@@ -132,6 +154,28 @@
     "image_url": "https://pbs.twimg.com/media/HM82pacawAAr5zv?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "5a18003e2d"
+  },
+  {
+    "id": "c3da18350678",
+    "date": "2026-07-11",
+    "time": "22:42",
+    "store": "ワンダーランド1188鹿児島新栄店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2101",
+    "text": "コンプリート速報！！！  2101番台　革命機ヴァルヴレイヴ2  滑り込みでのコンプリートオメデトウゴザイマス",
+    "x_url": "https://x.com/wl_kshinei/status/2075938849315025184",
+    "store_handle": "wl_kshinei",
+    "store_x_url": "https://x.com/wl_kshinei",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T11:51:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM83YE0bMAAEy1V?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM83YE0bMAAEy1V?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3b4b2e74d4"
   },
   {
     "id": "b6e2223c786d",
