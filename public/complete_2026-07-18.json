@@ -1,5 +1,27 @@
 [
   {
+    "id": "7b73ec5f059e",
+    "date": "2026-07-18",
+    "time": "23:00",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "382",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です  コンプリート報告です！ 本日は、382番台 スマパチ　牙狼12黄金騎士極限  コンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2078479913426747789",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T16:32:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgzekCawAAx05J?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgzekCawAAx05J?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c800581abf"
+  },
+  {
     "id": "1c7b03c33817",
     "date": "2026-07-18",
     "time": "22:37",
@@ -42,6 +64,73 @@
     "image_url": "https://pbs.twimg.com/media/HNgqyg7acAA-F61?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "c5968482a1"
+  },
+  {
+    "id": "23a7e4c7ddf2",
+    "date": "2026-07-18",
+    "time": "21:06",
+    "store": "マルハン荒田島店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "378",
+    "text": "マルハン荒田島店 先ほど 378番台　 【Lパチスロ東京喰種】 よりコンプリート達成しました  達成されたお客様！ おめでとうございます",
+    "x_url": "https://x.com/mgr_aratajima/status/2078451437571649639",
+    "store_handle": "mgr_aratajima",
+    "store_x_url": "https://x.com/mgr_aratajima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T16:26:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgkkZiawAAkt73?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgkkZiawAAkt73?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "cf6450d457"
+  },
+  {
+    "id": "3d3f9d4841e8",
+    "date": "2026-07-18",
+    "time": "21:04",
+    "store": "テキサス小倉店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  7月18日(土)  ＼コンプリート達成／ 第二弾   940番台▶︎▶︎▶︎▶︎ e 牙狼12 黄金騎士極限  　　　　　　　　　　　　 おめでとうございます！！ #テキサス1111 #アルティメットサザンスター",
+    "x_url": "https://x.com/texas_kokura/status/2078450948037644605",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T16:26:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgkEcza0AAaFlA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNgkEc1aQAADS5R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgkEcza0AAaFlA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "7be267e3ea"
+  },
+  {
+    "id": "d24a6f41043f",
+    "date": "2026-07-18",
+    "time": "20:51",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "494",
+    "text": "【SPACE666】 コンプリート速報 ヴァルヴレイヴ２ 494番台 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/space666tobata/status/2078447592950972470",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T16:26:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNggUOZaAAANo4B?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNggUOZaAAANo4B?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
   },
   {
     "id": "88a6785eb807",
@@ -154,5 +243,28 @@
     "image_url": "https://pbs.twimg.com/media/HNf5_qzbsAAsgxp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "53cfcde9a2"
+  },
+  {
+    "id": "3754a1fca577",
+    "date": "2026-07-18",
+    "time": "16:04",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "19",
+    "text": "令和パチ年7月18日(土)  e牙狼黄金騎士極限より コンプリート達成  誠におめでとうございます  #19番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2078375410124116447",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T17:02:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNffaszbUAAhLyY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNbB7JOaIAA5iQR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNffaszbUAAhLyY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "703d5e39e5"
   }
 ]
