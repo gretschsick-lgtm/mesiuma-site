@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-18T15:36:06+09:00",
+  "generated_at": "2026-07-18T17:08:35+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 498,
+      "total_count": 501,
       "stores": [
         {
           "rank": 1,
@@ -32,33 +32,33 @@
         },
         {
           "rank": 5,
+          "name": "メガフェイス1070菊陽",
+          "count": 10,
+          "x_url": "https://x.com/megaface_1070"
+        },
+        {
+          "rank": 6,
           "name": "ビックマーチ東習志野店",
           "count": 10,
           "x_url": "https://x.com/joypackx"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "マルハンメガシティ水戸赤塚",
           "count": 10,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "プレイランドキャッスル春日井店",
           "count": 9,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 9,
           "x_url": "https://x.com/wakakin_tsujic"
-        },
-        {
-          "rank": 9,
-          "name": "メガフェイス1070菊陽",
-          "count": 9,
-          "x_url": "https://x.com/megaface_1070"
         },
         {
           "rank": 10,
@@ -106,7 +106,7 @@
         {
           "rank": 8,
           "name": "L真打吉宗",
-          "count": 9
+          "count": 10
         },
         {
           "rank": 9,
@@ -128,7 +128,7 @@
         {
           "rank": 2,
           "name": "e牙狼12",
-          "count": 35
+          "count": 37
         },
         {
           "rank": 3,
@@ -514,15 +514,15 @@
     "stores": [
       {
         "rank": 1,
-        "name": "ARROW浪速店",
+        "name": "テキサス小倉店",
         "count": 21,
-        "x_url": "https://x.com/arrow_naniwa"
+        "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 2,
-        "name": "テキサス小倉店",
-        "count": 20,
-        "x_url": "https://x.com/texas_kokura"
+        "name": "ARROW浪速店",
+        "count": 21,
+        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 3,
@@ -538,27 +538,27 @@
       },
       {
         "rank": 5,
+        "name": "メガフェイス1070菊陽",
+        "count": 17,
+        "x_url": "https://x.com/megaface_1070"
+      },
+      {
+        "rank": 6,
         "name": "メガフェイス1300淀川",
         "count": 17,
         "x_url": "https://x.com/megaface_1300"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 16,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "name": "メガフェイス1450本山",
         "count": 16,
         "x_url": "https://x.com/megaface_1450"
-      },
-      {
-        "rank": 8,
-        "name": "メガフェイス1070菊陽",
-        "count": 16,
-        "x_url": "https://x.com/megaface_1070"
       },
       {
         "rank": 9,
@@ -616,12 +616,12 @@
       },
       {
         "rank": 9,
-        "name": "Lかぐや様は告らせたい",
+        "name": "L真打吉宗",
         "count": 13
       },
       {
         "rank": 10,
-        "name": "スマスロゴッドイーター",
+        "name": "Lかぐや様は告らせたい",
         "count": 13
       }
     ],
@@ -634,7 +634,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 79
+        "count": 81
       },
       {
         "rank": 3,
@@ -677,17 +677,17 @@
         "count": 4
       }
     ],
-    "total_count": 831
+    "total_count": 834
   },
   "store_complete_counts": {
+    "テキサス小倉店": 21,
     "ARROW浪速店": 21,
-    "テキサス小倉店": 20,
     "ビックマーチ東習志野店": 18,
     "楽園池袋店ゲートウェイ": 18,
+    "メガフェイス1070菊陽": 17,
     "メガフェイス1300淀川": 17,
     "キング観光サウザンド栄若宮大通店": 16,
     "メガフェイス1450本山": 16,
-    "メガフェイス1070菊陽": 16,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 14,
     "ニューアサヒ長野青木島店": 14,
     "新ガーデン西浦和": 14,
@@ -726,6 +726,7 @@
     "キコーナ鶴見": 6,
     "メガフェイス1250": 6,
     "M&K岡崎店": 6,
+    "ワンダーランドODO": 5,
     "キクヤ一宮店": 5,
     "パラッツォ大阪三国店": 5,
     "ビックマーチ河和田東店": 5,
@@ -741,7 +742,6 @@
     "デマッセ梅津店・ライト館": 4,
     "ニューヨーク出水店": 4,
     "ワンダーランド武雄店": 4,
-    "ワンダーランドODO": 4,
     "グランキコーナひたちなか店": 4,
     "DSGアリーナ高岡": 4,
     "ダイナム北斗七重浜店": 4,

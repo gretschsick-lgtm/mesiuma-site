@@ -112,6 +112,52 @@
     "store_id": "9c57229900"
   },
   {
+    "id": "070c96e6395b",
+    "date": "2026-07-16",
+    "time": "20:54",
+    "store": "テキサス小倉店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "927",
+    "text": "こんばんは  テキサス小倉店です  7月16日  コンプリート達成   927番台 e牙狼12 黄金騎士極限   おめでとうございます  この後もご来店お待ちしております  #コンプリート  #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2077723531627167883",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T07:36:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNWOiGPacAAFOiS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNWOiGRakAA-5sH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNWOiGPacAAFOiS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "7be267e3ea"
+  },
+  {
+    "id": "1b1f42950ecb",
+    "date": "2026-07-16",
+    "time": "20:29",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "478",
+    "text": "478番台 e牙狼12 コンプリート達成 #7月16日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2077717371230589092",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-18T07:36:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNWI7q3akAAGFw7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNSBtFFaMAAds0P?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNWI7q3akAAGFw7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
     "id": "35f9af170b6d",
     "date": "2026-07-16",
     "time": "16:36",
