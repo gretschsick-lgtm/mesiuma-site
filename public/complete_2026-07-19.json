@@ -1,5 +1,73 @@
 [
   {
+    "id": "4db9b3bfc91f",
+    "date": "2026-07-19",
+    "time": "22:06",
+    "store": "D’station39長与店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "429",
+    "text": "7/19    【コンプリート報告】      e牙狼12黄金騎士極限   429番台      本日２台目 オススメ機種から  またまたコンプリート おめでとうございます     こちらの台は本日の遊技終了となります。     予めご了承ください。",
+    "x_url": "https://x.com/d_nagayoten/status/2078828872821559773",
+    "store_handle": "d_nagayoten",
+    "store_x_url": "https://x.com/d_nagayoten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T16:50:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNl7lPAaUAAeMgq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNl7lPAaUAAeMgq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "0a78bac15d"
+  },
+  {
+    "id": "7a41c8fef15b",
+    "date": "2026-07-19",
+    "time": "21:40",
+    "store": "J・PARK安謝店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "メッチャチバってる!! チバリヨ２からコンプリート!! おめでとうございます!! #チバリヨ２ #コンプリート",
+    "x_url": "https://x.com/Jparkaja/status/2078822274774499638",
+    "store_handle": "jparkaja",
+    "store_x_url": "https://x.com/jparkaja",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T16:49:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNl1daQbQAAYDve?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNl1daPasAA9m_y?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNl1daQbQAAYDve?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "9fac703a2a"
+  },
+  {
+    "id": "ce1e6f50ca42",
+    "date": "2026-07-19",
+    "time": "21:10",
+    "store": "サンドラ大塚店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "259",
+    "text": "L北斗の拳　転生　259番台　コンプ 　  激闘お疲れ様ですッ #コンプリート　#スマスロ　#転生",
+    "x_url": "https://x.com/otsuka_sandra/status/2078814748326650110",
+    "store_handle": "otsuka_sandra",
+    "store_x_url": "https://x.com/otsuka_sandra",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T16:50:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNltvNmbwAAVIAX?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNltxA3bAAA2PMS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNltvNmbwAAVIAX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "ecfbf63642"
+  },
+  {
     "id": "8e8652e8178b",
     "date": "2026-07-19",
     "time": "20:39",
@@ -21,51 +89,6 @@
     "image_url": "https://pbs.twimg.com/media/HNlnyUAbQAAC5XU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "94cb46d6fb"
-  },
-  {
-    "id": "7cc3f671a0b2",
-    "date": "2026-07-19",
-    "time": "20:13",
-    "store": "ゾーン行橋1000",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "649",
-    "text": "649番台 Lからくりサーカス２から コンプリート報告！！ おめでとうございます！  #からくり2 #20台設置 #甲子宴2026夏 #甲子宴",
-    "x_url": "https://x.com/zone_yukuhashi/status/2078800352321921397",
-    "store_handle": "zone_yukuhashi",
-    "store_x_url": "https://x.com/zone_yukuhashi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-19T14:41:48Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNlgqWYaQAAuhXF?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNlgqWYaQAAuhXF?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "store_id": "d2b37d41c5"
-  },
-  {
-    "id": "61d7775e5422",
-    "date": "2026-07-19",
-    "time": "19:23",
-    "store": "グランキコーナひたちなか店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんばんは！  店内から速報です！  パチンココーナーより 「e牙狼12黄金騎士極限」 2台コンプリート達成！  おめでとうございます！！  7月19日(日) まだまだご来店お待ちしております",
-    "x_url": "https://x.com/GK_hitachinaka/status/2078787766155141547",
-    "store_handle": "gk_hitachinaka",
-    "store_x_url": "https://x.com/gk_hitachinaka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-19T15:11:41Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNlWc_SaQAAAHP8?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HNlWc_fbQAAgBMC?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNlWc_SaQAAAHP8?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "bcc41247bb"
   },
   {
     "id": "56f66d5f33b7",

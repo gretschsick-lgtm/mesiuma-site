@@ -372,7 +372,7 @@
     "store_x_url": "https://x.com/pandora_idog",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-19T16:27:31Z",
+    "collected_at": "2026-07-19T15:44:36Z",
     "images": [
       "https://pbs.twimg.com/media/HNgRT-QaMAAv5f4?format=jpg&name=large",
       "https://pbs.twimg.com/media/HNgRV67aUAEFdbU?format=jpg&name=large"
@@ -494,28 +494,6 @@
     "image_url": "https://pbs.twimg.com/media/HNf7bKcbwAAPF5e?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "208e7c8d7f"
-  },
-  {
-    "id": "0783000141f9",
-    "date": "2026-07-18",
-    "time": "18:09",
-    "store": "ビックマーチ藤代店@店舗の仲間たち",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "459",
-    "text": "こんにちは  出ました！出ました！ 昨日に続きコンプリートが 【459番台　ｅ牙狼12　XX‐MJ】 打たれていたお客様おめでとうございます  ３連休残りも全力で楽しみましょう",
-    "x_url": "https://x.com/bm_fujishiro/status/2078769207110766873",
-    "store_handle": "bm_fujishiro",
-    "store_x_url": "https://x.com/bm_fujishiro",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-19T15:12:48Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNlFd2SbIAAiAm3?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNlFd2SbIAAiAm3?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "082c2eac75"
   },
   {
     "id": "f87d1ebe3db2",
@@ -649,5 +627,27 @@
     "image_url": "https://pbs.twimg.com/media/HNffaszbUAAhLyY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "98115a12d56e",
+    "date": "2026-07-18",
+    "time": "09:58",
+    "store": "ダイナム武生店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "434",
+    "text": "おはようございます ダイナム武生店です！！  先日7/18(土) コンプリート達成機種のお知らせです！  434番台「Ｌヴァルヴレイヴ２」  おめでとうございます   #ダイナム #コンプリート #VVV2",
+    "x_url": "https://x.com/dynam_00133/status/2078645579672944687",
+    "store_handle": "dynam_00133",
+    "store_x_url": "https://x.com/dynam_00133",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T14:32:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNjVI6yWQAALDU1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNjVI6yWQAALDU1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "1c290737dc"
   }
 ]
