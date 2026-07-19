@@ -112,6 +112,28 @@
     "store_id": "1cd7e84e8e"
   },
   {
+    "id": "fba9338e184c",
+    "date": "2026-07-16",
+    "time": "21:32",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "1202",
+    "text": "1202番台 Lゴッドイーターリザレクション コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2077733204145123776",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T16:04:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNWXVi6aUAAwyf9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNWXVi6aUAAwyf9?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "771f030669"
+  },
+  {
     "id": "327f906c7ff2",
     "date": "2026-07-16",
     "time": "21:26",
@@ -132,6 +154,29 @@
     "image_url": "https://pbs.twimg.com/media/HNWV6rFaMAAMfMG?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "ee5a196fc0"
+  },
+  {
+    "id": "274ea2b91ff5",
+    "date": "2026-07-16",
+    "time": "21:18",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "499",
+    "text": "本日2台目！ 499番台 e牙狼12 コンプリート達成 #7月16日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2077729498276200703",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T16:06:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNWT9aIacAAPmYw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNWI7q3akAAGFw7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNWT9aIacAAPmYw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "31c06c795db1",
