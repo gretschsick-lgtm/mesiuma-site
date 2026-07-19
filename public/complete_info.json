@@ -335,6 +335,30 @@
     "store_id": "4966644685"
   },
   {
+    "id": "9d5b182af008",
+    "date": "2026-07-18",
+    "time": "18:13",
+    "store": "ダイナム氷見店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "74",
+    "text": "#ダイナム 氷見店より速報 7/18(土) 北陸ダイナム20店舗合同景品入荷  74番台 ≪L革命機ヴァルヴレイヴ2≫ にて  コンプリート達成  おめでとうございます   気になる本日の台データはダイナム氷見店公式LINEから  是非ご確認下さいませ  #コンプ #合同景品入荷",
+    "x_url": "https://x.com/dynam_00094/status/2078407746056007908",
+    "store_handle": "dynam_00094",
+    "store_x_url": "https://x.com/dynam_00094",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-19T00:26:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNf80vLXAAA35Dr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNf805wWcAAxV6k?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNf81JTXgAA5-SN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNf80vLXAAA35Dr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "40ada5f6a0"
+  },
+  {
     "id": "8a3d2956edc5",
     "date": "2026-07-18",
     "time": "18:10",
