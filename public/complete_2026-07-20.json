@@ -1,5 +1,49 @@
 [
   {
+    "id": "91efa405aea6",
+    "date": "2026-07-20",
+    "time": "22:04",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2850",
+    "text": "コンプリート情報  21:52 今週のオススメ機種　 Ｌ革命機ヴァルヴレイヴ２　2850番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2079190802765697197",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T14:02:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNrE6FgakAA4o2D?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNrE6FgakAA4o2D?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "04138e2cd3"
+  },
+  {
+    "id": "d4c3ab78889a",
+    "date": "2026-07-20",
+    "time": "21:10",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "366",
+    "text": "366番台 真打吉宗 コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2079177221735109044",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T13:49:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNq33cEboAAXN1q?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNq33cEboAAXN1q?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "7ac364008f"
+  },
+  {
     "id": "14edb8093f97",
     "date": "2026-07-20",
     "time": "20:41",
