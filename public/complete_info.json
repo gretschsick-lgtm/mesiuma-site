@@ -68,6 +68,28 @@
     "store_id": "cf70bb294d"
   },
   {
+    "id": "0c0725ff8278",
+    "date": "2026-07-19",
+    "time": "22:33",
+    "store": "マリナプローバ",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "525",
+    "text": "お知らせ  22:04頃 525番台　からくりサーカス２にて コンプリート機能作動しました！  おめでとうございます！！  #パチスロ　#からくりサーカス２　#コンプリート",
+    "x_url": "https://x.com/MARINAPROVA0601/status/2078835573234831701",
+    "store_handle": "marinaprova0601",
+    "store_x_url": "https://x.com/marinaprova0601",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T06:39:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNmBmxObcAAxdR4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNmBmxObcAAxdR4?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "8919b5c36e"
+  },
+  {
     "id": "4db9b3bfc91f",
     "date": "2026-07-19",
     "time": "22:06",
