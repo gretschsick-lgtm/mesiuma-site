@@ -606,6 +606,52 @@
     "store_id": "ef707cf8fe"
   },
   {
+    "id": "223c5839a36f",
+    "date": "2026-07-19",
+    "time": "18:55",
+    "store": "楽園大宮店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "213",
+    "text": "本日18時ごろ！！  地下4円パチンコ213番台e東京喰種MW 512番台eリコリス・リコイルM3 にて  コンプリート達成！！  おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2078780636425507304",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T19:43:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNlP1oKaoAA0_6N?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNlP25LbQAA6vXn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNlP1oKaoAA0_6N?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04950fcd53"
+  },
+  {
+    "id": "d282e6ad2d6e",
+    "date": "2026-07-19",
+    "time": "18:55",
+    "store": "楽園大宮店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日18時ごろ！！  地下4円パチンコ213番台e東京喰種MW 512番台eリコリス・リコイルM3 にて  コンプリート達成！！  おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2078780636425507304",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T19:43:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNlP1oKaoAA0_6N?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNlP25LbQAA6vXn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNlP1oKaoAA0_6N?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "04950fcd53"
+  },
+  {
     "id": "3d430574fe5c",
     "date": "2026-07-19",
     "time": "18:52",
