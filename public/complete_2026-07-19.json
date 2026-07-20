@@ -338,6 +338,29 @@
     "store_id": "3936a4b9d5"
   },
   {
+    "id": "61d7775e5422",
+    "date": "2026-07-19",
+    "time": "19:23",
+    "store": "グランキコーナひたちなか店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは！  店内から速報です！  パチンココーナーより 「e牙狼12黄金騎士極限」 2台コンプリート達成！  おめでとうございます！！  7月19日(日) まだまだご来店お待ちしております",
+    "x_url": "https://x.com/GK_hitachinaka/status/2078787766155141547",
+    "store_handle": "gk_hitachinaka",
+    "store_x_url": "https://x.com/gk_hitachinaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T19:57:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNlWc_SaQAAAHP8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNlWc_fbQAAgBMC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNlWc_SaQAAAHP8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "bcc41247bb"
+  },
+  {
     "id": "56f66d5f33b7",
     "date": "2026-07-19",
     "time": "18:56",
@@ -373,7 +396,7 @@
     "store_x_url": "https://x.com/rakuen_ohmiya",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-20T19:43:16Z",
+    "collected_at": "2026-07-20T19:57:54Z",
     "images": [
       "https://pbs.twimg.com/media/HNlP1oKaoAA0_6N?format=jpg&name=large",
       "https://pbs.twimg.com/media/HNlP25LbQAA6vXn?format=jpg&name=large"
@@ -396,7 +419,7 @@
     "store_x_url": "https://x.com/rakuen_ohmiya",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-20T19:43:16Z",
+    "collected_at": "2026-07-20T19:57:54Z",
     "images": [
       "https://pbs.twimg.com/media/HNlP1oKaoAA0_6N?format=jpg&name=large",
       "https://pbs.twimg.com/media/HNlP25LbQAA6vXn?format=jpg&name=large"

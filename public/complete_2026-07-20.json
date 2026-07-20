@@ -180,6 +180,28 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "9c5397f46b55",
+    "date": "2026-07-20",
+    "time": "18:06",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1007",
+    "text": "Lパチスロ 革命機ヴァルヴレイヴ2　1007番台 コンプリートおめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2079130862487286177",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T19:57:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNqOcPVbUAARtFF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNqOcPVbUAARtFF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "440b355278e4",
     "date": "2026-07-20",
     "time": "17:34",
