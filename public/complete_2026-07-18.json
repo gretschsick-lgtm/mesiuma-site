@@ -159,6 +159,28 @@
     "store_id": "3b33dd116a"
   },
   {
+    "id": "222b6b283a38",
+    "date": "2026-07-18",
+    "time": "21:40",
+    "store": "SuperD'station東金店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは スーパーD'ステーション東金店です  本日も出ました e東京喰種 コンプリート達成 おめでとうございます  まだまだ店内も盛り上がっております この後のお時間も ごゆっくりとお楽しみ下さいませ  #千葉 #東金 #Dステ #東京喰種 #スマパチ #コンプリート",
+    "x_url": "https://x.com/sd_tougane/status/2078459772026966339",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T15:04:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgprOJaUAAb0vN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgprOJaUAAb0vN?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "7f6d7ae0f2"
+  },
+  {
     "id": "e3d29fb067ed",
     "date": "2026-07-18",
     "time": "21:34",
@@ -403,6 +425,28 @@
     "image_url": "https://pbs.twimg.com/media/HNgTGBsaQAAo7uR?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "7be267e3ea"
+  },
+  {
+    "id": "2619053c6846",
+    "date": "2026-07-18",
+    "time": "19:46",
+    "store": "メガフェイス1300淀川",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ミリオンゴッド  コンプリート達成  本日、  GODの名にふさわしい展開 店内の熱気も高まっております  コンプリート達成、おめでとうございます  ご来店のお客様もぜひ店内の盛り上がりをご体感ください",
+    "x_url": "https://x.com/megaface_1300/status/2078431210834194453",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T15:04:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgSK0obMAAxwi0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgSK0obMAAxwi0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "5b93315c4d"
   },
   {
     "id": "9d406d9b3874",
