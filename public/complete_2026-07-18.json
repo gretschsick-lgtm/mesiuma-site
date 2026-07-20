@@ -46,6 +46,28 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "b3ccc4e0bcca",
+    "date": "2026-07-18",
+    "time": "22:51",
+    "store": "光サウザンド桑名本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "皆様こんばんは！   #キング観光サウザンド桑名本店 です！    　本日2台目のコンプリート達成　　 　　　【#Lヴァルヴレイヴ２】     　　　おめでとうございます",
+    "x_url": "https://x.com/kingkuwana/status/2078477688545935558",
+    "store_handle": "kingkuwana",
+    "store_x_url": "https://x.com/kingkuwana",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T23:12:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNg8TyOaAAEYzXj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNg8TyOaAAEYzXj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "0097ac46b6"
+  },
+  {
     "id": "1c7b03c33817",
     "date": "2026-07-18",
     "time": "22:37",
@@ -88,6 +110,28 @@
     "image_url": "https://pbs.twimg.com/media/HNgyXHgaUAAktgK?format=jpg&name=large",
     "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
     "store_id": "44b996496f"
+  },
+  {
+    "id": "4736cf7a85b7",
+    "date": "2026-07-18",
+    "time": "22:10",
+    "store": "Zゾーン",
+    "machine": "L無職転生～異世界行ったら本気だす～",
+    "machine_type": "slot",
+    "slot_number": "674",
+    "text": "お知らせです！！      先程674番台   「L無職転生」にて       コンプリート機能が発動致しました！      おめでとうございます！！      ※該当台は明日から遊技可能になります。               #中山駅 #ゾロン #パチンコ #スロット",
+    "x_url": "https://x.com/z_zoron/status/2078467440967815333",
+    "store_handle": "z_zoron",
+    "store_x_url": "https://x.com/z_zoron",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T23:12:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgzF4FacAAx5d-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgzF4FacAAx5d-?format=jpg&name=large",
+    "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036",
+    "store_id": "bca4ea5313"
   },
   {
     "id": "f827384d1acc",
