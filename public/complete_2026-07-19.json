@@ -90,6 +90,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "6c5d57184f2c",
+    "date": "2026-07-19",
+    "time": "22:14",
+    "store": "マルハンメガシティ柏",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "642",
+    "text": "マルハンメガシティ柏 𖤐令和パチ年7月 周年月間𖤐  パチンコ・スロット地域最大級設置  からくりサーカス２　642番台 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2078830834673701360",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T17:56:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNl9LJGawAAQ9xd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNl9LJGawAAQ9xd?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "e5e18632fd"
+  },
+  {
     "id": "4db9b3bfc91f",
     "date": "2026-07-19",
     "time": "22:06",
@@ -154,6 +176,24 @@
     "image_url": "https://pbs.twimg.com/media/HNl3d4nboAAaufx?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "bcc41247bb"
+  },
+  {
+    "id": "90a989e3ec43",
+    "date": "2026-07-19",
+    "time": "21:46",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "498",
+    "text": "【SPACE666】 コンプリート速報！！ Lヴァルヴレイヴ２ 498番台 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/space666tobata/status/2078823688238248358",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-20T17:56:17Z",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
   },
   {
     "id": "7a41c8fef15b",
