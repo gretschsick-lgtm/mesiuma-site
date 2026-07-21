@@ -316,6 +316,28 @@
     "store_id": "04950fcd53"
   },
   {
+    "id": "9b1cc7055da2",
+    "date": "2026-07-20",
+    "time": "18:43",
+    "store": "玉屋∞本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1007",
+    "text": "1007番台　Lヴヴヴ２から無事コンプリート！！！！おめでとうございますコンプ寸前ですのポストしようとしたところからのコンプでした",
+    "x_url": "https://x.com/YONEPEE2288/status/2079140088026644746",
+    "store_handle": "yonepee2288",
+    "store_x_url": "https://x.com/yonepee2288",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T23:06:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNqW250bYAA1RoJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNqW250bYAA1RoJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "590556b79c"
+  },
+  {
     "id": "9c5397f46b55",
     "date": "2026-07-20",
     "time": "18:06",
@@ -404,6 +426,30 @@
     "image_url": "https://pbs.twimg.com/media/HNp8DcqaQAAK-GX?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "c545330ad2"
+  },
+  {
+    "id": "557519bc3827",
+    "date": "2026-07-20",
+    "time": "15:48",
+    "store": "メガフェイス1000糸島",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "飯塚店の牙狼がコンプリート おめでとう御座います 時を同じくして糸島店では…",
+    "x_url": "https://x.com/face__1000/status/2079096136544203077",
+    "store_handle": "face__1000",
+    "store_x_url": "https://x.com/face__1000",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T23:06:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNpu6cNbUAAxMZz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNpu6cIbIAAAOHs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNpu6cKa4AAyzq5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNpu6cNbUAAxMZz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "1b892a97fe"
   },
   {
     "id": "241b7e65ae06",

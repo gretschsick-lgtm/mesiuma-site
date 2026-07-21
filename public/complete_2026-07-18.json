@@ -90,6 +90,28 @@
     "store_id": "30980119a2"
   },
   {
+    "id": "76b7bc46ea9f",
+    "date": "2026-07-18",
+    "time": "22:35",
+    "store": "キクヤ一宮店",
+    "machine": "スマスロバイオハザードRE:3",
+    "machine_type": "slot",
+    "slot_number": "648",
+    "text": "648番台 バイオハザードRE:3 コンプリート おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2078473648906842225",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T23:06:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNg4dX8a8AAWWNX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNg4dX8a8AAWWNX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000018",
+    "store_id": "1fa35fdc7d"
+  },
+  {
     "id": "026a62d7b6c1",
     "date": "2026-07-18",
     "time": "22:20",

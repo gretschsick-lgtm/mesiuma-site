@@ -220,5 +220,27 @@
     "image_url": "https://pbs.twimg.com/media/HNuUxQwbIAA3e-x?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "dae931c16e"
+  },
+  {
+    "id": "6e1c2baf968b",
+    "date": "2026-07-21",
+    "time": "08:00",
+    "store": "アロー志紀店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "イノッチです おはようございます  昨日、e東京喰種からコンプリート  おめでとう御座います  最近、グールばかり打ってる僕からしたらめちゃくちゃ羨ましいです",
+    "x_url": "https://x.com/shiki8_18_28/status/2079702971714044404",
+    "store_handle": "shiki8_18_28",
+    "store_x_url": "https://x.com/shiki8_18_28",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T23:10:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNwoQE9awAAGVOC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNwoQE9awAAGVOC?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "866d0fcc81"
   }
 ]
