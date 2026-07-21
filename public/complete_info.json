@@ -1,5 +1,71 @@
 [
   {
+    "id": "623098e59a14",
+    "date": "2026-07-21",
+    "time": "22:54",
+    "store": "ピーアーク竹の塚",
+    "machine": "スマスロ 東京リベンジャーズ",
+    "machine_type": "slot",
+    "slot_number": "4136",
+    "text": "コンプリート　達成  4F 4136番台 L東京リベンジャーズから  ||◤￣￣￣￣￣￣￣￣￣￣￣￣￣◥|| 　　コンプリート達成 ||◣＿＿＿＿＿＿＿＿＿＿＿＿＿◢||  おめでとうございます  #ピーアーク竹ノ塚 #コンプリート #だけじゃない",
+    "x_url": "https://x.com/moguP_take/status/2079565650251698578",
+    "store_handle": "mogup_take",
+    "store_x_url": "https://x.com/mogup_take",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T15:16:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNwZ7zPaoAAykAc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNwZ7zPaoAAykAc?format=jpg&name=large",
+    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65",
+    "store_id": "70b0b77ae9"
+  },
+  {
+    "id": "8112da951c2f",
+    "date": "2026-07-21",
+    "time": "22:34",
+    "store": "スタジアム2001八女店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "1061",
+    "text": "スタジアムコンプリート速報  1061番台　牙狼黄金騎士極限 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/stadium2001yame/status/2079560742802805191",
+    "store_handle": "stadium2001yame",
+    "store_x_url": "https://x.com/stadium2001yame",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T15:38:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNwVJrRbEAAel6f?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNwVJrRbEAAel6f?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "bc0f789589"
+  },
+  {
+    "id": "ce476dffd15f",
+    "date": "2026-07-21",
+    "time": "22:10",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "812",
+    "text": "本日2台目 L東京喰種からコンプリート達成 お客様おめでとうございます #812番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2079554723234103757",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T15:17:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNwP_F_bEAAip34?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNwP_F_bEAAip34?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "703d5e39e5"
+  },
+  {
     "id": "9f77ced3e011",
     "date": "2026-07-21",
     "time": "21:12",
@@ -22,28 +88,6 @@
     "store_id": "b06d0873ca"
   },
   {
-    "id": "6ba6aa296820",
-    "date": "2026-07-21",
-    "time": "19:39",
-    "store": "ニューアサヒ長野青木島店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "565",
-    "text": "ドンドンドン\\c( ॑꒳ ॑ \\c)ﾄﾞﾝ 速報ですꉂ  7月21日 565番台 L北斗の拳 転生の章2 コンプリート達成 おめでとうございます   #青アサ  #コンプリート",
-    "x_url": "https://x.com/ikechanasahi/status/2079516530644230159",
-    "store_handle": "ikechanasahi",
-    "store_x_url": "https://x.com/ikechanasahi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-21T14:32:26Z",
-    "images": [
-      "https://pbs.twimg.com/media/HNvtQ0Ab0AAXUPC?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HNvtQ0Ab0AAXUPC?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "d473c469be"
-  },
-  {
     "id": "0566435cf704",
     "date": "2026-07-21",
     "time": "17:39",
@@ -64,6 +108,28 @@
     "image_url": "https://pbs.twimg.com/media/HNvR4gda8AAQlW3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "7ef9898b7f6b",
+    "date": "2026-07-21",
+    "time": "17:39",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "42",
+    "text": "本日、   42番台 e牙狼12黄金騎士極限  コンプリート達成  おめでとうございます  #パチンコ　 #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2079486376341614915",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T15:13:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNvRP-ibAAAsL9f?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNvRP-ibAAAsL9f?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "08cc35cd3000",
@@ -667,7 +733,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-21T11:10:19Z",
     "machine_id": "11111111-1111-1111-1111-000000000010",
-    "store_id": "e1bc568d26"
+    "store_id": "e1bc568d26",
+    "image_url": "https://pbs.twimg.com/media/HNl9Q3vaUAAWsn-.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HNl9Q3vaUAAWsn-.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNl9Q3vaUAAWsn-?format=jpg&name=large"
+    ]
   },
   {
     "id": "4db9b3bfc91f",
