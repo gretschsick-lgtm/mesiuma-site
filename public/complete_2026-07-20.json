@@ -89,6 +89,29 @@
     "store_id": "7ac364008f"
   },
   {
+    "id": "544941ec8079",
+    "date": "2026-07-20",
+    "time": "21:02",
+    "store": "マルハン松本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "154",
+    "text": "速報です。 本日ｅ牙狼１２ＸＸ－ＭＪ 154番台 #コンプリート    おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2079175208674660639",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T04:29:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HM3CkZ6aoAArIMC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HM3CltuaIAADfoa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HM3CkZ6aoAArIMC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "5b20cfecf8"
+  },
+  {
     "id": "14edb8093f97",
     "date": "2026-07-20",
     "time": "20:41",
@@ -244,6 +267,52 @@
     "image_url": "https://pbs.twimg.com/media/HNqCUb4boAAqUt5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "b42f5fe289"
+  },
+  {
+    "id": "891ebbb3ac73",
+    "date": "2026-07-20",
+    "time": "17:00",
+    "store": "テキサス小倉店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  三連休最終日速報  7月20日(月)  ＼コンプリート達成／   937番台▶︎▶︎▶︎▶︎ e 牙狼12 黄金騎士極限   牙狼を超えるのは牙狼だけ 　　　　　　　　　　　　 おめでとうございます！！  #テキサス1111 #ダブルトリガー",
+    "x_url": "https://x.com/texas_kokura/status/2079114314401907062",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T04:45:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNp_UcYbMAEKDz9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNp_Wtsa0AANUHk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNp_Y5ra8AAP5Go?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNp_UcYbMAEKDz9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "7be267e3ea"
+  },
+  {
+    "id": "927e92b82136",
+    "date": "2026-07-20",
+    "time": "16:46",
+    "store": "MJアリーナ箱崎店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "565",
+    "text": "本日7月20日   Lヴァルヴレイヴ2  　　　 565番台   　          コンプリート達成 　     おめでとうございます",
+    "x_url": "https://x.com/mjhakozaki/status/2079110582763204860",
+    "store_handle": "mjhakozaki",
+    "store_x_url": "https://x.com/mjhakozaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T04:45:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNp8DcqaQAAK-GX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNp8DcqaQAAK-GX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "c545330ad2"
   },
   {
     "id": "241b7e65ae06",
