@@ -1932,6 +1932,28 @@
     "store_id": "ef6da04b5b"
   },
   {
+    "id": "58044b55215c",
+    "date": "2026-07-18",
+    "time": "18:54",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "1677",
+    "text": "1677番台　eリコリス・リコイルM3 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2078418079286202691",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T16:02:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgGKhqacAAwr1w?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgGKhqacAAwr1w?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "bddd00652d55",
     "date": "2026-07-18",
     "time": "18:16",
