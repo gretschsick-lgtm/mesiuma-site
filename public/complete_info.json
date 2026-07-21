@@ -88,6 +88,29 @@
     "store_id": "b06d0873ca"
   },
   {
+    "id": "f7a4d2c78da9",
+    "date": "2026-07-21",
+    "time": "17:44",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "8151",
+    "text": "◤◢◤◢◤◢◤◢◤◢ コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  8151番台 \"Lミリオンゴッド-神々の軌跡-\" 先ほどコンプリート機能が 作動いたしました！！  もうすっかり夏ですね 明日も是非市野へ 涼みに来てください  ———————————————— 7/19～7/25市野のオススメ",
+    "x_url": "https://x.com/Concorde_ichino/status/2079487544333390104",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T16:53:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNvPu0dasAADzTE?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2079443247949352960/img/DsurBHcVCKNXvWqv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNvPu0dasAADzTE?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "3b33dd116a"
+  },
+  {
     "id": "0566435cf704",
     "date": "2026-07-21",
     "time": "17:39",
@@ -1945,7 +1968,7 @@
     "store_x_url": "https://x.com/castleatsuta",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-21T16:02:25Z",
+    "collected_at": "2026-07-21T16:44:55Z",
     "images": [
       "https://pbs.twimg.com/media/HNgGKhqacAAwr1w?format=jpg&name=large"
     ],
