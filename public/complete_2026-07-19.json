@@ -1,5 +1,53 @@
 [
   {
+    "id": "be86d0fdaea1",
+    "date": "2026-07-19",
+    "time": "23:09",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "524",
+    "text": "【SPACE666】 結果発表 本日19日・・・・！！  ミリオンゴッド 神々の軌跡 524番台 ヴァルヴレイヴ２ 498番台 　コンプリート達成  戦国乙女５ 452番台 　13000枚Over  本日は万枚Over10台！！！と 多くの台で楽しめたのでは ないでしょうか  明日20日は10時オープン♪",
+    "x_url": "https://x.com/space666tobata/status/2078844557496914275",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T06:21:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNmCDMrakAAJ4Dj?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNmCGCGbAAAYWCS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNmCG_bacAEri2-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNmCDMrakAAJ4Dj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "f8132a1307"
+  },
+  {
+    "id": "a1f8bb4d08de",
+    "date": "2026-07-19",
+    "time": "23:09",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【SPACE666】 結果発表 本日19日・・・・！！  ミリオンゴッド 神々の軌跡 524番台 ヴァルヴレイヴ２ 498番台 　コンプリート達成  戦国乙女５ 452番台 　13000枚Over  本日は万枚Over10台！！！と 多くの台で楽しめたのでは ないでしょうか  明日20日は10時オープン♪",
+    "x_url": "https://x.com/space666tobata/status/2078844557496914275",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T06:21:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNmCDMrakAAJ4Dj?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNmCGCGbAAAYWCS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNmCG_bacAEri2-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNmCDMrakAAJ4Dj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "70593e9bb86a",
     "date": "2026-07-19",
     "time": "22:59",
@@ -471,6 +519,28 @@
     "image_url": "https://pbs.twimg.com/media/HNlNPLlagAAdmSV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "9ff188237d"
+  },
+  {
+    "id": "a09bc27dece1",
+    "date": "2026-07-19",
+    "time": "18:21",
+    "store": "マルハン仙台新港店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "61",
+    "text": "7/19(日) 18:00頃 61番台  e東京喰種MW コンプリート機能発動",
+    "x_url": "https://x.com/maruhanshinkou/status/2078772167433748625",
+    "store_handle": "maruhanshinkou",
+    "store_x_url": "https://x.com/maruhanshinkou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T06:44:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNlIRHma4AAwFMQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNlIRHma4AAwFMQ?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "1da438c5d6"
   },
   {
     "id": "bfb3abfbb5ef",
