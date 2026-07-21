@@ -1,5 +1,27 @@
 [
   {
+    "id": "0566435cf704",
+    "date": "2026-07-21",
+    "time": "17:39",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "518",
+    "text": "Lゴッドイーターから コンプリート達成 おめでとうございますッ  この後のお時間も... ご来店お待ちしておりますッ #518番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2079486453776839110",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T10:40:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNvR4gda8AAQlW3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNvR4gda8AAQlW3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012",
+    "store_id": "703d5e39e5"
+  },
+  {
     "id": "08cc35cd3000",
     "date": "2026-07-21",
     "time": "16:42",
@@ -268,6 +290,28 @@
     "image_url": "https://pbs.twimg.com/media/HNqfQ22bIAAvGcr?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "ee5a196fc0"
+  },
+  {
+    "id": "1e9192a2ba4f",
+    "date": "2026-07-20",
+    "time": "19:15",
+    "store": "楽園大宮店",
+    "machine": "e花の慶次〜黄金の一撃",
+    "machine_type": "pachinko",
+    "slot_number": "1609",
+    "text": "本日19時ごろ！！  1F4円パチンコ1609番台  e花の慶次黄金の一撃にて  コンプリート達成！！  おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2079148134840795465",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T11:10:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNqeJ7Ba8AADK2R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNqeJ7Ba8AADK2R?format=jpg&name=large",
+    "machine_id": "d9239103-752a-474a-bf8f-1e156f26c987",
+    "store_id": "04950fcd53"
   },
   {
     "id": "9c5397f46b55",
@@ -562,6 +606,24 @@
     "image_url": "https://pbs.twimg.com/media/HNl9LJGawAAQ9xd?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "e5e18632fd"
+  },
+  {
+    "id": "cbb090025e0d",
+    "date": "2026-07-19",
+    "time": "22:13",
+    "store": "キコーナ川西久代店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！  #キコーナ南津守店 です！    本日！真打吉宗がコンプリート達成   いやぁ～真ＢＩＧ引きて～ 真高確率すら取れる気がしないこの頃…  ご遊技されていた方おめでとうございます  明日もご来店お待ちしております   #つぶやキコーナ  #コンプリート発動",
+    "x_url": "https://x.com/kicona_Mtsumori/status/2078830546558529760",
+    "store_handle": "kicona_mtsumori",
+    "store_x_url": "https://x.com/kicona_mtsumori",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-21T11:10:19Z",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "e1bc568d26"
   },
   {
     "id": "4db9b3bfc91f",

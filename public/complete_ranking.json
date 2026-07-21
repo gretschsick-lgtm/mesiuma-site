@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T17:49:16+09:00",
+  "generated_at": "2026-07-21T20:17:16+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 613,
+      "total_count": 616,
       "stores": [
         {
           "rank": 1,
@@ -32,39 +32,39 @@
         },
         {
           "rank": 5,
+          "name": "マルハンメガシティ水戸赤塚",
+          "count": 12,
+          "x_url": "https://x.com/maruhanakatsuka"
+        },
+        {
+          "rank": 6,
           "name": "メガフェイス1070菊陽",
           "count": 12,
           "x_url": "https://x.com/megaface_1070"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 12,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ARROW浪速店",
           "count": 12,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 8,
-          "name": "テキサス小倉店",
-          "count": 11,
-          "x_url": "https://x.com/texas_kokura"
-        },
-        {
           "rank": 9,
-          "name": "メガフェイス960飯塚",
+          "name": "楽園大宮店",
           "count": 11,
-          "x_url": "https://x.com/megaface_960"
+          "x_url": "https://x.com/rakuen_ohmiya"
         },
         {
           "rank": 10,
-          "name": "マルハンメガシティ水戸赤塚",
+          "name": "テキサス小倉店",
           "count": 11,
-          "x_url": "https://x.com/maruhanakatsuka"
+          "x_url": "https://x.com/texas_kokura"
         }
       ],
       "slot_machines": [
@@ -90,18 +90,18 @@
         },
         {
           "rank": 5,
-          "name": "Lミリオンゴッド神々の軌跡",
+          "name": "L真打吉宗",
           "count": 16
         },
         {
           "rank": 6,
-          "name": "スロット ソードアート・オンラインⅡ",
+          "name": "Lミリオンゴッド神々の軌跡",
           "count": 16
         },
         {
           "rank": 7,
-          "name": "L真打吉宗",
-          "count": 15
+          "name": "スロット ソードアート・オンラインⅡ",
+          "count": 16
         },
         {
           "rank": 8,
@@ -568,9 +568,9 @@
       },
       {
         "rank": 10,
-        "name": "テキサス白島店",
+        "name": "マルハンメガシティ水戸赤塚",
         "count": 14,
-        "x_url": "https://x.com/texashakushima"
+        "x_url": "https://x.com/maruhanakatsuka"
       }
     ],
     "slot_machines": [
@@ -607,7 +607,7 @@
       {
         "rank": 7,
         "name": "L真打吉宗",
-        "count": 17
+        "count": 18
       },
       {
         "rank": 8,
@@ -616,12 +616,12 @@
       },
       {
         "rank": 9,
-        "name": "Lかぐや様は告らせたい",
+        "name": "スマスロゴッドイーター",
         "count": 15
       },
       {
         "rank": 10,
-        "name": "L東京喰種",
+        "name": "Lかぐや様は告らせたい",
         "count": 15
       }
     ],
@@ -677,7 +677,7 @@
         "count": 4
       }
     ],
-    "total_count": 859
+    "total_count": 862
   },
   "store_complete_counts": {
     "テキサス小倉店": 20,
@@ -689,13 +689,13 @@
     "メガフェイス1450本山": 17,
     "ビックマーチ東習志野店": 17,
     "SPACE(スペース444＆666)": 15,
+    "マルハンメガシティ水戸赤塚": 14,
     "テキサス白島店": 14,
+    "楽園大宮店": 14,
     "メガフェイス960飯塚": 14,
     "FACE1300小倉南店": 14,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 14,
-    "楽園大宮店": 13,
     "プレイランドキャッスル春日井店": 13,
-    "マルハンメガシティ水戸赤塚": 13,
     "マルハンメガシティ三島駿東": 13,
     "ダイナム長野上田店": 12,
     "サガちゃんPARK": 12,
@@ -743,6 +743,7 @@
     "マルハン青梅新町店【イイじゃん!】": 4,
     "SUPER CONCORDE": 4,
     "テキサス段原店": 4,
+    "キコーナ川西久代店": 4,
     "天王寺ホール本館": 4,
     "SuperD'station39女神店": 4,
     "キコーナ府中": 4,
@@ -770,7 +771,6 @@
     "メガガイア柳井": 3,
     "楽園溝の口店": 3,
     "ワンダーランド1177谷山店": 3,
-    "キコーナ川西久代店": 3,
     "ウイングあすと長町店": 3,
     "ユーコーラッキー長崎駅前店☆": 3,
     "GOGOアリーナ天神": 3,
