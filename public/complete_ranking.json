@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T02:21:24+09:00",
+  "generated_at": "2026-07-23T03:28:24+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 647,
+      "total_count": 649,
       "stores": [
         {
           "rank": 1,
@@ -14,39 +14,39 @@
         },
         {
           "rank": 2,
+          "name": "メガフェイス1300淀川",
+          "count": 14,
+          "x_url": "https://x.com/megaface_1300"
+        },
+        {
+          "rank": 3,
           "name": "テキサス白島店",
           "count": 14,
           "x_url": "https://x.com/texashakushima"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "メガフェイス1450本山",
           "count": 14,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "SPACE(スペース444＆666)",
           "count": 14,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "マルハンメガシティ水戸赤塚",
           "count": 13,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 13,
           "x_url": "https://x.com/wakakin_tsujic"
-        },
-        {
-          "rank": 7,
-          "name": "メガフェイス1300淀川",
-          "count": 13,
-          "x_url": "https://x.com/megaface_1300"
         },
         {
           "rank": 8,
@@ -71,12 +71,12 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 158
+          "count": 159
         },
         {
           "rank": 2,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 48
+          "count": 49
         },
         {
           "rank": 3,
@@ -532,21 +532,21 @@
       },
       {
         "rank": 4,
+        "name": "メガフェイス1300淀川",
+        "count": 18,
+        "x_url": "https://x.com/megaface_1300"
+      },
+      {
+        "rank": 5,
         "name": "メガフェイス1070菊陽",
         "count": 18,
         "x_url": "https://x.com/megaface_1070"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "メガフェイス1450本山",
         "count": 17,
         "x_url": "https://x.com/megaface_1450"
-      },
-      {
-        "rank": 6,
-        "name": "メガフェイス1300淀川",
-        "count": 17,
-        "x_url": "https://x.com/megaface_1300"
       },
       {
         "rank": 7,
@@ -577,12 +577,12 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 198
+        "count": 199
       },
       {
         "rank": 2,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 49
+        "count": 50
       },
       {
         "rank": 3,
@@ -677,15 +677,15 @@
         "count": 4
       }
     ],
-    "total_count": 855
+    "total_count": 857
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
     "テキサス小倉店": 20,
     "キング観光サウザンド栄若宮大通店": 19,
+    "メガフェイス1300淀川": 18,
     "メガフェイス1070菊陽": 18,
     "メガフェイス1450本山": 17,
-    "メガフェイス1300淀川": 17,
     "ビックマーチ東習志野店": 17,
     "マルハンメガシティ水戸赤塚": 15,
     "SPACE(スペース444＆666)": 15,
@@ -740,6 +740,7 @@
     "テキサス656山口店": 5,
     "ユーコーラッキー37太宰府店": 5,
     "GOLD CONCORDE富士": 5,
+    "ゾーン行橋1000": 4,
     "楽園池袋店グリーンサイド": 4,
     "SuperD'station39福重店": 4,
     "パラッツォ鳩ヶ谷店": 4,
@@ -765,7 +766,6 @@
     "マルハン仙台名坊店": 4,
     "スタジアム2001八女店": 3,
     "アロー志紀店": 3,
-    "ゾーン行橋1000": 3,
     "マルハン仙台新港店": 3,
     "光サウザンド桑名本店": 3,
     "玉ノ助【パーラーダジュール公式】": 3,
