@@ -1553,6 +1553,28 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "088f39b23bac",
+    "date": "2026-07-19",
+    "time": "00:30",
+    "store": "ABC甲府上阿原店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "7/185円スロット 【L北斗の拳 転生の章2 】 閉店4分前にコンプリート達成 おめでとうございます 週末も是非、石和店でお楽しみください",
+    "x_url": "https://x.com/ABC_isawa/status/2078502554023993483",
+    "store_handle": "abc_isawa",
+    "store_x_url": "https://x.com/abc_isawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-22T06:53:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNhQFY2bEAAtid2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNhQFY2bEAAtid2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "e936860a27"
+  },
+  {
     "id": "427b42a157c4",
     "date": "2026-07-18",
     "time": "23:07",
