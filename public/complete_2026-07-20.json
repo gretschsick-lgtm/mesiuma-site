@@ -316,6 +316,28 @@
     "store_id": "04950fcd53"
   },
   {
+    "id": "69e788d0d080",
+    "date": "2026-07-20",
+    "time": "18:55",
+    "store": "FACE1300小倉南店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "1216",
+    "text": "コンプリート速報  1216番台　e東京喰種  コンプリート達成 おめでとうございます  メガトラも祝福してます  今日で3連休も終わりです 最後にいい思い出作りましょう  #コンプリート #東京喰種 #メガフェイス1300小倉南",
+    "x_url": "https://x.com/face_1300/status/2079143072328515907",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-22T04:48:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNqZmYJagAAXZ-S?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNqZmYJagAAXZ-S?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "9b1cc7055da2",
     "date": "2026-07-20",
     "time": "18:43",
