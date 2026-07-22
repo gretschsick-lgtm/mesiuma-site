@@ -1,5 +1,51 @@
 [
   {
+    "id": "461e2543d3b9",
+    "date": "2026-07-22",
+    "time": "23:57",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "629",
+    "text": "本日さらに、  e牙狼12黄金騎士極限　629番台  スマスロ 北斗の拳 転生の章2　1166番台  コンプリート達成　おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2079943801528020996",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-22T16:40:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN1xsmWbsAEbI3Z?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HN1xtOvbMAAFGw7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN1xsmWbsAEbI3Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "3f98060cc9c7",
+    "date": "2026-07-22",
+    "time": "23:57",
+    "store": "ARROW浪速店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日さらに、  e牙狼12黄金騎士極限　629番台  スマスロ 北斗の拳 転生の章2　1166番台  コンプリート達成　おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2079943801528020996",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-22T16:40:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN1xsmWbsAEbI3Z?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HN1xtOvbMAAFGw7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN1xsmWbsAEbI3Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "bacff63c00c9",
     "date": "2026-07-22",
     "time": "19:14",

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-23T01:39:41+09:00",
+  "generated_at": "2026-07-23T02:21:24+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 644,
+      "total_count": 647,
       "stores": [
         {
           "rank": 1,
           "name": "ARROW浪速店",
-          "count": 14,
+          "count": 16,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
@@ -38,40 +38,40 @@
         },
         {
           "rank": 6,
+          "name": "キング観光サウザンド栄若宮大通店",
+          "count": 13,
+          "x_url": "https://x.com/wakakin_tsujic"
+        },
+        {
+          "rank": 7,
           "name": "メガフェイス1300淀川",
           "count": 13,
           "x_url": "https://x.com/megaface_1300"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "テキサス小倉店",
           "count": 12,
           "x_url": "https://x.com/texas_kokura"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "プレイランドキャッスル春日井店",
           "count": 12,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "メガフェイス1070菊陽",
           "count": 12,
           "x_url": "https://x.com/megaface_1070"
-        },
-        {
-          "rank": 10,
-          "name": "キング観光サウザンド栄若宮大通店",
-          "count": 12,
-          "x_url": "https://x.com/wakakin_tsujic"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 157
+          "count": 158
         },
         {
           "rank": 2,
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 28
+          "count": 29
         },
         {
           "rank": 4,
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 84
+          "count": 85
         },
         {
           "rank": 2,
@@ -515,7 +515,7 @@
       {
         "rank": 1,
         "name": "ARROW浪速店",
-        "count": 20,
+        "count": 22,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -526,15 +526,15 @@
       },
       {
         "rank": 3,
-        "name": "メガフェイス1070菊陽",
-        "count": 18,
-        "x_url": "https://x.com/megaface_1070"
+        "name": "キング観光サウザンド栄若宮大通店",
+        "count": 19,
+        "x_url": "https://x.com/wakakin_tsujic"
       },
       {
         "rank": 4,
-        "name": "キング観光サウザンド栄若宮大通店",
+        "name": "メガフェイス1070菊陽",
         "count": 18,
-        "x_url": "https://x.com/wakakin_tsujic"
+        "x_url": "https://x.com/megaface_1070"
       },
       {
         "rank": 5,
@@ -577,7 +577,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 197
+        "count": 198
       },
       {
         "rank": 2,
@@ -587,7 +587,7 @@
       {
         "rank": 3,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 38
+        "count": 39
       },
       {
         "rank": 4,
@@ -629,7 +629,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 109
+        "count": 110
       },
       {
         "rank": 2,
@@ -677,13 +677,13 @@
         "count": 4
       }
     ],
-    "total_count": 852
+    "total_count": 855
   },
   "store_complete_counts": {
-    "ARROW浪速店": 20,
+    "ARROW浪速店": 22,
     "テキサス小倉店": 20,
+    "キング観光サウザンド栄若宮大通店": 19,
     "メガフェイス1070菊陽": 18,
-    "キング観光サウザンド栄若宮大通店": 18,
     "メガフェイス1450本山": 17,
     "メガフェイス1300淀川": 17,
     "ビックマーチ東習志野店": 17,
