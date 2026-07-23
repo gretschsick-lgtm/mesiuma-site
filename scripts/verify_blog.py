@@ -122,6 +122,16 @@ MACHINE_FACTS: dict[str, dict] = {
         "must_not_contain": [],
         "maker": "ニューギン",
     },
+    "見える子ちゃん": {
+        "must_contain":     ["神判ノ刻", "祈願チャレンジ", "見える子カウンター"],
+        "must_not_contain": [],
+        "maker": "パイオニア",
+    },
+    "七つの大罪3": {
+        "must_contain":     ["SEVEN RUSH", "PERFECT BONUS"],
+        "must_not_contain": [],
+        "maker": "サミー",
+    },
 }
 
 # ─── 解析サイト画像ページ（メイン画像 + 設定示唆画像）───────────
@@ -157,6 +167,10 @@ ANALYSIS_PAGES: dict[str, list[str]] = {
                                   "https://chonborista.com/pachinko/sammy/259722/"],
     "戦国コレクション6":  ["https://chonborista.com/slot/konami-slot/257820/"],
     "一方通行.*最狂":     ["https://chonborista.com/pachinko/fujishouji/261665/"],
+    "見える子ちゃん":     ["https://nana-press.com/kaiseki/machine/1192/",
+                           "https://chonborista.com/slot/pionia-slot/261153/"],
+    "七つの大罪3":        ["https://nana-press.com/kaiseki/machine/1206/",
+                           "https://chonborista.com/pachinko/sammy/263181/"],
 }
 
 # ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
