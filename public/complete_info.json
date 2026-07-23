@@ -272,6 +272,28 @@
     "store_id": "208e7c8d7f"
   },
   {
+    "id": "384488e19c4d",
+    "date": "2026-07-22",
+    "time": "20:43",
+    "store": "パラッツォ大阪三国店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "722",
+    "text": "本日２機種目     722番台 『パチスロ かぐや様は告らせたい』     コンプリート達成  今お楽しみいただいている方も、 これからご来店をお考えの方も、 最後の時間まで、どうぞごゆっくりお楽しみください！",
+    "x_url": "https://x.com/palazzo_mikuni/status/2079895202316374410",
+    "store_handle": "palazzo_mikuni",
+    "store_x_url": "https://x.com/palazzo_mikuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-23T21:20:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN1FqY2aUAAAYqg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN1FqY2aUAAAYqg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "f6a0acc322"
+  },
+  {
     "id": "c663d45f4cd6",
     "date": "2026-07-22",
     "time": "19:33",
@@ -1727,6 +1749,28 @@
     "image_url": "https://pbs.twimg.com/media/HNlnyUAbQAAC5XU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "94cb46d6fb"
+  },
+  {
+    "id": "556ab8e76790",
+    "date": "2026-07-19",
+    "time": "20:15",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "576",
+    "text": "コンプリート機能発動   先ほど５76番台   スマスロ革命機ヴァルヴレイヴ２にて   コンプリート機能発動！！     明日開放予定となります。   明日も #キャッスル春日井 へ   ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2078800882804961682",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-23T20:51:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNliT3Ga0AA0NuK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNliT3Ga0AA0NuK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
   },
   {
     "id": "7cc3f671a0b2",
