@@ -1,5 +1,28 @@
 [
   {
+    "id": "d07b51b83829",
+    "date": "2026-07-24",
+    "time": "22:39",
+    "store": "ピーアーク北千住エリア",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1008",
+    "text": "7月24日（木） ピーアーク北千住SSS トリエス  1008番台 L 革命機ヴァルヴレイヴ コンプリート達成  次の景色まで待てないかぁ 革命ええて  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2080286729987305974",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-23T17:54:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN6pwPvacAAGlP9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HN0iSk3aMAA_gYH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN6pwPvacAAGlP9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "8282115e87"
+  },
+  {
     "id": "5c10a21f8b7a",
     "date": "2026-07-23",
     "time": "21:49",
@@ -65,6 +88,29 @@
     "image_url": "https://pbs.twimg.com/media/HN6VDk-aYAA81_A?format=jpg&name=large",
     "machine_id": "12f0befc-c00f-4b88-9d78-78585f862289",
     "store_id": "98752ae840"
+  },
+  {
+    "id": "96f2042042f3",
+    "date": "2026-07-23",
+    "time": "19:10",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 キターーーー！！ 豊崎本館、今週のオススメ機種 ヴァルヴレイヴ２より コンプリート達成 流石はオススメ機種！ おめでとうございます",
+    "x_url": "https://x.com/megaface_1120/status/2080234003500761587",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-23T17:54:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN55xv1bMAAeXZd?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HN55xv8bAAA3aso?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN55xv1bMAAeXZd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "036ad33f3f"
   },
   {
     "id": "461e2543d3b9",
@@ -269,6 +315,28 @@
     "image_url": "https://pbs.twimg.com/media/HN0xMmfaAAAKfIM?format=jpg&name=large",
     "machine_id": "28bf41c3-d782-4ae9-b9e0-cc892130680d",
     "store_id": "ec2322cb03"
+  },
+  {
+    "id": "0440feb30f8a",
+    "date": "2026-07-22",
+    "time": "18:16",
+    "store": "楽園大宮店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "225",
+    "text": "本日18時ごろ！！  B1F4円パチンコ225番台   e東京喰種MWにて  コンプリート達成！！  おめでとうございます！！",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2079858165446009153",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-23T18:26:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN0j3tDaUAEI_Xd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN0j3tDaUAEI_Xd?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04950fcd53"
   },
   {
     "id": "abbb20f90ac1",
@@ -982,6 +1050,28 @@
     "image_url": "https://pbs.twimg.com/media/HNqr9U0bgAAO10e?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "44b996496f"
+  },
+  {
+    "id": "03f6cada1a71",
+    "date": "2026-07-20",
+    "time": "20:13",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "616",
+    "text": "616番台 e牙狼12 コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2079162769723847122",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-23T17:53:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNqrhC7agAAvAto?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNqrhC7agAAvAto?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "771f030669"
   },
   {
     "id": "f8f0be68f7d2",
