@@ -466,12 +466,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-23T23:30:39Z",
     "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "d473c469be",
-    "image_url": "https://pbs.twimg.com/media/HN0Krg7bwAA58CP.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HN0Krg7bwAA58CP.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HN0Krg7bwAA58CP?format=jpg&name=large"
-    ]
+    "store_id": "d473c469be"
   },
   {
     "id": "cb86e71ab311",
@@ -983,6 +978,28 @@
     "image_url": "https://pbs.twimg.com/media/HNwoQE9awAAGVOC?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "866d0fcc81"
+  },
+  {
+    "id": "a18accbf9b4b",
+    "date": "2026-07-20",
+    "time": "22:31",
+    "store": "メガフェイス1450本山",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "879",
+    "text": "速報  本日２台目  　　８７９番台 　　チバリヨ２ #コンプリート 発動です  おめでとうございます  #7月20日 #メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450/status/2079197473885827557",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-24T11:03:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNrF4qiaIAAlOAm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNrF4qiaIAAlOAm?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "44b996496f"
   },
   {
     "id": "45c197780aed",
