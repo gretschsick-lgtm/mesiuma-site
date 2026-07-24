@@ -36,7 +36,7 @@
     "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-24T15:52:28Z",
+    "collected_at": "2026-07-24T16:43:56Z",
     "images": [
       "https://pbs.twimg.com/media/HN-8lPwaAAAalUY?format=jpg&name=large"
     ],
@@ -1386,6 +1386,28 @@
     "image_url": "https://pbs.twimg.com/media/HNqrhC7agAAvAto?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "771f030669"
+  },
+  {
+    "id": "ea4138045143",
+    "date": "2026-07-20",
+    "time": "20:13",
+    "store": "ミリオンゴット",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "お、お(ﾟ∀ﾟ) ミリオンゴット ＊コンプリート＊おめでとう御座います٩( 'ω' )و いいぞいいぞ〜  #タワービクトリー #コンプリート #ミリオンゴッド",
+    "x_url": "https://x.com/Kotori_Tower/status/2079162765273616737",
+    "store_handle": "kotori_tower",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-07-24T17:20:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNqrgtKbYAANIkk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNqrgtKbYAANIkk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "c092891c5f"
   },
   {
     "id": "f8f0be68f7d2",
@@ -3183,6 +3205,30 @@
     "image_url": "https://pbs.twimg.com/media/HNgRT-QaMAAv5f4?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "9c67ec7560"
+  },
+  {
+    "id": "88a9622f74f8",
+    "date": "2026-07-18",
+    "time": "19:18",
+    "store": "つかさ築地店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1137",
+    "text": "速報  7月つかさ築地店×大注目の3日間  L北斗の拳転生　1137番台 コンプリートが出ました！ キレイなグラフに一片の悔いなし  #パチゲット #マンスリーメガキングR #モンスターエナジー入荷",
+    "x_url": "https://x.com/tsukasa7t/status/2078424158661398875",
+    "store_handle": "tsukasa7t",
+    "store_x_url": "https://x.com/tsukasa7t",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-24T17:08:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNgLv1OaEAAndOh?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNgLv1MbwAA2Rib?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNgLv1SaQAAmKc1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNgLv1OaEAAndOh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "8c2d37fb20"
   },
   {
     "id": "9c500086afec",
