@@ -113,6 +113,29 @@
     "store_id": "036ad33f3f"
   },
   {
+    "id": "ec4211d9421c",
+    "date": "2026-07-23",
+    "time": "19:10",
+    "store": "FACE1300小倉南店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1862",
+    "text": "コンプリート速報  1862番台　Lからくりサーカス2  コンプリート達成 おめでとうございます  まだまだ報告お待ちしております  #コンプリート #でちゃう取材 #MEGAFACE1300小倉南店",
+    "x_url": "https://x.com/face_1300/status/2080234110459724027",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-24T04:45:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN555UBaIAAoJKn?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HN5ZWskbUAA8SDK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN555UBaIAAoJKn?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "461e2543d3b9",
     "date": "2026-07-22",
     "time": "23:57",
