@@ -36,13 +36,35 @@
     "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-24T16:43:56Z",
+    "collected_at": "2026-07-24T15:52:28Z",
     "images": [
       "https://pbs.twimg.com/media/HN-8lPwaAAAalUY?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HN-8lPwaAAAalUY?format=jpg&name=large",
     "machine_id": "716572a7-b35e-447c-bb67-a7d69faea6ed",
     "store_id": "ef707cf8fe"
+  },
+  {
+    "id": "c8f07190b14a",
+    "date": "2026-07-24",
+    "time": "17:51",
+    "store": "甲府昭和店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "307",
+    "text": "ニューアサヒ甲府昭和速報 我が名は牙狼！黄金騎士だ！ ニューアサヒ甲府昭和店にて… 4円パチンコ【307番台】 スマパチ牙狼黄金騎士極限 めでたくComplete達成 本日は遊技終了となります #甲府昭和店 #コンプリート #牙狼聖域化計画 #金色になれ",
+    "x_url": "https://x.com/SUNGLASS_A/status/2080576494016118957",
+    "store_handle": "sunglass_a",
+    "store_x_url": "https://x.com/sunglass_a",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-24T17:29:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN-xSrva0AEpARq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN-xSrva0AEpARq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c3ea7e338c"
   },
   {
     "id": "384fbe6e8f69",
