@@ -113,6 +113,28 @@
     "store_id": "18425371bb"
   },
   {
+    "id": "b901da9f85c3",
+    "date": "2026-07-23",
+    "time": "15:24",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "452",
+    "text": "e牙狼12黄金騎士極限より 452番台早くもコンプリート おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2080177169071051033",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-24T15:04:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN5F8x7bUAAi6K1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN5F8x7bUAAi6K1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "de68290eab"
+  },
+  {
     "id": "48a6572368a6",
     "date": "2026-07-23",
     "time": "15:07",
