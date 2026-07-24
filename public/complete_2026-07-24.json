@@ -21,5 +21,28 @@
     "image_url": "https://pbs.twimg.com/media/HN6pwPvacAAGlP9?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "8282115e87"
+  },
+  {
+    "id": "384fbe6e8f69",
+    "date": "2026-07-24",
+    "time": "13:52",
+    "store": "ビックマーチ河和田東店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "258",
+    "text": "東の牙狼からコンプリート  水戸最大の牙狼 258番台のお客様〜 誠におめでとう御座います  #ビックマーチ河和田東店 #コンプリート #東の牙狼",
+    "x_url": "https://x.com/monky0621bm/status/2080516573291495481",
+    "store_handle": "monky0621bm",
+    "store_x_url": "https://x.com/monky0621bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-24T08:09:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN96y02aQAA5TIS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HN96y04bkAAYCpJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN96y02aQAA5TIS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c70e842b0a"
   }
 ]
