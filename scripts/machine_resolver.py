@@ -59,6 +59,83 @@ def normalize_for_comparison(name: str) -> str:
     return n.lower().replace(" ", "").replace("\u3000", "")
 
 
+# \u2500\u2500 \u30b7\u30ea\u30fc\u30ba\u66d6\u6627\u6027\u5224\u5b9a\u201c\u5c02\u7528\u201d\u306e\u524d\u51e6\u7406 \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+# \u76ee\u7684: \u300c\u88f8\u306e\u30b7\u30ea\u30fc\u30ba\u540d\uff08\u578b\u30d7\u30ec\u30d5\u30a3\u30c3\u30af\u30b9\u30fb\u4e16\u4ee3\u756a\u53f7\u30fb\u526f\u984c\u306a\u3057\uff09\u300d\u304c machines_master
+#       \u4e0a\u3067\u8907\u6570\u6a5f\u7a2e\u306b\u8a72\u5f53\u3059\u308b\u304b\u3092\u5224\u5b9a\u3059\u308b\u305f\u3081\u3060\u3051\u306b\u4f7f\u3046\u3002
+# \u91cd\u8981: \u6b63\u5f0f\u540d\u79f0\u306e\u4fdd\u5b58\u3084\u901a\u5e38\u306e exact/alias \u5224\u5b9a\u306b\u306f\u4f7f\u308f\u306a\u3044\u3002
+#       \u6570\u5b57\u30fb\u30ed\u30fc\u30de\u6570\u5b57\u30fb\u4e16\u4ee3\u756a\u53f7\u30fb\u526f\u984c\u30fbSPEC/LT \u7b49\u306e\u201c\u8b58\u5225\u60c5\u5831\u201d\u306f\u524a\u9664\u3057\u306a\u3044\u3002
+#       \u3053\u3053\u3067\u9664\u53bb\u3059\u308b\u306e\u306f\u300c\u7a2e\u5225\u30d7\u30ec\u30d5\u30a3\u30c3\u30af\u30b9\u300d\u3068\u300c\u62ec\u5f27\u30fb\u8a18\u53f7\u30fb\u7a7a\u767d\u300d\u3060\u3051\u3002
+
+_STEM_LEADING_BRACKETS = re.compile(r'^[\s\u3000\u300e\u300c\u3010\u3014\[(\uff08\u300a\u3008\u00ab\u276e\u226a]+')
+# \u66d6\u6627\u6027\u7167\u5408\u306e\u30ce\u30a4\u30ba\u306b\u306a\u308b\u8a18\u53f7\u30fb\u7a7a\u767d\u306e\u307f\u9664\u53bb\uff08\u82f1\u6570\u5b57\u30fb\u304b\u306a\u30fb\u6f22\u5b57\u30fb\u30fc\u306f\u6b8b\u3059\uff09
+_STEM_JUNK = re.compile(r'[\s\u3000\uff01!\uff1f?\u30fb:\uff1a\u300c\u300d\u300e\u300f\u3010\u3011\u3014\u3015\[\]\uff08\uff09()\u300a\u300b\u3008\u3009\u00ab\u00bb\u276e\u276f\u226a\u226b\u3001\u3002,\uff0e\.~\u301c"\u201d\u201c\'`\uff40]+')
+# \u7a2e\u5225\u30d7\u30ec\u30d5\u30a3\u30c3\u30af\u30b9\uff08\u7167\u5408\u5c02\u7528\u306b\u9664\u53bb\u3002\u9577\u3044\u3082\u306e\u3092\u5148\u306b\uff09
+_STEM_PREFIX_MULTI = ["\u30b9\u30de\u30b9\u30ed", "\u30b9\u30de\u30d1\u30c1", "p\u30d5\u30a3\u30fc\u30d0\u30fc", "\u30d5\u30a3\u30fc\u30d0\u30fc", "\u30d1\u30c1\u30b9\u30ed",
+                      "\u30b9\u30ed\u30c3\u30c8", "slot", "cr", "pa", "lt"]
+_STEM_PREFIX_SINGLE = ["l", "e", "p", "s"]  # \u76f4\u5f8c\u304c\u975eASCII\uff08\u65e5\u672c\u8a9e\uff09\u306e\u5834\u5408\u306e\u307f\u9664\u53bb
+
+
+def _series_stem(name: str) -> str:
+    """\u66d6\u6627\u6027\u78ba\u8a8d\u5c02\u7528\u306e\u30b7\u30ea\u30fc\u30ba stem \u3092\u8fd4\u3059\uff08\u8b58\u5225\u60c5\u5831=\u6570\u5b57/\u4e16\u4ee3/\u526f\u984c\u306f\u4fdd\u6301\uff09\u3002"""
+    if not name:
+        return ""
+    n = unicodedata.normalize("NFKC", name.strip())
+    n = _STEM_LEADING_BRACKETS.sub("", n).lower()
+    changed = True
+    while changed:
+        changed = False
+        for p in _STEM_PREFIX_MULTI:
+            if n.startswith(p) and len(n) > len(p):
+                n = n[len(p):]; changed = True; break
+        if changed:
+            continue
+        for p in _STEM_PREFIX_SINGLE:
+            # \u5358\u4e00\u30e9\u30c6\u30f3\u63a5\u982d\u8f9e\u306f\u300c\u76f4\u5f8c\u304c\u65e5\u672c\u8a9e\uff08\u975eASCII\uff09\u300d\u306e\u3068\u304d\u3060\u3051\u9664\u53bb
+            # \u4f8b: e\u7259\u72fc / L\u6c96\u30c9\u30ad / P\u5317\u6597 \u2192 \u9664\u53bb\u3001Re:\u30bc\u30ed \u7b49\u306f\u8aa4\u9664\u53bb\u3057\u306a\u3044
+            if n.startswith(p) and len(n) > len(p) and not n[len(p)].isascii():
+                n = n[len(p):]; changed = True; break
+    return _STEM_JUNK.sub("", n)
+
+
+def _has_type_prefix(name: str) -> bool:
+    """\u578b\u30d7\u30ec\u30d5\u30a3\u30c3\u30af\u30b9\uff08L/S/e/P/PA/CR/\u30b9\u30de\u30b9\u30ed \u7b49\uff09\u3092\u6301\u3064\u304b\u3002\u6301\u3066\u3070\u88f8\u540d\u3067\u306f\u306a\u3044\u3002"""
+    if not name:
+        return False
+    n = unicodedata.normalize("NFKC", name.strip())
+    n = _STEM_LEADING_BRACKETS.sub("", n).lower()
+    for p in _STEM_PREFIX_MULTI:
+        if n.startswith(p) and len(n) > len(p):
+            return True
+    for p in _STEM_PREFIX_SINGLE:
+        if n.startswith(p) and len(n) > len(p) and not n[len(p)].isascii():
+            return True
+    return False
+
+
+def _prefix_implied_type(name: str) -> Optional[str]:
+    """型プレフィックスから種別を推定（slot/pachinko）。判定不能は None。
+
+    信頼できる接頭辞のみ。曖昧な S 単独等は None（推定しない）。
+    slot   : L / Ｌ / スマスロ / パチスロ / スロット / SLOT
+    pachinko: e / ｅ / P / Ｐ / CR / PA / スマパチ / (P)フィーバー
+    """
+    if not name:
+        return None
+    n = unicodedata.normalize("NFKC", name.strip())
+    n = _STEM_LEADING_BRACKETS.sub("", n).lower()
+    if n.startswith(("スマスロ", "パチスロ", "スロット", "slot")):
+        return "slot"
+    if n.startswith(("スマパチ", "pフィーバー", "フィーバー", "cr", "pa")):
+        return "pachinko"
+    # 単一ラテン接頭辞（直後が日本語のときのみ有効）
+    if len(n) > 1 and not n[1].isascii():
+        if n[0] == "l":
+            return "slot"
+        if n[0] in ("e", "p"):
+            return "pachinko"
+    return None
+
+
 class MachineResolver:
     """
     Supabase の machines_master + machines_aliases をメモリにキャッシュして
@@ -71,6 +148,10 @@ class MachineResolver:
         self._masters: list[dict] = []
         # normalized_alias → {machine_id, official_name, confidence}
         self._alias_map: dict[str, dict] = {}
+        # 曖昧性判定用: (machine_id, series_stem) のリスト（_load でメモリに構築）
+        self._master_stems: list[tuple[str, str]] = []
+        # 型プレフィックスを持たない正式名の normalized_name 集合（_load で構築）
+        self._prefixless_exact: set[str] = set()
         self._loaded = False
         self._ssl_ctx = ssl._create_unverified_context()  # macOS + GH Actions 対応
 
@@ -122,6 +203,23 @@ class MachineResolver:
             print(f"⚠️  machine_resolver: machines_master ロード失敗: {e}")
             self._masters = []
 
+        # 曖昧性判定用の series_stem をメモリに構築（収集開始時に一括・以後DB問い合わせ不要）
+        self._master_stems = [
+            (m["id"], _series_stem(m.get("official_name", "")))
+            for m in self._masters
+            if _series_stem(m.get("official_name", ""))
+        ]
+        # 「型プレフィックスを持たない正式名」の normalized_name 集合。
+        # 入力がこれに完全一致する場合は“接頭辞なしの完全な正式名そのもの”なので
+        # 裸シリーズ扱いしない（例: 沖ドキ！DUO / 沖ドキ！ゴージャス）。
+        # 一方 ゴジラ→Lゴジラ のように official 側に接頭辞がある名前は含まれないため、
+        # 裸名 ゴジラ は従来どおり曖昧としてブロックされる。
+        self._prefixless_exact = {
+            m["normalized_name"]
+            for m in self._masters
+            if m.get("normalized_name") and not _has_type_prefix(m.get("official_name", ""))
+        }
+
         try:
             aliases_raw = self._sb_get(
                 "machines_aliases?select=machine_id,normalized_alias,confidence"
@@ -148,6 +246,35 @@ class MachineResolver:
 
     # ── 公開 API ──────────────────────────────────────────────────────────
 
+    def _is_ambiguous_bare(self, raw_name: str) -> bool:
+        """
+        「裸のシリーズ名」がマスタ上で複数機種に該当するかを動的に判定する。
+
+        True の条件（すべて満たす）:
+          1. 型プレフィックス（L/S/e/P/PA/CR/スマスロ 等）を持たない
+          2. series_stem が 2 文字以上
+          3. その stem に一致（完全一致 or stem を接頭辞に持つ）する
+             有効な machines_master が 2 機種以上存在する
+
+        型プレフィックス付き（例: e牙狼12黄金騎士極限, L沖ドキDUOアンコール）や、
+        世代番号・副題で stem 自体が一意に絞れる名前（例: 甲鉄城のカバネリ海門決戦,
+        L戦国乙女5）は False（＝通常の exact/alias 解決に進む）。
+        """
+        if _has_type_prefix(raw_name):
+            return False
+        # 接頭辞なしの完全な正式名そのものに一致する場合は曖昧としない
+        # （例: 沖ドキ！DUO は master に接頭辞なし正式名として存在する具体機種）
+        if normalize_for_comparison(raw_name) in self._prefixless_exact:
+            return False
+        s = _series_stem(raw_name)
+        if len(s) < 2:
+            return False
+        members = {
+            mid for mid, mstem in self._master_stems
+            if mstem == s or mstem.startswith(s)
+        }
+        return len(members) >= 2
+
     def resolve(self, raw_name: str) -> Optional[dict]:
         """
         機種名を解決して dict を返す。85% 未満は None（→ unknown_machines に保存）。
@@ -172,9 +299,25 @@ class MachineResolver:
         if not norm:
             return None
 
+        # 0.5 動的な曖昧性ガード（machines_master 実データ基準）
+        # 型プレフィックス・世代・副題のない「裸のシリーズ名」が、マスタ上で
+        # 複数機種に該当する場合は、exact/alias 一致があっても特定機種へ確定しない。
+        # 例: 牙狼 / 沖ドキ / 甲鉄城 / かぐや / ゴジラ / 革命機（複数世代・複数機種）
+        # → 誤った正式名称を保存するより未解決（unknown_machines）を優先する。
+        if self._is_ambiguous_bare(raw_name):
+            return None
+
+        # 入力プレフィックスが示す種別（slot/pachinko）。候補の種別がこれと食い違う
+        # 場合は採用しない（例: "P北斗の拳"(pachinko) が fuzzy で スマスロ北斗(slot) に
+        # 誤マッチするのを防ぐ）。master 種別を正とする原則の裏返し。
+        implied = _prefix_implied_type(raw_name)
+
+        def _type_ok(mtype: str) -> bool:
+            return implied is None or (mtype or "slot") == implied
+
         # 1. 完全一致（machines_master.normalized_name）
         for m in self._masters:
-            if m["normalized_name"] == norm:
+            if m["normalized_name"] == norm and _type_ok(m.get("type", "slot")):
                 return {
                     "machine_id":    m["id"],
                     "official_name": m["official_name"],
@@ -187,14 +330,15 @@ class MachineResolver:
         # 2. エイリアス一致（machines_aliases.normalized_alias）
         if norm in self._alias_map:
             a = self._alias_map[norm]
-            return {
-                "machine_id":    a["machine_id"],
-                "official_name": a["official_name"],
-                "machine_type":  a.get("machine_type", "slot"),
-                "normalized_name": norm,
-                "confidence":    a["confidence"],
-                "match_type":    "alias",
-            }
+            if _type_ok(a.get("machine_type", "slot")):
+                return {
+                    "machine_id":    a["machine_id"],
+                    "official_name": a["official_name"],
+                    "machine_type":  a.get("machine_type", "slot"),
+                    "normalized_name": norm,
+                    "confidence":    a["confidence"],
+                    "match_type":    "alias",
+                }
 
         # 3. ファジーマッチ用の追加 AMBIGUOUS_SERIES チェック（到達しないはずだが念のため）
         # normalized 後に曖昧性が生じるケースを防ぐ
@@ -203,9 +347,12 @@ class MachineResolver:
 
         # 4. ファジーマッチ（SequenceMatcher ratio ≥ 0.85）
         # 類似度が同点の場合は official_name 辞書順（ロード時にソート済み）で最初のものを採用
+        # プレフィックス種別と食い違う候補は除外（誤った種別・機種の確定を防ぐ）
         best_score = 0.849  # 0.85 未満は unknown 扱い
         best_match: Optional[dict] = None
         for m in self._masters:
+            if not _type_ok(m.get("type", "slot")):
+                continue
             score = SequenceMatcher(None, norm, m["normalized_name"]).ratio()
             if score > best_score:
                 best_score = score
