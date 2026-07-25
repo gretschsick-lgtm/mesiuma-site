@@ -70,8 +70,9 @@ _STEM_LEADING_BRACKETS = re.compile(r'^[\s\u3000\u300e\u300c\u3010\u3014\[(\uff0
 # \u66d6\u6627\u6027\u7167\u5408\u306e\u30ce\u30a4\u30ba\u306b\u306a\u308b\u8a18\u53f7\u30fb\u7a7a\u767d\u306e\u307f\u9664\u53bb\uff08\u82f1\u6570\u5b57\u30fb\u304b\u306a\u30fb\u6f22\u5b57\u30fb\u30fc\u306f\u6b8b\u3059\uff09
 _STEM_JUNK = re.compile(r'[\s\u3000\uff01!\uff1f?\u30fb:\uff1a\u300c\u300d\u300e\u300f\u3010\u3011\u3014\u3015\[\]\uff08\uff09()\u300a\u300b\u3008\u3009\u00ab\u00bb\u276e\u276f\u226a\u226b\u3001\u3002,\uff0e\.~\u301c"\u201d\u201c\'`\uff40]+')
 # \u7a2e\u5225\u30d7\u30ec\u30d5\u30a3\u30c3\u30af\u30b9\uff08\u7167\u5408\u5c02\u7528\u306b\u9664\u53bb\u3002\u9577\u3044\u3082\u306e\u3092\u5148\u306b\uff09
+# \u6ce8: "lt" \u306f\u578b\u5f0f\u8b58\u5225\u5b50\uff08LT\u7248\uff09\u3068\u3057\u3066\u6b8b\u3059\uff1d\u30d7\u30ec\u30d5\u30a3\u30c3\u30af\u30b9\u9664\u53bb\u306b\u542b\u3081\u306a\u3044
 _STEM_PREFIX_MULTI = ["\u30b9\u30de\u30b9\u30ed", "\u30b9\u30de\u30d1\u30c1", "p\u30d5\u30a3\u30fc\u30d0\u30fc", "\u30d5\u30a3\u30fc\u30d0\u30fc", "\u30d1\u30c1\u30b9\u30ed",
-                      "\u30b9\u30ed\u30c3\u30c8", "slot", "cr", "pa", "lt"]
+                      "\u30b9\u30ed\u30c3\u30c8", "slot", "cr", "pa"]
 _STEM_PREFIX_SINGLE = ["l", "e", "p", "s"]  # \u76f4\u5f8c\u304c\u975eASCII\uff08\u65e5\u672c\u8a9e\uff09\u306e\u5834\u5408\u306e\u307f\u9664\u53bb
 
 
@@ -110,6 +111,41 @@ def _has_type_prefix(name: str) -> bool:
         if n.startswith(p) and len(n) > len(p) and not n[len(p)].isascii():
             return True
     return False
+
+
+_ROMAN_MAP = {
+    "Ⅰ": "1", "Ⅱ": "2", "Ⅲ": "3", "Ⅳ": "4", "Ⅴ": "5", "Ⅵ": "6",
+    "Ⅶ": "7", "Ⅷ": "8", "Ⅸ": "9", "Ⅹ": "10", "Ⅺ": "11", "Ⅻ": "12",
+    "ⅰ": "1", "ⅱ": "2", "ⅲ": "3", "ⅳ": "4", "ⅴ": "5", "ⅵ": "6",
+}
+_DIGIT_RUN = re.compile(r"\d+")
+_LATIN_RUN = re.compile(r"[a-z]{2,}")  # DUO / GOLD / BLACK / LT / SPEC / VER / EX / RUSH 等
+
+
+def extract_identity_tokens(name: str) -> frozenset:
+    """機種を一意に識別する“識別トークン集合”を返す（世代・型式・別機種の区別用）。
+
+    捕捉するもの（データから抽出。特定機種名のハードコードはしない）:
+      - 数字列（Unicode ローマ数字 Ⅱ→2 に変換してから抽出。全角→半角は NFKC で統一）
+      - 2 文字以上のラテン語トークン（DUO / GOLD / BLACK / LT / SPEC / VER / EX / RUSH …）
+
+    重要:
+      - series_stem 経由で抽出するため、型プレフィックス（L/e/P/CR/PA/スマスロ 等）は
+        識別トークンに混入しない（例: CR牙狼 → {} / L沖ドキDUO2 → {"duo","2"}）。
+      - 数字・型式語は削除しない。副題のかな/漢字（アンコール・海門決戦 等）は
+        トークン化しないが、それらは exact / alias / fuzzy スコアで区別される。
+
+    用途は fuzzy 候補の“世代・数字・型式違い”排除に限定する。exact/alias 判定には使わない。
+    例: 沖ドキ！DUO2 → {"duo","2"} / 沖ドキ！DUO → {"duo"} / 沖ドキ！GOLD → {"gold"}
+        / 沖ドキ！BLACK → {"black"} / 戦国乙女5 → {"5"} / ヴァルヴレイヴ → 空集合
+    """
+    if not name:
+        return frozenset()
+    n = name
+    for r, a in _ROMAN_MAP.items():
+        n = n.replace(r, a)
+    s = _series_stem(n)  # 型プレフィックス除去 + NFKC + lower + 記号除去
+    return frozenset(_DIGIT_RUN.findall(s)) | frozenset(_LATIN_RUN.findall(s))
 
 
 def _prefix_implied_type(name: str) -> Optional[str]:
@@ -269,11 +305,28 @@ class MachineResolver:
         s = _series_stem(raw_name)
         if len(s) < 2:
             return False
-        members = {
-            mid for mid, mstem in self._master_stems
+        # (a) stem が接頭辞として複数機種に一致（例: 沖ドキ / 甲鉄城 / 北斗）
+        members = [
+            (mid, mstem) for mid, mstem in self._master_stems
             if mstem == s or mstem.startswith(s)
-        }
-        return len(members) >= 2
+        ]
+        distinct_ids = {mid for mid, _ in members}
+        if len(distinct_ids) >= 2:
+            member_stems = {mstem for _, mstem in members}
+            # 例外: 全メンバーが「入力 stem と完全一致の単一 stem」= 型プレフィックス違いの
+            # 重複登録（同一機種を L版/スマスロ版 等で二重登録）とみなし、曖昧としない。
+            # 例: 沖ドキ！DUOアンコール（L沖ドキDUOアンコール と スマスロ沖ドキ！DUOアンコール）
+            # 一方 ヴァルヴレイヴ（無印 と 2）や 沖ドキ（多数の別副題）は stem が複数種類 → 曖昧。
+            if not (len(member_stems) == 1 and s in member_stems):
+                return True
+        # (b) 数字を含まない裸名で、stem がシリーズ名として複数機種に“含まれる”場合も曖昧。
+        #     シリーズ名が正式名の途中に現れる機種（例: L革命機ヴァルヴレイヴ / …2）を捕捉。
+        #     数字付き入力（戦国乙女5 等）はこの分岐に入らない＝世代指定は一意解決を許す。
+        if not extract_identity_tokens(raw_name):
+            sub_members = {mid for mid, mstem in self._master_stems if s in mstem}
+            if len(sub_members) >= 2:
+                return True
+        return False
 
     def resolve(self, raw_name: str) -> Optional[dict]:
         """
@@ -347,28 +400,40 @@ class MachineResolver:
 
         # 4. ファジーマッチ（SequenceMatcher ratio ≥ 0.85）
         # 類似度が同点の場合は official_name 辞書順（ロード時にソート済み）で最初のものを採用
-        # プレフィックス種別と食い違う候補は除外（誤った種別・機種の確定を防ぐ）
-        best_score = 0.849  # 0.85 未満は unknown 扱い
-        best_match: Optional[dict] = None
+        # 制約:
+        #  (a) プレフィックス種別と食い違う候補は除外（誤った種別の確定を防ぐ）
+        #  (b) 入力と候補の“数字集合”が一致しない候補は除外
+        #      → 世代・数字違いの別機種へ寄せない（例: 沖ドキDUO2 を 沖ドキ！DUO に寄せない）
+        #      数字なし入力を数字付き候補（最新世代等）へ寄せることも防ぐ
+        input_ids = extract_identity_tokens(raw_name)
+        candidates: list[tuple[float, dict]] = []
         for m in self._masters:
             if not _type_ok(m.get("type", "slot")):
                 continue
+            if extract_identity_tokens(m.get("official_name", "")) != input_ids:
+                continue
             score = SequenceMatcher(None, norm, m["normalized_name"]).ratio()
-            if score > best_score:
-                best_score = score
-                best_match = m
+            if score > 0.849:  # 0.85 未満は unknown 扱い
+                candidates.append((score, m))
 
-        if best_match:
-            return {
-                "machine_id":    best_match["id"],
-                "official_name": best_match["official_name"],
-                "machine_type":  best_match.get("type", "slot"),
-                "normalized_name": best_match["normalized_name"],
-                "confidence":    round(best_score, 3),
-                "match_type":    "fuzzy",
-            }
+        if not candidates:
+            return None
 
-        return None
+        candidates.sort(key=lambda x: (-x[0], x[1]["official_name"]))
+        best_score, best_match = candidates[0]
+        # 一意性: 別機種が同点（僅差）で競合する場合は確定しない（誤確定より未解決）
+        if any(m["id"] != best_match["id"] and s >= best_score - 1e-9
+               for s, m in candidates):
+            return None
+
+        return {
+            "machine_id":    best_match["id"],
+            "official_name": best_match["official_name"],
+            "machine_type":  best_match.get("type", "slot"),
+            "normalized_name": best_match["normalized_name"],
+            "confidence":    round(best_score, 3),
+            "match_type":    "fuzzy",
+        }
 
     def save_unknown(self, raw_name: str, source_url: str = "") -> None:
         """

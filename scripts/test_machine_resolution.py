@@ -27,9 +27,11 @@ _MASTERS = [
     ("o1", "L沖ドキ！DUOアンコール", "slot"),
     ("o2", "e沖ドキ！2", "pachinko"),
     ("o3", "沖ドキ！ゴージャス", "slot"),
-    # 接頭辞なしの正式名「沖ドキ！DUO」が続編「沖ドキ！DUO2」の接頭辞にもなる
+    # 接頭辞なしの正式名「沖ドキ！DUO」（実DB同様 DUO2 は未登録＝誤解決防止の検証対象）
     ("o4", "沖ドキ！DUO", "slot"),
-    ("o5", "沖ドキ！DUO2", "slot"),
+    # 世代違い検証用: 無印と2が両方存在（シリーズ名が名前の途中）→ 裸「ヴァルヴレイヴ」は曖昧
+    ("v1", "L革命機ヴァルヴレイヴ2", "slot"),
+    ("v2", "パチスロ 革命機ヴァルヴレイヴ", "slot"),
     # 甲鉄城/カバネリ: 複数 → 裸は曖昧、副題付きは一意
     ("k1", "L甲鉄城のカバネリ海門決戦", "slot"),
     ("k2", "スマスロ甲鉄城のカバネリ", "slot"),
@@ -65,6 +67,10 @@ def make_resolver() -> MachineResolver:
             "machine_type": "pachinko", "confidence": 1.0},
         normalize_for_comparison("沖ドキ"): {
             "machine_id": "o1", "official_name": "L沖ドキ！DUOアンコール",
+            "machine_type": "slot", "confidence": 1.0},
+        # 一意シリーズの裸名 alias（マスタに鉄拳が1機種のみ）→ 解決してよい
+        normalize_for_comparison("鉄拳"): {
+            "machine_id": "z1", "official_name": "L鉄拳4デビルVer.",
             "machine_type": "slot", "confidence": 1.0},
     }
     r._master_stems = [(m["id"], _series_stem(m["official_name"])) for m in r._masters]
@@ -115,6 +121,46 @@ def test_unique_resolve(r):
             f"{raw} → {official}[{typ}]", f"got={res}")
 
 
+def test_generation_mismatch_rejected(r):
+    print("[世代/数字違い] 別世代・別数字の機種へ fuzzy 解決しない")
+    # 入力に数字あり、候補側に一致する数字が無い → 未解決
+    _ok(r.resolve("L沖ドキDUO2") is None,
+        "L沖ドキDUO2 → 未解決（DUO2 未登録・DUO/アンコールに寄せない）",
+        f"got={r.resolve('L沖ドキDUO2')}")
+    _ok(r.resolve("戦国乙女4") is None,
+        "戦国乙女4 → 未解決（戦国乙女5に寄せない）", f"got={r.resolve('戦国乙女4')}")
+    # 数字なし入力を数字付き候補（最新世代）へ寄せない（無印と2が両方存在＝曖昧）
+    _ok(r.resolve("ヴァルヴレイヴ") is None,
+        "ヴァルヴレイヴ → 未解決（無印/2 が両方存在し曖昧）",
+        f"got={r.resolve('ヴァルヴレイヴ')}")
+    # 一意シリーズ（マスタに1機種のみ）の裸名は alias で解決してよい
+    tk = r.resolve("鉄拳")
+    _ok(tk is not None and tk["official_name"] == "L鉄拳4デビルVer.",
+        "鉄拳 → L鉄拳4デビルVer.（一意シリーズは解決）", f"got={tk}")
+
+
+def test_identity_tokens():
+    print("[identity] 型式・世代・副題トークンで別機種を区別")
+    from machine_resolver import extract_identity_tokens as T
+    pairs = [
+        ("沖ドキ！DUO", "沖ドキ！DUO2"),      # DUO vs DUO2（数字）
+        ("沖ドキ！GOLD", "沖ドキ！BLACK"),     # GOLD vs BLACK（型式語）
+        ("沖ドキ！DUO", "沖ドキ！GOLD"),       # DUO vs GOLD
+        ("戦国乙女4", "戦国乙女5"),            # 4 vs 5
+        ("ヴァルヴレイヴ", "ヴァルヴレイヴ2"),    # 無印 vs 2
+        ("北斗の拳", "北斗の拳 転生の章2"),      # 無印 vs 転生の章2
+        ("通常機", "LT機"),                   # 通常 vs LT
+        ("機種SPEC1", "機種SPEC2"),          # SPEC違い
+        ("機種Ver.1", "機種Ver.2"),          # Ver.違い
+    ]
+    for a, b in pairs:
+        _ok(T(a) != T(b), f"{a} ≠ {b}", f"{sorted(T(a))} vs {sorted(T(b))}")
+    # ローマ数字と算用数字は同一視、全角半角も統一
+    _ok(T("DUOⅡ") == T("DUO2") == T("ＤＵＯ２"),
+        "DUOⅡ == DUO2 == ＤＵＯ２（表記統一）",
+        f"{sorted(T('DUOⅡ'))}/{sorted(T('DUO2'))}/{sorted(T('ＤＵＯ２'))}")
+
+
 def test_type_from_master(r):
     print("[種別] master.type を採用（本文単位に依存しない）")
     # resolve は本文を受け取らない = 単位で種別が変わらないことの証明
@@ -160,6 +206,8 @@ def main():
     r = make_resolver()
     test_ambiguous_bare(r)
     test_unique_resolve(r)
+    test_generation_mismatch_rejected(r)
+    test_identity_tokens()
     test_type_from_master(r)
     test_cross_type_prefix_rejected(r)
     test_alias_returns_official(r)
