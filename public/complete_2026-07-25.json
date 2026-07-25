@@ -1,47 +1,25 @@
 [
   {
-    "id": "525a88ceabba",
+    "id": "54e3378979fc",
     "date": "2026-07-25",
-    "time": "21:01",
-    "store": "京都駅前ラッキーパチンコ店",
-    "machine": "eリコリス・リコイル",
-    "machine_type": "pachinko",
-    "slot_number": "60",
-    "text": "60番台　eリコリス・リコイル コンプリート達成  おめでとうございます  本日も多数様のご来店 誠にありがとうございます   https:// p-town.dmm.com/shops/kyoto/70 57 …  #京都駅前ラッキー　#京都駅前　 #コンプリート #パチンコ　#パチスロ",
-    "x_url": "https://x.com/K_E_lucky/status/2080986732712140920",
-    "store_handle": "k_e_lucky",
-    "store_x_url": "https://x.com/k_e_lucky",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-25T12:44:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOEmWr4boAAzeVQ?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOEmWr4boAAzeVQ?format=jpg&name=large",
-    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
-    "store_id": "b06d0873ca"
-  },
-  {
-    "id": "43288d4fbfc1",
-    "date": "2026-07-25",
-    "time": "20:09",
-    "store": "パラディソ古川ドルフィン館",
-    "machine": "Lパチスロ からくりサーカス2",
+    "time": "17:29",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "スロット ソードアート・オンラインⅡ",
     "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんばんわ トゥーヤです  コンプリート速報 Lパチスロ からくりサーカス2 コンプリ――ト達成 おめでとうございます  夜はまだまだ ご来店お待ちしております  #コンプリート　#からくりサーカス #パラディソ古川ドルフィン館",
-    "x_url": "https://x.com/paradiso_furdol/status/2080973769997443522",
-    "store_handle": "paradiso_furdol",
-    "store_x_url": "https://x.com/paradiso_furdol",
+    "slot_number": "3213",
+    "text": "3213番台　ソードアート・オンラインⅡ コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2080933516192411999",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-25T12:59:23Z",
+    "collected_at": "2026-07-25T11:39:45Z",
     "images": [
-      "https://pbs.twimg.com/media/HOEanS5aMAAdf2B?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HOD1S8QbAAAurps?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HOEanS5aMAAdf2B?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "store_id": "142c75164f"
+    "image_url": "https://pbs.twimg.com/media/HOD1S8QbAAAurps?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "5953af02f085",
