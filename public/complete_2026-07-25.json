@@ -1,5 +1,27 @@
 [
   {
+    "id": "54e3378979fc",
+    "date": "2026-07-25",
+    "time": "17:29",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "3213",
+    "text": "3213番台　ソードアート・オンラインⅡ コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2080933516192411999",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T11:39:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOD1S8QbAAAurps?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOD1S8QbAAAurps?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "cb0be1f296"
+  },
+  {
     "id": "5953af02f085",
     "date": "2026-07-25",
     "time": "17:11",
