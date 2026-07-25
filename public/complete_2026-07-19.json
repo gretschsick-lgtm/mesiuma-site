@@ -93,26 +93,28 @@
     "store_id": "4130ca6374"
   },
   {
-    "id": "4a995b5429e6",
+    "id": "4aaa30c71ed1",
     "date": "2026-07-19",
-    "time": "22:46",
-    "store": "グランキコーナひたちなか店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "なんと！！ 牙狼コーナーから最終報告！！  「e牙狼12黄金騎士極限」 4台目のコンプリートです！  40台中4台がコンプリート！ 明日のご来店もお待ちしております！  #グランキコーナひたちなか店  #つぶやキコーナ",
-    "x_url": "https://x.com/GK_hitachinaka/status/2078838868150010004",
-    "store_handle": "gk_hitachinaka",
-    "store_x_url": "https://x.com/gk_hitachinaka",
+    "time": "22:52",
+    "store": "マリナプローバ",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "525",
+    "text": "本日、7月19日 第3日曜日 マリナへの多数様のご来店 ありがとうございました！  本日は総付け景品【タフマン】配布でした  本日は店内の様子を 写真と動画でどうぞ  525番台のLからくりサーカス２でコンプリートが出るなど 大盛り上がりの一日でした  本日のデータは",
+    "x_url": "https://x.com/MARINAPROVA0601/status/2078840323523113447",
+    "store_handle": "marinaprova0601",
+    "store_x_url": "https://x.com/marinaprova0601",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-25T15:53:57Z",
+    "collected_at": "2026-07-25T16:42:55Z",
     "images": [
-      "https://pbs.twimg.com/media/HNmE7fgbQAAXW-v?format=jpg&name=large"
+      "https://pbs.twimg.com/amplify_video_thumb/2078840258595278848/img/aRBdrUCk-5mNiwGi.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNmGM2abIAABa5E?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNmGM2laEAAprnR?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HNmE7fgbQAAXW-v?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "bcc41247bb"
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2078840258595278848/img/aRBdrUCk-5mNiwGi.jpg?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "8919b5c36e"
   },
   {
     "id": "f5cc98fc470e",
@@ -136,6 +138,28 @@
     "image_url": "https://pbs.twimg.com/media/HNmEWvraMAAqiIJ?format=jpg&name=large",
     "machine_id": "e7c07365-bf87-42b7-b4fc-309ec000beb5",
     "store_id": "cf70bb294d"
+  },
+  {
+    "id": "926f2551abfa",
+    "date": "2026-07-19",
+    "time": "22:35",
+    "store": "メガフェイス1300淀川",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "閉店間際にビッグニュース  ヴヴヴ2 ゴッドイーター に続いて、、、、  北斗の拳 転生の章2  3機種目のコンプリート達成  北斗の拳 転生の章2  熱気が止まらない… 本日もたくさんのご来店、本当にありがとうございました",
+    "x_url": "https://x.com/megaface_1300/status/2078836219233067036",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T15:44:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNmChVObQAAWZ4d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNmChVObQAAWZ4d?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "5b93315c4d"
   },
   {
     "id": "0c0725ff8278",
@@ -339,6 +363,28 @@
     "store_id": "9fac703a2a"
   },
   {
+    "id": "6f0e34d55374",
+    "date": "2026-07-19",
+    "time": "21:39",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2773",
+    "text": "コンプリート機能発動  先ほど2773番台 スマスロからくりサーカス2にて コンプリート機能発動！！  明日開放予定となります。 明日も #キャッスル春日井 へ ご来店お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2078821922889257355",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T15:09:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNl1c9Da4AAbR9I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNl1c9Da4AAbR9I?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "cbc9c2710d"
+  },
+  {
     "id": "ce1e6f50ca42",
     "date": "2026-07-19",
     "time": "21:10",
@@ -488,7 +534,7 @@
     "store_x_url": "https://x.com/suyasuya_bm",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-25T15:59:04Z",
+    "collected_at": "2026-07-25T15:13:05Z",
     "images": [
       "https://pbs.twimg.com/media/HNldirvbEAAJYjz?format=jpg&name=large"
     ],
