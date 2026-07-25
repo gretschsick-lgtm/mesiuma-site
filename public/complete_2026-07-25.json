@@ -1,5 +1,27 @@
 [
   {
+    "id": "eff68b76cb42",
+    "date": "2026-07-25",
+    "time": "22:50",
+    "store": "やすだ八潮店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "396",
+    "text": "こんばんは やすだ八潮店です  e東京喰種　396番台から コンプリート  おめでとうございます  #コンプリート #東京喰種",
+    "x_url": "https://x.com/yasuda_yashio/status/2081014278564552920",
+    "store_handle": "yasuda_yashio",
+    "store_x_url": "https://x.com/yasuda_yashio",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T18:52:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOE_csba0AEci4B?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOE_csba0AEci4B?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "f6cd9d33ba"
+  },
+  {
     "id": "836b7450729a",
     "date": "2026-07-25",
     "time": "22:42",
