@@ -382,6 +382,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "1ee3b15573d9",
+    "date": "2026-07-22",
+    "time": "22:42",
+    "store": "ディーボ小坂店【公式】アカウント",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "『からくりサーカス2』 堂々の 19,000枚コンプリート達成！！   ​当店初のからくり2での、コンプリート達成です！ 凄まじい出玉の波を見せていただきました。おめでとうございます！！",
+    "x_url": "https://x.com/divo_x_kosaka/status/2079925159239221585",
+    "store_handle": "divo_x_kosaka",
+    "store_x_url": "https://x.com/divo_x_kosaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T00:38:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN1g5mzacAAnayi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN1g5mzacAAnayi?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "1869f151f0"
+  },
+  {
     "id": "85d6eb4fe38a",
     "date": "2026-07-22",
     "time": "22:32",
@@ -783,6 +805,30 @@
     "image_url": "https://pbs.twimg.com/media/HNwZ7zPaoAAykAc?format=jpg&name=large",
     "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65",
     "store_id": "70b0b77ae9"
+  },
+  {
+    "id": "a0e4322546a4",
+    "date": "2026-07-21",
+    "time": "22:39",
+    "store": "テキサス小倉店",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  7月21日(火)  ＼コンプリート達成／   654番台▶︎▶︎▶︎▶︎ L沖ドキDUOアンコール  　　　　　　　　　　　　 テキサスのドキドキは止まらない  おめでとうございます！！  #テキサス1111 #21日メガテキサス",
+    "x_url": "https://x.com/texas_kokura/status/2079561855182540916",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T00:07:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNwWdBaaUAA32F2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNwWdsCaQAA53fx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNwWesPagAASdFz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNwWdBaaUAA32F2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "7be267e3ea"
   },
   {
     "id": "f55015c644b7",
