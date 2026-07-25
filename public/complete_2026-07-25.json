@@ -110,6 +110,28 @@
     "store_id": "771f030669"
   },
   {
+    "id": "29116190a48e",
+    "date": "2026-07-25",
+    "time": "21:04",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "L沖ドキDUO アンコール",
+    "machine_type": "slot",
+    "slot_number": "37",
+    "text": "37番台 沖ドキDUOアンコール コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2080987564924862966",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T20:40:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOEnGkFbIAAc_qY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOEnGkFbIAAc_qY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000013",
+    "store_id": "7ac364008f"
+  },
+  {
     "id": "525a88ceabba",
     "date": "2026-07-25",
     "time": "21:01",
@@ -130,6 +152,29 @@
     "image_url": "https://pbs.twimg.com/media/HOEmWr4boAAzeVQ?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "b06d0873ca"
+  },
+  {
+    "id": "11c057964144",
+    "date": "2026-07-25",
+    "time": "20:48",
+    "store": "マルハン袋井店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "381",
+    "text": "7月25日（土）  コンプリート達成！ おめでとうございます    381番台 「ｅリコリス・リコイル」  あら？前回も同じ機種でしたね コンプリートおじさん今日は珍しくいないのね おじさんがいてもいなくてもコンプリートしてしまうのが「ｅリコリス・リコイル」の魅力ということで",
+    "x_url": "https://x.com/maruhan_fukuroi/status/2080983543526871051",
+    "store_handle": "maruhan_fukuroi",
+    "store_x_url": "https://x.com/maruhan_fukuroi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T20:40:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOEjf_4aQAAFSRW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOEjf_4aQAE5WUp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOEjf_4aQAAFSRW?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "1f0627c183"
   },
   {
     "id": "59bc98aebfdb",
