@@ -225,6 +225,29 @@
     "store_id": "18425371bb"
   },
   {
+    "id": "472760605b0b",
+    "date": "2026-07-23",
+    "time": "18:48",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "7457",
+    "text": "◤◢◤◢◤◢◤◢◤◢  コンプリート報告  ◤◢◤◢◤◢◤◢◤◢  7457番台 \"Lからくりサーカス2\" 先ほどコンプリート機能が 作動いたしました！！  ありがとう、出会ってくれて。 ありがとう、ことばをくれて。 ありがとう、たくさん笑わせてくれて。 そして…ありがとう、愛してくれて。",
+    "x_url": "https://x.com/Concorde_ichino/status/2080228427639181437",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-25T07:52:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HN5zY4_aIAA3wsX?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2080134171071279105/img/Kw3X5a0fn9woBN-K?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HN5zY4_aIAA3wsX?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "3b33dd116a"
+  },
+  {
     "id": "b901da9f85c3",
     "date": "2026-07-23",
     "time": "15:24",
