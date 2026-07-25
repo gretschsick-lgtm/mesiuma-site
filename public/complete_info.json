@@ -236,7 +236,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-25T16:43:12Z",
     "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "cbc9c2710d"
+    "store_id": "cbc9c2710d",
+    "image_url": "https://pbs.twimg.com/media/HOEZN4ybUAIpguZ.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOEZN4ybUAIpguZ.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOEZN4ybUAIpguZ?format=jpg&name=large"
+    ]
   },
   {
     "id": "efb64aa4571b",
@@ -457,7 +462,12 @@
     "source_account_type": "store_official",
     "collected_at": "2026-07-25T15:12:48Z",
     "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "b42f5fe289"
+    "store_id": "b42f5fe289",
+    "image_url": "https://pbs.twimg.com/profile_images/1999446138416693249/clnKyJSv_200x200.png?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/profile_images/1999446138416693249/clnKyJSv_200x200.png?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOB93RraUAATwnK?format=jpg&name=large"
+    ]
   },
   {
     "id": "5c10a21f8b7a",
