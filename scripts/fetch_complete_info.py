@@ -717,10 +717,10 @@ def extract_machine(text: str) -> str:
             # 英数字・記号のみ（日本語文字なし）はXのユーザー名等の誤抽出として除外
             if re.match(r'^[a-zA-Z0-9_\-\.\@\#\s]+$', name):
                 continue
-            # 先頭の開き括弧を除去（例: 【炎炎ノ消防隊2 → 炎炎ノ消防隊2）
-            name = re.sub(r'^[『「【（(]+', '', name).strip()
-            # 末尾の閉じ括弧を除去（例: 牙狼12黄金騎士極限』 → 牙狼12黄金騎士極限）
-            name = re.sub(r'[』」】）)]+$', '', name).strip()
+            # 先頭の開き括弧を除去（例: 【炎炎ノ消防隊2 → 炎炎ノ消防隊2、《Lスマスロ北斗 → Lスマスロ北斗）
+            name = re.sub(r'^[『「【（(《〈«❮〔≪]+', '', name).strip()
+            # 末尾の閉じ括弧を除去（例: 牙狼12黄金騎士極限』 → 牙狼12黄金騎士極限、北斗の拳転生の章2》 → 北斗の拳転生の章2）
+            name = re.sub(r'[』」】）)》〉»❯〕≫]+$', '', name).strip()
             if len(name) < 2:
                 continue
             # 末尾の助詞・接続詞を除去（例: カバネリ海門決戦から → カバネリ海門決戦）
@@ -741,6 +741,12 @@ def extract_machine(text: str) -> str:
             # 「コンプリート達成」等が機種名に混入した場合に除去（例: 牙狼コンプリート達成 → 牙狼）
             name = re.sub(r'コンプリート.*$', '', name).strip()
             if len(name) < 2:
+                continue
+            # 台番号・時刻・出玉など「数値＋単位のみ」の断片を除外
+            # （例: 47,500玉 / 18571枚 / 17:55頃 / 1006番台 — 機種名は日本語/英字を含む）
+            if re.search(r'\d+番台', name) or re.search(r'\d+時\d+分', name):
+                continue
+            if re.fullmatch(r'[\d,，.:：]+(?:枚|玉|点|個|台|回|連|頃|時|分|Pt\.?|pt\.?|万|k|K)?', name):
                 continue
             # 明らかに機種名でない語句を除外（番台パターン等の誤抽出防止）
             _MACHINE_EXTRACT_NG = {
@@ -807,8 +813,8 @@ def extract_machines(text: str) -> list[str]:
             return None
         if re.match(r'^[a-zA-Z0-9_\-\.\@\#\s]+$', name):
             return None
-        name = re.sub(r'^[『「【（(、。・，,！!…　\s]+', '', name).strip()
-        name = re.sub(r'[』」】）)]+$', '', name).strip()
+        name = re.sub(r'^[『「【（(《〈«❮〔≪、。・，,！!…　\s]+', '', name).strip()
+        name = re.sub(r'[』」】）)》〉»❯〕≫]+$', '', name).strip()
         if len(name) < 2:
             return None
         name = re.sub(r'(から|にて|より|での|への|として|まで|にて|っ|て|が|は|で|に|を|も|と|の|増台|等|など)+$', '', name).strip()
@@ -833,6 +839,10 @@ def extract_machines(text: str) -> list[str]:
         if re.search(r'\d+番台', name):
             return None
         if re.search(r'\d+時\d+分', name):
+            return None
+        # 出玉・枚数・時刻など「数値＋単位のみ」の断片を除外（例: 47,500玉 / 18571枚 / 17:55頃）
+        # 機種名は必ず日本語 or 英字を含むため、数値と単位/記号だけの語は機種名ではない
+        if re.fullmatch(r'[\d,，.:：]+(?:枚|玉|点|個|台|回|連|頃|時|分|Pt\.?|pt\.?|万|k|K)?', name):
             return None
         if name in _NG:
             return None
@@ -1822,26 +1832,38 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
         if not rows:
             continue
 
-        try:
-            status, body = _sb_request(
-                "POST", "complete_reports",
-                body=rows,
-                # merge-duplicates = ON CONFLICT DO UPDATE SET (payload列のみ更新)
-                # NULL値はpayloadから除外済みのため既存の正常値を上書きしない
-                # return=representation で実際に INSERT/UPDATE された行数を取得
-                prefer="resolution=merge-duplicates,return=representation",
-            )
-            if status in (200, 201):
-                inserted = len(json.loads(body)) if body else 0
-                total_new += inserted
-                total_dup += len(rows) - inserted
-            else:
-                err_text = body.decode(errors="replace")[:200] if body else ""
-                log(f"⚠️  Supabase complete_reports HTTP {status}: {err_text}")
-                # Supabase エラーでもスクリプトは継続
-        except Exception as e:
-            log(f"⚠️  Supabase complete_reports 書き込みエラー: {e}")
-            # スクリプトは継続
+        # PostgREST のバルク INSERT は「配列内の全オブジェクトが同一キー構成」であることを
+        # 要求する（キーが揃っていないと PGRST102 "All object keys must match" で
+        # バッチ全体が 400 で失敗し 1 件も保存されない）。
+        # 一方でここでは NULL 上書き防止のため行ごとに存在するキーだけを載せているので、
+        # 行ごとにキー構成が異なる。そこで「同一キー構成」ごとにグループ化して個別に
+        # POST する。これで NULL 上書き防止を保ったままバルク INSERT の制約を満たす。
+        groups: dict[tuple[str, ...], list[dict]] = {}
+        for row in rows:
+            sig = tuple(sorted(row.keys()))
+            groups.setdefault(sig, []).append(row)
+
+        for group_rows in groups.values():
+            try:
+                status, body = _sb_request(
+                    "POST", "complete_reports",
+                    body=group_rows,
+                    # merge-duplicates = ON CONFLICT DO UPDATE SET (payload列のみ更新)
+                    # NULL値はpayloadから除外済みのため既存の正常値を上書きしない
+                    # return=representation で実際に INSERT/UPDATE された行数を取得
+                    prefer="resolution=merge-duplicates,return=representation",
+                )
+                if status in (200, 201):
+                    inserted = len(json.loads(body)) if body else 0
+                    total_new += inserted
+                    total_dup += len(group_rows) - inserted
+                else:
+                    err_text = body.decode(errors="replace")[:200] if body else ""
+                    log(f"⚠️  Supabase complete_reports HTTP {status}: {err_text}")
+                    # Supabase エラーでもスクリプトは継続
+            except Exception as e:
+                log(f"⚠️  Supabase complete_reports 書き込みエラー: {e}")
+                # スクリプトは継続
 
     if total_new or total_dup:
         log(f"☁️  Supabase: 新規{total_new}件 / 重複skip{total_dup}件")
