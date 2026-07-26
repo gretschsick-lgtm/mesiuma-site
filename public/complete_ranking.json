@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-26T21:23:26+09:00",
+  "generated_at": "2026-07-26T22:40:11+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 735,
+      "total_count": 737,
       "stores": [
         {
           "rank": 1,
@@ -50,28 +50,28 @@
         },
         {
           "rank": 8,
+          "name": "テキサス小倉店",
+          "count": 14,
+          "x_url": "https://x.com/texas_kokura"
+        },
+        {
+          "rank": 9,
           "name": "テキサス白島店",
           "count": 14,
           "x_url": "https://x.com/texashakushima"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "メガフェイス1070菊陽",
           "count": 13,
           "x_url": "https://x.com/megaface_1070"
-        },
-        {
-          "rank": 10,
-          "name": "テキサス小倉店",
-          "count": 13,
-          "x_url": "https://x.com/texas_kokura"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 176
+          "count": 177
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 38
+          "count": 39
         },
         {
           "rank": 4,
@@ -509,15 +509,15 @@
     "stores": [
       {
         "rank": 1,
-        "name": "ARROW浪速店",
-        "count": 20,
-        "x_url": "https://x.com/arrow_naniwa"
+        "name": "テキサス小倉店",
+        "count": 21,
+        "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 2,
-        "name": "テキサス小倉店",
+        "name": "ARROW浪速店",
         "count": 20,
-        "x_url": "https://x.com/texas_kokura"
+        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 3,
@@ -572,7 +572,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 202
+        "count": 203
       },
       {
         "rank": 2,
@@ -634,7 +634,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 47
+        "count": 48
       },
       {
         "rank": 4,
@@ -672,11 +672,11 @@
         "count": 4
       }
     ],
-    "total_count": 881
+    "total_count": 883
   },
   "store_complete_counts": {
+    "テキサス小倉店": 21,
     "ARROW浪速店": 20,
-    "テキサス小倉店": 20,
     "プレイランドキャッスル春日井店": 19,
     "キング観光サウザンド栄若宮大通店": 18,
     "メガフェイス1070菊陽": 18,
@@ -692,8 +692,8 @@
     "テキサス白島店": 14,
     "FACE1300小倉南店": 13,
     "ニューアサヒ長野青木島店": 13,
+    "キクヤ春日井店": 12,
     "楽園池袋店ゲートウェイ": 12,
-    "キクヤ春日井店": 11,
     "パラッツォ船橋店": 11,
     "やすだ八潮店": 10,
     "プレイランドキャッスル熱田店": 10,
