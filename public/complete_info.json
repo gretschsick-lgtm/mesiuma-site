@@ -1,25 +1,93 @@
 [
   {
-    "id": "f1646c72f514",
+    "id": "451ce2d7f172",
     "date": "2026-07-26",
-    "time": "20:41",
-    "store": "SPACE(スペース444＆666)",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "472",
-    "text": "【SPACE666】  コンプリート速報  革命機ヴァルヴレイヴ2　　472番台  コンプリート達成おめでとうございます！！！",
-    "x_url": "https://x.com/space666tobata/status/2081344051094450432",
-    "store_handle": "space666tobata",
-    "store_x_url": "https://x.com/space666tobata",
+    "time": "23:00",
+    "store": "キクヤ穂積店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "54",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です  コンプリート報告です！！ 本日はなんと2台  54番台 スマパチ  東京喰種 超デカ超一撃ver.  1259番台 スマスロ 沖ドキ！DUOアンコール  コンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2081379013994418663",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-26T15:30:49Z",
+    "collected_at": "2026-07-26T14:35:52Z",
     "images": [
-      "https://pbs.twimg.com/media/HOJrBIMawAAoQFJ?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HOJ6Y1TaMAAnYWh?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOJ6ZxcaYAAR4DK?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HOJrBIMawAAoQFJ?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "f8132a1307"
+    "image_url": "https://pbs.twimg.com/media/HOJ6Y1TaMAAnYWh?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "c800581abf"
+  },
+  {
+    "id": "2c283480f7ab",
+    "date": "2026-07-26",
+    "time": "23:00",
+    "store": "キクヤ穂積店",
+    "machine": "スマスロ 沖ドキ！DUOアンコール",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です  コンプリート報告です！！ 本日はなんと2台  54番台 スマパチ  東京喰種 超デカ超一撃ver.  1259番台 スマスロ 沖ドキ！DUOアンコール  コンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2081379013994418663",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T14:35:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOJ6Y1TaMAAnYWh?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOJ6ZxcaYAAR4DK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOJ6Y1TaMAAnYWh?format=jpg&name=large",
+    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb",
+    "store_id": "c800581abf"
+  },
+  {
+    "id": "657667756dc3",
+    "date": "2026-07-26",
+    "time": "22:01",
+    "store": "ダイナム江北店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "463",
+    "text": "本日7月26日（日）    463番台 Lチバリヨ2 コンプリート達成  コンプリートされたお客様 おめでとうございます  #ダイナム　#佐賀　#コンプリート　#チバリヨ",
+    "x_url": "https://x.com/dynam_00125/status/2081364211238686777",
+    "store_handle": "dynam_00125",
+    "store_x_url": "https://x.com/dynam_00125",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T14:29:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOJ9uE3XYAE1H5p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOJ9uE3XYAE1H5p?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "38e4dafb0a"
+  },
+  {
+    "id": "1689eb59689c",
+    "date": "2026-07-26",
+    "time": "20:18",
+    "store": "ユーコーラッキー37辻堂店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは  本日当店設置の Lソードアート・オンライン2 コンプリート機能発動しました  ご遊技頂きましたお客様ありがとうございました。 また、明日もご来店お待ちしております。  congratulation  #ユーコーラッキー37辻堂店 #SAO2 #コンプリート機能",
+    "x_url": "https://x.com/YUKO_TSUJIDOU/status/2081338343741341698",
+    "store_handle": "yuko_tsujidou",
+    "store_x_url": "https://x.com/yuko_tsujidou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T14:36:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOJkhQHa0AEXb7S?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOJkhQHa0AEXb7S?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "71055539bc"
   },
   {
     "id": "9285c27bdfe6",
@@ -603,28 +671,6 @@
     "store_id": "fe04efdcd0"
   },
   {
-    "id": "a4c2975c7e99",
-    "date": "2026-07-25",
-    "time": "16:31",
-    "store": "SUPER COSMO PREMIUM大東店",
-    "machine": "L真打吉宗",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "【速報】  スマスロ『真打吉宗』 コンプリート達成 おめでとうございます！  ほぼノンストップで コンプリートまで持って行った剛腕  御見逸れ致しました！  #コンプリート #スマスロ #スーコス大東 #フォローお願いします",
-    "x_url": "https://x.com/SCPdaitou/status/2080918842210222128",
-    "store_handle": "scpdaitou",
-    "store_x_url": "https://x.com/scpdaitou",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-26T15:15:45Z",
-    "images": [
-      "https://pbs.twimg.com/media/HODmwwEbIAAQYTU?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HODmwwEbIAAQYTU?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000010",
-    "store_id": "8ea13b6c57"
-  },
-  {
     "id": "21a040debe5b",
     "date": "2026-07-25",
     "time": "16:06",
@@ -668,54 +714,6 @@
     "image_url": "https://pbs.twimg.com/media/HODP3ImbkAAuH55?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "4af5cc0d0b"
-  },
-  {
-    "id": "f50d1200d474",
-    "date": "2026-07-25",
-    "time": "00:20",
-    "store": "ARROW浪速店",
-    "machine": "e女神のカフェテラス",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "本日、  eFブルーロック 　53番台 e女神のカフェテラス　421番台 e牙狼12黄金騎士極限　487番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
-    "x_url": "https://x.com/arrow_naniwa/status/2081036871514423631",
-    "store_handle": "arrow_naniwa",
-    "store_x_url": "https://x.com/arrow_naniwa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-26T15:15:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOE15sRa0AAkUEF?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOE16SaagAAWZ6A?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
-    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
-    "store_id": "dd02f6f68a"
-  },
-  {
-    "id": "d8dedebce7a6",
-    "date": "2026-07-25",
-    "time": "00:20",
-    "store": "ARROW浪速店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "本日、  eFブルーロック 　53番台 e女神のカフェテラス　421番台 e牙狼12黄金騎士極限　487番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
-    "x_url": "https://x.com/arrow_naniwa/status/2081036871514423631",
-    "store_handle": "arrow_naniwa",
-    "store_x_url": "https://x.com/arrow_naniwa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-26T15:15:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOE15sRa0AAkUEF?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOE16SaagAAWZ6A?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "dd02f6f68a"
   },
   {
     "id": "d07b51b83829",
@@ -1739,7 +1737,7 @@
     "store_x_url": "https://x.com/space666tobata",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-26T15:30:49Z",
+    "collected_at": "2026-07-26T16:01:28Z",
     "images": [
       "https://pbs.twimg.com/media/HN10dnTbAAAB6gA?format=jpg&name=large",
       "https://pbs.twimg.com/media/HN10iaPbkAA9WoL?format=jpg&name=large",
@@ -2171,6 +2169,52 @@
     "image_url": "https://pbs.twimg.com/media/HNwoQE9awAAGVOC?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "866d0fcc81"
+  },
+  {
+    "id": "26e1371e82b8",
+    "date": "2026-07-20",
+    "time": "22:58",
+    "store": "メガフェイス960飯塚",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "708",
+    "text": "本日のMVP  スロット708番台 Lソードアート・オンラインⅡ 16,135 Pt.  パチンコ308番台 e牙狼12黄金騎士極限 95,480 Pt.  今日は…(✧ω✧) 　牙狼12が…コンプリート達成 　　　　　凄すぎる～ 　　☆*:.｡.o(≧▽≦)o.｡.:*☆  #コンプリート　#牙狼12黄金騎士極限",
+    "x_url": "https://x.com/megaface_960/status/2079204425294631230",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T16:00:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNrRZzqawAAp5TB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNrRZztaMAATPbP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNrRZzqawAAp5TB?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "4130ca6374"
+  },
+  {
+    "id": "eb2f9a533fbe",
+    "date": "2026-07-20",
+    "time": "22:58",
+    "store": "メガフェイス960飯塚",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日のMVP  スロット708番台 Lソードアート・オンラインⅡ 16,135 Pt.  パチンコ308番台 e牙狼12黄金騎士極限 95,480 Pt.  今日は…(✧ω✧) 　牙狼12が…コンプリート達成 　　　　　凄すぎる～ 　　☆*:.｡.o(≧▽≦)o.｡.:*☆  #コンプリート　#牙狼12黄金騎士極限",
+    "x_url": "https://x.com/megaface_960/status/2079204425294631230",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T16:00:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HNrRZzqawAAp5TB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNrRZztaMAATPbP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HNrRZzqawAAp5TB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "4130ca6374"
   },
   {
     "id": "a18accbf9b4b",
