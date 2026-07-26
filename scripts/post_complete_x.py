@@ -35,7 +35,7 @@ except ImportError:
 
 COMPLETE_JSON   = Path(__file__).parent.parent / "public/complete_info.json"
 POSTED_LOG_JSON = Path(__file__).parent.parent / "public/complete_posted_log.json"
-SITE_URL        = "https://mesiuma.vercel.app/complete"
+SITE_URL        = "https://mesiuma-site.vercel.app/complete"
 
 JST = timezone(timedelta(hours=9))
 
