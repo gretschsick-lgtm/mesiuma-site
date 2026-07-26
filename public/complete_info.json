@@ -158,6 +158,29 @@
     "store_id": "5a18003e2d"
   },
   {
+    "id": "70aead2fb709",
+    "date": "2026-07-25",
+    "time": "22:58",
+    "store": "ＡＢＣ豊川店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "297",
+    "text": "＜2台目！！ コンプリート報告  297番台「Lモンスターハンターライズ」  滑り込みでの達成～お上手ですね  明日稼働再開となります また、一狩り行こうぜ #ABC豊川店 #コンプリート",
+    "x_url": "https://x.com/ABC_toyokawa/status/2081016217142514129",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T16:49:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOFAd7dbYAADxA2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOEanLqbsAAXj8w?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOFAd7dbYAADxA2?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "58111f872e"
+  },
+  {
     "id": "eff68b76cb42",
     "date": "2026-07-25",
     "time": "22:50",
@@ -582,6 +605,30 @@
     "store_id": "ef6da04b5b"
   },
   {
+    "id": "165f923b9968",
+    "date": "2026-07-25",
+    "time": "18:55",
+    "store": "マルハン下松店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！  下松店より速報です！  先ほど、「Lからくりサーカス2」で、 コンプリート機能発動  本日、スロパチステーション来店取材！ 最終最後まで、お楽しみ下さい",
+    "x_url": "https://x.com/marukudatencho/status/2080955003850953107",
+    "store_handle": "marukudatencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marukudatencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-07-26T16:51:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOEJi72a8AAJLrX?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOEJi8BbQAAEoPZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOEJi8IbcAAQ0F-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOEJi72a8AAJLrX?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "ec2322cb03"
+  },
+  {
     "id": "b03d1c56e23b",
     "date": "2026-07-25",
     "time": "18:28",
@@ -714,6 +761,54 @@
     "image_url": "https://pbs.twimg.com/media/HODP3ImbkAAuH55?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "4af5cc0d0b"
+  },
+  {
+    "id": "f50d1200d474",
+    "date": "2026-07-25",
+    "time": "00:20",
+    "store": "ARROW浪速店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日、  eFブルーロック 　53番台 e女神のカフェテラス　421番台 e牙狼12黄金騎士極限　487番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2081036871514423631",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T16:50:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOE15sRa0AAkUEF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOE16SaagAAWZ6A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "d8dedebce7a6",
+    "date": "2026-07-25",
+    "time": "00:20",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日、  eFブルーロック 　53番台 e女神のカフェテラス　421番台 e牙狼12黄金騎士極限　487番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2081036871514423631",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-26T16:50:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOE15sRa0AAkUEF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOE16SaagAAWZ6A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOE15OqaoAA5ZSV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "d07b51b83829",
