@@ -1,5 +1,71 @@
 [
   {
+    "id": "e338e0be0e38",
+    "date": "2026-07-27",
+    "time": "22:57",
+    "store": "SuperD'station39女神店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "1175",
+    "text": "本日7月27日(月)  1175番台　Lチバリヨ2ZB コンプリート達成 おめでとうございます！  明日のご来店も従業員一同心よりお待ちしております  #Dステ #パチンコ #スロット #コンプリート",
+    "x_url": "https://x.com/dsmegami/status/2081740808672416014",
+    "store_handle": "dsmegami",
+    "store_x_url": "https://x.com/dsmegami",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-27T23:34:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPUM7-bwAAlMUk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPUM7-bwAAlMUk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_id": "30980119a2"
+  },
+  {
+    "id": "44d5d249a7c9",
+    "date": "2026-07-27",
+    "time": "22:34",
+    "store": "ウイングあすと長町店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "677",
+    "text": "閉店ギリギリで出ました  677番台「Lからくりサーカス２」 COMPLETE  おめでとうございます  #ウイング #スマスロ #コンプリート #からくりサーカス2",
+    "x_url": "https://x.com/wing_asuto/status/2081734866673234404",
+    "store_handle": "wing_asuto",
+    "store_x_url": "https://x.com/wing_asuto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-27T23:14:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPO07DaIAEL8dI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPO07DaIAEL8dI?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "5878704f24"
+  },
+  {
+    "id": "f63614c622a8",
+    "date": "2026-07-27",
+    "time": "22:34",
+    "store": "ウイングあすと長町店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "閉店ギリギリで出ました  677番台「Lからくりサーカス２」 COMPLETE  おめでとうございます  #ウイング #スマスロ #コンプリート #からくりサーカス2",
+    "x_url": "https://x.com/wing_asuto/status/2081734866673234404",
+    "store_handle": "wing_asuto",
+    "store_x_url": "https://x.com/wing_asuto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-27T23:14:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPO07DaIAEL8dI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPO07DaIAEL8dI?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "5878704f24"
+  },
+  {
     "id": "0c77b88f1217",
     "date": "2026-07-27",
     "time": "22:24",
