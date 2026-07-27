@@ -1,5 +1,27 @@
 [
   {
+    "id": "0c77b88f1217",
+    "date": "2026-07-27",
+    "time": "22:24",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "292",
+    "text": "292番台 戦国乙女５ コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2081732556270219366",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-27T19:10:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPMrOWacAARo8k?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPMrOWacAARo8k?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "7ac364008f"
+  },
+  {
     "id": "70fa95f58827",
     "date": "2026-07-27",
     "time": "22:20",
