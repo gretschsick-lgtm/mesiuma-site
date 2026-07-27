@@ -148,6 +148,35 @@ def extract_identity_tokens(name: str) -> frozenset:
     return frozenset(_DIGIT_RUN.findall(s)) | frozenset(_LATIN_RUN.findall(s))
 
 
+def _unmatched_residual(norm_input: str, norm_candidate: str) -> bool:
+    """正規化入力に、候補正式名に存在しない「意味のある連続文字列」が残るかを返す。
+
+    True の場合、入力の方が候補より具体的（副題・派生語を含む）で、候補は下位版
+    （通常版・別派生版）とみなし、fuzzy fallback を拒否すべきことを示す。
+
+    「意味のある残余」= 候補側の文字集合に含まれない かな/漢字/ラテン文字が
+    2 文字以上連続する部分。数字は identity token で別途厳密判定済みのため対象外
+    （連続判定をリセットする）。
+
+    例: 入力「バジリスク絆2天膳」候補「バジリスク絆2」→ 残余「天膳」→ True（fallback拒否）
+        入力「北斗転生の章2」候補「北斗の拳転生の章2」→ 全文字が候補に存在 → False（通常解決）
+    特定機種名や副題のハードコードはしない（候補名との文字集合比較のみ）。
+    """
+    cand_chars = set(norm_candidate)
+    run = 0
+    for ch in norm_input:
+        if ch.isdigit():
+            run = 0                      # 数字は identity 側で判定済み
+            continue
+        if ch in cand_chars:
+            run = 0
+        else:
+            run += 1
+            if run >= 2:
+                return True
+    return False
+
+
 def _prefix_implied_type(name: str) -> Optional[str]:
     """型プレフィックスから種別を推定（slot/pachinko）。判定不能は None。
 
@@ -411,6 +440,11 @@ class MachineResolver:
             if not _type_ok(m.get("type", "slot")):
                 continue
             if extract_identity_tokens(m.get("official_name", "")) != input_ids:
+                continue
+            # (c) 入力に候補が持たない有意な残余語（漢字/かな副題等）がある場合は、
+            #     入力の方が具体的で候補は下位版（通常版）→ fallback 拒否（誤解決防止優先）。
+            #     例: 「バジリスク絆2天膳」→ 通常版「バジリスク絆2」を採用しない
+            if _unmatched_residual(norm, m["normalized_name"]):
                 continue
             score = SequenceMatcher(None, norm, m["normalized_name"]).ratio()
             if score > 0.849:  # 0.85 未満は unknown 扱い

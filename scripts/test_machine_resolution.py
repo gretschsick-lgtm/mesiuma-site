@@ -46,6 +46,9 @@ _MASTERS = [
     ("s1", "L戦国乙女5 業火を穿つ宿焔の双刃", "slot"),
     # 鉄拳: slot 1機種のみ（裸でも一意）
     ("z1", "L鉄拳4デビルVer.", "slot"),
+    # 漢字副題で区別される派生機種（通常版 と 天膳BLACK EDITION版）
+    ("b1", "バジリスク絆2", "slot"),
+    ("b2", "スマスロバジリスク～甲賀忍法帖～絆2 天膳 BLACK EDITION", "slot"),
 ]
 
 
@@ -139,6 +142,22 @@ def test_generation_mismatch_rejected(r):
         "鉄拳 → L鉄拳4デビルVer.（一意シリーズは解決）", f"got={tk}")
 
 
+def test_subtitle_no_base_fallback(r):
+    print("[副題誤解決防止] 漢字副題入力が通常版へ fallback しない")
+    # 通常版「バジリスク絆2」へ誤解決してはいけない（未解決 or 天膳版のみ許容）
+    for inp in ["バジリスク絆2 天膳", "バジ絆2 天膳", "バジリスク天膳"]:
+        res = r.resolve(inp)
+        bad = (res is not None and res["official_name"] == "バジリスク絆2")
+        _ok(not bad, f"{inp} → 通常版バジリスク絆2にしない",
+            f"got={res['official_name'] if res else '未解決'}")
+    # Edition入力も通常版へ寄せない（未解決 or 天膳版のみ許容）
+    for inp in ["絆2 BLACK EDITION", "バジリスク絆2 BLACK", "天膳 BLACK"]:
+        res = r.resolve(inp)
+        bad = (res is not None and res["official_name"] == "バジリスク絆2")
+        _ok(not bad, f"{inp} → 通常版バジリスク絆2にしない",
+            f"got={res['official_name'] if res else '未解決'}")
+
+
 def test_identity_tokens():
     print("[identity] 型式・世代・副題トークンで別機種を区別")
     from machine_resolver import extract_identity_tokens as T
@@ -207,6 +226,7 @@ def main():
     test_ambiguous_bare(r)
     test_unique_resolve(r)
     test_generation_mismatch_rejected(r)
+    test_subtitle_no_base_fallback(r)
     test_identity_tokens()
     test_type_from_master(r)
     test_cross_type_prefix_rejected(r)
