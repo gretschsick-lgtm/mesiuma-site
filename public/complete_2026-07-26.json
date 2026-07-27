@@ -90,6 +90,29 @@
     "store_id": "20138d2c07"
   },
   {
+    "id": "4bfbad994da7",
+    "date": "2026-07-26",
+    "time": "20:58",
+    "store": "やすだ西池袋6号店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは やすだ西池袋６号店です♪  速報 ただいま eキン肉マンよりコンプリートーーー  おめでとうございます  #西池袋 #コンプリート #キン肉マン",
+    "x_url": "https://x.com/yasuda_nishiike/status/2081348505612976551",
+    "store_handle": "yasuda_nishiike",
+    "store_x_url": "https://x.com/yasuda_nishiike",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-27T16:24:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOJvI8bbgAA1Mwt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOJvPQwaoAACX-n?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOJvI8bbgAA1Mwt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "9c57229900"
+  },
+  {
     "id": "f1646c72f514",
     "date": "2026-07-26",
     "time": "20:41",
@@ -204,29 +227,6 @@
     "store_id": "7be267e3ea"
   },
   {
-    "id": "2802ec4e8412",
-    "date": "2026-07-26",
-    "time": "19:32",
-    "store": "グランキコーナひたちなか店",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "680",
-    "text": "こんばんは  スロット680番台 戦国乙女5 コンプリートおめでとうございます  コンプリート画面は「萌え」 かと思いきや機械的な感じでした  平和さん 次のコンプ画面は「萌え」期待してます！  #つぶやキコーナ #グランキコーナひたちなか店",
-    "x_url": "https://x.com/GK_hitachinaka/status/2081326675581890685",
-    "store_handle": "gk_hitachinaka",
-    "store_x_url": "https://x.com/gk_hitachinaka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-27T15:38:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOJbkngbwAAqpsb?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOJblDUbMAANzUm?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOJbkngbwAAqpsb?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "store_id": "bcc41247bb"
-  },
-  {
     "id": "f1bb61f39fb8",
     "date": "2026-07-26",
     "time": "19:30",
@@ -269,28 +269,6 @@
     "image_url": "https://pbs.twimg.com/media/HOJRtGWa4AAOEWC?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "341c9ef1a4"
-  },
-  {
-    "id": "032218d5c8bc",
-    "date": "2026-07-26",
-    "time": "18:22",
-    "store": "イーグルアールワン南8条店",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "遂にこの機種で出ました  当店初機種  L戦国乙女5にてコンプリート達成  おめでとうございます",
-    "x_url": "https://x.com/eagle_c_tencho/status/2081309144590754194",
-    "store_handle": "eagle_c_tencho",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/eagle_c_tencho",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-07-27T15:39:15Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOJLop2aUAEe2Va?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOJLop2aUAEe2Va?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "store_id": "9ff188237d"
   },
   {
     "id": "bb192d9c4aa1",
