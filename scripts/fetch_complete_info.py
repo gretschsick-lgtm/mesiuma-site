@@ -1482,6 +1482,43 @@ def load_all() -> list[dict]:
         return json.load(f)
 
 
+def load_ranking_history() -> list[dict]:
+    """ランキング集計用の全履歴母集団を返す。
+
+    complete_info.json は直近30日フィード専用（load_all）で全期間を保持しないため、
+    ランキング（月間・トータル）は日付別アーカイブ public/complete_YYYY-MM-DD.json を
+    union して全履歴を復元する。complete_info.json も安全のため取り込む（最新分の取りこぼし防止）。
+
+    重複除去は (x_url, machine) キー = システムのエントリ ID 設計（i=0: MD5(x_url) /
+    i>0: MD5(x_url:machine)）と同義。これにより「同一ツイートの別機種」（正当な複数レコード）は
+    保持しつつ、「同一ツイート・同一機種」がラン間で別 ID として二重登録されたものだけを除去する。
+    load_all()（30日フィード仕様）は変更しない。
+    """
+    import glob as _glob
+    seen: dict[tuple, dict] = {}
+    paths = sorted(_glob.glob(str(COMPLETE_JSON.parent / "complete_2*.json")))
+    # complete_info.json も母集団に含める（最新ランで日付別未書込のエントリを取りこぼさない）
+    if COMPLETE_JSON.exists():
+        paths.append(str(COMPLETE_JSON))
+    for p in paths:
+        try:
+            with open(p, encoding="utf-8") as f:
+                arr = json.load(f)
+        except Exception:
+            continue
+        if not isinstance(arr, list):
+            continue
+        for e in arr:
+            if not isinstance(e, dict):
+                continue
+            key = ((e.get("x_url") or "").strip(), (e.get("machine") or "").strip())
+            # x_url が空の異常データはスキップ（無効データ除外）
+            if not key[0]:
+                continue
+            seen.setdefault(key, e)
+    return list(seen.values())
+
+
 def save_complete(new_entries: list[dict], target_date: str):
     all_data = load_all()
 
@@ -1884,7 +1921,9 @@ def update_ranking():
     now_jst = datetime.now(JST)
     this_month = now_jst.strftime("%Y-%m")
 
-    all_data = load_all()
+    # ランキングは全履歴母集団から集計する（complete_info.json の30日フィードではなく
+    # 日付別アーカイブ union）。monthly と total を同一母集団から毎回フル再計算する。
+    all_data = load_ranking_history()
 
     # ── 機種名NG（誤抽出されやすい非機種名文字列）────────────────────────
     MACHINE_NAME_NG = {
@@ -2116,62 +2155,58 @@ def update_ranking():
                 return normalized
         return name
 
-    # ── 既存ランキングJSONを読み込み（月別データを蓄積するため）
-    # ※ monthly は配列形式・辞書形式どちらでも読み込めるよう対応
-    existing: dict = {}
-    if RANKING_JSON.exists():
-        try:
-            with open(RANKING_JSON, encoding="utf-8") as f:
-                loaded = json.load(f)
-                # 旧形式（単純配列）の場合はリセット
-                existing = loaded if isinstance(loaded, dict) else {}
-        except Exception:
-            existing = {}
-
-    # monthly を内部処理用の辞書に変換
-    raw_monthly = existing.get("monthly", {})
-    if isinstance(raw_monthly, list):
-        monthly_data: dict = {m["month"]: m for m in raw_monthly if isinstance(m, dict) and "month" in m}
-    else:
-        monthly_data: dict = raw_monthly if isinstance(raw_monthly, dict) else {}
-
-    # ── 月別の store/machine カウント
+    # ── 集計方針（月間・トータルを同一母集団 all_data から毎回フル再計算）───────────
+    # ・既存 monthly の保持/継ぎ足しはしない（過去値を信用せず全月再構築）
+    # ・1レコード=1ヶ月（JST の date[:7]。ファイル名でなくレコードの発生日で判定）
+    # ・total_count = 対象レコード全件数（monthly 各月の合計 == total で整合）
+    # ・機種は machine_id で集計（表記ゆれ吸収・別機種の誤結合防止）。machine_id なしは
+    #   機種ランキング対象外だが total_count・店舗集計には算入（#10 既存公開仕様と統一）
+    # ・店舗は正規化店舗名で集計（store_complete_counts が名前キー＝フロント互換。store_id は
+    #   旧データで欠落が多く全件カバーのため名称基準を採用）
+    # ・top10 への slice は全件集計後に実施
+    month_records:                  dict[str, int]     = {}
     month_store_counter:            dict[str, Counter] = {}
-    month_slot_machine_counter:     dict[str, Counter] = {}
-    month_pachinko_machine_counter: dict[str, Counter] = {}
+    month_slot_machine_counter:     dict[str, Counter] = {}   # key = machine_id
+    month_pachinko_machine_counter: dict[str, Counter] = {}   # key = machine_id
+
+    total_records = 0
+    total_store_counter:            Counter = Counter()
+    total_slot_machine_counter:     Counter = Counter()       # key = machine_id
+    total_pachinko_machine_counter: Counter = Counter()       # key = machine_id
+    machine_id_name:                dict[str, str] = {}       # machine_id → 表示名(正式名)
 
     for e in all_data:
         d = e.get("date", "")
         if not d or len(d) < 7:
             continue
-        ym = d[:7]  # "YYYY-MM"
+        ym = d[:7]  # JST の発生日ベース "YYYY-MM"
+        month_records[ym] = month_records.get(ym, 0) + 1
+        total_records += 1
+
+        # 店舗（正規化名。空欄は store_handle から補完）
         _raw_store = (e.get("store") or "").strip()
-        # store 空欄時: store_handle → handle_to_store で補完
         if not _raw_store:
             _sh_key = (e.get("store_handle") or "").lower()
             if _sh_key and _sh_key in handle_to_store:
                 _raw_store = handle_to_store[_sh_key]
-        store   = normalize_store(_raw_store, e.get("x_url") or "")
-        machine = normalize_machine(e.get("machine") or "")
-        mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
-
+        store = normalize_store(_raw_store, e.get("x_url") or "")
         if store and store not in ("店舗不明",):
             month_store_counter.setdefault(ym, Counter())[store] += 1
-        if machine:
-            if mt == "pachinko":
-                month_pachinko_machine_counter.setdefault(ym, Counter())[machine] += 1
-            else:
-                month_slot_machine_counter.setdefault(ym, Counter())[machine] += 1
+            total_store_counter[store] += 1
 
-    # ── 月別ランキングを更新（過去12ヶ月分保持）
-    from datetime import timedelta as _td2
-    months_to_keep = set()
-    for i in range(12):
-        m_date = now_jst.replace(day=1) - _td2(days=i * 28)
-        months_to_keep.add(m_date.strftime("%Y-%m"))
-
-    for ym in [k for k in list(monthly_data.keys()) if k not in months_to_keep]:
-        del monthly_data[ym]
+        # 機種（machine_id 基準。machine_id なしは機種ランキング対象外）
+        mid = e.get("machine_id")
+        if mid:
+            disp = normalize_machine(e.get("machine") or "") or (e.get("machine") or "").strip()
+            if disp:
+                machine_id_name.setdefault(mid, disp)
+                mt = e.get("machine_type") or get_machine_type(e.get("machine") or "")
+                if mt == "pachinko":
+                    month_pachinko_machine_counter.setdefault(ym, Counter())[mid] += 1
+                    total_pachinko_machine_counter[mid] += 1
+                else:
+                    month_slot_machine_counter.setdefault(ym, Counter())[mid] += 1
+                    total_slot_machine_counter[mid] += 1
 
     def _make_store_items(counter: Counter) -> list:
         items = []
@@ -2184,55 +2219,29 @@ def update_ranking():
         return items
 
     def _make_machine_items(counter: Counter) -> list:
-        return [{"rank": i + 1, "name": name, "count": cnt}
-                for i, (name, cnt) in enumerate(counter.most_common(10))]
+        # counter は machine_id → count。表示名は machine_id_name（正式名）で解決。
+        return [{"rank": i + 1, "name": machine_id_name.get(mid, mid), "count": cnt}
+                for i, (mid, cnt) in enumerate(counter.most_common(10))]
 
-    for ym in month_store_counter:
-        if ym not in months_to_keep:
-            continue
+    # ── 月別（全履歴に存在する全月を再構築。過去値の保持なし）
+    monthly_array = []
+    for ym in sorted(month_records.keys(), reverse=True):
         y_part, m_part = ym.split("-")
-        monthly_data[ym] = {
+        monthly_array.append({
             "month":             ym,
             "label":             f"{y_part}年{int(m_part)}月",
-            "total_count":       sum(month_store_counter[ym].values()),
-            "stores":            _make_store_items(month_store_counter[ym]),
+            "total_count":       month_records[ym],
+            "stores":            _make_store_items(month_store_counter.get(ym, Counter())),
             "slot_machines":     _make_machine_items(month_slot_machine_counter.get(ym, Counter())),
             "pachinko_machines": _make_machine_items(month_pachinko_machine_counter.get(ym, Counter())),
-        }
+        })
 
-    # ── 月別を配列形式に変換（新しい月順）
-    monthly_array = sorted(
-        [v for v in monthly_data.values() if isinstance(v, dict) and "month" in v],
-        key=lambda x: x["month"],
-        reverse=True,
-    )
-
-    # ── トータルランキング（全データから集計）
-    total_store_counter:            Counter = Counter()
-    total_slot_machine_counter:     Counter = Counter()
-    total_pachinko_machine_counter: Counter = Counter()
-    for e in all_data:
-        _raw_store2 = (e.get("store") or "").strip()
-        if not _raw_store2:
-            _sh_key2 = (e.get("store_handle") or "").lower()
-            if _sh_key2 and _sh_key2 in handle_to_store:
-                _raw_store2 = handle_to_store[_sh_key2]
-        store   = normalize_store(_raw_store2, e.get("x_url") or "")
-        machine = normalize_machine(e.get("machine") or "")
-        mt      = e.get("machine_type") or get_machine_type(e.get("machine") or "")
-        if store and store not in ("店舗不明",):
-            total_store_counter[store] += 1
-        if machine:
-            if mt == "pachinko":
-                total_pachinko_machine_counter[machine] += 1
-            else:
-                total_slot_machine_counter[machine] += 1
-
-    total_stores_top         = _make_store_items(total_store_counter)
-    total_slot_machines_top  = _make_machine_items(total_slot_machine_counter)
+    # ── トータル（同一母集団 all_data の全期間集計）
+    total_stores_top            = _make_store_items(total_store_counter)
+    total_slot_machines_top     = _make_machine_items(total_slot_machine_counter)
     total_pachinko_machines_top = _make_machine_items(total_pachinko_machine_counter)
 
-    # ── store_complete_counts（店舗ページ用）
+    # ── store_complete_counts（店舗ページ用・全期間店舗集計と一致）
     store_complete_counts = dict(total_store_counter.most_common())
 
     ranking = {
@@ -2242,7 +2251,7 @@ def update_ranking():
             "stores":            total_stores_top,
             "slot_machines":     total_slot_machines_top,
             "pachinko_machines": total_pachinko_machines_top,
-            "total_count":       len(all_data),
+            "total_count":       total_records,   # = Σ monthly.total_count（整合保証）
         },
         "store_complete_counts": store_complete_counts,
     }
