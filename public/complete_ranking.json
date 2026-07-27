@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-07-27T19:14:04+09:00",
+  "generated_at": "2026-07-27T22:32:11+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 763,
+      "total_count": 766,
       "stores": [
         {
           "rank": 1,
+          "name": "テキサス白島店",
+          "count": 20,
+          "x_url": "https://x.com/texashakushima"
+        },
+        {
+          "rank": 2,
           "name": "プレイランドキャッスル春日井店",
           "count": 19,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "ARROW浪速店",
           "count": 18,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "SPACE(スペース444＆666)",
           "count": 17,
           "x_url": "https://x.com/space666tobata"
-        },
-        {
-          "rank": 4,
-          "name": "テキサス白島店",
-          "count": 17,
-          "x_url": "https://x.com/texashakushima"
         },
         {
           "rank": 5,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 181
+          "count": 182
         },
         {
           "rank": 2,
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 40
+          "count": 41
         },
         {
           "rank": 4,
@@ -516,33 +516,33 @@
       },
       {
         "rank": 3,
+        "name": "テキサス白島店",
+        "count": 20,
+        "x_url": "https://x.com/texashakushima"
+      },
+      {
+        "rank": 4,
         "name": "プレイランドキャッスル春日井店",
         "count": 20,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "name": "SPACE(スペース444＆666)",
         "count": 18,
         "x_url": "https://x.com/space666tobata"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 18,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "name": "メガフェイス1450本山",
         "count": 17,
         "x_url": "https://x.com/megaface_1450"
-      },
-      {
-        "rank": 7,
-        "name": "テキサス白島店",
-        "count": 17,
-        "x_url": "https://x.com/texashakushima"
       },
       {
         "rank": 8,
@@ -567,7 +567,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 201
+        "count": 202
       },
       {
         "rank": 2,
@@ -577,7 +577,7 @@
       {
         "rank": 3,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 46
+        "count": 47
       },
       {
         "rank": 4,
@@ -667,16 +667,16 @@
         "count": 4
       }
     ],
-    "total_count": 882
+    "total_count": 885
   },
   "store_complete_counts": {
     "テキサス小倉店": 22,
     "ARROW浪速店": 22,
+    "テキサス白島店": 20,
     "プレイランドキャッスル春日井店": 20,
     "SPACE(スペース444＆666)": 18,
     "キング観光サウザンド栄若宮大通店": 18,
     "メガフェイス1450本山": 17,
-    "テキサス白島店": 17,
     "メガフェイス960飯塚": 17,
     "メガフェイス1070菊陽": 17,
     "メガフェイス1300淀川": 17,
