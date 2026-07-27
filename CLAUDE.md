@@ -61,7 +61,16 @@ python scripts/post_complete_x.py --force     # 投稿済み日でも強制再�
 | 85% 未満の類似度は `unknown_machines` に保存し人手確認 | 誤統合防止 |
 | P-WORLD へのリアルタイム問い合わせ禁止 | スクレイピング負荷・利用規約上の問題 |
 | ジャグラー各機種は個別 `machines_master` 行として管理 | アイム・マイ・ファンキー等は別機種・誤統合禁止 |
-| 新機種追加時は `machines_master.csv` 更新 → SQL 実行 → `machines_master` + `machines_aliases` に登録 | CSV はマスタの正本 |
+| 機種マスタのライブ正本は **Supabase DB**（`machines_master` / `machines_aliases`）| resolver・collector は Supabase を SELECT する。CSV は正本ではない |
+| 新機種追加・統合は **Supabase DB を直接更新**（対象 ID・件数検証・snapshot・回帰確認付き）| DB がライブ正本のため |
+| `public/machines_master.csv` / `machines_aliases.csv` は **初期 bootstrap seed（legacy・現行 DB 全件を表さない）** | 過去 seed。現行 DB と乖離（例: master CSV 36 件 / DB 377 件）。**本番 DB へ再 import 禁止**・自動同期対象外 |
+
+### 機種カタログの Source of Truth（重要）
+
+- **唯一のライブ正本 = Supabase DB**（`machines_master` / `machines_aliases`）。resolver（`machine_resolver.py`）と collector は DB を SELECT する。
+- `public/machines_master.csv` / `public/machines_aliases.csv` は**初期構築時の legacy seed**。現在の DB とは大きく乖離しており（過去 seed）、**本番 DB へ再 import してはいけない**。schedule workflow は CSV を import しない。
+- `scripts/generate_machines_migration.py` / `scripts/generate_supplemental_machines.py` は legacy CSV を消費する**手動ツール**。stale seed からの誤 import を防ぐため `--allow-legacy-seed` 明示フラグ必須（フラグなしは停止）。生成 SQL を本番へ自動適用しない。
+- DB からの読み取り専用バックアップは `scripts/export_machines_catalog.py`（SELECT のみ・出力先は明示指定・legacy CSV を自動上書きしない）。**export は backup であり Source of Truth ではない**。
 
 ### 正規化関数の所在と対象ドメイン
 

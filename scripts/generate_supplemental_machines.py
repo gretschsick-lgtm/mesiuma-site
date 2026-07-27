@@ -651,7 +651,32 @@ def write_csv(rows: list[tuple[str, str, str, str]], output_path: Path) -> None:
 
 # ── メイン ────────────────────────────────────────────────────────────────
 
+def _legacy_seed_guard() -> None:
+    """stale な legacy seed（public/machines_master.csv）からの誤 import を防ぐガード。
+
+    ライブ正本は Supabase DB。本ツールは legacy CSV を「既存」参照として消費するため、
+    明示フラグ --allow-legacy-seed 必須（フラグなしは停止）。生成 CSV/SQL は本番 DB へ
+    自動適用しない（CLAUDE.md『機種カタログの Source of Truth』参照）。
+    """
+    import sys
+    if "--allow-legacy-seed" in sys.argv:
+        csv_path = Path(__file__).parent.parent / "public" / "machines_master.csv"
+        try:
+            csv_rows = max(0, sum(1 for _ in open(csv_path, encoding="utf-8")) - 1)
+        except OSError:
+            csv_rows = -1
+        print("⚠️  legacy seed モードで実行中（--allow-legacy-seed）")
+        print(f"    machines_master.csv（legacy seed）行数: {csv_rows} / ライブ正本は Supabase DB")
+        print("    生成物は手動確認用。本番 DB へ自動適用しないこと。")
+        return
+    print("❌ 中止: このツールは legacy seed（public/machines_master.csv）を消費します。")
+    print("   ライブ正本は Supabase DB。CSV は現行 DB 全件を表さない初期 bootstrap seed です。")
+    print("   意図的な開発用 bootstrap のみ --allow-legacy-seed を付けて再実行してください。")
+    sys.exit(2)
+
+
 def main() -> None:
+    _legacy_seed_guard()
     repo_root = Path(__file__).parent.parent
     output_path = repo_root / "public" / "supplemental_machines.csv"
 

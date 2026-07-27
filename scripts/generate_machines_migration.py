@@ -375,9 +375,52 @@ def generate_series_csv(machines: list[dict]) -> str:
         lines.append(f'"{series}","{quoted}"')
     return "\n".join(lines)
 
+# ── legacy seed ガード ───────────────────────────────────────────────────────
+# public/machines_master.csv は初期 bootstrap seed（legacy・現行 DB 全件を表さない）。
+# ライブ正本は Supabase DB。stale seed からの誤 import を防ぐため、本ツールの実行には
+# 明示フラグ --allow-legacy-seed を必須とする（フラグなしは停止）。生成 SQL は手動確認
+# 前提であり、本番 DB へ自動適用しない。
+def _legacy_seed_guard() -> None:
+    if "--allow-legacy-seed" in sys.argv:
+        # CSV 行数と（環境変数があれば）ライブ DB 件数の差分を警告表示（読み取り専用）
+        csv_path = os.path.join(BASE, "public", "machines_master.csv")
+        try:
+            with open(csv_path, encoding="utf-8") as f:
+                csv_rows = max(0, sum(1 for _ in f) - 1)  # ヘッダ除く
+        except OSError:
+            csv_rows = -1
+        db_rows = None
+        url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "").rstrip("/")
+        key = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+        if url and key:
+            try:
+                import ssl as _ssl, urllib.request as _u
+                req = _u.Request(
+                    f"{url}/rest/v1/machines_master?select=id",
+                    headers={"apikey": key, "Authorization": f"Bearer {key}",
+                             "Prefer": "count=exact", "Range": "0-0"})
+                with _u.urlopen(req, context=_ssl._create_unverified_context(), timeout=15) as r:
+                    db_rows = int(r.headers.get("content-range", "0/0").split("/")[-1])
+            except Exception:
+                db_rows = None
+        print("⚠️  legacy seed モードで実行中（--allow-legacy-seed）")
+        print(f"    machines_master.csv（legacy seed）行数: {csv_rows}")
+        if db_rows is not None:
+            print(f"    Supabase DB machines_master 件数: {db_rows}（ライブ正本）")
+            print(f"    差分: DB は CSV より {db_rows - csv_rows} 件多い（CSV は現行 DB 全件を表さない）")
+        print("    生成される SQL は手動確認用。本番 DB へ自動適用しないこと。")
+        return
+    print("❌ 中止: このツールは legacy seed（public/machines_master.csv）を消費します。")
+    print("   ライブ正本は Supabase DB です。CSV は現行 DB 全件を表さない初期 bootstrap seed で、")
+    print("   本番 DB へ再 import してはいけません（CLAUDE.md『機種カタログの Source of Truth』参照）。")
+    print("   意図的な開発用 bootstrap 生成のみ、--allow-legacy-seed を付けて再実行してください。")
+    sys.exit(2)
+
+
 # ── main ───────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    _legacy_seed_guard()
     machines, source_counts, dup_count = merge_all()
 
     # SQL 出力
