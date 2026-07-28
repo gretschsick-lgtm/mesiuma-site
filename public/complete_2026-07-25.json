@@ -446,6 +446,29 @@
     "store_id": "5d635be117"
   },
   {
+    "id": "8f3a58cd8d6b",
+    "date": "2026-07-25",
+    "time": "19:41",
+    "store": "SUPER CONCORDE",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "604",
+    "text": "コンプリート達成報告  機種：ｅ東京喰種 台番：604番台 お名前：スズキ様 コメント：途中からですけどありがとうございます！  スズキ様、コンプリート達成おめでとうございます  この後のお時間もスパコンの 『喰種』でお楽しみください  #東京喰種",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2080966614707851624",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-28T00:19:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOETxTKaYAAAcHO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOET-l3bcAA5RKp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOETxTKaYAAAcHO?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "efb64aa4571b",
     "date": "2026-07-25",
     "time": "19:15",
