@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-29T03:48:33+09:00",
+  "generated_at": "2026-07-29T04:45:29+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 789,
+      "total_count": 790,
       "stores": [
         {
           "rank": 1,
@@ -21,7 +21,7 @@
         {
           "rank": 3,
           "name": "ARROW浪速店",
-          "count": 18,
+          "count": 19,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 99
+          "count": 100
         },
         {
           "rank": 2,
@@ -337,7 +337,7 @@
       {
         "rank": 4,
         "name": "ARROW浪速店",
-        "count": 18,
+        "count": 19,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -433,7 +433,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 101
+        "count": 102
       },
       {
         "rank": 2,
@@ -481,13 +481,13 @@
         "count": 4
       }
     ],
-    "total_count": 828
+    "total_count": 829
   },
   "store_complete_counts": {
     "テキサス小倉店": 22,
     "テキサス白島店": 21,
     "プレイランドキャッスル春日井店": 19,
-    "ARROW浪速店": 18,
+    "ARROW浪速店": 19,
     "メガフェイス960飯塚": 17,
     "キング観光サウザンド栄若宮大通店": 17,
     "メガフェイス1450本山": 17,
@@ -683,7 +683,7 @@
     "９９９（スリーナイン）": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 828,
+    "records_with_store_id": 829,
     "records_without_store_id": 0,
     "canonical_store_ids": 197
   }
