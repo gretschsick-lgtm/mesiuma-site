@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-28T13:41:29+09:00",
+  "generated_at": "2026-07-28T15:57:40+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 781,
+      "total_count": 784,
       "stores": [
         {
           "rank": 1,
           "name": "テキサス白島店",
-          "count": 20,
+          "count": 21,
           "x_url": "https://x.com/texashakushima"
         },
         {
@@ -26,27 +26,27 @@
         },
         {
           "rank": 4,
+          "name": "テキサス小倉店",
+          "count": 17,
+          "x_url": "https://x.com/texas_kokura"
+        },
+        {
+          "rank": 5,
           "name": "SPACE(スペース444＆666)",
           "count": 17,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "メガフェイス1300淀川",
           "count": 16,
           "x_url": "https://x.com/megaface_1300"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "メガフェイス1450本山",
           "count": 16,
           "x_url": "https://x.com/megaface_1450"
-        },
-        {
-          "rank": 7,
-          "name": "テキサス小倉店",
-          "count": 16,
-          "x_url": "https://x.com/texas_kokura"
         },
         {
           "rank": 8,
@@ -71,7 +71,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 175
+          "count": 176
         },
         {
           "rank": 2,
@@ -106,7 +106,7 @@
         {
           "rank": 8,
           "name": "Lかぐや様は告らせたい",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 9,
@@ -339,7 +339,7 @@
       {
         "rank": 1,
         "name": "テキサス小倉店",
-        "count": 22,
+        "count": 23,
         "x_url": "https://x.com/texas_kokura"
       },
       {
@@ -351,7 +351,7 @@
       {
         "rank": 3,
         "name": "テキサス白島店",
-        "count": 20,
+        "count": 21,
         "x_url": "https://x.com/texashakushima"
       },
       {
@@ -401,7 +401,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 190
+        "count": 191
       },
       {
         "rank": 2,
@@ -431,7 +431,7 @@
       {
         "rank": 7,
         "name": "Lかぐや様は告らせたい",
-        "count": 17
+        "count": 18
       },
       {
         "rank": 8,
@@ -501,12 +501,12 @@
         "count": 4
       }
     ],
-    "total_count": 861
+    "total_count": 864
   },
   "store_complete_counts": {
-    "テキサス小倉店": 22,
+    "テキサス小倉店": 23,
     "ARROW浪速店": 21,
-    "テキサス白島店": 20,
+    "テキサス白島店": 21,
     "プレイランドキャッスル春日井店": 19,
     "SPACE(スペース444＆666)": 18,
     "キング観光サウザンド栄若宮大通店": 18,
@@ -531,6 +531,7 @@
     "プレイランドキャッスル高浜店": 9,
     "メガフェイス1250": 9,
     "ダイナム長野上田店": 9,
+    "グランキコーナひたちなか店": 8,
     "サガちゃんPARK": 8,
     "新ガーデン西浦和": 8,
     "キクヤ穂積店": 8,
@@ -538,7 +539,6 @@
     "パチンコの玉屋∞本店": 8,
     "ピーアーク北千住エリア": 8,
     "マルハン松本店": 7,
-    "グランキコーナひたちなか店": 7,
     "マルハン仙台苦竹店": 7,
     "キング観光サウザンド名古屋駅柳橋店": 7,
     "パラッツォ大阪三国店": 7,
