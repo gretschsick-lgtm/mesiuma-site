@@ -740,6 +740,9 @@ def _rebuild_stores(events: list[dict]):
                 "hp_url": None, "x_url": None, "address": None, "map_url": None,
                 "floor_map_url": None, "is_low_rental": False,
                 "lottery_time": None, "con_pass_url": None,
+                # canonical store master(Supabase stores)への対応 id。既存店は in-place
+                # 更新で保持され、新規店は次回 consolidate_stores.py で確定するまで None。
+                "canonical_store_id": None,
             }
 
     result = sorted(existing_stores.values(), key=lambda x: (x.get("area",""), x.get("pref",""), x.get("name","")))

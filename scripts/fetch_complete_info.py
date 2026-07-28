@@ -2118,6 +2118,7 @@ def update_ranking():
     # store_handles.json も store_name→x_url マップとして使用（store_x_urls.json を補完）
     STORE_HANDLES_JSON2 = Path(__file__).parent.parent / "public/store_handles.json"
     handle_to_store: dict[str, str] = {}  # handle → 正式店舗名（store空欄補完用）
+    handle_to_store_id: dict[str, str] = {}  # handle → canonical store_id（確定対応のみ）
     if STORE_HANDLES_JSON2.exists():
         try:
             _sh2 = json.loads(STORE_HANDLES_JSON2.read_text(encoding="utf-8"))
@@ -2129,8 +2130,25 @@ def update_ranking():
                     # handle → store_name マップ（(店舗名不明) は除外）
                     if _sname2 and _sname2 != "(店舗名不明)":
                         handle_to_store[_h2.lower()] = _sname2
+                # handle → canonical store_id（store_id 解決済＝完全一致/一意対応のみ）
+                if isinstance(_info2, dict) and _info2.get("store_id"):
+                    handle_to_store_id[_h2.lower()] = _info2["store_id"]
+                    _xh2 = (_info2.get("x_url") or "").split("/status/")[0].rstrip("/").split("/")[-1].lower()
+                    if _xh2:
+                        handle_to_store_id[_xh2] = _info2["store_id"]
         except Exception:
             pass
+
+    def _resolve_store_id(e: dict) -> str | None:
+        """レコードの store_id を返す。無ければ x_url ハンドル→store_id 対応表で解決（確定分のみ）。"""
+        sid = e.get("store_id")
+        if sid:
+            return sid
+        u = e.get("x_url") or ""
+        if u:
+            h = u.split("/status/")[0].rstrip("/").split("/")[-1].lower()
+            return handle_to_store_id.get(h)
+        return None
 
     # ── 店舗名の表記ゆれ正規化マップ（ランキング集計用）
     STORE_NORMALIZE: list[tuple[str, str]] = [
@@ -2181,7 +2199,7 @@ def update_ranking():
     #    正規化店舗名を多数決で1つに寄せ、表記ゆれ・複数アカウントを1店舗に統合する。
     _sid_name_votes: dict[str, Counter] = {}
     for e in all_data:
-        sid = e.get("store_id")
+        sid = _resolve_store_id(e)
         if not sid:
             continue
         nm = normalize_store((e.get("store") or "").strip(), e.get("x_url") or "")
@@ -2206,7 +2224,7 @@ def update_ranking():
             _sh_key = (e.get("store_handle") or "").lower()
             if _sh_key and _sh_key in handle_to_store:
                 _raw_store = handle_to_store[_sh_key]
-        _sid = e.get("store_id")
+        _sid = _resolve_store_id(e)
         if _sid and _sid in store_id_display:
             store = store_id_display[_sid]
             _store_with_sid += 1
