@@ -128,8 +128,16 @@ def classify(store_handles: dict, by_norm: dict, by_xhandle: dict, as_of: str) -
     manager / type 無しは excluded として最小限のみ付与。
     """
     meta: dict[str, dict] = {}
+    _PRESERVE_EV = {"official_store_site", "official_chain_site"}
     for handle, v in store_handles.items():
         if not isinstance(v, dict):
+            continue
+        # 手動確認済み(公式サイト根拠の verified)は再解決で上書きしない（監査値を保持）
+        if (v.get("verification_status") == "verified"
+                and v.get("evidence_type") in _PRESERVE_EV and v.get("evidence_url")):
+            meta[handle] = {k: v[k] for k in (
+                "store_id", "verification_status", "evidence_type", "evidence_url",
+                "verified_at", "is_active", "canonical_handle", "canonical_pref") if k in v}
             continue
         htype = v.get("type")
         if htype != "store":

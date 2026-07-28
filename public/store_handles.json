@@ -4636,8 +4636,8 @@
     "type": "store",
     "store_id": "1b6b75ca09",
     "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/wl__minamigaoka",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/minamigaoka/",
     "is_active": true,
     "match_method": "x_url_evidence",
     "canonical_pref": null,
@@ -8003,13 +8003,14 @@
     "count": 0,
     "type": "store",
     "store_id": "e5bcf9dea2",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_suzuka",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-suzuka.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "king_kanayama": {
     "store": "キング観光金山店",
@@ -8522,13 +8523,14 @@
     "count": 0,
     "type": "store",
     "store_id": "fffb034630",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_ise01",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-nansei.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "takemaru_bm": {
     "store": "ビックマーチつくば本店/高崎おおやぎ店長",
@@ -9650,13 +9652,14 @@
     "count": 0,
     "type": "store",
     "store_id": "f2b5f81d9c",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_imari",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/imari/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "佐賀県"
+    "canonical_pref": "佐賀県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "hirakatasr": {
     "store": "キョーイチ　枚方店",
@@ -9706,13 +9709,14 @@
     "count": 0,
     "type": "store",
     "store_id": "28fa299dc2",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_yoshii",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/yoshii/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "ARROWnamBaHIPS": {
     "store": "ARROW　namBa　HIPS",
@@ -10692,13 +10696,14 @@
     "count": 0,
     "type": "store",
     "store_id": "a345414db4",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_imo1188",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/m-houji/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "宮崎県"
+    "canonical_pref": "宮崎県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "wl_od2": {
     "store": "ワンダーランド",
@@ -10773,9 +10778,10 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/wl_o_minami",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
-    "canonical_pref": "大分県"
+    "canonical_pref": "大分県",
+    "canonical_handle": false
   },
   "NEWSHINSEI": {
     "store": "10時開店",
@@ -13257,13 +13263,14 @@
     "count": 0,
     "type": "store",
     "store_id": "43b18e286d",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_ookawa",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/ookawa/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "mn_ronden_ps": {
     "store": "ミリオン論田店",
@@ -14445,13 +14452,14 @@
     "count": 0,
     "type": "store",
     "store_id": "59437d6f33",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_usuki",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/usuki/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "大分県"
+    "canonical_pref": "大分県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "pworld_kanagawa": {
     "store": "アフェスタ三春町店",
@@ -15450,9 +15458,10 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ponishuzai",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
-    "canonical_pref": "大分県"
+    "canonical_pref": "大分県",
+    "canonical_handle": false
   },
   "kingdoam777": {
     "store": "つかさ菊池店",
@@ -15851,13 +15860,14 @@
     "count": 0,
     "type": "store",
     "store_id": "b04df910fc",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/suzuka_ic",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-suzuka.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "mgmgpandaaaa": {
     "store": "ワンダーランド佐世保白岳店",
@@ -16119,9 +16129,10 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/wl___isahaya",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
-    "canonical_pref": "長崎県"
+    "canonical_pref": "長崎県",
+    "canonical_handle": false
   },
   "victory777slot": {
     "store": "スタジアム",
@@ -17057,13 +17068,14 @@
     "count": 0,
     "type": "store",
     "store_id": "922ef99193",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_ogoori",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/ogoori/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "wl_hachie": {
     "store": "ワンダーランド八江店",
@@ -17071,13 +17083,14 @@
     "count": 0,
     "type": "store",
     "store_id": "56f5ffd821",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_hachie",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/hachie/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "mn_nankoku": {
     "store": "ミリオン南国店",
@@ -17919,13 +17932,14 @@
     "count": 0,
     "type": "store",
     "store_id": "9d859b4091",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_takada",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/takada/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "wl_770aikawa": {
     "store": "ワンダーランド770東合川店",
@@ -19759,13 +19773,14 @@
     "count": 0,
     "type": "store",
     "store_id": "ab8a864687",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_matsusaka",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-nansei.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "komaki_korona": {
     "store": "小牧コロナ",
@@ -20055,9 +20070,10 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/wl_tachiarai",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "canonical_handle": false
   },
   "29_hiwada": {
     "store": "ニラク郡山日和田店",
@@ -21066,13 +21082,14 @@
     "count": 0,
     "type": "store",
     "store_id": "2d1e6f3be0",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_ikuwa",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-ikuwa.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "tsukin777": {
     "store": "キング観光津店",
@@ -21449,9 +21466,10 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/test_mode_wl",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "canonical_handle": false
   },
   "zapdaikan1678": {
     "store": "ZAP代官店",
@@ -21473,13 +21491,14 @@
     "count": 0,
     "type": "store",
     "store_id": "b9f8e0bbd7",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_minaharu",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/minaharu/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "大分県"
+    "canonical_pref": "大分県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "venicemisaki480": {
     "store": "VENICE岬店",
@@ -21854,9 +21873,10 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/warukunv",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
-    "canonical_pref": "佐賀県"
+    "canonical_pref": "佐賀県",
+    "canonical_handle": false
   },
   "mankaiten": {
     "store": "キング観光サウザンド今池2号店",
@@ -23783,13 +23803,14 @@
     "count": 0,
     "type": "store",
     "store_id": "c54985eb75",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl__isahaya",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/isahaya/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "長崎県"
+    "canonical_pref": "長崎県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "wl_hyakunen": {
     "store": "ワンダーランド百年橋店",
@@ -38753,13 +38774,14 @@
     "count": 0,
     "type": "store",
     "store_id": "4dc2cbedc0",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/kingsanshi1177",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-kuwana-sanshipark.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-07-28",
+    "canonical_handle": true
   },
   "homerun_mie": {
     "store": "ホームラン三重チェーン公式",

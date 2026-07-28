@@ -122,9 +122,16 @@ def test_C_real():
     ok(not unclassified, "store型 handle は全件分類済（未分類ゼロ）", f"{len(unclassified)}件未分類")
 
     verified = {h: v for h, v in d.items() if v.get("verification_status") == "verified"}
+    # verified の evidence は Tier A（公式サイト/チェーン/canonical x_url）のいずれか
+    _VALID_EV = {"canonical_x_url", "official_chain_site", "official_store_site"}
     bad_v = [h for h, v in verified.items()
-             if not v.get("store_id") or v.get("evidence_type") != "canonical_x_url"]
-    ok(not bad_v, "verified は store_id あり & canonical_x_url", f"{len(bad_v)}件")
+             if not v.get("store_id") or v.get("evidence_type") not in _VALID_EV]
+    ok(not bad_v, "verified は store_id あり & Tier A evidence", f"{len(bad_v)}件")
+    # 公式サイト根拠の verified は evidence_url 必須
+    bad_url = [h for h, v in verified.items()
+               if v.get("evidence_type") in ("official_chain_site", "official_store_site")
+               and not v.get("evidence_url")]
+    ok(not bad_url, "公式サイト根拠 verified は evidence_url あり", f"{len(bad_url)}件")
 
     # verified store_id ごと canonical_handle=true は 1 件
     per = collections.defaultdict(list)
