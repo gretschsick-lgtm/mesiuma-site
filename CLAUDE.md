@@ -72,6 +72,21 @@ python scripts/post_complete_x.py --force     # 投稿済み日でも強制再�
 - `scripts/generate_machines_migration.py` / `scripts/generate_supplemental_machines.py` は legacy CSV を消費する**手動ツール**。stale seed からの誤 import を防ぐため `--allow-legacy-seed` 明示フラグ必須（フラグなしは停止）。生成 SQL を本番へ自動適用しない。
 - DB からの読み取り専用バックアップは `scripts/export_machines_catalog.py`（SELECT のみ・出力先は明示指定・legacy CSV を自動上書きしない）。**export は backup であり Source of Truth ではない**。
 
+### 店舗の Source of Truth と store_id（重要）
+
+- **complete データの canonical store_id 空間 = Supabase `stores` テーブル**（`id = sha256(店舗名)[:10]`）。
+  `complete_reports.store_id` / JSON complete の `store_id` はすべてこの空間。
+- `public/stores.json`（約6400件）は **別 id 方式のフロント表示用マスタ**であり、`stores` テーブルとは
+  **id 空間が非重複**（同一実店舗でも id が異なる）。**stores.json の id を canonical store_id として扱わない。**
+- 店舗名の正規化は `register_stores.py` の `normalize_store_name()`（NFKC+小文字+空白除去）を用いる。機種・演者の正規化と混在禁止。
+- `store_handles.json` は「店舗名→X ハンドル」マップ（自動更新・マージ方式）。照合メタ（`store_id` /
+  `verification_status` / `evidence_type` / `evidence_url` / `verified_at` / `is_active` / `rejection_reason` /
+  `canonical_handle`）は **後方互換の任意フィールド**として付与。`scripts/resolve_store_handles.py` が
+  DB `stores` を SELECT のみで参照し分類する（DB へは書き込まない）。collector の store_handles 自動更新は
+  既存フィールドを保持するため、次回実行でメタは巻き戻らない。
+- **公式 X の verified 判定は DB 公式 x_url 一致（canonical_x_url / Tier A）のみ**。X 表示名・名前一致だけでは
+  verified にしない（candidate 保留）。manager 型は店舗公式 X の KPI から除外（従来用途で保持）。
+
 ### 正規化関数の所在と対象ドメイン
 
 | ファイル | 関数名 | 用途 | 混在禁止 |

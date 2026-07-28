@@ -2161,8 +2161,10 @@ def update_ranking():
     # ・total_count = 対象レコード全件数（monthly 各月の合計 == total で整合）
     # ・機種は machine_id で集計（表記ゆれ吸収・別機種の誤結合防止）。machine_id なしは
     #   機種ランキング対象外だが total_count・店舗集計には算入（#10 既存公開仕様と統一）
-    # ・店舗は正規化店舗名で集計（store_complete_counts が名前キー＝フロント互換。store_id は
-    #   旧データで欠落が多く全件カバーのため名称基準を採用）
+    # ・店舗は store_id 基準で集計（同一店舗の表記ゆれ・複数アカウントを1店舗に統合）。
+    #   store_id 未確定レコードは従来どおり正規化店舗名で集計（別枠）。出力キーは表示名
+    #   （canonical 店舗名）を保持し store_complete_counts/stores の name キー互換を維持。
+    #   いずれも 1レコード=1キー のため total_count == Σ monthly は不変。
     # ・top10 への slice は全件集計後に実施
     month_records:                  dict[str, int]     = {}
     month_store_counter:            dict[str, Counter] = {}
@@ -2175,6 +2177,20 @@ def update_ranking():
     total_pachinko_machine_counter: Counter = Counter()       # key = machine_id
     machine_id_name:                dict[str, str] = {}       # machine_id → 表示名(正式名)
 
+    # ── store_id → canonical 表示名（store_id 基準集約用）。store_id を持つレコードの
+    #    正規化店舗名を多数決で1つに寄せ、表記ゆれ・複数アカウントを1店舗に統合する。
+    _sid_name_votes: dict[str, Counter] = {}
+    for e in all_data:
+        sid = e.get("store_id")
+        if not sid:
+            continue
+        nm = normalize_store((e.get("store") or "").strip(), e.get("x_url") or "")
+        if nm and nm != "店舗不明":
+            _sid_name_votes.setdefault(sid, Counter())[nm] += 1
+    store_id_display: dict[str, str] = {sid: c.most_common(1)[0][0] for sid, c in _sid_name_votes.items()}
+    _store_with_sid = 0
+    _store_without_sid = 0
+
     for e in all_data:
         d = e.get("date", "")
         if not d or len(d) < 7:
@@ -2183,13 +2199,23 @@ def update_ranking():
         month_records[ym] = month_records.get(ym, 0) + 1
         total_records += 1
 
-        # 店舗（正規化名。空欄は store_handle から補完）
+        # 店舗: store_id があれば store_id 基準（表記ゆれ・複数アカウントを統合）、
+        #        無ければ正規化店舗名で集計（別枠）。出力キーは表示名を保つ。
         _raw_store = (e.get("store") or "").strip()
         if not _raw_store:
             _sh_key = (e.get("store_handle") or "").lower()
             if _sh_key and _sh_key in handle_to_store:
                 _raw_store = handle_to_store[_sh_key]
-        store = normalize_store(_raw_store, e.get("x_url") or "")
+        _sid = e.get("store_id")
+        if _sid and _sid in store_id_display:
+            store = store_id_display[_sid]
+            _store_with_sid += 1
+        else:
+            store = normalize_store(_raw_store, e.get("x_url") or "")
+            if _sid:
+                _store_with_sid += 1
+            else:
+                _store_without_sid += 1
         if store and store not in ("店舗不明",):
             month_store_counter.setdefault(ym, Counter())[store] += 1
             total_store_counter[store] += 1
@@ -2254,6 +2280,12 @@ def update_ranking():
             "total_count":       total_records,   # = Σ monthly.total_count（整合保証）
         },
         "store_complete_counts": store_complete_counts,
+        # store_id 基準集約のカバレッジ（透明性・別枠内訳）。既存 consumer は無視可。
+        "store_id_coverage": {
+            "records_with_store_id":    _store_with_sid,
+            "records_without_store_id": _store_without_sid,
+            "canonical_store_ids":      len(store_id_display),
+        },
     }
 
     import tempfile
