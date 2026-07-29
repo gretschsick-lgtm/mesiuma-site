@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-29T09:39:12+09:00",
+  "generated_at": "2026-07-29T13:51:46+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 790,
+      "total_count": 791,
       "stores": [
         {
           "rank": 1,
@@ -481,7 +481,7 @@
         "count": 4
       }
     ],
-    "total_count": 829
+    "total_count": 830
   },
   "store_complete_counts": {
     "テキサス小倉店": 22,
@@ -583,6 +583,7 @@
     "ゾーン行橋1000": 3,
     "やすだ西池袋6号店": 3,
     "マルハン袋井店": 3,
+    "D’station39長与店": 3,
     "ワンダーランド　うきはバイパス店": 2,
     "クラブハウス本店": 2,
     "SuperD'station39福重店": 2,
@@ -611,7 +612,6 @@
     "ＭＪアリーナ干隈店": 2,
     "ビックマーチ藤代店@店舗の仲間たち": 2,
     "マリナプローバ": 2,
-    "D’station39長与店": 2,
     "ダイナム熊本長洲店": 2,
     "ディーボ小坂店【公式】アカウント": 2,
     "マルハン下松店": 2,
@@ -683,7 +683,7 @@
     "９９９（スリーナイン）": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 829,
+    "records_with_store_id": 830,
     "records_without_store_id": 0,
     "canonical_store_ids": 197
   }

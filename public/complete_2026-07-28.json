@@ -22,6 +22,28 @@
     "store_id": "45990cb37b"
   },
   {
+    "id": "008fa4fe3090",
+    "date": "2026-07-28",
+    "time": "22:51",
+    "store": "D’station39長与店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "589",
+    "text": "7/28 コンプリート報告  589番台 L炎炎ノ消防隊2  コンプリート達成!! おめでとうございます",
+    "x_url": "https://x.com/d_nagayoten/status/2082101744981639243",
+    "store_handle": "d_nagayoten",
+    "store_x_url": "https://x.com/d_nagayoten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-29T04:12:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUccpvb0AA74xv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUccpvb0AA74xv?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "0a78bac15d"
+  },
+  {
     "id": "e1d82f5050cb",
     "date": "2026-07-28",
     "time": "00:52",
