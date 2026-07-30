@@ -271,6 +271,28 @@
     "store_id": "5a18003e2d"
   },
   {
+    "id": "6d211601d164",
+    "date": "2026-07-27",
+    "time": "19:01",
+    "store": "GOGOアリーナ天神",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "336",
+    "text": "ㅤ    ㅤ   ㅤ ㅤ 本日7月27日  　　    L戦国乙女5　336番台   　　 　　　コンプリート達成  　　おめでとうございます",
+    "x_url": "https://x.com/gogoarenatenjin/status/2081681288390758565",
+    "store_handle": "gogoarenatenjin",
+    "store_x_url": "https://x.com/gogoarenatenjin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-30T00:33:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOOeGLFaMAEvRXI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOOeGLFaMAEvRXI?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "c8ce6d1db9"
+  },
+  {
     "id": "b79c0abb5787",
     "date": "2026-07-27",
     "time": "17:31",
