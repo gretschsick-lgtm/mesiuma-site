@@ -154,6 +154,29 @@
     "store_id": "30980119a2"
   },
   {
+    "id": "27bc45ca2853",
+    "date": "2026-07-27",
+    "time": "22:53",
+    "store": "ＡＢＣ豊川店",
+    "machine": "L吉宗",
+    "machine_type": "slot",
+    "slot_number": "637",
+    "text": "＜コンプリート報告！  637番台「L吉宗」 お見事！コンプリート達成です～  今宵の大盤振る舞い、さすがでした！ 明日稼働再開となります",
+    "x_url": "https://x.com/ABC_toyokawa/status/2081739801481605490",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-30T20:55:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPRlofaYAEU3SW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOIq6_0aAAABKpe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPRlofaYAEU3SW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000011",
+    "store_id": "58111f872e"
+  },
+  {
     "id": "44d5d249a7c9",
     "date": "2026-07-27",
     "time": "22:34",
