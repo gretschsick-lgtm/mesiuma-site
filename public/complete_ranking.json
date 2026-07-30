@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-31T01:47:10+09:00",
+  "generated_at": "2026-07-31T02:28:45+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 796,
+      "total_count": 797,
       "stores": [
         {
           "rank": 1,
@@ -81,7 +81,7 @@
         {
           "rank": 3,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 35
+          "count": 36
         },
         {
           "rank": 4,
@@ -250,7 +250,7 @@
       {
         "rank": 3,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 35
+        "count": 36
       },
       {
         "rank": 4,
@@ -340,7 +340,7 @@
         "count": 4
       }
     ],
-    "total_count": 796
+    "total_count": 797
   },
   "store_complete_counts": {
     "テキサス白島店": 21,
@@ -542,11 +542,12 @@
     "スタジアム2001徳島川内店": 1,
     "マルハン村松店": 1,
     "９９９（スリーナイン）": 1,
+    "ABC浜北店【パチンコ＆スロット】": 1,
     "Ｐスパーク": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 796,
+    "records_with_store_id": 797,
     "records_without_store_id": 0,
-    "canonical_store_ids": 200
+    "canonical_store_ids": 201
   }
 }
