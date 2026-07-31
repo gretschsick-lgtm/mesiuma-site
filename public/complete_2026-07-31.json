@@ -1,24 +1,48 @@
 [
   {
-    "id": "9b9824dce604",
+    "id": "5f4b5b007f00",
     "date": "2026-07-31",
-    "time": "17:33",
-    "store": "ＭＪアリーナ干隈店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "384",
-    "text": "7月31日  e牙狼12XX-MJ　384番台  コンプリート達成  おめでとうございます",
-    "x_url": "https://x.com/mjhosikuma/status/2083108724873531763",
-    "store_handle": "mjhosikuma",
-    "store_x_url": "https://x.com/mjhosikuma",
+    "time": "20:46",
+    "store": "123+N和歌山本店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "950",
+    "text": "2度目ましてのまるこです  2度目と言うことは…またまたコンプリート出ました凄すぎます  46枚貸スロット950番台 L北斗の拳　転生の章2 コンプリート達成 おめでとうございます  羨ましいが止まらない  明日1日極Tシャツ入荷  @sanyapies  来店 お待ちしてます  #和歌山 #北斗の拳",
+    "x_url": "https://x.com/123wakayamaten/status/2083157233551257621",
+    "store_handle": "123wakayamaten",
+    "store_x_url": "https://x.com/123wakayamaten",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-07-31T15:45:55Z",
+    "collected_at": "2026-07-31T16:21:55Z",
     "images": [
-      "https://pbs.twimg.com/media/HOivZEraoAANf9q?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HOjcdgHbAAAixf5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOjcdgHbcAAlOLa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOjcdgQbsAA9S2S?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HOivZEraoAANf9q?format=jpg&name=large",
+    "image_url": "https://pbs.twimg.com/media/HOjcdgHbAAAixf5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "d5b3c5b5d8"
+  },
+  {
+    "id": "16100270d16b",
+    "date": "2026-07-31",
+    "time": "17:42",
+    "store": "123+N和歌山本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "31",
+    "text": "こんばんは( ´∀｀) 遅番で出勤しましたまるこです  さっそく出ました！ 4円31番台 e牙狼黄金騎士極限 コンプリート達成 おめでとうございます  羨ましいですねぇ…  #和歌山 #牙狼 #コンプリート",
+    "x_url": "https://x.com/123wakayamaten/status/2083111058299085270",
+    "store_handle": "123wakayamaten",
+    "store_x_url": "https://x.com/123wakayamaten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-07-31T16:21:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOiydocbsAAJKlk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOiydocbsAAJKlk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "2b4d471207"
+    "store_id": "d5b3c5b5d8"
   }
 ]
