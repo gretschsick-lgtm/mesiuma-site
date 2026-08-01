@@ -1,5 +1,26 @@
 [
   {
+    "id": "6d2de6bb7985",
+    "date": "2026-07-29",
+    "time": "22:54",
+    "store": "スロット123田宮店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "93",
+    "text": "こんばんは！ 本日93番台Lチバリヨ2ZBにて コンプリートいたしました！！ おめでとうございます！！！",
+    "x_url": "https://x.com/s123tamiyaten/status/2082464833208021251",
+    "store_handle": "s123tamiyaten",
+    "store_x_url": "https://x.com/s123tamiyaten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T19:04:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOZmrILbIAAYYpA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOZmrILbIAAYYpA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
     "id": "8906ee74ade4",
     "date": "2026-07-29",
     "time": "21:29",

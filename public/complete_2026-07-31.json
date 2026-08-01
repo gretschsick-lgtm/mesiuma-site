@@ -22,6 +22,27 @@
     "store_id": "776960c891"
   },
   {
+    "id": "e68171850fdf",
+    "date": "2026-07-31",
+    "time": "21:30",
+    "store": "玉屋室見店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは  本日新台入替で増台したリコリス・リコイルから・・・  コンプリート達成 おめでとうございます  129番台 eリコリス・リコイル",
+    "x_url": "https://x.com/tamaya_muromi/status/2083168382564872338",
+    "store_handle": "tamaya_muromi",
+    "store_x_url": "https://x.com/tamaya_muromi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T18:49:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjl-qeaIAAJ0Pc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjl-qeaIAAJ0Pc?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "5f4b5b007f00",
     "date": "2026-07-31",
     "time": "20:46",

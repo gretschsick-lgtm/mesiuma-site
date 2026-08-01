@@ -22,6 +22,27 @@
     "store_id": "30980119a2"
   },
   {
+    "id": "17d6a6867237",
+    "date": "2026-07-27",
+    "time": "22:57",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "1363",
+    "text": "コンプリート情報  22:42　 e牙狼12　1363番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2081740692465033413",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T18:39:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPUGcNbgAAZn5V?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPUGcNbgAAZn5V?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "27bc45ca2853",
     "date": "2026-07-27",
     "time": "22:53",
@@ -178,6 +199,27 @@
     "store_id": "e0feca1e66"
   },
   {
+    "id": "429e97199458",
+    "date": "2026-07-27",
+    "time": "21:50",
+    "store": "ニラク渋川白井店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "522",
+    "text": "【コンプリート】   7月27日   コンプリート報告   『522番台　Lチバリヨ』 コンプリート達成！！  おめでとうございます #ニラク #コンプリート",
+    "x_url": "https://x.com/niraku_siroi/status/2081723971498922454",
+    "store_handle": "niraku_siroi",
+    "store_x_url": "https://x.com/niraku_siroi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T19:04:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPE6zcaIAAymjh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPE6zcaIAAymjh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
     "id": "2c2eefcdddb8",
     "date": "2026-07-27",
     "time": "20:26",
@@ -272,6 +314,27 @@
     "store_id": "dae931c16e"
   },
   {
+    "id": "fd2353415055",
+    "date": "2026-07-27",
+    "time": "20:00",
+    "store": "ライブガーデン鹿沼グランドシティ",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "386",
+    "text": "こんばんは！  ライブガーデン鹿沼グランドシティです   ７月２７日 ３８６番台 【eリコリス・リコイル】  コンプリート達成！    おめでとうございます この後のお時間もごゆっくりとお楽しみください！   #ライブガーデン鹿沼GC #コンプリート #リコリコ",
+    "x_url": "https://x.com/LGkanumaGC1225/status/2081696098499059944",
+    "store_handle": "lgkanumagc1225",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-01T18:49:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOOc4KNbYAADxxx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOOc4KNbYAADxxx?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "4398ba07d94d",
     "date": "2026-07-27",
     "time": "19:29",
@@ -292,6 +355,28 @@
     "image_url": "https://pbs.twimg.com/media/HOOkiA4bgAA1cvW?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "5a18003e2d"
+  },
+  {
+    "id": "9fb88cc8f923",
+    "date": "2026-07-27",
+    "time": "19:25",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "482",
+    "text": "Ｌ革命機ヴァルヴレイヴ２ 　　　482番台 　　　19時15分 　   コンプリート おめでとうございます #マルハン佐賀店実績",
+    "x_url": "https://x.com/since2011_8_11/status/2081687333058097608",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T18:49:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOOjFngbEAE4eTA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOOjglzawAASDoA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOOjFngbEAE4eTA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "6d211601d164",
