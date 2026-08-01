@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-01T19:54:49+09:00",
+  "generated_at": "2026-08-01T21:19:47+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 786,
+      "total_count": 787,
       "stores": [
         {
           "rank": 1,
@@ -340,7 +340,7 @@
         "count": 4
       }
     ],
-    "total_count": 786
+    "total_count": 787
   },
   "store_complete_counts": {
     "ARROW浪速店": 22,
@@ -546,11 +546,12 @@
     "９９９（スリーナイン）": 1,
     "ABC浜北店【パチンコ＆スロット】": 1,
     "Ｐスパーク": 1,
+    "DSG MEGA WORLD金沢": 1,
     "BIGディッパー花小金井店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 786,
+    "records_with_store_id": 787,
     "records_without_store_id": 0,
-    "canonical_store_ids": 204
+    "canonical_store_ids": 205
   }
 }
