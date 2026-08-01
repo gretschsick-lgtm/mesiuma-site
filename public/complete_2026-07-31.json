@@ -22,6 +22,27 @@
     "store_id": "776960c891"
   },
   {
+    "id": "e68171850fdf",
+    "date": "2026-07-31",
+    "time": "21:30",
+    "store": "玉屋室見店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは  本日新台入替で増台したリコリス・リコイルから・・・  コンプリート達成 おめでとうございます  129番台 eリコリス・リコイル",
+    "x_url": "https://x.com/tamaya_muromi/status/2083168382564872338",
+    "store_handle": "tamaya_muromi",
+    "store_x_url": "https://x.com/tamaya_muromi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T20:50:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjl-qeaIAAJ0Pc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjl-qeaIAAJ0Pc?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "9a34221ec244",
     "date": "2026-07-31",
     "time": "21:17",
@@ -41,6 +62,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOjjkNnawAA9lw5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "f2edb2c84c28",
+    "date": "2026-07-31",
+    "time": "21:13",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "2131",
+    "text": "楽園池袋店ゲートウェイです  本日、7月31日(金) 4円パチンココーナーから   2131番台　 【e牙狼12黄金騎士極限】      コンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2083164105192702121",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T20:39:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjgyy5bsAAD882?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjgyy5bsAAD882?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "5f4b5b007f00",
