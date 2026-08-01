@@ -137,6 +137,28 @@
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
   },
   {
+    "id": "a085eeefe58a",
+    "date": "2026-07-29",
+    "time": "20:04",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "254",
+    "text": "コンプリート速報 豊崎本館　　254番台 ヴァルヴレイヴ２　コンプリート達成です 先週からの熱がまだ冷めていないですね おめでとうございます #木村魚拓さん来店 #ガリぞうさん来店 #豊崎本館",
+    "x_url": "https://x.com/megaface_1120/status/2082422067102941408",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T22:59:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOY_jjtaIAAXFpw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOY_kp3aAAA9VE5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOY_jjtaIAAXFpw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "49efbf75377a",
     "date": "2026-07-29",
     "time": "19:48",
@@ -156,6 +178,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOY7R9ma4AAeqRK?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "4cc790b0200c",
+    "date": "2026-07-29",
+    "time": "19:13",
+    "store": "ビックマーチ八斗島店",
+    "machine": "eようこそ実力至上主義の教室へ",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんわん  【eようこそ実力至上主義の教室へ】 にてコンプリーーート達成 おめでとうございますっ  お仕事終わりはぜひ ビックマーチ八斗島へ #ビックマーチ八斗島店 #コンプリート #よう実",
+    "x_url": "https://x.com/bm_yattajima/status/2082409163683181030",
+    "store_handle": "bm_yattajima",
+    "store_x_url": "https://x.com/bm_yattajima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T22:59:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOYzn6gbIAA71iA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOYzn6gbIAA71iA?format=jpg&name=large",
+    "machine_id": "c9b2f5a8-b7dc-4a24-9419-35336699eb52"
   },
   {
     "id": "26159cdbda6e",
@@ -262,6 +305,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOYixcjawAAJw1-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "c5f977ef55a1",
+    "date": "2026-07-29",
+    "time": "17:30",
+    "store": "パチンコの玉屋∞新宮",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "378",
+    "text": "こんにちは 玉屋∞新宮です(/・ω・)/   先程378番台  『スマスロ 北斗の拳 転生の章2』  コンプリート達成致しました おめでとうございます #転生 #コンプリート",
+    "x_url": "https://x.com/tamaya_shingu/status/2082383331841474709",
+    "store_handle": "tamaya_shingu",
+    "store_x_url": "https://x.com/tamaya_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T23:14:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOYcAhXb0AAz5Yb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOYcAhXb0AAz5Yb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "8b9fda88a7cb",
+    "date": "2026-07-29",
+    "time": "14:14",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2156",
+    "text": "2156番台　Lからくりサーカス２  コンプリート機能が発動しましたので   遊技台停止となります。    明日の開放をお待ちくださいませ",
+    "x_url": "https://x.com/castleatsuta/status/2082333810591719521",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T22:59:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOXuZ6yacAAGKAy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOXuZ6yacAAGKAy?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "6e03c52db6a9",

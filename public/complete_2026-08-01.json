@@ -150,6 +150,27 @@
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
+    "id": "9ac88ebe2318",
+    "date": "2026-08-01",
+    "time": "19:20",
+    "store": "ガイアネクスト花見川",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "114",
+    "text": "コンプリート報告 114番台 eリコリス・リコイル コンプリート達成  #ガイア花見川 #さかな～ #チバラキガイアコンプ",
+    "x_url": "https://x.com/GN_hanamigawa/status/2083498097267949912",
+    "store_handle": "gn_hanamigawa",
+    "store_x_url": "https://x.com/gn_hanamigawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T22:59:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoSedibwAAaVDA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoSedibwAAaVDA?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "776ed4fd6fa4",
     "date": "2026-08-01",
     "time": "19:16",
@@ -214,5 +235,22 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOnxjJNakAAi9b3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "dcf82c4c03d8",
+    "date": "2026-08-01",
+    "time": "00:53",
+    "store": "チャンピオンBelz",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "96",
+    "text": "こんばんは いっちが本日の万枚越えをお届けします  【96番台】  #北斗の拳転生の章2 17000枚OVER  【180番台】  #東京喰種 10000枚OVER  本日もご来店ありがとうございました  #チャンピオンBELZ #今月もよろしくお願いします",
+    "x_url": "https://x.com/champion_belz/status/2083581818666909890",
+    "store_handle": "champion_belz",
+    "store_x_url": "https://x.com/champion_belz",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T23:31:11Z",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   }
 ]
