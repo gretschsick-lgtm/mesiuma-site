@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T02:32:36+09:00",
+  "generated_at": "2026-08-02T03:34:00+09:00",
   "monthly": [
     {
       "month": "2026-08",
@@ -30,7 +30,7 @@
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 762,
+      "total_count": 763,
       "stores": [
         {
           "rank": 1,
@@ -102,7 +102,7 @@
         {
           "rank": 2,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 58
+          "count": 59
         },
         {
           "rank": 3,
@@ -271,7 +271,7 @@
       {
         "rank": 2,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 58
+        "count": 59
       },
       {
         "rank": 3,
@@ -366,7 +366,7 @@
         "count": 4
       }
     ],
-    "total_count": 764
+    "total_count": 765
   },
   "store_complete_counts": {
     "テキサス白島店": 21,
@@ -569,14 +569,15 @@
     "スタジアム2001徳島川内店": 1,
     "マルハン村松店": 1,
     "９９９（スリーナイン）": 1,
+    "D'station神栖店": 1,
     "ABC浜北店【パチンコ＆スロット】": 1,
     "Ｐスパーク": 1,
     "DSG MEGA WORLD金沢": 1,
     "BIGディッパー花小金井店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 764,
+    "records_with_store_id": 765,
     "records_without_store_id": 0,
-    "canonical_store_ids": 204
+    "canonical_store_ids": 205
   }
 }
