@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-08-01T09:43:28+09:00",
+  "generated_at": "2026-08-01T14:00:20+09:00",
   "monthly": [
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 780,
+      "total_count": 783,
       "stores": [
         {
           "rank": 1,
-          "name": "テキサス白島店",
-          "count": 21,
-          "x_url": "https://x.com/texashakushima"
+          "name": "ARROW浪速店",
+          "count": 22,
+          "x_url": "https://x.com/arrow_naniwa"
         },
         {
           "rank": 2,
-          "name": "ARROW浪速店",
-          "count": 20,
-          "x_url": "https://x.com/arrow_naniwa"
+          "name": "テキサス白島店",
+          "count": 21,
+          "x_url": "https://x.com/texashakushima"
         },
         {
           "rank": 3,
@@ -123,7 +123,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 100
+          "count": 102
         },
         {
           "rank": 2,
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 40
+          "count": 41
         },
         {
           "rank": 4,
@@ -177,15 +177,15 @@
     "stores": [
       {
         "rank": 1,
-        "name": "テキサス白島店",
-        "count": 21,
-        "x_url": "https://x.com/texashakushima"
+        "name": "ARROW浪速店",
+        "count": 22,
+        "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 2,
-        "name": "ARROW浪速店",
-        "count": 20,
-        "x_url": "https://x.com/arrow_naniwa"
+        "name": "テキサス白島店",
+        "count": 21,
+        "x_url": "https://x.com/texashakushima"
       },
       {
         "rank": 3,
@@ -292,7 +292,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 100
+        "count": 102
       },
       {
         "rank": 2,
@@ -302,7 +302,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 40
+        "count": 41
       },
       {
         "rank": 4,
@@ -340,11 +340,11 @@
         "count": 4
       }
     ],
-    "total_count": 780
+    "total_count": 783
   },
   "store_complete_counts": {
+    "ARROW浪速店": 22,
     "テキサス白島店": 21,
-    "ARROW浪速店": 20,
     "プレイランドキャッスル春日井店": 17,
     "SPACE(スペース444＆666)": 17,
     "テキサス小倉店": 16,
@@ -544,11 +544,12 @@
     "マルハン村松店": 1,
     "９９９（スリーナイン）": 1,
     "ABC浜北店【パチンコ＆スロット】": 1,
-    "Ｐスパーク": 1
+    "Ｐスパーク": 1,
+    "123+N和歌山本店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 780,
+    "records_with_store_id": 783,
     "records_without_store_id": 0,
-    "canonical_store_ids": 202
+    "canonical_store_ids": 203
   }
 }

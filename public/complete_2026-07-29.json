@@ -20,5 +20,51 @@
     "image_url": "https://pbs.twimg.com/media/HOYnFrSaAAANWHX?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "88454198b8"
+  },
+  {
+    "id": "d076d14386cb",
+    "date": "2026-07-29",
+    "time": "01:09",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "492",
+    "text": "本日、  e牙狼12黄金騎士極限 　492番台 e東京喰種 超デカ超一撃ver.　570番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2082498864138146064",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T04:51:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOaFp7CbIAAOp9s?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOaFq2faMAAvJeb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOaFp7CbIAAOp9s?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "6c70846a33b1",
+    "date": "2026-07-29",
+    "time": "01:09",
+    "store": "ARROW浪速店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日、  e牙狼12黄金騎士極限 　492番台 e東京喰種 超デカ超一撃ver.　570番台  コンプリート達成おめでとうございます #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2082498864138146064",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T04:51:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOaFp7CbIAAOp9s?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOaFq2faMAAvJeb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOaFp7CbIAAOp9s?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "dd02f6f68a"
   }
 ]
