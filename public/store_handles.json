@@ -2,7 +2,7 @@
   "arrow_naniwa": {
     "store": "ARROW浪速店",
     "x_url": "https://x.com/arrow_naniwa",
-    "count": 49,
+    "count": 53,
     "type": "store",
     "store_id": "dd02f6f68a",
     "verification_status": "verified",
@@ -224,6 +224,21 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
+  "face_1300": {
+    "store": "FACE1300小倉南店",
+    "x_url": "https://x.com/face_1300",
+    "count": 28,
+    "type": "store",
+    "store_id": "18425371bb",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/face_1300",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": null,
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
   "texashakushima": {
     "store": "テキサス白島店",
     "x_url": "https://x.com/texashakushima",
@@ -236,21 +251,6 @@
     "is_active": true,
     "match_method": "x_url_evidence",
     "canonical_pref": "広島県",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
-  "face_1300": {
-    "store": "FACE1300小倉南店",
-    "x_url": "https://x.com/face_1300",
-    "count": 26,
-    "type": "store",
-    "store_id": "18425371bb",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/face_1300",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": null,
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
@@ -994,6 +994,51 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
+  "scpdaitou": {
+    "store": "SUPER COSMO PREMIUM大東店",
+    "x_url": "https://x.com/scpdaitou",
+    "count": 10,
+    "type": "store",
+    "store_id": "8ea13b6c57",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/scpdaitou",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": "大阪府",
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
+  "dsgarenatakaoka": {
+    "store": "DSGアリーナ高岡",
+    "x_url": "https://x.com/dsgarenatakaoka",
+    "count": 10,
+    "type": "store",
+    "store_id": "c774e988a7",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/dsgarenatakaoka",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": null,
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
+  "mjhosikuma": {
+    "store": "ＭＪアリーナ干隈店",
+    "x_url": "https://x.com/mjhosikuma",
+    "count": 10,
+    "type": "store",
+    "store_id": "2b4d471207",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/mjhosikuma",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
   "rakuen_kamata": {
     "store": "楽園蒲田店",
     "x_url": "https://x.com/rakuen_kamata",
@@ -1023,21 +1068,6 @@
     "canonical_pref": "東京都",
     "rejection_reason": "store_has_other_official_x"
   },
-  "scpdaitou": {
-    "store": "SUPER COSMO PREMIUM大東店",
-    "x_url": "https://x.com/scpdaitou",
-    "count": 9,
-    "type": "store",
-    "store_id": "8ea13b6c57",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/scpdaitou",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": "大阪府",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
   "maruhan_fukuroi": {
     "store": "マルハン袋井店",
     "x_url": "https://x.com/maruhan_fukuroi",
@@ -1062,21 +1092,6 @@
     "verification_status": "verified",
     "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/zone_yukuhashi",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": null,
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
-  "dsgarenatakaoka": {
-    "store": "DSGアリーナ高岡",
-    "x_url": "https://x.com/dsgarenatakaoka",
-    "count": 9,
-    "type": "store",
-    "store_id": "c774e988a7",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/dsgarenatakaoka",
     "is_active": true,
     "match_method": "x_url_evidence",
     "canonical_pref": null,
@@ -1158,21 +1173,6 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
-  "mjhosikuma": {
-    "store": "ＭＪアリーナ干隈店",
-    "x_url": "https://x.com/mjhosikuma",
-    "count": 8,
-    "type": "store",
-    "store_id": "2b4d471207",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/mjhosikuma",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": "福岡県",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
   "kicona_fuchu": {
     "store": "キコーナ府中",
     "x_url": "https://x.com/kicona_fuchu",
@@ -1245,6 +1245,21 @@
     "is_active": true,
     "match_method": "x_url_evidence",
     "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
+  "abc_toyokawa": {
+    "store": "ＡＢＣ豊川店",
+    "x_url": "https://x.com/ABC_toyokawa",
+    "count": 8,
+    "type": "store",
+    "store_id": "58111f872e",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/ABC_toyokawa",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": "愛知県",
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
@@ -1344,21 +1359,6 @@
     "count": 7,
     "type": "manager",
     "verification_status": "excluded_manager"
-  },
-  "abc_toyokawa": {
-    "store": "ＡＢＣ豊川店",
-    "x_url": "https://x.com/ABC_toyokawa",
-    "count": 7,
-    "type": "store",
-    "store_id": "58111f872e",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/ABC_toyokawa",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": "愛知県",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
   },
   "maruhanmidori": {
     "store": "マルハンメガシティ八千代緑が丘",
@@ -1522,6 +1522,21 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
+  "d_nagayoten": {
+    "store": "D’station39長与店",
+    "x_url": "https://x.com/d_nagayoten",
+    "count": 6,
+    "type": "store",
+    "store_id": "0a78bac15d",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/d_nagayoten",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": null,
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
   "tengoku_asoda": {
     "store": "天国朝生田店1020",
     "x_url": "https://x.com/tengoku_asoda",
@@ -1661,21 +1676,6 @@
     "is_active": true,
     "match_method": "x_url_evidence",
     "canonical_pref": "東京都",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
-  "d_nagayoten": {
-    "store": "D’station39長与店",
-    "x_url": "https://x.com/d_nagayoten",
-    "count": 5,
-    "type": "store",
-    "store_id": "0a78bac15d",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/d_nagayoten",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": null,
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
@@ -1824,7 +1824,7 @@
   "p_spark01": {
     "store": "Ｐスパーク",
     "x_url": "https://x.com/p_spark01",
-    "count": 4,
+    "count": 5,
     "type": "store",
     "store_id": "83936d5766",
     "verification_status": "verified",
@@ -1835,6 +1835,28 @@
     "canonical_pref": "宮城県",
     "canonical_handle": true,
     "verified_at": "2026-07-28"
+  },
+  "gogoarenatenjin": {
+    "store": "GOGOアリーナ天神",
+    "x_url": "https://x.com/gogoarenatenjin",
+    "count": 5,
+    "type": "store",
+    "store_id": "c8ce6d1db9",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/gogoarenatenjin",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
+  "divo_x_chiyori": {
+    "store": "DIVO知寄店",
+    "x_url": "https://x.com/divo_x_chiyori",
+    "count": 5,
+    "type": "manager",
+    "verification_status": "excluded_manager"
   },
   "kicona_matsubra": {
     "store": "グランキコーナ松原店",
@@ -2112,21 +2134,6 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
-  "gogoarenatenjin": {
-    "store": "GOGOアリーナ天神",
-    "x_url": "https://x.com/gogoarenatenjin",
-    "count": 4,
-    "type": "store",
-    "store_id": "c8ce6d1db9",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/gogoarenatenjin",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": "福岡県",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
   "dynam_00230": {
     "store": "ダイナム熊本長洲店",
     "x_url": "https://x.com/dynam_00230",
@@ -2244,6 +2251,21 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
+  "abc_hamakita": {
+    "store": "ABC浜北店【パチンコ＆スロット】",
+    "x_url": "https://x.com/abc_hamakita",
+    "count": 4,
+    "type": "store",
+    "store_id": "88454198b8",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/abc_hamakita",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": "静岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
   "d_ootone": {
     "store": "SuperD'station前橋大利根店",
     "x_url": "https://x.com/d_ootone",
@@ -2266,34 +2288,12 @@
     "type": "manager",
     "verification_status": "excluded_manager"
   },
-  "divo_x_chiyori": {
-    "store": "DIVO知寄店",
-    "x_url": "https://x.com/divo_x_chiyori",
-    "count": 3,
-    "type": "manager",
-    "verification_status": "excluded_manager"
-  },
   "marujagten": {
     "store": "マルハン入間店 パワ店イッチー",
     "x_url": "https://x.com/marujagten",
     "count": 3,
     "type": "manager",
     "verification_status": "excluded_manager"
-  },
-  "abc_hamakita": {
-    "store": "ABC浜北店【パチンコ＆スロット】",
-    "x_url": "https://x.com/abc_hamakita",
-    "count": 3,
-    "type": "store",
-    "store_id": "88454198b8",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/abc_hamakita",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": "静岡県",
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
   },
   "homerun_komono": {
     "store": "ホームラン菰野店",
@@ -2632,6 +2632,28 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
+  "threeninedesu": {
+    "store": "９９９（スリーナイン）",
+    "x_url": "https://x.com/threeninedesu",
+    "count": 3,
+    "type": "manager",
+    "verification_status": "excluded_manager"
+  },
+  "bigdipperhanako": {
+    "store": "BIGディッパー花小金井店",
+    "x_url": "https://x.com/bigdipperhanako",
+    "count": 3,
+    "type": "store",
+    "store_id": "776960c891",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/bigdipperhanako",
+    "is_active": true,
+    "match_method": "x_url_evidence",
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-07-28"
+  },
   "dynam_00109": {
     "store": "ダイナム柴田町店ゆったり館",
     "x_url": "https://x.com/dynam_00109",
@@ -2766,13 +2788,6 @@
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
-  "threeninedesu": {
-    "store": "９９９（スリーナイン）",
-    "x_url": "https://x.com/threeninedesu",
-    "count": 2,
-    "type": "manager",
-    "verification_status": "excluded_manager"
-  },
   "mgm_suzuka": {
     "store": "MGM鈴鹿店",
     "x_url": "https://x.com/mgm_suzuka",
@@ -2814,21 +2829,6 @@
     "is_active": true,
     "match_method": "x_url_evidence",
     "canonical_pref": null,
-    "canonical_handle": true,
-    "verified_at": "2026-07-28"
-  },
-  "bigdipperhanako": {
-    "store": "BIGディッパー花小金井店",
-    "x_url": "https://x.com/bigdipperhanako",
-    "count": 2,
-    "type": "store",
-    "store_id": "776960c891",
-    "verification_status": "verified",
-    "evidence_type": "canonical_x_url",
-    "evidence_url": "https://x.com/bigdipperhanako",
-    "is_active": true,
-    "match_method": "x_url_evidence",
-    "canonical_pref": "東京都",
     "canonical_handle": true,
     "verified_at": "2026-07-28"
   },
@@ -3428,6 +3428,34 @@
     "canonical_pref": "徳島県",
     "canonical_handle": true,
     "verified_at": "2026-07-28"
+  },
+  "123wakayamaten": {
+    "store": "123+N和歌山本店",
+    "x_url": "https://x.com/123wakayamaten",
+    "count": 2,
+    "type": "store",
+    "store_id": "d5b3c5b5d8",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/123wakayamaten",
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation",
+    "is_active": true,
+    "canonical_pref": "和歌山県"
+  },
+  "d_hamano916": {
+    "store": "D'station浜野店",
+    "x_url": "https://x.com/d_hamano916",
+    "count": 2,
+    "type": "store",
+    "store_id": "eac0171bbc",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/d_hamano916",
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation",
+    "is_active": true,
+    "canonical_pref": "千葉県"
   },
   "sanki_mimasaka": {
     "store": "サンキワールド美作店",
@@ -5252,6 +5280,46 @@
     "canonical_pref": "静岡県",
     "canonical_handle": true,
     "verified_at": "2026-07-28"
+  },
+  "beamhara": {
+    "store": "BEAM HARA 333",
+    "x_url": "https://x.com/beamhara",
+    "pref": "福岡県",
+    "count": 1,
+    "type": "store",
+    "store_id": "3b95cd6614",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/beamhara",
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation",
+    "is_active": true,
+    "canonical_pref": "福岡県"
+  },
+  "mega_dsg": {
+    "store": "DSG MEGA WORLD金沢",
+    "x_url": "https://x.com/mega_dsg",
+    "pref": "石川県",
+    "count": 1,
+    "type": "store",
+    "store_id": null,
+    "verification_status": "candidate",
+    "evidence_type": null,
+    "evidence_url": "https://x.com/mega_dsg",
+    "match_method": "unregistered",
+    "rejection_reason": "not_in_canonical_master"
+  },
+  "sakura3arita3": {
+    "store": "SAKURA有田店",
+    "x_url": "https://x.com/sakura3arita3",
+    "count": 1,
+    "verification_status": "excluded"
+  },
+  "q_bang_nishi": {
+    "store": "Q-Bang! 西梅田店",
+    "x_url": "https://x.com/q_bang_nishi",
+    "count": 1,
+    "verification_status": "excluded"
   },
   "19968911": {
     "store": "ベガビック京急蒲田店",
@@ -38209,21 +38277,6 @@
     "canonical_pref": "福岡県",
     "rejection_reason": "store_has_other_official_x"
   },
-  "beamhara": {
-    "store": "BEAM HARA 333",
-    "x_url": "https://x.com/beamhara",
-    "pref": "福岡県",
-    "count": 0,
-    "type": "store",
-    "store_id": "3b95cd6614",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/beamhara",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
-    "is_active": true,
-    "canonical_pref": "福岡県"
-  },
   "gion1_1": {
     "store": "GION1・1",
     "x_url": "https://x.com/gion1_1",
@@ -38810,19 +38863,6 @@
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
     "canonical_pref": "三重県"
-  },
-  "mega_dsg": {
-    "store": "DSG MEGA WORLD金沢",
-    "x_url": "https://x.com/mega_dsg",
-    "pref": "石川県",
-    "count": 0,
-    "type": "store",
-    "store_id": null,
-    "verification_status": "candidate",
-    "evidence_type": null,
-    "evidence_url": "https://x.com/mega_dsg",
-    "match_method": "unregistered",
-    "rejection_reason": "not_in_canonical_master"
   },
   "ezone_kanazawa": {
     "store": "イーゾーン金沢店",
@@ -46881,20 +46921,6 @@
     "is_active": true,
     "canonical_pref": "兵庫県"
   },
-  "123wakayamaten": {
-    "store": "123+N和歌山本店",
-    "x_url": "https://x.com/123wakayamaten",
-    "count": 0,
-    "type": "store",
-    "store_id": "d5b3c5b5d8",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/123wakayamaten",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
-    "is_active": true,
-    "canonical_pref": "和歌山県"
-  },
   "monaco_kawagoe1": {
     "store": "モナコ川越店",
     "x_url": "https://x.com/monaco_kawagoe1",
@@ -51302,20 +51328,6 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/zapsoga",
     "match_method": "normalized_unique",
-    "rejection_reason": "needs_official_source_confirmation",
-    "is_active": true,
-    "canonical_pref": "千葉県"
-  },
-  "d_hamano916": {
-    "store": "D'station浜野店",
-    "x_url": "https://x.com/d_hamano916",
-    "count": 0,
-    "type": "store",
-    "store_id": "eac0171bbc",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/d_hamano916",
-    "match_method": "exact_name",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
     "canonical_pref": "千葉県"

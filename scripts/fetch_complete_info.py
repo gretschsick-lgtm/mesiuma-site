@@ -1592,11 +1592,11 @@ def save_complete(new_entries: list[dict], target_date: str):
     if _store_resolver:
         _store_resolver._ensure_loaded()
         _store_count = len(_store_resolver._stores)
-        # stores DBが本番データとして充実している場合のみハードフィルタ有効
-        # (テストデータのみ = 100件未満の場合はenrichmentモード: store_id付与のみ)
-        _store_filter_enabled = _store_count >= 100
-        if not _store_filter_enabled:
-            log(f"ℹ️  store_resolver: stores DB={_store_count}件（100件未満）→ enrichmentモード（除外なし）")
+        # store_id は任意メタ（ランキングは store_id 無しでも店舗名で集計する）。
+        # canonical DB に無い実在店舗のコンプリートを破棄するとデータ欠落するため、
+        # 常に enrichment モード（解決できた分だけ store_id を付与し、未解決でも保存する）。
+        _store_filter_enabled = False
+        log(f"ℹ️  store_resolver: stores DB={_store_count}件 → enrichmentモード（store_id 付与のみ・未解決も保存）")
         _s_filtered, _s_resolved, _s_unresolved = [], 0, 0
         for _e in new_only:
             _store_name = (_e.get("store") or "").strip()
@@ -1642,12 +1642,10 @@ def save_complete(new_entries: list[dict], target_date: str):
             tmp_path = tf.name
         os.replace(tmp_path, day_path)
 
-    # 古い日付ファイルを削除（cutoff より古いもの）
-    for p in COMPLETE_JSON.parent.glob("complete_20??-??-??.json"):
-        day_str = p.stem.replace("complete_", "")
-        if day_str < cutoff:
-            p.unlink(missing_ok=True)
-            log(f"  🗑 古い日付ファイル削除: {p.name}")
+    # 日付別ファイルは **全履歴ランキング(load_ranking_history)の元データ** なので削除しない。
+    # （complete_info.json は 30 日ローリングだが、月別/トータルの全履歴集計は日次ファイル
+    #  の union に依存する。cutoff で消すと過去月がランキングから欠落する回帰になる。）
+    # 保持コスト: 1 日 1 小 JSON。フロントは complete_info.json + 特定日ファイルのみ読み込む。
 
     # ── complete_info.json（全件統合ファイル・後方互換性維持）─────────────────
     with tempfile.NamedTemporaryFile(
