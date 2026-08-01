@@ -22,25 +22,25 @@
     "store_id": "776960c891"
   },
   {
-    "id": "e68171850fdf",
+    "id": "9a34221ec244",
     "date": "2026-07-31",
-    "time": "21:30",
-    "store": "玉屋室見店",
-    "machine": "eリコリス・リコイル",
+    "time": "21:17",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "machine": "e牙狼12",
     "machine_type": "pachinko",
     "slot_number": "",
-    "text": "こんばんは  本日新台入替で増台したリコリス・リコイルから・・・  コンプリート達成 おめでとうございます  129番台 eリコリス・リコイル",
-    "x_url": "https://x.com/tamaya_muromi/status/2083168382564872338",
-    "store_handle": "tamaya_muromi",
-    "store_x_url": "https://x.com/tamaya_muromi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-01T18:49:16Z",
+    "text": "こんばんは コンプリート速報です  ただいま ｅ牙狼１２ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2083165054674080077",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-01T19:50:33Z",
     "images": [
-      "https://pbs.twimg.com/media/HOjl-qeaIAAJ0Pc?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HOjjkNnawAA9lw5?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HOjl-qeaIAAJ0Pc?format=jpg&name=large",
-    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+    "image_url": "https://pbs.twimg.com/media/HOjjkNnawAA9lw5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "5f4b5b007f00",
