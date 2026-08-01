@@ -1,6 +1,32 @@
 {
-  "generated_at": "2026-08-02T00:45:04+09:00",
+  "generated_at": "2026-08-02T01:27:56+09:00",
   "monthly": [
+    {
+      "month": "2026-08",
+      "label": "2026年8月",
+      "total_count": 2,
+      "stores": [
+        {
+          "rank": 1,
+          "name": "FACE1300小倉南店",
+          "count": 2,
+          "x_url": "https://x.com/face_1300"
+        }
+      ],
+      "slot_machines": [
+        {
+          "rank": 1,
+          "name": "Lミリオンゴッド神々の軌跡",
+          "count": 1
+        },
+        {
+          "rank": 2,
+          "name": "スマスロ攻殻機動隊",
+          "count": 1
+        }
+      ],
+      "pachinko_machines": []
+    },
     {
       "month": "2026-07",
       "label": "2026年7月",
@@ -269,13 +295,13 @@
       },
       {
         "rank": 7,
-        "name": "L東京喰種",
+        "name": "スマスロ攻殻機動隊",
         "count": 16
       },
       {
         "rank": 8,
-        "name": "スマスロ攻殻機動隊",
-        "count": 15
+        "name": "L東京喰種",
+        "count": 16
       },
       {
         "rank": 9,
@@ -340,7 +366,7 @@
         "count": 4
       }
     ],
-    "total_count": 762
+    "total_count": 764
   },
   "store_complete_counts": {
     "テキサス白島店": 21,
@@ -354,8 +380,8 @@
     "メガフェイス960飯塚": 14,
     "マルハンメガシティ水戸赤塚": 14,
     "メガフェイス1300淀川": 14,
+    "FACE1300小倉南店": 13,
     "メガフェイス1070菊陽": 12,
-    "FACE1300小倉南店": 11,
     "ビックマーチ東習志野店": 11,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 11,
     "ワンダーランドODO": 10,
@@ -549,7 +575,7 @@
     "BIGディッパー花小金井店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 762,
+    "records_with_store_id": 764,
     "records_without_store_id": 0,
     "canonical_store_ids": 204
   }

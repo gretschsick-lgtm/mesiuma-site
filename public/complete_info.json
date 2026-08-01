@@ -1,5 +1,50 @@
 [
   {
+    "id": "c77385b31ef2",
+    "date": "2026-08-01",
+    "time": "21:01",
+    "store": "FACE1300小倉南店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "1876",
+    "text": "コンプリート速報  ⭐︎1876番台　スマスロミリオンゴッド 　　　　　　　　　　-神々の軌跡-  コンプリート達成 おめでとうございます  本日2台目のコンプリート 月初から盛り上がってます  #コンプリート #ミリオンゴッド #MEGAFACE1300小倉南",
+    "x_url": "https://x.com/face_1300/status/2083523433879744712",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T15:49:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOophHzaUAAlZbR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOn7fxXasAAVwx4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOophHzaUAAlZbR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "8d4ad82e0aef",
+    "date": "2026-08-01",
+    "time": "17:40",
+    "store": "FACE1300小倉南店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "2303",
+    "text": "コンプリート速報  ⭐︎2303番台　スマスロ攻殻機動隊  コンプリート達成 おめでとうございます  月が変わって1台目のコンプリート この調子でどんどん盛り上げて いきましょう♪♪♪  #コンプリート #攻殻機動隊 #メガフェイス1300小倉南",
+    "x_url": "https://x.com/face_1300/status/2083472834295382377",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-01T15:49:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOn7fxXasAAVwx4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOn7fxXasAAVwx4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "6384913e8254",
     "date": "2026-07-31",
     "time": "22:13",
