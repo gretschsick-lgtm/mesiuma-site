@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T03:35:32+09:00",
+  "generated_at": "2026-08-02T03:37:13+09:00",
   "monthly": [
     {
       "month": "2026-08",
@@ -30,7 +30,7 @@
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 811,
+      "total_count": 812,
       "stores": [
         {
           "rank": 1,
@@ -102,7 +102,7 @@
         {
           "rank": 2,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 58
+          "count": 59
         },
         {
           "rank": 3,
@@ -644,7 +644,7 @@
       {
         "rank": 4,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 61
+        "count": 62
       },
       {
         "rank": 5,
@@ -729,7 +729,7 @@
         "count": 11
       }
     ],
-    "total_count": 2150
+    "total_count": 2151
   },
   "store_complete_counts": {
     "ARROW浪速店": 53,
@@ -1086,11 +1086,12 @@
     "Q-Bang! 西梅田店": 1,
     "BEAM HARA 333": 1,
     "マルハン村松店": 1,
+    "D'station神栖店": 1,
     "DSG MEGA WORLD金沢": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2105,
+    "records_with_store_id": 2106,
     "records_without_store_id": 45,
-    "canonical_store_ids": 332
+    "canonical_store_ids": 333
   }
 }
