@@ -407,6 +407,51 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "a2a91cf3926b",
+    "date": "2026-08-01",
+    "time": "19:04",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "261",
+    "text": "コンプリート速報 豊崎本館　　261番台 ヴァルヴレイヴ２　コンプリーーーーート!!!!! ヴァルヴレイヴ２のコンプリート報告 何回目になるのやら 橘リノさん来店 店内大変盛り上がっております！ 皆々様のご来店お待ちしております #橘リノさん来店 #豊崎本館 #コンプリート",
+    "x_url": "https://x.com/megaface_1120/status/2083493962749464641",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T17:56:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoOixUb0AEZ28N?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOoOqwSbMAA8Jux?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoOixUb0AEZ28N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "f62d16d2d200",
+    "date": "2026-08-01",
+    "time": "18:59",
+    "store": "テキサス白島店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス白島店です  スロット #L炎炎ノ消防隊２　から コンプリート報告がはいりました おめでとうございます  本日も：まで営業です この後のお時間も 【創業月間】の 白島テキサスでお楽しみください  #コンプリート　 #炎炎　 #テキサス",
+    "x_url": "https://x.com/texashakushima/status/2083492887032115527",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T17:56:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoNi3IbkAAq-az?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOoNlcQaAAAZt46?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOoNpTAaYAAFYWK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoNi3IbkAAq-az?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
     "id": "51f1353b5f0f",
     "date": "2026-08-01",
     "time": "18:37",

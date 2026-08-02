@@ -320,6 +320,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "30e651653f27",
+    "date": "2026-07-28",
+    "time": "16:23",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "25",
+    "text": "こんばんは マルハン川越店です!  コンプリート速報   e牙狼12XX-MJ　25番台    おめでとうございます!!",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2082004001139359909",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T17:57:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOTDTsEbgAAVz7f?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOTDTsEbgAAVz7f?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "5efa8d69c254",
     "date": "2026-07-28",
     "time": "14:21",
