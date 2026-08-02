@@ -717,6 +717,28 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "8409edfb8d1b",
+    "date": "2026-07-25",
+    "time": "14:03",
+    "store": "高知中村店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "#ダイナム高知中村店 7/25（土） Lからくりサーカス2 #コンプリート されたお客様おめでとう御座います 創業日に羨ましい。。",
+    "x_url": "https://x.com/dynam_tomokichi/status/2081606309959667911",
+    "store_handle": "dynam_tomokichi",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T16:29:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HONZg7nbQAA8Zcl?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOH0OEWWIAAmHuH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HONZg7nbQAA8Zcl?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "b944b40d39e2",
     "date": "2026-07-25",
     "time": "13:00",
