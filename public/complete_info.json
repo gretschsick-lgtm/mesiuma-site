@@ -1,5 +1,47 @@
 [
   {
+    "id": "1eaf269771c6",
+    "date": "2026-08-02",
+    "time": "20:18",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "1068",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、8月2日(日)  1068番台 【e東京喰種W】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート #スマパチ",
+    "x_url": "https://x.com/Rakuen_GS/status/2083875157517721864",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T11:53:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtpaRKbcAAtyg_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtpaRKbcAAtyg_?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "b9d54edd41c8",
+    "date": "2026-08-02",
+    "time": "20:05",
+    "store": "キコーナ海老名店 中の人",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "912",
+    "text": "こんばんは！キコーナ海老名店です  ４６枚貸スロット L甲鉄城のカバネリ海門決戦　912番台にて  コンプリート達成  おめでとうございます！ この後のご来店お待ちしております！  #つぶやキコーナ #キコーナサマー",
+    "x_url": "https://x.com/Kicona_ebina/status/2083871716695261671",
+    "store_handle": "kicona_ebina",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/kicona_ebina",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-02T11:54:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtmD0PaAAAplsX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtmD0PaAAAplsX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "281434c9ee39",
     "date": "2026-08-02",
     "time": "19:01",
@@ -171,6 +213,49 @@
     "store_id": "d74d21cc6d"
   },
   {
+    "id": "892d2e1403a3",
+    "date": "2026-08-01",
+    "time": "21:17",
+    "store": "店長あらた　マルハンメガシティ長野",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "1021",
+    "text": "本日1台目のコンプリートは 1021番台　e牙狼12黄金騎士極限 コンプリートおめでとうございます",
+    "x_url": "https://x.com/aratanarutentyo/status/2083527541621739696",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-02T12:10:29Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2083526933531557888/img/eLtVn6AX0XNtJS1e.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOjSsS1bIAEwOvi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2083526933531557888/img/eLtVn6AX0XNtJS1e.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "531c7cf267b3",
+    "date": "2026-08-01",
+    "time": "21:14",
+    "store": "マルハンメガシティ柏",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "216",
+    "text": "マルハンメガシティ柏 𖤐令和パチ年パチ月始まる𖤐 パチンコ・スロット地域最大級設置  【216番台　e東京喰種】  スマパチ東京喰種からコンプリート 本当におめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2083526875964645391",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T11:53:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOosgHWaoAA6SEX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOosgHWaoAA6SEX?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "c77385b31ef2",
     "date": "2026-08-01",
     "time": "21:01",
@@ -192,6 +277,27 @@
     "image_url": "https://pbs.twimg.com/media/HOophHzaUAAlZbR?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "18425371bb"
+  },
+  {
+    "id": "565f9fffb9e9",
+    "date": "2026-08-01",
+    "time": "20:50",
+    "store": "キコーナ守口",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "742",
+    "text": "本日、Lミリオンゴッド 742番台にて  コンプリート達成(੭*ˊᵕˋ)੭   おめでとうございます   #つぶやキコーナ  #キコーナ守口  #コンプリート報告",
+    "x_url": "https://x.com/K32066445/status/2083520849924243867",
+    "store_handle": "k32066445",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T11:43:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOonJ73agAEAj_j?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOonJ73agAEAj_j?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "6740be265a36",
@@ -432,6 +538,49 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "4109093dd95a",
+    "date": "2026-08-01",
+    "time": "16:04",
+    "store": "マルハン袋井店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "559",
+    "text": "8月1日(土) 559番台 真打吉宗 ㊗︎コンプリート達成!! おめでとうございます",
+    "x_url": "https://x.com/maruhan_fukuroi/status/2083448763344203831",
+    "store_handle": "maruhan_fukuroi",
+    "store_x_url": "https://x.com/maruhan_fukuroi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T12:10:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOnlmq5bMAAoeoe?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOnlmq9aEAAW2RT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOnlmq5bMAAoeoe?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "abb980ce5e2f",
+    "date": "2026-08-01",
+    "time": "15:32",
+    "store": "楽園柏店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "878",
+    "text": "こんにちは 楽園柏店です  15時05分 【878番台】  【e牙狼12黄金騎士極限】  コンプリート達成  一直線に 黄金郷へ旅立ちました  おめでとうございます",
+    "x_url": "https://x.com/kashiwa_rakuen/status/2083440756073922974",
+    "store_handle": "kashiwa_rakuen",
+    "store_x_url": "https://x.com/kashiwa_rakuen",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T12:10:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOneUypaMAA_1V0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOneUypaMAA_1V0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "dcf82c4c03d8",
     "date": "2026-08-01",
     "time": "00:53",
@@ -446,8 +595,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T23:31:11Z",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "image_url": "https://pbs.twimg.com/profile_images/2039163359904649216/pJc8_yla_200x200.jpg?format=jpg&name=large"
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "e2954d0aa5a9",
@@ -1260,12 +1408,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T20:40:07Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "image_url": "https://pbs.twimg.com/media/HOZknd8aIAAb7ji.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HOZknd8aIAAb7ji.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOZknd8aIAAb7ji?format=jpg&name=large"
-    ]
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "55f565b724f4",
@@ -1282,12 +1425,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T20:40:07Z",
-    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb",
-    "image_url": "https://pbs.twimg.com/media/HOZhHx8XcAAXFNK.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HOZhHx8XcAAXFNK.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOZhHx8XcAAXFNK?format=jpg&name=large"
-    ]
+    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb"
   },
   {
     "id": "640e9568dbef",
@@ -1304,12 +1442,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T20:40:07Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "image_url": "https://pbs.twimg.com/media/HOZeVTFaYAADiqB.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HOZeVTFaYAADiqB.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOZeVTFaYAADiqB?format=jpg&name=large"
-    ]
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "8906ee74ade4",
@@ -1723,6 +1856,27 @@
     "store_id": "0a78bac15d"
   },
   {
+    "id": "cf5a6161d275",
+    "date": "2026-07-28",
+    "time": "22:40",
+    "store": "グランドシップ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは グランドシップです  東京都最大級36台設置    e牙狼12黄金騎士極限 コンプリート達成 おめでとうございます(`･ω･´)b  7月残りも全力グラシ  #グラシ #東京 #江東区 #東雲 #グランドシップ #牙狼 #コンプリート",
+    "x_url": "https://x.com/grandship378/status/2082098931991998511",
+    "store_handle": "grandship378",
+    "store_x_url": "https://x.com/grandship378",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T12:12:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUZPjnagAA8ao0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUZPjnagAA8ao0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "cc78103ec452",
     "date": "2026-07-28",
     "time": "21:03",
@@ -1893,6 +2047,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "763ad00b0b1d",
+    "date": "2026-07-28",
+    "time": "17:45",
+    "store": "マルハンメガシティ伊勢崎",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート達成 e牙狼12黄金騎士極限 5番台ご遊技のお客様 おめでとうございます",
+    "x_url": "https://x.com/isesaki_maruhan/status/2082024625576521955",
+    "store_handle": "isesaki_maruhan",
+    "store_x_url": "https://x.com/isesaki_maruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T12:12:27Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "4e0afa37a3e0",
     "date": "2026-07-28",
     "time": "16:58",
@@ -1975,6 +2146,50 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOSb1fzbkAAaebl?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "f7b4838d09ce",
+    "date": "2026-07-28",
+    "time": "12:30",
+    "store": "ワンダーランドODO",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "7月27日差玉ランキング  牙狼のコンプリート… もう”ODOろかない”？  《Pランキング》 e牙狼12（オススメ・コンプリート） e牙狼12（オススメ） e必殺仕事人（新台）  《Sランキング》 L東京喰種 L北斗転生 Lヴヴヴ2  X店長は”ODOろき”ましたけどね。  5位まではコチラ",
+    "x_url": "https://x.com/wl_odo/status/2081945240366149718",
+    "store_handle": "wl_odo",
+    "store_x_url": "https://x.com/wl_odo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T11:54:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOSCsvvbQAAv2b0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOHyRs3bQAELKYk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOSCsvvbQAAv2b0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "f7c6876b334b",
+    "date": "2026-07-28",
+    "time": "12:30",
+    "store": "ワンダーランドODO",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "7月27日差玉ランキング  牙狼のコンプリート… もう”ODOろかない”？  《Pランキング》 e牙狼12（オススメ・コンプリート） e牙狼12（オススメ） e必殺仕事人（新台）  《Sランキング》 L東京喰種 L北斗転生 Lヴヴヴ2  X店長は”ODOろき”ましたけどね。  5位まではコチラ",
+    "x_url": "https://x.com/wl_odo/status/2081945240366149718",
+    "store_handle": "wl_odo",
+    "store_x_url": "https://x.com/wl_odo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T11:54:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOSCsvvbQAAv2b0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOHyRs3bQAELKYk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOSCsvvbQAAv2b0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "e1d82f5050cb",
