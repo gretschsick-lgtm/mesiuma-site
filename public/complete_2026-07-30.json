@@ -217,6 +217,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "b64c3b653c6b",
+    "date": "2026-07-30",
+    "time": "11:00",
+    "store": "ライブガーデン鹿沼グランドシティ",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "333",
+    "text": "こんにちは！ ライブガーデン鹿沼グランドシティです  昨日７月２９日 ３３３番台【e東京喰種W】  コンプリート達成  おめでとうございます！  このあとのお時間も ごゆっくりと お楽しみください！     #ライブガーデン鹿沼GC #コンプリート #東京喰種",
+    "x_url": "https://x.com/LGkanumaGC1225/status/2082647368697102741",
+    "store_handle": "lgkanumagc1225",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T08:46:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOZR1tlbwAAXo2T?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOZR1tlbwAAXo2T?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "9ee035dbfe34",
     "date": "2026-07-30",
     "time": "02:58",
