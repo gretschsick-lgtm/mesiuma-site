@@ -717,6 +717,27 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "b944b40d39e2",
+    "date": "2026-07-25",
+    "time": "13:00",
+    "store": "ダイナム松任店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "722",
+    "text": "7月25日（土）ダイナム60年目創業日  /／   コンプリート達成 \\＼   722番台　Lからくりサーカス2",
+    "x_url": "https://x.com/dynam_00252/status/2081228087266586655",
+    "store_handle": "dynam_00252",
+    "store_x_url": "https://x.com/dynam_00252",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T10:29:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOIB6oiWEAA5TVn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOIB6oiWEAA5TVn?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "0f4163d6413b",
     "date": "2026-07-25",
     "time": "08:46",

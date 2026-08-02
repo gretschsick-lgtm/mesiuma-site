@@ -639,6 +639,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "16dab33f6b5f",
+    "date": "2026-07-27",
+    "time": "17:50",
+    "store": "スーパーD'ステーション39日向店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "455",
+    "text": "455番台  e東京喰種W  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/superD_hyuga/status/2081663627439030500",
+    "store_handle": "superd_hyuga",
+    "store_x_url": "https://x.com/superd_hyuga",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T10:29:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOOOAMvbcAAULAJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOOOAMvbcAAULAJ?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "b79c0abb5787",
     "date": "2026-07-27",
     "time": "17:31",
