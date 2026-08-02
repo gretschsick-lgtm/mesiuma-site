@@ -21,6 +21,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000021"
   },
   {
+    "id": "57277d5fd8ec",
+    "date": "2026-08-01",
+    "time": "22:40",
+    "store": "ビックマーチ西川田店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "皆様こんばんは！  なんと本日2台目のコンプリートです  からくりサーカス2でコンプリート達成  おめでとうございます  明日のご来店もお待ちしております~  #コンプリート #からくりサーカス2 #ビックマーチ西川田店 #令和8年8月8日8周年",
+    "x_url": "https://x.com/bm_nishikawada/status/2083548314293952830",
+    "store_handle": "bm_nishikawada",
+    "store_x_url": "https://x.com/bm_nishikawada",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:31:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOo_3VAbkAEFNlJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOo_3VAbkAEFNlJ?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "2fa2f3d46da7",
     "date": "2026-08-01",
     "time": "22:32",
@@ -532,6 +553,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T23:31:11Z",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "image_url": "https://pbs.twimg.com/profile_images/2039163359904649216/pJc8_yla_200x200.jpg?format=jpg&name=large"
   }
 ]

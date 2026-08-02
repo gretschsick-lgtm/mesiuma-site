@@ -1,5 +1,27 @@
 [
   {
+    "id": "9bc29f1caef7",
+    "date": "2026-08-02",
+    "time": "21:07",
+    "store": "FACE1300小倉南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート達成】 e牙狼12黄金騎士極限 2日続けて コンプリート発生中 #コンプリート達成 #牙狼 #メガフェイス1300小倉南",
+    "x_url": "https://x.com/face_1300/status/2083887308890316878",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:06:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOt0dWqaYAAzZbi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOt0dWqaYAAzZbi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "1eaf269771c6",
     "date": "2026-08-02",
     "time": "20:18",
@@ -63,6 +85,71 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "d1bc05d1b466",
+    "date": "2026-08-02",
+    "time": "18:16",
+    "store": "サラリーマン店長メガシティ静岡",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "134",
+    "text": "今日もどこかでコンプリート のお時間です♪ e牙狼12 黄金騎士極限　134番台 御遊技された貴方様 おめでとうございます",
+    "x_url": "https://x.com/Last_Mission_7/status/2083844458366513329",
+    "store_handle": "last_mission_7",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/last_mission_7",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-02T13:32:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtM_YQaYAAzblx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOtNBecasAAuiVu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtM_YQaYAAzblx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "6dc5870cb171",
+    "date": "2026-08-02",
+    "time": "18:14",
+    "store": "マルハンメガシティ静岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "134",
+    "text": "■134番台　e牙狼12黄金騎士極限     コンプリート達成です  ご遊技されたお客様、 おめでとうございます",
+    "x_url": "https://x.com/maruhanmegacity/status/2083843967268036806",
+    "store_handle": "maruhanmegacity",
+    "store_x_url": "https://x.com/maruhanmegacity",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:32:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtM_YQaYAAzblx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOtNBecasAAuiVu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtM_YQaYAAzblx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "a52a32aa187c",
+    "date": "2026-08-02",
+    "time": "18:10",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "964",
+    "text": "e東京喰種W 964番台コンプリート達成 おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2083842857056772469",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:32:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtMB_5awAAHecJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtMB_5awAAHecJ?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "948a184c3bfa",
     "date": "2026-08-01",
     "time": "23:23",
@@ -82,6 +169,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOpKD77bkAAOvRW?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000021"
+  },
+  {
+    "id": "57277d5fd8ec",
+    "date": "2026-08-01",
+    "time": "22:40",
+    "store": "ビックマーチ西川田店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "皆様こんばんは！  なんと本日2台目のコンプリートです  からくりサーカス2でコンプリート達成  おめでとうございます  明日のご来店もお待ちしております~  #コンプリート #からくりサーカス2 #ビックマーチ西川田店 #令和8年8月8日8周年",
+    "x_url": "https://x.com/bm_nishikawada/status/2083548314293952830",
+    "store_handle": "bm_nishikawada",
+    "store_x_url": "https://x.com/bm_nishikawada",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:31:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOo_3VAbkAEFNlJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOo_3VAbkAEFNlJ?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "2fa2f3d46da7",
@@ -812,6 +920,27 @@
     "image_url": "https://pbs.twimg.com/media/HOjUFftbQAEJ3jL?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
     "store_id": "c774e988a7"
+  },
+  {
+    "id": "35c4bf95d0e4",
+    "date": "2026-07-31",
+    "time": "19:56",
+    "store": "店長セキグチ",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日7月最終日！ スマスロコーナーから コンプリートが出ました！  L東京喰種  コンプリートされたお客様 おめでとうございます  遂に自店初 東京喰種でコンプリート  待ってました！  やっと、なにかのこせた気がする  #コンプリート #東京喰種 #プラスイーグル #釧路",
+    "x_url": "https://x.com/eagle_kushiro/status/2083144706968736157",
+    "store_handle": "eagle_kushiro",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T13:31:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjQkRDawAA_0wF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjQkRDawAA_0wF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "6178dfebebcd",
@@ -2085,6 +2214,27 @@
     ]
   },
   {
+    "id": "bbe80f96fa8d",
+    "date": "2026-07-28",
+    "time": "17:28",
+    "store": "サガちゃんPARK",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2061",
+    "text": "ヤッホー  2061番台 からくりサーカス2  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2082020384300536256",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:07:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOTSfNga4AEMAnU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOTSfNga4AEMAnU?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "4e0afa37a3e0",
     "date": "2026-07-28",
     "time": "16:58",
@@ -2365,6 +2515,28 @@
     "image_url": "https://pbs.twimg.com/media/HOPO07DaIAEL8dI?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "5878704f24"
+  },
+  {
+    "id": "309d501f66de",
+    "date": "2026-07-27",
+    "time": "22:25",
+    "store": "メガフェイス1000糸島",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "726",
+    "text": "こんばんは また #コンプリート の神様に そっぽ向かれちゃいました(´°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥｀)  1.09円パチンコの L東京喰種726番台から こちらの結果です  1.09円パチンコも ここまで来たら楽しいですよね  おめでとう御座います #コンプ未遂再び",
+    "x_url": "https://x.com/face__1000/status/2081732713988723088",
+    "store_handle": "face__1000",
+    "store_x_url": "https://x.com/face__1000",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:15:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPM3aGbsAAm6D2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOPM3bmagAA_tmy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPM3aGbsAAm6D2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "0c77b88f1217",
@@ -2785,6 +2957,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOOqF9yagAA00xM?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "c4d947d324c2",
+    "date": "2026-07-27",
+    "time": "19:49",
+    "store": "マルハン仙台泉店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "464",
+    "text": "464番台   e東京喰種W    コンプリート機能発動",
+    "x_url": "https://x.com/maruhansdizumi/status/2081693347929075775",
+    "store_handle": "maruhansdizumi",
+    "store_x_url": "https://x.com/maruhansdizumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T13:15:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOOpEL_bUAAF9j0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOOpEL_bUAAF9j0?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
     "id": "4398ba07d94d",
