@@ -171,6 +171,27 @@
     "machine_id": "4b7631e5-c602-47c2-a90b-c2c68609e371"
   },
   {
+    "id": "4be52cb68e5f",
+    "date": "2026-07-28",
+    "time": "18:32",
+    "store": "やすだ八潮店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは やすだ八潮店です  NO641 革命機ヴァルヴレイヴ2 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/yasuda_yashio/status/2082036379601838446",
+    "store_handle": "yasuda_yashio",
+    "store_x_url": "https://x.com/yasuda_yashio",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:37:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOThBgXbAAAd_x-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOThBgXbAAAd_x-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "4e0afa37a3e0",
     "date": "2026-07-28",
     "time": "16:58",

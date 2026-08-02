@@ -574,6 +574,28 @@
     "store_id": "5a18003e2d"
   },
   {
+    "id": "9fb88cc8f923",
+    "date": "2026-07-27",
+    "time": "19:25",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "482",
+    "text": "Ｌ革命機ヴァルヴレイヴ２ 　　　482番台 　　　19時15分 　   コンプリート おめでとうございます #マルハン佐賀店実績",
+    "x_url": "https://x.com/since2011_8_11/status/2081687333058097608",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:37:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOOjFngbEAE4eTA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOOjglzawAASDoA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOOjFngbEAE4eTA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "6d211601d164",
     "date": "2026-07-27",
     "time": "19:01",
@@ -790,5 +812,27 @@
     "image_url": "https://pbs.twimg.com/media/HOPhtQoaIAAG8Ow?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "42997c6cc5"
+  },
+  {
+    "id": "fc035d948c21",
+    "date": "2026-07-27",
+    "time": "00:00",
+    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "820",
+    "text": "820番台  #Lからくりサーカス2 COMPLETE  おめでとうございます  本日もたくさんのご来店、 誠にありがとうございました   #コンプリート",
+    "x_url": "https://x.com/DTAKASAKIHONTEN/status/2081756502214180864",
+    "store_handle": "dtakasakihonten",
+    "store_x_url": "https://x.com/dtakasakihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:37:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOPZZSDaYAAaUCH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOPZa9vbcAAYkI7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOPZZSDaYAAaUCH?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   }
 ]

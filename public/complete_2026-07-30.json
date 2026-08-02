@@ -109,6 +109,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
+    "id": "f2031f57623e",
+    "date": "2026-07-30",
+    "time": "18:46",
+    "store": "エムディー目黒店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "371",
+    "text": "コンプリート速報  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ2   371番台 　　　2026.07.30    18:30 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  常連様、当店では初めてのコンプリート 本当におめでとうございます",
+    "x_url": "https://x.com/mdmeguro/status/2082764811713359881",
+    "store_handle": "mdmeguro",
+    "store_x_url": "https://x.com/mdmeguro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:37:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOd3jloawAAuAia?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOd3jloawAAuAia?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "1f54098e8cdf",
+    "date": "2026-07-30",
+    "time": "18:30",
+    "store": "マルハン南宮崎店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日の速報  e牙狼12黄金騎士極限   コンプリート達成    おめでとうございます   気づけば95,000発到達。   これが黄金騎士の極限   #牙狼 #GARO #コンプリート",
+    "x_url": "https://x.com/_minamimiyazaki/status/2082760614066229418",
+    "store_handle": "_minamimiyazaki",
+    "store_x_url": "https://x.com/_minamimiyazaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:52:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOdqHM4aAAAdJcY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOdqHM4aAAAdJcY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "093cb4aa3ae6",
     "date": "2026-07-30",
     "time": "16:50",

@@ -213,6 +213,93 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "51f1353b5f0f",
+    "date": "2026-08-01",
+    "time": "18:37",
+    "store": "DSG ARENA 七尾店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "／  ８月初日から 今月最初のナナアリ 圧倒的コンプリート報告ぅ ＼ 【e牙狼12】 １パチよりコンプリート達成 リミットストップ！！ おめでとうございます  #DSGグループ #１番乗り #かと思ったら #２番手でしたー",
+    "x_url": "https://x.com/DsgArenaNanao77/status/2083487154744017150",
+    "store_handle": "dsgarenananao77",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T04:52:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoIP77awAASFwm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoIP77awAASFwm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "56f1315b85"
+  },
+  {
+    "id": "f67fc6339cf9",
+    "date": "2026-08-01",
+    "time": "18:04",
+    "store": "駅前店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "4188",
+    "text": "コンプリートのご報告  　　 《４１８８番台》  Ｌ革命機ヴァルヴレイヴ２  先ほどコンプリート達成致しました おめでとうございます  こちらの遊技台は 本日は稼働停止となります",
+    "x_url": "https://x.com/RAKUENSHIBUYA2/status/2083479035976531972",
+    "store_handle": "rakuenshibuya2",
+    "store_x_url": "https://x.com/rakuenshibuya2",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:52:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoBC5Pa4AADp_k?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoBC5Pa4AADp_k?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "a4b2af2d76f4",
+    "date": "2026-08-01",
+    "time": "18:00",
+    "store": "DSG WORLD豊田店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "e東京喰種 コンプリート達成 おめでとうございます #DSGWORLD豊田店",
+    "x_url": "https://x.com/dsgtoyota104/status/2083478004311929018",
+    "store_handle": "dsgtoyota104",
+    "store_x_url": "https://x.com/dsgtoyota104",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:52:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoAD5AasAA5zpv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoAD5AasAA5zpv?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "34df3370bb"
+  },
+  {
+    "id": "c4aa09a4e670",
+    "date": "2026-08-01",
+    "time": "18:00",
+    "store": "ダイナム三木店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "261",
+    "text": "花火大会の季節ですね  本日 DAIKICHI-Grand Prix取材  261番台 eリコリス・リコイル  /／  #コンプリート達成 \\＼  おめでとうございます #ダイナム",
+    "x_url": "https://x.com/dynam_00141/status/2083477940684403002",
+    "store_handle": "dynam_00141",
+    "store_x_url": "https://x.com/dynam_00141",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T04:52:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoAIKBaEAATd2s?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2083130680356093952/img/jG98DLZ1GeI-3Ttc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoAIKBaEAATd2s?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "8d4ad82e0aef",
     "date": "2026-08-01",
     "time": "17:40",
