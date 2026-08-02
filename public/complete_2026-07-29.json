@@ -144,7 +144,7 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-02T15:25:17Z",
+    "collected_at": "2026-08-02T16:07:20Z",
     "images": [
       "https://pbs.twimg.com/media/HOZVkUjaoAASS0b?format=jpg&name=large"
     ],
@@ -172,6 +172,28 @@
     "image_url": "https://pbs.twimg.com/media/HOZQpGpbEAARyja?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "ecf9ab4e77"
+  },
+  {
+    "id": "1639faba2fe2",
+    "date": "2026-07-29",
+    "time": "21:20",
+    "store": "ピーアーク北千住エリア",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "690",
+    "text": "7月29日（水） ピーアーク北千住SSS トリエス  690番台 L からくりサーカス2 コンプリート達成  泣きたいのこっちね  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2082441041798725675",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T15:54:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOZRFFmaEAAAq57?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2041742649577893891/img/VTFrO_9Z4ivoYGvb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOZRFFmaEAAAq57?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "25aef6b53380",
@@ -251,7 +273,7 @@
     "store_x_url": "https://x.com/ksakaihonten",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-02T15:39:53Z",
+    "collected_at": "2026-08-02T16:22:13Z",
     "images": [
       "https://pbs.twimg.com/media/HOY1w0KagAAtO_E?format=jpg&name=large"
     ],

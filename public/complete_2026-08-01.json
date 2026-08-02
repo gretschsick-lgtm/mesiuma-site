@@ -105,25 +105,26 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
-    "id": "c31e88426ef8",
+    "id": "b946e635e491",
     "date": "2026-08-01",
-    "time": "21:53",
-    "store": "エクスアリーナ松戸",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "471",
-    "text": "エクスアリーナ松戸よりお知らせ⋆͛⋆  「Lスマスロ北斗の拳転生の章2」471番台にて、コンプリート機能発動となりました ご遊戯のお客様、おめでとうございます  この後も22:45まで営業しております。 皆様のご来店お待ちしておりますm(__)m",
-    "x_url": "https://x.com/XAmatsudo/status/2083536504081834045",
-    "store_handle": "xamatsudo",
-    "store_x_url": "https://x.com/xamatsudo",
+    "time": "22:07",
+    "store": "店長の左肘ツヨシ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日もメガシティ水戸赤塚から コンプリート達成しました お客様、おめでとうございます #3番台 #e牙狼黄金騎士極限",
+    "x_url": "https://x.com/Naru_Maruhan/status/2083540079386247220",
+    "store_handle": "naru_maruhan",
+    "store_x_url": "",
     "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-02T15:26:13Z",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T16:21:56Z",
     "images": [
-      "https://pbs.twimg.com/media/HOo1ZhraoAAZqYe?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HOo4qGnaIAAgR6r?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOkiI7HagAAObpX?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HOo1ZhraoAAZqYe?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "image_url": "https://pbs.twimg.com/media/HOo4qGnaIAAgR6r?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "37553c4d0791",
@@ -385,29 +386,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
-    "id": "f62d16d2d200",
-    "date": "2026-08-01",
-    "time": "18:59",
-    "store": "テキサス白島店",
-    "machine": "L炎炎ノ消防隊2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんばんは テキサス白島店です  スロット #L炎炎ノ消防隊２　から コンプリート報告がはいりました おめでとうございます  本日も：まで営業です この後のお時間も 【創業月間】の 白島テキサスでお楽しみください  #コンプリート　 #炎炎　 #テキサス",
-    "x_url": "https://x.com/texashakushima/status/2083492887032115527",
-    "store_handle": "texashakushima",
-    "store_x_url": "https://x.com/texashakushima",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-02T15:09:47Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOoNi3IbkAAq-az?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOoNlcQaAAAZt46?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOoNpTAaYAAFYWK?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOoNi3IbkAAq-az?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000003"
-  },
-  {
     "id": "51f1353b5f0f",
     "date": "2026-08-01",
     "time": "18:37",
@@ -596,12 +574,33 @@
     "store_x_url": "https://x.com/dynam_00405",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-02T15:39:37Z",
+    "collected_at": "2026-08-02T14:56:03Z",
     "images": [
       "https://pbs.twimg.com/media/HOr3ZVZWAAA8r0t?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HOr3ZVZWAAA8r0t?format=jpg&name=large",
     "machine_id": "4b7631e5-c602-47c2-a90b-c2c68609e371"
+  },
+  {
+    "id": "3f7a64adbbe3",
+    "date": "2026-08-01",
+    "time": "10:00",
+    "store": "ダイナム鹿児島大口店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月1日（土） スロットコーナー L北斗の拳転生の章2  コンプリート達成 おめでとうございます  #ダイナム　#北斗の拳　#転生　#コンプリート",
+    "x_url": "https://x.com/dynam_00199/status/2083719505247621230",
+    "store_handle": "dynam_00199",
+    "store_x_url": "https://x.com/dynam_00199",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T14:56:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOrb1-1XsAEqcKA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOrb1-1XsAEqcKA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "2e2a989944f3",
@@ -617,7 +616,7 @@
     "store_x_url": "https://x.com/dynam_00347",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-02T15:39:37Z",
+    "collected_at": "2026-08-02T14:56:03Z",
     "images": [
       "https://pbs.twimg.com/media/HOrb1ijWsAEkqEO?format=jpg&name=large"
     ],
