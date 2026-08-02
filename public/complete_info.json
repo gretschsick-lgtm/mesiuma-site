@@ -130,6 +130,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "384b2a4c0189",
+    "date": "2026-08-02",
+    "time": "19:11",
+    "store": "モナコパレスゴールド",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Lパチスロからくりサーカス2 コンプリート達成  ご遊技されていたお客様おめでとうございます  からくりサーカスと言えば上位ATを賭けた 　　　　　運命の一劇 私も運命の一劇を叩き込みたいです  #モナコパレスゴールド #からくりサーカス",
+    "x_url": "https://x.com/monaco_gold/status/2083858323326267663",
+    "store_handle": "monaco_gold",
+    "store_x_url": "https://x.com/monaco_gold",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T23:29:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtaAdPa4AA6Al7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOtaC9ybYAA9J4x?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtaAdPa4AA6Al7?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "281434c9ee39",
     "date": "2026-08-02",
     "time": "19:01",
@@ -2576,6 +2598,27 @@
       "https://pbs.twimg.com/media/HOUZPjnagAA8ao0?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HOUZPjnagAA8ao0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "dd3ce36ae9b5",
+    "date": "2026-07-28",
+    "time": "21:48",
+    "store": "マルハン甲府店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "442",
+    "text": "【速報-`⋆】 本日、7月28日(火)  甲府店のオススメჱ̒՞ ̳ᴗ ̫ ᴗ ̳՞꒱  442番台　e牙狼12黄金騎士極限  コンプリート♪♪♪♪  おめでとうございます  #マルハン甲府店",
+    "x_url": "https://x.com/maruhankofu/status/2082085806278369390",
+    "store_handle": "maruhankofu",
+    "store_x_url": "https://x.com/maruhankofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T23:27:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUN_4paUAA1Q87?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUN_4paUAA1Q87?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
