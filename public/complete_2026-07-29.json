@@ -370,6 +370,29 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "c6ebaeac2849",
+    "date": "2026-07-29",
+    "time": "08:11",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "231",
+    "text": "おはようございます 昨日の結果報告 231番台e牙狼12よりコンプリート達成  本日7月29日(水)朝9時オープン！ 抽選はこのあと8時30分より  全力接客×感謝  e牙狼12増台 水戸最大設置30台  #ビックマーチ水戸本店 #感謝",
+    "x_url": "https://x.com/Suyasuya_bm/status/2082242558030422044",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T00:01:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOWcivCa8AADh1U?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOWcjTpbIAA2i6L?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOWckF_bIAAB-0U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOWcivCa8AADh1U?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "59e5aa71e119",
     "date": "2026-07-29",
     "time": "08:00",

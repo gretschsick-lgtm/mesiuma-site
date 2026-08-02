@@ -331,6 +331,28 @@
     "store_id": "20138d2c07"
   },
   {
+    "id": "07977719588f",
+    "date": "2026-07-26",
+    "time": "20:59",
+    "store": "ジール当知店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "166",
+    "text": "こんばんは♪パート２ #ジール当知店 です  コンプリート速報 １６６番台　Ｌ炎炎ノ消防隊２ コンプリート機能発動 ご遊戯されていた お客様おめでとうございます  やはり何かが起こる ２６日  さぁラストスパート〜",
+    "x_url": "https://x.com/zeal_touti/status/2081348581425070559",
+    "store_handle": "zeal_touti",
+    "store_x_url": "https://x.com/zeal_touti",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T00:17:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOJvfioa0AA-pMC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOJvfilbIAALS4k?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOJvfioa0AA-pMC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
     "id": "4bfbad994da7",
     "date": "2026-07-26",
     "time": "20:58",
@@ -770,6 +792,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOJJaIaaYAAfHdi?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
+    "id": "0b09c109f56c",
+    "date": "2026-07-26",
+    "time": "18:15",
+    "store": "ピーアーク三田",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "232",
+    "text": "7/26（日） ピーアーク三田  スロット232番台  ヴァルヴレイヴ2　から  ||◤￣￣￣￣￣￣￣￣￣￣◥|| 　コンプリート達成 ||◣＿＿＿＿＿＿＿＿＿＿◢||  ｵﾒﾃﾞﾄｳｺﾞｻﾞｲﾏｽ  データを見るのに便利な 三田LINEはこちらから  http:// x.gd/hsC5w  #らしさ全開",
+    "x_url": "https://x.com/P_ARK_MITA/status/2081307443779498108",
+    "store_handle": "p_ark_mita",
+    "store_x_url": "https://x.com/P_ARK_MITA",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T00:05:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOJKFLDawAA3899?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOJKFjpaYAA_1bE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOJKFLDawAA3899?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "cb079f2d4844",

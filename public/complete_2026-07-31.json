@@ -22,6 +22,27 @@
     "store_id": "776960c891"
   },
   {
+    "id": "fbfeb559e05e",
+    "date": "2026-07-31",
+    "time": "21:47",
+    "store": "ザ・ガーデン",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "766",
+    "text": "ザ・ガーデンよりお知らせです  『北斗の拳転生の章2』  766番台 コンプリート機能発動となりました ご遊戯のお客様おめでとうございます  明日も10時より営業予定しております。 皆様のご来店お待ちしております #ザ・ガーデン #コンプリート",
+    "x_url": "https://x.com/DAIOTHEGARDEN/status/2083172793232032101",
+    "store_handle": "daiothegarden",
+    "store_x_url": "https://x.com/DAIOTHEGARDEN",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-02T00:05:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjqjbNbMAAyKYj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjqjbNbMAAyKYj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "e68171850fdf",
     "date": "2026-07-31",
     "time": "21:30",

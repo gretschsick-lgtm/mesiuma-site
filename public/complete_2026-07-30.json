@@ -175,6 +175,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "9ee035dbfe34",
+    "date": "2026-07-30",
+    "time": "02:58",
+    "store": "ゾーン苅田店",
+    "machine": "eアクダマドライブ",
+    "machine_type": "pachinko",
+    "slot_number": "580",
+    "text": "#コンプリート報告  eアクダマドライブ580番台  コンプリート達成 おめでとうございます  月創業月間も残り1日 最終日は #シーサ 。さんご来店！ 明日は〝あのセリフ〟が聴ける展開に なる事を期待しましょう！  #ゾーン苅田 #低貸の常識を覆す #10スロ革命参謀 #ニ〜カク〜",
+    "x_url": "https://x.com/zonekanda3/status/2082888666310193317",
+    "store_handle": "zonekanda3",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-02T00:30:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOfoL2TbIAAhy1d?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOfoMW4aMAArX_B?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOfoM4pa8AAdP_d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOfoL2TbIAAhy1d?format=jpg&name=large",
+    "machine_id": "8fc3fa28-14aa-4065-a50c-5a23551d2b34"
+  },
+  {
     "id": "09a58dde244a",
     "date": "2026-07-30",
     "time": "00:37",
