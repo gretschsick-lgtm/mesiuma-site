@@ -595,7 +595,8 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T23:31:11Z",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "image_url": "https://pbs.twimg.com/profile_images/2039163359904649216/pJc8_yla_200x200.jpg?format=jpg&name=large"
   },
   {
     "id": "e2954d0aa5a9",
@@ -1408,7 +1409,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T20:40:07Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "image_url": "https://pbs.twimg.com/media/HOZknd8aIAAb7ji.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOZknd8aIAAb7ji.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOZknd8aIAAb7ji?format=jpg&name=large"
+    ]
   },
   {
     "id": "55f565b724f4",
@@ -1425,7 +1431,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T20:40:07Z",
-    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb"
+    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb",
+    "image_url": "https://pbs.twimg.com/media/HOZhHx8XcAAXFNK.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOZhHx8XcAAXFNK.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOZhHx8XcAAXFNK?format=jpg&name=large"
+    ]
   },
   {
     "id": "640e9568dbef",
@@ -1442,7 +1453,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-01T20:40:07Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "image_url": "https://pbs.twimg.com/media/HOZeVTFaYAADiqB.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOZeVTFaYAADiqB.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOZeVTFaYAADiqB?format=jpg&name=large"
+    ]
   },
   {
     "id": "8906ee74ade4",
@@ -2061,7 +2077,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-02T12:12:27Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "image_url": "https://pbs.twimg.com/media/HOTWF7TbkAAfwvH.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOTWF7TbkAAfwvH.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOTWF7TbkAAfwvH?format=jpg&name=large"
+    ]
   },
   {
     "id": "4e0afa37a3e0",
