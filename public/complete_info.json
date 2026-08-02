@@ -227,7 +227,9 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-02T15:39:37Z",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2083750152901173248/img/8e8yod07H3RCBtns.jpg?format=jpg&name=large",
+    "video_url": "https://video.twimg.com/amplify_video/2083750152901173248/vid/avc1/0/0/360x480/OfK_2QeF9FJih3jg.mp4"
   },
   {
     "id": "948a184c3bfa",
