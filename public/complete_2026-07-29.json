@@ -281,6 +281,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "0556d2246506",
+    "date": "2026-07-29",
+    "time": "20:00",
+    "store": "マルハン下松店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！  マルハン下松店より 速報です！  先程、「Lかぐや様は告らせたい」にて  コンプリート機能発動  まだまだお時間ございます！  ご来店お待ちしてます",
+    "x_url": "https://x.com/marukudatencho/status/2082420884145668446",
+    "store_handle": "marukudatencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marukudatencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-03T04:29:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOY03xbaYAAhsBm?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOY03xdaUAAOHwQ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOY03xebYAA0nvD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOY03xbaYAAhsBm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "49efbf75377a",
     "date": "2026-07-29",
     "time": "19:48",
