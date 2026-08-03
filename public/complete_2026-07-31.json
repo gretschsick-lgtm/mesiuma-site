@@ -345,6 +345,27 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "2d0a2025f637",
+    "date": "2026-07-31",
+    "time": "20:04",
+    "store": "パチンコの玉屋∞新宮",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは 玉屋∞新宮です(/・ω・)/  『eFキン肉マン』  コンプリート達成致しました おめでとうございます #キン肉マン #コンプリート",
+    "x_url": "https://x.com/tamaya_shingu/status/2083146865894433165",
+    "store_handle": "tamaya_shingu",
+    "store_x_url": "https://x.com/tamaya_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T12:46:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjSzsna8AABdh0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjSzsna8AABdh0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
     "id": "35c4bf95d0e4",
     "date": "2026-07-31",
     "time": "19:56",
@@ -513,6 +534,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOiwvekagAEDRSS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "7a7d76b97dd4",
+    "date": "2026-07-31",
+    "time": "17:34",
+    "store": "甲府昭和店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "291",
+    "text": "ニューアサヒ甲府昭和速報 我が名は牙狼！黄金騎士だ！ ニューアサヒ甲府昭和店にて… 4円パチンコ【291番台】 スマパチ牙狼黄金騎士極限 めでたくComplete達成 本日は遊技終了となります #甲府昭和店 #コンプリート #牙狼聖域化計画 #金色になれ",
+    "x_url": "https://x.com/SUNGLASS_A/status/2083109090042286449",
+    "store_handle": "sunglass_a",
+    "store_x_url": "https://x.com/sunglass_a",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T12:45:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOiwqrya8AACp4t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOiwqrya8AACp4t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "9b9824dce604",
