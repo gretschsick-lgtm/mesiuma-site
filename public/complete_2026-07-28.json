@@ -129,6 +129,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "50ee07a3517d",
+    "date": "2026-07-28",
+    "time": "20:25",
+    "store": "キング観光サウザンド桑名サンシパーク店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "皆様こんばんは！   #キング観光サウザンド桑名サンシパーク店 です！   【#Lチバリヨ2】  コンプリート達成しました おめでとうございます ！",
+    "x_url": "https://x.com/kingsanshi1177/status/2082064813782687794",
+    "store_handle": "kingsanshi1177",
+    "store_x_url": "https://x.com/kingsanshi1177",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T07:27:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOT60XrbMAAtErs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOT60XrbMAAtErs?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "00660e813a34",
     "date": "2026-07-28",
     "time": "20:18",
