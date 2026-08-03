@@ -64,6 +64,72 @@
     "machine_id": "11111111-1111-1111-1111-000000000035"
   },
   {
+    "id": "baf501b27bfe",
+    "date": "2026-07-30",
+    "time": "21:01",
+    "store": "マルハン加島",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 7/28  Lモンハン-Lマギレコ ⇒753-758番台  Lいざ番長 ⇒868-873番台  L北斗の拳 転生の章2 ⇒1091-1096番台  LマイジャグラーV ⇒1153-1158番台  ネオアイムジャグラー ⇒1244-1249番台  ゴーゴージャグラー3 ⇒1264-1269番台  .",
+    "x_url": "https://x.com/TOKKOU_KANSAI/status/2082798844971004088",
+    "store_handle": "tokkou_kansai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T00:15:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ0nAdqaYAQBbnT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
+  },
+  {
+    "id": "281ae15f8f3c",
+    "date": "2026-07-30",
+    "time": "21:01",
+    "store": "マルハン加島",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 7/28  Lモンハン-Lマギレコ ⇒753-758番台  Lいざ番長 ⇒868-873番台  L北斗の拳 転生の章2 ⇒1091-1096番台  LマイジャグラーV ⇒1153-1158番台  ネオアイムジャグラー ⇒1244-1249番台  ゴーゴージャグラー3 ⇒1264-1269番台  .",
+    "x_url": "https://x.com/TOKKOU_KANSAI/status/2082798844971004088",
+    "store_handle": "tokkou_kansai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T00:15:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ0nAdqaYAQBbnT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "4352a13d7638",
+    "date": "2026-07-30",
+    "time": "21:01",
+    "store": "マルハン加島",
+    "machine": "ゴーゴージャグラー3",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 7/28  Lモンハン-Lマギレコ ⇒753-758番台  Lいざ番長 ⇒868-873番台  L北斗の拳 転生の章2 ⇒1091-1096番台  LマイジャグラーV ⇒1153-1158番台  ネオアイムジャグラー ⇒1244-1249番台  ゴーゴージャグラー3 ⇒1264-1269番台  .",
+    "x_url": "https://x.com/TOKKOU_KANSAI/status/2082798844971004088",
+    "store_handle": "tokkou_kansai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T00:15:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HJ0nAdqaYAQBbnT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000026"
+  },
+  {
     "id": "1170657722e2",
     "date": "2026-07-30",
     "time": "20:39",
