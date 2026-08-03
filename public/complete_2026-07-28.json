@@ -88,6 +88,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "8c9c14c91da4",
+    "date": "2026-07-28",
+    "time": "22:10",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "343",
+    "text": "こんばんは メガシティ三島駿東です  さらに！！ ｅ東京喰種Ｗ 343番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2082091324271132778",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T19:32:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUSm8WaUAAVQZi?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOT5JnfagAAuFYj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUSm8WaUAAVQZi?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "dd3ce36ae9b5",
     "date": "2026-07-28",
     "time": "21:48",
@@ -107,6 +129,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOUN_4paUAA1Q87?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "f644bab17e11",
+    "date": "2026-07-28",
+    "time": "21:32",
+    "store": "パチンコ玉屋宗像店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "503",
+    "text": "【いざ！】 503番台　いざ!番長 21時20分ごろにコンプリート到達されました。 おめでとうございます",
+    "x_url": "https://x.com/tamaya_munakata/status/2082081653950984411",
+    "store_handle": "tamaya_munakata",
+    "store_x_url": "https://x.com/tamaya_munakata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T19:34:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUJjMxaMAAmy_O?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOUJvASbIAAin8B?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUJjMxaMAAmy_O?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
   },
   {
     "id": "cc78103ec452",
@@ -512,5 +556,26 @@
     "image_url": "https://pbs.twimg.com/media/HOU4CjKa0AAOy27?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "23a8a2ac1a1d",
+    "date": "2026-07-28",
+    "time": "00:18",
+    "store": "カネマンMplus　仮店長",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "731",
+    "text": "Lゴッドイーター　731番台 コンプリート達成  本日のご来店、誠に有難うございます！ 明日からまた心機一転頑張ります！",
+    "x_url": "https://x.com/2w375rqBwShxOV8/status/2082123635448578049",
+    "store_handle": "2w375rqbwshxov8",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T19:28:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUwO0YaMAAugDA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUwO0YaMAAugDA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   }
 ]

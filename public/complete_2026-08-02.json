@@ -21,6 +21,49 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "e3bd52659551",
+    "date": "2026-08-02",
+    "time": "22:22",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "499",
+    "text": "【SPACE666】 立て続けにコンプリート発生 ヴァルヴレイヴ２【499番台】 おめでとうございます",
+    "x_url": "https://x.com/space666tobata/status/2083906218842874321",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T19:27:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOuFo85agAAK3ms?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOuFo85agAAK3ms?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
+  },
+  {
+    "id": "d30e4e96ca3e",
+    "date": "2026-08-02",
+    "time": "22:18",
+    "store": "マルハン土浦店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "524",
+    "text": "Lかぐや様は告らせたい〔524番台〕より コンプリート達成～ おめでとうございます",
+    "x_url": "https://x.com/tsuchimaru1/status/2083905331760128438",
+    "store_handle": "tsuchimaru1",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T19:27:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOuEP-MagAA8zUP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOuEP-MagAA8zUP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "885ffed092f1",
     "date": "2026-08-02",
     "time": "22:17",
@@ -255,6 +298,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOtRUnvbYAA2jph?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "6e536be76758",
+    "date": "2026-08-02",
+    "time": "18:30",
+    "store": "ダイナム弘前店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "419",
+    "text": "本日スロットコーナーにてコンプリート報告が  419番台Ｌミリオンゴッド  お昼過ぎからの稼働でガツンと剛腕を見せていました ご遊技していたお客様おめでとうございます( ^^) _旦 またの剛腕をお待ちしております  #ダイナム #弘前店 #コンプリート",
+    "x_url": "https://x.com/dynam_00071/status/2083847806649794737",
+    "store_handle": "dynam_00071",
+    "store_x_url": "https://x.com/dynam_00071",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T19:48:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtQiEGXcAAEf4t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtQiEGXcAAEf4t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "d1bc05d1b466",
