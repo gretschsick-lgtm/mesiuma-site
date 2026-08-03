@@ -1,5 +1,28 @@
 [
   {
+    "id": "a9a766ea653d",
+    "date": "2026-07-31",
+    "time": "22:56",
+    "store": "スーパーホール天王寺店",
+    "machine": "L鉄拳6",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "結果報告  【ゾンサガ】18102コンプ 【ヴヴヴ2】17184コンプ 【いざ番】【からくり2】【モンハン】 【新鬼武者】【バンドリ】【マンキン】 【北斗】【乙女5】【モンキー】 【ヴヴヴ】【鉄拳】10000  2機種からコンプリート  明日はロマン溢れる土曜日にスマート娘来店  #スパホ　#PR",
+    "x_url": "https://x.com/supaho_tennouji/status/2083190021365080105",
+    "store_handle": "supaho_tennouji",
+    "store_x_url": "https://x.com/supaho_tennouji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T09:23:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOj6R_6aQAAxcSH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOj6R_4aUAECP7o?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOj6SAAaoAADklS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOj6R_6aQAAxcSH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000022"
+  },
+  {
     "id": "e2954d0aa5a9",
     "date": "2026-07-31",
     "time": "22:55",
