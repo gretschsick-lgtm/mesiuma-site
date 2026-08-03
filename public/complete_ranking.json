@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-04T06:34:10+09:00",
+  "generated_at": "2026-08-04T08:43:04+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 73,
+      "total_count": 76,
       "stores": [
         {
           "rank": 1,
@@ -44,43 +44,44 @@
         },
         {
           "rank": 7,
+          "name": "ダイナム（自動発掘）",
+          "count": 2,
+          "x_url": "https://x.com/dynam_00405"
+        },
+        {
+          "rank": 8,
           "name": "マルハン川越店",
           "count": 2,
           "x_url": "https://x.com/smaru_kawagoe"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ワンダーランド1188鹿児島新栄店",
           "count": 1,
           "x_url": "https://x.com/wl_kshinei"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "ビックマーチ西川田店",
           "count": 1,
           "x_url": "https://x.com/bm_nishikawada"
-        },
-        {
-          "rank": 10,
-          "name": "佐久店",
-          "count": 1
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
-          "name": "L革命機ヴァルヴレイヴ2",
-          "count": 8
+          "name": "Lパチスロ からくりサーカス2",
+          "count": 9
         },
         {
           "rank": 2,
-          "name": "スマスロ北斗の拳転生の章2",
-          "count": 8
+          "name": "L革命機ヴァルヴレイヴ2",
+          "count": 9
         },
         {
           "rank": 3,
-          "name": "Lパチスロ からくりサーカス2",
-          "count": 7
+          "name": "スマスロ北斗の拳転生の章2",
+          "count": 8
         },
         {
           "rank": 4,
@@ -753,7 +754,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 426
+        "count": 427
       },
       {
         "rank": 2,
@@ -763,7 +764,7 @@
       {
         "rank": 3,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 80
+        "count": 82
       },
       {
         "rank": 4,
@@ -853,7 +854,7 @@
         "count": 11
       }
     ],
-    "total_count": 2369
+    "total_count": 2372
   },
   "store_complete_counts": {
     "ARROW浪速店": 53,
@@ -1048,9 +1049,11 @@
     "キクヤ長良店": 3,
     "ゼント豊橋藤沢店": 3,
     "ワンダーランド　うきはバイパス店": 3,
+    "キコーナ堺本店": 3,
     "マルハン甲府店": 3,
     "キコーナ海老名店 中の人": 3,
     "マルハン草薙アピア店 店長ひろゆき": 3,
+    "ダイナム（自動発掘）": 3,
     "マルハン島田": 2,
     "ZENT可児店": 2,
     "ジーワン二軒屋": 2,
@@ -1105,12 +1108,10 @@
     "マルハン荒田島店": 2,
     "DIVO知寄店": 2,
     "D'station浜野店": 2,
-    "キコーナ堺本店": 2,
     "ZENT名古屋北店": 2,
     "マルハン千葉北店": 2,
     "店長ショータロウ": 2,
     "店長の左肘ツヨシ": 2,
-    "ダイナム（自動発掘）": 2,
     "123+N和歌山本店": 2,
     "ドーム大和高田店": 2,
     "10時開店": 2,
@@ -1291,11 +1292,12 @@
     "浜田店": 1,
     "グランワールドカップ伊勢店": 1,
     "PIA津田沼": 1,
+    "フェスタ久山店": 1,
     "マリーナサンライズ": 1
   },
   "store_id_coverage": {
     "records_with_store_id": 2246,
-    "records_without_store_id": 123,
+    "records_without_store_id": 126,
     "canonical_store_ids": 360
   }
 }

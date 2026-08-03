@@ -129,6 +129,27 @@
     "machine_id": "ceb000ec-c9dd-46c6-9880-f0e68fdd28f2"
   },
   {
+    "id": "3e355c34a7aa",
+    "date": "2026-08-02",
+    "time": "20:30",
+    "store": "キコーナ堺本店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "781",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 781番台 Lパチスロ からくりサーカス2 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2083878094792991142",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T23:34:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtsCjca0AAH9FL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtsCjca0AAH9FL?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "ff6d5418c043",
     "date": "2026-08-02",
     "time": "20:27",
@@ -513,5 +534,47 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOsHrgLaYAEzKh6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "1ed68ae801db",
+    "date": "2026-08-02",
+    "time": "10:02",
+    "store": "ダイナム（自動発掘）",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おはようございます！  昨日8月2日(土) サミー景品入荷  #ヴァルヴレイヴ2　にて  コンプリート達成しました  おめでとうございます＼(^o^)／  本日は新台入替です 抽選は14時40分~ ぜひお越しください #ダイナム",
+    "x_url": "https://x.com/dynam_00098/status/2084082438934802470",
+    "store_handle": "dynam_00098",
+    "store_x_url": "https://x.com/dynam_00098",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T23:33:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOwl7nbWMAA_FUy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOwl7nbWMAA_FUy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "2c47564f46e9",
+    "date": "2026-08-02",
+    "time": "00:17",
+    "store": "フェスタ久山店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは  本日、からくりサーカス2コンプリートしました おめでとうございます  明日もごライテンお待ちしております",
+    "x_url": "https://x.com/festa_kuyama/status/2083935192193085452",
+    "store_handle": "festa_kuyama",
+    "store_x_url": "https://x.com/festa_kuyama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T23:33:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOuerbva8AIrA4Z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOuerbva8AIrA4Z?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   }
 ]
