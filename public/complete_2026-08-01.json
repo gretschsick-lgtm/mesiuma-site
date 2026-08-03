@@ -169,27 +169,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
-    "id": "528ea35d3030",
-    "date": "2026-08-01",
-    "time": "22:03",
-    "store": "マルハンメガシティ水戸赤塚",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "牙狼12黄金騎士極限よりコンプリート！！ おめでとうございます！  #3番台",
-    "x_url": "https://x.com/maruhanakatsuka/status/2083539052146675851",
-    "store_handle": "maruhanakatsuka",
-    "store_x_url": "https://x.com/maruhanakatsuka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-03T16:35:45Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOo3qoxaUAAMezc?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOo3qoxaUAAMezc?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
     "id": "8059b4d55a79",
     "date": "2026-08-01",
     "time": "22:00",
@@ -339,6 +318,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOosgHWaoAA6SEX?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "d564e189adb9",
+    "date": "2026-08-01",
+    "time": "21:03",
+    "store": "記念橋南店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2308",
+    "text": "先ほど2308番台 Lパチスロ からくりサーカス2 でコンプリート機能が発動しました 明日の開放までお待ちください",
+    "x_url": "https://x.com/kimusankimu/status/2083523891344142817",
+    "store_handle": "kimusankimu",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T15:48:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOopX5sa8AALsz1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOopX5sa8AALsz1?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "c77385b31ef2",
@@ -532,27 +532,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOoOixUb0AEZ28N?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "353274f45e41",
-    "date": "2026-08-01",
-    "time": "19:03",
-    "store": "キャッスル天白店",
-    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "machine_type": "slot",
-    "slot_number": "2870",
-    "text": "～コンプリート機能発動～     ２８７０番台    #スマスロミリオンゴッド-神々の軌跡-  台の稼働を停止しております！！   明日の開放をお待ちください！    #キャッスル天白店",
-    "x_url": "https://x.com/tenpaku0730/status/2083493819497234908",
-    "store_handle": "tenpaku0730",
-    "store_x_url": "https://x.com/tenpaku0730",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-03T16:38:18Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOoOMOPa0AAsKJZ?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOoOMOPa0AAsKJZ?format=jpg&name=large",
-    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac"
   },
   {
     "id": "f62d16d2d200",
