@@ -489,5 +489,26 @@
     "image_url": "https://pbs.twimg.com/media/HOU4CjKa0AAOy27?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "23a8a2ac1a1d",
+    "date": "2026-07-28",
+    "time": "00:18",
+    "store": "カネマンMplus　仮店長",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "731",
+    "text": "Lゴッドイーター　731番台 コンプリート達成  本日のご来店、誠に有難うございます！ 明日からまた心機一転頑張ります！",
+    "x_url": "https://x.com/2w375rqBwShxOV8/status/2082123635448578049",
+    "store_handle": "2w375rqbwshxov8",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T15:49:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUwO0YaMAAugDA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUwO0YaMAAugDA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   }
 ]

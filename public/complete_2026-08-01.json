@@ -320,6 +320,27 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "d564e189adb9",
+    "date": "2026-08-01",
+    "time": "21:03",
+    "store": "記念橋南店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "2308",
+    "text": "先ほど2308番台 Lパチスロ からくりサーカス2 でコンプリート機能が発動しました 明日の開放までお待ちください",
+    "x_url": "https://x.com/kimusankimu/status/2083523891344142817",
+    "store_handle": "kimusankimu",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T15:48:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOopX5sa8AALsz1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOopX5sa8AALsz1?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "c77385b31ef2",
     "date": "2026-08-01",
     "time": "21:01",
