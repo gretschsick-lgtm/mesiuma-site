@@ -513,6 +513,27 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "b42f58016661",
+    "date": "2026-08-02",
+    "time": "17:32",
+    "store": "浜田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "574",
+    "text": "マルハン浜田店です  8/2（日）17時10分  574番台 L スマスロ北斗の拳 転生の章2 MW  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/Mhamamiyo/status/2083833197524373565",
+    "store_handle": "mhamamiyo",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T21:26:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtDLQma8AAaNqL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtDLQma8AAaNqL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "6a624705073c",
     "date": "2026-08-02",
     "time": "17:17",
@@ -1026,6 +1047,48 @@
     "image_url": "https://pbs.twimg.com/media/HOokZiaboAANkm3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "f8132a1307"
+  },
+  {
+    "id": "2e101f756690",
+    "date": "2026-08-01",
+    "time": "20:21",
+    "store": "ダイナム黒石店～SINCE1999.12.17～",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月1日(土)『チバリヨ2』  コンプリートおめでとうございます  本日8月1日(土)はダイナミック取材！  チバリヨコンプ  #コンプリート　#ダイナム",
+    "x_url": "https://x.com/dynam_000077/status/2083513405160161699",
+    "store_handle": "dynam_000077",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-03T21:24:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOogZpLXgAAsDSV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOogZpLXgAAsDSV?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "a8da06b576a9",
+    "date": "2026-08-01",
+    "time": "20:12",
+    "store": "ビックマーチ伊勢崎店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは！ビックマーチ伊勢崎店です！  本日8/1(土) 【e牙狼12黄金騎士極限】 にてコンプリート達成  コンプリートされたお客様 おめでとうございます  #ビックマーチ伊勢崎 #ビックマーチ",
+    "x_url": "https://x.com/bm_isesaki/status/2083511093469864216",
+    "store_handle": "bm_isesaki",
+    "store_x_url": "https://x.com/bm_isesaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T21:24:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoeGxJaUAAzxBG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoeGxJaUAAzxBG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "167cab707dd1",
@@ -3414,6 +3477,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "92d5e6415355",
+    "date": "2026-07-28",
+    "time": "22:19",
+    "store": "マルハン千葉北店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成 【スマスロ 北斗の拳 転生の章2】 おめでとうございます",
+    "x_url": "https://x.com/maruhan_chiba/status/2082093670929678475",
+    "store_handle": "maruhan_chiba",
+    "store_x_url": "https://x.com/maruhan_chiba",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T20:57:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUVJmobwAAkvvs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUVJmobwAAkvvs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "8c9c14c91da4",
     "date": "2026-07-28",
     "time": "22:10",
@@ -3455,6 +3539,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOUN_4paUAA1Q87?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "8fb61a2c4288",
+    "date": "2026-07-28",
+    "time": "21:43",
+    "store": "やすだ東大宮店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは  スマスロ真打吉宗より コンプリート達成 おめでとうございます  残りも僅かとなりましたが 最後までお楽しみ下さい  #コンプリート #吉宗",
+    "x_url": "https://x.com/yasuda_misato/status/2082084515246473258",
+    "store_handle": "yasuda_misato",
+    "store_x_url": "https://x.com/yasuda_misato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-03T20:57:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOUMshEbwAAAJ-j?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOUMshEbwAAAJ-j?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "f644bab17e11",
