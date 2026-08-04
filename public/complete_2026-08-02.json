@@ -86,6 +86,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "f70776ee8fac",
+    "date": "2026-08-02",
+    "time": "22:06",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "447",
+    "text": "コンプリート速報 【豊崎本館】447番台 L炎炎ﾉ消防隊2 コンプリート達成です おめでとうございます #L炎炎ﾉ消防隊2 #コンプリート #オフミー謎解き取材",
+    "x_url": "https://x.com/megaface_1120/status/2083902282627002600",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T13:20:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOt_f5JacAAlv3C?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOuBiFoaYAAC76v?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOt_f5JacAAlv3C?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
     "id": "122227e899f5",
     "date": "2026-08-02",
     "time": "21:50",

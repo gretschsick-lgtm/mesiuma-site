@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-04T20:41:59+09:00",
+  "generated_at": "2026-08-04T22:54:34+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 90,
+      "total_count": 93,
       "stores": [
         {
           "rank": 1,
@@ -50,21 +50,21 @@
         },
         {
           "rank": 8,
+          "name": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+          "count": 2,
+          "x_url": "https://x.com/megaface_1120"
+        },
+        {
+          "rank": 9,
           "name": "ダイナム（自動発掘）",
           "count": 2,
           "x_url": "https://x.com/dynam_00405"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "マルハンメガシティ静岡",
           "count": 2,
           "x_url": "https://x.com/Chibasan_777"
-        },
-        {
-          "rank": 10,
-          "name": "ビックマーチ水戸本店",
-          "count": 2,
-          "x_url": "https://x.com/suyasuya_bm"
         }
       ],
       "slot_machines": [
@@ -110,12 +110,12 @@
         },
         {
           "rank": 9,
-          "name": "スマスロ攻殻機動隊",
+          "name": "L炎炎ノ消防隊2",
           "count": 2
         },
         {
           "rank": 10,
-          "name": "L真打吉宗",
+          "name": "スマスロ攻殻機動隊",
           "count": 2
         }
       ],
@@ -138,7 +138,7 @@
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 4
+          "count": 5
         },
         {
           "rank": 5,
@@ -739,15 +739,15 @@
       },
       {
         "rank": 9,
-        "name": "SPACE(スペース444＆666)",
+        "name": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
         "count": 34,
-        "x_url": "https://x.com/space666tobata"
+        "x_url": "https://x.com/megaface_1120"
       },
       {
         "rank": 10,
-        "name": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
-        "count": 33,
-        "x_url": "https://x.com/megaface_1120"
+        "name": "SPACE(スペース444＆666)",
+        "count": 34,
+        "x_url": "https://x.com/space666tobata"
       }
     ],
     "slot_machines": [
@@ -793,13 +793,13 @@
       },
       {
         "rank": 9,
-        "name": "Lチバリヨ2ZB",
+        "name": "L炎炎ノ消防隊2",
         "count": 39
       },
       {
         "rank": 10,
-        "name": "L炎炎ノ消防隊2",
-        "count": 38
+        "name": "Lチバリヨ2ZB",
+        "count": 39
       }
     ],
     "pachinko_machines": [
@@ -826,7 +826,7 @@
       {
         "rank": 5,
         "name": "e東京喰種W",
-        "count": 51
+        "count": 52
       },
       {
         "rank": 6,
@@ -854,7 +854,7 @@
         "count": 11
       }
     ],
-    "total_count": 2392
+    "total_count": 2395
   },
   "store_complete_counts": {
     "ARROW浪速店": 53,
@@ -865,8 +865,8 @@
     "メガフェイス1300淀川": 37,
     "マルハンメガシティ三島駿東": 36,
     "楽園大宮店": 34,
+    "メガフェイス1120豊崎本館＆豊崎Ⅱ": 34,
     "SPACE(スペース444＆666)": 34,
-    "メガフェイス1120豊崎本館＆豊崎Ⅱ": 33,
     "ビックマーチ東習志野店": 33,
     "キクヤ春日井店": 33,
     "メガフェイス1450本山": 32,
@@ -1049,6 +1049,7 @@
     "キクヤ長良店": 3,
     "ゼント豊橋藤沢店": 3,
     "ワンダーランド　うきはバイパス店": 3,
+    "DIVO知寄店": 3,
     "キコーナ堺本店": 3,
     "マルハン甲府店": 3,
     "キコーナ海老名店 中の人": 3,
@@ -1109,7 +1110,6 @@
     "キング観光サウザンド今池1号店": 2,
     "マルハン吉田店": 2,
     "マルハン荒田島店": 2,
-    "DIVO知寄店": 2,
     "D'station浜野店": 2,
     "ZENT名古屋北店": 2,
     "マルハン千葉北店": 2,
@@ -1282,6 +1282,7 @@
     "佐久店": 1,
     "Durham S-1": 1,
     "記念橋南店": 1,
+    "キコーナ阪神西宮店": 1,
     "キコーナ守口": 1,
     "プレゴ立川店": 1,
     "ダイナム黒石店～SINCE1999.12.17～": 1,
@@ -1306,8 +1307,8 @@
     "マリーナサンライズ": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2259,
+    "records_with_store_id": 2262,
     "records_without_store_id": 133,
-    "canonical_store_ids": 365
+    "canonical_store_ids": 366
   }
 }
