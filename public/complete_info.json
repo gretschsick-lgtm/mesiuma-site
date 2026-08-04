@@ -22,6 +22,27 @@
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
   },
   {
+    "id": "9c2781a34970",
+    "date": "2026-08-04",
+    "time": "22:07",
+    "store": "ワンダーランド1177谷山店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "速報!! e牙狼12よりコンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/wl_taniyama/status/2084627271244202037",
+    "store_handle": "wl_taniyama",
+    "store_x_url": "https://x.com/wl_taniyama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T19:13:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4VY_xaIAA47-j?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4VY_xaIAA47-j?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "f68dc0e9f164",
     "date": "2026-08-04",
     "time": "21:04",
@@ -473,6 +494,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOySehdbUAAX4xS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "2d340b7b457c",
+    "date": "2026-08-03",
+    "time": "07:00",
+    "store": "J・PARK安謝店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ひょえー  ★チバリヨ2からコンプリート★  おめでとうございまーす♪ 夢あるなー！ワイも打ちに行こうかな 行くならイースペース系列グッフッフ(笑)",
+    "x_url": "https://x.com/Jparkaja/status/2084036522773250471",
+    "store_handle": "jparkaja",
+    "store_x_url": "https://x.com/jparkaja",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T19:17:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOt7QzqaIAA4v4m?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOt7QzqaIAA4v4m?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "6ff9001dbb"
   },
   {
     "id": "1858ec080795",
