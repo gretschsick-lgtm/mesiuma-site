@@ -388,6 +388,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "57304e1a6a05",
+    "date": "2026-07-30",
+    "time": "16:29",
+    "store": "スーパーD'ステーション39佐々インター店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "47",
+    "text": "【コンプリート達成】  47番台e牙狼12黄金騎士極限 コンプリート  おめでとうでございます",
+    "x_url": "https://x.com/d_sazainter/status/2082730328444260494",
+    "store_handle": "d_sazainter",
+    "store_x_url": "https://x.com/d_sazainter",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T21:29:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOdYLxbaoAA82hO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOdYLxbaoAA82hO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "129bc64390ad",
     "date": "2026-07-30",
     "time": "14:33",
@@ -452,6 +473,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOcltMabwAAfAkw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "cce2ec2426b5",
+    "date": "2026-07-30",
+    "time": "12:08",
+    "store": "ダイナム岐阜関緑町店~Since2023.12.28~",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "#コンプリート  月日 #スロセレ 番台 L #革命機ヴァルヴレイヴ2  おめでとうございました 本日も#ダイナム 岐阜関緑町店で 皆様のご来店をお待ちしております #岐阜ダイナム",
+    "x_url": "https://x.com/dynam_00431/status/2082664536088236256",
+    "store_handle": "dynam_00431",
+    "store_x_url": "https://x.com/dynam_00431",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T21:14:25Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2082664519101210624/img/JWVLxqvVL4yxW-xf.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2082664519101210624/img/JWVLxqvVL4yxW-xf.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "b64c3b653c6b",

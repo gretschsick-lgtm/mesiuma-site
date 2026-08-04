@@ -67,6 +67,27 @@
     "store_id": "45990cb37b"
   },
   {
+    "id": "741c6539b5a3",
+    "date": "2026-08-04",
+    "time": "20:11",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "3571",
+    "text": "コンプリート情報  20:00 Ｌソードアート・オンラインⅡ　3571番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2084598024949670012",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T21:01:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO360EZacAAfMt2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO360EZacAAfMt2?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "480a0c7ec7f7",
     "date": "2026-08-04",
     "time": "19:45",
