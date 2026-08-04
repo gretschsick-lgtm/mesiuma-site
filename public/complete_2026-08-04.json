@@ -1,5 +1,27 @@
 [
   {
+    "id": "3b711926f950",
+    "date": "2026-08-04",
+    "time": "22:29",
+    "store": "ニラク笠間店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "553",
+    "text": "8/4 22時過ぎ　553番台　#コンプリート スマスロ モンスターハンターライズ 打っていたお客様おめでとうございます 上手に焼けました",
+    "x_url": "https://x.com/29_kasama/status/2084632697381556621",
+    "store_handle": "29_kasama",
+    "store_x_url": "https://x.com/29_kasama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T15:34:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4ZPWwaQAEp0TS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO4ZcNUbUAEqfJt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4ZPWwaQAEp0TS?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
     "id": "2cec348c93ea",
     "date": "2026-08-04",
     "time": "20:18",
@@ -21,5 +43,26 @@
     "image_url": "https://pbs.twimg.com/media/HO3655caIAEHMMM?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
     "store_id": "45990cb37b"
+  },
+  {
+    "id": "b2ff9f443405",
+    "date": "2026-08-04",
+    "time": "19:08",
+    "store": "プレイランドキャッスル東郷店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "2327",
+    "text": "先程、2327番台 チバリヨ2にて コンプリート機能作動の為、 稼働を停止しております。  #コンプリート  明日の開放をお楽しみに！！！！",
+    "x_url": "https://x.com/toumaruhana6/status/2084582337862570205",
+    "store_handle": "toumaruhana6",
+    "store_x_url": "https://x.com/toumaruhana6",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T15:17:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO3sljTagAA_UyJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO3sljTagAA_UyJ?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   }
 ]
