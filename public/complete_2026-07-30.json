@@ -1,5 +1,26 @@
 [
   {
+    "id": "ea7a16f981f6",
+    "date": "2026-07-30",
+    "time": "23:25",
+    "store": "グランキコーナ松原店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "1039",
+    "text": "1039番台「L戦国乙女5」にて コンプリート機能作動！  最近多すぎる…  本能寺じゃなくておでが燃えちゃう  #つぶやキコーナ #グランマ #グランキコーナ松原店",
+    "x_url": "https://x.com/kicona_matsubra/status/2082834967026172102",
+    "store_handle": "kicona_matsubra",
+    "store_x_url": "https://x.com/kicona_matsubra",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T15:17:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOe3R7iaoAAo2Qt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOe3R7iaoAAo2Qt?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "991695c74e30",
     "date": "2026-07-30",
     "time": "22:58",
@@ -278,28 +299,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOdqHM4aAAAdJcY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "279016baaff8",
-    "date": "2026-07-30",
-    "time": "18:09",
-    "store": "ピーアーク北綾瀬駅前",
-    "machine": "パチスロ 革命機ヴァルヴレイヴ",
-    "machine_type": "slot",
-    "slot_number": "563",
-    "text": "7/30(木) ピーアーク北綾瀬駅前  スロット L革命機ヴァルヴレイヴ 563番台  コンプリート達成  ｽﾊﾞﾗｼｲッ  #スロット #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
-    "x_url": "https://x.com/ParkPkunGarden/status/2082755342556078295",
-    "store_handle": "parkpkungarden",
-    "store_x_url": "https://x.com/ParkPkunGarden",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T16:33:30Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdu8dpasAEUa8t?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOZrEBfaYAAsT68?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdu8dpasAEUa8t?format=jpg&name=large",
-    "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
   },
   {
     "id": "6bd37c5cdd40",
