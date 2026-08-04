@@ -1,5 +1,26 @@
 [
   {
+    "id": "7e6406db1ea2",
+    "date": "2026-08-03",
+    "time": "22:33",
+    "store": "パーラー祇園",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "830",
+    "text": "Lスマスロ攻殻機動隊 ZS 830番台にて コンプリート達成  おめでとうございます  #パーラーギオン #8月3日 #コンプリート",
+    "x_url": "https://x.com/parlor_gion/status/2084271348353057046",
+    "store_handle": "parlor_gion",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-04T00:41:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOzRovnaoAAqDSd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOzRovnaoAAqDSd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "c00ba2228560",
     "date": "2026-08-03",
     "time": "22:02",

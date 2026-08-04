@@ -406,6 +406,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
+    "id": "1d1aa38a2dc1",
+    "date": "2026-08-01",
+    "time": "20:42",
+    "store": "プレゴ立川店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "82",
+    "text": "プレゴ立川店のコンプリート報告  82番台　戦国乙女5  コンプリート  この後のご来店もお待ちしております",
+    "x_url": "https://x.com/prego_tachikawa/status/2083518844866531564",
+    "store_handle": "prego_tachikawa",
+    "store_x_url": "https://x.com/prego_tachikawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T00:11:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOolMoka0AAl07E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOolMoka0AAl07E?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "6740be265a36",
     "date": "2026-08-01",
     "time": "20:41",
