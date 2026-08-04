@@ -22,6 +22,28 @@
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
   },
   {
+    "id": "f68dc0e9f164",
+    "date": "2026-08-04",
+    "time": "21:04",
+    "store": "ワンダーランド西新",
+    "machine": "L吉宗",
+    "machine_type": "slot",
+    "slot_number": "1305",
+    "text": "【ワンダーランド西新店 速報】 　　　　　L吉宗 1305番台コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/wl_nishijin/status/2084611306800222518",
+    "store_handle": "wl_nishijin",
+    "store_x_url": "https://x.com/wl_nishijin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-04T17:33:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4E09lbgAAOzEa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO1XhDwbYAAN_GG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4E09lbgAAOzEa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000011"
+  },
+  {
     "id": "2cec348c93ea",
     "date": "2026-08-04",
     "time": "20:18",

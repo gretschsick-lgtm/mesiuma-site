@@ -21,6 +21,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "7d6b9fee6040",
+    "date": "2026-08-03",
+    "time": "22:15",
+    "store": "マルハンアプリはこちら",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "412",
+    "text": "【412番台】  【ｅ牙狼１２ＸＸ－ＭＪ】  コンプリート達成   おめでとうございます  データを確認できる マルハンアプリはこちらから  http:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/nagaokaheijima/status/2084266785696874867",
+    "store_handle": "nagaokaheijima",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-04T17:41:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOzJAI_bwAEs7N-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOzJAI_bwAEs7N-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "a30a54c0d7e4",
     "date": "2026-08-03",
     "time": "22:05",
@@ -293,7 +314,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-04T15:48:34Z",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "image_url": "https://pbs.twimg.com/media/HOyf6H8bQAAwrk2.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOyf6H8bQAAwrk2.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOyf6H8bQAAwrk2?format=jpg&name=large"
+    ]
   },
   {
     "id": "2fd776994265",
@@ -310,7 +336,13 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-04T15:48:34Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "image_url": "https://pbs.twimg.com/media/HOygFNkaYAA2DS1.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HOygFNkaYAA2DS1.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOygFNkaYAA2DS1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HNgn5opaUAEWgwm?format=jpg&name=large"
+    ]
   },
   {
     "id": "a1282448e95d",
