@@ -169,6 +169,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000030"
   },
   {
+    "id": "b79f1d16d8f9",
+    "date": "2026-08-05",
+    "time": "16:36",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "443",
+    "text": "キクヤ春日井店コンプリート情報！！ コンプ×カスキクといえば...  443番台　L革命機ヴァルヴレイヴ２  おめでとうございます！",
+    "x_url": "https://x.com/315kasugai/status/2084906296697135118",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T23:01:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO8SsFgbAAAyS3b?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO8SsFgbAAAyS3b?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "c8a21e74e3d6",
     "date": "2026-08-05",
     "time": "14:23",
