@@ -64,6 +64,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "fb4df782e506",
+    "date": "2026-08-04",
+    "time": "21:54",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "234",
+    "text": "本日2台目 e牙狼12 234番台コンプリート達成 おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2084624040082526297",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T15:10:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4Sg5DaMAAU-HK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4Sg5DaMAAU-HK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "f68dc0e9f164",
     "date": "2026-08-04",
     "time": "21:04",
@@ -185,7 +206,7 @@
     "store_x_url": "",
     "manager_x_url": "https://x.com/billy_maruhan",
     "source_account_type": "store_manager",
-    "collected_at": "2026-08-05T15:58:05Z",
+    "collected_at": "2026-08-05T16:39:49Z",
     "images": [
       "https://pbs.twimg.com/media/HO3G-q9aMAA5UjF?format=jpg&name=large"
     ],
@@ -206,7 +227,7 @@
     "store_x_url": "",
     "manager_x_url": "https://x.com/pachi_slohunter",
     "source_account_type": "store_manager",
-    "collected_at": "2026-08-05T16:06:15Z",
+    "collected_at": "2026-08-05T15:40:03Z",
     "images": [
       "https://pbs.twimg.com/media/HO2BNwHaAAAMLQJ?format=jpg&name=large",
       "https://pbs.twimg.com/media/HO2BNwRbMAAMtxf?format=jpg&name=large",
@@ -229,7 +250,7 @@
     "store_x_url": "",
     "manager_x_url": "https://x.com/pachi_slohunter",
     "source_account_type": "store_manager",
-    "collected_at": "2026-08-05T16:06:15Z",
+    "collected_at": "2026-08-05T15:40:03Z",
     "images": [
       "https://pbs.twimg.com/media/HO2BNwHaAAAMLQJ?format=jpg&name=large",
       "https://pbs.twimg.com/media/HO2BNwRbMAAMtxf?format=jpg&name=large",
@@ -237,5 +258,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO2BNwHaAAAMLQJ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000009"
+  },
+  {
+    "id": "6d018be07b2a",
+    "date": "2026-08-04",
+    "time": "08:30",
+    "store": "玉屋室見店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "215",
+    "text": "【8月は玉屋創業月間】  おはようございます  昨日月日(火) パチンコとスロットから コンプリート達成  215番台 【e女神のカフェテラス】  400番台 【スマスロ 甲鉄城のカバネリ 海門(うなと)決戦】  おめでとうございます",
+    "x_url": "https://x.com/tamaya_muromi/status/2084783943799251279",
+    "store_handle": "tamaya_muromi",
+    "store_x_url": "https://x.com/tamaya_muromi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T16:54:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO5AGWLbUAEjFOU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO5AGWIa0AA0RIQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO5AGWLbUAEjFOU?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   }
 ]
