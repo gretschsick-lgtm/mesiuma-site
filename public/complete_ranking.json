@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T20:47:15+09:00",
+  "generated_at": "2026-08-05T22:30:04+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 121,
+      "total_count": 122,
       "stores": [
         {
           "rank": 1,
@@ -164,7 +164,7 @@
     {
       "month": "2026-07",
       "label": "2026年7月",
-      "total_count": 975,
+      "total_count": 976,
       "stores": [
         {
           "rank": 1,
@@ -270,12 +270,12 @@
         },
         {
           "rank": 9,
-          "name": "Lかぐや様は告らせたい",
-          "count": 18
+          "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
+          "count": 19
         },
         {
           "rank": 10,
-          "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
+          "name": "Lかぐや様は告らせたい",
           "count": 18
         }
       ],
@@ -787,17 +787,17 @@
       },
       {
         "rank": 6,
+        "name": "スロット ソードアート・オンラインⅡ",
+        "count": 42
+      },
+      {
+        "rank": 7,
         "name": "L真打吉宗",
         "count": 41
       },
       {
-        "rank": 7,
-        "name": "Lチバリヨ2ZB",
-        "count": 41
-      },
-      {
         "rank": 8,
-        "name": "スロット ソードアート・オンラインⅡ",
+        "name": "Lチバリヨ2ZB",
         "count": 41
       },
       {
@@ -863,7 +863,7 @@
         "count": 11
       }
     ],
-    "total_count": 2433
+    "total_count": 2435
   },
   "store_complete_counts": {
     "ARROW浪速店": 54,
@@ -1280,6 +1280,7 @@
     "フォーティ・サミット": 1,
     "スーパーD'ステーション仙台泉店": 1,
     "ゾーン苅田店": 1,
+    "ヒノマル横川店＠店長BBO「広島県唯一！? PS東京喰種": 1,
     "スーパーホール天王寺店": 1,
     "スーパードーム高岡インター店": 1,
     "エムズガーデン": 1,
@@ -1329,11 +1330,12 @@
     "マルハン高浜店": 1,
     "マリーナサンライズ": 1,
     "タウン半田店": 1,
-    "ワンダーランド西新": 1
+    "ワンダーランド西新": 1,
+    "ニラク入間新光店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2287,
-    "records_without_store_id": 146,
-    "canonical_store_ids": 374
+    "records_with_store_id": 2288,
+    "records_without_store_id": 147,
+    "canonical_store_ids": 375
   }
 }

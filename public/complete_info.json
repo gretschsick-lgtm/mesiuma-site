@@ -1,5 +1,26 @@
 [
   {
+    "id": "6659f3b77e1a",
+    "date": "2026-08-05",
+    "time": "22:04",
+    "store": "ニラク入間新光店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "450",
+    "text": "ニラク入間新光店です コンプリート報告  8月5日　【450番台】 『Lソードアート・オンラインⅡ』  達成おめでとうございます  #コンプリート #スマスロ #SAO #GGO #SAO2 #入間",
+    "x_url": "https://x.com/niraku_iruma/status/2084988917166821470",
+    "store_handle": "niraku_iruma",
+    "store_x_url": "https://x.com/niraku_iruma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T13:15:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO9eXlhboAAFC2e?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO9eXlhboAAFC2e?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "c8a21e74e3d6",
     "date": "2026-08-05",
     "time": "14:23",
@@ -3863,6 +3884,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOfoL2TbIAAhy1d?format=jpg&name=large",
     "machine_id": "8fc3fa28-14aa-4065-a50c-5a23551d2b34"
+  },
+  {
+    "id": "163ceee3310c",
+    "date": "2026-07-30",
+    "time": "00:59",
+    "store": "ヒノマル横川店＠店長BBO「広島県唯一！? PS東京喰種",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "462",
+    "text": "アフロＹッス  462番台 戦国乙女５ 責任を持って供養させて頂きました。 コンプリートの瞬間をご覧ください  #ヒノマル #横川 #戦国乙女5 #コンプリート #瞬間",
+    "x_url": "https://x.com/hinomaru_yoko/status/2082858625622802540",
+    "store_handle": "hinomaru_yoko",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-05T12:59:50Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2082858447717236736/img/vYDp3iRdzeStk7fj.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOfAOltaIAAeSnb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2082858447717236736/img/vYDp3iRdzeStk7fj.jpg?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "09a58dde244a",
