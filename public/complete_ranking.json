@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T13:39:37+09:00",
+  "generated_at": "2026-08-05T15:57:27+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 117,
+      "total_count": 120,
       "stores": [
         {
           "rank": 1,
@@ -13,27 +13,27 @@
         },
         {
           "rank": 2,
+          "name": "キング観光サウザンド栄若宮大通店",
+          "count": 3,
+          "x_url": "https://x.com/wakakin_tsujic"
+        },
+        {
+          "rank": 3,
           "name": "FACE1300小倉南店",
           "count": 3,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "SPACE(スペース444＆666)",
           "count": 3,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "マルハンメガシティ静岡",
           "count": 3,
           "x_url": "https://x.com/Chibasan_777"
-        },
-        {
-          "rank": 5,
-          "name": "キング観光サウザンド栄若宮大通店",
-          "count": 2,
-          "x_url": "https://x.com/wakakin_tsujic"
         },
         {
           "rank": 6,
@@ -69,12 +69,12 @@
       "slot_machines": [
         {
           "rank": 1,
-          "name": "Lパチスロ からくりサーカス2",
-          "count": 11
+          "name": "L革命機ヴァルヴレイヴ2",
+          "count": 12
         },
         {
           "rank": 2,
-          "name": "L革命機ヴァルヴレイヴ2",
+          "name": "Lパチスロ からくりサーカス2",
           "count": 11
         },
         {
@@ -94,12 +94,12 @@
         },
         {
           "rank": 6,
-          "name": "スマスロ攻殻機動隊",
-          "count": 3
+          "name": "Lかぐや様は告らせたい",
+          "count": 4
         },
         {
           "rank": 7,
-          "name": "Lかぐや様は告らせたい",
+          "name": "スマスロ攻殻機動隊",
           "count": 3
         },
         {
@@ -109,12 +109,12 @@
         },
         {
           "rank": 9,
-          "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
+          "name": "L新鬼武者3",
           "count": 2
         },
         {
           "rank": 10,
-          "name": "L炎炎ノ消防隊2",
+          "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
           "count": 2
         }
       ],
@@ -707,7 +707,7 @@
       {
         "rank": 2,
         "name": "キング観光サウザンド栄若宮大通店",
-        "count": 45,
+        "count": 46,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
@@ -763,7 +763,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 432
+        "count": 433
       },
       {
         "rank": 2,
@@ -803,7 +803,7 @@
       {
         "rank": 9,
         "name": "Lかぐや様は告らせたい",
-        "count": 39
+        "count": 40
       },
       {
         "rank": 10,
@@ -863,11 +863,11 @@
         "count": 11
       }
     ],
-    "total_count": 2429
+    "total_count": 2432
   },
   "store_complete_counts": {
     "ARROW浪速店": 54,
-    "キング観光サウザンド栄若宮大通店": 45,
+    "キング観光サウザンド栄若宮大通店": 46,
     "テキサス小倉店": 43,
     "プレイランドキャッスル春日井店": 42,
     "楽園池袋店ゲートウェイ": 39,
@@ -1053,6 +1053,7 @@
     "J・PARK安謝店": 3,
     "SuperD'station前橋大利根店": 3,
     "ディーボ小坂店【公式】アカウント": 3,
+    "楽園柏店": 3,
     "ニラク北本深井店": 3,
     "ガイア高萩安良川店": 3,
     "マリナプローバ": 3,
@@ -1099,7 +1100,6 @@
     "ダイナム栃木黒磯店": 2,
     "キコーナ豊中走井": 2,
     "ヤング舞鶴店": 2,
-    "楽園柏店": 2,
     "つかさ築地店": 2,
     "ダイナム茨城下妻店": 2,
     "ダイナム群馬藤岡店": 2,
@@ -1293,6 +1293,7 @@
     "宮城石巻店": 1,
     "ベガスベガスやまとまち店": 1,
     "MGM水戸店": 1,
+    "マルハン黒磯店": 1,
     "ビックマーチ西川田店": 1,
     "佐久店": 1,
     "Durham S-1": 1,
@@ -1331,8 +1332,8 @@
     "ワンダーランド西新": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2284,
-    "records_without_store_id": 145,
+    "records_with_store_id": 2286,
+    "records_without_store_id": 146,
     "canonical_store_ids": 374
   }
 }

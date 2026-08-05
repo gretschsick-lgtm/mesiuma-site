@@ -1,5 +1,26 @@
 [
   {
+    "id": "c8a21e74e3d6",
+    "date": "2026-08-05",
+    "time": "14:23",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1410",
+    "text": "1410番台 L革命機ヴァルヴレイヴ２ コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2084872947026837846",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T06:21:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO705SsacAA8S4_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO705SsacAA8S4_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "3b711926f950",
     "date": "2026-08-04",
     "time": "22:29",
@@ -730,6 +751,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOt_f5JacAAlv3C?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
+    "id": "0673cc763c55",
+    "date": "2026-08-02",
+    "time": "22:04",
+    "store": "楽園柏店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "474",
+    "text": "こんばんは 楽園柏店です。  20時30分 【474番台】 【Lかぐや様は告らせたい】 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/kashiwa_rakuen/status/2083901855269315032",
+    "store_handle": "kashiwa_rakuen",
+    "store_x_url": "https://x.com/kashiwa_rakuen",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T06:49:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOuBoUHbMAANvjA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOuBoUHbMAANvjA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "122227e899f5",
@@ -1553,6 +1595,27 @@
     "image_url": "https://pbs.twimg.com/media/HOpEhU1bMAAT6Aw?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
     "store_id": "8a2f02e098"
+  },
+  {
+    "id": "3c598de80068",
+    "date": "2026-08-01",
+    "time": "22:58",
+    "store": "マルハン黒磯店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "450",
+    "text": "月日（土) 本日も多くのお客様のご来店 誠にありがとうございます  450番台 L新鬼武者3SA コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/maruhankuroiso/status/2083552975335850018",
+    "store_handle": "maruhankuroiso",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-05T06:48:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOpEIB1bUAEnrgd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOpEIB1bUAEnrgd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016"
   },
   {
     "id": "57277d5fd8ec",
