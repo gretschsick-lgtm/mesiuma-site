@@ -642,6 +642,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "30c55f2a4c8a",
+    "date": "2026-07-29",
+    "time": "17:22",
+    "store": "夢工房21 三川店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1268",
+    "text": "昨日7月29日（水） 「Lソードアート・オンラインII　1268番台」 コンプリート達成しました  おめでとうございます #SAO2　#コンプ",
+    "x_url": "https://x.com/mikawa_yume21/status/2082743690272063858",
+    "store_handle": "mikawa_yume21",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-05T17:24:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOdjOrWbwAAdDaH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOdjOrWbwAAdDaH?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "2df9ce0231e5",
     "date": "2026-07-29",
     "time": "16:53",
