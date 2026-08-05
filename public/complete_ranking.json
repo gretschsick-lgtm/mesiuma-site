@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-05T22:30:04+09:00",
+  "generated_at": "2026-08-06T00:51:04+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 122,
+      "total_count": 128,
       "stores": [
         {
           "rank": 1,
@@ -19,51 +19,51 @@
         },
         {
           "rank": 3,
+          "name": "マルハンメガシティ水戸赤塚",
+          "count": 3,
+          "x_url": "https://x.com/maruhanakatsuka"
+        },
+        {
+          "rank": 4,
           "name": "FACE1300小倉南店",
           "count": 3,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "SPACE(スペース444＆666)",
           "count": 3,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "マルハンメガシティ静岡",
           "count": 3,
           "x_url": "https://x.com/Chibasan_777"
         },
         {
-          "rank": 6,
+          "rank": 7,
+          "name": "ビックマーチ水戸本店",
+          "count": 3,
+          "x_url": "https://x.com/suyasuya_bm"
+        },
+        {
+          "rank": 8,
           "name": "キコーナ海老名店 中の人",
           "count": 2,
           "x_url": "https://x.com/kicona_ebina"
         },
         {
-          "rank": 7,
+          "rank": 9,
           "name": "キクヤ一宮店",
           "count": 2,
           "x_url": "https://x.com/ichinomiya1380"
         },
         {
-          "rank": 8,
+          "rank": 10,
           "name": "楽園池袋店ゲートウェイ",
           "count": 2,
           "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
-          "rank": 9,
-          "name": "マルハンメガシティ八千代緑が丘",
-          "count": 2,
-          "x_url": "https://x.com/maruhanmidori"
-        },
-        {
-          "rank": 10,
-          "name": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
-          "count": 2,
-          "x_url": "https://x.com/megaface_1120"
         }
       ],
       "slot_machines": [
@@ -104,18 +104,18 @@
         },
         {
           "rank": 8,
-          "name": "Lミリオンゴッド神々の軌跡",
-          "count": 2
+          "name": "L炎炎ノ消防隊2",
+          "count": 3
         },
         {
           "rank": 9,
-          "name": "L新鬼武者3",
-          "count": 2
+          "name": "L甲鉄城のカバネリ海門決戦",
+          "count": 3
         },
         {
           "rank": 10,
-          "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-          "count": 2
+          "name": "スロット ソードアート・オンラインⅡ",
+          "count": 3
         }
       ],
       "pachinko_machines": [
@@ -132,7 +132,7 @@
         {
           "rank": 3,
           "name": "e牙狼12",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 4,
@@ -157,6 +157,11 @@
         {
           "rank": 8,
           "name": "eエヴァ17はじまりR",
+          "count": 1
+        },
+        {
+          "rank": 9,
+          "name": "eバイオハザード6",
           "count": 1
         }
       ]
@@ -788,7 +793,7 @@
       {
         "rank": 6,
         "name": "スロット ソードアート・オンラインⅡ",
-        "count": 42
+        "count": 43
       },
       {
         "rank": 7,
@@ -808,7 +813,7 @@
       {
         "rank": 10,
         "name": "L炎炎ノ消防隊2",
-        "count": 39
+        "count": 40
       }
     ],
     "pachinko_machines": [
@@ -820,7 +825,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 181
+        "count": 182
       },
       {
         "rank": 3,
@@ -863,7 +868,7 @@
         "count": 11
       }
     ],
-    "total_count": 2435
+    "total_count": 2441
   },
   "store_complete_counts": {
     "ARROW浪速店": 54,
@@ -884,9 +889,9 @@
     "FACE1300小倉南店": 29,
     "テキサス白島店": 28,
     "サガちゃんPARK": 26,
+    "マルハンメガシティ水戸赤塚": 26,
     "メガフェイス960飯塚": 24,
     "マルハン川越店": 24,
-    "マルハンメガシティ水戸赤塚": 24,
     "新ガーデン西浦和": 23,
     "ダイナム長野上田店": 22,
     "キクヤ一宮店": 21,
@@ -926,13 +931,14 @@
     "メガフェイス930朝倉": 12,
     "マルハンメガシティ八千代緑が丘": 11,
     "マルハン小山千駄塚店": 11,
+    "ビックマーチ水戸本店": 11,
     "京都駅前ラッキーパチンコ店": 11,
     "エクスアリーナ東京": 11,
     "ワンダーランド1188鹿児島新栄店": 11,
+    "キコーナ川西久代店": 11,
     "新！ガーデン川口安行": 10,
     "SuperD'station39女神店": 10,
     "グランドホール港南店": 10,
-    "ビックマーチ水戸本店": 10,
     "新ガーデン北戸田駅前": 10,
     "DSGアリーナ高岡": 10,
     "ＭＪアリーナ干隈店": 10,
@@ -943,7 +949,6 @@
     "SUPER COSMO PREMIUM大東店": 10,
     "T-MAX新栄店": 10,
     "キコーナ鶴見": 10,
-    "キコーナ川西久代店": 10,
     "玉ノ助【パーラーダジュール公式】": 9,
     "テキサス段原店": 9,
     "楽園蒲田店": 9,
@@ -1330,12 +1335,14 @@
     "マルハン高浜店": 1,
     "マリーナサンライズ": 1,
     "タウン半田店": 1,
+    "祇園店": 1,
     "ワンダーランド西新": 1,
-    "ニラク入間新光店": 1
+    "ニラク入間新光店": 1,
+    "キャッスル小牧店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2288,
-    "records_without_store_id": 147,
+    "records_with_store_id": 2290,
+    "records_without_store_id": 151,
     "canonical_store_ids": 375
   }
 }

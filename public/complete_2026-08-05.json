@@ -21,6 +21,48 @@
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
+    "id": "4939f5da646f",
+    "date": "2026-08-05",
+    "time": "19:40",
+    "store": "キャッスル小牧店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1386",
+    "text": "キャッスル小牧店 コンプリート速報  こんばんは！ 先程1386番台の スマスロ　ソードアートオンラインⅡ にてコンプリート機能が 発動いたしましたので台の稼働を停止してます  明日の開放をお待ちくださいませ",
+    "x_url": "https://x.com/castle_komaki/status/2084952703080480785",
+    "store_handle": "castle_komaki",
+    "store_x_url": "https://x.com/castle_komaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T15:41:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO89PMJaoAAuoSB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO89PMJaoAAuoSB?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "5989ab011aae",
+    "date": "2026-08-05",
+    "time": "18:23",
+    "store": "キコーナ川西久代店",
+    "machine": "eバイオハザード6",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "パチンココーナー  eバイオハザード6より  コンプリート達成  おめでとうございます！！！  #つぶやキコーナ #グランキコーナ西淀川店",
+    "x_url": "https://x.com/gkicona_nisiyod/status/2084933261198041545",
+    "store_handle": "gkicona_nisiyod",
+    "store_x_url": "https://x.com/gkicona_nisiyod",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-05T15:19:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO8rumrbIAATEe0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO8rumrbIAATEe0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030"
+  },
+  {
     "id": "c8a21e74e3d6",
     "date": "2026-08-05",
     "time": "14:23",
