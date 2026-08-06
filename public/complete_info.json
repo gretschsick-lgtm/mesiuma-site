@@ -275,6 +275,48 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "8bfdf6cb39a4",
+    "date": "2026-08-04",
+    "time": "22:11",
+    "store": "キコーナ堺本店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "295",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 295番台 【Lソードアート・オンラインⅡ】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2084628352678396070",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T06:21:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4V3iNasAA7M7w?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4V3iNasAA7M7w?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "9c2781a34970",
+    "date": "2026-08-04",
+    "time": "22:07",
+    "store": "ワンダーランド1177谷山店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "速報!! e牙狼12よりコンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/wl_taniyama/status/2084627271244202037",
+    "store_handle": "wl_taniyama",
+    "store_x_url": "https://x.com/wl_taniyama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T06:25:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4VY_xaIAA47-j?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4VY_xaIAA47-j?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "53453d110564",
     "date": "2026-08-04",
     "time": "22:00",
@@ -315,6 +357,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO4RYZEacAAiHNc?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "fb4df782e506",
+    "date": "2026-08-04",
+    "time": "21:54",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "234",
+    "text": "本日2台目 e牙狼12 234番台コンプリート達成 おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2084624040082526297",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T06:21:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4Sg5DaMAAU-HK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4Sg5DaMAAU-HK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "f68dc0e9f164",
