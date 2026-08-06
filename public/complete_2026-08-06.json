@@ -69,6 +69,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
+    "id": "d28399ce1798",
+    "date": "2026-08-06",
+    "time": "22:24",
+    "store": "マルハン古河店 ヒットミン店長",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "増台したスロット新設島から コンプリート達成 『ヴァルヴレイヴ２』  古河店リニューアルオープンに ふさわしいスタートとなりました！  明日からの古河店へも 是非ご期待ください！！",
+    "x_url": "https://x.com/maruhan1177/status/2085356242260853179",
+    "store_handle": "maruhan1177",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maruhan1177",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-06T22:31:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPCrgS3aEAIPp-A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPCrgS3aEAIPp-A?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "c65566088b89",
     "date": "2026-08-06",
     "time": "21:54",
@@ -88,5 +109,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPCllalbsAAIbIm?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "06d6dec5b794",
+    "date": "2026-08-06",
+    "time": "19:09",
+    "store": "DSGアリーナ高岡",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "＼＼たかあり速報／／  #eリコリス・リコイル コンプリート達成！ おめでとうございます  本日は 深夜1時までの #延長営業！ まだまだ楽しめます ラストまで思いっきりお楽しみください ご来店お待ちしております  #コンプリート",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2085307194413896092",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T22:04:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPB_vIcbQAAqVA-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPB_wA6aAAAbxL-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPB_vIcbQAAqVA-?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "c774e988a7"
   }
 ]
