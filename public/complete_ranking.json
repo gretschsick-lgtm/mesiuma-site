@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-06T08:40:52+09:00",
+  "generated_at": "2026-08-06T09:41:28+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 137,
+      "total_count": 140,
       "stores": [
         {
           "rank": 1,
@@ -13,33 +13,33 @@
         },
         {
           "rank": 2,
+          "name": "マルハンメガシティ静岡",
+          "count": 4,
+          "x_url": "https://x.com/Chibasan_777"
+        },
+        {
+          "rank": 3,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 3,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "マルハンメガシティ水戸赤塚",
           "count": 3,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "FACE1300小倉南店",
           "count": 3,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "SPACE(スペース444＆666)",
           "count": 3,
           "x_url": "https://x.com/space666tobata"
-        },
-        {
-          "rank": 6,
-          "name": "マルハンメガシティ静岡",
-          "count": 3,
-          "x_url": "https://x.com/Chibasan_777"
         },
         {
           "rank": 7,
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 19
+          "count": 20
         },
         {
           "rank": 2,
@@ -132,7 +132,7 @@
         {
           "rank": 3,
           "name": "e牙狼12",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 4,
@@ -793,7 +793,7 @@
       {
         "rank": 5,
         "name": "L東京喰種",
-        "count": 48
+        "count": 49
       },
       {
         "rank": 6,
@@ -825,12 +825,12 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 261
+        "count": 262
       },
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 181
+        "count": 182
       },
       {
         "rank": 3,
@@ -873,7 +873,7 @@
         "count": 11
       }
     ],
-    "total_count": 2452
+    "total_count": 2455
   },
   "store_complete_counts": {
     "ARROW浪速店": 54,
@@ -1043,6 +1043,7 @@
     "ライブガーデン鹿沼グランドシティ": 4,
     "マルハン甲府店": 4,
     "マルハン草薙アピア店 店長ひろゆき": 4,
+    "マルハンメガシティ静岡": 4,
     "ユーコーラッキー37筑後店": 3,
     "ミリオン1100朝霞店": 3,
     "キャッスル高浜店": 3,
@@ -1081,7 +1082,6 @@
     "店長の左肘ツヨシ": 3,
     "キコーナ海老名店 中の人": 3,
     "ダイナム（自動発掘）": 3,
-    "マルハンメガシティ静岡": 3,
     "マルハン島田": 2,
     "ZENT可児店": 2,
     "ジーワン二軒屋": 2,
@@ -1343,14 +1343,16 @@
     "タウン半田店": 1,
     "夢屋大牟田店": 1,
     "ワンダーランド西新": 1,
+    "マルハン旭川永山店": 1,
+    "モナコパレス菊陽店": 1,
     "マルハン橿原北店 おっちー店長": 1,
     "ニラク入間新光店": 1,
     "キャッスル小牧店": 1,
     "の台店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2294,
+    "records_with_store_id": 2297,
     "records_without_store_id": 158,
-    "canonical_store_ids": 375
+    "canonical_store_ids": 377
   }
 }

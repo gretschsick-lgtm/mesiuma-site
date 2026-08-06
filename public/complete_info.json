@@ -339,6 +339,49 @@
     "machine_id": "11111111-1111-1111-1111-000000000011"
   },
   {
+    "id": "1b27ff61f5fb",
+    "date": "2026-08-04",
+    "time": "21:02",
+    "store": "マルハン旭川永山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "14",
+    "text": "【14番台】 【e牙狼12XX-MJ】 コンプリート達成 おめでとうございます データを確認できる マルハンアプリはこちらから http:// maruhan.co.jp/app2/sp/  #旭川 #北海道マルハン",
+    "x_url": "https://x.com/nagayamamaruhan/status/2084610955644948857",
+    "store_handle": "nagayamamaruhan",
+    "store_x_url": "https://x.com/nagayamamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T00:32:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4GnT1bkAA88Bd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4GnT1bkAA88Bd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "a8e714d94bbe",
+    "date": "2026-08-04",
+    "time": "20:45",
+    "store": "マルハンメガシティ静岡",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "1066",
+    "text": "L東京喰種 ■1066番台 コンプリート達成です  おめでとうございます！",
+    "x_url": "https://x.com/maruhanmegacity/status/2084606583112347657",
+    "store_handle": "maruhanmegacity",
+    "store_x_url": "https://x.com/maruhanmegacity",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T00:32:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO4CmNub0AAlWwh?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO4Cm42bIAE36rk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO4CmNub0AAlWwh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "2cec348c93ea",
     "date": "2026-08-04",
     "time": "20:18",
@@ -423,6 +466,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO3sljTagAA_UyJ?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "26f9d0c33bda",
+    "date": "2026-08-04",
+    "time": "19:00",
+    "store": "モナコパレス菊陽店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "160",
+    "text": "またまた牙狼12で コンプリートでました  e牙狼12 XX-MJ160番台 おめでとうございます",
+    "x_url": "https://x.com/MonacoKikuyou/status/2084580237933953318",
+    "store_handle": "monacokikuyou",
+    "store_x_url": "https://x.com/monacokikuyou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T00:32:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO3qXd8a8AA3vEb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO3qXd8a8AA3vEb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "0387b3e7f677",
