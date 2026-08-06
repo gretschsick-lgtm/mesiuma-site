@@ -215,6 +215,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "3ed366a192dc",
+    "date": "2026-07-30",
+    "time": "19:57",
+    "store": "天王寺ホール本館",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報速報速報速報  Lヴァルヴレイヴ2からコンプリート達成 お客様おめでとうございます  明日は月末テンホ  ジャンバリ潜入来店取材 　　　　　 1ヶ月からくりVSヴヴヴ 　　生活収録  #PR #パチンコ #スロット #大阪 #天王寺",
+    "x_url": "https://x.com/tennoji_hall/status/2082782581939171567",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T08:20:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOeHVqZboAAsbjg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOeHmGUboAAHupc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOeHoRlbsAAy0Wz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOeHVqZboAAsbjg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "cb35b0552a6c",
     "date": "2026-07-30",
     "time": "19:53",

@@ -105,6 +105,27 @@
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
   },
   {
+    "id": "a491b21a35b3",
+    "date": "2026-08-05",
+    "time": "19:46",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "5065",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、8月5日(水)  5065番台 【L 革命機ヴァルヴレイヴ２】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2084954307729019251",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T08:30:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO8-5F3bkAABqu8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO8-5F3bkAABqu8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "4939f5da646f",
     "date": "2026-08-05",
     "time": "19:40",
@@ -146,6 +167,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO8jl8faYAAhDdn?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "7772dbd6ca08",
+    "date": "2026-08-05",
+    "time": "18:35",
+    "store": "ダイナム岐阜高山店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "908",
+    "text": "8/5(水) コンプリート達成  908番台 L革命機ヴァルヴレイヴ２  ご遊技されていたお客様 おめでとうございます！  #ダイナム　#高山　#VVV　#コンプリート",
+    "x_url": "https://x.com/dynam_00432/status/2084936439209345287",
+    "store_handle": "dynam_00432",
+    "store_x_url": "https://x.com/dynam_00432",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T08:19:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO8upInXcAAK66N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO8upInXcAAK66N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "5989ab011aae",
