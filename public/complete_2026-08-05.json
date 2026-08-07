@@ -1,5 +1,26 @@
 [
   {
+    "id": "8d5e2e5fbc1a",
+    "date": "2026-08-05",
+    "time": "22:45",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "L邪神ちゃんドロップキック",
+    "machine_type": "slot",
+    "slot_number": "641",
+    "text": "こんばんは！ たった今 L邪神ちゃんドロップキック　641番台が コンプリートです！ おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2084999240565317999",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T07:01:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO9jFfHbAAASOx7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO9jFfHbAAASOx7?format=jpg&name=large",
+    "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8"
+  },
+  {
     "id": "6659f3b77e1a",
     "date": "2026-08-05",
     "time": "22:04",

@@ -156,6 +156,27 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "b7e456e924d0",
+    "date": "2026-08-06",
+    "time": "19:06",
+    "store": "ワンダーランド西新",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "1103",
+    "text": "【ワンダーランド西新店 速報】 おすすめ機種の e牙狼12 XX-MJ1103番台から コンプリート達成！！ おめでとうございます",
+    "x_url": "https://x.com/wl_nishijin/status/2085306475875082518",
+    "store_handle": "wl_nishijin",
+    "store_x_url": "https://x.com/wl_nishijin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T07:04:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPB120NaMAEpeEa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPB120NaMAEpeEa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "cc3434d78814",
     "date": "2026-08-06",
     "time": "09:00",
@@ -226,6 +247,27 @@
     "image_url": "https://pbs.twimg.com/media/HPDONX3bUAAFRQS?format=jpg&name=large",
     "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "8d5e2e5fbc1a",
+    "date": "2026-08-05",
+    "time": "22:45",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "L邪神ちゃんドロップキック",
+    "machine_type": "slot",
+    "slot_number": "641",
+    "text": "こんばんは！ たった今 L邪神ちゃんドロップキック　641番台が コンプリートです！ おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2084999240565317999",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T07:01:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO9jFfHbAAASOx7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO9jFfHbAAASOx7?format=jpg&name=large",
+    "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8"
   },
   {
     "id": "6659f3b77e1a",
@@ -1032,12 +1074,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "image_url": "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2?format=jpg&name=large"
-    ]
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "480a0c7ec7f7",
@@ -1075,13 +1112,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "image_url": "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xJtqaMAAIgkF?format=jpg&name=large"
-    ]
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "b2ff9f443405",
