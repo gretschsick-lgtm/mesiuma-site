@@ -261,6 +261,28 @@
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
   },
   {
+    "id": "08c5dad9f97a",
+    "date": "2026-08-05",
+    "time": "21:07",
+    "store": "パラッツォ三郷中央店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "512",
+    "text": "コンプリート報告  512番台 e東京喰種 超デカver. コングラッチュレーション!!  ランキングも一緒にﾍﾟﾀﾍﾟﾀ  ＰもＳもランキングに新台ｲｯﾊﾟｲ パラミサは新台も増台もオススメ台も 本当にｵｽｽﾒなんやで  明日も10時オープン 水分補給を忘れずに  #パラミサ覚書",
+    "x_url": "https://x.com/palazzo_misato/status/2084974698417488268",
+    "store_handle": "palazzo_misato",
+    "store_x_url": "https://x.com/palazzo_misato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-06T23:56:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO9RcAZa4AA7aje?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO9RKHzaoAAvh3j?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO9RcAZa4AA7aje?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "a491b21a35b3",
     "date": "2026-08-05",
     "time": "19:46",
@@ -880,6 +902,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO5AGWLbUAEjFOU?format=jpg&name=large",
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+  },
+  {
+    "id": "2ffceb9674b6",
+    "date": "2026-08-03",
+    "time": "22:38",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "57",
+    "text": "こんばんは！ マルハン川越店です!   コンプリート速報 e牙狼12XX-MJ　57番台  おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2084272651317727469",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T00:02:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOzS4ula8AAJ-TJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOzS4ula8AAJ-TJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "7e6406db1ea2",
