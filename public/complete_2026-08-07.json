@@ -1,5 +1,27 @@
 [
   {
+    "id": "1dc612cb9ed4",
+    "date": "2026-08-07",
+    "time": "19:19",
+    "store": "サラリーマン店長メガシティ静岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "202",
+    "text": "e牙狼12黄金騎士極限   202番台にて御遊技されたあなた様 Mission Complete コンプリート達成です 牙狼導入から83番目の達成者となります 誠におめでとうございます",
+    "x_url": "https://x.com/Last_Mission_7/status/2085672154746786186",
+    "store_handle": "last_mission_7",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/last_mission_7",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-07T11:20:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPHLtRdbUAASQY1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPHLtRXa0AAjv7N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPHLtRdbUAASQY1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "abf3e1f8811c",
     "date": "2026-08-07",
     "time": "18:26",
