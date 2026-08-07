@@ -793,6 +793,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000003"
   },
   {
+    "id": "cdb65d593c81",
+    "date": "2026-08-01",
+    "time": "18:56",
+    "store": "カネマン奥州1111",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "443",
+    "text": "8/1 e東京喰種　超デカ超一撃ver 443番台  コンプリート  #カネマン奥州1111 #コンプリート",
+    "x_url": "https://x.com/kaneman_1111/status/2083492176731033920",
+    "store_handle": "kaneman_1111",
+    "store_x_url": "https://x.com/kaneman_1111",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T02:22:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoNFrIbQAAw1a1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoNFrIbQAAw1a1?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "4534dde29d8c",
     "date": "2026-08-01",
     "time": "18:44",

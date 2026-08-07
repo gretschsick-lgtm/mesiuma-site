@@ -79,7 +79,7 @@
     "store_x_url": "https://x.com/asahi_magawarui",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-07T02:07:45Z",
+    "collected_at": "2026-08-07T02:51:17Z",
     "images": [
       "https://pbs.twimg.com/media/HOjuYYPbMAA_Sn1?format=jpg&name=large"
     ],
@@ -190,6 +190,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOjoib1aIAAbK8D?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "647b4bebebfa",
+    "date": "2026-07-31",
+    "time": "21:42",
+    "store": "スーパードーム高岡インター店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "またしてもコンプリートが！！ おめでとうございます！  最近よく見る画面となってきました…笑  #Lスマスロ北斗の拳転生の章2 #スーパードーム #高岡インター #パチンコ #スロット #コンプリート",
+    "x_url": "https://x.com/RokkeSd/status/2083171564279967860",
+    "store_handle": "rokkesd",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-07T02:18:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOjpflVaEAAezvB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOjpflVaEAAezvB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "e68171850fdf",
