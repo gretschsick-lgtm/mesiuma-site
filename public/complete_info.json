@@ -1,5 +1,26 @@
 [
   {
+    "id": "abf3e1f8811c",
+    "date": "2026-08-07",
+    "time": "18:26",
+    "store": "ZENT小坂店 NO.1店長",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  L戦国乙女5で コンプリート機能発動  おめでとうございます",
+    "x_url": "https://x.com/ZENT_777/status/2085658897814302793",
+    "store_handle": "zent_777",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/ZENT_777",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-07T11:06:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPG_tgRagAINDZt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPG_tgRagAINDZt?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "1d1cd745be46",
     "date": "2026-08-07",
     "time": "00:35",
@@ -1117,12 +1138,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "image_url": "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2?format=jpg&name=large"
-    ]
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "480a0c7ec7f7",
@@ -1160,13 +1176,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "image_url": "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xJtqaMAAIgkF?format=jpg&name=large"
-    ]
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "b2ff9f443405",
