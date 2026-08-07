@@ -1117,12 +1117,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "image_url": "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2?format=jpg&name=large"
-    ]
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "480a0c7ec7f7",
@@ -1160,13 +1155,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "image_url": "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xJtqaMAAIgkF?format=jpg&name=large"
-    ]
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "b2ff9f443405",
