@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T06:08:30+09:00",
+  "generated_at": "2026-08-08T08:17:45+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 205,
+      "total_count": 211,
       "stores": [
         {
           "rank": 1,
@@ -19,51 +19,51 @@
         },
         {
           "rank": 3,
+          "name": "サンシャイン弥生",
+          "count": 5,
+          "x_url": "https://x.com/saku07saku"
+        },
+        {
+          "rank": 4,
           "name": "ビックマーチ水戸本店",
           "count": 4,
           "x_url": "https://x.com/suyasuya_bm"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 3,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "マルハンメガシティ水戸赤塚",
           "count": 3,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "FACE1300小倉南店",
           "count": 3,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "SPACE(スペース444＆666)",
           "count": 3,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "楽園池袋店ゲートウェイ",
           "count": 3,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "キコーナ堺本店",
           "count": 3,
           "x_url": "https://x.com/ksakaihonten"
-        },
-        {
-          "rank": 10,
-          "name": "マルハン川越店",
-          "count": 3,
-          "x_url": "https://x.com/smaru_kawagoe"
         }
       ],
       "slot_machines": [
@@ -95,21 +95,21 @@
         {
           "rank": 6,
           "name": "L炎炎ノ消防隊2",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 7,
+          "name": "L東京喰種",
+          "count": 6
+        },
+        {
+          "rank": 8,
           "name": "スマスロ攻殻機動隊",
           "count": 5
         },
         {
-          "rank": 8,
-          "name": "L甲鉄城のカバネリ海門決戦",
-          "count": 5
-        },
-        {
           "rank": 9,
-          "name": "L東京喰種",
+          "name": "L甲鉄城のカバネリ海門決戦",
           "count": 5
         },
         {
@@ -793,7 +793,7 @@
       {
         "rank": 5,
         "name": "L東京喰種",
-        "count": 51
+        "count": 52
       },
       {
         "rank": 6,
@@ -802,13 +802,13 @@
       },
       {
         "rank": 7,
-        "name": "Lチバリヨ2ZB",
+        "name": "L炎炎ノ消防隊2",
         "count": 43
       },
       {
         "rank": 8,
-        "name": "L炎炎ノ消防隊2",
-        "count": 42
+        "name": "Lチバリヨ2ZB",
+        "count": 43
       },
       {
         "rank": 9,
@@ -873,7 +873,7 @@
         "count": 11
       }
     ],
-    "total_count": 2524
+    "total_count": 2530
   },
   "store_complete_counts": {
     "ARROW浪速店": 56,
@@ -976,6 +976,7 @@
     "りっちらんど上尾": 7,
     "ダイナム岐阜高山店": 7,
     "パラッツォ大阪三国店": 7,
+    "サンシャイン弥生": 6,
     "甲府昭和店": 6,
     "やすだひばりヶ丘店": 6,
     "D’station39長与店": 6,
@@ -1031,6 +1032,7 @@
     "ビックつばめ錦店": 4,
     "ダイナム富山砺波店": 4,
     "ユーコーラッキー37辻堂店": 4,
+    "Zゾーン": 4,
     "PSJ新宮店": 4,
     "イチロク八代店": 4,
     "マルハン亀有店_亀にゃん": 4,
@@ -1062,7 +1064,6 @@
     "マルハン入間店": 3,
     "でこぼこ店長": 3,
     "ダイナム山梨笛吹店": 3,
-    "Zゾーン": 3,
     "BIGディッパー花小金井店": 3,
     "ホームラン菰野店": 3,
     "J・PARK安謝店": 3,
@@ -1158,7 +1159,6 @@
     "スーパーD'ステーション39大分本店": 2,
     "都城店": 2,
     "ワンダーランド西新": 2,
-    "サンシャイン弥生": 1,
     "グランド元山": 1,
     "サミット別府店": 1,
     "ダイナム鹿児島指宿店": 1,
@@ -1370,7 +1370,7 @@
     "戸越ミナト 中の人・カモくん": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2343,
+    "records_with_store_id": 2349,
     "records_without_store_id": 181,
     "canonical_store_ids": 386
   }
