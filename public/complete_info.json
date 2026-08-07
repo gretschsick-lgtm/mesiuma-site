@@ -1,5 +1,45 @@
 [
   {
+    "id": "d2cd2d5af93f",
+    "date": "2026-08-07",
+    "time": "22:20",
+    "store": "Zゾーン",
+    "machine": "モンキーターンV",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "お知らせです！！  先程、 559番台   「LSAOⅡ」 622番台　「LモンキーターンⅤ」  にてコンプリート機能が発動致しました！ おめでとうございます！！  ※該当台は明日から遊技可能になります。  #中山 #ゾロン #パチンコ #スロット",
+    "x_url": "https://x.com/z_zoron/status/2085717766955540591",
+    "store_handle": "z_zoron",
+    "store_x_url": "https://x.com/z_zoron",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T13:48:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPH1HsUbYAAYDK6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPH1JdSa4AAC5tj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPH1HsUbYAAYDK6?format=jpg&name=large",
+    "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
+  },
+  {
+    "id": "4a12285d0f97",
+    "date": "2026-08-07",
+    "time": "21:15",
+    "store": "ーク出水店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは 本日8月7日 【リニューアルオープン】 　　　　　　＆【新台入替】の中 出ました ７８２台　 【Lスマスロ北斗の拳　転生の章２】 コンプリート達成 おめでとうございます #コンプリート #ニューヨーク出水店 #PR",
+    "x_url": "https://x.com/newyork_izumi15/status/2085701423233446181",
+    "store_handle": "newyork_izumi15",
+    "store_x_url": "https://x.com/newyork_izumi15",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T13:49:42Z",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "2eabd788e9"
+  },
+  {
     "id": "1dc612cb9ed4",
     "date": "2026-08-07",
     "time": "19:19",
@@ -174,6 +214,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPCllalbsAAIbIm?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "5ddf96f20ad7",
+    "date": "2026-08-06",
+    "time": "21:38",
+    "store": "マルハンメガシティ柏",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "590",
+    "text": "コンプリート速報 590番台　e牙狼12  コンプリート達成 本当におめでとうございます!",
+    "x_url": "https://x.com/maruhankashiwa/status/2085344712219836645",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T14:00:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPCh1O3agAAEEeX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPCh1O3agAAEEeX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "06d6dec5b794",
@@ -1203,12 +1264,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "image_url": "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO36U0TaUAIEaP2?format=jpg&name=large"
-    ]
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "480a0c7ec7f7",
@@ -1246,13 +1302,7 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-07T05:58:08Z",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "image_url": "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xADzbAAAoPNX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO3xJtqaMAAIgkF?format=jpg&name=large"
-    ]
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "b2ff9f443405",

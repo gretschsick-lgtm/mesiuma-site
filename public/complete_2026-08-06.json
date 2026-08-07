@@ -111,6 +111,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "5ddf96f20ad7",
+    "date": "2026-08-06",
+    "time": "21:38",
+    "store": "マルハンメガシティ柏",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "590",
+    "text": "コンプリート速報 590番台　e牙狼12  コンプリート達成 本当におめでとうございます!",
+    "x_url": "https://x.com/maruhankashiwa/status/2085344712219836645",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T14:00:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPCh1O3agAAEEeX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPCh1O3agAAEEeX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "06d6dec5b794",
     "date": "2026-08-06",
     "time": "19:09",
