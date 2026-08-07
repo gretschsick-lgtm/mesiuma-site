@@ -191,6 +191,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
+    "id": "9fe4e8979160",
+    "date": "2026-08-05",
+    "time": "19:00",
+    "store": "マルハン韮崎店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "140",
+    "text": "8月5日（水）  速報！！  140番台　ｅ東京喰種  #コンプリート 達成  おめでとうございます  #マルハン",
+    "x_url": "https://x.com/maru_nira1219/status/2084942510225531110",
+    "store_handle": "maru_nira1219",
+    "store_x_url": "https://x.com/maru_nira1219",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T04:21:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO8zvOda8AAAupV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO8zvOda8AAAupV?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "7772dbd6ca08",
     "date": "2026-08-05",
     "time": "18:35",
@@ -296,6 +317,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "60f592b1a1c4",
+    "date": "2026-08-05",
+    "time": "14:08",
+    "store": "ヒノマル横川店＠店長BBO「広島県唯一！? PS東京喰種",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "602",
+    "text": "速報  「L東京喰種」 602番台 差枚数6,180枚 5,000枚OVER！！  さすが、喰種だ！！！  今週から増台した喰種 一部空台ありますので、ご遊技可能ですよっと  喰種好きな方、ぜひヒノマル喰種をオタメシクダサイ  他機種はデータでご確認くださいませ！  #ヒノマル #横川 #東京喰種",
+    "x_url": "https://x.com/hinomaru_yoko/status/2084869152318353905",
+    "store_handle": "hinomaru_yoko",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-07T03:49:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO7xAMrasAA_puf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO7xN13aIAE8oOJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO7xAMrasAA_puf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "342b2ed521c7",
     "date": "2026-08-05",
     "time": "13:22",
@@ -315,5 +358,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO7moJbbUAA6mGw?format=jpg&name=large",
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+  },
+  {
+    "id": "e4e8a0be29e7",
+    "date": "2026-08-05",
+    "time": "10:00",
+    "store": "ダイナム三重芸濃店　～since.2005.12.7～",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "378",
+    "text": "#ダイナム 三重芸濃店 378番台 #カバネリ海門決戦  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/dynam_00267/status/2084806625244639473",
+    "store_handle": "dynam_00267",
+    "store_x_url": "https://x.com/dynam_00267",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T04:21:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO64kwNWIAA_7Oh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO64kwNWIAA_7Oh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
   }
 ]
