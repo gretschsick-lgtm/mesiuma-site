@@ -13,34 +13,12 @@
     "store_x_url": "https://x.com/niga_maru",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-07T15:31:55Z",
+    "collected_at": "2026-08-07T15:00:43Z",
     "images": [
       "https://pbs.twimg.com/media/HPH3E70a0AEfuPs?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPH3E70a0AEfuPs?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
-  },
-  {
-    "id": "d2cd2d5af93f",
-    "date": "2026-08-07",
-    "time": "22:20",
-    "store": "Zゾーン",
-    "machine": "モンキーターンV",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "お知らせです！！  先程、 559番台   「LSAOⅡ」 622番台　「LモンキーターンⅤ」  にてコンプリート機能が発動致しました！ おめでとうございます！！  ※該当台は明日から遊技可能になります。  #中山 #ゾロン #パチンコ #スロット",
-    "x_url": "https://x.com/z_zoron/status/2085717766955540591",
-    "store_handle": "z_zoron",
-    "store_x_url": "https://x.com/z_zoron",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-07T13:48:14Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPH1HsUbYAAYDK6?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPH1JdSa4AAC5tj?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPH1HsUbYAAYDK6?format=jpg&name=large",
-    "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
   },
   {
     "id": "deac7ac378d0",
@@ -56,33 +34,12 @@
     "store_x_url": "https://x.com/castle_kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-07T15:45:43Z",
+    "collected_at": "2026-08-07T15:00:36Z",
     "images": [
       "https://pbs.twimg.com/media/HPHtRc8boAAj-w2?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPHtRc8boAAj-w2?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "4d382d12a8af",
-    "date": "2026-08-07",
-    "time": "21:26",
-    "store": "パチンコの玉屋∞本店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "506",
-    "text": "コンプリート速報 本日も出ました 506番台≪e牙狼12黄金騎士極限≫を ご遊技されていたお客様、 コンプリートおめでとうございます",
-    "x_url": "https://x.com/tamaya_honten/status/2085704201741733964",
-    "store_handle": "tamaya_honten",
-    "store_x_url": "https://x.com/tamaya_honten",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-07T15:13:41Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPHofgYbQAATOQD?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPHofgYbQAATOQD?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "4a12285d0f97",
@@ -98,9 +55,32 @@
     "store_x_url": "https://x.com/newyork_izumi15",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-07T13:49:42Z",
+    "collected_at": "2026-08-07T14:31:14Z",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "2eabd788e9"
+  },
+  {
+    "id": "199b062ab0ba",
+    "date": "2026-08-07",
+    "time": "21:13",
+    "store": "マルハン佐賀店実績",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "768",
+    "text": "Ｌからくりサーカス２ 　　　768番台 　　　21時08分 　    コンプリート おめでとうございます #マルハン佐賀店実績",
+    "x_url": "https://x.com/since2011_8_11/status/2085700844364947483",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T14:42:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPHln8TaIAAZxUZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPHlsNlaUAAtiDs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPHluP8aoAEbBQb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPHln8TaIAAZxUZ?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "99f4a80e4a56",
@@ -116,34 +96,11 @@
     "store_x_url": "https://x.com/castle_kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-07T15:30:36Z",
+    "collected_at": "2026-08-07T15:00:36Z",
     "images": [
       "https://pbs.twimg.com/media/HPHkxhebMAApGAF?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPHkxhebMAApGAF?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "0d0757273662",
-    "date": "2026-08-07",
-    "time": "19:52",
-    "store": "テキサス白島店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんばんは テキサス白島店です  速報 No.507 L革命機ヴァルヴレイヴ2より コンプリート達成 おめでとうございます  オススメなだけありますね この後も営業しておりますので ご来店お待ちしております #コンプリート達成 #テキサス白島店",
-    "x_url": "https://x.com/texashakushima/status/2085680548484419957",
-    "store_handle": "texashakushima",
-    "store_x_url": "https://x.com/texashakushima",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-07T15:13:03Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPHTYZUaUAE1bgq?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPHTYZPbEAALEZb?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPHTYZNaoAASdJB?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPHTYZUaUAE1bgq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {

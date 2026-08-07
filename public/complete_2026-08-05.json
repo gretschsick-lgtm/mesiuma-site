@@ -169,6 +169,27 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "a56621bcf706",
+    "date": "2026-08-05",
+    "time": "21:00",
+    "store": "タイホウ井ヶ谷店",
+    "machine": "eフィーバー機動戦士ガンダムSEED",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日8月5日(水) eフィーバーガンダムSEEDにてコンプリート おめでとうございます",
+    "x_url": "https://x.com/TAIHO_IGAYA/status/2084972813543460962",
+    "store_handle": "taiho_igaya",
+    "store_x_url": "https://x.com/taiho_igaya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T14:58:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO9Od0takAAMtZi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO9Od0takAAMtZi?format=jpg&name=large",
+    "machine_id": "17248f99-4f74-498a-acfa-dfa6ac17ea68"
+  },
+  {
     "id": "1a619ecf3dc8",
     "date": "2026-08-05",
     "time": "20:55",

@@ -90,6 +90,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "1d0939f5ce42",
+    "date": "2026-08-06",
+    "time": "22:11",
+    "store": "キコーナ川西久代店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "スロットコーナーより  ミリオンゴッド神々の軌跡  コンプリート達成です  おめでとうございます  #つぶやキコーナ #グランキコーナ西淀川店",
+    "x_url": "https://x.com/gkicona_nisiyod/status/2085353007546568817",
+    "store_handle": "gkicona_nisiyod",
+    "store_x_url": "https://x.com/gkicona_nisiyod",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T16:00:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPCpgJRakAAFfRC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPCpgJRakAAFfRC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
     "id": "c65566088b89",
     "date": "2026-08-06",
     "time": "21:54",
@@ -124,11 +145,32 @@
     "store_x_url": "https://x.com/maruhankashiwa",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-07T14:00:33Z",
+    "collected_at": "2026-08-07T14:58:49Z",
     "images": [
       "https://pbs.twimg.com/media/HPCh1O3agAAEEeX?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPCh1O3agAAEEeX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "a24a37e2bb41",
+    "date": "2026-08-06",
+    "time": "21:25",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "250",
+    "text": "e牙狼12 250番台コンプリート達成 おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2085341483817955765",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T14:58:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPCfBqWb0AANSIh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPCfBqWb0AANSIh?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
