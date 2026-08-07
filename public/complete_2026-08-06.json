@@ -132,5 +132,77 @@
     "image_url": "https://pbs.twimg.com/media/HPB_vIcbQAAqVA-?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "c774e988a7"
+  },
+  {
+    "id": "cc3434d78814",
+    "date": "2026-08-06",
+    "time": "09:00",
+    "store": "PSJ新宮店",
+    "machine": "L邪神ちゃんドロップキック",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "昨日の新台入替では ご多数様のご来店ありがとうございました！  今回新台の １１２番台　  eアクセル・ワールド １１２３番台 L邪神ちゃんドロップキック  早速コンプリート達成しました おめでとうございます  本日も１０時より営業いたします！ ご来店をお待ちいたしております！",
+    "x_url": "https://x.com/psj_shingu/status/2085516275388666087",
+    "store_handle": "psj_shingu",
+    "store_x_url": "https://x.com/psj_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T00:52:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPC4ju0aAAAFzLN?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPC4XorakAA35eH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPC4chtacAAgb02?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPC4ju0aAAAFzLN?format=jpg&name=large",
+    "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8",
+    "store_id": "e99e36a403"
+  },
+  {
+    "id": "ffd47556c947",
+    "date": "2026-08-06",
+    "time": "00:53",
+    "store": "ARROW浪速店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日、  228番台　eF機動戦士ガンダムSEED クライマックス  421番台　e女神のカフェテラス  862番台　L邪神ちゃんドロップキック  コンプリート達成　おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2085393820292964666",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T00:54:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPDONX3bUAAFRQS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPDOOLTbAAAWMWg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPDOPLjbUAAFUpR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPDONX3bUAAFRQS?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "d12c8cddca38",
+    "date": "2026-08-06",
+    "time": "00:53",
+    "store": "ARROW浪速店",
+    "machine": "L邪神ちゃんドロップキック",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日、  228番台　eF機動戦士ガンダムSEED クライマックス  421番台　e女神のカフェテラス  862番台　L邪神ちゃんドロップキック  コンプリート達成　おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2085393820292964666",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T00:54:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPDONX3bUAAFRQS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPDOOLTbAAAWMWg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPDOPLjbUAAFUpR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPDONX3bUAAFRQS?format=jpg&name=large",
+    "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8",
+    "store_id": "dd02f6f68a"
   }
 ]
