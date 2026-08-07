@@ -580,6 +580,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "26316e6ce0f7",
+    "date": "2026-08-01",
+    "time": "20:32",
+    "store": "ABC富士今泉店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "ABC今泉店速報 e牙狼12黄金騎士極限 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/ABC_imaizumi/status/2083516104421560795",
+    "store_handle": "abc_imaizumi",
+    "store_x_url": "https://x.com/abc_imaizumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T17:18:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOohYNfbkAAxc8G?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOohYNfbkAAxc8G?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "04e769e1f5"
+  },
+  {
     "id": "2e101f756690",
     "date": "2026-08-01",
     "time": "20:21",
@@ -814,6 +836,27 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "d32f47056f76",
+    "date": "2026-08-01",
+    "time": "18:51",
+    "store": "マルハンアプリはこちら",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "252",
+    "text": "【252番台】  e牙狼12XX-MJ　  コンプリート達成♪  データを確認できる マルハンアプリはこちらから  http:// maruhan.co.jp/app2/sp",
+    "x_url": "https://x.com/Tenntyou0801/status/2083490726147711434",
+    "store_handle": "tenntyou0801",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-07T17:18:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOoLunMbUAABNVB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOoLunMbUAABNVB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "4534dde29d8c",
     "date": "2026-08-01",
     "time": "18:44",
@@ -965,6 +1008,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOnxjJNakAAi9b3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "3c98d6ed684b",
+    "date": "2026-08-01",
+    "time": "16:51",
+    "store": "やすだ幕張店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ソクホウソクホウ No813 L革命機ヴァルヴレイヴ2 VVVVVVVVVVVVVVVVVV コンプリート達成 VVVVVVVVVVVVVVVVVV コノアトモチャレンジャー オマチシテオリマス  ☆やすだ幕張店 #コンプリート #L革命機ヴァルヴレイヴ",
+    "x_url": "https://x.com/yasuda_makuhari/status/2083460479905853571",
+    "store_handle": "yasuda_makuhari",
+    "store_x_url": "https://x.com/yasuda_makuhari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-07T17:17:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOnwM71aUAAd6Bl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOnwM71aUAAd6Bl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "4109093dd95a",
