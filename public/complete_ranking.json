@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T16:16:10+09:00",
+  "generated_at": "2026-08-08T17:21:51+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 217,
+      "total_count": 219,
       "stores": [
         {
           "rank": 1,
@@ -31,39 +31,39 @@
         },
         {
           "rank": 5,
+          "name": "キコーナ堺本店",
+          "count": 4,
+          "x_url": "https://x.com/ksakaihonten"
+        },
+        {
+          "rank": 6,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 3,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "マルハンメガシティ水戸赤塚",
           "count": 3,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "FACE1300小倉南店",
           "count": 3,
           "x_url": "https://x.com/face_1300"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "SPACE(スペース444＆666)",
           "count": 3,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "楽園池袋店ゲートウェイ",
           "count": 3,
           "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
-          "rank": 10,
-          "name": "キコーナ堺本店",
-          "count": 3,
-          "x_url": "https://x.com/ksakaihonten"
         }
       ],
       "slot_machines": [
@@ -84,12 +84,12 @@
         },
         {
           "rank": 4,
-          "name": "Lチバリヨ2ZB",
-          "count": 6
+          "name": "Lミリオンゴッド神々の軌跡",
+          "count": 7
         },
         {
           "rank": 5,
-          "name": "Lミリオンゴッド神々の軌跡",
+          "name": "Lチバリヨ2ZB",
           "count": 6
         },
         {
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 35
+          "count": 36
         },
         {
           "rank": 2,
@@ -788,7 +788,7 @@
       {
         "rank": 4,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 75
+        "count": 76
       },
       {
         "rank": 5,
@@ -825,7 +825,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 277
+        "count": 278
       },
       {
         "rank": 2,
@@ -873,7 +873,7 @@
         "count": 11
       }
     ],
-    "total_count": 2536
+    "total_count": 2538
   },
   "store_complete_counts": {
     "ARROW浪速店": 56,
@@ -939,6 +939,7 @@
     "マルハンメガシティ八千代緑が丘": 11,
     "マルハン小山千駄塚店": 11,
     "DSGアリーナ高岡": 11,
+    "マルハン袋井店": 11,
     "京都駅前ラッキーパチンコ店": 11,
     "エクスアリーナ東京": 11,
     "ワンダーランド1188鹿児島新栄店": 11,
@@ -950,7 +951,6 @@
     "SuperD'station39福重店": 10,
     "ゾーン行橋1000": 10,
     "パラディソ古川ドルフィン館": 10,
-    "マルハン袋井店": 10,
     "SUPER COSMO PREMIUM大東店": 10,
     "T-MAX新栄店": 10,
     "キコーナ鶴見": 10,
@@ -992,6 +992,7 @@
     "光サウザンド桑名本店": 6,
     "天王寺ホール本館": 6,
     "ワンダーランド1177谷山店": 6,
+    "キコーナ堺本店": 6,
     "マルハン加島": 6,
     "パラッツォ志村店": 5,
     "キコーナ海老名店": 5,
@@ -1019,7 +1020,6 @@
     "マルハン仙台新港店": 5,
     "ワンダーランド1188福岡東店": 5,
     "ヒノマル辰巳店": 5,
-    "キコーナ堺本店": 5,
     "ライブガーデン鹿沼グランドシティ": 5,
     "マルハンメガシティ静岡": 5,
     "スーパードーム四日市店": 4,
@@ -1374,8 +1374,8 @@
     "戸越ミナト 中の人・カモくん": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2355,
-    "records_without_store_id": 181,
+    "records_with_store_id": 2356,
+    "records_without_store_id": 182,
     "canonical_store_ids": 390
   }
 }
