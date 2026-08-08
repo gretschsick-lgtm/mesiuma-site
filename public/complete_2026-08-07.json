@@ -85,6 +85,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "4d382d12a8af",
+    "date": "2026-08-07",
+    "time": "21:26",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "506",
+    "text": "コンプリート速報 本日も出ました 506番台≪e牙狼12黄金騎士極限≫を ご遊技されていたお客様、 コンプリートおめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2085704201741733964",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-08T06:41:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPHofgYbQAATOQD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPHofgYbQAATOQD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "4a12285d0f97",
     "date": "2026-08-07",
     "time": "21:15",

@@ -129,6 +129,27 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "6a862053f159",
+    "date": "2026-08-02",
+    "time": "22:17",
+    "store": "キング観光サウザンド生桑店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "キング観光サウザンド生桑店 　県下最大級１３６５台！ 　　　８月２日（日）  e牙狼１２よりコンプリート達成報告！！  おめでとうございます！ この後もキング観光サウザンド生桑店で お楽しみください♪♪  #イクキン #生桑店 #キング観光",
+    "x_url": "https://x.com/king_ikuwa/status/2083542518650786048",
+    "store_handle": "king_ikuwa",
+    "store_x_url": "https://x.com/king_ikuwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-08T07:11:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOo6lwLbcAIlxpC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOo6lwLbcAIlxpC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "f70776ee8fac",
     "date": "2026-08-02",
     "time": "22:06",
@@ -948,6 +969,27 @@
     "image_url": "https://pbs.twimg.com/media/HOvkhs8bUAAkB_z?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "95364f0650c9",
+    "date": "2026-08-02",
+    "time": "08:00",
+    "store": "アミューズ豊中店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "昨日はたくさんのご来店！ 誠にありがとうございました！！  実は閉店前にコンプリート達成！！  おめでとうございます～～～  #アミューズ豊中　 #コンプリート達成　 #攻殻機動隊",
+    "x_url": "https://x.com/amuse_toyo1228/status/2084051624444514766",
+    "store_handle": "amuse_toyo1228",
+    "store_x_url": "https://x.com/amuse_toyo1228",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-08T07:11:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOvUymRaoAAJ3z0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOvUymRaoAAJ3z0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "2c47564f46e9",
