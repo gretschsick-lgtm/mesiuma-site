@@ -1,5 +1,26 @@
 [
   {
+    "id": "ffb536a5b5c5",
+    "date": "2026-08-08",
+    "time": "18:20",
+    "store": "楽園 店長・アメ横店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "3150",
+    "text": "8月8日  3150番台　戦国乙女5から コンプリート発動  おめでとうございます 該当台は稼働停止となります。  我はマスク",
+    "x_url": "https://x.com/mask_rakuen/status/2086019716032995571",
+    "store_handle": "mask_rakuen",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/mask_rakuen",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-08T09:49:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMH39ya4AAQFdS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMH39ya4AAQFdS?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "097c0da142f0",
     "date": "2026-08-08",
     "time": "16:44",
@@ -236,9 +257,7 @@
     "source_account_type": "store_official",
     "collected_at": "2026-08-07T14:31:14Z",
     "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "2eabd788e9",
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2085699550371860480/img/AGKziTqYu4cK6WSJ.jpg?format=jpg&name=large",
-    "video_url": "https://video.twimg.com/amplify_video/2085699550371860480/vid/avc1/0/0/720x1080/r6sDKOwBOChcpAKr.mp4"
+    "store_id": "2eabd788e9"
   },
   {
     "id": "199b062ab0ba",
