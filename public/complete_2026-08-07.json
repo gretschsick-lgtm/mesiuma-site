@@ -64,6 +64,28 @@
     "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
   },
   {
+    "id": "eecdff4f55d0",
+    "date": "2026-08-07",
+    "time": "22:07",
+    "store": "サラリーマン店長メガシティ静岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "209",
+    "text": "e牙狼12黄金騎士極限  本日2件目の黄金戦士誕生です。 209番台にて御遊技されたあなた様 Mission Complete コンプリート達成です 牙狼導入から84番目の達成者となります 誠におめでとうございます",
+    "x_url": "https://x.com/Last_Mission_7/status/2085714345816891857",
+    "store_handle": "last_mission_7",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/last_mission_7",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-08T12:51:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPHyI7yaEAAUhE9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPHyI72bEAAXZuq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPHyI7yaEAAUhE9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "deac7ac378d0",
     "date": "2026-08-07",
     "time": "21:45",
@@ -183,7 +205,7 @@
     "store_x_url": "https://x.com/texashakushima",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-08T11:47:47Z",
+    "collected_at": "2026-08-08T13:51:25Z",
     "images": [
       "https://pbs.twimg.com/media/HPHTYZUaUAE1bgq?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPHTYZPbEAALEZb?format=jpg&name=large",
@@ -191,6 +213,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPHTYZUaUAE1bgq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "06b729ddf308",
+    "date": "2026-08-07",
+    "time": "19:45",
+    "store": "楽園立川店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "3345",
+    "text": "本日、8月7日(金)    3345番台  【Lミリオンゴッド　神々の軌跡】   コンプリート達成で御座います    本日は遊技台停止となります。  おめでとうございます！  #楽園立川 #立川には楽園がある",
+    "x_url": "https://x.com/tachikawa_raku/status/2085678596635644300",
+    "store_handle": "tachikawa_raku",
+    "store_x_url": "https://x.com/tachikawa_raku",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-08T11:32:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPHQ_PkbUAEXVL_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPHQ_PkbUAEXVL_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "1dc612cb9ed4",
@@ -341,27 +384,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPGW09OasAAebWt?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
-  },
-  {
-    "id": "83e16c814daa",
-    "date": "2026-08-07",
-    "time": "13:11",
-    "store": "ダイナム三重津高茶屋店～Since2013.3.23~",
-    "machine": "チバリヨ2",
-    "machine_type": "slot",
-    "slot_number": "424",
-    "text": "昨日のコンプリート  424番台 Ｌチバリヨ2  凄いですね  おめでとうございます！  #ダイナム #コンプリート #イキスギループ",
-    "x_url": "https://x.com/dynam_00364/status/2085941854315405642",
-    "store_handle": "dynam_00364",
-    "store_x_url": "https://x.com/dynam_00364",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-08T16:03:52Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPLBDvlXcAAGtM_?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPLBDvlXcAAGtM_?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "1d1cd745be46",
