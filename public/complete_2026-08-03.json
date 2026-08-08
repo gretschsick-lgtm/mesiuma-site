@@ -42,6 +42,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "a866ec18a848",
+    "date": "2026-08-03",
+    "time": "22:27",
+    "store": "楽園柏店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "851",
+    "text": "こんばんは楽園柏店です   20時53分 【851番台】 【e東京喰種W】 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/kashiwa_rakuen/status/2084269985548136849",
+    "store_handle": "kashiwa_rakuen",
+    "store_x_url": "https://x.com/kashiwa_rakuen",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-08T16:03:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOzQe3DbEAAeRF4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOzQe3DbEAAeRF4?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "7d6b9fee6040",
     "date": "2026-08-03",
     "time": "22:15",
