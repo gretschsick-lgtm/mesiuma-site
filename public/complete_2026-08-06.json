@@ -195,6 +195,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "02998940f7be",
+    "date": "2026-08-06",
+    "time": "19:43",
+    "store": "SUPER CONCORDE",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "5305",
+    "text": "コンプリート報告   Lモンスターハンターライズ　5305番台にて コンプリート機能が作動いたしました  ご遊技されていたお客様 H様 コメント『うれしいです！』  おめでとうございます  最後のお時間までスパコンでお楽しみください",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2085315735249940510",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-08T12:33:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPCHkmebsAAh_c6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO8jAJ9aMAAOrH1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPCHkmebsAAh_c6?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "06d6dec5b794",
     "date": "2026-08-06",
     "time": "19:09",
