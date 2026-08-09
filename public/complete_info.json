@@ -109,6 +109,28 @@
     "store_id": "776960c891"
   },
   {
+    "id": "2de7ee9b34fb",
+    "date": "2026-08-09",
+    "time": "19:20",
+    "store": "店長あらた　マルハンメガシティ長野",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "1008",
+    "text": "本日1台目のコンプリート  1008番台　e牙狼12から  一撃51連チャンは凄すぎます コンプリートお見事です！ おめでとうございます",
+    "x_url": "https://x.com/aratanarutentyo/status/2086397085377835468",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-09T20:20:41Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2085999389995343872/img/mGNESXt_3wd-_bs2.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPL1a8GbcAEE4in?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2085999389995343872/img/mGNESXt_3wd-_bs2.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "8579842f2541",
     "date": "2026-08-09",
     "time": "19:11",
