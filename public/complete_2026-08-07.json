@@ -107,50 +107,6 @@
     "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
   },
   {
-    "id": "eecdff4f55d0",
-    "date": "2026-08-07",
-    "time": "22:07",
-    "store": "サラリーマン店長メガシティ静岡",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "209",
-    "text": "e牙狼12黄金騎士極限  本日2件目の黄金戦士誕生です。 209番台にて御遊技されたあなた様 Mission Complete コンプリート達成です 牙狼導入から84番目の達成者となります 誠におめでとうございます",
-    "x_url": "https://x.com/Last_Mission_7/status/2085714345816891857",
-    "store_handle": "last_mission_7",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/last_mission_7",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-08-09T15:58:58Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPHyI7yaEAAUhE9?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPHyI72bEAAXZuq?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPHyI7yaEAAUhE9?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "5d2923a2ff83",
-    "date": "2026-08-07",
-    "time": "22:01",
-    "store": "マルハンメガシティ静岡",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "209",
-    "text": "■209番台　e牙狼12黄金騎士極限     コンプリート達成です  ご遊技されたお客様、 おめでとうございます",
-    "x_url": "https://x.com/maruhanmegacity/status/2085713049848291689",
-    "store_handle": "maruhanmegacity",
-    "store_x_url": "https://x.com/maruhanmegacity",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-09T15:58:58Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPHw7C0bUAAarOm?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPHw7DAb0AABGPT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPHw7C0bUAAarOm?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
     "id": "deac7ac378d0",
     "date": "2026-08-07",
     "time": "21:45",
@@ -191,27 +147,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPHofgYbQAATOQD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "cb4ea340e670",
-    "date": "2026-08-07",
-    "time": "21:21",
-    "store": "キング観光サウザンド栄若宮大通店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "1398",
-    "text": "1398番台 L革命機ヴァルヴレイヴ２ コンプリートおめでとうございます #若宮 #キング観光 #コンプリート",
-    "x_url": "https://x.com/wakakin_tsujic/status/2085702825703801030",
-    "store_handle": "wakakin_tsujic",
-    "store_x_url": "https://x.com/wakakin_tsujic",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-09T17:15:27Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPHnqkJbUAAXJ4Q?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPHnqkJbUAAXJ4Q?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "4a12285d0f97",
