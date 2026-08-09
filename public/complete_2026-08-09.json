@@ -23,26 +23,47 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "e0964c6a8114",
+    "id": "1822749b2f4e",
     "date": "2026-08-09",
-    "time": "17:50",
-    "store": "ビックマーチ河和田東店",
-    "machine": "Lスーパービンゴネオ",
+    "time": "20:01",
+    "store": "BIGディッパー花小金井店",
+    "machine": "Lパチスロ からくりサーカス2",
     "machine_type": "slot",
-    "slot_number": "589",
-    "text": "感謝をカタチに…  コンプリート速報 589番台スーパービンゴネオより コンプリート達成です 誠にサンキューで御座います  この後のお時間も頑張りましょ  #ビックマーチ河和田東店 #コンプリート",
-    "x_url": "https://x.com/monky0621bm/status/2086374549839650955",
-    "store_handle": "monky0621bm",
-    "store_x_url": "https://x.com/monky0621bm",
+    "slot_number": "",
+    "text": "Ｌからくりサーカス2にて　 #コンプリート 機能の発動を確認いたしましたおめでとうございます。",
+    "x_url": "https://x.com/bigdipperhanako/status/2086407598950203618",
+    "store_handle": "bigdipperhanako",
+    "store_x_url": "https://x.com/bigdipperhanako",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T11:00:00Z",
+    "collected_at": "2026-08-09T11:45:36Z",
     "images": [
-      "https://pbs.twimg.com/media/HPRKmDQaIAAYO6n?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPRKmDRbUAASPR7?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPRopOsaIAAEqCM?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPRKmDQaIAAYO6n?format=jpg&name=large",
-    "machine_id": "716572a7-b35e-447c-bb67-a7d69faea6ed"
+    "image_url": "https://pbs.twimg.com/media/HPRopOsaIAAEqCM?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "776960c891"
+  },
+  {
+    "id": "0c738040d4b9",
+    "date": "2026-08-09",
+    "time": "16:47",
+    "store": "メガフェイス1250",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "379",
+    "text": "コンプリート速報  379番台ヴァルヴレイヴ2 コンプリート達成 　おめでとうございます #フェイス　#ヴァルヴレイヴ2　#コンプ",
+    "x_url": "https://x.com/megaface_1250/status/2086358762433224780",
+    "store_handle": "megaface_1250",
+    "store_x_url": "https://x.com/megaface_1250",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T12:15:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPQ8HZLbMAErNAW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPQ8HZLbMAErNAW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "6be94c7ba2db",
