@@ -1,5 +1,26 @@
 [
   {
+    "id": "601f355b0cba",
+    "date": "2026-08-09",
+    "time": "08:00",
+    "store": "ダイナム二本松店",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成  5スロLバイオハザード5 コンプリート機能発動  おめでとうございまーす  #ダイナム #コンプリート",
+    "x_url": "https://x.com/dynam_00123/status/2086225972991295571",
+    "store_handle": "dynam_00123",
+    "store_x_url": "https://x.com/dynam_00123",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T03:24:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPPDdi0WoAEQ2Dg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPPDdi0WoAEQ2Dg?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
     "id": "006bdf0d9772",
     "date": "2026-08-08",
     "time": "23:56",
@@ -305,6 +326,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPMw-MsXAAA4x33?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "5f5e9a251bfa",
+    "date": "2026-08-08",
+    "time": "21:13",
+    "store": "ワンダーランド770東合川店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報 Lチバリヨ2コンプリート達成 おめでとうございます #コンプリート",
+    "x_url": "https://x.com/wl_770aikawa/status/2086063321544110166",
+    "store_handle": "wl_770aikawa",
+    "store_x_url": "https://x.com/wl_770aikawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T03:40:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMvek1aMAEz0dX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMvek1aMAEz0dX?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "d1caa25c09b7",
@@ -778,6 +820,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPMOec9bsAAWQri?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "17bb45578c5d",
+    "date": "2026-08-08",
+    "time": "18:37",
+    "store": "FACE1300小倉南店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "2315",
+    "text": "コンプリート速報  ◯2315番台　スマスロいざ！番長  コンプリート達成 おめでとうございます  1台目のコンプリートはスロットから  まだまだ盛り上がり足りてないですよね？ まだまだいけますよね？？ まだまだ報告お待ちしてます  #コンプリート #令和8年8月8日",
+    "x_url": "https://x.com/face_1300/status/2086024093942587464",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T03:09:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPML2QqbUAEi2Mx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPMBbY_acAAwMHx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPML2QqbUAEi2Mx?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "18425371bb"
   },
   {
     "id": "4a3c64773da7",
@@ -1577,6 +1642,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPLBDvlXcAAGtM_?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "6b83317b9707",
+    "date": "2026-08-07",
+    "time": "10:30",
+    "store": "テキサス白島店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは テキサス白島店です  昨日のＢＥＳＴ台のご案内です #L革命機ヴァルヴレイヴ２　から コンプリート＆１００００OVER その他データはこちらから  https:// pscube.jp/dedamajyoho-P- townDMMpachi/c734005/ …  創業rd月間 R年月日も 白島テキサスでお楽しみください  #コンプリート #でちゃう",
+    "x_url": "https://x.com/texashakushima/status/2085901307198726584",
+    "store_handle": "texashakushima",
+    "store_x_url": "https://x.com/texashakushima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T03:09:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPKPkDNaYAET_rY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPKPmeXaoAEc-j-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPKPpyMaMAAdDvx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPKPkDNaYAET_rY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "1d1cd745be46",
@@ -4601,6 +4689,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOtMB_5awAAHecJ?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "837766a93270",
+    "date": "2026-08-02",
+    "time": "17:47",
+    "store": "京橋会館＆GENESIS",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "”京橋一択”の言葉に偽りなし  2日ぶりのコンプリート おめでとうございます 今回は #L炎炎ノ消防隊 から 【19,000枚】達成  なんでいまさら 炎炎ノ消防”鯛”なのかって 　　    　 『』『』『』 　　　　　 ジェネシスファンの皆様なら 分かりますよね",
+    "x_url": "https://x.com/gene_kyobashi/status/2083837058834121080",
+    "store_handle": "gene_kyobashi",
+    "store_x_url": "https://x.com/gene_kyobashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T03:40:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOtGuK9bkAAJ7ds?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HOj3wXAaIAEj-tY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOtGuK9bkAAJ7ds?format=jpg&name=large",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2"
   },
   {
     "id": "c4eada653a19",
