@@ -1,5 +1,27 @@
 [
   {
+    "id": "e0964c6a8114",
+    "date": "2026-08-09",
+    "time": "17:50",
+    "store": "ビックマーチ河和田東店",
+    "machine": "Lスーパービンゴネオ",
+    "machine_type": "slot",
+    "slot_number": "589",
+    "text": "感謝をカタチに…  コンプリート速報 589番台スーパービンゴネオより コンプリート達成です 誠にサンキューで御座います  この後のお時間も頑張りましょ  #ビックマーチ河和田東店 #コンプリート",
+    "x_url": "https://x.com/monky0621bm/status/2086374549839650955",
+    "store_handle": "monky0621bm",
+    "store_x_url": "https://x.com/monky0621bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T09:30:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPRKmDQaIAAYO6n?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPRKmDRbUAASPR7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPRKmDQaIAAYO6n?format=jpg&name=large",
+    "machine_id": "716572a7-b35e-447c-bb67-a7d69faea6ed"
+  },
+  {
     "id": "601f355b0cba",
     "date": "2026-08-09",
     "time": "08:00",
