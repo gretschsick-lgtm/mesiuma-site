@@ -23,6 +23,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "cd4e89af7fb1",
+    "date": "2026-08-09",
+    "time": "20:08",
+    "store": "キコーナ堺本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "10",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 10番台 e牙狼12黄金騎士極限 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2086409153778782543",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T12:45:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPRqB4AbwAADw5s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPRqB4AbwAADw5s?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "1822749b2f4e",
     "date": "2026-08-09",
     "time": "20:01",
@@ -36,7 +57,7 @@
     "store_x_url": "https://x.com/bigdipperhanako",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T11:45:36Z",
+    "collected_at": "2026-08-09T15:13:11Z",
     "images": [
       "https://pbs.twimg.com/media/HPRopOsaIAAEqCM?format=jpg&name=large"
     ],
@@ -45,25 +66,26 @@
     "store_id": "776960c891"
   },
   {
-    "id": "7f90a8ed5d34",
+    "id": "2de7ee9b34fb",
     "date": "2026-08-09",
-    "time": "17:57",
-    "store": "メガフェイス1250",
-    "machine": "eカケグルイ",
+    "time": "19:20",
+    "store": "店長あらた　マルハンメガシティ長野",
+    "machine": "e牙狼12",
     "machine_type": "pachinko",
-    "slot_number": "584",
-    "text": "本日2台目のコンプリートは！！  パチンココーナーより eカゲグルイ584番台より達成 おめでとうございます  #次の　#コンプリートは　#あなただ！",
-    "x_url": "https://x.com/megaface_1250/status/2086376426648002632",
-    "store_handle": "megaface_1250",
-    "store_x_url": "https://x.com/megaface_1250",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-09T14:28:12Z",
+    "slot_number": "1008",
+    "text": "本日1台目のコンプリート  1008番台　e牙狼12から  一撃51連チャンは凄すぎます コンプリートお見事です！ おめでとうございます",
+    "x_url": "https://x.com/aratanarutentyo/status/2086397085377835468",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-09T12:24:05Z",
     "images": [
-      "https://pbs.twimg.com/media/HPRMRzQawAAcaHB?format=jpg&name=large"
+      "https://pbs.twimg.com/amplify_video_thumb/2085999389995343872/img/mGNESXt_3wd-_bs2.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPL1a8GbcAEE4in?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPRMRzQawAAcaHB?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000035"
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2085999389995343872/img/mGNESXt_3wd-_bs2.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "44787aad8d7a",
@@ -79,7 +101,7 @@
     "store_x_url": "https://x.com/smaru_kawagoe",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T14:28:12Z",
+    "collected_at": "2026-08-09T15:13:05Z",
     "images": [
       "https://pbs.twimg.com/media/HPRL7JabQAAvDZX?format=jpg&name=large"
     ],
@@ -100,7 +122,7 @@
     "store_x_url": "https://x.com/monky0621bm",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T14:26:28Z",
+    "collected_at": "2026-08-09T11:00:00Z",
     "images": [
       "https://pbs.twimg.com/media/HPRKmDQaIAAYO6n?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPRKmDRbUAASPR7?format=jpg&name=large"
@@ -109,25 +131,26 @@
     "machine_id": "716572a7-b35e-447c-bb67-a7d69faea6ed"
   },
   {
-    "id": "0c738040d4b9",
+    "id": "8260d0a5dbab",
     "date": "2026-08-09",
-    "time": "16:47",
-    "store": "メガフェイス1250",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "379",
-    "text": "コンプリート速報  379番台ヴァルヴレイヴ2 コンプリート達成 　おめでとうございます #フェイス　#ヴァルヴレイヴ2　#コンプ",
-    "x_url": "https://x.com/megaface_1250/status/2086358762433224780",
-    "store_handle": "megaface_1250",
-    "store_x_url": "https://x.com/megaface_1250",
+    "time": "17:48",
+    "store": "DSGアリーナ高岡",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "①円パチンコから コンプリート達成 おめでとうございます  #eカケグルイ219ver  #ＬＩＭＩＴＳＴＯＰ #絶対王政 #さァカケグルイましょう  まだまだお時間は充分 つまり・・・ タカアリでたっぷり遊べるって事 週末の夜をタカアリdeアソビツクス",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2086374017649562077",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T12:15:24Z",
+    "collected_at": "2026-08-09T15:11:50Z",
     "images": [
-      "https://pbs.twimg.com/media/HPQ8HZLbMAErNAW?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPRJtTEb0AA1PZ1?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPQ8HZLbMAErNAW?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "image_url": "https://pbs.twimg.com/media/HPRJtTEb0AA1PZ1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "c774e988a7"
   },
   {
     "id": "6be94c7ba2db",
