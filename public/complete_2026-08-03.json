@@ -55,7 +55,7 @@
     "store_x_url": "https://x.com/kyorakuueda",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T17:56:31Z",
+    "collected_at": "2026-08-09T17:15:17Z",
     "images": [
       "https://pbs.twimg.com/media/HOzRcmvbwAAC7QG?format=jpg&name=large"
     ],
@@ -209,27 +209,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOzFDwXbgAAJ6rG?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
-  },
-  {
-    "id": "f8ebe7f3954c",
-    "date": "2026-08-03",
-    "time": "21:29",
-    "store": "スーパードーム舞鶴店",
-    "machine": "e転生したらスライムだった件2",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "夜分遅くに失礼致します！  本日8/3(月)‼︎  e転生したらスライムだった件2  コンプリート達成です  おめでとうございま〜す  #コンプリート　#転スラ2  #天災級",
-    "x_url": "https://x.com/sdmaiduru/status/2084255375390650671",
-    "store_handle": "sdmaiduru",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-09T17:11:47Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOzDNi9aIAAxK-J?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOzDNi9aIAAxK-J?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000036"
   },
   {
     "id": "cc85788ac611",
@@ -548,7 +527,7 @@
     "store_x_url": "https://x.com/Dstation_kamisu",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-09T17:11:21Z",
+    "collected_at": "2026-08-09T18:45:33Z",
     "images": [
       "https://pbs.twimg.com/media/HOyRkafaQAABeMz?format=jpg&name=large"
     ],
