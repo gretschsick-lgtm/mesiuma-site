@@ -217,6 +217,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000003"
   },
   {
+    "id": "54aa576de8ed",
+    "date": "2026-08-08",
+    "time": "21:37",
+    "store": "ラカータ大宮駅前店",
+    "machine": "eバイオハザード6",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "令和8年8月8日(土) 293番台　eとある科学の超電磁砲 1106番台　eバイオハザード6  Wコンプリートおめでとうございます  ラカータ大宮駅前はパチンコも譲れない",
+    "x_url": "https://x.com/LAKATA_EKIMAE6/status/2086069225408631260",
+    "store_handle": "lakata_ekimae6",
+    "store_x_url": "https://x.com/LAKATA_EKIMAE6",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T07:57:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPM05m-bkAAizq0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPM05mxasAAZzqD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPM05m-bkAAizq0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030"
+  },
+  {
     "id": "b814ef592b4a",
     "date": "2026-08-08",
     "time": "21:33",
@@ -691,6 +713,27 @@
       "https://pbs.twimg.com/media/HPMhmRjaAAAmjvY?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPMg1zla4AAVPj6?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
+    "id": "07cd8d4be734",
+    "date": "2026-08-08",
+    "time": "20:08",
+    "store": "ダイナム北斗七重浜店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日令和８年８月８日（土）のコンプリート台はコチラ！ Ｌゴッドイーターリザレクション 本当におめでとうございます  #ダイナム　#北斗市　#コンプリート",
+    "x_url": "https://x.com/dynam_00043/status/2086046788310495710",
+    "store_handle": "dynam_00043",
+    "store_x_url": "https://x.com/dynam_00043",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T07:45:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMgflgX0AElEP-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMgflgX0AElEP-?format=jpg&name=large",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
   },
   {
