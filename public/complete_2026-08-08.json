@@ -45,27 +45,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
-    "id": "a30073fdd334",
-    "date": "2026-08-08",
-    "time": "22:42",
-    "store": "ヴィーナスギャラリー大分Ⅰ店",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "【コンプリート速報】  スマスロ ミリオンゴッドｰ神々の軌跡ｰ 滑り込みコンプリート達成です  おめでとうございます  #ミリオンゴッド #コンプリート #創業月間 #がんばるヴィーナス #ヴィーナスギャラリー",
-    "x_url": "https://x.com/VGOita1/status/2086085709258166278",
-    "store_handle": "vgoita1",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-09T10:08:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPND5OOaIAE77wT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPND5OOaIAE77wT?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
-  },
-  {
     "id": "62a920a95793",
     "date": "2026-08-08",
     "time": "22:39",
@@ -715,6 +694,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPMj4SpbwAA8vbB?format=jpg&name=large",
     "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b"
+  },
+  {
+    "id": "7a26c2232975",
+    "date": "2026-08-08",
+    "time": "20:21",
+    "store": "キング塩尻店",
+    "machine": "Lスーパービンゴネオ",
+    "machine_type": "slot",
+    "slot_number": "841",
+    "text": "速報  　　Lスーパービンゴネオ 　　　　　  841番台にて... 　   コンプリート達成  ニックネーム：らいと 様 ひと言　　　：やっちゃいました！  見事にやってくださいました！コンプリート！！ 　　大量獲得おめでとうございます",
+    "x_url": "https://x.com/kingshiojiri/status/2086050165685928401",
+    "store_handle": "kingshiojiri",
+    "store_x_url": "https://x.com/kingshiojiri",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T10:12:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMjgN5bYAAom_c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMjgN5bYAAom_c?format=jpg&name=large",
+    "machine_id": "716572a7-b35e-447c-bb67-a7d69faea6ed"
   },
   {
     "id": "835322c231c4",
@@ -1409,6 +1409,50 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPO9VWSawAADZ3U?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000035"
+  },
+  {
+    "id": "ee433349d20e",
+    "date": "2026-08-08",
+    "time": "01:23",
+    "store": "キクヤ穂積店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1036",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です  コンプリート報告です  本日は．．．なんと2台  1036番台　スマスロ 北斗の拳 転生の章２  396番台　スマパチ 牙狼１２ 黄金騎士極限  コンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2086126246803714557",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T10:21:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNnYz4bwAAEyZz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNnYz4aoAAyEF_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNnYz4bwAAEyZz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "03fa69a0d616",
+    "date": "2026-08-08",
+    "time": "01:23",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です  コンプリート報告です  本日は．．．なんと2台  1036番台　スマスロ 北斗の拳 転生の章２  396番台　スマパチ 牙狼１２ 黄金騎士極限  コンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2086126246803714557",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T10:21:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNnYz4bwAAEyZz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNnYz4aoAAyEF_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNnYz4bwAAEyZz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "37bd1f62f2fa",
