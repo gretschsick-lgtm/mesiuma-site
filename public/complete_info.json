@@ -66,6 +66,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "62a920a95793",
+    "date": "2026-08-08",
+    "time": "22:39",
+    "store": "ニューヨーク×2臨海店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "713",
+    "text": "革命機ヴァルヴレイヴ2 　　713番台 コンプリート おめでとうございます",
+    "x_url": "https://x.com/newyorkrinkai/status/2086084986512511171",
+    "store_handle": "newyorkrinkai",
+    "store_x_url": "https://x.com/newyorkrinkai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T08:42:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNDLRUbMAAM7RF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNDLRUbMAAM7RF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "d0b9a1dd7a4f",
     "date": "2026-08-08",
     "time": "22:36",
@@ -86,6 +107,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPNCjQibAAAcCoG?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "8532b751b4f1",
+    "date": "2026-08-08",
+    "time": "22:26",
+    "store": "がちゃぽん戸畑店",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "1763",
+    "text": "8月8日 超インパクトな1日。  本日、令和8年8月8日――   超インパクト取材  ついに…… ついに……！！  1763番台 ゴットイーターより  22時を過ぎて、、 コンプリート達成  長かった…… おめでとうございます  ご来店いただいた皆さま、 本当にありがとうございました",
+    "x_url": "https://x.com/tobatagachapon/status/2086081532813537702",
+    "store_handle": "tobatagachapon",
+    "store_x_url": "https://x.com/tobatagachapon",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T08:42:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPM_iTVb0AAtoTX?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPM_iTbbEAA4fvf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPM_iTZaoAItoJC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPM_iTVb0AAtoTX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
     "id": "8f669c6f9f71",
