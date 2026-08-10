@@ -45,6 +45,49 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "478b2b9fa534",
+    "date": "2026-08-08",
+    "time": "22:56",
+    "store": "ASTY姶良店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "令和8年8月8日 188番台に強者現る L東京喰種コンプリート達成おめでとうございます いやーL東京喰種でコンプリートは凄い #東京喰種 #パチンコ  #スロット #コンプリート  #スマスロ #ゾロ目",
+    "x_url": "https://x.com/Asty_Aira/status/2086089177729503548",
+    "store_handle": "asty_aira",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-10T03:12:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNHDCiaMAAZtNB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNHDCiaMAAZtNB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "4a19554213"
+  },
+  {
+    "id": "e11f3ef58b0d",
+    "date": "2026-08-08",
+    "time": "22:50",
+    "store": "D'ステーション坂戸店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "543",
+    "text": "本日８月８日  543番台　L真打吉宗 コンプリート達成！  おめでとうございます  #Dステ #Dステ坂戸",
+    "x_url": "https://x.com/dstation_sakado/status/2086087678307848211",
+    "store_handle": "dstation_sakado",
+    "store_x_url": "https://x.com/dstation_sakado",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T03:12:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNCJska4AEQgxs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNCJska4AEQgxs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
     "id": "a30073fdd334",
     "date": "2026-08-08",
     "time": "22:42",
@@ -1495,6 +1538,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPM0oTzaoAEUaG0?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
+    "id": "fad533ccb0ee",
+    "date": "2026-08-08",
+    "time": "08:40",
+    "store": "パラッツォ三郷中央店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "1811",
+    "text": "パラミサから昨日８日の コンプリート報告です Ｌ新鬼武者3   1811番台    ～Congratulation～  上位は全て大台突破 本日も魅せたるＺＥ #コンプリート #ランキング",
+    "x_url": "https://x.com/palazzo_misato/status/2086236011483533761",
+    "store_handle": "palazzo_misato",
+    "store_x_url": "https://x.com/palazzo_misato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T03:19:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNsTGybcAATSGC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNsW2ub0AAh4AE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNsTGybcAATSGC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016"
   },
   {
     "id": "529958a55c73",
