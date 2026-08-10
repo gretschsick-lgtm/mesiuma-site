@@ -1,26 +1,24 @@
 [
   {
-    "id": "9d1207eea6a6",
+    "id": "613611bb21c8",
     "date": "2026-08-10",
-    "time": "22:11",
-    "store": "ＢＩＧディッパー京都駅前店",
-    "machine": "スマスロ モンスターハンターライズ",
+    "time": "22:41",
+    "store": "メガガイア一宮1515 店長スギ",
+    "machine": "L東京喰種",
     "machine_type": "slot",
-    "slot_number": "179",
-    "text": "本日８月１０日 共闘 『PS応援女子オールスター』  @ohen_joshi   共闘１日目 またまたコンプリート達成 週間おすすめ機種 モンスターハンターライズ １７９番台　おめでとうございます  #京都駅前ディッパーコンプリート",
-    "x_url": "https://x.com/bigdipper_kyoto/status/2086802691775410652",
-    "store_handle": "bigdipper_kyoto",
-    "store_x_url": "https://x.com/bigdipper_kyoto",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-10T13:53:10Z",
+    "slot_number": "",
+    "text": "#コンプリート #L東京喰種 おめでとうございます。  #メガガイア一宮  #コンプ",
+    "x_url": "https://x.com/gaia_ichinomiya/status/2086810072831930557",
+    "store_handle": "gaia_ichinomiya",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/gaia_ichinomiya",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-10T14:58:58Z",
     "images": [
-      "https://pbs.twimg.com/media/HPXO35kbsAAqGjK?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPXPrc7bUAA1H5p?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPXWrlBb0AAlE_N?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPXO35kbsAAqGjK?format=jpg&name=large",
-    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
-    "store_id": "35782adb87"
+    "image_url": "https://pbs.twimg.com/media/HPXWrlBb0AAlE_N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "43a4237596a2",
@@ -63,5 +61,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPWSi8ZbIAAZav6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000034"
+  },
+  {
+    "id": "f8127c7e359d",
+    "date": "2026-08-10",
+    "time": "17:16",
+    "store": "楽園上新屋",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "517",
+    "text": "コンプリートのご報告   楽園上新屋店です   本日8月10日（月） 16時40分    e東京喰種W　517番台       コンプリート達成致しました     遊技台停止となります。",
+    "x_url": "https://x.com/rakuenkamiaraya/status/2086728282872160460",
+    "store_handle": "rakuenkamiaraya",
+    "store_x_url": "https://x.com/rakuenkamiaraya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T14:45:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPWMRd_bkAEor5a?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPWMRd_bkAEor5a?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   }
 ]
