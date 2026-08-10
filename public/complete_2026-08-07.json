@@ -107,6 +107,27 @@
     "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
   },
   {
+    "id": "87a6125d6968",
+    "date": "2026-08-07",
+    "time": "22:15",
+    "store": "ビックマーチつくば学園の森店スタッフ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日もお暑い中ご来店いただきありがとうございます 『ｅ牙狼１２黄金騎士極限』コンプリート達成  おめでとうございます  #パチンコ  #つくば  #学園の森  #コンプリート報告",
+    "x_url": "https://x.com/bm_gakumori/status/2085716500552532245",
+    "store_handle": "bm_gakumori",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/bm_gakumori",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-10T19:17:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPH0A5uaYAIkWm5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPH0A5uaYAIkWm5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "eecdff4f55d0",
     "date": "2026-08-07",
     "time": "22:07",
@@ -276,6 +297,23 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPHkxhebMAApGAF?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "7ca2722a3f98",
+    "date": "2026-08-07",
+    "time": "20:30",
+    "store": "マルハン千葉北店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート達成 【e牙狼12黄金騎士極限】 おめでとうございます",
+    "x_url": "https://x.com/maruhan_chiba/status/2085689947990925489",
+    "store_handle": "maruhan_chiba",
+    "store_x_url": "https://x.com/maruhan_chiba",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T19:17:13Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "0d0757273662",

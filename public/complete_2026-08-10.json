@@ -42,6 +42,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
+    "id": "c8ade4f94bce",
+    "date": "2026-08-10",
+    "time": "22:02",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "902",
+    "text": "こんばんは メガシティ三島駿東です  Ｌソードアート・オンラインII 902番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2086800342046642223",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T18:41:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXMgh9a8AAG7Fe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXMgh9a8AAG7Fe?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "4a98b60780cd",
     "date": "2026-08-10",
     "time": "20:30",
