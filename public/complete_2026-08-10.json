@@ -1,68 +1,67 @@
 [
   {
-    "id": "9d1207eea6a6",
+    "id": "613611bb21c8",
     "date": "2026-08-10",
-    "time": "22:11",
-    "store": "ＢＩＧディッパー京都駅前店",
-    "machine": "スマスロ モンスターハンターライズ",
+    "time": "22:41",
+    "store": "メガガイア一宮1515 店長スギ",
+    "machine": "L東京喰種",
     "machine_type": "slot",
-    "slot_number": "179",
-    "text": "本日８月１０日 共闘 『PS応援女子オールスター』  @ohen_joshi   共闘１日目 またまたコンプリート達成 週間おすすめ機種 モンスターハンターライズ １７９番台　おめでとうございます  #京都駅前ディッパーコンプリート",
-    "x_url": "https://x.com/bigdipper_kyoto/status/2086802691775410652",
-    "store_handle": "bigdipper_kyoto",
-    "store_x_url": "https://x.com/bigdipper_kyoto",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-10T13:53:10Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPXO35kbsAAqGjK?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPXPrc7bUAA1H5p?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPXO35kbsAAqGjK?format=jpg&name=large",
-    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
-    "store_id": "35782adb87"
-  },
-  {
-    "id": "c8ade4f94bce",
-    "date": "2026-08-10",
-    "time": "22:02",
-    "store": "マルハンメガシティ三島駿東",
-    "machine": "スロット ソードアート・オンラインⅡ",
-    "machine_type": "slot",
-    "slot_number": "902",
-    "text": "こんばんは メガシティ三島駿東です  Ｌソードアート・オンラインII 902番台  コンプリートです おめでとうございます",
-    "x_url": "https://x.com/mega_mishima/status/2086800342046642223",
-    "store_handle": "mega_mishima",
-    "store_x_url": "https://x.com/mega_mishima",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-10T15:15:59Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPXMgh9a8AAG7Fe?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPXMgh9a8AAG7Fe?format=jpg&name=large",
-    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
-  },
-  {
-    "id": "4a98b60780cd",
-    "date": "2026-08-10",
-    "time": "20:30",
-    "store": "イーグルアールワン南8条店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "681",
-    "text": "本日2台目  681番台ヴヴヴ2にてコンプリート達成  何やら、人生初コンプだったようで  これは嬉しいですね  おめでとうございます",
-    "x_url": "https://x.com/eagle_c_tencho/status/2086777257172046014",
-    "store_handle": "eagle_c_tencho",
+    "slot_number": "",
+    "text": "#コンプリート #L東京喰種 おめでとうございます。  #メガガイア一宮  #コンプ",
+    "x_url": "https://x.com/gaia_ichinomiya/status/2086810072831930557",
+    "store_handle": "gaia_ichinomiya",
     "store_x_url": "",
-    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "manager_x_url": "https://x.com/gaia_ichinomiya",
     "source_account_type": "store_manager",
-    "collected_at": "2026-08-10T15:15:16Z",
+    "collected_at": "2026-08-10T14:58:58Z",
     "images": [
-      "https://pbs.twimg.com/media/HPW42CEa8AAmPVd?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPXWrlBb0AAlE_N?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPW42CEa8AAmPVd?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "image_url": "https://pbs.twimg.com/media/HPXWrlBb0AAlE_N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "83c25f5f71b2",
+    "date": "2026-08-10",
+    "time": "22:25",
+    "store": "キャッスル記念橋南店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "2057",
+    "text": "キャッスル記念橋南店です!   ２０５７番台  Ｌ東京喰種 コンプリート機能が作動した為 遊技台の稼働を停止しております！  明日の開放をお待ちください！",
+    "x_url": "https://x.com/kinenbashi1010/status/2086806153586155545",
+    "store_handle": "kinenbashi1010",
+    "store_x_url": "https://x.com/kinenbashi1010",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T15:57:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXTFU6bkAAatGG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXTFU6bkAAatGG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "85b3a7280e75",
+    "date": "2026-08-10",
+    "time": "20:10",
+    "store": "ワンダーランド1188福岡東店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート速報  e東京喰種にてコンプリート達成ッ  人気機種は伊達じゃないですね  コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/wl_fkhigashi/status/2086772081421852798",
+    "store_handle": "wl_fkhigashi",
+    "store_x_url": "https://x.com/wl_fkhigashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T16:01:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPWxnoBaAAAqB-U?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HO3qVLxbwAAg4cT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPWxnoBaAAAqB-U?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "43a4237596a2",
@@ -107,45 +106,45 @@
     "machine_id": "11111111-1111-1111-1111-000000000034"
   },
   {
-    "id": "19b07f15faad",
+    "id": "f8127c7e359d",
     "date": "2026-08-10",
-    "time": "16:23",
-    "store": "スーパーD’ステーション鴻巣店",
-    "machine": "eフィーバーキン肉マン",
+    "time": "17:16",
+    "store": "楽園上新屋",
+    "machine": "e東京喰種W",
     "machine_type": "pachinko",
-    "slot_number": "446",
-    "text": "速報   1円パチンコ 446番台 eFキン肉マン  コンプリート達成です    おめでとうございます！！",
-    "x_url": "https://x.com/KounosuD/status/2086714948835794964",
-    "store_handle": "kounosud",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-10T15:46:50Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPV_rlCb0AAgaRY?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPV_rlCb0AAgaRY?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000031"
-  },
-  {
-    "id": "e0472f55ac63",
-    "date": "2026-08-10",
-    "time": "16:21",
-    "store": "エクスアリーナ東京",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "779",
-    "text": "【緊急報告】  今日わテラタニです  本日もご報告させて頂きます コンプリーーート 779番台ヴァルヴレイヴ2 達成おめでとうございます  コンプ常連のヴヴヴ2 Xアリーナ東京 コンプしております 是非ともご来場お待ちしてます。  #エクスアリーナ東京 #ヴヴヴ2 #コンプリート #金髪",
-    "x_url": "https://x.com/XAtokyo1223/status/2086714492357079165",
-    "store_handle": "xatokyo1223",
-    "store_x_url": "https://x.com/xatokyo1223",
+    "slot_number": "517",
+    "text": "コンプリートのご報告   楽園上新屋店です   本日8月10日（月） 16時40分    e東京喰種W　517番台       コンプリート達成致しました     遊技台停止となります。",
+    "x_url": "https://x.com/rakuenkamiaraya/status/2086728282872160460",
+    "store_handle": "rakuenkamiaraya",
+    "store_x_url": "https://x.com/rakuenkamiaraya",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-10T15:46:50Z",
+    "collected_at": "2026-08-10T14:45:02Z",
     "images": [
-      "https://pbs.twimg.com/media/HPV_VL8aoAAx327?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPWMRd_bkAEor5a?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPV_VL8aoAAx327?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "image_url": "https://pbs.twimg.com/media/HPWMRd_bkAEor5a?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "1c5fb5042a83",
+    "date": "2026-08-10",
+    "time": "09:00",
+    "store": "ダイナム熊本菊池店～SINCE 2005.03.16～",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "509",
+    "text": "8月9日　日曜日  509番台L真打吉宗 コンプリート達成です ご遊技されていたお客様 おめでとうございます #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00239/status/2086603494350328246",
+    "store_handle": "dynam_00239",
+    "store_x_url": "https://x.com/dynam_00239",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T16:30:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPUa0KzXoAAEJPO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPUa0KzXoAAEJPO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   }
 ]
