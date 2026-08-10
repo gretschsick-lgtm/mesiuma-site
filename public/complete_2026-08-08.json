@@ -1518,6 +1518,52 @@
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
   },
   {
+    "id": "cd524872c98f",
+    "date": "2026-08-08",
+    "time": "08:30",
+    "store": "PSJBB店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "521",
+    "text": "PSJBB店です 8月8日（土）  パチンココーナー コンプリート e牙狼12黄金騎士極限 521番台 e 東京喰種 1011番台  スロットコーナー 【17,000over】 やじきた道中記参る! 1205番台 バイオハザードRE:3 1651番台  【13,000over】 ミリオンゴッド‐神々の軌跡‐ 1511番台  おめでとうございます",
+    "x_url": "https://x.com/psj_bb1000/status/2086233496922489305",
+    "store_handle": "psj_bb1000",
+    "store_x_url": "https://x.com/psj_bb1000",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T23:42:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNWIQNbsAAbu-m?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNWKzGaIAAapDD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNWND9agAAo-s-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNWIQNbsAAbu-m?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "e1f4f81a0199",
+    "date": "2026-08-08",
+    "time": "08:30",
+    "store": "PSJBB店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "PSJBB店です 8月8日（土）  パチンココーナー コンプリート e牙狼12黄金騎士極限 521番台 e 東京喰種 1011番台  スロットコーナー 【17,000over】 やじきた道中記参る! 1205番台 バイオハザードRE:3 1651番台  【13,000over】 ミリオンゴッド‐神々の軌跡‐ 1511番台  おめでとうございます",
+    "x_url": "https://x.com/psj_bb1000/status/2086233496922489305",
+    "store_handle": "psj_bb1000",
+    "store_x_url": "https://x.com/psj_bb1000",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-09T23:42:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNWIQNbsAAbu-m?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNWKzGaIAAapDD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPNWND9agAAo-s-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNWIQNbsAAbu-m?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
     "id": "d8d872a717ba",
     "date": "2026-08-08",
     "time": "07:33",
