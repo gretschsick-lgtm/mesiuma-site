@@ -43,6 +43,29 @@
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
+    "id": "bbda2d4c8d72",
+    "date": "2026-08-09",
+    "time": "23:13",
+    "store": "ビックつばめ高崎店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "リニューアルオープン3日目 ご来店ありがとうございます  本日のコンプリート 真打吉宗 おめでとうございます  ８月10日 入場抽選時間 9時15分開始  明日は販売会も予定 ご来店心よりお待ちしております  #ビックつばめ高崎店　 #スロット大幅増台　 #リニューアルオープン　 #販売会",
+    "x_url": "https://x.com/bt_takasaki/status/2086455787971543382",
+    "store_handle": "bt_takasaki",
+    "store_x_url": "https://x.com/bt_takasaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T21:01:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPSUc9TagAEfgYR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPSUc9TboAAocOb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPSUc9faQAAs9x4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPSUc9TagAEfgYR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
     "id": "18c3a646ee25",
     "date": "2026-08-09",
     "time": "23:06",
@@ -104,6 +127,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPSFVX_aAAAUNp_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
+    "id": "970358a287b6",
+    "date": "2026-08-09",
+    "time": "22:06",
+    "store": "ダイナム柴田町店 中の人・うえっちゃん",
+    "machine": "戦国コレクション6",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ダイナム気仙沼店 コンプリート達成 おめでとうございます  Ｌ戦国コレクション6 強アームに脱帽です",
+    "x_url": "https://x.com/uecchan_dy/status/2086439087511355633",
+    "store_handle": "uecchan_dy",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/uecchan_dy",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-10T20:38:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPSD2vBXgAAwR37?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPSD2vBXgAAwR37?format=jpg&name=large",
+    "machine_id": "fcec3359-8161-48a4-b288-0752b8a02297"
   },
   {
     "id": "c9e03c4aa22c",
