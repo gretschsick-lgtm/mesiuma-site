@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-10T12:50:56+09:00",
+  "generated_at": "2026-08-10T14:54:16+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 344,
+      "total_count": 346,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 2,
@@ -873,7 +873,7 @@
         "count": 11
       }
     ],
-    "total_count": 2663
+    "total_count": 2665
   },
   "store_complete_counts": {
     "ARROW浪速店": 57,
@@ -896,8 +896,8 @@
     "サガちゃんPARK": 28,
     "マルハン川越店": 27,
     "マルハンメガシティ水戸赤塚": 27,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 25,
     "メガフェイス960飯塚": 24,
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 24,
     "新ガーデン西浦和": 23,
     "パチンコの玉屋∞本店": 22,
     "ダイナム長野上田店": 22,
@@ -1396,13 +1396,14 @@
     "楽園 店長・アメ横店": 1,
     "NIKO　NIKO　大和田店": 1,
     "コンサートホール北千住": 1,
+    "メガサイバー新鎌ヶ谷店": 1,
     "スーパーD'ステーション39福岡本店": 1,
     "メガガイア調布 メガバヤシ店長": 1,
     "ダイナム二本松店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2443,
-    "records_without_store_id": 220,
+    "records_with_store_id": 2444,
+    "records_without_store_id": 221,
     "canonical_store_ids": 401
   }
 }

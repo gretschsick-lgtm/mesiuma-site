@@ -153,6 +153,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "60f9073927f7",
+    "date": "2026-08-09",
+    "time": "19:13",
+    "store": "メガサイバー新鎌ヶ谷店",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "1861",
+    "text": "コンプリート報告  1861番台 Lバイオハザード5 コンプリート達成 おめでとうございます  #メガサイバー新鎌ヶ谷 #チバラキガイアコンプ",
+    "x_url": "https://x.com/MC_shinkamagaya/status/2086395399154381138",
+    "store_handle": "mc_shinkamagaya",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-10T05:45:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPRc14BbcAAilfZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPRc14BbcAAilfZ?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
     "id": "8579842f2541",
     "date": "2026-08-09",
     "time": "19:11",
@@ -433,6 +454,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPUpplragAAmxZ9?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "243182709246",
+    "date": "2026-08-09",
+    "time": "10:00",
+    "store": "ダイナム三重名張店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "426",
+    "text": "8/9(日)  426番台 Lチバリヨ2ZB  コンプリート  おめでとうございます  #ダイナム #コンプリート",
+    "x_url": "https://x.com/dynam_00187/status/2086618599087652881",
+    "store_handle": "dynam_00187",
+    "store_x_url": "https://x.com/dynam_00187",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T05:44:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPUojufX0AAOWSi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPUojufX0AAOWSi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
   },
   {
     "id": "601f355b0cba",
