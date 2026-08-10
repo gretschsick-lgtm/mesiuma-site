@@ -275,6 +275,27 @@
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
   },
   {
+    "id": "132a11309e75",
+    "date": "2026-08-03",
+    "time": "20:51",
+    "store": "プレイランドキャッスル大曽根店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート報告  番台 LソードアートオンラインⅡ  遊技台の開放は明日となります 明日のご来店もお待ちしております",
+    "x_url": "https://x.com/castle_ozone/status/2084245725584724168",
+    "store_handle": "castle_ozone",
+    "store_x_url": "https://x.com/castle_ozone",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T08:56:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HOy6ZyeacAAuE6Q?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HOy6ZyeacAAuE6Q?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "3cdd321b417f",
     "date": "2026-08-03",
     "time": "20:47",

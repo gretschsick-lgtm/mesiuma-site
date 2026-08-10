@@ -1,5 +1,48 @@
 [
   {
+    "id": "a250b683d32f",
+    "date": "2026-08-09",
+    "time": "23:39",
+    "store": "MJアリーナ空港店",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "310",
+    "text": "本日8月9日  Lからくりサーカス 　　310番台  閉店ギリギリ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mjkuukou/status/2086462271006683297",
+    "store_handle": "mjkuukou",
+    "store_x_url": "https://x.com/mjkuukou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T08:56:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPSaCq3acAAg0Np?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPSaCq3acAAg0Np?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "e34b9d9c2d"
+  },
+  {
+    "id": "18c3a646ee25",
+    "date": "2026-08-09",
+    "time": "23:06",
+    "store": "ラッキープラザ1111弥富店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1091",
+    "text": "本日、1091番台ヴァルヴレイヴ2    コンプリートおめでとうございます！",
+    "x_url": "https://x.com/Yatomilp1111/status/2086454031103438977",
+    "store_handle": "yatomilp1111",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-10T08:56:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPSSjoqakAAlgi0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPSSjoqakAAlgi0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "700fa4e617af",
     "date": "2026-08-09",
     "time": "21:52",
@@ -464,7 +507,9 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-10T07:41:49Z",
-    "machine_id": "11111111-1111-1111-1111-000000000010"
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2086288118131429376/img/eq4Oqg_5VRtaAsRn.jpg?format=jpg&name=large",
+    "video_url": "https://video.twimg.com/amplify_video/2086288118131429376/vid/avc1/0/0/720x1280/aqin-PbCSlSks5QG.mp4"
   },
   {
     "id": "4169f063f83d",
