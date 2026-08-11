@@ -1,5 +1,27 @@
 [
   {
+    "id": "e915664883c2",
+    "date": "2026-08-11",
+    "time": "17:13",
+    "store": "DIVO知寄店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "366",
+    "text": "外は「よさこい祭り」真っ最中！ 踊り子さん達が楽しんでますね♪ 国民の祝日「山の日」 「 動かざること山の如（ごと）し」 店内もお客様に楽しんで頂いております なんと！！！！ 不動の人気機種 e東京喰種W　366番台　にて コンプリート達成！！おめでとうございます！ #ディーボ知寄",
+    "x_url": "https://x.com/divo_x_chiyori/status/2087089945483821497",
+    "store_handle": "divo_x_chiyori",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/divo_x_chiyori",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-11T10:24:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPbQDKCawAArJRd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPbQDKCawAArJRd?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "45990cb37b"
+  },
+  {
     "id": "b49c4d1c3687",
     "date": "2026-08-11",
     "time": "16:25",
@@ -19,5 +41,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPbKQW4acAAqcNf?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "4f25f7b4a3ae",
+    "date": "2026-08-11",
+    "time": "08:30",
+    "store": "ダイナム岩手大船渡店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "386",
+    "text": "コンプリート達成  昨日、8月10日に 386番台『スマスロ 北斗の拳 転生の章2』にて コンプリート達成致しました！ おめでとうございます  #ダイナム #大船渡 #コンプリート",
+    "x_url": "https://x.com/dynam_00186/status/2086958296615837855",
+    "store_handle": "dynam_00186",
+    "store_x_url": "https://x.com/dynam_00186",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T10:56:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPZdguSXIAANrkW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPZdguSXIAANrkW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   }
 ]
