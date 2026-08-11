@@ -313,12 +313,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-10T19:17:13Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "image_url": "https://pbs.twimg.com/media/HPHb8v_aAAAkcFc.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HPHb8v_aAAAkcFc.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPHb8v_aAAAkcFc?format=jpg&name=large"
-    ]
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "0d0757273662",
@@ -493,27 +488,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPG_tgRagAINDZt?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
-  },
-  {
-    "id": "ec85ca1774d0",
-    "date": "2026-08-07",
-    "time": "18:09",
-    "store": "楽園ハッピーロード大山店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "2601",
-    "text": "楽園ハッピーロード大山です  本日、8月7日(金) スロットコーナーから   2601番台　 【北斗の拳 転生の章2】      コンプリート機能が作動いたしました 本日は遊技台停止となります",
-    "x_url": "https://x.com/ooyama_rakuen/status/2085654473297547429",
-    "store_handle": "ooyama_rakuen",
-    "store_x_url": "https://x.com/ooyama_rakuen",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-11T15:01:07Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPG7eUIaQAAigML?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPG7eUIaQAAigML?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "082d6af30f0c",
