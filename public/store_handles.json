@@ -10782,18 +10782,19 @@
     "canonical_handle": true
   },
   "wl_od2": {
-    "store": "ワンダーランド",
+    "store": "ワンダーランド小戸Ⅱ",
     "x_url": "https://x.com/wl_od2",
     "count": 0,
     "type": "store",
-    "store_id": "2b9ca77ba1",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_od2",
+    "store_id": "8d358dc60a",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/odo2/",
     "is_active": true,
     "match_method": "exact_name",
-    "canonical_pref": "佐賀県",
-    "rejection_reason": "store_has_other_official_x"
+    "canonical_pref": "福岡県",
+    "verified_at": "2026-08-02",
+    "canonical_handle": true
   },
   "y_tencho_capT": {
     "store": "やすだ稲毛駅前店 店長",
@@ -10845,19 +10846,19 @@
     "canonical_pref": "滋賀県"
   },
   "wl_o_minami": {
-    "store": "ワンダーランド臼杵店",
+    "store": "ワンダーランド1177大分南店",
     "x_url": "https://x.com/wl_o_minami",
     "count": 0,
     "type": "store",
-    "store_id": "59437d6f33",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/wl_o_minami",
+    "store_id": "dab2bf7fcf",
+    "verification_status": "verified",
+    "evidence_type": "official_chain_site",
+    "evidence_url": "https://www.wonderland.gr.jp/oitaminami/",
     "match_method": "exact_name",
-    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "大分県",
-    "canonical_handle": false
+    "canonical_handle": true,
+    "verified_at": "2026-08-02"
   },
   "NEWSHINSEI": {
     "store": "10時開店",
