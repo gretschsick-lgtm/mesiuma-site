@@ -128,6 +128,50 @@
     "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036"
   },
   {
+    "id": "da2a7a39d003",
+    "date": "2026-08-10",
+    "time": "20:45",
+    "store": "ダイナム大曲店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "500",
+    "text": "こんばんは  今、緊急でXを投稿してます  LソードアートオンラインⅡ 500番台でなんと  コンプリート達成です  おめでとうございます  明日もダイナム大曲店へお越しください  #ダイナム　#大曲　#コンプリート",
+    "x_url": "https://x.com/dynam_00063/status/2086780879347597712",
+    "store_handle": "dynam_00063",
+    "store_x_url": "https://x.com/dynam_00063",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T08:38:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPW8JR5XoAALlKI?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPW8JoCWoAEn0tf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPW8JR5XoAALlKI?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "5b674b1a9108",
+    "date": "2026-08-10",
+    "time": "20:31",
+    "store": "BOOM天神本店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "138",
+    "text": "コンプリート達成 138番台　e女神のカフェテラス  コンプリート機能発動！ おめでとうございます！",
+    "x_url": "https://x.com/boomtenjin3838/status/2086777345982312944",
+    "store_handle": "boomtenjin3838",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-11T08:38:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPW4j5pbcAE_LRt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPW4j5pbcAE_LRt?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "bc3e125233"
+  },
+  {
     "id": "4a98b60780cd",
     "date": "2026-08-10",
     "time": "20:30",
@@ -211,6 +255,49 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPWleNdbMAA1Adu?format=jpg&name=large",
     "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8"
+  },
+  {
+    "id": "200a1a221dbf",
+    "date": "2026-08-10",
+    "time": "18:27",
+    "store": "テンガイ戸島店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！！   テンガイ戸島店です L北斗の拳転生2 コンプリート達成  コンプリートされたお客様 おめでとうございます",
+    "x_url": "https://x.com/tenguytoshima/status/2086746295818224067",
+    "store_handle": "tenguytoshima",
+    "store_x_url": "https://x.com/tenguytoshima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T08:37:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPWciM2bMAAwFk8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPWciM2bMAAwFk8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "fb97339ffb4d",
+    "date": "2026-08-10",
+    "time": "18:23",
+    "store": "テキサス小倉店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "951",
+    "text": "こんばんは  テキサス小倉店です  8月10日  コンプリート達成   951番台 e牙狼12    黄金騎士極限   おめでとうございます #コンプリート  #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2086745326371918076",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T08:37:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPWbzaJbAAAE0EO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPWbzaHakAAgplZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPWbzaJbAAAE0EO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "86add2b42bd8",
