@@ -364,6 +364,27 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "2523a6a32e2a",
+    "date": "2026-08-04",
+    "time": "20:20",
+    "store": "ダイナム山口防府店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日はスロットバラエティ取材 バラエティコーナーから 『攻殻機動隊』がコンプリートを達成しました 多彩な機種が揃うバラエティコーナーに 今後もご注目ください  #ダイナム #攻殻機動隊",
+    "x_url": "https://x.com/dynam_00195/status/2084600255559922123",
+    "store_handle": "dynam_00195",
+    "store_x_url": "https://x.com/dynam_00195",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T23:04:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO384f5WoAAHwJY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO384f5WoAAHwJY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "2cec348c93ea",
     "date": "2026-08-04",
     "time": "20:18",
@@ -514,6 +535,49 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HO3qXd8a8AA3vEb?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "f3a996993b21",
+    "date": "2026-08-04",
+    "time": "18:08",
+    "store": "ワンダーランド日出町店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート速報  e牙狼12-黄金騎士極限- コンプリート達成しました  おめでとうございます",
+    "x_url": "https://x.com/wl_hinodemachi/status/2084567044494897184",
+    "store_handle": "wl_hinodemachi",
+    "store_x_url": "https://x.com/wl_hinodemachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-10T17:17:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO3epQGbQAAhTYC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO3epQGbQAAhTYC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "c1770ba923c7",
+    "date": "2026-08-04",
+    "time": "17:46",
+    "store": "DSG ARENA 七尾店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "夕方からのナナアリです！ コンニチワ さぁまだ夕方のお時間ですが早い早いコンプリート報告 『Ｌスマスロ攻殻機動隊』 コンプリート達成です！！ おめでとうございます  この後、夕方・夜からもナナアリエンタメでごゆっくりお楽しみ下さい #新台入替完了済み #最新機種導入済み",
+    "x_url": "https://x.com/DsgArenaNanao77/status/2084561672455544878",
+    "store_handle": "dsgarenananao77",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-10T22:46:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HO3ZVGMbkAAcX4g?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HO3ZVGMbkAAcX4g?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "56f1315b85"
   },
   {
     "id": "0387b3e7f677",
