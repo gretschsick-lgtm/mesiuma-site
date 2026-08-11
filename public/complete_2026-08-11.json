@@ -197,6 +197,27 @@
     "store_id": "2b4d471207"
   },
   {
+    "id": "4e372177071b",
+    "date": "2026-08-11",
+    "time": "19:34",
+    "store": "マルハンメガシティ前橋インター",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "444",
+    "text": "8月11日（火） 本日もご来店 誠にありがとうございます  444番台 ｅ牙狼１２ＸＸ－ＭＪ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/maenakanohito/status/2087125502624698667",
+    "store_handle": "maenakanohito",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maenakanohito",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-11T19:18:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPb1bmhbEAAI7JJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPb1bmhbEAAI7JJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "a2b2602b974d",
     "date": "2026-08-11",
     "time": "19:27",
@@ -239,6 +260,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "ff818c63fa24",
+    "date": "2026-08-11",
+    "time": "19:21",
+    "store": "メガフェイス1500宗像",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  『Lゴッドイーターリザレクション』より 　　コンプリート達成  本日3台目のコンプリート台は神を喰らったこの台です　　　　 　　　　　　　神機覚醒  おめでとうございます",
+    "x_url": "https://x.com/megaface_1500/status/2087122333253399016",
+    "store_handle": "megaface_1500",
+    "store_x_url": "https://x.com/megaface_1500",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T19:17:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPbyC-gbgAEFn9p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPbyC-gbgAEFn9p?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
     "id": "37355a700a25",
     "date": "2026-08-11",
     "time": "19:14",
@@ -259,6 +301,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPbw8w9bwAIUEKI?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
+    "id": "ea98856ed49c",
+    "date": "2026-08-11",
+    "time": "19:07",
+    "store": "YASUDA9（東池袋9号店）",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "＜ｿﾞｸﾎｰ!!ﾏﾀﾏﾀｺﾝﾌﾟﾘｰﾄ!! ＜ﾝﾅｰﾊｯﾊｯﾊ!!   YASUDA No番台 またまた攻殻機動隊から コンプリート達成 おめでとうございます  ＜ﾏﾀﾞﾏﾀﾞｰ!!",
+    "x_url": "https://x.com/yasuda_ike7/status/2087118643809407233",
+    "store_handle": "yasuda_ike7",
+    "store_x_url": "https://x.com/yasuda_ike7",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T19:17:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPbvLygaYAAkMBM?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPa6FAzaEAAyeKz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPbvLygaYAAkMBM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "f646448024d1",
