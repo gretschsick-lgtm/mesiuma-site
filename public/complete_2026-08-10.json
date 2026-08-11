@@ -192,26 +192,25 @@
     "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036"
   },
   {
-    "id": "ff3bd98b1b06",
+    "id": "080094ff3ea6",
     "date": "2026-08-10",
-    "time": "21:22",
-    "store": "マルハン袋井店",
-    "machine": "eフィーバーキン肉マン",
-    "machine_type": "pachinko",
-    "slot_number": "327",
-    "text": "8月10日(月)  な…なんと、3日連続のコンプリート報告！ 327番台 　eフィーバーキン肉マン  コンプリート達成 単発終わりかと思いきや その後１回転で当たりそのまま一撃コンプリート おめでとうございます",
-    "x_url": "https://x.com/maruhan_fukuroi/status/2087152637129191564",
-    "store_handle": "maruhan_fukuroi",
-    "store_x_url": "https://x.com/maruhan_fukuroi",
+    "time": "21:30",
+    "store": "ダイナム柴田町店ゆったり館",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月10日（月） 19：30頃  Lチバリヨ２コンプリート達成しました   おめでとうございます   ＃ダイナム＃コンプリート",
+    "x_url": "https://x.com/dynam_00109/status/2086792203272147327",
+    "store_handle": "dynam_00109",
+    "store_x_url": "https://x.com/dynam_00109",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-11T14:05:46Z",
+    "collected_at": "2026-08-11T14:36:33Z",
     "images": [
-      "https://pbs.twimg.com/media/HPcOQmmaIAA-Xlj?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPcOQmxbwAA3e7G?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPXGcfNXYAAm4WB?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPcOQmmaIAA-Xlj?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000031"
+    "image_url": "https://pbs.twimg.com/media/HPXGcfNXYAAm4WB?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "da2a7a39d003",
