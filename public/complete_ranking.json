@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-11T09:16:55+09:00",
+  "generated_at": "2026-08-11T12:43:45+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 408,
+      "total_count": 409,
       "stores": [
         {
           "rank": 1,
@@ -90,7 +90,7 @@
         {
           "rank": 5,
           "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-          "count": 12
+          "count": 13
         },
         {
           "rank": 6,
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2727
+    "total_count": 2728
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -1164,6 +1164,7 @@
     "123+N和歌山本店": 2,
     "ドーム大和高田店": 2,
     "Durham S-1": 2,
+    "記念橋南店": 2,
     "ビックマーチ伊勢崎店": 2,
     "DSG ARENA 七尾店": 2,
     "やすだ幕張店": 2,
@@ -1328,7 +1329,6 @@
     "ビックマーチ西川田店": 1,
     "佐久店": 1,
     "キング観光熊野店": 1,
-    "記念橋南店": 1,
     "キコーナ阪神西宮店": 1,
     "キコーナ守口": 1,
     "プレゴ立川店": 1,
@@ -1418,7 +1418,7 @@
   },
   "store_id_coverage": {
     "records_with_store_id": 2498,
-    "records_without_store_id": 229,
+    "records_without_store_id": 230,
     "canonical_store_ids": 415
   }
 }
