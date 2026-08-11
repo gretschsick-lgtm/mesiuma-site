@@ -414,6 +414,27 @@
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
+    "id": "551df792972e",
+    "date": "2026-08-08",
+    "time": "21:56",
+    "store": "メガフェイス880博多本店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "先程スマスロ 戦国乙女5がコンプリート致しました うおおおおめでとうございます(⁠人⁠*⁠´⁠∀⁠｀⁠)⁠｡⁠*ﾟ⁠+",
+    "x_url": "https://x.com/megaface_880/status/2086074174355984725",
+    "store_handle": "megaface_880",
+    "store_x_url": "https://x.com/megaface_880",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-11T11:15:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPM5ZllbEAAbDtn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPM5ZllbEAAbDtn?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "5ad6ea8c3b23",
     "date": "2026-08-08",
     "time": "21:52",
@@ -433,6 +454,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPM4Nmda4AAVEY-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
+    "id": "eedc44d71ce9",
+    "date": "2026-08-08",
+    "time": "21:41",
+    "store": "パーラーＪ-遊 仙台",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは  パーラーJ遊仙台です  コンプリート報告 スマスロからくりサーカス2 おめでとうございます  ☆本日延長営業☆ 24:30までお遊びいただけます",
+    "x_url": "https://x.com/Parlor_jusendai/status/2086070356411134414",
+    "store_handle": "parlor_jusendai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-11T11:15:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPM17iUacAABcY5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPM17iUacAABcY5?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "e78da216bf90",
