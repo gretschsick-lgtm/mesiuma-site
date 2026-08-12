@@ -660,6 +660,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "1e50e33135bb",
+    "date": "2026-08-09",
+    "time": "19:15",
+    "store": "キクヤ春日井店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "39",
+    "text": "コンプリート情報 39番台　スマスロ 攻殻機動隊 おめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2086395830962155593",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T10:24:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPRd6qNbQAEZLlb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPRd6qNbQAEZLlb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "60f9073927f7",
     "date": "2026-08-09",
     "time": "19:13",

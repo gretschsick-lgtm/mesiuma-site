@@ -129,6 +129,27 @@
     "store_id": "35782adb87"
   },
   {
+    "id": "a1d1b58fd43a",
+    "date": "2026-08-10",
+    "time": "22:09",
+    "store": "ROYAL函館店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "542",
+    "text": "コンプリ――ト速報  542番台 Lチバリヨ2 なんと昨日に続き今日もコンプリート  どゆことですか！！ おめでとうございます！",
+    "x_url": "https://x.com/royalhakodate/status/2087164515448414619",
+    "store_handle": "royalhakodate",
+    "store_x_url": "https://x.com/royalhakodate",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T10:26:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcYk-GaAAASvLN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcYk-GaAAASvLN?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "7883db1869f5",
     "date": "2026-08-10",
     "time": "22:06",

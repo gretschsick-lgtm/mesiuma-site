@@ -633,6 +633,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "d7cc8c3f1dbc",
+    "date": "2026-08-08",
+    "time": "21:33",
+    "store": "コンコルド浜松木戸店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "3606",
+    "text": "コンプリートのご報告  L東京喰種　3606番台  お名前【匿名希望】  コメント『最後までヒリつきました！』  『ありがとうございました！』  おめでとうございます！ 大型連休はFLOWERで決まり 明日もご来店お待ちしております",
+    "x_url": "https://x.com/Concorde_kido/status/2086068229336936912",
+    "store_handle": "concorde_kido",
+    "store_x_url": "https://x.com/concorde_kido",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T10:10:05Z",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "1d445547a050",
     "date": "2026-08-08",
     "time": "21:30",
@@ -652,6 +669,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPMx3cvaoAAoWPJ?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "88c18340025f",
+    "date": "2026-08-08",
+    "time": "21:30",
+    "store": "ダイナム栃木さくら店〜Since.2010.9.23",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "436",
+    "text": "こんばんは ８月８日（土） ４３６番台 Ｌ真打吉宗 コンプリート機能作動しました  　  ご遊技頂いたお客様 おめでとうございます  #ダイナム #コンプリート",
+    "x_url": "https://x.com/dynam_00349/status/2086067427201208504",
+    "store_handle": "dynam_00349",
+    "store_x_url": "https://x.com/dynam_00349",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T10:10:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMzRFTXIAAxnHR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMzRFTXIAAxnHR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "4e8374992495",
