@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T06:12:19+09:00",
+  "generated_at": "2026-08-13T08:22:18+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 535,
+      "total_count": 536,
       "stores": [
         {
           "rank": 1,
@@ -156,13 +156,13 @@
         },
         {
           "rank": 8,
-          "name": "eカケグルイ",
+          "name": "eエヴァ17はじまりR",
           "count": 4
         },
         {
           "rank": 9,
-          "name": "eエヴァ17はじまりR",
-          "count": 3
+          "name": "eカケグルイ",
+          "count": 4
         },
         {
           "rank": 10,
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2854
+    "total_count": 2855
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -1397,6 +1397,7 @@
     "ダイナム新潟東店": 1,
     "延田グループ岡山エリア最大設置店": 1,
     "メガフェイス880博多本店": 1,
+    "店長M": 1,
     "パーラーＪ-遊 仙台": 1,
     "ゆいち店長": 1,
     "ラカータ大宮駅前店": 1,
@@ -1441,7 +1442,7 @@
   },
   "store_id_coverage": {
     "records_with_store_id": 2600,
-    "records_without_store_id": 254,
+    "records_without_store_id": 255,
     "canonical_store_ids": 433
   }
 }
