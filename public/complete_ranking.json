@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T20:32:46+09:00",
+  "generated_at": "2026-08-12T21:19:54+09:00",
   "monthly": [
     {
       "month": "2026-08",
@@ -1439,8 +1439,8 @@
     "楽園相模原店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2575,
-    "records_without_store_id": 252,
-    "canonical_store_ids": 428
+    "records_with_store_id": 2577,
+    "records_without_store_id": 250,
+    "canonical_store_ids": 429
   }
 }
