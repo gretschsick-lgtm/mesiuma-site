@@ -539,6 +539,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "f626f20b706f",
+    "date": "2026-08-11",
+    "time": "15:15",
+    "store": "YASUDA9（東池袋9号店）",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "月日  <ｿｸﾎｳ!ｿｸﾎｳ! <ｺﾝﾌﾟﾘｰﾄﾊｯｾｲ! <ﾝﾅｰﾊｯﾊｯﾊ  YASUDA No番台 攻殻機動隊 コンプリート達成 おめでとうございます  <ｵｼﾞｶﾝﾏﾀﾞﾏﾀﾞ <ｵﾏﾁｼﾃﾏｽ",
+    "x_url": "https://x.com/yasuda_ike7/status/2087060393906815300",
+    "store_handle": "yasuda_ike7",
+    "store_x_url": "https://x.com/yasuda_ike7",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T03:23:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPa6FAzaEAAyeKz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPa6FAzaEAAyeKz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "05fdcdb7a4ed",
     "date": "2026-08-11",
     "time": "15:10",
@@ -3463,6 +3484,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPMqiuNaQAAl-Cb?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "6cada07ae2dd",
+    "date": "2026-08-08",
+    "time": "20:52",
+    "store": "キング観光サウザンド名古屋駅柳橋店",
+    "machine": "L邪神ちゃんドロップキック",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは #やなキン　です  L邪神ちゃんドロップキック　にて コンプリートです おめでとうございます  最後までお楽しみくださいませ！  #キング観光 #名古屋　#柳橋",
+    "x_url": "https://x.com/yanakin1515/status/2086057926884794868",
+    "store_handle": "yanakin1515",
+    "store_x_url": "https://x.com/yanakin1515",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T03:37:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMqkmJboAAghIK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMqkmJboAAghIK?format=jpg&name=large",
+    "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8"
   },
   {
     "id": "21b6ce53b2b1",
