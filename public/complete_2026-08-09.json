@@ -321,6 +321,27 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "2938b5a6b8b3",
+    "date": "2026-08-09",
+    "time": "21:10",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "2350",
+    "text": "楽園池袋店ゲートウェイです  本日、8月9日(日) 4円パチンココーナーから   2350番台　 【eリコリス・リコイル】      コンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2086424846146429418",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T07:25:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPR4VrsaMAAB1Uq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPR4VrsaMAAB1Uq?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "1743619aa386",
     "date": "2026-08-09",
     "time": "21:07",

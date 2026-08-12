@@ -154,6 +154,69 @@
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
   },
   {
+    "id": "5f8686bbe44b",
+    "date": "2026-08-11",
+    "time": "20:30",
+    "store": "マルハン旭川永山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "73",
+    "text": "【73番台】 【e牙狼12XX－MJ】  コンプリート達成おめでとうございますデータを確認できる マルハンアプリはこちらから http:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/nagayamamaruhan/status/2087139648296640546",
+    "store_handle": "nagayamamaruhan",
+    "store_x_url": "https://x.com/nagayamamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T07:41:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcCcodasAAmhx5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcCcodasAAmhx5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "5e4db7732421",
+    "date": "2026-08-11",
+    "time": "20:30",
+    "store": "マルハン旭川永山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【4番台】 【e牙狼12XX－MJ】  コンプリート達成おめでとうございますデータを確認できる マルハンアプリはこちらから http:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/nagayamamaruhan/status/2087139621503390072",
+    "store_handle": "nagayamamaruhan",
+    "store_x_url": "https://x.com/nagayamamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T07:41:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcCbE3asAANtN9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcCbE3asAANtN9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "321259c84a61",
+    "date": "2026-08-11",
+    "time": "20:22",
+    "store": "楽園相模原店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "1513",
+    "text": "こんばんは 楽園相模原店です   先程、20時15分 【1513番台】 【Lチバリヨ2】  コンプリート達成の為、遊技台を停止させていただきました",
+    "x_url": "https://x.com/rakuen_sagami/status/2087137677791625605",
+    "store_handle": "rakuen_sagami",
+    "store_x_url": "https://x.com/rakuen_sagami",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T07:41:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcAk7mbEAEjpa9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcAk7mbEAEjpa9?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "bacedf9d311a",
     "date": "2026-08-11",
     "time": "20:12",
@@ -449,6 +512,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPbpF5ebwAArp1d?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "1a01e754ebe2",
+    "date": "2026-08-11",
+    "time": "18:16",
+    "store": "駅前店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "4192",
+    "text": "コンプリートのご報告 　　    　　   　　  《４１９２番台》      Lパチスロ からくりサーカス2  先程コンプリート達成致しました おめでとうございます  こちらの遊技台は  本日は稼働停止となります",
+    "x_url": "https://x.com/RAKUENSHIBUYA2/status/2087105763705864629",
+    "store_handle": "rakuenshibuya2",
+    "store_x_url": "https://x.com/rakuenshibuya2",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T07:40:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPbjdEdacAAon4o?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPbjdEdacAAon4o?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
+    "id": "a3e7ccf699c4",
+    "date": "2026-08-11",
+    "time": "18:08",
+    "store": "ビックつばめ須賀川店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "429",
+    "text": "429番台　e東京喰種W  コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tsubamesukagawa/status/2087103881717354575",
+    "store_handle": "tsubamesukagawa",
+    "store_x_url": "https://x.com/tsubamesukagawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T07:40:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPbg9e1bMAALl0B?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPbg9e1bMAALl0B?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
     "id": "a2031df61c47",
