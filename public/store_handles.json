@@ -55717,5 +55717,17 @@
     "evidence_url": "https://x.com/nobeokasanai",
     "canonical_pref": "宮崎県",
     "is_active": true
+  },
+  "yone_nyan": {
+    "store": "マルハン米沢店",
+    "x_url": "https://x.com/yone_nyan",
+    "count": 0,
+    "type": "store",
+    "store_id": "8ab7a83d2f",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/yone_nyan",
+    "canonical_pref": "山形県",
+    "is_active": true
   }
 }
