@@ -1,5 +1,26 @@
 [
   {
+    "id": "2209850a7d5c",
+    "date": "2026-08-12",
+    "time": "22:19",
+    "store": "ユーコーラッキー37筑後店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成のお知らせ】   本日、当店設置の 「Ｌ革命機ヴァルヴレイヴ2」にて コンプリート機能が発動いたしました。  ご遊技いただきましたお客様 誠にありがとうございました   #コンプリート  #ユーコーラッキー37筑後店",
+    "x_url": "https://x.com/YUKO_CHIKUGO/status/2087529452276432910",
+    "store_handle": "yuko_chikugo",
+    "store_x_url": "https://x.com/yuko_chikugo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T14:17:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPhk-F3bIAAosM_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPhk-F3bIAAosM_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "79e5d5afeb55",
     "date": "2026-08-12",
     "time": "20:29",
@@ -191,6 +212,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPcXOmhacAEB0IA?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "cabbe3889bf9",
+    "date": "2026-08-11",
+    "time": "21:37",
+    "store": "メガフェイス1070菊陽",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "769",
+    "text": "769番台 L戦国乙女5 コンプリート達成 #8月11日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2087156517195907580",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T14:47:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcRyhXaYAAccIJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPaOZ7tb0AAnukJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcRyhXaYAAccIJ?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "b0c241c7a484",
@@ -4801,6 +4844,28 @@
       "https://pbs.twimg.com/media/HPL-ZRHaUAAWL0Z?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPL-ZRHaUAAWL0Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "bd5c316f9cf6",
+    "date": "2026-08-08",
+    "time": "17:37",
+    "store": "フォーティ・サミット",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "e牙狼12黄金騎士極限 増台後2度目のコンプリート達成  達成されたお客様 おめでとうございます('◇')ゞ  あーんど 対ありでした<(_ _)>    #サミット  #8月  #創業月間 #感謝 #コンプリート",
+    "x_url": "https://x.com/40_hagiwara/status/2086008782308663500",
+    "store_handle": "40_hagiwara",
+    "store_x_url": "https://x.com/40_hagiwara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T14:48:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPL95eAaoAAEQKt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPL96rmbkAAlpu0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPL95eAaoAAEQKt?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
