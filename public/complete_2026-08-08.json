@@ -282,6 +282,27 @@
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
   },
   {
+    "id": "7f1e27a6aea5",
+    "date": "2026-08-08",
+    "time": "22:19",
+    "store": "マルハン旭川永山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "68",
+    "text": "【68番台】 【e牙狼12XX－MJ】  コンプリート達成おめでとうございますデータを確認できる マルハンアプリはこちらから http:// maruhan.co.jp/app2/sp/ #旭川 #北海道マルハン #パチンコ #スロット",
+    "x_url": "https://x.com/nagayamamaruhan/status/2086079774032793743",
+    "store_handle": "nagayamamaruhan",
+    "store_x_url": "https://x.com/nagayamamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T13:12:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPM-cXZa0AAgDc0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPM-cXZa0AAgDc0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "1523b06dcca8",
     "date": "2026-08-08",
     "time": "22:16",
@@ -647,7 +668,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-12T10:10:05Z",
-    "machine_id": "11111111-1111-1111-1111-000000000006"
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "image_url": "https://pbs.twimg.com/media/HPMzq1pakAAAk5I.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPMzq1pakAAAk5I.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPMzq1pakAAAk5I?format=jpg&name=large"
+    ]
   },
   {
     "id": "1d445547a050",
