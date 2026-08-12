@@ -1,5 +1,47 @@
 [
   {
+    "id": "10af056a1cc9",
+    "date": "2026-08-11",
+    "time": "22:35",
+    "store": "パチンコ玉屋宗像店",
+    "machine": "プリズムナナ",
+    "machine_type": "slot",
+    "slot_number": "1252",
+    "text": "おめでとうございます 1252番台「プリズムナナ」 コンプリート達成",
+    "x_url": "https://x.com/tamaya_munakata/status/2087170988110934333",
+    "store_handle": "tamaya_munakata",
+    "store_x_url": "https://x.com/tamaya_munakata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T17:57:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPce8OUbcAAQTQR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPce8OUbcAAQTQR?format=jpg&name=large",
+    "machine_id": "ceb000ec-c9dd-46c6-9880-f0e68fdd28f2"
+  },
+  {
+    "id": "f59d66fa026c",
+    "date": "2026-08-11",
+    "time": "22:34",
+    "store": "キング観光サウザンド生桑店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "キング観光サウザンド生桑店 　県下最大級１３６５台！  Lヴァルヴレイヴ2 にてコンプリート達成！！  おめでとうございます！ #キング観光　#生桑　#イクキン",
+    "x_url": "https://x.com/king_ikuwa/status/2087170731583156566",
+    "store_handle": "king_ikuwa",
+    "store_x_url": "https://x.com/king_ikuwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T17:57:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPceq2JbUAAzTOB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPceq2JbUAAzTOB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "75a5a720b0a5",
     "date": "2026-08-11",
     "time": "22:19",
@@ -63,6 +105,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPcZ3AVaEAArBe3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "9becb7c3a71d",
+    "date": "2026-08-11",
+    "time": "22:10",
+    "store": "キコーナ鶴見",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "860",
+    "text": "本日8/11(火)  860番台　Lパチスロ 革命機ヴァルヴレイヴ2  コンプリート達成 おめでとうございます！！  #グランキコーナ鶴見 #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2087164630594670741",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T17:32:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcYSgDawAAR9LV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcYSgDawAAR9LV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "c138e5f55310",
