@@ -1,24 +1,67 @@
 [
   {
-    "id": "8fdc486236c5",
+    "id": "5a9e7847c5a4",
     "date": "2026-08-12",
-    "time": "20:50",
-    "store": "マルハン仙台泉店",
-    "machine": "e 北斗の拳11 暴凶星",
-    "machine_type": "pachinko",
-    "slot_number": "329",
-    "text": "329番台  e北斗の拳11暴凶星    コンプリート機能発動",
-    "x_url": "https://x.com/maruhansdizumi/status/2087506885863751932",
-    "store_handle": "maruhansdizumi",
-    "store_x_url": "https://x.com/maruhansdizumi",
+    "time": "23:07",
+    "store": "メガフェイス960飯塚",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "477",
+    "text": "本日のMVP  スロット477番台 Lからくりサーカス 14,088Pt.  パチンコ338番台 eガンダムSEED  クライマックス 95,700Pt.  本日はガンダムSEEDが コンプリート達成致しました  おめでとうございます  #メガフェイス960飯塚 #コンプリート",
+    "x_url": "https://x.com/megaface_960/status/2087541431779102987",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:02:43Z",
+    "collected_at": "2026-08-12T15:42:32Z",
     "images": [
-      "https://pbs.twimg.com/media/HPhQYBXboAA-0_R?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPhv2xvaQAAE2Lq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPhv2xybIAAbbrL?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPhQYBXboAA-0_R?format=jpg&name=large",
-    "machine_id": "4b7631e5-c602-47c2-a90b-c2c68609e371"
+    "image_url": "https://pbs.twimg.com/media/HPhv2xvaQAAE2Lq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021"
+  },
+  {
+    "id": "2209850a7d5c",
+    "date": "2026-08-12",
+    "time": "22:19",
+    "store": "ユーコーラッキー37筑後店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート達成のお知らせ】   本日、当店設置の 「Ｌ革命機ヴァルヴレイヴ2」にて コンプリート機能が発動いたしました。  ご遊技いただきましたお客様 誠にありがとうございました   #コンプリート  #ユーコーラッキー37筑後店",
+    "x_url": "https://x.com/YUKO_CHIKUGO/status/2087529452276432910",
+    "store_handle": "yuko_chikugo",
+    "store_x_url": "https://x.com/yuko_chikugo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T14:17:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPhk-F3bIAAosM_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPhk-F3bIAAosM_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "9f36b9ceb892",
+    "date": "2026-08-12",
+    "time": "21:44",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "549",
+    "text": "こんばんは！ スマスロ ミリオンゴッド‐神々の軌跡‐ 549番台より コンプリートです！ おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2087520546900840661",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T15:42:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPhc3zWboAAEQtW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPhc3zWboAAEQtW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "79e5d5afeb55",
@@ -42,25 +85,47 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
-    "id": "655afe827ef1",
+    "id": "570f2bbfab82",
     "date": "2026-08-12",
-    "time": "20:07",
-    "store": "アスカ秩父寺尾店",
-    "machine": "L吉宗",
+    "time": "19:57",
+    "store": "グランキコーナ松原店",
+    "machine": "いざ！番長",
     "machine_type": "slot",
-    "slot_number": "",
-    "text": "【速報・コンプリート達成】  本日、46sスロットコーナー「L吉宗」にて、見事コンプリート機能（19000枚）が発動いたしました！！ 達成おめでとうございます！！ 皆様のご来店、引き続き心よりお待ちしております！#パチンコ #コンプリート",
-    "x_url": "https://x.com/asukaTerao/status/2087496311310614756",
-    "store_handle": "asukaterao",
-    "store_x_url": "https://x.com/asukaTerao",
+    "slot_number": "880",
+    "text": "８８０番台「いざ！番長」にて  コンプリート機能発動！  これが漢の～～～コンプリート  松原の歴史にまた1ページ  #つぶやキコーナ  #グランマ  #グランキコーナ松原店",
+    "x_url": "https://x.com/kicona_matsubra/status/2087493678915047731",
+    "store_handle": "kicona_matsubra",
+    "store_x_url": "https://x.com/kicona_matsubra",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:02:33Z",
+    "collected_at": "2026-08-12T16:03:36Z",
     "images": [
-      "https://pbs.twimg.com/media/HPhGwqubYAAscEu?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPhET7xbkAAg5Us?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPhGwqubYAAscEu?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000011"
+    "image_url": "https://pbs.twimg.com/media/HPhET7xbkAAg5Us?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
+  },
+  {
+    "id": "45de9e95e108",
+    "date": "2026-08-12",
+    "time": "19:20",
+    "store": "マルハン加島",
+    "machine": "スマスロ 秘宝伝",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "マルハン加島　⑵  2/4 抽選440名 特攻調査ホール 重複 全台差枚約+15,400枚 1台平均約+25枚 11.2割想定約+151枚  ＊烈塊王取材  烈 L銭形5-Lモンキー ⇨836-850番台(15台)(851停止台) 勝率9/15・平均約+3,850枚  塊 ミスタージャグラー 勝率5/5・平均約+2,810枚  L秘宝伝",
+    "x_url": "https://x.com/TOKKOU_KANSAI/status/2087484344789327977",
+    "store_handle": "tokkou_kansai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-12T16:03:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPg78cKaMAAXn-S?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HL1k0TzakAA6a9P?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPg78cKaMAAXn-S?format=jpg&name=large",
+    "machine_id": "4a8abedb-1c83-4af5-a5ff-0798dce8ab34"
   },
   {
     "id": "0e71de1e9230",
@@ -248,7 +313,7 @@
     "store_x_url": "https://x.com/megaface_1070",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:02:24Z",
+    "collected_at": "2026-08-12T14:47:13Z",
     "images": [
       "https://pbs.twimg.com/media/HPcRyhXaYAAccIJ?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPaOZ7tb0AAnukJ?format=jpg&name=large"
@@ -1407,27 +1472,6 @@
       "https://pbs.twimg.com/media/HPW-GtiakAAOeaZ.jpg:large?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPW-GtiakAAOeaZ?format=jpg&name=large"
     ]
-  },
-  {
-    "id": "8bde6d0d5c81",
-    "date": "2026-08-10",
-    "time": "20:48",
-    "store": "マルハン川越店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "51",
-    "text": "こんばんは！ マルハン川越店です!  コンプリート速報 e牙狼12XX-MJ　51番台 おめでとうございます",
-    "x_url": "https://x.com/Smaru_kawagoe/status/2086781649698861503",
-    "store_handle": "smaru_kawagoe",
-    "store_x_url": "https://x.com/smaru_kawagoe",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:03:00Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPW8mknasAAYWmf?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPW8mknasAAYWmf?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "da2a7a39d003",
@@ -4549,28 +4593,6 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
-    "id": "b18361e76299",
-    "date": "2026-08-08",
-    "time": "19:33",
-    "store": "MEGAコンコルド1280稲沢店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんばんは！！  メガコンコルド稲沢店です！   本日e牙狼12黄金騎士牙狼極限にて コンプリート達成いたしました!  おめでとうございます♪   まだまだお時間ございます！  この後も皆様のご来店 心より お待ちしております！！  #稲コン #牙狼 #コンプリート #パチンコ",
-    "x_url": "https://x.com/inacon1280/status/2086038121582588076",
-    "store_handle": "inacon1280",
-    "store_x_url": "https://x.com/inacon1280",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:32:45Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPMYeVDaEAET6Xj?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPMYeVDaEAET6Xj?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "5c0e4b3b79"
-  },
-  {
     "id": "3c32100d6cae",
     "date": "2026-08-08",
     "time": "19:23",
@@ -4924,7 +4946,7 @@
     "store_x_url": "https://x.com/40_hagiwara",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:32:55Z",
+    "collected_at": "2026-08-12T14:48:51Z",
     "images": [
       "https://pbs.twimg.com/media/HPL95eAaoAAEQKt?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPL96rmbkAAlpu0?format=jpg&name=large"
@@ -7444,28 +7466,6 @@
       "https://pbs.twimg.com/media/HO64kwNWIAA_7Oh?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HO64kwNWIAA_7Oh?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000005"
-  },
-  {
-    "id": "94d32b5cf6e8",
-    "date": "2026-08-05",
-    "time": "00:31",
-    "store": "グランド元山",
-    "machine": "L甲鉄城のカバネリ海門決戦",
-    "machine_type": "slot",
-    "slot_number": "451",
-    "text": "本日　451番台　カバネリ海門決戦 コンプリート達成です  おめでとうございます  グランドリニューアル後のコンプリート第一号ですね 元山の新時代が始まりました",
-    "x_url": "https://x.com/GRANDmotoyama/status/2085025883392475537",
-    "store_handle": "grandmotoyama",
-    "store_x_url": "https://x.com/grandmotoyama",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-12T15:02:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HO9__F6aQAAChmF?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HO9__FyaQAAsIfx?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HO9__F6aQAAChmF?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
