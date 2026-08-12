@@ -1,68 +1,5 @@
 [
   {
-    "id": "b890efe8de4d",
-    "date": "2026-08-11",
-    "time": "22:59",
-    "store": "マルハンで運試し",
-    "machine": "スマスロ 沖ドキ！DUOアンコール",
-    "machine_type": "slot",
-    "slot_number": "646",
-    "text": "令和パチ年8月11日(火) スロット　L沖ドキDUOアンコール646番台 からまたまたコンプリート おめでとうございます 大型連休はマルハンで運試し",
-    "x_url": "https://x.com/shotaro11337799/status/2087177111979401569",
-    "store_handle": "shotaro11337799",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-12T18:45:11Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPcVMprbQAA5TCH?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPcVMprbQAA5TCH?format=jpg&name=large",
-    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb"
-  },
-  {
-    "id": "35e9191aebbd",
-    "date": "2026-08-11",
-    "time": "22:57",
-    "store": "マルハンで運試し",
-    "machine": "L炎炎ノ消防隊2",
-    "machine_type": "slot",
-    "slot_number": "544",
-    "text": "令和パチ年8月11日(火) スロット　L炎炎の消防隊2  544番台 からコンプリート おめでとうございます 大型連休はマルハンで運試し",
-    "x_url": "https://x.com/shotaro11337799/status/2087176701835190278",
-    "store_handle": "shotaro11337799",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-12T18:45:12Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPb9EeubYAE5ie9?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPb9EeubYAE5ie9?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000003"
-  },
-  {
-    "id": "0adc4dd91248",
-    "date": "2026-08-11",
-    "time": "22:47",
-    "store": "キクヤ一宮店",
-    "machine": "チバリヨ2",
-    "machine_type": "slot",
-    "slot_number": "785",
-    "text": "785番台 18時38分頃 チバリヨ2 コンプリート おめでとうございます",
-    "x_url": "https://x.com/ichinomiya1380/status/2087174004012667270",
-    "store_handle": "ichinomiya1380",
-    "store_x_url": "https://x.com/ichinomiya1380",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-12T18:45:12Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPchsZHbsAAujkk?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPchsZHbsAAujkk?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
-  },
-  {
     "id": "10af056a1cc9",
     "date": "2026-08-11",
     "time": "22:35",
@@ -617,27 +554,6 @@
     "image_url": "https://pbs.twimg.com/media/HPb7hdsacAAX1BR?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "2b4d471207"
-  },
-  {
-    "id": "06c0dab68edd",
-    "date": "2026-08-11",
-    "time": "19:43",
-    "store": "マルハン沼津店",
-    "machine": "Lからくりサーカス",
-    "machine_type": "slot",
-    "slot_number": "598",
-    "text": "こんばんは マルハン沼津店です  598番台 LからくりサーカスG  　コンプリート達成 おめでとうございます  この後のお時間も マルハン沼津店で お楽しみ下さい",
-    "x_url": "https://x.com/numaxxx7/status/2087127793276743879",
-    "store_handle": "numaxxx7",
-    "store_x_url": "https://x.com/numaxxx7",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-12T18:45:20Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPb3psvaEAADesU?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPb3psvaEAADesU?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000021"
   },
   {
     "id": "4e372177071b",
