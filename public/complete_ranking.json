@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-12T19:34:31+09:00",
+  "generated_at": "2026-08-12T20:32:46+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 507,
+      "total_count": 508,
       "stores": [
         {
           "rank": 1,
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 81
+          "count": 82
         },
         {
           "rank": 2,
@@ -746,21 +746,21 @@
       },
       {
         "rank": 7,
+        "name": "マルハンメガシティ三島駿東",
+        "count": 39,
+        "x_url": "https://x.com/mega_mishima"
+      },
+      {
+        "rank": 8,
         "name": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
         "count": 38,
         "x_url": "https://x.com/megaface_1120"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "name": "キクヤ春日井店",
         "count": 38,
         "x_url": "https://x.com/315kasugai"
-      },
-      {
-        "rank": 9,
-        "name": "マルハンメガシティ三島駿東",
-        "count": 38,
-        "x_url": "https://x.com/mega_mishima"
       },
       {
         "rank": 10,
@@ -825,7 +825,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 323
+        "count": 324
       },
       {
         "rank": 2,
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2826
+    "total_count": 2827
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -882,9 +882,9 @@
     "プレイランドキャッスル春日井店": 45,
     "楽園池袋店ゲートウェイ": 43,
     "楽園大宮店": 39,
+    "マルハンメガシティ三島駿東": 39,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 38,
     "キクヤ春日井店": 38,
-    "マルハンメガシティ三島駿東": 38,
     "メガフェイス1300淀川": 37,
     "ビックマーチ東習志野店": 35,
     "SPACE(スペース444＆666)": 35,
@@ -1439,7 +1439,7 @@
     "楽園相模原店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2574,
+    "records_with_store_id": 2575,
     "records_without_store_id": 252,
     "canonical_store_ids": 428
   }
