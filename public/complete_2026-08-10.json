@@ -192,6 +192,27 @@
     "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036"
   },
   {
+    "id": "54b5f94426bf",
+    "date": "2026-08-10",
+    "time": "21:39",
+    "store": "ABC中吉田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "304",
+    "text": "■コンプリート報告 機種　北斗の拳転生2  台番　304番台  コンプリートッッ おめでとうございますー  #コンプリート #ABC静岡中吉田店",
+    "x_url": "https://x.com/ABC_nakayoshida/status/2086794444632998146",
+    "store_handle": "abc_nakayoshida",
+    "store_x_url": "https://x.com/abc_nakayoshida",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T08:46:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXIe1vaoAA0Mz1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXIe1vaoAA0Mz1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "080094ff3ea6",
     "date": "2026-08-10",
     "time": "21:30",
@@ -254,6 +275,23 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPXDaCEaEAEZSpk?format=jpg&name=large",
     "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
+    "id": "f5b282857ecb",
+    "date": "2026-08-10",
+    "time": "20:53",
+    "store": "浜泉店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日8/10（月）  Lチバリヨ2  コンプリート！ おめでとうございます！ #一番舘横浜泉店 #Lチバリヨ2 #コンプリート",
+    "x_url": "https://x.com/bankanyokohama/status/2086783055658910204",
+    "store_handle": "bankanyokohama",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-12T09:16:45Z",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "da2a7a39d003",
