@@ -1,24 +1,24 @@
 [
   {
-    "id": "2209850a7d5c",
+    "id": "8fdc486236c5",
     "date": "2026-08-12",
-    "time": "22:19",
-    "store": "ユーコーラッキー37筑後店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "【コンプリート達成のお知らせ】   本日、当店設置の 「Ｌ革命機ヴァルヴレイヴ2」にて コンプリート機能が発動いたしました。  ご遊技いただきましたお客様 誠にありがとうございました   #コンプリート  #ユーコーラッキー37筑後店",
-    "x_url": "https://x.com/YUKO_CHIKUGO/status/2087529452276432910",
-    "store_handle": "yuko_chikugo",
-    "store_x_url": "https://x.com/yuko_chikugo",
+    "time": "20:50",
+    "store": "マルハン仙台泉店",
+    "machine": "e 北斗の拳11 暴凶星",
+    "machine_type": "pachinko",
+    "slot_number": "329",
+    "text": "329番台  e北斗の拳11暴凶星    コンプリート機能発動",
+    "x_url": "https://x.com/maruhansdizumi/status/2087506885863751932",
+    "store_handle": "maruhansdizumi",
+    "store_x_url": "https://x.com/maruhansdizumi",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-12T14:17:09Z",
+    "collected_at": "2026-08-12T15:02:43Z",
     "images": [
-      "https://pbs.twimg.com/media/HPhk-F3bIAAosM_?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPhQYBXboAA-0_R?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPhk-F3bIAAosM_?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "image_url": "https://pbs.twimg.com/media/HPhQYBXboAA-0_R?format=jpg&name=large",
+    "machine_id": "4b7631e5-c602-47c2-a90b-c2c68609e371"
   },
   {
     "id": "79e5d5afeb55",
@@ -40,6 +40,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPhL2KabEAA0Z3t?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "655afe827ef1",
+    "date": "2026-08-12",
+    "time": "20:07",
+    "store": "アスカ秩父寺尾店",
+    "machine": "L吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【速報・コンプリート達成】  本日、46sスロットコーナー「L吉宗」にて、見事コンプリート機能（19000枚）が発動いたしました！！ 達成おめでとうございます！！ 皆様のご来店、引き続き心よりお待ちしております！#パチンコ #コンプリート",
+    "x_url": "https://x.com/asukaTerao/status/2087496311310614756",
+    "store_handle": "asukaterao",
+    "store_x_url": "https://x.com/asukaTerao",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T15:02:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPhGwqubYAAscEu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPhGwqubYAAscEu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000011"
   },
   {
     "id": "0e71de1e9230",

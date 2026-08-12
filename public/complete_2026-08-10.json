@@ -312,7 +312,33 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-12T09:16:45Z",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "image_url": "https://pbs.twimg.com/media/HPW-GtiakAAOeaZ.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPW-GtiakAAOeaZ.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPW-GtiakAAOeaZ?format=jpg&name=large"
+    ]
+  },
+  {
+    "id": "8bde6d0d5c81",
+    "date": "2026-08-10",
+    "time": "20:48",
+    "store": "マルハン川越店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "51",
+    "text": "こんばんは！ マルハン川越店です!  コンプリート速報 e牙狼12XX-MJ　51番台 おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawagoe/status/2086781649698861503",
+    "store_handle": "smaru_kawagoe",
+    "store_x_url": "https://x.com/smaru_kawagoe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T15:03:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPW8mknasAAYWmf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPW8mknasAAYWmf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "da2a7a39d003",
