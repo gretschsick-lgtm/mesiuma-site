@@ -235,6 +235,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
+    "id": "8b8a75fe569c",
+    "date": "2026-08-10",
+    "time": "21:16",
+    "store": "コンコルド静岡緑が丘店",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "4412",
+    "text": "本日月日⇒バイオの日  ◤◢◤◢◤◢◤◢◤◢ コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  4412番台 Lバイオハザード5  先ほどコンプリート機能が 発動いたしました  コンプリートおめでとうございます  明日のご来店お待ちしております",
+    "x_url": "https://x.com/Concorde_midori/status/2086788877633876261",
+    "store_handle": "concorde_midori",
+    "store_x_url": "https://x.com/Concorde_midori",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-12T05:52:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXDaCEaEAEZSpk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXDaCEaEAEZSpk?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
     "id": "da2a7a39d003",
     "date": "2026-08-10",
     "time": "20:45",
