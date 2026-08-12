@@ -5302,11 +5302,11 @@
     "pref": "石川県",
     "count": 1,
     "type": "store",
-    "store_id": null,
+    "store_id": "b8a09e6f66",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/mega_dsg",
-    "match_method": "unregistered",
+    "match_method": "ns4_linkage",
     "rejection_reason": "not_in_canonical_master"
   },
   "sakura3arita3": {
@@ -8195,11 +8195,11 @@
     "x_url": "https://x.com/d_chibaminato",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "a9d595f128",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/d_chibaminato",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "dstation_ooyodo": {
@@ -9232,11 +9232,11 @@
     "x_url": "https://x.com/wl_metalpolice",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "b01ec92c8e",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/wl_metalpolice",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "Apollo_Nishi": {
@@ -9298,11 +9298,11 @@
     "x_url": "https://x.com/Ampati_no_hota",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "68d9fbc840",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/Ampati_no_hota",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "APAN21komaki": {
@@ -10030,11 +10030,11 @@
     "x_url": "https://x.com/777_Nib0",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "ced56d0881",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/777_Nib0",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "garden_kameido": {
@@ -14572,11 +14572,11 @@
     "x_url": "https://x.com/P_ARK_MITA",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "c290ba4a3b",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/P_ARK_MITA",
-    "match_method": "unregistered",
+    "match_method": "ns4_linkage",
     "rejection_reason": "not_in_canonical_master"
   },
   "paradiso_pman": {
@@ -15911,11 +15911,11 @@
     "x_url": "https://x.com/Ampati_no_toyo",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "71cae19baf",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/Ampati_no_toyo",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "messe_kichijoji": {
@@ -18466,11 +18466,11 @@
     "x_url": "https://x.com/nanatenpai773",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "190436cc62",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/nanatenpai773",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "dynam_00298": {
@@ -19458,11 +19458,11 @@
     "x_url": "https://x.com/monster_peeachy",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "190436cc62",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/monster_peeachy",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "Paradise_Tanabe": {
@@ -21415,11 +21415,11 @@
     "x_url": "https://x.com/ampati_no_hota",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "68d9fbc840",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/ampati_no_hota",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "kicona_cm": {
@@ -21488,11 +21488,11 @@
     "x_url": "https://x.com/ampati_no_toyo",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "71cae19baf",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/ampati_no_toyo",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "q_bang_4th": {
@@ -22512,11 +22512,11 @@
     "x_url": "https://x.com/Dstation_kamisu",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "ecf9ab4e77",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/Dstation_kamisu",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "d___ueda": {
@@ -22536,11 +22536,11 @@
     "x_url": "https://x.com/sendai_dstation",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "efc7bb7880",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/sendai_dstation",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "d_tougane": {
@@ -32068,11 +32068,11 @@
     "x_url": "https://x.com/niraku_san2",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "6e32203203",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/niraku_san2",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "29_ebina": {
@@ -33009,11 +33009,11 @@
     "x_url": "https://x.com/festa_kuyama",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "849881554d",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/festa_kuyama",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "palazzo_hatta": {
@@ -33061,11 +33061,11 @@
     "x_url": "https://x.com/festa_shimabara",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "a1a222199e",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/festa_shimabara",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "ams_awase": {
@@ -34548,11 +34548,11 @@
     "x_url": "https://x.com/ESFukuoka922",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "bf047b90b6",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/ESFukuoka922",
-    "match_method": "unregistered",
+    "match_method": "ns4_linkage",
     "rejection_reason": "not_in_canonical_master"
   },
   "espacesasaguri": {
@@ -35292,11 +35292,11 @@
     "x_url": "https://x.com/d__numata",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "cc827b7f6a",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/d__numata",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "D67979197": {
@@ -35316,11 +35316,11 @@
     "x_url": "https://x.com/d_kaminagaya",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "97d3c50ff4",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/d_kaminagaya",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "D_oomura": {
@@ -35354,11 +35354,11 @@
     "x_url": "https://x.com/d_wakokashima",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "36e9540c04",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/d_wakokashima",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "dstation_sakado": {
@@ -36126,11 +36126,11 @@
     "x_url": "https://x.com/333ichifuji",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "bafdfcdc63",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/333ichifuji",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "SHollywood1000": {
@@ -36166,11 +36166,11 @@
     "x_url": "https://x.com/123mizushimaten",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "230cfee6f2",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/123mizushimaten",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "chaland_k": {
@@ -36190,11 +36190,11 @@
     "x_url": "https://x.com/hwshinyamaguchi",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "c9c2ea05f4",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/hwshinyamaguchi",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "psj_bb1000": {
@@ -38079,11 +38079,11 @@
     "x_url": "https://x.com/TOMOE_FUCHINOBE",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "5534475ce3",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/TOMOE_FUCHINOBE",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "nlshiguchi_z": {
@@ -38667,11 +38667,11 @@
     "pref": "岐阜県",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "6260c5acc4",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/kichiennu",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "yamagata_slosen": {
@@ -38988,11 +38988,11 @@
     "pref": "群馬県",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "fa23f67099",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/d_ootayajima",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "nagaokaheiji": {
@@ -39136,11 +39136,11 @@
     "pref": "佐賀県",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "6ef8464d49",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/tenguykaratsu",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "s_boss1226": {
@@ -39164,11 +39164,11 @@
     "pref": "群馬県",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "ae9033c720",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/wakamiyad",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "ippon315": {
@@ -40445,11 +40445,11 @@
     "x_url": "https://x.com/ishikawa1255",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "e721cb0e53",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/ishikawa1255",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "rossoprova09": {
@@ -40607,11 +40607,11 @@
     "x_url": "https://x.com/40_hagiwara",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "3470d1dd2b",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/40_hagiwara",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "nanaya_tentyou": {
@@ -43991,11 +43991,11 @@
     "x_url": "https://x.com/OonotenD",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "826ad3c076",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/OonotenD",
-    "match_method": "unregistered",
+    "match_method": "ns4_linkage",
     "rejection_reason": "not_in_canonical_master"
   },
   "d_oomura": {
@@ -44003,11 +44003,11 @@
     "x_url": "https://x.com/D_oomura",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "8092d2c9bd",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/D_oomura",
-    "match_method": "unregistered",
+    "match_method": "ns4_linkage",
     "rejection_reason": "not_in_canonical_master"
   },
   "d_matubaseinter": {
@@ -46049,11 +46049,11 @@
     "x_url": "https://x.com/ribleyuuenkan",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "2aac292cdc",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/ribleyuuenkan",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "ohta_nishi": {
@@ -47284,11 +47284,11 @@
     "x_url": "https://x.com/ba_akiba",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "436de1aa20",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/ba_akiba",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "mitoya_kanda24": {
@@ -47750,11 +47750,11 @@
     "x_url": "https://x.com/777_marmade",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "f5483b6646",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/777_marmade",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "bigdipper_ooi": {
@@ -48484,11 +48484,11 @@
     "x_url": "https://x.com/eastslot",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "585b0001bc",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/eastslot",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "ki7ri7nn7": {
@@ -51224,11 +51224,11 @@
     "x_url": "https://x.com/kicona_kashiwa",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "1169b58331",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/kicona_kashiwa",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "mingo3535": {
@@ -53530,11 +53530,11 @@
     "x_url": "https://x.com/kicona_atsukita",
     "count": 0,
     "type": "store",
-    "store_id": null,
+    "store_id": "c7c68b5961",
     "verification_status": "candidate",
     "evidence_type": null,
     "evidence_url": "https://x.com/kicona_atsukita",
-    "match_method": "unregistered",
+    "match_method": "ns4_enorm",
     "rejection_reason": "not_in_canonical_master"
   },
   "jn_atsugi": {
