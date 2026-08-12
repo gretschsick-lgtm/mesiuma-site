@@ -55681,5 +55681,41 @@
     "evidence_url": "https://x.com/OASISTOKUYAMA",
     "canonical_pref": "山口県",
     "is_active": true
+  },
+  "ju_ichinoseki": {
+    "store": "パーラーJ-遊一関",
+    "x_url": "https://x.com/ju_ichinoseki",
+    "count": 0,
+    "type": "store",
+    "store_id": "1f57e1e1a8",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/ju_ichinoseki",
+    "canonical_pref": "岩手県",
+    "is_active": true
+  },
+  "TexasIwakuni": {
+    "store": "テキサス岩国店",
+    "x_url": "https://x.com/TexasIwakuni",
+    "count": 0,
+    "type": "store",
+    "store_id": "20a60ffb16",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/TexasIwakuni",
+    "canonical_pref": "山口県",
+    "is_active": true
+  },
+  "nobeokasanai": {
+    "store": "ファミリー三愛延岡店",
+    "x_url": "https://x.com/nobeokasanai",
+    "count": 0,
+    "type": "store",
+    "store_id": "242bd5cd80",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/nobeokasanai",
+    "canonical_pref": "宮崎県",
+    "is_active": true
   }
 }
