@@ -3449,13 +3449,14 @@
     "count": 2,
     "type": "store",
     "store_id": "eac0171bbc",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/d_hamano916",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/cb_hamano/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "千葉県"
+    "canonical_pref": "千葉県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "sanki_mimasaka": {
     "store": "サンキワールド美作店",
@@ -4811,13 +4812,14 @@
     "count": 1,
     "type": "store",
     "store_id": "2037f8b1a8",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/sdkuraganoten",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/gm_kuragano/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "群馬県"
+    "canonical_pref": "群馬県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "hm_nippombashi": {
     "store": "播磨屋日本橋一丁目店",
@@ -22487,13 +22489,14 @@
     "count": 0,
     "type": "store",
     "store_id": "4cbac81218",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/d_jouetsu",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/ng_joetsu/",
     "match_method": "normalized_unique",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "新潟県"
+    "canonical_pref": "新潟県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "d_oosaki": {
     "store": "D'station大崎店",
@@ -32514,13 +32517,14 @@
     "count": 0,
     "type": "store",
     "store_id": "4cf9f05d28",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/d_asahi1220",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/cb_asahi/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "千葉県"
+    "canonical_pref": "千葉県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "king_takamatsu_": {
     "store": "キングオブキングス高松",
@@ -33833,13 +33837,14 @@
     "count": 0,
     "type": "store",
     "store_id": "23bc090cbf",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/kingkakeo",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://www.northland.co.jp/sns/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "富山県"
+    "canonical_pref": "富山県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "tsuyama_maruhan": {
     "store": "マルハン津山店",
@@ -49083,13 +49088,14 @@
     "count": 0,
     "type": "store",
     "store_id": "f43aa9aebc",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/d_hachiouji",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/tk_hachioji/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "sap33727429": {
     "store": "SAP北野",
@@ -50217,13 +50223,14 @@
     "count": 0,
     "type": "store",
     "store_id": "68bdee5d5a",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/superd_kumagaya",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/sm_kumagaya/",
     "match_method": "normalized_unique",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "埼玉県"
+    "canonical_pref": "埼玉県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "kumagayaekimae": {
     "store": "アスカ熊谷駅前店",
@@ -54015,13 +54022,14 @@
     "count": 0,
     "type": "store",
     "store_id": "f425ee555b",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/ds_sakura1226",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://dstation.nexus-group.jp/store/cb_sakura/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "千葉県"
+    "canonical_pref": "千葉県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "zeusr16": {
     "store": "ゼウスR16",
