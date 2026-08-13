@@ -55729,5 +55729,17 @@
     "evidence_url": "https://x.com/yone_nyan",
     "canonical_pref": "山形県",
     "is_active": true
+  },
+  "obanazawaarajin": {
+    "store": "パチンコアラジン尾花沢店",
+    "x_url": "https://x.com/obanazawaarajin",
+    "count": 0,
+    "type": "store",
+    "store_id": "a36784dfa8",
+    "verification_status": "candidate",
+    "evidence_type": "public_x_profile",
+    "evidence_url": "https://x.com/obanazawaarajin",
+    "canonical_pref": "山形県",
+    "is_active": true
   }
 }
