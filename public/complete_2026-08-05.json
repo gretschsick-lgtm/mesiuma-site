@@ -750,6 +750,28 @@
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
+    "id": "48467fbfc637",
+    "date": "2026-08-05",
+    "time": "10:05",
+    "store": "まるみつ姶良店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "昨日の店舗創業日 多数のご来店ありがとうございました！  1323番　L炎炎ノ消防隊2 コンプリート達成しました  さてさて、本日は 新台入替準備のため店休日を頂きます  まだまだ創業月間は始まったばかり 明日の新台入替もご来店お待ちしております",
+    "x_url": "https://x.com/maru_aira3/status/2085170300254388649",
+    "store_handle": "maru_aira3",
+    "store_x_url": "https://x.com/maru_aira3",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T07:50:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPACm66aYAADf15?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPACrCpaAAAph87?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPACm66aYAADf15?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
     "id": "e4e8a0be29e7",
     "date": "2026-08-05",
     "time": "10:00",
