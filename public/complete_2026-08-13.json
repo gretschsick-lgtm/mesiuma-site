@@ -194,5 +194,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPlcY6IaAAAhfRw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "c082c6930d78",
+    "date": "2026-08-13",
+    "time": "15:06",
+    "store": "大阪No.1店長を目指す(キングオブキングス1007大阪",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは  コンプリート速報 まさかこんな早い時間から  スマスロ攻殻機動隊より コンプリート達成  おめでとうございます  今日のお楽しみはまだまだこれから ご来店お待ちしております",
+    "x_url": "https://x.com/king422_7_17_27/status/2087782826225922453",
+    "store_handle": "king422_7_17_27",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/king422_7_17_27",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-13T20:36:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPlLaMfaIAAUX3U?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPlLaMca4AA_utG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPlLaMfaIAAUX3U?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   }
 ]
