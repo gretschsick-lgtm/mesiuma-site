@@ -866,7 +866,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-13T14:50:04Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "image_url": "https://pbs.twimg.com/media/HPcZ0dTbUAAiS_q.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPcZ0dTbUAAiS_q.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPcZ0dTbUAAiS_q?format=jpg&name=large"
+    ]
   },
   {
     "id": "9becb7c3a71d",
