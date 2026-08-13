@@ -556,6 +556,28 @@
     "store_id": "2b4d471207"
   },
   {
+    "id": "3faaf090aa96",
+    "date": "2026-08-11",
+    "time": "19:39",
+    "store": "テキサス岩国店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日日っ コンプリート速報っ  No.557　L北斗の拳 転生の章2 　　コンプリート達成  　おめでとうございます  尚明日は....当店... 　　NO来店×NO取材",
+    "x_url": "https://x.com/TexasIwakuni/status/2087126873658753126",
+    "store_handle": "texasiwakuni",
+    "store_x_url": "https://x.com/TexasIwakuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T09:19:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPb2peJacAAwjC-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPb2rtmaUAAay8t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPb2peJacAAwjC-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "4e372177071b",
     "date": "2026-08-11",
     "time": "19:34",
