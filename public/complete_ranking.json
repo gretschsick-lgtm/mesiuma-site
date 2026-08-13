@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14T01:19:40+09:00",
+  "generated_at": "2026-08-14T02:05:02+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 574,
+      "total_count": 575,
       "stores": [
         {
           "rank": 1,
@@ -61,9 +61,9 @@
         },
         {
           "rank": 10,
-          "name": "SPACE(スペース444＆666)",
+          "name": "FACE1300小倉南店",
           "count": 5,
-          "x_url": "https://x.com/space666tobata"
+          "x_url": "https://x.com/face_1300"
         }
       ],
       "slot_machines": [
@@ -812,12 +812,12 @@
       },
       {
         "rank": 9,
-        "name": "スマスロ攻殻機動隊",
-        "count": 47
+        "name": "L炎炎ノ消防隊2",
+        "count": 48
       },
       {
         "rank": 10,
-        "name": "L炎炎ノ消防隊2",
+        "name": "スマスロ攻殻機動隊",
         "count": 47
       }
     ],
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2893
+    "total_count": 2894
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -893,8 +893,8 @@
     "テキサス白島店": 33,
     "プレイランドキャッスル熱田店": 32,
     "メガフェイス1070菊陽": 32,
+    "FACE1300小倉南店": 31,
     "マルハン川越店": 30,
-    "FACE1300小倉南店": 30,
     "サガちゃんPARK": 28,
     "マルハンメガシティ水戸赤塚": 27,
     "ダイナム長野上田店": 26,
@@ -1453,7 +1453,7 @@
     "ウイング松阪南店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2626,
+    "records_with_store_id": 2627,
     "records_without_store_id": 267,
     "canonical_store_ids": 443
   }
