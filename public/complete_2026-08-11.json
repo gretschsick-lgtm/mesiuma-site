@@ -1,5 +1,26 @@
 [
   {
+    "id": "b49d42795d8a",
+    "date": "2026-08-11",
+    "time": "22:43",
+    "store": "キコーナ川西久代店",
+    "machine": "スマスロスーパーリオエース2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日、スロットコーナーより  Lスーパーリオエース2  コンプリート達成です！ おめでとうございます！  #つぶやキコーナ #グランキコーナ西淀川店",
+    "x_url": "https://x.com/gkicona_nisiyod/status/2087173157665009798",
+    "store_handle": "gkicona_nisiyod",
+    "store_x_url": "https://x.com/gkicona_nisiyod",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T14:50:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcg648aIAAYnlf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcg648aIAAYnlf?format=jpg&name=large",
+    "machine_id": "1cc25424-6053-4622-a487-bafb16931ca6"
+  },
+  {
     "id": "10af056a1cc9",
     "date": "2026-08-11",
     "time": "22:35",
@@ -107,6 +128,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "4ba90388da3e",
+    "date": "2026-08-11",
+    "time": "22:12",
+    "store": "ダイナム長野上田店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "87",
+    "text": "まだまだ鳴り止まぬコンプ報告です！´-  87番台 e牙狼12 黄金騎士極限より  上ダではお馴染みですが、圧巻ですね  本日もたくさんの上ダに縁を頂きました  おめでとうございます  #コンプリート #牙狼  #ダイナム #長野県ダイナム #信州ダイナム #長野上田店",
+    "x_url": "https://x.com/dynam_00440/status/2087165348235858304",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T14:50:04Z",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "9becb7c3a71d",
     "date": "2026-08-11",
     "time": "22:10",
@@ -125,6 +163,27 @@
       "https://pbs.twimg.com/media/HPcYSgDawAAR9LV?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPcYSgDawAAR9LV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "dca2035bf2e1",
+    "date": "2026-08-11",
+    "time": "22:09",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "730",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 730番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2087164556007342461",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T14:17:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPcZEU0bQAANv-g?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPcZEU0bQAANv-g?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
@@ -976,7 +1035,12 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-13T03:26:32Z",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "image_url": "https://pbs.twimg.com/media/HPbLG4gawAAiL1b.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPbLG4gawAAiL1b.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPbLG4gawAAiL1b?format=jpg&name=large"
+    ]
   },
   {
     "id": "b49c4d1c3687",
