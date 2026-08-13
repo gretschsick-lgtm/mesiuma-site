@@ -1,5 +1,50 @@
 [
   {
+    "id": "30541cbdf1e5",
+    "date": "2026-08-13",
+    "time": "22:46",
+    "store": "ZENT名古屋北店 ワイ店長",
+    "machine": "スマスロ 沖ドキ！DUOアンコール",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日のコンプリート報告  L沖ドキ！DUOアンコール  惜しいのは何件かあったけど、就任1発目のコンプ報告が沖ドキとは  明日カイホ  #ZENT #下市場 #下ゼン",
+    "x_url": "https://x.com/zentwaiten/status/2087898531315196283",
+    "store_handle": "zentwaiten",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/zentwaiten",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-13T18:02:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPm0o9fa0AA4Fe5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPhVSxrbUAAwZim?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPm0o9fa0AA4Fe5?format=jpg&name=large",
+    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb"
+  },
+  {
+    "id": "ea0c83cccfae",
+    "date": "2026-08-13",
+    "time": "22:04",
+    "store": "DIVO知寄店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "682",
+    "text": "やっぱり多いと思いました。 高知旗艦店はお盆も、魅せる Lからくりサーカス2 682番台にて コンプリート達成頼もしいぜ！ おめでとうございます #高知 #ディーボ知寄 #コンプリート",
+    "x_url": "https://x.com/divo_x_chiyori/status/2087887919474430316",
+    "store_handle": "divo_x_chiyori",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/divo_x_chiyori",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-13T17:27:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmq_Y2bEAAZlaT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPleCsuaYAA1mBA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmq_Y2bEAAZlaT?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "store_id": "45990cb37b"
+  },
+  {
     "id": "dae4d8006bc6",
     "date": "2026-08-13",
     "time": "21:59",

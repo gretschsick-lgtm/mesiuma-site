@@ -1593,6 +1593,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "4f50cd40c4c5",
+    "date": "2026-08-08",
+    "time": "19:00",
+    "store": "ダイナム出雲店",
+    "machine": "e地獄少女7500Ver.",
+    "machine_type": "pachinko",
+    "slot_number": "101",
+    "text": "101番台e地獄少女7500Ver. コンプリート達成 ご遊技されていたお客様 おめでとうございます  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_izumo/status/2086029695661842886",
+    "store_handle": "dynam_izumo",
+    "store_x_url": "https://x.com/dynam_izumo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T17:26:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPMQ9CYXkAALpJq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPMQ9CYXkAALpJq?format=jpg&name=large",
+    "machine_id": "56716ba3-409f-465c-8b03-009fd905bcc4"
+  },
+  {
     "id": "5e19e8a98b3f",
     "date": "2026-08-08",
     "time": "18:49",
