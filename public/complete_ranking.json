@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T20:34:11+09:00",
+  "generated_at": "2026-08-13T21:20:05+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 561,
+      "total_count": 562,
       "stores": [
         {
           "rank": 1,
@@ -818,7 +818,7 @@
       {
         "rank": 10,
         "name": "L炎炎ノ消防隊2",
-        "count": 46
+        "count": 47
       }
     ],
     "pachinko_machines": [
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2880
+    "total_count": 2881
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -952,6 +952,7 @@
     "玉ノ助【パーラーダジュール公式】": 10,
     "グランドホール港南店": 10,
     "新ガーデン北戸田駅前": 10,
+    "ダイナム北斗七重浜店": 10,
     "SuperD'station39福重店": 10,
     "ゾーン行橋1000": 10,
     "キコーナ府中": 10,
@@ -960,7 +961,6 @@
     "テキサス656山口店": 10,
     "キコーナ堺本店": 10,
     "マルハン加島": 10,
-    "ダイナム北斗七重浜店": 9,
     "楽園蒲田店": 9,
     "グランキコーナ松原店": 9,
     "ＡＢＣ豊川店": 9,
@@ -1451,7 +1451,7 @@
     "スーパーラッキー泉店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2616,
+    "records_with_store_id": 2617,
     "records_without_store_id": 264,
     "canonical_store_ids": 441
   }
