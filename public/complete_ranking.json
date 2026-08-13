@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T18:29:40+09:00",
+  "generated_at": "2026-08-13T19:34:16+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 557,
+      "total_count": 560,
       "stores": [
         {
           "rank": 1,
@@ -25,15 +25,15 @@
         },
         {
           "rank": 4,
-          "name": "キング観光サウザンド栄若宮大通店",
-          "count": 7,
-          "x_url": "https://x.com/wakakin_tsujic"
+          "name": "マルハン川越店",
+          "count": 8,
+          "x_url": "https://x.com/smaru_kawagoe"
         },
         {
           "rank": 5,
-          "name": "マルハン川越店",
+          "name": "キング観光サウザンド栄若宮大通店",
           "count": 7,
-          "x_url": "https://x.com/smaru_kawagoe"
+          "x_url": "https://x.com/wakakin_tsujic"
         },
         {
           "rank": 6,
@@ -80,7 +80,7 @@
         {
           "rank": 3,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 29
+          "count": 30
         },
         {
           "rank": 4,
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 88
+          "count": 89
         },
         {
           "rank": 2,
@@ -783,7 +783,7 @@
       {
         "rank": 3,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 104
+        "count": 105
       },
       {
         "rank": 4,
@@ -825,7 +825,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 330
+        "count": 331
       },
       {
         "rank": 2,
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2876
+    "total_count": 2879
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -893,8 +893,8 @@
     "テキサス白島店": 33,
     "プレイランドキャッスル熱田店": 32,
     "メガフェイス1070菊陽": 31,
+    "マルハン川越店": 30,
     "FACE1300小倉南店": 30,
-    "マルハン川越店": 29,
     "サガちゃんPARK": 28,
     "マルハンメガシティ水戸赤塚": 27,
     "メガフェイス960飯塚": 25,
@@ -1387,6 +1387,7 @@
     "マルハン古河店 ヒットミン店長": 1,
     "ガーデン川口北原台": 1,
     "KEIZラパーク金沢店": 1,
+    "123+N新市街店　店長兼任エリア長。": 1,
     "ウイング岩出店【公式】8/1グランドリニューアルオープン": 1,
     "マックス福島北": 1,
     "ワンダーランド1188宮崎芳士店": 1,
@@ -1443,14 +1444,15 @@
     "楽園相模原店": 1,
     "テキサス岩国店": 1,
     "ウエスタン環七南葛西店": 1,
+    "アスカ秩父寺尾店": 1,
     "ダイナム群馬桐生店": 1,
     "D'ステーションWAKO鹿島店": 1,
     "ダイエー木更津店": 1,
     "スーパーラッキー泉店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2613,
-    "records_without_store_id": 263,
-    "canonical_store_ids": 440
+    "records_with_store_id": 2615,
+    "records_without_store_id": 264,
+    "canonical_store_ids": 441
   }
 }

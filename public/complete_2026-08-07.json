@@ -341,6 +341,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "57ff2d937e61",
+    "date": "2026-08-07",
+    "time": "21:04",
+    "store": "123+N新市街店　店長兼任エリア長。",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Lからくりサーカス2より コンプリート機能が作動しています！",
+    "x_url": "https://x.com/123_shinshigai/status/2085698474184704110",
+    "store_handle": "123_shinshigai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-13T09:54:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPHjtLtagAAsevp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPGnHwIa8AAKWF-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPHjtLtagAAsevp?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "7ca2722a3f98",
     "date": "2026-08-07",
     "time": "20:30",
