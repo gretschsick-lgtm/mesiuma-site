@@ -142,12 +142,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-13T14:50:04Z",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "image_url": "https://pbs.twimg.com/media/HPcZ0dTbUAAiS_q.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HPcZ0dTbUAAiS_q.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPcZ0dTbUAAiS_q?format=jpg&name=large"
-    ]
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "9becb7c3a71d",
@@ -640,52 +635,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPb2peJacAAwjC-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
-  },
-  {
-    "id": "39b7dbadefa6",
-    "date": "2026-08-11",
-    "time": "19:37",
-    "store": "マルハン加島",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "706",
-    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 8/10  塊Pick 勝率27/36 平均約+1,206枚  単品Pick 勝率49/53 平均約+4,024枚  . . 7/31  ファンキー2-ネオアイム ⇒699-706番台  L戦国乙女5 ⇒964-969番台  L甲鉄城のカバネリ ⇒989-994番台  マイジャグラーV ⇒1204-1209番台",
-    "x_url": "https://x.com/TOKKOU_KANSAI/status/2087126139093631434",
-    "store_handle": "tokkou_kansai",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-13T18:36:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPb2Iz3bwAALEu1?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPb2I0OasAAVA9u?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPb2I0IaAAAQY5y?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPb2Iz3bwAALEu1?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
-  },
-  {
-    "id": "f251fc6490ae",
-    "date": "2026-08-11",
-    "time": "19:37",
-    "store": "マルハン加島",
-    "machine": "スマスロ甲鉄城のカバネリ",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 8/10  塊Pick 勝率27/36 平均約+1,206枚  単品Pick 勝率49/53 平均約+4,024枚  . . 7/31  ファンキー2-ネオアイム ⇒699-706番台  L戦国乙女5 ⇒964-969番台  L甲鉄城のカバネリ ⇒989-994番台  マイジャグラーV ⇒1204-1209番台",
-    "x_url": "https://x.com/TOKKOU_KANSAI/status/2087126139093631434",
-    "store_handle": "tokkou_kansai",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-13T18:36:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPb2Iz3bwAALEu1?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPb2I0OasAAVA9u?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPb2I0IaAAAQY5y?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPb2Iz3bwAALEu1?format=jpg&name=large",
-    "machine_id": "83473efa-df5b-458f-8644-f47f6ad2d3b3"
   },
   {
     "id": "4e372177071b",
