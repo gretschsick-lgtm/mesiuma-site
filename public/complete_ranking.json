@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-13T19:34:16+09:00",
+  "generated_at": "2026-08-13T20:34:11+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 560,
+      "total_count": 561,
       "stores": [
         {
           "rank": 1,
@@ -132,7 +132,7 @@
         {
           "rank": 3,
           "name": "e牙狼12",
-          "count": 26
+          "count": 27
         },
         {
           "rank": 4,
@@ -830,7 +830,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 202
+        "count": 203
       },
       {
         "rank": 3,
@@ -873,7 +873,7 @@
         "count": 12
       }
     ],
-    "total_count": 2879
+    "total_count": 2880
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -892,7 +892,7 @@
     "ダイナム岐阜関緑町店~Since2023.12.28~": 35,
     "テキサス白島店": 33,
     "プレイランドキャッスル熱田店": 32,
-    "メガフェイス1070菊陽": 31,
+    "メガフェイス1070菊陽": 32,
     "マルハン川越店": 30,
     "FACE1300小倉南店": 30,
     "サガちゃんPARK": 28,
@@ -1451,7 +1451,7 @@
     "スーパーラッキー泉店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2615,
+    "records_with_store_id": 2616,
     "records_without_store_id": 264,
     "canonical_store_ids": 441
   }
