@@ -1551,6 +1551,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "dbe014a06e12",
+    "date": "2026-08-10",
+    "time": "22:33",
+    "store": "ジュラク王子店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "180",
+    "text": "e東京喰種180番台 コンプリート達成！！  おめでとうございます！  またのご来店お待ちしております  #ジュラク王子 #コンプリート #e東京喰種",
+    "x_url": "https://x.com/JURAKU8/status/2086808053442347368",
+    "store_handle": "juraku8",
+    "store_x_url": "https://x.com/juraku8",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-13T05:41:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXT3Uyb0AA7ca3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXT3Uyb0AA7ca3?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "83c25f5f71b2",
     "date": "2026-08-10",
     "time": "22:25",
@@ -1569,6 +1590,27 @@
       "https://pbs.twimg.com/media/HPXTFU6bkAAatGG?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPXTFU6bkAAatGG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "63b9a145056f",
+    "date": "2026-08-10",
+    "time": "22:23",
+    "store": "記念橋南店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "2057",
+    "text": "2057番台L東京喰種にてコンプリート機能発動しました！",
+    "x_url": "https://x.com/kimusankimu/status/2086805736366240235",
+    "store_handle": "kimusankimu",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-13T05:41:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXSwXbbgAAksLn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXSwXbbgAAksLn?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
