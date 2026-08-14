@@ -111,6 +111,48 @@
     "store_id": "58111f872e"
   },
   {
+    "id": "69e449956429",
+    "date": "2026-08-13",
+    "time": "19:13",
+    "store": "D'ステーション坂戸店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "26",
+    "text": "本日８月１３日  ２６番台 e東京喰種W コンプリート達成  おめでとうございます  #Dステ #Dステ坂戸",
+    "x_url": "https://x.com/dstation_sakado/status/2087844862888669392",
+    "store_handle": "dstation_sakado",
+    "store_x_url": "https://x.com/dstation_sakado",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T05:54:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPl_vcibIAANhfs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPl_vcibIAANhfs?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "198335ea8bc8",
+    "date": "2026-08-13",
+    "time": "18:45",
+    "store": "メガフェイス1450本山",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "329",
+    "text": "コンプリート＊速報  ～８月13日(木)～  ☆329番台☆ e新世紀エヴァンゲリオン 　　　　～はじまりの記憶～  #コンプリート　達成です  おめでとうございます  #メガフェイス1450本山 #コンプリート #eエヴァ17",
+    "x_url": "https://x.com/megaface_1450/status/2087837816671625492",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T05:53:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPl5y4Qa4AAO3me?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPl5y4Qa4AAO3me?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8"
+  },
+  {
     "id": "ad798e69ca6f",
     "date": "2026-08-13",
     "time": "18:44",
