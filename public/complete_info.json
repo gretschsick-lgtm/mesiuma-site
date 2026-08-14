@@ -251,7 +251,14 @@
     "manager_x_url": "",
     "source_account_type": "unknown",
     "collected_at": "2026-08-14T14:44:21Z",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "image_url": "https://pbs.twimg.com/media/HPmVUWtacAAk3iD.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPmVUWtacAAk3iD.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPmVUWtacAAk3iD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPmVVj1bEAAF-14?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPmVWeWbwAAeYP6?format=jpg&name=large"
+    ]
   },
   {
     "id": "4ebf980c9f0e",
