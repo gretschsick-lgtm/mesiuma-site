@@ -810,7 +810,13 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-14T05:23:19Z",
-    "machine_id": "11111111-1111-1111-1111-000000000017"
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "image_url": "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPggKJoa4AAPKEG?format=jpg&name=large"
+    ]
   },
   {
     "id": "4ba2cdea9f8e",
