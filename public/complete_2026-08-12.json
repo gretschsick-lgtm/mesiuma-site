@@ -451,6 +451,28 @@
     ]
   },
   {
+    "id": "a50b92c42736",
+    "date": "2026-08-12",
+    "time": "18:51",
+    "store": "店長あらた　マルハンメガシティ長野",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "178",
+    "text": "本日1台目のコンプリートは 178番台 真打！吉宗 コンプリートお見事！！！ すばらしいグラフですね  おめでとうございます",
+    "x_url": "https://x.com/aratanarutentyo/status/2087477138085789943",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-14T09:12:55Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2087477037951008768/img/z2YKanbsIcB7Qx0o.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPbu-MeacAABVUp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2087477037951008768/img/z2YKanbsIcB7Qx0o.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
     "id": "0e71de1e9230",
     "date": "2026-08-12",
     "time": "18:45",

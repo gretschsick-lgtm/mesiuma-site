@@ -89,6 +89,49 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "f7bc50f826bd",
+    "date": "2026-08-13",
+    "time": "19:56",
+    "store": "ダイナム福島矢吹店～Since2005.12.06～",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "433",
+    "text": "ダイナム矢吹店より速報 433番台　Lチバリヨ２ZB   /／   コンプリーーート達成   \\＼   おめでとうございますﾌﾞﾗﾎﾞｰ!  明日もご来店お待ちしております(੭ु´･ω･`)੭ु⁾⁾  #ダイナム 　#矢吹ガールズ #チバリヨ　#コンプリート",
+    "x_url": "https://x.com/dynam_00261/status/2087855780959506855",
+    "store_handle": "dynam_00261",
+    "store_x_url": "https://x.com/dynam_00261",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T09:13:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmNw21WUAAUmJt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmNw21WUAAUmJt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
+    "id": "ebe8403b2046",
+    "date": "2026-08-13",
+    "time": "19:53",
+    "store": "キング観光津店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは 8月13日（木）  179番台　e EDENS ZERO ～究極LT～ 582番台　e牙狼12黄金騎士極限 の2台がコンプリート達成です  おめでとうございます  #コンプリート #キング観光 #津キン",
+    "x_url": "https://x.com/tsukin777/status/2087855165235933507",
+    "store_handle": "tsukin777",
+    "store_x_url": "https://x.com/tsukin777",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T09:13:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmNIJYasAEVSST?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPmNKxGbUAAvJd3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmNIJYasAEVSST?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "8d2e85dbd927",
     "date": "2026-08-13",
     "time": "19:15",
@@ -711,6 +754,28 @@
     ]
   },
   {
+    "id": "a50b92c42736",
+    "date": "2026-08-12",
+    "time": "18:51",
+    "store": "店長あらた　マルハンメガシティ長野",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "178",
+    "text": "本日1台目のコンプリートは 178番台 真打！吉宗 コンプリートお見事！！！ すばらしいグラフですね  おめでとうございます",
+    "x_url": "https://x.com/aratanarutentyo/status/2087477138085789943",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-14T09:12:55Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2087477037951008768/img/z2YKanbsIcB7Qx0o.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPbu-MeacAABVUp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2087477037951008768/img/z2YKanbsIcB7Qx0o.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
     "id": "0e71de1e9230",
     "date": "2026-08-12",
     "time": "18:45",
@@ -810,13 +875,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-14T05:23:19Z",
-    "machine_id": "11111111-1111-1111-1111-000000000017",
-    "image_url": "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPggKJoa4AAPKEG?format=jpg&name=large"
-    ]
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "4ba2cdea9f8e",
