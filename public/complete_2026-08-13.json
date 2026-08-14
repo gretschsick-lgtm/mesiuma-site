@@ -21,6 +21,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000014"
   },
   {
+    "id": "7c080cf5ceb8",
+    "date": "2026-08-13",
+    "time": "22:52",
+    "store": "キクヤ一宮店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "638",
+    "text": "キクヤ一宮店 638番台 ヴァルヴレイヴ2  コンプリート おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2087900169123795067",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T14:44:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPm2IY6bAAEKI3S?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPm2IY6bAAEKI3S?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "30541cbdf1e5",
     "date": "2026-08-13",
     "time": "22:46",
@@ -128,6 +149,44 @@
       "https://pbs.twimg.com/media/HPmg6F9aMAARwVR?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPmg6F9aMAARwVR?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "4ad540b8f9cd",
+    "date": "2026-08-13",
+    "time": "21:19",
+    "store": "イーバス：ニューアサヒ茅野本町店の店長やってる人",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "227",
+    "text": "夜遅くですが 茅野本町から 227番台 e牙狼12黄金騎士極限 コンプリート達成  おめでとうございます(=^x^=)",
+    "x_url": "https://x.com/Ak12291/status/2087876708729045304",
+    "store_handle": "ak12291",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-14T14:44:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmgzOhagAAXkYo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmgzOhagAAXkYo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "52c29fba4ed9",
+    "date": "2026-08-13",
+    "time": "20:29",
+    "store": "マルハンで運試し",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "16",
+    "text": "ｅ東京喰種より コンプリート達成 お客様おめでとうございます 大型連休はマルハンで運試し #16番台",
+    "x_url": "https://x.com/yuta834188/status/2087864150752186474",
+    "store_handle": "yuta834188",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-14T14:44:21Z",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-14T22:23:09+09:00",
+  "generated_at": "2026-08-14T23:50:30+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 605,
+      "total_count": 608,
       "stores": [
         {
           "rank": 1,
@@ -61,16 +61,16 @@
         },
         {
           "rank": 10,
-          "name": "FACE1300小倉南店",
+          "name": "キクヤ一宮店",
           "count": 5,
-          "x_url": "https://x.com/face_1300"
+          "x_url": "https://x.com/ichinomiya1380"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 83
+          "count": 84
         },
         {
           "rank": 2,
@@ -122,12 +122,12 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 95
+          "count": 96
         },
         {
           "rank": 2,
           "name": "e東京喰種",
-          "count": 32
+          "count": 33
         },
         {
           "rank": 3,
@@ -773,7 +773,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 505
+        "count": 506
       },
       {
         "rank": 2,
@@ -825,7 +825,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 337
+        "count": 338
       },
       {
         "rank": 2,
@@ -835,7 +835,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 124
+        "count": 125
       },
       {
         "rank": 4,
@@ -873,7 +873,7 @@
         "count": 13
       }
     ],
-    "total_count": 2924
+    "total_count": 2927
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -899,7 +899,7 @@
     "マルハンメガシティ水戸赤塚": 27,
     "ダイナム長野上田店": 26,
     "メガフェイス960飯塚": 25,
-    "キクヤ一宮店": 23,
+    "キクヤ一宮店": 24,
     "パチンコの玉屋∞本店": 23,
     "新ガーデン西浦和": 23,
     "キクヤ穂積店": 22,
@@ -1456,13 +1456,15 @@
     "ダイエー木更津店": 1,
     "スーパーラッキー泉店": 1,
     "ZENT名古屋北店 ワイ店長": 1,
+    "イーバス：ニューアサヒ茅野本町店の店長やってる人": 1,
+    "マルハンで運試し": 1,
     "キング観光津店": 1,
     "ウイング松阪南店": 1,
     "やすだ戸田店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2644,
-    "records_without_store_id": 280,
+    "records_with_store_id": 2645,
+    "records_without_store_id": 282,
     "canonical_store_ids": 446
   }
 }
