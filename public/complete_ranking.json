@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-15T03:04:46+09:00",
+  "generated_at": "2026-08-15T03:53:47+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 611,
+      "total_count": 612,
       "stores": [
         {
           "rank": 1,
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 84
+          "count": 85
         },
         {
           "rank": 2,
@@ -729,7 +729,7 @@
       {
         "rank": 4,
         "name": "プレイランドキャッスル春日井店",
-        "count": 45,
+        "count": 46,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
@@ -773,7 +773,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 506
+        "count": 507
       },
       {
         "rank": 2,
@@ -873,13 +873,13 @@
         "count": 13
       }
     ],
-    "total_count": 2930
+    "total_count": 2931
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
     "キング観光サウザンド栄若宮大通店": 51,
     "テキサス小倉店": 47,
-    "プレイランドキャッスル春日井店": 45,
+    "プレイランドキャッスル春日井店": 46,
     "楽園池袋店ゲートウェイ": 43,
     "マルハンメガシティ三島駿東": 40,
     "メガフェイス1300淀川": 39,
@@ -1463,7 +1463,7 @@
     "やすだ戸田店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2649,
+    "records_with_store_id": 2650,
     "records_without_store_id": 281,
     "canonical_store_ids": 448
   }
