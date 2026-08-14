@@ -810,13 +810,7 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-14T05:23:19Z",
-    "machine_id": "11111111-1111-1111-1111-000000000017",
-    "image_url": "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
-    "images": [
-      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPggKJoa4AAPKEG?format=jpg&name=large"
-    ]
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "4ba2cdea9f8e",
@@ -2206,6 +2200,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPapn5taAAAXBI_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "35e99abe7e60",
+    "date": "2026-08-11",
+    "time": "09:00",
+    "store": "PSJ古賀店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "昨日もご多数様のご来店 誠にありがとうございました。  4円パチンココーナー  e牙狼12黄金騎士極限 コンプリート達成  おめでとうございます  本日も朝１０時開店です。 皆様のご来店を心より お待ちしております。",
+    "x_url": "https://x.com/psj_koga/status/2087328211869094108",
+    "store_handle": "psj_koga",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-14T07:41:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPc94KEaYAAO6vt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPc93Jdb0AA7PWi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPc94KEaYAAO6vt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "bd7bbf49ca"
   },
   {
     "id": "4f25f7b4a3ae",
