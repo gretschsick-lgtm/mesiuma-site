@@ -21,6 +21,27 @@
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
   },
   {
+    "id": "83b215ef5955",
+    "date": "2026-08-14",
+    "time": "19:17",
+    "store": "綾瀬上土棚店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "116",
+    "text": "マルハン綾瀬上土棚店 116番台キン肉マンより コンプリート達成  おめでとうございます す、すごい〜",
+    "x_url": "https://x.com/aitatencho/status/2088208287217111307",
+    "store_handle": "aitatencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aitatencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-14T12:43:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrOXgmbYAA0PQ1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrOXgmbYAA0PQ1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
     "id": "18f98b22d92d",
     "date": "2026-08-14",
     "time": "13:20",
@@ -41,6 +62,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPp7RSCaAAAOLsD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "5caaca887496",
+    "date": "2026-08-13",
+    "time": "23:09",
+    "store": "ダイナム岡山笠岡店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "74",
+    "text": "#ダイナム岡山笠岡店 #コンプリート報告 74番台 Ｌチバリヨ２ＺＢ   /／   見事コンプリーーーーート達成  \\＼   お盆にご先祖さまもビックリしていることでしょう 本日もご来店お待ちしております  #コンプリート #ナイスゥ!!",
+    "x_url": "https://x.com/dynam_00345/status/2087904392276062574",
+    "store_handle": "dynam_00345",
+    "store_x_url": "https://x.com/dynam_00345",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T13:13:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPm5-a7WkAEMmwj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPm5-a7WkAEMmwj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
   },
   {
     "id": "30541cbdf1e5",
