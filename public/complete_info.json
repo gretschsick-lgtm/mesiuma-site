@@ -106,6 +106,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
+    "id": "d3c2a666b8c8",
+    "date": "2026-08-14",
+    "time": "15:51",
+    "store": "駅前店",
+    "machine": "女神のカフェテラス",
+    "machine_type": "slot",
+    "slot_number": "2106",
+    "text": "コンプリートのご報告  　      　　２１０６番台  　　《女神のカフェテラス》  先程、コンプリート達成致しました おめでとうございます  こちらの遊技台は 本日は 稼働停止となります",
+    "x_url": "https://x.com/RAKUENSHIBUYA2/status/2088156665233506332",
+    "store_handle": "rakuenshibuya2",
+    "store_x_url": "https://x.com/rakuenshibuya2",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T22:59:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPqfSZtbAAE0mZa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPqfSZtbAAE0mZa?format=jpg&name=large",
+    "machine_id": "add063c9-f6d4-404a-ab82-699ea03f0a69"
+  },
+  {
     "id": "327a8d96c970",
     "date": "2026-08-14",
     "time": "15:01",
@@ -125,6 +146,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPqT50ZbgAAGMgb?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "a6ea0a862bb8",
+    "date": "2026-08-14",
+    "time": "13:38",
+    "store": "マルハン川崎桜本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "79",
+    "text": "コンプリート！！  e牙狼12黄金騎士極限  79番台  おめでとうございます  この後もお楽しみください  #コンプリート #周年",
+    "x_url": "https://x.com/mikayuka1908/status/2088123085824368960",
+    "store_handle": "mikayuka1908",
+    "store_x_url": "https://x.com/mikayuka1908",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T22:59:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPqA29JaQAAOOMo?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPlBpw0bEAAVrp_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPqA29JaQAAOOMo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "18f98b22d92d",
@@ -513,6 +556,40 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPlLaMfaIAAUX3U?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "557b0f122570",
+    "date": "2026-08-13",
+    "time": "12:00",
+    "store": "ダイナム栃木今市店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "327",
+    "text": "8月13日（木）  327番台 　#モンスターハンターライズ コンプリート達成  おめでとうございます  #ダイナム栃木今市店",
+    "x_url": "https://x.com/dynam_00263/status/2088098332879073539",
+    "store_handle": "dynam_00263",
+    "store_x_url": "https://x.com/dynam_00263",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T22:59:06Z",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "96eed628383b",
+    "date": "2026-08-13",
+    "time": "08:30",
+    "store": "まるみつ鶴崎店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "887",
+    "text": "おはようございます #まるみつ鶴崎店　です。 昨日１３日 コンプリート達成 Lからくりサーカス２ ８８７番台 達成時間２２時４１分 閉店間際の歓喜  おめでとうございます。 それでは ８月創業月間 お楽しみください。  #からくりサーカス #コンプリート",
+    "x_url": "https://x.com/maru_tsurusaki/status/2088045436162424886",
+    "store_handle": "maru_tsurusaki",
+    "store_x_url": "https://x.com/maru_tsurusaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T22:59:06Z",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "ef43a48215f7",
@@ -6907,6 +6984,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPL0zchawAAHai5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
+    "id": "2d7618669167",
+    "date": "2026-08-08",
+    "time": "16:51",
+    "store": "123+N新市街店　店長兼任エリア長。",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "さて夜からのご予定はいかがでしょうか？ 週末の夜もエリア最大1001台 123＋N新市街店でお楽しみください！  L真打吉宗から コンプリート機能作動中 本日の遊技は終了しました とのことです。",
+    "x_url": "https://x.com/123_shinshigai/status/2085997259544752414",
+    "store_handle": "123_shinshigai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-14T22:25:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPLzc0SbUAANyAG?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPKz_82bYAApf9E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPLzc0SbUAANyAG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "097c0da142f0",
