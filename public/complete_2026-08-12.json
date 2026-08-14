@@ -572,7 +572,13 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-14T05:23:19Z",
-    "machine_id": "11111111-1111-1111-1111-000000000017"
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "image_url": "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPgpSQnagAA_q2t?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPggKJoa4AAPKEG?format=jpg&name=large"
+    ]
   },
   {
     "id": "4ba2cdea9f8e",
@@ -700,6 +706,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPgO6zba4AA1Snj?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "2483d023f644",
+    "date": "2026-08-12",
+    "time": "15:20",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "7104",
+    "text": "8月コンコルド月間!!  ◤◢◤◢◤◢◤◢◤◢ 　コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  『乗るしかないっしょ!! このイッチーノ ウェーブに!!』  7104番台 \"Lパチスロ 革命機ヴァルヴレイヴ2\" 先ほどコンプリート機能が 作動いたしました やっぱりいっち～の!! 君も乗ラナイカ？",
+    "x_url": "https://x.com/Concorde_ichino/status/2087423933343752372",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T16:29:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPgE1HCbsAA7Uyz?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2087345424470540288/img/zqW_2smDj66wDWd8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPgE1HCbsAA7Uyz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3b33dd116a"
   },
   {
     "id": "47618dd79986",
