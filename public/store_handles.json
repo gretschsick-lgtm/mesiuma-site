@@ -3372,13 +3372,14 @@
     "count": 2,
     "type": "store",
     "store_id": "68dbb15c10",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/imaike_1",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-imaike.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "愛知県"
+    "canonical_pref": "愛知県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "abc_isawa": {
     "store": "ABC甲府上阿原店",
@@ -17082,13 +17083,14 @@
     "count": 0,
     "type": "store",
     "store_id": "f5637e9f33",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/kingyokkaichi",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-yokkaichi.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "Yokkaichikita": {
     "store": "マルハン四日市北店",
@@ -21149,13 +21151,14 @@
     "count": 0,
     "type": "store",
     "store_id": "4a152df71c",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_owase",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-web.net/owase/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "kingnabari": {
     "store": "キング観光名張店",
@@ -21163,13 +21166,14 @@
     "count": 0,
     "type": "store",
     "store_id": "7ce0836764",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/kingnabari",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-nabari.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "king_ikuwa": {
     "store": "キング観光サウザンド生桑店",
@@ -30692,13 +30696,14 @@
     "count": 0,
     "type": "store",
     "store_id": "4dc0742191",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_inabe",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://www.m-king.co.jp/tenpo/222",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "zentwagou": {
     "store": "ZENT和合ヶ丘店",
@@ -39941,13 +39946,14 @@
     "count": 0,
     "type": "store",
     "store_id": "44a6d1eb38",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/nagahama1011",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://www.m-king.co.jp/tenpo/226",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "滋賀県"
+    "canonical_pref": "滋賀県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "123matsushige": {
     "store": "123松茂店",
@@ -41732,13 +41738,14 @@
     "count": 0,
     "type": "store",
     "store_id": "c486f8a788",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_shingu",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://www.m-king.co.jp/tenpo/224",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "和歌山県"
+    "canonical_pref": "和歌山県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "horyuji8_18_28": {
     "store": "ARROW法隆寺店",
@@ -44281,13 +44288,14 @@
     "count": 0,
     "type": "store",
     "store_id": "e2b96f1629",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/sakaesumiyoshi",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://www.m-king.co.jp/tenpo.php?tenpo=104",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "愛知県"
+    "canonical_pref": "愛知県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "kingtoshintyou": {
     "store": "キング観光サウザンド栄東新町店",
@@ -44697,13 +44705,14 @@
     "count": 0,
     "type": "store",
     "store_id": "6523e7b150",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_aratama",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-arakasa.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "愛知県"
+    "canonical_pref": "愛知県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "luckyhorita": {
     "store": "ラッキープラザ堀田店",
@@ -44843,13 +44852,14 @@
     "count": 0,
     "type": "store",
     "store_id": "13bd835d27",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/king_kasadera",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-arakasa.com/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "愛知県"
+    "canonical_pref": "愛知県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "kyorakuminami": {
     "store": "サンシャインKYORAKU南",
@@ -46519,13 +46529,14 @@
     "count": 0,
     "type": "store",
     "store_id": "c3c370b931",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/hirokuma21",
+    "verification_status": "verified",
+    "evidence_type": "official_store_site",
+    "evidence_url": "https://kingkanko-web.net/kumano/",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "三重県"
+    "canonical_pref": "三重県",
+    "verified_at": "2026-08-14",
+    "canonical_handle": true
   },
   "kumakumaking7": {
     "store": "キング観光熊野店（別アカウント）",
