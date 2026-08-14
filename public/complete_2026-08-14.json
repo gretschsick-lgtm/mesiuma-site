@@ -1,0 +1,45 @@
+[
+  {
+    "id": "9f2e4a278c0a",
+    "date": "2026-08-14",
+    "time": "19:26",
+    "store": "タムタム店長(メガシティ市原）",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "8月14日（金曜日）  コンプリート達成   eリコリス•リコイル お客様おめでとうこざいます",
+    "x_url": "https://x.com/tamtamtenc_maru/status/2088210709293519263",
+    "store_handle": "tamtamtenc_maru",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tamtamtenc_maru",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-14T11:43:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrQkThakAA0UY7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrQkThakAA0UY7?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "18f98b22d92d",
+    "date": "2026-08-14",
+    "time": "13:20",
+    "store": "やすだ戸田店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【速報】【速報】 先ほど12時過ぎ・・・ え？コンプリート？ 間違いではありません！ e牙狼12から コンプリート達成です！  おめでとうございます",
+    "x_url": "https://x.com/yasuda_toda/status/2088118415328202867",
+    "store_handle": "yasuda_toda",
+    "store_x_url": "https://x.com/yasuda_toda",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T11:43:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPp7RSCaAAAOLsD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPp76fMbAAAVSCA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPp7RSCaAAAOLsD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  }
+]
