@@ -364,5 +364,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPlLaMfaIAAUX3U?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "ef43a48215f7",
+    "date": "2026-08-13",
+    "time": "08:09",
+    "store": "やすだ東大宮店",
+    "machine": "e 北斗の拳11 暴凶星",
+    "machine_type": "pachinko",
+    "slot_number": "139",
+    "text": "おはようございます 昨日は139番台 #e北斗の拳11暴凶星 で #コンプリート おめでとうございます　 今日も出るか！？ 朝からお待ちしてます",
+    "x_url": "https://x.com/yasuda_tokoro/status/2088040208839348546",
+    "store_handle": "yasuda_tokoro",
+    "store_x_url": "https://x.com/yasuda_tokoro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T20:56:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPo1gSibAAAannH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPo1gSibAAAannH?format=jpg&name=large",
+    "machine_id": "4b7631e5-c602-47c2-a90b-c2c68609e371"
   }
 ]

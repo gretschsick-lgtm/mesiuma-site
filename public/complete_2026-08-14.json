@@ -22,6 +22,27 @@
     "store_id": "2b4d471207"
   },
   {
+    "id": "ac7a2e1e0a7c",
+    "date": "2026-08-14",
+    "time": "20:17",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "510",
+    "text": "こんばんは！ 510番台e牙狼12黄金騎士極限 コンプリートおめでとうございます！！",
+    "x_url": "https://x.com/tamaya_honten/status/2088223579490124162",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-14T20:26:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrcEEragAA_oa0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrcEEragAA_oa0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "9f2e4a278c0a",
     "date": "2026-08-14",
     "time": "19:26",
