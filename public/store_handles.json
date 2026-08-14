@@ -13203,13 +13203,14 @@
     "count": 0,
     "type": "store",
     "store_id": "bd05ac9c29",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/GAIA_HTOTSUKA",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "神奈川県"
+    "canonical_pref": "神奈川県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "GMG_777": {
     "store": "カネマン盛岡南777",
@@ -21047,13 +21048,14 @@
     "count": 0,
     "type": "store",
     "store_id": "0b7b1b100f",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/GAIA_MIZUE",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "GAIA_OTSUKA": {
     "store": "ガイア大塚北口",
@@ -21073,13 +21075,14 @@
     "count": 0,
     "type": "store",
     "store_id": "ebdffa684a",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/GAIA_WADAMACHI",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "神奈川県"
+    "canonical_pref": "神奈川県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "gaia_oizumi": {
     "store": "ガイア大泉学園",
@@ -30626,13 +30629,14 @@
     "count": 0,
     "type": "store",
     "store_id": "bd05ac9c29",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/gaia_htotsuka",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/GAIA_HTOTSUKA",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "神奈川県"
+    "canonical_pref": "神奈川県",
+    "canonical_handle": false,
+    "verified_at": "2026-08-14"
   },
   "espace_agarie_0": {
     "store": "イースペース東江店",
@@ -31827,13 +31831,14 @@
     "count": 0,
     "type": "store",
     "store_id": "0cbdde2f7d",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/g_hitachinaka",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "茨城県"
+    "canonical_pref": "茨城県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "gaia_mizue": {
     "store": "ガイア瑞江店",
@@ -31841,13 +31846,14 @@
     "count": 0,
     "type": "store",
     "store_id": "0b7b1b100f",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/gaia_mizue",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/GAIA_MIZUE",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": false,
+    "verified_at": "2026-08-14"
   },
   "gaia_wadamachi": {
     "store": "ガイア和田町店",
@@ -31855,13 +31861,14 @@
     "count": 0,
     "type": "store",
     "store_id": "ebdffa684a",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/gaia_wadamachi",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/GAIA_WADAMACHI",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "神奈川県"
+    "canonical_pref": "神奈川県",
+    "canonical_handle": false,
+    "verified_at": "2026-08-14"
   },
   "29_nihonmatu": {
     "store": "ニラク二本松店",
@@ -36693,13 +36700,14 @@
     "count": 0,
     "type": "store",
     "store_id": "eef2bf535e",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/g_itsukaichi",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/G_itsukaichi",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "広島県"
+    "canonical_pref": "広島県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "miku_tarumi": {
     "store": "ミクちゃんガイア垂水店",
