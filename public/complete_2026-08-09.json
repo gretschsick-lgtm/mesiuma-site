@@ -342,6 +342,27 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "9d77f4b0a816",
+    "date": "2026-08-09",
+    "time": "21:13",
+    "store": "マルハン甲府店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "13",
+    "text": "【速報-`⋆】 本日、8月9日(日)  13番台　e牙狼12黄金騎士極限  コンプリートฅ^•ω•^ฅ  おめでとうございます  #マルハン甲府店",
+    "x_url": "https://x.com/maruhankofu/status/2086425651175903258",
+    "store_handle": "maruhankofu",
+    "store_x_url": "https://x.com/maruhankofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T17:38:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPR5Ef4bsAA5Eqe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPR5Ef4bsAA5Eqe?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "2938b5a6b8b3",
     "date": "2026-08-09",
     "time": "21:10",
@@ -681,7 +702,7 @@
     "store_x_url": "https://x.com/project_s7",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-15T18:26:31Z",
+    "collected_at": "2026-08-15T17:38:47Z",
     "images": [
       "https://pbs.twimg.com/media/HPRm0xPa8AA9kpY?format=jpg&name=large"
     ],
@@ -1199,6 +1220,27 @@
       "https://pbs.twimg.com/media/HPQwvFobIAA_p3d?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPQwvFobIAA_p3d?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "1a5de45883e2",
+    "date": "2026-08-09",
+    "time": "15:54",
+    "store": "ニューアサヒ上田インター店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "266",
+    "text": "創業月間 まだまだ続く 牙狼黄金騎士  266番台 コンプリート おめでとうございます。 #創業月間",
+    "x_url": "https://x.com/kirintenchou/status/2086345313258979749",
+    "store_handle": "kirintenchou",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-15T17:44:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPQwANEbcAE_oJf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPQwANEbcAE_oJf?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
