@@ -1816,7 +1816,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-15T14:51:19Z",
-    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "image_url": "https://pbs.twimg.com/media/HPglrG-W8AEgj80.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPglrG-W8AEgj80.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPglrG-W8AEgj80?format=jpg&name=large"
+    ]
   },
   {
     "id": "1dc05d2645dc",
