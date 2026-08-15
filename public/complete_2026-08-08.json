@@ -282,6 +282,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
+    "id": "23ff74370078",
+    "date": "2026-08-08",
+    "time": "22:26",
+    "store": "ダイナム広島三次店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月8日（土） #L北斗の拳転生の章2 おめでとうございます  #ダイナム #三次 #転生2 #スマスロ #コンプリート",
+    "x_url": "https://x.com/dynam_00243/status/2086081516686148082",
+    "store_handle": "dynam_00243",
+    "store_x_url": "https://x.com/dynam_00243",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T14:03:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPNAFPhWQAAK0uE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPNAFPhWQAAK0uE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "8f669c6f9f71",
     "date": "2026-08-08",
     "time": "22:25",
@@ -1930,27 +1951,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPMAiPFagAARtso?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "1d9693dffdf2",
-    "date": "2026-08-08",
-    "time": "17:41",
-    "store": "マルハン千葉北店",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "コンプリート達成 【スマスロ ミリオンゴッド‐神々の軌跡‐】 おめでとうございます",
-    "x_url": "https://x.com/maruhan_chiba/status/2086009872039178621",
-    "store_handle": "maruhan_chiba",
-    "store_x_url": "https://x.com/maruhan_chiba",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-15T14:51:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPL-5NFakAAXgLI?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPL-5NFakAAXgLI?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "06855474c00d",
