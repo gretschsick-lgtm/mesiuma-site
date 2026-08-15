@@ -1,5 +1,26 @@
 [
   {
+    "id": "dcb9bc34ac07",
+    "date": "2026-08-13",
+    "time": "23:19",
+    "store": "マルハン仙台苦竹店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "673",
+    "text": "8/13（木）22：58頃  673番台    Lミリオンゴッド神々の軌跡  コンプリート機能発動",
+    "x_url": "https://x.com/niga_maru/status/2087906779929981120",
+    "store_handle": "niga_maru",
+    "store_x_url": "https://x.com/niga_maru",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T07:15:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPm8JmHakAADvTN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPm8JmHakAADvTN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
     "id": "5caaca887496",
     "date": "2026-08-13",
     "time": "23:09",
@@ -129,6 +150,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPmg6F9aMAARwVR?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "4b1b40359d8c",
+    "date": "2026-08-13",
+    "time": "21:10",
+    "store": "キコーナ堺本店",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "776",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 776番台 【Lからくりサーカス】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2087874532594028591",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T07:05:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPme0draEAAevoE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPme0draEAAevoE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021"
   },
   {
     "id": "4ebf980c9f0e",
