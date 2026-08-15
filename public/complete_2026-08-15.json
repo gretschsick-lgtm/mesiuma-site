@@ -1,24 +1,45 @@
 [
   {
-    "id": "ad0784fd2afc",
+    "id": "b0ae6d960538",
     "date": "2026-08-15",
-    "time": "16:24",
-    "store": "玉屋∞本店",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "471",
-    "text": "４７１番台　e牙狼１２ コンプリートおめでとうございます  お盆んうぅ",
-    "x_url": "https://x.com/YONEPEE2288/status/2088527307699085364",
-    "store_handle": "yonepee2288",
-    "store_x_url": "https://x.com/yonepee2288",
+    "time": "17:52",
+    "store": "楽園池袋店グリーンサイド",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "5077",
+    "text": "コンプリートのご報告  楽園池袋店 グリーンサイドです    本日、8月15日(土)  5077番台 【L ヴァルヴレイヴ２】  コンプリート機能作動です  本日は遊技台停止となります 申し訳ございません。。。 #楽園池袋 #グリーンサイド #コンプリート #スマスロ",
+    "x_url": "https://x.com/Rakuen_GS/status/2088549359667597417",
+    "store_handle": "rakuen_gs",
+    "store_x_url": "https://x.com/rakuen_gs",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-15T09:20:45Z",
+    "collected_at": "2026-08-15T11:31:05Z",
     "images": [
-      "https://pbs.twimg.com/media/HPvwb76aUAAw2Az?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HPwEkpXasAALmOX?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HPvwb76aUAAw2Az?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "image_url": "https://pbs.twimg.com/media/HPwEkpXasAALmOX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "eabb360901b4",
+    "date": "2026-08-15",
+    "time": "16:45",
+    "store": "ベガビック1130豊川店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "さきほどe東京喰種 コンプリート達成致しました おめでとうございます 明日も「９：００開店」です 連休もベガビック1130豊川へ ご来店お待ちしております #ベガビック１１３０豊川店 #スマパチ #コンプリート機能",
+    "x_url": "https://x.com/VEGABIQ1227/status/2088532610234658917",
+    "store_handle": "vegabiq1227",
+    "store_x_url": "https://x.com/vegabiq1227",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T11:29:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPvzPVPbkAAjhaV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPvzPVPbkAAjhaV?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "5246269b8c83",
