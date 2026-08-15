@@ -131,6 +131,27 @@
     "store_id": "18425371bb"
   },
   {
+    "id": "0b97f7fbf8ae",
+    "date": "2026-08-13",
+    "time": "21:40",
+    "store": "パラッツォ馬橋駅前店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "2375",
+    "text": "コンプリート速報 2375番台 北斗の拳転生の章２ 本日コンプリートです(*‘ω‘ *) おめでとうございます！ #コンプリート #転生2",
+    "x_url": "https://x.com/palazzo_mabashi/status/2087881876308627628",
+    "store_handle": "palazzo_mabashi",
+    "store_x_url": "https://x.com/palazzo_mabashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T09:45:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmkiN4aQAA1Zm8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmkiN4aQAA1Zm8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "bd910e8505ee",
     "date": "2026-08-13",
     "time": "21:20",
@@ -171,6 +192,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPme0draEAAevoE?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000021"
+  },
+  {
+    "id": "75a7425d727d",
+    "date": "2026-08-13",
+    "time": "21:00",
+    "store": "キコーナ川西久代店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "#キコーナ南津守店 です！  な、な、なんと！  本日も真打吉宗からコンプリートが発生  私自身も少し触るのが怖い機械ではありますが この機会に遊んでみようかと思っちゃいました  やっぱり破壊力ハンパね～～  ご遊技されていた方おめでとうございます  #キコーナサマー #つぶやキコーナ",
+    "x_url": "https://x.com/kicona_Mtsumori/status/2087871803389780218",
+    "store_handle": "kicona_mtsumori",
+    "store_x_url": "https://x.com/kicona_Mtsumori",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T09:45:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmblDmaYAAwBA2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmblDmaYAAwBA2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "b635e8eba964",
+    "date": "2026-08-13",
+    "time": "20:25",
+    "store": "ダイナム金町南口店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "真打吉宗からはお初のコンプリートだったような  ご遊技されたお客様おめでとうございます 長時間ありがとうございました  明日はコバキチアクキーさま〜ver入荷 ぜひぜひ  #ダイナム",
+    "x_url": "https://x.com/kanamina_tencyo/status/2087863082450354429",
+    "store_handle": "kanamina_tencyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/kanamina_tencyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-15T16:07:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmR0flWYAATeQl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmR0flWYAATeQl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "4ebf980c9f0e",
@@ -515,48 +578,5 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPo1gSibAAAannH?format=jpg&name=large",
     "machine_id": "4b7631e5-c602-47c2-a90b-c2c68609e371"
-  },
-  {
-    "id": "b4b03a0be44d",
-    "date": "2026-08-13",
-    "time": "00:27",
-    "store": "メガフェイス1450本山",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "729",
-    "text": "コンプリート速報です  月日  　　729番台 　　　e東京喰種 #コンプリート 達成です  おめでとうございます  #メガフェイス1450本山 #e東京喰種",
-    "x_url": "https://x.com/megaface_1450/status/2087924117190398383",
-    "store_handle": "megaface_1450",
-    "store_x_url": "https://x.com/megaface_1450",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-15T10:00:14Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPm_0G2awAAb3aw?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPm_0G2awAAb3aw?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
-  },
-  {
-    "id": "ef9e56d2fda5",
-    "date": "2026-08-13",
-    "time": "00:19",
-    "store": "ピーアーク北綾瀬駅前",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "400",
-    "text": "8/13(木) ピーアーク北綾瀬駅前  スロット L戦国乙女５ 400番台  コンプリート達成  ｽｺﾞｲｽｺﾞｲ  #スロット #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
-    "x_url": "https://x.com/ParkPkunGarden/status/2087922113273606413",
-    "store_handle": "parkpkungarden",
-    "store_x_url": "https://x.com/ParkPkunGarden",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-15T10:00:14Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPnKF-Eb0AA2njX?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPMU0fhawAAIRVZ?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPnKF-Eb0AA2njX?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   }
 ]
