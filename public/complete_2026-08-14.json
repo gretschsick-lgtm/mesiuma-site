@@ -148,6 +148,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
+    "id": "0adf9c9fecd0",
+    "date": "2026-08-14",
+    "time": "16:46",
+    "store": "キコーナ鶴見",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "786",
+    "text": "本日、8月14日(金)  786番台　スマスロ攻殻機動隊より  コンプリート達成 おめでとうございます！！  #グランキコーナ鶴見 #つぶやキコーナ",
+    "x_url": "https://x.com/gkicona_turumi/status/2088170306414481781",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T02:43:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPqr01bbgAAmuvh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPqr01bbgAAmuvh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "e915f9dfcbac",
+    "date": "2026-08-14",
+    "time": "16:33",
+    "store": "キコーナサマー",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "267",
+    "text": "【コンプリート速報】 本日16:23 267番台Lからくりサーカスにて コンプリート達成！！ おめでとうございます  まだまだ元気いっぱいに営業しておりますので ご来店お待ちしております  #つぶやキコーナ #コンプリート #キコーナサマー",
+    "x_url": "https://x.com/kicona_koryo/status/2088167161646997799",
+    "store_handle": "kicona_koryo",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-15T02:43:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPqo9snbwAACrdo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPqo9snbwAACrdo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021"
+  },
+  {
     "id": "d3c2a666b8c8",
     "date": "2026-08-14",
     "time": "15:51",

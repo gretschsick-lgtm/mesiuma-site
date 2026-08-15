@@ -302,6 +302,49 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "8658678dffea",
+    "date": "2026-08-13",
+    "time": "17:29",
+    "store": "キクヤ一宮店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "635",
+    "text": "635番台　 ヴァルヴレイヴ2　コンプリート おめでとうございます！  本日2台目もヴァルヴレイヴ2！",
+    "x_url": "https://x.com/ichinomiya1380/status/2087818819121381740",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T02:43:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPlrE8xawAAoQYV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPlrE8xawAAoQYV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "a4061c84834a",
+    "date": "2026-08-13",
+    "time": "17:14",
+    "store": "スーパーホール天王寺店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート報告  ヴァルヴレイヴ2よりコンプリート さすがの出玉スピードでこの時間でのコンプ🫪 おめでとうございま〜す  本日はやまさかえるさん来店に雷スロ取材 そしてそして…スパホTシャツ交換会 20時〜交換開始予定です 是非お越しくださいませ",
+    "x_url": "https://x.com/supaho_tennouji/status/2087814963339608164",
+    "store_handle": "supaho_tennouji",
+    "store_x_url": "https://x.com/supaho_tennouji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-15T02:43:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPloja6bkAAPJ1T?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPlojawawAAU_-I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPloja6bkAAPJ1T?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "ae558e9c8661",
     "date": "2026-08-13",
     "time": "17:09",
