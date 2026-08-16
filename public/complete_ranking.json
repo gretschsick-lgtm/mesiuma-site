@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-16T12:00:43+09:00",
+  "generated_at": "2026-08-16T14:04:36+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 712,
+      "total_count": 715,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 34
+          "count": 35
         },
         {
           "rank": 2,
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 107
+          "count": 108
         },
         {
           "rank": 2,
@@ -85,7 +85,7 @@
         {
           "rank": 4,
           "name": "Lミリオンゴッド神々の軌跡",
-          "count": 27
+          "count": 28
         },
         {
           "rank": 5,
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 112
+          "count": 113
         },
         {
           "rank": 2,
@@ -711,7 +711,7 @@
       {
         "rank": 1,
         "name": "ARROW浪速店",
-        "count": 58,
+        "count": 59,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -734,14 +734,14 @@
       },
       {
         "rank": 5,
-        "name": "楽園池袋店ゲートウェイ",
-        "count": 43,
-        "x_url": "https://x.com/rakuenikebukuro"
+        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
+        "count": 44
       },
       {
         "rank": 6,
-        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-        "count": 43
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 43,
+        "x_url": "https://x.com/rakuenikebukuro"
       },
       {
         "rank": 7,
@@ -772,7 +772,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 529
+        "count": 530
       },
       {
         "rank": 2,
@@ -787,7 +787,7 @@
       {
         "rank": 4,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 96
+        "count": 97
       },
       {
         "rank": 5,
@@ -824,7 +824,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 354
+        "count": 355
       },
       {
         "rank": 2,
@@ -872,15 +872,15 @@
         "count": 13
       }
     ],
-    "total_count": 3031
+    "total_count": 3034
   },
   "store_complete_counts": {
-    "ARROW浪速店": 58,
+    "ARROW浪速店": 59,
     "キング観光サウザンド栄若宮大通店": 51,
     "プレイランドキャッスル春日井店": 49,
     "テキサス小倉店": 48,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 44,
     "楽園池袋店ゲートウェイ": 43,
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 43,
     "キクヤ春日井店": 42,
     "楽園大宮店": 40,
     "マルハンメガシティ三島駿東": 40,
@@ -962,12 +962,12 @@
     "SuperD'station39福重店": 10,
     "T-MAX新栄店": 10,
     "テキサス656山口店": 10,
+    "マルハン甲府店": 10,
     "楽園蒲田店": 9,
     "玉屋∞本店": 9,
     "グランキコーナ松原店": 9,
     "クラブハウス本店": 9,
     "ダイナム滋賀彦根店～Since2025.7.18～": 9,
-    "マルハン甲府店": 9,
     "エクスアリーナ松戸": 8,
     "ダイナム武生店": 8,
     "ベガビック1130豊川店": 8,
@@ -1481,7 +1481,7 @@
     "グランワールドカップ本巣店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2721,
+    "records_with_store_id": 2724,
     "records_without_store_id": 310,
     "canonical_store_ids": 461
   }

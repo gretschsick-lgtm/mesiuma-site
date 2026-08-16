@@ -594,6 +594,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "6c4f3bca38ae",
+    "date": "2026-08-14",
+    "time": "15:00",
+    "store": "ダイナム大分海原店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "165",
+    "text": "【コンプリート報告】  昨日8/14(金) 165番台　Ｌヴァルヴレイヴ２  コンプリート達成 おめでとうございます  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00367/status/2088505998507954271",
+    "store_handle": "dynam_00367",
+    "store_x_url": "https://x.com/dynam_00367",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T04:56:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPvdIqbWMAAYnlx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPvdIqbWMAAYnlx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "e630b5ffa705",
     "date": "2026-08-14",
     "time": "14:22",
@@ -657,5 +678,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPp7RSCaAAAOLsD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "4a7b3bf05592",
+    "date": "2026-08-14",
+    "time": "01:10",
+    "store": "ARROW浪速店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "814",
+    "text": "本日、  スマスロ ミリオンゴッド‐神々の軌跡‐　814番台 スロット ワールドダイスター 　1177番台  コンプリート達成おめでとうございます #スロット #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2088297277886759030",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T04:57:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPsfRgZb0AAwL8O?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPsfSA4bwAAizT7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPsfRgZb0AAwL8O?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "dd02f6f68a"
   }
 ]

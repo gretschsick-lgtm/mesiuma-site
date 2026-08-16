@@ -754,5 +754,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPvhXlxaYAEFrTe?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "d023e820e29b",
+    "date": "2026-08-15",
+    "time": "12:22",
+    "store": "マルハン甲府店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【速報】 8月15日(土)  5番台　e牙狼12黄金騎士極限  コンプリート おめでとうございます",
+    "x_url": "https://x.com/maruhankofu/status/2088466206894473254",
+    "store_handle": "maruhankofu",
+    "store_x_url": "https://x.com/maruhankofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T04:56:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPu4h5daQAEAOJG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPu4h5daQAEAOJG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   }
 ]
