@@ -1,5 +1,26 @@
 [
   {
+    "id": "d3e43ee17a53",
+    "date": "2026-08-16",
+    "time": "16:23",
+    "store": "メガフェイス930朝倉",
+    "machine": "eバイオハザード6",
+    "machine_type": "pachinko",
+    "slot_number": "135",
+    "text": "4円パチンココーナー 135番台 #eバイオハザード6 コンプリート達成 おめでとうございます！  #メガフェイス930朝倉",
+    "x_url": "https://x.com/face930asakura/status/2088889463745474768",
+    "store_handle": "face930asakura",
+    "store_x_url": "https://x.com/face930asakura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T09:56:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP04bfEaAAAa3-t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP04bfEaAAAa3-t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030"
+  },
+  {
     "id": "f3e0bc288650",
     "date": "2026-08-16",
     "time": "15:26",
