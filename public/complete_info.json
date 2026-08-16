@@ -3174,6 +3174,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "301bb8f85341",
+    "date": "2026-08-12",
+    "time": "11:11",
+    "store": "カネマン奥州1111",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "357",
+    "text": "8/11　 357番台　e女神のカフェテラス コンプリート  #カネマン奥州1111 #コンプリート",
+    "x_url": "https://x.com/kaneman_1111/status/2087361175667270101",
+    "store_handle": "kaneman_1111",
+    "store_x_url": "https://x.com/kaneman_1111",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T08:42:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPe0TVUaQAA6589?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPe0TVUaQAA6589?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+  },
+  {
     "id": "81cb02a79087",
     "date": "2026-08-12",
     "time": "09:22",
