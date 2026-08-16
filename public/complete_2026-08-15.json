@@ -152,6 +152,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "ccdf06cf3d07",
+    "date": "2026-08-15",
+    "time": "22:35",
+    "store": "メガフェイス1500宗像",
+    "machine": "スマスロバイオハザードRE:3",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  　　『LバイオハザードRE3』より コンプリート達成  本日３台目のコンプリート報告はLバイオハザードRE3です  おめでとうございます",
+    "x_url": "https://x.com/megaface_1500/status/2088620720431714711",
+    "store_handle": "megaface_1500",
+    "store_x_url": "https://x.com/megaface_1500",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T20:40:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxFdB_aMAAB2LN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxFdB_aMAAB2LN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000018"
+  },
+  {
+    "id": "2672e9b54dfd",
+    "date": "2026-08-15",
+    "time": "22:31",
+    "store": "ビックマーチ伊勢崎店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは ビックマーチ伊勢崎店です  本日8/15(土) 【チバリヨ２】 コンプリート出ました  おめでとうございます  #ビックマーチ #ビックマーチ伊勢崎",
+    "x_url": "https://x.com/bm_isesaki/status/2088619651332964390",
+    "store_handle": "bm_isesaki",
+    "store_x_url": "https://x.com/bm_isesaki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T20:40:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxEaMoacAAzM7c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxEaMoacAAzM7c?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "39d23a3ec2de",
     "date": "2026-08-15",
     "time": "22:22",

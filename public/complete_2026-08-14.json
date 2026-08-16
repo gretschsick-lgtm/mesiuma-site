@@ -151,6 +151,50 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "3765581b3339",
+    "date": "2026-08-14",
+    "time": "21:36",
+    "store": "ジュラク王子店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "152",
+    "text": "本日早い時間にコンプリート を達成したeリコリス・リコイル に続き地下フロア152番台 『e転生したらスライムだった件』 こちらもコンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/JURAKU8/status/2088243307168329955",
+    "store_handle": "juraku8",
+    "store_x_url": "https://x.com/juraku8",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T20:26:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPruN2NboAINk2c?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPruN2gaYAAR8Wu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPruN2NboAINk2c?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "eb7bf951ecea",
+    "date": "2026-08-14",
+    "time": "21:36",
+    "store": "ジュラク王子店",
+    "machine": "e転生したらスライムだった件",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日早い時間にコンプリート を達成したeリコリス・リコイル に続き地下フロア152番台 『e転生したらスライムだった件』 こちらもコンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/JURAKU8/status/2088243307168329955",
+    "store_handle": "juraku8",
+    "store_x_url": "https://x.com/juraku8",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T20:26:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPruN2NboAINk2c?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPruN2gaYAAR8Wu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPruN2NboAINk2c?format=jpg&name=large",
+    "machine_id": "0dce5852-c7de-41fb-b28d-a93fdab645d4"
+  },
+  {
     "id": "9d976f5a6156",
     "date": "2026-08-14",
     "time": "21:23",
