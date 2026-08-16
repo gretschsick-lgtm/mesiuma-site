@@ -215,27 +215,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000021"
   },
   {
-    "id": "e0992b65bcb3",
-    "date": "2026-08-13",
-    "time": "21:10",
-    "store": "キコーナ堺本店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "739",
-    "text": "キクヤ堺本店1515 コンプリートのご報告 739番台 【L革命機ヴァルヴレイヴ2】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
-    "x_url": "https://x.com/ksakaihonten/status/2087874375223837136",
-    "store_handle": "ksakaihonten",
-    "store_x_url": "https://x.com/ksakaihonten",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T15:07:03Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPmeg9rasAAGgXy?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPmeg9rasAAGgXy?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
     "id": "75a7425d727d",
     "date": "2026-08-13",
     "time": "21:00",
@@ -270,34 +249,13 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-16T10:42:20Z",
+    "collected_at": "2026-08-16T13:19:27Z",
     "images": [
       "https://pbs.twimg.com/media/HPmVUWtacAAk3iD?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPmVVj1bEAAF-14?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPmVWeWbwAAeYP6?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPmVUWtacAAk3iD?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
-  },
-  {
-    "id": "0b639aa8ecff",
-    "date": "2026-08-13",
-    "time": "20:27",
-    "store": "マルハンメガシティ水戸赤塚",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "16",
-    "text": "ｅ東京喰種より コンプリート達成 お客様おめでとうございます #16番台",
-    "x_url": "https://x.com/maruhanakatsuka/status/2087863626174788005",
-    "store_handle": "maruhanakatsuka",
-    "store_x_url": "https://x.com/maruhanakatsuka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T10:42:20Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPmU4XmaAAABIjE?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPmU4XmaAAABIjE?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
@@ -426,6 +384,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPmIsdvbcAAwNOV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "fff113d279ee",
+    "date": "2026-08-13",
+    "time": "19:31",
+    "store": "フェイス700宮田本城",
+    "machine": "L戦国乙女4 戦乱に閃く炯眼の軍師",
+    "machine_type": "slot",
+    "slot_number": "1256",
+    "text": "速報です1256番台 L戦国乙女からコンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/face_700/status/2087849417802228097",
+    "store_handle": "face_700",
+    "store_x_url": "https://x.com/face_700",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T12:48:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPmH-UkbcAAA5sl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPmH-UkbcAAA5sl?format=jpg&name=large",
+    "machine_id": "bb41345e-6661-4274-84c7-58b0d8035681"
   },
   {
     "id": "8d2e85dbd927",
@@ -599,6 +578,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "a8117e424444",
+    "date": "2026-08-13",
+    "time": "16:30",
+    "store": "アスリーキャンバス中の人っぽい人in岡谷天竜店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "119",
+    "text": "孔明Rです。  «速報»  119番台 牙狼黄金騎士極限 見事コンプリート達成  迎え盆も早々に!! ご先祖さまもビックリですね  🄲🄾🄽🄶🅁🄰🅃🅄🄻🄰🅃🄸🄾🄽🅂  #アサヒ天竜 #牙狼聖域化計画 #金色になれ #創業月間",
+    "x_url": "https://x.com/asahinakanohito/status/2087804046677819484",
+    "store_handle": "asahinakanohito",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-16T12:48:38Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "d19e19a563c8",
     "date": "2026-08-13",
     "time": "16:21",
@@ -655,7 +651,7 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-16T15:20:36Z",
+    "collected_at": "2026-08-16T13:19:18Z",
     "images": [
       "https://pbs.twimg.com/media/HPk-FZHbwAA-r6m?format=jpg&name=large"
     ],
