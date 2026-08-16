@@ -35,7 +35,7 @@
     "store_x_url": "https://x.com/space666tobata",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-16T15:42:13Z",
+    "collected_at": "2026-08-16T18:55:10Z",
     "images": [
       "https://pbs.twimg.com/media/HPhptExaUAAbAY4?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPhsoKHb0AAgSMa?format=jpg&name=large",
@@ -280,27 +280,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPhbUnGboAA6keD?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
-  },
-  {
-    "id": "23ba6f6c44a2",
-    "date": "2026-08-12",
-    "time": "21:33",
-    "store": "ワンダーランド大分皆春店",
-    "machine": "チバリヨ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "【速報】  ワンダーランド大分皆春店   【Lチバリヨ2】  よりコンプリート達成  おめでとうでござる",
-    "x_url": "https://x.com/wl_minaharu/status/2087517728408277347",
-    "store_handle": "wl_minaharu",
-    "store_x_url": "https://x.com/wl_minaharu",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T17:28:13Z",
-    "images": [
-      "https://pbs.twimg.com/amplify_video_thumb/2087517583117529089/img/9rXpCGomO_KiozfP.jpg?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2087517583117529089/img/9rXpCGomO_KiozfP.jpg?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "fa802cfa5d2e",
@@ -746,7 +725,7 @@
     "store_x_url": "https://x.com/castle_kasugai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-16T16:49:33Z",
+    "collected_at": "2026-08-16T16:08:20Z",
     "images": [
       "https://pbs.twimg.com/media/HPglOt7bwAANxQe?format=jpg&name=large"
     ],
@@ -965,27 +944,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPfisKIa0AAyCGV?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "301bb8f85341",
-    "date": "2026-08-12",
-    "time": "11:11",
-    "store": "カネマン奥州1111",
-    "machine": "e女神のカフェテラス",
-    "machine_type": "pachinko",
-    "slot_number": "357",
-    "text": "8/11　 357番台　e女神のカフェテラス コンプリート  #カネマン奥州1111 #コンプリート",
-    "x_url": "https://x.com/kaneman_1111/status/2087361175667270101",
-    "store_handle": "kaneman_1111",
-    "store_x_url": "https://x.com/kaneman_1111",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T08:42:29Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPe0TVUaQAA6589?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPe0TVUaQAA6589?format=jpg&name=large",
-    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
     "id": "81cb02a79087",
