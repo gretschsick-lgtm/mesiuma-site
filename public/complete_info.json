@@ -423,7 +423,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-15T17:40:27Z",
-    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "image_url": "https://pbs.twimg.com/media/HPwhEwyasAAowiQ.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPwhEwyasAAowiQ.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwhEwyasAAowiQ?format=jpg&name=large"
+    ]
   },
   {
     "id": "c064cb2b1739",
@@ -440,7 +445,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-15T17:40:27Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "image_url": "https://pbs.twimg.com/media/HPwde3HasAAkN4v.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPwde3HasAAkN4v.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwde3HasAAkN4v?format=jpg&name=large"
+    ]
   },
   {
     "id": "cf58819b6537",
@@ -605,7 +615,12 @@
     "manager_x_url": "https://x.com/bm_gakumori",
     "source_account_type": "store_manager",
     "collected_at": "2026-08-15T20:44:02Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "image_url": "https://pbs.twimg.com/media/HPwJAWuasAA52M7.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPwJAWuasAA52M7.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwJAWuasAA52M7?format=jpg&name=large"
+    ]
   },
   {
     "id": "66311d362db5",
@@ -643,7 +658,13 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-15T20:44:02Z",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
+    "image_url": "https://pbs.twimg.com/media/HPwEt3AbcAAER90.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPwEt3AbcAAER90.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwEt3AbcAAER90?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwEt2-bEAAVsj8?format=jpg&name=large"
+    ]
   },
   {
     "id": "b0ae6d960538",
