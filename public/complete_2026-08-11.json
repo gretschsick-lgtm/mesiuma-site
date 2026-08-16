@@ -1,5 +1,26 @@
 [
   {
+    "id": "0adc4dd91248",
+    "date": "2026-08-11",
+    "time": "22:47",
+    "store": "キクヤ一宮店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "785",
+    "text": "785番台 18時38分頃 チバリヨ2 コンプリート おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2087174004012667270",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T14:16:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPchsZHbsAAujkk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPchsZHbsAAujkk?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "b49d42795d8a",
     "date": "2026-08-11",
     "time": "22:43",
