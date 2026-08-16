@@ -108,6 +108,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000035"
   },
   {
+    "id": "cba73d6159f2",
+    "date": "2026-08-15",
+    "time": "22:15",
+    "store": "オメガ草津店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "からくりサーカス2でコンプリート達成  ヤバすぎるって〜 最後まで駆け抜けたヒキ、強すぎでしょ コンプリート達成おめでとう #オメガ草津はいつでも半額 #コンプリート",
+    "x_url": "https://x.com/omegakusatsu427/status/2088615681877278830",
+    "store_handle": "omegakusatsu427",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-16T11:08:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxA49daEAAICof?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxA49daEAAICof?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "5b442743a9da",
     "date": "2026-08-15",
     "time": "21:46",
@@ -258,27 +279,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPwo9ESbIAAo-cO?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "f7bc57810342",
-    "date": "2026-08-15",
-    "time": "20:14",
-    "store": "つかさ田崎店",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "759",
-    "text": "こんばんわー #つかさ田崎店 から速報です   からくりサーカス2 759番台 #コンプリート 達成  おめでとうございます",
-    "x_url": "https://x.com/T_tasaki778/status/2088585111772258646",
-    "store_handle": "t_tasaki778",
-    "store_x_url": "https://x.com/T_tasaki778",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T09:57:07Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPwiukqakAAL_sp?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPwiukqakAAL_sp?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "a8b1d87a8fa8",
@@ -557,6 +557,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPwLlq0bkAAlNmq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "6e7c7e565025",
+    "date": "2026-08-15",
+    "time": "18:19",
+    "store": "マルハン甲府店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【速報-`⋆ 8/15(土) 本日2台目です 9番台  e牙狼12黄金騎士極限  コンプリートჱ̒^.  ̫ .^ おめでとうございます",
+    "x_url": "https://x.com/maruhankofu/status/2088556218986221721",
+    "store_handle": "maruhankofu",
+    "store_x_url": "https://x.com/maruhankofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T11:08:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwKz3UaoAE_TRQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwKz3UaoAE_TRQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "4d3e8d4bcbc0",
