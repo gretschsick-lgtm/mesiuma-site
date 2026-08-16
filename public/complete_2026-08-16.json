@@ -1,26 +1,5 @@
 [
   {
-    "id": "af3705662461",
-    "date": "2026-08-16",
-    "time": "18:18",
-    "store": "メガフェイス1300淀川",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "コンプリート報告  ヴァルヴレイヴ2  コンプリート達成ッッ おめでとう御座います",
-    "x_url": "https://x.com/megaface_1300/status/2088918370175598837",
-    "store_handle": "megaface_1300",
-    "store_x_url": "https://x.com/megaface_1300",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T10:42:19Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP1ULofaEAAI922?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP1ULofaEAAI922?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
     "id": "d3e43ee17a53",
     "date": "2026-08-16",
     "time": "16:23",
@@ -34,7 +13,7 @@
     "store_x_url": "https://x.com/face930asakura",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-16T10:37:57Z",
+    "collected_at": "2026-08-16T09:56:44Z",
     "images": [
       "https://pbs.twimg.com/media/HP04bfEaAAAa3-t?format=jpg&name=large"
     ],
