@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-16T08:03:11+09:00",
+  "generated_at": "2026-08-16T09:01:44+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 704,
+      "total_count": 706,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 33
+          "count": 34
         },
         {
           "rank": 2,
@@ -85,7 +85,7 @@
         {
           "rank": 4,
           "name": "Lミリオンゴッド神々の軌跡",
-          "count": 26
+          "count": 27
         },
         {
           "rank": 5,
@@ -100,7 +100,7 @@
         {
           "rank": 7,
           "name": "スマスロ攻殻機動隊",
-          "count": 19
+          "count": 20
         },
         {
           "rank": 8,
@@ -740,14 +740,14 @@
       },
       {
         "rank": 6,
-        "name": "キクヤ春日井店",
-        "count": 42,
-        "x_url": "https://x.com/315kasugai"
+        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
+        "count": 43
       },
       {
         "rank": 7,
-        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-        "count": 42
+        "name": "キクヤ春日井店",
+        "count": 42,
+        "x_url": "https://x.com/315kasugai"
       },
       {
         "rank": 8,
@@ -787,7 +787,7 @@
       {
         "rank": 4,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 95
+        "count": 96
       },
       {
         "rank": 5,
@@ -807,7 +807,7 @@
       {
         "rank": 8,
         "name": "スマスロ攻殻機動隊",
-        "count": 53
+        "count": 54
       },
       {
         "rank": 9,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3023
+    "total_count": 3025
   },
   "store_complete_counts": {
     "ARROW浪速店": 58,
@@ -880,8 +880,8 @@
     "プレイランドキャッスル春日井店": 49,
     "テキサス小倉店": 48,
     "楽園池袋店ゲートウェイ": 43,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 43,
     "キクヤ春日井店": 42,
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 42,
     "楽園大宮店": 40,
     "マルハンメガシティ三島駿東": 40,
     "メガフェイス1300淀川": 39,
@@ -1466,6 +1466,7 @@
     "まるみつ鶴崎店": 1,
     "店長の右肘ユータ": 1,
     "テンガイ・八女店": 1,
+    "USA鯖江店": 1,
     "パチンコアラジン": 1,
     "ガイア東三国店": 1,
     "キコーナサマー": 1,
@@ -1478,8 +1479,8 @@
     "グランワールドカップ本巣店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2718,
-    "records_without_store_id": 305,
+    "records_with_store_id": 2719,
+    "records_without_store_id": 306,
     "canonical_store_ids": 460
   }
 }
