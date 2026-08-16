@@ -554,6 +554,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "013c26efd612",
+    "date": "2026-08-10",
+    "time": "19:09",
+    "store": "天王寺ホール本館",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Lヴァルヴレイヴからコンプリート達成 お客様おめでとうございます ⑧周年 8日連続来店  　天野麻菜さん来店  ご来店お待ちしております  #大阪 #天王寺 #コンプリート #PR",
+    "x_url": "https://x.com/tennoji_hall/status/2086756813358469252",
+    "store_handle": "tennoji_hall",
+    "store_x_url": "https://x.com/tennoji_hall",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T18:17:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPWl5LQawAEIY5o?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPWl8YNa0AAZYoY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPWl5LQawAEIY5o?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "43a4237596a2",
     "date": "2026-08-10",
     "time": "19:06",
@@ -696,7 +718,7 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-16T16:08:53Z",
+    "collected_at": "2026-08-16T15:35:02Z",
     "images": [
       "https://pbs.twimg.com/media/HPWUDAuaEAA9uYM?format=jpg&name=large"
     ],
@@ -765,27 +787,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPbM9tSbsAAwpO1?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010"
-  },
-  {
-    "id": "39624177c694",
-    "date": "2026-08-10",
-    "time": "16:35",
-    "store": "パーラーJ-遊一関",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "20",
-    "text": "8月10日　20番台  北斗の拳　転生の章2　 コンプリート達成！",
-    "x_url": "https://x.com/ju_ichinoseki/status/2086718126709002554",
-    "store_handle": "ju_ichinoseki",
-    "store_x_url": "https://x.com/ju_ichinoseki",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-16T17:44:12Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPWDEhbbAAAEuVP?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPWDEhbbAAAEuVP?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "19b07f15faad",
