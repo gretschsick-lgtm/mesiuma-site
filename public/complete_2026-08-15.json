@@ -43,6 +43,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "e29c6e1a2d2e",
+    "date": "2026-08-15",
+    "time": "22:47",
+    "store": "つかさ田崎店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "705",
+    "text": "#つかさ田崎店 から速報第2弾  本日2台目  北斗の拳 転生の章2 705番台 #コンプリート 達成  おめでとうございます",
+    "x_url": "https://x.com/T_tasaki778/status/2088623659246387492",
+    "store_handle": "t_tasaki778",
+    "store_x_url": "https://x.com/T_tasaki778",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T07:13:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxAjfFaIAA6N4Z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxAjfFaIAA6N4Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "39d23a3ec2de",
     "date": "2026-08-15",
     "time": "22:22",
@@ -756,6 +777,28 @@
     "store_id": "58111f872e"
   },
   {
+    "id": "98efea79fa10",
+    "date": "2026-08-15",
+    "time": "15:24",
+    "store": "マルハンアプリはこちら",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "333",
+    "text": "【333番台】  【e牙狼12黄金騎士極限】  コンプリート達成  おめでとうございます データを確認できるマルハンアプリはこちらから https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/KATORINE_1550/status/2088512073152290913",
+    "store_handle": "katorine_1550",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-16T07:12:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPviZvnbgAA4bfu?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPmst6xb0AANjSj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPviZvnbgAA4bfu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "b7d33569fe20",
     "date": "2026-08-15",
     "time": "15:18",
@@ -797,6 +840,27 @@
       "https://pbs.twimg.com/media/HPu4h5daQAEAOJG?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPu4h5daQAEAOJG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "685b903e40e8",
+    "date": "2026-08-15",
+    "time": "10:31",
+    "store": "ダイナム岐阜高山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "453",
+    "text": "8/15(土) コンプリート達成  453番台 e牙狼12黄金騎士極限  ご遊技されていたお客様 コンプリートおめでとうございました  #牙狼　#岐阜ダイナム　#高山",
+    "x_url": "https://x.com/dynam_00432/status/2088800689635971113",
+    "store_handle": "dynam_00432",
+    "store_x_url": "https://x.com/dynam_00432",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T07:11:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPzpKHjWcAApZvK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPzpKHjWcAApZvK?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
   }
 ]
