@@ -44068,11 +44068,15 @@
     "count": 0,
     "type": "store",
     "store_id": "826ad3c076",
-    "verification_status": "candidate",
-    "evidence_type": null,
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/OonotenD",
-    "match_method": "ns4_linkage",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "x_url_evidence",
+    "rejection_reason": "not_in_canonical_master",
+    "is_active": true,
+    "canonical_pref": "長崎県",
+    "canonical_handle": false,
+    "verified_at": "2026-08-17"
   },
   "d_oomura": {
     "store": "D'ステーション39大村店",
@@ -44080,11 +44084,15 @@
     "count": 0,
     "type": "store",
     "store_id": "8092d2c9bd",
-    "verification_status": "candidate",
-    "evidence_type": null,
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/D_oomura",
-    "match_method": "ns4_linkage",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "x_url_evidence",
+    "rejection_reason": "not_in_canonical_master",
+    "is_active": true,
+    "canonical_pref": "長崎県",
+    "canonical_handle": false,
+    "verified_at": "2026-08-17"
   },
   "d_matubaseinter": {
     "store": "D'ステーション39松橋インター店",
@@ -55604,7 +55612,8 @@
     "type": "manager",
     "store": "",
     "count": 0,
-    "x_url": "https://x.com/kirintenchou"
+    "x_url": "https://x.com/kirintenchou",
+    "verification_status": "excluded_manager"
   },
   "clubjfujino": {
     "store": "クラブジェイ藤野店",
@@ -55636,7 +55645,7 @@
     "count": 0,
     "type": "manager",
     "store_id": "0d76cc0ef7",
-    "verification_status": "candidate",
+    "verification_status": "excluded_manager",
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/derugura88",
     "canonical_pref": "栃木県",
@@ -55838,12 +55847,14 @@
     "type": "manager",
     "store": "",
     "count": 0,
-    "x_url": "https://x.com/hananbo_dynam"
+    "x_url": "https://x.com/hananbo_dynam",
+    "verification_status": "excluded_manager"
   },
   "daiei_k_0523": {
     "type": "manager",
     "store": "",
     "count": 0,
-    "x_url": "https://x.com/daiei_k_0523"
+    "x_url": "https://x.com/daiei_k_0523",
+    "verification_status": "excluded_manager"
   }
 }
