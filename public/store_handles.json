@@ -33089,13 +33089,14 @@
     "count": 0,
     "type": "store",
     "store_id": "d59720d93e",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/palazzo_mabashi",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "千葉県"
+    "canonical_pref": "千葉県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "palazzo_kasai": {
     "store": "パラッツォ葛西",
@@ -55008,13 +55009,14 @@
     "count": 0,
     "type": "store",
     "store_id": "d71a68b8d5",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/palazzo_kemi",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "千葉県"
+    "canonical_pref": "千葉県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "haps_terachan": {
     "store": "ハップス東寺山店",
