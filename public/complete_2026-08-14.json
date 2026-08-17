@@ -190,6 +190,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "e7e93ba607e2",
+    "date": "2026-08-14",
+    "time": "21:58",
+    "store": "メガフェイス1070菊陽",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "940",
+    "text": "940番台 Lチバリヨ2 コンプリート達成 #8月14日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2088248948662349848",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T22:29:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrzWZsagAA7qdO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPblDdWbYAAkHJ2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrzWZsagAA7qdO?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "41cbbbd2840e",
     "date": "2026-08-14",
     "time": "21:56",
