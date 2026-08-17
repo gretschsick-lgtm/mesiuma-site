@@ -240,6 +240,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "838fff5c0cc7",
+    "date": "2026-08-16",
+    "time": "17:55",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "なんと本日も！！ ｅ牙狼12より コンプリート達成 お客様おめでとうございます #7番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2088912644258570270",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T23:53:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1O87RakAAbtm5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1O87RakAAbtm5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "6323950788b6",
+    "date": "2026-08-16",
+    "time": "17:46",
+    "store": "ダイエー鷲宮店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "608",
+    "text": "なんと本日台目 608番台 e東京喰種 超デカ超一撃ver. コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/daiei_w_0426/status/2088910342877540398",
+    "store_handle": "daiei_w_0426",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-16T23:53:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1L8fca8AAEFKO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1L8fca8AAEFKO?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "6ba3fd0375c9",
     "date": "2026-08-16",
     "time": "17:36",

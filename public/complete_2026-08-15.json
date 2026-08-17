@@ -152,6 +152,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "275cca2aec22",
+    "date": "2026-08-15",
+    "time": "22:45",
+    "store": "ダイナム福山店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "459",
+    "text": "本日のコンプ報告です!  459番台Ｌ新鬼武者３ＳＡ  コンプリート致しました   おめでとうございます   #ダイナム #福山 #コンプリート",
+    "x_url": "https://x.com/dynam_00140/status/2088623015030304876",
+    "store_handle": "dynam_00140",
+    "store_x_url": "https://x.com/dynam_00140",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-16T23:53:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxHkCGWoAAk9mB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxHkCGWoAAk9mB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016"
+  },
+  {
     "id": "ccdf06cf3d07",
     "date": "2026-08-15",
     "time": "22:35",
