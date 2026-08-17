@@ -1,0 +1,188 @@
+name: Resolve Store Handles
+
+# 目的: collector 等で得た store_handles.json を canonical DB に対して安全・idempotent に
+# 再分類し、store identity メタ（store_id / verified / rejected / canonical_handle 等）を
+# 最新化する保守ジョブ。新規 X 探索・DMM 探索・Verified Coverage 増加は目的ではない。
+#
+# 安全設計（NS-8B-Automation Review 準拠）:
+#  - store_handles.json を書く全 writer と同一 concurrency group で直列化（stale overwrite 防止）
+#  - 毎回 latest origin/main から再計算（古い生成物の再 push はしない）
+#  - write 前 safety gate: verified→candidate / rejected→candidate / store_id unlink /
+#    wrong relink / canonical_handle 競合 / orphan が 1 件でもあれば write せず失敗
+#  - no-op（差分 0）なら write / commit / push を一切しない
+#  - write 後に tests と 2 回目 dry-run=0 を必須化
+#  - push 競合時は「最新 origin から再計算」して retry（backup 再適用はしない）
+#  - resolver は SELECT のみ（DB 書込なし）
+
+on:
+  schedule:
+    # UTC 05:30 = JST 14:30。collector(update_complete) の谷間だが、
+    # 最終的な排他は時刻ではなく concurrency group が保証する。
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# store_handles.json を書く全 workflow で共有するグループ。
+# cancel-in-progress: false = 実行中 writer を止めず、次はキュー待機（中間状態を作らない）。
+concurrency:
+  group: store-handles-writer
+  cancel-in-progress: false
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve store handles (safe / idempotent)
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}"
+
+          SUMMARY="$GITHUB_STEP_SUMMARY"
+          echo "## Resolve Store Handles" >> "$SUMMARY"
+          echo "- run: $(date -u +%FT%TZ)" >> "$SUMMARY"
+
+          # ---- ephemeral drift gate (resolver の classify() を read-only 再利用。resolver 非改変) ----
+          cat > /tmp/drift_gate.py <<'PY'
+          import os, sys, json, collections
+          sys.path.insert(0, "scripts")
+          import resolve_store_handles as R
+
+          mode = sys.argv[1] if len(sys.argv) > 1 else "gate"
+          cur = json.load(open("public/store_handles.json", encoding="utf-8"))
+          db = R.sb_get_all("stores?select=id,name,normalized_name,x_url,is_active,pref")
+          by_id_all = {r["id"]: r for r in db}
+          by_norm, by_xh, by_id = R.build_indexes(db)
+          meta = R.classify(cur, by_norm, by_xh, by_id, "gate")
+          out = R.apply_meta(cur, meta)
+
+          FIELDS = ["verification_status","evidence_type","evidence_url","canonical_handle",
+                    "store_id","type","store","rejection_reason","match_method","canonical_pref"]
+          changed = [h for h in cur if isinstance(cur[h], dict) and isinstance(out[h], dict)
+                     and any(cur[h].get(f) != out[h].get(f) for f in FIELDS)]
+          ver2cand = rej2cand = unlink = relink = 0
+          for h in changed:
+              a, b = cur[h], out[h]
+              if a.get("verification_status") == "verified" and b.get("verification_status") != "verified":
+                  ver2cand += 1
+              if a.get("verification_status") == "rejected" and b.get("verification_status") == "candidate":
+                  rej2cand += 1
+              if a.get("store_id") and not b.get("store_id"):
+                  unlink += 1
+              if a.get("store_id") and b.get("store_id") and a.get("store_id") != b.get("store_id"):
+                  relink += 1
+          per = collections.defaultdict(list)
+          for h, v in out.items():
+              if isinstance(v, dict) and v.get("verification_status") == "verified" and v.get("store_id"):
+                  per[v["store_id"]].append(v.get("canonical_handle"))
+          canon_conflict = sum(1 for s, cs in per.items() if sum(1 for x in cs if x) != 1)
+          orphan = sum(1 for h, v in out.items() if isinstance(v, dict)
+                       and v.get("store_id") and v.get("store_id") not in by_id_all)
+
+          print(f"changed={len(changed)} ver2cand={ver2cand} rej2cand={rej2cand} "
+                f"unlink={unlink} relink={relink} canon_conflict={canon_conflict} orphan={orphan}")
+
+          critical = ver2cand + rej2cand + unlink + relink + canon_conflict + orphan
+          if mode == "postcheck":
+              # write 後: 完全 idempotent（差分 0）必須
+              sys.exit(0 if len(changed) == 0 else 4)
+          # gate: critical が 1 件でもあれば中止(3)。安全 & 差分ありは 0、差分なしは 10(no-op)。
+          if critical > 0:
+              sys.exit(3)
+          sys.exit(10 if len(changed) == 0 else 0)
+          PY
+
+          # ---- push retry: 各回 latest origin から再計算（stale 再適用しない） ----
+          FINAL="UNKNOWN"
+          for attempt in 1 2 3; do
+            echo "::group::attempt ${attempt}"
+            git fetch origin main
+            git reset --hard origin/main
+
+            python3 -m py_compile scripts/resolve_store_handles.py scripts/test_store_handles_resolution.py
+            python3 scripts/test_store_handles_resolution.py
+
+            set +e
+            GATE_OUT=$(python3 /tmp/drift_gate.py gate); GATE_RC=$?
+            set -e
+            echo "gate: ${GATE_OUT} (rc=${GATE_RC})"
+            echo "- attempt ${attempt} gate: ${GATE_OUT} (rc=${GATE_RC})" >> "$SUMMARY"
+
+            if [ "$GATE_RC" -eq 3 ]; then
+              echo "❌ critical regression detected — abort without write"
+              echo "- result: **ABORT (critical regression)**" >> "$SUMMARY"
+              echo "::endgroup::"; exit 1
+            fi
+            if [ "$GATE_RC" -eq 10 ]; then
+              echo "✅ NO_OP (0 drift) — write/commit/push しない"
+              echo "- result: **NO_OP**" >> "$SUMMARY"
+              FINAL="NO_OP"; echo "::endgroup::"; break
+            fi
+            if [ "$GATE_RC" -ne 0 ]; then
+              echo "❌ gate unexpected rc=${GATE_RC}"; echo "::endgroup::"; exit 1
+            fi
+
+            cp public/store_handles.json /tmp/store_handles.bak
+            python3 scripts/resolve_store_handles.py --write
+            python3 scripts/test_store_handles_resolution.py
+
+            set +e
+            POST_OUT=$(python3 /tmp/drift_gate.py postcheck); POST_RC=$?
+            set -e
+            echo "postcheck: ${POST_OUT} (rc=${POST_RC})"
+            if [ "$POST_RC" -ne 0 ]; then
+              echo "❌ 2nd dry-run != 0 — rollback"
+              cp /tmp/store_handles.bak public/store_handles.json
+              echo "- result: **FAIL (post-write not idempotent)**" >> "$SUMMARY"
+              echo "::endgroup::"; exit 1
+            fi
+
+            CHANGED_FILES=$(git diff --name-only)
+            if [ "$CHANGED_FILES" != "public/store_handles.json" ]; then
+              echo "❌ unrelated change detected: ${CHANGED_FILES} — rollback"
+              git checkout -- . || true
+              echo "- result: **FAIL (unrelated diff)**" >> "$SUMMARY"
+              echo "::endgroup::"; exit 1
+            fi
+
+            git add public/store_handles.json
+            COUNT=$(python3 -c "import json;print(len(json.load(open('public/store_handles.json'))))")
+            git commit -m "data: resolve store handles (${COUNT}件 メタ最新化)"
+            if git push; then
+              echo "✅ pushed (attempt ${attempt})"
+              echo "- result: **WROTE & PUSHED** (${POST_OUT})" >> "$SUMMARY"
+              FINAL="PUSHED"; echo "::endgroup::"; break
+            else
+              echo "⚠️ push failed — 最新 origin から再計算して retry"
+              git reset --hard origin/main
+              FINAL="RETRY"
+              echo "::endgroup::"
+              sleep 5
+            fi
+          done
+
+          if [ "$FINAL" = "RETRY" ] || [ "$FINAL" = "UNKNOWN" ]; then
+            echo "❌ 3 回の push が競合で失敗"
+            echo "- result: **FAIL (push conflict x3)**" >> "$SUMMARY"
+            exit 1
+          fi
+          echo "final: ${FINAL}"

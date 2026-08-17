@@ -35,11 +35,13 @@ on:
 permissions:
   contents: write
 
-# ── 並列実行防止: 同じワークフローは必ず直列化する ─────────────────────────────
+# ── 並列実行防止: store_handles.json を書く全 workflow を直列化する ─────────────
 # cancel-in-progress: false = 前の実行が終わるまで次の実行はキューで待機
-# これにより complete_info.json / complete_ranking.json の同時書き換えを防止
+# これにより complete_info.json / complete_ranking.json の同時書き換えを防止し、
+# さらに store_handles.json を書く discover_manager_handles / resolve_store_handles と
+# 同一グループ(store-handles-writer)で直列化して stale overwrite を防止する。
 concurrency:
-  group: update-complete
+  group: store-handles-writer
   cancel-in-progress: false
 
 env:

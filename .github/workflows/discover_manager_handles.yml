@@ -18,9 +18,12 @@ on:
 permissions:
   contents: write
 
+# store_handles.json を書く全 workflow(update_complete / resolve_store_handles)と
+# 同一グループで直列化し、同時書き込みによる stale overwrite を防止する。
+# cancel-in-progress: false = 実行中 writer を止めず次はキュー待機（中間状態を作らない）。
 concurrency:
-  group: discover-manager-handles
-  cancel-in-progress: true
+  group: store-handles-writer
+  cancel-in-progress: false
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
