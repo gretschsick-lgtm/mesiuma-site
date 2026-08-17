@@ -181,6 +181,75 @@ def test_D_preserve_store_id():
        "H: manager は excluded_manager（preservation の影響を受けない）", m2["mgr_h"])
 
 
+def test_E_rejected_durability():
+    print("[E] rejected 保持ガード（合成 fixture）")
+    db = [
+        {"id": "sid_rn", "name": "リジェ店N", "normalized_name": "りじぇ店n",
+         "x_url": "https://x.com/official_rn", "is_active": True, "pref": "東京都"},   # 公式は別handle
+        {"id": "sid_amb1", "name": "曖昧店", "normalized_name": "曖昧店",
+         "x_url": None, "is_active": True, "pref": "東京都"},
+        {"id": "sid_amb2", "name": "曖昧店", "normalized_name": "曖昧店",
+         "x_url": None, "is_active": True, "pref": "大阪府"},
+        {"id": "sid_uverify", "name": "昇格店", "normalized_name": "昇格店",
+         "x_url": "https://x.com/reopen_ok", "is_active": True, "pref": "京都府"},  # 公式=当該handle
+    ]
+    by_norm, by_xh, by_id = R.build_indexes(db)
+
+    ok(R._has_strong_positive_evidence({"x_url": "https://x.com/reopen_ok"}, by_xh) is True,
+       "helper: canonical_x_url 一致は強い新根拠")
+    ok(R._has_strong_positive_evidence({"x_url": "https://x.com/no_such"}, by_xh) is False,
+       "helper: 非一致は強い新根拠でない")
+
+    handles = {
+        # A: rejected + 弱い name 一致(DB別X) → rejected 保持
+        "rej_name": {"store": "リジェ店N", "x_url": "https://x.com/rej_name", "count": 5, "type": "store",
+                     "store_id": "sid_rn", "verification_status": "rejected",
+                     "rejection_reason": "superseded_by_official_handle"},
+        # B: rejected + name 無一致(unregistered) → rejected 保持
+        "rej_nomatch": {"store": "どこにも無い店", "x_url": "https://x.com/rej_nomatch", "count": 4, "type": "store",
+                        "store_id": "sid_rn", "verification_status": "rejected",
+                        "rejection_reason": "media_account"},
+        # C: rejected + ambiguous name → rejected 保持
+        "rej_amb": {"store": "曖昧店", "x_url": "https://x.com/rej_amb", "count": 3, "type": "store",
+                    "store_id": "sid_amb1", "verification_status": "rejected", "rejection_reason": "group_center"},
+        # D: rejected + 有効 existing store_id のみ(強根拠なし) → store_id だけで解除しない
+        "rej_sidonly": {"store": "リジェ店N", "x_url": "https://x.com/rej_sidonly", "count": 2, "type": "store",
+                        "store_id": "sid_rn", "verification_status": "rejected", "rejection_reason": "performer"},
+        # E: rejected + canonical_x_url が同一storeを強証明 → verified 昇格を許可
+        "rej_reopen": {"store": "昇格店", "x_url": "https://x.com/reopen_ok", "count": 6, "type": "store",
+                       "store_id": "sid_uverify", "verification_status": "rejected", "rejection_reason": "old_reject"},
+        # G: rejected + orphan store_id → orphan を盲保持しない(status は rejected 維持)
+        "rej_orphan": {"store": "孤児店", "x_url": "https://x.com/rej_orphan", "count": 1, "type": "store",
+                       "store_id": "orphan_zzz", "verification_status": "rejected", "rejection_reason": "unrelated"},
+    }
+    meta = R.classify(handles, by_norm, by_xh, by_id, "2026-08-17")
+
+    ok(meta["rej_name"]["verification_status"] == "rejected" and meta["rej_name"]["store_id"] == "sid_rn",
+       "A: rejected + 弱い name 一致 → rejected 保持", meta["rej_name"])
+    ok(meta["rej_nomatch"]["verification_status"] == "rejected",
+       "B: rejected + 無一致 → rejected 保持", meta["rej_nomatch"])
+    ok(meta["rej_amb"]["verification_status"] == "rejected",
+       "C: rejected + ambiguous → rejected 保持", meta["rej_amb"])
+    ok(meta["rej_sidonly"]["verification_status"] == "rejected",
+       "D: rejected + 有効 store_id のみでは解除しない", meta["rej_sidonly"])
+    ok(meta["rej_reopen"]["verification_status"] == "verified"
+       and meta["rej_reopen"]["evidence_type"] == "canonical_x_url"
+       and meta["rej_reopen"]["store_id"] == "sid_uverify",
+       "E: rejected + canonical_x_url 強証明 → verified 昇格", meta["rej_reopen"])
+    ok(meta["rej_orphan"]["verification_status"] == "rejected" and meta["rej_orphan"]["store_id"] is None,
+       "G: rejected の orphan store_id は保持せず(status は rejected 維持)", meta["rej_orphan"])
+
+    # F: rejected + canonical_x_url が別store（当該handleの x が別storeの公式）→ その別storeへ verified
+    #    （＝盲目的に old store_id へ留めない。x_url が指す正しい store へ解決）
+    handles_f = {
+        "rej_f": {"store": "別名称", "x_url": "https://x.com/official_rn", "count": 5, "type": "store",
+                  "store_id": "orphan_yyy", "verification_status": "rejected", "rejection_reason": "x"},
+    }
+    mf = R.classify(handles_f, by_norm, by_xh, by_id, "2026-08-17")
+    ok(mf["rej_f"]["verification_status"] == "verified" and mf["rej_f"]["store_id"] == "sid_rn",
+       "F: rejected でも canonical_x_url が指す正しい store へ verified(旧IDへ盲留保しない)", mf["rej_f"])
+
+
 def test_B_apply_meta():
     print("[B] apply_meta() 後方互換")
     handles = {"h1": {"store": "A店", "x_url": "https://x.com/h1", "count": 3, "type": "store"}}
@@ -232,6 +301,7 @@ def test_C_real():
 def main():
     test_A_classify()
     test_D_preserve_store_id()
+    test_E_rejected_durability()
     test_B_apply_meta()
     test_C_real()
     print(f"\n=> PASS={PASS} FAIL={FAIL}")

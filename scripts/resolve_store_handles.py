@@ -141,6 +141,18 @@ def _should_preserve_existing_store_id(v: dict, by_id: dict) -> bool:
     return bool(sid) and sid in by_id
 
 
+def _has_strong_positive_evidence(v: dict, by_xhandle: dict) -> bool:
+    """rejected 判断を覆すに足る強い新根拠（canonical_x_url 一致）があるかの純粋関数。
+
+    True の場合のみ、rejected を通常フローへ流して verified 昇格を許可する。
+    canonical_x_url 一致 = この handle の X が DB store の公式 x_url そのもの、であり、
+    reject 理由（別 X が公式＝superseded 等）を明確に覆す唯一の強根拠。
+    name 一致・ambiguous・unregistered・store_id のみ等の弱い根拠はここに含めない。
+    """
+    xh = handle_of(v.get("x_url"))
+    return bool(xh) and xh in by_xhandle
+
+
 def classify(store_handles: dict, by_norm: dict, by_xhandle: dict, by_id: dict, as_of: str) -> dict:
     """
     store 型 handle を分類し、付与すべきメタデータ dict（handle→fields）を返す。
@@ -162,6 +174,19 @@ def classify(store_handles: dict, by_norm: dict, by_xhandle: dict, by_id: dict, 
         if htype != "store":
             # manager 等: KPI 除外。既存用途保持のため type はそのまま、状態のみ明示。
             meta[handle] = {"verification_status": "excluded_manager" if htype == "manager" else "excluded"}
+            continue
+
+        # rejected 保持ガード: 人手/高信頼監査で rejected と確定した判断を、
+        # 弱い name 一致・ambiguous・unregistered だけを理由に candidate へ戻さない。
+        # ただし canonical_x_url 一致という強い新根拠がある場合のみ、下の通常フローへ流して
+        # verified 昇格を許可する（stale な reject の是正）。store_id が orphan なら保持しない。
+        if v.get("verification_status") == "rejected" and not _has_strong_positive_evidence(v, by_xhandle):
+            keep = {k: v[k] for k in (
+                "verification_status", "rejection_reason", "evidence_type", "evidence_url",
+                "canonical_handle", "match_method", "canonical_pref", "is_active") if k in v}
+            sid = v.get("store_id")
+            keep["store_id"] = sid if (sid and sid in by_id) else None
+            meta[handle] = keep
             continue
 
         xh = handle_of(v.get("x_url")) or handle.lower()
