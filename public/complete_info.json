@@ -1,5 +1,28 @@
 [
   {
+    "id": "7c6f12747517",
+    "date": "2026-08-17",
+    "time": "15:40",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "487",
+    "text": "8月17日月曜日 L革命機ヴァルヴレイヴ2 　　　487番台 　　　15時29分 　    コンプリート おめでとうございます #マルハン佐賀店実績",
+    "x_url": "https://x.com/since2011_8_11/status/2089241019552616736",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T08:47:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP55X_CboAE_ag5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP55b-JaoAA6Lad?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP55gpma8AAMGZu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP55X_CboAE_ag5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "5c2242d2829b",
     "date": "2026-08-17",
     "time": "14:52",
@@ -216,6 +239,27 @@
     "image_url": "https://pbs.twimg.com/media/HP120uEbEAAVg5N?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "c8ce6d1db9"
+  },
+  {
+    "id": "e796f6e71dc3",
+    "date": "2026-08-16",
+    "time": "20:30",
+    "store": "ダイナム富山上市店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "437",
+    "text": "コンプリート達成台でました～  本日≪サミー景品・沖ドキ景品入荷≫そして、延長営業実施中  #L真打吉宗 437番台から #コンプリート 達成おめでとうございます  この後も深夜1時まで元気に営業いたします。お好きな台でごゆっくりお楽しみください。  #延長営業",
+    "x_url": "https://x.com/dynam_00300/status/2088951436847559007",
+    "store_handle": "dynam_00300",
+    "store_x_url": "https://x.com/dynam_00300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T09:05:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1yQwUWsAATVL9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1yQwUWsAATVL9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "5f5e01bac82f",
@@ -582,6 +626,50 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "bbc0a64ed62f",
+    "date": "2026-08-15",
+    "time": "23:26",
+    "store": "ピーアーク北綾瀬駅前",
+    "machine": "スマスロゴッドイーター",
+    "machine_type": "slot",
+    "slot_number": "150",
+    "text": "8/15(土) ピーアーク北綾瀬駅前  スロット Lゴッドイーター 150番台  スロット Lカバネリ海門決戦 1015番台  コンプリート達成  とみー店長に報告ﾀﾞ  #スロット #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
+    "x_url": "https://x.com/ParkPkunGarden/status/2088633392267194628",
+    "store_handle": "parkpkungarden",
+    "store_x_url": "https://x.com/ParkPkunGarden",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T08:33:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxQ_5MbQAA-jbT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPxQ_5Ca8AAfxgC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxQ_5MbQAA-jbT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000012"
+  },
+  {
+    "id": "349e49e0e8e0",
+    "date": "2026-08-15",
+    "time": "23:26",
+    "store": "ピーアーク北綾瀬駅前",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8/15(土) ピーアーク北綾瀬駅前  スロット Lゴッドイーター 150番台  スロット Lカバネリ海門決戦 1015番台  コンプリート達成  とみー店長に報告ﾀﾞ  #スロット #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
+    "x_url": "https://x.com/ParkPkunGarden/status/2088633392267194628",
+    "store_handle": "parkpkungarden",
+    "store_x_url": "https://x.com/ParkPkunGarden",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T08:33:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxQ_5MbQAA-jbT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPxQ_5Ca8AAfxgC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxQ_5MbQAA-jbT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "94bcca544581",
     "date": "2026-08-15",
     "time": "23:21",
@@ -668,6 +756,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPxNUsGbsAA3Bzb?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "ed9a5ecb21e9",
+    "date": "2026-08-15",
+    "time": "23:03",
+    "store": "スーパーホール天王寺店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "結果報告  【戦コレ】17810コンプ 【かぐや】17810コンプ万舞4台 【DMC】17000 【ヴヴヴ】14000 【真打吉宗】【喰種】13000 【攻殻】【からくり】 【無職】【7つ魔】10000  2機種からコンプリートおめでとう御座います  明日は原点回帰&ブレスロ&法人の壁  #スパホ　#PR",
+    "x_url": "https://x.com/supaho_tennouji/status/2088627525203460379",
+    "store_handle": "supaho_tennouji",
+    "store_x_url": "https://x.com/supaho_tennouji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T08:33:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxLqUqbEAErGmu?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPxLqUlakAATPgO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPxLqUna0AEwC7E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxLqUqbEAErGmu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "a257d210fbdf",
@@ -1981,6 +2092,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPr6ijXXwAEzUCd?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "510c53b383dc",
+    "date": "2026-08-14",
+    "time": "22:20",
+    "store": "ダイナム金町南口店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日『コバキチアクキー入荷』  2台目のコンプリートは北斗転生2から ご遊技いただ来ましたお客様ありがとうございます  #ダイナム",
+    "x_url": "https://x.com/kanamina_tencyo/status/2088254430001102967",
+    "store_handle": "kanamina_tencyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/kanamina_tencyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-17T08:33:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPr3VSrWQAAfT06?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPr3VSrWQAAfT06?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "c2b4135ff133",
