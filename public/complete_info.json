@@ -667,6 +667,27 @@
     "store_id": "58111f872e"
   },
   {
+    "id": "dca572a16cc4",
+    "date": "2026-08-15",
+    "time": "22:21",
+    "store": "ジュラク王子店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1300",
+    "text": "3階フロア人気機種 ヴァルヴレイヴ２ 1300番台のお客様 お見事コンプリート達成 おめでとうございます  #ジュラク王子 #ヴヴヴ2 #コンプリート",
+    "x_url": "https://x.com/JURAKU8/status/2088616961421009118",
+    "store_handle": "juraku8",
+    "store_x_url": "https://x.com/juraku8",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T02:19:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxCDY3bYAATWEU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxCDY3bYAATWEU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "1690a9b18700",
     "date": "2026-08-15",
     "time": "22:16",
@@ -1700,6 +1721,28 @@
     ],
     "image_url": "https://pbs.twimg.com/amplify_video_thumb/2088265238126960640/img/2ibNMGAxRREQNadJ?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "de3797c00116",
+    "date": "2026-08-15",
+    "time": "08:30",
+    "store": "PSJBB店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "516",
+    "text": "8月15日（土） ぱちんこコーナー e牙狼12XX-MJ　516番台  コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/psj_bb1000/status/2088770211021480075",
+    "store_handle": "psj_bb1000",
+    "store_x_url": "https://x.com/psj_bb1000",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T02:50:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwxMuFbkAAkAtV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwxN4TboAAXS9R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwxMuFbkAAkAtV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "19353550f9c1",
