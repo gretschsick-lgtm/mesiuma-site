@@ -22327,13 +22327,14 @@
     "count": 0,
     "type": "store",
     "store_id": "be9a6f87bf",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/ZENT0024",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "愛知県"
+    "canonical_pref": "愛知県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "zentsumiyosi": {
     "store": "ZENT住吉店",
@@ -35623,13 +35624,14 @@
     "count": 0,
     "type": "store",
     "store_id": "3e74d5c5cc",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/face_1100",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "happy_hnaebo": {
     "store": "プレイランドハッピー東苗穂店",
@@ -49401,13 +49403,14 @@
     "count": 0,
     "type": "store",
     "store_id": "6c4b8f063e",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/M_musashisakai",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "0315akishima": {
     "store": "キクヤ昭島店",
@@ -52279,13 +52282,14 @@
     "count": 0,
     "type": "store",
     "store_id": "ae0fe56534",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/2568aopanda",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "長野県"
+    "canonical_pref": "長野県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "asahi_magawarui": {
     "store": "ニューアサヒ上田店",
