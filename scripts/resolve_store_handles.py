@@ -108,21 +108,40 @@ def load_db_stores() -> list[dict]:
 
 
 def build_indexes(db_stores: list[dict]):
-    """正規化名 → [store], x_handle → store のインデックス。テスト行は canonical から除外。"""
+    """正規化名 → [store], x_handle → store, id → store のインデックス。テスト行は canonical から除外。"""
     by_norm: dict[str, list[dict]] = collections.defaultdict(list)
     by_xhandle: dict[str, dict] = {}
+    by_id: dict[str, dict] = {}
     for r in db_stores:
         if "テスト" in (r.get("name") or ""):
             continue  # テストデータは canonical 母集団から除外
         key = r.get("normalized_name") or normalize_store_name(r["name"])
         by_norm[key].append(r)
+        by_id[r["id"]] = r
         h = handle_of(r.get("x_url"))
         if h and h not in by_xhandle:
             by_xhandle[h] = r
-    return by_norm, by_xhandle
+    return by_norm, by_xhandle, by_id
 
 
-def classify(store_handles: dict, by_norm: dict, by_xhandle: dict, as_of: str) -> dict:
+def _should_preserve_existing_store_id(v: dict, by_id: dict) -> bool:
+    """resolver が x_url 一致(canonical_x_url)でも name 一意一致でも store_id を確定できなかった場合に、
+    入力 handle が既に持つ store_id を保持してよいかを判定する純粋関数。
+
+    保持する条件（すべて満たす）:
+      - 既存 store_id が存在する
+      - その store_id が現在の canonical stores(テスト除外)に実在する（orphan でない）
+
+    ※ より強い根拠（canonical_x_url 一致 / name 一意一致）は classify の上位分岐で先に確定し
+      continue するため、この関数に到達する時点でそれらの競合は無い。したがって
+      「name 再解決できなかっただけ」で有効な既存 store_id(=NS-4 等の安全リンク)を None へ
+      落とす退行を防ぐ。orphan(canonical 不在)や store_id 未設定は保持しない。
+    """
+    sid = v.get("store_id")
+    return bool(sid) and sid in by_id
+
+
+def classify(store_handles: dict, by_norm: dict, by_xhandle: dict, by_id: dict, as_of: str) -> dict:
     """
     store 型 handle を分類し、付与すべきメタデータ dict（handle→fields）を返す。
     manager / type 無しは excluded として最小限のみ付与。
@@ -185,6 +204,20 @@ def classify(store_handles: dict, by_norm: dict, by_xhandle: dict, as_of: str) -
             else:
                 fields["rejection_reason"] = "needs_official_source_confirmation"
             meta[handle] = fields
+            continue
+
+        # 4') 既存 store_id 保持: x_url 一致も name 一意一致も無いが、入力が持つ既存 store_id が
+        #     canonical に実在する場合は、name 再解決失敗だけを理由に None へ落とさない
+        #     （NS-4 等の安全リンクの退行防止）。上位で canonical_x_url / name 一意は確定済のため競合なし。
+        if _should_preserve_existing_store_id(v, by_id):
+            st = by_id[v["store_id"]]
+            meta[handle] = dict(
+                store_id=v["store_id"], verification_status="candidate",
+                evidence_type="public_x_profile", evidence_url=v.get("x_url"),
+                match_method="preserved_existing_link",
+                canonical_pref=st.get("pref"),
+                rejection_reason="needs_official_source_confirmation",
+            )
             continue
 
         # 4) 曖昧（複数 DB store）
@@ -273,8 +306,8 @@ def main() -> None:
 
     store_handles = json.loads(STORE_HANDLES_JSON.read_text(encoding="utf-8"))
     db_stores = load_db_stores()
-    by_norm, by_xhandle = build_indexes(db_stores)
-    meta = classify(store_handles, by_norm, by_xhandle, args.as_of)
+    by_norm, by_xhandle, by_id = build_indexes(db_stores)
+    meta = classify(store_handles, by_norm, by_xhandle, by_id, args.as_of)
     summary = summarize(store_handles, meta, db_stores)
 
     print("=== 店舗ハンドル canonical 照合結果 ===")
