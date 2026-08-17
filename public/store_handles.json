@@ -14893,13 +14893,14 @@
     "count": 0,
     "type": "store",
     "store_id": "ed4d951a47",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/megaface_880",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "kanaemasora": {
     "store": "ヴィーナス海上店",
@@ -36407,13 +36408,14 @@
     "count": 0,
     "type": "store",
     "store_id": "e1f375e94c",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/megaface_1030",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "megaface_1500": {
     "store": "メガフェイス1500宗像",
@@ -36501,13 +36503,14 @@
     "count": 0,
     "type": "store",
     "store_id": "cdd58a50ea",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/face_950",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "kinghonten": {
     "store": "那珂川キング本店1500",
@@ -39082,13 +39085,14 @@
     "count": 0,
     "type": "store",
     "store_id": "495a7bac39",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/face_701",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "佐賀県"
+    "canonical_pref": "佐賀県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "tenguytoshima": {
     "store": "テンガイ戸島店",
@@ -41823,13 +41827,14 @@
     "count": 0,
     "type": "store",
     "store_id": "eb2af1b02f",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/face_860",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "奈良県"
+    "canonical_pref": "奈良県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "heiseikankou": {
     "store": "株式会社平成観光(KEIZ)",
@@ -43945,13 +43950,14 @@
     "count": 0,
     "type": "store",
     "store_id": "63ce7c53b8",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/face_777onga",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "福岡県"
+    "canonical_pref": "福岡県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "face_707": {
     "store": "フェイス707幸袋",
@@ -43987,13 +43993,14 @@
     "count": 0,
     "type": "store",
     "store_id": "a678985a3a",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/megaface_555",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "熊本県"
+    "canonical_pref": "熊本県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "d_kamisato": {
     "store": "スーパーD'ステーション上里店",
@@ -48242,13 +48249,14 @@
     "count": 0,
     "type": "store",
     "store_id": "dd6e71724e",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/messe_sasazuka",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "deluxe_numa": {
     "store": "デラックス7",
@@ -49104,13 +49112,14 @@
     "count": 0,
     "type": "store",
     "store_id": "6ecf125ddc",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/messe_nkasai",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "rockfive65": {
     "store": "ロックファイブ",
