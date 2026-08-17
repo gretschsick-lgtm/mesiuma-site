@@ -262,6 +262,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
+    "id": "3fa0ab052882",
+    "date": "2026-08-16",
+    "time": "20:24",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "1632",
+    "text": "コンプリート情報  20:00 ｅ東京喰種Ｗ　1632番台  コンプリート達成  おめでとうございます  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2088950054732378154",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T09:42:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1w4j5bQAARkwd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1w4j5bQAARkwd?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "5f5e01bac82f",
     "date": "2026-08-16",
     "time": "19:08",
@@ -1271,6 +1292,50 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPwm4OdbIAAlsTP?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "39db2c5bd843",
+    "date": "2026-08-15",
+    "time": "20:22",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "450",
+    "text": "キクヤ春日井店 コンプリート情報 450番台　L革命機ヴァルヴレイヴ2 コンプリートおめでとうございます！ 昨日に引き続きヴヴヴが好調ですね(*´ω｀*)",
+    "x_url": "https://x.com/315kasugai/status/2088949459640291676",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T09:42:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1wYmkaUAAhowV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1wYmkaUAAhowV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "cab4ce2ed834",
+    "date": "2026-08-15",
+    "time": "20:18",
+    "store": "ＡＢＣ豊川店",
+    "machine": "L邪神ちゃんドロップキック",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Wコンプリート報告 昨日に引き続き日に台  パチンコ e ソードアート・オンライン アリシゼーション 夜空　116番台  スロット L邪神ちゃんドロップキック　593番台  コンプリート達成  「これが……俺の最後の力だ！」 「女神が微笑んでますの！」",
+    "x_url": "https://x.com/ABC_toyokawa/status/2088948412230312324",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T09:42:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1qVHKbQAAjDNf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP1t6BvaAAAEWJE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1qVHKbQAAjDNf?format=jpg&name=large",
+    "machine_id": "421e1f7f-654a-432a-a7d7-e8853c8228d8",
+    "store_id": "58111f872e"
   },
   {
     "id": "7cdf638cfb25",
@@ -6545,6 +6610,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPcOQmmaIAA-Xlj?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
+    "id": "fb51a4bf4e33",
+    "date": "2026-08-10",
+    "time": "21:17",
+    "store": "KEIZラパーク金沢店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "1632",
+    "text": "こんばんは  1632番台　#新鬼武者3  #コンプリート 機能作動しました",
+    "x_url": "https://x.com/KEIZkanazawa/status/2086789121591378182",
+    "store_handle": "keizkanazawa",
+    "store_x_url": "https://x.com/keizkanazawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T09:43:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPXDg-SasAABdSQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPXDg-SasAABdSQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016",
+    "store_id": "10c584b6e8"
   },
   {
     "id": "8b8a75fe569c",
