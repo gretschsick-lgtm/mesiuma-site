@@ -21,6 +21,50 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "285f6082e9da",
+    "date": "2026-08-17",
+    "time": "18:41",
+    "store": "マルハン袋井店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "362",
+    "text": "362番台 　e東京喰種 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/maruhan_fukuroi/status/2089286472579133762",
+    "store_handle": "maruhan_fukuroi",
+    "store_x_url": "https://x.com/maruhan_fukuroi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T13:19:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6i7ReaAAAbiVj?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP6i7oYasAEh7i4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6i7ReaAAAbiVj?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "b64e3a591df3",
+    "date": "2026-08-17",
+    "time": "18:38",
+    "store": "玉屋∞本店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "361番e東京喰種からコンプリートおめでとうございます",
+    "x_url": "https://x.com/YONEPEE2288/status/2089285650189279374",
+    "store_handle": "yonepee2288",
+    "store_x_url": "https://x.com/yonepee2288",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T13:19:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6hLptaUAAwvP2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP6iNfka0AAzrOe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6hLptaUAAwvP2?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "7c6f12747517",
     "date": "2026-08-17",
     "time": "15:40",
