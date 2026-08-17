@@ -111,6 +111,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "5a2b25561e77",
+    "date": "2026-08-16",
+    "time": "22:11",
+    "store": "BIGディッパー花小金井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Ｌ革命機ヴァルヴレイヴ2にて #コンプリート 機能の発動を確認いたしました おめでとうございます。",
+    "x_url": "https://x.com/bigdipperhanako/status/2088976902954582133",
+    "store_handle": "bigdipperhanako",
+    "store_x_url": "https://x.com/bigdipperhanako",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T06:39:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP2JavuaoAAgNtz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP2JavuaoAAgNtz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "776960c891"
+  },
+  {
     "id": "7b7e650c0ee5",
     "date": "2026-08-16",
     "time": "21:53",
@@ -153,6 +175,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "0c4b38bd8ed5",
+    "date": "2026-08-16",
+    "time": "20:50",
+    "store": "GOGOアリーナ天神",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "499",
+    "text": "ㅤ    ㅤ   ㅤ ㅤ   本日8月16日  　　　  e東京喰種　499番台   　　 　　　コンプリート達成  　　おめでとうございます",
+    "x_url": "https://x.com/gogoarenatenjin/status/2088956456167231598",
+    "store_handle": "gogoarenatenjin",
+    "store_x_url": "https://x.com/gogoarenatenjin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T06:40:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP120uEbEAAVg5N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP120uEbEAAVg5N?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "c8ce6d1db9"
+  },
+  {
     "id": "5f5e01bac82f",
     "date": "2026-08-16",
     "time": "19:08",
@@ -174,6 +218,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP1fg_cbgAANlif?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
+    "id": "39d713536c6a",
+    "date": "2026-08-16",
+    "time": "18:23",
+    "store": "マルハンアプリはこちら",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "117",
+    "text": "【117番台】  【e牙狼12黄金騎士極限】  コンプリート達成  おめでとうございます データを確認できるマルハンアプリはこちらから https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/KATORINE_1550/status/2088919682384642378",
+    "store_handle": "katorine_1550",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-17T07:10:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1VCtXacAAsh21?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPmtSCqasAAT7uD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1VCtXacAAsh21?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "af3705662461",
@@ -259,6 +325,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP1O87RakAAbtm5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "25e7ea82a259",
+    "date": "2026-08-16",
+    "time": "17:52",
+    "store": "グランワールドカップ米子店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "キターーー コンプリート発動 スマスロ 北斗の拳 転生の章2 番台 おめでとうございます",
+    "x_url": "https://x.com/gwcyonago/status/2088911708811362444",
+    "store_handle": "gwcyonago",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-17T06:45:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1OG_La4AADGfg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP1OHiqbkAAbHUY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP1OH_2bUAAm4oZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1OG_La4AADGfg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "6323950788b6",
@@ -2276,6 +2365,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPqpuEBaUAIDLXH?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "f2820826c780",
+    "date": "2026-08-14",
+    "time": "18:59",
+    "store": "キコーナ堺本店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "353",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 353番台 【L戦国乙女5】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2088203927829565949",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T06:40:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrKY36bEAAVZit?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrKY36bEAAVZit?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "a29f87843ecc",
