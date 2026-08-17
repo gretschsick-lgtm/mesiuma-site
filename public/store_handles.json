@@ -7810,13 +7810,14 @@
     "count": 0,
     "type": "store",
     "store_id": "ad68970fad",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/gaia_oojima",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/GAIA_oojima",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "gaia_kyodo": {
     "store": "ガイア経堂",
@@ -21062,12 +21063,15 @@
     "x_url": "https://x.com/GAIA_OTSUKA",
     "count": 0,
     "type": "store",
-    "store_id": null,
-    "verification_status": "candidate",
-    "evidence_type": null,
+    "store_id": "985950041a",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/GAIA_OTSUKA",
-    "match_method": "unregistered",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "x_url_evidence",
+    "is_active": true,
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "GAIA_WADAMACHI": {
     "store": "ガイア和田町店",
@@ -33920,13 +33924,14 @@
     "count": 0,
     "type": "store",
     "store_id": "9186ae0153",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/g_ueroku",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/G_UEROKU",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "大阪府"
+    "canonical_pref": "大阪府",
+    "canonical_handle": true,
+    "verified_at": "2026-08-14"
   },
   "sparkle__f": {
     "store": "スパークル府中店",
@@ -46879,13 +46884,14 @@
     "count": 0,
     "type": "store",
     "store_id": "985950041a",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
-    "evidence_url": "https://x.com/gaia_otsuka",
-    "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
+    "evidence_url": "https://x.com/GAIA_OTSUKA",
+    "match_method": "x_url_evidence",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": false,
+    "verified_at": "2026-08-14"
   },
   "takehara_gaia": {
     "store": "ガイア竹原店",
