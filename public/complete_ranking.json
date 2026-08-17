@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T11:59:04+09:00",
+  "generated_at": "2026-08-17T14:10:16+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 783,
+      "total_count": 784,
       "stores": [
         {
           "rank": 1,
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 121
+          "count": 122
         },
         {
           "rank": 2,
@@ -772,7 +772,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 543
+        "count": 544
       },
       {
         "rank": 2,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3102
+    "total_count": 3103
   },
   "store_complete_counts": {
     "ARROW浪速店": 61,
@@ -1195,6 +1195,7 @@
     "スーパーホール天王寺店": 2,
     "ニューアサヒ上田店": 2,
     "スーパードーム高岡インター店": 2,
+    "エムズガーデン": 2,
     "玉屋室見店": 2,
     "アスリーキャンバス中の人っぽい人in岡谷天竜店": 2,
     "123+N和歌山本店": 2,
@@ -1340,7 +1341,6 @@
     "スーパーD'ステーション39佐々インター店": 1,
     "DSG MEGA WORLD金沢": 1,
     "ゾーン苅田店": 1,
-    "エムズガーデン": 1,
     "ザ・ガーデン": 1,
     "ガーデン北戸田駅前": 1,
     "店長セキグチ": 1,
@@ -1495,7 +1495,7 @@
   },
   "store_id_coverage": {
     "records_with_store_id": 2775,
-    "records_without_store_id": 327,
+    "records_without_store_id": 328,
     "canonical_store_ids": 467
   }
 }
