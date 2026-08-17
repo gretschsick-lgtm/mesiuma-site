@@ -63,6 +63,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "651cb3fb597f",
+    "date": "2026-08-17",
+    "time": "20:33",
+    "store": "ZENT多治見店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "L東京喰種でコンプリート おめでとうございます  #ZENT多治見店",
+    "x_url": "https://x.com/ZENTtajimi/status/2089314794180677770",
+    "store_handle": "zenttajimi",
+    "store_x_url": "https://x.com/ZENTtajimi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T16:59:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP68cnKbcAAsy3j?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP68cnKbcAAsy3j?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "285f6082e9da",
     "date": "2026-08-17",
     "time": "18:41",
@@ -130,24 +151,24 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "a220b4b15a11",
+    "id": "d51a7d0dfdbc",
     "date": "2026-08-17",
-    "time": "14:59",
-    "store": "ベガビック1130豊川店",
+    "time": "15:15",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
     "machine": "e牙狼12",
     "machine_type": "pachinko",
-    "slot_number": "607",
-    "text": "コンプリート報告です 「e牙狼12」607番台にてコンプリート機能が作動しました おめでとうございます   引き続きご来店お待ちしております #ベガビック1130豊川店 #スマパチ #コンプリート達成",
-    "x_url": "https://x.com/VEGABIQ1227/status/2089230736486457512",
-    "store_handle": "vegabiq1227",
-    "store_x_url": "https://x.com/vegabiq1227",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-17T17:44:38Z",
+    "slot_number": "",
+    "text": "こんにちは コンプリート速報です  早くもこの時間に ｅ牙狼１２ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2089234652028649872",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-17T18:46:00Z",
     "images": [
-      "https://pbs.twimg.com/media/HP5vQVibYAAlh3d?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HP5zm0wbwAE7nUK?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HP5vQVibYAAlh3d?format=jpg&name=large",
+    "image_url": "https://pbs.twimg.com/media/HP5zm0wbwAE7nUK?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
@@ -170,26 +191,5 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP5uXiCaEAAadvz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "e53ed6e3cd9f",
-    "date": "2026-08-17",
-    "time": "00:00",
-    "store": "ユーコーラッキー長崎駅前店☆",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "17日ランキング速報  パチンコ e東京喰種　49000発over  スロット Lやじきた道中記参る！　17000枚over あ、あわや、コンプリートも 夢じゃなかった素晴らしい記録 おめでとうございます  本日は多数様のご来店ありがとうございました 明日もお待ち致しております",
-    "x_url": "https://x.com/yuko_nagaeki/status/2089366646024532340",
-    "store_handle": "yuko_nagaeki",
-    "store_x_url": "https://x.com/yuko_nagaeki",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-17T17:44:19Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP7mswCaoAEUE_1?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP7mswCaoAEUE_1?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   }
 ]
