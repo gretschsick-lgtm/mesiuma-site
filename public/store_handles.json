@@ -5307,10 +5307,11 @@
     "type": "store",
     "store_id": "b8a09e6f66",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/mega_dsg",
-    "match_method": "ns4_linkage",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "石川県"
   },
   "sakura3arita3": {
     "store": "SAKURA有田店",
@@ -8202,10 +8203,11 @@
     "type": "store",
     "store_id": "a9d595f128",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/d_chibaminato",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "千葉県"
   },
   "dstation_ooyodo": {
     "store": "スーパーD'ステーション39大淀店",
@@ -9239,10 +9241,11 @@
     "type": "store",
     "store_id": "b01ec92c8e",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/wl_metalpolice",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "福岡県"
   },
   "Apollo_Nishi": {
     "store": "アポロ盛岡西",
@@ -9305,10 +9308,11 @@
     "type": "store",
     "store_id": "68d9fbc840",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/Ampati_no_hota",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "大阪府"
   },
   "APAN21komaki": {
     "store": "yout勝川店",
@@ -10037,10 +10041,11 @@
     "type": "store",
     "store_id": "ced56d0881",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/777_Nib0",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "兵庫県"
   },
   "garden_kameido": {
     "store": "新！ガーデン亀戸",
@@ -10318,7 +10323,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/panpan_panda777",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "山梨県"
   },
@@ -11975,7 +11980,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/jb_tyousa_e",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "東京都"
   },
@@ -13694,7 +13699,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/nekomaru_kyushu",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "福岡県"
   },
@@ -14583,10 +14588,11 @@
     "type": "store",
     "store_id": "c290ba4a3b",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/P_ARK_MITA",
-    "match_method": "ns4_linkage",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "東京都"
   },
   "paradiso_pman": {
     "store": "パラディソ柴田店",
@@ -15923,10 +15929,11 @@
     "type": "store",
     "store_id": "71cae19baf",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/Ampati_no_toyo",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "大阪府"
   },
   "messe_kichijoji": {
     "store": "メッセ吉祥寺店",
@@ -16721,7 +16728,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/yg5yosou6",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "東京都"
   },
@@ -18480,10 +18487,11 @@
     "type": "store",
     "store_id": "190436cc62",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/nanatenpai773",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "宮城県"
   },
   "dynam_00298": {
     "store": "ダイナム本宮店",
@@ -18846,7 +18854,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/yossi_rock",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "千葉県"
   },
@@ -19472,10 +19480,11 @@
     "type": "store",
     "store_id": "190436cc62",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/monster_peeachy",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "宮城県"
   },
   "Paradise_Tanabe": {
     "store": "パラダイス木津駅前店",
@@ -21438,10 +21447,11 @@
     "type": "store",
     "store_id": "68d9fbc840",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ampati_no_hota",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "大阪府"
   },
   "kicona_cm": {
     "store": "キコーナ姫路店",
@@ -21511,10 +21521,11 @@
     "type": "store",
     "store_id": "71cae19baf",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ampati_no_toyo",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "大阪府"
   },
   "q_bang_4th": {
     "store": "Q-Bang！4th東梅田店",
@@ -22178,7 +22189,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/dmmtokaihokurik",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "静岡県"
   },
@@ -22537,10 +22548,11 @@
     "type": "store",
     "store_id": "ecf9ab4e77",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/Dstation_kamisu",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "茨城県"
   },
   "d___ueda": {
     "store": "D'ステーション上田店",
@@ -22561,10 +22573,11 @@
     "type": "store",
     "store_id": "efc7bb7880",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/sendai_dstation",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "宮城県"
   },
   "d_tougane": {
     "store": "D'station東金店(別)",
@@ -32115,10 +32128,11 @@
     "type": "store",
     "store_id": "6e32203203",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/niraku_san2",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "東京都"
   },
   "29_ebina": {
     "store": "ニラク海老名本郷店",
@@ -33064,10 +33078,11 @@
     "type": "store",
     "store_id": "849881554d",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/festa_kuyama",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "長崎県"
   },
   "palazzo_hatta": {
     "store": "パラッツォ八田店",
@@ -33117,10 +33132,11 @@
     "type": "store",
     "store_id": "a1a222199e",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/festa_shimabara",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "長崎県"
   },
   "ams_awase": {
     "store": "アムズガーデン泡瀬店",
@@ -34609,10 +34625,11 @@
     "type": "store",
     "store_id": "bf047b90b6",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ESFukuoka922",
-    "match_method": "ns4_linkage",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "福岡県"
   },
   "espacesasaguri": {
     "store": "イースペース篠栗店",
@@ -35353,10 +35370,11 @@
     "type": "store",
     "store_id": "cc827b7f6a",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/d__numata",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "群馬県"
   },
   "D67979197": {
     "store": "スーパーD'ステーション太田店",
@@ -35377,10 +35395,11 @@
     "type": "store",
     "store_id": "97d3c50ff4",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/d_kaminagaya",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "神奈川県"
   },
   "D_oomura": {
     "store": "D'ステーション39大村店",
@@ -35415,10 +35434,11 @@
     "type": "store",
     "store_id": "36e9540c04",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/d_wakokashima",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "茨城県"
   },
   "dstation_sakado": {
     "store": "D'ステーション坂戸店",
@@ -36188,10 +36208,11 @@
     "type": "store",
     "store_id": "bafdfcdc63",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/333ichifuji",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "広島県"
   },
   "SHollywood1000": {
     "store": "スーパーハリウッド1000",
@@ -36228,10 +36249,11 @@
     "type": "store",
     "store_id": "230cfee6f2",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/123mizushimaten",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "岡山県"
   },
   "chaland_k": {
     "store": "きゃらんど倉敷店",
@@ -36252,10 +36274,11 @@
     "type": "store",
     "store_id": "c9c2ea05f4",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/hwshinyamaguchi",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "山口県"
   },
   "psj_bb1000": {
     "store": "PSJBB店",
@@ -38150,10 +38173,11 @@
     "type": "store",
     "store_id": "5534475ce3",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/TOMOE_FUCHINOBE",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "神奈川県"
   },
   "nlshiguchi_z": {
     "store": "スーパースロットクラブZ",
@@ -38738,10 +38762,11 @@
     "type": "store",
     "store_id": "6260c5acc4",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/kichiennu",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "岐阜県"
   },
   "yamagata_slosen": {
     "store": "SLOT ZERO 山形店",
@@ -39059,10 +39084,11 @@
     "type": "store",
     "store_id": "fa23f67099",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/d_ootayajima",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "群馬県"
   },
   "nagaokaheiji": {
     "store": "マルハン長岡平島店",
@@ -39208,10 +39234,11 @@
     "type": "store",
     "store_id": "6ef8464d49",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/tenguykaratsu",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "佐賀県"
   },
   "s_boss1226": {
     "store": "スーパーBOSS",
@@ -39236,10 +39263,11 @@
     "type": "store",
     "store_id": "ae9033c720",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/wakamiyad",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "群馬県"
   },
   "ippon315": {
     "store": "キクヤ千葉店",
@@ -40519,10 +40547,11 @@
     "type": "store",
     "store_id": "e721cb0e53",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ishikawa1255",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "沖縄県"
   },
   "rossoprova09": {
     "store": "ロッソプローバ",
@@ -40681,10 +40710,11 @@
     "type": "store",
     "store_id": "3470d1dd2b",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/40_hagiwara",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "大分県"
   },
   "nanaya_tentyou": {
     "store": "7ならおまかせ・ななや",
@@ -46138,10 +46168,11 @@
     "type": "store",
     "store_id": "2aac292cdc",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ribleyuuenkan",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "愛知県"
   },
   "ohta_nishi": {
     "store": "オータ西店",
@@ -47375,10 +47406,11 @@
     "type": "store",
     "store_id": "436de1aa20",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ba_akiba",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "東京都"
   },
   "mitoya_kanda24": {
     "store": "みとや神田西口店",
@@ -47841,10 +47873,11 @@
     "type": "store",
     "store_id": "f5483b6646",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/777_marmade",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "東京都"
   },
   "bigdipper_ooi": {
     "store": "ビックディッパー大井町店",
@@ -48576,10 +48609,11 @@
     "type": "store",
     "store_id": "585b0001bc",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/eastslot",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "東京都"
   },
   "ki7ri7nn7": {
     "store": "キューデンアネックス日暮里店",
@@ -51321,10 +51355,11 @@
     "type": "store",
     "store_id": "1169b58331",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/kicona_kashiwa",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "千葉県"
   },
   "mingo3535": {
     "store": "フラミンゴ鎌ヶ谷店",
@@ -53628,10 +53663,11 @@
     "type": "store",
     "store_id": "c7c68b5961",
     "verification_status": "candidate",
-    "evidence_type": null,
+    "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/kicona_atsukita",
-    "match_method": "ns4_enorm",
-    "rejection_reason": "not_in_canonical_master"
+    "match_method": "preserved_existing_link",
+    "rejection_reason": "needs_official_source_confirmation",
+    "canonical_pref": "神奈川県"
   },
   "jn_atsugi": {
     "store": "ジャパンニューアルファ厚木店",
@@ -55625,7 +55661,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/clubjfujino",
     "canonical_pref": "北海道",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "concert_godai": {
     "store": "コンサートホール五代店",
@@ -55637,7 +55675,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/concert_godai",
     "canonical_pref": "栃木県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "derugura88": {
     "store": "DELGRAND上横田店",
@@ -55661,7 +55701,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/OKomatsudai",
     "canonical_pref": "宮崎県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "isshi_kiwami": {
     "store": "アムディ石橋",
@@ -55673,7 +55715,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/isshi_kiwami",
     "canonical_pref": "新潟県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "SDyamatotakada": {
     "store": "スーパードーム大和高田店",
@@ -55685,7 +55729,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/SDyamatotakada",
     "canonical_pref": "奈良県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "wakkanaimaruhan": {
     "store": "マルハン稚内店",
@@ -55697,7 +55743,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/wakkanaimaruhan",
     "canonical_pref": "北海道",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "koizumi_12_16": {
     "store": "ARROW大和小泉店",
@@ -55709,7 +55757,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/koizumi_12_16",
     "canonical_pref": "奈良県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "yamamuro777": {
     "store": "ノースランド山室店",
@@ -55721,7 +55771,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/yamamuro777",
     "canonical_pref": "富山県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "muroranmaruhan": {
     "store": "マルハン室蘭店",
@@ -55733,7 +55785,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/muroranmaruhan",
     "canonical_pref": "北海道",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "CORE21nichinan": {
     "store": "CORE21日南店",
@@ -55745,7 +55799,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/CORE21nichinan",
     "canonical_pref": "宮崎県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "USA13451666": {
     "store": "スーパーUSA富山店",
@@ -55757,7 +55813,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/USA13451666",
     "canonical_pref": "富山県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "ARROW_koriyama": {
     "store": "スマイルARROW.COM",
@@ -55769,7 +55827,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ARROW_koriyama",
     "canonical_pref": "奈良県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "OASISTOKUYAMA": {
     "store": "オアシス徳山店",
@@ -55781,7 +55841,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/OASISTOKUYAMA",
     "canonical_pref": "山口県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "ju_ichinoseki": {
     "store": "パーラーJ-遊一関",
@@ -55793,7 +55855,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ju_ichinoseki",
     "canonical_pref": "岩手県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "TexasIwakuni": {
     "store": "テキサス岩国店",
@@ -55805,7 +55869,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/TexasIwakuni",
     "canonical_pref": "山口県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "nobeokasanai": {
     "store": "ファミリー三愛延岡店",
@@ -55817,7 +55883,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/nobeokasanai",
     "canonical_pref": "宮崎県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "yone_nyan": {
     "store": "マルハン米沢店",
@@ -55829,7 +55897,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/yone_nyan",
     "canonical_pref": "山形県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "obanazawaarajin": {
     "store": "パチンコアラジン尾花沢店",
@@ -55841,7 +55911,9 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/obanazawaarajin",
     "canonical_pref": "山形県",
-    "is_active": true
+    "is_active": true,
+    "match_method": "exact_name",
+    "rejection_reason": "needs_official_source_confirmation"
   },
   "hananbo_dynam": {
     "type": "manager",
