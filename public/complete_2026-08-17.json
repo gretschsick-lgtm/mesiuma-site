@@ -1,5 +1,26 @@
 [
   {
+    "id": "41b43d49487b",
+    "date": "2026-08-17",
+    "time": "21:00",
+    "store": "ダイナム新潟新津店~Since.2005.11.29~",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "515",
+    "text": "コンプリート機能発動  本日8月17日 L攻殻機動隊ZS 515番台にてコンプリート機能発動   ご遊技されたお客様,、 おめでとうございます  #攻殻機動隊 #コンプリート #ダイナム新津",
+    "x_url": "https://x.com/dynam_00264/status/2089321550776250440",
+    "store_handle": "dynam_00264",
+    "store_x_url": "https://x.com/dynam_00264",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T12:26:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7C4OJWsAARFIC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7C4OJWsAARFIC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "7c6f12747517",
     "date": "2026-08-17",
     "time": "15:40",
@@ -23,27 +44,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "d51a7d0dfdbc",
-    "date": "2026-08-17",
-    "time": "15:15",
-    "store": "マルハン草薙アピア店 店長ひろゆき",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "こんにちは コンプリート速報です  早くもこの時間に ｅ牙狼１２ コンプリート達成  おめでとうございます",
-    "x_url": "https://x.com/tenchouhiroyuki/status/2089234652028649872",
-    "store_handle": "tenchouhiroyuki",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/tenchouhiroyuki",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-08-17T10:52:27Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP5zm0wbwAE7nUK?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP5zm0wbwAE7nUK?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
-  },
-  {
     "id": "5c2242d2829b",
     "date": "2026-08-17",
     "time": "14:52",
@@ -63,27 +63,5 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP5uXiCaEAAadvz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "380ec0d63dbb",
-    "date": "2026-08-17",
-    "time": "08:03",
-    "store": "ダイナム富山砺波店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "波岡店から速報(｀・ω・´)  月(日)(日) スマスロ説明会＆ご来店プレゼント 延長営業  338番台【L北斗の拳転生２】にて コンプリート達成 おめでとうございます  気になる台データは波岡店公式LINEからご確認ください",
-    "x_url": "https://x.com/dynam_00287/status/2089126014710329577",
-    "store_handle": "dynam_00287",
-    "store_x_url": "https://x.com/dynam_00287",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-17T10:28:46Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP4RCGaW8AAlbwc?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPq9OffXQAIQVrE?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP4RCGaW8AAlbwc?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
   }
 ]
