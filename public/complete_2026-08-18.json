@@ -1,5 +1,26 @@
 [
   {
+    "id": "12250f1e97f4",
+    "date": "2026-08-18",
+    "time": "22:32",
+    "store": "やすだひばりヶ丘店",
+    "machine": "スマスロ甲鉄城のカバネリ",
+    "machine_type": "slot",
+    "slot_number": "701",
+    "text": "やすひば速報  ≪L甲鉄城のカバネリ≫ ７０１番台より  コンプリート発生  おめでとうごさいます  なんと明日は・・・ ≪サミー賞品陳列開始≫  ご来店お待ちしてます  #カバネリ　#コンプリート　#サミー",
+    "x_url": "https://x.com/yasuda_hibari/status/2089706882101637526",
+    "store_handle": "yasuda_hibari",
+    "store_x_url": "https://x.com/yasuda_hibari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T20:37:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAfjAfaQAA15DT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAfjAfaQAA15DT?format=jpg&name=large",
+    "machine_id": "83473efa-df5b-458f-8644-f47f6ad2d3b3"
+  },
+  {
     "id": "19464c7b05b0",
     "date": "2026-08-18",
     "time": "22:28",

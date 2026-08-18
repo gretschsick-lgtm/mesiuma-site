@@ -433,6 +433,28 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "45a65036c0cc",
+    "date": "2026-08-15",
+    "time": "22:06",
+    "store": "プレイランドキャッスル高浜店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "287",
+    "text": "『”高浜史上最大１００３台 ”      ＢＩＧになったアソビの殿堂から速報！』       【２８７番台】  『e東京喰種』       ≪コンプリート機能発動！≫         ※開放は明日予定です。        明日も朝から ご来店をお待ちしております！！",
+    "x_url": "https://x.com/Hara_Strong/status/2088613296601743859",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T20:16:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPw-kULbsAAf0pV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPw-pyhaoAEQ4Bw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPw-kULbsAAf0pV?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "122573f513dd",
     "date": "2026-08-15",
     "time": "22:00",
@@ -931,6 +953,27 @@
     ]
   },
   {
+    "id": "5e495d89a975",
+    "date": "2026-08-15",
+    "time": "19:30",
+    "store": "メガフェイス1450本山",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "753",
+    "text": "コンプリート速報  月日（土）  　　　753番台 　　　　e東京喰種 #コンプリート 達成です  おめでとうございます  #メガフェイス1450本山 #e東京喰種",
+    "x_url": "https://x.com/megaface_1450/status/2088573917820846137",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T20:16:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwWWj_akAArw6M?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwWWj_akAArw6M?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "cf58819b6537",
     "date": "2026-08-15",
     "time": "19:07",
@@ -1206,6 +1249,40 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPwEcMwaQAAXQ1s?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "be7dca074630",
+    "date": "2026-08-15",
+    "time": "17:38",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "567",
+    "text": "ほぼ同時に！！ 567番台 e東京喰種 483番台 e牙狼12 コンプリート達成 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2088545843897049316",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T20:16:40Z",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "9ac6385cc88d",
+    "date": "2026-08-15",
+    "time": "17:38",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "ほぼ同時に！！ 567番台 e東京喰種 483番台 e牙狼12 コンプリート達成 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2088545843897049316",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T20:16:40Z",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "36d57339cbac",
