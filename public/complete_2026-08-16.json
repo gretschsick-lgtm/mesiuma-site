@@ -665,6 +665,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
+    "id": "c9949028429d",
+    "date": "2026-08-16",
+    "time": "11:25",
+    "store": "ダイナム千葉海上店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "400",
+    "text": "昨日ついに出ました~っ  400番台チバリヨ2にて コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/dynam_00290/status/2089176702840619108",
+    "store_handle": "dynam_00290",
+    "store_x_url": "https://x.com/dynam_00290",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T02:45:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP4_InIW8AAIAWy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP4_JAKXEAABfKs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP4_InIW8AAIAWy?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "c22bf1191134",
     "date": "2026-08-16",
     "time": "11:11",

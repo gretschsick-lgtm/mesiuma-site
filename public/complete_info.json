@@ -256,6 +256,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "abae7e327283",
+    "date": "2026-08-17",
+    "time": "10:30",
+    "store": "ダイナム石川加賀店～Since.2003.10.4～",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "331",
+    "text": "おはようございます  昨日（8/16）のコンプリート報告です  チバリヨ2　331番台  コンプリート達成  おめでとうございます  #ダイナム #コンプリート",
+    "x_url": "https://x.com/dynam_00178/status/2089162872014209106",
+    "store_handle": "dynam_00178",
+    "store_x_url": "https://x.com/dynam_00178",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T02:45:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP4yjsfXwAAy9di?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP4yjsfXwAAy9di?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "e53ed6e3cd9f",
     "date": "2026-08-17",
     "time": "00:00",
@@ -940,6 +961,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP0BPC7aQAAoXLw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "c9949028429d",
+    "date": "2026-08-16",
+    "time": "11:25",
+    "store": "ダイナム千葉海上店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "400",
+    "text": "昨日ついに出ました~っ  400番台チバリヨ2にて コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/dynam_00290/status/2089176702840619108",
+    "store_handle": "dynam_00290",
+    "store_x_url": "https://x.com/dynam_00290",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T02:45:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP4_InIW8AAIAWy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP4_JAKXEAABfKs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP4_InIW8AAIAWy?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "c22bf1191134",
@@ -2923,6 +2966,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPrX5PWaoAAR597?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "7ce65a840d97",
+    "date": "2026-08-14",
+    "time": "19:44",
+    "store": "DSG WORLD豊田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "祝コンプリート 北斗の拳 転生の章2  コンプリート達成おめでとうございます 本日は深夜1時まで延長営業 この後もコンプリート目指して ごゆっくりお楽しみください  #やっぱDSG #イケイケDSG",
+    "x_url": "https://x.com/dsgtoyota104/status/2088215300437377205",
+    "store_handle": "dsgtoyota104",
+    "store_x_url": "https://x.com/dsgtoyota104",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T02:47:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrUKpIboAAhYUH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrUKpIboAAhYUH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "34df3370bb"
   },
   {
     "id": "9f2e4a278c0a",

@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-18T09:03:51+09:00",
+  "generated_at": "2026-08-18T12:24:21+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 830,
+      "total_count": 833,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 39
+          "count": 41
         },
         {
           "rank": 2,
@@ -74,7 +74,7 @@
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 47
+          "count": 48
         },
         {
           "rank": 3,
@@ -98,13 +98,13 @@
         },
         {
           "rank": 7,
-          "name": "スマスロ攻殻機動隊",
-          "count": 22
+          "name": "Lチバリヨ2ZB",
+          "count": 23
         },
         {
           "rank": 8,
-          "name": "Lチバリヨ2ZB",
-          "count": 21
+          "name": "スマスロ攻殻機動隊",
+          "count": 22
         },
         {
           "rank": 9,
@@ -727,14 +727,14 @@
       },
       {
         "rank": 4,
-        "name": "テキサス小倉店",
-        "count": 48,
-        "x_url": "https://x.com/texas_kokura"
+        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
+        "count": 50
       },
       {
         "rank": 5,
-        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-        "count": 48
+        "name": "テキサス小倉店",
+        "count": 48,
+        "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 6,
@@ -776,7 +776,7 @@
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 166
+        "count": 167
       },
       {
         "rank": 3,
@@ -800,13 +800,13 @@
       },
       {
         "rank": 7,
-        "name": "スロット ソードアート・オンラインⅡ",
-        "count": 59
+        "name": "Lチバリヨ2ZB",
+        "count": 60
       },
       {
         "rank": 8,
-        "name": "Lチバリヨ2ZB",
-        "count": 58
+        "name": "スロット ソードアート・オンラインⅡ",
+        "count": 59
       },
       {
         "rank": 9,
@@ -871,14 +871,14 @@
         "count": 13
       }
     ],
-    "total_count": 3149
+    "total_count": 3152
   },
   "store_complete_counts": {
     "ARROW浪速店": 61,
     "プレイランドキャッスル春日井店": 51,
     "キング観光サウザンド栄若宮大通店": 51,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 50,
     "テキサス小倉店": 48,
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 48,
     "楽園池袋店ゲートウェイ": 45,
     "キクヤ春日井店": 43,
     "楽園大宮店": 42,
@@ -1205,6 +1205,7 @@
     "Durham S-1": 2,
     "カネマン奥州1111": 2,
     "DSG ARENA 七尾店": 2,
+    "DSG WORLD豊田店": 2,
     "やすだ幕張店": 2,
     "キング観光サウザンド生桑店": 2,
     "アミューズ岩出店": 2,
@@ -1361,7 +1362,6 @@
     "タイホウ刈谷小垣江店": 1,
     "ガイアネクスト花見川": 1,
     "APAN21小牧店": 1,
-    "DSG WORLD豊田店": 1,
     "チャンピオンBelz": 1,
     "マルハン土浦店": 1,
     "ABC清水町長沢店": 1,
@@ -1502,7 +1502,7 @@
     "メガガイア青森中央 店長石川": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2811,
+    "records_with_store_id": 2814,
     "records_without_store_id": 338,
     "canonical_store_ids": 472
   }
