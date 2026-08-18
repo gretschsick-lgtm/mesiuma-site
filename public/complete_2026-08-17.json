@@ -21,27 +21,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "6905c03933ce",
-    "date": "2026-08-17",
-    "time": "22:26",
-    "store": "マルハン仙台苦竹店",
-    "machine": "スマスロ ゴッドイーター リザレクション",
-    "machine_type": "slot",
-    "slot_number": "423",
-    "text": "8/17（月）22：10頃  423番台    Lゴッドイーターリザレクション  コンプリート機能発動",
-    "x_url": "https://x.com/niga_maru/status/2089343072358596728",
-    "store_handle": "niga_maru",
-    "store_x_url": "https://x.com/niga_maru",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-18T08:11:42Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP7Wc1KboAAfr2f?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP7Wc1KboAAfr2f?format=jpg&name=large",
-    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
-  },
-  {
     "id": "c9e549d96800",
     "date": "2026-08-17",
     "time": "22:12",
@@ -82,6 +61,49 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP7R0XEa4AAGXSj?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "f5815e4af0aa",
+    "date": "2026-08-17",
+    "time": "21:24",
+    "store": "マルハン旭川永山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "67",
+    "text": "【67番台】 【e牙狼12XX－MJ】  コンプリート達成おめでとうございます データを確認できる マルハンアプリはこちらから  https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/nagayamamaruhan/status/2089327453026349188",
+    "store_handle": "nagayamamaruhan",
+    "store_x_url": "https://x.com/nagayamamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T10:36:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7H46Kb0AAD7hE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7H46Kb0AAD7hE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "0c43b7040a7d",
+    "date": "2026-08-17",
+    "time": "21:10",
+    "store": "エナジー@e・Zone1111",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月17日（月） またまたコンプリート スマスロ ヴァルヴレイヴ2より 2台コンプリート達成 打っていたお客様おめでとう そしてありがとう #イーゾーン1111富山 #エンパワーイーゾーン",
+    "x_url": "https://x.com/ENERGYTENTYO/status/2089323924572242288",
+    "store_handle": "energytentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/ENERGYTENTYO",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-18T10:36:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7FBUqaUAAhnw-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7FCCKaQAARShz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7FBUqaUAAhnw-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "41b43d49487b",
@@ -149,27 +171,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "bc5542643fe0",
-    "date": "2026-08-17",
-    "time": "18:43",
-    "store": "ビックつばめ須賀川店",
-    "machine": "Lかぐや様は告らせたい",
-    "machine_type": "slot",
-    "slot_number": "242",
-    "text": "242番台　Lかぐや様は告らせたい コンプリート達成 おめでとうございます  #ビックつばめ須賀川店 #コンプリート #かぐや様は告らせたい",
-    "x_url": "https://x.com/tsubamesukagawa/status/2089287008510435733",
-    "store_handle": "tsubamesukagawa",
-    "store_x_url": "https://x.com/tsubamesukagawa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-18T09:35:27Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP6jdHtaEAA7Wot?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP6jdHtaEAA7Wot?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000017"
-  },
-  {
     "id": "285f6082e9da",
     "date": "2026-08-17",
     "time": "18:41",
@@ -212,6 +213,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP6hLptaUAAwvP2?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "c0fe56f2d3e3",
+    "date": "2026-08-17",
+    "time": "17:55",
+    "store": "メガフェイス1450本山",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "1485",
+    "text": "コンプリート速報  1485番台 Lスマスロ攻殻機動隊  #コンプリート　達成です おめでとうございます  #8月17日 #メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450/status/2089274970904092706",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T10:35:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6WHbSbsAAiWPL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6WHbSbsAAiWPL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "7c6f12747517",
@@ -297,27 +319,6 @@
       "https://pbs.twimg.com/media/HP5uXiCaEAAadvz?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HP5uXiCaEAAadvz?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "2b36330650d9",
-    "date": "2026-08-17",
-    "time": "13:18",
-    "store": "キクヤ春日井店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "445",
-    "text": "キクヤ春日井店 コンプリート情報 　　445番台 ヴァルヴレイヴ２ 　コンプリート おめでとうございます",
-    "x_url": "https://x.com/315kasugai/status/2089205164855173176",
-    "store_handle": "315kasugai",
-    "store_x_url": "https://x.com/315kasugai",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-18T08:11:59Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP5Y_ciaMAAQ_LP?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP5Y_ciaMAAQ_LP?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
