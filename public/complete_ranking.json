@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-18T14:03:52+09:00",
+  "generated_at": "2026-08-18T16:06:52+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 835,
+      "total_count": 836,
       "stores": [
         {
           "rank": 1,
@@ -69,7 +69,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 129
+          "count": 130
         },
         {
           "rank": 2,
@@ -771,7 +771,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 551
+        "count": 552
       },
       {
         "rank": 2,
@@ -871,7 +871,7 @@
         "count": 13
       }
     ],
-    "total_count": 3154
+    "total_count": 3155
   },
   "store_complete_counts": {
     "ARROW浪速店": 61,
@@ -920,9 +920,9 @@
     "マルハンメガシティ柏": 17,
     "ダイナム金町南口店": 17,
     "SUPER CONCORDE 市野": 17,
+    "マルハン佐賀店実績": 17,
     "フェイス850佐賀": 16,
     "ワンダーランドODO": 16,
-    "マルハン佐賀店実績": 16,
     "パラッツォ船橋店": 15,
     "やすだ八潮店": 15,
     "エムディー目黒店": 15,
@@ -1503,7 +1503,7 @@
     "メガガイア青森中央 店長石川": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2815,
+    "records_with_store_id": 2816,
     "records_without_store_id": 339,
     "canonical_store_ids": 473
   }
