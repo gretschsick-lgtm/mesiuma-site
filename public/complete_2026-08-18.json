@@ -1,26 +1,5 @@
 [
   {
-    "id": "12250f1e97f4",
-    "date": "2026-08-18",
-    "time": "22:32",
-    "store": "やすだひばりヶ丘店",
-    "machine": "スマスロ甲鉄城のカバネリ",
-    "machine_type": "slot",
-    "slot_number": "701",
-    "text": "やすひば速報  ≪L甲鉄城のカバネリ≫ ７０１番台より  コンプリート発生  おめでとうごさいます  なんと明日は・・・ ≪サミー賞品陳列開始≫  ご来店お待ちしてます  #カバネリ　#コンプリート　#サミー",
-    "x_url": "https://x.com/yasuda_hibari/status/2089706882101637526",
-    "store_handle": "yasuda_hibari",
-    "store_x_url": "https://x.com/yasuda_hibari",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-18T16:07:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQAfjAfaQAA15DT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQAfjAfaQAA15DT?format=jpg&name=large",
-    "machine_id": "83473efa-df5b-458f-8644-f47f6ad2d3b3"
-  },
-  {
     "id": "19464c7b05b0",
     "date": "2026-08-18",
     "time": "22:28",
@@ -34,7 +13,7 @@
     "store_x_url": "https://x.com/k_e_lucky",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-18T15:44:55Z",
+    "collected_at": "2026-08-18T15:02:12Z",
     "images": [
       "https://pbs.twimg.com/media/HQAgj_gaQAADcgv?format=jpg&name=large"
     ],
@@ -84,6 +63,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "5b94e3449e86",
+    "date": "2026-08-18",
+    "time": "21:38",
+    "store": "サガちゃんPARK",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "2560",
+    "text": "ヤッホー   2560番台  L戦国乙女5    コンプリート達成   おめでとうございます",
+    "x_url": "https://x.com/sagachan_park/status/2089693388111233354",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T18:52:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAU-3YawAA1wOh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAU-3YawAA1wOh?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "5b50bb6d8aea",
     "date": "2026-08-18",
     "time": "21:31",
@@ -103,6 +103,49 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQATYhEaoAARcta?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "d751e6f2cb4f",
+    "date": "2026-08-18",
+    "time": "20:34",
+    "store": "MEGAコンコルド555西尾店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1037",
+    "text": "8月18日(火) こんばんは 先ほど、20時25分頃に 5円スロット1037番台 L北斗の拳転生の章2 コンプリート機能発動しました。  また、明日のご来店お待ちしております",
+    "x_url": "https://x.com/concordenishio/status/2089677282344657115",
+    "store_handle": "concordenishio",
+    "store_x_url": "https://x.com/concordenishio",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T15:21:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAF6iBboAAvUCD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAF6iBboAAvUCD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "44cd5d0449"
+  },
+  {
+    "id": "dd26e41fd862",
+    "date": "2026-08-18",
+    "time": "19:35",
+    "store": "DSGアリーナ春江店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ハルアリから速報 ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! #L東京喰種 #コンプリート機能発動 コンプリート おめでとうございます #まだまだこの後も #勢いそのままに #DSGアリーナ春江店 #最新機種導入済",
+    "x_url": "https://x.com/dsg_harue/status/2089662367907057713",
+    "store_handle": "dsg_harue",
+    "store_x_url": "https://x.com/dsg_harue",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T18:52:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP_4DXHbsAADytx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP_4DXHbsAADytx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "3db55e8fa4a1",
@@ -145,5 +188,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP_f8CybsAAxYSH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000035"
+  },
+  {
+    "id": "2975aca1bc1a",
+    "date": "2026-08-18",
+    "time": "17:20",
+    "store": "DSGアリーナ高岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "①円パチンコから コンプリート達成 おめでとうございます  #e牙狼12黄金騎士極限  #ＬＩＭＩＴＳＴＯＰ #魔戒CHANCE #極限7500バトル  夜はコレカラ お仕事終わりの方も やっぱ！パチンコやっぱ！スロット 遊ぶならタカアリ",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2089628571048583311",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T15:06:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP_aCv6a4AAumNO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP_aCv6a4AAumNO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c774e988a7"
   }
 ]
