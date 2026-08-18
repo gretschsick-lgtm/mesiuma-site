@@ -22,6 +22,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "62a9de9e31e7",
+    "date": "2026-08-14",
+    "time": "22:46",
+    "store": "キクヤ一宮店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "626",
+    "text": "626番台 21時40分頃 ヴァルヴレイヴ2 コンプリート おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2088260929347866705",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T15:06:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPr-Pv3asAAVI26?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPr-Pv3asAAVI26?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "88d63b4aa55c",
     "date": "2026-08-14",
     "time": "22:44",
@@ -230,6 +251,29 @@
       "https://pbs.twimg.com/media/HPry0Tta4AAlN-Z?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HPry0Tta4AAlN-Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "1c1c6962b0a8",
+    "date": "2026-08-14",
+    "time": "21:37",
+    "store": "イーグル9旭川店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "197",
+    "text": "出ました  Lヴァルヴレイヴ2 197番台にてコンプリート達成  おめでとうございます  明日、明後日は イーグル９ スロットに愛を込めて…  あさ9時開店です  #旭川  #スロ専  #趣味打ち  #最適解  #ILOVESLOT   #お盆  #土曜日 #週末  #延長営業 #コンプリート #ヴヴヴ2 #うらやましい",
+    "x_url": "https://x.com/eagle9asahikawa/status/2088243489473794533",
+    "store_handle": "eagle9asahikawa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-18T15:06:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrZomOaAAAkCyk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPragWZaYAAhEGb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPrai-4aAAAV4ae?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrZomOaAAAkCyk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
