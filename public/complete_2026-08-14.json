@@ -657,6 +657,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "f56206624647",
+    "date": "2026-08-14",
+    "time": "18:38",
+    "store": "Nikko1300戸畑店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1171",
+    "text": "コンプリート速報 本日もコンプリート出ました #L北斗の拳転生の章2 1171番台 オメデトウゴザイマス 夜はまだまだこれから Nikko戸畑店へとご来店ください #コンプリート #Nikko戸畑",
+    "x_url": "https://x.com/tobata_nikko/status/2088198568352137318",
+    "store_handle": "tobata_nikko",
+    "store_x_url": "https://x.com/tobata_nikko",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-17T23:29:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrFTgnasAA4miv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrFTgnasAA4miv?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "412eca7720"
+  },
+  {
     "id": "6005955bd63d",
     "date": "2026-08-14",
     "time": "18:28",
