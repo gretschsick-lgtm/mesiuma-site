@@ -172,6 +172,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "d51a7d0dfdbc",
+    "date": "2026-08-17",
+    "time": "15:15",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんにちは コンプリート速報です  早くもこの時間に ｅ牙狼１２ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2089234652028649872",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-18T04:53:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP5zm0wbwAE7nUK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP5zm0wbwAE7nUK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "a220b4b15a11",
     "date": "2026-08-17",
     "time": "14:59",
