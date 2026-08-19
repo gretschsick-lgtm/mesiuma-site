@@ -1,5 +1,27 @@
 [
   {
+    "id": "026adefc4211",
+    "date": "2026-08-16",
+    "time": "23:59",
+    "store": "ワンダーランド香椎本館",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "ご来館誠にありがとうございました  本日は、、、 　　　なんと、、、  コンプリート作動 　　　　e東京喰種W  おめでとうございます  今月は休まず営業致します 明日のご来館お待ちしております",
+    "x_url": "https://x.com/wl_kashii/status/2089004000767004942",
+    "store_handle": "wl_kashii",
+    "store_x_url": "https://x.com/wl_kashii",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T22:56:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP2cVnzbwAAwLwH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwlyaabEAAUf2H?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP2cVnzbwAAwLwH?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "120262f523e2",
     "date": "2026-08-16",
     "time": "23:53",
