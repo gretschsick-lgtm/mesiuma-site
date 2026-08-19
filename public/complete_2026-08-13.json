@@ -1,5 +1,27 @@
 [
   {
+    "id": "8dd50c373967",
+    "date": "2026-08-13",
+    "time": "23:25",
+    "store": "ZENT名古屋北店",
+    "machine": "Ｌすーぱぁびん娘",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日のコンプリート報告  1632番台　SAOⅡ 1929番台　すーぱぁびん娘  遅くなりましたが2台まとめて(*･ω･)ﾉ  明日開放  #ZENT #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2087908488228000214",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-19T02:19:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPm9s5zbgAAUWQ6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPm9s5ea8AAR5Sm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPm9s5zbgAAUWQ6?format=jpg&name=large",
+    "machine_id": "6a231516-f4ee-4606-8154-89c967be4b47"
+  },
+  {
     "id": "dcb9bc34ac07",
     "date": "2026-08-13",
     "time": "23:19",

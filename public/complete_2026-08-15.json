@@ -953,6 +953,27 @@
     ]
   },
   {
+    "id": "52e0f74d5d33",
+    "date": "2026-08-15",
+    "time": "19:31",
+    "store": "ZENT稲沢店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "507",
+    "text": "507番台の戦国乙女5が コンプリート  10台中1台目です！  こちらの台は明日開放します⸒⸒",
+    "x_url": "https://x.com/ZENT__anesan/status/2088574192195449227",
+    "store_handle": "zent__anesan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-19T02:19:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwbJ8Da0AAdfJl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwbJ8Da0AAdfJl?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "5e495d89a975",
     "date": "2026-08-15",
     "time": "19:30",

@@ -2553,6 +2553,27 @@
     ]
   },
   {
+    "id": "52e0f74d5d33",
+    "date": "2026-08-15",
+    "time": "19:31",
+    "store": "ZENT稲沢店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "507",
+    "text": "507番台の戦国乙女5が コンプリート  10台中1台目です！  こちらの台は明日開放します⸒⸒",
+    "x_url": "https://x.com/ZENT__anesan/status/2088574192195449227",
+    "store_handle": "zent__anesan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-19T02:19:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwbJ8Da0AAdfJl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwbJ8Da0AAdfJl?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "5e495d89a975",
     "date": "2026-08-15",
     "time": "19:30",
@@ -4349,6 +4370,28 @@
     "image_url": "https://pbs.twimg.com/media/HPsfRgZb0AAwL8O?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "8dd50c373967",
+    "date": "2026-08-13",
+    "time": "23:25",
+    "store": "ZENT名古屋北店",
+    "machine": "Ｌすーぱぁびん娘",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日のコンプリート報告  1632番台　SAOⅡ 1929番台　すーぱぁびん娘  遅くなりましたが2台まとめて(*･ω･)ﾉ  明日開放  #ZENT #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2087908488228000214",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-19T02:19:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPm9s5zbgAAUWQ6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPm9s5ea8AAR5Sm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPm9s5zbgAAUWQ6?format=jpg&name=large",
+    "machine_id": "6a231516-f4ee-4606-8154-89c967be4b47"
   },
   {
     "id": "dcb9bc34ac07",
