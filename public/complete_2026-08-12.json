@@ -46,6 +46,28 @@
     "store_id": "f8132a1307"
   },
   {
+    "id": "54f124bb1c59",
+    "date": "2026-08-12",
+    "time": "22:50",
+    "store": "マルハン筑西店 店長オカダ",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "774",
+    "text": "先ほどコンプ  Ｌからくりサーカス2【774番台】  おめでとうございます  #マルハンつくば",
+    "x_url": "https://x.com/okada777maruhan/status/2087537148027392340",
+    "store_handle": "okada777maruhan",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/okada777maruhan",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-18T23:31:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPhr-I1bsAAjLxS?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2087125025828847616/img/BY5eHeu8XPGmEEpv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPhr-I1bsAAjLxS?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "4590f5ecba92",
     "date": "2026-08-12",
     "time": "22:46",

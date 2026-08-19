@@ -301,6 +301,27 @@
     "machine_id": "e9c08019-ae38-457f-a46a-3ecdab45e038"
   },
   {
+    "id": "68c55be502a7",
+    "date": "2026-08-17",
+    "time": "16:00",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "482",
+    "text": "こんにちは!! マルハンメガシティ三島駿東です  《《　速報　》》 ｅ牙狼黄金騎士極限 482番台   コンプリート達成～ おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2089245844952203378",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T23:24:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP5925YboAAgc-d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP5925YboAAgc-d?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "7c6f12747517",
     "date": "2026-08-17",
     "time": "15:40",
@@ -406,6 +427,23 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP4yjsfXwAAy9di?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "ea3c9eb37bc9",
+    "date": "2026-08-17",
+    "time": "10:00",
+    "store": "ダイナム鹿児島伊集院店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "462",
+    "text": "コンプリート報告   昨日8月16日 462番台「e女神のカフェテラス」にて コンプリート達成 達成されたお客様、おめでとうございます  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00428/status/2089155287773061465",
+    "store_handle": "dynam_00428",
+    "store_x_url": "https://x.com/dynam_00428",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T23:24:33Z",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
     "id": "e53ed6e3cd9f",

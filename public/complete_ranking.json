@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-19T08:05:15+09:00",
+  "generated_at": "2026-08-19T09:03:32+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 876,
+      "total_count": 882,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 42
+          "count": 44
         },
         {
           "rank": 2,
@@ -49,20 +49,21 @@
         },
         {
           "rank": 8,
+          "name": "楽園大宮店",
+          "count": 9,
+          "x_url": "https://x.com/rakuen_ohmiya"
+        },
+        {
+          "rank": 9,
           "name": "プレイランドキャッスル春日井店",
           "count": 9,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 8,
           "x_url": "https://x.com/wakakin_tsujic"
-        },
-        {
-          "rank": 10,
-          "name": "マルハンアプリはこちら",
-          "count": 8
         }
       ],
       "slot_machines": [
@@ -79,7 +80,7 @@
         {
           "rank": 3,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 38
+          "count": 40
         },
         {
           "rank": 4,
@@ -121,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 135
+          "count": 136
         },
         {
           "rank": 2,
@@ -146,7 +147,7 @@
         {
           "rank": 6,
           "name": "e女神のカフェテラス",
-          "count": 11
+          "count": 12
         },
         {
           "rank": 7,
@@ -715,20 +716,20 @@
       },
       {
         "rank": 2,
+        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
+        "count": 53
+      },
+      {
+        "rank": 3,
         "name": "プレイランドキャッスル春日井店",
         "count": 51,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "name": "キング観光サウザンド栄若宮大通店",
         "count": 51,
         "x_url": "https://x.com/wakakin_tsujic"
-      },
-      {
-        "rank": 4,
-        "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-        "count": 51
       },
       {
         "rank": 5,
@@ -744,27 +745,27 @@
       },
       {
         "rank": 7,
+        "name": "楽園大宮店",
+        "count": 43,
+        "x_url": "https://x.com/rakuen_ohmiya"
+      },
+      {
+        "rank": 8,
         "name": "キクヤ春日井店",
         "count": 43,
         "x_url": "https://x.com/315kasugai"
       },
       {
-        "rank": 8,
-        "name": "楽園大宮店",
-        "count": 42,
-        "x_url": "https://x.com/rakuen_ohmiya"
-      },
-      {
         "rank": 9,
-        "name": "メガフェイス1300淀川",
-        "count": 40,
-        "x_url": "https://x.com/megaface_1300"
+        "name": "マルハンメガシティ三島駿東",
+        "count": 41,
+        "x_url": "https://x.com/mega_mishima"
       },
       {
         "rank": 10,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "メガフェイス1300淀川",
         "count": 40,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/megaface_1300"
       }
     ],
     "slot_machines": [
@@ -781,7 +782,7 @@
       {
         "rank": 3,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 113
+        "count": 115
       },
       {
         "rank": 4,
@@ -823,7 +824,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 377
+        "count": 378
       },
       {
         "rank": 2,
@@ -853,7 +854,7 @@
       {
         "rank": 7,
         "name": "e女神のカフェテラス",
-        "count": 28
+        "count": 29
       },
       {
         "rank": 8,
@@ -871,19 +872,19 @@
         "count": 13
       }
     ],
-    "total_count": 3195
+    "total_count": 3201
   },
   "store_complete_counts": {
     "ARROW浪速店": 61,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 53,
     "プレイランドキャッスル春日井店": 51,
     "キング観光サウザンド栄若宮大通店": 51,
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 51,
     "テキサス小倉店": 48,
     "楽園池袋店ゲートウェイ": 46,
+    "楽園大宮店": 43,
     "キクヤ春日井店": 43,
-    "楽園大宮店": 42,
+    "マルハンメガシティ三島駿東": 41,
     "メガフェイス1300淀川": 40,
-    "マルハンメガシティ三島駿東": 40,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 39,
     "メガフェイス1450本山": 39,
     "SPACE(スペース444＆666)": 37,
@@ -1458,6 +1459,7 @@
     "ウイング河芸店": 1,
     "キクヤ千葉店": 1,
     "PSJ古賀店": 1,
+    "マルハン筑西店 店長オカダ": 1,
     "スーパーD'ステーション39諫早店": 1,
     "ワンダーランド大分皆春店": 1,
     "アスカ秩父寺尾店": 1,
@@ -1501,6 +1503,7 @@
     "キング観光サウザンド長浜インター店": 1,
     "グランワールドカップ米子店": 1,
     "ダイナム高知須崎店": 1,
+    "オアシス徳山店": 1,
     "メガコン豊田店新店": 1,
     "モナコの店長\"尾上\"": 1,
     "コンサートホール今泉": 1,
@@ -1510,8 +1513,8 @@
     "DSGアリーナ春江店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2846,
-    "records_without_store_id": 349,
-    "canonical_store_ids": 477
+    "records_with_store_id": 2851,
+    "records_without_store_id": 350,
+    "canonical_store_ids": 478
   }
 }

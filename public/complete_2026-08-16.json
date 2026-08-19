@@ -689,6 +689,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "23e35eb025a9",
+    "date": "2026-08-16",
+    "time": "16:11",
+    "store": "オアシス徳山店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "756",
+    "text": "おはようございます 昨日７５６番台 #パチスロかぐや様は告らせたい にて コンプリート達成致しました おめでとうございます  本日の営業時間 ：～：まで  ご来店お待ち致しております",
+    "x_url": "https://x.com/OASISTOKUYAMA/status/2089248714523353386",
+    "store_handle": "oasistokuyama",
+    "store_x_url": "https://x.com/OASISTOKUYAMA",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T23:24:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6AoZfa4AAofPE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6AoZfa4AAofPE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "f3e0bc288650",
     "date": "2026-08-16",
     "time": "15:26",
@@ -860,5 +881,22 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP44rF_bMAAa7RZ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "9bdb1b029715",
+    "date": "2026-08-16",
+    "time": "08:30",
+    "store": "ダイナム苫小牧東店",
+    "machine": "L鉄拳6",
+    "machine_type": "slot",
+    "slot_number": "370",
+    "text": "いつもご覧に頂きましてありがとうございます  昨日、10スロットで \"コンプリート\" 達成  #スマスロ鉄拳6 370番台  #コンプリート おめでとうございます  本日もごゆっくりお楽しみください",
+    "x_url": "https://x.com/dynam_00048/status/2089132622920253815",
+    "store_handle": "dynam_00048",
+    "store_x_url": "https://x.com/dynam_00048",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-18T23:24:33Z",
+    "machine_id": "11111111-1111-1111-1111-000000000022"
   }
 ]
