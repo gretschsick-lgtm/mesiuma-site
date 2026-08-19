@@ -192,6 +192,51 @@
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
+    "id": "adc40b40f21c",
+    "date": "2026-08-17",
+    "time": "20:53",
+    "store": "テキサス小倉店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "471",
+    "text": "こんばんは  テキサス小倉店です  8月17日 コンプリート達成   471番台 L真打吉宗 🪎🪎🪎🪎🪎  おめでとうございます #コンプリート  #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2089319683451424774",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T07:40:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7BJA-aYAEXKeM?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7BJ1AaQAAugXc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7BK29bkAA5oej?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7BJA-aYAEXKeM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "5f24ae505163",
+    "date": "2026-08-17",
+    "time": "20:51",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "924",
+    "text": "こんばんは メガシティ三島駿東です  Ｌ革命機ヴァルヴレイヴ２ 924番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2089319099268772304",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T07:40:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6_9PXbIAADoau?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP5925YboAAgc-d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6_9PXbIAADoau?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "70b9a6b0001d",
     "date": "2026-08-17",
     "time": "20:00",
@@ -443,7 +488,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-18T23:24:33Z",
-    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "image_url": "https://pbs.twimg.com/media/HP4rp_FWwAANwBd.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HP4rp_FWwAANwBd.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP4rp_FWwAANwBd?format=jpg&name=large"
+    ]
   },
   {
     "id": "e53ed6e3cd9f",

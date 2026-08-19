@@ -446,6 +446,51 @@
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
+    "id": "adc40b40f21c",
+    "date": "2026-08-17",
+    "time": "20:53",
+    "store": "テキサス小倉店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "471",
+    "text": "こんばんは  テキサス小倉店です  8月17日 コンプリート達成   471番台 L真打吉宗 🪎🪎🪎🪎🪎  おめでとうございます #コンプリート  #テキサス小倉店",
+    "x_url": "https://x.com/texas_kokura/status/2089319683451424774",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T07:40:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7BJA-aYAEXKeM?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7BJ1AaQAAugXc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7BK29bkAA5oej?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7BJA-aYAEXKeM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "5f24ae505163",
+    "date": "2026-08-17",
+    "time": "20:51",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "924",
+    "text": "こんばんは メガシティ三島駿東です  Ｌ革命機ヴァルヴレイヴ２ 924番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2089319099268772304",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T07:40:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6_9PXbIAADoau?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP5925YboAAgc-d?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6_9PXbIAADoau?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "70b9a6b0001d",
     "date": "2026-08-17",
     "time": "20:00",
@@ -4168,6 +4213,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPq9oAeaMAA86qw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "e9fb11a8b5a7",
+    "date": "2026-08-14",
+    "time": "18:02",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "7114",
+    "text": "◤◢◤◢◤◢◤◢◤◢    コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  人間をやめる、僕は！ 7114番台 \"革命機ヴァルヴレイヴ2\" 先ほどコンプリート機能が 作動いたしました  大丈夫！まだ大丈夫、 思い出も友情もまた作れるから ---マリエ---  コンプリート おめでとうございます",
+    "x_url": "https://x.com/Concorde_ichino/status/2088189550887879016",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T07:38:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPq5TXIaMAAnDMg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPqGJlXawAADd1c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPq5TXIaMAAnDMg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3b33dd116a"
   },
   {
     "id": "4bc357b5d215",

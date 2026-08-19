@@ -14,7 +14,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-18T23:02:43Z",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "image_url": "https://pbs.twimg.com/media/HPr_nXab0AApeFa.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HPr_nXab0AApeFa.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPr_nXab0AApeFa?format=jpg&name=large"
+    ]
   },
   {
     "id": "19353550f9c1",
@@ -845,6 +850,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPq9oAeaMAA86qw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "e9fb11a8b5a7",
+    "date": "2026-08-14",
+    "time": "18:02",
+    "store": "SUPER CONCORDE 市野",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "7114",
+    "text": "◤◢◤◢◤◢◤◢◤◢    コンプリート報告 ◤◢◤◢◤◢◤◢◤◢  人間をやめる、僕は！ 7114番台 \"革命機ヴァルヴレイヴ2\" 先ほどコンプリート機能が 作動いたしました  大丈夫！まだ大丈夫、 思い出も友情もまた作れるから ---マリエ---  コンプリート おめでとうございます",
+    "x_url": "https://x.com/Concorde_ichino/status/2088189550887879016",
+    "store_handle": "concorde_ichino",
+    "store_x_url": "https://x.com/concorde_ichino",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T07:38:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPq5TXIaMAAnDMg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPqGJlXawAADd1c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPq5TXIaMAAnDMg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3b33dd116a"
   },
   {
     "id": "4bc357b5d215",
