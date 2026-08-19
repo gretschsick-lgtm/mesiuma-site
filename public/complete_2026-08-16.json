@@ -389,6 +389,27 @@
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
+    "id": "a508339a8112",
+    "date": "2026-08-16",
+    "time": "19:58",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "なんと  ヴァルヴレイヴ2から 本日2台目のコンプリートが出現  盛り上がってますねぇ  おめでとう御座いますっ",
+    "x_url": "https://x.com/megaface_1300/status/2088943584032797106",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T04:56:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1rHlNbUAAUdGz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1rHlNbUAAUdGz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "c1a6bce0e916",
     "date": "2026-08-16",
     "time": "19:41",
@@ -408,6 +429,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP1mzsAaIAATmJb?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "3e5de0b6407a",
+    "date": "2026-08-16",
+    "time": "19:12",
+    "store": "ロイヤル波崎店～みんなの憩いの場",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは  本日は『Ｌ北斗の拳・転生の章2』 コンプリート達成いたしました！  おめでとうございます",
+    "x_url": "https://x.com/RoyalHasaki/status/2088931891105894855",
+    "store_handle": "royalhasaki",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-19T04:56:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1fsUHaEAAFCBE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1fsUHaEAAFCBE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "5f5e01bac82f",

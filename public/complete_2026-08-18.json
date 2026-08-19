@@ -126,6 +126,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "d5a0d0741f25",
+    "date": "2026-08-18",
+    "time": "20:57",
+    "store": "キクヤ一宮店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "593",
+    "text": "593番台　スマスロ東京喰種  20：45頃  コンプリート達成です！！！  おめでとうございます",
+    "x_url": "https://x.com/ichinomiya1380/status/2089683039102410870",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-19T04:57:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQALooNbAAA928E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQALooNbAAA928E?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "d751e6f2cb4f",
     "date": "2026-08-18",
     "time": "20:34",

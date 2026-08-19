@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-19T12:26:55+09:00",
+  "generated_at": "2026-08-19T14:05:17+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 884,
+      "total_count": 888,
       "stores": [
         {
           "rank": 1,
@@ -14,7 +14,7 @@
         {
           "rank": 2,
           "name": "キコーナ堺本店",
-          "count": 17,
+          "count": 18,
           "x_url": "https://x.com/ksakaihonten"
         },
         {
@@ -25,15 +25,15 @@
         },
         {
           "rank": 4,
-          "name": "キクヤ春日井店",
+          "name": "キクヤ一宮店",
           "count": 10,
-          "x_url": "https://x.com/315kasugai"
+          "x_url": "https://x.com/ichinomiya1380"
         },
         {
           "rank": 5,
-          "name": "キクヤ一宮店",
-          "count": 9,
-          "x_url": "https://x.com/ichinomiya1380"
+          "name": "キクヤ春日井店",
+          "count": 10,
+          "x_url": "https://x.com/315kasugai"
         },
         {
           "rank": 6,
@@ -70,12 +70,12 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 138
+          "count": 139
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 50
+          "count": 51
         },
         {
           "rank": 3,
@@ -115,7 +115,7 @@
         {
           "rank": 10,
           "name": "L東京喰種",
-          "count": 16
+          "count": 17
         }
       ],
       "pachinko_machines": [
@@ -757,27 +757,27 @@
       },
       {
         "rank": 9,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "メガフェイス1300淀川",
         "count": 41,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/megaface_1300"
       },
       {
         "rank": 10,
-        "name": "メガフェイス1300淀川",
-        "count": 40,
-        "x_url": "https://x.com/megaface_1300"
+        "name": "マルハンメガシティ三島駿東",
+        "count": 41,
+        "x_url": "https://x.com/mega_mishima"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 560
+        "count": 561
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 169
+        "count": 170
       },
       {
         "rank": 3,
@@ -797,7 +797,7 @@
       {
         "rank": 6,
         "name": "L東京喰種",
-        "count": 62
+        "count": 63
       },
       {
         "rank": 7,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3203
+    "total_count": 3207
   },
   "store_complete_counts": {
     "ARROW浪速店": 61,
@@ -883,8 +883,8 @@
     "楽園池袋店ゲートウェイ": 46,
     "楽園大宮店": 43,
     "キクヤ春日井店": 43,
+    "メガフェイス1300淀川": 41,
     "マルハンメガシティ三島駿東": 41,
-    "メガフェイス1300淀川": 40,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 39,
     "メガフェイス1450本山": 39,
     "SPACE(スペース444＆666)": 37,
@@ -895,8 +895,8 @@
     "FACE1300小倉南店": 31,
     "マルハン川越店": 30,
     "マルハンメガシティ水戸赤塚": 30,
+    "キクヤ一宮店": 29,
     "サガちゃんPARK": 29,
-    "キクヤ一宮店": 28,
     "ダイナム長野上田店": 26,
     "メガフェイス960飯塚": 25,
     "パチンコの玉屋∞本店": 24,
@@ -907,9 +907,9 @@
     "メガフェイス1250": 22,
     "ニューアサヒ長野青木島店": 21,
     "グランキコーナひたちなか店": 20,
+    "キコーナ堺本店": 20,
     "イーグルアールワン南8条店": 19,
     "SuperD'station東金店": 19,
-    "キコーナ堺本店": 19,
     "プレイランドキャッスル高浜店": 18,
     "キャッスル天白店": 18,
     "パラッツォ鳩ヶ谷店": 18,
@@ -1502,6 +1502,7 @@
     "マルハン川口店": 1,
     "グランワールドカップ本巣店": 1,
     "キング観光サウザンド長浜インター店": 1,
+    "ロイヤル波崎店～みんなの憩いの場": 1,
     "グランワールドカップ米子店": 1,
     "ダイナム高知須崎店": 1,
     "オアシス徳山店": 1,
@@ -1514,8 +1515,8 @@
     "DSGアリーナ春江店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2851,
-    "records_without_store_id": 352,
+    "records_with_store_id": 2853,
+    "records_without_store_id": 354,
     "canonical_store_ids": 478
   }
 }
