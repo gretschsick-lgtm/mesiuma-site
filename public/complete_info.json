@@ -501,7 +501,13 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-19T12:42:25Z",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "image_url": "https://pbs.twimg.com/media/HP7L9qlaMAAUZ_D.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HP7L9qlaMAAUZ_D.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7L9qlaMAAUZ_D?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7L-zVbIAAVCJ2?format=jpg&name=large"
+    ]
   },
   {
     "id": "4fdf18aff66b",
@@ -518,7 +524,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-19T12:42:25Z",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "image_url": "https://pbs.twimg.com/media/HP7HWrXagAA0Po5.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HP7HWrXagAA0Po5.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7HWrXagAA0Po5?format=jpg&name=large"
+    ]
   },
   {
     "id": "f256f9fc9336",
@@ -535,7 +546,12 @@
     "manager_x_url": "",
     "source_account_type": "store_official",
     "collected_at": "2026-08-19T12:42:25Z",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "image_url": "https://pbs.twimg.com/media/HP7HWrXagAA0Po5.jpg:large?format=jpg&name=large",
+    "images": [
+      "https://pbs.twimg.com/media/HP7HWrXagAA0Po5.jpg:large?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7HWrXagAA0Po5?format=jpg&name=large"
+    ]
   },
   {
     "id": "f5815e4af0aa",
