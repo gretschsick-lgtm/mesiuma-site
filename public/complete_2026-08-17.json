@@ -43,6 +43,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
+    "id": "c39656b470da",
+    "date": "2026-08-17",
+    "time": "22:27",
+    "store": "スーパーD'ステーション39大分本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "460",
+    "text": "８月17日(月)  460番台 e牙狼12 黄金騎士極限 Coplete 昨日のe東京喰種 超デカver.に引き続き ２日連続コンプリート おめでとうございます  Congratulations  #Ｄステ #大分本店 #コンプリート #牙狼12",
+    "x_url": "https://x.com/d_oitahonten/status/2089343370095439878",
+    "store_handle": "d_oitahonten",
+    "store_x_url": "https://x.com/d_oitahonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T04:58:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7WSCnaQAAm1Lp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7WSCnaQAAm1Lp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "c4e38feb02f9",
+    "date": "2026-08-17",
+    "time": "22:27",
+    "store": "スーパーD'ステーション39大分本店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "８月17日(月)  460番台 e牙狼12 黄金騎士極限 Coplete 昨日のe東京喰種 超デカver.に引き続き ２日連続コンプリート おめでとうございます  Congratulations  #Ｄステ #大分本店 #コンプリート #牙狼12",
+    "x_url": "https://x.com/d_oitahonten/status/2089343370095439878",
+    "store_handle": "d_oitahonten",
+    "store_x_url": "https://x.com/d_oitahonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T04:58:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7WSCnaQAAm1Lp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7WSCnaQAAm1Lp?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "6905c03933ce",
     "date": "2026-08-17",
     "time": "22:26",
@@ -62,6 +104,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP7Wc1KboAAfr2f?format=jpg&name=large",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
+    "id": "7773e43234cc",
+    "date": "2026-08-17",
+    "time": "22:25",
+    "store": "マルハン川口店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "139",
+    "text": "スマパチ 牙狼12　139番台(*´∇`*)！！！    コンプリート おめでとうございます",
+    "x_url": "https://x.com/Smaru_kawaguchi/status/2089342734167605488",
+    "store_handle": "smaru_kawaguchi",
+    "store_x_url": "https://x.com/smaru_kawaguchi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T04:58:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7WFWLbkAAa7Kg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7WFWLbkAAa7Kg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "c9e549d96800",
@@ -516,6 +579,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP6WHbSbsAAiWPL?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "20f5092c4562",
+    "date": "2026-08-17",
+    "time": "17:15",
+    "store": "やすだ朝霞店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは！  やすだ朝霞店です  #e牙狼12黄金騎士極限 からコンプリートのご報告  おめでとうございますﾊﾟﾁﾊﾟﾁ  お時間まだまだ！！ ご来店お待ちしております",
+    "x_url": "https://x.com/yasuda_asaka/status/2089264807014961270",
+    "store_handle": "yasuda_asaka",
+    "store_x_url": "https://x.com/yasuda_asaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T04:24:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6PK7MacAAYmBk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6PK7MacAAYmBk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "3e5a4cea696f",
