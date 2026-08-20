@@ -171,27 +171,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
-    "id": "5d9fc4f78082",
-    "date": "2026-08-14",
-    "time": "22:27",
-    "store": "メガスロ！PIA伊勢佐木3丁目店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "【　革命機ヴァルヴレイヴ2   】  コンプリート機能発動！！  とてもお上手",
-    "x_url": "https://x.com/PIA_ise3choume/status/2088256284911194297",
-    "store_handle": "pia_ise3choume",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-20T16:31:09Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPr6BSSbIAAU1A3?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPr6BSSbIAAU1A3?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
     "id": "510c53b383dc",
     "date": "2026-08-14",
     "time": "22:20",
@@ -331,7 +310,7 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-20T15:23:07Z",
+    "collected_at": "2026-08-20T16:00:04Z",
     "images": [
       "https://pbs.twimg.com/media/HPrv1i5bgAAc834?format=jpg&name=large"
     ],
@@ -1041,27 +1020,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPqo9snbwAACrdo?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000021"
-  },
-  {
-    "id": "3a83d89f53f3",
-    "date": "2026-08-14",
-    "time": "16:33",
-    "store": "キコーナ",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんにちは！  静岡市駿河区にあるパチンコ店 アプリイ中原です！！  スマスロ 北斗の拳 転生の章2  コンプリートです！ おめでとうございます #つぶやキコーナ",
-    "x_url": "https://x.com/UPLY_nakahara/status/2088167019590107626",
-    "store_handle": "uply_nakahara",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-20T17:52:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPqozAHaUAAMHNH?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPqozAHaUAAMHNH?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "d3c2a666b8c8",
