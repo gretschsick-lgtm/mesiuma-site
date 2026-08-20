@@ -432,6 +432,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "bc5542643fe0",
+    "date": "2026-08-17",
+    "time": "18:43",
+    "store": "ビックつばめ須賀川店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "242",
+    "text": "242番台　Lかぐや様は告らせたい コンプリート達成 おめでとうございます  #ビックつばめ須賀川店 #コンプリート #かぐや様は告らせたい",
+    "x_url": "https://x.com/tsubamesukagawa/status/2089287008510435733",
+    "store_handle": "tsubamesukagawa",
+    "store_x_url": "https://x.com/tsubamesukagawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T02:44:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6jdHtaEAA7Wot?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6jdHtaEAA7Wot?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "285f6082e9da",
     "date": "2026-08-17",
     "time": "18:41",

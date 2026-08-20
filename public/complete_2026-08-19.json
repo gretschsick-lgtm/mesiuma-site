@@ -21,6 +21,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
+    "id": "7a943a19ae45",
+    "date": "2026-08-19",
+    "time": "21:56",
+    "store": "パラッツォ三郷中央店",
+    "machine": "スマスロ 東京リベンジャーズ",
+    "machine_type": "slot",
+    "slot_number": "1028",
+    "text": "L東京リベンジャーズ1028番台 コンプリート爆誕 おめでとうございます こりゃ明日もパラミサで決まりだな 夜・露・死・苦  そしてそしてのパラミサランキンッは 喰種が占拠 今からでもまだ間に合う 通っても良いですよ  #ランキング #コンプリート",
+    "x_url": "https://x.com/palazzo_misato/status/2090060211591725294",
+    "store_handle": "palazzo_misato",
+    "store_x_url": "https://x.com/palazzo_misato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T02:24:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFgtuZakAAfnQJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFijRhboAA14XZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFgtuZakAAfnQJ?format=jpg&name=large",
+    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65"
+  },
+  {
     "id": "38aae691a42d",
     "date": "2026-08-19",
     "time": "21:35",
@@ -40,6 +62,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQFd0aPa4AAoUG3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "0ef77919c7d9",
+    "date": "2026-08-19",
+    "time": "20:29",
+    "store": "ミリオン鴨島店",
+    "machine": "eゾンビランドサガ",
+    "machine_type": "pachinko",
+    "slot_number": "331",
+    "text": "月日 １円パチンココーナー　331番台 Pゾンビランドサガ コンプリート  現場からは以上です  #ミリオン鴨島店　#コンプリート",
+    "x_url": "https://x.com/mn_kamojima/status/2090038554424758422",
+    "store_handle": "mn_kamojima",
+    "store_x_url": "https://x.com/mn_kamojima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T02:27:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFNasHagAA66AZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFNasHagAA66AZ?format=jpg&name=large",
+    "machine_id": "950e6593-4e14-4ba7-9138-bad2dda77daf"
   },
   {
     "id": "caca05066b24",
