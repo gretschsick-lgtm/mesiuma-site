@@ -122,27 +122,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
-    "id": "71ff82950478",
-    "date": "2026-08-18",
-    "time": "22:02",
-    "store": "ダイナム栃木今市店",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "265",
-    "text": "8月18日(火) 265番台 e東京喰種にて 今月3台目のコンプリート達成  おめでとうございます",
-    "x_url": "https://x.com/dynam_00263/status/2090061856165519551",
-    "store_handle": "dynam_00263",
-    "store_x_url": "https://x.com/dynam_00263",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-20T13:37:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQFkLpZXEAAdCjO?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQFkLpZXEAAdCjO?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
-  },
-  {
     "id": "bfe87bd4901b",
     "date": "2026-08-18",
     "time": "22:00",
@@ -295,6 +274,28 @@
     "image_url": "https://pbs.twimg.com/media/HQASqjWaEAAJ2IU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "8a2f02e098"
+  },
+  {
+    "id": "ae8ad06a265c",
+    "date": "2026-08-18",
+    "time": "21:24",
+    "store": "メガフェイス1070菊陽",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "941",
+    "text": "本日2機種目 941番台 Lチバリヨ2 コンプリート達成 #8月18日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2089689928334770231",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T14:08:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAR6daaEAA7v66?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP_CZTbbwAA-ufH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAR6daaEAA7v66?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "0b9f556c2fb6",
