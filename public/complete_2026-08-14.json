@@ -297,6 +297,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "44964e5a981b",
+    "date": "2026-08-14",
+    "time": "21:46",
+    "store": "マルハン黒磯店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "359",
+    "text": "月日（金) 本日も多くのお客様のご来店  誠にありがとうございます   359番台　　　             L   チバリヨ２              コンプリート達成        おめでとうございます",
+    "x_url": "https://x.com/maruhankuroiso/status/2088245984749129961",
+    "store_handle": "maruhankuroiso",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-20T15:23:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrv1i5bgAAc834?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrv1i5bgAAc834?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "1c1c6962b0a8",
     "date": "2026-08-14",
     "time": "21:37",
