@@ -408,6 +408,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "0cfb58b6549c",
+    "date": "2026-08-17",
+    "time": "20:28",
+    "store": "テキサス岩国店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日日っ コンプリート速報っ　  　No.191　e東京喰種ｗ  　　コンプリート達成 　おめでとうございます   尚今週休まず営業致します",
+    "x_url": "https://x.com/TexasIwakuni/status/2089313387717296298",
+    "store_handle": "texasiwakuni",
+    "store_x_url": "https://x.com/TexasIwakuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T06:59:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP663ohacAEUgMo?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP6659ga8AAtFfE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP663ohacAEUgMo?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "6acdb1f27792",
     "date": "2026-08-17",
     "time": "20:16",
