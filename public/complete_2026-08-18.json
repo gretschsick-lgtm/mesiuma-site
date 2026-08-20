@@ -1,5 +1,26 @@
 [
   {
+    "id": "abe2ad800ba4",
+    "date": "2026-08-18",
+    "time": "22:38",
+    "store": "尻北インター店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1285",
+    "text": "こんばんわ アプロ塩尻北インター店です   1285番台  Ｌ北斗の拳　転生の章2  コンプリート達成  おめでとうございます #アプロ塩尻北インター店 #コンプリート",
+    "x_url": "https://x.com/apulo_0418/status/2089708550323073193",
+    "store_handle": "apulo_0418",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-20T11:52:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAi04UbcAAcqZE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAi04UbcAAcqZE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "12250f1e97f4",
     "date": "2026-08-18",
     "time": "22:32",
@@ -84,6 +105,44 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "45a700180350",
+    "date": "2026-08-18",
+    "time": "22:15",
+    "store": "ダイナム鹿児島指宿店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "445",
+    "text": "コンプリート報告  445番台　北斗の拳　転生の章２よりコンプリート 達成されたお客様、おめでとうございます  #ダイナム　#指宿",
+    "x_url": "https://x.com/dynam_00167/status/2089702627684540876",
+    "store_handle": "dynam_00167",
+    "store_x_url": "https://x.com/dynam_00167",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T11:52:31Z",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "bfe87bd4901b",
+    "date": "2026-08-18",
+    "time": "22:00",
+    "store": "ワンダーランド鹿島店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報  何と、2日連続！！！ 813番台（5円スロット） Lかぐや様は告らせたい  コンプリ――――――――ト！！！！  20Sだけがスロットじゃありません！！ 鹿島店は10S・5Sも好評稼働中です  誠におめでとう御座います  #コンプリート",
+    "x_url": "https://x.com/wl_kashima/status/2089698872159560102",
+    "store_handle": "wl_kashima",
+    "store_x_url": "https://x.com/wl_kashima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T11:53:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAZ_IEbUAAJ_Up?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAZ_IEbUAAJ_Up?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "f5c09dc739ad",
     "date": "2026-08-18",
     "time": "21:53",
@@ -105,6 +164,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQAYWwkbAAAGUTl?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "8b4b65d99e91",
+    "date": "2026-08-18",
+    "time": "21:52",
+    "store": "マルハン佐賀店実績",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "725",
+    "text": "8月18日火曜日 Ｌミリオンゴッド 　　725番台 　　21時40分     コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2089696848319742220",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T11:53:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQAX71La8AASv7G?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQAX86raEAAkO7o?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQAX_vObUAAa1j3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQAX71La8AASv7G?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "5b94e3449e86",
@@ -456,6 +538,28 @@
     "image_url": "https://pbs.twimg.com/media/HP_F93hbAAA4vao?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "4cc28aea60b3",
+    "date": "2026-08-18",
+    "time": "06:42",
+    "store": "マルハン小山千駄塚店",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "916",
+    "text": "ミリオンゴッド-神々の軌跡- PGG出現履歴を考察＆推察  8/1〜8/17までに PGGは合計【79回】降臨。  そして8/17  ★916番台 ★923番台  この2台はついに コンプリート達成  ここ最近の履歴を見ると、 8/11【8回】 8/13【6回】 8/14【8回】 8/15【9回】 8/17【5回＋コンプリート2台】",
+    "x_url": "https://x.com/Prpsmw39RG67413/status/2089468020318179380",
+    "store_handle": "prpsmw39rg67413",
+    "store_x_url": "https://x.com/Prpsmw39RG67413",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T11:53:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP9IFwEbMAANYTy?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP2kYgAbsAAPubL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP9IFwEbMAANYTy?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac"
   },
   {
     "id": "121153acea2c",
