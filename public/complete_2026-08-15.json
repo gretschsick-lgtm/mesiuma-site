@@ -431,27 +431,6 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
-    "id": "f50ce34c07c2",
-    "date": "2026-08-15",
-    "time": "22:13",
-    "store": "キクヤ一宮店",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "523",
-    "text": "523番台 21時04分頃 からくりサーカス2 コンプリート おめでとうございます",
-    "x_url": "https://x.com/ichinomiya1380/status/2088615039339245846",
-    "store_handle": "ichinomiya1380",
-    "store_x_url": "https://x.com/ichinomiya1380",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-20T17:15:43Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPxATpNbQAAKgWC?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPxATpNbQAAKgWC?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
-  },
-  {
     "id": "ec13df4db4f8",
     "date": "2026-08-15",
     "time": "22:08",
@@ -1122,27 +1101,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPwbJ8Da0AAdfJl?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
-  },
-  {
-    "id": "536acdafcc6f",
-    "date": "2026-08-15",
-    "time": "19:31",
-    "store": "ホームラン四日市店",
-    "machine": "L真打吉宗",
-    "machine_type": "slot",
-    "slot_number": "1123",
-    "text": "ヨンホよりお知らせ  1123番台 L真打吉宗  コンプリート機能作動しました  本日の稼働終了となります  ホームラン四日市店",
-    "x_url": "https://x.com/homerun_yokka/status/2088574292040765481",
-    "store_handle": "homerun_yokka",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-20T16:01:22Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPwbP2BaoAAHUIn?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPwbP2BaoAAHUIn?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "5e495d89a975",

@@ -21,27 +21,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
-    "id": "0d26c5e42c71",
-    "date": "2026-08-19",
-    "time": "22:08",
-    "store": "メガガイア岩国",
-    "machine": "チバリヨ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんにちは メガガイア岩国店です。  8月19日(水) チバリヨ2 にてコンプリート達成!  本日、パチンコにスロット共にコンプリート台出ました。 おめでとうございます。",
-    "x_url": "https://x.com/mega_iwakuni/status/2090063329129799737",
-    "store_handle": "mega_iwakuni",
-    "store_x_url": "https://x.com/mega_iwakuni",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-20T16:15:42Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQFlhP0aMAAbDmd?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQFlhP0aMAAbDmd?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
-  },
-  {
     "id": "49ec70d5bf81",
     "date": "2026-08-19",
     "time": "21:58",
@@ -140,7 +119,7 @@
     "store_x_url": "https://x.com/dynam_00001",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-20T16:03:14Z",
+    "collected_at": "2026-08-20T15:23:22Z",
     "images": [
       "https://pbs.twimg.com/media/HQAL1leXUAABe3k?format=jpg&name=large"
     ],
@@ -167,6 +146,96 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQFNasHagAA66AZ?format=jpg&name=large",
     "machine_id": "950e6593-4e14-4ba7-9138-bad2dda77daf"
+  },
+  {
+    "id": "191a66076bb1",
+    "date": "2026-08-19",
+    "time": "20:00",
+    "store": "SuperD'station倉賀野店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "957",
+    "text": "【速報！】    ・957番台　Lモンスターハンターライズ   　コンプリート達成！！    おめでとうございます  この後のお時間もお楽しみください   #倉賀野店  #コンプリート達成",
+    "x_url": "https://x.com/SDkuraganoten/status/2090031234059755594",
+    "store_handle": "sdkuraganoten",
+    "store_x_url": "https://x.com/sdkuraganoten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T16:31:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFITq_aEAAHvoa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFITq_aEAAHvoa?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "2830959d67e3",
+    "date": "2026-08-19",
+    "time": "19:59",
+    "store": "メガガイア岩国",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは! 8/19現在ランキング  パチンコ 289番台 eゾン100 87,950発 350番台 eFガンダムSEED クライマックス 35,280発 373番台 e東京喰種 超デカ超一撃ver. 27,860発  スロット 542番台 Lチバリヨ2 12,632枚 672番台 L攻殻機動隊 11,193枚 566番台 L真打 吉宗 10,850枚",
+    "x_url": "https://x.com/mega_iwakuni/status/2090030767082713372",
+    "store_handle": "mega_iwakuni",
+    "store_x_url": "https://x.com/mega_iwakuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T16:31:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFHv7Ha0AAC65F?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFHxqPaUAAiwdL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFHy4WaoAAJewz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFHv7Ha0AAC65F?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "0f4f3bf308a3",
+    "date": "2026-08-19",
+    "time": "19:59",
+    "store": "メガガイア岩国",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは! 8/19現在ランキング  パチンコ 289番台 eゾン100 87,950発 350番台 eFガンダムSEED クライマックス 35,280発 373番台 e東京喰種 超デカ超一撃ver. 27,860発  スロット 542番台 Lチバリヨ2 12,632枚 672番台 L攻殻機動隊 11,193枚 566番台 L真打 吉宗 10,850枚",
+    "x_url": "https://x.com/mega_iwakuni/status/2090030767082713372",
+    "store_handle": "mega_iwakuni",
+    "store_x_url": "https://x.com/mega_iwakuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T16:31:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFHv7Ha0AAC65F?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFHxqPaUAAiwdL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFHy4WaoAAJewz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFHv7Ha0AAC65F?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "eba53dbbc8ca",
+    "date": "2026-08-19",
+    "time": "19:59",
+    "store": "メガガイア岩国",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは! 8/19現在ランキング  パチンコ 289番台 eゾン100 87,950発 350番台 eFガンダムSEED クライマックス 35,280発 373番台 e東京喰種 超デカ超一撃ver. 27,860発  スロット 542番台 Lチバリヨ2 12,632枚 672番台 L攻殻機動隊 11,193枚 566番台 L真打 吉宗 10,850枚",
+    "x_url": "https://x.com/mega_iwakuni/status/2090030767082713372",
+    "store_handle": "mega_iwakuni",
+    "store_x_url": "https://x.com/mega_iwakuni",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T16:31:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFHv7Ha0AAC65F?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFHxqPaUAAiwdL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQFHy4WaoAAJewz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFHv7Ha0AAC65F?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "efa714509be4",
@@ -252,6 +321,27 @@
     "image_url": "https://pbs.twimg.com/media/HQEOTSYbMAA2fS6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031",
     "store_id": "18425371bb"
+  },
+  {
+    "id": "6e45dd6a1a77",
+    "date": "2026-08-19",
+    "time": "15:10",
+    "store": "ラッキープラザ名古屋西インター七宝店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2335",
+    "text": "【速報】  2335番台　L パチスロ革命機ヴァルヴレイヴ2  コンプリートおめでとうございます  まだお昼なのにコンプリートとは.…  引き続き速報をお届けできるように頑張ります",
+    "x_url": "https://x.com/nagoyanishi_lp/status/2089958152771121468",
+    "store_handle": "nagoyanishi_lp",
+    "store_x_url": "https://x.com/nagoyanishi_lp",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T15:37:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQEE7-1boAA8cDH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQEE7-1boAA8cDH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "be3be3696c93",
