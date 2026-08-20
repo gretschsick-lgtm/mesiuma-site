@@ -1054,6 +1054,28 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "a83f905057f7",
+    "date": "2026-08-17",
+    "time": "23:06",
+    "store": "メトロヒルズ",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "4円パチンコ767番台の東京喰種 5円スロットの1563番台の北斗転生2より コンプリート達成 おめでとうございます  うらやましーーいぃ！！",
+    "x_url": "https://x.com/metro_hills/status/2089353130194657575",
+    "store_handle": "metro_hills",
+    "store_x_url": "https://x.com/metro_hills",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T23:00:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7fmPGb0AA45Pt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7fmPEbAAEhUOE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7fmPGb0AA45Pt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "18df7d0256df",
     "date": "2026-08-17",
     "time": "22:59",
@@ -1200,6 +1222,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP7WPOyaAAAbCIy?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "0454cdb5f6af",
+    "date": "2026-08-17",
+    "time": "22:20",
+    "store": "r1十三駅東口店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは～ スロットコンプリート報告～  スマスロミリオンゴッド神々の軌跡 コンプリートおめでとうございます  ミリオンゴッドのコンプリート 当店初！ ゴッドもなかなかコンプリートは難しいですよね～  お見事でした♪",
+    "x_url": "https://x.com/EAGLE_R1_juso/status/2089341686262771773",
+    "store_handle": "eagle_r1_juso",
+    "store_x_url": "https://x.com/eagle_r1_juso",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-20T22:29:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7Uvxwb0AAir00?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7Uvxwb0AAir00?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "7d561df44c"
   },
   {
     "id": "ac3d8d0c101c",
