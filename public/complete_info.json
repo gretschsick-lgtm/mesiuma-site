@@ -1,69 +1,25 @@
 [
   {
-    "id": "368621d5ae07",
+    "id": "d198181de547",
     "date": "2026-08-21",
-    "time": "21:58",
-    "store": "メガガイア明大前 店長サガラ",
-    "machine": "Lミリオンゴッド神々の軌跡",
+    "time": "21:31",
+    "store": "ウイング松阪南店",
+    "machine": "スマスロ北斗の拳転生の章2",
     "machine_type": "slot",
-    "slot_number": "597",
-    "text": "こんばんは(≧▽≦) メガガイア明大前店です！  スマスロ ミリオンゴッド‐神々の軌跡‐ 597番台  コンプリート おめでとうございます  まだまだ推すすめ(/・ω・)/ 明日もご来店お待ちしております(｀・ω・´)  #メガガイア明大前 #コンプリート",
-    "x_url": "https://x.com/MG_meidaimae/status/2090785676795265099",
-    "store_handle": "mg_meidaimae",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/mg_meidaimae",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-08-21T13:59:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQP2fbObYAEGEMB?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQP2fZpaMAAizHj?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQP2fbObYAEGEMB?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
-  },
-  {
-    "id": "ad8f25d85c93",
-    "date": "2026-08-21",
-    "time": "21:51",
-    "store": "ダイナム山形イオンタウン酒田店 店長",
-    "machine": "スマスロ北斗の拳",
-    "machine_type": "slot",
-    "slot_number": "604",
-    "text": "本日初開催「サミー取材」 たくさんのご参加ありがとうございました  604番台　Lパチスロ北斗の拳 コンプリートおめでとうございます  明日は「山形県ダイナム」朝一抽選勝負 ご来店お待ちしております #ダイナム　#コンプリート",
-    "x_url": "https://x.com/dynam_3912/status/2090783745402192030",
-    "store_handle": "dynam_3912",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/dynam_3912",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-08-21T13:56:59Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQPzf3AbAAAPbk8?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQPzh0pbwAAI02s?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQPzf3AbAAAPbk8?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000007"
-  },
-  {
-    "id": "fd266e2fdcec",
-    "date": "2026-08-21",
-    "time": "21:06",
-    "store": "123松茂店",
-    "machine": "スロット ソードアート・オンラインⅡ",
-    "machine_type": "slot",
-    "slot_number": "540",
-    "text": "本日も多くのお客様にご来店頂き ありがとうございます   8月21日(金) 46枚貸スロット　540番台 LソードアートオンラインⅡ コンプリート おめでとうございます  今月5台目のコンプリート 週末も是非ッ！123松茂店へ！！ #123松茂店 #スロットSAO２  #コンプリート",
-    "x_url": "https://x.com/123matsushige/status/2090772584136863799",
-    "store_handle": "123matsushige",
-    "store_x_url": "https://x.com/123matsushige",
+    "slot_number": "",
+    "text": "北斗の拳転生の章2から コンプリート機能発動 ご遊技されていた方は おめでとう御座います #ウイング松阪南店 #グループ最大旗艦店 #コンプリート機能発動",
+    "x_url": "https://x.com/wing_matsumina/status/2090778832882262268",
+    "store_handle": "wing_matsumina",
+    "store_x_url": "https://x.com/wing_matsumina",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-21T13:52:18Z",
+    "collected_at": "2026-08-21T14:28:08Z",
     "images": [
-      "https://pbs.twimg.com/media/HQPp7-UacAATkDA?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HQPwQ8ta4AEvezY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQPKHQ6bkAAbo3R?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HQPp7-UacAATkDA?format=jpg&name=large",
-    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
-    "store_id": "670d4bed73"
+    "image_url": "https://pbs.twimg.com/media/HQPwQ8ta4AEvezY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "597305d76678",
@@ -276,27 +232,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQJq4xCakAAD_KA?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "b6908bee7f0f",
-    "date": "2026-08-20",
-    "time": "16:29",
-    "store": "楽園上新屋",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "1511",
-    "text": "こんにちは 楽園上新屋店です  先ほど16時00分ごろ  1511番台【e東京喰種】  コンプリート機能が作動いたしました 本日は遊技台停止となります  この後のお時間もご来店お待ちしております",
-    "x_url": "https://x.com/rakuenkamiaraya/status/2090340348585550300",
-    "store_handle": "rakuenkamiaraya",
-    "store_x_url": "https://x.com/rakuenkamiaraya",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-21T13:36:42Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQJhd39b0AAMGqi?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQJhd39b0AAMGqi?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "d5302a4edaa7",
@@ -3094,27 +3029,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP1KbgZW8AEdX1i?format=jpg&name=large",
     "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b"
-  },
-  {
-    "id": "744f797906fd",
-    "date": "2026-08-16",
-    "time": "17:20",
-    "store": "楽園池袋店ゲートウェイ",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "2087",
-    "text": "こんばんは！        楽園池袋店ゲートウェイです  本日、8月16日(日) 4円パチンココーナーから   2087番台　 【e牙狼12　黄金騎士極限】      コンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
-    "x_url": "https://x.com/rakuenikebukuro/status/2088903603344064990",
-    "store_handle": "rakuenikebukuro",
-    "store_x_url": "https://x.com/rakuenikebukuro",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-21T13:26:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP1GwUraMAAbWy-?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP1GwUraMAAbWy-?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "d30b9fd93f5b",
@@ -6318,6 +6232,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HPqo9snbwAACrdo?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000021"
+  },
+  {
+    "id": "3a83d89f53f3",
+    "date": "2026-08-14",
+    "time": "16:33",
+    "store": "キコーナ",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは！  静岡市駿河区にあるパチンコ店 アプリイ中原です！！  スマスロ 北斗の拳 転生の章2  コンプリートです！ おめでとうございます #つぶやキコーナ",
+    "x_url": "https://x.com/UPLY_nakahara/status/2088167019590107626",
+    "store_handle": "uply_nakahara",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-21T14:11:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPqozAHaUAAMHNH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPqozAHaUAAMHNH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "d3c2a666b8c8",
