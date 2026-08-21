@@ -1,26 +1,5 @@
 [
   {
-    "id": "597305d76678",
-    "date": "2026-08-21",
-    "time": "16:11",
-    "store": "マルハンメガシティ柏",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "711",
-    "text": "コンプリート速報 711番台　L革命機ヴァルヴレイヴ2  コンプリート達成 本当におめでとうございます!",
-    "x_url": "https://x.com/maruhankashiwa/status/2090698206531469699",
-    "store_handle": "maruhankashiwa",
-    "store_x_url": "https://x.com/maruhankashiwa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-21T10:11:45Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQOm2bdb0AAOXGG?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQOm2bdb0AAOXGG?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
     "id": "42670049e887",
     "date": "2026-08-20",
     "time": "22:59",
@@ -144,6 +123,28 @@
       "https://pbs.twimg.com/media/HQJ3eb0bYAAu-JT?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HQJ3eb0bYAAu-JT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "c9378de95a10",
+    "date": "2026-08-20",
+    "time": "17:40",
+    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "19",
+    "text": "本日月日[木]   　Ｄ’ステ全店合同❝オススメ❞ 『牙狼12黄金騎士極限』  　   高崎本店『牙狼12』 　　　ここに極まる その牙は、すべてを貫く。━━ 　　　　　　　 ◤◢◤◢◤◢◤◢◤◢◤◢◤◢    4円パチンコ  19番台         e牙狼12黄金騎士極限 　 コンプリート達成",
+    "x_url": "https://x.com/DTAKASAKIHONTEN/status/2090358173567787050",
+    "store_handle": "dtakasakihonten",
+    "store_x_url": "https://x.com/dtakasakihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T10:52:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQJq4xCakAAD_KA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQJq6ODaEAAEQw0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQJq4xCakAAD_KA?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
@@ -379,6 +380,48 @@
     "machine_id": "950e6593-4e14-4ba7-9138-bad2dda77daf"
   },
   {
+    "id": "ee9b7eeab510",
+    "date": "2026-08-19",
+    "time": "19:34",
+    "store": "キコーナ守口",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "768",
+    "text": "こんばんは  本日、【L スマスロ北斗の拳 転生の章2】　768番台にて  コンプリート達成おめでとうございます#つぶやキコーナ #キコーナ守口 #コンプリート報告",
+    "x_url": "https://x.com/K32066445/status/2090024508552012136",
+    "store_handle": "k32066445",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-21T11:12:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFCLEvacAEHdxn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFCLEvacAEHdxn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "d46e8f6b2418",
+    "date": "2026-08-19",
+    "time": "19:05",
+    "store": "キクヤ島店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1571",
+    "text": "【1571番台　ソードアートオンラインⅡ】 コンプリート！おめでとうございます！",
+    "x_url": "https://x.com/shima12_17/status/2090017355070062648",
+    "store_handle": "shima12_17",
+    "store_x_url": "https://x.com/shima12_17",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T11:11:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQE7gXna0AAKLLV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQE7gXna0AAKLLV?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "efa714509be4",
     "date": "2026-08-19",
     "time": "18:48",
@@ -483,6 +526,52 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQIZPy7a8AADe-k?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "24f7156696ae",
+    "date": "2026-08-19",
+    "time": "10:27",
+    "store": "ピータイム津嘉山",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "皆様おはようございます  昨日スマスロ　#L攻殻機動隊 にて 19000pt over コンプリート達成  おめでとうございます  本日もご来店お待ちしております  #ピータイム津嘉山 #コンプリート",
+    "x_url": "https://x.com/Ptime_tsukazan/status/2090249208259600843",
+    "store_handle": "ptime_tsukazan",
+    "store_x_url": "https://x.com/Ptime_tsukazan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T11:10:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQIKrCSbMAAUkSF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQIKrsxbwAE9dha?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQIKrCSbMAAUkSF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "0415f8094f06",
+    "date": "2026-08-19",
+    "time": "01:16",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "493",
+    "text": "本日、  e牙狼12黄金騎士極限 　493番台、496番台 スロット ソードアート・オンラインII　1114番台  コンプリート達成おめでとうございます #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2090110560256070139",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T11:10:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQGQZvebEAEQMcH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQGQaHNaoAAm11U?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQGQbnZbEAA94DV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQGQZvebEAEQMcH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   },
   {
     "id": "abe2ad800ba4",
