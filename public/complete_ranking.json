@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T04:08:51+09:00",
+  "generated_at": "2026-08-22T05:53:21+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1008,
+      "total_count": 1009,
       "stores": [
         {
           "rank": 1,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3327
+    "total_count": 3328
   },
   "store_complete_counts": {
     "ARROW浪速店": 65,
@@ -1044,6 +1044,7 @@
     "サラリーマン店長メガシティ静岡": 5,
     "マルハン仙台新港店": 5,
     "ヒノマル辰巳店": 5,
+    "マルハン荒田島店": 5,
     "DIVO知寄店": 5,
     "マルハン千葉北店": 5,
     "キコーナ海老名店 中の人": 5,
@@ -1078,7 +1079,6 @@
     "マルハン阿見店": 4,
     "GOLD CONCORDE富士": 4,
     "ニューヨーク出水店": 4,
-    "マルハン荒田島店": 4,
     "D'ステーション神栖店": 4,
     "フォーティ・サミット": 4,
     "キコーナ守口": 4,
@@ -1537,7 +1537,7 @@
     "メガコンコルド1220名古屋みなと23号通り店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2951,
+    "records_with_store_id": 2952,
     "records_without_store_id": 376,
     "canonical_store_ids": 493
   }

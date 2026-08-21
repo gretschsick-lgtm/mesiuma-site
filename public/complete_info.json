@@ -4454,6 +4454,27 @@
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
+    "id": "d4f717f3ebee",
+    "date": "2026-08-15",
+    "time": "21:22",
+    "store": "マルハン荒田島店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "先程481番台（5ｽﾛ） スマスロ 新鬼武者３で コンプリート出ました  お盆マルハンで運試し",
+    "x_url": "https://x.com/mgr_aratajima/status/2088602120958410978",
+    "store_handle": "mgr_aratajima",
+    "store_x_url": "https://x.com/mgr_aratajima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T20:25:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPw0e1iaQAAqIdc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPw0e1iaQAAqIdc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016"
+  },
+  {
     "id": "ab6e554bf2bd",
     "date": "2026-08-15",
     "time": "21:21",
