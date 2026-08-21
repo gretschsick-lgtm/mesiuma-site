@@ -1,5 +1,71 @@
 [
   {
+    "id": "368621d5ae07",
+    "date": "2026-08-21",
+    "time": "21:58",
+    "store": "メガガイア明大前 店長サガラ",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "597",
+    "text": "こんばんは(≧▽≦) メガガイア明大前店です！  スマスロ ミリオンゴッド‐神々の軌跡‐ 597番台  コンプリート おめでとうございます  まだまだ推すすめ(/・ω・)/ 明日もご来店お待ちしております(｀・ω・´)  #メガガイア明大前 #コンプリート",
+    "x_url": "https://x.com/MG_meidaimae/status/2090785676795265099",
+    "store_handle": "mg_meidaimae",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/mg_meidaimae",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-21T13:59:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQP2fbObYAEGEMB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQP2fZpaMAAizHj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQP2fbObYAEGEMB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
+    "id": "ad8f25d85c93",
+    "date": "2026-08-21",
+    "time": "21:51",
+    "store": "ダイナム山形イオンタウン酒田店 店長",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "604",
+    "text": "本日初開催「サミー取材」 たくさんのご参加ありがとうございました  604番台　Lパチスロ北斗の拳 コンプリートおめでとうございます  明日は「山形県ダイナム」朝一抽選勝負 ご来店お待ちしております #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_3912/status/2090783745402192030",
+    "store_handle": "dynam_3912",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/dynam_3912",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-21T13:56:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPzf3AbAAAPbk8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQPzh0pbwAAI02s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPzf3AbAAAPbk8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007"
+  },
+  {
+    "id": "fd266e2fdcec",
+    "date": "2026-08-21",
+    "time": "21:06",
+    "store": "123松茂店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "540",
+    "text": "本日も多くのお客様にご来店頂き ありがとうございます   8月21日(金) 46枚貸スロット　540番台 LソードアートオンラインⅡ コンプリート おめでとうございます  今月5台目のコンプリート 週末も是非ッ！123松茂店へ！！ #123松茂店 #スロットSAO２  #コンプリート",
+    "x_url": "https://x.com/123matsushige/status/2090772584136863799",
+    "store_handle": "123matsushige",
+    "store_x_url": "https://x.com/123matsushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T13:52:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPp7-UacAATkDA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPp7-UacAATkDA?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "670d4bed73"
+  },
+  {
     "id": "597305d76678",
     "date": "2026-08-21",
     "time": "16:11",
