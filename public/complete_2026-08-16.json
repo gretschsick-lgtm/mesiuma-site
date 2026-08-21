@@ -240,27 +240,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "4e016360e89f",
-    "date": "2026-08-16",
-    "time": "21:43",
-    "store": "キクヤ一宮店",
-    "machine": "チバリヨ2",
-    "machine_type": "slot",
-    "slot_number": "792",
-    "text": "792番台　チバリヨ2 21時03分頃 コンプリートです",
-    "x_url": "https://x.com/ichinomiya1380/status/2088969892989227275",
-    "store_handle": "ichinomiya1380",
-    "store_x_url": "https://x.com/ichinomiya1380",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-21T15:22:13Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP2AGPCaIAAHDEL?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP2AGPCaIAAHDEL?format=jpg&name=large",
-    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
-  },
-  {
     "id": "46cb847e0d56",
     "date": "2026-08-16",
     "time": "21:43",
@@ -274,12 +253,33 @@
     "store_x_url": "https://x.com/wl_nakatsu",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-21T15:22:13Z",
+    "collected_at": "2026-08-21T15:57:48Z",
     "images": [
       "https://pbs.twimg.com/media/HP2DAlQa4AAgbxy?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPrO7xGbsAAZ0L8?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HP2DAlQa4AAgbxy?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "4e016360e89f",
+    "date": "2026-08-16",
+    "time": "21:43",
+    "store": "キクヤ一宮店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "792",
+    "text": "792番台　チバリヨ2 21時03分頃 コンプリートです",
+    "x_url": "https://x.com/ichinomiya1380/status/2088969892989227275",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T16:00:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP2AGPCaIAAHDEL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP2AGPCaIAAHDEL?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
@@ -815,6 +815,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP1KbgZW8AEdX1i?format=jpg&name=large",
     "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b"
+  },
+  {
+    "id": "744f797906fd",
+    "date": "2026-08-16",
+    "time": "17:20",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2087",
+    "text": "こんばんは！        楽園池袋店ゲートウェイです  本日、8月16日(日) 4円パチンココーナーから   2087番台　 【e牙狼12　黄金騎士極限】      コンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2088903603344064990",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T15:43:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP1GwUraMAAbWy-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP1GwUraMAAbWy-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "d30b9fd93f5b",
