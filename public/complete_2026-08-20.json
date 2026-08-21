@@ -82,5 +82,47 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQJ3eb0bYAAu-JT?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "d5302a4edaa7",
+    "date": "2026-08-20",
+    "time": "12:00",
+    "store": "ライブガーデン鹿沼グランドシティ",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "877",
+    "text": "こんにちは！ ライブガーデン鹿沼グランドシティです  昨日８月１９日 ８７７番台【Ｌ北斗の拳 転生の章２】  コンプリート達成  おめでとうございます！  本日もこの後のご来店をお待ちしております！  #ライブガーデン鹿沼GC #コンプリート #北斗転生",
+    "x_url": "https://x.com/LGkanumaGC1225/status/2090272627239559506",
+    "store_handle": "lgkanumagc1225",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-21T05:02:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFic14aEAAYWnA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFic14aEAAYWnA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "d34280ea09c7",
+    "date": "2026-08-20",
+    "time": "09:30",
+    "store": "ダイナム入善店～Since.2003.3.9～",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "374",
+    "text": "8/20(木)  374番台スマスロヴァルヴレイヴ２ コンプリート  閉店時間ギリギリでのコンプリートになりましたΣ(๑°ㅁ°๑) おめでとうございます〜(*’ω’ﾉﾉﾞ  本日は４店舗合同来店ポイント説明会！ ご来店お待ちしております♪(๑ᴖ◡ᴖ๑)♪   #コンプリート #ヴァルヴレイヴ",
+    "x_url": "https://x.com/dynam_00143/status/2090597355355517433",
+    "store_handle": "dynam_00143",
+    "store_x_url": "https://x.com/dynam_00143",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T05:02:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQNLNYTWcAETKLR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQNLNYTWcAETKLR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   }
 ]
