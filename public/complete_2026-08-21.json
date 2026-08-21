@@ -1,26 +1,89 @@
 [
   {
-    "id": "2d6f29d16ab8",
+    "id": "368621d5ae07",
     "date": "2026-08-21",
-    "time": "22:29",
-    "store": "ＢＩＧディッパー京都駅前店",
-    "machine": "スロット ソードアート・オンラインⅡ",
+    "time": "21:58",
+    "store": "メガガイア明大前 店長サガラ",
+    "machine": "Lミリオンゴッド神々の軌跡",
     "machine_type": "slot",
-    "slot_number": "197",
-    "text": "本日２１日(金)  ＰＳ応援女子・赤組来店組来店中  @ohen_joshi   １９７番台 ソードアートオンラインⅡ  コンプリート達成 おめでとうございます #京都駅前ディッパーコンプリート",
-    "x_url": "https://x.com/bigdipper_kyoto/status/2090793361871655049",
-    "store_handle": "bigdipper_kyoto",
-    "store_x_url": "https://x.com/bigdipper_kyoto",
+    "slot_number": "597",
+    "text": "こんばんは(≧▽≦) メガガイア明大前店です！  スマスロ ミリオンゴッド‐神々の軌跡‐ 597番台  コンプリート おめでとうございます  まだまだ推すすめ(/・ω・)/ 明日もご来店お待ちしております(｀・ω・´)  #メガガイア明大前 #コンプリート",
+    "x_url": "https://x.com/MG_meidaimae/status/2090785676795265099",
+    "store_handle": "mg_meidaimae",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/mg_meidaimae",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-21T16:58:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQP2fbObYAEGEMB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQP2fZpaMAAizHj?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQP2fbObYAEGEMB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
+    "id": "bbc8fd09b19b",
+    "date": "2026-08-21",
+    "time": "21:58",
+    "store": "キコーナ川西久代店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日、スロットコーナーより ！   Lパチスロからくりサーカス2    コンプリート達成です！  おめでとうございます！    #つぶやキコーナ  #グランキコーナ西淀川店",
+    "x_url": "https://x.com/gkicona_nisiyod/status/2090785515297775967",
+    "store_handle": "gkicona_nisiyod",
+    "store_x_url": "https://x.com/gkicona_nisiyod",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-21T17:07:09Z",
+    "collected_at": "2026-08-21T17:58:19Z",
     "images": [
-      "https://pbs.twimg.com/media/HQP9eAQaIAAcN_g?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQOrXNOb0AEVfcM?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HQP13lMbEAA7WnN?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HQP9eAQaIAAcN_g?format=jpg&name=large",
-    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
-    "store_id": "35782adb87"
+    "image_url": "https://pbs.twimg.com/media/HQP13lMbEAA7WnN?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
+    "id": "ad8f25d85c93",
+    "date": "2026-08-21",
+    "time": "21:51",
+    "store": "ダイナム山形イオンタウン酒田店 店長",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "604",
+    "text": "本日初開催「サミー取材」 たくさんのご参加ありがとうございました  604番台　Lパチスロ北斗の拳 コンプリートおめでとうございます  明日は「山形県ダイナム」朝一抽選勝負 ご来店お待ちしております #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_3912/status/2090783745402192030",
+    "store_handle": "dynam_3912",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/dynam_3912",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-21T16:56:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPzf3AbAAAPbk8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQPzh0pbwAAI02s?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPzf3AbAAAPbk8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007"
+  },
+  {
+    "id": "847083064096",
+    "date": "2026-08-21",
+    "time": "21:48",
+    "store": "ワンダーランド鹿島店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "1018",
+    "text": "コンプリート速報  20S・1018番台 【Lミリオンゴッド神々の軌跡】 コ・・・コンプリートしました!!  これぞ 【全店合同の軌跡】です!!  ってかぁ 最近多くないですか？？ とにもかくにもおめでとう御座います  #ワンダーランド鹿島店 #コンプリート",
+    "x_url": "https://x.com/wl_kashima/status/2090783069846532153",
+    "store_handle": "wl_kashima",
+    "store_x_url": "https://x.com/wl_kashima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T16:28:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQP0BUmasAIC006?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQP0BUmasAIC006?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "d198181de547",
@@ -43,6 +106,91 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQPwQ8ta4AEvezY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "20c617c3ccf7",
+    "date": "2026-08-21",
+    "time": "21:14",
+    "store": "キクヤ穂積店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1256",
+    "text": "【コンプリート】  こんばんはッ！  キクヤ穂積店です！    またまたコンプリート報告です   1256番台からくりサーカス2 コンプリート達成！  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2090774619297099786",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T15:07:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPsZuzb0AAu2Xw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPsZuzb0AAu2Xw?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
+    "id": "7b17c63d085f",
+    "date": "2026-08-21",
+    "time": "20:57",
+    "store": "サラリーマン店長メガシティ静岡",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1021",
+    "text": "■1021番台 ソードアート・オンラインⅡ   お見事 コンプリート達成 おめでとうございます またの挑戦をお待ち致しております",
+    "x_url": "https://x.com/Last_Mission_7/status/2090770341157290136",
+    "store_handle": "last_mission_7",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/last_mission_7",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-21T15:07:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPhsyeaUAA8u6f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQPht5Ga8AEgj2z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPhsyeaUAA8u6f?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "13ff3e6be553",
+    "date": "2026-08-21",
+    "time": "19:28",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "461",
+    "text": "461番台「牙狼12黄金騎士極限」 コンプリート おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2090747769439043929",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T17:52:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPTwB1bAAA2Luk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPTwB1bAAA2Luk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "1169be0f82ba",
+    "date": "2026-08-21",
+    "time": "18:23",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "384",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です！  コンプリート報告です 384番台　スマパチ 牙狼12黄金騎士  まさかの初当たり1回でコンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2090731489310949509",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T15:07:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPEyRcbYAIgrwC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPEyRcbYAIgrwC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "597305d76678",

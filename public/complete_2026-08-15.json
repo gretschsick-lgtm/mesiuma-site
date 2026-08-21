@@ -840,28 +840,6 @@
     "store_id": "8ea13b6c57"
   },
   {
-    "id": "1b2bd8c5e87b",
-    "date": "2026-08-15",
-    "time": "20:52",
-    "store": "グランワールドカップ伊勢店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "COMPLETE 【 速報】【速報】【速報】   e牙狼12黄金騎士 極限    コンプリート作動!!   【95000発】達成 おめでとうございます  まだ時間はあるので、皆様のご来店お待ちしております",
-    "x_url": "https://x.com/gwcise/status/2088594656028430838",
-    "store_handle": "gwcise",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-21T17:43:43Z",
-    "images": [
-      "https://pbs.twimg.com/media/HPwtxJwbsAAK-c0?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HPwtxJ6bAAARY_m?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HPwtxJwbsAAK-c0?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
     "id": "8e6dd89cc3e1",
     "date": "2026-08-15",
     "time": "20:39",
@@ -960,7 +938,7 @@
     "store_x_url": "https://x.com/concert_godai",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-21T16:01:15Z",
+    "collected_at": "2026-08-21T15:22:44Z",
     "images": [
       "https://pbs.twimg.com/media/HPwmQzobMAAMtTf?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPwmSVAbAAE2BU6?format=jpg&name=large"
@@ -1036,6 +1014,27 @@
       "https://pbs.twimg.com/media/HPpusowbsAAESw0?format=jpg&name=large",
       "https://pbs.twimg.com/media/HPpuyDtagAAIR3r?format=jpg&name=large"
     ]
+  },
+  {
+    "id": "f7bc57810342",
+    "date": "2026-08-15",
+    "time": "20:14",
+    "store": "つかさ田崎店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "759",
+    "text": "こんばんわー #つかさ田崎店 から速報です   からくりサーカス2 759番台 #コンプリート 達成  おめでとうございます",
+    "x_url": "https://x.com/T_tasaki778/status/2088585111772258646",
+    "store_handle": "t_tasaki778",
+    "store_x_url": "https://x.com/T_tasaki778",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T17:52:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwiukqakAAL_sp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwiukqakAAL_sp?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "c38d6426f03d",
