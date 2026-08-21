@@ -1,5 +1,28 @@
 [
   {
+    "id": "36ec2249f5a1",
+    "date": "2026-08-17",
+    "time": "23:08",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "484",
+    "text": "8月17日月曜日 L革命機ヴァルヴレイヴ2 　　　484番台 　　　22時53分 　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2089353584202993860",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T15:07:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7fnnGb0AAD1cX?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7f0RxaQAEdgK7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7f1ROa0AA60xN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7fnnGb0AAD1cX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "a83f905057f7",
     "date": "2026-08-17",
     "time": "23:06",
@@ -922,6 +945,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP4RCGaW8AAlbwc?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "36fc4291277b",
+    "date": "2026-08-17",
+    "time": "02:30",
+    "store": "がちゃぽん戸畑店",
+    "machine": "モンキーターンV",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月17日(月) 最終結果   皇帝のリアル開催！    本日のコンプリート！    モンキーターンV コンプリート！  新鬼武者3 コンプリート！  2機種コンプリート達成！  どちらも閉店間近にコンプ  ━━━━━━━━━━━━  46枚スロット 万枚OVER PICK UP",
+    "x_url": "https://x.com/tobatagachapon/status/2089404560981037407",
+    "store_handle": "tobatagachapon",
+    "store_x_url": "https://x.com/tobatagachapon",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T15:07:03Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2089402385357836288/img/vd5z5nLpMC_B6HRx.jpg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP8MZjdaYAAmnB1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP8MZjcbAAAQXlG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2089402385357836288/img/vd5z5nLpMC_B6HRx.jpg?format=jpg&name=large",
+    "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
   },
   {
     "id": "e53ed6e3cd9f",

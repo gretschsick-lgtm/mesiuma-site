@@ -925,6 +925,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "17fe0e0fbdd1",
+    "date": "2026-08-15",
+    "time": "20:22",
+    "store": "コンサートホール五代店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "103",
+    "text": "月日 ”毎月日・日・日” ポイント景品交換会開催  只今、L戦国乙女5　103番台にてコンプリート達成 ご遊技いただいてたお客様、おめでとうございます 夏休みの夜、コンサ五代で楽しもう まだまだ閉店のお時間まで、コンサ五代は元気に営業中",
+    "x_url": "https://x.com/concert_godai/status/2088587146143866912",
+    "store_handle": "concert_godai",
+    "store_x_url": "https://x.com/concert_godai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T15:22:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwmQzobMAAMtTf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPwmSVAbAAE2BU6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwmQzobMAAMtTf?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "cab4ce2ed834",
     "date": "2026-08-15",
     "time": "20:18",
