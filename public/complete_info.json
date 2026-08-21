@@ -45,6 +45,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "9ab024241161",
+    "date": "2026-08-21",
+    "time": "21:15",
+    "store": "ダイナム山梨笛吹店",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "46",
+    "text": "\\\\\\笛吹店速報ですっ///  ≪46番台　Lバイオハザード5≫より コンプリート達成！！  おめでとうございます！！  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00380/status/2090774697440895231",
+    "store_handle": "dynam_00380",
+    "store_x_url": "https://x.com/dynam_00380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T22:34:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPsgfPXsAAyXiv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPsgfPXsAAyXiv?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
     "id": "597305d76678",
     "date": "2026-08-21",
     "time": "16:11",
