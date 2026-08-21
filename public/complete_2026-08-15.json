@@ -710,6 +710,27 @@
     "store_id": "8bba89f2c2"
   },
   {
+    "id": "f77326e5ed78",
+    "date": "2026-08-15",
+    "time": "21:22",
+    "store": "清瀬UNO",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "516",
+    "text": "こんばんは 清瀬UNOです 本日、８月１５日（土）スロットコーナーから  Ｌ戦国乙女５　５１６番台  コンプリート機能が作動いたしました 本日は遊技終了となります",
+    "x_url": "https://x.com/kiyoseuno/status/2088602294237732935",
+    "store_handle": "kiyoseuno",
+    "store_x_url": "https://x.com/kiyoseuno",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-21T02:22:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPwzy7WbQAA_63c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPwzy7WbQAA_63c?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "ab6e554bf2bd",
     "date": "2026-08-15",
     "time": "21:21",

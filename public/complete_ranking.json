@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T09:07:15+09:00",
+  "generated_at": "2026-08-21T12:02:51+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 971,
+      "total_count": 972,
       "stores": [
         {
           "rank": 1,
@@ -99,7 +99,7 @@
         {
           "rank": 7,
           "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-          "count": 30
+          "count": 31
         },
         {
           "rank": 8,
@@ -816,7 +816,7 @@
       {
         "rank": 10,
         "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-        "count": 50
+        "count": 51
       }
     ],
     "pachinko_machines": [
@@ -871,7 +871,7 @@
         "count": 13
       }
     ],
-    "total_count": 3290
+    "total_count": 3291
   },
   "store_complete_counts": {
     "ARROW浪速店": 64,
@@ -1500,6 +1500,7 @@
     "つかさ田崎店": 1,
     "オメガ草津店": 1,
     "ニラク羽生店": 1,
+    "清瀬UNO": 1,
     "ABC静岡寿町店": 1,
     "ZENT稲沢店": 1,
     "ホームラン四日市店": 1,
@@ -1532,8 +1533,8 @@
     "ミリオン鴨島店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2922,
+    "records_with_store_id": 2923,
     "records_without_store_id": 368,
-    "canonical_store_ids": 491
+    "canonical_store_ids": 492
   }
 }
