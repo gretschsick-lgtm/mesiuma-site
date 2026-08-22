@@ -63,6 +63,27 @@
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
+    "id": "7ae308dd335b",
+    "date": "2026-08-20",
+    "time": "22:30",
+    "store": "コンサートホール志村",
+    "machine": "eバイオハザード6",
+    "machine_type": "pachinko",
+    "slot_number": "52",
+    "text": "こんばんは 　　　本日月日 　　 　　#ｅバイオハザード６ 　　　　５２番台にて！  　　　２２時１５分ごろ 　　コンプリート達成 　CONGRATULATIONS!!  　　　　またのご来店、 　　　お待ちしております！  #コンプリート　#バイオハザード６　#パチンコ",
+    "x_url": "https://x.com/ch_shimura_0819/status/2090431402252898436",
+    "store_handle": "ch_shimura_0819",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-22T11:12:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQKzCZUbUAAEbKa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQKzCZUbUAAEbKa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000030"
+  },
+  {
     "id": "395b7606e823",
     "date": "2026-08-20",
     "time": "22:22",
@@ -190,6 +211,27 @@
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
   },
   {
+    "id": "96f12d9273c0",
+    "date": "2026-08-20",
+    "time": "20:32",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "5386",
+    "text": "こんばんは！       楽園池袋店ゲートウェイです  本日、8月20日(木) 46枚スロットコーナーから   5386番台　 【Lからくりサーカス2】      コンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2090401582856999273",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T12:01:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQKZKOjbkAAZQTa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQKZKOjbkAAZQTa?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "d961f928c677",
     "date": "2026-08-20",
     "time": "18:52",
@@ -225,7 +267,7 @@
     "store_x_url": "https://x.com/rakuenikebukuro",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-22T18:14:22Z",
+    "collected_at": "2026-08-22T19:30:35Z",
     "images": [
       "https://pbs.twimg.com/media/HQJ43QIbsAA4UEH?format=jpg&name=large"
     ],
