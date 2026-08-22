@@ -1,5 +1,26 @@
 [
   {
+    "id": "6008abb21906",
+    "date": "2026-08-22",
+    "time": "12:00",
+    "store": "ライブガーデン鹿沼グランドシティ",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "873",
+    "text": "こんにちは！ ライブガーデン鹿沼グランドシティです  昨日 ８月２１日 ８７３番台 【Ｌ北斗の拳 転生の章２】  コンプリート達成！  おめでとうございます！  本日のご来店もお待ちしております  #ライブガーデン鹿沼GC #コンプリート #北斗転生",
+    "x_url": "https://x.com/LGkanumaGC1225/status/2090997401632870485",
+    "store_handle": "lgkanumagc1225",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-22T08:29:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQP8w8jbMAAgbXU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQP8w8jbMAAgbXU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "2d6f29d16ab8",
     "date": "2026-08-21",
     "time": "22:29",
@@ -4494,6 +4515,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000018"
   },
   {
+    "id": "bbdd46c40153",
+    "date": "2026-08-15",
+    "time": "22:34",
+    "store": "ABC焼津三和店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ABC焼津三和店より速報 『L炎炎ノ消防隊2』 コンプリート達成 間に合ってよかったです",
+    "x_url": "https://x.com/ABC_yaizumiwa/status/2088620400364396982",
+    "store_handle": "abc_yaizumiwa",
+    "store_x_url": "https://x.com/abc_yaizumiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T08:28:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxEyCFbQAA4wSA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxEyCFbQAA4wSA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "1ab8b43b9f"
+  },
+  {
     "id": "2672e9b54dfd",
     "date": "2026-08-15",
     "time": "22:31",
@@ -4878,6 +4921,27 @@
     "image_url": "https://pbs.twimg.com/media/HPw2GnBbAAAPXpz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000016",
     "store_id": "8bba89f2c2"
+  },
+  {
+    "id": "8ee2a30be1a7",
+    "date": "2026-08-15",
+    "time": "21:23",
+    "store": "ヴィーナスギャラリー大分Ⅰ店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート速報】 スマスロ北斗の拳転生の章2で コンプリート達成です おめでとうございます #北斗の拳転生の章2  #コンプリート #創業月間 #がんばるヴィーナス #ヴィーナスギャラリー",
+    "x_url": "https://x.com/VGOita1/status/2088602534319624373",
+    "store_handle": "vgoita1",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-22T07:57:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPw0226aAAAAQVm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPw0226aAAAAQVm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "f77326e5ed78",
