@@ -1114,6 +1114,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "50bbcda8c243",
+    "date": "2026-08-16",
+    "time": "14:40",
+    "store": "キクヤ一宮店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "643",
+    "text": "643番台　ヴァルヴレイヴ2 14時19分頃 コンプリート！",
+    "x_url": "https://x.com/ichinomiya1380/status/2088863481089110199",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T22:29:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP0gmFZbsAAxZL2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP0gmFZbsAAxZL2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "3acc4120573d",
     "date": "2026-08-16",
     "time": "14:27",
