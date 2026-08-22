@@ -345,6 +345,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000018"
   },
   {
+    "id": "bbdd46c40153",
+    "date": "2026-08-15",
+    "time": "22:34",
+    "store": "ABC焼津三和店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ABC焼津三和店より速報 『L炎炎ノ消防隊2』 コンプリート達成 間に合ってよかったです",
+    "x_url": "https://x.com/ABC_yaizumiwa/status/2088620400364396982",
+    "store_handle": "abc_yaizumiwa",
+    "store_x_url": "https://x.com/abc_yaizumiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T08:28:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPxEyCFbQAA4wSA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPxEyCFbQAA4wSA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "1ab8b43b9f"
+  },
+  {
     "id": "2672e9b54dfd",
     "date": "2026-08-15",
     "time": "22:31",
@@ -744,7 +766,7 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-22T08:38:31Z",
+    "collected_at": "2026-08-22T07:57:00Z",
     "images": [
       "https://pbs.twimg.com/media/HPw0226aAAAAQVm?format=jpg&name=large"
     ],
