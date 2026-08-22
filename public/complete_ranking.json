@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-22T11:54:53+09:00",
+  "generated_at": "2026-08-22T14:01:02+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1014,
+      "total_count": 1018,
       "stores": [
         {
           "rank": 1,
@@ -43,34 +43,34 @@
         },
         {
           "rank": 7,
+          "name": "メガフェイス1450本山",
+          "count": 10,
+          "x_url": "https://x.com/megaface_1450"
+        },
+        {
+          "rank": 8,
           "name": "キクヤ春日井店",
           "count": 10,
           "x_url": "https://x.com/315kasugai"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "プレイランドキャッスル春日井店",
           "count": 10,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "キング観光サウザンド栄若宮大通店",
           "count": 9,
           "x_url": "https://x.com/wakakin_tsujic"
-        },
-        {
-          "rank": 10,
-          "name": "テキサス白島店",
-          "count": 9,
-          "x_url": "https://x.com/texashakushima"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 158
+          "count": 159
         },
         {
           "rank": 2,
@@ -105,12 +105,12 @@
         {
           "rank": 8,
           "name": "スマスロ攻殻機動隊",
-          "count": 24
+          "count": 25
         },
         {
           "rank": 9,
           "name": "スロット ソードアート・オンラインⅡ",
-          "count": 23
+          "count": 24
         },
         {
           "rank": 10,
@@ -132,7 +132,7 @@
         {
           "rank": 3,
           "name": "e牙狼12",
-          "count": 59
+          "count": 60
         },
         {
           "rank": 4,
@@ -763,16 +763,16 @@
       },
       {
         "rank": 10,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "メガフェイス1450本山",
         "count": 42,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/megaface_1450"
       }
     ],
     "slot_machines": [
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 580
+        "count": 581
       },
       {
         "rank": 2,
@@ -801,18 +801,18 @@
       },
       {
         "rank": 7,
-        "name": "L東京喰種",
-        "count": 64
+        "name": "スロット ソードアート・オンラインⅡ",
+        "count": 65
       },
       {
         "rank": 8,
-        "name": "スロット ソードアート・オンラインⅡ",
+        "name": "L東京喰種",
         "count": 64
       },
       {
         "rank": 9,
         "name": "スマスロ攻殻機動隊",
-        "count": 58
+        "count": 59
       },
       {
         "rank": 10,
@@ -829,7 +829,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 235
+        "count": 236
       },
       {
         "rank": 3,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3333
+    "total_count": 3337
   },
   "store_complete_counts": {
     "ARROW浪速店": 65,
@@ -884,8 +884,8 @@
     "楽園大宮店": 43,
     "キクヤ春日井店": 43,
     "メガフェイス1300淀川": 42,
+    "メガフェイス1450本山": 42,
     "マルハンメガシティ三島駿東": 42,
-    "メガフェイス1450本山": 41,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 40,
     "SPACE(スペース444＆666)": 37,
     "メガフェイス1070菊陽": 36,
@@ -1018,6 +1018,7 @@
     "大安寺マルハチ": 6,
     "綾瀬上土棚店": 6,
     "駅前店": 6,
+    "サラリーマン店長メガシティ静岡": 6,
     "ワンダーランド1177谷山店": 6,
     "店長の左肘ツヨシ": 6,
     "ZENT小坂店 NO.1店長": 6,
@@ -1042,7 +1043,6 @@
     "ダイナム山形天童店": 5,
     "ＢＩＧディッパー京都駅前店": 5,
     "ダイナム鹿児島上川内店": 5,
-    "サラリーマン店長メガシティ静岡": 5,
     "マルハン仙台新港店": 5,
     "ヒノマル辰巳店": 5,
     "マルハン荒田島店": 5,
@@ -1534,12 +1534,14 @@
     "ーチ栃木本店": 1,
     "ニラク中野サンモール2号店": 1,
     "ミリオン鴨島店": 1,
+    "都八幡店": 1,
+    "ヒノマル用賀店": 1,
     "メガコンコルド1220名古屋みなと23号通り店": 1,
     "123松茂店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2957,
-    "records_without_store_id": 376,
+    "records_with_store_id": 2958,
+    "records_without_store_id": 379,
     "canonical_store_ids": 494
   }
 }

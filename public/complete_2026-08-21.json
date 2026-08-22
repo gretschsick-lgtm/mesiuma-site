@@ -109,6 +109,28 @@
     "store_id": "670d4bed73"
   },
   {
+    "id": "7b17c63d085f",
+    "date": "2026-08-21",
+    "time": "20:57",
+    "store": "サラリーマン店長メガシティ静岡",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1021",
+    "text": "■1021番台 ソードアート・オンラインⅡ   お見事 コンプリート達成 おめでとうございます またの挑戦をお待ち致しております",
+    "x_url": "https://x.com/Last_Mission_7/status/2090770341157290136",
+    "store_handle": "last_mission_7",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/last_mission_7",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-22T04:26:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPhsyeaUAA8u6f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQPht5Ga8AEgj2z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPhsyeaUAA8u6f?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "597305d76678",
     "date": "2026-08-21",
     "time": "16:11",
