@@ -152,6 +152,27 @@
     "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
   },
   {
+    "id": "20c617c3ccf7",
+    "date": "2026-08-21",
+    "time": "21:14",
+    "store": "キクヤ穂積店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1256",
+    "text": "【コンプリート】  こんばんはッ！  キクヤ穂積店です！    またまたコンプリート報告です   1256番台からくりサーカス2 コンプリート達成！  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2090774619297099786",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T08:42:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPsZuzb0AAu2Xw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPsZuzb0AAu2Xw?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "fd266e2fdcec",
     "date": "2026-08-21",
     "time": "21:06",
@@ -259,6 +280,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQPT_uMasAAmAvw?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "13ff3e6be553",
+    "date": "2026-08-21",
+    "time": "19:28",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "461",
+    "text": "461番台「牙狼12黄金騎士極限」 コンプリート おめでとうございます",
+    "x_url": "https://x.com/tamaya_honten/status/2090747769439043929",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T08:42:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPTwB1bAAA2Luk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPTwB1bAAA2Luk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "1169be0f82ba",
+    "date": "2026-08-21",
+    "time": "18:23",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "384",
+    "text": "【コンプリート】 こんばんはッ！ キクヤ穂積店です！  コンプリート報告です 384番台　スマパチ 牙狼12黄金騎士  まさかの初当たり1回でコンプリート達成です  おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2090731489310949509",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T08:42:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPEyRcbYAIgrwC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPEyRcbYAIgrwC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "597305d76678",
