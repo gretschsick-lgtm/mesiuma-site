@@ -1,46 +1,24 @@
 [
   {
-    "id": "ac861de7873a",
+    "id": "b55e13600a50",
     "date": "2026-08-22",
-    "time": "16:38",
-    "store": "パラッツォ三郷中央店",
-    "machine": "Lミリオンゴッド神々の軌跡",
+    "time": "17:09",
+    "store": "ましろんトーヨー河原町店を広め隊",
+    "machine": "Lかぐや様は告らせたい",
     "machine_type": "slot",
-    "slot_number": "1688",
-    "text": "パラミサからキターーーッ 敗者復活の狼煙 爆速コンプリート  1688番台 Lミリオンゴッド神々の軌跡 おめでとうございます  一緒にランキングも見て～  #敗者復活のノロシ",
-    "x_url": "https://x.com/palazzo_misato/status/2091067457272533042",
-    "store_handle": "palazzo_misato",
-    "store_x_url": "https://x.com/palazzo_misato",
+    "slot_number": "760",
+    "text": "うぉーーー  な、な、なんと…… 先ほどコンプリート機能発動  【760番台  スマスロかぐや様は告らせたい】  コンプリート19,000枚達成  これはスゴすぎる…… コンプリート機能が作動したため、 本日は遊技台停止となります  まだまだこの後のお時間も",
+    "x_url": "https://x.com/mashiron_kawara/status/2091075235533750758",
+    "store_handle": "mashiron_kawara",
+    "store_x_url": "",
     "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-22T08:42:36Z",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-22T09:27:09Z",
     "images": [
-      "https://pbs.twimg.com/media/HQT2xQ_awAIRY6Q?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQT2xQya8AAJlr1?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HQT917CaAAA1ERG?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HQT2xQ_awAIRY6Q?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
-  },
-  {
-    "id": "83f8c995e22a",
-    "date": "2026-08-22",
-    "time": "14:40",
-    "store": "グランキコーナひたちなか店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "ファン感謝デー2日目の 店内から速報です  20円スロットコーナー  L革命機ヴァルヴレイヴ2  にてCOMPLETE達成！ おめでとうございます  この後15時から２回目のくじ配布 です 是非！ご来店お待ちしております   #グランキコーナひたちなか店  #つぶやキコーナ  #コンプリート達成",
-    "x_url": "https://x.com/GK_hitachinaka/status/2091037820010082525",
-    "store_handle": "gk_hitachinaka",
-    "store_x_url": "https://x.com/gk_hitachinaka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-22T08:43:04Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQTbysZaoAAUnVS?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQTbysZaoAAUnVS?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "image_url": "https://pbs.twimg.com/media/HQT917CaAAA1ERG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "6008abb21906",
@@ -56,7 +34,7 @@
     "store_x_url": "",
     "manager_x_url": "",
     "source_account_type": "unknown",
-    "collected_at": "2026-08-22T09:12:24Z",
+    "collected_at": "2026-08-22T08:29:25Z",
     "images": [
       "https://pbs.twimg.com/media/HQP8w8jbMAAgbXU?format=jpg&name=large"
     ],
