@@ -1,5 +1,26 @@
 [
   {
+    "id": "57a3fd2273cf",
+    "date": "2026-08-19",
+    "time": "22:39",
+    "store": "キコーナ",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは！ アプリイ富士見台です！！    スマパチ　東京喰種   本日のコンプリートです！ おめでとうございます  #つぶやキコーナ",
+    "x_url": "https://x.com/fujimidai_uply/status/2090071186202091962",
+    "store_handle": "fujimidai_uply",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-22T06:56:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFslMsasAA-x3Z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFslMsasAA-x3Z?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "412c5d221b41",
     "date": "2026-08-19",
     "time": "22:19",
@@ -40,6 +61,23 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQFlhP0aMAAbDmd?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "68ad6fea9cd8",
+    "date": "2026-08-19",
+    "time": "22:03",
+    "store": "まるみつ鹿屋店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは まるみつ鹿屋店です(  ˃ ᵕ ˂  )  本日のコンプリート台 スマスロ 北斗の拳 転生の章2  うらやましい～！！！ おめでとうございます  #北斗の拳　#コンプリート　#パチスロ　#スマスロ #転生２",
+    "x_url": "https://x.com/maru_kanoya/status/2090062018778964263",
+    "store_handle": "maru_kanoya",
+    "store_x_url": "https://x.com/maru_kanoya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T06:56:52Z",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "49ec70d5bf81",
