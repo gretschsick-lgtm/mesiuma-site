@@ -23,6 +23,27 @@
     "store_id": "35782adb87"
   },
   {
+    "id": "bbc8fd09b19b",
+    "date": "2026-08-21",
+    "time": "21:58",
+    "store": "キコーナ川西久代店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日、スロットコーナーより ！   Lパチスロからくりサーカス2    コンプリート達成です！  おめでとうございます！    #つぶやキコーナ  #グランキコーナ西淀川店",
+    "x_url": "https://x.com/gkicona_nisiyod/status/2090785515297775967",
+    "store_handle": "gkicona_nisiyod",
+    "store_x_url": "https://x.com/gkicona_nisiyod",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T02:26:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQP13lMbEAA7WnN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQP13lMbEAA7WnN?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "d198181de547",
     "date": "2026-08-21",
     "time": "21:31",
@@ -64,6 +85,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQPsgfPXsAAyXiv?format=jpg&name=large",
     "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
+    "id": "fd266e2fdcec",
+    "date": "2026-08-21",
+    "time": "21:06",
+    "store": "123松茂店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "540",
+    "text": "本日も多くのお客様にご来店頂き ありがとうございます   8月21日(金) 46枚貸スロット　540番台 LソードアートオンラインⅡ コンプリート おめでとうございます  今月5台目のコンプリート 週末も是非ッ！123松茂店へ！！ #123松茂店 #スロットSAO２  #コンプリート",
+    "x_url": "https://x.com/123matsushige/status/2090772584136863799",
+    "store_handle": "123matsushige",
+    "store_x_url": "https://x.com/123matsushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-22T02:41:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPp7-UacAATkDA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPp7-UacAATkDA?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "670d4bed73"
   },
   {
     "id": "597305d76678",
