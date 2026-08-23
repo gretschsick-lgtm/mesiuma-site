@@ -427,6 +427,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "1b5134dd22b4",
+    "date": "2026-08-17",
+    "time": "20:57",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "494",
+    "text": "8月17日月曜日 L革命機ヴァルヴレイヴ2 　　　494番台   　　　20時45分  　    コンプリート おめでとうございます",
+    "x_url": "https://x.com/since2011_8_11/status/2089320704407912927",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T02:38:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP7BhjOacAAaTVa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7BnaQbMAE20rp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP7BshxbMAAWLhX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP7BhjOacAAaTVa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "65727e0b1420",
     "date": "2026-08-17",
     "time": "20:56",

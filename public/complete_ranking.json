@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-23T09:02:25+09:00",
+  "generated_at": "2026-08-23T12:03:14+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1072,
+      "total_count": 1073,
       "stores": [
         {
           "rank": 1,
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 167
+          "count": 168
         },
         {
           "rank": 2,
@@ -772,7 +772,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 589
+        "count": 590
       },
       {
         "rank": 2,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3391
+    "total_count": 3392
   },
   "store_complete_counts": {
     "ARROW浪速店": 66,
@@ -914,11 +914,11 @@
     "イーグルアールワン南8条店": 19,
     "SUPER CONCORDE": 19,
     "SuperD'station東金店": 19,
+    "マルハン佐賀店実績": 19,
     "キャッスル天白店": 18,
     "キング観光サウザンド名古屋駅柳橋店": 18,
     "マルハン松本店": 18,
     "SUPER CONCORDE 市野": 18,
-    "マルハン佐賀店実績": 18,
     "マルハンメガシティ伊勢崎": 17,
     "楽園池袋店グリーンサイド": 17,
     "ダイナム金町南口店": 17,
@@ -1550,7 +1550,7 @@
     "ましろんトーヨー河原町店を広め隊": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2995,
+    "records_with_store_id": 2996,
     "records_without_store_id": 396,
     "canonical_store_ids": 498
   }
