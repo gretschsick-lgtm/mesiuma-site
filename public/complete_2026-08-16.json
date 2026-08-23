@@ -518,6 +518,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "68e69b075ee4",
+    "date": "2026-08-16",
+    "time": "20:56",
+    "store": "ホームラン川越店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Lからくりサーカス2  コンプリート機能作動の為 本日の稼動を終了しました。",
+    "x_url": "https://x.com/homerun_kawagoe/status/2088957956679414124",
+    "store_handle": "homerun_kawagoe",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-23T04:26:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP14L-gasAA7cGS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP14L-gasAA7cGS?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "682e02334b4b",
     "date": "2026-08-16",
     "time": "20:55",

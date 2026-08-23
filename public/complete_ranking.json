@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-23T12:03:14+09:00",
+  "generated_at": "2026-08-23T14:06:05+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1073,
+      "total_count": 1077,
       "stores": [
         {
           "rank": 1,
@@ -43,21 +43,21 @@
         },
         {
           "rank": 7,
+          "name": "キクヤ春日井店",
+          "count": 12,
+          "x_url": "https://x.com/315kasugai"
+        },
+        {
+          "rank": 8,
           "name": "プレイランドキャッスル春日井店",
           "count": 11,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "メガフェイス1450本山",
           "count": 10,
           "x_url": "https://x.com/megaface_1450"
-        },
-        {
-          "rank": 9,
-          "name": "キクヤ春日井店",
-          "count": 10,
-          "x_url": "https://x.com/315kasugai"
         },
         {
           "rank": 10,
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 168
+          "count": 170
         },
         {
           "rank": 2,
@@ -80,7 +80,7 @@
         {
           "rank": 3,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 47
+          "count": 48
         },
         {
           "rank": 4,
@@ -137,7 +137,7 @@
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 38
+          "count": 39
         },
         {
           "rank": 5,
@@ -745,15 +745,15 @@
       },
       {
         "rank": 7,
-        "name": "楽園大宮店",
-        "count": 44,
-        "x_url": "https://x.com/rakuen_ohmiya"
+        "name": "キクヤ春日井店",
+        "count": 45,
+        "x_url": "https://x.com/315kasugai"
       },
       {
         "rank": 8,
-        "name": "キクヤ春日井店",
-        "count": 43,
-        "x_url": "https://x.com/315kasugai"
+        "name": "楽園大宮店",
+        "count": 44,
+        "x_url": "https://x.com/rakuen_ohmiya"
       },
       {
         "rank": 9,
@@ -772,7 +772,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 590
+        "count": 592
       },
       {
         "rank": 2,
@@ -782,7 +782,7 @@
       {
         "rank": 3,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 122
+        "count": 123
       },
       {
         "rank": 4,
@@ -839,7 +839,7 @@
       {
         "rank": 4,
         "name": "e東京喰種W",
-        "count": 85
+        "count": 86
       },
       {
         "rank": 5,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3392
+    "total_count": 3396
   },
   "store_complete_counts": {
     "ARROW浪速店": 66,
@@ -881,8 +881,8 @@
     "キング観光サウザンド栄若宮大通店": 52,
     "テキサス小倉店": 50,
     "楽園池袋店ゲートウェイ": 49,
+    "キクヤ春日井店": 45,
     "楽園大宮店": 44,
-    "キクヤ春日井店": 43,
     "メガフェイス1300淀川": 42,
     "メガフェイス1450本山": 42,
     "マルハンメガシティ三島駿東": 42,
@@ -1518,6 +1518,7 @@
     "グランワールドカップ本巣店": 1,
     "ワンダーランド香椎本館": 1,
     "キング観光サウザンド長浜インター店": 1,
+    "ホームラン川越店": 1,
     "ロイヤル波崎店～みんなの憩いの場": 1,
     "ダイナム高知須崎店": 1,
     "マルハン中原店": 1,
@@ -1546,12 +1547,13 @@
     "ダイナム山形イオンタウン酒田店 店長": 1,
     "123松茂店": 1,
     "ABC甲府アルプス通り店": 1,
+    "袖師店": 1,
     "スーパードーム砺波店": 1,
     "ましろんトーヨー河原町店を広め隊": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 2996,
-    "records_without_store_id": 396,
+    "records_with_store_id": 2998,
+    "records_without_store_id": 398,
     "canonical_store_ids": 498
   }
 }

@@ -796,6 +796,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "9785f8b880e5",
+    "date": "2026-08-17",
+    "time": "17:15",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "443",
+    "text": "キクヤ春日井店 　コンプリート情報その② 　　　　　443番台 L革命機ヴァルヴレイヴ２ 本日２台目！？この流れは明日の ヴヴヴ増台まで続いてしまうのか！？",
+    "x_url": "https://x.com/315kasugai/status/2089264794729861622",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T04:31:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6PO1LaYAAke8f?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6PO1LaYAAke8f?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "3e5a4cea696f",
     "date": "2026-08-17",
     "time": "17:00",
@@ -921,6 +942,27 @@
       "https://pbs.twimg.com/media/HP5uXiCaEAAadvz?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HP5uXiCaEAAadvz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "2b36330650d9",
+    "date": "2026-08-17",
+    "time": "13:18",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "445",
+    "text": "キクヤ春日井店 コンプリート情報 　　445番台 ヴァルヴレイヴ２ 　コンプリート おめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2089205164855173176",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T04:31:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP5Y_ciaMAAQ_LP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP5Y_ciaMAAQ_LP?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
