@@ -186,6 +186,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "ab9c493ca666",
+    "date": "2026-08-19",
+    "time": "21:46",
+    "store": "楽園大宮店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "348",
+    "text": "先ほど！！ B1F4円パチンコ348番台 eリコリス・リコイルにて コンプリート達成！！＼(^o^)／ おめでとうございます",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2090057864782180475",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T17:49:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQFgjM8boAAvnbQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQFgjM8boAAvnbQ?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "dd6a736185d9",
     "date": "2026-08-19",
     "time": "21:37",
@@ -550,27 +571,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQEK2SgacAA1i6R?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
-  },
-  {
-    "id": "05a208edb30b",
-    "date": "2026-08-19",
-    "time": "12:50",
-    "store": "マルハンメガシティ静岡",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "146",
-    "text": "■146番台　ｅ牙狼１２ＸＸ－ＭＪ 早くもコンプリートです  ご遊技されたお客様おめでとうございます！！  complete",
-    "x_url": "https://x.com/maruhanmegacity/status/2089922941924614639",
-    "store_handle": "maruhanmegacity",
-    "store_x_url": "https://x.com/maruhanmegacity",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-23T08:42:43Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQDlcONbMAAGtTI?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQDlcONbMAAGtTI?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "be3be3696c93",
