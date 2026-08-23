@@ -278,27 +278,6 @@
     "store_id": "7cd69c82f0"
   },
   {
-    "id": "b570e76826f1",
-    "date": "2026-08-17",
-    "time": "21:50",
-    "store": "マルハン甲府店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "68",
-    "text": "【速報】 8月17日(月)  68番台 e牙狼12黄金騎士極限  コンプリート おめでとうございます",
-    "x_url": "https://x.com/maruhankofu/status/2089333969250906460",
-    "store_handle": "maruhankofu",
-    "store_x_url": "https://x.com/maruhankofu",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-23T08:01:53Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP7OK1abwAA2Ej1?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP7OK1abwAA2Ej1?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
     "id": "c6f77c4afed3",
     "date": "2026-08-17",
     "time": "21:43",
@@ -615,7 +594,7 @@
     "store_x_url": "https://x.com/dynam_00188",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-23T16:48:57Z",
+    "collected_at": "2026-08-23T18:50:11Z",
     "images": [
       "https://pbs.twimg.com/media/HP64mNobIAAXmqK?format=jpg&name=large",
       "https://pbs.twimg.com/media/HP64nxzbUAE4Bx9?format=jpg&name=large",
@@ -638,7 +617,7 @@
     "store_x_url": "https://x.com/dynam_00188",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-23T16:48:57Z",
+    "collected_at": "2026-08-23T18:50:11Z",
     "images": [
       "https://pbs.twimg.com/media/HP64mNobIAAXmqK?format=jpg&name=large",
       "https://pbs.twimg.com/media/HP64nxzbUAE4Bx9?format=jpg&name=large",
@@ -646,6 +625,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP64mNobIAAXmqK?format=jpg&name=large",
     "machine_id": "e9c08019-ae38-457f-a46a-3ecdab45e038"
+  },
+  {
+    "id": "3fbb01fa4f0d",
+    "date": "2026-08-17",
+    "time": "20:17",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "440",
+    "text": "キクヤ春日井店 　　コンプリート情報その③  　　　　「440番台」 L革命機ヴァルヴレイヴ2  　　本日3台目 　　　明日の増台までに まだまだコンプリートは増えてくのか",
+    "x_url": "https://x.com/315kasugai/status/2089310523846471941",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T15:52:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP64lwwboAEWpTh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP64lwwboAEWpTh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "6acdb1f27792",
@@ -962,7 +962,7 @@
     "store_x_url": "https://x.com/dynam_00149",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-23T17:33:24Z",
+    "collected_at": "2026-08-23T15:29:39Z",
     "images": [
       "https://pbs.twimg.com/media/HP6E8F4XgAAWLM4?format=jpg&name=large"
     ],
@@ -1117,27 +1117,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP4yjsfXwAAy9di?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
-  },
-  {
-    "id": "bd38c2a00c1c",
-    "date": "2026-08-17",
-    "time": "10:03",
-    "store": "伊集院店",
-    "machine": "e女神のカフェテラス",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "#ダイナム伊集院店 8/16 e女神カフェテラスにてコンプリートおめでとう御座います #パチンコ #コンプリート",
-    "x_url": "https://x.com/dynam_eikichi39/status/2089156026922852634",
-    "store_handle": "dynam_eikichi39",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-23T12:03:16Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP4rp_FWwAANwBd?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP4rp_FWwAANwBd?format=jpg&name=large",
-    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
     "id": "ea3c9eb37bc9",
