@@ -668,6 +668,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "f82f6d05399d",
+    "date": "2026-08-17",
+    "time": "19:12",
+    "store": "メガフェイス1070菊陽",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "779",
+    "text": "本日2機種目！ 779番台 Lかぐや様は告らせたい コンプリート達成 #8月17日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2089294290078060747",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T06:31:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6qFSWbIAA55Nx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP6aWHVaMAErfMP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6qFSWbIAA55Nx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "364533d85720",
     "date": "2026-08-17",
     "time": "18:45",
@@ -752,6 +774,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HP6hLptaUAAwvP2?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "86de02a36f8a",
+    "date": "2026-08-17",
+    "time": "18:03",
+    "store": "メガフェイス1070菊陽",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "807",
+    "text": "807番台 Lからくりサーカス2 コンプリート達成 #8月17日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2089276987118653739",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T06:31:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HP6aWHVaMAErfMP?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HP41BE2bYAAzY64?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HP6aWHVaMAErfMP?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "c0fe56f2d3e3",
