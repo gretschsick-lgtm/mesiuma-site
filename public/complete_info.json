@@ -170,6 +170,30 @@
     "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
+    "id": "7f0cc5d3d970",
+    "date": "2026-08-22",
+    "time": "21:58",
+    "store": "123+N和歌山本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "34",
+    "text": "こんばんは( ´∀｀)  コンプリート達成 4円34番台e牙狼黄金騎士極限  おめでとうございます  そして明日23日は！ 123TVボールペン入荷  @yuitaro__my   @yuitaro__ane   ゆいたろ双子姉妹ご来店 明日も和歌山本店へ٩( 'ω' )و  #和歌山 #コンプリート達成",
+    "x_url": "https://x.com/123wakayamaten/status/2091147882804179192",
+    "store_handle": "123wakayamaten",
+    "store_x_url": "https://x.com/123wakayamaten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T09:02:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQU_6gWasAAdziF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQU_6gMaQAAGTLW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQU_6gObkAECbp1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQU_6gWasAAdziF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "d5b3c5b5d8"
+  },
+  {
     "id": "e4319959acf2",
     "date": "2026-08-22",
     "time": "21:52",
@@ -320,6 +344,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQUMXVLaYAAkZx2?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "03d38a666738",
+    "date": "2026-08-22",
+    "time": "17:29",
+    "store": "プレイランドキャッスル高浜店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "39",
+    "text": "”増台１００３台 ”！ スケールアップした 【アソビの殿堂】から コンプリート速報です！ 【39番台】 『e牙狼12黄金騎士極限』にて 　   ≪コンプリート機能発動！≫ ※開放は明日予定です。  本日２３日！！ 昨日のニンニクの影響で 事務所内誰も私と 話をしてくれません！ ご来店お待ちしてます！！",
+    "x_url": "https://x.com/Hara_Strong/status/2091442653401645318",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T08:47:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZLgpvaMAALGU3?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQZLqRUbQAAYe6q?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZLgpvaMAALGU3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "b55e13600a50",
@@ -2026,6 +2072,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "05a208edb30b",
+    "date": "2026-08-19",
+    "time": "12:50",
+    "store": "マルハンメガシティ静岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "146",
+    "text": "■146番台　ｅ牙狼１２ＸＸ－ＭＪ 早くもコンプリートです  ご遊技されたお客様おめでとうございます！！  complete",
+    "x_url": "https://x.com/maruhanmegacity/status/2089922941924614639",
+    "store_handle": "maruhanmegacity",
+    "store_x_url": "https://x.com/maruhanmegacity",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T08:42:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQDlcONbMAAGtTI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQDlcONbMAAGtTI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "be3be3696c93",
     "date": "2026-08-19",
     "time": "11:26",
@@ -3128,27 +3195,6 @@
     "image_url": "https://pbs.twimg.com/media/HP7N-8kbgAA5Jkn?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
     "store_id": "7cd69c82f0"
-  },
-  {
-    "id": "b570e76826f1",
-    "date": "2026-08-17",
-    "time": "21:50",
-    "store": "マルハン甲府店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "68",
-    "text": "【速報】 8月17日(月)  68番台 e牙狼12黄金騎士極限  コンプリート おめでとうございます",
-    "x_url": "https://x.com/maruhankofu/status/2089333969250906460",
-    "store_handle": "maruhankofu",
-    "store_x_url": "https://x.com/maruhankofu",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-23T08:01:53Z",
-    "images": [
-      "https://pbs.twimg.com/media/HP7OK1abwAA2Ej1?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HP7OK1abwAA2Ej1?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "c6f77c4afed3",
