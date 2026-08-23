@@ -411,6 +411,27 @@
     "store_id": "960fb27133"
   },
   {
+    "id": "90bedc4adc4c",
+    "date": "2026-08-21",
+    "time": "16:56",
+    "store": "ドキわくランド北山田店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "88",
+    "text": "こんにちは  本日、88番台eFキン肉マンにて…  コンプリート達成  おめでとうございます  この後時からファン感謝祭もございますので 是非ともご来店下さいませ  引き続きドキわくランド北山田店を よろしくお願いいたします",
+    "x_url": "https://x.com/dokiwaku_kita/status/2090709713835233444",
+    "store_handle": "dokiwaku_kita",
+    "store_x_url": "https://x.com/dokiwaku_kita",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T20:18:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQOwmVqbEAA7ajQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQOwmVqbEAA7ajQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
     "id": "597305d76678",
     "date": "2026-08-21",
     "time": "16:11",
