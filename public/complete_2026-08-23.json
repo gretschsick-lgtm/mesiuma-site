@@ -23,6 +23,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000018"
   },
   {
+    "id": "0679ca0aab09",
+    "date": "2026-08-23",
+    "time": "22:13",
+    "store": "ビックつばめ錦店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "1117",
+    "text": "1117番台 Lチバリヨ2 コンプリート達成  おめでとうございます！！  #ビックつばめ錦店 #コンプリート",
+    "x_url": "https://x.com/d_purple777/status/2091514161327206844",
+    "store_handle": "d_purple777",
+    "store_x_url": "https://x.com/d_purple777",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T22:33:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQaMsPHaYAAY2Uq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQaMskzboAAUXtW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQaMsPHaYAAY2Uq?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "8544ca82086d",
     "date": "2026-08-23",
     "time": "22:02",
@@ -427,5 +449,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQY1kIRa0AAJm59?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
+    "id": "a90abb10964c",
+    "date": "2026-08-23",
+    "time": "12:00",
+    "store": "ライブガーデン鹿沼グランドシティ",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "565",
+    "text": "こんにちは！ ライブガーデン鹿沼グランドシティです  昨日８月２２日 ５６５番台【Ｌモンスターハンターライズ】  コンプリート達成  おめでとうございます！  本日もこの後のご来店をお待ちしております。  #ライブガーデン鹿沼GC #コンプリート #モンハンライズ",
+    "x_url": "https://x.com/LGkanumaGC1225/status/2091359773836910812",
+    "store_handle": "lgkanumagc1225",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-23T22:54:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQVBbGbbsAAu69x?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQVBbGbbsAAu69x?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
   }
 ]

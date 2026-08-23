@@ -213,6 +213,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
+    "id": "43279bad264a",
+    "date": "2026-08-22",
+    "time": "22:01",
+    "store": "マルハンメガシティ柏",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1100",
+    "text": "コンプリート速報 【1100番台　スマスロ 北斗の拳 転生の章2】  閉店１時間前のコンプリート！ 本当におめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2091148662932217872",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-23T22:39:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQVAJs9bwAA9crF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQVAJs9bwAA9crF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "7f0cc5d3d970",
     "date": "2026-08-22",
     "time": "21:58",
