@@ -87,28 +87,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
-    "id": "34c9a66519a5",
-    "date": "2026-08-23",
-    "time": "22:01",
-    "store": "マルハンアプリはこちら",
-    "machine": "L新鬼武者3",
-    "machine_type": "slot",
-    "slot_number": "575",
-    "text": "【575番台】 【L新鬼武者3SA】  コンプリート達成   おめでとうございます  データを確認できる マルハンアプリはこちらから  http:// maruhan.co.jp/app2/sp/",
-    "x_url": "https://x.com/KATORINE_1550/status/2091511049371656329",
-    "store_handle": "katorine_1550",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-24T14:45:19Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQaJyMKakAAHQDE?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQKdEfcbcAAKp8z?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQaJyMKakAAHQDE?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000016"
-  },
-  {
     "id": "ec8afd9f6146",
     "date": "2026-08-23",
     "time": "21:16",
@@ -149,6 +127,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQZ5AJma8AAhxjz?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "0f656f5edeb2",
+    "date": "2026-08-23",
+    "time": "20:36",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは コンプリート速報です  ただいま Ｌ戦国乙女５ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2091489729195999674",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-24T14:00:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ20ptb0AEKBJo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ20ptb0AEKBJo?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "8bf27a5f0140",
@@ -578,5 +577,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQVBbGbbsAAu69x?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "4bdc9e8ede09",
+    "date": "2026-08-23",
+    "time": "11:56",
+    "store": "ZENT上地店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは つつみんです  報告が遅くなってしまいましたが 北斗の拳転生の章2にて 昨日コンプリート機能が発動しました！ おめでとうございます  は月曜日のお楽しみ 今週のオススメ機種です！  今週も皆様のご来店を お待ちしております  #ZENT上地店 #ZENT",
+    "x_url": "https://x.com/ZENTueji/status/2091721394619056548",
+    "store_handle": "zentueji",
+    "store_x_url": "https://x.com/ZENTueji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T15:15:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQdJg95aUAE4QKb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQdJg95agAAVtBc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQdJg95aUAE4QKb?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "828fc104e686",
+    "date": "2026-08-23",
+    "time": "11:00",
+    "store": "ダイナム西那須野店～since1995.12.02～",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "375",
+    "text": "昨日は #DGP取材 ご来店ありがとうございました  8/23(日)　#コンプリート 報告～ 375番台スマスロ 革命機ヴァルヴレイヴ２  おめでとうございます  今週もぜひぜひダイナム西那須野店へ お越しくださいませ #ヴヴヴ",
+    "x_url": "https://x.com/dynam_00042/status/2091707134908006860",
+    "store_handle": "dynam_00042",
+    "store_x_url": "https://x.com/dynam_00042",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T13:31:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQc8jL8WYAAutn2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQc8jL8WYAAutn2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   }
 ]
