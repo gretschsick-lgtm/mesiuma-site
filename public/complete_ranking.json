@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T12:02:13+09:00",
+  "generated_at": "2026-08-24T14:13:55+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1132,
+      "total_count": 1133,
       "stores": [
         {
           "rank": 1,
@@ -146,13 +146,13 @@
         },
         {
           "rank": 6,
-          "name": "eフィーバーキン肉マン",
+          "name": "e女神のカフェテラス",
           "count": 13
         },
         {
           "rank": 7,
-          "name": "e女神のカフェテラス",
-          "count": 12
+          "name": "eフィーバーキン肉マン",
+          "count": 13
         },
         {
           "rank": 8,
@@ -854,7 +854,7 @@
       {
         "rank": 7,
         "name": "e女神のカフェテラス",
-        "count": 29
+        "count": 30
       },
       {
         "rank": 8,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3451
+    "total_count": 3452
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
@@ -958,6 +958,7 @@
     "ゾーン行橋1000": 11,
     "玉屋∞本店": 11,
     "SUPER COSMO PREMIUM大東店": 11,
+    "T-MAX新栄店": 11,
     "テキサス656山口店": 11,
     "マルハンアプリはこちら": 11,
     "新！ガーデン川口安行": 10,
@@ -968,7 +969,6 @@
     "ベガビック1130豊川店": 10,
     "ダイナム滋賀彦根店～Since2025.7.18～": 10,
     "パラッツォ三郷中央店": 10,
-    "T-MAX新栄店": 10,
     "楽園蒲田店": 9,
     "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店": 9,
     "グランキコーナ松原店": 9,
@@ -1558,7 +1558,7 @@
     "パーラー太陽富良野店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3044,
+    "records_with_store_id": 3045,
     "records_without_store_id": 407,
     "canonical_store_ids": 501
   }
