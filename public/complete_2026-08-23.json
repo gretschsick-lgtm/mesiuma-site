@@ -151,6 +151,27 @@
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
+    "id": "4e733d1eb274",
+    "date": "2026-08-23",
+    "time": "20:54",
+    "store": "スロットテキサス段原店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは♪  先程、コンプリート達成 今回の機種はこちら ↓　　　↓ #Lかぐや様は告らせたい  今月４台目の達成 おめでとうございます  明日は全館９時OPENです 皆様のご来店心よりお待ちしてます",
+    "x_url": "https://x.com/SloTexasDanbara/status/2091494395686305905",
+    "store_handle": "slotexasdanbara",
+    "store_x_url": "https://x.com/slotexasdanbara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T20:47:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ7AqJagAAyuV_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ7AqJagAAyuV_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
     "id": "56fd6399795c",
     "date": "2026-08-23",
     "time": "20:47",
@@ -170,6 +191,44 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQZ5AJma8AAhxjz?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "e4a58ba793de",
+    "date": "2026-08-23",
+    "time": "20:46",
+    "store": "マルハンメガシティ柏",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "12",
+    "text": "マルハンメガシティ柏 𖤐令和パチ年パチ月始まる𖤐 パチンコ・スロット地域最大級設置  コンプリート速報 12番台　e牙狼12  コンプリート達成 本当におめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2091492333175067089",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T20:47:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ5CQ-aAAANhTH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ5CQ-aAAANhTH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "cf60b7e82aa2",
+    "date": "2026-08-23",
+    "time": "20:45",
+    "store": "つかさ神埼店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "622",
+    "text": "こんばんは つかさ神埼店808です  Lミリオンゴッド‐神々の軌跡‐ ６２２番台 コンプリート達成しました おめでとうございます  #つかさ神埼店808 #コンプリート",
+    "x_url": "https://x.com/tsukasa_808/status/2091492043558400511",
+    "store_handle": "tsukasa_808",
+    "store_x_url": "https://x.com/tsukasa_808",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T20:47:15Z",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "0f656f5edeb2",
