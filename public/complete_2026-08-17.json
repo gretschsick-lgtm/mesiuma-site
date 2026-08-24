@@ -1014,6 +1014,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "620d1db8a144",
+    "date": "2026-08-17",
+    "time": "15:23",
+    "store": "ワンダーランド中津米山店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "※速報※ 【e牙狼12】 コンプリート達成おめでとうございます",
+    "x_url": "https://x.com/wl_nakatsu/status/2089236781879492837",
+    "store_handle": "wl_nakatsu",
+    "store_x_url": "https://x.com/wl_nakatsu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T09:15:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HPrVeQRaAAIcs1I?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HPrVfcRaMAAV_Wf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HPrVeQRaAAIcs1I?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "d51a7d0dfdbc",
     "date": "2026-08-17",
     "time": "15:15",
