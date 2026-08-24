@@ -684,6 +684,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "2d93c600d38f",
+    "date": "2026-08-22",
+    "time": "22:13",
+    "store": "パチンコアラジン",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "186",
+    "text": "1円パチンコ 186番台　e女神のカフェテラス コンプリート達成おめでとうございます  遊び切った感ハンパない  最後まで楽しんでいただき ありがとうございました(●´ω｀●)  #パチンコアラジン　#コンプリート",
+    "x_url": "https://x.com/AladdinPachinko/status/2091151709364265293",
+    "store_handle": "aladdinpachinko",
+    "store_x_url": "https://x.com/aladdinpachinko",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T08:00:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQVBpG_bUAAMyps?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQVBpG_bUAAMyps?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+  },
+  {
     "id": "b17e343566a8",
     "date": "2026-08-22",
     "time": "22:09",
@@ -1881,6 +1902,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQSSP-naMAATvMM?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "0a5c1f92541c",
+    "date": "2026-08-21",
+    "time": "08:00",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おはようございます 8月21日(金)の振り返りです  パチンコ 牙狼12 ガンダムSEED SAOアリシゼーション  スロット 真打吉宗 真打吉宗 VVV2  パチンコは牙狼12が本日もTOPに君臨 スロットは吉宗が2台コンプリート達成 その他合わせて6台が万枚over達成",
+    "x_url": "https://x.com/maruhanakatsuka/status/2090936988404691019",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T08:00:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQRZDYtacAAwrYs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQRZDyua0AAjZZ5?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQRZEPSbQAANXJ8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQRZDYtacAAwrYs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
     "id": "570a492989d1",
