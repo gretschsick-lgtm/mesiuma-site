@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T19:17:31+09:00",
+  "generated_at": "2026-08-24T20:09:26+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1138,
+      "total_count": 1141,
       "stores": [
         {
           "rank": 1,
@@ -70,17 +70,17 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 180
+          "count": 181
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 71
+          "count": 72
         },
         {
           "rank": 3,
           "name": "Lパチスロ からくりサーカス2",
-          "count": 50
+          "count": 51
         },
         {
           "rank": 4,
@@ -772,17 +772,17 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 602
+        "count": 603
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 190
+        "count": 191
       },
       {
         "rank": 3,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 125
+        "count": 126
       },
       {
         "rank": 4,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3457
+    "total_count": 3460
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
@@ -1555,12 +1555,15 @@
     "ましろんトーヨー河原町店を広め隊": 1,
     "レス小林店": 1,
     "ベガスベガス大東店": 1,
+    "Kたろ店長": 1,
     "マルハン水戸けやき台店": 1,
-    "パーラー太陽富良野店": 1
+    "カネマン盛岡南777": 1,
+    "パーラー太陽富良野店": 1,
+    "ED777コスモタウン店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3049,
-    "records_without_store_id": 408,
-    "canonical_store_ids": 502
+    "records_with_store_id": 3050,
+    "records_without_store_id": 410,
+    "canonical_store_ids": 503
   }
 }
