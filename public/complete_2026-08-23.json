@@ -129,6 +129,27 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "0f656f5edeb2",
+    "date": "2026-08-23",
+    "time": "20:36",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは コンプリート速報です  ただいま Ｌ戦国乙女５ コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2091489729195999674",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-24T14:00:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ20ptb0AEKBJo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ20ptb0AEKBJo?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "8bf27a5f0140",
     "date": "2026-08-23",
     "time": "20:19",
@@ -556,5 +577,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQVBbGbbsAAu69x?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "828fc104e686",
+    "date": "2026-08-23",
+    "time": "11:00",
+    "store": "ダイナム西那須野店～since1995.12.02～",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "375",
+    "text": "昨日は #DGP取材 ご来店ありがとうございました  8/23(日)　#コンプリート 報告～ 375番台スマスロ 革命機ヴァルヴレイヴ２  おめでとうございます  今週もぜひぜひダイナム西那須野店へ お越しくださいませ #ヴヴヴ",
+    "x_url": "https://x.com/dynam_00042/status/2091707134908006860",
+    "store_handle": "dynam_00042",
+    "store_x_url": "https://x.com/dynam_00042",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-24T13:31:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQc8jL8WYAAutn2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQc8jL8WYAAutn2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   }
 ]
