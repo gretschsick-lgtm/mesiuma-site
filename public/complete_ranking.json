@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-25T01:55:38+09:00",
+  "generated_at": "2026-08-25T02:43:36+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1153,
+      "total_count": 1156,
       "stores": [
         {
           "rank": 1,
@@ -55,15 +55,15 @@
         },
         {
           "rank": 9,
-          "name": "楽園大宮店",
+          "name": "メガフェイス1450本山",
           "count": 11,
-          "x_url": "https://x.com/rakuen_ohmiya"
+          "x_url": "https://x.com/megaface_1450"
         },
         {
           "rank": 10,
-          "name": "テキサス白島店",
-          "count": 10,
-          "x_url": "https://x.com/texashakushima"
+          "name": "楽園大宮店",
+          "count": 11,
+          "x_url": "https://x.com/rakuen_ohmiya"
         }
       ],
       "slot_machines": [
@@ -757,15 +757,15 @@
       },
       {
         "rank": 9,
-        "name": "マルハンメガシティ三島駿東",
+        "name": "メガフェイス1450本山",
         "count": 43,
-        "x_url": "https://x.com/mega_mishima"
+        "x_url": "https://x.com/megaface_1450"
       },
       {
         "rank": 10,
-        "name": "メガフェイス1300淀川",
-        "count": 42,
-        "x_url": "https://x.com/megaface_1300"
+        "name": "マルハンメガシティ三島駿東",
+        "count": 43,
+        "x_url": "https://x.com/mega_mishima"
       }
     ],
     "slot_machines": [
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3472
+    "total_count": 3475
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
@@ -883,9 +883,9 @@
     "楽園池袋店ゲートウェイ": 49,
     "キクヤ春日井店": 47,
     "楽園大宮店": 45,
+    "メガフェイス1450本山": 43,
     "マルハンメガシティ三島駿東": 43,
     "メガフェイス1300淀川": 42,
-    "メガフェイス1450本山": 42,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 40,
     "メガフェイス1070菊陽": 38,
     "キクヤ一宮店": 37,
@@ -952,6 +952,7 @@
     "パラディソ古川ドルフィン館": 12,
     "マルハン仙台名坊店": 12,
     "T-MAX新栄店": 12,
+    "マルハンアプリはこちら": 12,
     "マルハン加島": 12,
     "マルハン甲府店": 12,
     "グランドホール港南店": 11,
@@ -960,7 +961,6 @@
     "玉屋∞本店": 11,
     "SUPER COSMO PREMIUM大東店": 11,
     "テキサス656山口店": 11,
-    "マルハンアプリはこちら": 11,
     "新！ガーデン川口安行": 10,
     "玉ノ助【パーラーダジュール公式】": 10,
     "GOGOアリーナ天神": 10,
@@ -1225,6 +1225,7 @@
     "ベガスベガスやまとまち店": 2,
     "MGM水戸店": 2,
     "Durham S-1": 2,
+    "プレゴ立川店": 2,
     "カネマン奥州1111": 2,
     "DSG ARENA 七尾店": 2,
     "やすだ幕張店": 2,
@@ -1387,7 +1388,6 @@
     "佐久店": 1,
     "キング観光熊野店": 1,
     "キコーナ阪神西宮店": 1,
-    "プレゴ立川店": 1,
     "ABC富士今泉店": 1,
     "ダイナム黒石店～SINCE1999.12.17～": 1,
     "タイホウ刈谷小垣江店": 1,
@@ -1560,8 +1560,8 @@
     "ZENT上地店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3061,
-    "records_without_store_id": 411,
+    "records_with_store_id": 3063,
+    "records_without_store_id": 412,
     "canonical_store_ids": 503
   }
 }
