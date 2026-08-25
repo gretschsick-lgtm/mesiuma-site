@@ -8152,13 +8152,15 @@
     "count": 0,
     "type": "store",
     "store_id": "06218fafcd",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/yasuda_maebashi",
-    "match_method": "exact_name",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "群馬県"
+    "canonical_pref": "群馬県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-25"
   },
   "yasuda_yamato36": {
     "store": "やすだ大和36店",
@@ -13199,13 +13201,15 @@
     "count": 0,
     "type": "store",
     "store_id": "df682259e7",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/yasuda_asaka",
-    "match_method": "exact_name",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "埼玉県"
+    "canonical_pref": "埼玉県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-25"
   },
   "GAIA_HTOTSUKA": {
     "store": "ガイア東戸塚店",
@@ -16642,13 +16646,15 @@
     "count": 0,
     "type": "store",
     "store_id": "b1add4b5c9",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/yasuda_kashiwa",
-    "match_method": "exact_name",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "千葉県"
+    "canonical_pref": "千葉県",
+    "canonical_handle": true,
+    "verified_at": "2026-08-25"
   },
   "dechau_touhoku": {
     "store": "カネマン盛岡南777",
@@ -30634,13 +30640,15 @@
     "count": 0,
     "type": "store",
     "store_id": "9f79ec8e96",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/yasuda_shimizu",
-    "match_method": "exact_name",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-25"
   },
   "sd_ueno": {
     "store": "スーパードーム上野",
