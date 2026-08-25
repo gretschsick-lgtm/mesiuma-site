@@ -368,6 +368,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
+    "id": "5a5a15e7fbdb",
+    "date": "2026-08-21",
+    "time": "19:30",
+    "store": "ダイナム矢本店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ダイナム矢本店です  本日、8/21 (金）コンプリート達成  　　　「チバリヨ2」  おめでとうございます この後も、楽しいが見つかる ダイナム矢本店でお楽しみ下さい #ダイナム 　#コンプリート",
+    "x_url": "https://x.com/dynam_00092/status/2090748265712988293",
+    "store_handle": "dynam_00092",
+    "store_x_url": "https://x.com/dynam_00092",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T13:54:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPUd86XUAAGVO0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPUd86XUAAGVO0?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "bbe066648477",
     "date": "2026-08-21",
     "time": "19:28",
