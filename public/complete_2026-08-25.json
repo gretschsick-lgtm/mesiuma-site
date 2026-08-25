@@ -40,5 +40,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQkLDSGaQAAwHU6?format=jpg&name=large",
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
+  },
+  {
+    "id": "b1b8ed826e9c",
+    "date": "2026-08-25",
+    "time": "20:20",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "235",
+    "text": "こんばんは メガシティ三島駿東です  ｅリコリス・リコイル 235番台  コンプリートです おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2092210378235130274",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T13:32:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQj_sova0AAwNZw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQj_sova0AAwNZw?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
   }
 ]
