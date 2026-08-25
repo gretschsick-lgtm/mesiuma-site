@@ -173,6 +173,27 @@
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
+    "id": "6c2f32e62b1a",
+    "date": "2026-08-23",
+    "time": "21:04",
+    "store": "マルハン甲府店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "60",
+    "text": "【速報-`⋆】 8月23日(日)  本日、2台目 60番台　e牙狼12黄金騎士極限  コンプリート(^-^)/ おめでとうございます｡·͜·｡｡·͜·｡｡·͜·｡  #マルハン甲府店",
+    "x_url": "https://x.com/maruhankofu/status/2091496697340064213",
+    "store_handle": "maruhankofu",
+    "store_x_url": "https://x.com/maruhankofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T15:23:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ9KQcbEAAAQ4r?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ9KQcbEAAAQ4r?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "4e733d1eb274",
     "date": "2026-08-23",
     "time": "20:54",
@@ -507,70 +528,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQZpzLzbsAE71Aj?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "bfcf6fe380a8",
-    "date": "2026-08-23",
-    "time": "19:25",
-    "store": "AISEN 二見店",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "30",
-    "text": "8月23日  20円スロットコーナー 30番台『からくりサーカス2』  にてコンプリート機能が作動しました！ ご遊技のお客様おめでとうございます！",
-    "x_url": "https://x.com/AISEN_hutami/status/2091471950652813576",
-    "store_handle": "aisen_hutami",
-    "store_x_url": "https://x.com/aisen_hutami",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-25T15:37:53Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQZmppLbMAAiLJN?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQZmppLbMAAiLJN?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
-    "store_id": "8bba89f2c2"
-  },
-  {
-    "id": "113b1da40661",
-    "date": "2026-08-23",
-    "time": "18:37",
-    "store": "キコーナ堺本店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "719",
-    "text": "キクヤ堺本店1515 コンプリートのご報告 719番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
-    "x_url": "https://x.com/ksakaihonten/status/2091459921024090127",
-    "store_handle": "ksakaihonten",
-    "store_x_url": "https://x.com/ksakaihonten",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-25T15:38:21Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQZbtI4a8AANSQ1?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQZbtI4a8AANSQ1?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "6b4ff60016f3",
-    "date": "2026-08-23",
-    "time": "18:30",
-    "store": "ダイナム高岡店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "380",
-    "text": "高岡店よりコンプリート報告  月日（日） 380番台　【L北斗の拳転生の章2】  コンプリーーーーートっ  おめでとうございます  #ダイナム",
-    "x_url": "https://x.com/dynam_00104/status/2091457947079451097",
-    "store_handle": "dynam_00104",
-    "store_x_url": "https://x.com/dynam_00104",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-25T14:09:37Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQZZ6grXgAAb0Rh?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQZZ6grXgAAb0Rh?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "a991b12abdfd",

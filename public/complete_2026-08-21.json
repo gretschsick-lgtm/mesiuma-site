@@ -67,27 +67,6 @@
     "machine_id": "bb41345e-6661-4274-84c7-58b0d8035681"
   },
   {
-    "id": "83335797c8dc",
-    "date": "2026-08-21",
-    "time": "22:23",
-    "store": "メガフェイス1450本山",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "machine_type": "slot",
-    "slot_number": "856",
-    "text": "コンプリート速報  ーー８月２１日ーー   856番台 スマスロ　ミリオンゴッド～神々の軌跡～  #コンプリート　達成です おめでとうございます  #スマスロミリオンゴッド～神々の軌跡～ #メガフェイス1450本山",
-    "x_url": "https://x.com/megaface_1450/status/2090791796343542226",
-    "store_handle": "megaface_1450",
-    "store_x_url": "https://x.com/megaface_1450",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-25T15:53:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQP7IJDagAAnY6h?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQP7IJDagAAnY6h?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
-  },
-  {
     "id": "bbc8fd09b19b",
     "date": "2026-08-21",
     "time": "21:58",
@@ -389,6 +368,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
+    "id": "5a5a15e7fbdb",
+    "date": "2026-08-21",
+    "time": "19:30",
+    "store": "ダイナム矢本店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ダイナム矢本店です  本日、8/21 (金）コンプリート達成  　　　「チバリヨ2」  おめでとうございます この後も、楽しいが見つかる ダイナム矢本店でお楽しみ下さい #ダイナム 　#コンプリート",
+    "x_url": "https://x.com/dynam_00092/status/2090748265712988293",
+    "store_handle": "dynam_00092",
+    "store_x_url": "https://x.com/dynam_00092",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T13:54:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPUd86XUAAGVO0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPUd86XUAAGVO0?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "bbe066648477",
     "date": "2026-08-21",
     "time": "19:28",
@@ -429,28 +429,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQPTwB1bAAA2Luk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "9280886a752f",
-    "date": "2026-08-21",
-    "time": "19:04",
-    "store": "楽園南越谷店",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "588",
-    "text": "588番台 L戦国乙女5 コンプリート達成 おめでとうございます  この後もごゆっくりお楽しみください #北越谷UNO",
-    "x_url": "https://x.com/UNO68501823/status/2090741898629767283",
-    "store_handle": "uno68501823",
-    "store_x_url": "https://x.com/uno68501823",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-25T15:53:44Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQPOoBbawAAfyDx?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQJiIVKaIAAnE8f?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQPOoBbawAAfyDx?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "6468b96d6431",

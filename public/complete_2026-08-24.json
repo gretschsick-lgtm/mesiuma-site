@@ -107,6 +107,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "dad5da256202",
+    "date": "2026-08-24",
+    "time": "20:23",
+    "store": "祇園店",
+    "machine": "スマスロ 沖ドキ！DUOアンコール",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは♪  先程 #L沖ドキＤＵＯアンコール にてコンプリート達成  おめでとうございます  明日も皆様のご来店お待ちしております  #コンプリート #テキサス祇園店",
+    "x_url": "https://x.com/texasgion1755/status/2091848775593845233",
+    "store_handle": "texasgion1755",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-25T15:23:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQe9XsEbQAAu_CT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQe9XsEbQAAu_CT?format=jpg&name=large",
+    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb"
+  },
+  {
     "id": "d870e312f576",
     "date": "2026-08-24",
     "time": "20:05",
@@ -170,22 +191,5 @@
     "image_url": "https://pbs.twimg.com/media/HQd1zsRasAE85yx?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
     "store_id": "30980119a2"
-  },
-  {
-    "id": "1be43924441b",
-    "date": "2026-08-24",
-    "time": "11:21",
-    "store": "ネクストニューヨークイレブン店",
-    "machine": "スロット ソードアート・オンラインⅡ",
-    "machine_type": "slot",
-    "slot_number": "523",
-    "text": "コンプリート達成おめでとうございます  ニューヨーク枕崎店から 【523番台】ソードアート・オンラインⅡ 見事コンプリート達成 さすが枕崎店 グループ店からの嬉しい報告にテンション上がります 本当におめでとうございます この勢いにイレブン店も続くぞー #コンプリート",
-    "x_url": "https://x.com/nextnewyork11/status/2091712470406819921",
-    "store_handle": "nextnewyork11",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-25T16:08:13Z",
-    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   }
 ]
