@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-25T08:07:58+09:00",
+  "generated_at": "2026-08-25T09:03:37+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1165,
+      "total_count": 1166,
       "stores": [
         {
           "rank": 1,
@@ -105,7 +105,7 @@
         {
           "rank": 8,
           "name": "スマスロ攻殻機動隊",
-          "count": 30
+          "count": 31
         },
         {
           "rank": 9,
@@ -812,7 +812,7 @@
       {
         "rank": 9,
         "name": "スマスロ攻殻機動隊",
-        "count": 64
+        "count": 65
       },
       {
         "rank": 10,
@@ -872,7 +872,7 @@
         "count": 13
       }
     ],
-    "total_count": 3484
+    "total_count": 3485
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
@@ -1541,6 +1541,7 @@
     "まるみつ鹿屋店": 1,
     "ミリオン鴨島店": 1,
     "都八幡店": 1,
+    "ピータイム津嘉山": 1,
     "ヒノマル用賀店": 1,
     "コンサートホール志村": 1,
     "メガコンコルド1220名古屋みなと23号通り店": 1,
@@ -1564,8 +1565,8 @@
     "ニラク武蔵村山伊奈平店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3071,
+    "records_with_store_id": 3072,
     "records_without_store_id": 413,
-    "canonical_store_ids": 506
+    "canonical_store_ids": 507
   }
 }

@@ -703,6 +703,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "24f7156696ae",
+    "date": "2026-08-19",
+    "time": "10:27",
+    "store": "ピータイム津嘉山",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "皆様おはようございます  昨日スマスロ　#L攻殻機動隊 にて 19000pt over コンプリート達成  おめでとうございます  本日もご来店お待ちしております  #ピータイム津嘉山 #コンプリート",
+    "x_url": "https://x.com/Ptime_tsukazan/status/2090249208259600843",
+    "store_handle": "ptime_tsukazan",
+    "store_x_url": "https://x.com/Ptime_tsukazan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T00:02:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQIKrCSbMAAUkSF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQIKrsxbwAE9dha?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQIKrCSbMAAUkSF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "145ded762c9f",
     "date": "2026-08-19",
     "time": "07:30",
