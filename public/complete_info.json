@@ -492,6 +492,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
+    "id": "50d76badfd37",
+    "date": "2026-08-23",
+    "time": "20:54",
+    "store": "スーパーD'ステーション39諫早店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "686",
+    "text": "コンプリート速報  686番台「Lからくりサーカス2」 おめでとうございます 初代から爆発力は健在ですね  「東京喰種」や「GOD」なども万枚突破 盛り上がっております  日曜日、お時間の許す限りお楽しみください  #諫早 #Ｄステ #コンプリート #からくりサーカス",
+    "x_url": "https://x.com/dsisahaya/status/2091494253352648794",
+    "store_handle": "dsisahaya",
+    "store_x_url": "https://x.com/dsisahaya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T18:09:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ02RTb0AAatiW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ02RTb0AAatiW?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "56fd6399795c",
     "date": "2026-08-23",
     "time": "20:47",
@@ -570,6 +591,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQZ20ptb0AEKBJo?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "d3c1eabf333e",
+    "date": "2026-08-23",
+    "time": "20:32",
+    "store": "コンコルド浜松木戸店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "2628",
+    "text": "コンプリートのご報告  Ｌかぐや様は告らせたい 2628番台 お名前：そめ様  ひと言：「耐えました」  おめでとうございます 明日も木戸店へのご来店 お待ちしております",
+    "x_url": "https://x.com/Concorde_kido/status/2091488839894495460",
+    "store_handle": "concorde_kido",
+    "store_x_url": "https://x.com/concorde_kido",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T18:08:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZ1-GGbsAApGST?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQEaSLXbsAAroi1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZ1-GGbsAApGST?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
     "id": "b3f39b6e5e02",
@@ -2900,6 +2943,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQKyBNJbIAAcpnk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "c7aa41b8f3ff",
+    "date": "2026-08-20",
+    "time": "22:16",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2087",
+    "text": "こんばんは！       楽園池袋店ゲートウェイです   本日、8月20日(木)   4円パチンココーナーから    2087番台　 【e牙狼12　黄金騎士極限】  コンプリート機能が作動いたしました  本日は遊技台停止となります。 申し訳ございません。 #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2090427788071440586",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T17:53:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQKuks5akAAwSao?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQKuks5akAAwSao?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "3f1ad843ef7b",
