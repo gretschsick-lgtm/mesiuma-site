@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-25T23:08:27+09:00",
+  "generated_at": "2026-08-25T23:49:42+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1180,
+      "total_count": 1181,
       "stores": [
         {
           "rank": 1,
@@ -44,7 +44,7 @@
         {
           "rank": 7,
           "name": "楽園池袋店ゲートウェイ",
-          "count": 12,
+          "count": 13,
           "x_url": "https://x.com/rakuenikebukuro"
         },
         {
@@ -74,7 +74,7 @@
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 73
+          "count": 74
         },
         {
           "rank": 3,
@@ -93,13 +93,13 @@
         },
         {
           "rank": 6,
-          "name": "Lチバリヨ2ZB",
+          "name": "L真打吉宗",
           "count": 39
         },
         {
           "rank": 7,
-          "name": "L真打吉宗",
-          "count": 39
+          "name": "Lチバリヨ2ZB",
+          "count": 38
         },
         {
           "rank": 8,
@@ -131,7 +131,7 @@
         {
           "rank": 3,
           "name": "e牙狼12",
-          "count": 65
+          "count": 66
         },
         {
           "rank": 4,
@@ -732,15 +732,15 @@
       },
       {
         "rank": 5,
-        "name": "テキサス小倉店",
+        "name": "楽園池袋店ゲートウェイ",
         "count": 50,
-        "x_url": "https://x.com/texas_kokura"
+        "x_url": "https://x.com/rakuenikebukuro"
       },
       {
         "rank": 6,
-        "name": "楽園池袋店ゲートウェイ",
-        "count": 49,
-        "x_url": "https://x.com/rakuenikebukuro"
+        "name": "テキサス小倉店",
+        "count": 50,
+        "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 7,
@@ -776,7 +776,7 @@
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 192
+        "count": 193
       },
       {
         "rank": 3,
@@ -796,7 +796,7 @@
       {
         "rank": 6,
         "name": "Lチバリヨ2ZB",
-        "count": 76
+        "count": 75
       },
       {
         "rank": 7,
@@ -828,7 +828,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 241
+        "count": 242
       },
       {
         "rank": 3,
@@ -871,15 +871,15 @@
         "count": 13
       }
     ],
-    "total_count": 3499
+    "total_count": 3500
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
     "ダイナム岐阜関緑町店~Since2023.12.28~": 63,
     "プレイランドキャッスル春日井店": 54,
     "キング観光サウザンド栄若宮大通店": 52,
+    "楽園池袋店ゲートウェイ": 50,
     "テキサス小倉店": 50,
-    "楽園池袋店ゲートウェイ": 49,
     "キクヤ春日井店": 49,
     "楽園大宮店": 45,
     "メガフェイス1450本山": 44,
@@ -1565,7 +1565,7 @@
     "スーパーD'ステーション大間々店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3081,
+    "records_with_store_id": 3082,
     "records_without_store_id": 418,
     "canonical_store_ids": 507
   }
