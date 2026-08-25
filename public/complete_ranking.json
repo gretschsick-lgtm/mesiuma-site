@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T01:54:47+09:00",
+  "generated_at": "2026-08-26T02:44:09+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1185,
+      "total_count": 1187,
       "stores": [
         {
           "rank": 1,
@@ -14,7 +14,7 @@
         {
           "rank": 2,
           "name": "キコーナ堺本店",
-          "count": 23,
+          "count": 24,
           "x_url": "https://x.com/ksakaihonten"
         },
         {
@@ -43,15 +43,15 @@
         },
         {
           "rank": 7,
-          "name": "楽園池袋店ゲートウェイ",
-          "count": 12,
-          "x_url": "https://x.com/rakuenikebukuro"
+          "name": "メガフェイス1450本山",
+          "count": 13,
+          "x_url": "https://x.com/megaface_1450"
         },
         {
           "rank": 8,
-          "name": "メガフェイス1450本山",
+          "name": "楽園池袋店ゲートウェイ",
           "count": 12,
-          "x_url": "https://x.com/megaface_1450"
+          "x_url": "https://x.com/rakuenikebukuro"
         },
         {
           "rank": 9,
@@ -84,7 +84,7 @@
         {
           "rank": 4,
           "name": "Lミリオンゴッド神々の軌跡",
-          "count": 43
+          "count": 44
         },
         {
           "rank": 5,
@@ -757,7 +757,7 @@
       {
         "rank": 9,
         "name": "メガフェイス1450本山",
-        "count": 44,
+        "count": 45,
         "x_url": "https://x.com/megaface_1450"
       },
       {
@@ -786,7 +786,7 @@
       {
         "rank": 4,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 112
+        "count": 113
       },
       {
         "rank": 5,
@@ -871,7 +871,7 @@
         "count": 13
       }
     ],
-    "total_count": 3504
+    "total_count": 3506
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
@@ -882,7 +882,7 @@
     "楽園池袋店ゲートウェイ": 49,
     "キクヤ春日井店": 49,
     "楽園大宮店": 45,
-    "メガフェイス1450本山": 44,
+    "メガフェイス1450本山": 45,
     "マルハンメガシティ三島駿東": 44,
     "メガフェイス1300淀川": 42,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 40,
@@ -899,9 +899,9 @@
     "ダイナム長野上田店": 29,
     "メガフェイス960飯塚": 26,
     "パチンコの玉屋∞本店": 26,
+    "キコーナ堺本店": 26,
     "キクヤ穂積店": 25,
     "グランキコーナひたちなか店": 25,
-    "キコーナ堺本店": 25,
     "新ガーデン西浦和": 24,
     "マルハン仙台苦竹店": 23,
     "マルハンメガシティ柏": 23,
@@ -1566,8 +1566,8 @@
     "スーパーD'ステーション大間々店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3085,
-    "records_without_store_id": 419,
+    "records_with_store_id": 3086,
+    "records_without_store_id": 420,
     "canonical_store_ids": 508
   }
 }
