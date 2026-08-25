@@ -43,6 +43,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
+    "id": "49fa9f90e6d3",
+    "date": "2026-08-24",
+    "time": "21:45",
+    "store": "マルハンアプリはこちら",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "726",
+    "text": "【726番台】  【L スマスロ北斗の拳 転生の章2】 コンプリート達成    おめでとうございます   データを確認できる マルハンアプリはこちらから  https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/higashisanjo/status/2091869381735452837",
+    "store_handle": "higashisanjo",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-25T09:07:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQfOUt0bIAAlvku?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQfOUt0bIAAlvku?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
+    "id": "e840600f5071",
+    "date": "2026-08-24",
+    "time": "20:47",
+    "store": "スーパーD'ステーション大間々店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "90",
+    "text": "速報 e牙狼12黄金騎士極限  90番台コンプリート達成です おめでとうございます",
+    "x_url": "https://x.com/d_oomama/status/2091854932643385482",
+    "store_handle": "d_oomama",
+    "store_x_url": "https://x.com/d_oomama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T09:07:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQfC34BawAEuJCm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQfC34BawAEuJCm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "d870e312f576",
     "date": "2026-08-24",
     "time": "20:05",
