@@ -1,24 +1,23 @@
 [
   {
-    "id": "1a651ea68950",
+    "id": "9bd1395dab2f",
     "date": "2026-08-25",
-    "time": "15:18",
-    "store": "ディーボ小坂店【公式】アカウント",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "390",
-    "text": "流石の高純増１５時でのコンプリート達成。 Lヴァルヴレイヴ2  390番台   おめでとうございます",
-    "x_url": "https://x.com/divo_x_kosaka/status/2092134600894296161",
-    "store_handle": "divo_x_kosaka",
-    "store_x_url": "https://x.com/divo_x_kosaka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-25T10:44:07Z",
+    "time": "20:40",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは コンプリート速報です  ただいま ｅ女神のカフェテラス コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2092215661997236326",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-25T11:51:11Z",
     "images": [
-      "https://pbs.twimg.com/media/HQjBVBwaEAAcRSt?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQeze4WaYAAk7bV?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HQkLDSGaQAAwHU6?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HQjBVBwaEAAcRSt?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
+    "image_url": "https://pbs.twimg.com/media/HQkLDSGaQAAwHU6?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   }
 ]
