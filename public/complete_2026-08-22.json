@@ -387,6 +387,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "6c0b3f043ef1",
+    "date": "2026-08-22",
+    "time": "21:24",
+    "store": "ワンダーランド西新",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "2110",
+    "text": "コンプリート速報 【2110番台】 チバリヨ2 complete達成！！！！  おめでとうございます",
+    "x_url": "https://x.com/wl_nishijin/status/2091139321734533625",
+    "store_handle": "wl_nishijin",
+    "store_x_url": "https://x.com/wl_nishijin",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-25T15:53:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQU1hrObgAAhOEU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQU1hrObgAAhOEU?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "6438f0957d73",
     "date": "2026-08-22",
     "time": "21:20",
