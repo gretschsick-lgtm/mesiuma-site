@@ -387,6 +387,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "85a762bd231a",
+    "date": "2026-08-22",
+    "time": "21:32",
+    "store": "ダイナム栃木岩舟店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "479",
+    "text": "こんばんは、ご覧ください コンプリート チバリヨ２　479番台の出来事です おめでとうございます  ＧＥＴ表示がコンプでしか見られないＣＰ表示 すごい  ８月は誕生月間 明日も是非皆様のご来店お待ちしております",
+    "x_url": "https://x.com/dynam_00165/status/2091141494652784861",
+    "store_handle": "dynam_00165",
+    "store_x_url": "https://x.com/dynam_00165",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T17:01:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQU4TsobsAA_QIK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQU4WFJbcAAyd1n?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQU4TsobsAA_QIK?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "6c0b3f043ef1",
     "date": "2026-08-22",
     "time": "21:24",

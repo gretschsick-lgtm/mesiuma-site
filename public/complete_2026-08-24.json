@@ -1,5 +1,27 @@
 [
   {
+    "id": "b3a87043dbea",
+    "date": "2026-08-24",
+    "time": "23:35",
+    "store": "グランワールドカップ本巣店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日もご来店ありがとうございました 【e牙狼12黄金騎士極限】 コンプリート達成おめでとうございます その他の気になる結果は【台データ】をCHECK そして明日は―― 【トイレットペーパー販売会】開催 明日も皆さまのご来店をお待ちしております",
+    "x_url": "https://x.com/gwcmotosu/status/2091897064104042807",
+    "store_handle": "gwcmotosu",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-26T17:15:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQfOzcYbMAAPMNa?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQfPYztbQAAP2dF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQfOzcYbMAAPMNa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "45126a0e7bfc",
     "date": "2026-08-24",
     "time": "23:30",
@@ -257,23 +279,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "c4a23ef79201",
-    "date": "2026-08-24",
-    "time": "18:26",
-    "store": "ピーアーク北綾瀬駅前",
-    "machine": "Lミリオンゴッド神々の軌跡",
-    "machine_type": "slot",
-    "slot_number": "1007",
-    "text": "8/24(月) ピーアーク北綾瀬駅前  Lミリオンゴッド 1007番台  コンプリート達成  ｻｽｶﾞｶﾐｻﾏ…ｵﾒﾃﾞﾄｳ  #スロット #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
-    "x_url": "https://x.com/ParkPkunGarden/status/2091819359668953434",
-    "store_handle": "parkpkungarden",
-    "store_x_url": "https://x.com/ParkPkunGarden",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-26T16:00:48Z",
-    "machine_id": "11111111-1111-1111-1111-000000000004"
-  },
-  {
     "id": "30f5d77201c4",
     "date": "2026-08-24",
     "time": "16:42",
@@ -358,5 +363,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQh7zs3XYAAGCRO?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
+    "id": "09cbb27ae243",
+    "date": "2026-08-24",
+    "time": "00:16",
+    "store": "くいーぷ東戸塚店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "166",
+    "text": "週末からくりサーカス２から万枚達成 そして本日やじきた道中記からコンプリート達成まであと177枚！惜しいような、大して変わらないからいいやってなるような？まあ兎にも角にもおめでとうございます なんとこのやじきた166番台は前日にも万枚達成しています、なかなかやりますね",
+    "x_url": "https://x.com/quipu_higato/status/2091907472940576792",
+    "store_handle": "quipu_higato",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-26T17:15:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQfxQAnbgAAK9j7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQfxRzmakAADxIA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQfxTHcbEAAUsQV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQfxQAnbgAAK9j7?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   }
 ]
