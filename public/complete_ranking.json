@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T18:12:33+09:00",
+  "generated_at": "2026-08-26T19:12:10+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1198,
+      "total_count": 1200,
       "stores": [
         {
           "rank": 1,
@@ -109,7 +109,7 @@
         {
           "rank": 9,
           "name": "スロット ソードアート・オンラインⅡ",
-          "count": 29
+          "count": 30
         },
         {
           "rank": 10,
@@ -155,18 +155,18 @@
         },
         {
           "rank": 8,
-          "name": "eカケグルイ",
+          "name": "eバイオハザード6",
           "count": 6
         },
         {
           "rank": 9,
-          "name": "eひきこまり吸血姫の悶々",
+          "name": "eカケグルイ",
           "count": 6
         },
         {
           "rank": 10,
-          "name": "eエヴァ17はじまりR",
-          "count": 5
+          "name": "eひきこまり吸血姫の悶々",
+          "count": 6
         }
       ]
     },
@@ -801,7 +801,7 @@
       {
         "rank": 7,
         "name": "スロット ソードアート・オンラインⅡ",
-        "count": 70
+        "count": 71
       },
       {
         "rank": 8,
@@ -868,10 +868,10 @@
       {
         "rank": 10,
         "name": "eバイオハザード6",
-        "count": 13
+        "count": 14
       }
     ],
-    "total_count": 3517
+    "total_count": 3519
   },
   "store_complete_counts": {
     "ARROW浪速店": 67,
@@ -1565,11 +1565,13 @@
     "ZENT上地店": 1,
     "ニラク武蔵村山伊奈平店": 1,
     "パーラーゾーン姪浜": 1,
-    "スーパーD'ステーション大間々店": 1
+    "マルハン古河北店メガネ役職者": 1,
+    "スーパーD'ステーション大間々店": 1,
+    "ネクストニューヨークイレブン店": 1
   },
   "store_id_coverage": {
     "records_with_store_id": 3096,
-    "records_without_store_id": 421,
+    "records_without_store_id": 423,
     "canonical_store_ids": 510
   }
 }
