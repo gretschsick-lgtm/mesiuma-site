@@ -514,6 +514,27 @@
     "store_id": "c8ce6d1db9"
   },
   {
+    "id": "fa9d5d706d9a",
+    "date": "2026-08-22",
+    "time": "19:44",
+    "store": "つかさ菊陽店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "581",
+    "text": "#つかさ菊陽店　 #8月22日  コンプリート   L革命機ヴァルヴレイヴ2 　　　　５８１番台",
+    "x_url": "https://x.com/kikuyo_tsukasa/status/2091114343031349590",
+    "store_handle": "kikuyo_tsukasa",
+    "store_x_url": "https://x.com/kikuyo_tsukasa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T14:48:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQUhaOvakAAheHy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQUhaOvakAAheHy?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "ea51d9e1119f",
     "date": "2026-08-22",
     "time": "19:42",
