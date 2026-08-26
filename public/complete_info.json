@@ -1277,6 +1277,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "3d78d8bf3c2f",
+    "date": "2026-08-23",
+    "time": "08:00",
+    "store": "羅木店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "112",
+    "text": "PSJ綾羅木店です  8月23日（日）  パチンココーナー  【コンプリート達成】  牙狼12黄金騎士極限 112番台  おめでとうございます",
+    "x_url": "https://x.com/psj_ayaragi/status/2091661767147499561",
+    "store_handle": "psj_ayaragi",
+    "store_x_url": "https://x.com/psj_ayaragi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T02:55:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQaMkqIaMAA6Bju?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQaMmDNaIAA4A35?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQaMkqIaMAA6Bju?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "98df8fecd214",
     "date": "2026-08-23",
     "time": "00:29",
