@@ -1,5 +1,47 @@
 [
   {
+    "id": "e3aa8bd73095",
+    "date": "2026-08-26",
+    "time": "22:42",
+    "store": "マルハン盛岡みたけ店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "662",
+    "text": "マルハン盛岡みたけ店です  8/26（水）22:30  662番台 e東京喰種 超デカ超一撃ver.  コンプリート機能発動 #コンプリート",
+    "x_url": "https://x.com/maruhan_morioka/status/2092608687764611268",
+    "store_handle": "maruhan_morioka",
+    "store_x_url": "https://x.com/maruhan_morioka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T19:51:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpvd9DbYAAP4EF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpvd9DbYAAP4EF?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "e9b3f8571abb",
+    "date": "2026-08-26",
+    "time": "22:40",
+    "store": "キャッスル記念橋南店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "2208",
+    "text": "コンプリート機能発動 ！！  本日８月２６日（水）  ２２０８番台   スマスロ甲鉄城のカバネリ海門決戦にて    コンプリート機能発動！！          明日開放予定になります。         明日も キャッスル記念橋南店 で       お楽しみくださいませ！！",
+    "x_url": "https://x.com/kinenbashi1010/status/2092608191897219154",
+    "store_handle": "kinenbashi1010",
+    "store_x_url": "https://x.com/kinenbashi1010",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T19:32:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpwDsSbIAAbUhg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpwDsSbIAAbUhg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "7138c8c43f34",
     "date": "2026-08-26",
     "time": "22:25",

@@ -21,6 +21,69 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "c2173c07fa51",
+    "date": "2026-08-25",
+    "time": "22:32",
+    "store": "キクヤ穂積店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "420",
+    "text": "キクヤ穂積店 コンプリートのご報告 420番台 e牙狼１２ 黄金騎士極限 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/hozumi1202/status/2092243640454369394",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T19:41:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkkfXqaEAAUjnC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkkfXqaEAAUjnC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "0da38cd6d35f",
+    "date": "2026-08-25",
+    "time": "22:30",
+    "store": "スーパーD'ステーション39福岡本店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "976",
+    "text": "コンプリート速報  ★☆★☆★☆★☆★☆★  976番台 L戦国乙女5からまたまたコンプリート！！ ご遊技されていたお客様 おめでとうございます  ★☆★☆★☆★☆★☆★ #Dステーション福岡本店 #パチンコスロット",
+    "x_url": "https://x.com/sd_fhonten/status/2092243096226423076",
+    "store_handle": "sd_fhonten",
+    "store_x_url": "https://x.com/sd_fhonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T19:41:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkirlFacAErRWS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkirlFacAErRWS?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "00a02ee026a9",
+    "date": "2026-08-25",
+    "time": "22:25",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "733",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 733番台 【Lパチスロ 革命機ヴァルヴレイヴ2】 ななななななななななんと本日3台目 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2092241859078979930",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T19:41:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkii9kb0AAqrWd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkii9kb0AAqrWd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "10f0cf5703bf",
     "date": "2026-08-25",
     "time": "21:01",
@@ -148,6 +211,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQjsj9LacAAev5L?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000022"
+  },
+  {
+    "id": "f8879a35d5a0",
+    "date": "2026-08-25",
+    "time": "18:11",
+    "store": "キコーナ堺本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "15",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 15番台 【e牙狼12黄金騎士極限】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2092178083533262880",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T19:50:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQjovvkb0AA1Nl9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQjovvkb0AA1Nl9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "db4e80787652",
