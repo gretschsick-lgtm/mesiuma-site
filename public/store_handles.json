@@ -9558,13 +9558,15 @@
     "count": 0,
     "type": "store",
     "store_id": "1b1c874f02",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/espaceseibu1",
-    "match_method": "exact_name",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-26"
   },
   "ESPACE_akasaka1": {
     "store": "エスパス日拓赤坂見附駅前店",
@@ -9572,13 +9574,15 @@
     "count": 0,
     "type": "store",
     "store_id": "74067fd9c2",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/ESPACE_akasaka1",
-    "match_method": "exact_name",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-26"
   },
   "cafemahalo25": {
     "store": "パラディソ涌谷店",
@@ -33247,13 +33251,15 @@
     "count": 0,
     "type": "store",
     "store_id": "72d9d292a8",
-    "verification_status": "candidate",
-    "evidence_type": "public_x_profile",
+    "verification_status": "verified",
+    "evidence_type": "canonical_x_url",
     "evidence_url": "https://x.com/espace3939",
-    "match_method": "normalized_unique",
+    "match_method": "x_url_evidence",
     "rejection_reason": "needs_official_source_confirmation",
     "is_active": true,
-    "canonical_pref": "東京都"
+    "canonical_pref": "東京都",
+    "canonical_handle": true,
+    "verified_at": "2026-08-26"
   },
   "gfujiwaras": {
     "store": "ガイア藤原スロット館",
@@ -34941,7 +34947,7 @@
     "evidence_type": "public_x_profile",
     "evidence_url": "https://x.com/ESPACE_akasaka_",
     "match_method": "exact_name",
-    "rejection_reason": "needs_official_source_confirmation",
+    "rejection_reason": "store_has_other_official_x",
     "is_active": true,
     "canonical_pref": "東京都"
   },
