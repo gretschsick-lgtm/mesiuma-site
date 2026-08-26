@@ -171,6 +171,50 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "2f4198232e5b",
+    "date": "2026-08-24",
+    "time": "20:47",
+    "store": "エクスアリーナ柏",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "515",
+    "text": "エクスアリーナ柏よりお知らせ⋆͛⋆ 『攻殻機動隊』515番台 コンプリート機能発動となりました  ご遊技のお客様おめでとうございます>  明日も10時00分より営業予定となっております。 たくさんの御来店お待ちしておりますm(*_ _)m #エクスアリーナ柏  #コンプリート #攻殻機動隊",
+    "x_url": "https://x.com/arenakashiwa/status/2091854823104893128",
+    "store_handle": "arenakashiwa",
+    "store_x_url": "https://x.com/arenakashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T13:02:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQfCZy6bYAAtXbQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQfCZy6bYAAtXbQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "075c9c37fc3f",
+    "date": "2026-08-24",
+    "time": "20:45",
+    "store": "16MGM勿来・錦店！東北1号店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "10",
+    "text": "コンプリート速報  昨日より 店内シャフルで1ぱちに移動になった 10番台　eリコリス・リコイルにて コンプリート発生 おめでとうございます またのチャレンジお待ちしております  明日 年月日(水) 朝時オープン予定  サンスポホール取材 白土屋さんジャンボシュー入荷",
+    "x_url": "https://x.com/16mgm_nakoso/status/2092216872653684782",
+    "store_handle": "16mgm_nakoso",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-26T14:03:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkAwS7aAAA_Fyp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQkAxe9bkAA7z0g?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQkAz2gbgAAeAc4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkAwS7aAAA_Fyp?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "dad5da256202",
     "date": "2026-08-24",
     "time": "20:23",

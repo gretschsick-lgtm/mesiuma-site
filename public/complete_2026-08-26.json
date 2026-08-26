@@ -1,45 +1,24 @@
 [
   {
-    "id": "98d125333b8c",
+    "id": "7138c8c43f34",
     "date": "2026-08-26",
-    "time": "19:51",
-    "store": "キクヤ長良店",
-    "machine": "L東京喰種",
-    "machine_type": "slot",
-    "slot_number": "268",
-    "text": "コンプリート報告  268番台L東京喰種 おめでとうございます",
-    "x_url": "https://x.com/nagara315/status/2092565718344843647",
-    "store_handle": "nagara315",
-    "store_x_url": "https://x.com/nagara315",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-26T13:15:38Z",
+    "time": "22:25",
+    "store": "マルハン入間店 パワ店イッチー",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "135",
+    "text": "こんばんはマルハン入間店 パワ店イッチーです  コンプリート達成 135番台ｅ牙狼１２ＸＸ－ＭＪ  おめでとうございます 明日もマルハン入間店へ ご来店お待ちしております",
+    "x_url": "https://x.com/marujagten/status/2092604362573177120",
+    "store_handle": "marujagten",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marujagten",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-26T13:54:59Z",
     "images": [
-      "https://pbs.twimg.com/media/HQpJZuRboAAUZcd?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HQpskSVaAAA5eYI?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HQpJZuRboAAUZcd?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000006"
-  },
-  {
-    "id": "2594cb953485",
-    "date": "2026-08-26",
-    "time": "18:55",
-    "store": "キコーナ鶴見",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "本日8/26（水） L北斗の拳 転生の章2より   コンプリート達成 おめでとうございます♪  #つぶやキコーナ #グランキコーナ鶴見",
-    "x_url": "https://x.com/gkicona_turumi/status/2092551469241340096",
-    "store_handle": "gkicona_turumi",
-    "store_x_url": "https://x.com/gkicona_turumi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-26T10:32:21Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQo8aZLbQAAntL4?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQo8aZLbQAAntL4?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "image_url": "https://pbs.twimg.com/media/HQpskSVaAAA5eYI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "b8d0fdf1db23",
@@ -55,7 +34,7 @@
     "store_x_url": "https://x.com/space666tobata",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-26T10:47:12Z",
+    "collected_at": "2026-08-26T11:32:30Z",
     "images": [
       "https://pbs.twimg.com/media/HQo0dPnbUAAfKlX?format=jpg&name=large"
     ],
