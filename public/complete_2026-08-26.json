@@ -21,6 +21,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "26c3168ce3da",
+    "date": "2026-08-26",
+    "time": "20:31",
+    "store": "新ガーデン西浦和",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "155",
+    "text": "コンプリート発生  155番台 e牙狼12黄金騎士極限 コンプリート達成！  おめでとうございます  この後に続く台はあるのか…",
+    "x_url": "https://x.com/g_nishiurawa/status/2092575645364851163",
+    "store_handle": "g_nishiurawa",
+    "store_x_url": "https://x.com/g_nishiurawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T16:04:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpSS3ZaoAAmfo_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpSS3ZaoAAmfo_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "98d125333b8c",
+    "date": "2026-08-26",
+    "time": "19:51",
+    "store": "キクヤ長良店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "268",
+    "text": "コンプリート報告  268番台L東京喰種 おめでとうございます",
+    "x_url": "https://x.com/nagara315/status/2092565718344843647",
+    "store_handle": "nagara315",
+    "store_x_url": "https://x.com/nagara315",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-26T16:03:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpJZuRboAAUZcd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpJZuRboAAUZcd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "b8d0fdf1db23",
     "date": "2026-08-26",
     "time": "18:21",
