@@ -256,6 +256,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "9b4504d1f86b",
+    "date": "2026-08-25",
+    "time": "17:57",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1406",
+    "text": "本日2台目のコンプ 1406番台 L革命機ヴァルヴレイヴ２ おめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2092174615758123300",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T03:31:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQjluTgaoAAwPp5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQjluTgaoAAwPp5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "db4e80787652",
     "date": "2026-08-25",
     "time": "17:28",

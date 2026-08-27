@@ -560,6 +560,27 @@
     "store_id": "960fb27133"
   },
   {
+    "id": "cc3753ee15e6",
+    "date": "2026-08-21",
+    "time": "18:00",
+    "store": "スーパーD'ステーション39日向店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "464",
+    "text": "なんとなんと 3日間連続でコンプリート達成台が登場  本日は… 464番台 e東京喰種 コンプリート達成 おめでとうございます  この後19時より ファン感謝デーお楽しみ抽選会がスタートします 皆様のご来店をお待ちしております",
+    "x_url": "https://x.com/superD_hyuga/status/2090725596355874970",
+    "store_handle": "superd_hyuga",
+    "store_x_url": "https://x.com/superd_hyuga",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T03:15:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQO_rifaQAA5Nhp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQO_rifaQAA5Nhp?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "90bedc4adc4c",
     "date": "2026-08-21",
     "time": "16:56",

@@ -84,6 +84,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "98d125333b8c",
+    "date": "2026-08-26",
+    "time": "19:51",
+    "store": "キクヤ長良店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "268",
+    "text": "コンプリート報告  268番台L東京喰種 おめでとうございます",
+    "x_url": "https://x.com/nagara315/status/2092565718344843647",
+    "store_handle": "nagara315",
+    "store_x_url": "https://x.com/nagara315",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T03:02:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpJZuRboAAUZcd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpJZuRboAAUZcd?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "86ff2f8c233e",
     "date": "2026-08-26",
     "time": "19:01",
