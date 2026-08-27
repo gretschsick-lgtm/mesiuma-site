@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-27T12:40:09+09:00",
+  "generated_at": "2026-08-27T14:01:52+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1235,
+      "total_count": 1237,
       "stores": [
         {
           "rank": 1,
@@ -38,7 +38,7 @@
         {
           "rank": 6,
           "name": "ARROW浪速店",
-          "count": 14,
+          "count": 15,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
@@ -121,7 +121,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 186
+          "count": 187
         },
         {
           "rank": 2,
@@ -710,7 +710,7 @@
       {
         "rank": 1,
         "name": "ARROW浪速店",
-        "count": 67,
+        "count": 68,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -823,7 +823,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 428
+        "count": 429
       },
       {
         "rank": 2,
@@ -871,10 +871,10 @@
         "count": 15
       }
     ],
-    "total_count": 3554
+    "total_count": 3556
   },
   "store_complete_counts": {
-    "ARROW浪速店": 67,
+    "ARROW浪速店": 68,
     "ダイナム岐阜関緑町店~Since2023.12.28~": 64,
     "プレイランドキャッスル春日井店": 55,
     "キング観光サウザンド栄若宮大通店": 53,
@@ -1145,6 +1145,7 @@
     "123+N和歌山本店": 3,
     "記念橋南店": 3,
     "DSG WORLD豊田店": 3,
+    "アイランド足利店": 3,
     "グランワールドカップ伊勢店": 3,
     "ビックつばめ須賀川店": 3,
     "ワンダーランド西新": 3,
@@ -1233,7 +1234,6 @@
     "やすだ幕張店": 2,
     "ABC清水町長沢店": 2,
     "ゾーン本城店　〜zoneグループ本店〜": 2,
-    "アイランド足利店": 2,
     "PIA津田沼": 2,
     "アミューズ豊中店": 2,
     "マルハン高浜店": 2,
@@ -1578,7 +1578,7 @@
     "キクヤ堺北店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3122,
+    "records_with_store_id": 3124,
     "records_without_store_id": 432,
     "canonical_store_ids": 515
   }
