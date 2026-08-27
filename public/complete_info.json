@@ -43,6 +43,27 @@
     "store_id": "7671933905"
   },
   {
+    "id": "23cf90dc72c9",
+    "date": "2026-08-27",
+    "time": "19:50",
+    "store": "楽園柏店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "790",
+    "text": "こんばんは 楽園柏店です。  19時45分 【790番台】 【eリコリス・リコイル】 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/kashiwa_rakuen/status/2092927742379774301",
+    "store_handle": "kashiwa_rakuen",
+    "store_x_url": "https://x.com/kashiwa_rakuen",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T22:43:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQuSOKrbkAAegWp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQuSOKrbkAAegWp?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "1af154b7bbbc",
     "date": "2026-08-27",
     "time": "19:31",
