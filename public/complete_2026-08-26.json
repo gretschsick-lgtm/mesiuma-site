@@ -126,6 +126,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000010"
   },
   {
+    "id": "5a7741b3997b",
+    "date": "2026-08-26",
+    "time": "18:26",
+    "store": "サンドラ大塚店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "401",
+    "text": "こんばんは～ #ニュー今津屋入谷店 です  『L革命機ヴァルヴレイヴ２：401番台』 コンプリート おめでとうございます  コンプリートしたのが16時30分 さすがヴァルヴレイヴ２ですね～",
+    "x_url": "https://x.com/imazuya_iriya/status/2092544077111714261",
+    "store_handle": "imazuya_iriya",
+    "store_x_url": "https://x.com/imazuya_iriya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T15:22:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQo0XwmbgAA0vqC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQo0XwmbgAA0vqC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "b8d0fdf1db23",
     "date": "2026-08-26",
     "time": "18:21",
@@ -146,6 +167,50 @@
     "image_url": "https://pbs.twimg.com/media/HQo0dPnbUAAfKlX?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "f8132a1307"
+  },
+  {
+    "id": "9e1134502510",
+    "date": "2026-08-26",
+    "time": "17:44",
+    "store": "ワンダーランド百年橋店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "1328",
+    "text": "【コンプリート速報】 はやくも2台がコンプリート  1328番台　Lかぐや様は告らせたい 1404番台　Lからくりサーカス2 ご遊技のお客様、コンプリートおめでとうございます",
+    "x_url": "https://x.com/wl_hyakunen/status/2092533665435910501",
+    "store_handle": "wl_hyakunen",
+    "store_x_url": "https://x.com/wl_hyakunen",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T15:22:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQosJJ4aIAAsm0x?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQosKQlawAAlCEu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQosJJ4aIAAsm0x?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
+    "id": "3b383ce214f9",
+    "date": "2026-08-26",
+    "time": "17:44",
+    "store": "ワンダーランド百年橋店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【コンプリート速報】 はやくも2台がコンプリート  1328番台　Lかぐや様は告らせたい 1404番台　Lからくりサーカス2 ご遊技のお客様、コンプリートおめでとうございます",
+    "x_url": "https://x.com/wl_hyakunen/status/2092533665435910501",
+    "store_handle": "wl_hyakunen",
+    "store_x_url": "https://x.com/wl_hyakunen",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T15:22:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQosJJ4aIAAsm0x?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQosKQlawAAlCEu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQosJJ4aIAAsm0x?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "ff5eb68fa98e",
