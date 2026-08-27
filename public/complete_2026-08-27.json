@@ -1,5 +1,26 @@
 [
   {
+    "id": "26eb42a878b0",
+    "date": "2026-08-27",
+    "time": "21:00",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "250",
+    "text": "250番台 ヴァルヴレイヴ2 コンプリートおめでとうございます",
+    "x_url": "https://x.com/315kasugai/status/2092945305146917139",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-27T17:07:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQuiPFgbAAAiRtE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQuiPFgbAAAiRtE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "2fc8a728a3f4",
     "date": "2026-08-27",
     "time": "20:01",
