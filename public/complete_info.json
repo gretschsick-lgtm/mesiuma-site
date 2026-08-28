@@ -64,6 +64,27 @@
     "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65"
   },
   {
+    "id": "2722953e5e48",
+    "date": "2026-08-28",
+    "time": "15:24",
+    "store": "タウン半田店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "ビニーから報告でーす ｅリコリス•リコイルから コンプリート達成 いつか私もコンプさせたいっ 達成されたお客様おめでとございます  #周年月間 #コンプリート報告 #オーギヤタウン半田店",
+    "x_url": "https://x.com/ogiya_handa/status/2093223100523618467",
+    "store_handle": "ogiya_handa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T22:49:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQyfS3EbwAAj7mx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQyfS3EbwAAj7mx?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "ae85d2603b41",
     "date": "2026-08-28",
     "time": "11:00",
@@ -425,6 +446,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQpvd9DbYAAP4EF?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "7f2c8c7b3352",
+    "date": "2026-08-26",
+    "time": "22:42",
+    "store": "都城店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは！ ☆コンプリート達成☆  スマパチコーナー eフィーバーキン肉マン  おめでとうございまーす  明日、皆様のご来店を お待ち致しております  #マルハン都城店 #コンプリート #スマパチ",
+    "x_url": "https://x.com/miyakonojo930/status/2092608742265348153",
+    "store_handle": "miyakonojo930",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T23:22:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpwGW4bMAA_9mX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpwGW4bMAA_9mX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
     "id": "e9b3f8571abb",
@@ -3708,6 +3750,27 @@
     "image_url": "https://pbs.twimg.com/media/HQUmQaBbwAAUaKS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "f18c79adbf"
+  },
+  {
+    "id": "306accd55ccf",
+    "date": "2026-08-22",
+    "time": "19:56",
+    "store": "ビックマーチつくば学園の森店スタッフ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日もご来店、ありがとうございます！     なんと『ｅ牙狼１２黄金騎士極限』で コンプリート達成 おめでとうございます  明日はファン感謝デー最終日 つくばのお祭りにも負けないくらい盛り上げていきます お待ちしております  #パチンコ #スロット  #ビックマーチ  #つくば #学園の森",
+    "x_url": "https://x.com/bm_gakumori/status/2091117212765663415",
+    "store_handle": "bm_gakumori",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/bm_gakumori",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-28T23:21:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQUhlBjaIAAtvpF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQUhlBjaIAAtvpF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "af7558fceddf",
