@@ -107,6 +107,27 @@
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
+    "id": "0a8798aaf756",
+    "date": "2026-08-27",
+    "time": "18:24",
+    "store": "マルハンメガシティ伊勢崎",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "16",
+    "text": "ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!  e牙狼12黄金騎士極限  16番台ご遊技のお客様より コンプリート達成報告  おめでとうございます  店内まだまだ盛り上がってます お仕事終わりの皆様もｯ このあとメガシティでお待ちしております  #牙狼　#コンプリート　#マルハン",
+    "x_url": "https://x.com/isesaki_maruhan/status/2092906038135844909",
+    "store_handle": "isesaki_maruhan",
+    "store_x_url": "https://x.com/isesaki_maruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-28T03:55:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQt-nT9a0AADmgp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQt-nT9a0AADmgp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "2cbc3e143b44",
     "date": "2026-08-27",
     "time": "14:28",
@@ -951,6 +972,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "f3a0de6a4bca",
+    "date": "2026-08-25",
+    "time": "08:00",
+    "store": "周南店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おはようございます テキサス周南店です。   本日の営業のご案内です。   創 業 月 間 月日(水) 全館９時開店  入場抽選は8時40分開始    昨日Lミリオンゴッド コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/TEXASSHUNAN/status/2092386550537482264",
+    "store_handle": "texasshunan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T04:26:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQlCDxqaYAEIZ5Y?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQlCSW5bQAEpE9u?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQlCVlMbAAAcsvk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQlCDxqaYAEIZ5Y?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
     "id": "99844d6ea191",
     "date": "2026-08-25",
     "time": "03:13",
@@ -1486,6 +1530,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQfxQAnbgAAK9j7?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
+    "id": "5dea53603b6a",
+    "date": "2026-08-23",
+    "time": "23:40",
+    "store": "メガフェイス1250",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月23日結果発表  【20円スロット】  チバリヨ２ 沖ドキ！DUO 戦国乙女　４ のベストが10000ptオーバー 【4円パチンコ】   コンプリート達成のe無職転生 e牙狼　12 eF　機動戦士ガンダムSEED がランクイン！おめでとうございます 明日のランクイン報告もお楽しみに！",
+    "x_url": "https://x.com/megaface_1250/status/2091536085696541073",
+    "store_handle": "megaface_1250",
+    "store_x_url": "https://x.com/megaface_1250",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-28T04:09:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQafXsHawAAnWER?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQafYNJa8AAeyEs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQafXsHawAAnWER?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "a93708c7bc8e",
