@@ -88,6 +88,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
+    "id": "e56c6a5a8cbf",
+    "date": "2026-08-21",
+    "time": "22:15",
+    "store": "マルハン甲府店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "110",
+    "text": "【速報】 本日、8月21日(金)  110番台　e東京喰種  コンプリートꪔ̤̮ꪔ̤̮ꪔ̤̮ꪔ̤̮ꪔ̤̮  おめでとうございます  #マルハン甲府店",
+    "x_url": "https://x.com/maruhankofu/status/2090789983347208389",
+    "store_handle": "maruhankofu",
+    "store_x_url": "https://x.com/maruhankofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-28T12:45:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQP6aCmagAA4XvQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQP6aCmagAA4XvQ?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "bbc8fd09b19b",
     "date": "2026-08-21",
     "time": "21:58",

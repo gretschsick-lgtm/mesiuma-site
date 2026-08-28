@@ -1,0 +1,45 @@
+[
+  {
+    "id": "e618e6b75441",
+    "date": "2026-08-28",
+    "time": "20:12",
+    "store": "パラッツォ船橋店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "2069",
+    "text": "コンプリート達成 2069番台　Ｌ炎炎ノ消防隊２  この後の時間もまだまだイクぜ",
+    "x_url": "https://x.com/palazzo_funa/status/2093295656647745957",
+    "store_handle": "palazzo_funa",
+    "store_x_url": "https://x.com/palazzo_funa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-28T12:45:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzhJuDbQAAXSy2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQzhLbMaYAEMB_N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzhJuDbQAAXSy2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
+    "id": "167c57ddab73",
+    "date": "2026-08-28",
+    "time": "19:19",
+    "store": "店長あらた　マルハンメガシティ長野",
+    "machine": "スマスロ 東京リベンジャーズ",
+    "machine_type": "slot",
+    "slot_number": "57",
+    "text": "本日1台目のコンプリートは 57番台 L東京リベンジャーズより  羨ましい、、  コンプリートお見事です おめでとうございます",
+    "x_url": "https://x.com/aratanarutentyo/status/2093282331574608356",
+    "store_handle": "aratanarutentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/aratanarutentyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-28T12:31:40Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2093282064384872448/img/pAn0cXbS0eHmluds.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2093282064384872448/img/pAn0cXbS0eHmluds.jpg?format=jpg&name=large",
+    "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65"
+  }
+]
