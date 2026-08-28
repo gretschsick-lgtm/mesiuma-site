@@ -503,6 +503,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "f3a0de6a4bca",
+    "date": "2026-08-25",
+    "time": "08:00",
+    "store": "周南店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おはようございます テキサス周南店です。   本日の営業のご案内です。   創 業 月 間 月日(水) 全館９時開店  入場抽選は8時40分開始    昨日Lミリオンゴッド コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/TEXASSHUNAN/status/2092386550537482264",
+    "store_handle": "texasshunan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T02:06:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQlCDxqaYAEIZ5Y?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQlCSW5bQAEpE9u?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQlCVlMbAAAcsvk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQlCDxqaYAEIZ5Y?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
     "id": "99844d6ea191",
     "date": "2026-08-25",
     "time": "03:13",
