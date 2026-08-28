@@ -259,6 +259,27 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "4033f20b3944",
+    "date": "2026-08-21",
+    "time": "21:11",
+    "store": "エナジー@e・Zone1111",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月21日（金） スマスロ 戦国乙女5より コンプリート達成 打っていたお客様おめでとう そしてありがとう #イーゾーン1111富山 #エンパワーイーゾーン",
+    "x_url": "https://x.com/ENERGYTENTYO/status/2090773782533411109",
+    "store_handle": "energytentyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/ENERGYTENTYO",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-28T02:20:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQPrqxjbUAA5Nf9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQPrqxjbUAA5Nf9?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "fd266e2fdcec",
     "date": "2026-08-21",
     "time": "21:06",
@@ -686,6 +707,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQO_rifaQAA5Nhp?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "bf4bc706784f",
+    "date": "2026-08-21",
+    "time": "17:49",
+    "store": "トホール",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "79",
+    "text": "COMPLETE達成 79番台 e牙狼12黄金騎士極限  さすが牙狼 黄金騎士は伊達じゃない  この後も皆さまのご来店 お待ちしております！  #コンプリート達成  #パチンコ  #コンサートホール調布",
+    "x_url": "https://x.com/chofu_1217/status/2090722992863289706",
+    "store_handle": "chofu_1217",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T02:49:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQO9BSraUAAckkP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQO9BSraUAAckkP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "90bedc4adc4c",
