@@ -106,6 +106,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "296c5c197ba2",
+    "date": "2026-08-25",
+    "time": "22:12",
+    "store": "やすだ大和36店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "e牙狼12  コンプリート達成  おめでとうございます  #コンプリート  #やすだ大和店",
+    "x_url": "https://x.com/yasuda_yamato36/status/2092238692874408249",
+    "store_handle": "yasuda_yamato36",
+    "store_x_url": "https://x.com/yasuda_yamato36",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-28T06:33:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkf_28bsAAOABP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkf_28bsAAOABP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "61391755759b",
     "date": "2026-08-25",
     "time": "22:10",
