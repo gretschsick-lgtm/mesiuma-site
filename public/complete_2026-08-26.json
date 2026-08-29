@@ -150,6 +150,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
+    "id": "9cebef0a28a1",
+    "date": "2026-08-26",
+    "time": "21:48",
+    "store": "りっちらんど上尾",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "～ りっちらんど速報 ～                      スロット 　                 　番台            【ヴァルヴレイヴ2】               コンプリート  　　　  致しました    ❖━━━━━━━━━━━━━━━❖  　目指すは、毎日来たい店",
+    "x_url": "https://x.com/richland_ageo/status/2092594958352126033",
+    "store_handle": "richland_ageo",
+    "store_x_url": "https://x.com/richland_ageo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T20:17:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpkAdsa4AANhb6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpkAdsa4AANhb6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "99d8cbedc9d7",
     "date": "2026-08-26",
     "time": "21:00",
