@@ -1,5 +1,26 @@
 [
   {
+    "id": "312b4f3fcaa4",
+    "date": "2026-08-26",
+    "time": "23:26",
+    "store": "スーパーD'ステーション39福岡本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1024",
+    "text": "コンプリート速報  ★☆★☆★☆★☆★☆★  1024番台 ヴァルヴレイヴ2よりコンプリート発生！！ ご遊技されていたお客様おめでとうございます  ★☆★☆★☆★☆★☆★ #Dステーション福岡本店 #パチンコスロット",
+    "x_url": "https://x.com/sd_fhonten/status/2092619701151236280",
+    "store_handle": "sd_fhonten",
+    "store_x_url": "https://x.com/sd_fhonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T04:47:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQp6hVYbgAASjMA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQp6hVYbgAASjMA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "789d5e590c2a",
     "date": "2026-08-26",
     "time": "23:19",
@@ -106,6 +127,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQpskSVaAAA5eYI?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "419bb6bc3e3c",
+    "date": "2026-08-26",
+    "time": "21:52",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "1858",
+    "text": "1858番台　L甲鉄城のカバネリ 海門決戦 コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2092596050288894419",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T04:20:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpk_vfaoAAyzX1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpk_vfaoAAyzX1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
     "id": "99d8cbedc9d7",
@@ -427,6 +469,27 @@
     "image_url": "https://pbs.twimg.com/media/HQofPW1bcAAngUH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "3a60c5ae00"
+  },
+  {
+    "id": "123c6d3fbccf",
+    "date": "2026-08-26",
+    "time": "15:29",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "3158",
+    "text": "3158番台　Lパチスロ 革命機ヴァルヴレイヴ2 コンプリート機能が発動しましたので 遊技台停止となります。 明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2092499630181470458",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T04:20:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQoNO-makAAhr1M?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQoNO-makAAhr1M?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "ff5eb68fa98e",
