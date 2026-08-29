@@ -424,6 +424,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "372bbad3335a",
+    "date": "2026-08-27",
+    "time": "13:00",
+    "store": "パラッツォ藤沢南店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "1087",
+    "text": "８月２７日（木） 本日”も”９：００開店  昨日のコンプリート報告 ２０円スロット 機種名：Ｌ炎炎ノ消防隊２ 台番号：１０８７番台 おめでとうございます  毎日楽しみがそこにある 本日”も”ご来店お待ちしております♪  パラッツォ藤沢南店",
+    "x_url": "https://x.com/palazzo_minami/status/2092824424261246991",
+    "store_handle": "palazzo_minami",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T10:32:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQsc6kXbwAAUvI_?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQsdJj8aoAAhLrh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQsc6kXbwAAUvI_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
     "id": "3733f0825417",
     "date": "2026-08-27",
     "time": "09:00",

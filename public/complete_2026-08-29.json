@@ -1,5 +1,48 @@
 [
   {
+    "id": "057973f919c6",
+    "date": "2026-08-29",
+    "time": "17:49",
+    "store": "D'station花園",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1089",
+    "text": "1089番台 L北斗の拳転生の章2  ＼コンプリート達成/ おめでとうございます  この後のお時間も ご来店お待ちしております  #花園 #Dステ #北斗 #コンプリート",
+    "x_url": "https://x.com/D_hanazonoten/status/2093622129212506520",
+    "store_handle": "d_hanazonoten",
+    "store_x_url": "https://x.com/d_hanazonoten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T11:04:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4KLI9bQAAB_QF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4KLI9bQAAB_QF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "33b48926a2"
+  },
+  {
+    "id": "043fd357e773",
+    "date": "2026-08-29",
+    "time": "17:20",
+    "store": "スーパーD'ステーション39佐々インター店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "46",
+    "text": "【コンプリート達成】  46番台e牙狼12XX-MJコンプリート  おめでとうでございます",
+    "x_url": "https://x.com/d_sazainter/status/2093614663560986720",
+    "store_handle": "d_sazainter",
+    "store_x_url": "https://x.com/d_sazainter",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T11:04:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4DbAubAAA613U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4DbAubAAA613U?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "a4580b099e73",
     "date": "2026-08-29",
     "time": "09:11",
