@@ -1,5 +1,70 @@
 [
   {
+    "id": "2e396ce54246",
+    "date": "2026-08-29",
+    "time": "23:58",
+    "store": "ARROW浪速店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "190",
+    "text": "本日、  eカケグルイ 7500ver　190番台  真打 吉宗　952番台   コンプリート達成おめでとうございます  #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2093715025047519657",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:31:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5eNQNaMAEEGgD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ5ePcaboAAd6UB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5eNQNaMAEEGgD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "731320496d99",
+    "date": "2026-08-29",
+    "time": "22:48",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "233",
+    "text": "233番台  攻殻機動隊 コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2093697283804286979",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:15:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5Ok_ybIAAoU-e?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5Ok_ybIAAoU-e?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "0789fa4173f1",
+    "date": "2026-08-29",
+    "time": "22:20",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "586",
+    "text": "コンプリート機能発動  先ほど５８６番台  スマスロ革命機ヴァルヴレイヴ２にて   コンプリート機能発動！！         明日開放予定になります。       明日も #キャッスル春日井 で      お楽しみください！",
+    "x_url": "https://x.com/castle_kasugai/status/2093690281451491367",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:15:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5ILuVbcAIDxQz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5ILuVbcAIDxQz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "be4dcb031074",
     "date": "2026-08-29",
     "time": "21:12",
@@ -21,6 +86,49 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "10cc18aea5d3",
+    "date": "2026-08-29",
+    "time": "20:13",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "699",
+    "text": "699番台ヴヴヴ2にてコンプリート達成  おめでとうございます  そして明日は8月ラストの週末  マラソン大会で交通規制があるようですが  頑張ればどこかしらから来れます  明日もお待ちしております",
+    "x_url": "https://x.com/eagle_c_tencho/status/2093658225392726304",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-29T16:15:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4rDwlaAAAbU6n?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ4rDwra0AAd3b-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4rDwlaAAAbU6n?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "27f3e87685a3",
+    "date": "2026-08-29",
+    "time": "20:06",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "420",
+    "text": "マルハンメガシティ水戸赤塚！ L戦国乙女5　420番台よりコンプリート！！ おめでとうございます！  #420番台",
+    "x_url": "https://x.com/maruhanakatsuka/status/2093656523906191406",
+    "store_handle": "maruhanakatsuka",
+    "store_x_url": "https://x.com/maruhanakatsuka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:47:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4pe4QawAAcSVz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4pe4QawAAcSVz?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "add230d86ca7",
     "date": "2026-08-29",
     "time": "19:49",
@@ -40,6 +148,70 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ4lD5iawAAA5t3?format=jpg&name=large",
     "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b"
+  },
+  {
+    "id": "a79ea2fb0ad3",
+    "date": "2026-08-29",
+    "time": "19:31",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "2118",
+    "text": "こんばんは！       楽園池袋店ゲートウェイです  本日、8月29日(土) パチンココーナーから   2118番台　 【e牙狼12　黄金騎士極限 】   コンプリート機能が作動いたしました 本日は遊技台停止となります  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2093647662331601196",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:15:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4flMVbsAAMdA2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4flMVbsAAMdA2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "2e8981158720",
+    "date": "2026-08-29",
+    "time": "19:09",
+    "store": "つかさ月隈店（公式）",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 店内まだまだ盛り上がってます  【　チバリヨ2　】 　　　　　からなんと コンプリート達成  　　　ご遊技されてた方 　おめでとうございます  最終最後のお時間まで ごゆっくりとお楽しみ下さい",
+    "x_url": "https://x.com/TSUKASA1200T/status/2093642141117657151",
+    "store_handle": "tsukasa1200t",
+    "store_x_url": "https://x.com/tsukasa1200t",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:46:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4cZGFaAAEU-S7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4cZGFaAAEU-S7?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "fb284056613b",
+    "date": "2026-08-29",
+    "time": "19:07",
+    "store": "フェイス850佐賀",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "818",
+    "text": "本日も沢山のご来店ありがとうございます。  e牙狼12の８１８番台よりコンプリート達成おめでとうございます。  本日はランキング取材。スロットも頑張って盛り上げていきましょう。  #コンプリート #FACE８５０佐賀",
+    "x_url": "https://x.com/face_850/status/2093641781640647066",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:46:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4cGZpbYAAftA9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ4cGZna4AE4d1C?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4cGZpbYAAftA9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "057973f919c6",
@@ -275,6 +447,48 @@
     ],
     "image_url": "https://pbs.twimg.com/amplify_video_thumb/2093282064384872448/img/pAn0cXbS0eHmluds.jpg?format=jpg&name=large",
     "machine_id": "1a683f1f-aecd-47a8-a89e-52f91b13ff65"
+  },
+  {
+    "id": "140f8a6584de",
+    "date": "2026-08-28",
+    "time": "19:17",
+    "store": "キコーナ守口",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "502",
+    "text": "こんばんは  本日、502番台e牙狼12黄金騎士極限 にてコンプリート達成(੭*ˊᵕˋ)੭  おめでとうございます  この後の皆様のご来店も お待ちしております(´ฅω•ฅ｀) #つぶやキコーナ #キコーナ守口 #コンプリート報告",
+    "x_url": "https://x.com/K32066445/status/2093281786466017619",
+    "store_handle": "k32066445",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T16:46:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzTVe6a8AAeYva?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzTVe6a8AAeYva?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "1d7f180c1bd3",
+    "date": "2026-08-28",
+    "time": "19:02",
+    "store": "タウン半田店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "なんと！ 本日3台目のコンプリート報告でーす  e東京喰種　超デカ超一撃ver.  コンプリート達成  999分の1でも突破すれば破壊力抜群！  おめでとうございます  #コンプリート報告 #オーギヤタウン半田店 #ゴールデンビニー",
+    "x_url": "https://x.com/ogiya_handa/status/2093277920747999517",
+    "store_handle": "ogiya_handa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T16:46:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzRLBybUAANePt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzRLBybUAANePt?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "2722953e5e48",
@@ -2612,6 +2826,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
+    "id": "eb84559a48ff",
+    "date": "2026-08-24",
+    "time": "09:00",
+    "store": "ダイナム鹿児島伊集院店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "727",
+    "text": "8月23日　Ｌ鋼鉄城のカバネリ海門決戦　 727番台にてコンプリート！！ おめでとうございますっ  #ダイナム　#カバネリ　#コンプリート",
+    "x_url": "https://x.com/dynam_00428/status/2091676945696055597",
+    "store_handle": "dynam_00428",
+    "store_x_url": "https://x.com/dynam_00428",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:15:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQchGQRWEAAVy5N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQchGQRWEAAVy5N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "09cbb27ae243",
     "date": "2026-08-24",
     "time": "00:16",
@@ -2807,6 +3042,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQaIdv8aAAAiEtS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000016"
+  },
+  {
+    "id": "c7e428c6fdb6",
+    "date": "2026-08-23",
+    "time": "21:28",
+    "store": "プレイランドキャッスル大曽根店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "582",
+    "text": "コンプリート機能発動   582番台　 スマスロ戦国乙女５にて コンプリート機能発動  明日開放予定になります。 この後のお時間も #キャッスル大曽根 で  お楽しみください",
+    "x_url": "https://x.com/castle_ozone/status/2091502849654149509",
+    "store_handle": "castle_ozone",
+    "store_x_url": "https://x.com/castle_ozone",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:47:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQaCmmOaAAAIA-6?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQaCmmOaAAAIA-6?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "ec8afd9f6146",
@@ -3271,6 +3527,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQZbtI4a8AANSQ1?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "6b4ff60016f3",
+    "date": "2026-08-23",
+    "time": "18:30",
+    "store": "ダイナム高岡店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "380",
+    "text": "高岡店よりコンプリート報告  月日（日） 380番台　【L北斗の拳転生の章2】  コンプリーーーーートっ  おめでとうございます  #ダイナム",
+    "x_url": "https://x.com/dynam_00104/status/2091457947079451097",
+    "store_handle": "dynam_00104",
+    "store_x_url": "https://x.com/dynam_00104",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:15:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZZ6grXgAAb0Rh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZZ6grXgAAb0Rh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "a991b12abdfd",
@@ -29579,634 +29856,5 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HOmEg6zXwAASqFg?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
-  },
-  {
-    "id": "ea7a16f981f6",
-    "date": "2026-07-30",
-    "time": "23:25",
-    "store": "グランキコーナ松原店",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "1039",
-    "text": "1039番台「L戦国乙女5」にて コンプリート機能作動！  最近多すぎる…  本能寺じゃなくておでが燃えちゃう  #つぶやキコーナ #グランマ #グランキコーナ松原店",
-    "x_url": "https://x.com/kicona_matsubra/status/2082834967026172102",
-    "store_handle": "kicona_matsubra",
-    "store_x_url": "https://x.com/kicona_matsubra",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T15:17:27Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOe3R7iaoAAo2Qt?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOe3R7iaoAAo2Qt?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
-  },
-  {
-    "id": "991695c74e30",
-    "date": "2026-07-30",
-    "time": "22:58",
-    "store": "ＭＪアリーナ干隈店",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "283",
-    "text": "閉店ギリギリ滑り込みー   本日7月30日　　　　  L戦国乙女5　283番台  コンプリート達成 おめでとうございます",
-    "x_url": "https://x.com/mjhosikuma/status/2082828211101286847",
-    "store_handle": "mjhosikuma",
-    "store_x_url": "https://x.com/mjhosikuma",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-30T15:28:12Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOexJhyakAAXIcV?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOexJhyakAAXIcV?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
-    "store_id": "2b4d471207"
-  },
-  {
-    "id": "0930a81f9bfe",
-    "date": "2026-07-30",
-    "time": "22:44",
-    "store": "弘前石渡店",
-    "machine": "Lチバリヨ2ZB",
-    "machine_type": "slot",
-    "slot_number": "482",
-    "text": "マルハン弘前石渡店です  7/30(木) 20時20分  482番台 Lチバリヨ2ZB  コンプリート達成 おめでとうございます！",
-    "x_url": "https://x.com/maruhannotencho/status/2082824553894654303",
-    "store_handle": "maruhannotencho",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-02T19:22:58Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOet4zNbsAACMt1?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOet4zNbsAACMt1?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000014"
-  },
-  {
-    "id": "e7d9764ec42f",
-    "date": "2026-07-30",
-    "time": "22:40",
-    "store": "ダイナム山口宇部港町店＠加熱式たばこOK！～Since ",
-    "machine": "L炎炎ノ消防隊2",
-    "machine_type": "slot",
-    "slot_number": "191",
-    "text": "◆　7月30日（木）　◆   【Ｌ炎炎ノ消防隊２】191番台   コンプリート達成     おめでとうございます    台データは公式LINEからご確認いただけます   #ダイナム　 #宇部港町　 #コンプリート",
-    "x_url": "https://x.com/dynam_00414/status/2082823595202372030",
-    "store_handle": "dynam_00414",
-    "store_x_url": "https://x.com/dynam_00414",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-03T16:20:12Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOetBTEXoAA8okc?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOetBTEXoAA8okc?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000003"
-  },
-  {
-    "id": "b349d27b0bc2",
-    "date": "2026-07-30",
-    "time": "21:40",
-    "store": "メガフェイス960飯塚",
-    "machine": "eカケグルイ",
-    "machine_type": "pachinko",
-    "slot_number": "213",
-    "text": "速報  ただいま213番台 eカケグルイより  コンプリート達成  おめでとうございます！  思い通りにいかないからこそ この世界は面白いのですから・・・♡ #メガフェイス960飯塚　#コンプリート達成",
-    "x_url": "https://x.com/megaface_960/status/2082808618580390007",
-    "store_handle": "megaface_960",
-    "store_x_url": "https://x.com/megaface_960",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-01T19:35:59Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOefC5BbEAAbyrh?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOefC5BbEAAbyrh?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000035"
-  },
-  {
-    "id": "baf501b27bfe",
-    "date": "2026-07-30",
-    "time": "21:01",
-    "store": "マルハン加島",
-    "machine": "いざ！番長",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 7/28  Lモンハン-Lマギレコ ⇒753-758番台  Lいざ番長 ⇒868-873番台  L北斗の拳 転生の章2 ⇒1091-1096番台  LマイジャグラーV ⇒1153-1158番台  ネオアイムジャグラー ⇒1244-1249番台  ゴーゴージャグラー3 ⇒1264-1269番台  .",
-    "x_url": "https://x.com/TOKKOU_KANSAI/status/2082798844971004088",
-    "store_handle": "tokkou_kansai",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-03T00:15:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJ0nAdqaYAQBbnT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
-    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
-  },
-  {
-    "id": "281ae15f8f3c",
-    "date": "2026-07-30",
-    "time": "21:01",
-    "store": "マルハン加島",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 7/28  Lモンハン-Lマギレコ ⇒753-758番台  Lいざ番長 ⇒868-873番台  L北斗の拳 転生の章2 ⇒1091-1096番台  LマイジャグラーV ⇒1153-1158番台  ネオアイムジャグラー ⇒1244-1249番台  ゴーゴージャグラー3 ⇒1264-1269番台  .",
-    "x_url": "https://x.com/TOKKOU_KANSAI/status/2082798844971004088",
-    "store_handle": "tokkou_kansai",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-03T00:15:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJ0nAdqaYAQBbnT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
-  },
-  {
-    "id": "4352a13d7638",
-    "date": "2026-07-30",
-    "time": "21:01",
-    "store": "マルハン加島",
-    "machine": "ゴーゴージャグラー3",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "マルハン加島　⑵ . 鬼黄取材2 直近結果 . 7/28  Lモンハン-Lマギレコ ⇒753-758番台  Lいざ番長 ⇒868-873番台  L北斗の拳 転生の章2 ⇒1091-1096番台  LマイジャグラーV ⇒1153-1158番台  ネオアイムジャグラー ⇒1244-1249番台  ゴーゴージャグラー3 ⇒1264-1269番台  .",
-    "x_url": "https://x.com/TOKKOU_KANSAI/status/2082798844971004088",
-    "store_handle": "tokkou_kansai",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-03T00:15:24Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HJ0nAdqaYAQBbnT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOeWgeya4AE7PWr?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000026"
-  },
-  {
-    "id": "1170657722e2",
-    "date": "2026-07-30",
-    "time": "20:39",
-    "store": "ガイア川崎スロット専門店",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "ゲツマツ前にｷﾀ━━━━(ﾟ∀ﾟ)━━━━!!  ガイア川崎スロット専門店 月日F番台 L からくりサーカス コンプリート機能作動  まだまだこの後の時間もお楽しみを #コンプ #からくりサーカス2 #川崎 #スロット",
-    "x_url": "https://x.com/GAIA_KAWASAKIS/status/2082793075211133319",
-    "store_handle": "gaia_kawasakis",
-    "store_x_url": "https://x.com/gaia_kawasakis",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-01T22:59:56Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOePpE4b0AE8AK8?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOePpE4b0AE8AK8?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
-  },
-  {
-    "id": "407cb90e912a",
-    "date": "2026-07-30",
-    "time": "19:57",
-    "store": "店長の左肘ツヨシ",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "63",
-    "text": "本日メガシティ水戸赤塚から コンプリート達成しました お客様、おめでとうございます #63番台 #e牙狼黄金騎士極限",
-    "x_url": "https://x.com/Naru_Maruhan/status/2082782624435822975",
-    "store_handle": "naru_maruhan",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-05T16:05:49Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOeHvhXaoAAKgya?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HObAAK_acAAihop?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOeHvhXaoAAKgya?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "3ed366a192dc",
-    "date": "2026-07-30",
-    "time": "19:57",
-    "store": "天王寺ホール本館",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "速報速報速報速報  Lヴァルヴレイヴ2からコンプリート達成 お客様おめでとうございます  明日は月末テンホ  ジャンバリ潜入来店取材 　　　　　 1ヶ月からくりVSヴヴヴ 　　生活収録  #PR #パチンコ #スロット #大阪 #天王寺",
-    "x_url": "https://x.com/tennoji_hall/status/2082782581939171567",
-    "store_handle": "tennoji_hall",
-    "store_x_url": "https://x.com/tennoji_hall",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-06T08:20:06Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOeHVqZboAAsbjg?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOeHmGUboAAHupc?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOeHoRlbsAAy0Wz?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOeHVqZboAAsbjg?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "cb35b0552a6c",
-    "date": "2026-07-30",
-    "time": "19:53",
-    "store": "マルハンメガシティ水戸赤塚",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "63",
-    "text": "e牙狼12黄金騎士極限よりコンプリート達成！！ おめでとうございます #63番台",
-    "x_url": "https://x.com/maruhanakatsuka/status/2082781606641885273",
-    "store_handle": "maruhanakatsuka",
-    "store_x_url": "https://x.com/maruhanakatsuka",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-03T06:56:43Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOeGeKbbAAA02MP?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOeGeKbbAAA02MP?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "acb595a96a09",
-    "date": "2026-07-30",
-    "time": "19:28",
-    "store": "SUPER COSMO PREMIUM大東店",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "【速報】  スマパチ 【e東京喰種　超デカ一撃ver】 コンプリート達成 おめでとうございます！  グラフを見る限り初当りも軽く  継続率50％とは思えない  継続率ですね(;'∀')  #東京喰種999 #コンプリート #スマパチ #東京喰種",
-    "x_url": "https://x.com/SCPdaitou/status/2082775243756847500",
-    "store_handle": "scpdaitou",
-    "store_x_url": "https://x.com/scpdaitou",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-31T15:44:47Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOd_2Ypa8AALwzL?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOd_3DGasAIVnSN?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOd_2Ypa8AALwzL?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
-    "store_id": "8ea13b6c57"
-  },
-  {
-    "id": "136711a326a4",
-    "date": "2026-07-30",
-    "time": "19:08",
-    "store": "ダイナム（自動発掘）",
-    "machine": "eフィーバーキン肉マン",
-    "machine_type": "pachinko",
-    "slot_number": "265",
-    "text": "#ダイナム 長野茅野店です  とうとう当店もパチンコにて 初のコンプリート達成  2パチンコ 265番台「eフィーバーキン肉マン」  #コンプリート達成 おめでとうございます ヽ(〃’▽’〃)ノ☆゜’・:*☆オメデトォ♪  これからのお時間もご来店お待ちしております  #店長のつぶやき",
-    "x_url": "https://x.com/dynam_00248/status/2082770225477337111",
-    "store_handle": "dynam_00248",
-    "store_x_url": "https://x.com/dynam_00248",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-01T19:34:59Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOd8et7WwAA_Nyb?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOd8e54XMAAD5OY?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOd8et7WwAA_Nyb?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000031"
-  },
-  {
-    "id": "f2031f57623e",
-    "date": "2026-07-30",
-    "time": "18:46",
-    "store": "エムディー目黒店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "371",
-    "text": "コンプリート速報  ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ 革命機ヴァルヴレイヴ2   371番台 　　　2026.07.30    18:30 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈  常連様、当店では初めてのコンプリート 本当におめでとうございます",
-    "x_url": "https://x.com/mdmeguro/status/2082764811713359881",
-    "store_handle": "mdmeguro",
-    "store_x_url": "https://x.com/mdmeguro",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-02T04:37:03Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOd3jloawAAuAia?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOd3jloawAAuAia?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "1f54098e8cdf",
-    "date": "2026-07-30",
-    "time": "18:30",
-    "store": "マルハン南宮崎店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "本日の速報  e牙狼12黄金騎士極限   コンプリート達成    おめでとうございます   気づけば95,000発到達。   これが黄金騎士の極限   #牙狼 #GARO #コンプリート",
-    "x_url": "https://x.com/_minamimiyazaki/status/2082760614066229418",
-    "store_handle": "_minamimiyazaki",
-    "store_x_url": "https://x.com/_minamimiyazaki",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-02T04:52:36Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdqHM4aAAAdJcY?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdqHM4aAAAdJcY?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "279016baaff8",
-    "date": "2026-07-30",
-    "time": "18:09",
-    "store": "ピーアーク北綾瀬駅前",
-    "machine": "パチスロ 革命機ヴァルヴレイヴ",
-    "machine_type": "slot",
-    "slot_number": "563",
-    "text": "7/30(木) ピーアーク北綾瀬駅前  スロット L革命機ヴァルヴレイヴ 563番台  コンプリート達成  ｽﾊﾞﾗｼｲッ  #スロット #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
-    "x_url": "https://x.com/ParkPkunGarden/status/2082755342556078295",
-    "store_handle": "parkpkungarden",
-    "store_x_url": "https://x.com/ParkPkunGarden",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T18:03:56Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdu8dpasAEUa8t?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOZrEBfaYAAsT68?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdu8dpasAEUa8t?format=jpg&name=large",
-    "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
-  },
-  {
-    "id": "6bd37c5cdd40",
-    "date": "2026-07-30",
-    "time": "17:58",
-    "store": "キコーナ松戸",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "449",
-    "text": "こんばんは 松戸市にあるパチンコ店　キコーナ松戸店です  　#コンプリート　報告  449番台　e牙狼12黄金騎士極限 おめでとうございます  #つぶやキコーナ #GARO #牙狼 #キコーナ松戸",
-    "x_url": "https://x.com/kicona_matsudo/status/2082752643638911064",
-    "store_handle": "kicona_matsudo",
-    "store_x_url": "https://x.com/kicona_matsudo",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-03T19:18:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdrXdHaMAAhvyz?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdrXdHaMAAhvyz?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "093cb4aa3ae6",
-    "date": "2026-07-30",
-    "time": "16:50",
-    "store": "Ｐスパーク",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "152",
-    "text": "なんと 152番台　e牙狼12 コンプリートです 　おめでとうございま～す  まだまだ夜はこれから！！ ご来店お待ちしております(*´▽｀*)",
-    "x_url": "https://x.com/p_spark01/status/2082735510745923910",
-    "store_handle": "p_spark01",
-    "store_x_url": "https://x.com/p_spark01",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-30T15:25:54Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdc3J3boAA39MV?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdc3J3boAA39MV?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "83936d5766"
-  },
-  {
-    "id": "4047d28042ed",
-    "date": "2026-07-30",
-    "time": "16:29",
-    "store": "ニラク笠間店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "106",
-    "text": "創業月間 お楽しみ頂けていますでしょうか 106番台　e牙狼12黄金騎士極限#牙狼 15時前にコンプリートしましたｵﾒﾃﾞﾄｳ #コンプリート 夜はこれからです。この後もお待ちしています",
-    "x_url": "https://x.com/29_kasama/status/2082730160734786029",
-    "store_handle": "29_kasama",
-    "store_x_url": "https://x.com/29_kasama",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T08:59:33Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdVZDFbgAAcUnc?format=jpg&name=large",
-      "https://pbs.twimg.com/amplify_video_thumb/2082727266216509440/img/t8qoaIPZpVva_5u8.jpg?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdVZDFbgAAcUnc?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "57304e1a6a05",
-    "date": "2026-07-30",
-    "time": "16:29",
-    "store": "スーパーD'ステーション39佐々インター店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "47",
-    "text": "【コンプリート達成】  47番台e牙狼12黄金騎士極限 コンプリート  おめでとうでございます",
-    "x_url": "https://x.com/d_sazainter/status/2082730328444260494",
-    "store_handle": "d_sazainter",
-    "store_x_url": "https://x.com/d_sazainter",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T21:29:48Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOdYLxbaoAA82hO?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOdYLxbaoAA82hO?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "129bc64390ad",
-    "date": "2026-07-30",
-    "time": "14:33",
-    "store": "DSG MEGA WORLD金沢",
-    "machine": "e転生したらスライムだった件2",
-    "machine_type": "pachinko",
-    "slot_number": "189",
-    "text": "#7月はおかげさまで17周年  月末メガワールドの・・・ e転生したらスライムだった件2　189番台からコンプリート達成おめでとうございま～す 初当りからそのまま・・・ すごいですね・・・  まだまだお時間ございます この後もメガワで是非お楽しみくださいませ",
-    "x_url": "https://x.com/mega_dsg/status/2082701026478686480",
-    "store_handle": "mega_dsg",
-    "store_x_url": "https://x.com/mega_dsg",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-01T11:40:14Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOc9aRkakAEZDC7?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOc9aRkakAEZDC7?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000036",
-    "store_id": "b8a09e6f66"
-  },
-  {
-    "id": "28322664a161",
-    "date": "2026-07-30",
-    "time": "13:24",
-    "store": "フォーティ・サミット",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "132",
-    "text": "早速ですが コンプリート達成です e牙狼12黄金騎士極限132番台  初当たりから一撃の達成なんて 素晴らしい～  ご遊技されたお客様 おめでとうございます  #サミット #PR  #e牙狼12 #オフミーグラレポ取材 #コンプリート",
-    "x_url": "https://x.com/40_hagiwara/status/2082683680875835717",
-    "store_handle": "40_hagiwara",
-    "store_x_url": "https://x.com/40_hagiwara",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-01T23:30:55Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOctqnDa0AA9B1k?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOctsCBbgAE1dkU?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOctqnDa0AA9B1k?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "aaacf59ab1b4",
-    "date": "2026-07-30",
-    "time": "13:00",
-    "store": "スーパーD'ステーション仙台泉店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "105",
-    "text": "１０５番台 e牙狼12黄金騎士極限  凶悪な出玉力 一撃COMPLETE！！ １１時にはコンプ達成   おめでとうございます   #Dステ仙台泉 #コンプリート",
-    "x_url": "https://x.com/dsizumi20181228/status/2082677564212916346",
-    "store_handle": "dsizumi20181228",
-    "store_x_url": "https://x.com/dsizumi20181228",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T06:27:09Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOcltMabwAAfAkw?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOcltMba8AADabw?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOcltMabwAAfAkw?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "cce2ec2426b5",
-    "date": "2026-07-30",
-    "time": "12:08",
-    "store": "ダイナム岐阜関緑町店~Since2023.12.28~",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "#コンプリート  月日 #スロセレ 番台 L #革命機ヴァルヴレイヴ2  おめでとうございました 本日も#ダイナム 岐阜関緑町店で 皆様のご来店をお待ちしております #岐阜ダイナム",
-    "x_url": "https://x.com/dynam_00431/status/2082664536088236256",
-    "store_handle": "dynam_00431",
-    "store_x_url": "https://x.com/dynam_00431",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-04T21:14:25Z",
-    "images": [
-      "https://pbs.twimg.com/amplify_video_thumb/2082664519101210624/img/JWVLxqvVL4yxW-xf.jpg?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2082664519101210624/img/JWVLxqvVL4yxW-xf.jpg?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "b64c3b653c6b",
-    "date": "2026-07-30",
-    "time": "11:00",
-    "store": "ライブガーデン鹿沼グランドシティ",
-    "machine": "e東京喰種W",
-    "machine_type": "pachinko",
-    "slot_number": "333",
-    "text": "こんにちは！ ライブガーデン鹿沼グランドシティです  昨日７月２９日 ３３３番台【e東京喰種W】  コンプリート達成  おめでとうございます！  このあとのお時間も ごゆっくりと お楽しみください！     #ライブガーデン鹿沼GC #コンプリート #東京喰種",
-    "x_url": "https://x.com/LGkanumaGC1225/status/2082647368697102741",
-    "store_handle": "lgkanumagc1225",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-02T08:46:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOZR1tlbwAAXo2T?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOZR1tlbwAAXo2T?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
-  },
-  {
-    "id": "9ee035dbfe34",
-    "date": "2026-07-30",
-    "time": "02:58",
-    "store": "ゾーン苅田店",
-    "machine": "eアクダマドライブ",
-    "machine_type": "pachinko",
-    "slot_number": "580",
-    "text": "#コンプリート報告  eアクダマドライブ580番台  コンプリート達成 おめでとうございます  月創業月間も残り1日 最終日は #シーサ 。さんご来店！ 明日は〝あのセリフ〟が聴ける展開に なる事を期待しましょう！  #ゾーン苅田 #低貸の常識を覆す #10スロ革命参謀 #ニ〜カク〜",
-    "x_url": "https://x.com/zonekanda3/status/2082888666310193317",
-    "store_handle": "zonekanda3",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-02T00:30:19Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOfoL2TbIAAhy1d?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOfoMW4aMAArX_B?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOfoM4pa8AAdP_d?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOfoL2TbIAAhy1d?format=jpg&name=large",
-    "machine_id": "8fc3fa28-14aa-4065-a50c-5a23551d2b34"
-  },
-  {
-    "id": "163ceee3310c",
-    "date": "2026-07-30",
-    "time": "00:59",
-    "store": "ヒノマル横川店＠店長BBO「広島県唯一！? PS東京喰種",
-    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
-    "machine_type": "slot",
-    "slot_number": "462",
-    "text": "アフロＹッス  462番台 戦国乙女５ 責任を持って供養させて頂きました。 コンプリートの瞬間をご覧ください  #ヒノマル #横川 #戦国乙女5 #コンプリート #瞬間",
-    "x_url": "https://x.com/hinomaru_yoko/status/2082858625622802540",
-    "store_handle": "hinomaru_yoko",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-08-05T12:59:50Z",
-    "images": [
-      "https://pbs.twimg.com/amplify_video_thumb/2082858447717236736/img/vYDp3iRdzeStk7fj.jpg?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HOfAOltaIAAeSnb?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2082858447717236736/img/vYDp3iRdzeStk7fj.jpg?format=jpg&name=large",
-    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
-  },
-  {
-    "id": "09a58dde244a",
-    "date": "2026-07-30",
-    "time": "00:37",
-    "store": "ARROW浪速店",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "405",
-    "text": "本日、  405番台　e東京喰種  コンプリート達成　おめでとうございます #パチンコ　#コンプリート",
-    "x_url": "https://x.com/arrow_naniwa/status/2082853029842469280",
-    "store_handle": "arrow_naniwa",
-    "store_x_url": "https://x.com/arrow_naniwa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-07-31T13:13:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HOfHiPKasAAUn17?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HOfHiPKasAAUn17?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
-    "store_id": "dd02f6f68a"
   }
 ]

@@ -510,6 +510,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
+    "id": "eb84559a48ff",
+    "date": "2026-08-24",
+    "time": "09:00",
+    "store": "ダイナム鹿児島伊集院店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "727",
+    "text": "8月23日　Ｌ鋼鉄城のカバネリ海門決戦　 727番台にてコンプリート！！ おめでとうございますっ  #ダイナム　#カバネリ　#コンプリート",
+    "x_url": "https://x.com/dynam_00428/status/2091676945696055597",
+    "store_handle": "dynam_00428",
+    "store_x_url": "https://x.com/dynam_00428",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T16:15:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQchGQRWEAAVy5N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQchGQRWEAAVy5N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "09cbb27ae243",
     "date": "2026-08-24",
     "time": "00:16",
