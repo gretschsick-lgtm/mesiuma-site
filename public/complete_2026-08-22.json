@@ -1262,5 +1262,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQVey1DaQAAMcYM?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "5d4ef5891d31",
+    "date": "2026-08-22",
+    "time": "00:04",
+    "store": "フォーティ・サミット",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "1203",
+    "text": "４０サミットスロットコーナー閉店間際 より Ｌ東京喰種  1203番台コンプリート達成です 間に合って良かった 対ありでした",
+    "x_url": "https://x.com/40_hagiwara/status/2091179642153800065",
+    "store_handle": "40_hagiwara",
+    "store_x_url": "https://x.com/40_hagiwara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T01:17:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQVcqS2aIAAak26?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQVcvA4aQAEzGWw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQVcqS2aIAAak26?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   }
 ]

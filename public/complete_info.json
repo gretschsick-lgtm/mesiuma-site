@@ -1,5 +1,26 @@
 [
   {
+    "id": "a4580b099e73",
+    "date": "2026-08-29",
+    "time": "09:11",
+    "store": "ダイナム岩手大船渡店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "372",
+    "text": "コンプリート達成   昨日、8月28日に 372番台『Ｌチバリヨ２ＺＢ』にて コンプリート達成致しました！ おめでとうございます   #ダイナム #大船渡 #コンプリート",
+    "x_url": "https://x.com/dynam_00186/status/2093491649225658648",
+    "store_handle": "dynam_00186",
+    "store_x_url": "https://x.com/dynam_00186",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T01:31:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ2Tj4DWIAA1VRR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ2Tj4DWIAA1VRR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
     "id": "602efab02560",
     "date": "2026-08-28",
     "time": "21:23",
@@ -192,6 +213,49 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "b1f3cfb1be1d",
+    "date": "2026-08-27",
+    "time": "22:51",
+    "store": "メガフェイス1450本山",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "1484",
+    "text": "コンプリート速報  　　1484番台 　　　L攻殻機動隊 #コンプリート 達成です  おめでとうございます  #メガフェイス1450本山 #L攻殻機動隊",
+    "x_url": "https://x.com/megaface_1450/status/2092973267015589962",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T01:17:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQu8DZVa0AAOYHS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQu8DZVa0AAOYHS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "ae11f492db31",
+    "date": "2026-08-27",
+    "time": "22:48",
+    "store": "ピーアーク北綾瀬駅前",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "557",
+    "text": "8/27(木) ピーアーク北綾瀬駅前  スロット Lヴァルヴレイヴ2 557番台  コンプリート達成  ｵﾒﾃﾞﾄｳ  #スロット #パチンコ #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
+    "x_url": "https://x.com/ParkPkunGarden/status/2092972488196264158",
+    "store_handle": "parkpkungarden",
+    "store_x_url": "https://x.com/ParkPkunGarden",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T01:17:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQu7YoKbMAA7p4-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQfi0veb0AAd5D7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQu7YoKbMAA7p4-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "26eb42a878b0",
     "date": "2026-08-27",
     "time": "21:00",
@@ -274,6 +338,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQuPDGeagAAPV24?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
+    "id": "b11ea0ee70c2",
+    "date": "2026-08-27",
+    "time": "20:29",
+    "store": "ABC清水町長沢店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日 スロパチステーション来店取材  なんと 真打吉宗から コンプリート達成 おめでとうございます  残りのお時間も お楽しみください",
+    "x_url": "https://x.com/ABC_nagasawa/status/2092937518467764621",
+    "store_handle": "abc_nagasawa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T01:47:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQubhm0aoAABwUZ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQiKGiwaIAAzNy5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQubhm0aoAABwUZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "7cd69c82f0"
   },
   {
     "id": "5e75dbd0080e",
@@ -4516,6 +4603,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQVey1DaQAAMcYM?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "5d4ef5891d31",
+    "date": "2026-08-22",
+    "time": "00:04",
+    "store": "フォーティ・サミット",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "1203",
+    "text": "４０サミットスロットコーナー閉店間際 より Ｌ東京喰種  1203番台コンプリート達成です 間に合って良かった 対ありでした",
+    "x_url": "https://x.com/40_hagiwara/status/2091179642153800065",
+    "store_handle": "40_hagiwara",
+    "store_x_url": "https://x.com/40_hagiwara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T01:17:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQVcqS2aIAAak26?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQVcvA4aQAEzGWw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQVcqS2aIAAak26?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "4080ccb69d45",
