@@ -213,6 +213,92 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "1d7f180c1bd3",
+    "date": "2026-08-28",
+    "time": "19:02",
+    "store": "タウン半田店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "なんと！ 本日3台目のコンプリート報告でーす  e東京喰種　超デカ超一撃ver.  コンプリート達成  999分の1でも突破すれば破壊力抜群！  おめでとうございます  #コンプリート報告 #オーギヤタウン半田店 #ゴールデンビニー",
+    "x_url": "https://x.com/ogiya_handa/status/2093277920747999517",
+    "store_handle": "ogiya_handa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T19:59:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzRLBybUAANePt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzRLBybUAANePt?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "4966dde4f633",
+    "date": "2026-08-28",
+    "time": "18:44",
+    "store": "SUPER CONCORDE",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "735",
+    "text": "コンプリート報告 ｅ牙狼12　735番台にて  コンプリート機能が作動いたしました ご遊技されていたレモン様 おめでとうございます  コメント：『こんなに連チャンするとは・・・面白かったです！またお願いします！』   明日もこのあともぜひ！スパコンでお楽しみください",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2093273574639538391",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T19:34:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzNNV2bQAALDpR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQtyZxiaYAAfWwa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzNNV2bQAALDpR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "94cb46d6fb"
+  },
+  {
+    "id": "f9adc78c1c4b",
+    "date": "2026-08-28",
+    "time": "18:15",
+    "store": "オーギヤタウン半田店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日2台目のコンプリーーート  次はスロットから！ L甲鉄城のカバネリ〜海門決戦〜 からコンプリート！  破壊力すごいですねー  おめでとうございます  #周年月間 #コンプリート報告 #ゴールデンビニー",
+    "x_url": "https://x.com/ogiya_handa/status/2093266151791026521",
+    "store_handle": "ogiya_handa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T19:59:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzGeClbQAAE7_b?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzGeClbQAAE7_b?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
+    "id": "f1c46a190cb3",
+    "date": "2026-08-28",
+    "time": "15:39",
+    "store": "SuperD'station東金店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "449",
+    "text": "スーパーD'ステーション東金店です  14時27分　449番台 e東京喰種コンプリート おめでとうございます  この後のお時間もご来店従業員一同 心よりお待ちしております  #千葉 #東金 #Dステ #東京喰種 #スマパチ #コンプリート",
+    "x_url": "https://x.com/sd_tougane/status/2093226825757462587",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T19:33:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQyiGYdaIAAaE6U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQyiGYdaIAAaE6U?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
     "id": "2722953e5e48",
     "date": "2026-08-28",
     "time": "15:24",
