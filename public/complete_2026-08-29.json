@@ -1,5 +1,49 @@
 [
   {
+    "id": "2e396ce54246",
+    "date": "2026-08-29",
+    "time": "23:58",
+    "store": "ARROW浪速店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "190",
+    "text": "本日、  eカケグルイ 7500ver　190番台  真打 吉宗　952番台   コンプリート達成おめでとうございます  #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2093715025047519657",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T18:03:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5eNQNaMAEEGgD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ5ePcaboAAd6UB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5eNQNaMAEEGgD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "731320496d99",
+    "date": "2026-08-29",
+    "time": "22:48",
+    "store": "マルハン青梅新町店【イイじゃん!】",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "233",
+    "text": "233番台  攻殻機動隊 コンプリートです",
+    "x_url": "https://x.com/oumeshinmachi/status/2093697283804286979",
+    "store_handle": "oumeshinmachi",
+    "store_x_url": "https://x.com/oumeshinmachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T17:47:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5Ok_ybIAAoU-e?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5Ok_ybIAAoU-e?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "bfe4fb68cbe1",
     "date": "2026-08-29",
     "time": "22:46",
@@ -103,6 +147,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ44iTdaIAATFlK?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "10cc18aea5d3",
+    "date": "2026-08-29",
+    "time": "20:13",
+    "store": "イーグルアールワン南8条店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "699",
+    "text": "699番台ヴヴヴ2にてコンプリート達成  おめでとうございます  そして明日は8月ラストの週末  マラソン大会で交通規制があるようですが  頑張ればどこかしらから来れます  明日もお待ちしております",
+    "x_url": "https://x.com/eagle_c_tencho/status/2093658225392726304",
+    "store_handle": "eagle_c_tencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/eagle_c_tencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-29T17:47:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4rDwlaAAAbU6n?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ4rDwra0AAd3b-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4rDwlaAAAbU6n?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "27f3e87685a3",

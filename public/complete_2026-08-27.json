@@ -127,6 +127,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "5a3958040f10",
+    "date": "2026-08-27",
+    "time": "20:36",
+    "store": "ZENT名古屋北店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "1500",
+    "text": "本日のコンプリート報告  1500番台 からくりサーカス2  夢はいつか必ず叶う！  明日開放  #ZENT #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2092939315995398583",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T17:47:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQudNmHawAAVh1U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQudNmHawAAVh1U?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "08dfe4b60057",
     "date": "2026-08-27",
     "time": "20:30",
