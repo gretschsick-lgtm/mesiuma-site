@@ -1,5 +1,26 @@
 [
   {
+    "id": "4669f9f56f28",
+    "date": "2026-08-27",
+    "time": "23:58",
+    "store": "キング観光サウザンド生桑店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "キング観光サウザンド生桑店 　県下最大級１３６５台！ 　　　８月２７日(木)  #e牙狼１２黄金騎士極限  にてコンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/king_ikuwa/status/2092990110182809650",
+    "store_handle": "king_ikuwa",
+    "store_x_url": "https://x.com/king_ikuwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T00:09:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQvLP4abkAE7BEk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQvLP4abkAE7BEk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "26eb42a878b0",
     "date": "2026-08-27",
     "time": "21:00",
@@ -191,6 +212,24 @@
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
+    "id": "46b67bfbbdde",
+    "date": "2026-08-27",
+    "time": "18:41",
+    "store": "DSG MEGA WORLD金沢",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "775",
+    "text": "#イケイケDSG 27日メガワの～ スマスロ 北斗の拳 転生の章2　775番台からコンプリート達成 おめでとうございま～す  まだまだ夜はこれからです この後もご来店お待ちしております",
+    "x_url": "https://x.com/mega_dsg/status/2092910439315427763",
+    "store_handle": "mega_dsg",
+    "store_x_url": "https://x.com/mega_dsg",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T00:10:07Z",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "b8a09e6f66"
+  },
+  {
     "id": "0a8798aaf756",
     "date": "2026-08-27",
     "time": "18:24",
@@ -274,5 +313,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQtIhE8aIAAlfjW?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "63b301ff6358",
+    "date": "2026-08-27",
+    "time": "08:00",
+    "store": "ダイナム気仙沼店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月27日（木） Lソードアート・オンラインⅡ  コンプリート達成しました   おめでとうございます  ＃ダイナム＃コンプリート",
+    "x_url": "https://x.com/dynam_00149/status/2093111361383395580",
+    "store_handle": "dynam_00149",
+    "store_x_url": "https://x.com/dynam_00149",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T00:09:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQw5r6AXwAALc6e?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQw5r6AXwAALc6e?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   }
 ]

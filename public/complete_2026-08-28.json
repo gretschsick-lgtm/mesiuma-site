@@ -43,6 +43,50 @@
     "machine_id": "11111111-1111-1111-1111-000000000003"
   },
   {
+    "id": "f4034e7e361c",
+    "date": "2026-08-28",
+    "time": "19:45",
+    "store": "FACE1300小倉南店",
+    "machine": "Lモンキーターン",
+    "machine_type": "slot",
+    "slot_number": "2053",
+    "text": "コンプリート速報  2053番台　Lモンキーターン  コンプリート達成 おめでとうございます  な、な、なんと一撃19000枚という 偉業を成し遂げられました  まだまだ時間はあります 吉報お待ちしております  #モンキーターン #コンプリート #メガフェイス1300小倉南店",
+    "x_url": "https://x.com/face_1300/status/2093288848029859887",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T00:10:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzbGrrbYAE5NjY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQfcQiAbsAAr2y1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzbGrrbYAE5NjY?format=jpg&name=large",
+    "machine_id": "8c9b6f92-5ab7-4cfc-8dbc-3f73609680e1",
+    "store_id": "18425371bb"
+  },
+  {
+    "id": "ec71062cf01e",
+    "date": "2026-08-28",
+    "time": "19:44",
+    "store": "モナコの店長\"藤井\"",
+    "machine": "スマスロ バイオハザード5",
+    "machine_type": "slot",
+    "slot_number": "164",
+    "text": "速報です！   １６４番台 スマスロ　バイオハザード５が  コンプリート達成！  おめでとうございます！  #モナコ新開地 #バイオハザード５ #コンプリート",
+    "x_url": "https://x.com/f_monaco_tencho/status/2093288665523114388",
+    "store_handle": "f_monaco_tencho",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T00:10:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQza3rFbEAAaWYY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQza3rFbEAAaWYY?format=jpg&name=large",
+    "machine_id": "2c7e680c-04bd-48dc-ae71-ee98ba9133cb"
+  },
+  {
     "id": "167c57ddab73",
     "date": "2026-08-28",
     "time": "19:19",

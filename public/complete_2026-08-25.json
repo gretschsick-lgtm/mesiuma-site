@@ -212,6 +212,28 @@
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
   },
   {
+    "id": "46501b8f1fa1",
+    "date": "2026-08-25",
+    "time": "21:08",
+    "store": "123岩岡店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "スロットからコンプ報告  L北斗の拳 転生の章2 コンプリート機能作動  今月も残り僅か… あと何台報告できるのか",
+    "x_url": "https://x.com/123iwaoka/status/2092222657949548549",
+    "store_handle": "123iwaoka",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T23:38:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkRat2asAAazF2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkRat2asAAazF2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "4c34399bf2"
+  },
+  {
     "id": "10f0cf5703bf",
     "date": "2026-08-25",
     "time": "21:01",
@@ -231,6 +253,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQkPmJ7awAE1Ug9?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "0b91457dc144",
+    "date": "2026-08-25",
+    "time": "20:58",
+    "store": "ZENT名古屋北店",
+    "machine": "戦国コレクション6",
+    "machine_type": "slot",
+    "slot_number": "1787",
+    "text": "本日のコンプリート報告  1787番台 戦国コレクション6  天下統一  明日開放  #ZENT #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2092220027848331650",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-28T23:38:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkPBhna4AAB2CT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkPBhna4AAB2CT?format=jpg&name=large",
+    "machine_id": "fcec3359-8161-48a4-b288-0752b8a02297"
   },
   {
     "id": "9bd1395dab2f",
@@ -294,6 +337,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQj_sova0AAwNZw?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "c1dcd58756ff",
+    "date": "2026-08-25",
+    "time": "20:19",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "752",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 752番台 【Lパチスロ 革命機ヴァルヴレイヴ2】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2092210239341043916",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-28T23:38:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQkGFy8bIAAUT-T?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQkGFy8bIAAUT-T?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "8dd368ffe5a3",
