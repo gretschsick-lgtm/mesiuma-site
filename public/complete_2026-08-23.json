@@ -187,7 +187,7 @@
     "store_x_url": "https://x.com/castle_ozone",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-29T16:47:13Z",
+    "collected_at": "2026-08-29T17:00:49Z",
     "images": [
       "https://pbs.twimg.com/media/HQaCmmOaAAAIA-6?format=jpg&name=large"
     ],
@@ -402,6 +402,27 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "253cd720c956",
+    "date": "2026-08-23",
+    "time": "20:30",
+    "store": "川細田店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "237",
+    "text": "本日ヤクルトレディ担当のM子から ファン感真っ最中に 神が舞い降りたようだッ  【237番台　Lﾐﾘｵﾝｺﾞｯﾄﾞ神々の軌跡】  　  　見事#コンプリート 　   #ABC掛川細田店",
+    "x_url": "https://x.com/ABC_Ksaida/status/2091488120059625474",
+    "store_handle": "abc_ksaida",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T17:00:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZzzXvacAAHrbT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZzzXvacAAHrbT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
     "id": "8bf27a5f0140",
     "date": "2026-08-23",
     "time": "20:19",
@@ -421,6 +442,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQZy7SwaYAEmWXw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
+    "id": "e4c5a7904458",
+    "date": "2026-08-23",
+    "time": "20:16",
+    "store": "D'ステーション神栖店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月23日(日) Thank you  コンプリート速報  L ミリオンゴッド‐神々の軌跡‐ コンプリート達成です おめでとうございます  #Dステ #神栖 #8月 #周年月間 #8周年 #スマスロ #コンプリート #ミリオンゴッド",
+    "x_url": "https://x.com/Dstation_kamisu/status/2091484772304662740",
+    "store_handle": "dstation_kamisu",
+    "store_x_url": "https://x.com/Dstation_kamisu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T17:00:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZyIurbkAA9SqY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZyIurbkAA9SqY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "95ecc6f9ce77",
@@ -659,27 +701,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "6b4ff60016f3",
-    "date": "2026-08-23",
-    "time": "18:30",
-    "store": "ダイナム高岡店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "380",
-    "text": "高岡店よりコンプリート報告  月日（日） 380番台　【L北斗の拳転生の章2】  コンプリーーーーートっ  おめでとうございます  #ダイナム",
-    "x_url": "https://x.com/dynam_00104/status/2091457947079451097",
-    "store_handle": "dynam_00104",
-    "store_x_url": "https://x.com/dynam_00104",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-29T16:15:22Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQZZ6grXgAAb0Rh?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQZZ6grXgAAb0Rh?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
-  },
-  {
     "id": "a991b12abdfd",
     "date": "2026-08-23",
     "time": "18:29",
@@ -805,6 +826,27 @@
     ],
     "image_url": "https://pbs.twimg.com/amplify_video_thumb/2091445170533539840/img/8zKFnlRuRaxAafuW.jpg?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "890c28b8614a",
+    "date": "2026-08-23",
+    "time": "17:22",
+    "store": "テンガイ戸島店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！！   テンガイ戸島店です   Lパチスロ 革命機ヴァルヴレイヴ2   コンプリート達成 コンプリートされたお客様おめでとうございます！！",
+    "x_url": "https://x.com/tenguytoshima/status/2091440859904717115",
+    "store_handle": "tenguytoshima",
+    "store_x_url": "https://x.com/tenguytoshima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T17:32:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQZJmh_acAAUWza?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQZJmh_acAAUWza?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "a20a05cf3c70",

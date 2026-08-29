@@ -64,6 +64,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "53a46aabecee",
+    "date": "2026-08-27",
+    "time": "21:22",
+    "store": "ユーコーラッキー37辻堂店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート達成】  本日、当店設置の「e東京喰種W」にてコンプリート機能が発動いたしました！！！ ご遊技いただき、誠にありがとうございました。  引き続き皆さまのご来店をお待ちしております。  #ユーコーラッキー37辻堂店 #コンプリート",
+    "x_url": "https://x.com/YUKO_TSUJIDOU/status/2092950862218092760",
+    "store_handle": "yuko_tsujidou",
+    "store_x_url": "https://x.com/yuko_tsujidou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T17:18:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQunlTcbsAAr2lJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQunlTcbsAAr2lJ?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "26eb42a878b0",
     "date": "2026-08-27",
     "time": "21:00",
