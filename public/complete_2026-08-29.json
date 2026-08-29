@@ -1,5 +1,47 @@
 [
   {
+    "id": "be4dcb031074",
+    "date": "2026-08-29",
+    "time": "21:12",
+    "store": "マルハン仙台名坊店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "2020",
+    "text": "【2020番台】  【機種名　チバリヨ2 】 コンプリート達成   おめでとうございます  データを確認できる マルハンアプリはこちらから    https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/naebomaruhan/status/2093673101162840542",
+    "store_handle": "naebomaruhan",
+    "store_x_url": "https://x.com/naebomaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T12:14:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ44iTdaIAATFlK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ44iTdaIAATFlK?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "add230d86ca7",
+    "date": "2026-08-29",
+    "time": "19:49",
+    "store": "マルハン入間店 パワ店イッチー",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "29",
+    "text": "こんばんはマルハン入間店 パワ店イッチーです  29番台　エヴァ17  コンプリート達成  おめでとうございます  明日も入間インターすぐの店 マルハン入間店への ご来店お待ちしております",
+    "x_url": "https://x.com/marujagten/status/2093652366696591618",
+    "store_handle": "marujagten",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marujagten",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-29T12:00:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4lD5iawAAA5t3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4lD5iawAAA5t3?format=jpg&name=large",
+    "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b"
+  },
+  {
     "id": "057973f919c6",
     "date": "2026-08-29",
     "time": "17:49",

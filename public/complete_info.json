@@ -1,5 +1,47 @@
 [
   {
+    "id": "be4dcb031074",
+    "date": "2026-08-29",
+    "time": "21:12",
+    "store": "マルハン仙台名坊店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "2020",
+    "text": "【2020番台】  【機種名　チバリヨ2 】 コンプリート達成   おめでとうございます  データを確認できる マルハンアプリはこちらから    https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/naebomaruhan/status/2093673101162840542",
+    "store_handle": "naebomaruhan",
+    "store_x_url": "https://x.com/naebomaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T12:14:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ44iTdaIAATFlK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ44iTdaIAATFlK?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "add230d86ca7",
+    "date": "2026-08-29",
+    "time": "19:49",
+    "store": "マルハン入間店 パワ店イッチー",
+    "machine": "eエヴァ17はじまりR",
+    "machine_type": "pachinko",
+    "slot_number": "29",
+    "text": "こんばんはマルハン入間店 パワ店イッチーです  29番台　エヴァ17  コンプリート達成  おめでとうございます  明日も入間インターすぐの店 マルハン入間店への ご来店お待ちしております",
+    "x_url": "https://x.com/marujagten/status/2093652366696591618",
+    "store_handle": "marujagten",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marujagten",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-29T12:00:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4lD5iawAAA5t3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4lD5iawAAA5t3?format=jpg&name=large",
+    "machine_id": "70ae27fb-534d-4d33-b58f-418daaf8501b"
+  },
+  {
     "id": "057973f919c6",
     "date": "2026-08-29",
     "time": "17:49",
@@ -62,6 +104,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ2Tj4DWIAA1VRR?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
+    "id": "8bfbad1176ed",
+    "date": "2026-08-28",
+    "time": "23:08",
+    "store": "メガフェイス1450本山",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "762",
+    "text": "コンプリート速報  月日（金）  762番台 e牙狼12黄金騎士極限 #コンプリート　達成です  おめでとうございます  皆様のご来店、心よりお待ちしております  #e牙狼12黄金騎士極限 #メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450/status/2093339948036608349",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T12:30:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ0IZvnasAAhS-N?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ0IZvnasAAhS-N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "bdd242c2b32e",
+    "date": "2026-08-28",
+    "time": "23:03",
+    "store": "アミューズ豊中店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "848",
+    "text": "<ｺﾝﾌﾟﾘｰﾄｿｸﾎｳ!!!②  　　８４８番台 　　　L戦国乙女５  コンプリート達成   こちらも閉店ギリギリの 　　　　滑り込みコンプリート 乙女から２台目のコンプΣ(･ω･ﾉ)ﾉ！ 素晴らしい おめでとうございます  #コンプリート #戦国乙女５ #２台目",
+    "x_url": "https://x.com/amuse_toyo1228/status/2093338764030742816",
+    "store_handle": "amuse_toyo1228",
+    "store_x_url": "https://x.com/amuse_toyo1228",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T11:59:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ0Ic3PaUAAntPu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ0Ic3PaUAAntPu?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "602efab02560",
@@ -1693,6 +1777,28 @@
     "source_account_type": "store_official",
     "collected_at": "2026-08-28T00:28:05Z",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "292a70175dc5",
+    "date": "2026-08-25",
+    "time": "19:54",
+    "store": "スーパーホール天王寺店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート報告  本日のコンプリートはチバリヨ2から 昨日に引き続き今日も一撃コンプが出ました🫪  本日は原点回帰[赤]で万舞OVER10台超えと店内大盛況でございます  この後も万舞、コンプリート目指してお楽しみください",
+    "x_url": "https://x.com/supaho_tennouji/status/2092566346118926376",
+    "store_handle": "supaho_tennouji",
+    "store_x_url": "https://x.com/supaho_tennouji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T11:59:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpJ9Bta0AA2DZR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQpJ9BSbMAEhRWD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpJ9Bta0AA2DZR?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "8d61f0e6f593",

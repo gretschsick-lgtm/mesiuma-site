@@ -394,6 +394,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "292a70175dc5",
+    "date": "2026-08-25",
+    "time": "19:54",
+    "store": "スーパーホール天王寺店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート報告  本日のコンプリートはチバリヨ2から 昨日に引き続き今日も一撃コンプが出ました🫪  本日は原点回帰[赤]で万舞OVER10台超えと店内大盛況でございます  この後も万舞、コンプリート目指してお楽しみください",
+    "x_url": "https://x.com/supaho_tennouji/status/2092566346118926376",
+    "store_handle": "supaho_tennouji",
+    "store_x_url": "https://x.com/supaho_tennouji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T11:59:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpJ9Bta0AA2DZR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQpJ9BSbMAEhRWD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpJ9Bta0AA2DZR?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "8d61f0e6f593",
     "date": "2026-08-25",
     "time": "19:50",
