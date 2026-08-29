@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T13:55:31+09:00",
+  "generated_at": "2026-08-29T17:19:57+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1322,
+      "total_count": 1324,
       "stores": [
         {
           "rank": 1,
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 199
+          "count": 201
         },
         {
           "rank": 2,
@@ -824,7 +824,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 441
+        "count": 443
       },
       {
         "rank": 2,
@@ -872,7 +872,7 @@
         "count": 15
       }
     ],
-    "total_count": 3641
+    "total_count": 3643
   },
   "store_complete_counts": {
     "ARROW浪速店": 68,
@@ -1292,6 +1292,7 @@
     "ウエスタン葛西店": 2,
     "ワンダーランド1177大分南店": 2,
     "ワンダーランド百年橋店": 2,
+    "マルハン太田新道町店": 2,
     "サミット別府店": 1,
     "新天地Dee1": 1,
     "キコーナ相武台店": 1,
@@ -1594,7 +1595,7 @@
   },
   "store_id_coverage": {
     "records_with_store_id": 3185,
-    "records_without_store_id": 456,
+    "records_without_store_id": 458,
     "canonical_store_ids": 522
   }
 }
