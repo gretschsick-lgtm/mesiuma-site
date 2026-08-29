@@ -555,5 +555,28 @@
     "image_url": "https://pbs.twimg.com/media/HQn7T_5bYAAeMnu?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "341c9ef1a4"
+  },
+  {
+    "id": "34043daeed2c",
+    "date": "2026-08-26",
+    "time": "09:00",
+    "store": "PSJ西新店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8月26日（水）  10円スロットコーナー  スマスロ 北斗の拳 転生の章2 コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/psj_nishijin/status/2092764032683925793",
+    "store_handle": "psj_nishijin",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T22:39:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQpAJasbIAEINaq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQpAKykbsAA-FNm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQpAJasbIAEINaq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "42f346e911"
   }
 ]

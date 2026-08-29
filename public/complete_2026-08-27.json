@@ -21,6 +21,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "3e0f7fc71b28",
+    "date": "2026-08-27",
+    "time": "23:21",
+    "store": "キング観光サウザンド生桑店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "キング観光サウザンド生桑店 　県下最大級１３６５台！ 　　　８月２７日(木) 　　　　朝９時開店  イクキンよりコンプリート達成報告！！ Ｌ　甲鉄城のカバネリ　海門決戦　ＸＸ  おめでとうございます！  #キング観光　#イクキン　#生桑店",
+    "x_url": "https://x.com/king_ikuwa/status/2092980839835680831",
+    "store_handle": "king_ikuwa",
+    "store_x_url": "https://x.com/king_ikuwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T22:06:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQvCV3jacAEfao4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQvCV3jacAEfao4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "b1f3cfb1be1d",
     "date": "2026-08-27",
     "time": "22:51",
@@ -443,6 +464,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQtoa5SbEAAUop_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "730b94dbe63d",
+    "date": "2026-08-27",
+    "time": "16:25",
+    "store": "パチンコ大王高島平店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "大王高島平店からお知らせです 北斗の拳転生2にてコンプリート達成 達成されたお客様、おめでとうございます",
+    "x_url": "https://x.com/daiooo_t/status/2092876072258077094",
+    "store_handle": "daiooo_t",
+    "store_x_url": "https://x.com/daiooo_t",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T22:39:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQtjscAbYAA9ICC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQtjscKbAAAvMV5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQtjscAbYAA9ICC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "d7998974ea15",

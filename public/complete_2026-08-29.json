@@ -353,6 +353,49 @@
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
+    "id": "2e8981158720",
+    "date": "2026-08-29",
+    "time": "19:09",
+    "store": "つかさ月隈店（公式）",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報 店内まだまだ盛り上がってます  【　チバリヨ2　】 　　　　　からなんと コンプリート達成  　　　ご遊技されてた方 　おめでとうございます  最終最後のお時間まで ごゆっくりとお楽しみ下さい",
+    "x_url": "https://x.com/TSUKASA1200T/status/2093642141117657151",
+    "store_handle": "tsukasa1200t",
+    "store_x_url": "https://x.com/tsukasa1200t",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T22:37:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4cZGFaAAEU-S7?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4cZGFaAAEU-S7?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "fb284056613b",
+    "date": "2026-08-29",
+    "time": "19:07",
+    "store": "フェイス850佐賀",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "818",
+    "text": "本日も沢山のご来店ありがとうございます。  e牙狼12の８１８番台よりコンプリート達成おめでとうございます。  本日はランキング取材。スロットも頑張って盛り上げていきましょう。  #コンプリート #FACE８５０佐賀",
+    "x_url": "https://x.com/face_850/status/2093641781640647066",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T22:37:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4cGZpbYAAftA9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ4cGZna4AE4d1C?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4cGZpbYAAftA9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "26d1ccad6233",
     "date": "2026-08-29",
     "time": "18:35",
@@ -395,6 +438,23 @@
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
+    "id": "6bc3f30f0b91",
+    "date": "2026-08-29",
+    "time": "17:57",
+    "store": "ビックマーチつくば学園の森店スタッフ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日もご来店、ありがとうございます      只今『ｅ牙狼１２黄金騎士極限』で コンプリート達成 おめでとうございます  パチンコ打つならビックマーチにーーー まかセロリー  明日もご来店、お待ちしてます  #パチンコ #スロット #ビックマーチ #つくば #学園の森",
+    "x_url": "https://x.com/bm_gakumori/status/2093623942468833565",
+    "store_handle": "bm_gakumori",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/bm_gakumori",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-08-29T22:37:15Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "057973f919c6",
     "date": "2026-08-29",
     "time": "17:49",
@@ -415,6 +475,23 @@
     "image_url": "https://pbs.twimg.com/media/HQ4KLI9bQAAB_QF?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "33b48926a2"
+  },
+  {
+    "id": "0bf0eb7ce663",
+    "date": "2026-08-29",
+    "time": "17:45",
+    "store": "キング観光サウザンド生桑店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "キング観光サウザンド生桑店 　県下最大級１３６５台！ 　　　８月２９日（土）  Lソードアート・オンラインⅡにて コンプリート達成！！  おめでとうございます！  この後もイクキンでお楽しみください♪  #イクキン #コンプリーーーート #キング観光 #ソードアートオンライン",
+    "x_url": "https://x.com/king_ikuwa/status/2093620945076539846",
+    "store_handle": "king_ikuwa",
+    "store_x_url": "https://x.com/king_ikuwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T22:37:15Z",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
     "id": "043fd357e773",
