@@ -381,6 +381,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
+    "id": "3733f0825417",
+    "date": "2026-08-27",
+    "time": "09:00",
+    "store": "ダイナム秋田臨海店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "429",
+    "text": "ダイナム秋田臨海店 8月27日（木） 【Lゴッドイーターリザレクション　429番台】 コンプリート達成  おめでとうございます  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00086/status/2093126454812815639",
+    "store_handle": "dynam_00086",
+    "store_x_url": "https://x.com/dynam_00086",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T03:44:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQxHaz-WYAEiB6U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQxHaz-WYAEiB6U?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
+    "id": "ab20c381680c",
+    "date": "2026-08-27",
+    "time": "08:18",
+    "store": "夢限スロカス店長",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "340",
+    "text": "コンプリートおめでとうございます  先日8月27日(木)    L甲鉄城のカバネリ 海門決戦  340番台  ご遊技されたお客様 コンプリート達成 おめでとうございます  BY　夢限スロカス店長より",
+    "x_url": "https://x.com/yume_mugen888/status/2093115844511367640",
+    "store_handle": "yume_mugen888",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T03:44:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQw78GDbsAI15lH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQw78GDbsAI15lH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
+  },
+  {
     "id": "63b301ff6358",
     "date": "2026-08-27",
     "time": "08:00",

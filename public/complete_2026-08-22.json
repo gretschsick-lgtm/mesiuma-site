@@ -254,6 +254,27 @@
     "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
+    "id": "4d02a42c468f",
+    "date": "2026-08-22",
+    "time": "22:10",
+    "store": "滝川店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "856",
+    "text": "マルハン滝川店    8月22日    856番台　Lパチスロ 革命機ヴァルヴレイヴ2  コンプリート 詳細台データはマルハンアプリにて   http:// x.gd/rZhmw   #マルハン滝川店 #滝川 #コンプリート",
+    "x_url": "https://x.com/TAKIKAWAmaruhan/status/2091150998844866595",
+    "store_handle": "takikawamaruhan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-29T03:44:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQVCNWTaYAAZWNN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQVCNWTaYAAZWNN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "b17e343566a8",
     "date": "2026-08-22",
     "time": "22:09",
@@ -342,6 +363,27 @@
     "image_url": "https://pbs.twimg.com/media/HQU-riSboAAfJqk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "94cb46d6fb"
+  },
+  {
+    "id": "8395ecf2f04c",
+    "date": "2026-08-22",
+    "time": "21:51",
+    "store": "やすだ大和36店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "L攻殻機動隊より コンプリートのご報告  おめでとうございます  明日も９時開店(予定)  皆様のご来店をお待ちしております  #週末  #コンプリート  #やすだ大和店",
+    "x_url": "https://x.com/yasuda_yamato36/status/2091146319083843807",
+    "store_handle": "yasuda_yamato36",
+    "store_x_url": "https://x.com/yasuda_yamato36",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-29T03:44:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQU-fRFbQAAnS3I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQU-fRFbQAAnS3I?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "35ab53656c5b",
