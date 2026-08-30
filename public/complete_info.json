@@ -114,6 +114,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
+    "id": "36397c79a7f6",
+    "date": "2026-08-30",
+    "time": "22:06",
+    "store": "ダイナム栃木大田原店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8.30（日） L戦国乙女5 業火を穿つ宿焔の双刃 コンプリート達成 おめでとうございます♪  #L戦国乙女5 #コンプリート #ダイナム栃木大田原店",
+    "x_url": "https://x.com/dynam_00307/status/2094049148714553344",
+    "store_handle": "dynam_00307",
+    "store_x_url": "https://x.com/dynam_00307",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T22:13:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-OmlmW0AAgsnD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-OmlmW0AAgsnD?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "031c451625c3",
     "date": "2026-08-30",
     "time": "21:46",
@@ -3818,6 +3839,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQj_NVSasAAn6Vr?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "6a1dc4caac39",
+    "date": "2026-08-25",
+    "time": "19:29",
+    "store": "ダイエー鷲宮店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "1705",
+    "text": "ミリオンゴッド‐神々の軌跡‐ 1705番台コンプリート おめでとうございます",
+    "x_url": "https://x.com/daiei_w_0426/status/2092197671188804013",
+    "store_handle": "daiei_w_0426",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-30T22:26:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQj5isQbwAAsjoX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQj5isQbwAAsjoX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
   },
   {
     "id": "da8b4888e434",
