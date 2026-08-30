@@ -23,6 +23,27 @@
     "store_id": "dd02f6f68a"
   },
   {
+    "id": "40608e16c7b9",
+    "date": "2026-08-29",
+    "time": "23:22",
+    "store": "フェイス707幸袋",
+    "machine": "モンキーターンV",
+    "machine_type": "slot",
+    "slot_number": "755",
+    "text": "夜分遅くに申し訳ございません  先ほど閉店時間ギリギリに 755番台　モンキーターンⅤ コンプリート達成致しました  コンプされたお客様おめでとうございます  見せてもらいました、 生涯、最高のコンプリートを！",
+    "x_url": "https://x.com/FACE_707/status/2093705871406858600",
+    "store_handle": "face_707",
+    "store_x_url": "https://x.com/face_707",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T17:37:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5WHIoaMAAuOJ9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5WHIoaMAAuOJ9?format=jpg&name=large",
+    "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0"
+  },
+  {
     "id": "4467bcff8f5e",
     "date": "2026-08-29",
     "time": "23:10",
@@ -254,6 +275,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ46ayQXUAA9nLH?format=jpg&name=large",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
+    "id": "bb9bfec949a0",
+    "date": "2026-08-29",
+    "time": "21:15",
+    "store": "ダイナム福山店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "301",
+    "text": "本日のコンプ報告です！  オススメのe東京喰種Wから  301番台がコンプリート致しました  おめでとうございます  #ダイナム　#福山　#コンプリート",
+    "x_url": "https://x.com/dynam_00140/status/2093673793940001156",
+    "store_handle": "dynam_00140",
+    "store_x_url": "https://x.com/dynam_00140",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T17:36:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ45OBLXYAANvWC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ45OBLXYAANvWC?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
     "id": "be4dcb031074",

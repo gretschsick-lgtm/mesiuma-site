@@ -63,6 +63,28 @@
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
+    "id": "9362b8873837",
+    "date": "2026-08-28",
+    "time": "22:32",
+    "store": "PIA津田沼",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "1013",
+    "text": "(((コンプリート達成  e東京喰種　1013番台にて  コンプリート達成ッ おめでとうございます  明日も朝からのご来店 お待ちしております  #PIA津田沼店 #コンプリート報告 #9月PIA創業月間",
+    "x_url": "https://x.com/PIAtsuda_1218/status/2093330967679394179",
+    "store_handle": "piatsuda_1218",
+    "store_x_url": "https://x.com/piatsuda_1218",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T17:05:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ0BazBacAEcL0r?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ0BazBacAEcL0r?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "3a60c5ae00"
+  },
+  {
     "id": "298c26fb5d71",
     "date": "2026-08-28",
     "time": "22:09",
@@ -103,6 +125,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQz7oXyaMAAhnKz?format=jpg&name=large",
     "machine_id": "703a0726-9703-49da-98d5-972845db0942"
+  },
+  {
+    "id": "65b11b9c01cb",
+    "date": "2026-08-28",
+    "time": "21:55",
+    "store": "レインボー",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "スーパーD’ステーション39飯塚店です  コンプリート報告です  なんと！なんと！ 4円パチンコ番台 e東京喰種Wよりコンプリート達成報告です  またのご来店をおまちしております",
+    "x_url": "https://x.com/sd_iiduka/status/2093321449427931541",
+    "store_handle": "sd_iiduka",
+    "store_x_url": "https://x.com/sd_iiduka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T17:05:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQzzhp2bcAAj1Cr?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQz0-HzbcAAXPWY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQzzhp2bcAAj1Cr?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
     "id": "602efab02560",
