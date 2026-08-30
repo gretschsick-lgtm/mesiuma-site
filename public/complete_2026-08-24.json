@@ -403,6 +403,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
+    "id": "96191589b22c",
+    "date": "2026-08-24",
+    "time": "19:17",
+    "store": "MGM日立きらら",
+    "machine": "チバリヨ2プラス",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報  ２０スロコーナー Lチバリヨ２プラスにて コンプリート達成  おめでとうございます",
+    "x_url": "https://x.com/mgm99695967/status/2091832301831507988",
+    "store_handle": "mgm99695967",
+    "store_x_url": "https://x.com/mgm99695967",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T19:26:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQet_8cbgAAIQxF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQet_8cbgAAIQxF?format=jpg&name=large",
+    "machine_id": "fac1136b-7701-438d-9317-aadee9f71d50"
+  },
+  {
     "id": "c4a23ef79201",
     "date": "2026-08-24",
     "time": "18:26",

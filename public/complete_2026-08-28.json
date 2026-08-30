@@ -385,47 +385,25 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
-    "id": "ca0607de837b",
+    "id": "f1c46a190cb3",
     "date": "2026-08-28",
-    "time": "18:00",
-    "store": "メガフェイス1450本山",
-    "machine": "e牙狼12黄金騎士極限",
+    "time": "15:39",
+    "store": "SuperD'station東金店",
+    "machine": "e東京喰種",
     "machine_type": "pachinko",
-    "slot_number": "786",
-    "text": "コンプリート速報   ==8月28日== 786番台 e牙狼12黄金騎士極限  #コンプリート　達成です!！ おめでとうございます  #メガフェイス1450本山 #e牙狼12黄金騎士極限",
-    "x_url": "https://x.com/megaface_1450/status/2093262326820712944",
-    "store_handle": "megaface_1450",
-    "store_x_url": "https://x.com/megaface_1450",
+    "slot_number": "449",
+    "text": "スーパーD'ステーション東金店です  14時27分　449番台 e東京喰種コンプリート おめでとうございます  この後のお時間もご来店従業員一同 心よりお待ちしております  #千葉 #東金 #Dステ #東京喰種 #スマパチ #コンプリート",
+    "x_url": "https://x.com/sd_tougane/status/2093226825757462587",
+    "store_handle": "sd_tougane",
+    "store_x_url": "https://x.com/sd_tougane",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-30T18:42:43Z",
+    "collected_at": "2026-08-30T18:55:52Z",
     "images": [
-      "https://pbs.twimg.com/media/HQy_rwJa8AAsJVR?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HQyiGYdaIAAaE6U?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HQy_rwJa8AAsJVR?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028"
-  },
-  {
-    "id": "8270051a5f08",
-    "date": "2026-08-28",
-    "time": "16:41",
-    "store": "メガフェイス1070菊陽",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "511",
-    "text": "511番台 e牙狼12 コンプリート達成 #8月28日 #メガフェイス菊陽",
-    "x_url": "https://x.com/MEGAFACE_1070/status/2093242557665079354",
-    "store_handle": "megaface_1070",
-    "store_x_url": "https://x.com/megaface_1070",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-08-30T18:42:43Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQyxAiMakAAw1sV?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQs975lbIAA2DCl?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQyxAiMakAAw1sV?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029"
+    "image_url": "https://pbs.twimg.com/media/HQyiGYdaIAAaE6U?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "2722953e5e48",
