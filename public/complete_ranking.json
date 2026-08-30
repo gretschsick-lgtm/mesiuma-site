@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-30T10:49:42+09:00",
+  "generated_at": "2026-08-30T15:54:32+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1391,
+      "total_count": 1392,
       "stores": [
         {
           "rank": 1,
@@ -152,7 +152,7 @@
         {
           "rank": 7,
           "name": "eフィーバーキン肉マン",
-          "count": 15
+          "count": 16
         },
         {
           "rank": 8,
@@ -849,7 +849,7 @@
       {
         "rank": 6,
         "name": "eフィーバーキン肉マン",
-        "count": 48
+        "count": 49
       },
       {
         "rank": 7,
@@ -872,7 +872,7 @@
         "count": 15
       }
     ],
-    "total_count": 3710
+    "total_count": 3711
   },
   "store_complete_counts": {
     "ARROW浪速店": 71,
@@ -1596,6 +1596,7 @@
     "パチンコ大王高島平店": 1,
     "パラッツォ藤沢南店": 1,
     "夢限スロカス店長": 1,
+    "ガイア竹原店": 1,
     "モナコの店長\"藤井\"": 1,
     "オーギヤタウン半田店": 1,
     "ビックつばめ郡山店": 1,
@@ -1605,8 +1606,8 @@
     "D'station花園": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3236,
+    "records_with_store_id": 3237,
     "records_without_store_id": 474,
-    "canonical_store_ids": 528
+    "canonical_store_ids": 529
   }
 }
