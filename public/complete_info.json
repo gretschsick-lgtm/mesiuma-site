@@ -66,6 +66,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000017"
   },
   {
+    "id": "36397c79a7f6",
+    "date": "2026-08-30",
+    "time": "22:06",
+    "store": "ダイナム栃木大田原店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8.30（日） L戦国乙女5 業火を穿つ宿焔の双刃 コンプリート達成 おめでとうございます♪  #L戦国乙女5 #コンプリート #ダイナム栃木大田原店",
+    "x_url": "https://x.com/dynam_00307/status/2094049148714553344",
+    "store_handle": "dynam_00307",
+    "store_x_url": "https://x.com/dynam_00307",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:09:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-OmlmW0AAgsnD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-OmlmW0AAgsnD?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
     "id": "031c451625c3",
     "date": "2026-08-30",
     "time": "21:46",
@@ -129,6 +150,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ-EFTUbUAEA_vN?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "bc55136b6a32",
+    "date": "2026-08-30",
+    "time": "21:20",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "439",
+    "text": "こんばんは メガシティ三島駿東です  e東京喰種 439番台  お見事コンプリート おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2094037417812516965",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:09:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-DFKdbMAA7FCm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-DFKdbMAA7FCm?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "ff0b62f04c1e",
@@ -216,6 +258,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ9_vuPa0AALDkz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
+    "id": "1c21f3dd985a",
+    "date": "2026-08-30",
+    "time": "18:00",
+    "store": "マルハン黒磯店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "30",
+    "text": "月日（日)  本日も多くのお客様のご来店 誠にありがとうございます  30番台　　　　　　　         e牙狼12黄金騎士極限    コンプリート達成      おめでとうございます",
+    "x_url": "https://x.com/maruhankuroiso/status/2093987097845854353",
+    "store_handle": "maruhankuroiso",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-30T18:39:53Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ9VIpqbwAAISyx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ9VIpqbwAAISyx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "f889211690b7",
+    "date": "2026-08-30",
+    "time": "18:00",
+    "store": "ダイナム上野店",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "250",
+    "text": "250番台　eブルーロック  コンプリートおめでとうございます  #ダイナム",
+    "x_url": "https://x.com/dynam_00137/status/2093987133451022572",
+    "store_handle": "dynam_00137",
+    "store_x_url": "https://x.com/dynam_00137",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:40:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ9WMr2WkAAy2g_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ9WMr2WkAAy2g_?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c"
   },
   {
     "id": "bd15a529d37f",
@@ -388,6 +472,29 @@
     "image_url": "https://pbs.twimg.com/media/HQ5eNQNaMAEEGgD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000035",
     "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "8bb08bd7bfcb",
+    "date": "2026-08-29",
+    "time": "23:52",
+    "store": "ャン久喜インター店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "656",
+    "text": "おすすめ週間　No. 656番台ヴァルヴレイヴ2 19004枚  おすすめ機種更新 店内要チェック  コンプリート多すぎな件 パチンコとスロットから　 おめでとうございます　  ジャンジャンやっぱり 　夢あるなー 　 #ジャンジャン久喜インター店 #8月創業月間 #ラストスパート",
+    "x_url": "https://x.com/torichan0128/status/2093713481048707557",
+    "store_handle": "torichan0128",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-30T18:10:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5dR9HaYAA1HyP?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ5dR87bEAAwo3G?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2093713439818756096/img/IQ6qraHOcK3aY8uz.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5dR9HaYAA1HyP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "40608e16c7b9",
@@ -642,6 +749,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ46ayQXUAA9nLH?format=jpg&name=large",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
+    "id": "646baf0ce45c",
+    "date": "2026-08-29",
+    "time": "21:20",
+    "store": "ダイナム（自動発掘）",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "400",
+    "text": "#ダイナム小矢部店 8/29　来店ポイント説明会、 400番台 #ヴァルヴレイヴ2 にて コンプリート達成  おめでとうございます  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00098/status/2093675183080865933",
+    "store_handle": "dynam_00098",
+    "store_x_url": "https://x.com/dynam_00098",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:10:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "bb9bfec949a0",
@@ -990,6 +1118,27 @@
     "source_account_type": "store_official",
     "collected_at": "2026-08-29T17:30:38Z",
     "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "401dd8504b17",
+    "date": "2026-08-29",
+    "time": "19:16",
+    "store": "グランキコーナ大阪本店",
+    "machine": "eフィーバー機動戦士ガンダムSEED",
+    "machine_type": "pachinko",
+    "slot_number": "403",
+    "text": "こんばんは  グランキコーナ大阪本店です  なんとなんと「eフィーバー機動戦士ガンダムSEED クライマックス」403番台にて  コンプリート達成です  この後のお時間もごゆっくりと お楽しみ下さいませ   #つぶやキコーナ #グランキコーナ大阪本店",
+    "x_url": "https://x.com/g_kicona_honten/status/2093643983666979300",
+    "store_handle": "g_kicona_honten",
+    "store_x_url": "https://x.com/g_kicona_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:09:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4dugIbYAAhp4V?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4dugIbYAAhp4V?format=jpg&name=large",
+    "machine_id": "17248f99-4f74-498a-acfa-dfa6ac17ea68"
   },
   {
     "id": "c6e3f7ffc609",
@@ -1746,6 +1895,49 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQzFYqcaEAARW9y?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "ca0607de837b",
+    "date": "2026-08-28",
+    "time": "18:00",
+    "store": "メガフェイス1450本山",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "786",
+    "text": "コンプリート速報   ==8月28日== 786番台 e牙狼12黄金騎士極限  #コンプリート　達成です!！ おめでとうございます  #メガフェイス1450本山 #e牙狼12黄金騎士極限",
+    "x_url": "https://x.com/megaface_1450/status/2093262326820712944",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:42:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQy_rwJa8AAsJVR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQy_rwJa8AAsJVR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "8270051a5f08",
+    "date": "2026-08-28",
+    "time": "16:41",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "511",
+    "text": "511番台 e牙狼12 コンプリート達成 #8月28日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2093242557665079354",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T18:42:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQyxAiMakAAw1sV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQs975lbIAA2DCl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQyxAiMakAAw1sV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "2722953e5e48",
