@@ -214,6 +214,48 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "9df421414f36",
+    "date": "2026-08-29",
+    "time": "21:24",
+    "store": "ユーコーラッキー37辻堂店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは  本日当店設置の 「L　チバリヨ2ZB」にて コンプリート機能発動しました おめでとうございます  ご遊技頂きましたお客様ありがとうございました。 また、明日もご来店お待ちしております。  congratulations！  #ユーコーラッキー37辻堂店 #コンプリート #チバリヨ",
+    "x_url": "https://x.com/YUKO_TSUJIDOU/status/2093676127609131215",
+    "store_handle": "yuko_tsujidou",
+    "store_x_url": "https://x.com/yuko_tsujidou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T15:39:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ47GcPacAAVeHV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ47GcPacAAVeHV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
+    "id": "5a8660bf6478",
+    "date": "2026-08-29",
+    "time": "21:20",
+    "store": "ダイナム富山上市店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "367",
+    "text": "本日8月29日（土） スロセレご来店ありがとうございます  スマスロゴッドイーターリザレクション367番台にて コンプリート達成おめでとうございます  明日はスマスロ説明会実施 朝からのご来店おまちしております  #ゴッドイーター　#コンプリート",
+    "x_url": "https://x.com/dynam_00300/status/2093675112633372883",
+    "store_handle": "dynam_00300",
+    "store_x_url": "https://x.com/dynam_00300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T15:39:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ46ayQXUAA9nLH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ46ayQXUAA9nLH?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
     "id": "be4dcb031074",
     "date": "2026-08-29",
     "time": "21:12",
