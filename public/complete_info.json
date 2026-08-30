@@ -266,6 +266,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000014"
   },
   {
+    "id": "1c21f3dd985a",
+    "date": "2026-08-30",
+    "time": "18:00",
+    "store": "マルハン黒磯店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "30",
+    "text": "月日（日)  本日も多くのお客様のご来店 誠にありがとうございます  30番台　　　　　　　         e牙狼12黄金騎士極限    コンプリート達成      おめでとうございます",
+    "x_url": "https://x.com/maruhankuroiso/status/2093987097845854353",
+    "store_handle": "maruhankuroiso",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-30T20:45:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ9VIpqbwAAISyx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ9VIpqbwAAISyx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "bd15a529d37f",
     "date": "2026-08-30",
     "time": "17:56",
@@ -4009,6 +4030,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQiye2CaIAAA9cS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "334e2fb30607",
+    "date": "2026-08-25",
+    "time": "11:11",
+    "store": "カネマン奥州1111",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "498",
+    "text": "8/24  e牙狼12黄金騎士極限　498番台  コンプリート  #カネマン奥州1111 #コンプリート",
+    "x_url": "https://x.com/kaneman_1111/status/2092072217832251656",
+    "store_handle": "kaneman_1111",
+    "store_x_url": "https://x.com/kaneman_1111",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-30T20:28:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQfHTlca4AA_Uc5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQfHTlca4AA_Uc5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "8d701717105e",
