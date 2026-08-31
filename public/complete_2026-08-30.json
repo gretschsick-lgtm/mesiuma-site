@@ -201,6 +201,48 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "32d41518c464",
+    "date": "2026-08-30",
+    "time": "21:34",
+    "store": "祇園店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは♪  先程 #Lミリオンゴッド にてコンプリート達成  おめでとうございます  明日も皆様のご来店お待ちしております  #コンプリート #テキサス祇園店",
+    "x_url": "https://x.com/texasgion1755/status/2094040960632307802",
+    "store_handle": "texasgion1755",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-31T19:42:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-HJBSakAARG1R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-HJBSakAARG1R?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004"
+  },
+  {
+    "id": "1f2dbf15fb77",
+    "date": "2026-08-30",
+    "time": "21:34",
+    "store": "ツインビクトリー益田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ツイン速報    スマスロ #ヴァルヴレイヴ2  19000pt コンプリート達成      おめでとうございます 他、10000ptオーバー多数 周年月間ラストまで楽しんで いきましょ～ #ツインビクトリー益田 #遊び所  #周年月間",
+    "x_url": "https://x.com/TwinVictory777/status/2094040942127059161",
+    "store_handle": "twinvictory777",
+    "store_x_url": "https://x.com/twinvictory777",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T19:42:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-HIZ-bEAAf4DF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-HIZ-bEAAf4DF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "b1986dcea551",
     "date": "2026-08-30",
     "time": "21:21",
@@ -220,6 +262,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ-EFTUbUAEA_vN?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "bc55136b6a32",
+    "date": "2026-08-30",
+    "time": "21:20",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "439",
+    "text": "こんばんは メガシティ三島駿東です  e東京喰種 439番台  お見事コンプリート おめでとうございます",
+    "x_url": "https://x.com/mega_mishima/status/2094037417812516965",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T19:11:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-DFKdbMAA7FCm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-DFKdbMAA7FCm?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
     "id": "ff0b62f04c1e",
