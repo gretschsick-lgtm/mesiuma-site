@@ -734,6 +734,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "c229541dd18b",
+    "date": "2026-08-30",
+    "time": "15:37",
+    "store": "ARROW浪速店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "928",
+    "text": "本日、   Lパチスロ 革命機ヴァルヴレイヴ2　928番台    コンプリート達成  おめでとうございます #スロット　#コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2093951342838792573",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T22:11:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ81h-tbYAA1dVX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ81h-tbYAA1dVX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "43a9f5dbf259",
     "date": "2026-08-30",
     "time": "13:59",
@@ -753,6 +775,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ8fM2KaAAAyfLM?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "48ce5cebc707",
+    "date": "2026-08-30",
+    "time": "11:45",
+    "store": "ダイナム岩手前沢店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "329",
+    "text": "昨日、月日㊏  DMMぱちタウンパチスロ取材「#スロセレ」  たくさんのご来店ありがとうございました  L戦国乙女5  329番台にて コンプリート達成！  おめでとうございます   本日、月日㊐もお楽しみ下さい ご来店お待ちしております  #コンプリート　#前沢　#ダイナム",
+    "x_url": "https://x.com/dynam_00283/status/2093892739792285867",
+    "store_handle": "dynam_00283",
+    "store_x_url": "https://x.com/dynam_00283",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T22:11:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ8AWKWXoAApsNz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ8AWKWXoAApsNz?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "2e396ce54246",

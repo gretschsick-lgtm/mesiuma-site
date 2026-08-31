@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-09-01T06:14:27+09:00",
+  "generated_at": "2026-09-01T07:49:17+09:00",
   "monthly": [
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1476,
+      "total_count": 1478,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 68
+          "count": 69
         },
         {
           "rank": 2,
@@ -26,7 +26,7 @@
         {
           "rank": 4,
           "name": "ARROW浪速店",
-          "count": 18,
+          "count": 19,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 236
+          "count": 237
         },
         {
           "rank": 2,
@@ -85,7 +85,7 @@
         {
           "rank": 4,
           "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-          "count": 57
+          "count": 58
         },
         {
           "rank": 5,
@@ -711,12 +711,12 @@
       {
         "rank": 1,
         "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-        "count": 77
+        "count": 78
       },
       {
         "rank": 2,
         "name": "ARROW浪速店",
-        "count": 71,
+        "count": 72,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
@@ -772,7 +772,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 658
+        "count": 659
       },
       {
         "rank": 2,
@@ -807,7 +807,7 @@
       {
         "rank": 8,
         "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-        "count": 77
+        "count": 78
       },
       {
         "rank": 9,
@@ -872,11 +872,11 @@
         "count": 15
       }
     ],
-    "total_count": 3795
+    "total_count": 3797
   },
   "store_complete_counts": {
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 77,
-    "ARROW浪速店": 71,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 78,
+    "ARROW浪速店": 72,
     "キング観光サウザンド栄若宮大通店": 57,
     "プレイランドキャッスル春日井店": 56,
     "楽園池袋店ゲートウェイ": 53,
@@ -1614,7 +1614,7 @@
     "香里園店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3300,
+    "records_with_store_id": 3302,
     "records_without_store_id": 495,
     "canonical_store_ids": 535
   }
