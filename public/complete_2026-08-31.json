@@ -1,23 +1,45 @@
 [
   {
-    "id": "cc494e94bcd3",
+    "id": "503685b767c4",
     "date": "2026-08-31",
-    "time": "21:31",
-    "store": "マルハン小山千駄塚店",
-    "machine": "スマスロ北斗の拳転生の章2",
+    "time": "21:57",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "Lかぐや様は告らせたい",
     "machine_type": "slot",
-    "slot_number": "824",
-    "text": "なんと、、、北斗の拳転生の章2からコンプリート達成にゃ その拳はまさに輪廻を超え、宿命すら打ち砕きし拳にゃ…… 824番台のお客様おめでとうございますにゃ  #マルハン小山千駄塚  @maruhan_yamada    @mia_maruhan    @chiigon_maruhan    @amii_maruhan",
-    "x_url": "https://x.com/oyamasendaduka2/status/2094402645121503664",
-    "store_handle": "oyamasendaduka2",
-    "store_x_url": "https://x.com/oyamasendaduka2",
+    "slot_number": "270",
+    "text": "コンプリート速報  【豊崎本館】270番台 ‐かぐや様は告らせたい‐  コンプリート達成 おめでとうございます  #ガイモンさん来店 #沖縄最大スロ専 #メガフェイス豊崎本館",
+    "x_url": "https://x.com/megaface_1120/status/2094409115774963716",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-08-31T19:53:27Z",
+    "collected_at": "2026-08-31T19:41:05Z",
     "images": [
-      "https://pbs.twimg.com/media/HRDP_3TbcAAqFxv?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HRDTquza0AAPLxw?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRDTsxcbkAESd2P?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HRDP_3TbcAAqFxv?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001"
+    "image_url": "https://pbs.twimg.com/media/HRDTquza0AAPLxw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017"
+  },
+  {
+    "id": "c5eaa63dee83",
+    "date": "2026-08-31",
+    "time": "17:30",
+    "store": "マルハン黒磯店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "29",
+    "text": "月日（月)  本日も多くのお客様のご来店 誠にありがとうございます  29番台　　　　　　　         e牙狼12黄金騎士極限    コンプリート達成      おめでとうございます",
+    "x_url": "https://x.com/maruhankuroiso/status/2094341924924858402",
+    "store_handle": "maruhankuroiso",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-31T19:43:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRCXvcMaMAAEDcw?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRCXvcMaMAAEDcw?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   }
 ]
