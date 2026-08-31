@@ -86,6 +86,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "26eef787f353",
+    "date": "2026-08-29",
+    "time": "22:49",
+    "store": "ダイナム群馬群馬町店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "263",
+    "text": "L東京喰種263番台より  #コンプリート  おめでとう御座います  本日は #サービスマイスター 群馬大会  たくさんのご来店誠にありがとうございました  まだまだ #誕生月間  終わらない  本日も勉強になる1日でした  お客様 スタッフの皆様 大会運営の皆様  #コバキチ　さん  ありがとう",
+    "x_url": "https://x.com/magokoro_katoch/status/2093697661446799736",
+    "store_handle": "magokoro_katoch",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-31T01:13:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5IkTHbMAAI_wu?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ5IkcAaIAAbeTe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5IkTHbMAAI_wu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "731320496d99",
     "date": "2026-08-29",
     "time": "22:48",
@@ -170,6 +192,28 @@
     "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac"
   },
   {
+    "id": "5eca718b1e95",
+    "date": "2026-08-29",
+    "time": "22:32",
+    "store": "ダイナム群馬群馬町店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "263",
+    "text": "本日サービスマイスターグランプリin群馬 ご来店頂きまして誠にありがとうございます！  263番台 スマスロ東京喰種 コンプリート おめでとうございます  8/30「スロセレ」開催！ 　「情報公開」お見逃しなく 8/31はダイナム群馬町店誕生日  ご来店お待ちしております",
+    "x_url": "https://x.com/dynam_00170/status/2093693153387970594",
+    "store_handle": "dynam_00170",
+    "store_x_url": "https://x.com/dynam_00170",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T01:13:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5IkTHbMAAI_wu?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ5IkcAaIAAbeTe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5IkTHbMAAI_wu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "6e43f337a6d6",
     "date": "2026-08-29",
     "time": "22:26",
@@ -210,6 +254,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ5ILuVbcAIDxQz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "a33e6bd5667d",
+    "date": "2026-08-29",
+    "time": "22:03",
+    "store": "ユーコーラッキー37太宰府店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート達成】  本日、当店設置の「e女神のカフェテラス」にて コンプリート機能が発動いたしました!!!  ご遊技いただき、誠にありがとうございました。",
+    "x_url": "https://x.com/yuko_dazaifu/status/2093686026225197436",
+    "store_handle": "yuko_dazaifu",
+    "store_x_url": "https://x.com/yuko_dazaifu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T01:24:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5ET5TaQAAdGQk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5ET5TaQAAdGQk?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7"
   },
   {
     "id": "7eabd468af18",
