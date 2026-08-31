@@ -458,6 +458,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "d77d096fc0ec",
+    "date": "2026-08-30",
+    "time": "17:10",
+    "store": "楽園南越谷店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "451",
+    "text": "451番台　真打吉宗　コンプリート達成#北越谷UNO",
+    "x_url": "https://x.com/UNO68501823/status/2093974522085195855",
+    "store_handle": "uno68501823",
+    "store_x_url": "https://x.com/uno68501823",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T10:11:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ9KQFAaAAAIAUz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ9KQFAaAAAIAUz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
     "id": "fc7939b036aa",
     "date": "2026-08-30",
     "time": "16:55",
@@ -1153,6 +1174,50 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "f8c0d72f79aa",
+    "date": "2026-08-29",
+    "time": "20:16",
+    "store": "MJアリーナ井尻店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "696",
+    "text": "本日8月29日　　　　 L炎炎ノ消防隊2　696番台 コンプリート達成 おめでとうございます",
+    "x_url": "https://x.com/mjijiri/status/2093658937354772774",
+    "store_handle": "mjijiri",
+    "store_x_url": "https://x.com/mjijiri",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T10:42:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4rhS3aoAAhxoA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4rhS3aoAAhxoA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "9f1517664d"
+  },
+  {
+    "id": "d21779898f64",
+    "date": "2026-08-29",
+    "time": "20:15",
+    "store": "D'station旭店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "本日8月29日（土）  北斗の拳　転生の章2  コンプリート達成  羨ましい  ご遊技頂いたお客様、 おめでとうございます お疲れ様でした",
+    "x_url": "https://x.com/d_asahi1220/status/2093658787454542033",
+    "store_handle": "d_asahi1220",
+    "store_x_url": "https://x.com/d_asahi1220",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-08-31T10:42:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4raZCaMAANxTa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4raZCaMAANxTa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "4cf9f05d28"
+  },
+  {
     "id": "10cc18aea5d3",
     "date": "2026-08-29",
     "time": "20:13",
@@ -1815,6 +1880,27 @@
     "image_url": "https://pbs.twimg.com/media/HQ0BazBacAEcL0r?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "3a60c5ae00"
+  },
+  {
+    "id": "18de7212e401",
+    "date": "2026-08-28",
+    "time": "22:18",
+    "store": "タウン半田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート速報でーす  Lパチスロ　革命機ヴァルヴレイヴ2からコンプリート！  もう、みんな凄すぎてビックリ  達成されたお客様、 おめでとうございます  #コンプリート速報 #オーギヤタウン半田店 #ゴールデンビニー",
+    "x_url": "https://x.com/ogiya_handa/status/2093327458573615482",
+    "store_handle": "ogiya_handa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-08-31T10:45:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQz-OjeawAA_2X5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQz-OjeawAA_2X5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "298c26fb5d71",
