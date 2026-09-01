@@ -22,6 +22,27 @@
     "store_id": "2b4d471207"
   },
   {
+    "id": "5565596b3ba2",
+    "date": "2026-09-01",
+    "time": "21:21",
+    "store": "やすだひばりヶ丘店",
+    "machine": "e東京リベンジャーズ",
+    "machine_type": "pachinko",
+    "slot_number": "543",
+    "text": "やすひば速報  本日も多数様のご来店 誠にありがとうございます。  ≪e東京リベンジャーズ≫ 　５４３番台より  コンプリート発生 おめでとうごさいます  やすひば　なら ①円パチンコからも タップリお楽しみ頂けます♪  明日もご来店お待ちしてます #コンプリート　#やすひば",
+    "x_url": "https://x.com/yasuda_hibari/status/2094762444522750314",
+    "store_handle": "yasuda_hibari",
+    "store_x_url": "https://x.com/yasuda_hibari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T20:41:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRIV9u0bwAAxEXc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRIV9u0bwAAxEXc?format=jpg&name=large",
+    "machine_id": "bc5bfd6f-6b97-4b1c-8049-961116798e8c"
+  },
+  {
     "id": "802393d01f7d",
     "date": "2026-09-01",
     "time": "21:00",
@@ -3906,6 +3927,29 @@
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
   },
   {
+    "id": "1d199e9bad35",
+    "date": "2026-08-27",
+    "time": "17:42",
+    "store": "マルハン大山",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "8/27(木)分析結果 マルハン大山 天草覇道ホール応援団 クロロ調査隊超トレジャーS 躍動WEEK  総差枚:+80,200枚／平均:+352枚  全台系濃厚機種 ≪バイオRE:3≫ 平均：+7,550枚2/3台+ 2307番台：+6,500枚 2309番台：+18,000枚  ≪攻殻機動隊≫ 平均：+3,300枚3/3台+",
+    "x_url": "https://x.com/s_slotterguildh/status/2093257885438693816",
+    "store_handle": "s_slotterguildh",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-01T20:44:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQy8tzKbsAAANvK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQy9UN9bYAAmTXS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQy95QEa4AAGjw-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQy8tzKbsAAANvK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "ea071ceda859",
     "date": "2026-08-27",
     "time": "16:45",
@@ -4565,6 +4609,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQo6dVVawAA1pad?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "93288bd03916",
+    "date": "2026-08-26",
+    "time": "18:33",
+    "store": "キング観光金山店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "891",
+    "text": "#キング観光サウザンド金山店 です  先程、 Lパチスロ 革命機ヴァルヴレイヴ2 891番台にてコンプリートしましたーー  #コンプリート #ヴヴヴ #名古屋 #金山 #キング観光 #スロット",
+    "x_url": "https://x.com/King_Kanayama/status/2092546085130731754",
+    "store_handle": "king_kanayama",
+    "store_x_url": "https://x.com/king_kanayama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T20:26:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQo3K8_bQAA6vRc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQo3K8_bQAA6vRc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "5a7741b3997b",
