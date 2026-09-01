@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-09-01T15:41:19+09:00",
+  "generated_at": "2026-09-01T18:38:07+09:00",
   "monthly": [
+    {
+      "month": "2026-09",
+      "label": "2026年9月",
+      "total_count": 1,
+      "stores": [
+        {
+          "rank": 1,
+          "name": "マルハン仙台名坊店",
+          "count": 1,
+          "x_url": "https://x.com/naebomaruhan"
+        }
+      ],
+      "slot_machines": [],
+      "pachinko_machines": [
+        {
+          "rank": 1,
+          "name": "e牙狼12黄金騎士極限",
+          "count": 1
+        }
+      ]
+    },
     {
       "month": "2026-08",
       "label": "2026年8月",
@@ -824,7 +845,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 465
+        "count": 466
       },
       {
         "rank": 2,
@@ -872,7 +893,7 @@
         "count": 15
       }
     ],
-    "total_count": 3807
+    "total_count": 3808
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 78,
@@ -941,6 +962,7 @@
     "マルハン甲府店": 15,
     "マルハンメガシティ八千代緑が丘": 14,
     "キコーナ府中": 14,
+    "マルハン仙台名坊店": 14,
     "マルハン青梅新町店【イイじゃん!】": 14,
     "ユーコーラッキー37太宰府店": 14,
     "M&K岡崎店": 13,
@@ -949,7 +971,6 @@
     "ビックマーチ河和田東店": 13,
     "ＡＢＣ豊川店": 13,
     "マルハン袋井店": 13,
-    "マルハン仙台名坊店": 13,
     "マルハンアプリはこちら": 13,
     "SuperD'station39女神店": 12,
     "グランドホール港南店": 12,
@@ -1614,7 +1635,7 @@
     "香里園店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3310,
+    "records_with_store_id": 3311,
     "records_without_store_id": 497,
     "canonical_store_ids": 535
   }
