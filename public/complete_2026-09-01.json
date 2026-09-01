@@ -86,6 +86,27 @@
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
+    "id": "896915837f23",
+    "date": "2026-09-01",
+    "time": "20:00",
+    "store": "マルハン下松店",
+    "machine": "パチスロ北斗の拳 転生の章",
+    "machine_type": "slot",
+    "slot_number": "552",
+    "text": "こんばんは マルハン下松店です  店内速報  L北斗の拳転生の章 552番台にて コンプリート機能発動  おめでとうございます  お仕事終わりはマルハン下松店で Ｌｅｔ‘ｓ Ｅｎｊｏｙ  この後のお時間、 ご来店をお待ちしております",
+    "x_url": "https://x.com/marukudatencho/status/2094742162630136152",
+    "store_handle": "marukudatencho",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marukudatencho",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-01T22:11:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRIE5OIboAAnuWL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRIE5OIboAAnuWL?format=jpg&name=large",
+    "machine_id": "28bf41c3-d782-4ae9-b9e0-cc892130680d"
+  },
+  {
     "id": "5aead133164e",
     "date": "2026-09-01",
     "time": "17:52",

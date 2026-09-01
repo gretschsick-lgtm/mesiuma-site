@@ -91,6 +91,27 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "f81bfbec78ba",
+    "date": "2026-08-30",
+    "time": "22:46",
+    "store": "パーラーゾーン姪浜",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "270",
+    "text": "270番台 ゴッドイーターリザレクション コンプリート達成  おめでとうございま～す  本日はパチ＆スロ必勝本リバイバルでした～ #コンプリート",
+    "x_url": "https://x.com/parlorzonem/status/2094059240268976259",
+    "store_handle": "parlorzonem",
+    "store_x_url": "https://x.com/parlorzonem",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T22:42:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-XFHBa4AAmdLi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-XFHBa4AAmdLi?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
     "id": "6218719ad006",
     "date": "2026-08-30",
     "time": "22:40",
@@ -198,6 +219,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ-OmlmW0AAgsnD?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "f24faa7ea79d",
+    "date": "2026-08-30",
+    "time": "22:04",
+    "store": "マルハン亀有店 中の人・亀にゃん",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "410",
+    "text": "e 東京喰種W 　　410番台　コンプリート  　おめでとうございます",
+    "x_url": "https://x.com/maruhan_kameari/status/2094048665086394805",
+    "store_handle": "maruhan_kameari",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maruhan_kameari",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-01T22:42:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-NyVUasAAO0PN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-NyVUasAAO0PN?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "c92e2ceccdc3",
+    "date": "2026-08-30",
+    "time": "22:00",
+    "store": "ダイナム長野上田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "546",
+    "text": "そして、本日2件目のコンプリートは…  上ダではお馴染み───  546番台 革命機ヴァルヴレイヴ2 より  魂の𝒄𝒐𝒎𝒑𝒍𝒆𝒕𝒆頂きました！！！  おめでとうございます  相当に激しい戦いだったと見受けられます…  お見事、と言わざるを得ないです  #コンプリート",
+    "x_url": "https://x.com/dynam_00440/status/2094047578149335334",
+    "store_handle": "dynam_00440",
+    "store_x_url": "https://x.com/dynam_00440",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T22:42:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-NLCcaYAAdwSM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-NLCcaYAAdwSM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "031c451625c3",
