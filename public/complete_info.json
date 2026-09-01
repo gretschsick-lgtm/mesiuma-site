@@ -459,27 +459,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
-    "id": "83008d35976c",
-    "date": "2026-08-30",
-    "time": "20:36",
-    "store": "ビックマーチ東習志野店",
-    "machine": "L真打吉宗",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "コンプリート速報 L真打吉宗にて コンプリート達成しました コンプされたお客様 おめでとうございます #ビックマーチ #ビックマーチ日立店 #コンプリート",
-    "x_url": "https://x.com/pachislotmanmgr/status/2094026421547188716",
-    "store_handle": "pachislotmanmgr",
-    "store_x_url": "https://x.com/pachislotmanmgr",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-09-01T01:32:28Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQ95JxCasAA3Fra?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQ95JxCasAA3Fra?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000010"
-  },
-  {
     "id": "715d66c4ec2b",
     "date": "2026-08-30",
     "time": "19:40",
@@ -520,27 +499,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ9q-wjbMAE0q1W?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "e49b9f6cba63",
-    "date": "2026-08-30",
-    "time": "19:09",
-    "store": "キクヤ島店",
-    "machine": "Lパチスロ からくりサーカス2",
-    "machine_type": "slot",
-    "slot_number": "1532",
-    "text": "【1532番台　からくりサーカス２】 コンプリート！！おめでとうございます！",
-    "x_url": "https://x.com/shima12_17/status/2094004621962551717",
-    "store_handle": "shima12_17",
-    "store_x_url": "https://x.com/shima12_17",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-09-01T01:33:33Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQ9mD14aYAAdu57?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQ9mD14aYAAdu57?format=jpg&name=large",
-    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "86adef283b68",
@@ -1944,6 +1902,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ4DH0Xa4AAgOj1?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "77aae7cdff48",
+    "date": "2026-08-29",
+    "time": "17:08",
+    "store": "ラッキープラザ1111弥富店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1169",
+    "text": "本日、1169番台 北斗の拳転生の章2  コンプリートおめでとうございます！  この後もごゆっくりお楽しみくださいませ！！",
+    "x_url": "https://x.com/Yatomilp1111/status/2093611649181925719",
+    "store_handle": "yatomilp1111",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-01T01:48:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4AEuWbgAAT1sk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4AEuWbgAAT1sk?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "86561768a837",
@@ -4580,7 +4559,7 @@
     "store_x_url": "https://x.com/tachikawa_raku",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-09-01T01:03:09Z",
+    "collected_at": "2026-09-01T01:48:48Z",
     "images": [
       "https://pbs.twimg.com/media/HQj-rObaYAAvsDu?format=jpg&name=large"
     ],
