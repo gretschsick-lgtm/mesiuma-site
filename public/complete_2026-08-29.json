@@ -256,6 +256,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
+    "id": "805c4eb166b5",
+    "date": "2026-08-29",
+    "time": "22:29",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "1237",
+    "text": "本日2台目のコンプリート 1237番台　Lゴッドイーターリザレクション おめでとうございます #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2093692614910542227",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T06:32:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5KTNVbcAApv7w?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5KTNVbcAApv7w?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
     "id": "6e43f337a6d6",
     "date": "2026-08-29",
     "time": "22:26",

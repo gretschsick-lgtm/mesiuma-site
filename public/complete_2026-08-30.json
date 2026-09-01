@@ -200,6 +200,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "50c89ca76cc5",
+    "date": "2026-08-30",
+    "time": "21:39",
+    "store": "キクヤ一宮店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "1111",
+    "text": "1111番台　チバリヨ2 21時26分頃　コンプリート達成 おめでとうございます！！！  週末の境界ヲ超エロ。",
+    "x_url": "https://x.com/ichinomiya1380/status/2094042377954746847",
+    "store_handle": "ichinomiya1380",
+    "store_x_url": "https://x.com/ichinomiya1380",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T06:32:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-H4svaoAAFK4K?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-H4svaoAAFK4K?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "7685698c77c9",
     "date": "2026-08-30",
     "time": "21:36",
@@ -584,6 +605,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ9QryDbkAALCPm?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "d250a9803b44",
+    "date": "2026-08-30",
+    "time": "17:16",
+    "store": "キコーナ堺本店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "760",
+    "text": "キクヤ堺本店1515 コンプリートのご報告 　　　　　760番台 　　　【Lからくりサーカス2】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/ksakaihonten/status/2093976195880939917",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T06:01:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ9LkGya0AAPfSg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ9LkGya0AAPfSg?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "d77d096fc0ec",
