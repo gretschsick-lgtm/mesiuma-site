@@ -211,5 +211,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRCXvcMaMAAEDcw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "53f9996c7f6c",
+    "date": "2026-08-31",
+    "time": "09:00",
+    "store": "ダイナム福岡久留米店",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "320",
+    "text": "コンプリート報告  320番台　 ｅ新世紀エヴァンゲリオン 　　～はじまりの記憶～  コンプリートおめでとうございます  本日も10時開店です 皆様のご来店お待ちしております  #エヴァ17 #コンプリート #ダイナム #久留米",
+    "x_url": "https://x.com/dynam_00361/status/2094213616387961045",
+    "store_handle": "dynam_00361",
+    "store_x_url": "https://x.com/dynam_00361",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T18:41:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRAkL78XIAAPmrO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRAkL78XIAAPmrO?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8"
   }
 ]
