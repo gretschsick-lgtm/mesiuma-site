@@ -1,5 +1,27 @@
 [
   {
+    "id": "802393d01f7d",
+    "date": "2026-09-01",
+    "time": "21:00",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "503",
+    "text": "こんばんは マルハンメガシティ三島駿東です  新着コンプリート情報です 静岡マルハン全店合同オススメ 『e東京喰種Ｗ』より 503番台のお客様！コンプリート達成  おめでとうございます  この後もマルハンメガシティ三島駿東で ごゆっくりとお楽しみ下さいませ",
+    "x_url": "https://x.com/mega_mishima/status/2094757164011393534",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:19:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRINoo-aUAAMY5n?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRCmoxMbIAAEme9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRINoo-aUAAMY5n?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "95495515fbcb",
     "date": "2026-09-01",
     "time": "17:07",

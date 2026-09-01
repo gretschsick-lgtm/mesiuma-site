@@ -91,6 +91,27 @@
     "store_id": "c774e988a7"
   },
   {
+    "id": "6218719ad006",
+    "date": "2026-08-30",
+    "time": "22:40",
+    "store": "ゾーン本城店　〜zoneグループ本店〜",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1228",
+    "text": "どもーヒロシです 本日月日 1228番台 #LソードアートオンラインⅡ にて ｜/ #コンプリート達成  ｜\\ まさに滑り込みのコンプリート 遊技されていたお客様おめでとうございます",
+    "x_url": "https://x.com/zone_honjo/status/2094057618591592499",
+    "store_handle": "zone_honjo",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-01T15:51:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-V4m5bsAAp5hz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-V4m5bsAAp5hz?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
     "id": "10cf18c83d6f",
     "date": "2026-08-30",
     "time": "22:33",
@@ -750,6 +771,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "2a3d75fc13af",
+    "date": "2026-08-30",
+    "time": "16:10",
+    "store": "10時開店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "今月はツキハジメから コンプリートが異例の出現率でしたが 中盤以降はピタっと収束  なんと本日は 久しぶりに出ましたよ  1円パチンコの e牙狼黄金騎士極限から おめでとうございます  DSGワールド御経塚店 8月のコンプリート6台目です",
+    "x_url": "https://x.com/DsBR27/status/2093959610562658498",
+    "store_handle": "dsbr27",
+    "store_x_url": "https://x.com/DsBR27",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:50:32Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "c229541dd18b",
     "date": "2026-08-30",
     "time": "15:37",
@@ -854,5 +892,72 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ8AWKWXoAApsNz?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "06e8af564000",
+    "date": "2026-08-30",
+    "time": "09:14",
+    "store": "ダイナム福岡大刀洗店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "283",
+    "text": "８月29日㊏ #ダイナム福岡大刀洗店  283番台　eリコリス・リコイル コンプリート達成  おめでとうございます  #ダイナム　#コンプリート　#リコリコ",
+    "x_url": "https://x.com/dynam_00228/status/2093854845761417554",
+    "store_handle": "dynam_00228",
+    "store_x_url": "https://x.com/dynam_00228",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:35:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ7d4pnWwAA8nz1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ7d4pnWwAA8nz1?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "51be622e77f9",
+    "date": "2026-08-30",
+    "time": "01:09",
+    "store": "ARROW浪速店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "249",
+    "text": "本日さらに！  eリコリス・リコイル　249番台 e牙狼12黄金騎士極限 　546番台  コンプリート達成おめでとうございます！ #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2094095207574954204",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:35:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-4cAvbEAAuEsD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ-4cthbEAAqqrk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-4cAvbEAAuEsD?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "5375457c16cc",
+    "date": "2026-08-30",
+    "time": "01:09",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日さらに！  eリコリス・リコイル　249番台 e牙狼12黄金騎士極限 　546番台  コンプリート達成おめでとうございます！ #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2094095207574954204",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:35:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-4cAvbEAAuEsD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ-4cthbEAAqqrk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-4cAvbEAAuEsD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   }
 ]

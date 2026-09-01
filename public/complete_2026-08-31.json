@@ -64,6 +64,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "aa3388af883b",
+    "date": "2026-08-31",
+    "time": "21:21",
+    "store": "ZENT名古屋北店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "1665",
+    "text": "本日のコンプリート報告   1665番台＆1668番台  チバリヨ2   2台まとめての報告です マーベラスです！Σ(･ω･ﾉ)ﾉ！  明日開放   #ZENT  #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2094400224857067787",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-01T15:20:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRDLXL5bkAAdflj?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRDNN3WaUAA-7QK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRDLXL5bkAAdflj?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "ac7892a08141",
     "date": "2026-08-31",
     "time": "21:07",
@@ -147,6 +169,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRCh8XtbkAAIz1l?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "732d0ec70795",
+    "date": "2026-08-31",
+    "time": "18:03",
+    "store": "マルハンメガシティ柏",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "12",
+    "text": "マルハンメガシティ柏 𖤐令和パチ年パチ月始まる𖤐 パチンコ・スロット地域最大級設置  コンプリート速報 12番台　e牙狼12  コンプリート達成 本当におめでとうございます",
+    "x_url": "https://x.com/maruhankashiwa/status/2094350228744732843",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:50:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRCfVzGbkAAVV-Z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRCfVzGbkAAVV-Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "c5eaa63dee83",

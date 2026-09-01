@@ -86,6 +86,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "0f862240599b",
+    "date": "2026-08-29",
+    "time": "23:01",
+    "store": "マルハン盛岡みたけ店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "911",
+    "text": "マルハン盛岡みたけ店です  8/29（土）18:50  911番台 Lパチスロ 革命機ヴァルヴレイヴ2   コンプリート機能発動 #コンプリート",
+    "x_url": "https://x.com/maruhan_morioka/status/2093700505256214562",
+    "store_handle": "maruhan_morioka",
+    "store_x_url": "https://x.com/maruhan_morioka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T15:52:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5OGgEbwAAcZwH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5OGgEbwAAcZwH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "26eef787f353",
     "date": "2026-08-29",
     "time": "22:49",
