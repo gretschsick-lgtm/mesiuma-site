@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T02:45:06+09:00",
+  "generated_at": "2026-09-02T03:36:10+09:00",
   "monthly": [
     {
       "month": "2026-09",
@@ -81,7 +81,7 @@
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1505,
+      "total_count": 1506,
       "stores": [
         {
           "rank": 1,
@@ -949,7 +949,7 @@
         "count": 15
       }
     ],
-    "total_count": 3830
+    "total_count": 3831
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 81,
@@ -1393,6 +1393,7 @@
     "ワンダーランド1177大分南店": 2,
     "吹田店": 2,
     "ワンダーランド百年橋店": 2,
+    "パラッツォ藤沢南店": 2,
     "サミット別府店": 1,
     "新天地Dee1": 1,
     "キコーナ相武台店": 1,
@@ -1673,7 +1674,6 @@
     "SLOT・CLUB　YUMEYA盛岡∞店": 1,
     "アテナスロットワンCB300": 1,
     "パチンコ大王高島平店": 1,
-    "パラッツォ藤沢南店": 1,
     "夢限スロカス店長": 1,
     "ガイア竹原店": 1,
     "レインボー": 1,
@@ -1693,7 +1693,7 @@
   },
   "store_id_coverage": {
     "records_with_store_id": 3327,
-    "records_without_store_id": 503,
+    "records_without_store_id": 504,
     "canonical_store_ids": 536
   }
 }
