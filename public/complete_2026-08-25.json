@@ -481,6 +481,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "fa78d5fa45b7",
+    "date": "2026-08-25",
+    "time": "19:49",
+    "store": "楽園立川店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "3443",
+    "text": "本日、8月25日(火)  3443番台【L革命機ヴァルヴレイヴ2】 コンプリート達成です  本日は遊技台停止となります。 オメデトウゴザイマス",
+    "x_url": "https://x.com/tachikawa_raku/status/2092202601811173673",
+    "store_handle": "tachikawa_raku",
+    "store_x_url": "https://x.com/tachikawa_raku",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T01:03:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQj-rObaYAAvsDu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQj-rObaYAAvsDu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "6a1dc4caac39",
     "date": "2026-08-25",
     "time": "19:29",
