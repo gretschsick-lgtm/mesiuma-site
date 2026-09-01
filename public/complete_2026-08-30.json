@@ -350,6 +350,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "ce4ee6f5850c",
+    "date": "2026-08-30",
+    "time": "21:16",
+    "store": "テキサス小倉店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは テキサス小倉店です  8月30日(日)  　  まだまだ2台目 コンプリート達成    557番台▶︎▶︎▶︎▶︎ Lヴァルヴレイヴ   テキサス小倉の勢いは止まらない  おめでとうございます！！  #テキサス1111 #甲子宴",
+    "x_url": "https://x.com/texas_kokura/status/2094036606852448283",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T10:49:26Z",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "1d51106b91cf",
     "date": "2026-08-30",
     "time": "21:03",
@@ -774,6 +791,48 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ8fM2KaAAAyfLM?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "c2a5a78aa902",
+    "date": "2026-08-30",
+    "time": "13:38",
+    "store": "ユーコーラッキー長崎駅前店☆",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "コンプリート達成  本日、当店設置の 「e牙狼12　黄金騎士極限」にて コンプリート機能が発動いたしました  ご遊技頂いたお客様、おめでとうございます  引き続き皆様のご来店、お待ち致しております  #コンプリート #長崎駅前 #牙狼",
+    "x_url": "https://x.com/yuko_nagaeki/status/2093921217594159112",
+    "store_handle": "yuko_nagaeki",
+    "store_x_url": "https://x.com/yuko_nagaeki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T11:19:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ8Zk8WbYAA4F7E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ8Zk8WbYAA4F7E?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "df6836eb5c4a",
+    "date": "2026-08-30",
+    "time": "12:04",
+    "store": "ダイナム岐阜関緑町店~Since2023.12.28~",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "#コンプリート  月日 #スロセレ 番台 L #攻殻機動隊  おめでとうございました 本日もダイナム岐阜関緑町店で ご来店をお待ちしております #岐阜ダイナム",
+    "x_url": "https://x.com/dynam_00431/status/2093897530387931624",
+    "store_handle": "dynam_00431",
+    "store_x_url": "https://x.com/dynam_00431",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-01T11:19:58Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2093897511136112640/img/2K2QK9TqtYjbLvSL.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2093897511136112640/img/2K2QK9TqtYjbLvSL.jpg?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
     "id": "48ce5cebc707",
