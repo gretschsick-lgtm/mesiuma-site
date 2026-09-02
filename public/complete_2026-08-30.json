@@ -538,6 +538,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "d4db5aa0f934",
+    "date": "2026-08-30",
+    "time": "20:33",
+    "store": "スーパーホール天王寺店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成  本日からくりサーカス2から 　コンプリートが出ました 　　おめでとうございます  その他にも万枚以上が14台 　　8千以上が16台盛り上がってます 　　　この後も万枚コンプリート目指して 　　　　お楽しみくださいませ",
+    "x_url": "https://x.com/supaho_tennouji/status/2094025818402144566",
+    "store_handle": "supaho_tennouji",
+    "store_x_url": "https://x.com/supaho_tennouji",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T08:42:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ95V4_aYAA5f6e?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ95V48bIAAbBF2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ95V4_aYAA5f6e?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "715d66c4ec2b",
     "date": "2026-08-30",
     "time": "19:40",
