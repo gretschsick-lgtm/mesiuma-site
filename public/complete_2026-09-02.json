@@ -1,5 +1,47 @@
 [
   {
+    "id": "c9fd27c03a10",
+    "date": "2026-09-02",
+    "time": "22:10",
+    "store": "メガガイア土山店 中の人（新店長）",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  スマスロ戦国乙女5にて  #コンプリート達成!! おめでとうございます!!  最終最後のお時間まで メガガイア土山店で お楽しみ下さい",
+    "x_url": "https://x.com/MG_TSUCHIYAMA/status/2095137213843681701",
+    "store_handle": "mg_tsuchiyama",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/MG_TSUCHIYAMA",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-02T17:24:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRNqQD3aEAAicra?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRNqQD3aEAAicra?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "adbe3ac67f77",
+    "date": "2026-09-02",
+    "time": "22:02",
+    "store": "キクヤ長良店",
+    "machine": "スロット Re:ゼロから始める異世界生活 season2",
+    "machine_type": "slot",
+    "slot_number": "250",
+    "text": "本日より店内移動にて20Sに新登場の 250番台 LRe:ゼロから始める異世界生活season2 コンプリート機能発動しました  おめでとう御座います",
+    "x_url": "https://x.com/nagara315/status/2095135243498131710",
+    "store_handle": "nagara315",
+    "store_x_url": "https://x.com/nagara315",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T16:59:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRNp7dWakAEi1R-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRNp7dWakAEi1R-?format=jpg&name=large",
+    "machine_id": "c81a452d-0df0-4a0b-ba9a-ed4e406dfab7"
+  },
+  {
     "id": "1d0f444a4977",
     "date": "2026-09-02",
     "time": "21:51",

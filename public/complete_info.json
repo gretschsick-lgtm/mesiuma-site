@@ -1,5 +1,47 @@
 [
   {
+    "id": "c9fd27c03a10",
+    "date": "2026-09-02",
+    "time": "22:10",
+    "store": "メガガイア土山店 中の人（新店長）",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "速報  スマスロ戦国乙女5にて  #コンプリート達成!! おめでとうございます!!  最終最後のお時間まで メガガイア土山店で お楽しみ下さい",
+    "x_url": "https://x.com/MG_TSUCHIYAMA/status/2095137213843681701",
+    "store_handle": "mg_tsuchiyama",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/MG_TSUCHIYAMA",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-02T17:24:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRNqQD3aEAAicra?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRNqQD3aEAAicra?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "adbe3ac67f77",
+    "date": "2026-09-02",
+    "time": "22:02",
+    "store": "キクヤ長良店",
+    "machine": "スロット Re:ゼロから始める異世界生活 season2",
+    "machine_type": "slot",
+    "slot_number": "250",
+    "text": "本日より店内移動にて20Sに新登場の 250番台 LRe:ゼロから始める異世界生活season2 コンプリート機能発動しました  おめでとう御座います",
+    "x_url": "https://x.com/nagara315/status/2095135243498131710",
+    "store_handle": "nagara315",
+    "store_x_url": "https://x.com/nagara315",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T16:59:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRNp7dWakAEi1R-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRNp7dWakAEi1R-?format=jpg&name=large",
+    "machine_id": "c81a452d-0df0-4a0b-ba9a-ed4e406dfab7"
+  },
+  {
     "id": "1d0f444a4977",
     "date": "2026-09-02",
     "time": "21:51",
@@ -1345,6 +1387,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ-H4svaoAAFK4K?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
+    "id": "c2660712cc6c",
+    "date": "2026-08-30",
+    "time": "21:39",
+    "store": "ＡＢＣ豊川店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート報告  L革命機ヴァルヴレイヴ2 番台  コンプリート達成  「コンプリートから 導き出される結論は――」  君の中の獣が目覚めたようです  明日、稼働再開致します。 #ABC豊川店 #コンプリート",
+    "x_url": "https://x.com/ABC_toyokawa/status/2094042315153367536",
+    "store_handle": "abc_toyokawa",
+    "store_x_url": "https://x.com/ABC_toyokawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T17:08:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-IPjYaoAAiYE8?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQxTFZgacAEcXMZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-IPjYaoAAiYE8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "58111f872e"
   },
   {
     "id": "7685698c77c9",
@@ -2749,6 +2814,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ41_peaUAEsh3R?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "3924769b604b",
+    "date": "2026-08-29",
+    "time": "21:00",
+    "store": "キング観光金山店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "995",
+    "text": "先程、 Ｌソードアート・オンラインⅡ 995番台にてコンプリートしました #コンプリート #SAOⅡ #金山 #キング観光 #キング観光サウザンド金山店 #かなキン #スロット",
+    "x_url": "https://x.com/King_Kanayama/status/2093670146930024718",
+    "store_handle": "king_kanayama",
+    "store_x_url": "https://x.com/king_kanayama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T17:23:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ414LGasAAg8ce?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ414LGasAAg8ce?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
     "id": "5a595d7a040f",
@@ -4774,6 +4860,27 @@
       "https://pbs.twimg.com/media/HQtjX1abUAAjS9A?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HQtjX1abUAAjS9A?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "362c53150d32",
+    "date": "2026-08-27",
+    "time": "16:20",
+    "store": "キング観光金山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "102",
+    "text": "#キング観光サウザンド金山店 です  つい先程、 #e牙狼12黄金騎士極限 102番台にてコンプリートしました  #コンプリート #牙狼 #金山 #名古屋 #キング観光 #スマパチ",
+    "x_url": "https://x.com/King_Kanayama/status/2092874841355694219",
+    "store_handle": "king_kanayama",
+    "store_x_url": "https://x.com/king_kanayama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T17:08:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQth9sWa0AATS8p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQth9sWa0AATS8p?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
