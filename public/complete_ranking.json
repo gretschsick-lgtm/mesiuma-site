@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-02T17:51:59+09:00",
+  "generated_at": "2026-09-02T19:52:52+09:00",
   "monthly": [
     {
       "month": "2026-09",
       "label": "2026年9月",
-      "total_count": 12,
+      "total_count": 17,
       "stores": [
         {
           "rank": 1,
@@ -13,88 +13,87 @@
         },
         {
           "rank": 2,
+          "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
+          "count": 2
+        },
+        {
+          "rank": 3,
           "name": "ＭＪアリーナ干隈店",
           "count": 1,
           "x_url": "https://x.com/mjhosikuma"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "name": "マルハン茂原店",
+          "count": 1,
+          "x_url": "https://x.com/maruhanMOBARA"
+        },
+        {
+          "rank": 5,
+          "name": "コンコルド浜松木戸店",
+          "count": 1,
+          "x_url": "https://x.com/concorde_kido"
+        },
+        {
+          "rank": 6,
           "name": "やすだひばりヶ丘店",
           "count": 1,
           "x_url": "https://x.com/yasuda_hibari"
         },
         {
-          "rank": 4,
+          "rank": 7,
           "name": "マルハンメガシティ三島駿東",
           "count": 1,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 5,
+          "rank": 8,
           "name": "マルハン草薙アピア店 店長ひろゆき",
           "count": 1,
           "x_url": "https://x.com/tenchouhiroyuki"
         },
         {
-          "rank": 6,
+          "rank": 9,
           "name": "パラッツォ船橋店",
           "count": 1,
           "x_url": "https://x.com/palazzo_funa"
         },
         {
-          "rank": 7,
+          "rank": 10,
           "name": "マルハン下松店",
           "count": 1,
           "x_url": "https://x.com/marukudatencho"
-        },
-        {
-          "rank": 8,
-          "name": "SUPER COSMO PREMIUM大東店",
-          "count": 1,
-          "x_url": "https://x.com/scpdaitou"
-        },
-        {
-          "rank": 9,
-          "name": "マルハン仙台名坊店",
-          "count": 1,
-          "x_url": "https://x.com/naebomaruhan"
-        },
-        {
-          "rank": 10,
-          "name": "楽園蒲田店",
-          "count": 1,
-          "x_url": "https://x.com/rakuen_kamata"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
-          "name": "スマスロ攻殻機動隊",
+          "name": "L革命機ヴァルヴレイヴ2",
           "count": 2
         },
         {
           "rank": 2,
-          "name": "L革命機ヴァルヴレイヴ2",
-          "count": 1
+          "name": "L東京喰種",
+          "count": 2
         },
         {
           "rank": 3,
           "name": "スロット ソードアート・オンラインⅡ",
-          "count": 1
+          "count": 2
         },
         {
           "rank": 4,
+          "name": "スマスロ攻殻機動隊",
+          "count": 2
+        },
+        {
+          "rank": 5,
           "name": "スマスロ北斗の拳転生の章2",
           "count": 1
         },
         {
-          "rank": 5,
-          "name": "L吉宗",
-          "count": 1
-        },
-        {
           "rank": 6,
-          "name": "L東京喰種",
+          "name": "L吉宗",
           "count": 1
         }
       ],
@@ -102,7 +101,7 @@
         {
           "rank": 1,
           "name": "e東京喰種",
-          "count": 2
+          "count": 4
         },
         {
           "rank": 2,
@@ -124,12 +123,12 @@
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1521,
+      "total_count": 1523,
       "stores": [
         {
           "rank": 1,
           "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 72
+          "count": 73
         },
         {
           "rank": 2,
@@ -831,7 +830,7 @@
       {
         "rank": 1,
         "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-        "count": 81
+        "count": 84
       },
       {
         "rank": 2,
@@ -848,7 +847,7 @@
       {
         "rank": 4,
         "name": "プレイランドキャッスル春日井店",
-        "count": 56,
+        "count": 57,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
@@ -892,7 +891,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 667
+        "count": 668
       },
       {
         "rank": 2,
@@ -917,7 +916,7 @@
       {
         "rank": 6,
         "name": "スロット ソードアート・オンラインⅡ",
-        "count": 85
+        "count": 86
       },
       {
         "rank": 7,
@@ -937,7 +936,7 @@
       {
         "rank": 10,
         "name": "L東京喰種",
-        "count": 74
+        "count": 75
       }
     ],
     "pachinko_machines": [
@@ -954,7 +953,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 182
+        "count": 184
       },
       {
         "rank": 4,
@@ -992,13 +991,13 @@
         "count": 15
       }
     ],
-    "total_count": 3852
+    "total_count": 3859
   },
   "store_complete_counts": {
-    "ダイナム岐阜関緑町店~Since2023.12.28~": 81,
+    "ダイナム岐阜関緑町店~Since2023.12.28~": 84,
     "ARROW浪速店": 75,
     "キング観光サウザンド栄若宮大通店": 58,
-    "プレイランドキャッスル春日井店": 56,
+    "プレイランドキャッスル春日井店": 57,
     "楽園池袋店ゲートウェイ": 53,
     "テキサス小倉店": 53,
     "キクヤ春日井店": 50,
@@ -1102,6 +1101,7 @@
     "天王寺ホール本館": 9,
     "店長の左肘ツヨシ": 9,
     "ピーアーク北綾瀬駅前": 9,
+    "コンコルド浜松木戸店": 9,
     "エクスアリーナ松戸": 8,
     "店長あらた　マルハンメガシティ長野": 8,
     "ダイナム武生店": 8,
@@ -1116,7 +1116,6 @@
     "光サウザンド桑名本店": 8,
     "パラッツォ大阪三国店": 8,
     "マルハン草薙アピア店 店長ひろゆき": 8,
-    "コンコルド浜松木戸店": 8,
     "ミリオン宇多津店": 7,
     "マルハン南宮崎店": 7,
     "メガガイア柳井": 7,
@@ -1733,11 +1732,13 @@
     "D'station花園": 1,
     "みとや神田西口店": 1,
     "香里園店": 1,
-    "マルハン千葉ニュータウン店": 1
+    "マルハン千葉ニュータウン店": 1,
+    "つかさ777大牟田店公式": 1,
+    "マルハン茂原店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3337,
-    "records_without_store_id": 515,
+    "records_with_store_id": 3341,
+    "records_without_store_id": 518,
     "canonical_store_ids": 536
   }
 }

@@ -319,6 +319,44 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "a5c808e08afc",
+    "date": "2026-08-31",
+    "time": "13:30",
+    "store": "ダイナム宮崎日向財光寺店",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "336",
+    "text": "8月30日[日]  Ｌパチスロ北斗の拳　336番台  コンプリート達成 おめでとうございます  #宮崎ダイナム　#日向財光寺　#コンプリート",
+    "x_url": "https://x.com/dynam_00408/status/2094281543699071204",
+    "store_handle": "dynam_00408",
+    "store_x_url": "https://x.com/dynam_00408",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T10:13:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRBh91JXYAAxYXQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRBh91JXYAAxYXQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007"
+  },
+  {
+    "id": "48b9d99f01ab",
+    "date": "2026-08-31",
+    "time": "12:50",
+    "store": "つかさ777大牟田店公式",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "644",
+    "text": "コンプリート情報  月日(日)  644番台 Lいざ番長 #コンプリート 達成です  おめでとうございます  皆様のご来店、心より お待ちしております  #Lいざ番長　#つかさ777大牟田店 #大型立体駐車場",
+    "x_url": "https://x.com/tsukasa777omuta/status/2094271459090911298",
+    "store_handle": "tsukasa777omuta",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-02T10:44:52Z",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
+  },
+  {
     "id": "80ad0ff56696",
     "date": "2026-08-31",
     "time": "09:30",
