@@ -213,6 +213,28 @@
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
   },
   {
+    "id": "cac6ceba6a9e",
+    "date": "2026-08-31",
+    "time": "19:08",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "494",
+    "text": "本日2台目！ 494番台 e牙狼12 コンプリート達成 #8月31日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2094366635150987550",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T14:36:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRCvWgSaAAA5VMB?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRCbQVRa8AAEQvE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRCvWgSaAAA5VMB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "fbc263f78852",
     "date": "2026-08-31",
     "time": "18:54",
@@ -256,6 +278,23 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "b43986ec2531",
+    "date": "2026-08-31",
+    "time": "18:11",
+    "store": "１２３＋N新市街店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "361",
+    "text": "46枚貸コーナーより 361番台 Lパチスロ 革命機ヴァルヴレイヴ2 コンプリート達成おめでとうございます  この後のお時間も123+N新市街店で お楽しみ下さい！",
+    "x_url": "https://x.com/123shinshigai/status/2094352291658875019",
+    "store_handle": "123shinshigai",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-02T14:36:41Z",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "7006f6f01fd9",
     "date": "2026-08-31",
     "time": "18:09",
@@ -295,6 +334,23 @@
       "https://pbs.twimg.com/media/HRCfVzGbkAAVV-Z?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HRCfVzGbkAAVV-Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "13fa9752f82e",
+    "date": "2026-08-31",
+    "time": "17:40",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "506",
+    "text": "506番台 e牙狼12 コンプリート達成 #8月31日 #メガフェイス菊陽",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2094344570091802750",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T14:36:41Z",
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
