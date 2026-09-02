@@ -214,28 +214,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
-    "id": "5684ba6d9dea",
-    "date": "2026-08-27",
-    "time": "20:51",
-    "store": "ピーアーク北千住エリア",
-    "machine": "スマスロ攻殻機動隊",
-    "machine_type": "slot",
-    "slot_number": "67",
-    "text": "8月27日（木） ピーアーク北千住SSS トリエス  67番台 L 攻殻機動隊  ２台目、コンプリート達成  もう闘うのやめましょうよ。 命がも\"ったいだい！  #適応デキマセン",
-    "x_url": "https://x.com/Kitasenjusss/status/2092943009491058905",
-    "store_handle": "kitasenjusss",
-    "store_x_url": "https://x.com/kitasenjusss",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-09-02T18:14:46Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQugkpHbsAAlNRp?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HQoyBqsbsAAE63o?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQugkpHbsAAlNRp?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000008"
-  },
-  {
     "id": "5a3958040f10",
     "date": "2026-08-27",
     "time": "20:36",
@@ -468,6 +446,27 @@
     "store_id": "b8a09e6f66"
   },
   {
+    "id": "dc9f3ad6c761",
+    "date": "2026-08-27",
+    "time": "18:34",
+    "store": "WINS一関",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "WINS一関  e牙狼12黄金騎士極限  コンプリート機能発動です。",
+    "x_url": "https://x.com/WINS_ichinoseki/status/2092908643348095112",
+    "store_handle": "wins_ichinoseki",
+    "store_x_url": "https://x.com/WINS_ichinoseki",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-02T19:01:50Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQuBUQCaEAA1Bl_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQuBUQCaEAA1Bl_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "6aa94c5b8602",
     "date": "2026-08-27",
     "time": "18:32",
@@ -523,7 +522,7 @@
     "store_x_url": "https://x.com/cosmo_nishio",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-09-02T18:00:13Z",
+    "collected_at": "2026-09-02T18:41:34Z",
     "images": [
       "https://pbs.twimg.com/media/HQt-eKCa8AAI1EM?format=jpg&name=large"
     ],
