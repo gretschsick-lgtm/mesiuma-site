@@ -1,0 +1,93 @@
+name: DMM Backfill + Canonical X Expansion
+
+# NS-9C — DMM ぱちタウンとの厳格 exact match で stores.dmm_id を NULL→value backfill し、
+# DMM 公式X を stores.x_url へ NULL→value 段階 WRITE（既存 resolver が自然に verified 化）。
+#
+# 安全設計:
+#  - production DB WRITE は「EXACT_UNIQUE かつ NULL→value」のみ。既存値は絶対に上書きしない。
+#  - per-run 上限（dmm-limit / x-limit）で段階 rollout。X は resolver simulation gate 通過時のみ。
+#  - store_handles.json / git は触らない（resolver の責務）。commit しない。
+#  - DMM index/mapping state は Actions cache。過剰アクセス防止に pref を分割巡回。
+#  - 手動 Stage1-4(5→20→50→200) の安全確認後に schedule を有効化する運用。
+
+on:
+  workflow_dispatch:
+    inputs:
+      prefs:
+        description: 'カンマ区切り都道府県(日本語)'
+        required: true
+        default: '群馬県,山梨県,福井県'
+      dmm_limit:
+        description: 'この run で書く dmm_id 上限'
+        required: false
+        default: '20'
+      x_limit:
+        description: 'この run で書く x_url 上限'
+        required: false
+        default: '10'
+      write:
+        description: 'production WRITE 実行(true/false)'
+        required: false
+        default: 'false'
+  # schedule は Stage1-4 の安全確認後に手動で有効化する（初期は dispatch のみ）
+  # schedule:
+  #   - cron: "0 7 * * *"
+
+concurrency:
+  group: dmm-backfill
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tests (NS-9C + regressions)
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/dmm_backfill.py scripts/test_dmm_backfill.py
+          python3 scripts/test_dmm_backfill.py
+          python3 scripts/test_store_handles_resolution.py
+          python3 scripts/test_discover_store_x.py
+
+      - name: Run DMM backfill (staged)
+        run: |
+          set -euo pipefail
+          WRITE_FLAG=""
+          if [ "${{ github.event.inputs.write }}" = "true" ]; then WRITE_FLAG="--write"; fi
+          python3 scripts/dmm_backfill.py \
+            --prefs "${{ github.event.inputs.prefs }}" \
+            --dmm-limit "${{ github.event.inputs.dmm_limit }}" \
+            --x-limit "${{ github.event.inputs.x_limit }}" \
+            $WRITE_FLAG \
+            --report public/dmm_backfill_report.json
+
+      - name: Guard — git に変更を出していないことを確認（DB書込のみ・commitなし）
+        run: |
+          set -euo pipefail
+          CHANGED=$(git status --porcelain | grep -vE 'dmm_backfill_report.json|.dmm_backfill_state.json' || true)
+          if [ -n "$CHANGED" ]; then echo "❌ 予期しない変更:"; echo "$CHANGED"; exit 1; fi
+          echo "✅ git 変更なし（DB書込は NULL→value のみ・store_handles/commit は resolver 側）"
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dmm-backfill-report
+          path: public/dmm_backfill_report.json
+          if-no-files-found: warn
+          retention-days: 14

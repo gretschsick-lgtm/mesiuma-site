@@ -55,3 +55,7 @@ public/free_performer_candidates.json
 # NS-P2 free status verification: 状態は Actions cache / レポートは artifact（git 管理しない）
 scripts/.verify_state.json
 public/free_verification_report.json
+
+# NS-9C DMM backfill: DMM index/mapping state は Actions cache / レポートは artifact（git 管理しない）
+scripts/.dmm_backfill_state.json
+public/dmm_backfill_report.json
