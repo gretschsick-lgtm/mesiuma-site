@@ -353,6 +353,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "2f5e79b26677",
+    "date": "2026-08-30",
+    "time": "21:52",
+    "store": "コンコルド清水大曲店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "720",
+    "text": "先程‼️ L スマスロ北斗の拳 転生の章２ MW 720番台  🎊コンプリート機能達成しました🎊 明日も是非ご来店くださいませ✨✨✨",
+    "x_url": "https://x.com/Concordeomagari/status/2094045653056065857",
+    "store_handle": "concordeomagari",
+    "store_x_url": "https://x.com/Concordeomagari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T15:13:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-LVt1asAAr25I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-LVt1asAAr25I?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
+  },
+  {
     "id": "031c451625c3",
     "date": "2026-08-30",
     "time": "21:46",
@@ -583,6 +604,29 @@
     "source_account_type": "store_official",
     "collected_at": "2026-09-01T10:49:26Z",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "c1b1fe9faa34",
+    "date": "2026-08-30",
+    "time": "21:12",
+    "store": "DSG ARENA 七尾店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "／  ８月最後の日曜日 週末も圧倒的ナナアリ コンプリート報告ぅ👏 ＼ ✨【L北斗転生の章2】✨ スマスロよりコンプリート達成🔥 リミットストップ！！ おめでとうございます🤩  #明日は #８月ファイナル #もちろん #朝からいくぞォォォ",
+    "x_url": "https://x.com/DsgArenaNanao77/status/2094035450298318897",
+    "store_handle": "dsgarenananao77",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-03T15:13:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ-A7FIb0AAK0-w?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ-A8hpbgAAYfTx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ-A7FIb0AAK0-w?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "56f1315b85"
   },
   {
     "id": "1d51106b91cf",
