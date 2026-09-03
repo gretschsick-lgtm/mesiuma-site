@@ -1,0 +1,85 @@
+name: Discover Store X (candidate-only)
+
+# NS-9A — 店舗公式X「候補」を自律探索するジョブ。
+#
+# 重要（構造的安全設計）:
+#  - これは candidate-only。DB stores.x_url へは書き込まない。
+#  - discover_store_x.py の auto-write は「--auto-write かつ env DISCOVERY_AUTO_WRITE=1」の
+#    二重ガードでのみ発火する。本 workflow は両方とも与えないため、構造的に WRITE 不可。
+#  - store_handles.json も書かない（resolver の責務）。git commit も行わない。
+#  - 探索状態は Actions cache で run 間に持続（retry policy で毎日全店 scan を避ける）。
+#  - 候補レポートは artifact + Actions Summary に出力（人手レビュー用）。
+
+on:
+  schedule:
+    # 毎日 1 回 UTC 06:10 = JST 15:10（collector メイン枠と時刻をずらす。DB書込しないので競合は無い）
+    - cron: "10 6 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '1 run で探索する eligible 店舗数'
+        required: false
+        default: '25'
+
+# DB 書込をしないため store-handles-writer 排他は不要。独立グループで直列化のみ。
+concurrency:
+  group: discover-store-x
+  cancel-in-progress: false
+
+permissions:
+  contents: read   # commit しない = write 権限を与えない（構造的ガード）
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      # DISCOVERY_AUTO_WRITE は「意図的に」設定しない → auto-write 構造的に不可
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore discovery state (retry cache)
+        uses: actions/cache@v4
+        with:
+          path: scripts/.discover_state.json
+          key: discover-store-x-state-${{ github.run_id }}
+          restore-keys: |
+            discover-store-x-state-
+
+      - name: Run candidate discovery (NO DB write)
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/discover_store_x.py scripts/test_discover_store_x.py
+          python3 scripts/test_discover_store_x.py
+          python3 scripts/test_store_handles_resolution.py
+          LIMIT="${{ github.event.inputs.limit }}"; LIMIT="${LIMIT:-25}"
+          # auto-write フラグも env も与えない → CANDIDATE_ONLY 固定
+          python3 scripts/discover_store_x.py --limit "$LIMIT" \
+            --report public/store_x_candidates.json
+
+      - name: Guard — DB へ書き込んでいないこと / commit 対象が無いことを確認
+        run: |
+          set -euo pipefail
+          # candidate report と state 以外の追跡ファイルに変更が無いことを確認（commit しない設計）
+          CHANGED=$(git status --porcelain | grep -vE 'store_x_candidates.json|.discover_state.json' || true)
+          if [ -n "$CHANGED" ]; then
+            echo "❌ 予期しない変更:"; echo "$CHANGED"; exit 1
+          fi
+          echo "✅ candidate-only: 追跡ファイルへの変更なし（DB/JSON/commit なし）"
+
+      - name: Upload candidate report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: store-x-candidates
+          path: public/store_x_candidates.json
+          if-no-files-found: warn
+          retention-days: 14
