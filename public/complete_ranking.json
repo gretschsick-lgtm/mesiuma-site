@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T09:34:36+09:00",
+  "generated_at": "2026-09-03T10:40:02+09:00",
   "monthly": [
     {
       "month": "2026-09",
@@ -143,7 +143,7 @@
     {
       "month": "2026-08",
       "label": "2026年8月",
-      "total_count": 1538,
+      "total_count": 1541,
       "stores": [
         {
           "rank": 1,
@@ -249,12 +249,12 @@
         {
           "rank": 9,
           "name": "スマスロ攻殻機動隊",
-          "count": 40
+          "count": 41
         },
         {
           "rank": 10,
           "name": "L東京喰種",
-          "count": 27
+          "count": 28
         }
       ],
       "pachinko_machines": [
@@ -951,12 +951,12 @@
       {
         "rank": 9,
         "name": "スマスロ攻殻機動隊",
-        "count": 78
+        "count": 79
       },
       {
         "rank": 10,
         "name": "L東京喰種",
-        "count": 75
+        "count": 76
       }
     ],
     "pachinko_machines": [
@@ -1011,7 +1011,7 @@
         "count": 15
       }
     ],
-    "total_count": 3890
+    "total_count": 3893
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 84,
@@ -1046,9 +1046,9 @@
     "新ガーデン西浦和": 25,
     "メガフェイス1250": 25,
     "マルハン仙台苦竹店": 23,
+    "ピーアーク北千住エリア": 23,
     "SuperD'station東金店": 23,
     "プレイランドキャッスル高浜店": 22,
-    "ピーアーク北千住エリア": 22,
     "ニューアサヒ長野青木島店": 22,
     "パラッツォ鳩ヶ谷店": 21,
     "キコーナ川西久代店": 21,
@@ -1463,6 +1463,7 @@
     "吹田店": 2,
     "ワンダーランド百年橋店": 2,
     "パラッツォ藤沢南店": 2,
+    "やすだ清水町店": 2,
     "マルハン千葉ニュータウン店": 2,
     "サミット別府店": 1,
     "新天地Dee1": 1,
@@ -1763,8 +1764,8 @@
     "メガガイア土山店 中の人（新店長）": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3362,
+    "records_with_store_id": 3365,
     "records_without_store_id": 528,
-    "canonical_store_ids": 538
+    "canonical_store_ids": 539
   }
 }

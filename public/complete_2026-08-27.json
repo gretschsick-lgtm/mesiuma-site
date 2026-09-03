@@ -214,6 +214,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "5684ba6d9dea",
+    "date": "2026-08-27",
+    "time": "20:51",
+    "store": "ピーアーク北千住エリア",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "67",
+    "text": "8月27日（木） ピーアーク北千住SSS トリエス  67番台 L 攻殻機動隊  ２台目、コンプリート達成  もう闘うのやめましょうよ。 命がも\"ったいだい！  #適応デキマセン",
+    "x_url": "https://x.com/Kitasenjusss/status/2092943009491058905",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T01:07:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQugkpHbsAAlNRp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQoyBqsbsAAE63o?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQugkpHbsAAlNRp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "5a3958040f10",
     "date": "2026-08-27",
     "time": "20:36",
@@ -745,6 +767,52 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQsc6kXbwAAUvI_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
+    "id": "943848ad9c84",
+    "date": "2026-08-27",
+    "time": "11:30",
+    "store": "やすだ清水町店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは☀️ やすだ清水町店です‼  ✅昨日のランキング✅  #L炎炎ノ消防隊２ より コンプリート達成🎉 🎊おめでとうございます🎊  他にも‼ #L東京喰種 より2⃣台 オオダイ突破🎉 🎊おめでとうございます🎊  本日も‼ 昨日の勢いそのままに‼  オリジナルキャラクター🔥 🔥🔥ヤンクル🔥🔥",
+    "x_url": "https://x.com/yasuda_shimizu/status/2093164167343542715",
+    "store_handle": "yasuda_shimizu",
+    "store_x_url": "https://x.com/yasuda_shimizu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T01:37:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQxeCvlaEAAL2Gt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQxeDZcbgAEWoPU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQxeX9XaMAAu-E9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQxeCvlaEAAL2Gt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
+    "id": "eaee3c7bddd0",
+    "date": "2026-08-27",
+    "time": "11:30",
+    "store": "やすだ清水町店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんにちは☀️ やすだ清水町店です‼  ✅昨日のランキング✅  #L炎炎ノ消防隊２ より コンプリート達成🎉 🎊おめでとうございます🎊  他にも‼ #L東京喰種 より2⃣台 オオダイ突破🎉 🎊おめでとうございます🎊  本日も‼ 昨日の勢いそのままに‼  オリジナルキャラクター🔥 🔥🔥ヤンクル🔥🔥",
+    "x_url": "https://x.com/yasuda_shimizu/status/2093164167343542715",
+    "store_handle": "yasuda_shimizu",
+    "store_x_url": "https://x.com/yasuda_shimizu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T01:37:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQxeCvlaEAAL2Gt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQxeDZcbgAEWoPU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQxeX9XaMAAu-E9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQxeCvlaEAAL2Gt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
     "id": "3733f0825417",
