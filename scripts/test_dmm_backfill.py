@@ -124,7 +124,9 @@ DX.simulate_resolver = lambda h, db, p: dict(changed=1, ver2cand=1, unlink=0, re
 try:
     res = B.discover_and_write_x([{"store_id": "z", "pref": "東京都", "dmm_id": "1", "x_url": None, "name": "A"}],
                                 limit=10, dry_run=False, fetch_page=lambda i, p: '<a class="icon" href="https://x.com/uniq2">', ctx=FAKECTX)
-    ok(res["circuit"] and res["written"] == [], "24 resolver simulation unsafe → circuit/書かない")
+    # per-store simulation が unsafe を検知 → CANONICAL_X_REVIEW で保留・書かない
+    ok(res["written"] == [] and any(r["x_status"] == "CANONICAL_X_REVIEW" for r in res["results"]),
+       "24 resolver unsafe(per-store) → REVIEW保留/書かない")
 finally:
     DX.simulate_resolver = _orig
 

@@ -360,16 +360,23 @@ def discover_and_write_x(mapped_stores: list, limit: int, dry_run: bool = True,
                         "url": f"https://x.com/{ex['handle']}"})
         proposed[s["store_id"]] = f"https://x.com/{ex['handle']}"
 
-    # 段階 limit
-    eligible = [r for r in results if r["x_status"] == "WRITE_ELIGIBLE"][:limit]
+    # per-store resolver simulation: そのstore単独のx_url投入で relink/ver2cand/conflict/orphan が
+    # 出る店は CANONICAL_X_REVIEW として保留（handleが別store_idに既に紐付く競合を自動解決しない）。
+    cand = [r for r in results if r["x_status"] == "WRITE_ELIGIBLE"]
+    safe_r = []
+    for r in cand:
+        s = DX.simulate_resolver(ctx["handles"], ctx["db"], {r["store_id"]: r["url"]})
+        if s["ver2cand"] or s["unlink"] or s["relink"] or s["canonical_conflict"] or s["orphan"]:
+            r["x_status"] = "CANONICAL_X_REVIEW"
+            r["reason"] = f"resolver_relink_or_conflict(relink={s['relink']})"
+        else:
+            safe_r.append(r)
+    eligible = safe_r[:limit]
     proposed = {r["store_id"]: r["url"] for r in eligible}
 
-    sim = None
-    circuit = None
-    if proposed:
-        sim = DX.simulate_resolver(ctx["handles"], ctx["db"], proposed)
-        if sim["ver2cand"] or sim["unlink"] or sim["relink"] or sim["canonical_conflict"] or sim["orphan"]:
-            circuit = f"resolver_simulation_unsafe:{sim}"
+    # バッチ全体の参考 simulation（監査用）
+    sim = DX.simulate_resolver(ctx["handles"], ctx["db"], proposed) if proposed else None
+    circuit = None  # per-store で安全確認済のため batch-block はしない
 
     written, overwrite_avoided, errors = [], 0, 0
     if proposed and not dry_run and not circuit:
@@ -394,7 +401,9 @@ def discover_and_write_x(mapped_stores: list, limit: int, dry_run: bool = True,
 
 def main():
     ap = argparse.ArgumentParser(description="NS-9C DMM id backfill + canonical X expansion")
-    ap.add_argument("--prefs", type=str, required=True, help="カンマ区切り都道府県(日本語)")
+    ap.add_argument("--prefs", type=str, required=True,
+                    help="カンマ区切り都道府県(日本語) または 'auto'(state cursorで毎回数県ずつ巡回)")
+    ap.add_argument("--pref-batch", type=int, default=3, help="--prefs auto 時に1runで巡回する県数")
     ap.add_argument("--dmm-limit", type=int, default=0, help="この run で書く dmm_id 上限(0=書かない)")
     ap.add_argument("--x-limit", type=int, default=0, help="この run で書く x_url 上限(0=書かない)")
     ap.add_argument("--write", action="store_true", help="production WRITE を実行(既定は dry-run)")
@@ -402,7 +411,15 @@ def main():
     ap.add_argument("--report", type=str, default=str(REPORT_DEFAULT))
     args = ap.parse_args()
 
-    prefs = [p for p in args.prefs.split(",") if p]
+    st = load_state()
+    if args.prefs.strip() == "auto":
+        order = list(PREF_SLUG.keys())
+        cur = int(st.get("pref_cursor", 0)) % len(order)
+        prefs = [order[(cur + i) % len(order)] for i in range(max(1, args.pref_batch))]
+        st["pref_cursor"] = (cur + len(prefs)) % len(order)
+        save_state(st)
+    else:
+        prefs = [p for p in args.prefs.split(",") if p]
     stores = load_stores()
     disc = discover(prefs, stores=stores,
                     crawl=lambda p: crawl_pref(p, max_areas=args.max_areas))

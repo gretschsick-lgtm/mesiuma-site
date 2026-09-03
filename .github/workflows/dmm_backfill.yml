@@ -29,9 +29,11 @@ on:
         description: 'production WRITE 実行(true/false)'
         required: false
         default: 'false'
-  # schedule は Stage1-4 の安全確認後に手動で有効化する（初期は dispatch のみ）
-  # schedule:
-  #   - cron: "0 7 * * *"
+  # Stage1-4(5→20→50→200) を手動で安全確認済み(false 0 / overwrite 0 / errors 0 / per-store
+  # resolver simulation gate)のため Stage5 として schedule 有効化。auto で毎日数県ずつ巡回し、
+  # EXACT_UNIQUE の dmm_id と per-store 安全な公式X のみ NULL→value で段階拡大する。
+  schedule:
+    - cron: "0 7 * * *"   # UTC 07:00 = JST 16:00（他 discovery とずらす）
 
 concurrency:
   group: dmm-backfill
@@ -56,6 +58,14 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Restore backfill state (pref cursor / cache)
+        uses: actions/cache@v4
+        with:
+          path: scripts/.dmm_backfill_state.json
+          key: dmm-backfill-state-${{ github.run_id }}
+          restore-keys: |
+            dmm-backfill-state-
+
       - name: Tests (NS-9C + regressions)
         run: |
           set -euo pipefail
@@ -67,12 +77,16 @@ jobs:
       - name: Run DMM backfill (staged)
         run: |
           set -euo pipefail
-          WRITE_FLAG=""
-          if [ "${{ github.event.inputs.write }}" = "true" ]; then WRITE_FLAG="--write"; fi
+          # schedule 実行は inputs 空 → auto 巡回 + 段階 cap で write。dispatch は入力尊重。
+          PREFS="${{ github.event.inputs.prefs }}"; PREFS="${PREFS:-auto}"
+          DLIM="${{ github.event.inputs.dmm_limit }}"; DLIM="${DLIM:-200}"
+          XLIM="${{ github.event.inputs.x_limit }}"; XLIM="${XLIM:-50}"
+          WR="${{ github.event.inputs.write }}"
+          WRITE_FLAG="--write"
+          if [ "$WR" = "false" ]; then WRITE_FLAG=""; fi   # dispatch で明示 false のときだけ dry-run
           python3 scripts/dmm_backfill.py \
-            --prefs "${{ github.event.inputs.prefs }}" \
-            --dmm-limit "${{ github.event.inputs.dmm_limit }}" \
-            --x-limit "${{ github.event.inputs.x_limit }}" \
+            --prefs "$PREFS" --pref-batch 3 \
+            --dmm-limit "$DLIM" --x-limit "$XLIM" \
             $WRITE_FLAG \
             --report public/dmm_backfill_report.json
 
