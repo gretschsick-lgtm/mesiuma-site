@@ -471,6 +471,27 @@
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
+    "id": "9dd6c9b704e4",
+    "date": "2026-08-29",
+    "time": "21:48",
+    "store": "ビックマーチ栃木本店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "758",
+    "text": "こんちゃ🙋‍♀️  ビックマーチ栃木本店からコンプリート速報‼️ 758番台 いざ番長 おめでとうございます！！！🤩👏🏻  〜色落ちあーちゃむを添えて〜",
+    "x_url": "https://x.com/bm_tochihon/status/2093682088251945141",
+    "store_handle": "bm_tochihon",
+    "store_x_url": "https://x.com/bm_tochihon",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T17:03:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5AwlXaoAAnHHd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5AwlXaoAAnHHd?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
+  },
+  {
     "id": "6c76e888935c",
     "date": "2026-08-29",
     "time": "21:45",
@@ -1071,6 +1092,27 @@
     "source_account_type": "unknown",
     "collected_at": "2026-08-29T17:30:38Z",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "36e5f526dd30",
+    "date": "2026-08-29",
+    "time": "19:13",
+    "store": "コンコルド清水大曲店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "807",
+    "text": "先程‼️ Lパチスロ 革命機ヴァルヴレイヴ2　807番台 コンプリート機能達成しました🎊🎊 明日のご来店もお待ちしております⚡️⚡️",
+    "x_url": "https://x.com/Concordeomagari/status/2093643180986241363",
+    "store_handle": "concordeomagari",
+    "store_x_url": "https://x.com/Concordeomagari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T16:57:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4chyRbMAA2DYA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4chyRbMAA2DYA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "2e8981158720",

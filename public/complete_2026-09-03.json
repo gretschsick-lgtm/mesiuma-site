@@ -1,5 +1,53 @@
 [
   {
+    "id": "8a7064501b1e",
+    "date": "2026-09-03",
+    "time": "23:06",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "93",
+    "text": "【SPACE666】 👑結果発表👑 本日9月3日。。。。。  🥇L炎炎ノ消防隊2 93番台 　㊗コンプリート達成㊗  🥈沖ドキ！ゴージャス 372番台 　🎊11500枚Over🎊  🥉L東京喰種 683番台 　🎊10500枚Over🎊  本日は特に初代北斗、カバネリ 炎炎ノ消防隊2が盛り上がっていましたね😎  明日4日も10時オープン♪",
+    "x_url": "https://x.com/space666tobata/status/2095513644532740293",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T17:16:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRS9RwnasAAfkWI?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRS9Uh1aMAEHEFe?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRS9WwPb0AAMMbh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRS9RwnasAAfkWI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "f8132a1307"
+  },
+  {
+    "id": "90f805c0e4c4",
+    "date": "2026-09-03",
+    "time": "23:06",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【SPACE666】 👑結果発表👑 本日9月3日。。。。。  🥇L炎炎ノ消防隊2 93番台 　㊗コンプリート達成㊗  🥈沖ドキ！ゴージャス 372番台 　🎊11500枚Over🎊  🥉L東京喰種 683番台 　🎊10500枚Over🎊  本日は特に初代北斗、カバネリ 炎炎ノ消防隊2が盛り上がっていましたね😎  明日4日も10時オープン♪",
+    "x_url": "https://x.com/space666tobata/status/2095513644532740293",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T17:16:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRS9RwnasAAfkWI?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRS9Uh1aMAEHEFe?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRS9WwPb0AAMMbh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRS9RwnasAAfkWI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "d25d18004480",
     "date": "2026-09-03",
     "time": "21:00",
@@ -62,6 +110,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRSaaYIbkAA66Iz?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "e72707467653",
+    "date": "2026-09-03",
+    "time": "18:30",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "906",
+    "text": "こんばんは⭐️ メガシティ三島駿東です😃  ▶️L戦国乙女5 ▶️906番台  コンプリートです‼️ おめでとうございます🎉",
+    "x_url": "https://x.com/mega_mishima/status/2095444187101761645",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T16:46:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRSBhKsaMAA0cnR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRSBhKsaMAA0cnR?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
   },
   {
     "id": "e52aa41513e3",
