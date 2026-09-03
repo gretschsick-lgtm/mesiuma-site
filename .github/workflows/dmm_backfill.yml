@@ -29,11 +29,13 @@ on:
         description: 'production WRITE 実行(true/false)'
         required: false
         default: 'false'
-  # Stage1-4(5→20→50→200) を手動で安全確認済み(false 0 / overwrite 0 / errors 0 / per-store
-  # resolver simulation gate)のため Stage5 として schedule 有効化。auto で毎日数県ずつ巡回し、
-  # EXACT_UNIQUE の dmm_id と per-store 安全な公式X のみ NULL→value で段階拡大する。
-  schedule:
-    - cron: "0 7 * * *"   # UTC 07:00 = JST 16:00（他 discovery とずらす）
+  # 【CI制約】GitHub Actions の IP からは DMM ディレクトリ取得が 0 件になる(=DMM側でDC IPを
+  # ブロック)ことを実測で確認。fail-closed(0発見→0書込)で安全だが CI からの自律 crawl は成立しない。
+  # 無用な日次アクセス回避のため schedule は無効化し dispatch 専用とする。継続 backfill は
+  # DMM 取得可能な環境(ローカル等)で `python3 scripts/dmm_backfill.py --prefs auto --write ...` を
+  # 定期実行して進める(NULL→value のみ・per-store resolver-safe)。回避策(IP偽装等)は取らない。
+  # schedule:
+  #   - cron: "0 7 * * *"
 
 concurrency:
   group: dmm-backfill
