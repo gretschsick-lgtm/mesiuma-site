@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-04T05:55:45+09:00",
+  "generated_at": "2026-09-04T07:39:34+09:00",
   "monthly": [
     {
       "month": "2026-09",
       "label": "2026年9月",
-      "total_count": 49,
+      "total_count": 50,
       "stores": [
         {
           "rank": 1,
@@ -36,33 +36,33 @@
         },
         {
           "rank": 6,
+          "name": "キクヤ穂積店",
+          "count": 2,
+          "x_url": "https://x.com/hozumi1202"
+        },
+        {
+          "rank": 7,
           "name": "プレイランドキャッスル春日井店",
           "count": 2,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ＭＪアリーナ干隈店",
           "count": 1,
           "x_url": "https://x.com/mjhosikuma"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "マルハン茂原店",
           "count": 1,
           "x_url": "https://x.com/maruhanMOBARA"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "コンコルド浜松木戸店",
           "count": 1,
           "x_url": "https://x.com/concorde_kido"
-        },
-        {
-          "rank": 10,
-          "name": "やすだひばりヶ丘店",
-          "count": 1,
-          "x_url": "https://x.com/yasuda_hibari"
         }
       ],
       "slot_machines": [
@@ -135,27 +135,27 @@
         },
         {
           "rank": 4,
+          "name": "e牙狼12",
+          "count": 2
+        },
+        {
+          "rank": 5,
           "name": "e東京リベンジャーズ",
           "count": 1
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "eアズールレーン2",
           "count": 1
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "eリコリス・リコイル",
           "count": 1
         },
         {
-          "rank": 7,
-          "name": "eフィーバーブルーロック",
-          "count": 1
-        },
-        {
           "rank": 8,
-          "name": "e牙狼12",
+          "name": "eフィーバーブルーロック",
           "count": 1
         }
       ]
@@ -988,7 +988,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 260
+        "count": 261
       },
       {
         "rank": 3,
@@ -1031,7 +1031,7 @@
         "count": 15
       }
     ],
-    "total_count": 3920
+    "total_count": 3921
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 84,
@@ -1058,7 +1058,7 @@
     "サガちゃんPARK": 32,
     "ダイナム長野上田店": 32,
     "マルハン川越店": 31,
-    "キクヤ穂積店": 28,
+    "キクヤ穂積店": 29,
     "メガフェイス960飯塚": 27,
     "パチンコの玉屋∞本店": 27,
     "マルハンメガシティ柏": 25,
@@ -1790,7 +1790,7 @@
     "玉屋666唐津": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3388,
+    "records_with_store_id": 3389,
     "records_without_store_id": 532,
     "canonical_store_ids": 543
   }
