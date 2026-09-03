@@ -1,0 +1,84 @@
+name: Free Performer Discovery (candidate-only)
+
+# NS-P1 — ホール来店演者のうち「営業候補」を自律探索するジョブ（NS-9 とは独立）。
+#
+# 重要（構造的安全設計）:
+#  - candidate-only。production DB へは一切書き込まない（DB write = 0）。
+#  - 演者への自動連絡（DM/メール/フォロー/いいね/リプ/フォーム送信）は「コードに存在しない」。
+#  - 「所属が見つからない=フリー」等の弱い根拠で FREE_CONFIRMED にしない。
+#    FREE_CONFIRMED は本人一次情報の明示 + 実来店 の両方を要する（本 workflow は
+#    本人プロフィール一次情報を取得しないため、実運用では FREE_CONFIRMED は発生しない＝安全側）。
+#  - store_handles.json / stores などは触らない。git commit も行わない。
+#  - 状態は Actions cache で持続、候補レポートは artifact + Actions Summary。
+
+on:
+  schedule:
+    # 毎日 1 回 UTC 21:30 = JST 06:30（collector/discover とずらす。DB書込なしで競合なし）
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '1 run で分類する演者候補数'
+        required: false
+        default: '50'
+
+concurrency:
+  group: discover-free-performers
+  cancel-in-progress: false
+
+permissions:
+  contents: read   # commit しない = write 権限を与えない（構造的ガード）
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore performer state (retry cache)
+        uses: actions/cache@v4
+        with:
+          path: scripts/.performer_state.json
+          key: free-performer-state-${{ github.run_id }}
+          restore-keys: |
+            free-performer-state-
+
+      - name: Run candidate discovery (NO DB write / NO outreach)
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/discover_free_performers.py scripts/test_discover_free_performers.py
+          python3 scripts/test_discover_free_performers.py
+          # 既存 NS-9 / resolver 回帰も守る
+          python3 scripts/test_discover_store_x.py
+          python3 scripts/test_store_handles_resolution.py
+          LIMIT="${{ github.event.inputs.limit }}"; LIMIT="${LIMIT:-50}"
+          python3 scripts/discover_free_performers.py --limit "$LIMIT" \
+            --report public/free_performer_candidates.json
+
+      - name: Guard — DB書込ゼロ / commit対象なしを確認
+        run: |
+          set -euo pipefail
+          CHANGED=$(git status --porcelain | grep -vE 'free_performer_candidates.json|.performer_state.json' || true)
+          if [ -n "$CHANGED" ]; then
+            echo "❌ 予期しない変更:"; echo "$CHANGED"; exit 1
+          fi
+          echo "✅ candidate-only: DB書込なし・追跡ファイル変更なし・自動連絡なし"
+
+      - name: Upload candidate report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: free-performer-candidates
+          path: public/free_performer_candidates.json
+          if-no-files-found: warn
+          retention-days: 14

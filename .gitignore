@@ -47,3 +47,7 @@ scripts/.x_session
 # NS-9 store X discovery: 探索状態は Actions cache で持続（git 管理しない＝不要な commit を出さない）
 scripts/.discover_state.json
 public/store_x_candidates.json
+
+# NS-P1 free performer discovery: 状態は Actions cache / レポートは artifact（git 管理しない）
+scripts/.performer_state.json
+public/free_performer_candidates.json
