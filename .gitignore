@@ -51,3 +51,7 @@ public/store_x_candidates.json
 # NS-P1 free performer discovery: 状態は Actions cache / レポートは artifact（git 管理しない）
 scripts/.performer_state.json
 public/free_performer_candidates.json
+
+# NS-P2 free status verification: 状態は Actions cache / レポートは artifact（git 管理しない）
+scripts/.verify_state.json
+public/free_verification_report.json
