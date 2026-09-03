@@ -319,6 +319,27 @@
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
   },
   {
+    "id": "74ed94c39ecb",
+    "date": "2026-09-02",
+    "time": "20:40",
+    "store": "ニラク郡山大町店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "L東京喰種にて！        コンプリート達成おめでとうございます♬🥳  #コンプリート  #ニラク郡山大町店",
+    "x_url": "https://x.com/niraku_oomachi/status/2095114583342264377",
+    "store_handle": "niraku_oomachi",
+    "store_x_url": "https://x.com/niraku_oomachi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T20:46:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRNXnGybsAAYySA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRNXnGybsAAYySA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "8f6870acc1f0",
     "date": "2026-09-02",
     "time": "20:26",
@@ -3286,6 +3307,28 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "124aa0b77264",
+    "date": "2026-08-29",
+    "time": "22:02",
+    "store": "キクヤ穂積店",
+    "machine": "Lパチスロ からくりサーカス2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🔱キクヤ穂積店🔱 👑⚡コンプリートのご報告⚡👑 💎961番台 とある魔術の禁書目録２🎰 💎1254番台 からくりサーカス２🎰 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます‼️ 🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊",
+    "x_url": "https://x.com/hozumi1202/status/2093685758725095692",
+    "store_handle": "hozumi1202",
+    "store_x_url": "https://x.com/hozumi1202",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T20:47:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ5EEP8bYAAI3S0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HQ5EEPWaAAAnMP_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ5EEP8bYAAI3S0?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
+  },
+  {
     "id": "e23129c7b9e7",
     "date": "2026-08-29",
     "time": "22:01",
@@ -4581,6 +4624,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQzzhp2bcAAj1Cr?format=jpg&name=large",
     "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "0cabd2acb5ef",
+    "date": "2026-08-28",
+    "time": "21:36",
+    "store": "MGM下妻店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "435",
+    "text": "先程【e牙狼12　黄金騎士極限】435番台にてコンプリート達成🎉　おめでとうございます😆",
+    "x_url": "https://x.com/MGM23512917/status/2093316699143709161",
+    "store_handle": "mgm23512917",
+    "store_x_url": "https://x.com/mgm23512917",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-03T20:44:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQz0ZkeaYAAm9IX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQz0ZkeaYAAm9IX?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "24ee476a39"
   },
   {
     "id": "602efab02560",
