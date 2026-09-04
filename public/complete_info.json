@@ -4135,6 +4135,27 @@
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
   },
   {
+    "id": "646baf0ce45c",
+    "date": "2026-08-29",
+    "time": "21:20",
+    "store": "ダイナム（自動発掘）",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "400",
+    "text": "#ダイナム小矢部店 8/29　来店ポイント説明会、 400番台 #ヴァルヴレイヴ2 にて コンプリート達成👏  🎊おめでとうございます🎊  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00098/status/2093675183080865933",
+    "store_handle": "dynam_00098",
+    "store_x_url": "https://x.com/dynam_00098",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T20:27:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "bb9bfec949a0",
     "date": "2026-08-29",
     "time": "21:15",
@@ -4631,6 +4652,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ4dugIbYAAhp4V?format=jpg&name=large",
     "machine_id": "17248f99-4f74-498a-acfa-dfa6ac17ea68"
+  },
+  {
+    "id": "f89ada7464c7",
+    "date": "2026-08-29",
+    "time": "19:16",
+    "store": "パラッツォ馬橋駅前店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "102",
+    "text": "👑オメデトウゴザイマス👑 102番台 【e牙狼12黄金騎士極限】 ✨✨✨✨✨✨✨✨✨✨ 🎉🎉コンプリート達成🎉🎉 ✨✨✨✨✨✨✨✨✨✨ #黄金騎士",
+    "x_url": "https://x.com/palazzo_mabashi/status/2093644014591545596",
+    "store_handle": "palazzo_mabashi",
+    "store_x_url": "https://x.com/palazzo_mabashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T20:28:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4dp5TawAAqUHM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4dp5TawAAqUHM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "d59720d93e"
   },
   {
     "id": "c6e3f7ffc609",
