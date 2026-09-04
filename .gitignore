@@ -59,3 +59,7 @@ public/free_verification_report.json
 # NS-9C DMM backfill: DMM index/mapping state は Actions cache / レポートは artifact（git 管理しない）
 scripts/.dmm_backfill_state.json
 public/dmm_backfill_report.json
+
+# NS-P3 emerging creator discovery: 状態は Actions cache / レポートは artifact（git 管理しない）
+scripts/.emerging_state.json
+public/emerging_creators_report.json

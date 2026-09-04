@@ -1,0 +1,112 @@
+name: Emerging Creator Discovery (candidate-only)
+
+# NS-P3 — 小〜中規模のパチンコ/パチスロ関連 creator/演者候補を自律探索するジョブ。
+# NS-P1(来店実績)/NS-P2(identity・free/affiliation)を再利用し、独自の free 判定は行わない。
+#
+# 重要（構造的安全設計）:
+#  - candidate-only。production DB へは一切書き込まない（DB write = 0）。
+#  - creator への自動連絡（DM/メール/フォロー/いいね/リプ/フォーム送信）は「コードに存在しない」。
+#  - 「所属が見つからない=フリー」「所属あり=大規模」等の弱い根拠で判定しない
+#    （creator_status / affiliation_status / visibility_tier は独立した多軸で、
+#      affiliation は visibility 判定に一切使わない）。
+#  - visibility_tier=ESTABLISHED は Top Emerging / Top Free Emerging から必ず除外。
+#  - store_handles.json / stores などは触らない。git commit も行わない。
+#  - 状態は Actions cache で持続、候補レポートは artifact + Actions Summary。
+
+on:
+  schedule:
+    # 毎日 1 回 UTC 23:30 = JST 翌08:30
+    # NS-P1(UTC 21:30)→NS-P2(UTC 22:30)の直後に実行し、両者の最新結果を活用する。
+    # update_complete.yml の稼働帯(UTC 06:00-17:30)・update_events.yml(毎時 :00)・
+    # verify_complete.yml(UTC 23:00)・discover_store_x.yml(UTC 06:10)・
+    # resolve_store_handles.yml(UTC 05:30)のいずれとも重複しない。
+    - cron: "30 23 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: '1 run で分類する creator 候補数'
+        required: false
+        default: '80'
+
+concurrency:
+  group: discover-emerging-creators
+  cancel-in-progress: false
+
+permissions:
+  contents: read   # commit しない = write 権限を与えない（構造的ガード）
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore emerging-creator state (retry cache)
+        uses: actions/cache@v4
+        with:
+          path: scripts/.emerging_state.json
+          key: emerging-creator-state-${{ github.run_id }}
+          restore-keys: |
+            emerging-creator-state-
+
+      - name: Run candidate discovery (NO DB write / NO outreach / NO new secret)
+        run: |
+          set -euo pipefail
+          python3 -m py_compile scripts/discover_emerging_creators.py scripts/test_discover_emerging_creators.py
+          # NS-P3 本体テスト
+          python3 scripts/test_discover_emerging_creators.py
+          # 既存 NS-P1 / NS-P2 / NS-9A / NS-9C / resolver 回帰も守る
+          python3 scripts/test_discover_free_performers.py
+          python3 scripts/test_verify_free_status.py
+          python3 scripts/test_discover_store_x.py
+          python3 scripts/test_dmm_backfill.py
+          python3 scripts/test_store_handles_resolution.py
+          LIMIT="${{ github.event.inputs.limit }}"; LIMIT="${LIMIT:-80}"
+          python3 scripts/discover_emerging_creators.py --limit "$LIMIT" \
+            --report public/emerging_creators_report.json
+
+      - name: Guard — ESTABLISHED除外 / creator_status-visibility分離を確認
+        run: |
+          set -euo pipefail
+          python3 - <<'PYEOF'
+          import json, sys
+          d = json.load(open("public/emerging_creators_report.json", encoding="utf-8"))
+          established_leak = [r for r in d.get("top_emerging", []) + d.get("top_free_emerging", [])
+                              if r.get("visibility_tier") == "ESTABLISHED"]
+          if established_leak:
+              print("NG: visibility_tier=ESTABLISHED がランキングに混入:", established_leak)
+              sys.exit(1)
+          if d.get("db_writes", -1) != 0 or d.get("external_messages", -1) != 0 or d.get("secret_additions", -1) != 0:
+              print("NG: candidate-only invariant違反", d.get("db_writes"), d.get("external_messages"), d.get("secret_additions"))
+              sys.exit(1)
+          print(f"OK: established除外維持 / db_writes=0 / external_messages=0 / secret_additions=0 "
+                f"/ scanned={d['stats']['scanned']}")
+          PYEOF
+
+      - name: Guard — DB書込ゼロ / commit対象なしを確認
+        run: |
+          set -euo pipefail
+          CHANGED=$(git status --porcelain | grep -vE 'emerging_creators_report.json|.emerging_state.json' || true)
+          if [ -n "$CHANGED" ]; then
+            echo "❌ 予期しない変更:"; echo "$CHANGED"; exit 1
+          fi
+          echo "✅ candidate-only: DB書込なし・追跡ファイル変更なし・自動連絡なし・新secretなし"
+
+      - name: Upload candidate report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: emerging-creator-candidates
+          path: public/emerging_creators_report.json
+          if-no-files-found: warn
+          retention-days: 14
