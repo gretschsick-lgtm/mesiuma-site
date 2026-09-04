@@ -70,6 +70,50 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "79fc27c71944",
+    "date": "2026-09-03",
+    "time": "22:14",
+    "store": "マルハンメガシティ静岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "207",
+    "text": "■207番台　ｅ牙狼１２ＸＸ－ＭＪ  💫💫コンプリート達成です💫💫  ご遊技されたお客様 おめでとうございます㊗️",
+    "x_url": "https://x.com/maruhanmegacity/status/2095500753591042350",
+    "store_handle": "maruhanmegacity",
+    "store_x_url": "https://x.com/maruhanmegacity",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T22:27:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRS2z3nbQAAoAfZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRS2z3nbQAAoAfZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "cd9395b6ca"
+  },
+  {
+    "id": "e2804ca5c884",
+    "date": "2026-09-03",
+    "time": "22:04",
+    "store": "まるみつ三日月店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "753",
+    "text": "753番台、北斗の拳転生2にてコンプリート達成！ おめでとうございます！",
+    "x_url": "https://x.com/maru_mikatsuki/status/2095498231434350810",
+    "store_handle": "maru_mikatsuki",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-04T22:27:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRS0CRKa0AA-rxR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRS0CRKa0AA-rxR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "bf3f3e4572"
+  },
+  {
     "id": "d25d18004480",
     "date": "2026-09-03",
     "time": "21:00",
@@ -89,6 +133,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRSlzqBaEAANgNI?format=jpg&name=large",
     "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c"
+  },
+  {
+    "id": "43ca7e80305d",
+    "date": "2026-09-03",
+    "time": "20:58",
+    "store": "マルハンメガシティ柏",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "17",
+    "text": "👑マルハンメガシティ柏👑 𖤐令和パチ年パチ月始まる‼𖤐 パチンコ・スロット地域最大級設置  ㊗コンプリート速報㊗ 📢17番台　e牙狼12  コンプリート達成😘 🎊本当におめでとうございます🎊",
+    "x_url": "https://x.com/maruhankashiwa/status/2095481432177066469",
+    "store_handle": "maruhankashiwa",
+    "store_x_url": "https://x.com/maruhankashiwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T22:26:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRSkWYabgAAQysZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRSkWYabgAAQysZ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e5e18632fd"
   },
   {
     "id": "00ec0998cdfc",
