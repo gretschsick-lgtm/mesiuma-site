@@ -1797,10 +1797,17 @@ def resolve_store_ids(entries: list[dict], resolver=None) -> tuple[int, int]:
     未解決・resolver 未初期化のいずれの場合も entries から一切除外しない（fail-open）。
     既に store_id が設定済みの entry は上書きしない（既存値を尊重）。
 
-    save_complete()（merge 経路）内の同等ブロックとロジックは完全に同一（同じ
-    store_resolver・同じ confidence 閾値・同じ save_unknown 記録）。ここでは
-    partial 経路（supabase_write_complete 直前）で同じ判定を再利用するために
-    切り出した共有ヘルパーで、独自の fuzzy/threshold/店舗名クリーンアップは持たない。
+    save_complete()（merge 経路）内の同等ブロックと同じ store_resolver・同じ
+    confidence 閾値で判定する（独自の fuzzy/threshold/店舗名クリーンアップは持たない）。
+
+    CC-2C1: unresolved 時に resolver.save_unknown()（unknown_stores への
+    telemetry write）は呼ばない。この関数の責務は store_id enrichment のみで、
+    unknown-store telemetry の記録は別責務（既存 save_complete() 側のみが担う）。
+    実測により resolution=merge-duplicates が unknown_stores の実際の unique
+    制約に対して機能しておらず、同一 raw_name でも行が際限なく増え続ける
+    （count が実際には集約されない）ことを確認済み。matrix 7 並列の partial
+    経路にこの write をそのまま持ち込むと、この非冪等な増殖を最大 7 倍に
+    増幅するリスクがあるため、partial 経路では意図的に呼ばない。
 
     戻り値: (resolved件数, unresolved件数)
     """
@@ -1834,7 +1841,7 @@ def resolve_store_ids(entries: list[dict], resolver=None) -> tuple[int, int]:
             e["store_id"] = resolved["store_id"]
             resolved_n += 1
         else:
-            resolver.save_unknown(store_name, e.get("x_url", ""))
+            # CC-2C1: unknown_stores への write はしない(責務外・非冪等増殖リスク回避)
             unresolved_n += 1
     return resolved_n, unresolved_n
 

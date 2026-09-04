@@ -69,10 +69,12 @@ n_resolved, n_unresolved = F.resolve_store_ids(entries, resolver=r)
 ok(n_resolved == 0 and n_unresolved == 1, "C1 unresolved件数")
 ok("store_id" not in entries[0], "C2 未解決entryにstore_idキーが付かない(NULL相当)")
 ok(len(entries) == 1, "C3 未解決でもentriesからdropされない(collector filterにしない)")
-ok(r.unknown_calls == [("謎の店舗123", "https://x.com/store1/status/1")],
-   "C4 未解決分はsave_unknown()に記録される(既存save_complete()と同じ挙動)")
+# CC-2C1: partial経路のresolve_store_ids()はunknown_storesへwriteしない
+# (unknown_stores.resolution=merge-duplicatesが実際には冪等でなく、matrix 7並列で
+#  非冪等な行増殖を増幅するリスクがあるため、telemetry記録は既存save_complete()側のみに残す)
+ok(r.unknown_calls == [], "C4 未解決分でもsave_unknown()は呼ばれない(telemetry writeなし)")
 
-# --- D. Resolver load failure: report保存継続・store_idなし・例外で落ちない ---
+# --- D. Resolver load failure: report保存継続・store_idなし・例外で落ちない・write副作用なし ---
 r = FakeResolver({}, fail_load=True)
 entries = [entry(store="マルハン東京店")]
 try:
@@ -83,6 +85,7 @@ except Exception:
 ok(not raised, "D1 resolver load失敗でも例外が呼び出し元に伝播しない")
 ok(len(entries) == 1 and "store_id" not in entries[0],
    "D2 resolver load失敗時もreportは保存継続(store_idなしのまま)")
+ok(r.unknown_calls == [], "D4 resolver load失敗時もsave_unknown()は呼ばれない(write side effect=0)")
 
 # resolver自体が取得できない場合(get_resolver()がNoneを返す等)も同様にfail-open
 entries2 = [entry(store="マルハン東京店")]
@@ -107,6 +110,14 @@ ok(n_resolved == 1 and n_unresolved == 1, "F1 resolved/unresolved混在の集計
 ok(entries[0]["store_id"] == "stA", "F2 resolved分のみstore_id付与")
 ok("store_id" not in entries[1], "F3 unresolved分はstore_id無し")
 ok(len(entries) == 4, "F4 全entryが保存継続(store_name欠損分も含めdropしない)")
+ok(r.unknown_calls == [], "F5 unresolved混在でもsave_unknown()は呼ばれない(telemetry write=0)")
+
+# --- F2. 同一(重複)unresolved store_nameを複数投入してもtelemetry writeが増えない ---
+r = FakeResolver({})
+entries = [entry(store="重複未登録店"), entry(store="重複未登録店"), entry(store="重複未登録店")]
+n_resolved, n_unresolved = F.resolve_store_ids(entries, resolver=r)
+ok(n_unresolved == 3, "F6 重複unresolved入力も全件unresolved集計される")
+ok(r.unknown_calls == [], "F7 重複unresolved入力でもtelemetry write=0(unknown_stores増殖リスクなし)")
 
 # --- G. Duplicate tweet id: resolve_store_ids自体はUPSERT semanticsに関与しない ---
 # (idベースの重複排除は呼び出し元のdeduped生成ロジックの責務。ここでは
