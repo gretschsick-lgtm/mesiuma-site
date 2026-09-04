@@ -601,27 +601,6 @@
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
   },
   {
-    "id": "646baf0ce45c",
-    "date": "2026-08-29",
-    "time": "21:20",
-    "store": "ダイナム（自動発掘）",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "400",
-    "text": "#ダイナム小矢部店 8/29　来店ポイント説明会、 400番台 #ヴァルヴレイヴ2 にて コンプリート達成👏  🎊おめでとうございます🎊  #ダイナム　#コンプリート",
-    "x_url": "https://x.com/dynam_00098/status/2093675183080865933",
-    "store_handle": "dynam_00098",
-    "store_x_url": "https://x.com/dynam_00098",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-09-04T17:41:59Z",
-    "images": [
-      "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
     "id": "bb9bfec949a0",
     "date": "2026-08-29",
     "time": "21:15",
@@ -1241,6 +1220,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ4OPVWbMAACCfQ?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "8f27d63978f6",
+    "date": "2026-08-29",
+    "time": "18:02",
+    "store": "キコーナ和田山",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは。 #キコーナ和田山　です。  スマスロ 北斗の拳 転生の章2 185番より  コンプリート発動 おめでとうございます。  #つぶやキコーナ",
+    "x_url": "https://x.com/kicona_wadayama/status/2093625297488998519",
+    "store_handle": "kicona_wadayama",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-04T18:27:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ4MYMuboAAvjW9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ4MYMuboAAvjW9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "1a17a870df"
   },
   {
     "id": "06fdf397b26c",
