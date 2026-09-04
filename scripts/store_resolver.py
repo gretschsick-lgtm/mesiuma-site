@@ -83,6 +83,78 @@ class StoreResolver:
         with urllib.request.urlopen(req, context=self._ssl_ctx, timeout=15) as r:
             return json.loads(r.read())
 
+    def _fetch_page(self, path: str, offset: int, page_size: int) -> tuple[list, Optional[str]]:
+        """
+        1ページ分を Range ヘッダで取得する。戻り値: (行リスト, Content-Range ヘッダ文字列)。
+        テスト時はこのメソッドを差し替えて実 HTTP を発行せず検証できる（他は一切変更不要）。
+        """
+        req = urllib.request.Request(
+            f"{self._url}/rest/v1/{path}",
+            headers={
+                "apikey":        self._key,
+                "Authorization": f"Bearer {self._key}",
+                "Content-Type":  "application/json",
+                "Range-Unit":    "items",
+                "Range":         f"{offset}-{offset + page_size - 1}",
+                "Prefer":        "count=exact",
+            },
+        )
+        with urllib.request.urlopen(req, context=self._ssl_ctx, timeout=15) as r:
+            body = json.loads(r.read())
+            content_range = r.headers.get("Content-Range")
+        return body, content_range
+
+    def _sb_get_paginated(self, path: str, page_size: int = 1000, max_pages: int = 50) -> list[dict]:
+        """
+        PostgREST の Range ヘッダで page_size 件ずつページングして全件取得する。
+        サーバー側の db-max-rows（既定 1000 件）により `limit=` クエリパラメータだけでは
+        暗黙に切り捨てられるため、これに依存しない（store_resolver が canonical stores の
+        一部しか見えず解決失敗が多発していた問題の修正）。
+
+        終了条件（chunk の実件数のみで判定。Content-Range の total は参考ログ用途のみで
+        終了判定には使わない — サーバー報告値を信用しすぎず、実際に空ページを受け取る
+        まで確認する）:
+          - 返却件数が page_size 未満（最終ページ）
+          - 空配列
+        安全策（無限 pagination 防止）:
+          - max_pages を超えたら異常として例外
+          - 連続する2ページの id 集合が完全一致（サーバーが同一ページを返し続ける異常系）
+            なら停止とみなし例外
+        途中で例外が発生した場合は呼び出し元（_load）がキャッシュ全体を破棄する
+        （不完全な master を「成功」として cache しない = fail closed）。
+        """
+        out: list[dict] = []
+        prev_ids: Optional[tuple] = None
+        offset = 0
+        for _ in range(max_pages):
+            chunk, _content_range = self._fetch_page(path, offset, page_size)
+            if not chunk:
+                break
+            ids = tuple(row.get("id") if isinstance(row, dict) else None for row in chunk)
+            if prev_ids is not None and ids == prev_ids:
+                raise RuntimeError("store_resolver: pagination stalled (同一ページが連続返却された)")
+            prev_ids = ids
+            out.extend(chunk)
+            offset += page_size
+            if len(chunk) < page_size:
+                break
+        else:
+            raise RuntimeError(f"store_resolver: pagination exceeded max_pages={max_pages}（無限pagination防止）")
+        return out
+
+    @staticmethod
+    def _dedupe_stores(rows: list[dict]) -> list[dict]:
+        """id欠損行を除外し、重複id（ページ境界のずれ等）は先勝ちで1件に統合する。"""
+        seen: set = set()
+        out: list[dict] = []
+        for r in rows:
+            sid = r.get("id") if isinstance(r, dict) else None
+            if not sid or sid in seen:
+                continue
+            seen.add(sid)
+            out.append(r)
+        return out
+
     def _sb_post(self, path: str, body: dict, prefer: str = "") -> tuple[int, bytes]:
         data = json.dumps(body).encode()
         headers = {
@@ -109,10 +181,11 @@ class StoreResolver:
     def _load(self) -> None:
         """stores と store_aliases を Supabase からメモリにロードする。"""
         try:
-            self._stores = self._sb_get(
+            raw = self._sb_get_paginated(
                 "stores?select=id,name,normalized_name,pref,area"
-                "&is_active=eq.true&order=name&limit=10000"
+                "&is_active=eq.true&order=name"
             )
+            self._stores = self._dedupe_stores(raw)
         except Exception as e:
             print(f"⚠️  store_resolver: stores ロード失敗: {e}")
             self._stores = []
