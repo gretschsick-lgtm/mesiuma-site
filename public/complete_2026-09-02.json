@@ -1,5 +1,48 @@
 [
   {
+    "id": "f5f03c605821",
+    "date": "2026-09-02",
+    "time": "23:41",
+    "store": "八斗島店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "516",
+    "text": "本日お二人目👀💦💦💦 ✨🏝️congratulation🏝️✨ スマスロ ソードアート・オンラインⅡ 516番台のお客様🎶 コンプリート🦾✨✨✨ おめでとうございます👏  令和8年9月2日（火） マルハン八斗島店から またひとりｱｰﾑｽﾄﾛﾝｶﾞｰが誕生した🦾",
+    "x_url": "https://x.com/mitchan_maruhan/status/2095160305273958520",
+    "store_handle": "mitchan_maruhan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-04T14:58:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HROBMVIbIAAGt1Q?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRM0vUnbsAAB3-A?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HROBMVIbIAAGt1Q?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "ff249888c050",
+    "date": "2026-09-02",
+    "time": "23:26",
+    "store": "ル本店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "589",
+    "text": "🎉コンプリート達成🎉  📅9/2 📍3階 589番台 「Lチバリヨ2」  ✨コンプリート✨  おめでとうございます👏  #チバリヨ2 #スマスロ #コンプリート #エンジェル本店",
+    "x_url": "https://x.com/charmysangels/status/2095156444446523567",
+    "store_handle": "charmysangels",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-04T14:58:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRN9rTUbQAAXGzY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRN9rTUbQAAXGzY?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
+  },
+  {
     "id": "df7f4068804f",
     "date": "2026-09-02",
     "time": "22:14",
@@ -82,6 +125,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRNn4YXaoAA-GHH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
+    "id": "276179d041fb",
+    "date": "2026-09-02",
+    "time": "21:45",
+    "store": "ゾーン行橋1000",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "658",
+    "text": "✨️🎊✨️コンプリート報告✨️🎊✨️ 　　　　　本日2台目  9月2日（水） 658番台　ヴァルヴレイヴ2  コンプリートォォォォォオオ！！！ 🎊ヽ(=´▽`=)ﾉ🎊  本日VVV2　2台目のコンプリートです✨  #ゾーン行橋 #VVV2",
+    "x_url": "https://x.com/zone_yukuhashi/status/2095130983326708061",
+    "store_handle": "zone_yukuhashi",
+    "store_x_url": "https://x.com/zone_yukuhashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T14:27:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRNmcEEbUAAnUb9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRNmcEEbUAAnUb9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "d2b37d41c5"
   },
   {
     "id": "218cde352303",

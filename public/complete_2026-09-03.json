@@ -176,6 +176,29 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "9bc33d6aec6c",
+    "date": "2026-09-03",
+    "time": "19:51",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "230",
+    "text": "e牙狼12 230番台コンプリート達成🎉㊗️ おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2095464718790234559",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T14:58:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRSWDPeacAAxWDq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRSWDfabAAAu8iP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRSWDPeacAAxWDq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "0ef83addce"
+  },
+  {
     "id": "e72707467653",
     "date": "2026-09-03",
     "time": "18:30",
@@ -195,6 +218,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRSBhKsaMAA0cnR?format=jpg&name=large",
     "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c"
+  },
+  {
+    "id": "e585def93d14",
+    "date": "2026-09-03",
+    "time": "18:20",
+    "store": "スタジアム2001八女店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "2287",
+    "text": "📢コンプリート速報📢 スロットスペース 2287番台 いざ!番長 コンプリート達成‼️ おめでとうございます😊 この後のお時間も皆様のご来店お待ちしております。",
+    "x_url": "https://x.com/stadium2001yame/status/2095441811485741162",
+    "store_handle": "stadium2001yame",
+    "store_x_url": "https://x.com/stadium2001yame",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T14:58:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRSBKWKa0AApyk1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRSBKWKbYAA0cin?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRSBKWKa0AApyk1?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "bc0f789589"
   },
   {
     "id": "e52aa41513e3",
@@ -238,6 +284,28 @@
     "image_url": "https://pbs.twimg.com/media/HRR89FTaIAA5NcA?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "ad0ceba11b"
+  },
+  {
+    "id": "3a320bd769df",
+    "date": "2026-09-03",
+    "time": "18:02",
+    "store": "キング観光サウザンド今池1号店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "✨e牙狼12黄金騎士極限にてコンプリート達成✨ おめでとうございます🎊  #e牙狼12黄金騎士極限 #牙狼  #GARO #コンプリート  #パチンコ  #スロット  #キング観光  #今池1号  #地下鉄 #今池駅 #8番出口",
+    "x_url": "https://x.com/imaike_1/status/2095437228763947222",
+    "store_handle": "imaike_1",
+    "store_x_url": "https://x.com/imaike_1",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T14:57:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRR87ilb0AAuVbO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRR87ilb0AAuVbO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "68dbb15c10"
   },
   {
     "id": "ce7fe64d03e7",
