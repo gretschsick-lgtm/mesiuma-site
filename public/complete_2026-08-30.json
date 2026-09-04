@@ -716,6 +716,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
+    "id": "2c09ca6a4afa",
+    "date": "2026-08-30",
+    "time": "20:34",
+    "store": "ZENT名古屋北店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "1194",
+    "text": "本日のコンプリート報告📣  1194番台 e牙狼12  この輝き……まさに、牙狼！！  明日開放🚩  #ZENT #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2094025904460882153",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-03T23:52:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ95dWpasAADoQ5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ95dWpasAADoQ5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "d4db5aa0f934",
     "date": "2026-08-30",
     "time": "20:33",
