@@ -1788,6 +1788,57 @@ def supabase_update_fetch_state(job_name: str) -> None:
         log(f"⚠️  Supabase fetch_state 更新エラー: {e}")
 
 
+def resolve_store_ids(entries: list[dict], resolver=None) -> tuple[int, int]:
+    """
+    CC-2C: entries の store_name を store_resolver（canonical stores マスタ）で解決し、
+    成功分だけ store_id を付与する。
+
+    canonicalization は enrichment（メタデータ付与）であり collector filter ではない。
+    未解決・resolver 未初期化のいずれの場合も entries から一切除外しない（fail-open）。
+    既に store_id が設定済みの entry は上書きしない（既存値を尊重）。
+
+    save_complete()（merge 経路）内の同等ブロックとロジックは完全に同一（同じ
+    store_resolver・同じ confidence 閾値・同じ save_unknown 記録）。ここでは
+    partial 経路（supabase_write_complete 直前）で同じ判定を再利用するために
+    切り出した共有ヘルパーで、独自の fuzzy/threshold/店舗名クリーンアップは持たない。
+
+    戻り値: (resolved件数, unresolved件数)
+    """
+    if resolver is None:
+        try:
+            from store_resolver import get_resolver as _get_store_resolver
+            resolver = _get_store_resolver()
+        except (ImportError, Exception):
+            resolver = None
+    if not resolver:
+        return 0, 0
+
+    try:
+        resolver._ensure_loaded()
+    except Exception:
+        # resolver 側の load 失敗はここでも fail-open にする（canonicalization の
+        # 失敗で report 自体を失わないため）。実 StoreResolver._load() は内部で
+        # 例外を握り潰し self._stores=[] にする設計だが、念のため二重に保護する。
+        return 0, 0
+
+    resolved_n = 0
+    unresolved_n = 0
+    for e in entries:
+        if e.get("store_id"):
+            continue  # 既存値を尊重（別解決で上書きしない）
+        store_name = (e.get("store") or "").strip()
+        if not store_name:
+            continue
+        resolved = resolver.resolve(store_name)
+        if resolved:
+            e["store_id"] = resolved["store_id"]
+            resolved_n += 1
+        else:
+            resolver.save_unknown(store_name, e.get("x_url", ""))
+            unresolved_n += 1
+    return resolved_n, unresolved_n
+
+
 def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
     """
     complete_reports テーブルに UPSERT（ON CONFLICT DO UPDATE）。
@@ -2703,6 +2754,10 @@ def main():
         else:
             log("ℹ️  新規の店舗投稿コンプリートが見つかりませんでした")
         # ランキング更新はスキップ（merge_complete_data.py が行う）
+        # CC-2C: DB書込み直前にcanonical store_idを解決（enrichment・失敗しても保存継続）
+        _cc2c_resolved, _cc2c_unresolved = resolve_store_ids(deduped)
+        if _cc2c_resolved or _cc2c_unresolved:
+            log(f"ℹ️  store_id 解決(partial): 成功{_cc2c_resolved}件 / 未解決{_cc2c_unresolved}件（未解決も保存継続）")
         supabase_write_complete(deduped)
         supabase_log_end(
             sb_log_id, "success",
