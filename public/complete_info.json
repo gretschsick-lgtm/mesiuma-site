@@ -1,5 +1,51 @@
 [
   {
+    "id": "19bc95abe7c6",
+    "date": "2026-09-04",
+    "time": "21:42",
+    "store": "メガフェイス1300淀川",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "962",
+    "text": "🔥🔥コンプリート報告🔥🔥  ⚡️Lヴァルヴレイヴ2 👉962番台  🔥炎炎ノ消防隊 👉541番台  2機種からコンプリート達成‼️‼️ ナイスコンプリートです👏✨  本日も最後まで目が離せない展開に👀🔥 店内まだまだ盛り上がっております🐯🔥",
+    "x_url": "https://x.com/megaface_1300/status/2095854985208795225",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T17:42:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRX4_hjaMAAaX_Y?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRX4_hia8AAHcoQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRX4_hjaMAAaX_Y?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5b93315c4d"
+  },
+  {
+    "id": "c06f4bf025fc",
+    "date": "2026-09-04",
+    "time": "21:42",
+    "store": "メガフェイス1300淀川",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🔥🔥コンプリート報告🔥🔥  ⚡️Lヴァルヴレイヴ2 👉962番台  🔥炎炎ノ消防隊 👉541番台  2機種からコンプリート達成‼️‼️ ナイスコンプリートです👏✨  本日も最後まで目が離せない展開に👀🔥 店内まだまだ盛り上がっております🐯🔥",
+    "x_url": "https://x.com/megaface_1300/status/2095854985208795225",
+    "store_handle": "megaface_1300",
+    "store_x_url": "https://x.com/megaface_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T17:42:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRX4_hjaMAAaX_Y?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRX4_hia8AAHcoQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRX4_hjaMAAaX_Y?format=jpg&name=large",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2",
+    "store_id": "5b93315c4d"
+  },
+  {
     "id": "a54e4d04901d",
     "date": "2026-09-04",
     "time": "20:59",
@@ -90,6 +136,50 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQm7bQBaQAAVtoW?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
+    "id": "ad3f4e98c811",
+    "date": "2026-09-03",
+    "time": "22:04",
+    "store": "グランドシップ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは🌙グランドシップです🚢  ⚔東京都最大級36台設置⚔ ✨e牙狼12黄金騎士極限✨  ＼ コンプリート達成!! ／ おめでとうございます👏✨  #グラシ #東京 #江東区 #東雲 #グランドシップ #牙狼 #コンプリート",
+    "x_url": "https://x.com/grandship378/status/2095498253097918807",
+    "store_handle": "grandship378",
+    "store_x_url": "https://x.com/grandship378",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T18:12:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRS0dYYaIAArGwC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRS0dYYaIAArGwC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "faedd94a11"
+  },
+  {
+    "id": "e2804ca5c884",
+    "date": "2026-09-03",
+    "time": "22:04",
+    "store": "まるみつ三日月店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "753",
+    "text": "753番台、北斗の拳転生2にてコンプリート達成！ おめでとうございます！",
+    "x_url": "https://x.com/maru_mikatsuki/status/2095498231434350810",
+    "store_handle": "maru_mikatsuki",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-04T18:12:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRS0CRKa0AA-rxR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRS0CRKa0AA-rxR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "bf3f3e4572"
   },
   {
     "id": "d25d18004480",
@@ -219,6 +309,27 @@
     "image_url": "https://pbs.twimg.com/media/HRSWDPeacAAxWDq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "0ef83addce"
+  },
+  {
+    "id": "70ae1e2bc8c6",
+    "date": "2026-09-03",
+    "time": "19:18",
+    "store": "スーパーD'ステーション39福岡本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1008",
+    "text": "㊗️コンプリート速報🙌  ★☆★☆★☆★☆★☆★  💥1008番台💥 ヴァルヴレイヴ2よりコンプリート発生！！👏 ご遊技されていたお客様おめでとうございます🎉  ★☆★☆★☆★☆★☆★ #Dステーション福岡本店 #パチンコスロット",
+    "x_url": "https://x.com/sd_fhonten/status/2095456328525504594",
+    "store_handle": "sd_fhonten",
+    "store_x_url": "https://x.com/sd_fhonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T18:13:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRSOZkkbsAAXD6I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRSOZkkbsAAXD6I?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "e72707467653",
@@ -394,6 +505,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRRmBgJbUAAOfKU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "35485a9c53bf",
+    "date": "2026-09-03",
+    "time": "15:15",
+    "store": "ｽｰﾊﾟｰD'ｽﾃｰｼｮﾝ高崎本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "787",
+    "text": "👀チュウモク！チュウモク👀  ✨46枚スロット 787番台✨ Lパチスロ 革命機ヴァルヴレイヴ2  👏爆速コンプリート達成👏 🎊おめでとうございます🎊  この後のお時間も是非ご来店くださいませ！ #コンプリート #ヴヴヴ",
+    "x_url": "https://x.com/DTAKASAKIHONTEN/status/2095395152256967059",
+    "store_handle": "dtakasakihonten",
+    "store_x_url": "https://x.com/dtakasakihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T18:13:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRRVK_ya0AA14m2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRRVK_ya0AA14m2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "2386a7238d"
   },
   {
     "id": "f5f03c605821",
@@ -4087,6 +4220,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HQ46ayQXUAA9nLH?format=jpg&name=large",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425"
+  },
+  {
+    "id": "646baf0ce45c",
+    "date": "2026-08-29",
+    "time": "21:20",
+    "store": "ダイナム（自動発掘）",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "400",
+    "text": "#ダイナム小矢部店 8/29　来店ポイント説明会、 400番台 #ヴァルヴレイヴ2 にて コンプリート達成👏  🎊おめでとうございます🎊  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00098/status/2093675183080865933",
+    "store_handle": "dynam_00098",
+    "store_x_url": "https://x.com/dynam_00098",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-04T17:41:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HQ46e9IW4AAigrU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "bb9bfec949a0",
