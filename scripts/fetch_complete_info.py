@@ -2490,6 +2490,35 @@ def save_partial(new_entries: list[dict], today_str: str, mode_name: str) -> int
     return len(valid)
 
 
+def select_rotated_handles(active_handles: list, window: int, hour: int) -> list:
+    """
+    CC-AUTO-2: count>=1 の対象アカウントが window 件を超える場合に、
+    JST時刻(0-23時)ベースの決定論的 rotation で対象 window を選ぶ純粋関数。
+
+    従来は count 降順の上位 window 件に固定していたため、window を超える分の
+    アカウントが恒久的に direct handle 収集の対象外になっていた（keyword 検索での
+    偶発的な再発見のみ）。本関数は state file・DB・乱数を一切使わず、hour だけから
+    決定論的にオフセットを計算し、1日(24時間)のうちに全アカウントが少なくとも
+    1回は window 内に入ることを保証する。
+
+    - active_handles は (handle, info) の list。呼び出し側で
+      count 降順 + handle 名(tie-break) の安定ソート済みであること。
+    - window 以下の場合はそのまま全件返す（従来どおり・rotation不要）。
+    - offset は hour=0 で 0、hour=23 で (total-window) にちょうど到達するよう
+      線形補間する。隣接 hour 間のoffset差は window よりも十分小さいため、
+      1日を通して隙間なく全区間をカバーできる。
+    - 同じ hour なら常に同じ結果（determinism・no random shuffle）。
+    """
+    total = len(active_handles)
+    if total <= window:
+        return list(active_handles)
+    max_offset = total - window
+    # hour: 0-23 → offset: 0-max_offset に線形マッピング(23時でちょうど上限に到達)
+    offset = round(hour * max_offset / 23) if max_offset > 0 else 0
+    rotated = active_handles[offset:] + active_handles[:offset]
+    return rotated[:window]
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
@@ -2528,15 +2557,22 @@ def main():
                     _HANDLE_TO_STORE[h.lower()] = info["store"]
                     _HANDLE_TO_INFO[h.lower()] = info
             log(f"📋 ハンドル→店舗名マップ {len(_HANDLE_TO_STORE)}件 登録")
-            # count >= 1 の実績ある店舗アカウントを対象（上位200件まで）
+            # count >= 1 の実績ある店舗アカウントを対象（direct query window: 200件）
+            # CC-AUTO-2: 200件を超える分が恒久的に対象外にならないよう、JST時刻ベースの
+            # 決定論的 rotation で window をずらす（select_rotated_handles 参照）。
             active_handles = [
                 (h, info) for h, info in store_handles_data.items()
                 if isinstance(info, dict) and info.get("count", 0) >= 1
                 and info.get("type", "store") != "manager"
             ]
-            active_handles.sort(key=lambda x: -x[1].get("count", 0))
-            handle_queries = [f"from:{h} コンプリート" for h, _ in active_handles[:200]]
-            log(f"📋 from:handle クエリ {len(handle_queries)}件 追加")
+            # tie-break に handle 名を加え、count 同値時も rotation が安定するようにする
+            active_handles.sort(key=lambda x: (-x[1].get("count", 0), x[0]))
+            from datetime import timezone as _tz, timedelta as _td
+            _jst_hour = datetime.now(_tz(_td(hours=9))).hour
+            windowed_handles = select_rotated_handles(active_handles, 200, _jst_hour)
+            handle_queries = [f"from:{h} コンプリート" for h, _ in windowed_handles]
+            log(f"📋 from:handle クエリ {len(handle_queries)}件 追加"
+                f"（対象{len(active_handles)}件中 JST{_jst_hour}時台window）")
 
             # 店長・副店長・主任アカウント（count閾値なし・全件対象）
             manager_handles_list = [
