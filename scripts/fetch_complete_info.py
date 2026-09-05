@@ -2519,6 +2519,61 @@ def select_rotated_handles(active_handles: list, window: int, hour: int) -> list
     return rotated[:window]
 
 
+def select_run_rotated_handles(active_handles: list, window: int, run_number) -> list:
+    """
+    CC-AUTO-4: 「時刻」ではなく「実際に成立した workflow run」を rotation の種にする
+    決定論的 window 選択。state file・DB cursor・乱数は使わない。
+
+    背景: CC-AUTO-3 の監査で、GitHub Actions の concurrency 制約により scheduled
+    trigger の一部が実行されずに終わる（少なくとも run object が観測できる形では
+    作成されない）ことを確認した。時刻ベースの rotation(select_rotated_handles) は
+    「24 hour 分の trigger が全部実行される」ことを前提にすると理論値ぴったりだが、
+    trigger が欠落する環境では取りこぼしうる。github.run_number は GitHub Actions が
+    そのワークフロー専用に「新しい run が実際に作成されるたび」単調増加させる値で、
+    trigger が欠落した回はそもそも増加しない。したがって run_number を種にすれば、
+    「実際に成立した run の回数」だけに基づいて rotation が進む。
+    (rerun では run_number は変わらない = 同一 run の再試行では同じ target になる。
+     run_attempt は使わない。)
+
+    設計(N=total, W=window に一般化。383/200 に固定しない):
+      - N <= W: 全件返す(rotation不要)。
+      - W*2 >= N: 2-window で足りる。offset=0 と offset=(N-W) を run_number の偶奇で
+        交互に選ぶ。2つの window の union は必ず N 全体をカバーする
+        (0..W-1 と N-W..N-1 の間に隙間がない: W-1 >= N-W-1 ⟺ 2W >= N)。
+      - それ以外(N > 2W): num_windows = ceil(N/W) 個の window に一般化し、
+        offset を 0 〜 (N-W) の範囲に均等配置して run_number % num_windows で選ぶ。
+        隣接 offset 間の差が W 未満である限り隙間なく全区間をカバーする。
+
+    run_number が取得できない(None)場合は offset=0 側に倒す(呼び出し側で
+    時刻ベース rotation にフォールバックする設計を推奨。ここでは単に安全側の
+    デフォルト値として扱う)。
+    """
+    total = len(active_handles)
+    if total <= window:
+        return list(active_handles)
+    if run_number is None:
+        run_number = 0
+    try:
+        run_number = int(run_number)
+    except (TypeError, ValueError):
+        run_number = 0
+
+    max_offset = total - window
+    if window * 2 >= total:
+        # 2-window design: run_numberの偶奇でAとBを交互に選ぶ
+        offset = 0 if run_number % 2 == 0 else max_offset
+    else:
+        # 一般化 cycle design: N > 2W の場合
+        num_windows = -(-total // window)  # ceil(total / window)
+        idx = run_number % num_windows
+        step = max_offset / (num_windows - 1) if num_windows > 1 else 0
+        offset = round(idx * step)
+        offset = min(offset, max_offset)
+
+    rotated = active_handles[offset:] + active_handles[:offset]
+    return rotated[:window]
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--headless", action="store_true")
@@ -2558,8 +2613,13 @@ def main():
                     _HANDLE_TO_INFO[h.lower()] = info
             log(f"📋 ハンドル→店舗名マップ {len(_HANDLE_TO_STORE)}件 登録")
             # count >= 1 の実績ある店舗アカウントを対象（direct query window: 200件）
-            # CC-AUTO-2: 200件を超える分が恒久的に対象外にならないよう、JST時刻ベースの
-            # 決定論的 rotation で window をずらす（select_rotated_handles 参照）。
+            # CC-AUTO-2/4: 200件を超える分が恒久的に対象外にならないよう決定論的に
+            # window をずらす。GITHUB_RUN_NUMBER(実際に成立した workflow run ごとに
+            # 単調増加・GitHub Actions が全 step に自動提供)が取得できれば
+            # select_run_rotated_handles を優先する(scheduled trigger が欠落しても
+            # 「実際に成立した run の回数」だけに基づいて進むため、2 run 相当でほぼ
+            # 全件を巡回できる)。取得できない(ローカル実行等)場合のみ、従来の
+            # JST時刻ベース rotation にフォールバックする(fail-open・collector停止なし)。
             active_handles = [
                 (h, info) for h, info in store_handles_data.items()
                 if isinstance(info, dict) and info.get("count", 0) >= 1
@@ -2567,12 +2627,18 @@ def main():
             ]
             # tie-break に handle 名を加え、count 同値時も rotation が安定するようにする
             active_handles.sort(key=lambda x: (-x[1].get("count", 0), x[0]))
-            from datetime import timezone as _tz, timedelta as _td
-            _jst_hour = datetime.now(_tz(_td(hours=9))).hour
-            windowed_handles = select_rotated_handles(active_handles, 200, _jst_hour)
+            _run_number = os.environ.get("GITHUB_RUN_NUMBER")
+            if _run_number is not None:
+                windowed_handles = select_run_rotated_handles(active_handles, 200, _run_number)
+                _rotation_desc = f"run_number={_run_number}"
+            else:
+                from datetime import timezone as _tz, timedelta as _td
+                _jst_hour = datetime.now(_tz(_td(hours=9))).hour
+                windowed_handles = select_rotated_handles(active_handles, 200, _jst_hour)
+                _rotation_desc = f"JST{_jst_hour}時台window(GITHUB_RUN_NUMBER未取得のためfallback)"
             handle_queries = [f"from:{h} コンプリート" for h, _ in windowed_handles]
             log(f"📋 from:handle クエリ {len(handle_queries)}件 追加"
-                f"（対象{len(active_handles)}件中 JST{_jst_hour}時台window）")
+                f"（対象{len(active_handles)}件中 {_rotation_desc}）")
 
             # 店長・副店長・主任アカウント（count閾値なし・全件対象）
             manager_handles_list = [
