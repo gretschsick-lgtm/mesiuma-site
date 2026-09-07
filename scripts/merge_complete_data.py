@@ -13,6 +13,7 @@ GH Actions matrix 収集完了後に実行:
   6. 部分ファイルを削除
 """
 import json
+import os
 import re
 import sys
 import argparse
@@ -23,6 +24,91 @@ ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch_complete_info import save_complete, update_ranking
+
+
+def _merge_quality_summaries(keep: bool = False) -> dict[str, int]:
+    """CC-QUALITY-2M: 各 matrix job が書き出した complete_quality_*.json
+    （メタデータのみ・raw text/画像/生ハンドル一切なし）を合算する。
+
+    失敗しても呼び出し元（complete_info.json の更新）には一切影響しない
+    （fail-open。quality ファイルが1つもなくても空dictを返すだけ）。
+    """
+    totals: dict[str, int] = {}
+    try:
+        quality_files = sorted(ROOT.glob("public/complete_quality_*.json"))
+        for f in quality_files:
+            try:
+                payload = json.loads(f.read_text(encoding="utf-8"))
+            except Exception:
+                continue
+            if not isinstance(payload, dict):
+                continue
+            # 新形式 {"counts": {...}, "meta": {...}} / 旧形式（counts が無い場合）どちらも許容
+            counts = payload.get("counts", payload)
+            if not isinstance(counts, dict):
+                continue
+            for k, v in counts.items():
+                if isinstance(v, int):
+                    totals[k] = totals.get(k, 0) + v
+        if not keep:
+            for f in quality_files:
+                try:
+                    f.unlink()
+                except Exception:
+                    pass
+    except Exception as e:
+        print(f"⚠️  Quality summary 集計エラー（complete_info.json 更新には影響なし）: {e}")
+    return totals
+
+
+def _print_quality_funnel(totals: dict[str, int], added: int) -> None:
+    """Quality Funnel を人間可読な表として stdout と GITHUB_STEP_SUMMARY に出力する。
+
+    ここに raw tweet 本文・画像・生ハンドルは一切含めない（totals は整数カウンタのみ）。
+    これは Complete Precision/Recall の算出ではない（ground truth 不在のため測定不可）。
+    あくまで「どの段階で何件がどう分岐したか」の funnel 可視化。
+    """
+    if not totals and not added:
+        return
+    rows = [
+        ("collected",                totals.get("COLLECTED", 0)),
+        ("excluded_pattern",         totals.get("EXCLUDED_PATTERN", 0)),
+        ("no_store_pattern",         totals.get("NO_STORE_PATTERN", 0)),
+        ("store_pattern_matched",    totals.get("STORE_PATTERN_MATCHED", 0)),
+        ("store_extraction_failed",  totals.get("STORE_EXTRACTION_FAILED", 0)),
+        ("no_extractable_data",      totals.get("NO_EXTRACTABLE_DATA", 0)),
+        ("machine_extraction_failed", totals.get("MACHINE_EXTRACTION_FAILED", 0)),
+        ("slot_not_found",           totals.get("SLOT_NOT_FOUND", 0)),
+        ("multi_machine",            totals.get("MULTI_MACHINE", 0)),
+        ("slot_machine_mismatch",    totals.get("SLOT_MACHINE_MISMATCH", 0)),
+        ("parsed_ok",                totals.get("PARSED_OK", 0)),
+        ("store_resolved",           totals.get("STORE_RESOLVED", 0)),
+        ("store_unresolved",         totals.get("STORE_UNRESOLVED", 0)),
+        ("machine_resolved",         totals.get("MACHINE_RESOLVED", 0)),
+        ("machine_unresolved",       totals.get("MACHINE_UNRESOLVED", 0)),
+        ("duplicate_supabase",       totals.get("DUPLICATE", 0)),
+        ("saved_supabase",           totals.get("SAVED_SUPABASE", 0)),
+        ("saved_json",               added),
+    ]
+    lines = ["| metric | count |", "|---|---:|"]
+    for name, val in rows:
+        lines.append(f"| {name} | {val} |")
+    table_md = "\n".join(lines)
+
+    print("📊 Quality Funnel (CC-QUALITY-2M, metadata-only, not Precision/Recall):")
+    for name, val in rows:
+        print(f"   {name}: {val}")
+
+    step_summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step_summary_path:
+        try:
+            with open(step_summary_path, "a", encoding="utf-8") as f:
+                f.write("\n## Complete Quality Funnel (metadata-only)\n\n")
+                f.write(table_md)
+                f.write("\n\n_raw tweet text / images / handles は含まれません。"
+                        "Complete Precision/Recall そのものではありません。_\n")
+        except Exception as e:
+            print(f"⚠️  GITHUB_STEP_SUMMARY 書き込みエラー（無視して継続）: {e}")
 
 
 def _load_handle_info() -> dict[str, dict]:
@@ -119,6 +205,11 @@ def main():
     # ランキング再生成
     update_ranking()
     print("✅ complete_ranking.json 更新完了")
+
+    # CC-QUALITY-2M: Quality Funnel（メタデータのみ）を集計・表示
+    # complete_info.json 更新が既に完了した後に実行するため、失敗しても本体処理には影響しない
+    quality_totals = _merge_quality_summaries(keep=args.keep_partials)
+    _print_quality_funnel(quality_totals, added)
 
     # 部分ファイル削除
     if not args.keep_partials:

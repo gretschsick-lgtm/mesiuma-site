@@ -54,6 +54,63 @@ PLAYWRIGHT_PROFILE = Path(__file__).parent / ".x_auth_profile"
 SESSION_FILE       = Path(__file__).parent / ".x_session.enc"
 
 # ---------------------------------------------------------------------------
+# CC-QUALITY-2M: Quality Funnel telemetry（メタデータのみ・raw text/画像/生ハンドル非保存）
+#
+# 目的: 判定パイプラインの各段階で何件が accept/reject/unresolved になったかを
+# 集計する。tweet本文・画像・URL・生ハンドルは一切カウンタに含めない
+# （key は事前定義の stable reason code / STORE_TWEET_PATTERNS・EXCLUDE_PATTERNS
+# のインデックスのみ）。
+# Observation failure が collector を止めてはいけないため、書き込み側
+# (write_quality_summary) のみ try/except で保護する。カウンタ自体は
+# 例外を起こさない単純な dict 加算のみで構成する。
+# ---------------------------------------------------------------------------
+_QUALITY: dict[str, int] = {}
+
+
+def _qcount(key: str, n: int = 1) -> None:
+    """Quality funnel カウンタを加算する（raw content は一切受け取らない）。"""
+    _QUALITY[key] = _QUALITY.get(key, 0) + n
+
+
+def reset_quality_counters() -> None:
+    """テスト/マルチラン用にカウンタをリセットする。"""
+    _QUALITY.clear()
+
+
+def get_quality_counters() -> dict[str, int]:
+    """現在のカウンタのコピーを返す（呼び出し元がミューテートしても内部状態に影響しない）。"""
+    return dict(_QUALITY)
+
+
+def write_quality_summary(path) -> bool:
+    """カウンタを JSON ファイルへ書き出す。失敗しても例外を外へ伝播しない（fail-open）。
+
+    ファイル構造: {"counts": {...整数カウンタのみ...}, "meta": {"run_number":..., "git_sha":...}}
+    meta は before/after 比較用の version identity（GITHUB_RUN_NUMBER / GITHUB_SHA を
+    そのまま使う。新しい version 管理テーブルは作らない）。raw content は一切含まない。
+
+    戻り値: 書き込み成功なら True、失敗（I/O エラー等）なら False。
+    collector 本体（partial JSON 保存・Supabase 書き込み）はこの関数の
+    成否に一切依存しない。
+    """
+    try:
+        payload = {
+            "counts": _QUALITY,
+            "meta": {
+                "run_number": os.environ.get("GITHUB_RUN_NUMBER"),
+                "git_sha":    os.environ.get("GITHUB_SHA"),
+            },
+        }
+        Path(path).write_text(
+            json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8",
+        )
+        return True
+    except Exception as e:
+        log(f"⚠️  Quality summary 書き込みエラー（collector には影響なし）: {e}")
+        return False
+
+# ---------------------------------------------------------------------------
 # 検索クエリ（店舗投稿に特化）
 # ---------------------------------------------------------------------------
 COMPLETE_QUERIES = [
@@ -613,11 +670,20 @@ def is_store_tweet(text: str) -> bool:
     # 改行を空白に正規化（除外パターンが改行をまたいで効かない問題を防ぐ）
     normalized = text.replace("\n", " ").replace("\r", " ")
     # 除外パターンに引っかかるものはスキップ
-    for pat in EXCLUDE_PATTERNS:
+    # （CC-QUALITY-2M: for-loop化のみ。any()と同じ順序・同じ短絡評価・同じ戻り値）
+    for idx, pat in enumerate(EXCLUDE_PATTERNS):
         if pat.search(normalized):
+            _qcount("EXCLUDED_PATTERN")
+            _qcount(f"exclude_pattern_{idx}")
             return False
     # 店舗投稿パターンのどれかにマッチ
-    return any(pat.search(normalized) for pat in STORE_TWEET_PATTERNS)
+    for idx, pat in enumerate(STORE_TWEET_PATTERNS):
+        if pat.search(normalized):
+            _qcount("STORE_PATTERN_MATCHED")
+            _qcount(f"store_pattern_{idx}")
+            return True
+    _qcount("NO_STORE_PATTERN")
+    return False
 
 
 # ---------------------------------------------------------------------------
@@ -1091,6 +1157,7 @@ def parse_tweet(text: str, tweet_url: str,
     # 既知店舗ハンドル以外からのツイートは、店舗名がテキスト/author_name から
     # 確実に特定できた場合のみ受け入れる（個人アカウント・インフルエンサー対策）
     if not store and not is_known_store_handle:
+        _qcount("STORE_EXTRACTION_FAILED")
         return []
     # 既知ハンドルだが store が未設定の場合は _HANDLE_TO_STORE から補完
     if not store and is_known_store_handle and handle_match:
@@ -1107,7 +1174,19 @@ def parse_tweet(text: str, tweet_url: str,
 
     # 機種名も店舗名も台番号も取れないものは除外
     if not machines[0] and not store and not slot_number:
+        _qcount("NO_EXTRACTABLE_DATA")
         return []
+
+    if not machines[0]:
+        _qcount("MACHINE_EXTRACTION_FAILED")
+    if not slot_number:
+        _qcount("SLOT_NOT_FOUND")
+    if len(machines) > 1:
+        _qcount("MULTI_MACHINE")
+        if slot_number:
+            # 現行設計: slot_number は1機種目のエントリにのみ付与される
+            # （2機種目以降は空になる既知の情報欠落、CC-QUALITY-1で確認済み）
+            _qcount("SLOT_MACHINE_MISMATCH")
 
     # Xの<time>から取得した日付を使う（取得できなければ収集日を推定）
     if not tweet_date:
@@ -1192,6 +1271,7 @@ def parse_tweet(text: str, tweet_url: str,
             "source_account_type":  source_account_type,
             "collected_at":         collected_at,
         })
+    _qcount("PARSED_OK", len(results))
     return results
 
 
@@ -1310,6 +1390,7 @@ def scrape_query(page, query: str, today_str: str, max_tweets: int = 400) -> lis
                     author_name = author_el.inner_text().strip()
             except Exception:
                 pass
+            _qcount("COLLECTED")
             parsed_entries = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time, author_name)
             if parsed_entries:
                 # 画像URL取得（pbs.twimg.com の画像のみ・プロフィール画像除外）
@@ -1442,6 +1523,7 @@ def scrape_timeline(page, handle: str, today_str: str) -> list[dict]:
                 continue
 
             # タイムライン収集ではハンドルが確定しているので、直接 store_name を使用
+            _qcount("COLLECTED")
             parsed_entries = parse_tweet(text, tweet_url, today_str, tweet_date, tweet_time,
                                          author_name=store_name)
             if parsed_entries:
@@ -1896,9 +1978,11 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
                 if resolved:
                     official_machine = resolved["official_name"]
                     machine_id       = resolved["machine_id"]
+                    _qcount("MACHINE_RESOLVED")
                 else:
                     # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
                     resolver.save_unknown(raw_machine, x_url)
+                    _qcount("MACHINE_UNRESOLVED")
 
             row: dict = {
                 "id":           e["id"],
@@ -2586,6 +2670,8 @@ def main():
         help="部分収集モード: complete_partial_{mode}.json に書き出す（merge_complete_data.py で統合）")
     args = parser.parse_args()
 
+    reset_quality_counters()  # CC-QUALITY-2M: プロセス内カウンタを明示的に初期状態から開始
+
     # playwright が必要な処理の場合はここで確認
     if not HAS_PLAYWRIGHT:
         print("❌ playwright not installed. Run: pip install playwright && playwright install chromium")
@@ -2867,7 +2953,16 @@ def main():
         _cc2c_resolved, _cc2c_unresolved = resolve_store_ids(deduped)
         if _cc2c_resolved or _cc2c_unresolved:
             log(f"ℹ️  store_id 解決(partial): 成功{_cc2c_resolved}件 / 未解決{_cc2c_unresolved}件（未解決も保存継続）")
-        supabase_write_complete(deduped)
+        _qcount("STORE_RESOLVED", _cc2c_resolved)
+        _qcount("STORE_UNRESOLVED", _cc2c_unresolved)
+        _sb_new, _sb_dup = supabase_write_complete(deduped)
+        _qcount("SAVED_SUPABASE", _sb_new)
+        _qcount("DUPLICATE", _sb_dup)
+        # CC-QUALITY-2M: メタデータのみの quality funnel サマリを書き出す
+        # （raw text/画像/生ハンドルは _QUALITY に一切含まれない）。
+        # 失敗しても collector の成否には一切影響しない（write_quality_summary は fail-open）。
+        _quality_path = Path(__file__).parent.parent / f"public/complete_quality_{args.mode}.json"
+        write_quality_summary(_quality_path)
         supabase_log_end(
             sb_log_id, "success",
             fetched=len(deduped), new_count=json_added, dupes=0,
