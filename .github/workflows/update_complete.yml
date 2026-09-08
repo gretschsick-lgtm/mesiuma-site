@@ -102,7 +102,15 @@ jobs:
         if: always()
         with:
           name: complete-partial-${{ matrix.mode }}
-          path: public/complete_partial_${{ matrix.mode }}.json
+          # CC-QUALITY-2M-T1: complete_quality_${mode}.json（メタデータのみの
+          # Quality Funnelカウンタ・raw text/画像/生ハンドル一切なし）を同一artifactに
+          # 同梱し、既存の complete-partial-* download 経路にそのまま乗せる。
+          # if-no-files-found: warn は変更前から複数行/複数パターンいずれかが
+          # 1件でもマッチすれば成立するため、quality file 不在時でも
+          # complete_partial（必須）のアップロードは従来通り成立する。
+          path: |
+            public/complete_partial_${{ matrix.mode }}.json
+            public/complete_quality_${{ matrix.mode }}.json
           if-no-files-found: warn
           retention-days: 1
 
