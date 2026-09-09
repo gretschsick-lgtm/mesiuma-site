@@ -1,5 +1,27 @@
 [
   {
+    "id": "5297686e3586",
+    "date": "2026-09-05",
+    "time": "22:41",
+    "store": "田原加治屋店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "351",
+    "text": "🌟コンプリート達成！🌟 351番台「eリコリス・リコイル」 見事コンプリート機能発動！ おめでとうございます！！",
+    "x_url": "https://x.com/29_ootawara/status/2096232285339324734",
+    "store_handle": "29_ootawara",
+    "store_x_url": "https://x.com/29_ootawara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-09T20:15:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRdQFFSaIAAQZfc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRdQFFSaIAAQZfc?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "5d87041776"
+  },
+  {
     "id": "ef8fe0e94505",
     "date": "2026-09-05",
     "time": "21:04",
