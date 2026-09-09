@@ -1,26 +1,45 @@
 [
   {
-    "id": "58138dbddb64",
+    "id": "ee3773fc4204",
     "date": "2026-09-08",
-    "time": "03:21",
-    "store": "ピーアーク相模大野",
-    "machine": "L真打吉宗",
+    "time": "21:36",
+    "store": "駅前店",
+    "machine": "スマスロ モンスターハンターライズ",
     "machine_type": "slot",
-    "slot_number": "2172",
-    "text": "2026/9/7💥まとめる君データまとめ ■ピーアーク相模大野  ➡️2日連続真打吉宗から！2172番台 コンプリート達成！ ➡️天草覇道応援団 柊木りおさん来店 抽選人数：113人 来店：天草覇道応援団 柊木りおさん ╭━━━━━━━━━━━━━━━╮ 　   🐱まとめる君からの一言🐱",
-    "x_url": "https://x.com/kanagawamatome/status/2097027549981528316",
-    "store_handle": "kanagawamatome",
-    "store_x_url": "https://x.com/kanagawamatome",
+    "slot_number": "3035",
+    "text": "🔥楽園渋谷駅前店です🔥    　　🔥本日９月８日(火) 🔥    　　　  🔥3035番台🔥 【スマスロ モンスターハンターライズ】    👑コンプリート機能作動です😮  本日は稼働停止とさせて頂きます💦💦",
+    "x_url": "https://x.com/RAKUENSHIBUYA2/status/2097302949756346623",
+    "store_handle": "rakuenshibuya2",
+    "store_x_url": "https://x.com/rakuenshibuya2",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-09-07T20:33:29Z",
+    "collected_at": "2026-09-09T05:46:09Z",
     "images": [
-      "https://pbs.twimg.com/media/HRojUjKaIAAXMA0?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HRojVtlagAA5ObW?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HRojW8HaMAEO5ei?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HRsdvdVbkAEa6uz?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HRojUjKaIAAXMA0?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000010",
-    "store_id": "4bf8c4b18a"
+    "image_url": "https://pbs.twimg.com/media/HRsdvdVbkAEa6uz?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "bf52d9730c8c",
+    "date": "2026-09-08",
+    "time": "08:30",
+    "store": "羅木店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1355",
+    "text": "💥PSJ綾羅木店です💥   9月8日（火）    スロットコーナー     【🎉コンプリート達成🎉】      L北斗の拳転生の章2 1355番台      🎉おめでとうございます🎉",
+    "x_url": "https://x.com/psj_ayaragi/status/2097467519380685230",
+    "store_handle": "psj_ayaragi",
+    "store_x_url": "https://x.com/psj_ayaragi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-09T05:45:29Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRsn70daEAATXhz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRsn-fUb0AAe7Jq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRsn70daEAATXhz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   }
 ]

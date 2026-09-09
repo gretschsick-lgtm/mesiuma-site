@@ -45,5 +45,28 @@
     "image_url": "https://pbs.twimg.com/media/HRa5B2XbcAAKC83?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "72a60498a8f0",
+    "date": "2026-09-05",
+    "time": "00:30",
+    "store": "SAKURA有田店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【6.25円スロット】 スマスロ 沖ドキ!DUO アンコール ✨コンプリート達成✨  おめでとうございます👏🎉  スマスロ 北斗の拳 転生の章2 16800over👏 パチスロ かぐや様は告らせたい 12000over👏 スマスロ とある魔術の禁書目録2 10000over👏  明日も朝イチからのご来店お待ちしてます",
+    "x_url": "https://x.com/sakura3arita3/status/2096259559614550162",
+    "store_handle": "sakura3arita3",
+    "store_x_url": "https://x.com/sakura3arita3",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-09T05:46:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRdexxMbEAAUYez?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRdgE-0bAAA49cL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRdexxMbEAAUYez?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "50ffaf7e81"
   }
 ]
