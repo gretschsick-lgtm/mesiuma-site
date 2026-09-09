@@ -163,8 +163,17 @@ def main():
         today = datetime.now(JST).strftime("%Y-%m-%d")
 
     partial_files = sorted(ROOT.glob("public/complete_partial_*.json"))
+
+    # CC-QUALITY-2M-T2: quality shard集計は partial_files の有無に関わらず必ず実行する。
+    # complete追加が0件のnatural run（全natural runの大半を占める）でも、
+    # collectorがどのstageで何件accept/rejectしたかという observation は失われてはいけない。
+    # complete_info.json 更新より前に呼ぶため、この時点では added はまだ確定していない
+    # （partial_files がある場合は後段で実際の added を使って再度 print する）。
+    quality_totals = _merge_quality_summaries(keep=args.keep_partials)
+
     if not partial_files:
         print("⚠️  部分ファイルが見つかりません: public/complete_partial_*.json")
+        _print_quality_funnel(quality_totals, 0)
         return
 
     print(f"📂 部分ファイル {len(partial_files)}件 を統合 (date={today})")
@@ -206,9 +215,9 @@ def main():
     update_ranking()
     print("✅ complete_ranking.json 更新完了")
 
-    # CC-QUALITY-2M: Quality Funnel（メタデータのみ）を集計・表示
-    # complete_info.json 更新が既に完了した後に実行するため、失敗しても本体処理には影響しない
-    quality_totals = _merge_quality_summaries(keep=args.keep_partials)
+    # CC-QUALITY-2M: Quality Funnel（メタデータのみ）を表示。
+    # 集計自体は上で partial_files の有無に関わらず既に実行済み（CC-QUALITY-2M-T2）。
+    # ここでは実際の added（新規complete_info.json追加件数）を使って再度出力する。
     _print_quality_funnel(quality_totals, added)
 
     # 部分ファイル削除

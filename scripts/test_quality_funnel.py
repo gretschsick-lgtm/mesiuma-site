@@ -186,5 +186,111 @@ with tempfile.TemporaryDirectory() as td:
     finally:
         M.ROOT = orig_root
 
+# ══════════════════════════════════════════════════════════════════════════
+# G. CC-QUALITY-2M-T2 — main() の Behavior Matrix（Case A/B/C/D）
+#    zero-partial(complete追加0件)の natural run でも quality funnel が
+#    集計・出力されることを確認する（今回のroot fix本体）。
+# ══════════════════════════════════════════════════════════════════════════
+
+import contextlib
+import io
+
+
+def _run_main_with_fixture(fake_root: Path, argv_extra: list[str] | None = None):
+    """merge_complete_data.main() を fake_root 上で実行し、
+    (stdout文字列, save_complete呼び出し回数, update_ranking呼び出し回数) を返す。
+    save_complete/update_ranking は実際のファイル書き込み・ネットワークを一切行わないstubに差し替える。
+    """
+    orig_root = M.ROOT
+    orig_save_complete = M.save_complete
+    orig_update_ranking = M.update_ranking
+    orig_argv = sys.argv
+
+    calls = {"save_complete": 0, "update_ranking": 0}
+
+    def _stub_save_complete(entries, date):
+        calls["save_complete"] += 1
+        return len(entries)
+
+    def _stub_update_ranking():
+        calls["update_ranking"] += 1
+
+    try:
+        M.ROOT = fake_root
+        M.save_complete = _stub_save_complete
+        M.update_ranking = _stub_update_ranking
+        sys.argv = ["merge_complete_data.py", "--date", "2026-09-09"] + (argv_extra or [])
+
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            M.main()
+        return buf.getvalue(), calls["save_complete"], calls["update_ranking"]
+    finally:
+        M.ROOT = orig_root
+        M.save_complete = orig_save_complete
+        M.update_ranking = orig_update_ranking
+        sys.argv = orig_argv
+
+
+# --- Case B(今回の主対象): partial=0 / quality>0 ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"COLLECTED": 5, "NO_STORE_PATTERN": 5}, "meta": {"run_number": "999"}}),
+        encoding="utf-8",
+    )
+    out, n_save, n_rank = _run_main_with_fixture(fake_root)
+    ok(n_save == 0, "G-B1 partial=0の場合 save_complete は呼ばれない")
+    ok(n_rank == 0, "G-B2 partial=0の場合 update_ranking は呼ばれない")
+    ok("📊 Quality Funnel" in out, "G-B3 partial=0でもQuality Funnelがstdoutに出力される(root fix本体)")
+    ok("collected: 5" in out, "G-B4 quality shardの実カウントが反映される")
+    ok("部分ファイルが見つかりません" in out, "G-B5 既存の情報メッセージも維持される")
+
+# --- Case D: partial=0 / quality=0 ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    out, n_save, n_rank = _run_main_with_fixture(fake_root)
+    ok(n_save == 0, "G-D1 partial=0/quality=0でもsave_complete呼ばれない")
+    ok(n_rank == 0, "G-D2 partial=0/quality=0でもupdate_ranking呼ばれない")
+    ok("📊 Quality Funnel" not in out, "G-D3 quality shardが無ければFunnelは出力されない(元の設計を維持)")
+    ok("部分ファイルが見つかりません" in out, "G-D4 既存の情報メッセージは出る")
+
+# --- Case A(既存本番動作の回帰確認): partial>0 / quality>0 ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_partial_handle_a.json").write_text(
+        json.dumps([{"id": "abc123", "x_url": "https://x.com/foo/status/1", "store": "テスト店",
+                     "machine": "", "slot_number": "", "date": "2026-09-09", "time": "12:00",
+                     "store_handle": "foo", "store_x_url": "", "manager_x_url": "",
+                     "source_account_type": "unknown", "collected_at": "2026-09-09T00:00:00Z"}]),
+        encoding="utf-8",
+    )
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"COLLECTED": 3, "SAVED_SUPABASE": 1}, "meta": {}}), encoding="utf-8"
+    )
+    out, n_save, n_rank = _run_main_with_fixture(fake_root)
+    ok(n_save == 1, "G-A1 partial>0なら従来通りsave_completeが呼ばれる(回帰なし)")
+    ok(n_rank == 1, "G-A2 partial>0なら従来通りupdate_rankingが呼ばれる(回帰なし)")
+    ok("📊 Quality Funnel" in out, "G-A3 partial>0/quality>0でも従来通りFunnelが出力される")
+    ok("saved_json: 1" in out, "G-A4 実際のadded件数(1)がFunnelのsaved_jsonに反映される(added=0で固定されていない)")
+
+# --- Case C: partial>0 / quality=0 (fail-open維持の回帰確認) ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_partial_handle_a.json").write_text(
+        json.dumps([{"id": "abc456", "x_url": "https://x.com/foo/status/2", "store": "テスト店2",
+                     "machine": "", "slot_number": "", "date": "2026-09-09", "time": "12:00",
+                     "store_handle": "foo", "store_x_url": "", "manager_x_url": "",
+                     "source_account_type": "unknown", "collected_at": "2026-09-09T00:00:00Z"}]),
+        encoding="utf-8",
+    )
+    out, n_save, n_rank = _run_main_with_fixture(fake_root)
+    ok(n_save == 1, "G-C1 quality shard欠落でもsave_completeは正常に呼ばれる(fail-open)")
+    ok(n_rank == 1, "G-C2 quality shard欠落でもupdate_rankingは正常に呼ばれる(fail-open)")
+
 print(f"\n=> PASS={PASS} FAIL={FAIL}")
 sys.exit(1 if FAIL else 0)
