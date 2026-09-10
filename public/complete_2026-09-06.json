@@ -86,6 +86,27 @@
     "store_id": "cfdf606fe6"
   },
   {
+    "id": "a6458cab5309",
+    "date": "2026-09-06",
+    "time": "21:10",
+    "store": "はま店長",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "💥💥eFキン肉マン💥💥   🥳🥳コンプリート達成🥳🥳   達成されたお客様おめでとうございます😎🎉  明日は🔥新台入替 × 創業日🔥 ご来店お待ちしております!!",
+    "x_url": "https://x.com/hama_tencho3939/status/2096571714742436303",
+    "store_handle": "hama_tencho3939",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/hama_tencho3939",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-10T18:34:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRiE3KYaoAAJGWS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRiE3KYaoAAJGWS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
     "id": "072c1654ac0e",
     "date": "2026-09-06",
     "time": "19:39",
@@ -196,5 +217,26 @@
     "image_url": "https://pbs.twimg.com/media/HRhDasMbkAE-Dtt?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "2f41cd13d5"
+  },
+  {
+    "id": "de2e254c0611",
+    "date": "2026-09-06",
+    "time": "16:00",
+    "store": "マルハン入間店 パワ店イッチー",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "120",
+    "text": "こんにちは❗️マルハン入間店 パワ店イッチーです💪  コンプリート達成‼ 120番台📸ｅ牙狼１２ＸＸ－ＭＪ📸  おめでとうございます✨  このあともマルハン入間店で ごゆっくりとお楽しみください❗️",
+    "x_url": "https://x.com/marujagten/status/2096493608262103498",
+    "store_handle": "marujagten",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marujagten",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-10T18:30:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRg28hCbUAAZsdR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRg28hCbUAAZsdR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   }
 ]
