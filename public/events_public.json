@@ -47242,6 +47242,20 @@
       "source": "yahoo_rt"
     },
     {
+      "id": "b5ffd518766a",
+      "date": "09/10",
+      "store": "大阪ホール",
+      "pref": "大阪府",
+      "area": "近畿",
+      "event": "イベント",
+      "detail": "[新台]【パチスロ蒼穹のファフナー】大阪ホール新台チャンネル　パチスロ蒼穹のファフナー≪ゲン≫≪みっつん≫[ジャンバリ.TV][パチスロ][スロット]",
+      "cast": "janbaritv",
+      "highlight": "",
+      "x_url": "",
+      "url": "https://www.youtube.com/watch?v=vAGraXX3-H0",
+      "source": "youtube_search"
+    },
+    {
       "id": "0b70fa4bb948",
       "date": "09/09",
       "store": "ARROW　namBa　HIPS",
@@ -210079,20 +210093,6 @@
       "highlight": "",
       "x_url": "https://x.com/wl_kashima/status/2026615154784252243",
       "url": "https://x.com/wl_kashima/status/2026615154784252243",
-      "source": "x"
-    },
-    {
-      "id": "dabee1781fb0",
-      "date": "08/08",
-      "store": "ワンダーランド鹿島店",
-      "pref": "東京都",
-      "area": "関東",
-      "event": "来店",
-      "detail": "皆様こんばんは♪ 本日もご来店有難う御座います  明日月日（水） 今週休まず営業致します 朝10時開店！！  店内加熱式タバコ解禁済 e・L東京喰種全店おススメ  抽選：9：45～ ご来館お待ちしております",
-      "cast": "ワンダーランド鹿島店",
-      "highlight": "",
-      "x_url": "https://x.com/wl_kashima/status/2026252767044452552",
-      "url": "https://x.com/wl_kashima/status/2026252767044452552",
       "source": "x"
     }
   ]
