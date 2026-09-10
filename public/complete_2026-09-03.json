@@ -438,5 +438,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRRmBgJbUAAOfKU?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "f5cabab3c485",
+    "date": "2026-09-03",
+    "time": "10:21",
+    "store": "ダイナム兵庫神戸赤松台店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "344",
+    "text": "おはようございます😄　昨日344番台 #スマスロ北斗の拳転生の章2 コンプリート達成！！ 遊技されていた方 おめでとうございます🎉 本日の営業開始しております‼️ ご来店お待ちしてます🥰",
+    "x_url": "https://x.com/dynam_00379/status/2095683528071495717",
+    "store_handle": "dynam_00379",
+    "store_x_url": "https://x.com/dynam_00379",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-10T17:02:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRVdEC2WUAA-f_Z?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRVdEC2WUAA-f_Z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   }
 ]
