@@ -211,6 +211,75 @@ def test_dangerous_alias_rejected(r):
         _ok(res is None, f"{name}(危険alias有) → 未解決", f"got={res}")
 
 
+def test_decoration_stripping_positive(r):
+    print("[CC-QUALITY-3C3] 装飾除去: 絵文字・wrapper混入からの回収")
+    # 絵文字suffix（マスタ: "L革命機ヴァルヴレイヴ2"、alias側は未登録なので
+    # ここではnormalize結果がmaster側と一致することを直接確認する）
+    res = r.resolve("戦国乙女5🎉🎉")
+    _ok(res is not None and res["official_name"] == "L戦国乙女5 業火を穿つ宿焔の双刃",
+        "戦国乙女5🎉🎉(絵文字suffix) → alias経由で正式名", f"got={res}")
+
+    res = r.resolve("【戦国乙女5】")
+    _ok(res is not None and res["official_name"] == "L戦国乙女5 業火を穿つ宿焔の双刃",
+        "【戦国乙女5】(全角括弧wrapper) → alias経由で正式名", f"got={res}")
+
+    res = r.resolve("『戦国乙女5』")
+    _ok(res is not None and res["official_name"] == "L戦国乙女5 業火を穿つ宿焔の双刃",
+        "『戦国乙女5』 → alias経由で正式名", f"got={res}")
+
+    res = r.resolve("[戦国乙女5]")
+    _ok(res is not None and res["official_name"] == "L戦国乙女5 業火を穿つ宿焔の双刃",
+        "[戦国乙女5](半角角括弧) → alias経由で正式名", f"got={res}")
+
+    # identity(数字/型プレフィックス)を保持したまま絵文字wrapperだけ除去
+    res = r.resolve("🔴e東京喰種🔴")
+    _ok(res is not None and res["official_name"] == "e東京喰種",
+        "🔴e東京喰種🔴(絵文字wrapper) → e東京喰種(pachinko)", f"got={res}")
+
+
+def test_decoration_stripping_preserves_identity():
+    print("[CC-QUALITY-3C3] 装飾除去: identity情報を破壊しないことの直接確認")
+    nc = normalize_for_comparison
+    # 中黒・長音符・ハイフン・スラッシュ・波ダッシュ・記号は識別情報として保持される
+    _ok("・" in nc("サンプル・タイトル"), "中黒(・)は除去されない", f"got={nc('サンプル・タイトル')!r}")
+    _ok("ー" in nc("モンキーターン"), "長音符(ー)は除去されない", f"got={nc('モンキーターン')!r}")
+    _bird = "birdiewing-golfgirls'story-"
+    _ok("-" in nc(_bird), "ハイフン(-)は除去されない", f"got={nc(_bird)!r}")
+    _ok("/" in nc("反逆のルルーシュ/復活のルルーシュ"), "スラッシュ(/)は除去されない",
+        f"got={nc('反逆のルルーシュ/復活のルルーシュ')!r}")
+    _ok("~" in nc("花の慶次~黄金の一撃"), "半角チルダ(~)は除去されない", f"got={nc('花の慶次~黄金の一撃')!r}")
+    _ok("!" in nc("沖ドキ!2"), "半角感嘆符(!)は除去されない", f"got={nc('沖ドキ!2')!r}")
+    _ok("." in nc("吉宗極乗3000ver."), "ピリオド(.)は除去されない(ver.等)", f"got={nc('吉宗極乗3000ver.')!r}")
+    _ok(":" in nc("東京喰種:re"), "コロン(:)は除去されない", f"got={nc('東京喰種:re')!r}")
+    _ok("(" in nc("フィーバークィーンii(2020年)") and ")" in nc("フィーバークィーンii(2020年)"),
+        "半角丸括弧()は除去されない(同名異機種の識別に使用)", f"got={nc('フィーバークィーンii(2020年)')!r}")
+    _ok("「" in nc("牙狼黄金騎士極限「") or "」" in nc("牙狼黄金騎士極限」"),
+        "「」は除去対象に含めていない", f"got={nc('牙狼黄金騎士極限」')!r}")
+    _ok("☆" in nc("まどか☆マギカ"), "☆(星)は除去されない(U+2600-27BFは対象外)", f"got={nc('まどか☆マギカ')!r}")
+    # identity token(数字/英字suffix)自体は絵文字除去の影響を受けない
+    _ok(nc("牙狼12XX-MJ📸") == nc("牙狼12XX-MJ"), "絵文字除去してもXX/MJ等のidentity suffixは保持",
+        f"{nc('牙狼12XX-MJ📸')!r} vs {nc('牙狼12XX-MJ')!r}")
+
+
+def test_decoration_stripping_negative(r):
+    print("[CC-QUALITY-3C3] 装飾除去: ノイズが新たに誤解決しないことの確認")
+    noise = [
+        "erが！！", "より👀", "ete🦅🦅🦅", "🎉おめ", "😄😄😄🎊",
+        "ene_kyobashi", "お名前：まさきさん", "2機種", "説明会実施❗",
+        "牙狼はひりつく感じ",  # 曖昧シリーズ名を含む文章だが bare "牙狼" ではない
+    ]
+    for txt in noise:
+        res = r.resolve(txt)
+        _ok(res is None, f"{txt!r} → 装飾除去後も未解決のまま", f"got={res}")
+
+    # bare曖昧シリーズは wrapper除去後も既存ガードで未解決のまま（ガード迂回禁止の確認）
+    res = r.resolve("『牙狼』")
+    _ok(res is None, "『牙狼』(wrapper除去後は裸の曖昧シリーズ) → 既存ambiguityガードで未解決",
+        f"got={res}")
+    res = r.resolve("【沖ドキ】")
+    _ok(res is None, "【沖ドキ】 → 既存ambiguityガードで未解決", f"got={res}")
+
+
 def test_noise_not_machine():
     print("[ノイズ] 数値/枚数/時刻/台番号 は機種名にしない")
     noise = ["本日47,500玉 コンプリート", "18571枚 コンプリート",
@@ -232,6 +301,9 @@ def main():
     test_cross_type_prefix_rejected(r)
     test_alias_returns_official(r)
     test_dangerous_alias_rejected(r)
+    test_decoration_stripping_positive(r)
+    test_decoration_stripping_preserves_identity()
+    test_decoration_stripping_negative(r)
     test_noise_not_machine()
     print(f"\n=> PASS={PASS} FAIL={FAIL}")
     sys.exit(1 if FAIL else 0)

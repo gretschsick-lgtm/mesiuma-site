@@ -25,6 +25,38 @@ from typing import Optional
 # 接頭辞除去パターン（正式名称の保存時は元表記を維持。照合時のみ除去）
 _PREFIX_RE = re.compile(r'^(スマスロ|L|パチスロ|スロット|SLOT)', re.IGNORECASE)
 
+# ── CC-QUALITY-3C3: 安全な装飾除去（comparison専用） ──────────────────────────
+# CC-QUALITY-3C2でproduction machines_master(371件)+machines_aliases(144件)
+# 全件をREAD-ONLYでシミュレーションし、「現時点でidentity情報として一切
+# 使われていない」ことを実測確認した文字集合のみをここに列挙する。
+# 対象外にした文字（・〜～~!！?？.．:：「」半角()クォート-/☆等）は、
+# 実際に複数のmachines_master.normalized_name / machines_aliases.normalized_alias
+# の一部として使われている（例: "e沖ドキ!2", "pフィーバークィーンii(2020年)"）ため、
+# 一律除去すると DB に保存済みの正式表記との比較が壊れる（CC-QUALITY-3C の
+# STOP_CC_QUALITY3C_NORMALIZATION_COLLISION 参照）。
+#
+# 将来この集合を拡張する場合は、必ず同じ手順（production全件でのREAD-ONLY
+# regression/collisionシミュレーション）を先に実施すること。ここに書いた
+# 範囲を「広いUnicode範囲だから安全」という理由だけで恒久ルール化しない。
+_SAFE_DECORATION_RE = re.compile(
+    "["
+    "\U0001F000-\U0001FFFF"      # 絵文字/装飾記号（マージャン牌・絵文字ブロック等）
+    "⬀-⯿"               # 矢印・装飾記号（★☆等 U+2600-27BF は除外＝機種名の一部として使用実績あり）
+    "️"                      # variation selector（絵文字表示指定）
+    "‍"                      # zero-width joiner（絵文字合成用）
+    "【】"                # 【】
+    "『』"                # 『』
+    # 全角丸括弧（）はNFKCで既に半角()へ変換された後にこの正規表現が走るため
+    # ここに含めても効果がない（意図的に含めていない）。半角()は
+    # "pフィーバークィーンii(2020年)" のように識別に使われる実績があるため
+    # 対象外のまま（CC-QUALITY-3C2で確認済み・混同しないこと）。
+    r"\[\]"             # [] （文字クラス内でエスケープしないと ] がクラスを閉じてしまう）
+    "《》"                # 《》
+    "〈〉"                # 〈〉
+    "、"                      # 、 全角読点
+    "]+"
+)
+
 # シリーズ名のみでの機種確定を禁止するリスト（raw入力の strip() と比較）
 # 例: "吉宗" は L吉宗 / L真打吉宗 の両方があり曖昧 → unknown_machines に記録
 # 重要: このチェックは exact match / alias match よりも前に実施すること（resolve() 参照）
@@ -44,6 +76,9 @@ def normalize_for_comparison(name: str) -> str:
     """
     機種名を照合用に正規化する。
     - NFKC 正規化（全角英数→半角・ローマ数字展開等）
+    - 安全な装飾除去（絵文字・【】『』[]《》〈〉・全角読点のみ。半角()は識別に
+      使われる実績があるため対象外。全角（）はNFKCで半角に変換されるため
+      無効。CC-QUALITY-3C3参照）
     - 接頭辞除去: スマスロ / L / Ｌ / パチスロ / スロット / SLOT（繰り返し適用）
     - 小文字化
     - 空白（全角・半角）除去
@@ -52,6 +87,9 @@ def normalize_for_comparison(name: str) -> str:
     if not name:
         return ""
     n = unicodedata.normalize("NFKC", name.strip())
+    # 装飾除去は接頭辞除去より先に行う（例: "【L牙狼】" の先頭が "【" のままだと
+    # _PREFIX_RE が "L" を検出できないため）。括弧は文字だけ除去し中身は保持する。
+    n = _SAFE_DECORATION_RE.sub("", n)
     prev = ""
     while n != prev:
         prev = n
