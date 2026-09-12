@@ -600,6 +600,24 @@ def _record_extraction_telemetry(meta: dict | None, resolved: bool) -> None:
         _qcount(f"EXTRACT_SERIES_{meta['slug'].upper()}_BOUNDARY_{boundary}_{suffix}")
 
 
+def _dedupe_entries_with_telemetry_cleanup(all_new: list[dict]) -> list[dict]:
+    """entry["id"]基準の重複除去（判定・順序は既存仕様のまま不変）。
+
+    CC-QUALITY-3E3A: dedupでdropされたentry（戻り値に残らなかったもの）は、この後
+    resolve_store_ids()/supabase_write_complete() のいずれにも渡らないため、
+    parse_tweet() が登録したtelemetry metadata（_MACHINE_EXTRACTION_META）が
+    popされないまま残留する。dedupの結果・順序には一切手を入れず、除外された
+    側だけをobject identityで特定してcleanupする。
+    """
+    seen: set[str] = set()
+    deduped = [e for e in all_new if not (e["id"] in seen or seen.add(e["id"]))]  # type: ignore
+    kept_ids = {id(e) for e in deduped}
+    for e in all_new:
+        if id(e) not in kept_ids:
+            _MACHINE_EXTRACTION_META.pop(id(e), None)
+    return deduped
+
+
 # ---------------------------------------------------------------------------
 # 店舗名抽出パターン
 # ---------------------------------------------------------------------------
@@ -2092,6 +2110,10 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
     戻り値: (new_count, duplicate_count)
     """
     if not entries or not _sb_env():
+        # CC-QUALITY-3E3A: このentries分は一切処理されないため、telemetry metadataが
+        # 残留する。DBアクセスは発生させず、ローカルなpopのみ行ってcleanupする。
+        for _e in entries:
+            _MACHINE_EXTRACTION_META.pop(id(_e), None)
         return 0, 0
 
     # DB保存前に機種名を解決するリゾルバを初期化（失敗時は None で継続）
@@ -2117,27 +2139,33 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
         for e in batch:
             x_url = (e.get("x_url") or "").strip()
             if not x_url:
+                # CC-QUALITY-3E3A: このentryを処理しないままbatchを抜けるため、
+                # 対応するtelemetry metadataも同時にcleanupする（残留防止）。
+                _MACHINE_EXTRACTION_META.pop(id(e), None)
                 continue   # x_url は NOT NULL のため空行はスキップ
 
             # DB保存前に機種名正規化・解決（CLAUDE.md: DB保存前に必ず正規化）
             raw_machine = e.get("machine") or ""
             official_machine: str | None = raw_machine or None
             machine_id: str | None = None
-            if resolver and raw_machine and raw_machine != "不明":
-                resolved = resolver.resolve(raw_machine)
-                if resolved:
-                    official_machine = resolved["official_name"]
-                    machine_id       = resolved["machine_id"]
-                    _qcount("MACHINE_RESOLVED")
-                    _record_extraction_telemetry(_MACHINE_EXTRACTION_META.pop(id(e), None), resolved=True)
-                else:
-                    # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
-                    resolver.save_unknown(raw_machine, x_url)
-                    _qcount("MACHINE_UNRESOLVED")
-                    _record_extraction_telemetry(_MACHINE_EXTRACTION_META.pop(id(e), None), resolved=False)
-            else:
-                # resolver未使用/機種名なし等でも、登録済みmeta(あれば)は破棄する
-                # （メモリリーク防止。resolver結果が確定しないためtelemetryは加算しない）
+            # CC-QUALITY-3E3A: resolved/unresolved/resolver例外/resolver未使用のいずれの
+            # 経路でも、このentryのtelemetry metadataを必ず1回だけpopする（残留=誤相関の防止）。
+            # finallyはresolve()が例外を送出した場合でも実行され、例外自体は再送出される
+            # （既存のexception policyは変更しない）。
+            try:
+                if resolver and raw_machine and raw_machine != "不明":
+                    resolved = resolver.resolve(raw_machine)
+                    if resolved:
+                        official_machine = resolved["official_name"]
+                        machine_id       = resolved["machine_id"]
+                        _qcount("MACHINE_RESOLVED")
+                        _record_extraction_telemetry(_MACHINE_EXTRACTION_META.get(id(e)), resolved=True)
+                    else:
+                        # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
+                        resolver.save_unknown(raw_machine, x_url)
+                        _qcount("MACHINE_UNRESOLVED")
+                        _record_extraction_telemetry(_MACHINE_EXTRACTION_META.get(id(e)), resolved=False)
+            finally:
                 _MACHINE_EXTRACTION_META.pop(id(e), None)
 
             row: dict = {
@@ -3089,9 +3117,8 @@ def main():
             # セッション切れでも収集済み分は保存して終了（supabase_log_end は後で呼ぶ）
             log(f"⚠️ セッション切れのため中断。収集済み{len(all_new)}件は保存します")
 
-    # 重複除去
-    seen: set[str] = set()
-    deduped = [e for e in all_new if not (e["id"] in seen or seen.add(e["id"]))]  # type: ignore
+    # 重複除去（CC-QUALITY-3E3A: dropされたentryのtelemetry metadataも同時cleanup）
+    deduped = _dedupe_entries_with_telemetry_cleanup(all_new)
 
     log(f"\n📊 収集: {len(deduped)} 件（店舗投稿・重複除去後）")
 

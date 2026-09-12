@@ -397,5 +397,147 @@ _max_path = 2
 _max_total = _max_l + _max_e + _max_series + _max_path
 ok(_max_total < 200, f"H24 新規telemetry keyの理論上限は候補内容に依存せず固定({_max_total}件)")
 
+# ══════════════════════════════════════════════════════════════════════════
+# I. CC-QUALITY-3E3A — _MACHINE_EXTRACTION_META cleanup(残留防止)
+#    CC-QUALITY-3E4のREAD-ONLY監査で確定した2つの漏れ経路
+#    (dedup除外・Supabase early return)、およびresolver例外時の
+#    cleanupを直接検証する。
+# ══════════════════════════════════════════════════════════════════════════
+
+import machine_resolver as MR
+
+
+class _FakeResolver:
+    """テスト用のmachine resolverスタブ(実DB/ネットワーク非依存)。"""
+    def __init__(self, result=None, raise_exc=None):
+        self._result = result
+        self._raise_exc = raise_exc
+        self.calls = 0
+
+    def resolve(self, raw_name):
+        self.calls += 1
+        if self._raise_exc:
+            raise self._raise_exc
+        return self._result
+
+    def save_unknown(self, raw_name, source_url=""):
+        pass
+
+
+def _with_sb_env_and_request(fn):
+    """_sb_env()を有効化し、_sb_request()を実ネットワークなしのfakeに差し替えて実行する。"""
+    orig_env = F._sb_env
+    orig_req = F._sb_request
+    try:
+        F._sb_env = lambda: ("https://fake.supabase.local", "fake-key")
+        F._sb_request = lambda method, path, body=None, prefer=None: (
+            200, json.dumps(body if isinstance(body, list) else [body]).encode()
+        )
+        return fn()
+    finally:
+        F._sb_env = orig_env
+        F._sb_request = orig_req
+
+
+# --- I1. Dedup cleanup: dropされたentryのmetadataだけ消え、keptは残る ---
+F._MACHINE_EXTRACTION_META.clear()
+entry_kept = {"id": "dupid", "machine": "LINEからチェック"}
+entry_dropped = {"id": "dupid", "machine": "efeverキン肉マン"}  # 同じid→dedupでdropされる想定
+F._MACHINE_EXTRACTION_META[id(entry_kept)] = F._classify_pattern_bucket(F._L_GENERIC_PATTERN_IDX, entry_kept["machine"])
+F._MACHINE_EXTRACTION_META[id(entry_dropped)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, entry_dropped["machine"])
+deduped = F._dedupe_entries_with_telemetry_cleanup([entry_kept, entry_dropped])
+ok(len(deduped) == 1 and deduped[0] is entry_kept, "I1 dedup結果自体は既存仕様のまま不変(先勝ち)")
+ok(id(entry_kept) in F._MACHINE_EXTRACTION_META, "I2 keptされたentryのmetadataは残る")
+ok(id(entry_dropped) not in F._MACHINE_EXTRACTION_META, "I3 dropされたentryのmetadataはcleanupされる(3E4で発見した漏れの修正)")
+F._MACHINE_EXTRACTION_META.clear()
+
+# --- I4. Supabase early return: _sb_env()がFalseでもmetadataがcleanupされる ---
+F._MACHINE_EXTRACTION_META.clear()
+orig_env = F._sb_env
+try:
+    F._sb_env = lambda: None
+    e_early = {"id": "early1", "x_url": "https://x.com/foo/status/1", "machine": "efeverキン肉マン"}
+    F._MACHINE_EXTRACTION_META[id(e_early)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, e_early["machine"])
+    result = F.supabase_write_complete([e_early])
+    ok(result == (0, 0), "I5 _sb_env()falseの戻り値は既存仕様のまま(0, 0)")
+    ok(id(e_early) not in F._MACHINE_EXTRACTION_META, "I6 _sb_env()false early returnでもmetadataがcleanupされる(3E4で発見した漏れの修正)")
+finally:
+    F._sb_env = orig_env
+F._MACHINE_EXTRACTION_META.clear()
+
+# --- I7. x_url欠落entry: batch内でcontinueする経路でもcleanupされる ---
+def _test_x_url_missing():
+    F._MACHINE_EXTRACTION_META.clear()
+    e_noxurl = {"id": "noxurl1", "x_url": "", "machine": "efeverキン肉マン"}
+    F._MACHINE_EXTRACTION_META[id(e_noxurl)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, e_noxurl["machine"])
+    orig_resolver_mod = MR.get_resolver
+    try:
+        MR.get_resolver = lambda: None  # resolverは未使用でよい(x_url欠落で早期continueするため)
+        F.supabase_write_complete([e_noxurl])
+    finally:
+        MR.get_resolver = orig_resolver_mod
+    ok(id(e_noxurl) not in F._MACHINE_EXTRACTION_META, "I7 x_url欠落entryでもcleanupされる")
+
+_with_sb_env_and_request(_test_x_url_missing)
+F._MACHINE_EXTRACTION_META.clear()
+
+# --- I8. Resolver例外: 例外はそのまま伝播するが、metadataはfinallyでcleanupされる ---
+def _test_resolver_exception():
+    F._MACHINE_EXTRACTION_META.clear()
+    e_exc = {"id": "exc1", "x_url": "https://x.com/foo/status/2", "machine": "efeverキン肉マン"}
+    F._MACHINE_EXTRACTION_META[id(e_exc)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, e_exc["machine"])
+    fake_resolver = _FakeResolver(raise_exc=RuntimeError("simulated resolver failure"))
+    orig_resolver_mod = MR.get_resolver
+    raised = False
+    try:
+        MR.get_resolver = lambda: fake_resolver
+        F.supabase_write_complete([e_exc])
+    except RuntimeError:
+        raised = True
+    finally:
+        MR.get_resolver = orig_resolver_mod
+    ok(raised, "I9 resolver例外は既存仕様通りそのまま伝播する(exception policy不変)")
+    ok(id(e_exc) not in F._MACHINE_EXTRACTION_META, "I10 例外発生後もmetadataはfinallyでcleanupされる(残留なし)")
+
+_with_sb_env_and_request(_test_resolver_exception)
+F._MACHINE_EXTRACTION_META.clear()
+
+# --- I11. Sequential candidate isolation: Aのmetadataがcleanupされた後、Bには影響しない ---
+def _test_sequential_isolation():
+    F._MACHINE_EXTRACTION_META.clear()
+    e_a = {"id": "seqA", "x_url": "https://x.com/foo/status/3", "machine": "efeverキン肉マン"}
+    F._MACHINE_EXTRACTION_META[id(e_a)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, e_a["machine"])
+    MR.get_resolver_orig = MR.get_resolver
+    fake_resolved = _FakeResolver(result={"official_name": "eFキン肉マン", "machine_id": "mid1"})
+    try:
+        MR.get_resolver = lambda: fake_resolved
+        F.supabase_write_complete([e_a])
+    finally:
+        MR.get_resolver = MR.get_resolver_orig
+    ok(id(e_a) not in F._MACHINE_EXTRACTION_META, "I11 candidate A処理後、metadataは残らない")
+
+    # 新しいcandidate Bを作成(id()再利用が起きてもstale keyが存在しないことが保証されていればOK)
+    e_b = {"id": "seqB", "x_url": "https://x.com/foo/status/4", "machine": "LINEからチェック"}
+    ok(id(e_b) not in F._MACHINE_EXTRACTION_META,
+       "I12 新規candidate BはAのstale metadataを取得しない(cross-run isolation)")
+
+_with_sb_env_and_request(_test_sequential_isolation)
+F._MACHINE_EXTRACTION_META.clear()
+
+# --- I13. _LAST_EXTRACT_META: 前回callのmetadataが次callへ持ち越されない ---
+F.extract_machine("e牙狼12がコンプリート達成")
+ok(len(F._LAST_EXTRACT_META) >= 1, "I13a match ありのcallではmetadataが記録される")
+F.extract_machine("本日47,500玉 コンプリート")  # 今回はno match
+ok(F._LAST_EXTRACT_META == [], "I13b no-match callでは前回のmetadataが残らない(callごとにclear済み)")
+
+F.extract_machines("e牙狼12とL革命機ヴァルヴレイヴ2が同時にコンプリート")
+ok(len(F._LAST_EXTRACT_META) >= 1, "I14a multi matchでmetadataが記録される")
+F.extract_machines("本日47,500玉 コンプリート")
+ok(F._LAST_EXTRACT_META == [], "I14b 次のno-match callで前回分が残らない")
+
+# --- I15. Final Residual Proof: 一連の処理後、_MACHINE_EXTRACTION_METAは空 ---
+ok(len(F._MACHINE_EXTRACTION_META) == 0,
+   f"I15 一連のテスト完了後、_MACHINE_EXTRACTION_META残留 = 0件(got size={len(F._MACHINE_EXTRACTION_META)})")
+
 print(f"\n=> PASS={PASS} FAIL={FAIL}")
 sys.exit(1 if FAIL else 0)
