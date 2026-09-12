@@ -292,5 +292,110 @@ with tempfile.TemporaryDirectory() as td:
     ok(n_save == 1, "G-C1 quality shard欠落でもsave_completeは正常に呼ばれる(fail-open)")
     ok(n_rank == 1, "G-C2 quality shard欠落でもupdate_rankingは正常に呼ばれる(fail-open)")
 
+# ══════════════════════════════════════════════════════════════════════════
+# H. CC-QUALITY-3E3 — Machine extraction pattern telemetry(metadata-only)
+#    #5(l_generic)/#7(e_generic)/シリーズアンカーのbucket分類とresolver結果の
+#    正しい紐付けを検証する。raw candidate文字列はカウンタに一切含まれない。
+# ══════════════════════════════════════════════════════════════════════════
+
+# --- H1. pattern数とslug数の一致(3D/3Eで「28」「17/18」と揺れていた数を実コードで固定) ---
+ok(len(F.MACHINE_PATTERNS) == len(F.MACHINE_PATTERN_SLUGS),
+   f"H1 MACHINE_PATTERNSとMACHINE_PATTERN_SLUGSの件数が一致({len(F.MACHINE_PATTERNS)}件)")
+ok(F.MACHINE_PATTERN_SLUGS[F._L_GENERIC_PATTERN_IDX] == "l_generic",
+   f"H2 l_genericのindexが実コードと一致(#{F._L_GENERIC_PATTERN_IDX})")
+ok(F.MACHINE_PATTERN_SLUGS[F._E_GENERIC_PATTERN_IDX] == "e_generic",
+   f"H3 e_genericのindexが実コードと一致(#{F._E_GENERIC_PATTERN_IDX})")
+ok(len(F._SERIES_ANCHOR_INDICES) == 21,
+   f"H4 シリーズアンカー件数は実コード上21件(3D/3Eの「17/18」表記は誤りだったことを固定)"
+   f" got={len(F._SERIES_ANCHOR_INDICES)}")
+for _idx in F._SERIES_ANCHOR_INDICES:
+    ok(_idx in F._SERIES_ANCHOR_TEXT, f"H5 series index #{_idx} に対応するアンカー文字列が定義されている")
+
+# --- H6. L_GENERIC bucket分類 ---
+ok(F._classify_pattern_bucket(F._L_GENERIC_PATTERN_IDX, "L沖ドキ")["bucket"] == "0_1",
+   "H6 L直後が日本語(run=0) → bucket 0_1")
+ok(F._classify_pattern_bucket(F._L_GENERIC_PATTERN_IDX, "LINEからチェック")["bucket"] == "2plus",
+   "H7 L直後にASCII2文字以上(LINE型) → bucket 2plus")
+
+# --- H8. E_GENERIC bucket分類(3Eで確認した閾値: 0-2/3-5/6+) ---
+ok(F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "e86ｰエイティシックス")["bucket"] == "0_2",
+   "H8 e86型(run=2, production実在パターン) → bucket 0_2")
+ok(F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "efeverキン肉マン")["bucket"] == "3_5",
+   "H9 efever型(run=5, production実在alias) → bucket 3_5(rejectされないbucket)")
+ok(F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "eabcdefキン肉マン")["bucket"] == "6plus",
+   "H10 ASCII6文字以上連続 → bucket 6plus")
+
+# --- H11. series anchor: 括弧内のparticleはboundaryにならない(3Eのカバネリ例外を再現) ---
+_kabaneri_idx = F.MACHINE_PATTERN_SLUGS.index("kabaneri_anchor")
+kabaneri_case = "甲鉄城のカバネリ 海門（うなと）決戦"
+meta_kabaneri = F._classify_pattern_bucket(_kabaneri_idx, kabaneri_case)
+ok(meta_kabaneri["boundary"] is False, f"H11 括弧内(うなと)の「と」はboundaryとして検出しない(3Eのfalse-drop回避を再現) (got={meta_kabaneri})")
+
+_garo_idx = F.MACHINE_PATTERN_SLUGS.index("garo_anchor")
+meta_garo_none = F._classify_pattern_bucket(_garo_idx, "牙狼12黄金騎士極限")
+ok(meta_garo_none["boundary"] is False, "H12 会話的続きがない場合 boundary=False")
+
+meta_garo_present = F._classify_pattern_bucket(_garo_idx, "牙狼はひりつく感じ")
+ok(meta_garo_present["boundary"] is True, "H13 「牙狼は...」→ boundary=True(会話文混入を検出)")
+
+_shinuchi_idx = F.MACHINE_PATTERN_SLUGS.index("shinuchi_yoshimune_anchor")
+meta_shinuchi = F._classify_pattern_bucket(_shinuchi_idx, "真打吉宗まで…")
+ok(meta_shinuchi["boundary"] is True, "H14 「真打吉宗まで」→ boundary=True(「まで」を検出)")
+
+# --- H15. Correlation: 同一candidate単位でresolver結果が正しく紐付く(single) ---
+F.reset_quality_counters()
+fake_entry_a = {"id": "a", "machine": "LINEからチェック"}
+F._MACHINE_EXTRACTION_META[id(fake_entry_a)] = F._classify_pattern_bucket(F._L_GENERIC_PATTERN_IDX, "LINEからチェック")
+F._record_extraction_telemetry(F._MACHINE_EXTRACTION_META.pop(id(fake_entry_a), None), resolved=False)
+c = F.get_quality_counters()
+ok(c.get("EXTRACT_L_GENERIC_RUN_2PLUS_UNRESOLVED") == 1, f"H15 L_GENERIC(2plus)+unresolvedが正しいkeyへ加算される (got={c})")
+ok(id(fake_entry_a) not in F._MACHINE_EXTRACTION_META, "H16 消費後は対応表から除去される(メモリリーク防止)")
+
+# --- H17. Single/Multi Correlation: 2candidateが別pattern・別resolver結果でも混線しない ---
+F.reset_quality_counters()
+entry_l = {"id": "l1", "machine": "LINEからチェック"}      # l_generic, run>=2
+entry_e = {"id": "e1", "machine": "efeverキン肉マン"}       # e_generic, run=5(3_5)
+F._MACHINE_EXTRACTION_META[id(entry_l)] = F._classify_pattern_bucket(F._L_GENERIC_PATTERN_IDX, entry_l["machine"])
+F._MACHINE_EXTRACTION_META[id(entry_e)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, entry_e["machine"])
+# entry_l は unresolved、entry_e は resolved という異なる結果をシミュレート
+F._record_extraction_telemetry(F._MACHINE_EXTRACTION_META.pop(id(entry_l), None), resolved=False)
+F._record_extraction_telemetry(F._MACHINE_EXTRACTION_META.pop(id(entry_e), None), resolved=True)
+c = F.get_quality_counters()
+ok(c.get("EXTRACT_L_GENERIC_RUN_2PLUS_UNRESOLVED") == 1, f"H17 candidate Aのunresolvedが正しく加算(混線なし) (got={c})")
+ok(c.get("EXTRACT_E_GENERIC_RUN_3_5_RESOLVED") == 1, f"H18 candidate Bのresolvedが正しく加算(混線なし) (got={c})")
+ok(c.get("EXTRACT_L_GENERIC_RUN_2PLUS_RESOLVED") is None, "H19 candidate Aがresolved側へ誤加算されていない")
+ok(c.get("EXTRACT_E_GENERIC_RUN_3_5_UNRESOLVED") is None, "H20 candidate Bがunresolved側へ誤加算されていない")
+
+# --- H21. Behavior Preservation: telemetry追加前後で抽出結果(文字列)が不変であること ---
+_behavior_cases = [
+    ("LINEからチェックしてね📈🔎", ["LINEからチェックしてね📈🔎"]),
+    ("本日47,500玉 コンプリート", []),
+]
+for _txt, _expected in _behavior_cases:
+    _got = F.extract_machines(_txt)
+    ok(_got == _expected, f"H21 抽出結果が既存仕様のまま不変: {_txt!r} (got={_got} expected={_expected})")
+
+# --- H22. Privacy: quality summary出力にraw candidate文字列が含まれない ---
+F.reset_quality_counters()
+_SECRET_MACHINE = "この文字列は絶対にカウンタへ混入してはいけないraw機種名xyz999"
+entry_secret = {"id": "s1", "machine": _SECRET_MACHINE}
+F._MACHINE_EXTRACTION_META[id(entry_secret)] = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, _SECRET_MACHINE)
+F._record_extraction_telemetry(F._MACHINE_EXTRACTION_META.pop(id(entry_secret), None), resolved=False)
+with tempfile.TemporaryDirectory() as td:
+    _p = Path(td) / "complete_quality_test.json"
+    F.write_quality_summary(str(_p))
+    _serialized = _p.read_text(encoding="utf-8")
+    ok(_SECRET_MACHINE not in _serialized, "H22 raw機種名文字列がquality summaryファイルに含まれない")
+    ok(all(isinstance(v, int) for v in json.loads(_serialized)["counts"].values()),
+       "H23 countsの値は全て整数のみ(H22と合わせてprivacy境界を確認)")
+
+# --- H24. Cardinality: 新規keyの理論上限を確認(bounded) ---
+_max_l = 2 * 2       # 2 bucket x 2 result
+_max_e = 3 * 2       # 3 bucket x 2 result
+_max_series = len(F._SERIES_ANCHOR_INDICES) * 2 * 2  # anchor x boundary(2) x result(2)
+_max_path = 2
+_max_total = _max_l + _max_e + _max_series + _max_path
+ok(_max_total < 200, f"H24 新規telemetry keyの理論上限は候補内容に依存せず固定({_max_total}件)")
+
 print(f"\n=> PASS={PASS} FAIL={FAIL}")
 sys.exit(1 if FAIL else 0)

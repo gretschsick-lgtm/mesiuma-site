@@ -469,6 +469,137 @@ MACHINE_PATTERNS = [
     re.compile(r'(からくりサーカス[^\s　\n#「」【】、。！!]{0,10})'),
 ]
 
+# ── CC-QUALITY-3E3: MACHINE_PATTERNS の安定semantic ID（metadata-only telemetry用）───
+# MACHINE_PATTERNS と同じ順序・同じ件数で対応させる。順序を変えたり要素を追加/削除する
+# 場合は必ずこちらも同時に更新すること（test_quality_funnel.py が件数一致をassertする）。
+MACHINE_PATTERN_SLUGS = [
+    "bracket_before_complete",   # 0
+    "ascii_bracket_le",          # 1
+    "smasuro_bracket",           # 2
+    "smasuro_generic",           # 3
+    "hokuto_tensei_special",     # 4
+    "l_generic",                 # 5  ← CC-QUALITY-3D/3Eで根本原因として特定
+    "e_ver_form",                # 6
+    "e_generic",                 # 7  ← CC-QUALITY-3D/3Eで根本原因として特定
+    "e_bandai_form",             # 8
+    "e_ga_complete_form",        # 9
+    "e_space_fallback",          # 10
+    "bandai_follow",             # 11
+    "hokuto_anchor",             # 12
+    "basilisk_anchor",           # 13
+    "milliongod_anchor",         # 14
+    "tokyoghoul_anchor",         # 15
+    "valvrave_anchor",           # 16
+    "enen_anchor",               # 17
+    "koukaku_anchor",            # 18
+    "kabaneri_full_anchor",      # 19
+    "kabaneri_kaimon_anchor",    # 20
+    "kabaneri_anchor",           # 21
+    "monkeyturn_anchor",         # 22
+    "monhan_anchor",             # 23
+    "lycoris_anchor",            # 24
+    "zombieland_anchor",         # 25
+    "juggler_anchor",            # 26
+    "garo_anchor",               # 27
+    "chibariyo_anchor",          # 28
+    "shinuchi_yoshimune_anchor", # 29
+    "yoshimune_anchor",          # 30
+    "tekken_anchor",             # 31
+    "karakuri_anchor",           # 32
+]
+
+_L_GENERIC_PATTERN_IDX = MACHINE_PATTERN_SLUGS.index("l_generic")
+_E_GENERIC_PATTERN_IDX = MACHINE_PATTERN_SLUGS.index("e_generic")
+# シリーズ名アンカー群 = hokuto_anchor(12) 〜 karakuri_anchor(32) の連続区間
+_SERIES_ANCHOR_INDICES = frozenset(
+    range(MACHINE_PATTERN_SLUGS.index("hokuto_anchor"),
+          MACHINE_PATTERN_SLUGS.index("karakuri_anchor") + 1)
+)
+
+# CC-QUALITY-2M系と同じ思想: raw candidate文字列は一切保存せず、bucket名+整数のみ
+# quality funnelへ加算する。境界文字集合はCC-QUALITY-3Eのproduction simulationで
+# regression=0を確認済みのものと同一（machines_master 371件・machines_aliases 144件）。
+_ASCII_RUN_RE = re.compile(r'^[a-zA-Z0-9]+')
+_SERIES_BRACKET_RE = re.compile(r'[（(][^）)]*[）)]')
+_SERIES_PARTICLE_RE = re.compile(r'(は|も|が|で|に|を|へ|と|から|まで|より|なら|です|な|ね|よ|わ|ぞ)')
+
+
+def _ascii_run_after_prefix(name: str) -> int:
+    """L/eプレフィックス直後から連続する[a-zA-Z0-9]の長さを返す（先頭1文字=prefixは除く）。"""
+    if not name or len(name) < 2:
+        return 0
+    m = _ASCII_RUN_RE.match(name[1:])
+    return len(m.group()) if m else 0
+
+
+def _series_particle_boundary_present(trailing: str) -> bool:
+    """シリーズ名アンカー直後のtrailing capture内に、括弧外の会話的助詞境界が
+    存在するかを返す（CC-QUALITY-3Eで括弧内除外の安全性をproduction確認済み）。"""
+    if not trailing:
+        return False
+    masked = _SERIES_BRACKET_RE.sub(lambda mm: "#" * len(mm.group()), trailing)
+    return bool(_SERIES_PARTICLE_RE.search(masked))
+
+
+# シリーズ名アンカーの素の文字列（MACHINE_PATTERNS[12..32]の各正規表現が
+# アンカーとして使っている literal と1対1対応）。trailing部分の切り出しにのみ使う。
+_SERIES_ANCHOR_TEXT: dict[int, str] = {
+    12: "北斗", 13: "バジリスク", 14: "ミリオンゴッド", 15: "東京喰種",
+    16: "ヴァルヴレイヴ", 17: "炎炎ノ消防隊", 18: "攻殻機動隊",
+    19: "甲鉄城のカバネリ海門決戦",  # 固定全文一致（trailingは常に空）
+    20: "カバネリ海門決戦",          # 固定全文一致（trailingは常に空）
+    21: "カバネリ", 22: "モンキーターン", 23: "モンスターハンター",
+    24: "リコリス", 25: "ゾンビランドサガ", 26: "ジャグラー", 27: "牙狼",
+    28: "チバリヨ", 29: "真打吉宗", 30: "吉宗", 31: "鉄拳", 32: "からくりサーカス",
+}
+
+
+def _classify_pattern_bucket(pattern_idx: int, name: str) -> dict | None:
+    """pattern_idxとcapture結果からmetadata bucketを1つ計算する（raw文字列は返さない）。"""
+    if pattern_idx == _L_GENERIC_PATTERN_IDX:
+        run = _ascii_run_after_prefix(name)
+        return {"kind": "l_generic", "bucket": "0_1" if run < 2 else "2plus"}
+    if pattern_idx == _E_GENERIC_PATTERN_IDX:
+        run = _ascii_run_after_prefix(name)
+        bucket = "0_2" if run <= 2 else ("3_5" if run <= 5 else "6plus")
+        return {"kind": "e_generic", "bucket": bucket}
+    if pattern_idx in _SERIES_ANCHOR_INDICES:
+        anchor = _SERIES_ANCHOR_TEXT.get(pattern_idx, "")
+        idx = name.find(anchor) if anchor else -1
+        trailing = name[idx + len(anchor):] if idx != -1 else ""
+        boundary = _series_particle_boundary_present(trailing)
+        slug = MACHINE_PATTERN_SLUGS[pattern_idx]
+        return {"kind": "series", "slug": slug, "boundary": boundary}
+    return None
+
+
+# 直近1回の extract_machine()/extract_machines() 呼び出しで、返却されたcandidate
+# （1件 or 複数件、返却順と一致）ごとのbucket metadataを保持する使い捨てscratch。
+# raw candidate文字列そのものは保持しない（bucket dictのみ）。
+_LAST_EXTRACT_META: list[dict | None] = []
+
+# id(entry dict) -> bucket metadata。parse_tweet()がentry構築時に登録し、
+# supabase_write_complete()がresolver結果確定後に取り出して消費（pop）する。
+# 同一プロセス内（fetch_complete_info.py 単体実行）でのみ有効な一時対応表。
+_MACHINE_EXTRACTION_META: dict[int, dict] = {}
+
+
+def _record_extraction_telemetry(meta: dict | None, resolved: bool) -> None:
+    """CC-QUALITY-3E3: pattern bucket × resolver結果をQuality Funnelへ加算する。
+    metaがNone（対象外pattern）の場合は何もしない。raw candidateは一切受け取らない。"""
+    if not meta:
+        return
+    suffix = "RESOLVED" if resolved else "UNRESOLVED"
+    kind = meta.get("kind")
+    if kind == "l_generic":
+        _qcount(f"EXTRACT_L_GENERIC_RUN_{meta['bucket'].upper()}_{suffix}")
+    elif kind == "e_generic":
+        _qcount(f"EXTRACT_E_GENERIC_RUN_{meta['bucket'].upper()}_{suffix}")
+    elif kind == "series":
+        boundary = "PRESENT" if meta.get("boundary") else "NONE"
+        _qcount(f"EXTRACT_SERIES_{meta['slug'].upper()}_BOUNDARY_{boundary}_{suffix}")
+
+
 # ---------------------------------------------------------------------------
 # 店舗名抽出パターン
 # ---------------------------------------------------------------------------
@@ -770,7 +901,8 @@ def extract_machine(text: str) -> str:
     text = re.sub(r'(カバネリ)[　\s]+(海門決戦)', r'\1\2', text)
     # スマパチ (パチンコ) → eプレフィックスに変換し後段パターンで捕捉（例: "スマパチ カケグルイ" → "eカケグルイ"）
     text = re.sub(r'スマパチ\s+([^\s　\n]{3,})', lambda m: ('e' + m.group(1)) if not m.group(1).startswith(('e', 'ｅ')) else m.group(1), text)
-    for pat in MACHINE_PATTERNS:
+    _LAST_EXTRACT_META.clear()
+    for _pidx, pat in enumerate(MACHINE_PATTERNS):
         m = pat.search(text)
         if m:
             name = m.group(1).strip()
@@ -830,7 +962,9 @@ def extract_machine(text: str) -> str:
             ]
             if any(p.search(name) for p in _MACHINE_NG_PATTERNS):
                 continue
-            return name[:35]
+            final_name = name[:35]
+            _LAST_EXTRACT_META.append(_classify_pattern_bucket(_pidx, final_name))
+            return final_name
     return ""
 
 
@@ -916,29 +1050,35 @@ def extract_machines(text: str) -> list[str]:
             return None
         return name[:35]
 
-    found_with_pos: list[tuple[int, str]] = []
-    for pat in MACHINE_PATTERNS:
+    _LAST_EXTRACT_META.clear()
+    found_with_pos: list[tuple[int, str, int]] = []
+    for pidx, pat in enumerate(MACHINE_PATTERNS):
         for m in pat.finditer(text):
             validated = _validate(m.group(1), m.start(1))
             if validated:
-                found_with_pos.append((m.start(1), validated))
+                found_with_pos.append((m.start(1), validated, pidx))
 
     if not found_with_pos:
         return []
 
     found_with_pos.sort(key=lambda x: x[0])
-    all_names = [n for _, n in found_with_pos]
+    all_names = [n for _, n, _ in found_with_pos]
+    # name -> 最初に見つかったpattern_idx（CC-QUALITY-3E3 telemetry用、raw文字列は保持しない）
+    _first_pidx_by_name: dict[str, int] = {}
+    for _, name, pidx in found_with_pos:
+        _first_pidx_by_name.setdefault(name, pidx)
 
     # サブストリング重複除去: 他の名前に含まれる短い名前を除外
     # 例: 「東京喰種」が「e東京喰種」の部分文字列 → 除外して「e東京喰種」のみ残す
     result: list[str] = []
     seen: set[str] = set()
-    for _, name in found_with_pos:
+    for _, name, _pidx in found_with_pos:
         if any(name != other and name in other for other in all_names):
             continue
         if name not in seen:
             seen.add(name)
             result.append(name)
+            _LAST_EXTRACT_META.append(_classify_pattern_bucket(_first_pidx_by_name[name], name))
 
     return result
 
@@ -1167,8 +1307,13 @@ def parse_tweet(text: str, tweet_url: str,
 
     # 全機種名を抽出（複数機種対応）。取れなければ単一抽出にフォールバック
     machines = extract_machines(text)
-    if not machines:
+    if machines:
+        _qcount("EXTRACTION_PATH_MULTI")
+        _ext_meta_by_index = list(_LAST_EXTRACT_META)
+    else:
         machines = [extract_machine(text)]
+        _qcount("EXTRACTION_PATH_SINGLE")
+        _ext_meta_by_index = list(_LAST_EXTRACT_META)
 
     slot_number = extract_slot_number(text)
 
@@ -1255,7 +1400,7 @@ def parse_tweet(text: str, tweet_url: str,
         # 1機種目は後方互換のため x_url のみで id 生成
         # 2機種目以降は x_url + machine で衝突しない id を生成
         entry_id = primary_id if i == 0 else hashlib.md5(f"{tweet_url}:{machine}".encode()).hexdigest()[:12]
-        results.append({
+        entry = {
             "id":                   entry_id,
             "date":                 tweet_date,
             "time":                 tweet_time,
@@ -1270,7 +1415,12 @@ def parse_tweet(text: str, tweet_url: str,
             "manager_x_url":        manager_x_url_val,
             "source_account_type":  source_account_type,
             "collected_at":         collected_at,
-        })
+        }
+        results.append(entry)
+        # CC-QUALITY-3E3: pattern bucket metadataをid()キーで一時対応表に登録。
+        # entry dict自体には一切追加しない（Supabase/JSON payloadの形は不変）。
+        if i < len(_ext_meta_by_index) and _ext_meta_by_index[i] is not None:
+            _MACHINE_EXTRACTION_META[id(entry)] = _ext_meta_by_index[i]
     _qcount("PARSED_OK", len(results))
     return results
 
@@ -1979,10 +2129,16 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
                     official_machine = resolved["official_name"]
                     machine_id       = resolved["machine_id"]
                     _qcount("MACHINE_RESOLVED")
+                    _record_extraction_telemetry(_MACHINE_EXTRACTION_META.pop(id(e), None), resolved=True)
                 else:
                     # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
                     resolver.save_unknown(raw_machine, x_url)
                     _qcount("MACHINE_UNRESOLVED")
+                    _record_extraction_telemetry(_MACHINE_EXTRACTION_META.pop(id(e), None), resolved=False)
+            else:
+                # resolver未使用/機種名なし等でも、登録済みmeta(あれば)は破棄する
+                # （メモリリーク防止。resolver結果が確定しないためtelemetryは加算しない）
+                _MACHINE_EXTRACTION_META.pop(id(e), None)
 
             row: dict = {
                 "id":           e["id"],
