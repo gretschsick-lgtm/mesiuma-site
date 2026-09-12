@@ -128,5 +128,53 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRmRV3cbAAAvLkD?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010"
+  },
+  {
+    "id": "7b4381f358a0",
+    "date": "2026-09-07",
+    "time": "10:16",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "👾ガイの記録簿👾  9/5 本八幡UNO  ✅⑤のつく日🔥  👾列まるごと ⚔️真打吉宗/ ﾊﾞｰﾃﾞｨｰｳｨﾝｸﾞ/鉄拳/うみねこ 　（802-813） ✨808番鉄拳6㊗️コンプリート㊗️  👾複数台並び 🍡6台並び ⚔️からくりサーカス2（976-981） 🍡2台並び ⚔️ゴージャグ（656-657） ⚔️マイジャグ（706-707）",
+    "x_url": "https://x.com/pachi_slohunter/status/2096769613812085096",
+    "store_handle": "pachi_slohunter",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/pachi_slohunter",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-12T17:28:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRk42FPaoAAc8rH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRk42HGbEAAOdaS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRk42IOakAAyGGr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRk42FPaoAAc8rH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "703d5e39e5"
+  },
+  {
+    "id": "15aca92e4a97",
+    "date": "2026-09-07",
+    "time": "10:16",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "L鉄拳6",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "👾ガイの記録簿👾  9/5 本八幡UNO  ✅⑤のつく日🔥  👾列まるごと ⚔️真打吉宗/ ﾊﾞｰﾃﾞｨｰｳｨﾝｸﾞ/鉄拳/うみねこ 　（802-813） ✨808番鉄拳6㊗️コンプリート㊗️  👾複数台並び 🍡6台並び ⚔️からくりサーカス2（976-981） 🍡2台並び ⚔️ゴージャグ（656-657） ⚔️マイジャグ（706-707）",
+    "x_url": "https://x.com/pachi_slohunter/status/2096769613812085096",
+    "store_handle": "pachi_slohunter",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/pachi_slohunter",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-09-12T17:28:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRk42FPaoAAc8rH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRk42HGbEAAOdaS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRk42IOakAAyGGr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRk42FPaoAAc8rH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000022",
+    "store_id": "703d5e39e5"
   }
 ]
