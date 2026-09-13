@@ -20,5 +20,94 @@
     "image_url": "https://pbs.twimg.com/media/HR8AqIRaMAA3-0O?format=jpg&name=large",
     "machine_id": "8c9b6f92-5ab7-4cfc-8dbc-3f73609680e1",
     "store_id": "dfb98dc165"
+  },
+  {
+    "id": "25d34036afd7",
+    "date": "2026-09-11",
+    "time": "21:47",
+    "store": "ABC浜松森田町店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "685",
+    "text": "🚨コンプリート警報🚨  685番台『北斗の拳　転生の章2』で コンプリート達成！   おめでとうございます🎉",
+    "x_url": "https://x.com/ABC_moritacho/status/2098392897620214262",
+    "store_handle": "abc_moritacho",
+    "store_x_url": "https://x.com/ABC_moritacho",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR78UgHa4AAGPq0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR78UgHa4AAGPq0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "4ea546fb7c"
+  },
+  {
+    "id": "59ce66fa9e51",
+    "date": "2026-09-11",
+    "time": "20:20",
+    "store": "マルハン鹿浜店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "821",
+    "text": "マルハン鹿浜店  機種名：Ｌ　甲鉄城のカバネリ　海門決戦　ＸＸ  台番号：821番台  コンプリート達成  おめでとうございます‼️",
+    "x_url": "https://x.com/shikahama_m/status/2098371004741595410",
+    "store_handle": "shikahama_m",
+    "store_x_url": "https://x.com/shikahama_m",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7pSIlbcAAGupi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7pSIlbcAAGupi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "b7cd4332cb"
+  },
+  {
+    "id": "1c3e908a48c9",
+    "date": "2026-09-11",
+    "time": "20:00",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "246",
+    "text": "本日2台目🌈 e牙狼12 246番台コンプリート達成🎉㊗️ おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2098366068779557183",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7kymjaQAEyMjp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HR7kzJOawAEGhGb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7kymjaQAEyMjp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "0ef83addce"
+  },
+  {
+    "id": "d8242a960aca",
+    "date": "2026-09-11",
+    "time": "19:20",
+    "store": "フェイス850佐賀",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1273",
+    "text": "ꉂꉂ📣速報ꉂꉂ📣 1273番台 #ヴァルヴレイヴ2 より #コンプリート ✨️達成👏 されましたぁぁぁぁああぁぁっ‼️ おめでとう🎊ございますっ‼️ 明日の、#乱王 取材に向けて良きお知らせが(｡ ・`ω・´) ｷﾗﾝ☆ #Face850佐賀",
+    "x_url": "https://x.com/face_850/status/2098355958334607401",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7bno9boAAk3IE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7bno9boAAk3IE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "53cfcde9a2"
   }
 ]

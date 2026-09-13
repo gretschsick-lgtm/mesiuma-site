@@ -286,6 +286,95 @@
     "store_id": "dfb98dc165"
   },
   {
+    "id": "25d34036afd7",
+    "date": "2026-09-11",
+    "time": "21:47",
+    "store": "ABC浜松森田町店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "685",
+    "text": "🚨コンプリート警報🚨  685番台『北斗の拳　転生の章2』で コンプリート達成！   おめでとうございます🎉",
+    "x_url": "https://x.com/ABC_moritacho/status/2098392897620214262",
+    "store_handle": "abc_moritacho",
+    "store_x_url": "https://x.com/ABC_moritacho",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR78UgHa4AAGPq0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR78UgHa4AAGPq0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "4ea546fb7c"
+  },
+  {
+    "id": "59ce66fa9e51",
+    "date": "2026-09-11",
+    "time": "20:20",
+    "store": "マルハン鹿浜店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "821",
+    "text": "マルハン鹿浜店  機種名：Ｌ　甲鉄城のカバネリ　海門決戦　ＸＸ  台番号：821番台  コンプリート達成  おめでとうございます‼️",
+    "x_url": "https://x.com/shikahama_m/status/2098371004741595410",
+    "store_handle": "shikahama_m",
+    "store_x_url": "https://x.com/shikahama_m",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7pSIlbcAAGupi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7pSIlbcAAGupi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "b7cd4332cb"
+  },
+  {
+    "id": "1c3e908a48c9",
+    "date": "2026-09-11",
+    "time": "20:00",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "246",
+    "text": "本日2台目🌈 e牙狼12 246番台コンプリート達成🎉㊗️ おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2098366068779557183",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7kymjaQAEyMjp?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HR7kzJOawAEGhGb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7kymjaQAEyMjp?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "0ef83addce"
+  },
+  {
+    "id": "d8242a960aca",
+    "date": "2026-09-11",
+    "time": "19:20",
+    "store": "フェイス850佐賀",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1273",
+    "text": "ꉂꉂ📣速報ꉂꉂ📣 1273番台 #ヴァルヴレイヴ2 より #コンプリート ✨️達成👏 されましたぁぁぁぁああぁぁっ‼️ おめでとう🎊ございますっ‼️ 明日の、#乱王 取材に向けて良きお知らせが(｡ ・`ω・´) ｷﾗﾝ☆ #Face850佐賀",
+    "x_url": "https://x.com/face_850/status/2098355958334607401",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7bno9boAAk3IE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7bno9boAAk3IE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "53cfcde9a2"
+  },
+  {
     "id": "028237d95337",
     "date": "2026-09-10",
     "time": "22:56",
@@ -612,6 +701,29 @@
     "store_id": "33b48926a2"
   },
   {
+    "id": "87d6c9319ed1",
+    "date": "2026-09-09",
+    "time": "17:06",
+    "store": "吉兆川崎野川店",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "613",
+    "text": "🚨【速報】【速報】🚨 L炎炎ノ消防隊 613番台 コンプリート達成です～ おめでとうございます💯  本日はカサナ～ル、サンキューでい👺⚡ まだまだ楽しみましょう👏 このあと #美女コレ ２回目配信予定～🧐 #COMPLETE #スマスロ",
+    "x_url": "https://x.com/nogawa1227/status/2097597624417398838",
+    "store_handle": "nogawa1227",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-13T05:41:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRwpB6ba8AAx4MT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRwpPQdbcAAblrV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRwpB6ba8AAx4MT?format=jpg&name=large",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2",
+    "store_id": "c72c758ab4"
+  },
+  {
     "id": "8f922844e0d1",
     "date": "2026-09-09",
     "time": "07:50",
@@ -653,6 +765,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HRsdvdVbkAEa6uz?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "199d3d9be9f0",
+    "date": "2026-09-08",
+    "time": "18:00",
+    "store": "楽園相模原店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "1395",
+    "text": "こんばんは✨ 楽園相模原店です❕   先程、⏰17時50分⏰ 【1395番台】【L炎炎ノ消防隊２】 コンプリート達成の為、遊技台を停止させていただきました🔥🧯🔥",
+    "x_url": "https://x.com/rakuen_sagami/status/2097248666931315053",
+    "store_handle": "rakuen_sagami",
+    "store_x_url": "https://x.com/rakuen_sagami",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRrsi-RbgAAEPaA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRrsi-RbgAAEPaA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "c58e968a17"
   },
   {
     "id": "3abd8fa13478",
@@ -744,6 +878,28 @@
     "store_id": "4bf8c4b18a"
   },
   {
+    "id": "71481187ff1d",
+    "date": "2026-09-07",
+    "time": "22:38",
+    "store": "メガフェイス1450本山",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "1336",
+    "text": "💥コンプリート速報💥  　==9月7日==  🌈1336番台🌈 💪Lスマスロ北斗の拳　転生の章２💪  #コンプリート達成です　✨✨  ⭐️🎊おめでとうございます🎊⭐️  #Lスマスロ北斗の拳転生の章２ #メガフェイス1450本山",
+    "x_url": "https://x.com/megaface_1450/status/2096956197618553306",
+    "store_handle": "megaface_1450",
+    "store_x_url": "https://x.com/megaface_1450",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:42:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRnh2WLbUAAMd0a?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRnh2WLbUAAMd0a?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "44b996496f"
+  },
+  {
     "id": "0c3d60833f6a",
     "date": "2026-09-07",
     "time": "21:35",
@@ -764,6 +920,28 @@
     "image_url": "https://pbs.twimg.com/media/HRnT2geb0AEvnMm?format=jpg&name=large",
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
     "store_id": "dfa6aef569"
+  },
+  {
+    "id": "ebccaaa63bb3",
+    "date": "2026-09-07",
+    "time": "20:57",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "5183",
+    "text": "楽園池袋店ゲートウェイです😎  本日、9月7日(月) 46円スロットコーナーから  5183番台 【L東京喰種】  コンプリート機能が作動いたしました‼️📷 本日は遊技台停止となります😣😣  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2096930834494402631",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRnLeswa8AAJP-o?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRnLeswa8AAJP-o?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "345810546655",
@@ -985,6 +1163,52 @@
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
+    "id": "f04224264694",
+    "date": "2026-09-06",
+    "time": "22:25",
+    "store": "ピーアーク北綾瀬駅前",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "19",
+    "text": "9/6（日） ピーアーク北綾瀬駅前  スロット L東京喰種 19番台  L戦国乙女5 403番台  wコンプリート達成🎊  リニューアル前日でも⚡️  #スロット #パチンコ #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
+    "x_url": "https://x.com/ParkPkunGarden/status/2096590545485443413",
+    "store_handle": "parkpkungarden",
+    "store_x_url": "https://x.com/ParkPkunGarden",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRiV_AtawAAKZOt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRiV_AybQAAwVk4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRiV_AtawAAKZOt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "2e05542225"
+  },
+  {
+    "id": "bfe0e8e02bce",
+    "date": "2026-09-06",
+    "time": "22:25",
+    "store": "ピーアーク北綾瀬駅前",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "9/6（日） ピーアーク北綾瀬駅前  スロット L東京喰種 19番台  L戦国乙女5 403番台  wコンプリート達成🎊  リニューアル前日でも⚡️  #スロット #パチンコ #都内No1への挑戦 #コンプリート #北綾瀬駅前 #毎日にシゲキを",
+    "x_url": "https://x.com/ParkPkunGarden/status/2096590545485443413",
+    "store_handle": "parkpkungarden",
+    "store_x_url": "https://x.com/ParkPkunGarden",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:40:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRiV_AtawAAKZOt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HRiV_AybQAAwVk4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRiV_AtawAAKZOt?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "2e05542225"
+  },
+  {
     "id": "cb6ee15ebd70",
     "date": "2026-09-06",
     "time": "21:26",
@@ -1029,6 +1253,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000031"
   },
   {
+    "id": "c48983da4029",
+    "date": "2026-09-06",
+    "time": "20:18",
+    "store": "武里店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "211",
+    "text": "こんばんは🌃 ジャラン武里店です😎  先ほど 211番台　スマスロ攻殻機動隊にて  ㊗️㊗️㊗️コンプリート達成㊗️㊗️㊗️  おめでとうございます(*^-^*) #ジャラン武里店 #スマスロ #攻殻機動隊 #コンプリート",
+    "x_url": "https://x.com/jaran_takesato/status/2096558617575235954",
+    "store_handle": "jaran_takesato",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-13T05:41:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRh42zlbEAAczIU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRh42zlbEAAczIU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
+  },
+  {
     "id": "072c1654ac0e",
     "date": "2026-09-06",
     "time": "19:39",
@@ -1049,6 +1294,28 @@
     "image_url": "https://pbs.twimg.com/media/HRhrFyxa4AAJT78?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
     "store_id": "cbc9c2710d"
+  },
+  {
+    "id": "69eb64a53e4e",
+    "date": "2026-09-06",
+    "time": "19:15",
+    "store": "コンコルド清水大曲店",
+    "machine": "スマスロ 化物語",
+    "machine_type": "slot",
+    "slot_number": "1926",
+    "text": "MARIN CONCORDE清水 🚨コンプリート速報🚨  先程1926番台 L化物語にて、 コンプリート機能が作動いたしました‼️  本日は沢山のお客様のご来店 ありがとうございます🙇‍♂️  この後の時間もお楽しみください✨",
+    "x_url": "https://x.com/Concordeomagari/status/2096542796161425829",
+    "store_handle": "concordeomagari",
+    "store_x_url": "https://x.com/Concordeomagari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-13T05:39:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRhqeLFawAAH2s3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRhqeLFawAAH2s3?format=jpg&name=large",
+    "machine_id": "92105b27-3261-4af0-b2ed-24f63c5cd477",
+    "store_id": "5162fa58d2"
   },
   {
     "id": "ca1d7d7f18da",
