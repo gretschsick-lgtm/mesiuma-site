@@ -562,7 +562,12 @@ def _classify_pattern_bucket(pattern_idx: int, name: str) -> dict | None:
     if pattern_idx == _E_GENERIC_PATTERN_IDX:
         run = _ascii_run_after_prefix(name)
         bucket = "0_2" if run <= 2 else ("3_5" if run <= 5 else "6plus")
-        return {"kind": "e_generic", "bucket": bucket}
+        # CC-QUALITY-3E5: 既存run bucketとは別に、candidate本体のunderscore有無だけを
+        # 追加のfixed shape分類として記録する（raw candidateそのものは保持しない）。
+        # ene_kyobashi のようなhandle-likeノイズはunderscoreでASCII runが切れるため
+        # 0_2 bucketへ入るが、run bucketだけでは正規のe-prefix機種と区別できない。
+        shape = "underscore" if "_" in name else "no_underscore"
+        return {"kind": "e_generic", "bucket": bucket, "shape": shape}
     if pattern_idx in _SERIES_ANCHOR_INDICES:
         anchor = _SERIES_ANCHOR_TEXT.get(pattern_idx, "")
         idx = name.find(anchor) if anchor else -1
@@ -595,6 +600,8 @@ def _record_extraction_telemetry(meta: dict | None, resolved: bool) -> None:
         _qcount(f"EXTRACT_L_GENERIC_RUN_{meta['bucket'].upper()}_{suffix}")
     elif kind == "e_generic":
         _qcount(f"EXTRACT_E_GENERIC_RUN_{meta['bucket'].upper()}_{suffix}")
+        # CC-QUALITY-3E5: handle-shape observability（fixed 2値enumのみ、raw文字列なし）
+        _qcount(f"EXTRACT_E_GENERIC_SHAPE_{meta['shape'].upper()}_{suffix}")
     elif kind == "series":
         boundary = "PRESENT" if meta.get("boundary") else "NONE"
         _qcount(f"EXTRACT_SERIES_{meta['slug'].upper()}_BOUNDARY_{boundary}_{suffix}")

@@ -539,5 +539,148 @@ ok(F._LAST_EXTRACT_META == [], "I14b 次のno-match callで前回分が残らな
 ok(len(F._MACHINE_EXTRACTION_META) == 0,
    f"I15 一連のテスト完了後、_MACHINE_EXTRACTION_META残留 = 0件(got size={len(F._MACHINE_EXTRACTION_META)})")
 
+# ══════════════════════════════════════════════════════════════════════════
+# J. CC-QUALITY-3E5 — E_GENERIC handle-shape observability + summary persistence
+#    parserのaccept/reject挙動は一切変えず、E_GENERIC candidateのunderscore有無を
+#    fixed 2値enumとして追加観測できることと、EXTRACT系telemetryがartifact expiry
+#    後も参照できるようstdout/GITHUB_STEP_SUMMARYへ残ることを検証する。
+# ══════════════════════════════════════════════════════════════════════════
+
+# --- J1/J2. shape分類: underscoreの有無だけをfixed enumとして判定する ---
+_meta_underscore = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "ene_kyobashi")
+ok(_meta_underscore is not None and _meta_underscore["shape"] == "underscore",
+   f"J1 underscoreを含むE_GENERIC candidateはshape=underscore (got={_meta_underscore})")
+
+_meta_no_underscore = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "efeverキン肉マン")
+ok(_meta_no_underscore is not None and _meta_no_underscore["shape"] == "no_underscore",
+   f"J2 underscoreを含まないE_GENERIC candidateはshape=no_underscore (got={_meta_no_underscore})")
+
+# --- J3. Cross Matrix: underscore x resolved/unresolved の4象限が混線しない ---
+F.reset_quality_counters()
+_j_uu = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "ene_kyobashi")          # underscore
+_j_ur = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "ene_test")              # underscore
+_j_nr = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "efeverキン肉マン")       # no_underscore
+_j_nu = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "e86ｰエイティシックス")   # no_underscore
+F._record_extraction_telemetry(_j_uu, resolved=False)  # 1. underscore + unresolved
+F._record_extraction_telemetry(_j_ur, resolved=True)   # 2. underscore + resolved
+F._record_extraction_telemetry(_j_nr, resolved=True)   # 3. no_underscore + resolved
+F._record_extraction_telemetry(_j_nu, resolved=False)  # 4. no_underscore + unresolved
+_jc = F.get_quality_counters()
+ok(_jc.get("EXTRACT_E_GENERIC_SHAPE_UNDERSCORE_UNRESOLVED") == 1, f"J3a underscore+unresolved=1 (got={_jc})")
+ok(_jc.get("EXTRACT_E_GENERIC_SHAPE_UNDERSCORE_RESOLVED") == 1, f"J3b underscore+resolved=1 (got={_jc})")
+ok(_jc.get("EXTRACT_E_GENERIC_SHAPE_NO_UNDERSCORE_RESOLVED") == 1, f"J3c no_underscore+resolved=1 (got={_jc})")
+ok(_jc.get("EXTRACT_E_GENERIC_SHAPE_NO_UNDERSCORE_UNRESOLVED") == 1, f"J3d no_underscore+unresolved=1 (got={_jc})")
+
+# --- J4. 既存run bucketは shape追加後も従来通り併存する(破壊されていない) ---
+# ene_kyobashi/ene_test(underscore)とe86ｰエイティシックス(no_underscore, J3のno_underscore+unresolved)は
+# いずれもASCII run=2のため同じ0_2 bucketへ入る(H8と同じ仕様・回帰ではない)。
+ok(_jc.get("EXTRACT_E_GENERIC_RUN_0_2_UNRESOLVED") == 2,
+   f"J4a run bucket 0_2_unresolvedはshape追加後も従来通り加算される(ene_kyobashi+e86の2件) (got={_jc})")
+ok(_jc.get("EXTRACT_E_GENERIC_RUN_0_2_RESOLVED") == 1,
+   f"J4a2 run bucket 0_2_resolvedも従来通り加算される(ene_test) (got={_jc})")
+ok(_jc.get("EXTRACT_E_GENERIC_RUN_3_5_RESOLVED") == 1,
+   f"J4b efeverキン肉マン(run=5)は従来通りrun bucket 3_5_resolvedへも加算される (got={_jc})")
+
+# --- J5. Cardinality: shape追加後もtelemetry keyの理論上限は候補内容に依存せず固定 ---
+_max_l = 2 * 2
+_max_e = 3 * 2
+_max_e_shape = 2 * 2  # underscore/no_underscore x resolved/unresolved
+_max_series = len(F._SERIES_ANCHOR_INDICES) * 2 * 2
+_max_path = 2
+_max_total_j = _max_l + _max_e + _max_e_shape + _max_series + _max_path
+ok(_max_total_j < 210, f"J5 shape追加後もtelemetry key理論上限は固定({_max_total_j}件、動的keyなし)")
+
+# --- J6. Privacy: shape判定を経てもraw candidate文字列はカウンタ/summaryへ混入しない ---
+F.reset_quality_counters()
+_SECRET_HANDLE = "ene_kyobashi_this_raw_string_must_never_leak_xyz999"
+_meta_secret = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, _SECRET_HANDLE)
+F._record_extraction_telemetry(_meta_secret, resolved=False)
+with tempfile.TemporaryDirectory() as td:
+    _p = Path(td) / "complete_quality_test_j.json"
+    F.write_quality_summary(str(_p))
+    _serialized = _p.read_text(encoding="utf-8")
+    ok(_SECRET_HANDLE not in _serialized, "J6a raw handle文字列がquality summaryファイルに含まれない")
+    ok(all(isinstance(v, int) for v in json.loads(_serialized)["counts"].values()),
+       "J6b shape追加後もcountsの値は全て整数のみ")
+
+# --- J7. Summary output (zero): quality shardは存在するが全telemetryが0でも固定行として表示される ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"COLLECTED": 0, "SAVED_SUPABASE": 0}, "meta": {"run_number": "1"}}),
+        encoding="utf-8",
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("🔬 Extraction Telemetry" in out, "J7a quality shardが存在すればExtraction Telemetryセクションが出力される")
+    ok("l_generic_0_1: resolved=0 unresolved=0" in out, "J7b L_GENERIC 0_1が未加算でも0として固定表示される")
+    ok("e_generic_shape_underscore: resolved=0 unresolved=0" in out, "J7c E shape underscoreが未加算でも0として固定表示される")
+    ok("extraction_path_single: 0" in out, "J7d extraction pathが未加算でも0として固定表示される")
+
+# --- J8. Summary output (nonzero): 実際の値が正しく表示される ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    _nonzero_counts = {
+        "COLLECTED": 10,
+        "EXTRACT_L_GENERIC_RUN_2PLUS_RESOLVED": 3,
+        "EXTRACT_E_GENERIC_RUN_0_2_UNRESOLVED": 2,
+        "EXTRACT_E_GENERIC_SHAPE_UNDERSCORE_UNRESOLVED": 2,
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_PRESENT_RESOLVED": 1,
+        "EXTRACTION_PATH_SINGLE": 4,
+        "EXTRACTION_PATH_MULTI": 6,
+    }
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": _nonzero_counts, "meta": {"run_number": "2"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("l_generic_2plus: resolved=3 unresolved=0" in out, f"J8a L_GENERIC 2plus resolved=3が正しく表示される")
+    ok("e_generic_0_2: resolved=0 unresolved=2" in out, f"J8b E_GENERIC 0_2 unresolved=2が正しく表示される")
+    ok("e_generic_shape_underscore: resolved=0 unresolved=2" in out, f"J8c E shape underscore unresolved=2が正しく表示される")
+    ok("series[hokuto_anchor]: resolved=1 unresolved=0 total=1" in out, f"J8d series非zero anchorのみ個別表示される")
+    ok("series_boundary_present: resolved=1 unresolved=0" in out, f"J8e series boundary aggregate(present)が正しく合算される")
+    ok("extraction_path_single: 4" in out and "extraction_path_multi: 6" in out, f"J8f extraction pathが正しく表示される")
+    # 発火していないanchorは個別行として出力されない(21件全部を毎回出力しない)
+    ok("series[garo_anchor]" not in out, "J8g nonzeroでないanchorは個別表示されない(出力肥大化を防ぐ)")
+
+# --- J9. Missing shard semantics: quality shard自体が存在しない場合はセクション自体を出さない ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("🔬 Extraction Telemetry" not in out,
+       "J9 quality shardが1つもなければExtraction Telemetryは出力されない(missing≠0の既存方針を維持)")
+
+# --- J10. GITHUB_STEP_SUMMARY: 同じtelemetryがstdoutと同様にstep summaryファイルへも書かれる ---
+import os as _os
+_orig_step_summary_env = _os.environ.get("GITHUB_STEP_SUMMARY")
+try:
+    with tempfile.TemporaryDirectory() as td:
+        _summary_path = Path(td) / "step_summary.md"
+        _summary_path.write_text("", encoding="utf-8")
+        _os.environ["GITHUB_STEP_SUMMARY"] = str(_summary_path)
+        F.reset_quality_counters()
+        _meta_step = F._classify_pattern_bucket(F._E_GENERIC_PATTERN_IDX, "ene_kyobashi")
+        F._record_extraction_telemetry(_meta_step, resolved=False)
+        M._print_extraction_telemetry(F.get_quality_counters())
+        _summary_content = _summary_path.read_text(encoding="utf-8")
+        ok("Extraction Telemetry" in _summary_content, "J10a GITHUB_STEP_SUMMARYへExtraction Telemetryセクションが書かれる")
+        ok("E_GENERIC Handle Shape" in _summary_content, "J10b GITHUB_STEP_SUMMARYへhandle shape表が書かれる")
+        ok("ene_kyobashi" not in _summary_content, "J10c GITHUB_STEP_SUMMARYにもraw candidate文字列は含まれない")
+finally:
+    if _orig_step_summary_env is None:
+        _os.environ.pop("GITHUB_STEP_SUMMARY", None)
+    else:
+        _os.environ["GITHUB_STEP_SUMMARY"] = _orig_step_summary_env
+
+# --- J11. Behavior Preservation: 3E5実装後もpattern/slug/anchor件数は不変 ---
+ok(len(F.MACHINE_PATTERNS) == 33, f"J11a MACHINE_PATTERNS件数は33のまま不変(got={len(F.MACHINE_PATTERNS)})")
+ok(len(F._SERIES_ANCHOR_INDICES) == 21, f"J11b series anchor件数は21のまま不変(got={len(F._SERIES_ANCHOR_INDICES)})")
+ok(F.extract_machine("e牙狼12がコンプリート達成") == "e牙狼12",
+   "J11c 既存extract_machine()の返却値はshape追加後も不変")
+
+F._MACHINE_EXTRACTION_META.clear()
+F.reset_quality_counters()
+
 print(f"\n=> PASS={PASS} FAIL={FAIL}")
 sys.exit(1 if FAIL else 0)

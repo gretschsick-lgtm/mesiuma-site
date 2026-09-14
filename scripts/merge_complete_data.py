@@ -23,7 +23,10 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 
-from fetch_complete_info import save_complete, update_ranking
+from fetch_complete_info import save_complete, update_ranking, MACHINE_PATTERN_SLUGS, _SERIES_ANCHOR_INDICES
+
+# CC-QUALITY-3E5: series anchor slug一覧（MACHINE_PATTERN_SLUGSからの導出、二重管理しない）
+_SERIES_ANCHOR_SLUGS = [MACHINE_PATTERN_SLUGS[i] for i in sorted(_SERIES_ANCHOR_INDICES)]
 
 
 def _merge_quality_summaries(keep: bool = False) -> dict[str, int]:
@@ -111,6 +114,117 @@ def _print_quality_funnel(totals: dict[str, int], added: int) -> None:
             print(f"⚠️  GITHUB_STEP_SUMMARY 書き込みエラー（無視して継続）: {e}")
 
 
+def _print_extraction_telemetry(totals: dict[str, int]) -> None:
+    """CC-QUALITY-3E5: L_GENERIC/E_GENERIC/E handle-shape/series boundary/
+    extraction pathのtelemetryをstdoutとGITHUB_STEP_SUMMARYに出力する。
+
+    raw candidate文字列・tweet本文・author/handle・URL・画像は一切含めない
+    （totalsはCC-QUALITY-3E3で定義したfixed keyの整数カウンタのみ）。
+    complete_quality_*.json artifactは約24〜25時間でexpireするため、この
+    出力がexpire後に残る唯一の証拠になる（CC-QUALITY-3E4Bで判明した制約への対応）。
+
+    totalsが空dict（quality shard自体が1つも読めなかった）の場合は、
+    _print_quality_funnel() と同じ方針で何も出力しない（missing shardを
+    0件観測と混同しない。CC-QUALITY-2M-T2の既存fail-open方針を維持）。
+    """
+    if not totals:
+        return
+
+    def g(key: str) -> int:
+        return totals.get(key, 0)
+
+    l_rows = [
+        ("0_1",   g("EXTRACT_L_GENERIC_RUN_0_1_RESOLVED"),   g("EXTRACT_L_GENERIC_RUN_0_1_UNRESOLVED")),
+        ("2plus", g("EXTRACT_L_GENERIC_RUN_2PLUS_RESOLVED"), g("EXTRACT_L_GENERIC_RUN_2PLUS_UNRESOLVED")),
+    ]
+    e_rows = [
+        ("0_2",   g("EXTRACT_E_GENERIC_RUN_0_2_RESOLVED"),   g("EXTRACT_E_GENERIC_RUN_0_2_UNRESOLVED")),
+        ("3_5",   g("EXTRACT_E_GENERIC_RUN_3_5_RESOLVED"),   g("EXTRACT_E_GENERIC_RUN_3_5_UNRESOLVED")),
+        ("6plus", g("EXTRACT_E_GENERIC_RUN_6PLUS_RESOLVED"), g("EXTRACT_E_GENERIC_RUN_6PLUS_UNRESOLVED")),
+    ]
+    e_shape_rows = [
+        ("underscore",    g("EXTRACT_E_GENERIC_SHAPE_UNDERSCORE_RESOLVED"),    g("EXTRACT_E_GENERIC_SHAPE_UNDERSCORE_UNRESOLVED")),
+        ("no_underscore", g("EXTRACT_E_GENERIC_SHAPE_NO_UNDERSCORE_RESOLVED"), g("EXTRACT_E_GENERIC_SHAPE_NO_UNDERSCORE_UNRESOLVED")),
+    ]
+
+    series_none_r = series_none_u = series_present_r = series_present_u = 0
+    anchor_rows: list[tuple[str, int, int, int]] = []
+    for slug in _SERIES_ANCHOR_SLUGS:
+        up = slug.upper()
+        nr = g(f"EXTRACT_SERIES_{up}_BOUNDARY_NONE_RESOLVED")
+        nu = g(f"EXTRACT_SERIES_{up}_BOUNDARY_NONE_UNRESOLVED")
+        pr = g(f"EXTRACT_SERIES_{up}_BOUNDARY_PRESENT_RESOLVED")
+        pu = g(f"EXTRACT_SERIES_{up}_BOUNDARY_PRESENT_UNRESOLVED")
+        series_none_r += nr
+        series_none_u += nu
+        series_present_r += pr
+        series_present_u += pu
+        total = nr + nu + pr + pu
+        if total:
+            anchor_rows.append((slug, nr + pr, nu + pu, total))
+
+    path_rows = [
+        ("SINGLE", g("EXTRACTION_PATH_SINGLE")),
+        ("MULTI",  g("EXTRACTION_PATH_MULTI")),
+    ]
+
+    lines = ["\n## Extraction Telemetry (CC-QUALITY-3E3/3E5, metadata-only)\n"]
+    lines.append("_raw candidate文字列・tweet本文・author/handle・URL・画像は含まれません。"
+                  "パターンbucket分類 + resolver結果の整数カウンタのみです。_\n")
+
+    lines.append("### L_GENERIC\n\n| bucket | resolved | unresolved | total |\n|---|---:|---:|---:|")
+    for name, r, u in l_rows:
+        lines.append(f"| {name} | {r} | {u} | {r + u} |")
+
+    lines.append("\n### E_GENERIC\n\n| bucket | resolved | unresolved | total |\n|---|---:|---:|---:|")
+    for name, r, u in e_rows:
+        lines.append(f"| {name} | {r} | {u} | {r + u} |")
+
+    lines.append("\n### E_GENERIC Handle Shape\n\n| shape | resolved | unresolved | total |\n|---|---:|---:|---:|")
+    for name, r, u in e_shape_rows:
+        lines.append(f"| {name} | {r} | {u} | {r + u} |")
+
+    lines.append("\n### Series Boundary (aggregate, %d anchors)\n\n| boundary | resolved | unresolved | total |\n|---|---:|---:|---:|"
+                 % len(_SERIES_ANCHOR_SLUGS))
+    lines.append(f"| none | {series_none_r} | {series_none_u} | {series_none_r + series_none_u} |")
+    lines.append(f"| present | {series_present_r} | {series_present_u} | {series_present_r + series_present_u} |")
+
+    if anchor_rows:
+        lines.append("\n### Series Boundary (nonzero anchors only)\n\n| anchor | resolved | unresolved | total |\n|---|---:|---:|---:|")
+        for slug, r, u, total in anchor_rows:
+            lines.append(f"| {slug} | {r} | {u} | {total} |")
+
+    lines.append("\n### Extraction Path\n\n| path | count |\n|---|---:|")
+    for name, c in path_rows:
+        lines.append(f"| {name} | {c} |")
+
+    table_md = "\n".join(lines)
+
+    print("🔬 Extraction Telemetry (CC-QUALITY-3E3/3E5, metadata-only):")
+    print(f"   l_generic_0_1: resolved={l_rows[0][1]} unresolved={l_rows[0][2]}")
+    print(f"   l_generic_2plus: resolved={l_rows[1][1]} unresolved={l_rows[1][2]}")
+    print(f"   e_generic_0_2: resolved={e_rows[0][1]} unresolved={e_rows[0][2]}")
+    print(f"   e_generic_3_5: resolved={e_rows[1][1]} unresolved={e_rows[1][2]}")
+    print(f"   e_generic_6plus: resolved={e_rows[2][1]} unresolved={e_rows[2][2]}")
+    print(f"   e_generic_shape_underscore: resolved={e_shape_rows[0][1]} unresolved={e_shape_rows[0][2]}")
+    print(f"   e_generic_shape_no_underscore: resolved={e_shape_rows[1][1]} unresolved={e_shape_rows[1][2]}")
+    print(f"   series_boundary_none: resolved={series_none_r} unresolved={series_none_u}")
+    print(f"   series_boundary_present: resolved={series_present_r} unresolved={series_present_u}")
+    for slug, r, u, total in anchor_rows:
+        print(f"   series[{slug}]: resolved={r} unresolved={u} total={total}")
+    print(f"   extraction_path_single: {path_rows[0][1]}")
+    print(f"   extraction_path_multi: {path_rows[1][1]}")
+
+    step_summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if step_summary_path:
+        try:
+            with open(step_summary_path, "a", encoding="utf-8") as f:
+                f.write(table_md)
+                f.write("\n")
+        except Exception as e:
+            print(f"⚠️  GITHUB_STEP_SUMMARY 書き込みエラー（無視して継続）: {e}")
+
+
 def _load_handle_info() -> dict[str, dict]:
     """store_handles.json を handle.lower() → info dict として返す"""
     path = ROOT / "public" / "store_handles.json"
@@ -174,6 +288,7 @@ def main():
     if not partial_files:
         print("⚠️  部分ファイルが見つかりません: public/complete_partial_*.json")
         _print_quality_funnel(quality_totals, 0)
+        _print_extraction_telemetry(quality_totals)
         return
 
     print(f"📂 部分ファイル {len(partial_files)}件 を統合 (date={today})")
@@ -219,6 +334,7 @@ def main():
     # 集計自体は上で partial_files の有無に関わらず既に実行済み（CC-QUALITY-2M-T2）。
     # ここでは実際の added（新規complete_info.json追加件数）を使って再度出力する。
     _print_quality_funnel(quality_totals, added)
+    _print_extraction_telemetry(quality_totals)
 
     # 部分ファイル削除
     if not args.keep_partials:
