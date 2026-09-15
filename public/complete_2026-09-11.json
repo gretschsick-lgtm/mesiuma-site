@@ -1,5 +1,26 @@
 [
   {
+    "id": "502597aee49f",
+    "date": "2026-09-11",
+    "time": "22:27",
+    "store": "稚内大黒店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "374",
+    "text": "おつまる〜🙆ムッシュです マルハン稚内大黒店から コンプリートのご案内です✨  9月11日(金) e東京喰種W 374番台 コンプリート達成🎉 おめでとうございます✨  データを確認できる マルハンアプリはこちらから📷 #マルハン稚内大黒店 #コンプリート",
+    "x_url": "https://x.com/monsieur_maru/status/2098402933696041082",
+    "store_handle": "monsieur_maru",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-15T17:25:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR8Ft5QaEAAW_49?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR8Ft5QaEAAW_49?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
     "id": "aed8a750e9c7",
     "date": "2026-09-11",
     "time": "22:02",
@@ -64,6 +85,28 @@
     "image_url": "https://pbs.twimg.com/media/HR7pSIlbcAAGupi?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000005",
     "store_id": "b7cd4332cb"
+  },
+  {
+    "id": "08c7e9321d87",
+    "date": "2026-09-11",
+    "time": "20:20",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "2125",
+    "text": "こんばんは！        楽園池袋店ゲートウェイです🦉  本日、9月11日(金)   パチンココーナーから 2125番台【e牙狼12黄金騎士極限】   コンプリート機能が作動いたしました😆😆 本日は遊技停止となります。😂😂 #ゲートウェイ #コンプリート #楽園池袋店",
+    "x_url": "https://x.com/rakuenikebukuro/status/2098370971652780055",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-15T17:56:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR7oQtzaoAA2rPF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR7oQtzaoAA2rPF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "ef707cf8fe"
   },
   {
     "id": "1c3e908a48c9",
