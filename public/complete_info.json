@@ -309,6 +309,28 @@
     "store_id": "eac0171bbc"
   },
   {
+    "id": "dd6c8c02c410",
+    "date": "2026-09-13",
+    "time": "17:53",
+    "store": "ユーコーラッキー37辻堂店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート達成】    本日、当店設置の「e牙狼12XX-MJ」にてコンプリート機能が発動いたしました！！！  ご遊技いただき、誠にありがとうございました。  引き続き皆さまのご来店をお待ちしております。    #ユーコーラッキー37辻堂店  #コンプリート",
+    "x_url": "https://x.com/YUKO_TSUJIDOU/status/2099058874808721769",
+    "store_handle": "yuko_tsujidou",
+    "store_x_url": "https://x.com/yuko_tsujidou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-16T09:06:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSFa5rgbkAAuMWh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSFa5rgbkAAuMWh?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "71055539bc"
+  },
+  {
     "id": "4e58772aaf6c",
     "date": "2026-09-13",
     "time": "17:39",
@@ -1338,6 +1360,28 @@
     "image_url": "https://pbs.twimg.com/media/HRxaoUlbsAAASAY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "d74d21cc6d"
+  },
+  {
+    "id": "72a3a40f669a",
+    "date": "2026-09-09",
+    "time": "20:19",
+    "store": "パチンコの玉屋∞新宮",
+    "machine": "スマスロヨルムンガンド",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは✨ 玉屋∞新宮です(/・ω・)/  『スマスロヨルムンガンド』 コンプリート達成致しました🎉 おめでとうございます！ #コンプリート #ヨルムンガンド",
+    "x_url": "https://x.com/tamaya_shingu/status/2097646134869332090",
+    "store_handle": "tamaya_shingu",
+    "store_x_url": "https://x.com/tamaya_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-16T09:05:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HRxVul-aEAEH_mz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HRxVul-aEAEH_mz?format=jpg&name=large",
+    "machine_id": "7945390f-c1f0-469a-8aff-fb08c3165db0",
+    "store_id": "771dac8044"
   },
   {
     "id": "9d3642cfca87",
