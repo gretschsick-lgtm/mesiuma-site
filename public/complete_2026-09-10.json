@@ -107,5 +107,29 @@
     "image_url": "https://pbs.twimg.com/media/HR1FXHkbwAA6YCg?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "68dbb15c10"
+  },
+  {
+    "id": "09373fffc389",
+    "date": "2026-09-10",
+    "time": "12:00",
+    "store": "ワンダーランド諫早店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "昨日はお足元の悪い中のご来店ありがとうございました🙇🏻‍♂️  昨日の出玉ランキングです😉  e牙狼12がコンプリート達成‼️ うらやま、、おめでとうございます🎉🎉🎉",
+    "x_url": "https://x.com/wl___isahaya/status/2098245157955269044",
+    "store_handle": "wl___isahaya",
+    "store_x_url": "https://x.com/wl___isahaya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-17T15:55:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HR5tsAubAAAJcj2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HR5tuXNagAArIxz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HR5twv2akAAnoxX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HR5tsAubAAAJcj2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "c54985eb75"
   }
 ]
