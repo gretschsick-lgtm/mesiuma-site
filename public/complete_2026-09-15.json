@@ -1,5 +1,27 @@
 [
   {
+    "id": "83cb2083459c",
+    "date": "2026-09-15",
+    "time": "23:34",
+    "store": "ＭＪアリーナ干隈店",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "360",
+    "text": "🎉🎉🎉本日9月15日🎉🎉🎉  閉店ギリギリ滑り込み！ ⚽️eフィーバーブルーロック 360番台⚽️  🎊🎊🎊コンプリート達成🎊🎊🎊  ㊗️㊗️おめでとうございます㊗️㊗️",
+    "x_url": "https://x.com/mjhosikuma/status/2099869546136113572",
+    "store_handle": "mjhosikuma",
+    "store_x_url": "https://x.com/mjhosikuma",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-17T17:25:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSQ8N95aAAEI8XV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSQ8N95aAAEI8XV?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c",
+    "store_id": "2b4d471207"
+  },
+  {
     "id": "e698c8562088",
     "date": "2026-09-15",
     "time": "22:38",
@@ -312,6 +334,28 @@
     "collected_at": "2026-09-17T00:12:18Z",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "46953a0e4e"
+  },
+  {
+    "id": "a3842674da34",
+    "date": "2026-09-15",
+    "time": "17:05",
+    "store": "テキサス656山口店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "303",
+    "text": "こんばんは🌙 テキサス656山口店です🫡  ⭐️9月15日(火)⭐️  🎉コンプリート達成🎉  ⭐️⭐️ ⭐️⭐️ ⭐️⭐️         303番台        L真打吉宗 ⭐️⭐️ ⭐️⭐️ ⭐️⭐️  🥳🥳おめでとうございます🎉🎊  テキサス656山口店も まだまだこれから‼️  皆様のご来店を 心よりお待ちしております🙂  #テキサス656山口店",
+    "x_url": "https://x.com/yamaguchitexas/status/2099771517223756005",
+    "store_handle": "yamaguchitexas",
+    "store_x_url": "https://x.com/yamaguchitexas",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-17T17:27:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSPjEBVbMAAnT3J?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSPjEBVbMAAnT3J?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "ae3ae0c75f"
   },
   {
     "id": "96a4a0117d80",

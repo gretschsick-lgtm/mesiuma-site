@@ -153,6 +153,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000021"
   },
   {
+    "id": "9ddc0c724e19",
+    "date": "2026-09-13",
+    "time": "20:36",
+    "store": "T-MAX新栄店",
+    "machine": "スマスロ ゴッドイーター リザレクション",
+    "machine_type": "slot",
+    "slot_number": "1157",
+    "text": "こんばんは😆 Ｔ－ＭＡＸ新栄店です✨  🔶Ｌゴッドイーターリザレクション1157番台🔶 　🌈🌈🎉🎉コンプリート達成🎉🎉🌈🌈 　　　　　　おめでとうございます👏",
+    "x_url": "https://x.com/tmaxshinei39_10/status/2099100004074078520",
+    "store_handle": "tmaxshinei39_10",
+    "store_x_url": "https://x.com/tmaxshinei39_10",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-17T17:26:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSGAPUSaIAA_Ro2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSGAPUSaIAA_Ro2?format=jpg&name=large",
+    "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
+    "store_id": "9823f30ca7"
+  },
+  {
     "id": "5bb05f2f153c",
     "date": "2026-09-13",
     "time": "19:28",

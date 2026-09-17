@@ -306,6 +306,29 @@
     "store_id": "af7cf5f9e6"
   },
   {
+    "id": "2af6953550eb",
+    "date": "2026-09-12",
+    "time": "18:51",
+    "store": "ゾーン行橋1000",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "543",
+    "text": "9月12日（土）  543番台　e東京喰種  コンプリート達成！！！  おめでとうございます！！  #ゾーン行橋 #東京喰種",
+    "x_url": "https://x.com/zone_yukuhashi/status/2098711037197603067",
+    "store_handle": "zone_yukuhashi",
+    "store_x_url": "https://x.com/zone_yukuhashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-17T17:28:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSAeCQ5bYAAYzNd?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSAeRQ3boAArGeJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSAeCQ5bYAAYzNd?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "d2b37d41c5"
+  },
+  {
     "id": "9221e75e320e",
     "date": "2026-09-12",
     "time": "18:19",
