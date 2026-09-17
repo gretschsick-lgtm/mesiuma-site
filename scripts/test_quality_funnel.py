@@ -637,11 +637,15 @@ with tempfile.TemporaryDirectory() as td:
     ok("l_generic_2plus: resolved=3 unresolved=0" in out, f"J8a L_GENERIC 2plus resolved=3が正しく表示される")
     ok("e_generic_0_2: resolved=0 unresolved=2" in out, f"J8b E_GENERIC 0_2 unresolved=2が正しく表示される")
     ok("e_generic_shape_underscore: resolved=0 unresolved=2" in out, f"J8c E shape underscore unresolved=2が正しく表示される")
-    ok("series[hokuto_anchor]: resolved=1 unresolved=0 total=1" in out, f"J8d series非zero anchorのみ個別表示される")
+    # CC-QUALITY-3G1: anchor別表示はNONE/PRESENTを合算せず4次元のまま出力する
+    ok("series[hokuto_anchor]: none_resolved=0 none_unresolved=0 present_resolved=1 present_unresolved=0 total=1" in out,
+       f"J8d series anchorはNONE/PRESENTを合算せず4次元で個別表示される")
     ok("series_boundary_present: resolved=1 unresolved=0" in out, f"J8e series boundary aggregate(present)が正しく合算される")
     ok("extraction_path_single: 4" in out and "extraction_path_multi: 6" in out, f"J8f extraction pathが正しく表示される")
-    # 発火していないanchorは個別行として出力されない(21件全部を毎回出力しない)
-    ok("series[garo_anchor]" not in out, "J8g nonzeroでないanchorは個別表示されない(出力肥大化を防ぐ)")
+    # CC-QUALITY-3G1: 発火していないanchorも固定21件として毎回表示される(3E5時点の
+    # nonzero-onlyポリシーから変更。cardinalityは常にlen(_SERIES_ANCHOR_SLUGS)件で確定)
+    ok("series[garo_anchor]: none_resolved=0 none_unresolved=0 present_resolved=0 present_unresolved=0 total=0" in out,
+       "J8g nonzeroでないanchorも0件行として固定表示される(3G1で仕様変更)")
 
 # --- J9. Missing shard semantics: quality shard自体が存在しない場合はセクション自体を出さない ---
 with tempfile.TemporaryDirectory() as td:
@@ -678,6 +682,159 @@ ok(len(F.MACHINE_PATTERNS) == 33, f"J11a MACHINE_PATTERNS件数は33のまま不
 ok(len(F._SERIES_ANCHOR_INDICES) == 21, f"J11b series anchor件数は21のまま不変(got={len(F._SERIES_ANCHOR_INDICES)})")
 ok(F.extract_machine("e牙狼12がコンプリート達成") == "e牙狼12",
    "J11c 既存extract_machine()の返却値はshape追加後も不変")
+
+F._MACHINE_EXTRACTION_META.clear()
+F.reset_quality_counters()
+
+# ══════════════════════════════════════════════════════════════════════════
+# K. CC-QUALITY-3G1 — Series anchor boundary observability(表示のみ)
+#    fetch_complete_info.py側の生カウンタ(anchor×boundary×outcomeの84キー)は
+#    3E3時点から既に個別に記録済みで、本フェーズでは一切変更しない。
+#    merge_complete_data.py側の表示だけがNONE/PRESENTを合算していた問題を修正した
+#    ことを検証する。producer/parser/resolverは対象外。
+# ══════════════════════════════════════════════════════════════════════════
+
+# --- K1. Schema: 21 anchors x 4 counters = 84(producer側は不変であることの確認) ---
+ok(len(F._SERIES_ANCHOR_INDICES) == 21, f"K1a series anchor件数は21(3G1でも不変, got={len(F._SERIES_ANCHOR_INDICES)})")
+ok(len(M._SERIES_ANCHOR_SLUGS) == 21, f"K1b merge側のanchor slugリストも21件(got={len(M._SERIES_ANCHOR_SLUGS)})")
+ok(len(F.MACHINE_PATTERNS) == 33, f"K1c MACHINE_PATTERNS件数は33のまま不変(got={len(F.MACHINE_PATTERNS)})")
+_theoretical_series_keys = len(M._SERIES_ANCHOR_SLUGS) * 2 * 2
+ok(_theoretical_series_keys == 84, f"K1d series telemetryの理論key数は84(21anchor x boundary2 x outcome2, got={_theoretical_series_keys})")
+
+# --- K2. Exact Boundary Split: 2anchor分の合成countsで4次元が独立して保たれる ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    _k2_counts = {
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_NONE_RESOLVED": 2,
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_NONE_UNRESOLVED": 3,
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_PRESENT_RESOLVED": 0,
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 4,
+        "EXTRACT_SERIES_GARO_ANCHOR_BOUNDARY_NONE_RESOLVED": 1,
+        "EXTRACT_SERIES_GARO_ANCHOR_BOUNDARY_NONE_UNRESOLVED": 0,
+        "EXTRACT_SERIES_GARO_ANCHOR_BOUNDARY_PRESENT_RESOLVED": 1,
+        "EXTRACT_SERIES_GARO_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 2,
+    }
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": _k2_counts, "meta": {"run_number": "3"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("series[hokuto_anchor]: none_resolved=2 none_unresolved=3 present_resolved=0 present_unresolved=4 total=9" in out,
+       f"K2a hokuto_anchorの4次元が独立して正しく表示される")
+    ok("series[garo_anchor]: none_resolved=1 none_unresolved=0 present_resolved=1 present_unresolved=2 total=4" in out,
+       f"K2b garo_anchorの4次元が独立して正しく表示される(旧設計ではNONE+PRESENTが合算され区別不能だった)")
+
+# --- K3. Aggregate Consistency: 21anchor合計 == aggregate表の値 ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    _k3_counts = {
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_NONE_RESOLVED": 5,
+        "EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 3,
+        "EXTRACT_SERIES_VALVRAVE_ANCHOR_BOUNDARY_NONE_UNRESOLVED": 2,
+        "EXTRACT_SERIES_VALVRAVE_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 5,
+        "EXTRACT_SERIES_GARO_ANCHOR_BOUNDARY_PRESENT_RESOLVED": 1,
+    }
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": _k3_counts, "meta": {"run_number": "4"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    # NONE resolved合計=5, NONE unresolved合計=2, PRESENT resolved合計=1, PRESENT unresolved合計=8
+    ok("series_boundary_none: resolved=5 unresolved=2" in out, f"K3a aggregate NONEが21anchor合計と一致する")
+    ok("series_boundary_present: resolved=1 unresolved=8" in out, f"K3b aggregate PRESENTが21anchor合計と一致する(3G blocker解消の直接証拠)")
+
+# --- K4. PRESENT-only Evidence: aggregate PRESENT unresolved=8が複数anchorに分散していても再構成できる ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    _k4_counts = {
+        "EXTRACT_SERIES_TOKYOGHOUL_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 3,
+        "EXTRACT_SERIES_GARO_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 5,
+    }
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": _k4_counts, "meta": {"run_number": "5"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("series_boundary_present: resolved=0 unresolved=8" in out, "K4a aggregate PRESENT unresolved=8(3件+5件の合計)")
+    ok("series[tokyoghoul_anchor]: none_resolved=0 none_unresolved=0 present_resolved=0 present_unresolved=3 total=3" in out,
+       "K4b どのanchorが8件中3件を占めるか個別に特定できる(3G blocker解消)")
+    ok("series[garo_anchor]: none_resolved=0 none_unresolved=0 present_resolved=0 present_unresolved=5 total=5" in out,
+       "K4c どのanchorが8件中5件を占めるか個別に特定できる(3G blocker解消)")
+
+# --- K5. Zero Run: 全カウンタ0でも21anchor全件が0行として表示される ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"COLLECTED": 0}, "meta": {"run_number": "6"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("🔬 Extraction Telemetry" in out, "K5a zero runでもshardが存在すればExtraction Telemetryは出力される")
+    _zero_anchor_lines = [f"series[{slug}]: none_resolved=0 none_unresolved=0 present_resolved=0 present_unresolved=0 total=0"
+                          for slug in M._SERIES_ANCHOR_SLUGS]
+    ok(all(line in out for line in _zero_anchor_lines), "K5b 21anchor全件が0行として固定表示される(欠落なし)")
+    ok("l_generic_0_1: resolved=0 unresolved=0" in out, "K5c L/E/E-shapeセクションは3G1導入後も既存通り出力される")
+    ok("extraction_path_single: 0" in out, "K5d Extraction Pathセクションも既存通り出力される")
+
+# --- K6. stdout: aggregate + anchor detailの両方が存在する ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"EXTRACT_SERIES_HOKUTO_ANCHOR_BOUNDARY_PRESENT_UNRESOLVED": 1}, "meta": {}}),
+        encoding="utf-8",
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("series_boundary_present: resolved=0 unresolved=1" in out, "K6a stdoutにaggregate Series Boundaryが出力される")
+    ok("series[hokuto_anchor]:" in out, "K6b stdoutにanchor別detail行が出力される")
+
+# --- K7. GITHUB_STEP_SUMMARY: aggregate + 21anchor detail + PRESENT個別値が保持される ---
+_orig_k7_env = _os.environ.get("GITHUB_STEP_SUMMARY")
+try:
+    with tempfile.TemporaryDirectory() as td:
+        _k7_summary_path = Path(td) / "step_summary_k7.md"
+        _k7_summary_path.write_text("", encoding="utf-8")
+        _os.environ["GITHUB_STEP_SUMMARY"] = str(_k7_summary_path)
+        F.reset_quality_counters()
+        _k7_meta = F._classify_pattern_bucket(F.MACHINE_PATTERN_SLUGS.index("garo_anchor"), "牙狼はひりつく感じ")
+        F._record_extraction_telemetry(_k7_meta, resolved=False)
+        M._print_extraction_telemetry(F.get_quality_counters())
+        _k7_content = _k7_summary_path.read_text(encoding="utf-8")
+        ok("Series Anchor Boundary" in _k7_content, "K7a GITHUB_STEP_SUMMARYへanchor detail見出しが書かれる")
+        ok("| garo_anchor | 0 | 0 | 0 | 1 | 1 |" in _k7_content,
+           "K7b GITHUB_STEP_SUMMARYでgaro_anchorのPRESENT unresolved=1が個別行として残る")
+        ok("牙狼はひりつく感じ" not in _k7_content, "K7c GITHUB_STEP_SUMMARYにもraw candidate文字列は含まれない")
+finally:
+    if _orig_k7_env is None:
+        _os.environ.pop("GITHUB_STEP_SUMMARY", None)
+    else:
+        _os.environ["GITHUB_STEP_SUMMARY"] = _orig_k7_env
+
+# --- K8. Privacy: secret-likeなraw文字列がstdout/summaryどちらにも出ない ---
+F.reset_quality_counters()
+_K8_SECRET = "3G1_this_raw_candidate_must_never_leak_zzz888"
+_k8_meta = F._classify_pattern_bucket(F.MACHINE_PATTERN_SLUGS.index("tekken_anchor"), _K8_SECRET + "鉄拳6")
+F._record_extraction_telemetry(_k8_meta, resolved=True)
+import io as _io_k8, contextlib as _ctx_k8
+_buf_k8 = _io_k8.StringIO()
+with _ctx_k8.redirect_stdout(_buf_k8):
+    M._print_extraction_telemetry(F.get_quality_counters())
+ok(_K8_SECRET not in _buf_k8.getvalue(), "K8 anchor detail表示にもraw candidate文字列は一切含まれない")
+
+# --- K9. Regression: 既存L/E/E-shape/pathのkey名・出力は3G1導入前後で不変 ---
+F.reset_quality_counters()
+_k9_l = F._classify_pattern_bucket(F._L_GENERIC_PATTERN_IDX, "LINEからチェック")
+F._record_extraction_telemetry(_k9_l, resolved=False)
+_k9_out = {}
+_buf_k9 = _io_k8.StringIO()
+with _ctx_k8.redirect_stdout(_buf_k9):
+    M._print_extraction_telemetry(F.get_quality_counters())
+ok("l_generic_2plus: resolved=0 unresolved=1" in _buf_k9.getvalue(), "K9 L_GENERICの出力key/formatは3G1導入後も不変")
+
+# --- K10. Parser Behavior Gate: fetch_complete_info.pyの抽出結果は3G1前後で不変 ---
+ok(F.extract_machine("e牙狼12がコンプリート達成") == "e牙狼12", "K10a extract_machine()の返却値は3G1でも不変")
+ok(F.extract_machines("北斗も達成、バジリスクも達成でコンプリート") == ["北斗も達成", "バジリスクも達成"],
+   "K10b extract_machines()の返却値・順序・cardinalityは3G1でも不変(表示のみの変更であることの直接証拠)")
 
 F._MACHINE_EXTRACTION_META.clear()
 F.reset_quality_counters()

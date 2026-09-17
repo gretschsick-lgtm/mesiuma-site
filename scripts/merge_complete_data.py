@@ -147,8 +147,13 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
         ("no_underscore", g("EXTRACT_E_GENERIC_SHAPE_NO_UNDERSCORE_RESOLVED"), g("EXTRACT_E_GENERIC_SHAPE_NO_UNDERSCORE_UNRESOLVED")),
     ]
 
+    # CC-QUALITY-3G1: anchor別のNONE/PRESENT×resolved/unresolvedを合算せず、
+    # 4次元をそのまま保持する（3Gで判明した「表示時のみの集約でPRESENT単独の
+    # anchor別内訳が失われる」問題への対応）。生カウンタ自体は3E3の時点から
+    # anchor×boundary×outcomeで個別に記録済みであり、fetch_complete_info.py側の
+    # 変更は不要（producer/parser/resolverは本フェーズで一切touchしない）。
     series_none_r = series_none_u = series_present_r = series_present_u = 0
-    anchor_rows: list[tuple[str, int, int, int]] = []
+    anchor_detail_rows: list[tuple[str, int, int, int, int, int]] = []
     for slug in _SERIES_ANCHOR_SLUGS:
         up = slug.upper()
         nr = g(f"EXTRACT_SERIES_{up}_BOUNDARY_NONE_RESOLVED")
@@ -160,8 +165,9 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
         series_present_r += pr
         series_present_u += pu
         total = nr + nu + pr + pu
-        if total:
-            anchor_rows.append((slug, nr + pr, nu + pu, total))
+        # 固定21anchor全件を毎回表示する（0件も含む）。cardinalityは常に
+        # len(_SERIES_ANCHOR_SLUGS)件で確定しており、production textに依存しない。
+        anchor_detail_rows.append((slug, nr, nu, pr, pu, total))
 
     path_rows = [
         ("SINGLE", g("EXTRACTION_PATH_SINGLE")),
@@ -189,10 +195,11 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
     lines.append(f"| none | {series_none_r} | {series_none_u} | {series_none_r + series_none_u} |")
     lines.append(f"| present | {series_present_r} | {series_present_u} | {series_present_r + series_present_u} |")
 
-    if anchor_rows:
-        lines.append("\n### Series Boundary (nonzero anchors only)\n\n| anchor | resolved | unresolved | total |\n|---|---:|---:|---:|")
-        for slug, r, u, total in anchor_rows:
-            lines.append(f"| {slug} | {r} | {u} | {total} |")
+    lines.append("\n### Series Anchor Boundary (all %d fixed anchors)\n\n"
+                 "| anchor | none_resolved | none_unresolved | present_resolved | present_unresolved | total |\n"
+                 "|---|---:|---:|---:|---:|---:|" % len(_SERIES_ANCHOR_SLUGS))
+    for slug, nr, nu, pr, pu, total in anchor_detail_rows:
+        lines.append(f"| {slug} | {nr} | {nu} | {pr} | {pu} | {total} |")
 
     lines.append("\n### Extraction Path\n\n| path | count |\n|---|---:|")
     for name, c in path_rows:
@@ -210,8 +217,9 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
     print(f"   e_generic_shape_no_underscore: resolved={e_shape_rows[1][1]} unresolved={e_shape_rows[1][2]}")
     print(f"   series_boundary_none: resolved={series_none_r} unresolved={series_none_u}")
     print(f"   series_boundary_present: resolved={series_present_r} unresolved={series_present_u}")
-    for slug, r, u, total in anchor_rows:
-        print(f"   series[{slug}]: resolved={r} unresolved={u} total={total}")
+    for slug, nr, nu, pr, pu, total in anchor_detail_rows:
+        print(f"   series[{slug}]: none_resolved={nr} none_unresolved={nu} "
+              f"present_resolved={pr} present_unresolved={pu} total={total}")
     print(f"   extraction_path_single: {path_rows[0][1]}")
     print(f"   extraction_path_multi: {path_rows[1][1]}")
 
