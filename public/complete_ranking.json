@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-19T05:46:51+09:00",
+  "generated_at": "2026-09-19T10:41:04+09:00",
   "monthly": [
     {
       "month": "2026-09",
       "label": "2026年9月",
-      "total_count": 304,
+      "total_count": 305,
       "stores": [
         {
           "rank": 1,
@@ -31,32 +31,32 @@
         },
         {
           "rank": 5,
+          "name": "キング観光サウザンド今池1号店",
+          "count": 5,
+          "x_url": "https://x.com/imaike_1"
+        },
+        {
+          "rank": 6,
           "name": "マルハンメガシティ水戸赤塚",
           "count": 5,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "がちゃぽん札幌新川店",
           "count": 4
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "キクヤ穂積店",
           "count": 4,
           "x_url": "https://x.com/hozumi1202"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ゾーン行橋1000",
           "count": 4,
           "x_url": "https://x.com/zone_yukuhashi"
-        },
-        {
-          "rank": 9,
-          "name": "キング観光サウザンド今池1号店",
-          "count": 4,
-          "x_url": "https://x.com/imaike_1"
         },
         {
           "rank": 10,
@@ -121,7 +121,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 35
+          "count": 36
         },
         {
           "rank": 2,
@@ -993,7 +993,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 512
+        "count": 513
       },
       {
         "rank": 2,
@@ -1041,7 +1041,7 @@
         "count": 15
       }
     ],
-    "total_count": 4185
+    "total_count": 4186
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 87,
@@ -1130,13 +1130,13 @@
     "SUPER COSMO PREMIUM大東店": 12,
     "クラブハウス本店": 12,
     "ダイナム滋賀彦根店～Since2025.7.18～": 12,
+    "キング観光サウザンド今池1号店": 12,
     "マルハン加島": 12,
     "スーパーD'ステーション39福岡本店": 12,
     "ダイナム北斗七重浜店": 11,
     "SuperD'station39福重店": 11,
     "玉屋∞本店": 11,
     "グランキコーナ松原店": 11,
-    "キング観光サウザンド今池1号店": 11,
     "ピーアーク北綾瀬駅前": 11,
     "マルハンメガシティ静岡": 11,
     "新！ガーデン川口安行": 10,
@@ -1838,7 +1838,7 @@
     "ザザシティ店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3606,
+    "records_with_store_id": 3607,
     "records_without_store_id": 579,
     "canonical_store_ids": 575
   }
