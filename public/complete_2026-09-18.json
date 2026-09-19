@@ -1,5 +1,27 @@
 [
   {
+    "id": "e3d47dd39f83",
+    "date": "2026-09-18",
+    "time": "17:59",
+    "store": "FACE1300小倉南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "627",
+    "text": "コンプリート報告📝  627番台　e牙狼12黄金騎士極限  コンプリート達成㊗️ おめでとうございます🎊  #コンプリート #牙狼 #メガフェイス1300小倉南",
+    "x_url": "https://x.com/face_1300/status/2100872417275269205",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-19T19:48:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSfMUriaIAAh4T9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSfMUriaIAAh4T9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "18425371bb"
+  },
+  {
     "id": "ef4bf4231a0e",
     "date": "2026-09-18",
     "time": "17:16",
@@ -20,5 +42,27 @@
     "image_url": "https://pbs.twimg.com/media/HSe-0BrbAAAMSDx?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "83a44a3e46"
+  },
+  {
+    "id": "39a02d36abf2",
+    "date": "2026-09-18",
+    "time": "14:26",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "453",
+    "text": "マルハンメガシティ三島駿東から こ、この時間にっ！！！ 🤩🤩コンプリート速報です🤩🤩  ｅ牙狼１２ＸＸ－ＭＪ 【453番台】のお客様 コンプリート達成🎇 🎉おめでとうございます🎉  この後もマルハンメガシティ三島駿東で ごゆっくりとお楽しみ下さいませ😁",
+    "x_url": "https://x.com/mega_mishima/status/2100818747292635254",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-19T19:47:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSea9eYbIAAVjtN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSea9eYbIAAVjtN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "1cd7e84e8e"
   }
 ]

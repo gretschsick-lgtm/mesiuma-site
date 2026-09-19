@@ -1,5 +1,27 @@
 [
   {
+    "id": "ca5cd1951d45",
+    "date": "2026-09-19",
+    "time": "21:21",
+    "store": "ビックマーチ東習志野店",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "1445",
+    "text": "千葉最大1409台の出玉情報🎰  シルバーウィーク突入‼️ 初日から見事なコンプリート⚡️ 『1445番台 Lかぐや様』 打っていたお客様おめでとうございます🎉  シルバーウィークもマーチ♪  #ビックマーチ #千葉最大",
+    "x_url": "https://x.com/joypackx/status/2101285659419791815",
+    "store_handle": "joypackx",
+    "store_x_url": "https://x.com/joypackx",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-19T19:47:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSlEK0pbQAANpdL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSlEK0pbQAANpdL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "e744c71a3d"
+  },
+  {
     "id": "a51a00136f8d",
     "date": "2026-09-19",
     "time": "20:01",
@@ -21,5 +43,50 @@
     "image_url": "https://pbs.twimg.com/media/HSkxehWasAEBB5z?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "35782adb87"
+  },
+  {
+    "id": "ae0bcb9a1c98",
+    "date": "2026-09-19",
+    "time": "19:06",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "455",
+    "text": "こんばんは🌃  マルハンメガシティ三島駿東より 📢続報📢です  ☑️ｅ牙狼12黄金騎士極限 455番台のお客様‼️‼️  🎉祝🎉コンプリート達成😄  おめでとうございます👏  何と本日2⃣台目となります😲   この後もマルハンメガシティ三島駿東で  ごゆっくりとお楽しみ下さいませ🎵",
+    "x_url": "https://x.com/mega_mishima/status/2101251452349944157",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-19T19:47:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSkjEiTa0AAjURE?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSkAZO2aAAArn2E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSkjEiTa0AAjURE?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "81005369ad22",
+    "date": "2026-09-19",
+    "time": "17:00",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "460",
+    "text": "こんばんは⭐️  マルハンメガシティ三島駿東より 📝コンプリート速報です🤩  ✅e牙狼12黄金騎士極限  460番台のお客様！コンプリート達成💪  🎉👏おめでとうございます👏🎉  この後もマルハンメガシティ三島駿東で ごゆっくりとお楽しみ下さいませ😁",
+    "x_url": "https://x.com/mega_mishima/status/2101219750210888013",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-19T19:47:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSkAZO2aAAArn2E?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSkAZO2aAAArn2E?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "1cd7e84e8e"
   }
 ]
