@@ -90,6 +90,50 @@
     "store_id": "1cd7e84e8e"
   },
   {
+    "id": "6bb45eff22a6",
+    "date": "2026-09-18",
+    "time": "22:58",
+    "store": "キコーナ府中",
+    "machine": "Lかぐや様は告らせたい",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🌟キコーナ府中店から速報です⸜(* ॑  ॑* )⸝    閉店間際に🎰スロット🎰から 【Lかぐや様は告らせたい】 #コンプリート 達成〜🎉🎊  おめでとうございます٩( ''ω'' )و  #キコーナ府中 #ハイパー818 #今日も感謝を込めて",
+    "x_url": "https://x.com/kicona_fuchu/status/2100947545015107622",
+    "store_handle": "kicona_fuchu",
+    "store_x_url": "https://x.com/kicona_fuchu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-20T00:02:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSgQnfya0AI8nK9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSgQnfya0AI8nK9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000017",
+    "store_id": "bb1fd7e8e2"
+  },
+  {
+    "id": "40f58e5f994e",
+    "date": "2026-09-18",
+    "time": "18:52",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "1656",
+    "text": "🕊コンプリート情報㊗️  18:45 ｅ東京喰種Ｗ   1656番台  コンプリート達成👏👏👏  おめでとうございます🎉  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2100885585984672077",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-19T23:57:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSfYTGia4AAANBJ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSfYTGia4AAANBJ?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04138e2cd3"
+  },
+  {
     "id": "e3d47dd39f83",
     "date": "2026-09-18",
     "time": "17:59",
