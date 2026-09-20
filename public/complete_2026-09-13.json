@@ -463,6 +463,29 @@
     "store_id": "1da438c5d6"
   },
   {
+    "id": "2c6d357c7d48",
+    "date": "2026-09-13",
+    "time": "16:17",
+    "store": "サミット別府店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "206",
+    "text": "本日も来店ありがとうございます😊  たった今、 4円パチンコにてコンプリート発生👏 ✨206番台【e牙狼12 XX-MJ】✨  おめでとうございます🎉",
+    "x_url": "https://x.com/summitbeltupu/status/2099034673532035198",
+    "store_handle": "summitbeltupu",
+    "store_x_url": "https://x.com/summitbeltupu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-20T08:57:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSFE3fAaMAAomwz?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSFE4nLbAAAKUtN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSFE3fAaMAAomwz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "9a4dfb7369"
+  },
+  {
     "id": "2733c4eeb2c0",
     "date": "2026-09-13",
     "time": "13:30",
