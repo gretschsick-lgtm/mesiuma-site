@@ -1,5 +1,53 @@
 [
   {
+    "id": "c86f0e15343a",
+    "date": "2026-09-16",
+    "time": "23:53",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【SPACE666】 本日の結果発表～！！！  🥇ソードアートオンラインⅡ　　　　Complete!  🥈甲鉄城のカバネリ海門決戦　　　　13000枚over  🥉革命機ヴァルヴレイヴ2　　　　　13000枚over  SAOⅡからコンプリートが出てメイン機も元気な台が多数！！万枚も8台と大変盛り上がりましたね！！",
+    "x_url": "https://x.com/space666tobata/status/2100236576370618432",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:28:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSWII3HbEAAADmT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSWILZqbAAE9qB4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSWI51Fa8AAM4Lv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSWII3HbEAAADmT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "f8132a1307"
+  },
+  {
+    "id": "d29411f5eed6",
+    "date": "2026-09-16",
+    "time": "23:53",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【SPACE666】 本日の結果発表～！！！  🥇ソードアートオンラインⅡ　　　　Complete!  🥈甲鉄城のカバネリ海門決戦　　　　13000枚over  🥉革命機ヴァルヴレイヴ2　　　　　13000枚over  SAOⅡからコンプリートが出てメイン機も元気な台が多数！！万枚も8台と大変盛り上がりましたね！！",
+    "x_url": "https://x.com/space666tobata/status/2100236576370618432",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:28:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSWII3HbEAAADmT?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSWILZqbAAE9qB4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSWI51Fa8AAM4Lv?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSWII3HbEAAADmT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "3cebe5bee530",
     "date": "2026-09-16",
     "time": "22:58",
@@ -65,6 +113,28 @@
     "image_url": "https://pbs.twimg.com/media/HSV0I8GasAA5Jim?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "63ba670979"
+  },
+  {
+    "id": "2a1488810926",
+    "date": "2026-09-16",
+    "time": "20:04",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1473",
+    "text": "1473番台 Lヴァルヴレイヴ コンプリートおめでとうございます🎉 #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2100178953638219810",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:27:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSVVktTbEAAJG50?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSVVktTbEAAJG50?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "771f030669"
   },
   {
     "id": "18fe4ea86cbe",
@@ -177,6 +247,28 @@
     "store_id": "68dbb15c10"
   },
   {
+    "id": "654487acbb0f",
+    "date": "2026-09-16",
+    "time": "17:27",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "703",
+    "text": "✨コンプリート機能発動✨ 先ほど、７０３番台 スマスロ革命機ヴァルヴレイヴ２にて コンプリート機能発動！！  明日、開放予定になります。 この後も #キャッスル春日井 で お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2100139593534427325",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:27:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSUxhktakAAhHmT?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSUxhktakAAhHmT?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
+  },
+  {
     "id": "9df3f1526eb5",
     "date": "2026-09-16",
     "time": "17:01",
@@ -218,6 +310,28 @@
     "image_url": "https://pbs.twimg.com/media/HSUo9muagAE5jqb?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "4130ca6374"
+  },
+  {
+    "id": "52fd96be5f0e",
+    "date": "2026-09-16",
+    "time": "15:30",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1392",
+    "text": "1392番台 L革命機ヴァルヴレイヴ２ コンプリートおめでとうございます🎉 #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2100109952765603968",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:27:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSUW2ZobIAAWU9J?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSUW2ZobIAAWU9J?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "771f030669"
   },
   {
     "id": "a405c04fd670",

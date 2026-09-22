@@ -1,5 +1,49 @@
 [
   {
+    "id": "f3ed6b9da3a2",
+    "date": "2026-09-20",
+    "time": "19:11",
+    "store": "パチンコの玉屋∞本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "459",
+    "text": "⚠️コンプリート速報⚠️ e牙狼12黄金騎士極限 459番台のお客様  ㊗コンプリート達成㊗ おめでとうございます‼🎉🎉  #コンプリート #牙狼 #黄金騎士誕生",
+    "x_url": "https://x.com/tamaya_honten/status/2101615315604168721",
+    "store_handle": "tamaya_honten",
+    "store_x_url": "https://x.com/tamaya_honten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:30:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSppifXaEAAbios?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSppifXaEAAbios?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "de68290eab"
+  },
+  {
+    "id": "01b4afab8d0e",
+    "date": "2026-09-20",
+    "time": "16:58",
+    "store": "キクヤ春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "452",
+    "text": "⭐️キクヤ春日井店⭐️ 　コンプリート速報‼️ 　　🎉452番台🎉 Ｌ革命機ヴァルヴレイヴ２ 🎊おめでとうございます🎊",
+    "x_url": "https://x.com/315kasugai/status/2101581813265359346",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:27:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSpRfBtaQAAukT8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSpRfBtaQAAukT8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "0be75e50ab79",
     "date": "2026-09-20",
     "time": "09:00",
@@ -21,5 +65,49 @@
     "image_url": "https://pbs.twimg.com/media/HSstjvgX0AEGUy_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "7ed84b7f36"
+  },
+  {
+    "id": "879a86e7bfbf",
+    "date": "2026-09-20",
+    "time": "09:00",
+    "store": "楽園大宮店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "623",
+    "text": "昨日！！ 地下1F1円ぱちんこ623番台 e東京喰種Wにて！コンプリート達成！！👏📷 おめでとうございます！！📷📷📷",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2101823724098113754",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:28:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSqjt7WawAA6NPx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSqjt7WawAA6NPx?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "04950fcd53"
+  },
+  {
+    "id": "bd32300c4c41",
+    "date": "2026-09-20",
+    "time": "00:26",
+    "store": "キクヤ春日井店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "1139",
+    "text": "⭐️キクヤ春日井店⭐️ 　コンプリート速報‼️ 　　😎２台目😎 　　🎉1139番台🎉 　e東京喰種　超デカヘソ 🎊おめでとうございます🎊",
+    "x_url": "https://x.com/315kasugai/status/2101694431544119722",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-22T17:27:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSq377tbwAIoCT9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSq377tbwAIoCT9?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "5a18003e2d"
   }
 ]

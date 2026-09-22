@@ -1,76 +1,76 @@
 {
-  "generated_at": "2026-09-23T00:56:57+09:00",
+  "generated_at": "2026-09-23T03:07:35+09:00",
   "monthly": [
     {
       "month": "2026-09",
       "label": "2026年9月",
-      "total_count": 343,
+      "total_count": 363,
       "stores": [
         {
           "rank": 1,
           "name": "プレイランドキャッスル春日井店",
-          "count": 10,
+          "count": 12,
           "x_url": "https://x.com/castle_kasugai"
         },
         {
           "rank": 2,
           "name": "キクヤ春日井店",
-          "count": 8,
+          "count": 10,
           "x_url": "https://x.com/315kasugai"
         },
         {
           "rank": 3,
+          "name": "メガフェイス1450本山",
+          "count": 7,
+          "x_url": "https://x.com/megaface_1450"
+        },
+        {
+          "rank": 4,
+          "name": "キング観光サウザンド栄若宮大通店",
+          "count": 7,
+          "x_url": "https://x.com/wakakin_tsujic"
+        },
+        {
+          "rank": 5,
+          "name": "SPACE(スペース444＆666)",
+          "count": 6,
+          "x_url": "https://x.com/space666tobata"
+        },
+        {
+          "rank": 6,
           "name": "マルハンメガシティ三島駿東",
           "count": 6,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 4,
+          "rank": 7,
           "name": "キング観光サウザンド今池1号店",
           "count": 6,
           "x_url": "https://x.com/imaike_1"
         },
         {
-          "rank": 5,
-          "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
-          "count": 5
-        },
-        {
-          "rank": 6,
-          "name": "キコーナ堺本店",
-          "count": 5,
-          "x_url": "https://x.com/ksakaihonten"
-        },
-        {
-          "rank": 7,
-          "name": "キクヤ穂積店",
-          "count": 5,
-          "x_url": "https://x.com/hozumi1202"
-        },
-        {
           "rank": 8,
           "name": "マルハンメガシティ水戸赤塚",
-          "count": 5,
+          "count": 6,
           "x_url": "https://x.com/maruhanakatsuka"
         },
         {
           "rank": 9,
-          "name": "メガフェイス1450本山",
-          "count": 5,
-          "x_url": "https://x.com/megaface_1450"
+          "name": "ダイナム岐阜関緑町店~Since2023.12.28~",
+          "count": 5
         },
         {
           "rank": 10,
-          "name": "SPACE(スペース444＆666)",
-          "count": 4,
-          "x_url": "https://x.com/space666tobata"
+          "name": "キコーナ堺本店",
+          "count": 5,
+          "x_url": "https://x.com/ksakaihonten"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 60
+          "count": 67
         },
         {
           "rank": 2,
@@ -84,13 +84,13 @@
         },
         {
           "rank": 4,
-          "name": "L東京喰種",
+          "name": "スロット ソードアート・オンラインⅡ",
           "count": 13
         },
         {
           "rank": 5,
-          "name": "スロット ソードアート・オンラインⅡ",
-          "count": 12
+          "name": "L東京喰種",
+          "count": 13
         },
         {
           "rank": 6,
@@ -109,20 +109,20 @@
         },
         {
           "rank": 9,
-          "name": "Lミリオンゴッド神々の軌跡",
+          "name": "L甲鉄城のカバネリ海門決戦",
           "count": 7
         },
         {
           "rank": 10,
-          "name": "L甲鉄城のカバネリ海門決戦",
-          "count": 6
+          "name": "Lミリオンゴッド神々の軌跡",
+          "count": 7
         }
       ],
       "pachinko_machines": [
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 43
+          "count": 49
         },
         {
           "rank": 2,
@@ -132,12 +132,12 @@
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 18
+          "count": 19
         },
         {
           "rank": 4,
           "name": "e東京喰種W",
-          "count": 13
+          "count": 14
         },
         {
           "rank": 5,
@@ -886,38 +886,38 @@
       {
         "rank": 2,
         "name": "ARROW浪速店",
-        "count": 78,
+        "count": 80,
         "x_url": "https://x.com/arrow_naniwa"
       },
       {
         "rank": 3,
         "name": "プレイランドキャッスル春日井店",
-        "count": 66,
+        "count": 68,
         "x_url": "https://x.com/castle_kasugai"
       },
       {
         "rank": 4,
         "name": "キング観光サウザンド栄若宮大通店",
-        "count": 62,
+        "count": 65,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
         "rank": 5,
         "name": "キクヤ春日井店",
-        "count": 58,
+        "count": 60,
         "x_url": "https://x.com/315kasugai"
       },
       {
         "rank": 6,
-        "name": "楽園池袋店ゲートウェイ",
-        "count": 56,
-        "x_url": "https://x.com/rakuenikebukuro"
+        "name": "メガフェイス1450本山",
+        "count": 57,
+        "x_url": "https://x.com/megaface_1450"
       },
       {
         "rank": 7,
-        "name": "メガフェイス1450本山",
-        "count": 55,
-        "x_url": "https://x.com/megaface_1450"
+        "name": "楽園池袋店ゲートウェイ",
+        "count": 56,
+        "x_url": "https://x.com/rakuenikebukuro"
       },
       {
         "rank": 8,
@@ -934,7 +934,7 @@
       {
         "rank": 10,
         "name": "楽園大宮店",
-        "count": 47,
+        "count": 48,
         "x_url": "https://x.com/rakuen_ohmiya"
       }
     ],
@@ -942,7 +942,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 731
+        "count": 738
       },
       {
         "rank": 2,
@@ -967,7 +967,7 @@
       {
         "rank": 6,
         "name": "スロット ソードアート・オンラインⅡ",
-        "count": 97
+        "count": 98
       },
       {
         "rank": 7,
@@ -977,7 +977,7 @@
       {
         "rank": 8,
         "name": "Lチバリヨ2ZB",
-        "count": 91
+        "count": 92
       },
       {
         "rank": 9,
@@ -994,7 +994,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 520
+        "count": 526
       },
       {
         "rank": 2,
@@ -1004,12 +1004,12 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 199
+        "count": 200
       },
       {
         "rank": 4,
         "name": "e東京喰種W",
-        "count": 115
+        "count": 116
       },
       {
         "rank": 5,
@@ -1042,37 +1042,37 @@
         "count": 15
       }
     ],
-    "total_count": 4224
+    "total_count": 4244
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 87,
-    "ARROW浪速店": 78,
-    "プレイランドキャッスル春日井店": 66,
-    "キング観光サウザンド栄若宮大通店": 62,
-    "キクヤ春日井店": 58,
+    "ARROW浪速店": 80,
+    "プレイランドキャッスル春日井店": 68,
+    "キング観光サウザンド栄若宮大通店": 65,
+    "キクヤ春日井店": 60,
+    "メガフェイス1450本山": 57,
     "楽園池袋店ゲートウェイ": 56,
-    "メガフェイス1450本山": 55,
     "テキサス小倉店": 54,
     "マルハンメガシティ三島駿東": 52,
-    "楽園大宮店": 47,
+    "楽園大宮店": 48,
+    "SPACE(スペース444＆666)": 47,
     "メガフェイス1070菊陽": 47,
-    "SPACE(スペース444＆666)": 45,
     "メガフェイス1300淀川": 44,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 42,
     "キクヤ一宮店": 42,
     "プレイランドキャッスル熱田店": 39,
+    "マルハンメガシティ水戸赤塚": 39,
     "ビックマーチ東習志野店": 38,
-    "マルハンメガシティ水戸赤塚": 38,
+    "テキサス白島店": 38,
+    "FACE1300小倉南店": 38,
     "キコーナ堺本店": 38,
-    "テキサス白島店": 37,
-    "FACE1300小倉南店": 37,
+    "マルハン川越店": 36,
     "サガちゃんPARK": 35,
-    "マルハン川越店": 34,
     "ダイナム長野上田店": 34,
     "キクヤ穂積店": 32,
     "メガフェイス960飯塚": 29,
+    "パチンコの玉屋∞本店": 28,
     "グランキコーナひたちなか店": 27,
-    "パチンコの玉屋∞本店": 27,
     "マルハンメガシティ柏": 26,
     "新ガーデン西浦和": 26,
     "メガフェイス1250": 25,
@@ -1839,7 +1839,7 @@
     "ザザシティ店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3645,
+    "records_with_store_id": 3665,
     "records_without_store_id": 579,
     "canonical_store_ids": 575
   }
