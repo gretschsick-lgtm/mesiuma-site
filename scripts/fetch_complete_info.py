@@ -578,6 +578,61 @@ def _classify_pattern_bucket(pattern_idx: int, name: str) -> dict | None:
     return None
 
 
+# ── CC-QUALITY-3H: valvrave_anchor限定のresolver fallback（T3-C） ────────────
+_VALVRAVE_ANCHOR_IDX = MACHINE_PATTERN_SLUGS.index("valvrave_anchor")
+
+
+def _series_truncate_candidate(pattern_idx: int, name: str) -> str | None:
+    """PRESENT boundary検出済みのseries anchor candidateについて、助詞境界の
+    直前までtruncateした候補文字列を返す（`_classify_pattern_bucket()`の
+    boundary検出と同一ロジックの再計算・raw_machine自体は書き換えない）。
+    anchor不一致/boundary非検出/truncate結果が元と同一ならNoneを返す。
+    """
+    anchor = _SERIES_ANCHOR_TEXT.get(pattern_idx, "")
+    if not anchor:
+        return None
+    idx = name.find(anchor)
+    if idx == -1:
+        return None
+    trailing = name[idx + len(anchor):]
+    masked = _SERIES_BRACKET_RE.sub(lambda mm: "#" * len(mm.group()), trailing)
+    m = _SERIES_PARTICLE_RE.search(masked)
+    if not m:
+        return None
+    truncated = name[:idx + len(anchor) + m.start()]
+    return truncated if truncated != name else None
+
+
+def _derive_valvrave_t3_fallback(meta: dict | None, raw_machine: str) -> str | None:
+    """CC-QUALITY-3H: valvrave_anchor限定のresolver fallback候補を返す。
+
+    3G3のREAD-ONLY監査で実DB(master/alias)全件回帰0件・A→B誤解決0件を確認した
+    唯一のanchor（valvrave_anchor）にのみ適用する。以下をすべて満たす場合のみ
+    truncated候補を返し、それ以外はNone（呼び出し側はfail-open、resolver.resolve()を
+    再度呼ばない）:
+      1. meta（CC-QUALITY-3E3のbucket分類）がkind="series"かつslug="valvrave_anchor"
+      2. meta["boundary"]がTrue（PRESENT boundary検出済み）
+      3. truncate結果が元のraw_machineと異なる
+      4. truncate結果にextract_identity_tokens()で識別トークン（数字等）が1つ以上残る
+         （3G3で確認した安全条件: 数字なしのbare truncateはambiguity guardの対象のまま
+         残すべきで、fallbackを試みても無意味かつ不要な2回目resolve呼び出しになる）
+    raw_machine自体・truncated候補自体はどこにも永続化しない（呼び出し元の一時計算のみ）。
+    """
+    if not meta or meta.get("kind") != "series":
+        return None
+    if meta.get("slug") != "valvrave_anchor":
+        return None
+    if not meta.get("boundary"):
+        return None
+    truncated = _series_truncate_candidate(_VALVRAVE_ANCHOR_IDX, raw_machine)
+    if not truncated:
+        return None
+    from machine_resolver import extract_identity_tokens
+    if not extract_identity_tokens(truncated):
+        return None
+    return truncated
+
+
 # 直近1回の extract_machine()/extract_machines() 呼び出しで、返却されたcandidate
 # （1件 or 複数件、返却順と一致）ごとのbucket metadataを保持する使い捨てscratch。
 # raw candidate文字列そのものは保持しない（bucket dictのみ）。
@@ -2161,17 +2216,30 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
             # （既存のexception policyは変更しない）。
             try:
                 if resolver and raw_machine and raw_machine != "不明":
+                    _meta = _MACHINE_EXTRACTION_META.get(id(e))
                     resolved = resolver.resolve(raw_machine)
+                    # CC-QUALITY-3H: original解決が失敗した場合のみ、valvrave_anchor限定の
+                    # truncated候補でresolverを再試行する（original-first・fail-open）。
+                    # 抽出候補・entry・dedup・slotは一切変更しない（resolver呼び出しの
+                    # 引数を1回追加するだけ）。truncated文字列自体はどこにも永続化しない。
+                    if resolved is None:
+                        _t3_candidate = _derive_valvrave_t3_fallback(_meta, raw_machine)
+                        if _t3_candidate:
+                            _qcount("T3_VALVRAVE_ATTEMPTED")
+                            resolved = resolver.resolve(_t3_candidate)
+                            _qcount("T3_VALVRAVE_RESOLVED" if resolved else "T3_VALVRAVE_UNRESOLVED")
                     if resolved:
                         official_machine = resolved["official_name"]
                         machine_id       = resolved["machine_id"]
                         _qcount("MACHINE_RESOLVED")
-                        _record_extraction_telemetry(_MACHINE_EXTRACTION_META.get(id(e)), resolved=True)
+                        _record_extraction_telemetry(_meta, resolved=True)
                     else:
                         # 85% 未満 → unknown_machines に保存（AI 推測のみでは確定しない）
+                        # T3 fallbackも失敗した場合を含め、常にORIGINAL raw_machineを保存する
+                        # （truncated候補を保存することはない＝fail-open元の意味論を維持）。
                         resolver.save_unknown(raw_machine, x_url)
                         _qcount("MACHINE_UNRESOLVED")
-                        _record_extraction_telemetry(_MACHINE_EXTRACTION_META.get(id(e)), resolved=False)
+                        _record_extraction_telemetry(_meta, resolved=False)
             finally:
                 _MACHINE_EXTRACTION_META.pop(id(e), None)
 

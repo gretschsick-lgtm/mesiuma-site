@@ -174,6 +174,13 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
         ("MULTI",  g("EXTRACTION_PATH_MULTI")),
     ]
 
+    # CC-QUALITY-3H: valvrave_anchor限定resolver fallback(T3-C)のfixed counter。
+    # fetch_complete_info.py側は既にATTEMPTED/RESOLVED/UNRESOLVEDの3keyのみを
+    # 記録しており、ここでは表示するだけ(raw candidate/truncated文字列は一切含まない)。
+    t3_valvrave_attempted  = g("T3_VALVRAVE_ATTEMPTED")
+    t3_valvrave_resolved   = g("T3_VALVRAVE_RESOLVED")
+    t3_valvrave_unresolved = g("T3_VALVRAVE_UNRESOLVED")
+
     lines = ["\n## Extraction Telemetry (CC-QUALITY-3E3/3E5, metadata-only)\n"]
     lines.append("_raw candidate文字列・tweet本文・author/handle・URL・画像は含まれません。"
                   "パターンbucket分類 + resolver結果の整数カウンタのみです。_\n")
@@ -205,6 +212,12 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
     for name, c in path_rows:
         lines.append(f"| {name} | {c} |")
 
+    lines.append("\n### T3 Valvrave Fallback (CC-QUALITY-3H, valvrave_anchor only)\n\n"
+                 "| metric | count |\n|---|---:|")
+    lines.append(f"| attempted | {t3_valvrave_attempted} |")
+    lines.append(f"| resolved | {t3_valvrave_resolved} |")
+    lines.append(f"| unresolved | {t3_valvrave_unresolved} |")
+
     table_md = "\n".join(lines)
 
     print("🔬 Extraction Telemetry (CC-QUALITY-3E3/3E5, metadata-only):")
@@ -222,6 +235,9 @@ def _print_extraction_telemetry(totals: dict[str, int]) -> None:
               f"present_resolved={pr} present_unresolved={pu} total={total}")
     print(f"   extraction_path_single: {path_rows[0][1]}")
     print(f"   extraction_path_multi: {path_rows[1][1]}")
+    print(f"   t3_valvrave_attempted: {t3_valvrave_attempted}")
+    print(f"   t3_valvrave_resolved: {t3_valvrave_resolved}")
+    print(f"   t3_valvrave_unresolved: {t3_valvrave_unresolved}")
 
     step_summary_path = os.environ.get("GITHUB_STEP_SUMMARY")
     if step_summary_path:

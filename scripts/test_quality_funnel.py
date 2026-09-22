@@ -839,5 +839,210 @@ ok(F.extract_machines("北斗も達成、バジリスクも達成でコンプリ
 F._MACHINE_EXTRACTION_META.clear()
 F.reset_quality_counters()
 
+# ══════════════════════════════════════════════════════════════════════════
+# L. CC-QUALITY-3H — valvrave_anchor限定 resolver fallback(T3-C)
+#    original-first・fail-open・raw_machine/truncated候補は一切永続化しない。
+#    3G3のREAD-ONLY監査でmaster/alias全件回帰0件・A→B誤解決0件を確認した
+#    唯一のanchor(valvrave_anchor)にのみ適用する。他anchorには一切影響しない。
+# ══════════════════════════════════════════════════════════════════════════
+
+class _TableResolver:
+    """raw_name -> 固定結果のlookup tableを持つfakeリゾルバ(実DB/ネットワーク非依存)。
+    T3のoriginal→truncatedという2段階resolve呼び出し順序を検証するため、
+    _FakeResolver(単一固定結果のみ)とは別に用意する。"""
+    def __init__(self, table: dict):
+        self._table = table
+        self.resolve_calls: list[str] = []
+        self.save_unknown_calls: list[str] = []
+
+    def resolve(self, raw_name):
+        self.resolve_calls.append(raw_name)
+        return self._table.get(raw_name)
+
+    def save_unknown(self, raw_name, source_url=""):
+        self.save_unknown_calls.append(raw_name)
+
+
+def _run_t3_case(machine_text: str, table: dict, series_slug: str = "valvrave_anchor"):
+    """1entryをsupabase_write_complete()に通し、(fake_resolver, quality_counters)を返す。"""
+    F.reset_quality_counters()
+    F._MACHINE_EXTRACTION_META.clear()
+    entry = {"id": "t3test", "x_url": "https://x.com/foo/status/9", "machine": machine_text}
+    pidx = F.MACHINE_PATTERN_SLUGS.index(series_slug)
+    meta = F._classify_pattern_bucket(pidx, machine_text)
+    if meta is not None:
+        F._MACHINE_EXTRACTION_META[id(entry)] = meta
+    fake = _TableResolver(table)
+    orig_get_resolver = MR.get_resolver
+    try:
+        MR.get_resolver = lambda: fake
+        _with_sb_env_and_request(lambda: F.supabase_write_complete([entry]))
+    finally:
+        MR.get_resolver = orig_get_resolver
+    return fake, F.get_quality_counters()
+
+
+# --- L1/L14. Positive: original unresolved, truncated(identity token保持)で解決する ---
+_L1_TABLE = {"ヴァルヴレイヴ2": {"official_name": "L革命機ヴァルヴレイヴ2", "machine_id": "mid-valvrave-2"}}
+_l1_fake, _l1_c = _run_t3_case("ヴァルヴレイヴ2も達成", _L1_TABLE)
+ok(_l1_fake.resolve_calls == ["ヴァルヴレイヴ2も達成", "ヴァルヴレイヴ2"],
+   f"L1a original→truncatedの順で2回resolveが呼ばれる (got={_l1_fake.resolve_calls})")
+ok(_l1_fake.save_unknown_calls == [], "L1b fallback成功時はsave_unknownが呼ばれない")
+ok(_l1_c.get("T3_VALVRAVE_ATTEMPTED") == 1, f"L1c ATTEMPTED=1 (got={_l1_c})")
+ok(_l1_c.get("T3_VALVRAVE_RESOLVED") == 1, f"L1d RESOLVED=1 (got={_l1_c})")
+ok(_l1_c.get("T3_VALVRAVE_UNRESOLVED") is None, "L1e UNRESOLVEDは加算されない")
+ok(_l1_c.get("MACHINE_RESOLVED") == 1, "L1f 最終結果はMACHINE_RESOLVEDとして1回のみ加算される")
+ok(_l1_c.get("MACHINE_UNRESOLVED") is None, "L1g MACHINE_UNRESOLVEDは加算されない(二重カウントなし)")
+
+# --- L2/L15. Negative: bare valvrave(identity tokenなし)はfallback自体を試みない ---
+_l2_fake, _l2_c = _run_t3_case("ヴァルヴレイヴも達成", {})
+ok(_l2_fake.resolve_calls == ["ヴァルヴレイヴも達成"], f"L2a identity tokenなしなら2回目のresolveを呼ばない (got={_l2_fake.resolve_calls})")
+ok(_l2_fake.save_unknown_calls == ["ヴァルヴレイヴも達成"], "L2b save_unknownはORIGINAL文字列で呼ばれる")
+ok(_l2_c.get("T3_VALVRAVE_ATTEMPTED") is None, "L2c ATTEMPTEDは加算されない(ineligible)")
+ok(_l2_c.get("MACHINE_UNRESOLVED") == 1, "L2d 既存のfail-open unresolved挙動を維持")
+
+# --- L3/L16. Wrong generation: 存在しない世代番号はA→Bにならず、fail-openのまま ---
+for _gen in ["0", "1", "3"]:
+    _fake_g, _c_g = _run_t3_case(f"ヴァルヴレイヴ{_gen}も達成", {})  # tableにgen一致なし
+    ok(_fake_g.resolve_calls == [f"ヴァルヴレイヴ{_gen}も達成", f"ヴァルヴレイヴ{_gen}"],
+       f"L3a gen={_gen}: truncatedでも2回目resolveは試みるが誤った機種へは解決しない")
+    ok(_fake_g.save_unknown_calls == [f"ヴァルヴレイヴ{_gen}も達成"], f"L3b gen={_gen}: save_unknownはORIGINAL")
+    ok(_c_g.get("T3_VALVRAVE_UNRESOLVED") == 1, f"L3c gen={_gen}: UNRESOLVEDとして正しく加算される")
+
+# --- L4/L17. Wrong type: 型不一致は誤ってresolveされない(既存type_okガード) ---
+_L4_TABLE = {"ヴァルヴレイヴ2": {"official_name": "L革命機ヴァルヴレイヴ2", "machine_id": "mid-valvrave-2"}}
+_l4_fake, _l4_c = _run_t3_case("eヴァルヴレイヴ2は達成", _L4_TABLE)
+# resolverはfakeなので型ガード自体はmachine_resolver.resolve()側の責務(3G3で実DB確認済み)。
+# ここではT3層が「resolverの戻り値をそのまま使うだけ」で独自の型判定を行わないことを確認する。
+ok(_l4_fake.resolve_calls == ["eヴァルヴレイヴ2は達成", "eヴァルヴレイヴ2"],
+   f"L4a T3層はresolver呼び出しのみで型判定を行わない(got={_l4_fake.resolve_calls})")
+
+# --- L5/L18. Original already resolves: fallbackは一切試みられない ---
+_L5_TABLE = {"L革命機ヴァルヴレイヴ2も達成": {"official_name": "L革命機ヴァルヴレイヴ2", "machine_id": "mid-valvrave-2"}}
+_l5_fake, _l5_c = _run_t3_case("L革命機ヴァルヴレイヴ2も達成", _L5_TABLE)
+ok(_l5_fake.resolve_calls == ["L革命機ヴァルヴレイヴ2も達成"], f"L5a originalが成功すれば2回目resolveは呼ばれない (got={_l5_fake.resolve_calls})")
+ok(_l5_c.get("T3_VALVRAVE_ATTEMPTED") is None, "L5b ATTEMPTEDは加算されない")
+ok(_l5_c.get("MACHINE_RESOLVED") == 1, "L5c machine_id/official_nameはoriginalの結果のまま")
+
+# --- L6/L19. Non-Valvrave anchors: boundary+identity tokenがあってもT3は発火しない ---
+_non_valvrave_cases = [
+    ("garo_anchor", "牙狼12は達成"),
+    ("tokyoghoul_anchor", "東京喰種2は達成"),
+    ("kabaneri_anchor", "カバネリ2は達成"),
+    ("lycoris_anchor", "リコリス2は達成"),
+    ("karakuri_anchor", "からくりサーカス2は達成"),
+]
+for _slug, _text in _non_valvrave_cases:
+    _fake_nv, _c_nv = _run_t3_case(_text, {}, series_slug=_slug)
+    ok(_fake_nv.resolve_calls == [_text], f"L6 {_slug}: T3は発火せず1回のみresolveが呼ばれる (got={_fake_nv.resolve_calls})")
+    ok(_c_nv.get("T3_VALVRAVE_ATTEMPTED") is None, f"L6 {_slug}: ATTEMPTEDは加算されない(allowlist外)")
+
+# --- L7/L20. Parentheses safety: 括弧内の助詞相当文字列はboundaryとして検出されない ---
+_l7_meta = F._classify_pattern_bucket(F._VALVRAVE_ANCHOR_IDX, "ヴァルヴレイヴ（は）2")
+ok(_l7_meta["boundary"] is False, f"L7a 括弧内の「は」はboundaryとして検出されない(既存の括弧マスク仕様、変更なし) (got={_l7_meta})")
+_l7_fb = F._derive_valvrave_t3_fallback(_l7_meta, "ヴァルヴレイヴ（は）2")
+ok(_l7_fb is None, "L7b boundary非検出のためfallback候補はNone")
+
+# --- L8/L21. Cardinality/Order/Slot regression: T3導入後もparser出力は完全に不変 ---
+ok(F.extract_machines("北斗も達成、バジリスクも達成でコンプリート") == ["北斗も達成", "バジリスクも達成"],
+   "L8a extract_machines()の返却値・順序・cardinalityはT3導入後も不変")
+ok(F.extract_machine("e牙狼12がコンプリート達成") == "e牙狼12", "L8b extract_machine()の返却値もT3導入後も不変")
+
+# --- L9/L22. Unknown Machine Semantics: A(成功)/B(失敗)/C(ineligible)でsave_unknown呼び出しが正確 ---
+# A: fallback成功 -> save_unknown 0回
+_l9a_fake, _ = _run_t3_case("ヴァルヴレイヴ2も達成", _L1_TABLE)
+ok(len(_l9a_fake.save_unknown_calls) == 0, "L9a fallback成功時、save_unknown呼び出し回数=0")
+# B: fallback試行したが失敗 -> save_unknown 1回、ORIGINAL
+_l9b_fake, _ = _run_t3_case("ヴァルヴレイヴ99も達成", {})
+ok(_l9b_fake.save_unknown_calls == ["ヴァルヴレイヴ99も達成"], f"L9b fallback失敗時、save_unknown=1回・ORIGINAL (got={_l9b_fake.save_unknown_calls})")
+# C: identity token無しでineligible -> 2回目resolve呼ばれない、save_unknown 1回、ORIGINAL
+_l9c_fake, _l9c_c = _run_t3_case("ヴァルヴレイヴが", {})
+ok(len(_l9c_fake.resolve_calls) == 1, "L9c ineligibleなら2回目のresolve呼び出し自体が発生しない")
+ok(_l9c_fake.save_unknown_calls == ["ヴァルヴレイヴが"], "L9d ineligible時もsave_unknownはORIGINAL")
+
+# --- L10/L23. Telemetry Count: 4パターンでATTEMPTED/RESOLVED/UNRESOLVEDの整合性を確認 ---
+# success
+_, _l10a_c = _run_t3_case("ヴァルヴレイヴ2も達成", _L1_TABLE)
+ok(_l10a_c.get("T3_VALVRAVE_ATTEMPTED") == 1 and _l10a_c.get("T3_VALVRAVE_RESOLVED") == 1
+   and _l10a_c.get("T3_VALVRAVE_UNRESOLVED") is None, f"L10a success: attempted=1 resolved=1 unresolved=0 (got={_l10a_c})")
+# failure after second resolve
+_, _l10b_c = _run_t3_case("ヴァルヴレイヴ99も達成", {})
+ok(_l10b_c.get("T3_VALVRAVE_ATTEMPTED") == 1 and _l10b_c.get("T3_VALVRAVE_UNRESOLVED") == 1
+   and _l10b_c.get("T3_VALVRAVE_RESOLVED") is None, f"L10b failure: attempted=1 resolved=0 unresolved=1 (got={_l10b_c})")
+# identity-ineligible
+_, _l10c_c = _run_t3_case("ヴァルヴレイヴが", {})
+ok(_l10c_c.get("T3_VALVRAVE_ATTEMPTED") is None and _l10c_c.get("T3_VALVRAVE_RESOLVED") is None
+   and _l10c_c.get("T3_VALVRAVE_UNRESOLVED") is None, f"L10c ineligible: attempted=0 resolved=0 unresolved=0 (got={_l10c_c})")
+# original already resolved
+_, _l10d_c = _run_t3_case("L革命機ヴァルヴレイヴ2も達成", _L5_TABLE)
+ok(_l10d_c.get("T3_VALVRAVE_ATTEMPTED") is None, f"L10d original resolved: attempted=0 (got={_l10d_c})")
+
+# --- L11/L24. Telemetry Summary(merge_complete_data.py): zero / nonzero 両方確認 ---
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"COLLECTED": 0}, "meta": {"run_number": "7"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("t3_valvrave_attempted: 0" in out and "t3_valvrave_resolved: 0" in out and "t3_valvrave_unresolved: 0" in out,
+       "L11a zero runでもT3 valvrave fallback3keyが固定表示される")
+
+with tempfile.TemporaryDirectory() as td:
+    fake_root = Path(td)
+    (fake_root / "public").mkdir()
+    (fake_root / "public" / "complete_quality_handle_a.json").write_text(
+        json.dumps({"counts": {"T3_VALVRAVE_ATTEMPTED": 3, "T3_VALVRAVE_RESOLVED": 2, "T3_VALVRAVE_UNRESOLVED": 1},
+                    "meta": {"run_number": "8"}}), encoding="utf-8"
+    )
+    out, _, _ = _run_main_with_fixture(fake_root)
+    ok("t3_valvrave_attempted: 3" in out and "t3_valvrave_resolved: 2" in out and "t3_valvrave_unresolved: 1" in out,
+       f"L11b nonzero値が正しく表示され、attempted=resolved+unresolvedの整合性が保たれる")
+
+# --- L12/L25. GITHUB_STEP_SUMMARY: T3セクションも同様に永続化される・raw文字列は含まれない ---
+_orig_l12_env = _os.environ.get("GITHUB_STEP_SUMMARY")
+try:
+    with tempfile.TemporaryDirectory() as td:
+        _l12_summary_path = Path(td) / "step_summary_l12.md"
+        _l12_summary_path.write_text("", encoding="utf-8")
+        _os.environ["GITHUB_STEP_SUMMARY"] = str(_l12_summary_path)
+        F.reset_quality_counters()
+        F._qcount("T3_VALVRAVE_ATTEMPTED")
+        F._qcount("T3_VALVRAVE_RESOLVED")
+        M._print_extraction_telemetry(F.get_quality_counters())
+        _l12_content = _l12_summary_path.read_text(encoding="utf-8")
+        ok("T3 Valvrave Fallback" in _l12_content, "L12a GITHUB_STEP_SUMMARYへT3セクション見出しが書かれる")
+        ok("| attempted | 1 |" in _l12_content and "| resolved | 1 |" in _l12_content,
+           "L12b GITHUB_STEP_SUMMARYへT3の値が正しく書かれる")
+finally:
+    if _orig_l12_env is None:
+        _os.environ.pop("GITHUB_STEP_SUMMARY", None)
+    else:
+        _os.environ["GITHUB_STEP_SUMMARY"] = _orig_l12_env
+
+# --- L13. Privacy: T3経路でもraw candidate/truncated候補がどこにも漏れない ---
+_L13_SECRET_SUFFIX = "3H_never_leak_zzz777"
+_L13_TABLE = {}  # 常に未解決
+_l13_fake, _l13_c = _run_t3_case(f"ヴァルヴレイヴ2{_L13_SECRET_SUFFIX}", _L13_TABLE)
+_buf_l13 = _io_k8.StringIO()
+with _ctx_k8.redirect_stdout(_buf_l13):
+    M._print_extraction_telemetry(F.get_quality_counters())
+ok(_L13_SECRET_SUFFIX not in _buf_l13.getvalue(), "L13a T3 telemetry出力にraw candidate/truncated文字列が含まれない")
+with tempfile.TemporaryDirectory() as td:
+    _p13 = Path(td) / "complete_quality_test_l13.json"
+    F.write_quality_summary(str(_p13))
+    _l13_summary = _p13.read_text(encoding="utf-8")
+    ok(_L13_SECRET_SUFFIX not in _l13_summary, "L13b write_quality_summary()出力にもraw candidateが含まれない")
+
+# --- L26. 3E3A correlation safety: T3導入後も_MACHINE_EXTRACTION_METAが残留しない ---
+F._MACHINE_EXTRACTION_META.clear()
+_run_t3_case("ヴァルヴレイヴ2も達成", _L1_TABLE)
+_run_t3_case("ヴァルヴレイヴ99も達成", {})
+_run_t3_case("ヴァルヴレイヴが", {})
+ok(len(F._MACHINE_EXTRACTION_META) == 0, f"L26 T3を経由する全パターン後も_MACHINE_EXTRACTION_META残留=0件(got size={len(F._MACHINE_EXTRACTION_META)})")
+
+F._MACHINE_EXTRACTION_META.clear()
+F.reset_quality_counters()
+
 print(f"\n=> PASS={PASS} FAIL={FAIL}")
 sys.exit(1 if FAIL else 0)
