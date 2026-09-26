@@ -1,5 +1,27 @@
 [
   {
+    "id": "c15ba0cb4ff7",
+    "date": "2026-09-21",
+    "time": "22:12",
+    "store": "123+N和歌山本店",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは( ´∀｀) ファン感抽選当たったお客様おめでとうございます🎊 交換対応させて頂いてまるこも嬉しかった🙌  そして！ 46枚貸スロット L炎炎の消防隊2 コンプリート達成🎉🎉 おめでとうございます㊗️  明日はポイント交換会開催✨ 朝からお待ちしてます♪  #コンプリート #炎炎の消防隊",
+    "x_url": "https://x.com/123wakayamaten/status/2102023115912233405",
+    "store_handle": "123wakayamaten",
+    "store_x_url": "https://x.com/123wakayamaten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-26T17:59:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSvi4IFboAA1A6t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSvi4IFboAA1A6t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003",
+    "store_id": "d5b3c5b5d8"
+  },
+  {
     "id": "a7365eb39b8e",
     "date": "2026-09-21",
     "time": "21:42",
@@ -130,5 +152,28 @@
     "image_url": "https://pbs.twimg.com/media/HSuz51abMAAtlfp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "64e06319a6fd",
+    "date": "2026-09-21",
+    "time": "12:08",
+    "store": "123+N和歌山本店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "おはようございます☀️ 昨日閉店後に気付いたんですが… 46枚スロット Lチバリヨ2ZBコンプリート達成🎉🎉 びっくりして🫢慌てて写真撮ったのでPOP置いてないのに、今気づきました😂 おめでとうございます㊗️  そして本日22日✨ ポイント交換会EX開催🎊 レノアご希望のお客座はカウンターまで☝️  #和歌山",
+    "x_url": "https://x.com/123wakayamaten/status/2102233518277628012",
+    "store_handle": "123wakayamaten",
+    "store_x_url": "https://x.com/123wakayamaten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-26T17:59:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSyiPbdboAAp1MH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSyiPbeaUAAJ2Eg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSyiPbdboAAp1MH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_id": "d5b3c5b5d8"
   }
 ]
