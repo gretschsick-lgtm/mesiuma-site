@@ -373,5 +373,27 @@
     "image_url": "https://pbs.twimg.com/media/HSyZesEXsAA08xB?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "f8c881f7c5"
+  },
+  {
+    "id": "df892877de79",
+    "date": "2026-09-21",
+    "time": "08:16",
+    "store": "高知宿毛店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "524",
+    "text": "#ダイナム高知宿毛店 9/21(月) 524番台 Lいざ番長 #コンプリート されたお客様、おめでとうございます🎉 #いざ番",
+    "x_url": "https://x.com/dynam_tomokichi/status/2102900024007069796",
+    "store_handle": "dynam_tomokichi",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-28T22:59:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HS8AavxawAAcWly?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HSyZesEXsAA08xB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HS8AavxawAAcWly?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
   }
 ]

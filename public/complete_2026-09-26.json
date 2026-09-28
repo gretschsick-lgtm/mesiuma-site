@@ -68,6 +68,50 @@
     "store_id": "f012229481"
   },
   {
+    "id": "6aed374ca7ab",
+    "date": "2026-09-26",
+    "time": "22:56",
+    "store": "キング観光津店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "12",
+    "text": "こんばんは❗️ #津キン です🦁 9月26日【土】  12番台　 e東京喰種 337番台　eフィーバーキン肉マン 🎊コンプリート達成です🎊  #コンプリート #キング観光サウザンド津店 #キング観光 #津",
+    "x_url": "https://x.com/tsukin777/status/2103846068719137080",
+    "store_handle": "tsukin777",
+    "store_x_url": "https://x.com/tsukin777",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T23:16:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTJczqeawAAOicF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HTJczqPasAAWygF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTJczqeawAAOicF?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "da015f0b495e",
+    "date": "2026-09-26",
+    "time": "22:56",
+    "store": "キング観光津店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは❗️ #津キン です🦁 9月26日【土】  12番台　 e東京喰種 337番台　eフィーバーキン肉マン 🎊コンプリート達成です🎊  #コンプリート #キング観光サウザンド津店 #キング観光 #津",
+    "x_url": "https://x.com/tsukin777/status/2103846068719137080",
+    "store_handle": "tsukin777",
+    "store_x_url": "https://x.com/tsukin777",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T23:16:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTJczqeawAAOicF?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HTJczqPasAAWygF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTJczqeawAAOicF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
     "id": "1a98cbd51394",
     "date": "2026-09-26",
     "time": "22:44",
@@ -224,6 +268,28 @@
     "image_url": "https://pbs.twimg.com/media/HTOFBfxXkAA0XOQ?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "fa00cfe601"
+  },
+  {
+    "id": "7d973210a9e5",
+    "date": "2026-09-26",
+    "time": "19:21",
+    "store": "プレイランドキャッスル大曽根店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "652",
+    "text": "コンプリート作動🤩   652番台　スマスロ北斗の拳　転生の章2で コンプリート機能が作動‼️  ご遊技台は明日開放予定となります。  この後もキャッスル大曽根店でお楽しみくださいませ♬",
+    "x_url": "https://x.com/castle_ozone/status/2103791989426896979",
+    "store_handle": "castle_ozone",
+    "store_x_url": "https://x.com/castle_ozone",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T22:58:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTIrmo2a0AAPQ_5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTIrmo2a0AAPQ_5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "afd224ac9b"
   },
   {
     "id": "056a655f42a8",
