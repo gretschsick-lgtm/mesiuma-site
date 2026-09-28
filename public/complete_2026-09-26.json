@@ -47,6 +47,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "307f37d47384",
+    "date": "2026-09-26",
+    "time": "20:30",
+    "store": "ダイナム栃木大田原店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "176",
+    "text": "9月26日(土) 176番台　ｅ牙狼１２ＸＸ－ＭＪ ✨コンプリート達成✨ 🎉おめでとうございます🎉  #コンプリート #ダイナム大田原店 #牙狼",
+    "x_url": "https://x.com/dynam_00307/status/2104171720059863374",
+    "store_handle": "dynam_00307",
+    "store_x_url": "https://x.com/dynam_00307",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T00:21:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTOFBfxXkAA0XOQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTOFBfxXkAA0XOQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "fa00cfe601"
+  },
+  {
     "id": "056a655f42a8",
     "date": "2026-09-26",
     "time": "19:04",
@@ -66,6 +88,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HTInv7cbUAAqYG6?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "58d3dcfe628f",
+    "date": "2026-09-26",
+    "time": "17:43",
+    "store": "ディーボ小坂店【公式】アカウント",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "157",
+    "text": "スロットだけじゃない！  『e東京喰種』157番台でコンプリート達成！！ おめでとうございます！",
+    "x_url": "https://x.com/divo_x_kosaka/status/2103767478488986015",
+    "store_handle": "divo_x_kosaka",
+    "store_x_url": "https://x.com/divo_x_kosaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T00:21:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTIVXxKaYAAYtLa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTIVXxKaYAAYtLa?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "1869f151f0"
   },
   {
     "id": "4fc90ec8f8e0",
@@ -88,5 +132,27 @@
     "image_url": "https://pbs.twimg.com/media/HTIA96MaUAALR9_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000011",
     "store_id": "c800581abf"
+  },
+  {
+    "id": "4fcff1e2e75a",
+    "date": "2026-09-26",
+    "time": "09:00",
+    "store": "メッセ三鷹店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "885",
+    "text": "おはようございます！ 速報です🎙️  ㊗昨日 885番台！！戦国乙女5 コンプリート出ました✨  おめでとうございます🎉  本日もコンプリートへの挑戦待ってます❤️‍🔥  皆さまのご来店心よりお待ちしております💁",
+    "x_url": "https://x.com/messe_mitaka/status/2103998053074251997",
+    "store_handle": "messe_mitaka",
+    "store_x_url": "https://x.com/messe_mitaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T00:22:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTJX7iGacAApZjZ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTJX7iGacAApZjZ?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "8409531db2"
   }
 ]
