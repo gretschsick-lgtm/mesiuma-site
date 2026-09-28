@@ -88,6 +88,29 @@
     "store_id": "cbc9c2710d"
   },
   {
+    "id": "2d842463be04",
+    "date": "2026-09-23",
+    "time": "19:45",
+    "store": "フォーティ・サミット",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "1070",
+    "text": "本日2台目のコンプリート㊗️ ⚔️Lチバリヨ２📢 1070番台 でご遊技されたお客様🎉🎉 おめでとうございます😍 #サミット　 #スマスロ　 #コンプリート",
+    "x_url": "https://x.com/40_hagiwara/status/2102710942593335595",
+    "store_handle": "40_hagiwara",
+    "store_x_url": "https://x.com/40_hagiwara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:21:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HS5UXmLbgAAYJbH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HS5UaFfa8AAQBQi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HS5UXmLbgAAYJbH?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "3470d1dd2b"
+  },
+  {
     "id": "b50b2b7630e7",
     "date": "2026-09-23",
     "time": "19:42",
@@ -241,5 +264,26 @@
     "image_url": "https://pbs.twimg.com/media/HS40ioDbEAAxfhO?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "d8931939d4"
+  },
+  {
+    "id": "33f6a638a2f2",
+    "date": "2026-09-23",
+    "time": "17:08",
+    "store": "D'ステーション39大村店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "569",
+    "text": "㊗️コンプリート達成!!㊗️  🔥スマスロ攻殻機動隊🔥 569番台にてコンプリート機能発動‼️ おめでとうございます👏👏👏  夢のコンプリート達成✨ 圧巻の出玉スピードでした😆  この後のお時間も、皆さまのご来店を スタッフ一同お待ちしております😊",
+    "x_url": "https://x.com/D_oomura/status/2102671352620810245",
+    "store_handle": "d_oomura",
+    "store_x_url": "https://x.com/D_oomura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:21:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HS4qi_ZbQAAVQP8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HS4qi_ZbQAAVQP8?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008"
   }
 ]

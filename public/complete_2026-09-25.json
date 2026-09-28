@@ -1,5 +1,48 @@
 [
   {
+    "id": "52bbc6d1e33e",
+    "date": "2026-09-25",
+    "time": "23:05",
+    "store": "ABC浜松森田町店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "843",
+    "text": "コンプリート報告🚨 843番台『LソードアートオンラインⅡ』 コンプリート達成おめでとうございます🎊  これがウルティマ🫠",
+    "x_url": "https://x.com/ABC_moritacho/status/2103486031526015145",
+    "store_handle": "abc_moritacho",
+    "store_x_url": "https://x.com/ABC_moritacho",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:19:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTEVZUqa8AEdwkz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTEVZUqa8AEdwkz?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "4ea546fb7c"
+  },
+  {
+    "id": "28f44ce54c5d",
+    "date": "2026-09-25",
+    "time": "23:02",
+    "store": "ディーボ空港通店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "続けてコンプリート報告🔥 本日2台目のコンプリートは❗️ 黄金騎士〝e牙狼12 黄金騎士極限〟 黄金騎士が辿り着いた場所コンプリート🔥 コンプリート達成おめでとうございます✨ #セントラルディーボ空港通 #牙狼 #コンプリート",
+    "x_url": "https://x.com/divo_x_kukodori/status/2103485265763610833",
+    "store_handle": "divo_x_kukodori",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-28T06:19:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTEUsqnaoAAZpTm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTEUsqnaoAAZpTm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
     "id": "6991381f8588",
     "date": "2026-09-25",
     "time": "21:45",

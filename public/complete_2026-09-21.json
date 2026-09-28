@@ -88,6 +88,50 @@
     "store_id": "ee5a196fc0"
   },
   {
+    "id": "d95d56239cd5",
+    "date": "2026-09-21",
+    "time": "21:18",
+    "store": "キャッスル記念橋南店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "71",
+    "text": "🏰キャッスル記念橋南店です🏰  ７１番台 e牙狼12　黄金騎士極限  🎉先ほどコンプリートしました🎉  遊技台の稼働を停止しております😌 明日の開放をお待ちください！",
+    "x_url": "https://x.com/kinenbashi1010/status/2102009464593506760",
+    "store_handle": "kinenbashi1010",
+    "store_x_url": "https://x.com/kinenbashi1010",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:19:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSvWF8sbwAA14K-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSvWF8sbwAA14K-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e5a3df2192"
+  },
+  {
+    "id": "a0e01fbdc23e",
+    "date": "2026-09-21",
+    "time": "21:10",
+    "store": "ニラクいわき神谷店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "659",
+    "text": "先ほど #スマスロ ソードアート・オンラインII 　 ６５９番台にて ㊗️コンプリート㊗️達成‼️ 🎉おめでとうございます🎉 本日もお時間が許されますかぎり～🎤 最終最後のお時間がまいりますまで～🎤 ごゆっくりと お楽しみ下さいませ〜🎤  #ソードアート #コンプリート #ニラクいわき神谷",
+    "x_url": "https://x.com/niraku_kabeya/status/2102007433996431855",
+    "store_handle": "niraku_kabeya",
+    "store_x_url": "https://x.com/niraku_kabeya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:21:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSvUgCZa8AAmJ78?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSvUgCZa8AAmJ78?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "ba86dafb86"
+  },
+  {
     "id": "8b493e40cd23",
     "date": "2026-09-21",
     "time": "20:49",
@@ -108,6 +152,49 @@
     "image_url": "https://pbs.twimg.com/media/HSvP4HSagAAEtxI?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "18425371bb"
+  },
+  {
+    "id": "51fe9bfc9422",
+    "date": "2026-09-21",
+    "time": "20:06",
+    "store": "D'ステーション39大村店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "108",
+    "text": "㊗️コンプリート達成!!㊗️  D’ステーション全店オススメ機種の \"e東京喰種\"108番台\"にて コンプリート機能が発動!!👏 おめでとうございます👏👏　　　  明日9⃣月2⃣2⃣日[火・祝] 午前10時オープン 皆様のご来店 お待ちしております!!",
+    "x_url": "https://x.com/D_oomura/status/2101991572019789828",
+    "store_handle": "d_oomura",
+    "store_x_url": "https://x.com/D_oomura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:19:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSu89ONaEAAo0Fd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSu89ONaEAAo0Fd?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21"
+  },
+  {
+    "id": "90e9dcbf94f0",
+    "date": "2026-09-21",
+    "time": "19:51",
+    "store": "KEIZ江南店",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "KEIZ江南店 　　　　👌ただいま営業中👌  ⚽️eフィーバーブルーロック⚽️ 　 ✨コンプリート機能発動✨",
+    "x_url": "https://x.com/KEIZkonan/status/2101987757455544363",
+    "store_handle": "keizkonan",
+    "store_x_url": "https://x.com/keizkonan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:19:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSvCGqbawAIbT8g?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSvCGqbawAIbT8g?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c",
+    "store_id": "d258224963"
   },
   {
     "id": "9388aae7aa51",
@@ -132,6 +219,50 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "d159a8a244e9",
+    "date": "2026-09-21",
+    "time": "19:15",
+    "store": "プレイランドキャッスルワンダー店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "532",
+    "text": "またまた！ ✨コンプリート機能発動✨  先ほど、532番台の 「e牙狼１２」にて コンプリート機能発動‼️  明日、開放予定となります‼️  この後も、mozoの横にある #キャッスルワンダー で ぜひお楽しみください😆✨",
+    "x_url": "https://x.com/wonder_0921/status/2101978492820722073",
+    "store_handle": "wonder_0921",
+    "store_x_url": "https://x.com/wonder_0921",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:18:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSu5T-Wb0AAQcRl?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSu5T-Wb0AAQcRl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "2eaa3dde9d"
+  },
+  {
+    "id": "5ba597e76b8a",
+    "date": "2026-09-21",
+    "time": "19:09",
+    "store": "プレイランドキャッスルワンダー店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "575",
+    "text": "✨コンプリート機能発動✨  先ほど、575番台の 「e東京喰種」にて コンプリート機能発動‼️  明日、開放予定となります‼️  この後も、mozoの横にある #キャッスルワンダー で ぜひお楽しみください😆✨",
+    "x_url": "https://x.com/wonder_0921/status/2101977109019418646",
+    "store_handle": "wonder_0921",
+    "store_x_url": "https://x.com/wonder_0921",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:18:54Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSu49U7a4AA6RNN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSu49U7a4AA6RNN?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "2eaa3dde9d"
+  },
+  {
     "id": "a5a249f19251",
     "date": "2026-09-21",
     "time": "18:47",
@@ -152,6 +283,29 @@
     "image_url": "https://pbs.twimg.com/media/HSuz51abMAAtlfp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "400394904aff",
+    "date": "2026-09-21",
+    "time": "18:42",
+    "store": "ABC清水町長沢店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "742",
+    "text": "🚨【速報】🚨  20円スロット 742番台【L戦国乙女5】 🎊コンプリート達成🎊  コンプリート機能作動のため 稼働停止となりました‼️  シルバーウィークはまだまだ続く🔥 この後も、明日以降も ABC清水町長沢店でお楽しみください😊✨",
+    "x_url": "https://x.com/ABC_nagasawa/status/2101970236539064711",
+    "store_handle": "abc_nagasawa",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-09-28T06:19:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSuvi4saoAAwJgL?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HStI9KSawAAFA3p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSuvi4saoAAwJgL?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "7cd69c82f0"
   },
   {
     "id": "9b22fc2c3e38",
@@ -197,5 +351,27 @@
     "image_url": "https://pbs.twimg.com/media/HSyiPbdboAAp1MH?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000014",
     "store_id": "d5b3c5b5d8"
+  },
+  {
+    "id": "72c3dcd61fd4",
+    "date": "2026-09-21",
+    "time": "11:30",
+    "store": "ダイナム高知宿毛店🐩",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "524",
+    "text": "こんにちは！ 昨日524番台Ｌいざ番長にて 🎊コンプリート達成🎊 ㊗️おめでとうございます㊗️ ぜひ台データをご確認ください！  本日も朝９時からＯＰＥＮしております！！ シルバーウィークはぜひダイナムへ！！！ #ダイナム #コンプリート #スロット",
+    "x_url": "https://x.com/dynam_00277/status/2102223881339596858",
+    "store_handle": "dynam_00277",
+    "store_x_url": "https://x.com/dynam_00277",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-09-28T06:20:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HSyZesEXsAA08xB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HSyZesEXsAA08xB?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "f8c881f7c5"
   }
 ]
