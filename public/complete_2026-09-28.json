@@ -21,6 +21,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
+    "id": "3155844e3157",
+    "date": "2026-09-28",
+    "time": "21:44",
+    "store": "サンシャインKYORAKU平針",
+    "machine": "e地獄少女7500Ver.",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは〜✨ #サンバリ です♪  #e地獄少女7500ver. コンプリート機能 発動しましたー(((o(*ﾟ▽ﾟ*)o)))ｽｺﾞｰｲ！  おめでとうございまーす🎊🎉  #サンシャインKYORAKU平針  #コンプリート機能発動",
+    "x_url": "https://x.com/kyorakuhirabari/status/2104552844053643390",
+    "store_handle": "kyorakuhirabari",
+    "store_x_url": "https://x.com/kyorakuhirabari",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-02T10:15:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTTfp42asAANKOF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTTfp42asAANKOF?format=jpg&name=large",
+    "machine_id": "56716ba3-409f-465c-8b03-009fd905bcc4",
+    "store_id": "f9b4e0d3e9"
+  },
+  {
     "id": "2dceafb1a708",
     "date": "2026-09-28",
     "time": "21:18",
@@ -211,5 +233,28 @@
     "image_url": "https://pbs.twimg.com/media/HTR7GXxaYAAuaG2?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "8ac20dc797"
+  },
+  {
+    "id": "9d4dd8a1d54e",
+    "date": "2026-09-28",
+    "time": "02:33",
+    "store": "がちゃぽん苫小牧店",
+    "machine": "e 真・北斗無双 第5章 夢幻闘双",
+    "machine_type": "pachinko",
+    "slot_number": "1035",
+    "text": "こんばんはーー🌙 昨日まで残高106円だったリオネッタです💁‍♀️  昨日9/28(月)は安藤りなさんが 来店していました☺️ 店内も大変盛り上がっていました✨ ではではまず、パチンコの報告から📝  4円パチンコ1035番台 真・北斗無双第5章夢幻闘双にて 🎊コンプリート達成🎊 おめでとうございます🎉",
+    "x_url": "https://x.com/Gachapon102030/status/2104625632584065202",
+    "store_handle": "gachapon102030",
+    "store_x_url": "https://x.com/Gachapon102030",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-02T10:10:42Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTUh2u5aUAAU3lC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HTUg1KHbUAAhgm5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTUh2u5aUAAU3lC?format=jpg&name=large",
+    "machine_id": "90030ef0-24cc-4cb6-8c96-289653a686af",
+    "store_id": "81ab0b38f6"
   }
 ]
