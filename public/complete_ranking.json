@@ -1,13 +1,19 @@
 {
-  "generated_at": "2026-10-02T11:01:45+09:00",
+  "generated_at": "2026-10-02T11:43:21+09:00",
   "monthly": [
     {
       "month": "2026-10",
       "label": "2026年10月",
-      "total_count": 1,
+      "total_count": 2,
       "stores": [
         {
           "rank": 1,
+          "name": "ＢＩＧディッパー京都駅前店",
+          "count": 1,
+          "x_url": "https://x.com/bigdipper_kyoto"
+        },
+        {
+          "rank": 2,
           "name": "マルハン下松店",
           "count": 1,
           "x_url": "https://x.com/marukudatencho"
@@ -16,6 +22,11 @@
       "slot_machines": [
         {
           "rank": 1,
+          "name": "Lパチスロ からくりサーカス2",
+          "count": 1
+        },
+        {
+          "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
           "count": 1
         }
@@ -973,7 +984,7 @@
       {
         "rank": 3,
         "name": "Lパチスロ からくりサーカス2",
-        "count": 159
+        "count": 160
       },
       {
         "rank": 4,
@@ -1063,7 +1074,7 @@
         "count": 16
       }
     ],
-    "total_count": 4412
+    "total_count": 4413
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 90,
@@ -1176,6 +1187,7 @@
     "パラッツォ三郷中央店": 10,
     "キコーナ松戸": 10,
     "スタジアム2001八女店": 10,
+    "ＢＩＧディッパー京都駅前店": 10,
     "店長の左肘ツヨシ": 10,
     "店長あらた　マルハンメガシティ長野": 9,
     "やすだひばりヶ丘店": 9,
@@ -1186,7 +1198,6 @@
     "キャッスル記念橋南店": 9,
     "楽園柏店": 9,
     "キング塩尻店": 9,
-    "ＢＩＧディッパー京都駅前店": 9,
     "楽園上新屋": 9,
     "天王寺ホール本館": 9,
     "パラッツォ大阪三国店": 9,
@@ -1868,7 +1879,7 @@
     "ニューアサヒ茅野店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3805,
+    "records_with_store_id": 3806,
     "records_without_store_id": 607,
     "canonical_store_ids": 585
   }
