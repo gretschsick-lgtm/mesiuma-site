@@ -22,6 +22,28 @@
     "store_id": "35782adb87"
   },
   {
+    "id": "4241b2878deb",
+    "date": "2026-10-01",
+    "time": "21:26",
+    "store": "マルハン草薙アピア店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは～😺  📣コンプリート速報です🩷   ≪L真打吉宗≫  コンプリート達成🎊  おめでとうございます🐱",
+    "x_url": "https://x.com/apiamaruhan/status/2105635530713256342",
+    "store_handle": "apiamaruhan",
+    "store_x_url": "https://x.com/apiamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-03T18:56:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTi4UO6acAAzlfU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTi4UO6acAAzlfU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "5d635be117"
+  },
+  {
     "id": "6b8900134e8b",
     "date": "2026-10-01",
     "time": "21:00",
@@ -44,5 +66,49 @@
     "image_url": "https://pbs.twimg.com/media/HTiw37ragAATMgL?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000001",
     "store_id": "ec2322cb03"
+  },
+  {
+    "id": "67ff1a92c830",
+    "date": "2026-10-01",
+    "time": "19:36",
+    "store": "キング観光サウザンド今池1号店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Lヴァルヴレイヴ2でコンプリート達成‼ おめでとうございます📷 本日も23時まで営業中🤩 #Ｌヴァルヴレイヴ2  #コンプリート  #パチンコ #スロット  #キング観光  #今池 #1号  #地下鉄  #今池駅  #8番出口",
+    "x_url": "https://x.com/imaike_1/status/2105607877167911078",
+    "store_handle": "imaike_1",
+    "store_x_url": "https://x.com/imaike_1",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-03T18:48:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTie_5CbgAAtKYR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTie_5CbgAAtKYR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "68dbb15c10"
+  },
+  {
+    "id": "4ff1d46e5b10",
+    "date": "2026-10-01",
+    "time": "19:36",
+    "store": "キング観光サウザンド今池1号店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "Lヴァルヴレイヴ2でコンプリート達成‼ おめでとうございます📷 本日も23時まで営業中🤩 #Ｌヴァルヴレイヴ2  #コンプリート  #パチンコ #スロット  #キング観光  #今池 #1号  #地下鉄  #今池駅  #8番出口",
+    "x_url": "https://x.com/imaike_1/status/2105607877167911078",
+    "store_handle": "imaike_1",
+    "store_x_url": "https://x.com/imaike_1",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-03T18:48:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTie_5CbgAAtKYR?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTie_5CbgAAtKYR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "68dbb15c10"
   }
 ]
