@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T19:46:41+09:00",
+  "generated_at": "2026-10-03T19:09:34+09:00",
   "monthly": [
     {
       "month": "2026-10",
       "label": "2026年10月",
-      "total_count": 2,
+      "total_count": 4,
       "stores": [
         {
           "rank": 1,
@@ -17,6 +17,18 @@
           "name": "マルハン下松店",
           "count": 1,
           "x_url": "https://x.com/marukudatencho"
+        },
+        {
+          "rank": 3,
+          "name": "大阪No.1店長を目指す(キングオブキングス1007大阪",
+          "count": 1,
+          "x_url": "https://x.com/king422_7_17_27"
+        },
+        {
+          "rank": 4,
+          "name": "９９９（スリーナイン）",
+          "count": 1,
+          "x_url": "https://x.com/threeninedesu"
         }
       ],
       "slot_machines": [
@@ -29,9 +41,20 @@
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
           "count": 1
+        },
+        {
+          "rank": 3,
+          "name": "スマスロゴッドイーター",
+          "count": 1
         }
       ],
-      "pachinko_machines": []
+      "pachinko_machines": [
+        {
+          "rank": 1,
+          "name": "eフィーバーキン肉マン",
+          "count": 1
+        }
+      ]
     },
     {
       "month": "2026-09",
@@ -1051,7 +1074,7 @@
       {
         "rank": 6,
         "name": "eフィーバーキン肉マン",
-        "count": 52
+        "count": 53
       },
       {
         "rank": 7,
@@ -1074,7 +1097,7 @@
         "count": 16
       }
     ],
-    "total_count": 4416
+    "total_count": 4418
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 90,
@@ -1255,6 +1278,7 @@
     "ダイナム山形天童店": 6,
     "ビックマーチひたちなか店": 6,
     "ダイナム鹿児島上川内店": 6,
+    "大阪No.1店長を目指す(キングオブキングス1007大阪": 6,
     "GOLD CONCORDE富士": 6,
     "DIVO知寄店": 6,
     "ZENT小坂店 NO.1店長": 6,
@@ -1282,10 +1306,10 @@
     "ダイナム富山砺波店": 5,
     "ダイナム山梨笛吹店": 5,
     "ホームラン菰野店": 5,
+    "９９９（スリーナイン）": 5,
     "マルシェ赤羽店": 5,
     "ニラク笠間店": 5,
     "MGM鈴鹿店": 5,
-    "大阪No.1店長を目指す(キングオブキングス1007大阪": 5,
     "マルハン阿見店": 5,
     "マルハン川崎桜本店": 5,
     "ヒノマル辰巳店": 5,
@@ -1318,7 +1342,6 @@
     "イチロク八代店": 4,
     "マルハン亀有店_亀にゃん": 4,
     "ABC浜北店【パチンコ＆スロット】": 4,
-    "９９９（スリーナイン）": 4,
     "マリナプローバ": 4,
     "羅木店": 4,
     "マルハン鹿浜店": 4,
@@ -1879,8 +1902,8 @@
     "ニューアサヒ茅野店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3809,
-    "records_without_store_id": 607,
+    "records_with_store_id": 3810,
+    "records_without_store_id": 608,
     "canonical_store_ids": 585
   }
 }
