@@ -1044,5 +1044,204 @@ ok(len(F._MACHINE_EXTRACTION_META) == 0, f"L26 T3を経由する全パターン�
 F._MACHINE_EXTRACTION_META.clear()
 F.reset_quality_counters()
 
+# ══════════════════════════════════════════════════════════════════════════
+# M. CC-QUALITY-3K — T3をpartialのkeep/drop/unknown判断より前に実行する
+#    (3J: 本番matrix経路ではsave_partial()がsupabase_write_complete()より先に走り、
+#     originalだけで未解決と判断してsave_unknown＋partial除外していたため、後段のT3が
+#     成功してもcomplete_info.json/ランキングに届かなかった)。
+#    実resolverのロジック(ambiguity guard/type guard/identity token guard)をそのまま使い、
+#    マスタ・エイリアスだけをメモリ上のfixtureにする(ネットワーク・本番DBなし)。
+# ══════════════════════════════════════════════════════════════════════════
+
+from datetime import datetime as _dt, timezone as _tzm, timedelta as _tdm
+
+_M_TODAY = _dt.now(_tzm(_tdm(hours=9))).strftime("%Y-%m-%d")
+
+
+class _SpyRealResolver(MR.MachineResolver):
+    """実MachineResolverのロジックを使い、ロード済みfixtureで動かすspy。
+    resolve()/save_unknown()の呼び出し引数を記録する(save_unknownは実際には書き込まない)。"""
+    def __init__(self):
+        super().__init__("https://fake.local", "fake-key")
+        masters = [
+            {"id": "mid-v2", "official_name": "L革命機ヴァルヴレイヴ2", "normalized_name": "革命機ヴァルヴレイヴ2", "type": "slot"},
+            {"id": "mid-v1", "official_name": "パチスロ 革命機ヴァルヴレイヴ", "normalized_name": "革命機ヴァルヴレイヴ", "type": "slot"},
+            {"id": "mid-garo", "official_name": "e牙狼12", "normalized_name": "e牙狼12", "type": "pachinko"},
+            {"id": "mid-garo2", "official_name": "e牙狼12黄金騎士極限", "normalized_name": "e牙狼12黄金騎士極限", "type": "pachinko"},
+        ]
+        self._masters = masters
+        self._master_stems = [(m["id"], MR._series_stem(m["official_name"])) for m in masters]
+        self._prefixless_exact = {m["normalized_name"] for m in masters if not MR._has_type_prefix(m["official_name"])}
+        self._alias_map = {"ヴァルヴレイヴ2": {"machine_id": "mid-v2", "official_name": "L革命機ヴァルヴレイヴ2",
+                                               "machine_type": "slot", "confidence": 1.0}}
+        self._loaded = True
+        self.resolve_calls: list[str] = []
+        self.unknown_calls: list[str] = []
+
+    def resolve(self, raw_name):
+        self.resolve_calls.append(raw_name)
+        return super().resolve(raw_name)
+
+    def save_unknown(self, raw_name, source_url=""):
+        self.unknown_calls.append(raw_name)
+
+
+def _m_entry(machine_text: str, series_slug: str = "valvrave_anchor", eid: str = "m1") -> dict:
+    e = {"id": eid, "date": _M_TODAY, "time": "12:00", "store": "テスト店", "machine": machine_text,
+         "machine_type": "slot", "slot_number": "", "text": "x", "x_url": f"https://x.com/foo/status/{eid}",
+         "store_handle": "foo", "store_x_url": "", "manager_x_url": "", "source_account_type": "unknown",
+         "collected_at": "2026-10-03T00:00:00Z"}
+    meta = F._classify_pattern_bucket(F.MACHINE_PATTERN_SLUGS.index(series_slug), machine_text)
+    if meta is not None:
+        F._MACHINE_EXTRACTION_META[id(e)] = meta
+    return e
+
+
+def _m_run_flow(machine_text: str, series_slug: str = "valvrave_anchor"):
+    """本番matrix(--partial)と同じ順序 save_partial → supabase_write_complete を、
+    一時ディレクトリ・実ロジックresolver fixture・偽Supabaseで実行する。"""
+    F.reset_quality_counters()
+    F._MACHINE_EXTRACTION_META.clear()
+    entry = _m_entry(machine_text, series_slug)
+    res = _SpyRealResolver()
+    orig_get, orig_cj, orig_env, orig_req = MR.get_resolver, F.COMPLETE_JSON, F._sb_env, F._sb_request
+    sb_rows: list[dict] = []
+    td = tempfile.TemporaryDirectory()
+    try:
+        F.COMPLETE_JSON = Path(td.name) / "complete_info.json"
+        MR.get_resolver = lambda: res
+        F._sb_env = lambda: ("https://fake.local", "fake-key")
+
+        def _req(method, path, body=None, prefer=None):
+            if isinstance(body, list):
+                sb_rows.extend(body)
+            return 200, json.dumps(body if isinstance(body, list) else [body]).encode()
+        F._sb_request = _req
+        kept = F.save_partial([entry], _M_TODAY, "keyword_a")
+        after_partial = (list(res.resolve_calls), list(res.unknown_calls))
+        partial_path = Path(td.name) / "complete_partial_keyword_a.json"
+        partial_entries = json.loads(partial_path.read_text(encoding="utf-8"))
+        F.supabase_write_complete([entry])
+    finally:
+        MR.get_resolver, F.COMPLETE_JSON, F._sb_env, F._sb_request = orig_get, orig_cj, orig_env, orig_req
+        td.cleanup()
+    return {"kept": kept, "partial": partial_entries, "res": res, "sb_rows": sb_rows,
+            "after_partial": after_partial, "counters": F.get_quality_counters(), "entry": entry}
+
+
+# --- M1 (K1). Original resolves: T3なし・保持・挙動不変 ---
+_m1 = _m_run_flow("L革命機ヴァルヴレイヴ2")
+ok(_m1["kept"] == 1, "M1a originalが解決するentryはpartialに保持される")
+ok(_m1["counters"].get("T3_VALVRAVE_ATTEMPTED") is None, f"M1b originalが解決すればT3は試行されない (got={_m1['counters']})")
+ok(_m1["res"].unknown_calls == [], "M1c unknown writeなし")
+
+# --- M2 (K2/K9). T3成功: partial保持・公式名・unknown write 0・二重T3なし ---
+_m2 = _m_run_flow("ヴァルヴレイヴ2も達成")
+ok(_m2["kept"] == 1, "M2a [受入条件] T3成功entryはsave_partial()後もpartialに保持される(kept=1)")
+ok(len(_m2["partial"]) == 1 and _m2["partial"][0]["machine"] == "L革命機ヴァルヴレイヴ2",
+   f"M2b partial出力に公式名が入る (got={[p.get('machine') for p in _m2['partial']]})")
+ok(_m2["partial"][0].get("machine_id") == "mid-v2", "M2c partial出力にmachine_idが入る")
+ok(_m2["res"].unknown_calls == [], f"M2d [受入条件] 本番経路全体でmachine save_unknownが0回 (got={_m2['res'].unknown_calls})")
+ok(_m2["counters"].get("T3_VALVRAVE_ATTEMPTED") == 1, f"M2e T3試行は1回のみ(partial+Supabaseで二重にならない) (got={_m2['counters']})")
+ok(_m2["counters"].get("T3_VALVRAVE_RESOLVED") == 1 and _m2["counters"].get("T3_VALVRAVE_UNRESOLVED") is None,
+   "M2f T3 resolved=1 / unresolved=0")
+ok(_m2["res"].resolve_calls == ["ヴァルヴレイヴ2も達成", "ヴァルヴレイヴ2", "L革命機ヴァルヴレイヴ2"],
+   f"M2g resolve呼び出し順: original→T3→(Supabase段は公式名で通常解決) (got={_m2['res'].resolve_calls})")
+ok(len(_m2["sb_rows"]) == 1 and _m2["sb_rows"][0].get("machine") == "L革命機ヴァルヴレイヴ2"
+   and _m2["sb_rows"][0].get("machine_id") == "mid-v2", "M2h Supabase行にも解決済みmachine/machine_idが入る")
+ok(_m2["counters"].get("MACHINE_RESOLVED") == 1 and _m2["counters"].get("MACHINE_UNRESOLVED") is None,
+   "M2i 最終結果はMACHINE_RESOLVEDとして1回のみ")
+
+# --- M3 (K3). Bare Valvrave / identity tokenなし: unsafe fallbackなし・unknownはoriginal ---
+_m3 = _m_run_flow("ヴァルヴレイヴも達成")
+ok(_m3["kept"] == 0, "M3a identity tokenなしは従来通りpartialに入らない")
+ok(_m3["counters"].get("T3_VALVRAVE_ATTEMPTED") is None, "M3b T3は試行されない")
+ok(all(u == "ヴァルヴレイヴも達成" for u in _m3["res"].unknown_calls) and _m3["res"].unknown_calls,
+   f"M3c unknownは常にoriginal raw候補(既存のpartial+Supabase二重呼び出しは従来挙動) (got={_m3['res'].unknown_calls})")
+ok("ヴァルヴレイヴ" not in _m3["res"].resolve_calls, "M3d truncated候補でresolveされない")
+
+# --- M4 (K4). 存在しない世代: 誤って世代2へ解決しない・unknownはoriginal・T3は1回のみ ---
+for _g in ["0", "1", "3"]:
+    _m4 = _m_run_flow(f"ヴァルヴレイヴ{_g}も達成")
+    ok(_m4["kept"] == 0, f"M4a gen={_g}: 解決しないためpartialに入らない")
+    ok(_m4["counters"].get("T3_VALVRAVE_ATTEMPTED") == 1 and _m4["counters"].get("T3_VALVRAVE_UNRESOLVED") == 1
+       and _m4["counters"].get("T3_VALVRAVE_RESOLVED") is None,
+       f"M4b gen={_g}: T3は1回だけ試行され、partial+Supabaseの二重試行にならない (got={_m4['counters']})")
+    ok(_m4["res"].unknown_calls and all(u == f"ヴァルヴレイヴ{_g}も達成" for u in _m4["res"].unknown_calls),
+       f"M4c gen={_g}: unknownはoriginalのみ(truncatedは保存されない)")
+    ok(_m4["sb_rows"][0].get("machine_id") is None, f"M4d gen={_g}: 誤ったmachine_idに解決されない")
+
+# --- M5 (K5). Wrong type: 型ガード維持(T3層は型判定を持たずresolverに委譲) ---
+_m5 = _m_run_flow("eヴァルヴレイヴ2は達成")
+ok(_m5["kept"] == 0, "M5a 型不一致はT3経由でも解決されずpartialに入らない(resolverの型ガード維持)")
+ok(_m5["sb_rows"][0].get("machine_id") is None, "M5b 型不一致が別機種へ誤解決されない")
+
+# --- M6 (K6). 他のSeries anchorにはT3が適用されない ---
+for _slug, _text in [("garo_anchor", "牙狼12は達成"), ("tokyoghoul_anchor", "東京喰種2は達成"),
+                     ("kabaneri_anchor", "カバネリ2は達成"), ("lycoris_anchor", "リコリス2は達成"),
+                     ("karakuri_anchor", "からくりサーカス2は達成")]:
+    _m6 = _m_run_flow(_text, series_slug=_slug)
+    ok(_m6["counters"].get("T3_VALVRAVE_ATTEMPTED") is None, f"M6 {_slug}: T3は試行されない(allowlist外)")
+    ok(not any(c == _text[: _text.index("は")] for c in _m6["res"].resolve_calls),
+       f"M6 {_slug}: truncated候補でresolveされない")
+
+# --- M7 (K7). カウンタ不変条件: resolved + unresolved = attempted ---
+for _txt in ["ヴァルヴレイヴ2も達成", "ヴァルヴレイヴ3も達成", "ヴァルヴレイヴ0も達成", "ヴァルヴレイヴも達成"]:
+    _c7 = _m_run_flow(_txt)["counters"]
+    ok(_c7.get("T3_VALVRAVE_RESOLVED", 0) + _c7.get("T3_VALVRAVE_UNRESOLVED", 0) == _c7.get("T3_VALVRAVE_ATTEMPTED", 0),
+       f"M7 {_txt}: resolved+unresolved=attempted (got={_c7})")
+    ok(_c7.get("T3_VALVRAVE_ATTEMPTED", 0) <= 1, f"M7 {_txt}: 1 entryにつきT3試行は最大1回")
+
+# --- M8 (K8). Privacy: T3 telemetry/summaryにraw・truncated候補が含まれない ---
+_M8_SECRET = "3K_never_leak_zzz555"
+_m8 = _m_run_flow(f"ヴァルヴレイヴ2{_M8_SECRET}")  # 助詞境界なし→T3対象外でもrawを含む文字列でprivacy確認
+_buf8 = _io_k8.StringIO()
+with _ctx_k8.redirect_stdout(_buf8):
+    M._print_extraction_telemetry(_m8["counters"])
+ok(_M8_SECRET not in _buf8.getvalue(), "M8a T3 telemetry出力にraw候補が含まれない")
+with tempfile.TemporaryDirectory() as td:
+    _p8 = Path(td) / "complete_quality_test_m8.json"
+    F.write_quality_summary(str(_p8))
+    ok(_M8_SECRET not in _p8.read_text(encoding="utf-8"), "M8b quality summary JSONにraw候補が含まれない")
+ok(all("t3_attempted" not in k.lower() or isinstance(v, int) for k, v in _m8["counters"].items()), "M8c T3カウンタは整数のみ")
+ok(not any(isinstance(v, (str, dict, list)) for v in F.get_quality_counters().values()), "M8d カウンタ値に文字列/構造化データを含まない")
+
+# --- M9/M10 (K9/K10). 回収したentryがpartial → save_complete(complete_info.json) → ランキングまで届く ---
+_m9 = _m_run_flow("ヴァルヴレイヴ2も達成")
+_res_flow = _SpyRealResolver()
+orig_get, orig_cj, orig_rj, orig_file = MR.get_resolver, F.COMPLETE_JSON, F.RANKING_JSON, F.__file__
+with tempfile.TemporaryDirectory() as td:
+    try:
+        # update_ranking()は Path(__file__).parent.parent/public/store_handles.json を更新するため、
+        # __file__を一時rootへ向けて本物のリポジトリファイルを書き換えないようにする。
+        _root = Path(td)
+        (_root / "public").mkdir()
+        (_root / "scripts").mkdir()
+        F.__file__ = str(_root / "scripts" / "fetch_complete_info.py")
+        F.COMPLETE_JSON = _root / "public" / "complete_info.json"
+        F.RANKING_JSON = _root / "public" / "complete_ranking.json"
+        MR.get_resolver = lambda: _res_flow
+        _added = F.save_complete(_m9["partial"], _M_TODAY)   # mergeが呼ぶsave_complete()と同じ関数
+        _info = json.loads(F.COMPLETE_JSON.read_text(encoding="utf-8"))
+        ok(_added == 1, f"M10a T3回収entryがmerge(save_complete)で新規追加される (added={_added})")
+        ok(any(x.get("machine") == "L革命機ヴァルヴレイヴ2" and x.get("machine_id") == "mid-v2" for x in _info),
+           "M10b complete_info.jsonに公式名・machine_id付きで入る")
+        ok(_res_flow.unknown_calls == [], "M10c mergeの段階でもunknown writeは発生しない")
+        F.update_ranking()
+        _rank = json.loads(F.RANKING_JSON.read_text(encoding="utf-8"))
+        _rank_machines = {m["name"] for mo in _rank.get("monthly", []) for m in mo.get("slot_machines", [])}
+        ok("L革命機ヴァルヴレイヴ2" in _rank_machines, f"M10d ランキング(月間)の機種集計に反映される (machines={_rank_machines})")
+    finally:
+        MR.get_resolver, F.COMPLETE_JSON, F.RANKING_JSON, F.__file__ = orig_get, orig_cj, orig_rj, orig_file
+
+# --- M11. 3E3A: 修正後も_MACHINE_EXTRACTION_METAが残留しない ---
+F._MACHINE_EXTRACTION_META.clear()
+for _txt in ["ヴァルヴレイヴ2も達成", "ヴァルヴレイヴも達成", "ヴァルヴレイヴ3も達成"]:
+    _m_run_flow(_txt)
+ok(len(F._MACHINE_EXTRACTION_META) == 0, f"M11 全フロー後も_MACHINE_EXTRACTION_META残留=0件 (got size={len(F._MACHINE_EXTRACTION_META)})")
+
+F._MACHINE_EXTRACTION_META.clear()
+F.reset_quality_counters()
+
 print(f"\n=> PASS={PASS} FAIL={FAIL}")
 sys.exit(1 if FAIL else 0)

@@ -633,6 +633,38 @@ def _derive_valvrave_t3_fallback(meta: dict | None, raw_machine: str) -> str | N
     return truncated
 
 
+def _resolve_machine_with_t3(resolver, raw_machine: str, meta: dict | None):
+    """CC-QUALITY-3K: 機種解決の唯一の正規経路（original → valvrave限定T3 fallback）。
+
+    save_partial()（partialのkeep/drop/unknown判断）とsupabase_write_complete()の
+    両方がこの関数を使う。3Jで、T3がsupabase_write_complete()内にしか無かったため、
+    save_partial()が先にoriginalだけで未解決と判断し（save_unknown＋partial除外）、
+    T3の回収結果がpartial→merge→complete_info.json→ランキングに届かないことを確認した。
+
+    - originalが解決すればそれを返す（T3は評価しない）。
+    - 未解決なら_derive_valvrave_t3_fallback()（3Hの適格条件G0〜G5は無変更）で
+      truncated候補を導出し、適格なら2回目のresolveを1回だけ行う。
+    - 同一entryでT3を二重に試行しないよう、試行済みは meta["t3_attempted"] に
+      boolで記録する（メモリ上のみ。metaは3E3Aのcleanupでentryと同時に破棄され、
+      JSON/Supabaseには出ない。truncated候補文字列は一切保持しない）。
+    - DB書き込み（save_unknown）は一切行わない。呼び出し側がoriginal raw候補で行う。
+    戻り値: resolve結果dict または None。
+    """
+    resolved = resolver.resolve(raw_machine)
+    if resolved is not None:
+        return resolved
+    if meta is not None and meta.get("t3_attempted"):
+        return None
+    t3_candidate = _derive_valvrave_t3_fallback(meta, raw_machine)
+    if not t3_candidate:
+        return None
+    meta["t3_attempted"] = True
+    _qcount("T3_VALVRAVE_ATTEMPTED")
+    resolved = resolver.resolve(t3_candidate)
+    _qcount("T3_VALVRAVE_RESOLVED" if resolved else "T3_VALVRAVE_UNRESOLVED")
+    return resolved
+
+
 # 直近1回の extract_machine()/extract_machines() 呼び出しで、返却されたcandidate
 # （1件 or 複数件、返却順と一致）ごとのbucket metadataを保持する使い捨てscratch。
 # raw candidate文字列そのものは保持しない（bucket dictのみ）。
@@ -2217,17 +2249,11 @@ def supabase_write_complete(entries: list[dict]) -> tuple[int, int]:
             try:
                 if resolver and raw_machine and raw_machine != "不明":
                     _meta = _MACHINE_EXTRACTION_META.get(id(e))
-                    resolved = resolver.resolve(raw_machine)
-                    # CC-QUALITY-3H: original解決が失敗した場合のみ、valvrave_anchor限定の
-                    # truncated候補でresolverを再試行する（original-first・fail-open）。
-                    # 抽出候補・entry・dedup・slotは一切変更しない（resolver呼び出しの
-                    # 引数を1回追加するだけ）。truncated文字列自体はどこにも永続化しない。
-                    if resolved is None:
-                        _t3_candidate = _derive_valvrave_t3_fallback(_meta, raw_machine)
-                        if _t3_candidate:
-                            _qcount("T3_VALVRAVE_ATTEMPTED")
-                            resolved = resolver.resolve(_t3_candidate)
-                            _qcount("T3_VALVRAVE_RESOLVED" if resolved else "T3_VALVRAVE_UNRESOLVED")
+                    # CC-QUALITY-3K: 解決はsave_partial()と共有する唯一の正規経路を使う。
+                    # save_partial()でT3に成功したentryはmachineが公式名に書き換わっており、
+                    # ここではoriginal解決が成功する（T3は再評価されない）。save_partial()で
+                    # T3を試行して失敗したentryは meta["t3_attempted"] によりここで再試行しない。
+                    resolved = _resolve_machine_with_t3(resolver, raw_machine, _meta)
                     if resolved:
                         official_machine = resolved["official_name"]
                         machine_id       = resolved["machine_id"]
@@ -2811,7 +2837,10 @@ def save_partial(new_entries: list[dict], today_str: str, mode_name: str) -> int
             if not raw or raw == "不明":
                 unresolved += 1
                 continue
-            res = _pr.resolve(raw)
+            # CC-QUALITY-3K: keep/drop/unknownの判断より前に、T3を含む正規の解決経路を使う。
+            # T3成功時は公式名で保持され（save_unknownは呼ばれない）、partial→merge→
+            # complete_info.json→ランキングまで届く。失敗時はoriginal rawでsave_unknownする。
+            res = _resolve_machine_with_t3(_pr, raw, _MACHINE_EXTRACTION_META.get(id(e)))
             if res:
                 e["machine"] = res["official_name"]
                 e["machine_type"] = res["machine_type"]
