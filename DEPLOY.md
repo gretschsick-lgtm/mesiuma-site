@@ -294,8 +294,10 @@ python scripts/patch_complete_data.py
 2. 以下を実行してから commit:
 
 ```bash
-python scripts/verify_blog.py --auto-fix --fetch-images
+python scripts/verify_blog.py --auto-fix
 ```
+
+※ 画像の自動取得は停止済み（`--fetch-images` は無効）。画像は承認された出所のみ許可（詳細は `AGENTS.md`）。
 
 ### 本番デプロイ
 

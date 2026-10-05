@@ -1,20 +1,20 @@
 #!/usr/bin/env python3
 """
-ブログ記事の自動検証 + 自動修正 + 解析サイト画像取得スクリプト
+ブログ記事の自動検証 + 誤記の自動修正スクリプト
 
 使い方:
   python scripts/verify_blog.py                       # 全記事を検証（チェックのみ）
   python scripts/verify_blog.py --id 2026-05-10-x    # 特定記事のみ
   python scripts/verify_blog.py --auto-fix            # 検証 + 誤記を自動修正
-  python scripts/verify_blog.py --fetch-images        # 解析サイトから画像を取得してJSONに反映
-  python scripts/verify_blog.py --auto-fix --fetch-images  # 全部まとめて実行
+
+画像について（BLOG-DATA-SOURCE-SAFETY-FIX-1）:
+  第三者サイト（解析サイト等）から画像URLを自動取得・自動採用する処理は停止している。
+  `--fetch-images` は後方互換のため受け付けるが何もしない（無効）。
+  ブログ画像は「明示的に承認された出所のみ」許可する（下記 IMAGE_POLICY 参照）。
 """
 import json
 import re
 import sys
-import urllib.request
-import urllib.parse
-import time
 import argparse
 from pathlib import Path
 
@@ -134,100 +134,54 @@ MACHINE_FACTS: dict[str, dict] = {
     },
 }
 
-# ─── 解析サイト画像ページ（メイン画像 + 設定示唆画像）───────────
-# ・nana-press : メイン画像(og:image) + 設定示唆画像
-# ・chonborista: メイン画像(og:image) ← P-WORLD / DMM は使用しない
-# ★ 新機種追加時にURLも追記すること
-ANALYSIS_PAGES: dict[str, list[str]] = {
-    "東京喰種":        ["https://nana-press.com/kaiseki/machine/889/"],
-    "からくりサーカス(?!2)": ["https://nana-press.com/kaiseki/machine/571/"],
-    "ミリオンゴッド":  ["https://nana-press.com/kaiseki/machine/1116/"],
-    "モンキーターンV": ["https://nana-press.com/kaiseki/machine/644/"],
-    "カバネリ":        ["https://nana-press.com/kaiseki/machine/437/"],
-    "北斗転生2":       ["https://nana-press.com/kaiseki/machine/1059/"],
-    "バイオハザードRE:3": ["https://nana-press.com/kaiseki/machine/1140/",
-                          "https://chonborista.com/slot/universal/255082/"],
-    # SAO2 を先に記述しないと "SAO" の正規表現が "sao2" にもマッチしてしまう
-    "SAO2":            ["https://chonborista.com/slot/daito-slot/256112/"],
-    "ソードアートオンラインII": ["https://chonborista.com/slot/daito-slot/256112/"],
-    # SAO1（前作）: idに"sao2"が含まれるとマッチしないよう否定先読みを追加
-    r"SAO(?!2)":       ["https://nana-press.com/kaiseki/machine/490/"],
-    "花の慶次.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
-    "傾奇一転.*87":    ["https://chonborista.com/pachinko/newgin/259388/"],
-    "賭ケグルイ":      ["https://chonborista.com/slot/yamasa/254870/"],
-    "化物語.*鬼99":   ["https://nana-press.com/kaiseki/machine/1153/"],
-    "超デカ超一撃":    ["https://nana-press.com/kaiseki/machine/1196/"],
-    "ダークハイビ":    ["https://chonborista.com/slot/pionia-slot/257827/"],
-    "からくりサーカス2": ["https://chonborista.com/slot/sankyo-slot/256699/"],
-    "リコリス・リコイル": ["https://nana-press.com/kaiseki/machine/1129/",
-                          "https://chonborista.com/pachinko/newgin/251935/"],
-    "南国育ち.*SPECIAL": ["https://nana-press.com/kaiseki/machine/1173/",
-                          "https://chonborista.com/slot/amute/259472/"],
-    "東京リベンジャーズ.*聖夜": ["https://nana-press.com/kaiseki/machine/1184/",
-                                  "https://chonborista.com/pachinko/sammy/259722/"],
-    "戦国コレクション6":  ["https://chonborista.com/slot/konami-slot/257820/"],
-    "一方通行.*最狂":     ["https://chonborista.com/pachinko/fujishouji/261665/"],
-    "見える子ちゃん":     ["https://nana-press.com/kaiseki/machine/1192/",
-                           "https://chonborista.com/slot/pionia-slot/261153/"],
-    "七つの大罪3":        ["https://nana-press.com/kaiseki/machine/1206/",
-                           "https://chonborista.com/pachinko/sammy/263181/"],
-}
+# ─── 画像ポリシー（明示的に承認された出所のみ）──────────────────
+# ブログ記事の画像（`image` / `setting_images[].url`）として許可するのは、
+# 自社サイトが配信する次のパス配下のみ。第三者サイトのURLを自動で採用しない。
+# ★ 新しい出所を承認する場合は、権利・利用条件を確認した上でここに明示的に追加すること。
+APPROVED_IMAGE_PREFIXES: tuple[str, ...] = (
+    "/blog-images/",
+)
 
-# ─── nana-press 機種一覧ページ（設定示唆画像検索） ───────────────
-NANAPRESS_SEARCH = "https://nana-press.com/kaiseki/machine/?keyword={query}"
-# ─── chonborista 機種検索 ───────────────────────────────────────
-CHONBORISTA_SEARCH = "https://chonborista.com/?s={query}"
+# 既存記事に残っている「承認されていない出所」の画像URL（置換待ちの既存分）。
+# このphaseでは移行・削除しない。置換が完了したらここから削除していくこと。
+# このリストに無い未承認URLが新たに入った場合は検証エラーとする。
+LEGACY_IMAGE_BASELINE_PATH = Path(__file__).parent / "blog_image_legacy_baseline.json"
 
 
-def fetch_html(url: str, timeout: int = 12) -> str:
-    """URLからHTMLを取得。失敗時は空文字列を返す。"""
+def load_legacy_image_baseline(path: Path = LEGACY_IMAGE_BASELINE_PATH) -> set[str]:
+    """置換待ちの既存画像URL集合を返す。ファイルが無い/壊れている場合は空集合（=全て未承認扱い）。"""
     try:
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-        })
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read().decode("utf-8", errors="replace")
-    except Exception as e:
-        print(f"  [WARN] fetch failed: {url} ({e})")
-        return ""
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return set(data.get("urls", []))
+    except Exception:
+        return set()
 
 
-def extract_og_image(html: str) -> str | None:
-    """OGP画像URLを取得。"""
-    m = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', html)
-    if not m:
-        m = re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', html)
-    return m.group(1) if m else None
+def is_approved_image_url(url: str) -> bool:
+    """承認済み出所（自社配信の許可パス）か。"""
+    if not isinstance(url, str) or not url.startswith(APPROVED_IMAGE_PREFIXES):
+        return False
+    # パストラバーサル・別ホスト指定・クエリ経由の迂回を許さない
+    return ".." not in url and "://" not in url and "\\" not in url
 
 
-def extract_nanapress_images(html: str) -> list[dict]:
-    """nana-pressの解析ページから設定示唆・プレミア画像URLを抽出。"""
-    imgs = []
-    # <figure> 内の <img> + <figcaption>
-    for m in re.finditer(
-        r'<figure[^>]*>.*?<img[^>]+src=["\']([^"\']+)["\'][^>]*>.*?<figcaption[^>]*>(.*?)</figcaption>.*?</figure>',
-        html, re.DOTALL
-    ):
-        url = m.group(1)
-        caption = re.sub(r'<[^>]+>', '', m.group(2)).strip()
-        if url.startswith("http") and caption:
-            imgs.append({"url": url, "caption": caption})
-    # <img> with alt containing "設定" or "プレミア" etc.
-    if not imgs:
-        for m in re.finditer(r'<img[^>]+src=["\']([^"\']+)["\'][^>]+alt=["\']([^"\']*(?:設定|プレミア|示唆|確定)[^"\']*)["\']', html):
-            imgs.append({"url": m.group(1), "caption": m.group(2)})
-    return imgs[:8]  # 最大8枚
+def collect_post_image_urls(post: dict) -> list[str]:
+    """記事が参照している画像URL（空文字は除く）。"""
+    urls = [post.get("image", "")]
+    urls += [(si or {}).get("url", "") for si in (post.get("setting_images") or [])]
+    return [u for u in urls if u]
 
 
-def search_nanapress_id(machine_keyword: str) -> str | None:
-    """nana-pressでキーワード検索して機種ページURLを返す。"""
-    query = urllib.parse.quote(machine_keyword)
-    url = NANAPRESS_SEARCH.format(query=query)
-    html = fetch_html(url)
-    if not html:
-        return None
-    m = re.search(r'href=["\'](https://nana-press\.com/kaiseki/machine/\d+/)["\']', html)
-    return m.group(1) if m else None
+def check_image_policy(post: dict, legacy: set[str] | None = None) -> list[str]:
+    """承認されておらず、かつ既存分(baseline)にも無い画像URLを違反として返す。"""
+    if legacy is None:
+        legacy = load_legacy_image_baseline()
+    out = []
+    for u in collect_post_image_urls(post):
+        if is_approved_image_url(u) or u in legacy:
+            continue
+        out.append(f"🚫 未承認の画像出所: {u[:80]}")
+    return out
 
 
 def auto_fix_content(content: str, title: str, pid: str) -> tuple[str, list[str]]:
@@ -248,80 +202,6 @@ def auto_fix_content(content: str, title: str, pid: str) -> tuple[str, list[str]
             content = content.replace(wrong, correct)
             fixes.append(f"  ✏️  修正: '{wrong}' → '{correct}'")
     return content, fixes
-
-
-def fetch_and_patch_images(post: dict) -> tuple[str | None, list[dict]]:
-    """
-    nana-press / chonborista からメイン画像・設定示唆画像を取得。
-    P-WORLD・DMMは使用しない。
-    戻り値: (main_image_url, setting_images_list)
-    """
-    title = post.get("title", "")
-    pid   = post.get("id", "")
-
-    og_image: str | None = None
-    setting_imgs: list[dict] = []
-
-    # ── ANALYSIS_PAGES に登録済みの機種（正規表現マッチ対応）
-    for machine_key, urls in ANALYSIS_PAGES.items():
-        try:
-            matched = (
-                re.search(machine_key, title, re.IGNORECASE) is not None
-                or re.search(machine_key, pid, re.IGNORECASE) is not None
-            )
-        except re.error:
-            matched = (machine_key.lower() in title.lower() or machine_key.lower() in pid.lower())
-        if not matched:
-            continue
-        for url in urls:
-            print(f"  📷 画像取得: {url}")
-            html = fetch_html(url)
-            if not html:
-                continue
-            if not og_image:
-                og_image = extract_og_image(html)
-            if "nana-press.com" in url and not setting_imgs:
-                setting_imgs = extract_nanapress_images(html)
-            time.sleep(0.5)
-            if og_image:
-                break
-        if og_image:
-            break
-
-    # ── 未登録機種は nana-press で検索
-    if not og_image:
-        machine_guess = re.sub(
-            r'(スマスロ|パチスロ|スペック|解説|完全|まとめ|基本|天井|AT性能|RUSH|パチスロ|スロット|パチンコ|PA|【|】|｜.*)',
-            '', title
-        ).strip()
-        if machine_guess and len(machine_guess) > 3:
-            found_url = search_nanapress_id(machine_guess)
-            if found_url:
-                print(f"  🔍 nana-press発見: {found_url}")
-                html = fetch_html(found_url)
-                og_image = extract_og_image(html)
-                setting_imgs = extract_nanapress_images(html)
-                time.sleep(0.5)
-
-    # ── それでも見つからなければ chonborista で検索
-    if not og_image:
-        machine_guess = re.sub(
-            r'(スマスロ|パチスロ|スペック|解説|完全|まとめ|基本|天井|AT性能|RUSH|パチスロ|スロット|パチンコ|PA|【|】|｜.*)',
-            '', title
-        ).strip()
-        if machine_guess and len(machine_guess) > 3:
-            query = urllib.parse.quote(machine_guess)
-            cb_url = CHONBORISTA_SEARCH.format(query=query)
-            html = fetch_html(cb_url)
-            m = re.search(r'href=["\']((https://chonborista\.com/(?:slot|pachinko)/[^"\'?]+))["\']', html)
-            if m:
-                cb_page = m.group(1)
-                print(f"  🔍 chonborista発見: {cb_page}")
-                page_html = fetch_html(cb_page)
-                og_image = extract_og_image(page_html)
-                time.sleep(0.5)
-
-    return og_image, setting_imgs
 
 
 def verify_post(post: dict) -> list[str]:
@@ -366,11 +246,15 @@ def verify_post(post: dict) -> list[str]:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="ブログ記事の自動検証・修正・画像取得")
+    parser = argparse.ArgumentParser(description="ブログ記事の自動検証・誤記修正")
     parser.add_argument("--id",           help="対象記事ID（省略で全記事）")
     parser.add_argument("--auto-fix",     action="store_true", help="誤記を自動修正してJSONを上書き")
-    parser.add_argument("--fetch-images", action="store_true", help="解析サイトから画像を取得してJSONに反映")
+    parser.add_argument("--fetch-images", action="store_true",
+                        help="【無効】後方互換のため受け付けるが何もしない（第三者画像の自動取得は停止）")
     args = parser.parse_args()
+
+    if args.fetch_images:
+        print("ℹ️  --fetch-images は無効です（第三者サイトからの画像自動取得は停止しました）。")
 
     posts: list[dict] = json.loads(BLOG_PATH.read_text(encoding="utf-8"))
 
@@ -384,6 +268,8 @@ def main():
 
     changed   = False
     total_err = 0
+    policy_violations = 0
+    legacy = load_legacy_image_baseline()
 
     for post in targets:
         pid   = post.get("id", "")
@@ -410,24 +296,12 @@ def main():
         else:
             print("  ✅ 検証OK")
 
-        # ── 画像取得 ──
-        if args.fetch_images:
-            has_image     = bool(post.get("image"))
-            has_si        = bool(post.get("setting_images"))
-            if not has_image or not has_si:
-                og, imgs = fetch_and_patch_images(post)
-                if og and not has_image:
-                    post["image"] = og
-                    changed = True
-                    print(f"  🖼  メイン画像セット: {og[:80]}")
-                if imgs and not has_si:
-                    post["setting_images"] = imgs
-                    changed = True
-                    print(f"  🖼  設定示唆画像: {len(imgs)}枚追加")
-                if not og and not imgs:
-                    print("  ⚠️  画像取得できず（解析ページを確認してください）")
-            else:
-                print("  📷 画像は既に設定済み")
+        # ── 画像ポリシー（承認出所のみ。画像の自動取得・自動書き換えはしない）──
+        violations = check_image_policy(post, legacy)
+        if violations:
+            policy_violations += len(violations)
+            for v in violations:
+                print(f"  {v}")
 
     # ── 保存 ──
     if changed:
@@ -438,7 +312,10 @@ def main():
         print(f"\n✅ blog_posts.json を更新しました")
 
     print(f"\n{'='*60}")
-    print(f"検証完了: {len(targets)}記事, 残存エラー {total_err}件")
+    print(f"検証完了: {len(targets)}記事, 残存エラー {total_err}件, 画像ポリシー違反 {policy_violations}件")
+    if policy_violations > 0:
+        # --auto-fix でも許容しない（未承認の出所が新規に入った＝要確認）
+        sys.exit(2)
     if total_err > 0 and not args.auto_fix:
         sys.exit(1)
 

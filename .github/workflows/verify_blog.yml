@@ -1,4 +1,4 @@
-name: ブログ記事検証・自動修正・画像補完
+name: ブログ記事検証・自動修正
 
 on:
   push:
@@ -28,17 +28,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 検証・自動修正・画像取得
+      - name: 検証・自動修正（画像の自動取得は停止）
         run: |
           if [ -n "${{ github.event.inputs.post_id }}" ]; then
             python scripts/verify_blog.py \
               --auto-fix \
-              --fetch-images \
               --id "${{ github.event.inputs.post_id }}"
           else
             python scripts/verify_blog.py \
-              --auto-fix \
-              --fetch-images
+              --auto-fix
           fi
 
       - name: 変更があればコミット&プッシュ
@@ -49,7 +47,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "変更なし — スキップ"
           else
-            git commit -m "chore: ブログ記事を自動修正・画像補完 [skip ci]"
+            git commit -m "chore: ブログ記事を自動修正 [skip ci]"
             git pull --rebase origin main
             git push
           fi

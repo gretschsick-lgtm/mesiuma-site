@@ -40,8 +40,8 @@ python scripts/patch_complete_data.py
 # ランキングのみ再生成（Python REPL）
 python -c "import sys; sys.path.insert(0,'scripts'); from fetch_complete_info import update_ranking; update_ranking()"
 
-# ブログ記事検証・自動修正・画像補完
-python scripts/verify_blog.py --auto-fix --fetch-images
+# ブログ記事検証・誤記の自動修正（画像の自動取得は停止済み）
+python scripts/verify_blog.py --auto-fix
 
 # X 投稿（当日集計）
 python scripts/post_complete_x.py --date 2026-06-01
@@ -156,7 +156,7 @@ scripts/
 ├── fetch_complete_info.py       X からコンプリート情報収集（メイン・2055行）
 ├── fetch_events.py              来店・取材イベント収集（5ソース並列・1994行）
 ├── patch_complete_data.py       機種名正規化・データ一括修正ユーティリティ
-├── verify_blog.py               ブログ記事検証・自動修正・画像補完
+├── verify_blog.py               ブログ記事検証・誤記修正・画像出所の検証（画像の自動取得は停止）
 ├── post_complete_x.py           日次集計を X に投稿
 ├── fetch_complete_images.py     ツイートページから画像/動画 URL 補完
 ├── fetch_store_x_urls.py        店舗公式 X アカウント検索
