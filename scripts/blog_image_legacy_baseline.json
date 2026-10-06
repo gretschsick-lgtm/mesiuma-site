@@ -1,6 +1,6 @@
 {
   "_note": "BLOG-DATA-SOURCE-SAFETY-FIX-1: 既存記事に残る『承認されていない出所』の画像URL（置換待ち）。新規追加の許可ではない。置換完了後にここから削除する。第三者サイトの画像であり、権利・利用条件は未確認。",
-  "count": 65,
+  "count": 56,
   "urls": [
     "/component/img/settei_suisoku.jpg",
     "/component/img/settei_suisoku_kanni.jpg",
@@ -45,7 +45,6 @@
     "https://chonborista.com/wp-content/uploads/2026/06/p_beserkmusou210ren_90.webp",
     "https://chonborista.com/wp-content/uploads/2026/06/p_hairunnobuna_90.webp",
     "https://chonborista.com/wp-content/uploads/2026/07/l_mhsb_90.webp",
-    "https://chonborista.com/wp-content/uploads/repair/2017/07/koukakusamne.jpg",
     "https://contents.pachiseven.jp/imgs/s/machine/678604c4-18a4-4177-9c7a-5dbbac1f02cb.webp",
     "https://image.nana-press.com/kaiseki/machine/1129/35063/20260325133440_69c365e036a82.jpeg",
     "https://image.nana-press.com/kaiseki/machine/1140/20260513165155_6a042d9b8f5b8.jpg",
@@ -57,14 +56,6 @@
     "https://image.nana-press.com/kaiseki/machine/1192/1192/20260605150303_6a226697cdb2c.jpeg",
     "https://image.nana-press.com/kaiseki/machine/1192/20260603113242_6a1f924ad521c.jpg",
     "https://image.nana-press.com/kaiseki/machine/1206/20260721125521_6a5eeda93bf4b.jpeg",
-    "https://image.nana-press.com/kaiseki/machine/437/20220901123403_machine_panel.png",
-    "https://image.nana-press.com/kaiseki/machine/490/20230413093834_machine_panel.png",
-    "https://image.nana-press.com/kaiseki/machine/490/20230507161326.jpeg",
-    "https://image.nana-press.com/kaiseki/machine/490/20230507172613.jpeg",
-    "https://image.nana-press.com/kaiseki/machine/490/20230714194430.jpeg",
-    "https://image.nana-press.com/kaiseki/machine/490/report/20230519191142_report.jpeg",
-    "https://image.nana-press.com/kaiseki/machine/889/20260312143135.jpeg",
-    "https://image.nana-press.com/kaiseki/machine/889/25694/20260317150711_69b8ef8f45b68.jpeg",
     "https://image.nana-press.com/kaiseki/machine/889/27249/f82c9026781bfa0c7f134db7c915a9c9/20260312151909_2.jpeg",
     "https://image.nana-press.com/kaiseki/machine/889/27249/f82c9026781bfa0c7f134db7c915a9c9/20260312151911_11.jpeg"
   ]
