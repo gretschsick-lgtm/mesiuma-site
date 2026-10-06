@@ -22,6 +22,71 @@
     "machine_id": "11111111-1111-1111-1111-000000000012"
   },
   {
+    "id": "3404624daae1",
+    "date": "2026-10-02",
+    "time": "22:48",
+    "store": "キャッスル記念橋南店",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "710",
+    "text": "🏰キャッスル記念橋南店です📷   eフィーバーブルーロック　710番台にて📷   コンプリート機能発動しました📷 明日の開放をお待ちください！ 😌",
+    "x_url": "https://x.com/kinenbashi1010/status/2106018471075348623",
+    "store_handle": "kinenbashi1010",
+    "store_x_url": "https://x.com/kinenbashi1010",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-06T10:55:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HToUnMxawAEJrdC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HToUnMxawAEJrdC?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c",
+    "store_id": "e5a3df2192"
+  },
+  {
+    "id": "fa10f579922e",
+    "date": "2026-10-02",
+    "time": "22:46",
+    "store": "記念橋南店",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "710",
+    "text": "閉店間際ですが… eフィーバーブルーロック　710番台にて コンプリート機能発動いたしました！ 明日もご来店お待ちしてます🚗🚗",
+    "x_url": "https://x.com/kimusankimu/status/2106018025845702884",
+    "store_handle": "kimusankimu",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-06T10:55:28Z",
+    "images": [
+      "https://pbs.twimg.com/media/HToT99JbYAAq9Ss?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HToT99JbYAAq9Ss?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c"
+  },
+  {
+    "id": "43203d9e2e90",
+    "date": "2026-10-02",
+    "time": "21:14",
+    "store": "キクヤ春日井店",
+    "machine": "L ゴジラ対エヴァンゲリオン",
+    "machine_type": "slot",
+    "slot_number": "316",
+    "text": "316番台 Ｌゴジラ対エヴァンゲリオン コンプリート‼️おめでとうございます🎊",
+    "x_url": "https://x.com/315kasugai/status/2105994776340521244",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-06T10:56:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTn-ruebIAAEayO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTn-ruebIAAEayO?format=jpg&name=large",
+    "machine_id": "380c9bf1-ca03-4b79-8caf-5e4547ca3820",
+    "store_id": "5a18003e2d"
+  },
+  {
     "id": "318491ff2ec1",
     "date": "2026-10-02",
     "time": "20:45",
@@ -42,5 +107,28 @@
     "image_url": "https://pbs.twimg.com/media/HTn4VNibEAAgTs7?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000031",
     "store_id": "42997c6cc5"
+  },
+  {
+    "id": "24c34344337b",
+    "date": "2026-10-02",
+    "time": "18:43",
+    "store": "SUPER CONCORDE",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "3406",
+    "text": "🎉コンプリート報告🎉 L真打吉宗　3406番台にて  コンプリート機能が作動いたしました‼️ ご遊技されていたS様 おめでとうございます😊 コメント『やっとコンプリートできました！』  お仕事終わりの方もぜひ‼️ このあともスパコンでお楽しみくださいませ✨",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2105956761568182628",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-06T10:51:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTnceygbcAAqCCl?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HThdA3iasAAzBwL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTnceygbcAAqCCl?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "94cb46d6fb"
   }
 ]
