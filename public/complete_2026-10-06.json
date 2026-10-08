@@ -1,5 +1,29 @@
 [
   {
+    "id": "a3b50cf61663",
+    "date": "2026-10-06",
+    "time": "23:33",
+    "store": "r1十三駅東口店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "なんとなんとなんと！！！！ 最新台のモンスターハンターライズ　サンブレイクがコンプリート✨✨✨ おめでとうございます㊗️ しかも万枚越えの台が5機種も🥺🩵 すごすぎるんだからっっっ  ぜひぜひチェックしてくださいね〜 かえで🧚 #イーグルr1十三駅東口店 #コンプリート #モンハンサンブレイク",
+    "x_url": "https://x.com/EAGLE_R1_juso/status/2107479444231520752",
+    "store_handle": "eagle_r1_juso",
+    "store_x_url": "https://x.com/eagle_r1_juso",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T22:40:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HT9FYRHakAArlHs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HT9FYRKbYAAmKMg?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HT9FYRVboAAE9mp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HT9FYRHakAArlHs?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "7d561df44c"
+  },
+  {
     "id": "dc1d6c91ca56",
     "date": "2026-10-06",
     "time": "19:20",
@@ -42,6 +66,30 @@
     "image_url": "https://pbs.twimg.com/media/HT7tbP8aAAELNa-?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "b06d0873ca"
+  },
+  {
+    "id": "738d8e80d8ee",
+    "date": "2026-10-06",
+    "time": "01:07",
+    "store": "吉兆東名川崎店",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🎪Lからくりサーカス🎪  　　　🎆コンプリート!!!🎆 　　✨おめでとうございます✨ 　🎉✨🎉✨🎉✨🎉✨🎉 　　　明日は新台入替⭐３日目⭐ 🦖モンスターハンターシリーズ🦖最新作 　🦁獣王🐘がスマスロで完全復活!!! 　その他最新台もぜひお楽しみください💗 🦒明日もご来店お待ちしております🦋",
+    "x_url": "https://x.com/toumei0812/status/2107503034163237111",
+    "store_handle": "toumei0812",
+    "store_x_url": "https://x.com/toumei0812",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T22:40:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HT9a1o-b0AA0S7H?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HT9a1o9bcAAscw6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HT9a1ora4AAIzv9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HT9a1o-b0AA0S7H?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "c6fe6bdd0b"
   },
   {
     "id": "2320e6b090b7",
