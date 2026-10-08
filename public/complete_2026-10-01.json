@@ -21,6 +21,28 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "60c2f961be4b",
+    "date": "2026-10-01",
+    "time": "22:20",
+    "store": "キコーナ鶴見",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "940",
+    "text": "本日10/1(木)   940番台　Lモンスターハンターライズ 本日4台目のコンプリート達成 🎉 おめでとうございます‼  #今日も感謝を込めて #グランキコーナ鶴見",
+    "x_url": "https://x.com/gkicona_turumi/status/2105649162637480125",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T11:02:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTjEiilacAELn8T?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTjEiilacAELn8T?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "cd7a76c703"
+  },
+  {
     "id": "a1d09ed91b2e",
     "date": "2026-10-01",
     "time": "22:12",
@@ -242,6 +264,29 @@
     "image_url": "https://pbs.twimg.com/media/HTiuZz4aEAArhw2?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "cb0be1f296"
+  },
+  {
+    "id": "8685dc304a55",
+    "date": "2026-10-01",
+    "time": "19:55",
+    "store": "キコーナ鶴見",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "842",
+    "text": "本日10/1(木)  842番台　L革命機ヴァルヴレイヴ2 846番台　L革命機ヴァルヴレイヴ2  🎉コンプリート達成🎉 おめでとうございます‼️  #今日も感謝を込めて #グランキコーナ鶴見",
+    "x_url": "https://x.com/gkicona_turumi/status/2105612547168891350",
+    "store_handle": "gkicona_turumi",
+    "store_x_url": "https://x.com/gkicona_turumi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T11:02:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTii72AbQAAqUs-?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HTii9SSa8AAIzZA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTii72AbQAAqUs-?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cd7a76c703"
   },
   {
     "id": "67ff1a92c830",

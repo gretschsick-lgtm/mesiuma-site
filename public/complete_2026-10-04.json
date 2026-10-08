@@ -1,5 +1,27 @@
 [
   {
+    "id": "b46dd25ced51",
+    "date": "2026-10-04",
+    "time": "22:43",
+    "store": "SuperD'station39福重店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "482",
+    "text": "😄こんばんは😄 スーパーD'ステーション39福重店です‼️  1円パチンコ 482番台　#e東京喰種　から #コンプリート　達成です😍  おめでとうございます🎉🎉🎉",
+    "x_url": "https://x.com/sd_fukushige/status/2106742004713656419",
+    "store_handle": "sd_fukushige",
+    "store_x_url": "https://x.com/sd_fukushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T11:01:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTymf3rbwAAQ5wf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTymf3rbwAAQ5wf?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "ad0ceba11b"
+  },
+  {
     "id": "19c9e9ea5da0",
     "date": "2026-10-04",
     "time": "22:01",
@@ -64,6 +86,28 @@
     "image_url": "https://pbs.twimg.com/media/HTyU63lbUAA51X3?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "de68290eab"
+  },
+  {
+    "id": "490a2676b7c4",
+    "date": "2026-10-04",
+    "time": "20:51",
+    "store": "パラッツォ鳩ヶ谷店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "2081",
+    "text": "🕊コンプリート情報㊗️  20:45 Ｌチバリヨ２　2081番台  コンプリート達成👏👏👏  おめでとうございます🎉  パラッツォ鳩ヶ谷",
+    "x_url": "https://x.com/palazzo_hato/status/2106713891476766848",
+    "store_handle": "palazzo_hato",
+    "store_x_url": "https://x.com/palazzo_hato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T11:00:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTyM-f-akAAJEEk?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTyM-f-akAAJEEk?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "04138e2cd3"
   },
   {
     "id": "2e20276533e1",
