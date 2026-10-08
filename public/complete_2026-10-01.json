@@ -177,6 +177,28 @@
     "store_id": "ec2322cb03"
   },
   {
+    "id": "603668b79375",
+    "date": "2026-10-01",
+    "time": "20:54",
+    "store": "大安寺マルハチ",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "214",
+    "text": "‼️10月突入1発目‼️早速コンプリート速報 ‼️  🌈【スマパチ】e東京喰種【214番台】🌈  🎊コンプリート達成おめでとうございます🎊  #大安寺マルハチ　#コンプリート　#東京喰種",
+    "x_url": "https://x.com/daianji08/status/2105627458171273289",
+    "store_handle": "daianji08",
+    "store_x_url": "https://x.com/daianji08",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T02:35:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTixAxjacAApqv9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTixAxjacAApqv9?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "4b832e6bfe"
+  },
+  {
     "id": "ca4176f62d33",
     "date": "2026-10-01",
     "time": "20:51",
@@ -356,6 +378,29 @@
     "store_id": "1869f151f0"
   },
   {
+    "id": "901e1b3bdf12",
+    "date": "2026-10-01",
+    "time": "10:03",
+    "store": "Ｐスパーク",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "250",
+    "text": "10月1日(土) #Pスパーク #差玉・差枚ランキング 🔷パチンココーナー🔷 👑1位　e牙狼12(250番台) 　　 　　93,410玉 　   2位　e北斗の拳暴凶星(328番台) 　　　　 61,390玉 　   3位　e東京喰種W(280番台) 　　　　  59,640玉 🔷スロットコーナー🔷 👑1位　Lスマスロ北斗の拳(710番台)",
+    "x_url": "https://x.com/p_spark01/status/2105826039855485189",
+    "store_handle": "p_spark01",
+    "store_x_url": "https://x.com/p_spark01",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T02:37:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTllYIkbYAAHtB6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HTllaANbYAA0Fe1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTllYIkbYAAHtB6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_id": "83936d5766"
+  },
+  {
     "id": "38062636dec9",
     "date": "2026-10-01",
     "time": "08:56",
@@ -376,5 +421,49 @@
     "image_url": "https://pbs.twimg.com/media/HTgMqh4asAANnaV?format=jpg&name=large",
     "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a",
     "store_id": "ad7b9c09cc"
+  },
+  {
+    "id": "454fb2e116c0",
+    "date": "2026-10-01",
+    "time": "00:18",
+    "store": "Ｐスパーク",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【Lスマスロ　北斗の拳】 コンプリート達成🥳おめでとうございます！！   パチンコに続きスロットもコンプリート！！！ おめでとうございます。 10月もPスパークで楽しみましょう(>_<) #Pスパーク  #Lスマスロ北斗の拳 #コンプリート  #スマスロ",
+    "x_url": "https://x.com/p_spark01/status/2105678746917462097",
+    "store_handle": "p_spark01",
+    "store_x_url": "https://x.com/p_spark01",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T02:37:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTjfi58b0AA55Kq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTjfi58b0AA55Kq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_id": "83936d5766"
+  },
+  {
+    "id": "3c208741122a",
+    "date": "2026-10-01",
+    "time": "00:13",
+    "store": "Ｐスパーク",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【e牙狼12　黄金騎士極限】  コンプリート達成🥳  おめでとうございます!!   10月もPスパークでお楽しみください  #Pスパーク  #e牙狼12  #コンプリート",
+    "x_url": "https://x.com/p_spark01/status/2105677532305702938",
+    "store_handle": "p_spark01",
+    "store_x_url": "https://x.com/p_spark01",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-08T02:37:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTjejVNaEAAV7J3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTjejVNaEAAV7J3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "83936d5766"
   }
 ]
