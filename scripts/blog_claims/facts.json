@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "_description": "公式資料から人が確認した値。fact_id、machine_key、fact_key(例: setting6.at_prob)、normalized_value(または value_digest)、conditions、source_id、locator、verified_at、verification_method(human_read/text_layer/ocr)、ocr_review、reviewer、confidence。初期状態は空（公式値の自動登録はしない）。",
+  "facts": []
+}

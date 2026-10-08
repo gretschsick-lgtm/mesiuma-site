@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "_description": "記事の主張と fact の紐付け。claim_id、article_id、machine_key、fact_id、span_hash、context_hash(検証時の記事原文・文脈のハッシュ)、status_override(NOT_APPLICABLEのみ)。span_hash/context_hash が現在の記事と違えば STALE。初期状態は空。",
+  "bindings": []
+}

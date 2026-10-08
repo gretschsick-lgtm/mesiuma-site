@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "_description": "機種の登録簿。machine_key、kind(slot/pachinko)、official_name、model_numbers、model_number_status(CONFIRMED/NOT_PUBLISHED/UNKNOWN/CONFLICTING)、variant、maker{brand,seller,producer}、aliases、machines_master_id(任意)。記事からの自動統合はしない。初期状態は空。",
+  "machines": []
+}

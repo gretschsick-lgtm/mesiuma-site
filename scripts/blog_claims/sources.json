@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "_description": "出典資料の登録簿。1資料=1項目。tier(primary/secondary)、doc_type、url、doc_title、doc_version、doc_date、retrieved_at、field_semantics(この資料が答えられる日付の種類: intro/announce/delivery)、rights(権利状態。精度とは独立)を持つ。初期状態は空。",
+  "sources": []
+}
