@@ -1,9 +1,7 @@
 {
   "_note": "BLOG-DATA-SOURCE-SAFETY-FIX-1: 既存記事に残る『承認されていない出所』の画像URL（置換待ち）。新規追加の許可ではない。置換完了後にここから削除する。第三者サイトの画像であり、権利・利用条件は未確認。",
-  "count": 56,
+  "count": 53,
   "urls": [
-    "/component/img/settei_suisoku.jpg",
-    "/component/img/settei_suisoku_kanni.jpg",
     "https://chonborista.com/wp-content/uploads/2023/05/l_karakuri_sacus_kyotai.jpg",
     "https://chonborista.com/wp-content/uploads/2023/09/l_monky_turn_5_kyotai.jpg",
     "https://chonborista.com/wp-content/uploads/2025/09/l_bakemonogari_dai.jpg",
@@ -21,7 +19,6 @@
     "https://chonborista.com/wp-content/uploads/2026/04/l_yabatiba_90.jpg",
     "https://chonborista.com/wp-content/uploads/2026/05/e_acceraratersaikyo_90.webp",
     "https://chonborista.com/wp-content/uploads/2026/05/e_kakegurui_7500_banmen-382x600.webp",
-    "https://chonborista.com/wp-content/uploads/2026/05/e_worlddiceter_90.webp",
     "https://chonborista.com/wp-content/uploads/2026/05/e_yuyuyu7500_90.jpg",
     "https://chonborista.com/wp-content/uploads/2026/05/e_zon100_90.webp",
     "https://chonborista.com/wp-content/uploads/2026/05/ef_seedcrimax_90.webp",

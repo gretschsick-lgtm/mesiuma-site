@@ -107,7 +107,8 @@ ok(bj["count"] == len(bj["urls"]) == len(base), "T7b baseline の count と URL 
 for pid, url in WRONG_MAIN.items():
     still = any(url in V.collect_post_image_urls(q) for q in posts)
     ok((url in base) == still, f"T7c {pid} の旧URLは、他記事で使用中なら保持／未使用なら削除（使用中={still}）")
-ok(DEAD_RELATIVE in base and any(DEAD_RELATIVE in V.collect_post_image_urls(q) for q in posts), "T7d 他記事で使用中の相対URLは baseline に保持")
+ok(not any(DEAD_RELATIVE in V.collect_post_image_urls(q) for q in posts) and DEAD_RELATIVE not in base,
+   "T7d 本番で404の相対パス画像は BLOG-FACT-SAFETY-FIX-1 で全て撤去済み（記事にも baseline にも無い）")
 
 print("[T8] 外部画像の自動取得が復活していない")
 src = (HERE / "verify_blog.py").read_text(encoding="utf-8")
