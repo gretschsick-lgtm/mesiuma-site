@@ -22,50 +22,6 @@
     "store_id": "bdd2e55ff9"
   },
   {
-    "id": "0bc15f04eae3",
-    "date": "2026-10-07",
-    "time": "21:59",
-    "store": "ビックマーチ栃木本店",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "742",
-    "text": "こんばんは😘  コンプリート速報‼️  742番台 ヴァルヴレイヴ2から 19000枚達成🎉 おめでとうございます㊗️",
-    "x_url": "https://x.com/bm_tochihon/status/2107818185194140112",
-    "store_handle": "bm_tochihon",
-    "store_x_url": "https://x.com/bm_tochihon",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-09T19:09:50Z",
-    "images": [
-      "https://pbs.twimg.com/media/HUB5ajRaMAAscrT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HUB5ajRaMAAscrT?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "2d989e4bc5"
-  },
-  {
-    "id": "36f28211bfff",
-    "date": "2026-10-07",
-    "time": "21:52",
-    "store": "マルハン太田新道町店",
-    "machine": "スマスロ モンスターハンターライズ",
-    "machine_type": "slot",
-    "slot_number": "485",
-    "text": "今宵、ここにまた1人  新たなアームストロンガーが誕生した🐣  🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻 『Lモンスターハンターライズ』485番台 ㊗️コンプリート達成🎊🎊🎊 おめでとうございます👏👏👏 🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺  イイナ！マルハン！",
-    "x_url": "https://x.com/OTASHINDOCHO/status/2107816312496066627",
-    "store_handle": "otashindocho",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-10-09T19:09:50Z",
-    "images": [
-      "https://pbs.twimg.com/media/HUB3vxhbkAANrfT?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HUB3vxhbkAANrfT?format=jpg&name=large",
-    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
-    "store_id": "12ab8d3c50"
-  },
-  {
     "id": "e30cbb2b8a95",
     "date": "2026-10-07",
     "time": "20:38",
@@ -85,28 +41,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HUBm2dJasAACPz5?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000016"
-  },
-  {
-    "id": "d322601989ec",
-    "date": "2026-10-07",
-    "time": "20:30",
-    "store": "ユーコーラッキー37ゆめパーク久留米店",
-    "machine": "e東京喰種W",
-    "machine_type": "pachinko",
-    "slot_number": "",
-    "text": "コンプリート報告  🎉#ユーコーラッキー37ゆめパーク久留米店🎉 🎉コンプリート達成のお知らせ🎉  本日「#e東京喰種ｗ 」にて コンプリート達成 🥳🎊  誠におめでとうございます👏✨ またのご来店お待ちしております😎",
-    "x_url": "https://x.com/EVO3_yumepa/status/2107795605355692536",
-    "store_handle": "evo3_yumepa",
-    "store_x_url": "https://x.com/EVO3_yumepa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-09T19:09:07Z",
-    "images": [
-      "https://pbs.twimg.com/media/HUBk2GaaMAA5hSj?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HUBk2GaaMAA5hSj?format=jpg&name=large",
-    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
-    "store_id": "9fcdc9cdae"
   },
   {
     "id": "cc02f41216e7",
