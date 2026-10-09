@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-10-09T08:17:08+09:00",
+  "generated_at": "2026-10-09T12:29:59+09:00",
   "monthly": [
     {
       "month": "2026-10",
       "label": "2026年10月",
-      "total_count": 70,
+      "total_count": 75,
       "stores": [
         {
           "rank": 1,
+          "name": "マルハンメガシティ三島駿東",
+          "count": 3,
+          "x_url": "https://x.com/mega_mishima"
+        },
+        {
+          "rank": 2,
           "name": "Ｐスパーク",
           "count": 3,
           "x_url": "https://x.com/p_spark01"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "ゾーン行橋1000",
           "count": 3,
           "x_url": "https://x.com/zone_yukuhashi"
         },
         {
-          "rank": 3,
+          "rank": 4,
+          "name": "楽園大宮店",
+          "count": 3,
+          "x_url": "https://x.com/rakuen_ohmiya"
+        },
+        {
+          "rank": 5,
           "name": "キコーナ鶴見",
           "count": 2,
           "x_url": "https://x.com/gkicona_turumi"
         },
         {
-          "rank": 4,
+          "rank": 6,
           "name": "メガフェイス1450本山",
           "count": 2,
           "x_url": "https://x.com/megaface_1450"
         },
         {
-          "rank": 5,
-          "name": "マルハンメガシティ三島駿東",
-          "count": 2,
-          "x_url": "https://x.com/mega_mishima"
-        },
-        {
-          "rank": 6,
+          "rank": 7,
           "name": "パラッツォ鳩ヶ谷店",
           "count": 2,
           "x_url": "https://x.com/palazzo_hato"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ＭＪアリーナ干隈店",
           "count": 2,
           "x_url": "https://x.com/mjhosikuma"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "キコーナ堺本店",
           "count": 2,
           "x_url": "https://x.com/ksakaihonten"
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "楽園蒲田店",
           "count": 2,
           "x_url": "https://x.com/rakuen_kamata"
-        },
-        {
-          "rank": 10,
-          "name": "京都駅前ラッキーパチンコ店",
-          "count": 2,
-          "x_url": "https://x.com/k_e_lucky"
         }
       ],
       "slot_machines": [
@@ -133,7 +133,7 @@
         {
           "rank": 3,
           "name": "e牙狼12黄金騎士極限",
-          "count": 5
+          "count": 6
         },
         {
           "rank": 4,
@@ -1084,7 +1084,7 @@
       {
         "rank": 8,
         "name": "マルハンメガシティ三島駿東",
-        "count": 58,
+        "count": 59,
         "x_url": "https://x.com/mega_mishima"
       },
       {
@@ -1156,7 +1156,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 568
+        "count": 569
       },
       {
         "rank": 2,
@@ -1204,7 +1204,7 @@
         "count": 17
       }
     ],
-    "total_count": 4520
+    "total_count": 4525
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 90,
@@ -1214,10 +1214,10 @@
     "キクヤ春日井店": 63,
     "楽園池袋店ゲートウェイ": 62,
     "メガフェイス1450本山": 62,
-    "マルハンメガシティ三島駿東": 58,
+    "マルハンメガシティ三島駿東": 59,
     "テキサス小倉店": 56,
     "メガフェイス1070菊陽": 54,
-    "楽園大宮店": 51,
+    "楽園大宮店": 53,
     "メガフェイス1300淀川": 48,
     "SPACE(スペース444＆666)": 47,
     "キコーナ堺本店": 45,
@@ -1269,7 +1269,7 @@
     "京都駅前ラッキーパチンコ店": 17,
     "ワンダーランド1188鹿児島新栄店": 17,
     "キング観光サウザンド今池1号店": 17,
-    "マルハン旭川永山店": 16,
+    "マルハン旭川永山店": 17,
     "キコーナ府中": 15,
     "パラディソ古川ドルフィン館": 15,
     "ＡＢＣ豊川店": 15,
@@ -2013,11 +2013,12 @@
     "ダラム800": 1,
     "ダイナム宮城石巻店~SINCE 2014.03.29~": 1,
     "マルハン南アルプス店": 1,
-    "ダイナム東村山店": 1
+    "ダイナム東村山店": 1,
+    "ニュー今津屋船堀店（公式）": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3904,
-    "records_without_store_id": 616,
+    "records_with_store_id": 3908,
+    "records_without_store_id": 617,
     "canonical_store_ids": 589
   }
 }

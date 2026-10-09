@@ -22,6 +22,49 @@
     "store_id": "bdd2e55ff9"
   },
   {
+    "id": "e30cbb2b8a95",
+    "date": "2026-10-07",
+    "time": "20:38",
+    "store": "ニュー今津屋船堀店（公式）",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "400",
+    "text": "本日10/7 L新鬼武者3SA　400番台    😆😆😆コンプリート達成😆😆😆  🌟🌟🌟おめでとうございます!✌️✌️✌️",
+    "x_url": "https://x.com/new_imazuya_f/status/2107797790118310177",
+    "store_handle": "new_imazuya_f",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-09T02:50:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUBm2dJasAACPz5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUBm2dJasAACPz5?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016"
+  },
+  {
+    "id": "cc02f41216e7",
+    "date": "2026-10-07",
+    "time": "20:28",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "1022",
+    "text": "こんばんは🌃 マルハンメガシティ三島駿東から  🎃🎃🎃🎃🎃🎃🎃🎃 ⚡️新着コンプリート情報⚡️ 🎃🎃🎃🎃🎃🎃🎃🎃  🔸Ｌチバリヨ２ＺＢ🔸 🔸1022番台🔸  ㊗️コンプリート達成㊗️ おめでとうございます🎉  この後のお時間⌚️も メガシティ三島駿東で ごゆっくりお楽しみ下さい😄",
+    "x_url": "https://x.com/mega_mishima/status/2107795190652227707",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-09T02:50:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUBjnjMbkAAY9Q4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUBjnjMbkAAY9Q4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_id": "1cd7e84e8e"
+  },
+  {
     "id": "6201d9571a96",
     "date": "2026-10-07",
     "time": "18:34",
@@ -64,5 +107,49 @@
     "image_url": "https://pbs.twimg.com/media/HUBB9LMbMAAvgXY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "c8ce6d1db9"
+  },
+  {
+    "id": "afeac29c0ea4",
+    "date": "2026-10-07",
+    "time": "16:55",
+    "store": "楽園大宮店",
+    "machine": "Re:ゼロから始める異世界生活",
+    "machine_type": "slot",
+    "slot_number": "347",
+    "text": "本日16時頃！！    B1F4円パチンコ347番台 e/Re:ゼロから始める異世界生活鬼がかり2 にて       コンプリート達成！！ 👏 おめでとうございます！！🎉🎉",
+    "x_url": "https://x.com/RAKUEN_ohmiya/status/2107741554198863964",
+    "store_handle": "rakuen_ohmiya",
+    "store_x_url": "https://x.com/rakuen_ohmiya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-09T02:50:34Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUAziyjbQAAYXwi?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUAziyjbQAAYXwi?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000019",
+    "store_id": "04950fcd53"
+  },
+  {
+    "id": "223661945e07",
+    "date": "2026-10-07",
+    "time": "16:30",
+    "store": "マルハン旭川永山店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "10",
+    "text": "【10番台】 【e牙狼12XX－MJ】 コンプリート達成🎉おめでとうございます🎉 📷データを確認できる　マルハンアプリはこちらから📷   https:// maruhan.co.jp/app2/sp/",
+    "x_url": "https://x.com/nagayamamaruhan/status/2107735222267875769",
+    "store_handle": "nagayamamaruhan",
+    "store_x_url": "https://x.com/nagayamamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-09T02:51:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUAuAzJaIAALI8L?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUAuAzJaIAALI8L?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "b435f7c4c1"
   }
 ]
