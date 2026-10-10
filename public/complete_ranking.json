@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-10-09T12:29:59+09:00",
+  "generated_at": "2026-10-10T11:55:09+09:00",
   "monthly": [
     {
       "month": "2026-10",
       "label": "2026年10月",
-      "total_count": 75,
+      "total_count": 80,
       "stores": [
         {
           "rank": 1,
+          "name": "キコーナ鶴見",
+          "count": 4,
+          "x_url": "https://x.com/gkicona_turumi"
+        },
+        {
+          "rank": 2,
           "name": "マルハンメガシティ三島駿東",
           "count": 3,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 2,
+          "rank": 3,
           "name": "Ｐスパーク",
           "count": 3,
           "x_url": "https://x.com/p_spark01"
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "ゾーン行橋1000",
           "count": 3,
           "x_url": "https://x.com/zone_yukuhashi"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "楽園大宮店",
           "count": 3,
           "x_url": "https://x.com/rakuen_ohmiya"
-        },
-        {
-          "rank": 5,
-          "name": "キコーナ鶴見",
-          "count": 2,
-          "x_url": "https://x.com/gkicona_turumi"
         },
         {
           "rank": 6,
@@ -62,16 +62,16 @@
         },
         {
           "rank": 10,
-          "name": "楽園蒲田店",
+          "name": "SuperD'station39福重店",
           "count": 2,
-          "x_url": "https://x.com/rakuen_kamata"
+          "x_url": "https://x.com/sd_fukushige"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 11
+          "count": 14
         },
         {
           "rank": 2,
@@ -128,7 +128,7 @@
         {
           "rank": 2,
           "name": "e牙狼12",
-          "count": 7
+          "count": 8
         },
         {
           "rank": 3,
@@ -1104,7 +1104,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 776
+        "count": 779
       },
       {
         "rank": 2,
@@ -1139,7 +1139,7 @@
       {
         "rank": 8,
         "name": "L戦国乙女5 業火を穿つ宿焔の双刃",
-        "count": 102
+        "count": 103
       },
       {
         "rank": 9,
@@ -1161,7 +1161,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 306
+        "count": 307
       },
       {
         "rank": 3,
@@ -1204,7 +1204,7 @@
         "count": 17
       }
     ],
-    "total_count": 4525
+    "total_count": 4530
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 90,
@@ -1242,12 +1242,12 @@
     "イーグルアールワン南8条店": 25,
     "メガフェイス1250": 25,
     "キャッスル天白店": 24,
+    "キコーナ鶴見": 24,
     "マルハン仙台苦竹店": 23,
     "ピーアーク北千住エリア": 23,
     "SUPER CONCORDE": 23,
     "ニューアサヒ長野青木島店": 23,
     "SuperD'station東金店": 23,
-    "キコーナ鶴見": 22,
     "キコーナ川西久代店": 22,
     "キング観光サウザンド名古屋駅柳橋店": 21,
     "マルハン小山千駄塚店": 20,
@@ -1262,10 +1262,10 @@
     "プレイランドキャッスル東郷店": 18,
     "DSGアリーナ高岡": 18,
     "ＭＪアリーナ干隈店": 18,
+    "ダイナム金町南口店": 18,
     "ゾーン行橋1000": 18,
     "SUPER CONCORDE 市野": 18,
     "エクスアリーナ東京": 18,
-    "ダイナム金町南口店": 17,
     "京都駅前ラッキーパチンコ店": 17,
     "ワンダーランド1188鹿児島新栄店": 17,
     "キング観光サウザンド今池1号店": 17,
@@ -1277,6 +1277,7 @@
     "マルハン仙台名坊店": 15,
     "エムディー目黒店": 15,
     "マルハン青梅新町店【イイじゃん!】": 15,
+    "T-MAX新栄店": 15,
     "メガフェイス930朝倉": 15,
     "マルハン甲府店": 15,
     "ピーアーク北綾瀬駅前": 15,
@@ -1285,9 +1286,9 @@
     "テキサス段原店": 14,
     "ビックマーチ河和田東店": 14,
     "ユーコーラッキー37太宰府店": 14,
-    "T-MAX新栄店": 14,
     "玉ノ助【パーラーダジュール公式】": 13,
     "M&K岡崎店": 13,
+    "SuperD'station39福重店": 13,
     "マルハン袋井店": 13,
     "SUPER COSMO PREMIUM大東店": 13,
     "ダイナム滋賀彦根店～Since2025.7.18～": 13,
@@ -1295,7 +1296,6 @@
     "マルハンアプリはこちら": 13,
     "ZENT名古屋北店": 13,
     "SuperD'station39女神店": 12,
-    "SuperD'station39福重店": 12,
     "楽園蒲田店": 12,
     "クラブハウス本店": 12,
     "サラリーマン店長メガシティ静岡": 12,
@@ -2017,7 +2017,7 @@
     "ニュー今津屋船堀店（公式）": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 3908,
+    "records_with_store_id": 3913,
     "records_without_store_id": 617,
     "canonical_store_ids": 589
   }
