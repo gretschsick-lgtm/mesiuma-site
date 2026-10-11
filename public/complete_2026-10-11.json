@@ -44,6 +44,50 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "0fe49d79843b",
+    "date": "2026-10-11",
+    "time": "17:29",
+    "store": "楽園 店長・アメ横店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "57",
+    "text": "10月11日  eリコリスリコイル　57番台より コンプリート機能発動👏 おめでとうございます🎊  この後該当台は稼働停止となります。  やはいら〜🥵",
+    "x_url": "https://x.com/mask_rakuen/status/2109199775577129292",
+    "store_handle": "mask_rakuen",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/mask_rakuen",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-10-11T21:02:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUViANVbIAEY3ll?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUViANTaAAAnhXM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUViANVbIAEY3ll?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
+    "id": "ddf8b7bca1f6",
+    "date": "2026-10-11",
+    "time": "17:29",
+    "store": "ニラク安積店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "131",
+    "text": "ニラク安積店です 本日、131番台『Ｌ新鬼武者３ＳＡ』で コンプリート達成🎉 おめでとうございます✨ ご来店お待ちしております☺  #ニラク #安積店 #パチンコ #スロット",
+    "x_url": "https://x.com/29_asaka/status/2109199654017716431",
+    "store_handle": "29_asaka",
+    "store_x_url": "https://x.com/29_asaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T21:02:26Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUVhYyCasAAbq36?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUVhYyCasAAbq36?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016",
+    "store_id": "00ec595614"
+  },
+  {
     "id": "e4490a57f904",
     "date": "2026-10-11",
     "time": "13:04",
