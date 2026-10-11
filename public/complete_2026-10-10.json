@@ -1,5 +1,28 @@
 [
   {
+    "id": "8d1233d50f35",
+    "date": "2026-10-10",
+    "time": "22:55",
+    "store": "トポネ五条店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "👑10/10出玉ランキング👑  本日もご来店    誠にありがとうございました‼️  スロットからモンスターハンターライズが #コンプリート 達成👑 更にミリオンゴッド、 最新台の転生王女と天才令嬢の魔法革命も 万舞超えでランクイン👑 パチンコから最新台のリゼロ鬼がかり２が ２台もランクイン👑",
+    "x_url": "https://x.com/toponegojo/status/2108919227306705217",
+    "store_handle": "toponegojo",
+    "store_x_url": "https://x.com/toponegojo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T21:49:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HURd6-gaoAA02NU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HURerspawAEiI70?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HURd6-gaoAA02NU?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "0847a07b48"
+  },
+  {
     "id": "1f9fd9374d15",
     "date": "2026-10-10",
     "time": "22:27",
@@ -21,29 +44,6 @@
     "image_url": "https://pbs.twimg.com/media/HURci0JaUAAAras?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "1869f151f0"
-  },
-  {
-    "id": "cc071c121a71",
-    "date": "2026-10-10",
-    "time": "22:20",
-    "store": "マルハンメガシティ静岡",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "135",
-    "text": "さらにコンプリート達成です😍   ■135番台　e牙狼黄金騎士極限  ご遊技されたお客様 おめでとうございます🎊",
-    "x_url": "https://x.com/maruhanmegacity/status/2108910545936191805",
-    "store_handle": "maruhanmegacity",
-    "store_x_url": "https://x.com/maruhanmegacity",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:02:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HURa0uBboAAOddV?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HURa0uAaUAAUbci?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HURa0uBboAAOddV?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "cd9395b6ca"
   },
   {
     "id": "5be0f9935d52",
@@ -134,29 +134,6 @@
     "image_url": "https://pbs.twimg.com/media/HURDjhObcAAL_bT?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "a213dcf5c4"
-  },
-  {
-    "id": "e212341f1f36",
-    "date": "2026-10-10",
-    "time": "19:59",
-    "store": "ワンダーランド大川店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "1085",
-    "text": "こんばんはっ ワンダーランド大川店 本日10月10日(土) でましたコンプリート！ コンプリート報告ですう！！  L北斗の拳転生の章2　1085番台 おめでとうございます!(^^)!",
-    "x_url": "https://x.com/wl_ookawa/status/2108875007934046242",
-    "store_handle": "wl_ookawa",
-    "store_x_url": "https://x.com/wl_ookawa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:01:52Z",
-    "images": [
-      "https://pbs.twimg.com/media/HUQ6TxfaMAEHesa?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HUQ6XX2aQAAPnyy?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HUQ6TxfaMAEHesa?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "43b18e286d"
   },
   {
     "id": "6a87707fc97c",
@@ -313,27 +290,5 @@
     "image_url": "https://pbs.twimg.com/media/HUUj5pcakAApXWK?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "1869f151f0"
-  },
-  {
-    "id": "eeb57c5b79df",
-    "date": "2026-10-10",
-    "time": "00:04",
-    "store": "朝10時開店",
-    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "machine_type": "slot",
-    "slot_number": "633",
-    "text": "633番台『ミリオンゴッド-神々の軌跡-』 コンプリート達成！ おめでとうございます！㊗️ #ガーデン春日部 #コンプリート #ミリオンゴッド",
-    "x_url": "https://x.com/g_kasukabe/status/2108936759988117574",
-    "store_handle": "g_kasukabe",
-    "store_x_url": "https://x.com/g_kasukabe",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:02:09Z",
-    "images": [
-      "https://pbs.twimg.com/media/HURxmpvbEAAwFwu?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HURxmpvbEAAwFwu?format=jpg&name=large",
-    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
-    "store_id": "8f98b72bf5"
   }
 ]

@@ -44,48 +44,25 @@
     "store_id": "44b996496f"
   },
   {
-    "id": "0fe49d79843b",
+    "id": "5e2fc4acd599",
     "date": "2026-10-11",
-    "time": "17:29",
-    "store": "楽園 店長・アメ横店",
-    "machine": "eリコリス・リコイル",
-    "machine_type": "pachinko",
-    "slot_number": "57",
-    "text": "10月11日  eリコリスリコイル　57番台より コンプリート機能発動👏 おめでとうございます🎊  この後該当台は稼働停止となります。  やはいら〜🥵",
-    "x_url": "https://x.com/mask_rakuen/status/2109199775577129292",
-    "store_handle": "mask_rakuen",
-    "store_x_url": "",
-    "manager_x_url": "https://x.com/mask_rakuen",
-    "source_account_type": "store_manager",
-    "collected_at": "2026-10-11T21:02:26Z",
-    "images": [
-      "https://pbs.twimg.com/media/HUViANVbIAEY3ll?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HUViANTaAAAnhXM?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HUViANVbIAEY3ll?format=jpg&name=large",
-    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
-  },
-  {
-    "id": "ddf8b7bca1f6",
-    "date": "2026-10-11",
-    "time": "17:29",
-    "store": "ニラク安積店",
-    "machine": "L新鬼武者3",
+    "time": "18:45",
+    "store": "駅前店",
+    "machine": "Lパチスロ からくりサーカス2",
     "machine_type": "slot",
-    "slot_number": "131",
-    "text": "ニラク安積店です 本日、131番台『Ｌ新鬼武者３ＳＡ』で コンプリート達成🎉 おめでとうございます✨ ご来店お待ちしております☺  #ニラク #安積店 #パチンコ #スロット",
-    "x_url": "https://x.com/29_asaka/status/2109199654017716431",
-    "store_handle": "29_asaka",
-    "store_x_url": "https://x.com/29_asaka",
+    "slot_number": "4019",
+    "text": "👑コンプリートのご報告👑 　　    　　   　　  《４０１９番台》      🎪Lパチスロ からくりサーカス2🎪  先程コンプリート達成致しました‼️ おめでとうございます🎖️🎖️  こちらの遊技台は  本日は稼働停止となります🙇💦",
+    "x_url": "https://x.com/RAKUENSHIBUYA2/status/2109218831193493697",
+    "store_handle": "rakuenshibuya2",
+    "store_x_url": "https://x.com/rakuenshibuya2",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:02:26Z",
+    "collected_at": "2026-10-11T21:45:25Z",
     "images": [
-      "https://pbs.twimg.com/media/HUVhYyCasAAbq36?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HUVy2CabsAA3wZb?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HUVhYyCasAAbq36?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000016",
-    "store_id": "00ec595614"
+    "image_url": "https://pbs.twimg.com/media/HUVy2CabsAA3wZb?format=jpg&name=large",
+    "machine_id": "50a8867c-f0f0-4e60-9274-06d1435ebf1a"
   },
   {
     "id": "e4490a57f904",
@@ -111,6 +88,29 @@
     "store_id": "7be267e3ea"
   },
   {
+    "id": "8d1233d50f35",
+    "date": "2026-10-10",
+    "time": "22:55",
+    "store": "トポネ五条店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "👑10/10出玉ランキング👑  本日もご来店    誠にありがとうございました‼️  スロットからモンスターハンターライズが #コンプリート 達成👑 更にミリオンゴッド、 最新台の転生王女と天才令嬢の魔法革命も 万舞超えでランクイン👑 パチンコから最新台のリゼロ鬼がかり２が ２台もランクイン👑",
+    "x_url": "https://x.com/toponegojo/status/2108919227306705217",
+    "store_handle": "toponegojo",
+    "store_x_url": "https://x.com/toponegojo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T21:49:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HURd6-gaoAA02NU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HURerspawAEiI70?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HURd6-gaoAA02NU?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
+    "store_id": "0847a07b48"
+  },
+  {
     "id": "1f9fd9374d15",
     "date": "2026-10-10",
     "time": "22:27",
@@ -132,29 +132,6 @@
     "image_url": "https://pbs.twimg.com/media/HURci0JaUAAAras?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "1869f151f0"
-  },
-  {
-    "id": "cc071c121a71",
-    "date": "2026-10-10",
-    "time": "22:20",
-    "store": "マルハンメガシティ静岡",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "135",
-    "text": "さらにコンプリート達成です😍   ■135番台　e牙狼黄金騎士極限  ご遊技されたお客様 おめでとうございます🎊",
-    "x_url": "https://x.com/maruhanmegacity/status/2108910545936191805",
-    "store_handle": "maruhanmegacity",
-    "store_x_url": "https://x.com/maruhanmegacity",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:02:35Z",
-    "images": [
-      "https://pbs.twimg.com/media/HURa0uBboAAOddV?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HURa0uAaUAAUbci?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HURa0uBboAAOddV?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "cd9395b6ca"
   },
   {
     "id": "5be0f9935d52",
@@ -245,29 +222,6 @@
     "image_url": "https://pbs.twimg.com/media/HURDjhObcAAL_bT?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "a213dcf5c4"
-  },
-  {
-    "id": "e212341f1f36",
-    "date": "2026-10-10",
-    "time": "19:59",
-    "store": "ワンダーランド大川店",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "1085",
-    "text": "こんばんはっ ワンダーランド大川店 本日10月10日(土) でましたコンプリート！ コンプリート報告ですう！！  L北斗の拳転生の章2　1085番台 おめでとうございます!(^^)!",
-    "x_url": "https://x.com/wl_ookawa/status/2108875007934046242",
-    "store_handle": "wl_ookawa",
-    "store_x_url": "https://x.com/wl_ookawa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:01:52Z",
-    "images": [
-      "https://pbs.twimg.com/media/HUQ6TxfaMAEHesa?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HUQ6XX2aQAAPnyy?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HUQ6TxfaMAEHesa?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "43b18e286d"
   },
   {
     "id": "6a87707fc97c",
@@ -424,28 +378,6 @@
     "image_url": "https://pbs.twimg.com/media/HUUj5pcakAApXWK?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "1869f151f0"
-  },
-  {
-    "id": "eeb57c5b79df",
-    "date": "2026-10-10",
-    "time": "00:04",
-    "store": "朝10時開店",
-    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "machine_type": "slot",
-    "slot_number": "633",
-    "text": "633番台『ミリオンゴッド-神々の軌跡-』 コンプリート達成！ おめでとうございます！㊗️ #ガーデン春日部 #コンプリート #ミリオンゴッド",
-    "x_url": "https://x.com/g_kasukabe/status/2108936759988117574",
-    "store_handle": "g_kasukabe",
-    "store_x_url": "https://x.com/g_kasukabe",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:02:09Z",
-    "images": [
-      "https://pbs.twimg.com/media/HURxmpvbEAAwFwu?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HURxmpvbEAAwFwu?format=jpg&name=large",
-    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
-    "store_id": "8f98b72bf5"
   },
   {
     "id": "8ba073f66d85",
@@ -1186,24 +1118,6 @@
     "store_id": "fa5e8b8de7"
   },
   {
-    "id": "658f3f47cdcf",
-    "date": "2026-10-06",
-    "time": "17:48",
-    "store": "サンシャインKYORAKU平針",
-    "machine": "Lかぐや様は告らせたい",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "こんばんは〜✨ #サンバリ です♪  #Lかぐや様は告らせたい コンプリート機能 発動しましたー(((o(*ﾟ▽ﾟ*)o)))ｽｺﾞｰｲ！  おめでとうございまーす🎊🎉  #サンシャインKYORAKU平針  #コンプリート機能発動",
-    "x_url": "https://x.com/kyorakuhirabari/status/2107392581751746676",
-    "store_handle": "kyorakuhirabari",
-    "store_x_url": "https://x.com/kyorakuhirabari",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:01:35Z",
-    "machine_id": "11111111-1111-1111-1111-000000000017",
-    "store_id": "f9b4e0d3e9"
-  },
-  {
     "id": "dba1753220a4",
     "date": "2026-10-06",
     "time": "17:10",
@@ -1224,28 +1138,6 @@
     "image_url": "https://pbs.twimg.com/media/HT7tbP8aAAELNa-?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "b06d0873ca"
-  },
-  {
-    "id": "a2fa2bf7f0ea",
-    "date": "2026-10-06",
-    "time": "16:47",
-    "store": "フェイス701巨勢",
-    "machine": "スマスロ北斗の拳転生の章2",
-    "machine_type": "slot",
-    "slot_number": "1063",
-    "text": "こんにちはフェイス701巨勢です🐯 R8.10.6.15:57　1063番台　L北斗の拳転生の章2 コンプリート達成おめでとうございます！  またのご来店お待ちしております。  #フェイス　#巨勢　#コンプリート　#パチンコ　#スロット",
-    "x_url": "https://x.com/face_701/status/2107377066316570663",
-    "store_handle": "face_701",
-    "store_x_url": "https://x.com/face_701",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:02:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HT7nzTwakAAxPd3?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HT7nzTwakAAxPd3?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000001",
-    "store_id": "495a7bac39"
   },
   {
     "id": "f50d9377cd08",
@@ -1290,28 +1182,6 @@
     "image_url": "https://pbs.twimg.com/media/HT7gLHabcAAE7uK?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "4130ca6374"
-  },
-  {
-    "id": "2e0040b7cef3",
-    "date": "2026-10-06",
-    "time": "15:35",
-    "store": "エクスアリーナ柏",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "153",
-    "text": "エクスアリーナ柏よりお知らせ⋆͛📢⋆ 『e牙狼12黄金騎士極限』153番台🎉 コンプリート機能発動となりました‼️  ご遊技のお客様‼️おめでとうございます👏㊗️✨  明日も10時00分より営業予定となっております。 たくさんの御来店お待ちしておりますm(*_ _)m #エクスアリーナ柏 #コンプリート #牙狼",
-    "x_url": "https://x.com/arenakashiwa/status/2107359166709027030",
-    "store_handle": "arenakashiwa",
-    "store_x_url": "https://x.com/arenakashiwa",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-11T21:01:09Z",
-    "images": [
-      "https://pbs.twimg.com/media/HT7X7mqacAAAIWk?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HT7X7mqacAAAIWk?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "cc85af400c"
   },
   {
     "id": "738d8e80d8ee",
@@ -1561,6 +1431,50 @@
     "image_url": "https://pbs.twimg.com/media/HT1b_k9aIAAgHwm?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "142c75164f"
+  },
+  {
+    "id": "ef66c19faee8",
+    "date": "2026-10-05",
+    "time": "00:28",
+    "store": "サミット別府店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "1510",
+    "text": "【結果発表】 『L東京喰種』 『L戦国乙女5』 本日のTOP3⃣を発表🔥  🥇1510番台　L戦国乙女5 最大差枚　+19011枚🌈🌈 🥈1375番台　L東京喰種 最大差枚　+10503枚🌈🌈 🥉1508番台　L戦国乙女5 最大差枚　+5639枚🔥🔥  初日からコンプリート発生🎉 11日までオススメだよ🤗",
+    "x_url": "https://x.com/summitbeltupu/status/2107130806980555029",
+    "store_handle": "summitbeltupu",
+    "store_x_url": "https://x.com/summitbeltupu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T21:48:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HT4IRwXbsAAKQOC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HT4IRwXbsAAKQOC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "9a4dfb7369"
+  },
+  {
+    "id": "ae08a9cb2e0a",
+    "date": "2026-10-05",
+    "time": "00:28",
+    "store": "サミット別府店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "【結果発表】 『L東京喰種』 『L戦国乙女5』 本日のTOP3⃣を発表🔥  🥇1510番台　L戦国乙女5 最大差枚　+19011枚🌈🌈 🥈1375番台　L東京喰種 最大差枚　+10503枚🌈🌈 🥉1508番台　L戦国乙女5 最大差枚　+5639枚🔥🔥  初日からコンプリート発生🎉 11日までオススメだよ🤗",
+    "x_url": "https://x.com/summitbeltupu/status/2107130806980555029",
+    "store_handle": "summitbeltupu",
+    "store_x_url": "https://x.com/summitbeltupu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T21:48:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HT4IRwXbsAAKQOC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HT4IRwXbsAAKQOC?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "9a4dfb7369"
   },
   {
     "id": "b46dd25ced51",
