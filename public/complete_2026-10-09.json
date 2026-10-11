@@ -1,5 +1,49 @@
 [
   {
+    "id": "8ba073f66d85",
+    "date": "2026-10-09",
+    "time": "23:40",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "559",
+    "text": "本日、  e牙狼12黄金騎士極限 　559番台  コンプリート達成‼️‼️おめでとうございます📷 #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2108568368349614246",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T17:51:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUMjvxZaEAAQ0F1?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUMjvxZaEAAQ0F1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "c3188532a179",
+    "date": "2026-10-09",
+    "time": "22:09",
+    "store": "サガちゃんPARK",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "2220",
+    "text": "ヤッホー📣  2220番台 真打吉宗  コンプリート達成🎉 おめでとうございます🎊",
+    "x_url": "https://x.com/sagachan_park/status/2108545386457800742",
+    "store_handle": "sagachan_park",
+    "store_x_url": "https://x.com/sagachan_park",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T17:53:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUMO1YtaAAAuyPa?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUMO1YtaAAAuyPa?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "ee5a196fc0"
+  },
+  {
     "id": "755886fe7eb6",
     "date": "2026-10-09",
     "time": "19:30",
