@@ -1,5 +1,28 @@
 [
   {
+    "id": "1f9fd9374d15",
+    "date": "2026-10-10",
+    "time": "22:27",
+    "store": "ディーボ小坂店【公式】アカウント",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "388",
+    "text": "388番台『ヴァルヴレイヴ2』、コンプリート達成おめでとうございます！🔥  ​15時時点で既に差枚＋16,500枚という驚異的な出玉でありながら、そこからさらに高みを目指してぶん回し続けてくださったその姿勢……😮  本当に胸アツでした！✨",
+    "x_url": "https://x.com/divo_x_kosaka/status/2108912283502231771",
+    "store_handle": "divo_x_kosaka",
+    "store_x_url": "https://x.com/divo_x_kosaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T06:48:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HURci0JaUAAAras?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUKehUxbQAAVDFD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HURci0JaUAAAras?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "1869f151f0"
+  },
+  {
     "id": "80b99512089e",
     "date": "2026-10-10",
     "time": "20:54",
@@ -20,6 +43,96 @@
     "image_url": "https://pbs.twimg.com/media/HURHIutbAAAFi2W?format=jpg&name=large",
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d",
     "store_id": "7b011aa368"
+  },
+  {
+    "id": "700e92ce9860",
+    "date": "2026-10-10",
+    "time": "18:06",
+    "store": "ゼント豊橋藤沢店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🤩🤩速報🤩🤩  ヴァルヴレイヴ2 コンプリート機能が作動しました。  おめでとうございます🎊  #ZENT豊橋藤沢店",
+    "x_url": "https://x.com/ZENTtoyohashi/status/2108846740980023762",
+    "store_handle": "zenttoyohashi",
+    "store_x_url": "https://x.com/ZENTtoyohashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T06:52:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUQg7oGa0AA9Ln0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUQg7oGa0AA9Ln0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "25a28fe066"
+  },
+  {
+    "id": "b891a02f2867",
+    "date": "2026-10-10",
+    "time": "12:58",
+    "store": "ディーボ小坂店【公式】アカウント",
+    "machine": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "10月10日（土） ランキング担当です🤭 抽選参加人数350名。  ​【スロット：ULTIMATE 3×3 STAR取材】  トップのヴァルヴレイヴ2（コンプリート！）を筆頭に上位が凄まじい熱気でしたが、6位以下も万枚オーバーが続出  6位　399番台　Lミリオンゴッド-神々の軌跡-　11,736枚 7位　439番台　Lいざ！番長",
+    "x_url": "https://x.com/divo_x_kosaka/status/2109131493331349553",
+    "store_handle": "divo_x_kosaka",
+    "store_x_url": "https://x.com/divo_x_kosaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T06:48:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUUj5pcakAApXWK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUUj6PabYAAxk-I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUUj5pcakAApXWK?format=jpg&name=large",
+    "machine_id": "8e439e6c-c3b7-4a2a-a3e5-bb5f7de1cbac",
+    "store_id": "1869f151f0"
+  },
+  {
+    "id": "50968fd9d316",
+    "date": "2026-10-10",
+    "time": "12:58",
+    "store": "ディーボ小坂店【公式】アカウント",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "10月10日（土） ランキング担当です🤭 抽選参加人数350名。  ​【スロット：ULTIMATE 3×3 STAR取材】  トップのヴァルヴレイヴ2（コンプリート！）を筆頭に上位が凄まじい熱気でしたが、6位以下も万枚オーバーが続出  6位　399番台　Lミリオンゴッド-神々の軌跡-　11,736枚 7位　439番台　Lいざ！番長",
+    "x_url": "https://x.com/divo_x_kosaka/status/2109131493331349553",
+    "store_handle": "divo_x_kosaka",
+    "store_x_url": "https://x.com/divo_x_kosaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T06:48:43Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUUj5pcakAApXWK?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUUj6PabYAAxk-I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUUj5pcakAApXWK?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "1869f151f0"
+  },
+  {
+    "id": "755886fe7eb6",
+    "date": "2026-10-09",
+    "time": "19:30",
+    "store": "ダイナム栃木大田原店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "200",
+    "text": "10月9日(金) 🎈リニューアルオープン🎈  200番台　ｅフィーバーキン肉マン ✨コンプリート達成✨ 🎉おめでとうございます🎉  #コンプリート #ダイナム #キン肉マン",
+    "x_url": "https://x.com/dynam_00307/status/2108505267310600454",
+    "store_handle": "dynam_00307",
+    "store_x_url": "https://x.com/dynam_00307",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T06:48:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HULqXWSXcAA15cs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HULqXWSXcAA15cs?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "fa00cfe601"
   },
   {
     "id": "95c34f622714",
@@ -843,6 +956,28 @@
     "image_url": "https://pbs.twimg.com/media/HTx6ZNTbAAADnlQ?format=jpg&name=large",
     "machine_id": "209074d1-6e64-4dca-b6ab-96ab550e5036",
     "store_id": "732b85339d"
+  },
+  {
+    "id": "52b173f18926",
+    "date": "2026-10-04",
+    "time": "19:30",
+    "store": "D'station浜野店",
+    "machine": "eカケグルイ",
+    "machine_type": "pachinko",
+    "slot_number": "340",
+    "text": "３４０番台　 eカケグルイ 7500ver   コンプリートおめでとうございます🌈🌈🌈   明日のご来店もお待ちしております🌈🌈🌈",
+    "x_url": "https://x.com/d_hamano916/status/2106693535047331956",
+    "store_handle": "d_hamano916",
+    "store_x_url": "https://x.com/d_hamano916",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-11T06:54:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HTx6FfTbIAAvDnm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HTx6FfTbIAAvDnm?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000035",
+    "store_id": "eac0171bbc"
   },
   {
     "id": "511efab8c56e",
