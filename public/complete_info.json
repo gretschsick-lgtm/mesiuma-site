@@ -2365,6 +2365,29 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "504a3f0b0557",
+    "date": "2026-10-06",
+    "time": "22:31",
+    "store": "マルハンメガシティ水戸赤塚",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "938",
+    "text": "本日10月6日（火）‼️ メガシティ水戸赤塚 から‼️ コンプリート達成しました🎉 お客様、おめでとうございます✨✨  #e牙狼12黄金騎士極限 938番台 #マルハンメガシティ水戸赤塚",
+    "x_url": "https://x.com/Naru_Maruhan/status/2107463670922084837",
+    "store_handle": "naru_maruhan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-13T07:58:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HT83APvaMAAvIYD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HT4P8qNakAArlwN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HT83APvaMAAvIYD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "703d5e39e5"
+  },
+  {
     "id": "9da80de55732",
     "date": "2026-10-06",
     "time": "22:23",
@@ -2385,6 +2408,28 @@
     "image_url": "https://pbs.twimg.com/media/HT81WAXaAAEh2uh?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "703d5e39e5"
+  },
+  {
+    "id": "4cd39368eb83",
+    "date": "2026-10-06",
+    "time": "22:15",
+    "store": "マルハン館林店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "70",
+    "text": "10月6日(火)マルハン館林店  📢コンプリート達成📷 📷📷 🎉🎊 ✨e牙狼12黄金騎士極限　70番台  おめでとうございます🎉🎊",
+    "x_url": "https://x.com/marutatedanyan/status/2107459851135897613",
+    "store_handle": "marutatedanyan",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/marutatedanyan",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-10-13T07:58:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HT8y_DiaQAAOYNo?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HT8y_DiaQAAOYNo?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "ebb020f601"
   },
   {
     "id": "c71f115e4c6a",
