@@ -1,5 +1,29 @@
 [
   {
+    "id": "a3956050dc63",
+    "date": "2026-10-12",
+    "time": "22:27",
+    "store": "テキサス小倉店",
+    "machine": "L新鬼武者3",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは🌆  テキサス小倉店です‼️  🔥10月12日🔥  コンプリート達成🎉🎉  🌸🌸🌸🌸🌸🌸🌸🌸🌸 　1035番台➡️➡️➡️          L新鬼武者3 👹⚔️👹⚔️👹⚔️👹⚔️👹  おめでとうございます🎉  コンプリートを見たら 俺を思い出してくれないか?  #コンプリート #極誓",
+    "x_url": "https://x.com/texas_kokura/status/2109636993357615264",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-13T23:29:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUbvo3rboAEVGI6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUbvpeqbEAAoHF4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUbvqHxbQAAw8M8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUbvo3rboAEVGI6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000016",
+    "store_id": "7be267e3ea"
+  },
+  {
     "id": "fc9d42b0461c",
     "date": "2026-10-12",
     "time": "20:58",
@@ -147,6 +171,28 @@
     "image_url": "https://pbs.twimg.com/media/HUasoqkbkAAj2Rk?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000035",
     "store_id": "4a02bce30d"
+  },
+  {
+    "id": "b2cd2fc98bc1",
+    "date": "2026-10-12",
+    "time": "17:32",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "3270",
+    "text": "3270番台　L革命機ヴァルヴレイヴ２ コンプリート機能が発動しましたので  遊技台停止となります。  明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2109562815745007619",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-13T23:30:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUasBLZb0AEa0Uc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUasBLZb0AEa0Uc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "a429955ed18b",
