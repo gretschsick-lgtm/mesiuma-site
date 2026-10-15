@@ -380,6 +380,28 @@
     "store_id": "0a3af93e9e"
   },
   {
+    "id": "0fe49d79843b",
+    "date": "2026-10-11",
+    "time": "17:29",
+    "store": "楽園 店長・アメ横店",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "57",
+    "text": "10月11日  eリコリスリコイル　57番台より コンプリート機能発動👏 おめでとうございます🎊  この後該当台は稼働停止となります。  やはいら〜🥵",
+    "x_url": "https://x.com/mask_rakuen/status/2109199775577129292",
+    "store_handle": "mask_rakuen",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/mask_rakuen",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-10-15T06:10:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUViANVbIAEY3ll?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUViANTaAAAnhXM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUViANVbIAEY3ll?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
+  },
+  {
     "id": "2b4226814ae9",
     "date": "2026-10-11",
     "time": "17:04",
@@ -399,6 +421,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HUVcMSwbEAEPGbC?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
+  },
+  {
+    "id": "545d2d0faedd",
+    "date": "2026-10-11",
+    "time": "17:00",
+    "store": "ダイナム金町南口店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "お早い時間でのコンプリート！！ おめでとうございます㊗️🎉  お写真もダイキチと一緒に撮影📷ありがとうございました😊  まだまだお時間ありますので このあとの時間も ご来店お待ちしております  #真打吉宗 #ダイナム金町",
+    "x_url": "https://x.com/kanamina_tencyo/status/2109192289595838799",
+    "store_handle": "kanamina_tencyo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/kanamina_tencyo",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-10-15T05:34:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUVSy8rWgAEsBwY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUVSzYjWsAANRwQ?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUVSy8rWgAEsBwY?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "dcbb4c52ca"
   },
   {
     "id": "5d0896106f77",
