@@ -81,6 +81,28 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "9f51551d9eaf",
+    "date": "2026-10-11",
+    "time": "22:26",
+    "store": "D'station浜野店",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "646",
+    "text": "６４６番台　 L戦国乙女５   コンプリートおめでとうございます🌈🌈🌈   明日のご来店もお待ちしております🌈🌈🌈",
+    "x_url": "https://x.com/d_hamano916/status/2109274322053591334",
+    "store_handle": "d_hamano916",
+    "store_x_url": "https://x.com/d_hamano916",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-15T00:25:45Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUWlwhob0AEfCHW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUWlwhob0AEfCHW?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "eac0171bbc"
+  },
+  {
     "id": "fd6b9dbb9045",
     "date": "2026-10-11",
     "time": "22:08",
@@ -182,6 +204,29 @@
     "image_url": "https://pbs.twimg.com/media/HUWE7TZbkAAXCon?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "1cd7e84e8e"
+  },
+  {
+    "id": "199aa36d1c4b",
+    "date": "2026-10-11",
+    "time": "20:32",
+    "store": "プレイランドキャッスル高浜店",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "※創業月間※  ”西三河最大級１００３台 ”     【アソビの殿堂】から速報ッ！     【２３９番台】  『eRe：ゼロから始める異世界生活鬼がかり２』  【１９番台】   『e女神のカフェテラス』  なんと！２台も！！  ≪コンプリート機能発動！≫ 　 　　  ※開放は明日予定です。",
+    "x_url": "https://x.com/Hara_Strong/status/2109245825247539447",
+    "store_handle": "hara_strong",
+    "store_x_url": "https://x.com/hara_strong",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-15T00:36:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUWLbsCaoAAL76f?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUWLcQgb0AABZr5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUWLbsCaoAAL76f?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "4af5cc0d0b"
   },
   {
     "id": "ce73c25bb805",
@@ -311,6 +356,28 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HUVxE9NbgAAklDk?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94"
+  },
+  {
+    "id": "8ffe7f0c43b4",
+    "date": "2026-10-11",
+    "time": "17:35",
+    "store": "グランキコーナ松原店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "510",
+    "text": "510番台「e東京喰種」 コンプリート機能発動！  3連休これぐらいはないとね…  これぐらいはね…  #今日も感謝を込めて  #グランマ  #グランキコーナ松原店",
+    "x_url": "https://x.com/kicona_matsubra/status/2109201180157153399",
+    "store_handle": "kicona_matsubra",
+    "store_x_url": "https://x.com/kicona_matsubra",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-15T00:38:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUVi_K5bAAAhswE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUVi_K5bAAAhswE?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "0a3af93e9e"
   },
   {
     "id": "2b4226814ae9",

@@ -47,6 +47,51 @@
     "store_id": "3b33dd116a"
   },
   {
+    "id": "b8aa861b4757",
+    "date": "2026-10-12",
+    "time": "20:10",
+    "store": "スタジアム二俣川店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "おめでとうございます🎊  3⃣7⃣番台 ｅ東京喰種 超デカ超一撃ver. 🌈コンプリート達成🌈  おめでとうございます🎊 #東京喰種 #コンプリート",
+    "x_url": "https://x.com/stadium_futa/status/2109602479268847773",
+    "store_handle": "stadium_futa",
+    "store_x_url": "https://x.com/stadium_futa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-15T00:23:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUbOV5eaYAA2Zul?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HUbOZshacAA_3Iy?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUbOV5eaYAA2Zul?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "5a7a939a8e"
+  },
+  {
+    "id": "db779f1e30ca",
+    "date": "2026-10-12",
+    "time": "20:05",
+    "store": "ゾーン行橋1000",
+    "machine": "L戦国乙女5 業火を穿つ宿焔の双刃",
+    "machine_type": "slot",
+    "slot_number": "696",
+    "text": "10/12(月) 696番台 L戦国乙女5  コンプリート達成！ おめでとうございます！  #ゾーン行橋 #戦国乙女5",
+    "x_url": "https://x.com/zone_yukuhashi/status/2109601295128785293",
+    "store_handle": "zone_yukuhashi",
+    "store_x_url": "https://x.com/zone_yukuhashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-15T00:23:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUbO8nMb0AAJOQq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUbO8nMb0AAJOQq?format=jpg&name=large",
+    "machine_id": "68dc490e-6079-4538-919d-7156151e6d7c",
+    "store_id": "d2b37d41c5"
+  },
+  {
     "id": "517a5cd0d895",
     "date": "2026-10-12",
     "time": "20:04",
