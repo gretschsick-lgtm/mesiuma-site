@@ -55985,5 +55985,29 @@
     "count": 0,
     "x_url": "https://x.com/daiei_k_0523",
     "verification_status": "excluded_manager"
+  },
+  "pia_ise3choume": {
+    "store": "PIA（ピアノ）（自動発掘）",
+    "x_url": "https://x.com/pia_ise3choume",
+    "count": 0,
+    "type": "store"
+  },
+  "pia_atsugi": {
+    "store": "PIA（ピアノ）（自動発掘）",
+    "x_url": "https://x.com/pia_atsugi",
+    "count": 0,
+    "type": "store"
+  },
+  "kicona_suita_": {
+    "store": "キコーナ（自動発掘）",
+    "x_url": "https://x.com/kicona_suita_",
+    "count": 0,
+    "type": "store"
+  },
+  "mjkurume": {
+    "store": "MJ（自動発掘）",
+    "x_url": "https://x.com/mjkurume",
+    "count": 0,
+    "type": "store"
   }
 }
