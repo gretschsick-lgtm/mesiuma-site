@@ -1,5 +1,44 @@
 [
   {
+    "id": "70b0de326ee7",
+    "date": "2026-10-17",
+    "time": "23:20",
+    "store": "ABC磐田中泉店🦐⛲️",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "286",
+    "text": "🎊#コンプリート 達成  🎰286番台 『L炎炎ノ消防隊』 遅くまでご遊技いただき、 閉店ギリギリのドラマを 魅せていただきました！！  おめでとうございますッ👏✨ そして対戦ありがとうございました🔥",
+    "x_url": "https://x.com/ABC_nakaizumi/status/2111462305653559723",
+    "store_handle": "abc_nakaizumi",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-19T09:53:13Z",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2"
+  },
+  {
+    "id": "bc2185e294a4",
+    "date": "2026-10-17",
+    "time": "21:58",
+    "store": "エクスアリーナ松戸",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "328",
+    "text": "エクスアリーナ松戸よりお知らせです⋆͛📢⋆  328番台『e東京喰種』にて コンプリート機能発動となりました👏👏  おめでとうございます🎉🎉🎉  明日も朝10時よりご来店お待ちしております🙇🏻‍♀️",
+    "x_url": "https://x.com/XAmatsudo/status/2111441665206730794",
+    "store_handle": "xamatsudo",
+    "store_x_url": "https://x.com/xamatsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-19T09:41:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HU1Y_yNaoAAzZZV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HU1Y_yNaoAAzZZV?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "a21784a348"
+  },
+  {
     "id": "c118b434e3be",
     "date": "2026-10-17",
     "time": "20:53",
@@ -21,6 +60,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "7738435906ac",
+    "date": "2026-10-17",
+    "time": "20:47",
+    "store": "スーパーD'ステーション39諫早店",
+    "machine": "eひきこまり吸血姫の悶々",
+    "machine_type": "pachinko",
+    "slot_number": "579",
+    "text": "📢コンプリート速報📢  🎉579番台「ひきこまり吸血姫の悶々」 コンプリート達成おめでとうございます‼️🎊🔥  見事コンプリート達成です‼️  本日もDステーション諫早店で 最後までお楽しみください🙌🔥  #諫早 #Dステ #コンプリート #ひきこまり吸血姫の悶々",
+    "x_url": "https://x.com/dsisahaya/status/2111423833299402777",
+    "store_handle": "dsisahaya",
+    "store_x_url": "https://x.com/dsisahaya",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-19T09:38:20Z",
+    "images": [
+      "https://pbs.twimg.com/media/HU1FUWfasAAw_YB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HU1FUWfasAAw_YB?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000034"
+  },
+  {
     "id": "90b63d2079f4",
     "date": "2026-10-17",
     "time": "15:49",
@@ -40,5 +100,27 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HU0EjFeawAAbnY0?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000019"
+  },
+  {
+    "id": "e7b609b9d62c",
+    "date": "2026-10-17",
+    "time": "14:00",
+    "store": "プレイランドキャッスル春日井店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "683",
+    "text": "✨コンプリート機能発動✨ 先ほど、６８３番台 スマスロ革命機ヴァルヴレイヴ２にて コンプリート機能発動❗️ 明日、開放予定になります。 この後も #キャッスル春日井 で  お待ちしております♪",
+    "x_url": "https://x.com/castle_kasugai/status/2111321409872150693",
+    "store_handle": "castle_kasugai",
+    "store_x_url": "https://x.com/castle_kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-19T09:54:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HUzrhDbawAAhVTC?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HUzrhDbawAAhVTC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "cbc9c2710d"
   }
 ]
