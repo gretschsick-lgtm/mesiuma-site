@@ -1,0 +1,46 @@
+[
+  {
+    "id": "25060c4f4a7a",
+    "date": "2026-10-21",
+    "time": "21:38",
+    "store": "楽園蒲田店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "3186",
+    "text": "先程 3186番台 Lチバリヨ２にて、 コンプリート達成されました！  ご遊技台は停止させて頂いております。  この後のお時間も 楽園蒲田店でお楽しみください。",
+    "x_url": "https://x.com/rakuen_kamata/status/2112886125920686498",
+    "store_handle": "rakuen_kamata",
+    "store_x_url": "https://x.com/rakuen_kamata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-21T15:49:11Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVJ6oPnacAA55F-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVJ6oPnacAA55F-?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "bdd2e55ff9"
+  },
+  {
+    "id": "8abb661e5f68",
+    "date": "2026-10-21",
+    "time": "14:40",
+    "store": "ダイナム福岡久留米店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "339",
+    "text": "こんにちは‼️ 10/20㊗️コンプリート㊗️  339番台ソードアートオンラインⅡ  おめでとうございます💖  本日も元気に営業中です😄  #ＳＡＯ #コンプリート #ダイナム #久留米",
+    "x_url": "https://x.com/dynam_00361/status/2112780943861731443",
+    "store_handle": "dynam_00361",
+    "store_x_url": "https://x.com/dynam_00361",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-21T15:51:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVIbEixWMAArXsB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVIbEixWMAArXsB?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "223cc37d93"
+  }
+]
