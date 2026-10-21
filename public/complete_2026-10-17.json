@@ -17,6 +17,51 @@
     "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2"
   },
   {
+    "id": "6d145e95dcba",
+    "date": "2026-10-17",
+    "time": "22:29",
+    "store": "田原加治屋店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🎉おめでとうございます🎉 本日、Lカバネリにて「コンプリート機能が発動」しました。",
+    "x_url": "https://x.com/29_ootawara/status/2111449634636018042",
+    "store_handle": "29_ootawara",
+    "store_x_url": "https://x.com/29_ootawara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-21T09:02:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HU1gQFKasAAieNG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HU1gQFKasAAieNG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000005",
+    "store_id": "5d87041776"
+  },
+  {
+    "id": "de16ff68e8af",
+    "date": "2026-10-17",
+    "time": "22:25",
+    "store": "ABC甲府上阿原店",
+    "machine": "スマスロ攻殻機動隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🎉閉店間際の滑り込み速報🎉  スロパチガール来店取材実施の 　　　笛吹石和店より  🌈コンプリート報告🌈 🔴4円パチンコ  　　全店オススメ機種 　　　【東京喰種】 🟡20円スロット  　　　【攻殻機動隊】 🎊コンプリート達成🎊  そして明日は…  📸P-QUEST取材‼️ 明日もご来店おまちしております😚✨",
+    "x_url": "https://x.com/ABC_isawa/status/2111448451561197891",
+    "store_handle": "abc_isawa",
+    "store_x_url": "https://x.com/ABC_isawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-21T09:02:10Z",
+    "images": [
+      "https://pbs.twimg.com/media/HU1e_nQa0AE5C-N?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HU1e_nYaQAAN9qt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HU1e_nQa0AE5C-N?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000008",
+    "store_id": "e936860a27"
+  },
+  {
     "id": "bc2185e294a4",
     "date": "2026-10-17",
     "time": "21:58",
