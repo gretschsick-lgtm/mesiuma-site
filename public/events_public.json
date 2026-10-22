@@ -41711,6 +41711,34 @@
       "source": "yahoo_rt"
     },
     {
+      "id": "2301fdbb7aab",
+      "date": "10/21",
+      "store": "マルハン新宿東宝ビル店",
+      "pref": "東京都",
+      "area": "関東",
+      "event": "イベント",
+      "detail": "【ジャグラー】超有名店で全台系を狙って流れ着いた台が大爆発！ヒキよわザコおじさんでも勝てる店でツッパした結果･･･【マルハン新宿東宝ビル店】【アイム】【全台系】【設定判別】",
+      "cast": "発！ヒキよわザコおじさん",
+      "highlight": "",
+      "x_url": "",
+      "url": "https://www.youtube.com/watch?v=busWNmH8hLk",
+      "source": "youtube_search"
+    },
+    {
+      "id": "67475d325392",
+      "date": "10/21",
+      "store": "マルハン新宿東宝ビル店",
+      "pref": "東京都",
+      "area": "関東",
+      "event": "イベント",
+      "detail": "【ジャグラー】狙うは全台系！見事にツモって願いを叶える！？勝って息子に〇〇プレゼント！戦闘民族の戦い方をみせてやる！【マルハン新宿東宝ビル店】【アイム】【悟空】【イベント】",
+      "cast": "スギちゃんの人生ニブイチ",
+      "highlight": "",
+      "x_url": "",
+      "url": "https://www.youtube.com/watch?v=R1H927ljor0",
+      "source": "youtube_search"
+    },
+    {
       "id": "07242079299f",
       "date": "10/20",
       "store": "グランド",
@@ -210057,34 +210085,6 @@
       "x_url": "",
       "url": "yrt-400f96a0532d",
       "source": "yahoo_rt"
-    },
-    {
-      "id": "04e2cccc9cdb",
-      "date": "08/17",
-      "store": "ピーアーク相模大野",
-      "pref": "神奈川県",
-      "area": "関東",
-      "event": "来店",
-      "detail": "8/17 月曜日 🐶メモ📋️ フィオーレたまプラーザ (まぐろくん 整列ドリラー取材) ピーアーク相模大野 (🔰天草覇道ホール応援団) (くろむ来店) PIA厚木 (アルティメットCG調査隊) PIA金沢八景 (まぐろくん 極上取材🐟🌈) PIA伊勢佐木3丁目 (まぐろくん 極上取材🐟🌈) x.com/norakobu/statu…",
-      "cast": "",
-      "highlight": "",
-      "x_url": "",
-      "url": "yrt-16cc4da78718",
-      "source": "yahoo_rt"
-    },
-    {
-      "id": "2c92a65e64fd",
-      "date": "08/17",
-      "store": "ワンダーランド臼杵店",
-      "pref": "大分県",
-      "area": "九州・沖縄",
-      "event": "来店",
-      "detail": "こんばんは♪ワンダーランド臼杵っス  本日も多くのお客様ご来店  ありがとうございました  本日の出玉状況っス  明後日新台入替お待ちしております",
-      "cast": "ワンダーランド臼杵店",
-      "highlight": "",
-      "x_url": "https://x.com/wl_usuki/status/2017959771371143395",
-      "url": "https://x.com/wl_usuki/status/2017959771371143395",
-      "source": "x"
     }
   ]
 }
