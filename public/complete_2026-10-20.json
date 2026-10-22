@@ -1,5 +1,23 @@
 [
   {
+    "id": "6d00f4dbe7f7",
+    "date": "2026-10-20",
+    "time": "23:22",
+    "store": "マルハン佐賀店実績",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "498",
+    "text": "📈L革命機ヴァルヴレイヴ2📈 　　　💥498番台💥 　　　‼️19時47分‼️ 　   ⚡️コンプリート⚡️ ㊗️おめでとうございます㊗️",
+    "x_url": "https://x.com/since2011_8_11/status/2112550131962929256",
+    "store_handle": "since2011_8_11",
+    "store_x_url": "https://x.com/since2011_8_11",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-22T10:55:44Z",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "40bee74824"
+  },
+  {
     "id": "f25dde579b77",
     "date": "2026-10-20",
     "time": "21:20",
@@ -42,5 +60,45 @@
     "image_url": "https://pbs.twimg.com/media/HVEZE_DboAE1kUP?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
     "store_id": "83a44a3e46"
+  },
+  {
+    "id": "52850eb21a55",
+    "date": "2026-10-20",
+    "time": "09:00",
+    "store": "ダイナム愛媛宇和島店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "382",
+    "text": "昨日１０月２０日(火） ⭐３８２番台 Ｌ東京喰種がコンプリートしました⭐  遊技されていたお客様おめでとうございます🥳🎉  #コンプリート　#Ｌ東京喰種　#ダイナム愛媛宇和島店",
+    "x_url": "https://x.com/dynam_00336/status/2112695392538083460",
+    "store_handle": "dynam_00336",
+    "store_x_url": "https://x.com/dynam_00336",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-22T10:55:44Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVHNP9mWcAAlejA?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVHNQjJXIAAVfpO?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVHNP9mWcAAlejA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "891dfb264825",
+    "date": "2026-10-20",
+    "time": "01:00",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "495",
+    "text": "本日、  e牙狼12黄金騎士極限 　495番台 eRe:ゼロから始める異世界生活 鬼がかり2　563番台  コンプリート達成‼️‼️おめでとうございます📷 #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2112574685234041218",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-22T10:55:44Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   }
 ]
