@@ -42,5 +42,48 @@
     "image_url": "https://pbs.twimg.com/media/HVUFEmpaQAASoOF?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
     "store_id": "771f030669"
+  },
+  {
+    "id": "2e348c5e62ab",
+    "date": "2026-10-23",
+    "time": "19:43",
+    "store": "MGM阿久根",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "557",
+    "text": "こんばんは🌇 MGM阿久根店です😄  先程のお時間、 557番台【Lチバリヨ2】  🏆コンプリート達成🏆 おめでとうございます🎖️",
+    "x_url": "https://x.com/mgmakune/status/2113582158178840675",
+    "store_handle": "mgmakune",
+    "store_x_url": "https://x.com/mgmakune",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-25T15:01:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVTzt75aMAAbFFf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVTzt75aMAAbFFf?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "5861a43d92"
+  },
+  {
+    "id": "547a3a889ce1",
+    "date": "2026-10-23",
+    "time": "15:56",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "790",
+    "text": "🔱キクヤ堺本店1515🔱 👑⚡コンプリートのご報告⚡👑 💎790番台 【Lパチスロ 革命機ヴァルヴレイヴ2】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます‼ 🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊",
+    "x_url": "https://x.com/ksakaihonten/status/2113524970097623382",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-25T14:59:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVS_uzIbsAEdhQI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVS_uzIbsAEdhQI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   }
 ]

@@ -18,6 +18,28 @@
     "store_id": "40bee74824"
   },
   {
+    "id": "565245621a9c",
+    "date": "2026-10-20",
+    "time": "21:30",
+    "store": "マルハン上里店",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "672",
+    "text": "こんばんは😃 マルハン上里店です。 672番台　Lチバリヨ2ZB コンプリート達成‼️ おめでとうございます💖  #マルハン上里店",
+    "x_url": "https://x.com/Smaru_kamisato/status/2112521720624021744",
+    "store_handle": "smaru_kamisato",
+    "store_x_url": "https://x.com/smaru_kamisato",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-25T14:45:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVEp-CtaIAAZxyu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVEp-CtaIAAZxyu?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014",
+    "store_id": "3ca04eeb13"
+  },
+  {
     "id": "f25dde579b77",
     "date": "2026-10-20",
     "time": "21:20",
@@ -85,6 +107,29 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "50ff152ab26b",
+    "date": "2026-10-20",
+    "time": "19:18",
+    "store": "SUPER CONCORDE",
+    "machine": "Lからくりサーカス",
+    "machine_type": "slot",
+    "slot_number": "3340",
+    "text": "コンプリート報告🎉  Lからくりサーカス　3340番台で コンプリート機能が作動いたしました‼️  ご遊技されていた『のんちゃん』さん おめでとうございます！ コメント：初めてのコンプリートうれしいです‼️  初代からくりもまだまだ現役ですね♪ このあとのお時間もスパコンでお楽しみください♪",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2112488624847786340",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-25T14:43:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVERM_kawAAQ0D1?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HU-jOXjaQAAC261?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVERM_kawAAQ0D1?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000021",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "52850eb21a55",
     "date": "2026-10-20",
     "time": "09:00",
@@ -104,6 +149,27 @@
       "https://pbs.twimg.com/media/HVHNQjJXIAAVfpO?format=jpg&name=large"
     ],
     "image_url": "https://pbs.twimg.com/media/HVHNP9mWcAAlejA?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
+    "id": "508c921780f2",
+    "date": "2026-10-20",
+    "time": "01:50",
+    "store": "スーパーコスモプレミアム泉南店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは😊 プレミアム泉南店です  🎉✨コンプリート達成✨🎉  本日、L東京喰種にて コンプリート達成となりました！  今後も皆様に楽しんでいただけるお店を目指してまいります！  達成されたお客様おめでとうございます🎉  明日のご来店もお待ちしております！  #泉南コスモ #コンプリート",
+    "x_url": "https://x.com/scp_sennan1223/status/2112587275888664905",
+    "store_handle": "scp_sennan1223",
+    "store_x_url": "https://x.com/scp_sennan1223",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-25T15:01:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVFq7aAa8AAF2WY?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVFq7aAa8AAF2WY?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000006"
   },
   {
