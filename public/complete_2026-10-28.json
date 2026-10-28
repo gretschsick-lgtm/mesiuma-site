@@ -1,0 +1,47 @@
+[
+  {
+    "id": "0169bba3a9af",
+    "date": "2026-10-28",
+    "time": "21:14",
+    "store": "サンドラ大塚店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "233",
+    "text": "【朗報】 『Lソードアート・オンラインII』233番台 コンプリート達成おめでとうございます  サンドラでは久々のコンプリートで嬉しいね さあ皆様ドシドシ続くのです",
+    "x_url": "https://x.com/otsuka_sandra/status/2115416892617941007",
+    "store_handle": "otsuka_sandra",
+    "store_x_url": "https://x.com/otsuka_sandra",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-28T19:49:15Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVt3nsWaUAA0_-P?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVt3nsWaUAA0_-P?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "ecfbf63642"
+  },
+  {
+    "id": "dac281dff62f",
+    "date": "2026-10-28",
+    "time": "20:31",
+    "store": "ＢＩＧディッパー京都駅前店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "120",
+    "text": "🌈１０月２８日🌈  🤖ヴァルヴレイヴ２🤖 　🔥１２０番台🔥 コンプリート達成👏 おめでとうございます🎉  #京都駅前ディッパーコンプリート #コンプリート",
+    "x_url": "https://x.com/bigdipper_kyoto/status/2115406130050687156",
+    "store_handle": "bigdipper_kyoto",
+    "store_x_url": "https://x.com/bigdipper_kyoto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-28T19:45:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVtudDKasAAuUF4?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HURHG1WasAA--lq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVtudDKasAAuUF4?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "35782adb87"
+  }
+]
