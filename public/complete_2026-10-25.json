@@ -1,5 +1,49 @@
 [
   {
+    "id": "7c924dd8a12d",
+    "date": "2026-10-25",
+    "time": "23:55",
+    "store": "朝10時開店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "716",
+    "text": "10月25日 （日） 📷コンプリート速報📷 716番台『いざ！番長』   ✨✨おめでとうございます✨✨ #新ガーデン春日部 #コンプリート",
+    "x_url": "https://x.com/g_kasukabe/status/2114370145162273219",
+    "store_handle": "g_kasukabe",
+    "store_x_url": "https://x.com/g_kasukabe",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-29T10:31:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVe78g7bgAAQsvu?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVe78g7bgAAQsvu?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "8f98b72bf5"
+  },
+  {
+    "id": "f96554349bdd",
+    "date": "2026-10-25",
+    "time": "23:17",
+    "store": "ZENT名古屋北店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "1884",
+    "text": "本日のコンプリート報告📣  1884番台  真打吉宗  おめでとうございます🎉  報告遅くなってしまいました🙇  明日開放🚩  #ZENT #北ゼン",
+    "x_url": "https://x.com/ZENT_hasse/status/2114360764652003731",
+    "store_handle": "zent_hasse",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-29T10:31:51Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVe358CacAAkGUe?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVe358CacAAkGUe?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "7d5ad47685"
+  },
+  {
     "id": "ff2c6dce530b",
     "date": "2026-10-25",
     "time": "22:27",
@@ -109,6 +153,29 @@
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
   },
   {
+    "id": "71f6164f5034",
+    "date": "2026-10-25",
+    "time": "21:18",
+    "store": "まるみつ浜線店",
+    "machine": "スマスロ北斗の拳",
+    "machine_type": "slot",
+    "slot_number": "3110",
+    "text": "【まるみつ速報】 1️⃣0️⃣月2️⃣5️⃣日 3110番台　スマスロ北斗の拳 #コンプリート 達成です！ おめでとうございます🎉  #まるみつ浜線 #スマスロ北斗の拳",
+    "x_url": "https://x.com/maru_hamasen/status/2114330730033828339",
+    "store_handle": "maru_hamasen",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-29T10:45:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVecl3VaQAAVVoO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HU544SLaoAAIPui?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVecl3VaQAAVVoO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000007",
+    "store_id": "1822ed267b"
+  },
+  {
     "id": "03f64faa9b44",
     "date": "2026-10-25",
     "time": "21:16",
@@ -153,6 +220,27 @@
     "image_url": "https://pbs.twimg.com/media/HVearFzbIAAYYZh?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
     "store_id": "2eabd788e9"
+  },
+  {
+    "id": "9cfe30637ed2",
+    "date": "2026-10-25",
+    "time": "21:00",
+    "store": "パチンコ豊田コロナ",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "310",
+    "text": "こんばんは！！豊田コロナです！！！ 本日10月25日（日）コンプリート報告です💮 スマスロ北斗の拳転生の章2　1,310番台にて コンプリートです！！ おめでとうございます！！",
+    "x_url": "https://x.com/toyota_korona/status/2114326185509625923",
+    "store_handle": "toyota_korona",
+    "store_x_url": "https://x.com/toyota_korona",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-29T10:45:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVeYO0qbUAAG3sK?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVeYO0qbUAAG3sK?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001"
   },
   {
     "id": "78069a908bdf",
@@ -241,6 +329,54 @@
     "image_url": "https://pbs.twimg.com/media/HVd_eevaQAAH4PW?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "68dbb15c10"
+  },
+  {
+    "id": "bf88861324b5",
+    "date": "2026-10-25",
+    "time": "19:10",
+    "store": "ナショナル会館",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "227",
+    "text": "【速報】複数台にてコンプリート達成！(੭ु´･ω･`)੭ु⁾⁾  4円ぱちんこ 227番台・e東京喰種399Ver  4円ぱちんこ 307番台・e女神のカフェテラス  20円スロット 2356番台・L魔法少女にあこがれて  上記以外にも、このままいけば・・・という台もあり！ 明日のランキングをお楽しみに！ヾ(≧▽≦)ﾉ",
+    "x_url": "https://x.com/natio_hirosima/status/2114298563262091570",
+    "store_handle": "natio_hirosima",
+    "store_x_url": "https://x.com/natio_hirosima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-29T10:47:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVd-esDbUAA3Aay?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVd-f8tb0AIvsSs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVd-hj3bAAAwLVm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVd-esDbUAA3Aay?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "41a3b97a52"
+  },
+  {
+    "id": "6308fd209d53",
+    "date": "2026-10-25",
+    "time": "19:10",
+    "store": "ナショナル会館",
+    "machine": "e女神のカフェテラス",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【速報】複数台にてコンプリート達成！(੭ु´･ω･`)੭ु⁾⁾  4円ぱちんこ 227番台・e東京喰種399Ver  4円ぱちんこ 307番台・e女神のカフェテラス  20円スロット 2356番台・L魔法少女にあこがれて  上記以外にも、このままいけば・・・という台もあり！ 明日のランキングをお楽しみに！ヾ(≧▽≦)ﾉ",
+    "x_url": "https://x.com/natio_hirosima/status/2114298563262091570",
+    "store_handle": "natio_hirosima",
+    "store_x_url": "https://x.com/natio_hirosima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-29T10:47:35Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVd-esDbUAA3Aay?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVd-f8tb0AIvsSs?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVd-hj3bAAAwLVm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVd-esDbUAA3Aay?format=jpg&name=large",
+    "machine_id": "5c155c22-eedf-481e-824f-6b5d9073b0a7",
+    "store_id": "41a3b97a52"
   },
   {
     "id": "394dcc41c447",

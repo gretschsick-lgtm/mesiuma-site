@@ -1,5 +1,49 @@
 [
   {
+    "id": "eba6e8180cfd",
+    "date": "2026-10-26",
+    "time": "22:30",
+    "store": "八斗島店",
+    "machine": "スマスロ モンスターハンターライズ",
+    "machine_type": "slot",
+    "slot_number": "644",
+    "text": "✨🏝️congratulation🏝️✨ スマスロ モンスターハンターライズ 644番台のお客様🎶 コンプリート🦾✨✨✨ おめでとうございます👏  令和8年10月26日（月） マルハン八斗島店から またひとりｱｰﾑｽﾄﾛﾝｶﾞｰが誕生した🦾",
+    "x_url": "https://x.com/mitchan_maruhan/status/2114711151447777452",
+    "store_handle": "mitchan_maruhan",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-29T10:46:38Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVj2lXnaAAATtmb?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HROBMVIbIAAGt1Q?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVj2lXnaAAATtmb?format=jpg&name=large",
+    "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
+  },
+  {
+    "id": "a16d79c7e5af",
+    "date": "2026-10-26",
+    "time": "20:22",
+    "store": "エクスアリーナ松戸",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "344",
+    "text": "エクスアリーナ松戸よりお知らせです⋆͛📢  344番台『e牙狼12黄金騎士極限』にて コンプリート機能発動となりました👏👏  おめでとうございます🎉✨✨  この後も22:45まで営業しております‼️ ご来店お待ちしております🙇🏻‍♀️",
+    "x_url": "https://x.com/XAmatsudo/status/2114679020159906117",
+    "store_handle": "xamatsudo",
+    "store_x_url": "https://x.com/xamatsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-29T10:48:33Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVjZWe5acAAOpTF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVjZWe5acAAOpTF?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "a21784a348"
+  },
+  {
     "id": "ba383c9bd4ba",
     "date": "2026-10-26",
     "time": "09:30",
