@@ -43,5 +43,27 @@
     "image_url": "https://pbs.twimg.com/media/HVtudDKasAAuUF4?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "35782adb87"
+  },
+  {
+    "id": "1dcba98cce85",
+    "date": "2026-10-28",
+    "time": "17:28",
+    "store": "D’station39長与店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "408",
+    "text": "🎊✨コンプリート達成✨🎊 🐺408番台🐺 🐺e東京喰種🐺 見事、コンプリート達成致しました👏🔥  本当におめでとうございます🎉  #コンプリート達成 #おめでとうございます #パチスロ #パチンコ #コンプリート",
+    "x_url": "https://x.com/d_nagayoten/status/2115360160638193717",
+    "store_handle": "d_nagayoten",
+    "store_x_url": "https://x.com/d_nagayoten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-29T06:47:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVtE2h2aoAAT2BL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVtE2h2aoAAT2BL?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "0a78bac15d"
   }
 ]
