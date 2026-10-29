@@ -65,29 +65,6 @@
     "machine_id": "11111111-1111-1111-1111-000000000008"
   },
   {
-    "id": "16c5997cd780",
-    "date": "2026-10-23",
-    "time": "21:35",
-    "store": "キコーナ鶴見",
-    "machine": "L革命機ヴァルヴレイヴ2",
-    "machine_type": "slot",
-    "slot_number": "",
-    "text": "本日 L革命機ヴァルヴレイヴ2にて 2台のコンプリート達成！！  おめでとうございます🥳 #今日も感謝を込めて  #グランキコーナ鶴見",
-    "x_url": "https://x.com/gkicona_turumi/status/2113610379695944168",
-    "store_handle": "gkicona_turumi",
-    "store_x_url": "https://x.com/gkicona_turumi",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-29T01:40:50Z",
-    "images": [
-      "https://pbs.twimg.com/media/HVUNSzMakAAOYOE?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HVUNSzGasAATfix?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HVUNSzMakAAOYOE?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000002",
-    "store_id": "cd7a76c703"
-  },
-  {
     "id": "7d41f2ddc6f0",
     "date": "2026-10-23",
     "time": "20:59",
@@ -172,28 +149,5 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HVS_uzIbsAEdhQI?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
-  },
-  {
-    "id": "f4ec002e78ab",
-    "date": "2026-10-23",
-    "time": "14:14",
-    "store": "グランドホール港南店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "205",
-    "text": "元気印の日野ミクだよっ✨ 牙狼黄金騎士の205番台でコンプリート達成とかマジで羨ましすぎない…！？🥺✨ その達成感ミクにも分けてほしい〜っ　ミクには尊すぎる😆🎉 達成された騎士様、本当におめでとうございますっ👏✨ #牙狼黄金騎士 #コンプリート達成 #日野ミク",
-    "x_url": "https://x.com/grand_konan/status/2113499157814218970",
-    "store_handle": "grand_konan",
-    "store_x_url": "https://x.com/grand_konan",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-10-29T01:38:20Z",
-    "images": [
-      "https://pbs.twimg.com/media/HVSmJ2EagAA8vni?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HVSmSXkakAAkiOG?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HVSmJ2EagAA8vni?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "63ba670979"
   }
 ]
