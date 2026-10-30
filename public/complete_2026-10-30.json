@@ -1,0 +1,45 @@
+[
+  {
+    "id": "cc59e0fa933b",
+    "date": "2026-10-30",
+    "time": "19:35",
+    "store": "スーパーD'ステーション39佐々インター店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "434",
+    "text": "🎉【コンプリート達成】🎉  ✨434番台eFキン肉マン コンプリート✨  おめでとうでございます🥳🍾㊗️",
+    "x_url": "https://x.com/d_sazainter/status/2116116652983271914",
+    "store_handle": "d_sazainter",
+    "store_x_url": "https://x.com/d_sazainter",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-30T18:24:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV3yqnlasAAvCFt?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV3yqnlasAAvCFt?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031"
+  },
+  {
+    "id": "6d1212999e1c",
+    "date": "2026-10-30",
+    "time": "19:23",
+    "store": "エクスアリーナ松戸",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "661",
+    "text": "エクスアリーナ松戸よりお知らせです⋆͛📢  661番台『Lいざ！番長』にて コンプリート機能発動となりました👏👏  おめでとうございます🎉🎉🎉  この後も22:45まで営業しております‼️ ご来店お待ちしております🙇🏻‍♀️",
+    "x_url": "https://x.com/XAmatsudo/status/2116113768510034051",
+    "store_handle": "xamatsudo",
+    "store_x_url": "https://x.com/xamatsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-30T18:24:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV3yPwFaoAA-0rW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV3yPwFaoAA-0rW?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "a21784a348"
+  }
+]
