@@ -1,5 +1,27 @@
 [
   {
+    "id": "342caa8ec97e",
+    "date": "2026-10-30",
+    "time": "22:57",
+    "store": "パーラーVOX",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "キター‼️コンプリート‼️  e牙狼12黄金騎士極限🎉😎🎉  おめでとうございます‼️  #コンプリート  #パーラーＶＯＸ",
+    "x_url": "https://x.com/vox_ikeda_1224/status/2116167681925910732",
+    "store_handle": "vox_ikeda_1224",
+    "store_x_url": "https://x.com/vox_ikeda_1224",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T06:45:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV4jSg_aIAAmEcc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV4jSg_aIAAmEcc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "e02567c845"
+  },
+  {
     "id": "cc59e0fa933b",
     "date": "2026-10-30",
     "time": "19:35",
@@ -883,6 +905,29 @@
     "store_id": "7d5ad47685"
   },
   {
+    "id": "51c0ea98c139",
+    "date": "2026-10-25",
+    "time": "22:42",
+    "store": "ウイング松阪南店",
+    "machine": "eフィーバーキン肉マン",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【コンプリート報告】 １円パチンコにて 💪『eキン肉マン』💪 🎉コンプリートいたしました🎉 　🎊おめでとうございます🎊 #ウイング松阪南店 #グループ最大旗艦店  #18年目突入  #無限の可能性に挑戦中 #キン肉マン  #パチンコ",
+    "x_url": "https://x.com/wing_matsumina/status/2114351830704832792",
+    "store_handle": "wing_matsumina",
+    "store_x_url": "https://x.com/wing_matsumina",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T06:46:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVevszIaEAADdCS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVeB9KDboAAYyNz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVevszIaEAADdCS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000031",
+    "store_id": "b2a92054a5"
+  },
+  {
     "id": "ff2c6dce530b",
     "date": "2026-10-25",
     "time": "22:27",
@@ -1168,6 +1213,28 @@
     "image_url": "https://pbs.twimg.com/media/HVeLjWYaUAApcmB?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "ef707cf8fe"
+  },
+  {
+    "id": "6c2fd002d6a8",
+    "date": "2026-10-25",
+    "time": "19:28",
+    "store": "マルハン鹿浜店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "465",
+    "text": "マルハン鹿浜店 機種名：e牙狼12黄金騎士極限 台番号：465番台 コンプリート達成‼️ おめでとうございます📷✨",
+    "x_url": "https://x.com/shikahama_m/status/2114302975313404097",
+    "store_handle": "shikahama_m",
+    "store_x_url": "https://x.com/shikahama_m",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T06:41:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVeDF0hbYAAlT5_?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVeDF0hbYAAlT5_?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "b7cd4332cb"
   },
   {
     "id": "2455df355df9",
