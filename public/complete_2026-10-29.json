@@ -43,6 +43,27 @@
     "machine_id": "11111111-1111-1111-1111-000000000034"
   },
   {
+    "id": "c62ac2e8e83d",
+    "date": "2026-10-29",
+    "time": "20:14",
+    "store": "マルハン亀有店 中の人・亀にゃん",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "882",
+    "text": "✨Ｌ炎炎ノ消防隊２✨ 882番台　コンプリート‼  👏おめでとうございます👏",
+    "x_url": "https://x.com/maruhan_kameari/status/2115764249935175951",
+    "store_handle": "maruhan_kameari",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maruhan_kameari",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-10-31T10:00:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVy0WOdbwAAvRvP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVy0WOdbwAAvRvP?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
+  },
+  {
     "id": "6d99acd6327d",
     "date": "2026-10-29",
     "time": "20:04",
@@ -86,6 +107,27 @@
     "image_url": "https://pbs.twimg.com/media/HVyrxLwa4AAL48Z?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000003",
     "store_id": "5451581d88"
+  },
+  {
+    "id": "aceca308090f",
+    "date": "2026-10-29",
+    "time": "17:53",
+    "store": "マルハン亀有店 中の人・亀にゃん",
+    "machine": "L炎炎ノ消防隊2",
+    "machine_type": "slot",
+    "slot_number": "881",
+    "text": "✨Ｌ炎炎ノ消防隊２✨ 881番台　コンプリート‼  👏おめでとうございます👏",
+    "x_url": "https://x.com/maruhan_kameari/status/2115728622132805719",
+    "store_handle": "maruhan_kameari",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maruhan_kameari",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-10-31T10:00:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVyT5LWbQAA7v6t?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVyT5LWbQAA7v6t?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000003"
   },
   {
     "id": "68dc0c01a753",
