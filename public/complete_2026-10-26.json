@@ -22,6 +22,27 @@
     "machine_id": "0d652db7-1bf6-49d3-8e48-8293e3debd0d"
   },
   {
+    "id": "85fe26d5a229",
+    "date": "2026-10-26",
+    "time": "21:26",
+    "store": "ダイナム広島三次店~Since.2005.4.26~",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "282",
+    "text": "282番台　Lパチスロ 革命機ヴァルヴレイヴ2  🌟コンプリート🌟  おめでとうございます😘🎉🎉  #ダイナム #ヴァルヴレイヴ2 #一狩りいったぜ #コンプリート #ダイナムをバズらせたい",
+    "x_url": "https://x.com/dynam_00243/status/2114695057164931361",
+    "store_handle": "dynam_00243",
+    "store_x_url": "https://x.com/dynam_00243",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T22:55:14Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVjn8l0WwAADEZf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVjn8l0WwAADEZf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "a16d79c7e5af",
     "date": "2026-10-26",
     "time": "20:22",
@@ -42,6 +63,50 @@
     "image_url": "https://pbs.twimg.com/media/HVjZWe5acAAOpTF?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "a21784a348"
+  },
+  {
+    "id": "2a6c979d8501",
+    "date": "2026-10-26",
+    "time": "19:15",
+    "store": "フェイス850佐賀",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "2573",
+    "text": "🎉🎉🎉🎉【速報】🎉🎉🎉🎉 2573番台 チバリヨ2でコンプリート達成〜！🌺✨ おめでとうございますっ🏆✨✨  次のコンプリートはどの台かな…！？👀💭 皆様のご来店お待ちしておりますっ💕💕 #FACE850佐賀 #コンプリート #チバリヨ2",
+    "x_url": "https://x.com/face_850/status/2114662171527565661",
+    "store_handle": "face_850",
+    "store_x_url": "https://x.com/face_850",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T23:12:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVjKCL8aoAAxSp2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVjKCL8aoAAxSp2?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "53cfcde9a2"
+  },
+  {
+    "id": "440cd536edca",
+    "date": "2026-10-26",
+    "time": "11:00",
+    "store": "ライブガーデン鹿沼グランドシティ",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "328",
+    "text": "こんにちは！  ライブガーデン鹿沼グランドシティです🍀   昨日　１０月２５日　３２８番台【e東京喰種W】    🎉🎊コンプリート達成！🎊🎉   ✨✨✨おめでとうございます✨✨✨  この後のお時間もごゆっくりとお楽しみください！ #ライブガーデン鹿沼GC   #コンプリート #e東京喰種W",
+    "x_url": "https://x.com/LGkanumaGC1225/status/2114537500823941518",
+    "store_handle": "lgkanumagc1225",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-10-31T22:56:09Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVetC8nbwAAr8tf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVetC8nbwAAr8tf?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "8a06f68d8f"
   },
   {
     "id": "ba383c9bd4ba",

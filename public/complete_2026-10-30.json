@@ -22,6 +22,52 @@
     "store_id": "e02567c845"
   },
   {
+    "id": "5adb4f64b2be",
+    "date": "2026-10-30",
+    "time": "21:15",
+    "store": "ピーアーク北千住エリア",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "160",
+    "text": "10月30日（金） ピーアーク北千住SSS トリエス  160番台 Lミリオンゴッド  コンプリート達成",
+    "x_url": "https://x.com/Kitasenjusss/status/2116141906640150600",
+    "store_handle": "kitasenjusss",
+    "store_x_url": "https://x.com/kitasenjusss",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T23:26:00Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV4L10PbwAAjHn6?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2041742649577893891/img/VTFrO_9Z4ivoYGvb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV4L10PbwAAjHn6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "8282115e87"
+  },
+  {
+    "id": "f8e5a95d5c2a",
+    "date": "2026-10-30",
+    "time": "20:56",
+    "store": "マルハン袋井店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "278",
+    "text": "278番台　ｅ牙狼１２ＸＸ－ＭＪ  ㊗️コンプリート達成㊗️  おめでとうございます🎉  コンプリートおじさんも 嬉しそうですね😊",
+    "x_url": "https://x.com/maruhan_fukuroi/status/2116137178019619171",
+    "store_handle": "maruhan_fukuroi",
+    "store_x_url": "https://x.com/maruhan_fukuroi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T22:59:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV4HgONawAAIYDU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HV4HgOAbIAAPcuE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV4HgONawAAIYDU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "1f0627c183"
+  },
+  {
     "id": "cc59e0fa933b",
     "date": "2026-10-30",
     "time": "19:35",
@@ -63,5 +109,27 @@
     "image_url": "https://pbs.twimg.com/media/HV3yPwFaoAA-0rW?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "a21784a348"
+  },
+  {
+    "id": "ce757cc979e8",
+    "date": "2026-10-30",
+    "time": "17:01",
+    "store": "グランドホール港南店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "元気印の日野ミク参上っ🦇✨ 210番台の「e牙狼黄金騎士極限12」でコンプリート機能発動＆95,000発達成が出ましたー！🎉💥 明日のハロウィーンを前に、神展開が見られるなんて感動〜っ😆🎃✨ 達成されたお客様、おめでとうございますっ👏🎉 #e牙狼12 #コンプリート達成 #グランドホール港南 #日野ミク",
+    "x_url": "https://x.com/grand_konan/status/2116077979424141506",
+    "store_handle": "grand_konan",
+    "store_x_url": "https://x.com/grand_konan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-10-31T23:13:17Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV3RtNMaEAEZWXG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV3RtNMaEAEZWXG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "63ba670979"
   }
 ]
