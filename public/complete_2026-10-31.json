@@ -201,6 +201,29 @@
     "store_id": "4af5cc0d0b"
   },
   {
+    "id": "88b9bbba2f5e",
+    "date": "2026-10-31",
+    "time": "09:00",
+    "store": "PSJ新宮店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "昨日もご多数様のご来店 ありがとうございました！  ８番台  e牙狼12黄金騎士極限  コンプリート達成しました✨ おめでとうございます✨  本日も１０時より営業いたします！ ご来店をお待ちいたしております！",
+    "x_url": "https://x.com/psj_shingu/status/2116681628470686111",
+    "store_handle": "psj_shingu",
+    "store_x_url": "https://x.com/psj_shingu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-03T22:43:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV-bzQKbYAAuE_z?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HV-b5HxaQAA6d7c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV-bzQKbYAAuE_z?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "e99e36a403"
+  },
+  {
     "id": "751d4c6f679e",
     "date": "2026-10-31",
     "time": "08:30",
