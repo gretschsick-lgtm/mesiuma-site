@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-04T05:35:32+09:00",
+  "generated_at": "2026-11-03T11:35:59+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 4,
+      "total_count": 2,
       "stores": [
         {
           "rank": 1,
@@ -17,18 +17,6 @@
           "name": "キコーナ香里園店",
           "count": 1,
           "x_url": "https://x.com/Sp__BLACK_JACK"
-        },
-        {
-          "rank": 3,
-          "name": "楽園 店長・アメ横店",
-          "count": 1,
-          "x_url": "https://x.com/mask_rakuen"
-        },
-        {
-          "rank": 4,
-          "name": "DIVO知寄店",
-          "count": 1,
-          "x_url": "https://x.com/divo_x_chiyori"
         }
       ],
       "slot_machines": [
@@ -42,16 +30,6 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 1
-        },
-        {
-          "rank": 2,
-          "name": "eカケグルイ",
-          "count": 1
-        },
-        {
-          "rank": 3,
-          "name": "e東京喰種",
           "count": 1
         }
       ]
@@ -1231,7 +1209,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 245
+        "count": 244
       },
       {
         "rank": 4,
@@ -1256,7 +1234,7 @@
       {
         "rank": 8,
         "name": "eカケグルイ",
-        "count": 30
+        "count": 29
       },
       {
         "rank": 9,
@@ -1269,7 +1247,7 @@
         "count": 21
       }
     ],
-    "total_count": 4995
+    "total_count": 4993
   },
   "store_complete_counts": {
     "ARROW浪速店": 101,
@@ -1408,7 +1386,6 @@
     "ビックマーチひたちなか店": 9,
     "楽園上新屋": 9,
     "パラッツォ大阪三国店": 9,
-    "DIVO知寄店": 9,
     "D'station浜野店": 9,
     "ダイナム（自動発掘）": 9,
     "ミリオン宇多津店": 8,
@@ -1427,6 +1404,7 @@
     "メガフェイス1000糸島": 8,
     "マルハン仙台新港店": 8,
     "GOLD CONCORDE富士": 8,
+    "DIVO知寄店": 8,
     "キコーナ海老名店 中の人": 8,
     "エナジー@e・Zone1111": 8,
     "マルハン草薙アピア店 店長ひろゆき": 8,
@@ -1479,7 +1457,6 @@
     "楽園立川店": 6,
     "祇園店": 6,
     "メガガイア越谷大里店": 6,
-    "楽園 店長・アメ横店": 6,
     "メガフェイス1500宗像": 6,
     "フェイス950高須": 6,
     "メガガイア岩国": 6,
@@ -1515,6 +1492,7 @@
     "タウン半田店": 5,
     "都城店": 5,
     "キャッスル小牧店": 5,
+    "楽園 店長・アメ横店": 5,
     "メガガイア一宮1515 店長スギ": 5,
     "PSJ長府店": 5,
     "メガガイア青森中央 店長石川": 5,
@@ -2133,8 +2111,8 @@
     "キコーナ香里園店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4306,
-    "records_without_store_id": 689,
+    "records_with_store_id": 4305,
+    "records_without_store_id": 688,
     "canonical_store_ids": 638
   }
 }
