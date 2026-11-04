@@ -282,5 +282,27 @@
     "image_url": "https://pbs.twimg.com/media/HV3RtNMaEAEZWXG?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "63ba670979"
+  },
+  {
+    "id": "68ca5aebe86f",
+    "date": "2026-10-30",
+    "time": "00:31",
+    "store": "キクヤ春日井店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "696",
+    "text": "🎉キクヤ春日井店コンプリート情報🎉  696番台e東京喰種 閉店ぴったしでコンプ達成です！ おめでとうございます‼️🎊",
+    "x_url": "https://x.com/315kasugai/status/2116191200785141978",
+    "store_handle": "315kasugai",
+    "store_x_url": "https://x.com/315kasugai",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-04T22:59:57Z",
+    "images": [
+      "https://pbs.twimg.com/media/HV44KlNaoAA1UNm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HV44KlNaoAA1UNm?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "5a18003e2d"
   }
 ]
