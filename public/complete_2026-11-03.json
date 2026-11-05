@@ -241,5 +241,53 @@
     "image_url": "https://pbs.twimg.com/media/HWLGG0IboAAPd8x?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "45990cb37b"
+  },
+  {
+    "id": "fdf6783846ff",
+    "date": "2026-11-03",
+    "time": "07:30",
+    "store": "PSJ長府店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "💥PSJ長府店です📷  11月3日（火）  スロットコーナー 【コンプリート達成】 モンスターハンターライズ：サンブレイク 1131番台  【10000over】 北斗の拳転生の章2 667番台  モンキーターンV 781番台  🎉おめでとうございます🎉",
+    "x_url": "https://x.com/psj_chofu/status/2117746142306029881",
+    "store_handle": "psj_chofu",
+    "store_x_url": "https://x.com/psj_chofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-05T23:00:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWM4o5WasAA4PbJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWM4w5DaEAAwZpM?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWM4yNkawAAFf4U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWM4o5WasAA4PbJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "15abfc84c0"
+  },
+  {
+    "id": "8ad3ab5f0329",
+    "date": "2026-11-03",
+    "time": "07:30",
+    "store": "PSJ長府店",
+    "machine": "モンキーターンV",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "💥PSJ長府店です📷  11月3日（火）  スロットコーナー 【コンプリート達成】 モンスターハンターライズ：サンブレイク 1131番台  【10000over】 北斗の拳転生の章2 667番台  モンキーターンV 781番台  🎉おめでとうございます🎉",
+    "x_url": "https://x.com/psj_chofu/status/2117746142306029881",
+    "store_handle": "psj_chofu",
+    "store_x_url": "https://x.com/psj_chofu",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-05T23:00:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWM4o5WasAA4PbJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWM4w5DaEAAwZpM?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWM4yNkawAAFf4U?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWM4o5WasAA4PbJ?format=jpg&name=large",
+    "machine_id": "98adbcbb-6708-4b72-892a-e5c8d19e30b0",
+    "store_id": "15abfc84c0"
   }
 ]
