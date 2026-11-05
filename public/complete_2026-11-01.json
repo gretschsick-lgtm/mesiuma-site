@@ -114,6 +114,29 @@
     "store_id": "c800581abf"
   },
   {
+    "id": "7102a1b226c4",
+    "date": "2026-11-01",
+    "time": "21:15",
+    "store": "ダイナム滋賀彦根店～Since2025.7.18～",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "331",
+    "text": "速報‼️ 📅本日1️⃣1️⃣月1️⃣日(日) 💚 #合同賞品入荷 💚 331番台 e東京喰種 ✨  /／ 📣 #コンプリート達成 ㊗️ \\＼  おめでとうございます👏😎",
+    "x_url": "https://x.com/dynam_00439/status/2116866594420965512",
+    "store_handle": "dynam_00439",
+    "store_x_url": "https://x.com/dynam_00439",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-05T13:47:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HVruDyGaIAALqYz?format=jpg&name=large",
+      "https://pbs.twimg.com/amplify_video_thumb/2115264791258488832/img/F3j48F2xVSZ9WivN?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HVruDyGaIAALqYz?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "ef6da04b5b"
+  },
+  {
     "id": "862d9510b8f5",
     "date": "2026-11-01",
     "time": "21:09",
@@ -157,6 +180,29 @@
     "image_url": "https://pbs.twimg.com/media/HWCcxmqa4AAmVuq?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "ac9e0c0f5d"
+  },
+  {
+    "id": "6e5fc1674e41",
+    "date": "2026-11-01",
+    "time": "20:31",
+    "store": "ダイナム金町南口店",
+    "machine": "パチスロ 革命機ヴァルヴレイヴ",
+    "machine_type": "slot",
+    "slot_number": "460",
+    "text": "こんばんはです  #ダイナム金町南口店 です🍁    コンプリートのお知らせです🥳    20：05頃460番台  L革命機ヴァルヴレイヴD  コンプリート達成しました🎉   長時間のご遊技お疲れ様でした  おめでとうございます😁",
+    "x_url": "https://x.com/dynam_00035/status/2116855695505334500",
+    "store_handle": "dynam_00035",
+    "store_x_url": "https://x.com/dynam_00035",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-05T13:47:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWCVA2Sb0AA_4BY?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HV9LEwQXQAAo-uX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWCVA2Sb0AA_4BY?format=jpg&name=large",
+    "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
+    "store_id": "dcbb4c52ca"
   },
   {
     "id": "18a16dc903c2",

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-05T21:21:52+09:00",
+  "generated_at": "2026-11-05T23:30:42+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 37,
+      "total_count": 41,
       "stores": [
         {
           "rank": 1,
@@ -20,50 +20,50 @@
         },
         {
           "rank": 3,
+          "name": "ダイナム金町南口店",
+          "count": 2,
+          "x_url": "https://x.com/dynam_00035"
+        },
+        {
+          "rank": 4,
           "name": "キコーナ香里園店",
           "count": 2,
           "x_url": "https://x.com/Sp__BLACK_JACK"
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "プレイランドキャッスル熱田店",
           "count": 2,
           "x_url": "https://x.com/castleatsuta"
         },
         {
-          "rank": 5,
+          "rank": 6,
           "name": "ピーアーク北綾瀬駅前",
           "count": 2,
           "x_url": "https://x.com/pachico815"
         },
         {
-          "rank": 6,
+          "rank": 7,
           "name": "キコーナ堺本店",
           "count": 2,
           "x_url": "https://x.com/ksakaihonten"
         },
         {
-          "rank": 7,
+          "rank": 8,
           "name": "ARROW浪速店",
           "count": 1,
           "x_url": "https://x.com/arrow_naniwa"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "ダイナム茨城古河東店",
           "count": 1
         },
         {
-          "rank": 9,
+          "rank": 10,
           "name": "テキサス白島店",
           "count": 1,
           "x_url": "https://x.com/texashakushima"
-        },
-        {
-          "rank": 10,
-          "name": "マルハン清河寺",
-          "count": 1,
-          "x_url": "https://x.com/mk_mten"
         }
       ],
       "slot_machines": [
@@ -74,27 +74,27 @@
         },
         {
           "rank": 2,
+          "name": "L革命機ヴァルヴレイヴ2",
+          "count": 3
+        },
+        {
+          "rank": 3,
           "name": "スマスロ北斗の拳転生の章2",
           "count": 2
         },
         {
-          "rank": 3,
+          "rank": 4,
           "name": "Re:ゼロから始める異世界生活",
           "count": 2
         },
         {
-          "rank": 4,
+          "rank": 5,
           "name": "L甲鉄城のカバネリ海門決戦",
           "count": 2
         },
         {
-          "rank": 5,
-          "name": "L東京喰種",
-          "count": 1
-        },
-        {
           "rank": 6,
-          "name": "Lミリオンゴッド神々の軌跡",
+          "name": "L東京喰種",
           "count": 1
         },
         {
@@ -104,17 +104,17 @@
         },
         {
           "rank": 8,
-          "name": "L沖ドキDUO アンコール",
+          "name": "Lミリオンゴッド神々の軌跡",
           "count": 1
         },
         {
           "rank": 9,
-          "name": "L真打吉宗",
+          "name": "L沖ドキDUO アンコール",
           "count": 1
         },
         {
           "rank": 10,
-          "name": "Lチバリヨ2ZB",
+          "name": "L真打吉宗",
           "count": 1
         }
       ],
@@ -122,16 +122,16 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 8
+          "count": 9
         },
         {
           "rank": 2,
-          "name": "e牙狼12",
-          "count": 2
+          "name": "e東京喰種",
+          "count": 3
         },
         {
           "rank": 3,
-          "name": "e東京喰種",
+          "name": "e牙狼12",
           "count": 2
         },
         {
@@ -1306,7 +1306,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 673
+        "count": 674
       },
       {
         "rank": 2,
@@ -1316,7 +1316,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 249
+        "count": 250
       },
       {
         "rank": 4,
@@ -1354,7 +1354,7 @@
         "count": 21
       }
     ],
-    "total_count": 5058
+    "total_count": 5062
   },
   "store_complete_counts": {
     "ARROW浪速店": 102,
@@ -1402,6 +1402,7 @@
     "マルハン小山千駄塚店": 23,
     "SuperD'station東金店": 23,
     "ビックマーチ水戸本店": 22,
+    "ダイナム金町南口店": 22,
     "フェイス850佐賀": 22,
     "ピーアーク北綾瀬駅前": 22,
     "プレイランドキャッスル東郷店": 21,
@@ -1412,12 +1413,11 @@
     "マルハンメガシティ伊勢崎": 20,
     "楽園池袋店グリーンサイド": 20,
     "ＭＪアリーナ干隈店": 20,
-    "ダイナム金町南口店": 20,
     "ゾーン行橋1000": 20,
     "ワンダーランドODO": 20,
     "エクスアリーナ東京": 20,
+    "DSGアリーナ高岡": 19,
     "SUPER CONCORDE 市野": 19,
-    "DSGアリーナ高岡": 18,
     "マルハン旭川永山店": 18,
     "マルハン仙台名坊店": 17,
     "京都駅前ラッキーパチンコ店": 17,
@@ -1442,6 +1442,7 @@
     "楽園蒲田店": 14,
     "マルハン袋井店": 14,
     "ユーコーラッキー37太宰府店": 14,
+    "ダイナム滋賀彦根店～Since2025.7.18～": 14,
     "マルハンアプリはこちら": 14,
     "玉ノ助【パーラーダジュール公式】": 13,
     "SuperD'station39女神店": 13,
@@ -1450,7 +1451,6 @@
     "グランキコーナ松原店": 13,
     "SUPER COSMO PREMIUM大東店": 13,
     "ーク出水店": 13,
-    "ダイナム滋賀彦根店～Since2025.7.18～": 13,
     "テキサス656山口店": 13,
     "ライブガーデン鹿沼グランドシティ": 13,
     "マルハンメガシティ静岡": 13,
@@ -2221,7 +2221,7 @@
     "ダイナム茨城古河東店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4362,
+    "records_with_store_id": 4366,
     "records_without_store_id": 696,
     "canonical_store_ids": 640
   }
