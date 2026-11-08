@@ -134,5 +134,27 @@
     "image_url": "https://pbs.twimg.com/media/HWXK5U0bIAEG69-?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "44b996496f"
+  },
+  {
+    "id": "070a987e099f",
+    "date": "2026-11-05",
+    "time": "22:02",
+    "store": "楽園渋谷道玄坂店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "2183",
+    "text": "👑コンプリートのご報告👑 　　 　  　　 《２１８３番台》  ✨スマスロ 革命機ヴァルヴレイヴ２✨  先ほどコンプリート達成致しました‼️ おめでとうございます🎖️🎖️",
+    "x_url": "https://x.com/RAKUENSHIBUYA1/status/2118328099976905026",
+    "store_handle": "rakuenshibuya1",
+    "store_x_url": "https://x.com/rakuenshibuya1",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-08T19:25:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWXQIJub0AA4wMS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWXQIJub0AA4wMS?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "7cd594b2fb"
   }
 ]
