@@ -156,5 +156,50 @@
     "image_url": "https://pbs.twimg.com/media/HWXQIJub0AA4wMS?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "7cd594b2fb"
+  },
+  {
+    "id": "2b6b31d0f7c6",
+    "date": "2026-11-05",
+    "time": "20:54",
+    "store": "キコーナ松戸",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "963",
+    "text": "こんばんは！ 松戸市にあるパチンコ店 キコーナ松戸店です！ コンプリート速報！ 963番台 ヴァルヴレイヴ2コンプリート！ おめでとうございます！  #今日も感謝を込めて #キコーナ松戸 #コンプリート",
+    "x_url": "https://x.com/kicona_matsudo/status/2118311048323453287",
+    "store_handle": "kicona_matsudo",
+    "store_x_url": "https://x.com/kicona_matsudo",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T12:15:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWXAq5rbgAAeOw7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HVdyq2FaAAAytMP?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWXAq5rbgAAeOw7?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "ef570556fc"
+  },
+  {
+    "id": "a787c983f1b1",
+    "date": "2026-11-05",
+    "time": "18:05",
+    "store": "ABC浜松森田町店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "736",
+    "text": "🚨コンプリート速報🚨  736番台『Lいざ番長』で complete達成！！！！！  おめでとうございます🎊",
+    "x_url": "https://x.com/ABC_moritacho/status/2118268507066683900",
+    "store_handle": "abc_moritacho",
+    "store_x_url": "https://x.com/ABC_moritacho",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T12:31:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWWZ-nxb0AAKCSd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWWZ-nxb0AAKCSd?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "4ea546fb7c"
   }
 ]

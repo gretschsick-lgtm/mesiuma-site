@@ -360,6 +360,28 @@
     "store_id": "d5fbda7161"
   },
   {
+    "id": "7ab9535d136e",
+    "date": "2026-11-01",
+    "time": "19:36",
+    "store": "グランドシップ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "572",
+    "text": "みなさんこんばんは〜！東雲みなはです🚢✨  ちょっと待ってください…！大変ですっっ！！😲💥 なんと……昨日に続いて、今日も【e牙狼12黄金騎士極限】からコンプリートが発生しちゃいましたーーーーッッ🎉😆✨  🔥【572番台】🔥 見事……＼＼コンプリート達成／／ですッッ👏👑✨✨",
+    "x_url": "https://x.com/grandship378/status/2117204258500313474",
+    "store_handle": "grandship378",
+    "store_x_url": "https://x.com/grandship378",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T12:47:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWHRdxHaQAAHfC9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWHRdxHaQAAHfC9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "faedd94a11"
+  },
+  {
     "id": "18a16dc903c2",
     "date": "2026-11-01",
     "time": "19:20",
@@ -556,5 +578,26 @@
     "image_url": "https://pbs.twimg.com/media/HWA9z_zaUAEgYoh?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "ac9e0c0f5d"
+  },
+  {
+    "id": "6e89a8e5ca67",
+    "date": "2026-11-01",
+    "time": "12:39",
+    "store": "ダイナム滋賀愛知川店-SINCE 2004.4.20-",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "13",
+    "text": "おはようございます🥰 ダイナム滋賀愛知川店です！  昨日11月1日（日） #合同賞品入荷   10スロ　13番台 　Lパチスロ 革命機ヴァルヴレイヴ2  　\\🌟#コンプリート達成🌟/ 　 おめでとうございました🎉✨ またのご来店お待ちしております🥰  #ダイナム　#滋賀愛知川店",
+    "x_url": "https://x.com/dynam_00201/status/2117099331203576112",
+    "store_handle": "dynam_00201",
+    "store_x_url": "https://x.com/dynam_00201",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T12:15:06Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWFyntJacAAM6kI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWFyntJacAAM6kI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   }
 ]

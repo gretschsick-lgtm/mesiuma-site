@@ -48,6 +48,28 @@
     "store_id": "2e05542225"
   },
   {
+    "id": "d31298203997",
+    "date": "2026-11-04",
+    "time": "21:53",
+    "store": "楽園立川店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "3536",
+    "text": "本日、11月4日(水)              3536番台  【Lいざ！番長】   👏コンプリート達成でございます📷    本日は遊技台停止となります。  おめでとうございます！  明日のご来店もお待ちしております♪",
+    "x_url": "https://x.com/tachikawa_raku/status/2117963523599040809",
+    "store_handle": "tachikawa_raku",
+    "store_x_url": "https://x.com/tachikawa_raku",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T12:31:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWSEPcEagAEE6CI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWSEPcEagAEE6CI?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
+    "store_id": "32589dc2e6"
+  },
+  {
     "id": "f310d148e659",
     "date": "2026-11-04",
     "time": "21:29",
