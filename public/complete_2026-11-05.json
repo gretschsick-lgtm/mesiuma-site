@@ -136,6 +136,27 @@
     "store_id": "44b996496f"
   },
   {
+    "id": "1d6784bdff9c",
+    "date": "2026-11-05",
+    "time": "22:03",
+    "store": "永楽本店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "532",
+    "text": "👑コンプリート達成👑 ⚔️532番台 ⚔️ ⚡️牙狼12黄金騎士極限⚡️ ㊗おめでとうございます㊗ #コンプリート #牙狼 #パチンコ #永楽本店",
+    "x_url": "https://x.com/rIt3VJoJMW4919/status/2118328425694073060",
+    "store_handle": "rit3vjojmw4919",
+    "store_x_url": "https://x.com/rit3vjojmw4919",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T22:50:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWXPrEPaQAEHTg2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWXPrEPaQAEHTg2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
+  },
+  {
     "id": "070a987e099f",
     "date": "2026-11-05",
     "time": "22:02",
@@ -179,6 +200,29 @@
     "image_url": "https://pbs.twimg.com/media/HWXAq5rbgAAeOw7?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "ef570556fc"
+  },
+  {
+    "id": "a061e6b5daa9",
+    "date": "2026-11-05",
+    "time": "19:57",
+    "store": "ビックマーチ東習志野店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "39",
+    "text": "こんばんは❗️11月5日！   ビックマーチ渡里店より コンプリート報告です🎉 Lヴァルヴレイヴ２より ～39番台のお客様～ コンプリート達成👏 誠におめでとうございます🎊  これが全店アップデートの力だ！  #ビックマーチ  #コンプリート",
+    "x_url": "https://x.com/jp_0316/status/2118296734791344280",
+    "store_handle": "jp_0316",
+    "store_x_url": "https://x.com/jp_0316",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-09T22:47:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWWzT1xakAA4m9H?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWWzhV0bcAAhueG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWWzT1xakAA4m9H?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "e744c71a3d"
   },
   {
     "id": "a787c983f1b1",
