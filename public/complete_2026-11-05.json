@@ -245,5 +245,51 @@
     "image_url": "https://pbs.twimg.com/media/HWWZ-nxb0AAKCSd?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "4ea546fb7c"
+  },
+  {
+    "id": "ae20ff89fb92",
+    "date": "2026-11-05",
+    "time": "15:03",
+    "store": "ミリオンゴット",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "206",
+    "text": "こんにちは✋ 👀本日11/5👀  e牙狼12黄金騎士極限 206番台にてコンプリート達成いたしました！👍 おめでとうございます！👏🎉🎉🎉  この後のお時間も 　ご来店お待ちしております🥰  #大島 #コンプリート",
+    "x_url": "https://x.com/lJbP7Byyui89612/status/2118222529307218035",
+    "store_handle": "ljbp7byyui89612",
+    "store_x_url": "https://x.com/ljbp7byyui89612",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-10T00:20:49Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWVrP_2aYAACz6c?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWVrP_2aYAACz6c?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c092891c5f"
+  },
+  {
+    "id": "8b504b06bb76",
+    "date": "2026-11-05",
+    "time": "13:37",
+    "store": "トワーズ厚木店",
+    "machine": "L吉宗",
+    "machine_type": "slot",
+    "slot_number": "216",
+    "text": "こんにちは♪アキです  まずは昨日のご報告から❗️ 216番台　スマスロ吉宗　コンプリート‼️ 登り竜みたいなグラフ📈…ｽｺﾞｲ…  本日6日も9時開店しております♪ この後お昼からはぜひアツトワへ🏃  #アツトワ #コンプリート機能発動",
+    "x_url": "https://x.com/TowarsAtsugi/status/2118563510464721207",
+    "store_handle": "towarsatsugi",
+    "store_x_url": "https://x.com/towarsatsugi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-10T00:13:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWamSG5bIAAPTwf?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWamSG-bkAADUVQ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWamSG0aQAEbot2?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWamSG5bIAAPTwf?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000011",
+    "store_id": "ef992d6f2b"
   }
 ]

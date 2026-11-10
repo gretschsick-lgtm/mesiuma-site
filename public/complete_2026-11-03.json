@@ -418,6 +418,29 @@
     "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35"
   },
   {
+    "id": "48ffc37235af",
+    "date": "2026-11-03",
+    "time": "15:37",
+    "store": "SUPER CONCORDE",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "1715",
+    "text": "コンプリート報告🎉  e牙狼12　1715番台にて コンプリート機能が作動いたしました✨  ご遊技されていた『牙狼』様 おめでとうございます❗️ まだまだ早い時間です♪ このあとのお時間もスパコンでお楽しみください😆",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2117506395193102739",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-10T00:11:47Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWLkzYYb0AAzfMN?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWHEPJOakAArQxf?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWLkzYYb0AAzfMN?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "e6f66ac061f2",
     "date": "2026-11-03",
     "time": "15:07",
