@@ -1,5 +1,27 @@
 [
   {
+    "id": "5e747fc34b20",
+    "date": "2026-11-11",
+    "time": "20:30",
+    "store": "グランド元山",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "291",
+    "text": "本日11月11日 　　　291番台の「牙狼黄金騎士極限」が 　　　　　　　　　　　　コンプリート達成🎊  今月3回のコンプリート、パチンコでは2回目！！  コンプリートされたお客様おめでとうございます♪",
+    "x_url": "https://x.com/GRANDmotoyama/status/2120479252437213419",
+    "store_handle": "grandmotoyama",
+    "store_x_url": "https://x.com/grandmotoyama",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-12T12:02:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1zre7aUAAPQz0?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1zre7aUAAPQz0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c52618694d"
+  },
+  {
     "id": "c519aca79590",
     "date": "2026-11-11",
     "time": "20:20",
@@ -42,6 +64,29 @@
     "image_url": "https://pbs.twimg.com/media/HW1vjBgaoAACOrw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000006",
     "store_id": "b87f27c51a"
+  },
+  {
+    "id": "b45d32648dbd",
+    "date": "2026-11-11",
+    "time": "16:45",
+    "store": "キング塩尻店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "355",
+    "text": "本日2台目❣❣ 355番台　e牙狼12黄金騎士極限 complete達成🎊  ニックネーム：ゆーぢ　様 ひと言：うれし～～～～！  キングに初めてご来店いただいたそうです😊 初来店がコンプリートは最高ですね🦁 コンプリートおめでとうございます🦁🌈🌈  店内まだまだ盛り上がっております🏃‍♂️",
+    "x_url": "https://x.com/kingshiojiri/status/2120422533224862173",
+    "store_handle": "kingshiojiri",
+    "store_x_url": "https://x.com/kingshiojiri",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-12T12:05:52Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1A4evb0AAb_LQ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HW1A6kybwAAmHw3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1A4evb0AAb_LQ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd50e1f7e7"
   },
   {
     "id": "317879094061",
