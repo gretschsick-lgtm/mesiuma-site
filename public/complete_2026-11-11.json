@@ -1,5 +1,28 @@
 [
   {
+    "id": "ef1384927f8f",
+    "date": "2026-11-11",
+    "time": "22:15",
+    "store": "ーク出水店",
+    "machine": "Lミリオンゴッド神々の軌跡",
+    "machine_type": "slot",
+    "slot_number": "772",
+    "text": "こんばんは‼️    ✨コンプリート速報✨ 📢閉店間際に”スマスロ”より   嬉しい報告です💕  【Lミリオンゴッド神々の軌跡】  🎊”772番台”コンプリート達成🎊 　👏おめでとうございます👏 #コンプリート #ニューヨーク出水店 #PR",
+    "x_url": "https://x.com/newyork_izumi15/status/2120505633795629318",
+    "store_handle": "newyork_izumi15",
+    "store_x_url": "https://x.com/newyork_izumi15",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-12T22:14:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW2L5WhakAAcuBW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HW2L7m9bwAAkJY-?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW2L5WhakAAcuBW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000004",
+    "store_id": "2eabd788e9"
+  },
+  {
     "id": "5e747fc34b20",
     "date": "2026-11-11",
     "time": "20:30",
@@ -64,6 +87,28 @@
     "image_url": "https://pbs.twimg.com/media/HW1vjBgaoAACOrw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000006",
     "store_id": "b87f27c51a"
+  },
+  {
+    "id": "2239c9bfccc1",
+    "date": "2026-11-11",
+    "time": "19:17",
+    "store": "プラザ本店Ⅱ",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "603",
+    "text": "603番台　Lチバリヨ2✨  コンプリートおめでとうございます🍾🍾🎉🎉",
+    "x_url": "https://x.com/plaza0204/status/2120461001548288471",
+    "store_handle": "plaza0204",
+    "store_x_url": "https://x.com/plaza0204",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-12T22:14:48Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1kCm4agAAdCqX?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1kCm4agAAdCqX?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "5e7b0db796"
   },
   {
     "id": "b45d32648dbd",
