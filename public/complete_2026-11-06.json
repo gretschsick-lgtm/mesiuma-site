@@ -22,6 +22,50 @@
     "store_id": "265ae5e4d9"
   },
   {
+    "id": "2eb8a919611b",
+    "date": "2026-11-06",
+    "time": "22:10",
+    "store": "ビックマーチ水戸本店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "226",
+    "text": "e牙狼12 226番台コンプリート達成🎉㊗️ おめでとうございます！  #ビックマーチ水戸本店 #コンプリート",
+    "x_url": "https://x.com/Suyasuya_bm/status/2118692609623564301",
+    "store_handle": "suyasuya_bm",
+    "store_x_url": "https://x.com/suyasuya_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-13T13:42:03Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWcbslGbQAAcyil?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWcbslGbQAAcyil?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "0ef83addce"
+  },
+  {
+    "id": "8f7ab5f7b569",
+    "date": "2026-11-06",
+    "time": "20:52",
+    "store": "123松茂店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは!! いつもと違う時間帯に失礼します😎  本日... Ｌパチスロ 革命機ヴァルヴレイヴ２にて コンプリート達成致しました🔥  お客様おめでとうございます!!",
+    "x_url": "https://x.com/123matsushige/status/2118672907111198880",
+    "store_handle": "123matsushige",
+    "store_x_url": "https://x.com/123matsushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-13T14:11:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWcJuZ9b0AEV3kc?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWcJuZ9b0AEV3kc?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "670d4bed73"
+  },
+  {
     "id": "b7c76ea3a721",
     "date": "2026-11-06",
     "time": "20:00",
@@ -63,6 +107,28 @@
     "image_url": "https://pbs.twimg.com/media/HWb5d--aoAA9bsP?format=jpg&name=large",
     "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
     "store_id": "ef707cf8fe"
+  },
+  {
+    "id": "ff21d9f785cf",
+    "date": "2026-11-06",
+    "time": "19:09",
+    "store": "ニラク武蔵村山伊奈平店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "307",
+    "text": "#コンプリート達成🎊 11/6、307番台 #e牙狼12黄金騎士極限 にてコンプリート達成‼️おめでとうございます😊 この後のご来店も心よりお待ちしております🥾 また、明日は『焼肉🥩とお米🍚が大好きなあの方』のご来店もありますのでお楽しみに🫶 #ニラク #ニラク武蔵村山",
+    "x_url": "https://x.com/29_inadaira/status/2118646989768568996",
+    "store_handle": "29_inadaira",
+    "store_x_url": "https://x.com/29_inadaira",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-13T14:11:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWbvogpbUAAzqiW?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWbvogpbUAAzqiW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "62a7597ff5"
   },
   {
     "id": "7be5e0b5b133",

@@ -43,6 +43,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
+    "id": "e90a107286ed",
+    "date": "2026-11-10",
+    "time": "22:10",
+    "store": "ABC甲府上阿原店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "ななっなんと👀 本日は✨東京喰種✨ ‼️コンプリート‼️ おめでとうございます👏👏👏 『僕は…喰種だ』の名言から 色々なカスタムまで まだまだ東京喰種は チェックポイント満載📝🤔",
+    "x_url": "https://x.com/ABC_isawa/status/2120142152705651074",
+    "store_handle": "abc_isawa",
+    "store_x_url": "https://x.com/ABC_isawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-13T13:45:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWxB7cjaQAEeaVx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWxB7cjaQAEeaVx?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006",
+    "store_id": "e936860a27"
+  },
+  {
     "id": "929af437990e",
     "date": "2026-11-10",
     "time": "21:32",
