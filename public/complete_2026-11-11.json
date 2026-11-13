@@ -67,6 +67,29 @@
     "store_id": "6162ae0858"
   },
   {
+    "id": "cb46e86aed31",
+    "date": "2026-11-11",
+    "time": "22:17",
+    "store": "ビックマーチ藤代店@店舗の仲間たち",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "479",
+    "text": "こんばんは🌙  スロットから2台✨コンプリート報告✨  479番台　Lパチスロ 革命機ヴァルヴレイヴ2 716番台　Lパチスロ ゴジラ対エヴァンゲリオン 2  打たれていたお客様おめでとうございます🎉  明日も朝からのご来店お待ちしております😀",
+    "x_url": "https://x.com/bm_fujishiro/status/2120506077351735497",
+    "store_handle": "bm_fujishiro",
+    "store_x_url": "https://x.com/bm_fujishiro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-13T23:00:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW2Mpm4bEAEn5B9?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HW2Mr50bwAAyK0e?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW2Mpm4bEAEn5B9?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "082c2eac75"
+  },
+  {
     "id": "ef1384927f8f",
     "date": "2026-11-11",
     "time": "22:15",
@@ -358,6 +381,29 @@
     "store_id": "b87f27c51a"
   },
   {
+    "id": "45ec795a7e2a",
+    "date": "2026-11-11",
+    "time": "19:42",
+    "store": "キング塩尻店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "618",
+    "text": "本日3台目❣❣❣ 618番台　 L北斗の拳 転生の章2 complete達成🎊  ニックネーム：もりやまだ　様 ひと言：夢のコンプリート達成ありがとうございました!!  コンプリートおめでとうございます🦁🌈🌈  店内まだまだ盛り上がっております🏃‍♂️",
+    "x_url": "https://x.com/kingshiojiri/status/2120467297714438457",
+    "store_handle": "kingshiojiri",
+    "store_x_url": "https://x.com/kingshiojiri",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-13T23:00:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1pp5RbMAAOsdJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HW1pryZaEAEv0FF?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1pp5RbMAAOsdJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "dd50e1f7e7"
+  },
+  {
     "id": "2239c9bfccc1",
     "date": "2026-11-11",
     "time": "19:17",
@@ -378,6 +424,28 @@
     "image_url": "https://pbs.twimg.com/media/HW1kCm4agAAdCqX?format=jpg&name=large",
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
     "store_id": "5e7b0db796"
+  },
+  {
+    "id": "29b0eb34b4ca",
+    "date": "2026-11-11",
+    "time": "19:12",
+    "store": "マルハンメガシティ前橋インター",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "447",
+    "text": "11月11日（水） 本日もご来店誠にありがとうございます‼️  447番台 ｅ牙狼１２ＸＸ－ＭＪ コンプリート達成✨  おめでとうございます🎉",
+    "x_url": "https://x.com/maenakanohito/status/2120459602039029991",
+    "store_handle": "maenakanohito",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maenakanohito",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-11-13T23:00:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1iSS6aoAAj2SG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1iSS6aoAAj2SG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "a53327ee54"
   },
   {
     "id": "ccdfaa24eea3",
