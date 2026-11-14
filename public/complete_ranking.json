@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-14T11:40:09+09:00",
+  "generated_at": "2026-11-14T12:36:23+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 209,
+      "total_count": 213,
       "stores": [
         {
           "rank": 1,
@@ -25,15 +25,15 @@
         },
         {
           "rank": 4,
-          "name": "ARROW浪速店",
-          "count": 6,
-          "x_url": "https://x.com/arrow_naniwa"
+          "name": "キコーナ堺本店",
+          "count": 7,
+          "x_url": "https://x.com/ksakaihonten"
         },
         {
           "rank": 5,
-          "name": "キコーナ堺本店",
+          "name": "ARROW浪速店",
           "count": 6,
-          "x_url": "https://x.com/ksakaihonten"
+          "x_url": "https://x.com/arrow_naniwa"
         },
         {
           "rank": 6,
@@ -70,12 +70,12 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 48
+          "count": 49
         },
         {
           "rank": 2,
           "name": "スマスロ北斗の拳転生の章2",
-          "count": 10
+          "count": 11
         },
         {
           "rank": 3,
@@ -85,7 +85,7 @@
         {
           "rank": 4,
           "name": "L東京喰種",
-          "count": 7
+          "count": 8
         },
         {
           "rank": 5,
@@ -105,7 +105,7 @@
         {
           "rank": 8,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 4
+          "count": 5
         },
         {
           "rank": 9,
@@ -1265,13 +1265,13 @@
       {
         "rank": 9,
         "name": "テキサス小倉店",
-        "count": 66,
+        "count": 67,
         "x_url": "https://x.com/texas_kokura"
       },
       {
         "rank": 10,
         "name": "キコーナ堺本店",
-        "count": 65,
+        "count": 66,
         "x_url": "https://x.com/ksakaihonten"
       }
     ],
@@ -1279,12 +1279,12 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 898
+        "count": 899
       },
       {
         "rank": 2,
         "name": "スマスロ北斗の拳転生の章2",
-        "count": 278
+        "count": 279
       },
       {
         "rank": 3,
@@ -1319,7 +1319,7 @@
       {
         "rank": 9,
         "name": "L東京喰種",
-        "count": 109
+        "count": 110
       },
       {
         "rank": 10,
@@ -1379,7 +1379,7 @@
         "count": 21
       }
     ],
-    "total_count": 5233
+    "total_count": 5237
   },
   "store_complete_counts": {
     "ARROW浪速店": 107,
@@ -1390,8 +1390,8 @@
     "メガフェイス1450本山": 74,
     "キクヤ春日井店": 73,
     "メガフェイス1070菊陽": 71,
-    "テキサス小倉店": 66,
-    "キコーナ堺本店": 65,
+    "テキサス小倉店": 67,
+    "キコーナ堺本店": 66,
     "マルハンメガシティ三島駿東": 64,
     "楽園大宮店": 63,
     "SPACE(スペース444＆666)": 54,
@@ -1419,8 +1419,8 @@
     "メガフェイス1250": 27,
     "イーグルアールワン南8条店": 26,
     "SUPER CONCORDE": 26,
+    "ニューアサヒ長野青木島店": 25,
     "ピーアーク北千住エリア": 24,
-    "ニューアサヒ長野青木島店": 24,
     "キコーナ川西久代店": 24,
     "キング観光サウザンド今池1号店": 24,
     "ピーアーク北綾瀬駅前": 24,
@@ -2259,12 +2259,13 @@
     "メッセ昭島店": 1,
     "マルハン前橋西片貝店": 1,
     "パチンコ大学A館": 1,
+    "イチバン草津店": 1,
     "イエスランド鹿屋店": 1,
     "みとや大森町店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4524,
-    "records_without_store_id": 709,
-    "canonical_store_ids": 653
+    "records_with_store_id": 4527,
+    "records_without_store_id": 710,
+    "canonical_store_ids": 654
   }
 }
