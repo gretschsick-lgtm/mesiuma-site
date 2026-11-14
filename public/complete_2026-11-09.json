@@ -67,6 +67,28 @@
     "store_id": "905bbbb31c"
   },
   {
+    "id": "899139d56e5e",
+    "date": "2026-11-09",
+    "time": "20:23",
+    "store": "楽園池袋店ゲートウェイ",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "2528",
+    "text": "楽園池袋店ゲートウェイです🤠  本日、11月9日(月)　 4円パチンココーナーから  2528番台 【e東京喰種 超デカ超一撃ver】  コンプリート機能が作動いたしました！！！ 本日は遊技台停止となります😣😣  #ゲートウェイ #楽園池袋店 #コンプリート",
+    "x_url": "https://x.com/rakuenikebukuro/status/2119752663722246283",
+    "store_handle": "rakuenikebukuro",
+    "store_x_url": "https://x.com/rakuenikebukuro",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-14T07:24:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWrfUwLbkAArDMb?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWrfUwLbkAArDMb?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "ef707cf8fe"
+  },
+  {
     "id": "875291260d17",
     "date": "2026-11-09",
     "time": "19:55",
@@ -87,5 +109,27 @@
     "image_url": "https://pbs.twimg.com/media/HWrRhyXbAAATjDE?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "7d5ad47685"
+  },
+  {
+    "id": "831504eab05d",
+    "date": "2026-11-09",
+    "time": "02:46",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "492",
+    "text": "本日、   e牙狼12黄金騎士極限　492番台    コンプリート達成‼　おめでとうございます🎉 #パチンコ　#コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2119849057145495778",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-14T07:23:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HWs3XSJaMAAi7gL?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HWs3XSJaMAAi7gL?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
   }
 ]
