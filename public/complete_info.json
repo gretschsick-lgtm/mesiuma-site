@@ -1,5 +1,28 @@
 [
   {
+    "id": "2ab2b35c9d36",
+    "date": "2026-11-16",
+    "time": "22:27",
+    "store": "大阪No.1店長を目指す(キングオブキングス1007大阪",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは🌙  ヴァルヴレイヴ2コンプリート達成‼️ おめでとうございます🎊  明日 １１月１６日(月)🔥  新たな１週間がスタート‼️ 週始めからキングに注目👀🔥  X朝更新✊ ✖️ ❤️新・週間オスス愛❤️  今週のラインナップが登場✨ ぜひチェック‼️  抽選🎯 🚗２階 ⏰９:３０締切  明日も ご来店ください‼️",
+    "x_url": "https://x.com/king422_7_17_27/status/2121958299809784017",
+    "store_handle": "king422_7_17_27",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/king422_7_17_27",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-11-15T22:19:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXK10bgacAAlyqR?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXK10bfbsAAmE72?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXK10bdaYAA1Nyr?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXK10bgacAAlyqR?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "22ea348cfe3a",
     "date": "2026-11-15",
     "time": "21:50",
@@ -20,6 +43,27 @@
     "image_url": "https://pbs.twimg.com/media/HXKlol_agAErBHE?format=jpg&name=large",
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed",
     "store_id": "44b996496f"
+  },
+  {
+    "id": "63d2fd8bbfe6",
+    "date": "2026-11-15",
+    "time": "19:10",
+    "store": "メガガイア岩槻店 店長ハギハラ",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "1374",
+    "text": "こんばんは👑 メガガイア岩槻店です🥳 🌺1374番台🌺  👑本日コンプリート達成👑  ご遊技頂き誠にありがとうございます🎊  #Lソードアート・オンライン2",
+    "x_url": "https://x.com/MG_IWATSUKI/status/2121908568245023149",
+    "store_handle": "mg_iwatsuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/MG_IWATSUKI",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-11-15T22:41:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXKH_7Xa4AAnN9M?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXKH_7Xa4AAnN9M?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
   },
   {
     "id": "88bb65266933",
