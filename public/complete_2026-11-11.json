@@ -292,6 +292,28 @@
     "store_id": "ac9e0c0f5d"
   },
   {
+    "id": "86f65042ac73",
+    "date": "2026-11-11",
+    "time": "21:46",
+    "store": "ZENT稲沢店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "244",
+    "text": "速報‼️  244番台e牙狼12 コンプリート機能発動❗️  こちらも明日開放します🤲  #ZENT稲沢店 #稲ゼン",
+    "x_url": "https://x.com/ZENTinazawa/status/2120498307026026552",
+    "store_handle": "zentinazawa",
+    "store_x_url": "https://x.com/ZENTinazawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-14T23:47:04Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW2F9z4aYAAIIHM?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW2F9z4aYAAIIHM?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "e4053cd78e"
+  },
+  {
     "id": "ca68acbd4f6f",
     "date": "2026-11-11",
     "time": "21:40",
@@ -515,6 +537,27 @@
     "store_id": "b87f27c51a"
   },
   {
+    "id": "52c05a1c16f3",
+    "date": "2026-11-11",
+    "time": "19:52",
+    "store": "佐世保店",
+    "machine": "Lパチスロ炎炎ノ消防隊",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは！ 本日も朝から多数様の ご来店ありがとうございます！ ㊗️コンプリート達成㊗️ ⚡️スマスロ炎炎ノ消防隊⚡️ おめでとうございます🎉 #マルハン佐世保店 #コンプリート #炎炎ノ消防隊",
+    "x_url": "https://x.com/maruhansasebo/status/2120469654179291137",
+    "store_handle": "maruhansasebo",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-15T00:02:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1r6SJbQAAfI97?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1r6SJbQAAfI97?format=jpg&name=large",
+    "machine_id": "916d0fc0-7fc9-4226-9cfb-c1eb1580d2d2"
+  },
+  {
     "id": "45ec795a7e2a",
     "date": "2026-11-11",
     "time": "19:42",
@@ -667,6 +710,29 @@
     "image_url": "https://pbs.twimg.com/media/HW1PYUKbMAAKqBF?format=jpg&name=large",
     "machine_id": "3612602b-f7fe-4dac-b103-fd0fe06ede94",
     "store_id": "44b996496f"
+  },
+  {
+    "id": "7696dc070a7d",
+    "date": "2026-11-11",
+    "time": "17:48",
+    "store": "メガフェイス1070菊陽",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "857",
+    "text": "✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️ 857番台 Lヴァルヴレイヴ2 コンプリート達成 #11月11日 #メガフェイス菊陽 ✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2120438431730053407",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-14T23:48:08Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW1PeW9bIAAMvjO?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWqqI9Xa8AAyr7k?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW1PeW9bIAAMvjO?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "066a5d121817",
