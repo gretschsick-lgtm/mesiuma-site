@@ -111,6 +111,28 @@
     "store_id": "0d60b3babb"
   },
   {
+    "id": "33e0273de2e2",
+    "date": "2026-11-11",
+    "time": "22:30",
+    "store": "キング観光サウザンド栄若宮大通店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "1417",
+    "text": "本日2台目のコンプリート！ 1417番台 L革命機ヴァルヴレイヴ2 おめでとうございます🎉 #若宮 #キング観光 #コンプリート",
+    "x_url": "https://x.com/wakakin_tsujic/status/2120509468316500432",
+    "store_handle": "wakakin_tsujic",
+    "store_x_url": "https://x.com/wakakin_tsujic",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-15T13:14:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW2QHy7b0AEM560?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW2QHy7b0AEM560?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "771f030669"
+  },
+  {
     "id": "235a616ebe2e",
     "date": "2026-11-11",
     "time": "22:28",
@@ -380,6 +402,29 @@
     "image_url": "https://pbs.twimg.com/media/HW19DP5boAAExnl?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "7d5ad47685"
+  },
+  {
+    "id": "98d02c8500e1",
+    "date": "2026-11-11",
+    "time": "21:00",
+    "store": "マルハンメガシティ三島駿東",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "502",
+    "text": "メガシティ三島駿東から コンプリートの最新情報をお届け📨  🔸ｅ東京喰種Ｗ🔸 ➡️502番台 ㊗️コンプリート達成㊗️  ｅ東京喰種Ｗのコンプリートは 本日2⃣台目となります‼️‼️  おめでとうございます🎉🎉  この後のお時間も マルハンメガシティ三島駿東で ごゆっくりお楽しみ下さい😄",
+    "x_url": "https://x.com/mega_mishima/status/2120486755526930866",
+    "store_handle": "mega_mishima",
+    "store_x_url": "https://x.com/mega_mishima",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-15T13:14:55Z",
+    "images": [
+      "https://pbs.twimg.com/media/HW16sqyaAAATYuk?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HW1HLLQbcAAu5Qh?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HW16sqyaAAATYuk?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "1cd7e84e8e"
   },
   {
     "id": "d7d4d6babc16",

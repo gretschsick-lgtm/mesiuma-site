@@ -44,6 +44,27 @@
     "store_id": "ef570556fc"
   },
   {
+    "id": "ad034a8e6079",
+    "date": "2026-11-14",
+    "time": "21:18",
+    "store": "マルハン亀有店 中の人・亀にゃん",
+    "machine": "Lチバリヨ2ZB",
+    "machine_type": "slot",
+    "slot_number": "673",
+    "text": "✨Lチバリヨ2ZB✨ 673番台　コンプリート‼  👏おめでとうございます👏",
+    "x_url": "https://x.com/maruhan_kameari/status/2121578412632637625",
+    "store_handle": "maruhan_kameari",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/maruhan_kameari",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-11-15T13:11:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXFcQnHaMAI75dn?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXFcQnHaMAI75dn?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000014"
+  },
+  {
     "id": "ee67e4c35e90",
     "date": "2026-11-14",
     "time": "21:00",
