@@ -65,6 +65,29 @@
     "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
+    "id": "5a54b5312db7",
+    "date": "2026-11-15",
+    "time": "22:02",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "📯コンプリート速報📯 豊崎本館　6番台 チバリヨ2　コンプリーーーート 2台目のコンプリートが出ましたね🐯 おめでとうございます🎉",
+    "x_url": "https://x.com/megaface_1120/status/2121952100380979253",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-16T07:43:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXKwJK0aoAA4DWc?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXKwKxPaoAAT3LB?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXKwJK0aoAA4DWc?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "036ad33f3f"
+  },
+  {
     "id": "22ea348cfe3a",
     "date": "2026-11-15",
     "time": "21:50",
@@ -152,6 +175,28 @@
     "store_id": "4b832e6bfe"
   },
   {
+    "id": "3cc30b8758db",
+    "date": "2026-11-15",
+    "time": "20:40",
+    "store": "SPACE(スペース444＆666)",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "492",
+    "text": "【SPACE666】 コンプリート速報🔥 ヴァルヴレイヴ２ 492番台 🎊コンプリート達成🎊 おめでとうございます🎉🎉",
+    "x_url": "https://x.com/space666tobata/status/2121931355592548505",
+    "store_handle": "space666tobata",
+    "store_x_url": "https://x.com/space666tobata",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-16T07:43:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXKdOjVbAAE9w1O?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXKdOjVbAAE9w1O?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "f8132a1307"
+  },
+  {
     "id": "63d2fd8bbfe6",
     "date": "2026-11-15",
     "time": "19:10",
@@ -171,6 +216,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HXKH_7Xa4AAnN9M?format=jpg&name=large",
     "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa"
+  },
+  {
+    "id": "a71330259757",
+    "date": "2026-11-15",
+    "time": "18:20",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "📯コンプリート速報📯 豊崎本館　4番台 チバリヨ2　コンプリーーーート!!!!!!! おめでとうございます！ ファン感最終日最後まで 豊崎でお楽しみください！",
+    "x_url": "https://x.com/megaface_1120/status/2121896056950788371",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-16T07:43:30Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXJ9JFfaQAAX7S2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXJ9LiFacAAhi0I?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXJ9JFfaQAAX7S2?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "036ad33f3f"
   },
   {
     "id": "88bb65266933",
