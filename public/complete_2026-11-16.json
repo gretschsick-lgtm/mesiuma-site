@@ -21,5 +21,26 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HXK10bgacAAlyqR?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
+    "id": "24238110280c",
+    "date": "2026-11-16",
+    "time": "21:00",
+    "store": "メガガイア青森中央 店長石川",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは🌙 #メガガイア青森中央 です        ［速報］［速報］［速報］          🎉Lチバリヨ2🎉 　🎉コンプリートしました！🎉  明日も是非！皆様のご来店お待ちしております！ #コンプリート ‼",
+    "x_url": "https://x.com/MG_AOMORICHUO/status/2122298654610637139",
+    "store_handle": "mg_aomorichuo",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/MG_AOMORICHUO",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-11-17T01:49:40Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXPrGj4bsAA4cim?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXPrGj4bsAA4cim?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   }
 ]
