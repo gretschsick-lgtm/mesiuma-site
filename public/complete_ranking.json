@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-17T10:55:53+09:00",
+  "generated_at": "2026-11-17T12:21:28+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 309,
+      "total_count": 311,
       "stores": [
         {
           "rank": 1,
@@ -62,7 +62,7 @@
         {
           "rank": 10,
           "name": "マルハンメガシティ三島駿東",
-          "count": 6,
+          "count": 7,
           "x_url": "https://x.com/mega_mishima"
         }
       ],
@@ -70,7 +70,7 @@
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 68
+          "count": 69
         },
         {
           "rank": 2,
@@ -122,7 +122,7 @@
         {
           "rank": 1,
           "name": "e牙狼12黄金騎士極限",
-          "count": 45
+          "count": 46
         },
         {
           "rank": 2,
@@ -1271,7 +1271,7 @@
       {
         "rank": 10,
         "name": "マルハンメガシティ三島駿東",
-        "count": 68,
+        "count": 69,
         "x_url": "https://x.com/mega_mishima"
       }
     ],
@@ -1279,7 +1279,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 918
+        "count": 919
       },
       {
         "rank": 2,
@@ -1331,7 +1331,7 @@
       {
         "rank": 1,
         "name": "e牙狼12黄金騎士極限",
-        "count": 710
+        "count": 711
       },
       {
         "rank": 2,
@@ -1379,7 +1379,7 @@
         "count": 21
       }
     ],
-    "total_count": 5333
+    "total_count": 5335
   },
   "store_complete_counts": {
     "ARROW浪速店": 111,
@@ -1391,11 +1391,11 @@
     "キクヤ春日井店": 74,
     "メガフェイス1070菊陽": 73,
     "テキサス小倉店": 69,
-    "マルハンメガシティ三島駿東": 68,
+    "マルハンメガシティ三島駿東": 69,
     "キコーナ堺本店": 68,
     "楽園大宮店": 63,
+    "SPACE(スペース444＆666)": 56,
     "メガフェイス1300淀川": 55,
-    "SPACE(スペース444＆666)": 55,
     "プレイランドキャッスル熱田店": 47,
     "キクヤ一宮店": 47,
     "マルハンメガシティ水戸赤塚": 47,
@@ -2272,7 +2272,7 @@
     "メルヘンワールド涌谷店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4610,
+    "records_with_store_id": 4612,
     "records_without_store_id": 723,
     "canonical_store_ids": 660
   }
