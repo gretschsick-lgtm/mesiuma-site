@@ -23,6 +23,27 @@
     "store_id": "4a358354ff"
   },
   {
+    "id": "32556dcdd19d",
+    "date": "2026-11-18",
+    "time": "22:24",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "790",
+    "text": "🔱キクヤ堺本店1515🔱 👑⚡コンプリートのご報告⚡👑 💎790番台 【Lパチスロ 革命機ヴァルヴレイヴ2】 本日、2台目のののののののー😏 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます‼ 🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊",
+    "x_url": "https://x.com/ksakaihonten/status/2123044608519336169",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-18T23:31:31Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXaRaMVaQAAEcyI?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXaRaMVaQAAEcyI?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "2965ddbfd08c",
     "date": "2026-11-18",
     "time": "22:22",
@@ -42,5 +63,29 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HXaRf40akAEoDjp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029"
+  },
+  {
+    "id": "10a965cdec25",
+    "date": "2026-11-18",
+    "time": "19:38",
+    "store": "モナコパレス1000宮崎駅前店",
+    "machine": "eフィーバーブルーロック",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "はい✋どーも😍 駅モナでございます(｀･ω･´)ゞ 🎊eフィーバーブルーロック🎊 　　🎊コンプリート達成🎊 ご遊技されていたお客様おめでとうございます👏👏",
+    "x_url": "https://x.com/ekimona1127/status/2123002910036680766",
+    "store_handle": "ekimona1127",
+    "store_x_url": "https://x.com/ekimona1127",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-18T23:04:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXZr1nTagAAzaWV?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXZr3hqa0AIsoMS?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXZr5KKa8AAyMAm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXZr1nTagAAzaWV?format=jpg&name=large",
+    "machine_id": "43c709fa-b6c8-4b23-8676-834ec693a48c",
+    "store_id": "caea25c67a"
   }
 ]

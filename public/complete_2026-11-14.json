@@ -246,6 +246,52 @@
     "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
   },
   {
+    "id": "31bb824261ef",
+    "date": "2026-11-14",
+    "time": "19:51",
+    "store": "ZENT名古屋北店",
+    "machine": "スマスロ 沖ドキ！DUOアンコール",
+    "machine_type": "slot",
+    "slot_number": "1707",
+    "text": "1707番台   L沖ドキDUOアンコール 652番台　e牙狼12黄金騎士極限 コンプリートしました！ おめでとうございます👏 e牙狼は1円パチンコとなります。  こちらの2台は明日開放します！  この後もご来店お待ちしております✨",
+    "x_url": "https://x.com/ZENT_isese/status/2121556664063316165",
+    "store_handle": "zent_isese",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-18T23:02:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXFIgbLbkAA0IdW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXFIgbVbMAAP2gS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXFIgbLbkAA0IdW?format=jpg&name=large",
+    "machine_id": "905472b8-6aac-42bb-a58c-8d0036f953eb",
+    "store_id": "7d5ad47685"
+  },
+  {
+    "id": "270d1c31c49d",
+    "date": "2026-11-14",
+    "time": "19:51",
+    "store": "ZENT名古屋北店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "1707番台   L沖ドキDUOアンコール 652番台　e牙狼12黄金騎士極限 コンプリートしました！ おめでとうございます👏 e牙狼は1円パチンコとなります。  こちらの2台は明日開放します！  この後もご来店お待ちしております✨",
+    "x_url": "https://x.com/ZENT_isese/status/2121556664063316165",
+    "store_handle": "zent_isese",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-18T23:02:21Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXFIgbLbkAA0IdW?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXFIgbVbMAAP2gS?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXFIgbLbkAA0IdW?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "7d5ad47685"
+  },
+  {
     "id": "ed06ecd7999f",
     "date": "2026-11-14",
     "time": "18:58",
@@ -356,6 +402,52 @@
     "image_url": "https://pbs.twimg.com/media/HXEmDy2aUAAaHLi?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000004",
     "store_id": "771f030669"
+  },
+  {
+    "id": "e3654091416f",
+    "date": "2026-11-14",
+    "time": "17:05",
+    "store": "メガフェイス1070菊陽",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "495",
+    "text": "✨️✨️✨️✨️✨️✨️✨️✨️✨️✨️✨️✨️ 495番台 e牙狼12 コンプリート達成！！ #11月14日 #メガフェイス菊陽 ✨️✨️✨️✨️✨️✨️✨️✨️✨️✨️✨️✨️",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2121514729650962898",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-18T23:19:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXEiZq-a0AA9FIJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXEbuHga0AA49Uq?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXEiZq-a0AA9FIJ?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ac9e0c0f5d"
+  },
+  {
+    "id": "21ba07b42c4b",
+    "date": "2026-11-14",
+    "time": "16:36",
+    "store": "メガフェイス1070菊陽",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "844",
+    "text": "✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️ 844番台 Lヴァルヴレイヴ2 コンプリート達成 #11月14日 #メガフェイス菊陽 ✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️✌️",
+    "x_url": "https://x.com/MEGAFACE_1070/status/2121507489808355417",
+    "store_handle": "megaface_1070",
+    "store_x_url": "https://x.com/megaface_1070",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-18T23:19:39Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXEbuHga0AA49Uq?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXC4yHUaoAAmQx4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXEbuHga0AA49Uq?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "ac9e0c0f5d"
   },
   {
     "id": "b415ba759d49",
