@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-19T11:14:08+09:00",
+  "generated_at": "2026-11-19T12:44:23+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 377,
+      "total_count": 378,
       "stores": [
         {
           "rank": 1,
@@ -126,13 +126,13 @@
         },
         {
           "rank": 2,
-          "name": "e牙狼12",
+          "name": "e東京喰種",
           "count": 25
         },
         {
           "rank": 3,
-          "name": "e東京喰種",
-          "count": 24
+          "name": "e牙狼12",
+          "count": 25
         },
         {
           "rank": 4,
@@ -1346,7 +1346,7 @@
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 271
+        "count": 272
       },
       {
         "rank": 4,
@@ -1384,7 +1384,7 @@
         "count": 21
       }
     ],
-    "total_count": 5401
+    "total_count": 5402
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 113,
@@ -1785,6 +1785,7 @@
     "333スリースリー": 3,
     "キクヤ島店": 3,
     "ナショナル会館": 3,
+    "フルスイング店": 3,
     "マルハン島田": 2,
     "ジーワン二軒屋": 2,
     "キコーナ相武台店": 2,
@@ -1925,7 +1926,6 @@
     "朝10時開店": 2,
     "アプロ飯田店@team Colors": 2,
     "ヴィーナスギャラリー別府I": 2,
-    "フルスイング店": 2,
     "マルハン薔薇島店": 2,
     "ABC磐田中泉店🦐⛲️": 2,
     "スタジアム2001京都八幡店": 2,
@@ -2285,7 +2285,7 @@
   },
   "store_id_coverage": {
     "records_with_store_id": 4668,
-    "records_without_store_id": 733,
+    "records_without_store_id": 734,
     "canonical_store_ids": 666
   }
 }
