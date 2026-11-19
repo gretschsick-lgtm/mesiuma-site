@@ -104,7 +104,7 @@
     "store_x_url": "https://x.com/dynam_00441",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-11-18T23:02:54Z",
+    "collected_at": "2026-11-18T23:45:25Z",
     "images": [
       "https://pbs.twimg.com/media/HXAlsqPaIAAQinf?format=jpg&name=large"
     ],
@@ -146,28 +146,6 @@
     "collected_at": "2026-11-14T23:59:45Z",
     "machine_id": "11111111-1111-1111-1111-000000000012",
     "store_id": "46db57d311"
-  },
-  {
-    "id": "c6a99e35adee",
-    "date": "2026-11-13",
-    "time": "21:25",
-    "store": "ダイナム二本松店",
-    "machine": "e牙狼12黄金騎士極限",
-    "machine_type": "pachinko",
-    "slot_number": "266",
-    "text": "🚨ダイナム二本松店より速報🚨  🐺266番台e牙狼１２ＸＸ－ＭＪ🐺   /／   📢コンプリーーート達成 🎉㊗️  \\＼   おめでとうございます👏😍ﾌﾞﾗﾎﾞｰ! 明日もご来店お待ちしております(੭ु´･ω･`)੭ु⁾⁾  ＃ダイナム＃二本松店 ＃牙狼＃コンプリート",
-    "x_url": "https://x.com/dynam_00123/status/2121217765029580858",
-    "store_handle": "dynam_00123",
-    "store_x_url": "https://x.com/dynam_00123",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-11-18T23:33:07Z",
-    "images": [
-      "https://pbs.twimg.com/media/HXAUTzsWYAAC7wR?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HXAUTzsWYAAC7wR?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000028",
-    "store_id": "4ab3e21dd3"
   },
   {
     "id": "4b73bf25b34b",
@@ -272,7 +250,7 @@
     "store_x_url": "https://x.com/suyasuya_bm",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-11-18T23:03:34Z",
+    "collected_at": "2026-11-18T23:46:05Z",
     "images": [
       "https://pbs.twimg.com/media/HW_dGGPbMAA3ndw?format=jpg&name=large"
     ],

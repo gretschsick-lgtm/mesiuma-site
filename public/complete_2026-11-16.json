@@ -35,7 +35,7 @@
     "store_x_url": "https://x.com/texas_kokura",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-11-18T23:04:38Z",
+    "collected_at": "2026-11-19T00:13:46Z",
     "images": [
       "https://pbs.twimg.com/media/HXP_8ZzaQAA1Wr1?format=jpg&name=large",
       "https://pbs.twimg.com/media/HXP_9yxaYAAQeS6?format=jpg&name=large",
@@ -88,24 +88,6 @@
     ],
     "image_url": "https://pbs.twimg.com/media/HXP_XMibkAACVx_?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000034"
-  },
-  {
-    "id": "9f6b825ebb29",
-    "date": "2026-11-16",
-    "time": "22:12",
-    "store": "SPACE(スペース444＆666)",
-    "machine": "L真打吉宗",
-    "machine_type": "slot",
-    "slot_number": "94",
-    "text": "【SPACE666】  👑11/16👑  👑コンプリート報告👑  真打吉宗　　94番台  コンプリート達成おめでとうございます！！",
-    "x_url": "https://x.com/space666tobata/status/2122316755934851451",
-    "store_handle": "space666tobata",
-    "store_x_url": "https://x.com/space666tobata",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-11-18T23:04:38Z",
-    "machine_id": "11111111-1111-1111-1111-000000000010",
-    "store_id": "f8132a1307"
   },
   {
     "id": "24238110280c",
