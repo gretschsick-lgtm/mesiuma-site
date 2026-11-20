@@ -87,6 +87,28 @@
     "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
+    "id": "2d2609aa07bb",
+    "date": "2026-11-18",
+    "time": "20:04",
+    "store": "ダイナム砂町銀座店",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "186",
+    "text": "出ました！  186番台  【e東京喰種W】  コンプリートです🎉  おめでとうございます！  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00018/status/2123009505881669898",
+    "store_handle": "dynam_00018",
+    "store_x_url": "https://x.com/dynam_00018",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-20T12:22:12Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXZx5JIaIAAFfld?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXZx5JIaIAAFfld?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9",
+    "store_id": "441cef8f64"
+  },
+  {
     "id": "10a965cdec25",
     "date": "2026-11-18",
     "time": "19:38",
