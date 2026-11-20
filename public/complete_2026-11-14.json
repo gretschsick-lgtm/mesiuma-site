@@ -69,6 +69,28 @@
     "store_id": "2e05542225"
   },
   {
+    "id": "63e9a53f20f0",
+    "date": "2026-11-14",
+    "time": "22:11",
+    "store": "楽園相模原店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "719",
+    "text": "こんばんは🥹💖 楽園相模原店です‼️  先程、⏰22時00分⏰ 【719番台】 【e東京喰種】  コンプリート達成の為、遊技台を停止させていただきました🎭🫳",
+    "x_url": "https://x.com/rakuen_sagami/status/2121591959894765658",
+    "store_handle": "rakuen_sagami",
+    "store_x_url": "https://x.com/rakuen_sagami",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-20T02:54:01Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXFoekBb0AAkerd?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXFoekBb0AAkerd?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "c58e968a17"
+  },
+  {
     "id": "aa5857360f98",
     "date": "2026-11-14",
     "time": "22:09",
