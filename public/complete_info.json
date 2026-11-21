@@ -1,5 +1,50 @@
 [
   {
+    "id": "3032df9e8712",
+    "date": "2026-11-21",
+    "time": "19:46",
+    "store": "マルハン草薙アピア店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは😍  コンプリート速報💕💕💕    ≪L/真打吉宗≫  コンプリート達成🎉🎊  おめでとうございます✨",
+    "x_url": "https://x.com/apiamaruhan/status/2124092148836602251",
+    "store_handle": "apiamaruhan",
+    "store_x_url": "https://x.com/apiamaruhan",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T12:01:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXpKfecaYAAr0l6?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXfGrJVaUAAOAPm?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXpKfecaYAAr0l6?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "5d635be117"
+  },
+  {
+    "id": "720de7e00ed6",
+    "date": "2026-11-20",
+    "time": "22:36",
+    "store": "プラザ本店Ⅱ",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "610番　Lチバリヨ2✨  コンプリートおめでとうございます🍾🍾🎉🎉",
+    "x_url": "https://x.com/plaza0204/status/2123772347719303593",
+    "store_handle": "plaza0204",
+    "store_x_url": "https://x.com/plaza0204",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T11:55:24Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXknsSpbcAAyHSp?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXknsSpbcAAyHSp?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "5e7b0db796"
+  },
+  {
     "id": "68a75cb14d1c",
     "date": "2026-11-20",
     "time": "22:34",
