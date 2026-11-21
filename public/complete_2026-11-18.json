@@ -1,5 +1,53 @@
 [
   {
+    "id": "5ac71eca6206",
+    "date": "2026-11-18",
+    "time": "23:47",
+    "store": "ARROW浪速店",
+    "machine": "e新世紀エヴァンゲリオン",
+    "machine_type": "pachinko",
+    "slot_number": "306",
+    "text": "本日、  e新世紀エヴァンゲリオン ～はじまりの記憶～　306番台 e牙狼12黄金騎士極限　489番台 e牙狼12黄金騎士極限　552番台 e牙狼12黄金騎士極限　575番台  コンプリート達成‼️‼️おめでとうございます📷 #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2123065637002244591",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T22:32:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXaku5sawAABei0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXak182a4AAbAOU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXak4fHagAA7j1p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXaku5sawAABei0?format=jpg&name=large",
+    "machine_id": "2af9db8c-399e-4941-9136-6d612754ebc8",
+    "store_id": "dd02f6f68a"
+  },
+  {
+    "id": "0e9d1d2ad442",
+    "date": "2026-11-18",
+    "time": "23:47",
+    "store": "ARROW浪速店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "本日、  e新世紀エヴァンゲリオン ～はじまりの記憶～　306番台 e牙狼12黄金騎士極限　489番台 e牙狼12黄金騎士極限　552番台 e牙狼12黄金騎士極限　575番台  コンプリート達成‼️‼️おめでとうございます📷 #パチンコ #コンプリート",
+    "x_url": "https://x.com/arrow_naniwa/status/2123065637002244591",
+    "store_handle": "arrow_naniwa",
+    "store_x_url": "https://x.com/arrow_naniwa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T22:32:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXaku5sawAABei0?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXak182a4AAbAOU?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXak4fHagAA7j1p?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXaku5sawAABei0?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "dd02f6f68a"
+  },
+  {
     "id": "13b9e01fc82b",
     "date": "2026-11-18",
     "time": "22:32",
