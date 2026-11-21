@@ -45,25 +45,65 @@
     "store_id": "489d68398f"
   },
   {
-    "id": "867a5cdf05ac",
+    "id": "65370ac9f950",
     "date": "2026-11-20",
-    "time": "21:17",
-    "store": "ガス北山形店",
-    "machine": "L東京喰種",
+    "time": "21:49",
+    "store": "テンガイ与次郎店",
+    "machine": "L真打吉宗",
     "machine_type": "slot",
-    "slot_number": "841",
-    "text": "🎉㊗️コンプリート達成㊗️🎉  🔥11月20日（金）25周年当日🔥  ベガスベガス北山形店  【841番台】 L東京喰種がコンプリート達成‼️  25周年という特別な日に、 嬉しい瞬間が生まれました👏👶  これからも、もっと期待されるお店へ。  #ベガスベガス北山形店 #東京喰種 #25周年",
-    "x_url": "https://x.com/kitayamavegas/status/2123752713637003408",
-    "store_handle": "kitayamavegas",
-    "store_x_url": "",
+    "slot_number": "",
+    "text": "皆さまこんばんは！  コンプリート情報です👀   スロットコーナーより  ⚔️真打吉宗⚔   🔥コンプリート達成🔥  📷 おめでとうございます📷 皆さまのごライテンお待ちしております。🦁",
+    "x_url": "https://x.com/tenguy_yojiro/status/2123760540271218809",
+    "store_handle": "tenguy_yojiro",
+    "store_x_url": "https://x.com/tenguy_yojiro",
     "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-11-21T20:38:17Z",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T21:47:13Z",
     "images": [
-      "https://pbs.twimg.com/media/HXkV0dbaMAAj92R?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HXkc3lvbMAAnF4o?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HXkV0dbaMAAj92R?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000006"
+    "image_url": "https://pbs.twimg.com/media/HXkc3lvbMAAnF4o?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "65a2bd4cc9"
+  },
+  {
+    "id": "457f6c5c302c",
+    "date": "2026-11-20",
+    "time": "21:46",
+    "store": "ダイナム群馬藤岡店",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "429",
+    "text": "🚨速報🚨　🚨速報🚨  先ほど、#チバリヨ2　429番台を ご遊技のお客様、🎉コンプリート達成です🎉  おめでとうございます‼️👏👏👏  #ダイナム　#コンプリート",
+    "x_url": "https://x.com/dynam_00397/status/2123759888191128028",
+    "store_handle": "dynam_00397",
+    "store_x_url": "https://x.com/dynam_00397",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T21:47:13Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXka3tRaUAAm8Zg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXka3tRaUAAm8Zg?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "d88ff27c89"
+  },
+  {
+    "id": "a3892a43ef8f",
+    "date": "2026-11-20",
+    "time": "21:16",
+    "store": "DSGメガワールド鯖江店",
+    "machine": "L甲鉄城のカバネリ海門決戦",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "またまたでました(ﾟдﾟ)！ 2台目～ですです👏👏👏 ｷﾀ━━━━(ﾟ∀ﾟ)━━━━!! #甲鉄城のカバネリ海門決戦 コンプリート達成㊗おめでとうございます🎊  21日 #チラシ投函日 引き続きメガサバでお楽しみください #イケイケDSG 🔥🔥",
+    "x_url": "https://x.com/DSG071727/status/2123752306114281953",
+    "store_handle": "dsg071727",
+    "store_x_url": "https://x.com/dsg071727",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T21:47:13Z",
+    "machine_id": "11111111-1111-1111-1111-000000000005"
   },
   {
     "id": "c44d36930ec3",
@@ -79,12 +119,7 @@
     "store_x_url": "https://x.com/wl_nishijin",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-11-21T20:38:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HXkUZvLbMAA5EI8?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HXdqwIJbgAA4ZZY?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HXkUZvLbMAA5EI8?format=jpg&name=large",
+    "collected_at": "2026-11-21T21:47:14Z",
     "machine_id": "a28db5a8-6e36-4f30-95b5-52b2b21d1425",
     "store_id": "a134a91335"
   },
@@ -102,13 +137,27 @@
     "store_x_url": "https://x.com/face_850",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-11-21T20:38:17Z",
-    "images": [
-      "https://pbs.twimg.com/media/HXkSzXCa4AAQ5Rx?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HXkSzXCa4AAQ5Rx?format=jpg&name=large",
+    "collected_at": "2026-11-21T21:47:14Z",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "53cfcde9a2"
+  },
+  {
+    "id": "bc5982712011",
+    "date": "2026-11-20",
+    "time": "21:08",
+    "store": "FACE1300小倉南店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "パチンココーナーより コンプリート達成‼️‼️  🐯e牙狼12黄金騎士極限🐯  おめでとうございます㊗️  #メガフェイス1300小倉南店  #牙狼",
+    "x_url": "https://x.com/face_1300/status/2123750261344878718",
+    "store_handle": "face_1300",
+    "store_x_url": "https://x.com/face_1300",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T21:47:14Z",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "18425371bb"
   },
   {
     "id": "56aef7fc7261",
@@ -198,50 +247,5 @@
     "image_url": "https://pbs.twimg.com/media/HXjde7AbwAAtV7V?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "1f0627c183"
-  },
-  {
-    "id": "6a8d7708f9a9",
-    "date": "2026-11-20",
-    "time": "15:50",
-    "store": "BOOM天神本店",
-    "machine": "e東京喰種",
-    "machine_type": "pachinko",
-    "slot_number": "97",
-    "text": "🎉コンプリート機能発動🎉  97番台　e東京喰種  約3時間ほど当たり続けたようです・・ おめでとうございます！🥰",
-    "x_url": "https://x.com/boomtenjin3838/status/2123670374227558403",
-    "store_handle": "boomtenjin3838",
-    "store_x_url": "",
-    "manager_x_url": "",
-    "source_account_type": "unknown",
-    "collected_at": "2026-11-21T21:04:57Z",
-    "images": [
-      "https://pbs.twimg.com/media/HXjKzdqbwAE6DdH?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HXjKzdqbwAE6DdH?format=jpg&name=large",
-    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
-    "store_id": "bc3e125233"
-  },
-  {
-    "id": "a3e826276e23",
-    "date": "2026-11-20",
-    "time": "13:07",
-    "store": "SUPER CONCORDE",
-    "machine": "e牙狼12",
-    "machine_type": "pachinko",
-    "slot_number": "725",
-    "text": "コンプリート報告🎉  ｅ牙狼12　725番台にて コンプリート機能が作動いたしました‼️ ご遊技されていた『E.Y』様 おめでとうございます‼️  『コンプリート人生で初めて。 たまにはこういうこともないとね、 通ったかいがあったよ。』  初コンプリートおめでとうございます‼️",
-    "x_url": "https://x.com/SUPER_CONCORDE/status/2123629229015458173",
-    "store_handle": "super_concorde",
-    "store_x_url": "https://x.com/super_concorde",
-    "manager_x_url": "",
-    "source_account_type": "store_official",
-    "collected_at": "2026-11-21T21:04:57Z",
-    "images": [
-      "https://pbs.twimg.com/media/HXikgxZbIAAqoD4?format=jpg&name=large",
-      "https://pbs.twimg.com/media/HXdkPFsbAAApaDa?format=jpg&name=large"
-    ],
-    "image_url": "https://pbs.twimg.com/media/HXikgxZbIAAqoD4?format=jpg&name=large",
-    "machine_id": "11111111-1111-1111-1111-000000000029",
-    "store_id": "94cb46d6fb"
   }
 ]
