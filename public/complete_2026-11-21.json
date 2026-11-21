@@ -1,5 +1,27 @@
 [
   {
+    "id": "4ce9ab3d66fe",
+    "date": "2026-11-21",
+    "time": "20:15",
+    "store": "KEIZ大高店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "1507",
+    "text": "さきほど『e牙狼12』1507番台にて コンプリート機能が発動いたしました。 こちらの台は本日この後ご遊技いただけませんので ご了承ください。  #牙狼12 #コンプリート機能",
+    "x_url": "https://x.com/KEIZ_odaka/status/2124099252448354800",
+    "store_handle": "keiz_odaka",
+    "store_x_url": "https://x.com/keiz_odaka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T20:52:23Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXpPMmbb0AA8ATD?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXpPMmbb0AA8ATD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "50f84a56d3"
+  },
+  {
     "id": "3032df9e8712",
     "date": "2026-11-21",
     "time": "19:46",
@@ -21,5 +43,48 @@
     "image_url": "https://pbs.twimg.com/media/HXpKfecaYAAr0l6?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000010",
     "store_id": "5d635be117"
+  },
+  {
+    "id": "2a3a7a6b5833",
+    "date": "2026-11-21",
+    "time": "19:01",
+    "store": "ダイナム新潟新津店~Since.2005.11.29~",
+    "machine": "e東京喰種W",
+    "machine_type": "pachinko",
+    "slot_number": "252",
+    "text": "🚨コンプリート機能発動🚨  本日11月21日 ｅ東京喰種Ｗ ✨  252番台にてコンプリート機能発動 ✨  ご遊技されたお客様おめでとうございます👏😊   #東京喰種 #コンプリート  #ダイナム新津",
+    "x_url": "https://x.com/dynam_00264/status/2124080704417919205",
+    "store_handle": "dynam_00264",
+    "store_x_url": "https://x.com/dynam_00264",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T20:34:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXpAI5TWAAEnlR4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXpAI5TWAAEnlR4?format=jpg&name=large",
+    "machine_id": "c6514d9a-0dfc-4b7c-93d4-521a82c505c9"
+  },
+  {
+    "id": "9d3fe197777a",
+    "date": "2026-11-21",
+    "time": "18:08",
+    "store": "DSGアリーナ高岡",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "🚨たかあり速報🚨  コンプリート達成 【e牙狼12黄金騎士極限】 おめでとうございます🎉 #ＬＩＭＩＴＳＴＯＰ #陰・我・消・滅  3連休もやっぱ!?たかありへ👍 このあとのご来店お待ちしております🎶",
+    "x_url": "https://x.com/dsgarenatakaoka/status/2124067324437397947",
+    "store_handle": "dsgarenatakaoka",
+    "store_x_url": "https://x.com/dsgarenatakaoka",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T20:34:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXozIpcaMAATx7f?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXozIpcaMAATx7f?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "c774e988a7"
   }
 ]

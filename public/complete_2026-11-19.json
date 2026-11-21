@@ -1,5 +1,50 @@
 [
   {
+    "id": "a0da2bff1d30",
+    "date": "2026-11-19",
+    "time": "22:15",
+    "store": "テキサス小倉店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "763",
+    "text": "こんばんは🌆  テキサス小倉店です☺️  🔥11月19日🔥 コンプリート達成👏👏👏  ✨🎉🎊✨🎉🎊🎉✨🎉🎊✨🎉🎊 763番台 e東京喰種 超デカ超一撃ver ✨🎉🎊✨🎉🎊✨🎉🎊✨🎉🎊  おめでとうございます㊗️ #コンプリート #テキサス小倉店  #デカヘソ",
+    "x_url": "https://x.com/texas_kokura/status/2123404758258208917",
+    "store_handle": "texas_kokura",
+    "store_x_url": "https://x.com/texas_kokura",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T21:05:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXfZXd1bkAAETuv?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXfZXd0acAAiofE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXfZXd1bkAAETuv?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "7be267e3ea"
+  },
+  {
+    "id": "00005825af46",
+    "date": "2026-11-19",
+    "time": "21:53",
+    "store": "MJアリーナ空港店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "576",
+    "text": "✈️🌈本日11月19日🌈✈️  🪙5円スロット🪙 🏆L スマスロ北斗の拳 転生の章2🏆 ㊗576番台㊗  🎊🎊コンプリート達成 🎊🎊 🎉🎉おめでとうございます🎉🎉",
+    "x_url": "https://x.com/mjkuukou/status/2123399347077591202",
+    "store_handle": "mjkuukou",
+    "store_x_url": "https://x.com/mjkuukou",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-21T21:05:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXfUQhwasAAr0EV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXfUQhwasAAr0EV?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "e34b9d9c2d"
+  },
+  {
     "id": "328470af55a3",
     "date": "2026-11-19",
     "time": "20:54",
@@ -20,6 +65,27 @@
     "image_url": "https://pbs.twimg.com/media/HXfGrJVaUAAOAPm?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "5d635be117"
+  },
+  {
+    "id": "580212adc3ef",
+    "date": "2026-11-19",
+    "time": "20:39",
+    "store": "フルスイング店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "931",
+    "text": "こんばんは！ メガガイア越谷大里からのお知らせです😎  🔥931番台　L革命機ヴァルヴレイヴ2 💫コンプリート達成です🎉🎉🎉  おめでとうございます✨ ご遊技頂きありがとうございました🥰  #感謝",
+    "x_url": "https://x.com/MG_koshigayaoz/status/2123380680780546060",
+    "store_handle": "mg_koshigayaoz",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-21T21:05:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXfDcSWbUAAIM9u?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXfDcSWbUAAIM9u?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   },
   {
     "id": "1d90b801a236",
