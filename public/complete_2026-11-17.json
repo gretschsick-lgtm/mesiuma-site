@@ -418,5 +418,28 @@
     "image_url": "https://pbs.twimg.com/media/HXT0m33akAAso5f?format=jpg&name=large",
     "machine_id": "add063c9-f6d4-404a-ab82-699ea03f0a69",
     "store_id": "495a7bac39"
+  },
+  {
+    "id": "68d7815b4f56",
+    "date": "2026-11-17",
+    "time": "15:27",
+    "store": "メガフェイス1120豊崎本館＆豊崎Ⅱ",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "472",
+    "text": "📯コンプリート速報📯 豊崎Ⅱ　472番台 牙狼12黄金騎士極限　コンプリーーーート!!!!!!! おめでとうございます🎉 別の牙狼もコンプしそうな台が 皆様黄金騎士になるために豊崎へ!!!!!!! お待ちしております🐯",
+    "x_url": "https://x.com/megaface_1120/status/2122577303456956726",
+    "store_handle": "megaface_1120",
+    "store_x_url": "https://x.com/megaface_1120",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-22T22:57:07Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXTovC6asAAfLA2?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXToxABbYAALqAA?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXTovC6asAAfLA2?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "036ad33f3f"
   }
 ]
