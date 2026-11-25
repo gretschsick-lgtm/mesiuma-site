@@ -204,6 +204,27 @@
     "store_id": "ef707cf8fe"
   },
   {
+    "id": "50276f6bb3b3",
+    "date": "2026-11-20",
+    "time": "17:37",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "740",
+    "text": "🔱キクヤ堺本店1515🔱  👑⚡コンプリートのご報告⚡👑  💎740番台 【革命機ヴァルヴレイヴ2】  コンプリート機能が発動致しました！！  ご遊技されていたお客様おめでとうございます‼ 🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊",
+    "x_url": "https://x.com/ksakaihonten/status/2123697326267273560",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-25T16:29:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXjjWGDacAAE-D3?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXjjWGDacAAE-D3?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
+  },
+  {
     "id": "3cedee1bf87b",
     "date": "2026-11-20",
     "time": "17:21",
@@ -271,6 +292,28 @@
     "image_url": "https://pbs.twimg.com/media/HXjRIknbMAA8APp?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "d5b3c5b5d8"
+  },
+  {
+    "id": "6a8d7708f9a9",
+    "date": "2026-11-20",
+    "time": "15:50",
+    "store": "BOOM天神本店",
+    "machine": "e東京喰種",
+    "machine_type": "pachinko",
+    "slot_number": "97",
+    "text": "🎉コンプリート機能発動🎉  97番台　e東京喰種  約3時間ほど当たり続けたようです・・ おめでとうございます！🥰",
+    "x_url": "https://x.com/boomtenjin3838/status/2123670374227558403",
+    "store_handle": "boomtenjin3838",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-25T16:29:05Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXjKzdqbwAE6DdH?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXjKzdqbwAE6DdH?format=jpg&name=large",
+    "machine_id": "b82cd024-1b5f-43cb-b717-b51184135f21",
+    "store_id": "bc3e125233"
   },
   {
     "id": "a3e826276e23",
