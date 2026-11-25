@@ -41,5 +41,27 @@
     "image_url": "https://pbs.twimg.com/media/HX4-cwca4AApw7v?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "3a6334a19a"
+  },
+  {
+    "id": "49d407588996",
+    "date": "2026-11-24",
+    "time": "18:33",
+    "store": "SuperD'station39福重店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "127",
+    "text": "😊こんばんは😊 スーパーD'ステーション福重店です。  4円パチンコ 127番台　#e牙狼12　から #コンプリート　達成です✨  おめでとうございます🎉🎉🎉",
+    "x_url": "https://x.com/sd_fukushige/status/2125160938403975297",
+    "store_handle": "sd_fukushige",
+    "store_x_url": "https://x.com/sd_fukushige",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-24T23:38:19Z",
+    "images": [
+      "https://pbs.twimg.com/media/HX4WBEDawAAM-8R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HX4WBEDawAAM-8R?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "ad0ceba11b"
   }
 ]
