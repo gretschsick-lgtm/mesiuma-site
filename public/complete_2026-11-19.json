@@ -1,5 +1,53 @@
 [
   {
+    "id": "a64bc4800029",
+    "date": "2026-11-19",
+    "time": "23:01",
+    "store": "メガフェイス960飯塚",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "480",
+    "text": "🏆本日のMVP🏆  スロット🥇480番台 ⚡️ L革命機ヴァルヴレイヴ2 19,007Pt.✨  スロット🥇640番台 ⚡️ Lチバリヨ2 19,005Pt.✨  スロット🥇492番台 ⚡️ L革命機ヴァルヴレイヴ 19,013Pt.✨  パチンコ🥇174番台 ⚡️ e獣王 63,850Pt.✨  今日はスロットから🎉コンプリート🎉が なんと3台も達成しました‼️",
+    "x_url": "https://x.com/megaface_960/status/2123416417831878823",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-25T09:46:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXfj7MnagAA7wQH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXfj7MbaIAAnNlt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXfj7MXbAAABVcs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXfj7MnagAA7wQH?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "4130ca6374"
+  },
+  {
+    "id": "c2eda57de0df",
+    "date": "2026-11-19",
+    "time": "23:01",
+    "store": "メガフェイス960飯塚",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🏆本日のMVP🏆  スロット🥇480番台 ⚡️ L革命機ヴァルヴレイヴ2 19,007Pt.✨  スロット🥇640番台 ⚡️ Lチバリヨ2 19,005Pt.✨  スロット🥇492番台 ⚡️ L革命機ヴァルヴレイヴ 19,013Pt.✨  パチンコ🥇174番台 ⚡️ e獣王 63,850Pt.✨  今日はスロットから🎉コンプリート🎉が なんと3台も達成しました‼️",
+    "x_url": "https://x.com/megaface_960/status/2123416417831878823",
+    "store_handle": "megaface_960",
+    "store_x_url": "https://x.com/megaface_960",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-25T09:46:56Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXfj7MnagAA7wQH?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXfj7MbaIAAnNlt?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXfj7MXbAAABVcs?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXfj7MnagAA7wQH?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "4130ca6374"
+  },
+  {
     "id": "6977c282bf9b",
     "date": "2026-11-19",
     "time": "22:57",
@@ -240,5 +288,26 @@
     "image_url": "https://pbs.twimg.com/media/HXdqmW3bYAA_XB9?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "cb0be1f296"
+  },
+  {
+    "id": "10447ad61125",
+    "date": "2026-11-19",
+    "time": "13:58",
+    "store": "キコーナ堺本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "790",
+    "text": "🔱キクヤ堺本店1515🔱 👑⚡コンプリートのご報告⚡👑 💎790番台 【L革命機ヴァルヴレイヴ2】 コンプリート機能が発動致しました！！ ご遊技されていたお客様おめでとうございます‼ 🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊",
+    "x_url": "https://x.com/ksakaihonten/status/2123279605553635754",
+    "store_handle": "ksakaihonten",
+    "store_x_url": "https://x.com/ksakaihonten",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-25T10:04:58Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXdnaKla0AA4PjG?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXdnaKla0AA4PjG?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002"
   }
 ]
