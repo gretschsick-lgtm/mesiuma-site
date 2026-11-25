@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-25T09:15:42+09:00",
+  "generated_at": "2026-11-25T10:52:24+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 498,
+      "total_count": 500,
       "stores": [
         {
           "rank": 1,
@@ -127,7 +127,7 @@
         {
           "rank": 2,
           "name": "e牙狼12",
-          "count": 39
+          "count": 41
         },
         {
           "rank": 3,
@@ -1341,7 +1341,7 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 374
+        "count": 376
       },
       {
         "rank": 3,
@@ -1384,7 +1384,7 @@
         "count": 22
       }
     ],
-    "total_count": 5522
+    "total_count": 5524
   },
   "store_complete_counts": {
     "ARROW浪速店": 115,
@@ -1415,12 +1415,12 @@
     "ダイナム長野上田店": 40,
     "パラッツォ鳩ヶ谷店": 38,
     "プレイランドキャッスル高浜店": 34,
-    "マルハンメガシティ柏": 32,
+    "マルハンメガシティ柏": 33,
     "パチンコの玉屋∞本店": 32,
     "グランキコーナひたちなか店": 30,
+    "SUPER CONCORDE": 29,
     "新ガーデン西浦和": 29,
     "キャッスル天白店": 28,
-    "SUPER CONCORDE": 28,
     "キコーナ鶴見": 28,
     "ピーアーク北綾瀬駅前": 28,
     "ビックマーチ水戸本店": 27,
@@ -2290,7 +2290,7 @@
     "スロットキコーナ三宮店 中の人": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4774,
+    "records_with_store_id": 4776,
     "records_without_store_id": 748,
     "canonical_store_ids": 672
   }
