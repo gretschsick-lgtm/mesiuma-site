@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-27T01:43:22+09:00",
+  "generated_at": "2026-11-27T07:41:56+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 561,
+      "total_count": 562,
       "stores": [
         {
           "rank": 1,
@@ -1384,7 +1384,7 @@
         "count": 23
       }
     ],
-    "total_count": 5585
+    "total_count": 5586
   },
   "store_complete_counts": {
     "ダイナム岐阜関緑町店~Since2023.12.28~": 117,
@@ -1740,6 +1740,7 @@
     "ミリオンゴット": 3,
     "J・PARK安謝店": 3,
     "ダイナム栃木黒磯店": 3,
+    "キコーナ豊中走井": 3,
     "SuperD'station前橋大利根店": 3,
     "ニラク北本深井店": 3,
     "みやき店": 3,
@@ -1815,7 +1816,6 @@
     "ダムズ小出店": 2,
     "ダイナム砂町銀座店": 2,
     "ダイナム和歌山御坊店": 2,
-    "キコーナ豊中走井": 2,
     "ヤング舞鶴店": 2,
     "つかさ築地店": 2,
     "ダイナム茨城下妻店": 2,
@@ -2296,7 +2296,7 @@
     "コルド1155日進長久手店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4822,
+    "records_with_store_id": 4823,
     "records_without_store_id": 763,
     "canonical_store_ids": 673
   }
