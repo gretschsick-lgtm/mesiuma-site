@@ -337,5 +337,28 @@
     "image_url": "https://pbs.twimg.com/media/HXikgxZbIAAqoD4?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "94cb46d6fb"
+  },
+  {
+    "id": "f8738406c65d",
+    "date": "2026-11-20",
+    "time": "12:00",
+    "store": "パチンコタイガー松森店",
+    "machine": "スマスロ北斗の拳転生の章2",
+    "machine_type": "slot",
+    "slot_number": "653",
+    "text": "🐯タイガー松森店から11/19のコンプリート報告～📷  ☆☆☆スマスロ 北斗の拳 転生の章2 ☆ 653番台 ☆☆☆   おめでとうございます～ゴイゴイスー！！  #北斗の拳転生 #コンプリート",
+    "x_url": "https://x.com/matsumori_tiger/status/2123612308333379797",
+    "store_handle": "matsumori_tiger",
+    "store_x_url": "https://x.com/matsumori_tiger",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-26T00:50:36Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXiLt8qaMAAkiba?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXiLZbGbwAEcNwV?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXiLt8qaMAAkiba?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000001",
+    "store_id": "235f0b9852"
   }
 ]

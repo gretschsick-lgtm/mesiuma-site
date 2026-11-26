@@ -66,6 +66,28 @@
     "store_id": "d2b37d41c5"
   },
   {
+    "id": "c91a67983684",
+    "date": "2026-11-23",
+    "time": "21:29",
+    "store": "ジアス南大沢",
+    "machine": "eリコリス・リコイル",
+    "machine_type": "pachinko",
+    "slot_number": "440",
+    "text": "440番台 ✨eリコリス・リコイル✨ 🎉コンプリート達成🎉 おめでとうございます😆 #ジアス南大沢 #コンプリート",
+    "x_url": "https://x.com/ZIATH_m/status/2124842771945304138",
+    "store_handle": "ziath_m",
+    "store_x_url": "https://x.com/ZIATH_m",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-26T00:38:59Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXz1GzFbUAAFERE?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXz1GzFbUAAFERE?format=jpg&name=large",
+    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
+    "store_id": "7ce79e031d"
+  },
+  {
     "id": "1cafbd647a63",
     "date": "2026-11-23",
     "time": "21:01",
