@@ -66,26 +66,27 @@
     "store_id": "d2b37d41c5"
   },
   {
-    "id": "c91a67983684",
+    "id": "d9222c0aae72",
     "date": "2026-11-23",
-    "time": "21:29",
-    "store": "ジアス南大沢",
-    "machine": "eリコリス・リコイル",
+    "time": "21:42",
+    "store": "マルハン松本店",
+    "machine": "e牙狼12黄金騎士極限",
     "machine_type": "pachinko",
-    "slot_number": "440",
-    "text": "440番台 ✨eリコリス・リコイル✨ 🎉コンプリート達成🎉 おめでとうございます😆 #ジアス南大沢 #コンプリート",
-    "x_url": "https://x.com/ZIATH_m/status/2124842771945304138",
-    "store_handle": "ziath_m",
-    "store_x_url": "https://x.com/ZIATH_m",
+    "slot_number": "87",
+    "text": "速報です。  本日e牙狼12XX-MJ   87番台 #コンプリート おめでとうございます。",
+    "x_url": "https://x.com/MTMmaruhan/status/2124846008786124972",
+    "store_handle": "mtmmaruhan",
+    "store_x_url": "https://x.com/mtmmaruhan",
     "manager_x_url": "",
     "source_account_type": "store_official",
-    "collected_at": "2026-11-26T00:38:59Z",
+    "collected_at": "2026-11-26T01:24:19Z",
     "images": [
-      "https://pbs.twimg.com/media/HXz1GzFbUAAFERE?format=jpg&name=large"
+      "https://pbs.twimg.com/media/HWxjyhRb0AAGQOC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HWxj10tbcAAU4hV?format=jpg&name=large"
     ],
-    "image_url": "https://pbs.twimg.com/media/HXz1GzFbUAAFERE?format=jpg&name=large",
-    "machine_id": "9ac47d6a-d02f-48fc-82d0-993a00c03f35",
-    "store_id": "7ce79e031d"
+    "image_url": "https://pbs.twimg.com/media/HWxjyhRb0AAGQOC?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028",
+    "store_id": "5b20cfecf8"
   },
   {
     "id": "1cafbd647a63",
@@ -286,6 +287,28 @@
     "image_url": "https://pbs.twimg.com/media/HXytyThbkAADwRw?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000029",
     "store_id": "0ef83addce"
+  },
+  {
+    "id": "01edececa103",
+    "date": "2026-11-23",
+    "time": "14:11",
+    "store": "プレイランドキャッスル熱田店",
+    "machine": "L真打吉宗",
+    "machine_type": "slot",
+    "slot_number": "3157",
+    "text": "3157番台   真打吉宗   コンプリート機能が発動しましたので       遊技台停止となります。       明日の開放をお待ちくださいませ。",
+    "x_url": "https://x.com/castleatsuta/status/2124732563768115485",
+    "store_handle": "castleatsuta",
+    "store_x_url": "https://x.com/castleatsuta",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-26T01:22:32Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXyQtMfaEAAxd1C?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXyQtMfaEAAxd1C?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000010",
+    "store_id": "cb0be1f296"
   },
   {
     "id": "11ce0a98d3a7",
