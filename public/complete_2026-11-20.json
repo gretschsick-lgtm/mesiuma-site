@@ -89,6 +89,27 @@
     "store_id": "d88ff27c89"
   },
   {
+    "id": "867a5cdf05ac",
+    "date": "2026-11-20",
+    "time": "21:17",
+    "store": "ガス北山形店",
+    "machine": "L東京喰種",
+    "machine_type": "slot",
+    "slot_number": "841",
+    "text": "🎉㊗️コンプリート達成㊗️🎉  🔥11月20日（金）25周年当日🔥  ベガスベガス北山形店  【841番台】 L東京喰種がコンプリート達成‼️  25周年という特別な日に、 嬉しい瞬間が生まれました👏👶  これからも、もっと期待されるお店へ。  #ベガスベガス北山形店 #東京喰種 #25周年",
+    "x_url": "https://x.com/kitayamavegas/status/2123752713637003408",
+    "store_handle": "kitayamavegas",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-26T16:35:18Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXkV0dbaMAAj92R?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXkV0dbaMAAj92R?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000006"
+  },
+  {
     "id": "a3892a43ef8f",
     "date": "2026-11-20",
     "time": "21:16",
@@ -180,6 +201,27 @@
     "image_url": "https://pbs.twimg.com/media/HXkCROra8AAMQAj?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "c8ce6d1db9"
+  },
+  {
+    "id": "8da4b54e14cc",
+    "date": "2026-11-20",
+    "time": "19:19",
+    "store": "スーパーコスモプレミアム香芝店",
+    "machine": "e牙狼12黄金騎士極限",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "【速報】黄金騎士、極限突破！  『e牙狼12黄金騎士極限』 本日コンプリート達成！ おめでとうございます🎉 大当り77回...  #e牙狼12黄金騎士極限 #パチンコ#コンプリート",
+    "x_url": "https://x.com/cosmo_kashiba/status/2123722971877613960",
+    "store_handle": "cosmo_kashiba",
+    "store_x_url": "https://x.com/cosmo_kashiba",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-26T16:35:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXj6C3rbEAAGp9h?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXj6C3rbEAAGp9h?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000028"
   },
   {
     "id": "608ce25c33ac",
@@ -290,6 +332,27 @@
     "image_url": "https://pbs.twimg.com/media/HXjde7AbwAAtV7V?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000008",
     "store_id": "1f0627c183"
+  },
+  {
+    "id": "580a89a64b51",
+    "date": "2026-11-20",
+    "time": "17:10",
+    "store": "祇園店",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "",
+    "text": "こんばんは♪  先程 #e牙狼12 にて コンプリート達成🎉  おめでとうございます🎊  この後もまだまだ元気に営業中💪  皆様のご来店お待ちしております☺️  #コンプリート #テキサス祇園店",
+    "x_url": "https://x.com/texasgion1755/status/2123690352087552233",
+    "store_handle": "texasgion1755",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-26T16:35:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXjdHbJb0AAgZQz?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXjdHbJb0AAgZQz?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029"
   },
   {
     "id": "561c7ab891b8",
