@@ -66,6 +66,29 @@
     "store_id": "0a3af93e9e"
   },
   {
+    "id": "ff6eda8cc167",
+    "date": "2026-11-24",
+    "time": "21:24",
+    "store": "MEGA Beam 朝倉999",
+    "machine": "Re:ゼロから始める異世界生活",
+    "machine_type": "slot",
+    "slot_number": "766",
+    "text": "本日11月24日 ~5SLリゼロ766番台~ 🌈コンプリート🌈  🎉おめでとうございます🎉 (´・ω・)ｵﾒｵﾒ㊗️",
+    "x_url": "https://x.com/BEAMasakura999/status/2125203857819234461",
+    "store_handle": "beamasakura999",
+    "store_x_url": "https://x.com/BEAMasakura999",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-27T00:43:37Z",
+    "images": [
+      "https://pbs.twimg.com/media/HX49E6sa4AAWEiD?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXTlT2hbAAAMLML?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HX49E6sa4AAWEiD?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000019",
+    "store_id": "727de47f33"
+  },
+  {
     "id": "ee4847a631c4",
     "date": "2026-11-24",
     "time": "20:00",
