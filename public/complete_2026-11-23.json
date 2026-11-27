@@ -222,6 +222,29 @@
     "store_id": "bf3a640ef7"
   },
   {
+    "id": "b5a86d779ef0",
+    "date": "2026-11-23",
+    "time": "18:24",
+    "store": "SUPER CONCORDE",
+    "machine": "e牙狼12",
+    "machine_type": "pachinko",
+    "slot_number": "710",
+    "text": "コンプリート報告🎉  先程、e牙狼12　710番台にて コンプリート機能が作動いたしました🎉  ご遊技されていた『TAMA』様 おめでとうございます🎉 コメント：『楽しかったです！！』  3連休最終日のご来店ありがとうございました‼️  このあともスパコンでお楽しみくださいませ♪",
+    "x_url": "https://x.com/SUPER_CONCORDE/status/2124796115082178878",
+    "store_handle": "super_concorde",
+    "store_x_url": "https://x.com/super_concorde",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-27T22:52:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXzKyuqbEAA3lXj?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXtSTjpakAEJJu8?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXzKyuqbEAA3lXj?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000029",
+    "store_id": "94cb46d6fb"
+  },
+  {
     "id": "6dba67c7ea0a",
     "date": "2026-11-23",
     "time": "18:10",
@@ -264,6 +287,29 @@
     "image_url": "https://pbs.twimg.com/media/HXzGlVgb0AEcE55?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "1da438c5d6"
+  },
+  {
+    "id": "dbdaa2afc4f2",
+    "date": "2026-11-23",
+    "time": "18:07",
+    "store": "スロットテキサス段原店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは♪  ★速報です☆ さきほどコンプリート達成‼  今回の機種はこちら 　　↓　　　↓ #L革命機ヴァルヴレイヴ２ おめでとうございます㊗  本日もこの後２２時４５分頃まで営業中です🎶 また、明日も全館９時開店‼️  皆様のご来店心よりお待ちしております🥰 #コンプリート報告",
+    "x_url": "https://x.com/SloTexasDanbara/status/2124792017461121062",
+    "store_handle": "slotexasdanbara",
+    "store_x_url": "https://x.com/slotexasdanbara",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-27T22:52:27Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXzGxgmbYAAhp0O?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXzG6AJasAAEM-5?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXzGxgmbYAAhp0O?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "3e03550cdd"
   },
   {
     "id": "9bb04df3221a",
