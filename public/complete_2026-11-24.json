@@ -89,6 +89,50 @@
     "store_id": "f7226197d2"
   },
   {
+    "id": "0bca9655c1ba",
+    "date": "2026-11-24",
+    "time": "19:54",
+    "store": "ガイアネクスト花見川",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "407",
+    "text": "ガイアネクスト花見川です‼️  🎉🎉コンプリート報告🎉🎉 　🌺407番台 Lチバリヨ2🌺 🎊🎊コンプリート達成🎊🎊  一撃でコンプリート…さすがです‼️ ご遊技頂いたお客様、おめでとうございます🥳  #チバラキガイアコンプ",
+    "x_url": "https://x.com/GN_hanamigawa/status/2125181240013963390",
+    "store_handle": "gn_hanamigawa",
+    "store_x_url": "https://x.com/gn_hanamigawa",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-27T09:57:41Z",
+    "images": [
+      "https://pbs.twimg.com/media/HX4pB29bwAArVu4?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HX4pB29bwAArVu4?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912",
+    "store_id": "6e20d5708a"
+  },
+  {
+    "id": "4a31fecb1813",
+    "date": "2026-11-24",
+    "time": "19:53",
+    "store": "コンコルド浜松雄踏店",
+    "machine": "スロット ソードアート・オンラインⅡ",
+    "machine_type": "slot",
+    "slot_number": "2355",
+    "text": "🎊初コンプリート🎊 【2355番台 Lソードアート・オンラインⅡ】 コンプリート機能が発動しました   粘りに粘ってのコンプリート‼️ おめでとうございます🎉",
+    "x_url": "https://x.com/Concorde_yuto/status/2125180954998419906",
+    "store_handle": "concorde_yuto",
+    "store_x_url": "https://x.com/Concorde_yuto",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-27T09:57:41Z",
+    "images": [
+      "https://pbs.twimg.com/amplify_video_thumb/2125179213045264384/img/BaMfLusCEW3MS5F4.jpg?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/amplify_video_thumb/2125179213045264384/img/BaMfLusCEW3MS5F4.jpg?format=jpg&name=large",
+    "machine_id": "7f31c780-0a35-4301-ba71-a8d829fa79aa",
+    "store_id": "267e7f06ef"
+  },
+  {
     "id": "49d407588996",
     "date": "2026-11-24",
     "time": "18:33",
@@ -153,6 +197,28 @@
     "image_url": "https://pbs.twimg.com/media/HX4S76ZbcAE4x0I?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "18425371bb"
+  },
+  {
+    "id": "eac4047a8abd",
+    "date": "2026-11-24",
+    "time": "17:53",
+    "store": "SLOT・CLUB　YUMEYA盛岡∞店",
+    "machine": "いざ！番長",
+    "machine_type": "slot",
+    "slot_number": "263",
+    "text": "11月24日(火)        263番台　いざ！番長    　🎉🎉コンプリート達成🎉 🎉  ✨✨おめでとうございます✨✨  YUMEYA盛岡∞店～Anniversary2026.8.8～ 夢コーポレーション㈱～創業日1970.12.14～",
+    "x_url": "https://x.com/yumeya_888/status/2125150912834601380",
+    "store_handle": "yumeya_888",
+    "store_x_url": "",
+    "manager_x_url": "",
+    "source_account_type": "unknown",
+    "collected_at": "2026-11-27T09:56:46Z",
+    "images": [
+      "https://pbs.twimg.com/media/HX4MfVYaQAAWEFC?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HX4MhtCakAAjpG9?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HX4MfVYaQAAWEFC?format=jpg&name=large",
+    "machine_id": "4f1e0833-9c1c-4b53-918b-90d3f3a5d0ed"
   },
   {
     "id": "b8e0494273d9",

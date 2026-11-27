@@ -1,5 +1,29 @@
 [
   {
+    "id": "75d1cbfed527",
+    "date": "2026-11-21",
+    "time": "23:55",
+    "store": "クラブハウス本店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "🎊1⃣1⃣月2⃣1⃣日の結果発表🎊  🎰～スロット～🎰  🥇867番台🥇 L革命機ヴァルヴレイヴ2／19,008Pt🌈 🥈774番台🥈 L東京喰種CT／11,464Pt🌈 🥉875番台🥉 Lソードアート・オンラインII／11,062Pt🌈  ヴァルヴレイヴ2✨コンプリート達成🤣🤣 おめでとうございます‼️‼️‼️  #コンプリート　#ヴァルヴレイヴ２",
+    "x_url": "https://x.com/club_honten99/status/2124154738518417511",
+    "store_handle": "club_honten99",
+    "store_x_url": "https://x.com/club_honten99",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-27T09:41:16Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXqDd_vbAAA-vik?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXqDcHMbMAAGcxn?format=jpg&name=large",
+      "https://pbs.twimg.com/media/HXqDdrea4AE82Rx?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXqDd_vbAAA-vik?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "118fb35bd3"
+  },
+  {
     "id": "6e1e19f61afb",
     "date": "2026-11-21",
     "time": "23:15",
@@ -297,6 +321,27 @@
     "image_url": "https://pbs.twimg.com/media/HXpVk3kaQAEy6wu?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000028",
     "store_id": "b42f5fe289"
+  },
+  {
+    "id": "2766f0737ab7",
+    "date": "2026-11-21",
+    "time": "20:29",
+    "store": "マルハン草薙アピア店 店長ひろゆき",
+    "machine": "チバリヨ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "こんばんは‼️ コンプリート速報です🐱  ただいま Ｌチバリヨ２ コンプリート達成‼️‼️  おめでとうございます🎉✨✨",
+    "x_url": "https://x.com/tenchouhiroyuki/status/2124102954802373114",
+    "store_handle": "tenchouhiroyuki",
+    "store_x_url": "",
+    "manager_x_url": "https://x.com/tenchouhiroyuki",
+    "source_account_type": "store_manager",
+    "collected_at": "2026-11-27T09:56:02Z",
+    "images": [
+      "https://pbs.twimg.com/media/HXpUXyfbUAAf04K?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HXpUXyfbUAAf04K?format=jpg&name=large",
+    "machine_id": "ff193d7c-5528-42f1-a2dc-8c18400b4912"
   },
   {
     "id": "75509a4d5a68",
