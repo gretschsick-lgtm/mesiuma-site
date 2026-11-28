@@ -46,6 +46,27 @@
     "store_id": "f6a0acc322"
   },
   {
+    "id": "f9dfc8bebbd3",
+    "date": "2026-11-25",
+    "time": "20:43",
+    "store": "船橋店",
+    "machine": "L鉄拳6",
+    "machine_type": "slot",
+    "slot_number": "1022",
+    "text": "#ガイア西船橋コンプリート #コンプ  【速報】 「#西船橋駅」から徒歩8分🚶 🔥ガイア西船橋店です🔥  ㊗️本日は　L鉄拳6　1022番台㊗️  ㊗️#コンプリート達成㊗️👏👏👏 ご遊技いただき感謝😉  今月4⃣台目のコンプ達成‼️ 珍しく私のお休みの日達成ですね😅 おめでとうございます🎉  夜はまだまだこれから🌃",
+    "x_url": "https://x.com/Gnishifunabashi/status/2125555983842001361",
+    "store_handle": "gnishifunabashi",
+    "store_x_url": "https://x.com/gnishifunabashi",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-28T02:24:22Z",
+    "images": [
+      "https://pbs.twimg.com/media/HX99nMGa4AAkWAU?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HX99nMGa4AAkWAU?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000022"
+  },
+  {
     "id": "faeb176a5b56",
     "date": "2026-11-25",
     "time": "19:21",
@@ -67,6 +88,28 @@
     "image_url": "https://pbs.twimg.com/media/HX9pyEhaYAApyck?format=jpg&name=large",
     "machine_id": "11111111-1111-1111-1111-000000000002",
     "store_id": "de68290eab"
+  },
+  {
+    "id": "32963d0d8aef",
+    "date": "2026-11-25",
+    "time": "18:58",
+    "store": "ビックマーチひたちなか店",
+    "machine": "L革命機ヴァルヴレイヴ2",
+    "machine_type": "slot",
+    "slot_number": "",
+    "text": "コンプリート達成🎉🎉 ㊗️㊗️スマスロヴァルヴレイヴ2  #ビックマーチ #ビックマーチひたちなか店 #コンプリート",
+    "x_url": "https://x.com/FuwaFuwa_bm/status/2125529595659407868",
+    "store_handle": "fuwafuwa_bm",
+    "store_x_url": "https://x.com/fuwafuwa_bm",
+    "manager_x_url": "",
+    "source_account_type": "store_official",
+    "collected_at": "2026-11-28T02:23:25Z",
+    "images": [
+      "https://pbs.twimg.com/media/HX9l5tBacAAQeef?format=jpg&name=large"
+    ],
+    "image_url": "https://pbs.twimg.com/media/HX9l5tBacAAQeef?format=jpg&name=large",
+    "machine_id": "11111111-1111-1111-1111-000000000002",
+    "store_id": "ad7b9c09cc"
   },
   {
     "id": "fdf216dc4624",
