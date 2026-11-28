@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-28T14:14:53+09:00",
+  "generated_at": "2026-11-28T18:20:50+09:00",
   "monthly": [
     {
       "month": "2026-11",
       "label": "2026年11月",
-      "total_count": 596,
+      "total_count": 600,
       "stores": [
         {
           "rank": 1,
@@ -32,7 +32,7 @@
         {
           "rank": 5,
           "name": "キング観光サウザンド栄若宮大通店",
-          "count": 12,
+          "count": 13,
           "x_url": "https://x.com/wakakin_tsujic"
         },
         {
@@ -43,34 +43,34 @@
         },
         {
           "rank": 7,
+          "name": "楽園池袋店ゲートウェイ",
+          "count": 12,
+          "x_url": "https://x.com/rakuenikebukuro"
+        },
+        {
+          "rank": 8,
           "name": "マルハンメガシティ三島駿東",
           "count": 12,
           "x_url": "https://x.com/mega_mishima"
         },
         {
-          "rank": 8,
+          "rank": 9,
           "name": "SPACE(スペース444＆666)",
           "count": 10,
           "x_url": "https://x.com/space666tobata"
         },
         {
-          "rank": 9,
-          "name": "楽園池袋店ゲートウェイ",
-          "count": 10,
-          "x_url": "https://x.com/rakuenikebukuro"
-        },
-        {
           "rank": 10,
-          "name": "ZENT名古屋北店",
+          "name": "マルハン川越店",
           "count": 9,
-          "x_url": "https://x.com/ZENTnagoyakita"
+          "x_url": "https://x.com/smaru_kawagoe"
         }
       ],
       "slot_machines": [
         {
           "rank": 1,
           "name": "L革命機ヴァルヴレイヴ2",
-          "count": 134
+          "count": 135
         },
         {
           "rank": 2,
@@ -100,7 +100,7 @@
         {
           "rank": 7,
           "name": "Lミリオンゴッド神々の軌跡",
-          "count": 13
+          "count": 14
         },
         {
           "rank": 8,
@@ -127,12 +127,12 @@
         {
           "rank": 2,
           "name": "e牙狼12",
-          "count": 46
+          "count": 47
         },
         {
           "rank": 3,
           "name": "e東京喰種",
-          "count": 37
+          "count": 38
         },
         {
           "rank": 4,
@@ -1240,13 +1240,13 @@
       {
         "rank": 4,
         "name": "キング観光サウザンド栄若宮大通店",
-        "count": 86,
+        "count": 87,
         "x_url": "https://x.com/wakakin_tsujic"
       },
       {
         "rank": 5,
         "name": "楽園池袋店ゲートウェイ",
-        "count": 84,
+        "count": 86,
         "x_url": "https://x.com/rakuenikebukuro"
       },
       {
@@ -1284,7 +1284,7 @@
       {
         "rank": 1,
         "name": "L革命機ヴァルヴレイヴ2",
-        "count": 984
+        "count": 985
       },
       {
         "rank": 2,
@@ -1299,7 +1299,7 @@
       {
         "rank": 4,
         "name": "Lミリオンゴッド神々の軌跡",
-        "count": 154
+        "count": 155
       },
       {
         "rank": 5,
@@ -1341,12 +1341,12 @@
       {
         "rank": 2,
         "name": "e牙狼12",
-        "count": 381
+        "count": 382
       },
       {
         "rank": 3,
         "name": "e東京喰種",
-        "count": 284
+        "count": 285
       },
       {
         "rank": 4,
@@ -1384,14 +1384,14 @@
         "count": 23
       }
     ],
-    "total_count": 5620
+    "total_count": 5624
   },
   "store_complete_counts": {
     "ARROW浪速店": 117,
     "ダイナム岐阜関緑町店~Since2023.12.28~": 117,
     "プレイランドキャッスル春日井店": 89,
-    "キング観光サウザンド栄若宮大通店": 86,
-    "楽園池袋店ゲートウェイ": 84,
+    "キング観光サウザンド栄若宮大通店": 87,
+    "楽園池袋店ゲートウェイ": 86,
     "メガフェイス1450本山": 81,
     "キコーナ堺本店": 79,
     "メガフェイス1070菊陽": 78,
@@ -1406,7 +1406,7 @@
     "FACE1300小倉南店": 49,
     "メガフェイス1120豊崎本館＆豊崎Ⅱ": 48,
     "マルハンメガシティ水戸赤塚": 48,
-    "マルハン川越店": 45,
+    "マルハン川越店": 46,
     "サガちゃんPARK": 44,
     "ビックマーチ東習志野店": 43,
     "メガフェイス960飯塚": 42,
@@ -2300,7 +2300,7 @@
     "ダイナム兵庫篠山店": 1
   },
   "store_id_coverage": {
-    "records_with_store_id": 4850,
+    "records_with_store_id": 4854,
     "records_without_store_id": 770,
     "canonical_store_ids": 676
   }
